@@ -51,9 +51,12 @@ The workflow ensures that your **source** data remains the "Single Source of Tru
 - **`_Full.txt`**: Contains every entry from every thematic file. Useful if you want to study words in the context of their specific themes.
 - **`_Clean.txt`**: Removes duplicate words across different themes. Best for long-term vocabulary building.
 - **`_Minimal.txt`**: Formats entries for Quizlet as `Term <Tab> Definition / Translation` without example sentences.
-| Suffix | Description | Use Case |
-|---|---|---|
-| **`_Minimal_Clean.txt`** | Unique entries, word & translation only, no examples | Faster review of core terms
+| Suffix | Logic | Contents | Best for |
+|---|---|---|---|
+| **`_Full.txt`** | All source entries | DE; EN; UA; Example | Thematic learning |
+| **`_Clean.txt`** | All unique entries | DE; EN; UA; Example | Efficient long-term review |
+| **`_Minimal.txt`** | All source entries | DE; EN / UA (No examples) | Quizlet quick review |
+| **`_Minimal_Clean.txt`** | Unique entries | DE; EN / UA (No examples) | Clean Quizlet review |
 
 ## 🌐 Interactive Vocabulary Website
 
