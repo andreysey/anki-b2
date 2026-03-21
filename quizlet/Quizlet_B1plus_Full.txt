@@ -1,0 +1,498 @@
+die Abteilung, -en	department / відділ | In dieser Firma gibt es eine große IT-Abteilung.
+der Arbeitgeber, -	employer / роботодавець | Mein neuer Arbeitgeber ist sehr freundlich.
+die Arbeitgeberin, -nen	female employer / роботодавиця | Die Arbeitgeberin hat mir einen Vertrag angeboten.
+das Asylverfahren, -	asylum procedure / процедура надання притулку | Das Asylverfahren kann mehrere Monate dauern.
+die Ausbildung, -en	apprenticeship, vocational training / професійне навчання | Ich mache eine Ausbildung zum Mechatroniker.
+auf|fallen (fällt auf, fiel auf, ist aufgefallen)	to stand out, to be noticeable / впадати в око | Ihm ist sofort aufgefallen, dass etwas nicht stimmt.
+(eine Prüfung) bestehen	to pass (an exam) / скласти (іспит) | Ich habe die B2-Prüfung bestanden.
+das Berufsinformationszentrum (BIZ)	career information center / центр профорієнтації | Im BIZ kann man sich über verschiedene Berufe informieren.
+der Betrieb, -e	company, business / підприємство | Der Betrieb stellt kleine Elektronikteile her.
+sich bewerben (bewirbt sich, bewarb sich, hat sich beworben)	to apply / подавати заявку (на роботу) | Ich bewerbe mich um eine Stelle als Informatiker.
+jdn. ein|stellen	to hire someone / наймати когось | Die Firma möchte zwei neue Mitarbeiter einstellen.
+das E-Learning (Sg.)	e-learning / електронне навчання | Wir nutzen E-Learning für unsere Weiterbildung.
+der E-Learning-Kurs, -e	e-learning course / курс дистанційного навчання | Ich habe mich für einen E-Learning-Kurs angemeldet.
+der Facharbeiter, -	skilled worker / кваліфікований робітник | Er arbeitet seit fünf Jahren als Facharbeiter.
+die Facharbeiterin, -nen	female skilled worker / кваліфікована робітниця | Die Facharbeiterin repariert die Maschine.
+der Gabelstapler, -	forklift / навантажувач | Der Gabelstapler hebt die schweren Paletten.
+die Geschäftsführung, -en	management / керівництво | Die Geschäftsführung hat neue Ziele für das Jahr gesetzt.
+sich informieren über (+ Akk.)	to inform oneself / інформуватися | Ich informiere mich über die neuesten Technologien.
+das Lager, -	warehouse, storage / склад | Die Pakete werden im Lager aufbewahrt.
+die Lagerlogistik (Sg.)	warehouse logistics / складська логістика | Sie studiert Lagerlogistik an der Fachhochschule.
+der Mitarbeiter, -	employee / співробітник | Der Mitarbeiter hilft dem Kunden.
+die Mitarbeiterin, -nen	female employee / співробітниця | Die Mitarbeiterin schreibt eine E-Mail.
+jdm. etw. raten	to advise someone / радити комусь щось | Der Lehrer rat mir, fleißig zu lernen.
+der Schulabschluss, "-e	school-leaving certificate / шкільний атестат | Nach der zehnten Klasse machte er seinen Schulabschluss.
+steigen (stieg, ist gestiegen)	to rise, to climb / підніматися, зростати | Die Zahl der Fachkräfte ist in diesem Jahr gestiegen.
+teil|nehmen an (+ Dat.)	to participate in / брати участь | Ich nehme an einem Deutschkurs teil.
+der Umsatz, "-e	revenue, turnover / оборот, виручка | Der Umsatz der Firma ist gestiegen.
+die Umschulung, -en	retraining / перекваліфікація | Nach dem Unfall macht er eine Umschulung zum Informatiker.
+wahrscheinlich	probably / ймовірно | Er wird wahrscheinlich erst morgen kommen.
+die Weiterbildung, -en	further education / підвищення кваліфікації | Weiterbildung ist in der IT sehr wichtig.
+der Antrag, "-e	application, request / заява | Ich habe einen Antrag auf Arbeitserlaubnis gestellt.
+einen Antrag stellen	to submit an application / падавати заяву | Sie müssen für den Pass einen Antrag stellen.
+die Aufenthaltsgenehmigung, -en	residence permit / посвідка на проживання | Meine Aufenthaltsgenehmigung wurde verlängert.
+auf|wachsen (wächst auf, wuchs auf, ist aufgewachsen)	to grow up / виростати | Ich bin in einer kleinen Stadt aufgewachsen.
+der Berater, -	advisor, counselor / консультант | Der Berater hilft mir bei der Jobsuche.
+die Beraterin, -nen	female advisor / консультантка | Die Beraterin ist sehr kompetent.
+jdn. beschäftigen	to employ someone / мати у штаті, займати когось | Die Firma beschäftigt über 100 Mitarbeiter.
+der Businessplan, "-e	business plan / бізнес-план | Für das Startup brauchen wir einen guten Businessplan.
+das Einkommen, -	income / дохід | Das monatliche Einkommen reicht für die Miete.
+die Entscheidung, -en	decision / рішення | Es war eine schwierige Entscheidung.
+eine Entscheidung treffen	to make a decision / приймати рішення | Wir müssen bis morgen eine Entscheidung treffen.
+die Existenzgründung, -en	founding of a business / заснування власної справи | Sie plant eine Existenzgründung im Bereich Grafikdesign.
+die Fortbildung, -en	advanced training / підвищення кваліфікації | Ich besuche eine Fortbildung für Projektmanagement.
+eine Fortbildung machen	to do a training / проходити курс підвищення кваліфікації | Er möchte eine Fortbildung im Bereich Marketing machen.
+(ein Unternehmen) gründen	to found (a company) / засновувати (компанію) | Mein Bruder möchte ein Unternehmen gründen.
+einen Kredit bewilligen	to approve a loan / надавати кредит | Die Bank hat den Kredit bewilligt.
+der Küchenhelfer, -	kitchen assistant / кухонний помічник | Er arbeitet als Küchenhelfer in einem Restaurant.
+die Küchenhelferin, -nen	female kitchen assistant / кухонна помічниця | Die Küchenhelferin hilft beim Schneiden des Gemüses.
+sich selbstständig machen	to go self-employed / почати власну справу | Nach dem Kurs möchte ich mich selbstständig machen.
+die Selbstständigkeit (Sg.)	self-employment / самостійність, самозайнятість | Die Selbstständigkeit bringt viel Freiheit, aber auch Risiko.
+überlegen	to consider, to think about / обмірковувати | Ich muss mir das noch einmal genau überlegen.
+Verantwortung tragen für (+ Akk.)	to bear responsibility / нести відповідальність | Ein Teamleiter muss viel Verantwortung tragen.
+etw. anerkennen lassen	to have something recognized / визнавати (напр. диплом) | Ich muss mein Diplom in Deutschland anerkennen lassen.
+der Berufsabschluss, "-e	vocational qualification / професійна освіта | Ohne Berufsabschluss ist es schwer, eine gute Stelle zu finden.
+die Berufsausbildung, -en	vocational training / професійна освіта | Die Berufsausbildung dauert meistens drei Jahre.
+etw. beschließen	to decide on, to resolve / вирішувати, постановити | Wir haben beschlossen, das Projekt am Montag zu starten.
+das Zeugnis, -se	report card, certificate / свідоцтво, атестат | Ich habe mein Zeugnis per Post bekommen.
+die Anerkennung, -en	recognition / визнання | Fachkräfte brauchen die Anerkennung ihrer Abschlüsse.
+das Anerkennungsverfahren, -	recognition process / процедура визнання | Das Anerkennungsverfahren für Ärzte ist kompliziert.
+die Arbeitserlaubnis, -se	work permit / дозвіл на роботу | Haben Sie schon Ihre Arbeitserlaubnis erhalten?
+die Fachkraft, "-e	specialist / спеціаліст | In Deutschland fehlen viele Fachkräfte im Handwerk.
+die Kompetenz, -en	competence, skill / компетенція, навичка | Er zeigt eine hohe soziale Kompetenz.
+Kosten übernehmen	to cover costs / брати на себе витрати | Die Versicherung wird die Kosten übernehmen.
+der Nachweis, -e	proof, evidence / доказ, підтвердження | Ich brauche einen Nachweis über meine Deutschkenntnisse.
+das Praktikum, Praktika	internship / практика | Ich mache im Sommer ein Praktikum bei Mercedes.
+die Qualifikation, -en	qualification / кваліфікація | Welche Qualifikationen bringen Sie für diesen Job mit?
+reglementiert	regulated / регламентований | Der Beruf des Arztes ist in Deutschland reglementiert.
+die Unterlage, -n	document / документ | Bitte senden Sie mir alle Unterlagen per E-Mail.
+etw. vergleichen mit (+ Dat.)	to compare with / порівнювати | Man kann die beiden Programme nicht direkt vergleichen.
+der Ansprechpartner, -	contact person / контактна особа | Wer ist mein Ansprechpartner für Fragen zum Vertrag?
+die Ansprechpartnerin, -nen	female contact person / контактна особа (жінка) | Die Ansprechpartnerin im Personalbüro ist Fr. Müller.
+der Aushang, "-e	notice, posting / оголошення | Ich habe den Aushang am schwarzen Brett gelesen.
+das Bewerbungsschreiben, -	letter of application / заява про прийняття на роботу | Zum Bewerbungsschreiben gehört auch ein Lebenslauf.
+das Bewerbungsverfahren, -	application process / процес подання заявки | Das Bewerbungsverfahren dauert in dieser Firma zwei Wochen.
+der Eindruck, "-e	impression / враження | Er hat beim Vorstellungsgespräch einen guten Eindruck hinterlassen.
+die Elektrofirma, -firmen	electrical company / електротехнічна фірма | Er arbeitet seit drei Jahren in einer Elektrofirma.
+erwarten	to expect / очікувати | Wir erwarten kompetente Bewerber für diese Stelle.
+das Fachpersonal (Sg.)	skilled personnel / кваліфікований персонал | Wir brauchen dringend Fachpersonal in der IT.
+fehlerfrei	error-free / без помилок | Deine Bewerbung sollte fehlerfrei geschrieben sein.
+die Initiativbewerbung, -en	unsolicited application / ініціативна заявка | Ich habe eine Initiativbewerbung an die Firma geschickt.
+die Installateurfirma, -firmen	plumbing company / сантехнічна фірма | Die Installateurfirma repariert die Rohre im Büro.
+die Konkurrenz (Sg.)	competition / конкуренція | Die Konkurrenz auf dem Arbeitsmarkt ist groß.
+der Leiharbeiter, -	temporary worker / тимчасовий працівник | Er arbeitet momentan als Leiharbeiter bei BMW.
+die Leiharbeiterin, -nen	female temporary worker / тимчасова працівниця | Die Leiharbeiterin fängt morgen in der Produktion an.
+das Leitbild, -er	mission statement / місія, девіз компанії | Das Leitbild unserer Firma ist Kundenzufriedenheit.
+der Stand der Dinge	state of affairs / стан справ | Wie ist der aktuelle Stand der Dinge bei dem Projekt?
+einen Termin bestätigen	to confirm an appointment / підтверджувати зустріч | Können Sie den Termin bitte per E-Mail bestätigen?
+die Unterlage, -n	document / документ | Bitte laden Sie alle Unterlagen im Portal hoch.
+die Wartezeit, -en	waiting time / час очікування | Die Wartezeit für das Visum ist sehr lang.
+die Zeitarbeitsfirma, -en	temporary employment agency / агентство з працевлаштування | Die Zeitarbeitsfirma hat mir einen Job angeboten.
+zukünftig	future / майбутній | Was sind Ihre zukünftigen Pläne in der IT?
+die Arbeitskraft, "-e	worker, manpower / робоча сила | Wir brauchen mehr Arbeitskräfte für die Nachtschicht.
+das Arbeitsverhältnis, -se	employment relationship / трудові відносини | Das Arbeitsverhältnis beginnt am ersten März.
+ausleihen	to lend, to borrow / позичати, віддавати в оренду | Firmen können Arbeitskräfte von Zeitarbeitsfirmen ausleihen.
+die Berufsberatung, -en	vocational guidance / професійна консультація | Die Berufsberatung hilft Jugendlichen bei der Wahl.
+die Berufserfahrung, -en	professional experience / професійний досвід | Ich habe bereits fünf Jahre Berufserfahrung als Koch.
+beschäftigen	to employ / займати, працевлаштовувати | Die Firma beschäftigt über 200 Leute.
+die Beschäftigung (Sg.)	employment / зайнятість | Er sucht eine Beschäftigung in Vollzeit.
+der Betrieb, -e	business, company / підприємство | Der Betrieb stellt Motoren her.
+die Genehmigung, -en	permission, permit / дозвіл | Haben Sie eine Genehmigung für dieses Projekt?
+die Leiharbeit (Sg.)	temporary work / тимчасова праця | Leiharbeit ist oft ein Einstieg in einen festen Job.
+der Leiharbeiter, -	temporary worker / тимчасовий працівник | Er ist als Leiharbeiter angestellt.
+die Leiharbeiterin, -nen	female temporary worker / тимчасова робітниця | Die Leiharbeiterin kommt aus Polen.
+staatlich	state, public / державний | Er arbeitet in einer staatlichen Einrichtung.
+die Tätigkeit, -en	activity, task / діяльність | Welche Tätigkeiten gehören zu Ihrem Job?
+einen Termin vereinbaren	to make an appointment / домовлятися про зустріч | Ich möchte einen Termin für nächste Woche vereinbaren.
+verleihen	to lend / позичати, надавати | Die Agentur verleiht technisches Personal an Firmen.
+die Vermittlung, -en	placement, mediation / працевлаштування, посередництво | Die Vermittlung von Arbeitskräften ist kostenlos.
+die Vermittlungsgebühr, -en	placement fee / комісія за працевлаштування | In manchen Fällen muss man eine Vermittlungsgebühr zahlen.
+der Agraringenieur, -e	agricultural engineer / агроном-інженер | Der Agraringenieur berät die Bauern.
+die Agraringenieurin, -nen	female agricultural engineer / агрономка-інженерка | Die Agraringenieurin prüft die Bodenqualität.
+der Arbeitseinsatz, "-e	work assignment / використання робочої сили | Der Arbeitseinsatz ist für das Wochenende geplant.
+der Bereich, -e	area, field / сфера, галузь | Er arbeitet im Bereich Kundenservice.
+die Bereitschaft (Sg.)	readiness, willingness / готовність | Bereitschaft zur Schichtarbeit ist erforderlich.
+der Einsatzort, -e	place of assignment / місце роботи (відрядження) | Ihr Einsatzort ist das Werk in München.
+examiniert	qualified, examined / дипломований | Wir suchen examiniertes Pflegepersonal.
+das Familienunternehmen, -	family business / сімейне підприємство | Unsere Firma ist ein kleines Familienunternehmen.
+der Informatiker, -	IT specialist / інформатик | Der Informatiker programmiert eine neue App.
+die Informatikerin, -nen	female IT specialist / інформатиця | Die Informatikerin testet die Datenbank.
+der Ingenieur, -e	engineer / інженер | Der Ingenieur konstruiert eine neue Brücke.
+die Ingenieurin, -nen	female engineer / інженерка | Die Ingenieurin arbeitet an einem Flugzeug.
+innovativ	innovative / інноваційний | Wir bieten innovative Lösungen für die Industrie.
+die Karrierechance, -n	career opportunity / шанс на кар'єру | In dieser Firma gibt es gute Karrierechancen.
+die Kommunikationsfähigkeit, -en	communication skills / комунікабельність | Kommunikationsfähigkeit ist wichtig für Teamarbeit.
+der Kundenservice (Sg.)	customer service / служба підтримки клієнтів | Der Kundenservice ist rund um die Uhr erreichbar.
+die Pflegekraft, "-e	caregiver, nurse / медпрацівник (з догляду) | Die Pflegekraft kümmert sich um die Patienten.
+der Pflegeservice (Sg.)	care service / служба догляду | Unser Pflegeservice hilft älteren Menschen zu Hause.
+der Sicherheitsmitarbeiter, -	security officer / співробітник безпеки | Der Sicherheitsmitarbeiter kontrolliert den Ausweis.
+die Sicherheitsmitarbeiterin, -nen	female security officer / співробітниця безпеки | Die Sicherheitsmitarbeiterin bewacht das Tor.
+der Teamgeist (Sg.)	team spirit / командний дух | Wir legen großen Wert auf einen guten Teamgeist.
+die Verantwortung (Sg.)	responsibility / відповідальність | Er übernimmt viel Verantwortung im Team.
+der Verkäufer, -	salesman / продавець | Der Verkäufer berät den Kunden im Laden.
+die Verkäuferin, -nen	female salesperson / продавчиня | Die Verkäuferin scannt die Ware.
+die Verstärkung, -en	reinforcement, addition to the team / підкріплення, новий співробітник | Wir suchen Verstärkung für unser Marketing-Team.
+die Zukunftsperspektive, -n	future prospect / перспектива на майбутнє | Dieser Job bietet eine gute Zukunftsperspektive.
+die Zusammenarbeit (Sg.)	cooperation / співпраця | Die Zusammenarbeit mit den Kollegen macht Spaß.
+zuständig	responsible / відповідальний | Wer ist für dieses Problem zuständig?
+das Bauvorhaben, -	construction project / будівельний проект | Das neue Bauvorhaben beginnt im Sommer.
+die Berufsausbildung, -en	vocational training / професійна освіта | Nach der Schule beginnt er eine Berufsausbildung.
+der Einsatz, "-e	assignment, mission / виконання завдання | Der Einsatz dauert voraussichtlich einen Monat.
+das Einverständnis, -se	consent, agreement / згода | Wir brauchen Ihr Einverständnis für den Vertrag.
+der Fachinformatiker, -	IT specialist / фахівець з інформатики | Er macht eine Ausbildung zum Fachinformatiker.
+die Fachinformatikerin, -nen	female IT specialist / фахівчиня з інформатики | Die Fachinformatikerin konfiguriert das Netzwerk.
+die Krankheitsvertretung, -en	sick leave cover / заміна на час хвороби | Sie arbeitet als Krankheitsvertretung für Fr. Berger.
+der Realschulabschluss, "-e	secondary school certificate / атестат про закінчення реальної школи | Er hat seinen Realschulabschluss in Berlin gemacht.
+die Urlaubsvertretung, -en	holiday replacement / заміна на час відпустки | Können Sie bitte meine Urlaubsvertretung übernehmen?
+der Zeitraum, "-e	period of time / період часу | In diesem Zeitraum bin ich leider nicht erreichbar.
+der Empfang, "-e	reception / прийом, рецепція | Wir treffen uns am Empfang.
+die Personalabteilung, -en	HR department / відділ кадрів | Die Personalabteilung schickt mir den Vertrag.
+die Kantine, -n	canteen / їдальня | Das Essen in der Kantine ist sehr gut.
+das Lager, -	warehouse / склад | Wir müssen die Kartons ins Lager bringen.
+die Produktion (Sg.)	production / виробництво | Die Produktion der neuen Serie beginnt morgen.
+die Forschung, -en	research / дослідження | Er arbeitet in der Forschung und Entwicklung.
+die Entwicklung, -en	development / розробка | Die Entwicklung der Software dauert lange.
+der Betriebsrat, "-e	works council / виробнича рада (профспілка) | Der Betriebsrat vertritt die Mitarbeiter.
+die Betriebsrätin, -nen	female works council member / членкиня виробничої ради | Die Betriebsrätin hilft bei Problemen.
+die Geschäftsführung, -en	management / керівництво | Die Geschäftsführung hat eine Entscheidung getroffen.
+die Finanzbuchhaltung, -en	financial accounting / бухгалтерія | Die Finanzbuchhaltung kümmert sich um die Rechnungen.
+die Einarbeitung, -en	induction, orientation / введення в курс справи (стажування) | Die Einarbeitung dauert gewöhnlich zwei Wochen.
+der Ansprechpartner, -	contact person / контактна особа | Mein Ansprechpartner ist Herr Schmidt.
+die Ansprechpartnerin, -nen	female contact person / контактна особа (жінка) | Frau Müller ist meine Ansprechpartnerin.
+die Pausenregelung, -en	break policy / правило перерв | Die Pausenregelung variiert je nach Team.
+der Rundgang, "-e	tour (of a building) / обхід, екскурсія | Am ersten Tag machen wir einen Rundgang.
+sich weiter|bilden	to continue education / підвищувати кваліфікацію | Ich möchte mich in Python weiterbilden.
+sich ärgern über (+ Akk.)	to be annoyed about / сердитися через | Ich ärgere mich über den langsamen Server.
+der Berufsalltag (Sg.)	professional life / професійні будні | Der Berufsalltag in der IT ist stressig.
+die Erfahrung, -en	experience / досвід | Sie hat viel Erfahrung im Marketing.
+Erfahrung haben mit (+ Dat.)	to have experience with / мати досвід у | Er hat viel Erfahrung mit Linux.
+sich freuen auf (+ Akk.)	to look forward to / чекати з нетерпінням (на щось у майбутньому) | Ich freue mich на das Wochenende.
+sich freuen über (+ Akk.)	to be happy about / радіти (чомусь, що вже є) | Ich freue mich über das Geschenk.
+gehören zu (+ Dat.)	to belong to / належати до | Was gehört zu deinen Aufgaben?
+es geht um (+ Akk.)	it's about / йдеться про | In dem Buch geht es um Geschichte.
+ein Gespräch führen	to lead a conversation / вести розмову | Wir haben ein nettes Gespräch geführt.
+sich interessieren für (+ Akk.)	to be interested in / цікавитися | Interessierst du dich für Kunst?
+investieren in (+ Akk.)	to invest in / інвестувати в | Man muss in die Zukunft investieren.
+statt|finden (fand statt, hat stattgefunden)	to take place / відбуватися | Das Meeting findet um 10 Uhr statt.
+etw. vermitteln	to convey, to mediate / передавати (знання), посередничати | Der Kurs vermittelt wichtige Kenntnisse.
+die Voraussetzung, -en	requirement / умова, передумова | Gute Englischkenntnisse sind eine Voraussetzung.
+die Webseite, -n	website / веб-сторінка | Die Webseite der Firma ist sehr modern.
+das Ergebnisprotokoll, -e	minutes of a meeting / протокол результатів зустрічі | Das Ergebnisprotokoll wurde per E-Mail verschickt.
+die Besprechung, -en	meeting / нарада | Wir haben morgen eine wichtige Besprechung.
+die Teamsitzung, -en	team meeting / командна нарада | Die Teamsitzung dauert eine Stunde.
+etw. zusammen|fassen	to summarize / підсумовувати | Können Sie die Ergebnisse zusammenfassen?
+der Beschluss, "-e	decision / рішення, постанова | Der Beschluss wurde einstimmig gefasst.
+die Entscheidung, -en	decision / рішення | Er hat eine gute Entscheidung getroffen.
+die Vereinbarung, -en	agreement / угода, домовленість | Wir haben eine Vereinbarung getroffen.
+die Tagesordnung, -en	agenda / порядок денний | Was steht heute auf der Tagesordnung?
+das Stichwort, -e	keyword / ключове слово | Ich habe mir nur Stichworte gemacht.
+etw. dokumentieren	to document / документувати | Wir müssen alle Fehler dokumentieren.
+etw. protokollieren	to record / протоколювати | Jemand muss das Meeting protokollieren.
+die Regel, -n	rule / правило | Wir müssen uns an die Regeln halten.
+in der Regel	as a rule / як правило | In der Regel fange ich um 8 Uhr an.
+der Teilnehmer, -	participant / учасник | Es gibt zwanzig Teilnehmer.
+die Teilnehmerin, -nen	female participant / учасниця | Die Teilnehmerin stellt eine Frage.
+etw. vor|schlagen (schlägt vor, schlug vor, hat vorgeschlagen)	to suggest / пропонувати | Ich schlage vor, wir machen eine Pause.
+der Zweifel, -	doubt / сумнів | Ich habe keine Zweifel an deiner Arbeit.
+etw. schaffen	to manage / впоратися | Wir werden das Projekt pріоритетно schaffen.
+sich etw. merken	to remember / запам'ятовувати | Du musst dir den Code merken.
+die Pünktlichkeit (Sg.)	punctuality / пунктуальність | Pünktlichkeit ist in Deutschland sehr wichtig.
+die Begrüßung, -en	greeting / привітання | Die Begrüßung war sehr herzlich.
+der Feierabend, -e	closing time, finish work / кінець робочого дня | Nach dem Feierabend gehe ich zum Sport.
+aufregend	exciting / захоплюючий | Der erste Arbeitstag war sehr aufregend.
+der Erfolg, -e	success / успіх | Ich wünsche dir viel Erfolg.
+nützlich	useful / корисний | Das Buch ist sehr nützlich.
+der Berufsverkehr (Sg.)	professional traffic / робочий дорожній рух (години пік) | Im Berufsverkehr stehe ich oft im Stau.
+üblich	common / звичайний | In der IT ist das Duzen üblich.
+lächeln	to smile / усміхатися | Die Kollegen lächeln mich an.
+erwünscht	desired / бажаний | Engagement ist im Team erwünscht.
+beliebt	popular / популярний | Dieser Chef є дуже популярним.
+im Allgemeinen	in general / взагалі | Im Allgemeinen sind wir zufrieden.
+der Vorgesetzte, -n	supervisor / керівник | Mein Vorgesetzter ist sehr nett.
+die Vorgesetzte, -n	female supervisor / керівниця | Die Vorgesetzte leitet das Team.
+sich verabschieden (von + Dat.)	to say goodbye / прощатися | Ich verabschiede mich von meinen Kollegen.
+sich etw. an|schauen	to look at something / подивитися на щось | Ich schaue mir die neue Webseite an.
+der Arbeitsalltag (Sg.)	everyday work life / робочі будні | Der Arbeitsalltag war sehr anstrengend.
+die Arbeitsdichte (Sg.)	work density / щільність роботи (навантаження) | Die Arbeitsdichte ist in diesem Monat sehr hoch.
+das Arbeitsleben (Sg.)	professional life / трудове життя | Das Arbeitsleben ist anders als das Studium.
+die Arbeitswelt (Sg.)	working world / світ праці | Die Arbeitswelt ändert sich durch die KI.
+sich aus|wirken (auf + Akk.)	to affect, to impact / впливати | Stress kann sich negativ на die Gesundheit auswirken.
+die Baustelle, -n	construction site / будівельний майданчик | Vor dem Büro ist eine große Baustelle.
+sich beeilen	to hurry / поспішати | Wir müssen uns beeilen, die Bahn kommt gleich.
+die Berufssparte, -n	professional sector / професійна галузь | Er arbeitet in einer modernen Berufssparte.
+der Beschäftigte, -n	employee / співробітник | Die Firma hat über tausend Beschäftigte.
+die Beschäftigte, -n	female employee / співробітниця | Sie ist eine langjährige Beschäftigte.
+die Beschleunigung, -en	acceleration / прискорення | Wir brauchen eine Beschleunigung der Prozesse.
+etw. bewältigen	to manage, to cope with / долати, справлятися | Gemeinsam können wir das Problem bewältigen.
+die Herausforderung, -en	challenge / виклик | Das neue Projekt є великим викликом.
+der Maurer, -	mason, bricklayer / муляр | Der Maurer baut eine neue Wand.
+die Maurerin, -nen	female mason / мулярка | Die Maurerin arbeitet auf der Baustelle.
+die Strecke, -n	distance, route / дистанція, шлях | Die Strecke nach Berlin ist sehr lang.
+auf der Strecke bleiben	to fall by the wayside / відстати, бути занедбаним | In der Krise bleiben viele kleine Firmen auf der Strecke.
+einen Termin ab|sagen	to cancel an appointment / скасувати зустріч | Ich muss den Termin leider absagen.
+das Treffen, -	meeting / зустріч | Das Treffen war sehr erfolgreich.
+sich verspäten	to be late / запізнюватися | Der Zug hat sich um zehn Minuten verspätet.
+das Wohlbefinden (Sg.)	well-being / самопочуття | Gute Luft im Büro ist wichtig für das Wohlbefinden.
+der Zeitdruck (Sg.)	time pressure / дефіцит часу | Wir arbeiten oft unter großem Zeitdruck.
+die Abteilunskonferenz, -en	department conference / конференція відділу | Heute findet eine Abteilunskonferenz statt.
+sich ab|sprechen (mit + Dat.)	to coordinate (with someone) / домовлятися | Ich muss mich mit meinem Team absprechen.
+der Anspruch, "-e	claim, demand / претензія, вимога | Deine Ansprüche sind sehr hoch.
+Anspruch haben auf (+ Akk.)	to have a right to / мати право на | Mitarbeiter haben Anspruch auf 30 Tage Urlaub.
+der Arbeitsweg, -e	commute / шлях на роботу | Mein Arbeitsweg dauert eine halbe Stunde.
+die Arbeitszeit, -en	working time / робочий час | Meine Arbeitszeit beginnt um 9 Uhr.
+das Arbeitszeitgesetz, -e	working time act / закон про робочий час | Das Arbeitszeitgesetz regelt die Pausen.
+die Betriebsruhe (Sg.)	company holidays / канікули на підприємстві | Zwischen Weihnachten und Neujahr ist Betriebsruhe.
+das EDV-System, -e	IT system / ІТ-система | Das neue EDV-System läuft stabil.
+jdn. ein|weisen in (+ Akk.)	to instruct, to brief / інструктувати | Der Kollege weist mich in die Software ein.
+der Ersatzruhetag, -e	compensatory rest day / компенсаційний вихідний | Wenn man am Sonntag arbeitet, bekommt man einen Ersatzruhetag.
+etw. vor|schreiben	to prescribe, to mandate / приписувати, зобов'язувати | Das Gesetz schreibt vor, wie man Pausen macht.
+der Fall, "-e	case / випадок | In diesem Fall müssen wir den Chef anrufen.
+auf keinen Fall	in no case / ні в якому разі | Ich werde auf keinen Fall aufgeben.
+der Freizeitausgleich (Sg.)	compensatory time off / компенсація вільного часу | Er hat Überstunden gemacht und bekommt Freizeitausgleich.
+der Mindesturlaub (Sg.)	minimum leave / мінімальна відпустка | Der gesetzliche Mindesturlaub beträgt 20 Tage.
+die Pflicht, -en	duty / обов'язок | Es ist meine Pflicht, pünktlich zu sein.
+das Recht, -e	right, law / право | Jeder hat das Recht на eine Pause.
+Recht haben	to be right / мати рацію | Du hast Recht, das ist ein Fehler.
+die (gesetzliche) Regel, -n	legal rule / законне правило | Wir müssen die gesetzlichen Regeln befolgen.
+die Schichtarbeit (Sg.)	shift work / позмінна робота | Im Krankenhaus є часто Schichtarbeit.
+die Teilzeitarbeit (Sg.)	part-time work / неповна зайнятість | Viele Eltern machen Teilzeitarbeit.
+die Überstunde, -n	overtime / понаднормова година | Letzte Woche habe ich fünf Überstunden gemacht.
+der Urlaubstag, -e	vacation day / день відпустки | Ich habe noch zehn Urlaubstage übrig.
+die Urlaubszeit, -en	vacation time / час відпустки | Im Sommer ist die beliebteste Urlaubszeit.
+die Vollzeitarbeit (Sg.)	full-time work / повна зайнятість | Er sucht eine Stelle für Vollzeitarbeit.
+die Wochenendarbeit, -en	weekend work / робота у вихідні | In der Gastronomie ist Wochenendarbeit normal.
+die Deadline, -s	deadline / дедлайн | Die Deadline für das Projekt ist am Freitag.
+das Drehbuch, "-er	script / сценарій | Er schreibt ein Drehbuch für einen Werbefilm.
+der Entwurf, "-e	draft / чернетка, проект | Der erste Entwurf der Webseite ist fertig.
+die Kampagne, -n	campaign / кампанія | Die neue Kampagne startet im Herbst.
+die Kosmetikserie, -n	cosmetics line / серія косметики | Wir bewerben eine neue Kosmetikserie.
+das Printmedium, -medien	print medium / друковане видання | Zeitschriften sind klassische Printmedien.
+relevant	relevant / важливий, релевантний | Diese Information ist für uns nicht relevant.
+der Senior Manager, -	senior manager / старший менеджер | Der Senior Manager leitet das Team.
+die Senior Managerin, -nen	female senior manager / старша менеджерка | Die Senior Managerin ist sehr erfahren.
+der Werbefilm, -e	commercial / рекламний ролик | Der Werbefilm wird im Fernsehen gezeigt.
+die Werbekampagne, -n	advertising campaign / рекламна кампанія | Die Werbekampagne war sehr teuer.
+die Abmahnung, -en	written warning / попередження (догана) | Nach der zweiten Verspätung gab es eine Abмаhnung.
+das Arbeitsgericht, -e	labor court / трудовий суд | Der Fall geht vor das Arbeitsgericht.
+der Betriebsrat, "-e	works council / виробнича рада (профспілка) | Wir müssen den Betriebsrat fragen.
+die Betriebsfeier, -n	company party / корпоратив | Die Betriebsfeier war sehr lustig.
+dokumentieren	to document / документувати | Wir müssen alle Meetings dokumentieren.
+der Heizungstechniker, -	heating technician / майстер з опалення | Der Heizungstechniker repariert die Anlage.
+die Heizungstechnikerin, -nen	female heating technician / майстриня з опалення | Die Heizungstechnikerin kommt morgen.
+die Hilfe, -n	help / допомога | Ich brauche Hilfe bei der App.
+um Hilfe bitten	to ask for help / просити про допомогу | Man sollte immer um Hilfe bitten, wenn man sie braucht.
+das Zuspätkommen (Sg.)	being late / запізнення | Sein häufiges Zuspätkommen ist ein Problem.
+das Verständnis (Sg.)	understanding / розуміння | Danke für Ihr Verständnis.
+verärgert sein über (+ Akk.)	to be annoyed about / бути роздратованим через | Der Chef ist verärgert über die Verspätung.
+abhängig sein von (+ Dat.)	to be dependent on / бути залежним від | Die Firma ist von ausländischen Chips abhängig.
+die Beratung, -en	advice, consulting / консультація | Eine gute Beratung ist vor dem Kauf wichtig.
+Geld ausgeben für (+ Akk.)	to spend money on / витрачати гроші на | Ich gebe nicht gerne viel Geld für Kleidung aus.
+die Lieferzeit, -en	delivery time / час доставки | Die Lieferzeit beträgt drei bis fünf Werktage.
+die Öffnungszeit, -en	opening time / години роботи | Wie sind die Öffnungszeiten am Samstag?
+der Online-Einkauf, "-e	online shopping / онлайн-покупки | Der Online-Einkauf ist sehr bequem.
+die Qualität, -en	quality / якість | Wir legen großen Wert auf die Qualität der Software.
+vorsichtig	careful / обережний | Sei vorsichtig mit den neuen Servern!
+die Ware, -n	goods, merchandise / товар | Die Ware wird morgen geliefert.
+der Absatz, "-e	sales, turnover / збут, продажі | Der Absatz der E-Autos ist gestiegen.
+die (technische) Anlage, -n	technical system / equipment / технічна установка | Die technische Anlage muss regelmäßig gewartet werden.
+eine Anlage warten	to maintain a system / обслуговувати установку | Der Techniker kommt, um die Anlage zu warten.
+jdn./etw. beobachten	to observe / спостерігати | Wir beobachten das Verhalten der Nutzer genau.
+der Einzelhandel (Sg.)	retail / роздрібна торгівля | Der Einzelhandel leidet unter der Konkurrenz.
+der Endkunde, -n	end customer / кінцевий споживач | Wir liefern die Ware direkt an den Endkunden.
+die Endkundin, -nen	female end customer / кінцева споживачка | Die Endkundin ist mit dem Service zufrieden.
+etw. entwickeln	to develop / розробляти | Wir entwickeln eine neue App für den Handel.
+die Forschung und Entwicklung (Sg.)	research and development (R&D) / дослідження та розробка | Er arbeitet in der Abteilung für Forschung und Entwicklung.
+der Großhandel (Sg.)	wholesale / гуртова торгівля | Der Großhandel beliefert viele kleine Geschäfte.
+der Handel (Sg.)	trade, commerce / торгівля | Der Handel zwischen den Ländern wächst.
+her|stellen	to produce, to manufacture / виробляти | Die Firma stellt Mikrochips her.
+die Herstellung (Sg.)	manufacturing / виробництво | Die Herstellung ist sehr komplex.
+etw. liefern	to deliver / доставляти | Können Sie die Pizza bis 19 Uhr liefern?
+der Lieferschein, -e	delivery note / накладна | Unterschreiben Sie bitte den Lieferschein.
+Lieferscheine aus|stellen	to issue delivery notes / виписувати накладні | Der Lagerist muss die Lieferscheine ausstellen.
+die Lieferung, -en	delivery / доставка | Die Lieferung ist heute Morgen angekommen.
+der Markt, "-e	market / ринок | Wir müssen den Markt genau analysieren.
+das Maß, -e	measure, dimension / міра, розмір | Wir brauchen die genauen Maße für den Tisch.
+die Menge, -n	quantity, amount / кількість | Eine große Menge Daten muss verarbeitet werden.
+etw. montieren	to assemble, to install / монтувати | Wir müssen die neuen Monitore im Büro montieren.
+die Produktion, -en	production / виробництво | Die Produktion läuft rund um die Uhr.
+die Rechnung, -en	invoice, bill / рахунок | Bitte bezahlen Sie die Rechnung innerhalb von 14 Tagen.
+die Spedition, -en	shipping company / експедиторська компанія | Die Spedition liefert die Möbel morgen.
+der Transport, -e	transport / транспорт | Der Transport der Server war schwierig.
+die Verpackung, -en	packaging / упаковка | Die Verpackung ist beschädigt.
+der Versand (Sg.)	shipping, dispatch / відправка | Der Versand erfolgt per DHL.
+der Vertrieb (Sg.)	sales, distribution / відділ збуту | Der Vertrieb kümmert sich um neue Kunden.
+der Zwischenhändler, -	middleman, reseller / посередник | Händler kaufen oft beim Zwischenhändler.
+etw. analysieren	to analyze / аналізувати | Wir analysieren die Fehler-Logs.
+etw. bearbeiten	to process, to edit / обробляти | Ich muss den Bug im Code bearbeiten.
+jdn./etw. befördern	to promote, to transport / підвищувати (на посаді), перевозити | Er wurde zum Senior Developer befördert.
+jdn./etw. betreuen	to support, to manage / обслуговувати, супроводжувати | Das Team betreut die gesamte Infrastruktur.
+die Branche, -n	industry, sector / галузь | In der IT-Branche gibt es viele Jobs.
+etw. entwickeln	to develop / розробляти | Wir entwickeln innovative Lösungen.
+die Gastronomie (Sg.)	gastronomy, catering / гастрономія | Er arbeitet in der Gastronomie.
+etw. gestalten	to design, to shape / оформляти, організовувати | Wir müssen das User Interface neu gestalten.
+das Handwerk (Sg.)	craft, trade / ремесло | Gute Programmierung ist echtes Handwerk.
+die IT-Branche (Sg.)	IT industry / ІТ-галузь | Die IT-Branche verändert sich schnell.
+etw. konstruieren	to construct, to design / конструювати | Er konstruiert ein neues Bauteil.
+etw. kontrollieren	to control, to check / контролювати | Bitte kontrollieren Sie den Code noch einmal.
+Kunden bedienen	to serve customers / обслуговувати клієнтів | Wir bedienen Kunden aus der ganzen Welt.
+der Kundenberater, -	customer advisor / консультант клієнтів | Der Kundenberater hilft bei Fragen.
+die Kundenberaterin, -nen	female customer advisor / консультантка клієнтів | Die Kundenberaterin ist sehr freundlich.
+das Labor, -e	laboratory / лабораторія | Die Hardware wird im Labor getestet.
+der Lagerist, -en	warehouse clerk / працівник складу | Der Lagerist sortiert die Pakete.
+die Lageristin, -nen	female warehouse clerk / працівниця складу | Die Lageristin führt die Inventur durch.
+der Tierpfleger, -	animal keeper / доглядач за тваринами | Der Tierpfleger füttert die Löwen.
+die Tierpflegerin, -nen	female animal keeper / доглядачка за тваринами | Die Tierpflegerin arbeitet im Zoo.
+Transport und Logistik (Sg.)	transport and logistics / транспорт і логістика | Er arbeitet im Bereich Transport und Logistik.
+der Vertriebsweg, -e	distribution channel / канал збуту | Der Online-Shop ist unser wichtigster Vertriebsweg.
+Waren bestellen	to order goods / замовляти товари | Können Sie bitte neue Kabel bestellen?
+Wissenschaft und Forschung (Sg.)	science and research / наука та дослідження | Geld fließt in Wissenschaft und Forschung.
+etw. zu|bereiten	to prepare (food) / готувати (їжу) | Er kann den Kaffee per App zubereiten.
+etw. zu|stellen	to deliver, to serve / доставляти | Der Paketbote muss die Sendung zustellen.
+die Bequemlichkeit, -en	convenience / зручність | Online-Shopping bietet viel Bequemlichkeit.
+der CO2-Ausstoß (Sg.)	CO2 emission / викид CO2 | Wir müssen den CO2-Ausstoß reduzieren.
+der Händler, -	dealer, vendor / торговець | Der Händler verkauft gebrauchte Laptops.
+die Händlerin, -nen	female dealer / торговка | Die Händlerin bietet Bio-Produkte an.
+die Lagerhalle, -n	warehouse / складська будівля | Die neue Lagerhalle ist riesig.
+die Online-Plattform, -en	online platform / онлайн-платформа | Wir bauen eine neue Online-Plattform.
+der Sonderwunsch, "-e	special request / особливе побажання | Haben Sie noch einen Sonderwunsch?
+etw. aktivieren	to activate / активувати | Ich muss die neue SIM-Karte erst aktivieren.
+der Anbieter, -	provider / провайдер, постачальник | Wer ist dein Internet-Anbieter?
+die Anbieterin, -nen	female provider / провайдерка | Die Anbieterin bietet einen günstigen Tarif an.
+etw. auf|laden (lädt auf, lud auf, hat aufgeladen)	to top up, to charge / заряджати, поповнювати (рахунок) | Ich muss mein Handy-Guthaben aufladen.
+sich beraten lassen	to get advice / отримати консультацію | Ich lasse mich im Laden vom Experten beraten.
+sich beschweren	to complain / скаржитися | Der Kunde beschwert sich über das langsame Internet.
+die Bestellung, -en	order / замовлення | Ihre Bestellung wurde erfolgreich verschickt.
+das Datenvolumen, -	data volume / обсяг даних | Mein Tarif hat ein begrenztes Datenvolumen von 10 GB.
+etw. ein|geben (gibt ein, gab ein, hat eingegeben)	to enter (data) / вводити (дані) | Bitte geben Sie Ihr Passwort ein.
+etw. ein|legen	to insert / вставляти | Sie müssen die SIM-Karte in das Handy einlegen.
+einmalig	one-time / одноразовий | Die Gebühr für die Aktivierung ist einmalig.
+der Einsteiger, -	beginner / початківець | Dieser Tarif ist perfekt für Einsteiger.
+die Einsteigerin, -nen	female beginner / початківиця | Die Einsteigerin lernt schnell, wie man die App nutzt.
+etw. entgegen|nehmen (nimmt entgegen, nahm entgegen, hat entgegengenommen)	to receive, to accept / приймати | Der Mitarbeiter nimmt die Bestellung entgegen.
+das Festnetz (Sg.)	landline / стаціонарна мережа | Ich nutze zu Hause nur noch selten das Festnetz.
+etw. frei|schalten	to unlock, to activate / активувати, розблокувати | Die Bank muss mein Konto für Online-Shopping freischalten.
+die Grundgebühr, -en	basic fee / абонентська плата | Die Grundgebühr für den Vertrag beträgt 20 Euro pro Monat.
+gültig	valid / дійсний | Mein Ausweis ist noch fünf Jahre gültig.
+günstig	cheap, favorable / вигідний, недешевий | Ich habe ein sehr günstiges Angebot gefunden.
+das Guthaben, -	credit / баланс (грошовий) | Wie viel Guthaben habe ich noch auf meiner Prepaid-Karte?
+der Handwerker, -	craftsman, handyman / майстер | Der Handwerker kommt morgen, щоб відремонтувати кран.
+die Handwerkerin, -nen	female craftsman / майстриня | Die Handwerkerin installiert die neue Heizung.
+inklusive	inclusive / включно | Der Preis ist inklusive Versandkosten.
+die Kontrolle, -n	control / контроль | Die Kontrolle der Rechnungen dauert lange.
+der Lieferservice, -s	delivery service / служба доставки | Der Lieferservice bringt das Essen in 30 Minuten.
+das Netz, -e	network / мережа | In diesem Tunnel habe ich leider kein Netz.
+optimal	optimal / оптимальний | Diese Lösung ist optimal für unser Problem.
+profitieren von (+ Dat.)	to profit from / отримувати вигоду | Wir profitieren von der neuen Technologie.
+etw. sperren	to block, to lock / блокувати | Ich musste meine Kreditkarte sperren lassen, weil ich sie verloren habe.
+der Tarif, -e	tariff / тариф | Welchen Tarif hast du für dein Handy gewählt?
+etw. verschicken	to send / відправляти | Ich verschicke das Paket noch heute.
+der Vertrag, "-e	contract / контракт, договір | Ich habe den neuen Arbeitsvertrag unterschrieben.
+die Vertragslaufzeit, -en	contract duration / термін дії договору | Die Vertragslaufzeit beträgt 24 Monate.
+etw. zu|stellen	to deliver / доставляти | Der Postbote konnte das Paket nicht zustellen.
+das Angebot, -e	offer / пропозиція | Das ist ein sehr attraktives Angebot.
+der Auftrag, "-e	order, assignment / замовлення, доручення | Die Firma hat einen großen Auftrag erhalten.
+der Ausdruck, -e	printout / роздруківка | Ich brauche einen Ausdruck der Rechnung.
+sich binden an (+ Akk.)	to commit oneself to / зв'язувати себе зобов'язаннями | Mit diesem Vertrag bindet man sich für zwei Jahre an den Anbieter.
+brutto	gross / брутто (без вирахування податків) | Wie hoch ist dein Bruttogehalt?
+einverstanden	agreed / згодний | Ich bin mit dem Vorschlag einverstanden.
+etw. empfehlen (empfiehlt, empfahl, hat empfohlen)	to recommend / рекомендувати | Können Sie mir ein gutes Restaurant empfehlen?
+die Erledigung, -en	completion / виконання | Vielen Dank für die schnelle Erledigung meiner Anfrage.
+etw. erteilen (z.B. einen Auftrag)	to grant, to give / надавати, видавати (доручення) | Wir haben der Firma den Auftrag erteilt.
+der Grund, "-e	reason / причина | Was ist der Grund für deine Verspätung?
+die Mehrwertsteuer (Sg.)	value added tax (VAT) / ПДВ (податок на додану вартість) | Der Preis enthält 19% Mehrwertsteuer.
+netto	net / нетто (після податків) | Mein Nettogehalt reicht für die Miete.
+sorgfältig	carefully / ретельно | Bitte lesen Sie den Vertrag sorgfältig durch.
+die Summe, -n	sum, total / сума | Die Summe auf der Rechnung ist korrekt.
+die Unterschrift, -en	signature / підпис | Ich brauche hier unten Ihre Unterschrift.
+zahlbar	payable / до оплати | Der Betrag ist innerhalb von zehn Tagen zahlbar.
+zuverlässig	reliable / надійний | Er ist ein sehr zuverlässiger Mitarbeiter.
+der Ärger (Sg.)	anger, trouble / неприємність, гнів | Ich hatte viel Ärger mit dem neuen Router.
+der Artikel, -	article / стаття, товар | Dieser Artikel ist leider ausverkauft.
+beschädigt	damaged / пошкоджений | Das Paket kam beschädigt bei mir an.
+die Beschwerde, -n	complaint / скарга | Ich möchte eine offizielle Beschwerde einreichen.
+defekt	defective / несправний | Mein Drucker ist leider defekt.
+dreckig	dirty / брудний | Der Monitor ist total dreckig.
+der Fleck, -en	stain / пляма | Auf dem Teppich ist ein großer Fleck.
+der Mangel, -	defect, lack / недолік | Das Auto hat einige technische Mängel.
+peinlich	embarrassing / соромно | Es war mir peinlich, що я забув пароль.
+die Reklamation, -en	reclamation, claim / рекламація, претензія | Die Reklamation wurde vom Händler akzeptiert.
+unvollständig	incomplete / неповний | Die Lieferung war leider unvollständig.
+der Vorschlag, "-e	suggestion / пропозиція | Hast du einen besseren Vorschlag?
+etw. zerbrechen (zerbricht, zerbrach, hat zerbrochen)	to break / розбивати | Ich habe versehentlich eine Vase zerbrochen.
+etw. zerkratzen	to scratch / подряпати | Pass auf, dass du das Display nicht zerkratzt.
+etw. zerreißen (zerriss, hat zerrissen)	to tear / розривати | Er hat den alten Vertrag zerrissen.
+jdn. ausreden lassen	to let someone finish speaking / давати комусь договорити | Bitte lass mich kurz ausreden.
+die Bedeutung, -en	meaning / значення | Dieses Wort hat mehrere Bedeutungen.
+die Erwartung, -en	expectation / очікування | Die neue Software hat meine Erwartungen erfüllt.
+etw. klären	to clarify / з'ясовувати | Wir müssen dieses Problem noch klären.
+konkurrenzfähig	competitive / конкурентоспроможний | Unsere Preise sind auf dem Markt konkurrenzfähig.
+sich etw. leisten können	to be able to afford / могти собі дозволити | Ich kann mir momentan kein neues Auto leisten.
+einen Preisnachlass gewähren	to grant a discount / надавати знижку | Der Verkäufer hat uns einen kleinen Preisnachlass gewährt.
+treu bleiben	to stay loyal / залишатися вірним | Unsere Kunden bleiben uns seit Jahren treu.
+unzufrieden	dissatisfied / незадоволений | Er ist unzufrieden mit seinem Gehalt.
+vereinbart	agreed / узгоджений | Wir treffen uns zum vereinbarten Zeitpunkt.
+sich etw. vor|stellen	to imagine / уявляти | Kannst du dir vorstellen, в Америці жити?
+der Alltag (Sg.)	everyday life / будні, повсякденне життя | Der technische Wandel prägt unseren Alltag.
+der Anschluss, "-e	connection / підключення | Ich warte noch auf meinen Glasfaser-Anschluss.
+die Anwendungsmöglichkeit, -en	application possibility / можливість застосування | Die Software bietet viele Anwendungsmöglichkeiten.
+das Display, -s	display, screen / дисплей, екран | Das Display meines Smartphones ist gesprungen.
+einsatzbereit	ready for use / готовий до роботи | Die neue Hardware ist ab morgen einsatzbereit.
+das Festnetz (Sg.)	landline / стаціонарна мережа | Ich habe nur noch einen Mobilfunk-Vertrag, kein Festnetz mehr.
+das Gerät, -e	device / пристрій | Wie viele Geräte sind mit dem WLAN verbunden?
+herunter|laden (lädt herunter, lud herunter, hat heruntergeladen)	to download / завантажувати | Ich lade mir gerade die neue App herunter.
+etw. installieren	to install / інсталювати | Hast du die Sicherheitsupdates schon installiert?
+das Kommunikationsmittel, -	means of communication / засіб зв'язку | Das Internet ist das wichtigste Kommunikationsmittel.
+leistungsfähig	powerful, efficient / потужний, продуктивний | Dieser Computer ist sehr leistungsfähig.
+der Mobilfunk (Sg.)	mobile communications / мобільний зв'язок | Der Mobilfunk-Markt ist hart umkämpft.
+multifunktional	multifunctional / багатофункціональний | Moderne Geräte sind meist multifunktional.
+das Navi, -s	sat nav, navigation system / навігатор | Ohne mein Navi würde ich mich ständig verfahren.
+das Navigationsgerät, -e	navigation device / навігатор | Das Navigationsgerät zeigt die schnellste Route an.
+problemlos	problem-free / без проблем | Die Installation verlief zum Glück problemlos.
+das Risiko, Risiken	risk / ризик | Man sollte die Risiken der Digitalisierung nicht ignorieren.
+sinken (sinkt, sank, ist gesunken)	to sink, to decrease / падати, знижуватися | Die Preise für Laptops sind stark gesunken.
+die Tastatur, -en	keyboard / клавіатура | Die Tastatur meines Laptops ist kaputt.
+verfügbar	available / доступний | Das neue Modell ist ab sofort verfügbar.
+etw. weiterentwickeln	to develop further / розвивати далі | Wir müssen unsere Software ständig weiterentwickeln.
+die Zukunft (Sg.)	future / майбутнє | Was bringt uns die technische Zukunft?
+in Zukunft	in the future / у майбутньому | In Zukunft will ich mehr im Homeoffice arbeiten.
+die Arbeit erleichtern	to make work easier / полегшувати роботу | Die neuen Maschinen werden uns die Arbeit erleichtern.
+die Daten (Pl.)	data / дані | Wir müssen unsere persönlichen Daten schützen.
+Daten missbrauchen	to misuse data / зловживати даними | Man sollte vorsichtig sein, щоб ніхто не міг наші дані зловживати.
+nachteilig	disadvantageous / невигідний | Die neue Regelung ist nachteilig für kleine Firmen.
+papierlos	paperless / безпаперовий | Wir streben ein papierloses Büro an.
+die sozialen Netzwerke	social networks / соціальні мережі | Er postet täglich in den sozialen Netzwerken.
+speichern	to save / зберігати | Vergiss nicht, deine Dokumente regelmäßig zu speichern.
+verzichten auf (+ Akk.)	to do without / відмовлятися від | Ich kann nicht auf mein Smartphone verzichten.
+die Anforderung, -en	requirement, demand / вимога | Die Anforderungen за цей Job sind sehr hoch.
+der Ausbildungsberuf, -e	recognized vocational profession / професія, що потребує спеціальної освіти | Informatiker ist ein beliebter Ausbildungsberuf.
+beeinflussen	to influence / впливати | Die Digitalisierung beeinflusst unser Leben stark.
+die Berufsaussicht, -en	career prospect / перспектива працевлаштування | Als IT-Spezialist hat man sehr gute Berufsaussichten.
+die Digitalisierung (Sg.)	digitization / цифровізація | Die Digitalisierung der Schulen schreitet voran.
+die Eigenschaft, -en	property, characteristic / властивість, якість | Zuverlässigkeit ist eine wichtige Eigenschaft.
+der Erfolg, -e	success / успіх | Ich wünsche dir viel Erfolg bei deiner Arbeit.
+Erfolg haben	to have success / мати успіх | Mit dieser Strategie werden wir sicher Erfolg haben.
+fächerübergreifend	interdisciplinary / міждисциплінарний | Wir planen ein fächerübergreifendes Projekt.
+die Gesprächs- und Verhandlungsführung (Sg.)	conversation and negotiation management / ведення переговорів | In dem Kurs man lernt багато за керівництво переговорів.
+interkulturell	intercultural / міжкультурний | Interkulturelle Kompetenz ist heute sehr wichtig.
+die IT-Systemkauffrau, -en	female IT systems management assistant / фахівець з продажів ІТ-систем (жінка) | Die IT-Systemkauffrau berät die Kunden.
+der IT-Systemkaufmann, IT-Kaufleute	IT systems management assistant / фахівець з продажів ІТ-систем | Die IT-Systemkaufleute kalkulieren die Preise.
+die Soft Skills (Pl.)	soft skills / гнучкі навички | Fachwissen ist gut, aber Soft Skills sind auch wichtig.
+teamfähig	able to work in a team / здатний працювати в команді | Wir suchen neue Kollegen, die teamfähig sind.
+die Teamfähigkeit (Sg.)	ability to work in a team / вміння працювати в команді | Teamfähigkeit ist eine Grundvoraussetzung.
+die Umfrage, -n	survey, poll / опитування | Die Ergebnisse der Umfrage sind sehr interessant.
+wahrscheinlich	probable, probably / ймовірно | Es ist wahrscheinlich, що die Preise steigen будуть.
+Wert legen auf (+ Akk.)	to attach importance to / надавати значення | Wir legen Wert auf eine gute Zusammenarbeit.
+das Wissensmanagement (Sg.)	knowledge management / управління знаннями | Gutes Wissensmanagement spart viel Zeit.
+zuverlässig	reliable / надійний | Unser neuer Server є дуже надійним.
+die Zuverlässigkeit (Pl. selten)	reliability / надійність | Zuverlässigkeit steht bei uns an erster Stelle.
+der Arbeitsablauf, "-e	workflow / робочий процес | Wir müssen die Arbeitsabläufe optimieren.
+die Automatisierung (Sg.)	automation / автоматизація | Die Automatisierung führt zu weniger Handarbeit.
+etw. ein|führen	to introduce / запроваджувати | Wir wollen ein neues System zur Zeiterfassung einführen.
+die Einführung, -en	introduction / запровадження | Die Einführung der neuen Software war erfolgreich.
+etw. fern|steuern	to remote control / керувати дистанційно | Man kann die Heizung per App fernsteuern.
+das Fließband, "-er	conveyor belt / конвеєр | In der Autofabrik läuft alles am Fließband.
+die Informationstechnologie, -n	information technology (IT) / інформаційні технології | Er studiert Informationstechnologie in München.
+das Internet der Dinge (Sg.)	Internet of Things (IoT) / інтернет речей | Das Internet der Dinge verbindet Alltagsgeräte.
+der Sprachassistent, -en	voice assistant / голосовий помічник | Mein Sprachassistent versteht mich oft nicht.
+die Vernetzung, -en	networking / мережування, поєднання | Die Vernetzung der Geräte spart viel Energie.
+vielfältig	diverse, manifold / різноманітний | Die Einsatzmöglichkeiten sind sehr vielfältig.

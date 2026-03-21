@@ -1,0 +1,1457 @@
+der Absolvent, -en / die Absolventin, -nen	graduate / випускник | Als Absolvent einer IT-Akademie suche ich meinen ersten Job.
+sich anpassen an (+ Akk.)	to adapt to / пристосовуватися до, адаптуватися до | Wir müssen uns schnell an die neuen Technologien anpassen.
+der Arbeitsberater, - / die Arbeitsberaterin, -nen	employment counselor / консультант з працевлаштування | Der Arbeitsberater hilft mir, passende IT-Stellen zu finden.
+die Arbeitsteilung (Sg.)	division of labor / розподіл праці | Agile Softwareentwicklung funktioniert gut durch klare Arbeitsteilung.
+die Arbeitswelt (Sg.)	working world / світ праці, робоче середовище | Die digitale Arbeitswelt erfordert ständiges Lernen.
+aufgrund von (+ Dat.)	due to, based on / на підставі, через | Aufgrund von Serverproblemen ist die Webseite offline.
+die Bedeutung, -en	meaning, significance / значення, важливість | Datensicherheit hat in unserer Firma eine große Bedeutung.
+sich behaupten	to assert oneself, to hold one's own / зарекомендувати себе, відстоювати свої позиції | Als Junior Developer muss man sich im neuen Team erst behaupten.
+der Berufsweg, -e	career path / кар'єрний шлях | Mein Berufsweg in der IT begann als Support-Mitarbeiter.
+die Digitalisierung (Sg.)	digitalization / цифровізація | Die Digitalisierung verändert alle Prozesse im Unternehmen.
+sich einstellen auf (+ Akk.)	to prepare for, to adjust to / налаштовуватися на, готуватися до | Wir müssen uns auf ein stressiges Release am Freitag einstellen.
+erforderlich	required, necessary / необхідний | Für diese Position sind gute Kenntnisse in React erforderlich.
+etw. erwerben (erwirbt, erwarb, hat erworben)	to acquire / здобувати (напр. знання, навички) | Ich möchte in diesem Projekt neue Programmierkenntnisse erwerben.
+der Erwerbstätige, -n / die Erwerbstätige, -n	employed person / працюючий, людина, що має оплачувану роботу | Viele Erwerbstätige in der IT arbeiten im Home-Office.
+der Freiberufler, - / die Freiberuflerin, -nen	freelancer / фрилансер | Als Freiberufler entwickle ich Apps für verschiedene Kunden.
+die Globalisierung (Sg.)	globalization / глобалізація | Durch die Globalisierung arbeiten wir mit Entwicklern aus aller Welt.
+die Herausforderung, -en	challenge / виклик, складна задача | Die Server-Migration ist eine große technische Herausforderung.
+interkulturelle Kompetenz	intercultural competence / міжкультурна компетенція | Im internationalen Team ist interkulturelle Kompetenz sehr wichtig.
+der Klimawandel (Sg.)	climate change / зміна клімату | Green IT versucht, den Klimawandel durch energiesparende Server zu bremsen.
+die Kompetenz, -en	competence, skill / компетенція, навичка | Er hat eine hohe Kompetenz im Bereich Cloud-Computing.
+modernisieren	to modernize / модернізувати, оновлювати | Wir müssen unsere alte IT-Infrastruktur modernisieren.
+die Neuorientierung, -en	reorientation / переорієнтація | Nach fünf Jahren im Frontend brauche ich eine berufliche Neuorientierung ins Backend.
+sich niederlassen (lässt sich nieder, ließ sich nieder, hat sich niedergelassen)	to settle, to establish oneself / осісти, заснувати справу | Das Startup hat sich in Berlin niedergelassen.
+ökologisch	ecological / екологічний | Unsere Rechenzentren nutzen ökologischen Strom.
+das Pausengespräch, -e	break conversation / розмова під час перерви | Im Pausengespräch reden wir oft über neue Frameworks.
+die Technologie, -n	technology / технологія | Wir nutzen die neueste Technologie für unsere App.
+die Unterbrechung, -en	interruption / перерва, переривання | Ein Deployment ohne Unterbrechung (Zero Downtime) ist unser Ziel.
+das Unternehmen, -	company, enterprise / підприємство, компанія | Das IT-Unternehmen wächst sehr schnell.
+veralten	to become obsolete / outdated / застарівати | Dieser Code ist leider schon nach zwei Jahren veraltet.
+vertrauen auf (+ Akk.)	to trust in, to rely on / довіряти, покладатися на | Wir vertrauen auf das neue Backup-System.
+ambulant	outpatient, ambulatory / амбулаторний | Wir programmieren eine Software für ambulante Pflegedienste.
+das Berufsleben (Sg.)	professional life, career / професійне життя | Ein lebenslanges Lernen gehört zum Berufsleben in der IT.
+das Beschwerdemanagement (Sg.)	complaint management / управління скаргами | Das Beschwerdemanagement nutzt unser neues Ticket-System.
+der Betreuungsdienst, -e	care service, support service / служба догляду (або підтримки) | Der IT-Betreuungsdienst hilft den Usern bei Problemen.
+der Bildungsgutschein, -e	education voucher / ваучер на навчання | Mit dem Bildungsgutschein vom Jobcenter mache ich einen IT-Kurs.
+bisherig	previous / попередній, нинішній (до цього моменту) | Mein bisheriger Arbeitgeber hat keine Cloud genutzt.
+eingehende Post	incoming mail / вхідна пошта | Das Skript sortiert automatisch alle eingehende Post.
+die Fachkraft, "-e	skilled worker, specialist / кваліфікований спеціаліст | Es gibt einen großen Mangel an IT-Fachkräften in Deutschland.
+die Fördermöglichkeit, -en	funding opportunity / можливість фінансування | Startups suchen oft nach staatlichen Fördermöglichkeiten.
+geeignet für (+ Akk.)	suitable for / придатний для, підходящий | Diese Datenbank ist gut geeignet für große Datenmengen.
+die Haushaltsführung, -en	household management / ведення домашнього господарства | Unsere Smart-Home-App hilft bei der Haushaltsführung.
+die Hilfskraft, "-e	assistant, helper / помічник, допоміжний персонал | Wir suchen eine studentische Hilfskraft für den IT-Support.
+die Kenntnis, -se	knowledge / знання | Gute Kenntnisse in JavaScript sind für diesen Job Pflicht.
+Kenntnisse erwerben	to acquire knowledge / здобувати знання | Im Praktikum möchte ich praktische Kenntnisse erwerben.
+die Lagerliste, -n	inventory list, stock list / складський список | Die Datenbank aktualisiert die Lagerliste in Echtzeit.
+der Lagerlogistiker, - / die Lagerlogistikerin, -nen	warehouse logistician / спеціаліст зі складської логістики | Der Lagerlogistiker nutzt unser neues Barcode-System.
+der Lehrplan, "-e	curriculum / навчальний план | Docker steht im Lehrplan meines Coding-Bootcamps.
+der Pflegedienst, -e	nursing service / служба догляду | Wir digitalisieren die Akten für einen Pflegedienst.
+die Pflegeeinrichtung, -en	care facility / заклад догляду | Die Pflegeeinrichtung braucht ein neues Netzwerk.
+die Pflegekraft, "-e	caregiver, nurse / медпрацівник, доглядальник | Die Pflegekraft nutzt Tablets für die Dokumentation.
+das Pflegezertifikat, -e	care certificate / сертифікат з догляду | Für medizinische Software brauchen wir spezielle Pflegezertifikate.
+das Präsenzseminar, -e	in-person seminar / очний семінар | Ich lerne lieber online als in einem Präsenzseminar.
+der Produktionshelfer, - / die Produktionshelferin, -nen	production assistant / помічник на виробництві | Der Produktionshelfer bedient die Maschinen.
+sich qualifizieren	to qualify oneself / кваліфікуватися, підвищувати кваліфікацію | Ich möchte mich für die Position als Senior Developer qualifizieren.
+die Sachkenntnis, -se	expertise, factual knowledge / експертність, професійні знання | Für dieses Architektur-Muster braucht man viel Sachkenntnis.
+etw. vermitteln	to convey, to impart, to mediate / передавати (досвід), посередничати, працевлаштовувати | Ein guter Mentor kann komplexes Wissen gut vermitteln.
+zur Verfügung stehen	to be available / бути в розпорядженні, бути доступним | Der neue Server wird ab morgen zur Verfügung stehen.
+die Abfallvermeidung (Sg.)	waste prevention / уникнення відходів | Unser Büro legt großen Wert auf digitale Abfallvermeidung.
+der Anschluss, "-e	connection / підключення, зв'язок | Der Internetanschluss im neuen Büro ist sehr schnell.
+der Bereich, -e	area, field, department / відділ, сфера | Ich arbeite im Bereich Softwareentwicklung.
+die Betriebsbesichtigung, -en	company tour / екскурсія підприємством | Am ersten Tag gibt es eine Betriebsbesichtigung für neue Mitarbeiter.
+das Betriebsgelände (Sg.)	company grounds / територія підприємства | Auf dem Betriebsgelände gibt es kostenloses WLAN.
+etw. einführen	to introduce, to implement / впроваджувати, запроваджувати | Wir werden nächste Woche ein neues CRM-System einführen.
+die Energieeinsparung, -en	energy saving / енергозбереження | Die Energieeinsparung bei den neuen Servern ist enorm.
+der Entscheidungsspielraum, "-e	scope for decision-making / свобода прийняття рішень | In unserem Startup haben Entwickler viel Entscheidungsspielraum.
+etw. eröffnen	to open / відкривати | Die Firma wird einen neuen Standort in Berlin eröffnen.
+die Eröffnung, -en	opening / відкриття | Die Eröffnung des neuen Büros feiern wir am Freitag.
+die Erschließung (Sg.) (z. B. neuer Märkte)	development, opening up / освоєння (наприклад, нових ринків) | Die Erschließung des europäischen Marktes ist unser Ziel.
+etw. erweitern	to expand / розширювати | Wir müssen die Kapazität der Datenbank erweitern.
+die Fertigstellung (Sg.)	completion / завершення, готовність | Die Fertigstellung des Projekts ist für Mai geplant.
+die Filiale, -n	branch, subsidiary / філія, відділення | Die Firma eröffnet eine neue Filiale in München.
+eine flache Hierarchie	a flat hierarchy / плоска ієрархія (мало рівнів керівництва) | Startups haben meistens eine flache Hierarchie.
+das Geschäftsjahr, -e	financial year / фінансовий рік | Im letzten Geschäftsjahr hat das Unternehmen den Gewinn verdoppelt.
+das Gründungsdatum, -daten	founding date / дата заснування | Das Gründungsdatum unseres IT-Startups war im Jahr 2020.
+die Hierarchie, -n	hierarchy / ієрархія | In traditionellen Konzernen gibt es oft eine strenge Hierarchie.
+im Anschluss an (+ Akk.)	following, subsequent to / після, услід за (чимось) | Im Anschluss an das Meeting schreiben wir das Protokoll.
+das Mitspracherecht, -e	right to have a say / право голосу | Die Entwickler haben ein Mitspracherecht bei der Technologiewahl.
+nachhaltig	sustainable / сталий, екологічний | Wir wollen unsere Server-Infrastruktur nachhaltig gestalten.
+etw. präsentieren	to present / презентувати | Heute muss ich dem Kunden die neue App präsentieren.
+der Pressesprecher, - / die Pressesprecherin, -nen	press spokesperson / прес-секретар | Der Pressesprecher kündigt das neue Software-Release an.
+Produkte einführen	to introduce products / впроваджувати / випускати продукти | Wir wollen dieses Jahr drei neue digitale Produkte einführen.
+die Produktionsstätte, -n	production facility / виробниче приміщення, фабрика | Die Server-Hardware wird in einer Produktionsstätte in Asien gebaut.
+der Rundgang, "-e	tour (of a building) / обхід, екскурсія | Der Chef macht einen Rundgang durch die IT-Abteilung.
+das Sortiment, -e	assortment, range of products / асортимент | Unser Sortiment umfasst verschiedene Cloud-Lösungen.
+der Standort, -e	location, site / місцезнаходження, локація | Das Unternehmen sucht einen neuen Standort für das Rechenzentrum.
+die Terminbestätigung, -en	appointment confirmation / підтвердження зустрічі | Ich habe die Terminbestätigung für das Vorstellungsgespräch erhalten.
+etw. übernehmen	to take over, to assume / переймати, брати на себе | Ich werde die Betreuung der Datenbank übernehmen.
+der Umsatz, "-e	revenue, turnover / оборот, виручка | Der E-Commerce-Shop macht einen sehr hohen Umsatz.
+die Unternehmensgeschichte, -n	company history / історія компанії | Die Unternehmensgeschichte begann in einer kleinen Garage.
+die Verkaufsfläche, -n	sales area / торгова площа | Ein Online-Shop braucht keine physische Verkaufsfläche.
+das Verkaufsgespräch, -e	sales talk, sales pitch / комерційна бесіда, переговори про продаж | Der IT-Berater führt ein Verkaufsgespräch mit dem neuen Kunden.
+das Zentrallager, -	central warehouse / центральний склад | Die Hardware wird vom Zentrallager aus verschickt.
+das Zweigwerk, -e	branch factory / філія заводу | Das IT-Unternehmen hat ein Zweigwerk in Osteuropa.
+etw. anordnen	to order, to arrange, to instruct / наказувати, розпоряджатися, впорядковувати | Der Vorgesetzte kann Überstunden anordnen.
+das Controlling (Sg.)	controlling, management accounting / контролінг, фінансове управління | Das Controlling überprüft das Budget für die neue Software.
+die Finanzabteilung, -en	finance department / фінансовий відділ, бухгалтерія | Die Finanzabteilung überweist das Gehalt pünktlich.
+die Fläche, -n	area, surface / площа | Wir mieten eine größere Bürofläche für die Entwickler.
+die Forschung & Entwicklung (Sg.)	research & development (R&D) / дослідження та розробка | Unser Team arbeitet in der Forschung & Entwicklung für KI.
+die Geschäftsleitung, -en	management, executive board / керівництво (компанії) | Die Geschäftsleitung hat die neuen Ziele präsentiert.
+der Hauptbereich, -e	main area, core department / головний напрямок, основний відділ | Der Hauptbereich unseres Unternehmens ist die Webentwicklung.
+die Haustechnik (Sg.)	building services, technical facilities / технічне обслуговування будівлі | Die Haustechnik muss die Klimaanlage im Serverraum reparieren.
+die Herstellung (Sg.)	production, manufacturing / виробництво, виготовлення | Die Herstellung der Chips dauert mehrere Monate.
+die Hierarchieebene, -n	hierarchical level / рівень ієрархії | Es gibt nur drei Hierarchieebenen in unserem Startup.
+das Lager, -	warehouse, storage / склад | Die Ersatzteile für die Server liegen im Lager.
+etw. leiten	to lead, to manage, to head / керувати, очолювати | Sie wird das neue IT-Projekt leiten.
+das Marketing (Sg.)	marketing / маркетинг | Das Marketing bewirbt unser neues Software-Produkt.
+die Marktuntersuchung, -en	market research / дослідження ринку | Die Marktuntersuchung zeigt, dass User eine Dark-Mode-Option wollen.
+die Mitarbeiterzahl, -en	number of employees / кількість співробітників | Die Mitarbeiterzahl ist in diesem Jahr auf 50 Entwickler gestiegen.
+die Öffentlichkeitsarbeit (Sg.)	public relations (PR) / зв'язки з громадськістю, PR | Die Öffentlichkeitsarbeit kümmert sich um unseren Tech-Blog.
+das Organigramm, -e	organizational chart / організаційна схема (структура компанії) | Das Organigramm zeigt, wer wem im Team berichtet.
+das Produktionsverfahren, -	production process / виробничий процес | Wir haben ein automatisiertes Produktionsverfahren für Code-Releases.
+die Qualitätssicherung (Sg.)	quality assurance (QA) / забезпечення якості (QA) | Die Qualitätssicherung testet die App vor dem Launch.
+die Rechtsabteilung, -en	legal department / юридичний відділ | Die Rechtsabteilung prüft die Software-Lizenzen.
+die Spitze, -n	top, peak / верхівка, керівництво | Er steht an der Spitze der IT-Abteilung.
+an der Spitze von (+ Dat.)	at the top of, heading / на чолі | An der Spitze von unserem Team steht ein erfahrener Scrum Master.
+untergeordnet	subordinate / підлеглий | Das QA-Team ist der Entwicklungsabteilung nicht untergeordnet.
+untergliedert	subdivided / підрозділений | Das IT-Department ist in Frontend und Backend untergliedert.
+unterteilt	divided / поділений | Das Projekt ist in mehrere Sprints unterteilt.
+die Verkaufsförderung (Sg.)	sales promotion / стимулювання збуту | Die Verkaufsförderung plant Rabatte für unsere Software.
+der Vertrieb (Sg.)	sales, distribution / збут, відділ продажів | Der Vertrieb verkauft unsere Lizenzen an große Firmen.
+die Verwaltung, -en	administration / адміністрація, управління | Die System-Verwaltung kümmert sich um die Server-Rechte.
+etw. zuordnen zu (+ Dat.)	to assign to, to allocate to / призначати, відносити, класифікувати | Dieses Ticket müssen wir dem Backend-Team zuordnen.
+die Zuständigkeit, -en	responsibility, competence / компетенція, сфера відповідальності | Das Deployment fällt in die Zuständigkeit der DevOps-Engineers.
+die Anrede, -n	form of address / звертання (на початку листа/розмови) | In formellen E-Mails nutzen wir die Anrede "Sehr geehrte Damen und Herren".
+distanzlos	overfamiliar, lack of distance / без дотримання дистанції, фамільярний | Es wirkt unprofessionell und distanzlos, wenn man den Kunden sofort duzt.
+das Du (Sg.)	informal "you" / звертання на "ти" | In vielen Tech-Firmen ist das "Du" der Standard.
+sich duzen	to be on first-name terms / звертатися на "ти" | In unserem Entwickler-Team duzen sich alle.
+der Kompromiss, -e	compromise / компроміс | Wir haben einen guten Kompromiss für das API-Design gefunden.
+einen Kompromiss finden	to find a compromise / знайти компроміс | Bei der Technologiewahl mussten wir einen Kompromiss finden.
+etw./jdn. respektieren	to respect / поважати | Im Code Review müssen wir die Arbeit der Kollegen respektieren.
+das Sie (Sg.)	formal "you" / звертання на "Ви" | Bei offiziellen Behörden benutzt man immer das "Sie".
+sich siezen	to be on formal terms / звертатися на "Ви" | Mit den Bankkunden müssen wir uns noch siezen.
+jdm. das Du anbieten (bietet an, bot an, hat angeboten)	to offer to use "du" (first-name terms) / запропонувати перейти на "ти" | Der Chef hat mir nach der Probezeit das Du angeboten.
+die Arbeitslosenquote, -n	unemployment rate / рівень безробіття | Die Arbeitslosenquote in der IT-Branche ist relativ gering.
+auffallen (fällt auf, fiel auf, ist aufgefallen)	to stand out, to be noticeable / впадати в око, виділятися | Der saubere Code ist mir beim Review sofort aufgefallen.
+das Baugewerbe (Sg.)	construction industry / будівельна галузь | Wir entwickeln eine Projektmanagement-Software für das Baugewerbe.
+etw. bearbeiten	to process, to edit / обробляти, редагувати | Das Backend muss diese großen Datenmengen sehr schnell bearbeiten.
+etw./jdn. beaufsichtigen	to supervise, to oversee / наглядати, контролювати | Der Senior Developer muss die neuen Praktikanten beaufsichtigen.
+befristet	temporary, fixed-term / строковий (про договір), тимчасовий | Mein erster IT-Vertrag war leider nur auf ein Jahr befristet.
+der Beschäftigte, -n / die Beschäftigte, -n	employee / працівник, співробітник | Das Startup hat mittlerweile über 50 Beschäftigte.
+etw./jdn. betreuen	to look after, to support, to manage / обслуговувати, супроводжувати, керувати | Unser DevOps-Team muss die Server-Infrastruktur rund um die Uhr betreuen.
+die Branche, -n	industry, sector / галузь, сфера | Die IT-Branche entwickelt sich extrem schnell weiter.
+die Dienstleistung, -en	service / послуга | Cloud-Computing (SaaS) ist heute eine sehr gefragte Dienstleistung.
+die Finanzbranche (Sg.)	financial sector / фінансовий сектор | Datensicherheit ist das wichtigste Thema in der Softwareentwicklung für die Finanzbranche.
+der Fluggerätemechaniker, - / die Fluggerätemechanikerin, -nen	aircraft mechanic / авіамеханік | Der Fluggerätemechaniker nutzt Diagnose-Software für die Flugzeuge.
+das Gastgewerbe (Sg.)	hospitality industry / готельно-ресторанний бізнес | Wir programmieren ein neues digitales Kassensystem für das Gastgewerbe.
+das Gesundheitswesen (Sg.)	healthcare system / система охорони здоров'я | Die Digitalisierung im Gesundheitswesen ist eine große Herausforderung in Deutschland.
+das Gewerbe (Sg.)	trade, business, industry / промисел, бізнес, підприємництво | Er hat ein eigenes Gewerbe als freiberuflicher IT-Berater angemeldet.
+die Gleitzeit (Sg.)	flextime, flexible working hours / гнучкий графік роботи | Dank Gleitzeit kann ich morgens etwas später anfangen zu programmieren.
+der Handel (Sg.)	trade, commerce / торгівля | Der Online-Handel (E-Commerce) braucht ständig neue Software-Lösungen.
+das Handwerk (Sg.)	craft, trade / ремесло | Gutes Programmieren ist nicht nur Wissenschaft, sondern auch ein echtes Handwerk.
+hervorgehen aus (+ Dat.) (geht hervor, ging hervor, ist hervorgegangen)	to emerge from, to follow from / випливати з, походити з | Aus dem Fehler-Log geht hervor, dass der Server überlastet war.
+das Homeoffice (Sg.)	home office, working from home / робота з дому | Als Softwareentwickler arbeite ich drei Tage pro Woche im Homeoffice.
+Hotel und Gastronomie (Sg.)	hotel and catering industry / готельно-ресторанна сфера | Diese App richtet sich an Kunden aus dem Bereich Hotel und Gastronomie.
+die IT-Branche (Sg.)	IT industry / ІТ-галузь | In der IT-Branche gibt es momentan sehr viele offene Stellen für Entwickler.
+kaufmännisch	commercial, business / комерційний, торговельний | Der IT-Systemkaufmann kümmert sich um die kaufmännischen Aspekte des Projekts.
+die Konjunktur (Sg.)	economic situation, boom / економічна ситуація, кон'юнктура | Trotz schwacher Konjunktur suchen Firmen weiterhin händeringend IT-Spezialisten.
+die Lagerlogistik (Sg.)	warehouse logistics / складська логістика | Wir entwickeln eine Scanner-App für die Lagerlogistik.
+die Land- und Forstwirtschaft (Sg.)	agriculture and forestry / сільське та лісове господарство | Smarte Sensoren digitalisieren zunehmend die Land- und Forstwirtschaft.
+etw. nahelegen (legt nahe, legte nahe, hat nahegelegt)	to suggest (e.g., a conclusion) / наводити на думку, підказувати | Die Fehlermeldung legt den Schluss nahe, dass die Datenbank down ist.
+das Pflegeheim, -e	nursing home / будинок престарілих | Wir richten das sichere WLAN-Netzwerk im neuen Pflegeheim ein.
+produzierendes Gewerbe	manufacturing industry / виробнича промисловість | Das produzierende Gewerbe braucht dringend neue Automatisierungssoftware.
+die Reservierung, -en	reservation / бронювання | Unser Backend verarbeitet Tausende Reservierungen pro Minute.
+die Schichtarbeit (Sg.)	shift work / позмінна робота | In der 24/7 Server-Überwachung ist Schichtarbeit ganz normal.
+der Server, -	server / сервер | Die Web-Applikation läuft stabil auf einem Linux-Server in Frankfurt.
+sozialversicherungspflichtig	subject to social security contributions / який підлягає соціальному страхуванню | Mein neuer Job als Frontend-Entwickler ist sozialversicherungspflichtig.
+stabil	stable / стабільний | Die neue Microservice-Architektur ist sehr stabil und stürzt nicht ab.
+die Teilzeit (Sg.)	part-time / неповний робочий день | Ich arbeite momentan in Teilzeit, um mehr Zeit zum Deutschlernen zu haben.
+etw. überwachen	to monitor, to supervise / контролювати, здійснювати моніторинг | Wir nutzen Datadog, um unsere Server in Echtzeit zu überwachen.
+etw. verwalten	to manage, to administer / управляти, адмініструвати | Als Sysadmin muss ich die Zugriffsrechte aller User verwalten.
+die Vollzeit (Sg.)	full-time / повний робочий день | Ich suche nach dem Kurs eine Festanstellung in Vollzeit.
+der Vollzeitjob, -s	full-time job / робота на повний робочий день | Ein Vollzeitjob in der deutschen IT bedeutet meistens 40 Stunden pro Woche.
+etw. warten (z. B. eine Maschine)	to maintain (e.g., equipment) / обслуговувати технічно | Wir müssen die Datenbank-Server regelmäßig am Wochenende warten.
+die Wirtschaftsbranche (Sg.)	economic sector / економічна галузь | Die IT ist eine der am schnellsten wachsenden Wirtschaftsbranchen.
+etw. zubereiten	to prepare (food) / готувати (їжу) | Die smarte Büro-Kaffeemaschine kann den Espresso per App-Befehl zubereiten.
+die Zuverlässigkeit (Sg.)	reliability / надійність | Zuverlässigkeit ist bei einem Cloud-Backup-System das Wichtigste.
+etw./jdn. abfertigen	to dispatch, to process, to handle / обслуговувати, оформляти | Die Software hilft, die Anfragen (Requests) im Server schneller abzufertigen.
+die Arbeitsstätte, -n	workplace, place of work / робоче місце | Mein Homeoffice ist vertraglich meine offizielle Arbeitsstätte.
+etw. beschreiben (beschreibt, beschrieb, hat beschrieben)	to describe / описувати | Bitte beschreiben Sie den Bug im Jira-Ticket so genau wie möglich.
+etw. betreiben (betreibt, betrieb, hat betrieben)	to operate, to run / експлуатувати, керувати | Wir betreiben unsere eigenen Server in einem sicheren Rechenzentrum.
+das Bodenpersonal (Sg.)	ground staff / наземний персонал | Das Bodenpersonal am Flughafen nutzt unsere Tablet-App zur Kommunikation.
+der Check-in (Sg.)	check-in / реєстрація | Das System für den Online-Check-in funktioniert leider gerade nicht.
+jdn. einstellen	to hire, to employ / наймати на роботу | Die Tech-Firma möchte dieses Jahr 20 neue Entwickler einstellen.
+der Einzelhandel (Sg.)	retail / роздрібна торгівля | Wir entwickeln eine moderne E-Commerce-Plattform für den Einzelhandel.
+der Fluglotse, -n / die Fluglotsin, -nen	air traffic controller / авіадиспетчер | Der Fluglotse verlässt sich auf hochkomplexe Echtzeit-Software.
+die Flugzeugabfertigung (Sg.)	aircraft handling / наземне обслуговування літаків | Unsere Sensoren optimieren die Flugzeugabfertigung am Terminal.
+die Gepäckabfertigung (Sg.)	baggage handling / обробка багажу | Das IT-System für die Gepäckabfertigung ist durch einen Bug ausgefallen.
+die Gewerkschaft, -en	trade union / профспілка | Es gibt in Deutschland auch eine Gewerkschaft, die IT-Mitarbeiter vertritt.
+etw. gründen	to found, to establish / засновувати | Ich möchte nach dem Kurs mein eigenes IT-Startup gründen.
+das Handgepäck (Sg.)	hand luggage, carry-on baggage / ручна поклажа | Mein Firmenlaptop muss bei der Sicherheitskontrolle aus dem Handgepäck.
+die Hygiene (Sg.)	hygiene / гігієна | Cyber-Hygiene (wie das regelmäßige Ändern von Passwörtern) ist extrem wichtig.
+die Logistik (Sg.)	logistics / логістика | Wir programmieren eine KI-basierte Routing-Software für die Logistik.
+die Luftfracht (Sg.)	air freight, air cargo / авіаперевезення, авіавантаж | Die Daten zur Luftfracht werden in unserer Cloud synchronisiert.
+der Passagier, -e / die Passagierin, -nen	passenger / пасажир | Jeder Passagier bekommt automatisiert eine E-Mail mit dem QR-Code.
+der Quereinsteiger, - / die Quereinsteigerin, -nen	career changer / світчер, людина, що змінила професію | Viele gute Programmierer sind Quereinsteiger ohne Informatik-Studium.
+die Spedition, -en	freight forwarding company / експедиторська компанія, служба доставки | Die Spedition nutzt unser Tracking-System für ihre LKWs.
+etw. umbauen	to rebuild, to modify / перебудовувати, реконструювати, переробляти | Wir müssen die Architektur der App komplett umbauen (Refactoring).
+etw. umfassen	to include, to comprise / охоплювати, включати | Das neue Software-Update wird viele coole Features umfassen.
+etw./jdn. vertreten (vertritt, vertrat, hat vertreten)	to represent, to substitute / представляти, заміняти (когось) | Ich muss meinen Teamlead heute im Daily-Meeting vertreten.
+das Arbeitsmittel, -	work equipment, tool / засіб праці, робочий інструмент | Ein leistungsstarker Laptop und zwei Monitore sind meine wichtigsten Arbeitsmittel.
+der Arbeitsschutz (Sg.)	occupational safety, health and safety / охорона праці | Die strengen Regeln zum Arbeitsschutz gelten auch im Serverraum.
+etw. befolgen	to follow, to obey / дотримуватися, виконувати (правила) | Wir müssen die Sicherheitsrichtlinien (Security Policies) der Firma strikt befolgen.
+etw./jdn. behindern	to hinder, to obstruct / перешкоджати, заважати | Ein langsamer Server darf den Entwicklungsprozess nicht behindern.
+etw. betätigen (z. B. den Brandmelder)	to operate, to press / приводити в дію, натискати | Im Notfall müssen Sie den roten Knopf betätigen, um den Strom abzuschalten.
+der Brandmelder, -	fire alarm, smoke detector / пожежний сповіщувач | Der Brandmelder im Rechenzentrum hat wegen Überhitzung Alarm geschlagen.
+der Brandschutz (Sg.)	fire protection / пожежна безпека | Die neuen Server-Racks entsprechen den strengsten Vorgaben für den Brandschutz.
+das Brandschutzzeichen, -	fire safety sign / знак пожежної безпеки | Das rote Brandschutzzeichen zeigt, wo der Feuerlöscher im Flur hängt.
+dreieckig	triangular / трикутний | Warnschilder sind in Deutschland meistens gelb und dreieckig.
+etw. einschlagen (schlägt ein, schlug ein, hat eingeschlagen)	to smash, to break in / розбивати (скло) | Im Notfall müssen Sie die Glasscheibe einschlagen, um an den Schlüssel zu kommen.
+etw. entsorgen	to dispose of / утилізувати | Alte Festplatten müssen sicher und datenschutzkonform entsorgt werden.
+der Feuerlöscher, -	fire extinguisher / вогнегасник | Im Serverraum darf man auf keinen Fall einen Wasser-Feuerlöscher benutzen!
+der Feuermelder, -	fire alarm / пожежна сигналізація | Bei starker Rauchentwicklung löst der Feuermelder sofort aus.
+der Flucht- und Rettungsweg, -e	escape and rescue route / шлях евакуації | Der Flucht- und Rettungsweg im IT-Büro darf nie mit Kartons blockiert sein.
+etw. freihalten (hält frei, hielt frei, hat freigehalten)	to keep clear / тримати вільним (прохід) | Bitte den Zugang zu den Server-Racks immer freihalten.
+das Gebotszeichen, -	mandatory sign / приписний знак (обов'язкова дія) | Das blaue Gebotszeichen bedeutet, dass man im Labor eine Schutzbrille tragen muss.
+die Glasscheibe, -n	glass pane / шибка, скляна панель | Hinter der kleinen Glasscheibe befindet sich der Not-Aus-Schalter für den Strom.
+hinweisen auf (+ Akk.) (weist hin, wies hin, hat hingewiesen)	to point out, to refer to / вказувати на | Das Monitoring-Tool weist uns auf kritische Speicherprobleme hin.
+das Hinweisschild, -er	information sign / інформаційна табличка | Ein Hinweisschild auf dem Gang zeigt den Weg zum IT-Support.
+etw. löschen	to extinguish (fire), to delete (data) / гасити (пожежу), видаляти (дані) | Du darfst diese wichtige Datenbank-Tabelle auf keinen Fall löschen!
+der Notausgang, "-e	emergency exit / аварійний вихід | Der Notausgang ist durch ein leuchtend grünes Schild markiert.
+die Pflicht, -en	duty, obligation / обов'язок | Es ist unsere Pflicht, den Code vor dem Release gründlich zu testen.
+quadratisch	square / квадратний | Das UI-Icon für die neue App ist quadratisch mit abgerundeten Ecken.
+das Rettungszeichen, -	rescue sign, emergency sign / знак евакуації/порятунку | Rettungszeichen sind meistens grün und rechteckig.
+die Schutzausrüstung, -en	protective equipment / захисне спорядження | Beim Einbau von schweren Servern braucht man manchmal Schutzausrüstung.
+die Schutzbrille, -n	safety goggles / захисні окуляри | Beim Löten der Hardware-Platinen muss man eine Schutzbrille tragen.
+etw./jdn. schützen	to protect / захищати | Eine gut konfigurierte Firewall schützt unser internes Netzwerk vor Hackern.
+der Schutzhelm, -e	safety helmet, hard hat / захисний шолом, каска | Auf der Baustelle für das neue Rechenzentrum ist ein Schutzhelm absolute Pflicht.
+der Sicherheitshinweis, -e	safety instruction/warning / вказівка щодо безпеки | Bitte lesen Sie den Sicherheitshinweis, bevor Sie den Server aufschrauben.
+der Sicherheitsschuh, -e	safety shoe / захисне взуття | Techniker tragen im Data Center oft Sicherheitsschuhe, falls Hardware herunterfällt.
+die Sicherheitsvorschrift, -en	safety regulation / правило техніки безпеки | Das Mitbringen von privaten USB-Sticks verstößt gegen unsere Sicherheitsvorschriften.
+die Stolpergefahr, -en	tripping hazard / небезпека спотикання | Offene Netzwerkkabel am Boden sind eine große Stolpergefahr im Büro.
+die Straßenverkehrsordnung (Sg.)	traffic regulations / правила дорожнього руху | Die KI für autonome Autos muss die deutsche Straßenverkehrsordnung perfekt kennen.
+das Verbotsschild, -er	prohibition sign / заборонний знак | Ein rotes Verbotsschild bedeutet, dass der Zutritt zum Serverraum für Unbefugte verboten ist.
+das Verbotszeichen, -	prohibition sign / заборонний знак | Das Verbotszeichen zeigt an, dass man hier weder essen noch trinken darf.
+etw. vermeiden (vermeidet, vermied, hat vermieden)	to avoid / уникати | Wir müssen redundanten Code im Projekt unbedingt vermeiden (DRY-Prinzip).
+die Verordnung, -en	regulation, decree / постанова, розпорядження | Die Datenschutz-Grundverordnung (DSGVO) ändert sehr viel für Software-Entwickler.
+verpflichtet	obliged, bound / зобов'язаний | Wir sind vertraglich verpflichtet, alle Benutzerdaten sicher zu verschlüsseln.
+etw. verstauen	to stow, to store / ховати, укладати, зберігати | Ich muss die vielen Kabel ordentlich im Rack verstauen.
+das Warnzeichen, -	warning sign / попереджувальний знак | Ein Warnzeichen im Compiler zeigt an, dass dieser Code bald veraltet (deprecated) ist.
+der Ablauf, "-e	process, sequence, flow / процес, хід подій | Wir müssen den Ablauf für das automatisierte Deployment (CI/CD) optimieren.
+arbeitsunfähig	incapable of working, unfit for work / непрацездатний | Wegen einer starken Grippe bin ich diese Woche leider arbeitsunfähig.
+ausrutschen (rutscht aus, rutschte aus, ist ausgerutscht)	to slip / посковзнутися | Pass auf, dass du auf dem nassen Boden in der Büroküche nicht ausrutschst.
+die Berufsgenossenschaft, -en	employers' liability insurance association / профспілка страховиків від нещасних випадків на виробництві | Ein Arbeitsunfall muss sofort der Berufsgenossenschaft gemeldet werden.
+beteiligt an (+ Dat.)	involved in / причетний до, бере участь у | An diesem großen IT-Projekt sind drei verschiedene Teams beteiligt.
+das Detail, -s	detail / деталь, подробиця | Wir müssen noch ein kleines technisches Detail in der API-Dokumentation klären.
+das Ereignis, -se	event, occurrence / подія | Das Log-System (wie ELK-Stack) zeichnet jedes wichtige Ereignis im System auf.
+glatt	smooth, slippery / гладкий, слизький | Das neue Design der Benutzeroberfläche (UI) sieht sehr modern und glatt aus.
+das Kabel, -	cable, wire / кабель, провід | Das Netzwerkkabel am Router ist leider defekt und muss getauscht werden.
+sich (etw.) quetschen	to squeeze, to bruise (oneself) / защемити (собі щось), прищемити | Er hat sich beim Einbauen des schweren Servers den Finger gequetscht.
+Ruhe bewahren	to keep calm / зберігати спокій | Wenn der Produktions-Server abstürzt, müssen wir als DevOps-Team Ruhe bewahren.
+rutschig	slippery / слизький | Vorsicht, der frisch gewischte Boden vor dem Büro ist sehr rutschig.
+sachlich	factual, objective / об'єктивний, предметний | Die Diskussion beim Code Review sollte immer sachlich und professionell bleiben.
+der Schaden, "-	damage, harm / шкода, збиток | Ein Hackerangriff kann einen enormen finanziellen Schaden verursachen.
+etw. schildern	to describe, to depict / описувати, змальовувати | Können Sie den Software-Fehler genauer schildern, damit ich ihn reproduzieren kann?
+der Schlauch, "-e	hose, tube / шланг | Die Server-Wasserkühlung braucht dringend einen neuen Schlauch.
+stolpern	to stumble, to trip / спотикатися | Jemand könnte über dieses herumliegende Stromkabel stolpern.
+sich (etw.) verbrennen (verbrennt, verbrannte, hat verbrannt)	to burn (oneself) / обпектися | Die CPU wird unter Last extrem heiß, pass auf, dass du dich nicht verbrennst.
+das Verhalten (Sg.)	behavior / поведінка | Wir analysieren das Verhalten der User auf unserer neuen Web-Plattform.
+die Vorsichtsmaßnahme, -n	precaution, precautionary measure / запобіжний захід | Regelmäßige Backups in der Cloud sind eine sehr wichtige Vorsichtsmaßnahme.
+der Zeuge, -n / die Zeugin, -nen	witness / свідок | Er war leider Zeuge des Arbeitsunfalls im Rechenzentrum.
+etw. behaupten	to claim, to assert / стверджувати | Der Entwickler behauptet, dass dieser Bug in der neuen Version bereits gefixt ist.
+etw./jdn. beobachten	to observe, to monitor / спостерігати, стежити | Wir beobachten die Ladezeiten der App genau, um sie zu optimieren.
+entscheidend	crucial, decisive / вирішальний | Eine saubere Software-Architektur ist entscheidend für den langfristigen Erfolg.
+die Geldsorgen (Pl.)	money worries, financial problems / фінансові проблеми | Als gefragter Senior Developer in Deutschland hat man meistens keine Geldsorgen.
+gemütlich	comfortable, cozy / затишний, комфортний | Unser neues IT-Büro hat eine sehr gemütliche Lounge für die Pausen.
+die Geselligkeit (Sg.)	sociability, conviviality / товариськість, компанійність | Nach einem erfolgreichen Release pflegen wir die Geselligkeit bei einem Team-Event (Pizza & Bier).
+das Grundbedürfnis, -se	basic need / базова потреба | Schnelles und stabiles Internet ist für Remote-Arbeit ein absolutes Grundbedürfnis.
+die Partnerschaft, -en	partnership / партнерство | Unsere IT-Firma ist eine strategische Partnerschaft mit AWS eingegangen.
+das Wohlbefinden (Sg.)	well-being / добробут, самопочуття | Das Wohlbefinden der Entwickler (z.B. durch gute Hardware) ist für das Startup wichtig.
+die Zufriedenheit (Sg.)	satisfaction / задоволеність | Die Zufriedenheit der Kunden mit dem neuen Feature ist stark gestiegen.
+der Arbeitsvertrag, "-e	employment contract / трудовий договір | Ich habe meinen neuen Arbeitsvertrag als Entwickler unterschrieben.
+der Aushang, "-e	notice, poster / оголошення, афіша | Ich habe das Jobangebot für Software-Tester durch einen Aushang gefunden.
+aussagekräftig	meaningful, expressive / змістовний, переконливий | Dein GitHub-Profil ist sehr aussagekräftig für deine Coding-Skills.
+etw. beinhalten	to contain, to include / містити в собі, охоплювати | Das neue Software-Update wird viele Bugfixes beinhalten.
+das BIZ (Berufsinformationszentrum) (Sg.)	career information center / центр профорієнтації | Das BIZ hilft auch Quereinsteigern beim Start in die IT.
+die Chancengleichheit, -en	equal opportunity / рівні можливості | Chancengleichheit im Tech-Team ist unserem Unternehmen sehr wichtig.
+etw. entwickeln	to develop / розробляти | Wir entwickeln eine neue Cloud-Lösung für B2B-Kunden.
+der (medizinische) Fortschritt (Sg.)	(medical) progress / (медичний) прогрес | Künstliche Intelligenz beschleunigt den medizinischen Fortschritt enorm.
+ein inklusiver Arbeitsplatz	inclusive workplace / інклюзивне робоче місце | Unsere Tech-Firma fördert einen modernen und inklusiven Arbeitsplatz.
+innovativ	innovative / інноваційний | Wir arbeiten an einer innovativen App-Architektur.
+die Jobmesse, -n	job fair / ярмарок вакансій | Auf der IT-Jobmesse habe ich viele nützliche Kontakte geknüpft.
+der Labormitarbeiter, - / die Labormitarbeiterin, -nen	laboratory worker / співробітник лабораторії | Der Labormitarbeiter testet die neue Hardware-Komponente.
+die Messmethode, -n	measurement method / метод вимірювання | Wir nutzen eine neue Messmethode für die Server-Performance.
+das Netzwerk, -e	network / мережа | Ein gutes Netzwerk auf LinkedIn ist wichtig für die Jobsuche.
+die Online-Jobbörse, -n	online job board / онлайн-біржа праці | Ich suche auf einer Online-Jobbörse nach Remote-Jobs.
+das Online-Stellenportal, -e	online job portal / онлайн-портал вакансій | StepStone ist ein bekanntes Online-Stellenportal in Deutschland.
+das Pharmaunternehmen, -	pharmaceutical company / фармацевтична компанія | Das Pharmaunternehmen sucht IT-Experten für die Datenanalyse (Big Data).
+die Qualitätskontrolle, -n	quality control / контроль якості | Die QA (Qualitätskontrolle) prüft den Code vor dem Release.
+etw. recherchieren	to research / досліджувати, шукати інформацію | Ich muss die beste API-Lösung für unser Projekt recherchieren.
+sorgfältig	careful(ly), diligent(ly) / ретельний, акуратний | Programmierer müssen beim Unit-Testing sehr sorgfältig sein.
+soziale Netzwerke (Pl.)	social networks / соціальні мережі | Wir teilen das Jobangebot für Entwickler auch über soziale Netzwerke.
+die Sozialleistung, -en	social benefit / соціальна виплата, пільга від компанії | Dieses IT-Startup bietet sehr gute Sozialleistungen für Mitarbeiter.
+die Stellenbörse, -n	job market, job exchange / біржа праці, ринок вакансій | Stack Overflow hatte früher eine eigene Stellenbörse für Coder.
+das Stellengesuch, -e	job request, job application / заява про пошук роботи | Ich habe mein Stellengesuch als DevOps-Engineer online gestellt.
+die Stellensuche (Sg.)	job search / пошук роботи | Meine Stellensuche in der Tech-Branche war nach zwei Wochen erfolgreich.
+umfangreich	extensive, comprehensive / об'ємний, великий, розлогий | Diese API hat eine sehr umfangreiche Dokumentation.
+unbefristet	unlimited, permanent / безстроковий | Ich suche einen unbefristeten Arbeitsvertrag als Fullstack-Developer.
+die Vergütung, -en	compensation, remuneration / оплата праці, винагорода | Die finanzielle Vergütung für Senior Entwickler ist sehr attraktiv.
+etw. verlangen	to demand, to require / вимагати | Der Job verlangt sehr gute Kenntnisse in React und Node.js.
+die Voraussetzung, -en	prerequisite, requirement / передумова, вимога | Gute Englischkenntnisse sind eine absolute Voraussetzung für das IT-Team.
+die Webseite, -n	website / вебсайт | Wir müssen das Design unserer Webseite dringend aktualisieren.
+der Abschluss, "-e	degree, graduation / закінчення (навчального закладу), диплом | Mein Abschluss in Informatik hilft mir bei der Jobsuche.
+etw. auswerten	to evaluate, to analyze / оцінювати, аналізувати | Wir müssen die Log-Dateien des Servers auswerten, um den Fehler zu finden.
+begeistert von (+ Dat.)	enthusiastic about / у захваті від | Ich bin sehr begeistert von den neuen Features in TypeScript 5.
+der Bildungsweg, -e	educational path / освітній шлях, шлях отримання освіти | Mein Bildungsweg umfasst ein Coding Bootcamp und ein Studium.
+die Daten (Pl.)	data / дані | Wir müssen die persönlichen Daten unserer User sicher verschlüsseln.
+etw. dokumentieren	to document / документувати | Als Entwickler müssen wir unseren Quellcode sauber dokumentieren.
+eigenverantwortlich	independent(ly), responsible / під власну відповідальність, самостійний | Im Homeoffice arbeite ich sehr eigenverantwortlich.
+die Fähigkeit, -en	ability, skill / навичка, здатність | Schnelle Problemlösung ist eine wichtige Fähigkeit für IT-Spezialisten.
+fehlerfrei	flawless, error-free / безпомилковий | Mein Ziel ist es, skalierbaren und fehlerfreien Code zu schreiben.
+jdn. hinweisen auf (+ Akk.) (weist hin, wies hin, hat hingewiesen)	to point out to / вказувати комусь на щось | Der Compiler weist den Entwickler auf Syntax-Fehler hin.
+etw. hinzufügen zu (+ Dat.) (fügt hinzu, fügte hinzu, hat hinzugefügt)	to add to / додавати до | Ich möchte dieses Projekt-Repository zu meinem GitHub-Profil hinzufügen.
+die Korrektheit (Sg.)	correctness / правильність, коректність | Die QA testet die funktionale Korrektheit der Software.
+persönliche Daten (Pl.)	personal data / персональні дані | Die DSGVO schützt persönliche Daten im Internet.
+die Praxis- und Berufserfahrung, -en	practical and professional experience / практичний та професійний досвід | Ich habe fünf Jahre Praxis- und Berufserfahrung als Sysadmin.
+selbstständig	independent, autonomous / самостійний, незалежний | Ich kann dieses Jira-Ticket komplett selbstständig bearbeiten.
+die Stellenausschreibung, -en	job advertisement / оголошення про вакансію | Die Stellenausschreibung passt perfekt zu meinem technischen Profil.
+verfügen über (+ Akk.)	to possess, to have at one's disposal / володіти, мати в розпорядженні | Sie verfügen über exzellente Kenntnisse im Bereich Cloud-Computing.
+vertraut mit (+ Dat.)	familiar with / обізнаний з, знайомий з | Ich bin sehr vertraut mit agilen Methoden wie Scrum und Kanban.
+die Vollständigkeit (Sg.)	completeness / повнота, цілісність | Wir prüfen die Vollständigkeit der Datenbank nach der Migration.
+die Weiterbildung, -en	further education, training / підвищення кваліфікації | Ich mache eine Weiterbildung zum AWS Certified Solutions Architect.
+die Messung, -en	measurement / вимірювання | Die Messung der Ladezeiten (Performance) erfolgt automatisch durch Scripts.
+reizen	to appeal to, to tempt / приваблювати, манити | Die Arbeit an Künstlicher Intelligenz reizt mich beruflich sehr.
+die Rückmeldung, -en	feedback, reply / зворотний зв'язок, відповідь | Ich warte noch auf eine Rückmeldung vom HR nach dem Vorstellungsgespräch.
+die Soft Skills (Pl.)	soft skills / м'які навички | Gute Kommunikation ist einer der wichtigsten Soft Skills in der IT.
+die Stärke, -n	strength / сильна сторона | Meine größte Stärke ist das Debugging von komplexem Legacy-Code.
+der Versuchsablauf, "-e	test procedure, experimental procedure / хід тестування, експерименту | Der Versuchsablauf beim A/B-Testing für das neue Design ist dokumentiert.
+etw. vertiefen	to deepen / поглиблювати (напр. знання) | Ich möchte meine Kenntnisse in Docker und Kubernetes weiter vertiefen.
+vielfältig	diverse, varied / різноманітний, багатогранний | Die Aufgaben eines Fullstack-Entwicklers in einem Startup sind sehr vielfältig.
+vollständig	complete(ly) / повний | Der Quellcode des Projekts ist vollständig auf GitHub verfügbar.
+sich weiterentwickeln	to develop further / розвиватися далі, вдосконалюватися | In der IT-Branche muss man sich ständig weiterentwickeln.
+Wert legen auf (+ Akk.)	to attach importance to, to value / надавати значення, цінувати | Wir legen großen Wert auf sauberen Code und gute Testabdeckung.
+der Absender, -	sender / відправник | Der Absender der E-Mail war der IT-Recruiter des Unternehmens.
+die Anlage, -n	attachment, enclosure / додаток (до листа) | Mein detaillierter Lebenslauf befindet sich in der Anlage dieser E-Mail.
+der Ansprechpartner, - / die Ansprechpartnerin, -nen	contact person / контактна особа | Wer ist mein technischer Ansprechpartner für das neue Projekt?
+der Aufgabenbereich, -e	area of responsibility / сфера завдань, обов'язків | Die Frontend-Entwicklung gehört zu meinem neuen Aufgabenbereich.
+das Aufgabengebiet, -e	field of activity, scope of duties / сфера діяльності | Cloud-Administration ist mein primäres Aufgabengebiet.
+etw. beantworten	to answer / відповідати на щось | Ich muss noch ein paar Fragen des Kunden im Ticket beantworten.
+etw. beweisen (beweist, bewies, hat bewiesen)	to prove / доводити | Er konnte seine Coding-Skills im technischen Interview (Live-Coding) beweisen.
+die Bewerbungsunterlagen (Pl.)	application documents / документи для працевлаштування | Ich habe meine Bewerbungsunterlagen als PDF per E-Mail geschickt.
+die Durchführung, -en	execution, implementation / виконання, проведення | Ich bin für die Durchführung der automatisierten Software-Tests verantwortlich.
+sich einarbeiten in (+ Akk.)	to familiarize oneself with / вникати, освоювати, опановувати | Ich muss mich in der ersten Woche in das neue Framework einarbeiten.
+die Einleitung, -en	introduction / вступ | Die Einleitung im Anschreiben sollte direkt und spannend formuliert sein.
+der Empfänger, - / die Empfängerin, -nen	recipient / одержувач | Der Empfänger der Nachricht bekommt sofort eine Push-Benachrichtigung.
+engagiert	committed, dedicated / відданий справі, активний | Wir suchen engagierte Junior-Entwickler für unser wachsendes Team.
+das Fachwissen (Sg.)	expertise, expert knowledge / професійні знання | Er hat ein unglaubliches Fachwissen im Bereich Cybersecurity.
+das Fähigkeitsprofil, -e	skill profile / профіль навичок | Mein technisches Fähigkeitsprofil passt sehr gut zu den Anforderungen.
+etw. fordern	to demand, to require / вимагати | Die neue Software fordert leider viel mehr Rechenleistung (CPU).
+herausfordernd	challenging / складний, такий, що кидає виклик | Die Migration der Backend-Architektur ist sehr herausfordernd.
+leichtfallen (fällt leicht, fiel leicht, ist leichtgefallen)	to be easy (for someone) / даватися легко | Das Erlernen von neuen Programmiersprachen fällt mir sehr leicht.
+einen Termin bestätigen	to confirm an appointment / підтвердити зустріч | Ich möchte hiermit den Termin für das IT-Interview nächste Woche bestätigen.
+überzeugend	convincing / переконливий | Seine Lösung für den Algorithmus beim Live-Coding war sehr überzeugend.
+unbedingt	absolutely, necessarily / обов'язково, неодмінно | Wir müssen diesen kritischen Bug unbedingt noch vor dem Wochenende fixen.
+etw. variieren	to vary / варіювати, змінювати | Die Server-Auslastung kann je nach Tageszeit stark variieren.
+verständlich	understandable, comprehensible / зрозумілий | Die API-Dokumentation muss für alle externen Entwickler verständlich sein.
+die Vorlage, -n	template / шаблон, макет, зразок | Ich nutze eine fertige CSS-Vorlage für das neue Webdesign.
+etw./jdn. wahrnehmen (nimmt wahr, nahm wahr, hat wahrgenommen)	to perceive, to notice / сприймати, помічати | User nehmen langsame Ladezeiten der App sehr negativ wahr.
+etw. anpacken	to tackle, to take hold of / братися за щось | Wir müssen dieses komplexe Architektur-Problem gemeinsam anpacken.
+die Auflistung, -en	list, listing / перелік, список | Hier ist eine Auflistung aller Bugs, die wir im nächsten Sprint fixen müssen.
+etw. bestätigen	to confirm / підтверджувати | Bitte bestätigen Sie den Empfang der neuen Server-Hardware.
+der Dienstleister, - / die Dienstleisterin, -nen	service provider / постачальник послуг | Wir nutzen AWS als Dienstleister für unsere IT-Infrastruktur.
+ehrgeizig	ambitious / амбітний | Er ist ein sehr ehrgeiziger Junior-Entwickler und lernt unglaublich schnell.
+etw./jdn. erkennen (erkennt, erkannte, hat erkannt)	to recognize / розпізнавати, усвідомлювати | Die KI kann komplexe Muster in diesen großen Datenmengen erkennen.
+etw. erledigen	to complete, to get done / виконувати, залагоджувати | Ich werde dieses Jira-Ticket bis morgen Abend erledigen.
+etw. erstatten	to refund, to reimburse / відшкодовувати (кошти) | Die Firma wird mir die Kosten für das IT-Zertifikat erstatten.
+die Fahrkosten (Pl.)	travel expenses / транспортні витрати | Werden die Fahrkosten zum Vorstellungsgespräch vom Arbeitgeber übernommen?
+die Flexibilität (Sg.)	flexibility / гнучкість | Agile Softwareentwicklung erfordert viel Flexibilität vom gesamten Team.
+der Gesprächspartner, - / die Gesprächspartnerin, -nen	conversation partner, interviewer / співрозмовник, інтерв'юер | Mein Gesprächspartner beim Interview war der Lead Developer.
+gründlich	thorough(ly) / ретельний | Der Code muss vor dem Commit in den Main-Branch gründlich getestet werden.
+die Kommunikationskompetenz (Sg.)	communication skills / комунікативні навички | Kommunikationskompetenz ist besonders wichtig bei der agilen Arbeit im Team.
+die Kosten (Pl.)	costs, expenses / витрати, вартість | Wir müssen die Kosten für unsere Cloud-Datenbanken reduzieren.
+Kosten erstatten	to reimburse costs / відшкодовувати витрати | Das Unternehmen wird die Kosten für das Homeoffice-Equipment erstatten.
+die Kritikfähigkeit (Sg.)	ability to accept criticism / здатність сприймати критику | Bei Code-Reviews ist eine hohe Kritikfähigkeit extrem wichtig für Entwickler.
+etw./jdn. kritisieren	to criticize / критикувати | Wir kritisieren im Review immer nur den Code, niemals den Entwickler.
+der Laborleiter, - / die Laborleiterin, -nen	laboratory manager / керівник лабораторії | Der Laborleiter überwacht die Qualität der neuen Hardware-Tests.
+die Leistungsbereitschaft (Sg.)	motivation, willingness to perform / готовність до роботи, мотивація | Die Leistungsbereitschaft unseres IT-Teams vor einem Release ist sehr hoch.
+der Personalverantwortliche, -n / die Personalverantwortliche, -n	HR manager / HR-менеджер, відповідальний за персонал | Das Erstgespräch findet mit dem Personalverantwortlichen statt.
+die Quittung, -en	receipt / квитанція, чек | Ich brauche die Quittung für den Kauf der Software-Lizenz für die Buchhaltung.
+die Teamfähigkeit (Sg.)	teamwork skills / здатність працювати в команді | Für Pair-Programming ist absolute Teamfähigkeit erforderlich.
+angespannt	tense, tight / напружений | Der Wohnungsmarkt in IT-Hubs wie München oder Berlin ist sehr angespannt.
+die Bescheinigung, -en	certificate, attestation / довідка, свідоцтво | Ich brauche eine Bescheinigung meines Arbeitgebers für den neuen Vermieter.
+der Besichtigungstermin, -e	viewing appointment / час огляду (квартири) | Ich habe heute Nachmittag einen Besichtigungstermin für eine schöne Wohnung.
+betragen (beträgt, betrug, hat betragen)	to amount to, to be / становити, дорівнювати | Die Miete darf laut Experten maximal 30% des Netto-Gehalts betragen.
+deprimierend	depressing / пригнічуючий, депресивний | Die lange Wohnungssuche in Deutschland kann für Expats manchmal deprimierend sein.
+das Familieneinkommen, -	family income / дохід сім'ї | Als Softwareentwickler trägt er den größten Teil zum Familieneinkommen bei.
+der Gehaltsnachweis, -e	proof of salary/income / довідка про доходи | Der Vermieter verlangt die Gehaltsnachweise der letzten drei Monate.
+gemeinsam	together, common / разом, спільний | Wir suchen gemeinsam mit meiner Frau nach einer größeren Wohnung.
+die Immobilie, -n	real estate, property / нерухомість | Als Senior Developer möchte er später in eine eigene Immobilie investieren.
+der Makler, - / die Maklerin, -nen	real estate agent, broker / маклер, брокер, рієлтор | Der Makler hat mir eine tolle Wohnung in der Nähe des IT-Büros gezeigt.
+die Mietschulden (Pl.)	rent arrears, rent debts / борги з оренди | Zum Glück habe ich ein gutes IT-Gehalt und absolut keine Mietschulden.
+mühsam	arduous, laborious / важкий, виснажливий | Die Suche nach einer bezahlbaren Wohnung ist in Großstädten oft sehr mühsam.
+angemessen	appropriate, reasonable / відповідний, доречний, належний | Ein angemessenes Gehalt ist für Senior Developer sehr wichtig.
+der Arbeitgeberverband, "-e	employers' association / спілка роботодавців | Der Arbeitgeberverband verhandelt auch über IT-Tarifverträge.
+etw. aushandeln	to negotiate / домовлятися, вести переговори | Ich konnte im Interview mehr Urlaubstage aushandeln.
+der Bescheid, -e	decision, notification / відповідь, рішення, повідомлення | Ich warte noch auf den Bescheid nach dem technischen Interview.
+Bescheid bekommen (bekommt, bekam, hat bekommen)	to be informed, to receive notice / отримати повідомлення / відповідь | Sie werden nächste Woche Bescheid bekommen, ob wir Sie einstellen.
+die Bezahlung, -en	payment, pay / оплата | Die Bezahlung in diesem Tech-Startup ist überdurchschnittlich gut.
+die Eigenverantwortung (Sg.)	personal responsibility / особиста відповідальність | Agile Teams arbeiten mit sehr viel Eigenverantwortung.
+das Einstiegsgehalt, "-er	starting salary / початкова зарплата | Das Einstiegsgehalt für Junior Frontend Developer ist gestiegen.
+die Firmenzentrale, -n	headquarters / головний офіс, штаб-квартира | Die Firmenzentrale unseres Software-Unternehmens ist in München.
+der Freizeitausgleich (Sg.)	compensatory time off / компенсація вільного часу (відгул за перепрацювання) | Für das Wochenende-Release am Server bekomme ich Freizeitausgleich.
+inklusive	inclusive, including / включно, у тому числі | Das Gehalt ist inklusive eines Budgets für Weiterbildungen.
+die Mess- und Analysetechnik, -en	measurement and analysis technology / вимірювальна та аналітична техніка | Wir entwickeln Software für die Mess- und Analysetechnik.
+mittelständisch	medium-sized / середній (про бізнес) | Ich arbeite lieber in einem mittelständischen IT-Unternehmen als im Großkonzern.
+das Motiv, -e	motive, reason / мотив, причина | Was war Ihr Motiv, sich bei uns als Entwickler zu bewerben?
+nach Tarif zahlen	to pay according to the collective agreement / платити за тарифною сіткою | Viele große Tech-Konzerne in Deutschland zahlen nach Tarif.
+die Produktpalette, -n	product range / асортимент продукції | Unsere Produktpalette umfasst verschiedene Cloud- und SaaS-Lösungen.
+regelmäßig	regular(ly) / регулярний | Wir machen regelmäßig Code-Refactoring, um die Qualität zu halten.
+der Tarif, -e	tariff, rate, collective agreement / тариф | Mein Gehalt als Sysadmin richtet sich nach dem aktuellen Tarif.
+sich verhalten (verhält sich, verhielt sich, hat sich verhalten)	to behave, to act / поводитися | Beim Vorstellungsgespräch sollte man sich professionell verhalten.
+die Verabschiedung (Sg.)	farewell, saying goodbye / прощання | Die Verabschiedung nach dem Interview war sehr freundlich.
+das Vertriebsbüro, -s	sales office / офіс продажу | Wir richten ein neues Netzwerk für das Vertriebsbüro ein.
+die Anwesenheit (Sg.)	presence, attendance / присутність | Beim Daily Standup ist die Anwesenheit aller Entwickler Pflicht.
+der Arbeitsbeginn (Sg.)	start of work / початок роботи | Mein offizieller Arbeitsbeginn ist am 1. September.
+der Auswahlprozess, -e	selection process / процес відбору | Der Auswahlprozess für die DevOps-Stelle hat drei Runden.
+die Besetzung (einer Stelle) (Sg.)	filling (of a position) / заповнення (вакансії) | Die Besetzung der Senior-Position hat höchste Priorität.
+die Betriebsferien (Pl.)	company holidays / корпоративна відпустка (закриття підприємства на свята) | Während der Betriebsferien im Dezember gibt es nur einen Notfall-Support.
+die Betriebskantine, -n	company canteen / їдальня на підприємстві | In der Betriebskantine gibt es auch veganes Essen für das Team.
+das Bewerbungsverfahren, -	application process / процес подачі заявки / відбору | Das Bewerbungsverfahren läuft komplett digital ab.
+der Büroleiter, - / die Büroleiterin, -nen	office manager / офіс-менеджер, керівник офісу | Der Büroleiter kümmert sich um die neuen Laptops für die Entwickler.
+durchgehend	continuous(ly), non-stop / безперервний, цілодобовий | Unser Server-Monitoring läuft durchgehend 24/7.
+die Einarbeitung (Sg.)	onboarding, training period / онбординг, введення в посаду | Die Einarbeitung in die neue Codebase dauert etwa einen Monat.
+der Eindruck, "-e	impression / враження | Ich habe im technischen Interview einen guten Eindruck hinterlassen.
+das Einstellungsgespräch, -e	job interview / співбесіда (при прийомі на роботу) | Ich lerne gerade fleißig für mein Einstellungsgespräch bei SAP.
+die Einzelheit, -en	detail / деталь, подробиця | Wir müssen noch ein paar technische Einzelheiten der API klären.
+sich erkundigen nach (+ Dat.)	to inquire about / дізнаватися про, довідуватися | Ich möchte mich nach dem Stand meiner Bewerbung erkundigen.
+der Feierabend (Sg.)	end of the working day / кінець робочого дня | Nach Feierabend spiele ich oft noch Videospiele.
+flexibel	flexible / гнучкий | Als Softwareentwickler habe ich sehr flexible Arbeitszeiten.
+gesetzlich	legal, statutory / законний, встановлений законом | Der gesetzliche Mindesturlaub in Deutschland beträgt 20 Tage.
+die Kündigungsregelung, -en	termination rule/policy / правила звільнення (розірвання договору) | Die Kündigungsregelung steht im letzten Absatz des Arbeitsvertrags.
+der ÖPNV (Öffentlicher Personennahverkehr) (Sg.)	public transport / громадський транспорт | Das Büro hat eine sehr gute Anbindung an den ÖPNV.
+der Schichtbetrieb (Sg.)	shift operation, shift work / позмінна робота | Das Rechenzentrum läuft im Schichtbetrieb, um Ausfälle zu vermeiden.
+die Teambesprechung, -en	team meeting / командна нарада | Wir planen den nächsten Sprint in der Teambesprechung.
+der Urlaubsanspruch, "-e	leave entitlement, right to vacation / право на відпустку | Mein Urlaubsanspruch beträgt 30 Tage pro Jahr.
+(gut/schlecht) verlaufen (verläuft, verlief, ist verlaufen)	to go (well/badly) / проходити (добре/погано) | Das Code-Review ist heute sehr gut verlaufen.
+sich etw. verschaffen (z. B. einen Eindruck)	to obtain, to gain (e.g., an impression) / здобути, отримати (напр., враження) | Ich muss mir erst einen Überblick über den alten Code verschaffen.
+der Zuschuss, "-e	subsidy, grant, allowance / доплата, субсидія, допомога | Die Firma zahlt einen Zuschuss für das Ticket des ÖPNV.
+etw. antreten (z. B. eine Stelle) (tritt an, trat an, hat angetreten)	to take up, to start (e.g., a job) / починати, приступати до (роботи) | Ich werde meine neue Stelle als Fullstack-Developer am Montag antreten.
+etw. aushändigen	to hand over / вручати, видавати на руки | Die IT-Abteilung wird dir am ersten Tag den Laptop aushändigen.
+der Betriebsrat, "-e	works council / виробнича рада (представник працівників) | Der Betriebsrat hat der neuen Homeoffice-Regelung zugestimmt.
+chaotisch	chaotic / хаотичний | Ohne Jira und Scrum war die Projektplanung früher sehr chaotisch.
+der Dienstplan, "-e	roster, shift schedule / графік чергувань / роботи | Der Dienstplan für den IT-Support wird wöchentlich aktualisiert.
+etw. einplanen	to schedule, to plan for / планувати, передбачати | Wir müssen genug Zeit für das Testing einplanen.
+die Einweisung, -en	instruction, briefing / інструктаж, введення в курс справи | Am ersten Tag bekommst du eine Einweisung in unsere Server-Struktur.
+sich erinnern an (+ Akk.)	to remember / пам'ятати про, згадувати | Ich kann mich nicht an das Admin-Passwort erinnern.
+die Hausordnung, -en	house rules / правила внутрішнього розпорядку | Laut Hausordnung darf man keine privaten USB-Sticks verwenden.
+der Haustechniker, - / die Haustechnikerin, -nen	building technician, maintenance worker / технік будівлі, завгосп | Der Haustechniker repariert die Klimaanlage im Serverraum.
+der Lieferant, -en / die Lieferantin, -nen	supplier / постачальник | Der Lieferant bringt morgen die neuen Monitore.
+der Medikamentenschrank, "-e	medicine cabinet / аптечка (шафка для ліків) | Pflaster für kleine Verletzungen findest du im Medikamentenschrank.
+der Mitarbeiterausweis, -e	employee ID card / перепустка, посвідчення працівника | Du brauchst deinen Mitarbeiterausweis, um das Büro zu betreten.
+die Pausenregelung, -en	break regulation / правила щодо перерв | Die Pausenregelung ist bei uns sehr flexibel.
+die Personalabteilung, -en	HR department / відділ кадрів (HR) | Bitte sende deine Krankmeldung an die Personalabteilung.
+die Pflegedienstleitung, -en	nursing management / керівництво служби догляду | Wir programmieren ein Verwaltungstool für die Pflegedienstleitung.
+der Stationsleiter, - / die Stationsleiterin, -nen	ward manager (hospital) / завідувач відділення (в лікарні) | Der Stationsleiter nutzt unser neues digitales Patienten-System.
+das Unfallrisiko, -risiken	accident risk / ризик нещасного випадку | Lose Kabel auf dem Boden erhöhen das Unfallrisiko im Büro.
+die Unterweisung, -en	instruction, training / інструктаж, навчання | Jedes Jahr gibt es eine Pflicht-Unterweisung zum Thema Datenschutz.
+das Verbandmaterial, -ien	bandage material, dressings / перев'язувальний матеріал | Das Verbandmaterial liegt im Erste-Hilfe-Kasten in der Küche.
+die Willkommensmappe, -n	welcome folder / вітальна папка (для нових співробітників) | In der Willkommensmappe stehen alle wichtigen Infos zum Onboarding.
+sich zurechtfinden (findet zurecht, fand zurecht, hat zurechtgefunden)	to find one's way around, to orient oneself / орієнтуватися, розібратися | Es dauert etwas, bis man sich in der großen Codebase zurechtfindet.
+die Abschiedsfeier, -n	farewell party / прощальна вечірка | Wir machen eine kleine Abschiedsfeier für den Kollegen, der die Firma verlässt.
+der Alarm, -e	alarm / сигналізація, тривога | Das Monitoring-System schlägt Alarm, wenn die CPU überhitzt.
+der Anlass, "-e	occasion, reason / привід, нагода | Das erfolgreiche Release ist ein guter Anlass für eine Pizza-Party.
+das Antragsformular, -e	application form / бланк заяви | Du musst ein Antragsformular ausfüllen, um einen zweiten Monitor zu bekommen.
+etw. aufladen (lädt auf, lud auf, hat aufgeladen)	to charge, to top up / заряджати, поповнювати | Ich muss den Akku meines Firmenlaptops aufladen.
+etw. aushängen (hängt aus, hing aus, hat ausgehangen)	to post (a notice) / вивішувати (оголошення) | Der neue Dienstplan wird am schwarzen Brett aushängen.
+etw. ausstellen (z. B. einen Parkausweis)	to issue (e.g., a parking permit) / виписувати, видавати (документ) | Der Empfang wird dir einen Besucherausweis ausstellen.
+etw. beantragen (z. B. einen Zuschuss)	to apply for, to request / подавати заяву на, запитувати | Ich möchte Homeoffice-Tage für nächste Woche beantragen.
+betrieblich	operational, company-related / виробничий, службовий, корпоративний | Private Nutzung des Firmenlaptops ist aus betrieblichen Gründen verboten.
+der Betriebsausflug, "-e	company outing / корпоративна поїздка / екскурсія | Nächsten Monat machen wir einen Betriebsausflug in die Berge.
+die Betriebsrente, -n	company pension / корпоративна пенсія | Das IT-Unternehmen bietet als Bonus eine gute Betriebsrente an.
+die Betriebsversammlung, -en	staff meeting, company assembly / загальні збори працівників | Auf der Betriebsversammlung präsentiert der CEO die neuen Ziele.
+die Betriebszugehörigkeit (Sg.)	length of service with a company / стаж роботи на підприємстві | Nach fünf Jahren Betriebszugehörigkeit bekommt man mehr Urlaubstage.
+der Betroffene, -n / die Betroffene, -n	person affected, person concerned / зацікавлена особа, постраждалий | Bei einem Datenleck müssen alle Betroffenen sofort informiert werden.
+etw. bezuschussen	to subsidize / субсидіювати, доплачувати | Die Firma wird mein Ticket für die öffentlichen Verkehrsmittel bezuschussen.
+der Brandfall, "-e	in case of fire / випадок пожежі | Im Brandfall dürfen die Aufzüge nicht benutzt werden.
+die Dienstreise, -n	business trip / відрядження | Ich muss nächste Woche auf Dienstreise zum Kunden nach Berlin.
+eine Dienstreise antreten	to go on a business trip / відправитися у відрядження | Der Projektmanager muss eine Dienstreise in die USA antreten.
+durchschnittlich	average, on average / в середньому, середньостатистичний | Ein Bugfix dauert bei uns durchschnittlich zwei Stunden.
+das Firmengelände, -	company grounds, premises / територія компанії | Auf dem gesamten Firmengelände gibt es kostenloses WLAN.
+der Firmenparkplatz, "-e	company car park / корпоративна парковка | Die Entwickler haben einen eigenen Firmenparkplatz.
+ganztägig	all-day, full-day / на цілий день | Morgen haben wir einen ganztägigen Workshop zu Kubernetes.
+die Genehmigung, -en	approval, permit / дозвіл, затвердження | Ich brauche die Genehmigung vom Chef für das Software-Upgrade.
+die Ladestation, -en	charging station / зарядна станція | Es gibt eine Ladestation für Elektroautos auf dem Firmenparkplatz.
+die Lautsprecheranlage, -n	public address system, PA system / система гучномовців | Eine Durchsage über die Lautsprecheranlage warnt vor dem Feueralarm.
+das Nettoeinkommen, -	net income / чистий дохід (нетто) | Mein Nettoeinkommen ist nach Abzug der Steuern immer noch sehr gut.
+die Nutzung, -en	use, usage / використання | Die private Nutzung der Test-Server ist strengstens verboten.
+der Ruhestand (Sg.)	retirement / вихід на пенсію | Unser Senior-Architekt geht nächstes Jahr in den Ruhestand.
+die Telefonbenutzung (Sg.)	telephone usage / користування телефоном | Die private Telefonbenutzung ist im Großraumbüro nicht erwünscht.
+üblich	usual, common / звичайний, прийнятий | In agilen Teams ist das Duzen der Kollegen üblich.
+etw. untersagen	to prohibit, to forbid / забороняти | Der IT-Sicherheit ist es untersagt, Passwörter im Klartext zu speichern.
+der Verwaltungsbereich, -e	administrative area / адміністративний відділ | Der Verwaltungsbereich kümmert sich um die Lizenzen der Software.
+die Wertsache, -n	valuable item / цінна річ | Bitte lassen Sie keine Wertsachen offen auf dem Schreibtisch liegen.
+der Abstand, "-e	distance, gap / відстань, дистанція | Bitte halten Sie genug Abstand zu den heißen Servern.
+aufdringlich	intrusive, pushy / нав'язливий | Zu viele Push-Benachrichtigungen in der App wirken auf die User aufdringlich.
+jdn. belästigen	to harass, to bother / турбувати, докучати | Ein Kollege darf dich am Wochenende nicht mit Arbeits-Mails belästigen.
+die Distanz (Sg.)	distance / дистанція | Trotz Remote-Work versuchen wir, keine persönliche Distanz im Team aufzubauen.
+etw. einhalten (hält ein, hielt ein, hat eingehalten)	to comply with, to keep (e.g., rules/deadlines) / дотримуватися (правил, строків) | Wir müssen die Deadline für das Projekt unbedingt einhalten.
+etw. empfinden (empfindet, empfand, hat empfunden)	to feel, to perceive / відчувати, сприймати | Ich empfinde das neue UI-Design als sehr angenehm.
+intim	intimate / інтимний, особистий | Gehälter sind in vielen Firmen ein intimes und vertrauliches Thema.
+etw./jdm. nahekommen (kommt nahe, kam nahe, ist nahegekommen)	to approach, to come close to / наближатися до | Dieser Lösungsansatz kommt der perfekten Architektur schon sehr nahe.
+das Publikum (Sg.)	audience / публіка, аудиторія | Das Publikum bei der Tech-Konferenz war sehr interessiert an meinem Vortrag.
+der Referent, -en / die Referentin, -nen	speaker, presenter / доповідач | Der Referent erklärt die Vorteile von maschinellem Lernen.
+unangenehm	unpleasant, uncomfortable / неприємний | Es ist unangenehm, dem Kunden einen kritischen Bug beichten zu müssen.
+das Arbeitsklima (Sg.)	working atmosphere / робоча атмосфера | Ein gutes Arbeitsklima ist für die Motivation der Entwickler extrem wichtig.
+die Atmosphäre (Sg.)	atmosphere / атмосфера | Die Atmosphäre im Team ist nach dem erfolgreichen Release sehr entspannt.
+ausreden (lässt ausreden, ließ ausreden, hat ausreden lassen)	to finish speaking / договорити (до кінця) | Bitte lass mich im Daily Standup kurz ausreden.
+die Ausstattung, -en	equipment, facilities / обладнання, оснащення | Die technische Ausstattung in unserem Büro (Monitore, Stühle) ist top.
+das Beratungsgespräch, -e	consultation, advisory discussion / консультація | Das Beratungsgespräch mit dem IT-Consultant hat uns sehr geholfen.
+der Besprechungspunkt, -e	agenda item, point of discussion / пункт обговорення | Der wichtigste Besprechungspunkt heute ist die neue Server-Architektur.
+der Bestseller, -	bestseller / бестселер | Dieses Buch über Clean Code ist ein absoluter Bestseller.
+die Beteiligung, -en	participation / участь | Die Beteiligung aller Entwickler am Code-Review ist Pflicht.
+dadurch, dass	due to the fact that, because / через те, що | Dadurch, dass wir agil arbeiten, können wir Fehler schneller fixen.
+effektiv	effective(ly) / ефективний | Wir müssen unsere Meetings kürzer und effektiver gestalten.
+die Ergänzung, -en	addition, supplement / доповнення | Ich habe noch eine kurze Ergänzung zum Protokoll von gestern.
+etw. festlegen	to determine, to set / визначати, встановлювати | Wir müssen die genaue Deadline für das nächste Release festlegen.
+die Gelegenheit bieten	to offer an opportunity / надавати можливість | Das Projekt bietet die Gelegenheit, neue Cloud-Technologien zu lernen.
+die Gesprächsregel, -n	rule of conversation / правило спілкування | Eine wichtige Gesprächsregel im Team ist, einander ausreden zu lassen.
+etw. gestalten	to design, to structure / оформлювати, структурувати | Der Designer hilft uns, das UI der App moderner zu gestalten.
+sich halten an (+ Akk.)	to stick to, to abide by / дотримуватися (чогось) | Wir müssen uns strikt an die Coding-Guidelines halten.
+indem	by (doing something) / тим, що / шляхом | Wir optimieren den Code, indem wir redundante Schleifen entfernen.
+die Klarheit, -en	clarity / ясність, чіткість | Bei der API-Dokumentation brauchen wir absolute Klarheit für die User.
+Kritik üben	to criticize / критикувати | Im Pull Request üben wir oft konstruktive Kritik am Code.
+leiten	to lead, to manage / керувати | Der Scrum Master wird das heutige Meeting leiten.
+das Meeting, -s	meeting / мітинг, зустріч | Das wöchentliche Entwickler-Meeting beginnt um 10 Uhr.
+das Prospektmaterial, -ien	brochures, promotional material / рекламні матеріали | Das Marketing erstellt neues Prospektmaterial für unsere Software.
+das Protokoll, -e	protocol, minutes / протокол, лог | Wer schreibt heute das Protokoll für die Teambesprechung?
+der Stand (Sg.)	status, state / стан | Können Sie mir bitte den aktuellen Stand der Entwicklung mitteilen?
+die Tagesordnung, -en	agenda / порядок денний | Der nächste Punkt auf der Tagesordnung ist das Datenbank-Update.
+der Tagesordnungspunkt, -e	agenda item / пункт порядку денного | Welcher Tagesordnungspunkt im Sprint Planning ist am wichtigsten?
+die Teamsitzung, -en	team meeting / командне засідання | Die Teamsitzung findet ab jetzt immer im Konferenzraum statt.
+verfassen	to write, to draft / складати, писати | Ich muss noch die Release Notes für das neue Update verfassen.
+der Verkaufsberater, - / die Verkaufsberaterin, -nen	sales consultant / продавець-консультант | Der Verkaufsberater präsentiert dem Kunden unser CRM-System.
+abraten von (+ Dat.) (rät ab, riet ab, hat abgeraten)	to advise against / відмовляти від | Ich rate dringend davon ab, diese veraltete Bibliothek zu nutzen.
+abwesend	absent / відсутній | Zwei Entwickler sind heute leider wegen Krankheit abwesend.
+anwesend	present / присутній | Glücklicherweise sind alle Projektleiter beim Meeting anwesend.
+die Anzeigenkampagne, -n	advertising campaign / рекламна кампанія | Die Anzeigenkampagne für die neue App startet nächste Woche auf LinkedIn.
+der Aufbau, -ten	structure, setup / структура, побудова | Der Aufbau der Datenbank muss für mehr Performance optimiert werden.
+die Ausstellung, -en	exhibition / виставка | Wir präsentieren unsere VR-Brille auf einer großen Tech-Ausstellung.
+jdn. beauftragen	to assign, to commission / доручати | Wir beauftragen eine externe Agentur mit dem Penetration-Test.
+das Beratungsprotokoll, -e	consultation protocol / протокол консультації | Das Beratungsprotokoll fasst die Wünsche des Kunden detailliert zusammen.
+Druck machen	to put pressure on / тиснути | Der Kunde macht Druck, weil das Projekt nicht pünktlich fertig wird.
+das Ergebnisprotokoll, -e	minutes of results / протокол рішень / результатів | Im Ergebnisprotokoll stehen alle Beschlüsse, die wir getroffen haben.
+das Gesprächsprotokoll, -e	minutes of a meeting / протокол бесіди | Ich sende euch das Gesprächsprotokoll nach dem Meeting per E-Mail.
+der Gesprächstermin, -e	appointment for a discussion / час бесіди, зустріч | Wir brauchen einen neuen Gesprächstermin mit dem Product Owner.
+hilfsbereit	helpful / готовий допомогти | Mein IT-Team ist immer sehr hilfsbereit, wenn ich einen Bug nicht finde.
+das Messegespräch, -e	trade fair discussion / розмова на виставці | Das Messegespräch mit dem potenziellen Investor war sehr erfolgreich.
+der Messestand, "-e	exhibition stand / виставковий стенд | Unser Startup hat einen kleinen Messestand auf der Web Summit.
+die Möbelmesse, -n	furniture fair / меблева виставка | Wir haben unsere 3D-Design-Software auf der Möbelmesse vorgestellt.
+die Protokollführung (Sg.)	taking of minutes / ведення протоколу | Die Protokollführung übernimmt heute ausnahmsweise der Praktikant.
+der Schwerpunkt, -e	focus, main emphasis / головна увага, акцент | Der Schwerpunkt dieses Sprints liegt ganz klar auf Bugfixes.
+der Standaufbau, -ten	stand construction / монтаж стенду | Der Standaufbau auf der IT-Messe dauert meistens zwei Tage.
+der Teamleiter, - / die Teamleiterin, -nen	team leader / керівник команди | Mein Teamleiter unterstützt mich bei schwierigen Architektur-Entscheidungen.
+der Thermosbecher, -	thermos mug / термокружка | Ich habe immer einen Thermosbecher mit Kaffee neben der Tastatur.
+etw. verschenken	to give away / дарувати | Wir verschenken Firmen-Laptops an die Mitarbeiter im Homeoffice.
+das Versuchsprotokoll, -e	test protocol/log / протокол випробування | Das Versuchsprotokoll der QA-Abteilung zeigt, dass der Fehler behoben ist.
+die Vertriebsabteilung, -en	sales department / відділ збуту | Die Vertriebsabteilung kümmert sich um den Verkauf der Software-Lizenzen.
+das Werbegeschenk, -e	promotional gift / рекламний подарунок | USB-Sticks mit Firmenlogo sind ein sehr beliebtes Werbegeschenk.
+das Werbevideo, -s	promotional video / рекламний ролик | Das Marketing hat ein cooles Werbevideo für das neue Feature gemacht.
+aggressiv	aggressive / агресивний | Aggressives Verhalten wird in unserem agilen Team nicht toleriert.
+etw. ansprechen	to address, to bring up / піднімати питання, заговорювати про | Wir müssen dieses technische Problem dringend im Meeting ansprechen.
+der Arbeitsalltag (Sg.)	everyday working life / робочі будні | Git-Merge-Konflikte gehören zum Arbeitsalltag eines jeden Entwicklers.
+die Arbeitsatmosphäre (Sg.)	working atmosphere / робоча атмосфера | Eine toxische Arbeitsatmosphäre schadet der Motivation und der Produktivität.
+auswirken	to affect, to have an impact / впливати, позначатися | Dieser Speicher-Bug wird sich extrem negativ auf den Server auswirken.
+die Auswirkung, -en	effect, impact / наслідок, вплив | Die Auswirkung des Updates auf die Ladezeit der Seite ist sehr positiv.
+etw. beilegen (z. B. einen Streit)	to settle (e.g. a dispute) / владнати (напр., суперечку) | Wir konnten den Konflikt über das Code-Design schnell beilegen.
+den Eindruck haben	to have the impression / мати враження | Ich habe den Eindruck, dass die Datenbankanfragen zu langsam sind.
+die Du-Botschaft, -en	"you" message (blaming) / "ти-повідомлення" (звинувачення) | Du-Botschaften ("Du hast das kaputt gemacht") führen im Team zu Konflikten.
+fehlender Respekt	lack of respect / відсутність поваги | Fehlender Respekt bei Code-Reviews zerstört das Vertrauen im Team.
+die Gemeinsamkeit, -en	similarity, common ground / спільна риса, спільність | Wir haben viele Gemeinsamkeiten, zum Beispiel programmieren wir beide in Go.
+die Ich-Botschaft, -en	"I" message / "я-повідомлення" | Mit einer Ich-Botschaft ("Ich habe Schwierigkeiten, den Code zu lesen") kritisiert man konstruktiver.
+Kompromisse eingehen	to make compromises / йти на компроміси | Manchmal muss man bei der Performance kleine Kompromisse eingehen.
+der Konflikt, -e	conflict / конфлікт | Es gab einen kleinen Konflikt wegen des abgelehnten Pull-Requests.
+das Konfliktgespräch, -e	conflict resolution discussion / розмова для вирішення конфлікту | Der Scrum Master führt ein Konfliktgespräch mit den zwei Entwicklern.
+kooperativ	cooperative / схильний до співпраці, кооперативний | Unser Team arbeitet sehr kooperativ und teilt das Wissen gerne.
+der Leistungsdruck (Sg.)	pressure to perform / тиск щодо продуктивності (стрес) | Kurz vor dem App-Release ist der Leistungsdruck extrem hoch.
+Lösungen erarbeiten	to develop solutions / розробляти рішення | Wir müssen gemeinsam neue Lösungen für dieses Server-Problem erarbeiten.
+lüften	to air, to ventilate / провітрювати | Nach zwei Stunden Meeting müssen wir den Raum unbedingt lüften.
+die Meinungsverschiedenheit, -en	difference of opinion / розбіжність у поглядах | Es gab eine Meinungsverschiedenheit über die Wahl der richtigen Datenbank.
+das Missverständnis, -se	misunderstanding / непорозуміння | Ein unklarer Variablenname im Code führt oft zu einem Missverständnis.
+etw. nachvollziehen	to comprehend, to understand / розуміти, осягати | Ich kann deinen Lösungsansatz für den Algorithmus absolut nachvollziehen.
+der Neid (Sg.)	envy / заздрість | Neid auf das höhere Gehalt der Kollegen ist unprofessionell.
+nervig	annoying / дратівливий, набридливий | Dieser wiederkehrende Bug im Frontend ist wirklich sehr nervig.
+der Respekt (Sg.)	respect / повага | Gegenseitiger Respekt ist die absolute Basis für erfolgreiches Pair-Programming.
+die Rivalität, -en	rivalry / суперництво | Eine gesunde Rivalität zwischen Entwicklern kann das Projekt beschleunigen.
+die Spannung, -en	tension / напруга | Kurz vor der wichtigen Deadline gibt es oft Spannungen im Team.
+stickig	stuffy / задушливий | Die Luft im kleinen Serverraum ohne Klimaanlage ist sehr stickig.
+die Strategie, -n	strategy / стратегія | Unsere Deployment-Strategie muss überarbeitet werden.
+der Streit, -igkeiten	argument, dispute / суперечка | Der Streit um die "beste" Programmiersprache im Büro ist völlig sinnlos.
+die Überstunde, -n	overtime / понаднормова робота | Um den Bug zu fixen, musste ich gestern leider Überstunden machen.
+die Umgangsform, -en	manner, etiquette / манера поведінки | Gute Umgangsformen sind auch bei Remote-Arbeit im Slack-Chat wichtig.
+unerträglich	unbearable / нестерпний | Die Hitze im unklimatisierten IT-Büro war im Sommer unerträglich.
+unpünktlich	unpunctual, late / непунктуальний | Es stört das Team, wenn jemand beim Daily Meeting unpünktlich ist.
+unsachlich	unobjective, biased / необ'єктивний | Unsachliche Kommentare haben in einem professionellen Code-Review nichts zu suchen.
+unter vier Augen	face-to-face, privately / віч-на-віч | Kritik an der Leistung besprechen wir besser privat unter vier Augen.
+etw./jdn. vergiften (z. B. die Atmosphäre)	to poison (e.g. the atmosphere) / отруювати (напр., атмосферу) | Ständiges Meckern kann die Arbeitsatmosphäre im Team vergiften.
+etw. vermeiden	to avoid / уникати | Wir müssen Fehler und Redundanzen im Code unbedingt vermeiden (DRY).
+Verständnis zeigen für (+ Akk.)	to show understanding for / виявляти розуміння | Der Arbeitgeber muss Verständnis für familiäre Notfälle zeigen.
+der Zeitdruck (Sg.)	time pressure / брак часу | Wir arbeiten beim aktuellen Sprint leider unter enormem Zeitdruck.
+die Aufnahme, -n	recording, photo, admission / знімок, запис, прийом | Wir machen eine Aufnahme der Fehlermeldung (Screenshot) für das Ticket.
+einen Berg besteigen (besteigt, bestieg, hat bestiegen)	to climb a mountain / підніматися на гору | Im Urlaub möchte der Chef in den Alpen einen Berg besteigen.
+die Butterbrezel, -n	butter pretzel / брецель з маслом | Zum gemeinsamen Frühstück im Büro gibt es heute frische Butterbrezeln.
+der Einstand (Sg.)	debut, starting a new job / початок роботи, вступ на посаду | Zur Feier seines Einstands bringt der neue Entwickler Kuchen mit.
+die Einstandsfeier, -n	welcome party (for a new employee) / вечірка на честь нового співробітника | Die Einstandsfeier für das neue Teammitglied findet Freitag nach Feierabend statt.
+sich erholen	to recover, to rest / відпочивати, відновлюватися | Am Wochenende muss ich mich vom stressigen Programmieren erholen.
+etw. genehmigen	to approve / схвалювати, затверджувати | Der IT-Leiter muss meinen Urlaubsantrag erst genehmigen.
+die Kreuzfahrt, -en	cruise / круїз | Mein Teamlead macht im Sommer eine Kreuzfahrt im Mittelmeer.
+in der Regel	usually, as a rule / зазвичай | In der Regel pushen wir freitagnachmittags keinen neuen Code auf Produktion.
+etw. stückeln (z.B. den Urlaub)	to split up, to piece together / розбивати на частини (напр., відпустку) | Wegen des großen Projekts muss ich meinen Jahresurlaub leider stückeln.
+der Urlaubsantrag, "-e	leave application, vacation request / заява на відпустку | Ich habe meinen Urlaubsantrag digital im HR-System eingereicht.
+sich aufhalten (hält auf, hielt auf, hat aufgehalten)	to stay, to linger / перебувати, затримуватися | In der Mittagspause halte ich mich gerne in der gemütlichen Büro-Küche auf.
+etw. beklagen	to complain about, to lament / скаржитися на | Viele Entwickler beklagen die schlechte Dokumentation der alten API.
+zu einem Ergebnis kommen	to come to a conclusion/result / дійти висновку / результату | Wir müssen in diesem Meeting zu einem Ergebnis beim Datenbank-Design kommen.
+das Freizeitverhalten (Sg.)	leisure behavior / проведення вільного часу | Das Freizeitverhalten vieler Entwickler schließt Videospiele (Gaming) ein.
+die Freizeitbeschäftigung, -en	leisure activity / заняття у вільний час | Programmieren ist für manche nicht nur Beruf, sondern auch Freizeitbeschäftigung.
+der Mittagsschlaf (Sg.)	afternoon nap / післяобідній сон | Im Homeoffice mache ich manchmal einen kurzen Mittagsschlaf (Powernap).
+das Multitasking (Sg.)	multitasking / багатозадачність | Multitasking beim Coden führt nachweislich zu mehr Fehlern im System.
+repräsentativ	representative / репрезентативний | Die Umfrage unter den Usern der neuen App ist sehr repräsentativ.
+eine repräsentative Studie	a representative study / репрезентативне дослідження | Eine repräsentative Studie zeigt, dass IT-Fachkräfte viel Kaffee trinken.
+die Stiftung, -en	foundation, charity / фонд | Die Firma spendet an eine Stiftung, die IT-Bildung für Kinder fördert.
+etw. unternehmen (unternimmt, unternahm, hat unternommen)	to undertake, to do (an activity) / робити, здійснювати (часто разом) | Am Wochenende möchte ich etwas mit meinen IT-Kollegen unternehmen.
+sich etw. vornehmen (nimmt vor, nahm vor, hat vorgenommen)	to plan to do sth., to resolve / планувати, задумувати | Ich habe mir vorgenommen, dieses Jahr die Programmiersprache Rust zu lernen.
+die Anweisung, -en	instruction, directive / інструкція, вказівка | Bitte folgen Sie der Anweisung im Readme-File für die Installation.
+das Ersatzfahrzeug, -e	replacement vehicle / підмінний автомобіль | Während mein Firmenwagen in der Werkstatt ist, nutze ich ein Ersatzfahrzeug.
+das Ersatzteil, -e	spare part / запасна частина | Wir brauchen dringend ein Ersatzteil für den defekten Server im Rack.
+das Fahrzeug, -e	vehicle / транспортний засіб | Ein autonomes Fahrzeug wird durch komplexe KI-Algorithmen gesteuert.
+der Gebrauchtwagen, -	used car / вживаний автомобіль | Der IT-Consultant kauft sich einen Gebrauchtwagen für die Fahrten zum Kunden.
+die Gehaltsabrechnung, -en	payslip, salary statement / розрахунковий листок (по зарплаті) | Die HR-Abteilung schickt mir jeden Monat meine Gehaltsabrechnung per E-Mail.
+die Inspektion, -en	inspection, maintenance / огляд, техогляд | Das Backup-System muss einmal im Jahr zur technischen Inspektion.
+jdn. kontaktieren	to contact sb. / зв'язуватися з кимось | Wenn der Server offline ist, müssen Sie sofort den IT-Support kontaktieren.
+der Kundenservice (Sg.)	customer service / служба підтримки клієнтів | Unser Software-Unternehmen hat einen exzellenten 24/7 Kundenservice.
+etw. lackieren	to paint, to varnish / фарбувати, лакувати | Wir lassen die Gehäuse der neuen Hardware in unseren Firmenfarben lackieren.
+der Liefertermin, -e	delivery date / дата доставки | Der Liefertermin für die neuen Monitore hat sich leider verschoben.
+die Lieferverzögerung, -en	delivery delay / затримка доставки | Wegen einer Lieferverzögerung können wir das Netzwerk noch nicht aufbauen.
+der Montagetermin, -e	assembly/installation appointment / дата монтажу / встановлення | Der Techniker hat einen Montagetermin für den neuen Router gebucht.
+der Neuwagen, -	new car / новий автомобіль | Als Teamlead bekommt er einen Neuwagen als Firmenauto.
+preisgünstig	reasonably priced, cheap / недорогий, вигідний | Wir nutzen einen preisgünstigen Cloud-Anbieter für unsere Test-Umgebungen.
+das Reifenlager, -	tire storage / склад шин | Die Winterreifen der Firmenautos liegen im Reifenlager.
+der Reparaturauftrag, "-e	repair order / замовлення на ремонт | Ich habe einen Reparaturauftrag für meinen defekten Firmen-Laptop erstellt.
+der Sommerreifen, -	summer tire / літня шина | Im April wechseln wir am Dienstwagen auf Sommerreifen.
+verhandeln	to negotiate / вести переговори | Wir müssen mit dem Cloud-Provider über den Preis verhandeln.
+vermitteln	to mediate, to convey / посередничати, передавати | Eine REST-API vermittelt die Daten zwischen Frontend und Backend.
+der Vertriebsleiter, - / die Vertriebsleiterin, -nen	sales manager / керівник відділу продажів | Der Vertriebsleiter präsentiert dem Kunden unser neues CRM-System.
+vorgehen (geht vor, ging vor, ist vorgegangen)	to proceed, to act / діяти, чинити | Wie sollen wir bei diesem kritischen Bug im System vorgehen?
+der Wagenpark, -s	vehicle fleet / автопарк | Die Firma stellt ihren Wagenpark komplett auf Elektroautos um.
+den Wert schätzen	to estimate the value / оцінювати вартість | Wir müssen den Wert der alten Hardware schätzen, bevor wir sie verkaufen.
+der Winterreifen, -	winter tire / зимова шина | Ohne Winterreifen darf man das Firmenauto bei Schnee nicht fahren.
+etw. anschaffen	to acquire, to purchase / купувати, придбати (обладнання) | Wir müssen für das ganze Entwickler-Team neue Laptops anschaffen.
+auftauchen	to appear, to pop up / з'являтися, виникати | Nach dem Update sind leider einige neue Bugs aufgetaucht.
+daher	therefore, hence / тому, з цієї причини | Der Server war überlastet, daher ist die App abgestürzt.
+darum	therefore, for that reason / тому, через це | Ich kenne das Framework nicht gut, darum lerne ich es am Wochenende.
+die technischen Daten (Pl.)	technical data/specifications / технічні характеристики / дані | In den technischen Daten steht, dass der Prozessor 8 Kerne hat.
+dennoch	nevertheless, yet / тим не менш, проте | Der Code war unsauber, dennoch hat das Programm funktioniert.
+deshalb	therefore, that's why / тому, ось чому | Wir nutzen Microservices, deshalb ist unsere Architektur sehr flexibel.
+deswegen	therefore, because of that / тому, через це | Das Passwort war zu schwach, deswegen wurde der Account gehackt.
+das Eigengewicht, -e	dead weight, own weight / власна вага | Das Eigengewicht des großen Server-Racks beträgt über 100 Kilogramm.
+folglich	consequently, as a result / отже, внаслідок цього | Das Budget wurde gekürzt, folglich können wir keine neuen Tools kaufen.
+die Gewährleistung, -en	warranty, guarantee / гарантія (за законом) | Auf diese Hardware haben wir noch zwei Jahre Gewährleistung.
+die Geschwindigkeit, -en	speed / швидкість | Die Lade-Geschwindigkeit der Webseite wurde durch das Caching verdoppelt.
+die Hebebühne, -n	lifting platform, hoist / підйомник | Das Auto wird in der Werkstatt auf der Hebebühne repariert.
+die Hubhöhe, -n	lifting height / висота підйому | Die Hubhöhe des Gabelstaplers reicht für die obersten Regale im Server-Lager.
+die Kaufentscheidung, -en	purchase decision / рішення про покупку | Gute Reviews im Internet beeinflussen die Kaufentscheidung für Software.
+etw. lagern	to store / зберігати | Wir lagern die Backups verschlüsselt in einem externen Rechenzentrum.
+die Lieferzeit, -en	delivery time / час доставки | Die Lieferzeit für die neuen MacBook Pros beträgt leider drei Wochen.
+die Neuanschaffung, -en	new acquisition, purchase / нове придбання | Die Neuanschaffung von 3D-Druckern hat unsere Prototypen-Entwicklung beschleunigt.
+das Qualitätsproblem, -e	quality problem / проблема з якістю | Dieses Framework hat ein bekanntes Qualitätsproblem beim Speichermanagement.
+der Rabatt, -e	discount / знижка | Wir bekommen als Startup einen großen Rabatt auf die Cloud-Kosten.
+die Raumhöhe, -n	room height / висота приміщення | Die Raumhöhe im Serverraum muss für die Kühlungsanlagen ausreichen.
+die Tragfähigkeit, -en	load capacity / вантажопідйомність, несуча здатність | Die Tragfähigkeit des Bodens im Data Center muss sehr hoch sein.
+trotzdem	nevertheless, anyway / незважаючи на це, все ж | Das Projekt war extrem stressig, trotzdem haben wir die Deadline geschafft.
+die Wartung, -en	maintenance / технічне обслуговування | Die monatliche Wartung der Datenbank findet am Wochenende statt.
+das Bedienungsproblem, -e	operating problem, user error / проблема з експлуатацією / використанням | Ein gutes UX-Design verhindert ein Bedienungsproblem durch den User.
+etw. beheben (z. B. einen Fehler) (behebt, behob, hat behoben)	to fix, to resolve (an error) / усувати, виправляти (напр., помилку) | Wir konnten den kritischen Bug im Code schnell beheben.
+etw. beseitigen	to eliminate, to remove / усувати, ліквідувати | Das Skript soll alte Cache-Dateien automatisch beseitigen.
+der Defekt, -e	defect, fault / дефект, несправність | Wegen eines Hardware-Defekts auf dem Mainboard startet der PC nicht mehr.
+das Display, -s	display, screen / дисплей, екран | Das responsive Design passt sich automatisch an jedes Display an.
+einerseits ..., andererseits ...	on the one hand ..., on the other hand ... / з одного боку ..., з іншого боку ... | Einerseits ist die Cloud flexibel, andererseits kostet sie viel Geld.
+die Einstellung, -en	setting / налаштування | Du kannst den Dark Mode in den Account-Einstellungen aktivieren.
+die Elektronik (Sg.)	electronics / електроніка | Die feine Elektronik auf der Platine ist sehr empfindlich gegen Wasser.
+etw. entkalken	to descale / очищати від накипу | Der Praktikant muss die Kaffeemaschine im IT-Büro entkalken.
+etw. erhitzen	to heat up / нагрівати | Wenn der Algorithmus läuft, kann sich die CPU stark erhitzen.
+etw. herunterladen (lädt herunter, lud herunter, hat heruntergeladen)	to download / завантажувати | Bitte lade die neueste Version von Docker herunter.
+je ..., desto ...	the ..., the ... / чим ..., тим ... | Je sauberer der Code ist, desto weniger Bugs entstehen.
+der Kaffeesatzbehälter, -	coffee grounds container / контейнер для кавової гущі | Bitte leeren Sie den Kaffeesatzbehälter nach der Benutzung aus.
+die Mechanik (Sg.)	mechanics / механіка | Neben Elektronik ist auch Mechanik wichtig für den Bau von Robotern.
+das Menü, -s	menu / меню | Das Navigations-Menü auf unserer Webseite muss intuitiver werden.
+etw. nachfüllen	to refill / поповнювати, доливати | Der Drucker im Büro zeigt an, dass wir Tinte nachfüllen müssen.
+die Programmierung, -en	programming / програмування | Die Programmierung von Künstlicher Intelligenz erfordert viel Mathe-Wissen.
+etw. reinigen	to clean / чистити | Es ist wichtig, die Tastatur und den Monitor regelmäßig zu reinigen.
+die Reinigungstablette, -n	cleaning tablet / таблетка для чищення | Die Kaffeemaschine verlangt nach einer Reinigungstablette.
+etw. säubern	to clean / очищати | Ich nutze ein Skript, um die alte Datenbank zu säubern.
+sowohl ... als auch ...	both ... and ... / як ..., так і ... | Die App ist sowohl für iOS als auch für Android verfügbar.
+etw. starten	to start, to boot / запускати | Nach der Installation musst du den lokalen Server neu starten.
+der Stillstand (Sg.)	standstill, downtime / простій, зупинка | Ein Server-Stillstand von nur fünf Minuten kostet das Unternehmen viel Geld.
+die Störung, -en	fault, malfunction, disturbance / збій, несправність | Wir haben aktuell eine große Störung im Netzwerk.
+umgehend	immediately, promptly / негайно, терміново | Bitte kümmern Sie sich umgehend um das Support-Ticket des Kunden.
+etw. verwenden	to use, to apply / використовувати | Für das Backend verwenden wir momentan Node.js.
+zwar ..., aber ...	indeed ..., but ... / хоча й ..., але ... | Der Code ist zwar sehr kurz, aber schwer zu verstehen.
+der (Drehmoment-)Schlüssel, -	(torque) wrench / (динамометричний) гайковий ключ | Der Mechaniker zieht die Schraube am Auto mit dem Drehmoment-Schlüssel fest.
+etw. abmontieren	to dismantle, to remove / демонтувати, знімати | Ich muss die Abdeckung des Servers abmontieren, um den RAM zu tauschen.
+der Aktionstag, -e	promotional day, action day / день акції / кампанії | Am Black Friday gibt es einen Aktionstag mit großen Software-Rabatten.
+etw. anheben (hebt an, hob an, hat angehoben)	to lift, to raise / піднімати | Der Wagenheber wird benutzt, um das Auto anzuheben.
+der Auszubildende, -n / die Auszubildende, -n	trainee, apprentice / стажер, учень | Der Auszubildende (Azubi) lernt heute, wie man Netzwerkkabel crimpt.
+die Autobatterie, -n	car battery / автомобільний акумулятор | Im Winter streikt oft die Autobatterie des Firmenwagens.
+der Azubi, -s / die Azubi, -s	trainee, apprentice (short form) / стажер, учень (скорочено) | Unser neuer IT-Azubi richtet gerade seinen Arbeitsplatz ein.
+die Bremsflüssigkeit (Sg.)	brake fluid / гальмівна рідина | Bei der Inspektion wurde die Bremsflüssigkeit des Leasing-Autos gewechselt.
+die Drahtbürste, -n	wire brush / дротяна щітка | Rostige Teile werden in der Werkstatt mit der Drahtbürste gereinigt.
+etw. eindrehen	to screw in / вкручувати | Du musst die Schraube für das Motherboard vorsichtig eindrehen.
+etw. einfetten	to grease, to lubricate / змащувати (жиром/мастилом) | Der Mechaniker muss die quietschende Tür des Firmenwagens einfetten.
+etw. einfüllen	to fill in, to pour in / наливати, наповнювати | Wir müssen Wasser in das Kühlsystem des Gaming-PCs einfüllen.
+etw. einlagern	to store / здавати на зберігання | Die Sommerreifen werden über den Winter in der Werkstatt eingelagert.
+etw. festdrehen	to tighten / закручувати, затягувати | Vergiss nicht, die Schrauben an der Festplatte richtig festzudrehen.
+die Fettkreide, -n	wax crayon / воскова крейда | Mit Fettkreide markiert der Mechaniker die Position der Reifen.
+das Frostschutzmittel, -	antifreeze / антифриз | Im Dezember füllen wir Frostschutzmittel in das Wischwasser des Autos.
+der Kratzer, -	scratch / подряпина | Leider hat der Bildschirm des neuen Laptops einen tiefen Kratzer.
+Kunden aufrufen	to call customers / викликати клієнтів | Das System kann Kunden nach ihrer Ticket-Nummer aufrufen.
+etw. lösen	to loosen, to solve / відкручувати (болт) / вирішувати (проблему) | Er muss die verrostete Schraube mit etwas Öl lösen.
+die Mutter, -n	nut (hardware) / гайка | Um das Bauteil zu befestigen, brauchst du eine passende Schraube und Mutter.
+der Ölstand (Sg.)	oil level / рівень масла | Ein moderner Bordcomputer misst den Ölstand elektronisch.
+etw. platzieren	to place, to position / розміщувати, розташовувати | Wir platzieren den WLAN-Router zentral im Büro für besseren Empfang.
+die Probefahrt, -en	test drive / тестова поїздка | Nach dem Update der Auto-Software machen wir eine Probefahrt.
+das Profil, -e	profile, tread / профіль, протектор шини | Das Profil der Reifen ist schon sehr abgenutzt.
+die Rabattaktion, -en	discount campaign / акція зі знижками | Durch eine Rabattaktion haben wir 50% beim Kauf der Software gespart.
+das Radkreuz, -e	wheel brace, lug wrench / балонний ключ | Mit dem Radkreuz lassen sich die Radmuttern am Auto lösen.
+die Radnabe, -n	wheel hub / маточина колеса | Die Felge wird auf die Radnabe des Autos geschraubt.
+der Reifendruck (Sg.)	tire pressure / тиск у шинах | Sensoren senden den aktuellen Reifendruck an das Display.
+das Reifenprofil, -e	tire tread / протектор шини | Ein tiefes Reifenprofil ist wichtig für die Sicherheit bei Regen.
+der Reifenwechsel, -	tire change / заміна шин | Den Termin für den Reifenwechsel mache ich immer online.
+der Schlagschrauber, -	impact wrench / ударний гайковерт | Die Werkstatt nutzt einen Schlagschrauber, um Reifen schneller zu wechseln.
+die Schraube, -n	screw / гвинт, шуруп | Mir fehlt eine kleine Schraube, um den Laptop wieder zusammenzubauen.
+der Wagenheber, -	car jack / домкрат | Mit einem Wagenheber kannst du den Reifenwechsel auch selbst machen.
+die Abgase (Pl.)	exhaust gases, emissions / вихлопні гази | Elektroautos stoßen keine schädlichen Abgase aus.
+autonomes Fahren	autonomous driving / автономне водіння | Künstliche Intelligenz ist die Grundlage für autonomes Fahren.
+etw. befürworten	to support, to advocate / підтримувати, схвалювати | Ich befürworte den Vorschlag, unsere Server auf grüne Energie umzustellen.
+das Carsharing (Sg.)	car sharing / каршерінг | Viele Entwickler in Berlin nutzen Carsharing statt eines eigenen Autos.
+das Elektroauto, -s	electric car / електромобіль | Unser Chef fährt ein modernes Elektroauto von Tesla.
+energieintensiv	energy-intensive / енергоємний | Das Training von KI-Modellen ist extrem energieintensiv.
+etw. erschweren	to make difficult, to complicate / ускладнювати | Schlecht geschriebener Code wird die zukünftige Wartung stark erschweren.
+der Individualverkehr (Sg.)	private transport / приватний транспорт | Der Individualverkehr in Großstädten führt oft zu Staus.
+die Lärmbelästigung (Sg.)	noise pollution / шумове забруднення | Elektromotoren verringern die Lärmbelästigung in der Stadt enorm.
+die Luftverschmutzung (Sg.)	air pollution / забруднення повітря | Smog und Abgase verursachen in vielen Metropolen große Luftverschmutzung.
+die Mobilität (Sg.)	mobility / мобільність | Apps für E-Scooter verändern die urbane Mobilität.
+das Park-and-Ride-System (Sg.)	park and ride system / перехоплююча парковка | Dank des Park-and-Ride-Systems fahre ich mit der Bahn ins Büro.
+die Selbstverständlichkeit (Sg.)	matter of course, given / само собою зрозуміле | Dass Code versioniert wird (z. B. mit Git), ist heute eine Selbstverständlichkeit.
+etw. sperren	to block, to lock / блокувати | Nach drei falschen Passworteingaben wird der Account automatisch gesperrt.
+überflüssig	superfluous, unnecessary / зайвий, непотрібний | Dank KI-Generatoren wird viel manueller Code langsam überflüssig.
+etw. überlasten	to overload / перевантажувати | Eine DDoS-Attacke kann das Netzwerk des Unternehmens überlasten.
+umsteigen auf (+ Akk.) (steigt um, stieg um, ist umgestiegen)	to switch to, to change / пересідати, переходити (на інше) | Wir werden im Backend bald von Java auf Golang umsteigen.
+umweltfreundlich	environmentally friendly / екологічний | Green IT fördert umweltfreundliche Technologien und Server.
+der Verbrennungsmotor, -en	internal combustion engine / двигун внутрішнього згоряння | Das Startup entwickelt Software für Autos ohne Verbrennungsmotor.
+das Verkehrsnetz, -e	transport network / транспортна мережа | Das digitale Verkehrsnetz steuert die Ampeln in Echtzeit.
+verzichten auf (+ Akk.)	to do without, to abstain from / відмовлятися від | Beim neuen UI/UX-Design verzichten wir komplett auf Dropdown-Menüs.
+Vorrang haben	to have priority / мати пріоритет | Die Behebung von Sicherheitslücken muss immer Vorrang haben.
+jdn. zwingen (zwingt, zwang, hat gezwungen)	to force, to compel / змушувати | Der neue Chief Security Officer wird uns zwingen, 2FA zu nutzen.
+die Bedienbarkeit (Sg.)	usability, operability / зручність використання, юзабіліті | Die Bedienbarkeit (Usability) unserer App muss stark verbessert werden.
+etw./jdn. bedienen	to operate, to serve / обслуговувати, керувати | Die neue Software lässt sich sehr intuitiv bedienen.
+benutzerfreundlich	user-friendly / зручний для користувача | Ein benutzerfreundliches Interface ist entscheidend für den Erfolg.
+die Beseitigung (Sg.)	removal, elimination / усунення, ліквідація | Die Beseitigung dieses Bugs hat höchste Priorität im Sprint.
+etw. betreiben	to operate, to run / експлуатувати, керувати | Wir betreiben unsere eigenen Server in einem Rechenzentrum in Frankfurt.
+die Checkliste, -n	checklist / чек-лист, контрольний список | Wir haben eine Checkliste für das Deployment auf den Produktions-Server.
+das Design, -s	design / дизайн | Das neue UI-Design sieht sehr modern aus.
+effizient	efficient / ефективний | Dieser Suchalgorithmus ist viel effizienter als der alte.
+etw. einstellen	to set, to adjust, to stop / налаштовувати, припиняти | Wir müssen den Support für den alten Internet Explorer einstellen.
+haltbar	durable, stable / міцний, довговічний | Hardware für Server muss besonders haltbar sein.
+die Haltbarkeit (Sg.)	durability, shelf life / довговічність, термін придатності | Die Haltbarkeit von SSD-Festplatten hängt von den Schreibzyklen ab.
+das Image (Sg.)	image, reputation / імідж, репутація | Ein Datenleck würde das Image unserer IT-Firma zerstören.
+die Kundenbewertung, -en	customer review / відгук клієнта | Die App hat eine 5-Sterne-Kundenbewertung im Play Store.
+langlebig	long-lasting, durable / довговічний | Wir schreiben langlebigen Code, der leicht zu warten ist.
+der Mangel, "-	defect, lack, shortage / недолік, дефект, нестача | Es gibt einen großen Mangel an IT-Fachkräften.
+die Nachhaltigkeit (Sg.)	sustainability / стійкість, екологічність | Nachhaltigkeit in der IT (Green IT) wird immer wichtiger.
+das Preis-Leistungs-Verhältnis, -se	price-performance ratio / співвідношення ціни та якості | Der Cloud-Provider hat ein unschlagbares Preis-Leistungs-Verhältnis.
+das Qualitätsmanagement (Sg.)	quality management / управління якістю | Das Qualitätsmanagement verlangt automatisierte Tests für jedes Release.
+das Qualitätsmerkmal, -e	quality feature / ознака якості | Sauberer Code ist ein wichtiges Qualitätsmerkmal.
+die Pauschalreise, -n	package holiday / туристична путівка, пакетний тур | Wir entwickeln ein Buchungssystem für Pauschalreisen.
+das Regalbrett, -er	shelf board / полиця | Das Regalbrett im Server-Rack muss 50 Kilo aushalten.
+die Sägemaschine, -n	sawing machine / пиляльний верстат | Wir programmieren die Steuerungs-Software für eine Sägemaschine.
+die Umweltfreundlichkeit (Sg.)	environmental friendliness / екологічність | Umweltfreundlichkeit ist ein Ziel unseres neuen Rechenzentrums.
+wettbewerbsfähig	competitive / конкурентоспроможний | Um wettbewerbsfähig zu bleiben, müssen wir KI in unsere Produkte integrieren.
+der Zusammenbau (Sg.)	assembly / складання, монтаж | Der Zusammenbau der neuen Server dauerte den ganzen Tag.
+etw. zusammenbauen	to assemble / збирати, монтувати | Der IT-Techniker muss den neuen PC zusammenbauen.
+die Arbeitsfläche, -n	workspace, work surface / робоча поверхня | Bitte halten Sie Ihre Arbeitsfläche im Büro sauber.
+etw. auslösen (z. B. Krankheiten)	to trigger (e.g. diseases) / викликати, провокувати | Ein Fehler im Code kann einen Systemausfall auslösen.
+die Bakterie, -n	bacterium / бактерія | Auf Tastaturen sammeln sich oft viele Bakterien.
+das Desinfektionsmittel, -	disinfectant / дезінфікуючий засіб | Im Büro-Eingang steht ein Spender mit Desinfektionsmittel.
+etw. desinfizieren	to disinfect / дезінфікувати | Du solltest dein Smartphone regelmäßig desinfizieren.
+die Dienstkleidung, -en	workwear, uniform / робочий одяг, уніформа | In unserem Startup gibt es keine Dienstkleidung, nur einen lockeren Dresscode.
+der Einmalhandschuh, -e	disposable glove / одноразова рукавичка | Für den Austausch der Druckerpatrone nutze ich einen Einmalhandschuh.
+etw./jdn. einseifen	to soap, to lather / намилювати | Man soll sich die Hände 20 Sekunden lang gut einseifen.
+das Fieberthermometer, -	clinical thermometer / медичний термометр | Das smarte Fieberthermometer synchronisiert die Daten mit unserer App.
+der Fingernagel, "-	fingernail / ніготь | Die Software analysiert Bilder vom Fingernagel für medizinische Diagnosen.
+fließendes Wasser	running water / проточна вода | Waschen Sie die Hände mit Seife unter fließendem Wasser.
+der Funktionsraum, "-e	utility room, functional room / технічне приміщення | Der Serverraum ist der wichtigste Funktionsraum im Gebäude.
+etw./jdn. gefährden	to endanger / наражати на небезпеку | Ein offener Port kann das gesamte Firmennetzwerk gefährden.
+der Hygienebeauftragte, -n / die Hygienebeauftragte, -n	hygiene officer / відповідальний за гігієну | Der Hygienebeauftragte hat neue Corona-Regeln für das Büro erstellt.
+der Hygieneplan, "-e	hygiene plan / план санітарних заходів | Der Hygieneplan schreibt vor, dass die Tische täglich gereinigt werden.
+die Infektion, -en	infection / інфекція | Unsere Health-App warnt Nutzer vor einer möglichen Infektion.
+etw. kontaminieren	to contaminate / забруднювати, заражати | Ein fehlerhaftes Skript hat unsere Datenbank kontaminiert.
+der Krankheitserreger, -	pathogen, germ / збудник хвороби | Wir entwickeln Software, die DNA von Krankheitserregern analysiert.
+die Pandemie, -n	pandemic / пандемія | Während der Pandemie sind viele Entwickler ins Homeoffice gewechselt.
+der Pflegebereich, -e	care sector / сфера догляду | Wir schreiben sichere Software für Krankenhäuser und den Pflegebereich.
+die Sanitäreinrichtung, -en	sanitary facility / санітарний вузол | Die Sanitäreinrichtungen im Büro wurden frisch renoviert.
+etw./jdn. schützen vor (+ Dat.)	to protect from / захищати від | Die Firewall soll uns vor DDoS-Angriffen schützen.
+der Stuhl (Sg.)	stool (medical) / chair / випорожнення (мед.) / стілець | Das medizinische Labor untersucht den Stuhl des Patienten digital.
+die Übertragung, -en	transmission, transfer / передача (даних/інфекції) | Die Übertragung der Daten erfolgt verschlüsselt über HTTPS.
+der Urin, -e	urine / сеча | Die smarte Toilette kann den Urin automatisch analysieren.
+die Verbreitung, -en	spread, distribution / поширення | Wir wollen die Verbreitung unserer Open-Source-Software fördern.
+etw. verhindern	to prevent / запобігати, перешкоджати | Regelmäßige Updates verhindern, dass das System gehackt wird.
+das Virus, Viren	virus / вірус (комп'ютерний або біологічний) | Das Antivirenprogramm hat ein gefährliches Virus blockiert.
+der Zwischenraum, "-e	gap, space between / проміжок, зазор | Im Zwischenraum der Tastatur sammelt sich viel Staub.
+anregend	stimulating, inspiring / надихаючий, стимулюючий | Das Gespräch mit dem Software-Architekten war sehr anregend.
+Aufgaben erfüllen	to fulfill tasks / виконувати завдання | Ein Algorithmus muss genau definierte Aufgaben erfüllen.
+ausführlich	detailed, extensive / детальний, докладний | Bitte schreibe einen ausführlichen Kommentar zu diesem Code.
+befreiend	liberating / визвольний, такий, що приносить полегшення | Es war sehr befreiend, diesen uralten Code endlich zu löschen.
+etw./jdn. beurteilen	to assess, to judge / оцінювати, судити | Im Code Review beurteilen wir die Qualität der Lösung.
+etw. bewerten	to evaluate, to rate / оцінювати | Wie würden Sie Ihre eigenen React-Kenntnisse bewerten?
+ehrlich	honest(ly) / чесний | Sei ehrlich, wenn du einen Bug nicht selbst fixen kannst.
+einfühlsam	empathetic, sensitive / чуйний | Ein guter Scrum Master reagiert einfühlsam auf Teamprobleme.
+emotional	emotional / емоційний | Bitte bleibt bei Diskussionen über Architektur sachlich, nicht emotional.
+ernst	serious(ly) / серйозний | Das ist ein sehr ernstes Sicherheitsproblem (Security Issue).
+etw. erreichen	to achieve, to reach / досягати | Zusammen können wir das Ziel des Sprints erreichen.
+etw. zur Diskussion stellen	to put up for discussion / винести на обговорення | Ich möchte dieses neue Datenbank-Modell zur Diskussion stellen.
+Feedback geben	to give feedback / давати зворотний зв'язок | Beim Pair-Programming können wir uns direkt Feedback geben.
+das Feedback, -s	feedback / зворотний зв'язок | Das Feedback der Nutzer zur neuen Version war sehr positiv.
+Fragen stellen	to ask questions / ставити запитання | Zögern Sie nicht, im Interview technische Fragen zu stellen.
+die Führungskraft, "-e	manager, executive / керівник | Unser CTO ist eine sehr erfahrene Führungskraft.
+die Gelegenheit ergreifen	to seize the opportunity / скористатися нагодою | Er sollte die Gelegenheit ergreifen und Lead Developer werden.
+harmonisch	harmonious / гармонійний | Die Zusammenarbeit im Frontend-Team verläuft sehr harmonisch.
+hitzig	heated (argument) / палкий, гарячий | Es gab eine hitzige Debatte über Tabs vs. Spaces.
+in Wut geraten	to fly into a rage, to get angry / розлютитися | Du darfst nicht in Wut geraten, wenn dein Code abgelehnt wird.
+klärend	clarifying / прояснюючий | Nach dem Konflikt hatten wir ein klärendes Gespräch.
+kollegial	cooperative, collegial / товариський, колегіальний | Wir haben ein sehr kollegiales Verhältnis im Büro.
+die Kooperationsfähigkeit (Sg.)	ability to cooperate / здатність до співпраці | Kooperationsfähigkeit ist das Wichtigste bei Scrum.
+die Kundenorientierung (Sg.)	customer orientation / клієнтоорієнтованість | Die Kundenorientierung steht bei der Entwicklung unseres UIs im Fokus.
+locker	relaxed, casual / розслаблений, невимушений | Der Tech-Talk am Freitag ist immer sehr locker.
+offen	open / відкритий | Wir pflegen eine sehr offene Feedback-Kultur im Startup.
+Protokoll führen	to take minutes/notes / вести протокол | Wer wird im heutigen Meeting das Protokoll führen?
+Vereinbarungen treffen	to make agreements / укладати угоди, домовлятися | Wir müssen klare Vereinbarungen über die API-Schnittstelle treffen.
+vertraulich	confidential / конфіденційний | Kundendaten müssen immer absolut vertraulich behandelt werden.
+das Zielvereinbarungsgespräch, -e	target agreement discussion / розмова про встановлення цілей | Im Zielvereinbarungsgespräch legen wir meine Boni für das Jahr fest.
+zur Sprache kommen	to come up for discussion / бути обговореним, підніматися (про питання) | Die schlechte Server-Performance muss heute im Meeting zur Sprache kommen.
+die (stationäre) Altenpflege (Sg.)	inpatient elder care / догляд за літніми людьми | Wir entwickeln eine Verwaltungs-Software für die Altenpflege.
+die Arbeitsbelastung, -en	workload / робоче навантаження | Die Arbeitsbelastung ist kurz vor dem Release sehr hoch.
+etw. ausgleichen	to balance out, to compensate / урівноважувати, компенсувати | Mit Freizeitausgleich können wir Überstunden ausgleichen.
+belastend	burdensome, stressful / обтяжливий, стресовий | Ständige Server-Ausfälle sind sehr belastend für das DevOps-Team.
+berechtigt	justified, authorized / обґрунтований, виправданий | Die Kritik am langsamen Ladebildschirm ist völlig berechtigt.
+die Betriebsvereinbarung, -en	company agreement / корпоративна угода | Homeoffice ist bei uns durch eine Betriebsvereinbarung geregelt.
+etw. bewilligen	to approve, to grant / схвалювати, давати дозвіл | Der Chef hat mein Budget für die AWS-Zertifizierung bewilligt.
+destruktiv	destructive / деструктивний | Destruktive Kommentare im Code Review helfen niemandem weiter.
+die Einschätzung, -en	assessment, evaluation / оцінка, думка | Teilst du meine Einschätzung, dass diese Datenbank zu langsam ist?
+sich einschleichen (z. B. ein Fehler hat sich eingeschlichen)	to creep in / закрадатися (напр., помилка) | Nach dem Refactoring hat sich leider ein kleiner Fehler eingeschlichen.
+die Entlastung, -en	relief / розвантаження, полегшення | Automatisierte Tests bringen eine enorme Entlastung für das QA-Team.
+jdm. sind die Hände gebunden	one's hands are tied / руки зв'язані | Ich kann das Update nicht machen, mir sind ohne Admin-Rechte die Hände gebunden.
+gehetzt	rushed, harried / загнаний, поспішний | Wenn man Code gehetzt schreibt, macht man viele Fehler.
+der Gesundheitsschutz (Sg.)	health protection / охорона здоров'я | Ergonomische Stühle sind wichtig für den Gesundheitsschutz im IT-Büro.
+der Heimleiter, - / die Heimleiterin, -nen	care home manager / керівник інтернату | Der Heimleiter schult sein Personal auf unser neues IT-System.
+die Leistungsgrenze (Sg.)	performance limit / межа продуктивності | Der alte Server ist gestern an seine Leistungsgrenze gestoßen.
+machtlos	powerless / безсилий | Wenn der Cloud-Provider down ist, sind wir leider komplett machtlos.
+die Mehrarbeit (Sg.)	extra work, overtime / наднормова робота | Die Mehrarbeit am Wochenende wird finanziell gut vergütet.
+peinlich	embarrassing / незручний, соромно | Es ist peinlich, wenn die App bei der Präsentation abstürzt.
+der Personalmangel (Sg.)	staff shortage / нестача персоналу | Wegen des Personalmangels suchen wir dringend neue Entwickler.
+der Tadel, -	reprimand, blame / догана, осуд | Für diesen kritischen Fehler gab es einen Tadel vom CTO.
+jdm. etw. übel nehmen	to take offense at, to resent / ображатися на когось | Nimm mir die strenge Code-Kritik bitte nicht übel.
+etw. verbergen (verbirgt, verbarg, hat verborgen)	to hide, to conceal / приховувати | Du solltest deine Fehler im Code niemals vor dem Team verbergen.
+versehentlich	accidentally, by mistake / випадково | Ich habe versehentlich die Produktions-Datenbank gelöscht!
+etw./jdn. zurückweisen (weist zurück, wies zurück, hat zurückgewiesen)	to reject / відхиляти | Der Senior Developer musste meinen Pull Request leider zurückweisen.
+sich etw. abgewöhnen	to break the habit of / відвикати | Ich muss mir abgewöhnen, ohne Unit-Tests zu pushen.
+sich bemühen um (+ Akk.)	to strive for, to make an effort / намагатися, докладати зусиль | Ich werde mich bemühen, den Bug bis morgen zu beheben.
+die Beziehung, -en	relationship / відносини, зв'язок | Wir haben eine sehr gute Beziehung zu unseren B2B-Kunden.
+etw. erforschen	to research, to explore / досліджувати | Wir müssen erst erforschen, warum die Server-Last plötzlich ansteigt.
+halten von (+ Dat.) (hält, hielt, hat gehalten)	to think of (an opinion) / бути якоїсь думки про щось | Was hältst du von dem neuen JavaScript-Framework?
+klingen (klingt, klang, hat geklungen)	to sound / звучати | Dein Plan für die Datenmigration klingt sehr gut.
+nachgiebig	yielding, compliant / поступливий | Bei Sicherheitsfragen dürfen wir auf keinen Fall nachgiebig sein.
+rotsehen (sieht rot, sah rot, hat rotgesehen)	to see red, to lose one's temper / розлютитися (побачити червоне) | Wenn jemand meinen Code ohne zu fragen ändert, könnte ich rotsehen.
+sanft	gentle, soft / м'який, ніжний | Der Übergang (Animation) im UI sollte fließend und sanft sein.
+schädlich für (+ Akk.)	harmful to / шкідливий для | Micro-Management ist sehr schädlich für die Motivation der Entwickler.
+das Tabu, -s	taboo / табу | Passwörter im Code (Hardcoding) sind ein absolutes Tabu.
+ungewohnt	unusual, unfamiliar / незвичний | Die Syntax von Python war für mich am Anfang etwas ungewohnt.
+verständnisvoll	understanding, sympathetic / тямущий, з розумінням | Mein Teamlead reagierte sehr verständnisvoll auf meine Krankheit.
+wahnsinnig	crazy, insane(ly) / божевільний, неймовірно | Die neuen M3-Chips von Apple sind wahnsinnig schnell.
+sich zurückziehen von (+ Dat.) (zieht zurück, zog zurück, hat zurückgezogen)	to withdraw from / відсторонятися, відступати | Man darf sich nach Kritik nicht sofort aus dem Team zurückziehen.
+etw. abwägen	to weigh up, to consider / зважувати, обмірковувати | Wir müssen die Vor- und Nachteile der neuen API abwägen.
+die Arbeitsbedingung, -en	working condition / умова праці | Flexible Arbeitsbedingungen sind sehr wichtig für Entwickler.
+der Aspekt, -e	aspect / аспект | Datensicherheit ist ein wichtiger Aspekt beim Cloud-Computing.
+die Auftragsabwicklung, -en	order processing / обробка замовлення | Die App automatisiert die komplette Auftragsabwicklung für den Shop.
+der Baustoff, -e	building material / будівельний матеріал | Wir programmieren eine Logistik-Software für Baustoffe.
+etw./jdm. Beachtung schenken	to pay attention to / приділяти увагу | Wir müssen dem Feedback der User mehr Beachtung schenken.
+etw. benötigen	to need, to require / потребувати | Wir benötigen mehr RAM für diesen Datenbank-Server.
+etw. berücksichtigen	to consider, to take into account / враховувати | Bitte berücksichtigen Sie die Ladezeiten beim mobilen Webdesign.
+etw. beschaffen	to procure, to obtain / діставати, закуповувати | Die IT-Abteilung muss dringend neue Monitore beschaffen.
+die Beschaffung (Sg.)	procurement / закупівля, придбання | Die Beschaffung der neuen Server-Hardware dauert drei Wochen.
+der Beschaffungsmarkt, "-e	procurement market / ринок закупівель | Der Beschaffungsmarkt für Mikrochips ist aktuell sehr angespannt.
+die Bestandsaufnahme, -n	inventory, taking stock / інвентаризація, оцінка стану | Wir machen eine Bestandsaufnahme unserer Software-Lizenzen.
+das CAD-Programm, -e	CAD program / САПР (система автоматизованого проектування) | Der Ingenieur nutzt ein CAD-Programm für das 3D-Modell.
+der Einfluss, "-e	influence / вплив | Der Lead Developer hat großen Einfluss auf die IT-Architektur.
+Einfluss haben auf (+ Akk.)	to have an influence on / мати вплив на | Die Server-Auslastung hat direkten Einfluss auf die Ladezeit der App.
+etw. einkalkulieren	to factor in, to take into account / враховувати (у розрахунках) | Wir müssen Pufferzeit für Bugfixes einkalkulieren.
+die Fachmesse, -n	trade fair / спеціалізована виставка | Wir stellen unser Produkt auf der IT-Fachmesse vor.
+das Fertighaus, "-er	prefabricated house / збірний будинок | Unser Kunde baut Smart-Home-Systeme für Fertighäuser.
+die Fertighausfirma, -firmen	prefabricated house company / компанія-виробник збірних будинків | Die Fertighausfirma nutzt unsere VR-Software für ihre Kunden.
+das Gartengerät, -e	garden tool / садовий інструмент | Die App steuert smarte Gartengeräte wie Mähroboter.
+geeignet	suitable / підходящий, придатний | Python ist sehr geeignet für Data Science und Machine Learning.
+global	global / глобальний | Wir arbeiten in einem globalen Entwickler-Team.
+das Gut, "-er	good, commodity, asset / товар, майно | Daten sind das wertvollste Gut in der modernen Wirtschaft.
+der Konkurrenzdruck (Sg.)	competitive pressure / конкурентний тиск | Der Konkurrenzdruck im E-Commerce-Bereich ist enorm hoch.
+die Lagerkapazität, -en	storage capacity / місткість складу, ємність сховища | Wir müssen die Lagerkapazität unserer Cloud-Datenbank erweitern.
+die Liefersicherheit (Sg.)	delivery reliability, security of supply / надійність постачання | Liefersicherheit bei Hardware-Komponenten ist wichtig für das Rechenzentrum.
+massiv	massive(ly) / масивний, масштабний | Wir haben massive Probleme mit dem neuen Server-Deployment.
+das Material, -ien	material / матеріал | Wir bestellen neues Material für den 3D-Drucker.
+die Menge, -n	amount, quantity / кількість, обсяг | Das Python-Skript muss eine riesige Menge an Daten verarbeiten.
+die Produktionsunterbrechung, -en	production interruption, downtime / переривання виробництва, простій | Ein Serverausfall führt zu einer teuren Produktionsunterbrechung.
+das Rohmaterial, -ien	raw material / сировина | Unstrukturierte Daten sind das Rohmaterial für KI-Modelle.
+sorgen für (+ Akk.)	to ensure, to take care of / піклуватися про, забезпечувати | Der Load Balancer sorgt für eine stabile Server-Performance.
+das Steuerbüro, -s	tax consultancy/office / податкове бюро | Unsere Buchhaltungs-Software wird von vielen Steuerbüros genutzt.
+die Umweltpolitik (Sg.)	environmental policy / екологічна політика | Green IT ist ein wichtiger Teil unserer Unternehmens-Umweltpolitik.
+vertraut sein mit (+ Dat.)	to be familiar with / бути обізнаним з | Bist du mit der Architektur der AWS-Cloud vertraut?
+der Zeichentisch, -e	drawing board, drafting table / креслярський стіл | Das Architektur-Startup ersetzt den analogen Zeichentisch durch VR.
+die Zollbestimmung, -en	customs regulation / митне правило | Beim Import der Server aus den USA müssen wir Zollbestimmungen beachten.
+Angebote einholen	to get/obtain quotes / отримувати пропозиції (цінові) | Wir müssen Angebote von drei verschiedenen Cloud-Providern einholen.
+jdn. auffordern	to request, to ask / закликати, вимагати | Das System wird den User auffordern, sein Passwort zu ändern.
+aufmerksam machen auf (+ Akk.)	to draw attention to / звертати увагу на | Ich möchte das Team auf einen kritischen Bug im Code aufmerksam machen.
+die Auftragsvergabe, -n	award of contract, order placement / розміщення замовлення, укладання контракту | Die Auftragsvergabe für das neue CRM-System erfolgt nächste Woche.
+etw. ausrichten	to pass on (a message) / передавати (повідомлення) | Können Sie dem IT-Leiter bitte ausrichten, dass ich das Ticket gelöst habe?
+etw. entgegennehmen (nimmt entgegen, nahm entgegen, hat entgegengenommen)	to receive, to accept / приймати (замовлення, дзвінок) | Unser Support-Team wird die Fehlermeldungen der User entgegennehmen.
+jdn. hinweisen auf (+ Akk.)	to point out to / вказувати комусь на щось | Der Linter wird den Entwickler automatisch auf Syntaxfehler hinweisen.
+das Kriterium, Kriterien	criterion / критерій | Server-Performance ist das wichtigste Kriterium bei der Provider-Wahl.
+die Lieferfrist, -en	delivery deadline, time for delivery / термін доставки | Die Lieferfrist für die neuen Firmen-Laptops beträgt zwei Wochen.
+maßgeblich	significant, decisive / визначальний, істотний | Ihre Architektur-Entscheidung war maßgeblich für den Projekterfolg.
+die Prokura (Sg.)	commercial power of attorney / довіреність (на право підпису) | Der CTO hat Prokura und darf Software-Lizenzen selbstständig kaufen.
+das Türschloss, "-er	door lock / дверний замок | Wir entwickeln eine Smartphone-App für ein smartes Türschloss.
+verbinden mit (+ Dat.)	to connect with / з'єднувати з | Bitte verbinden Sie mich telefonisch mit dem IT-Support.
+verbindlich	binding, obligatory / обов'язковий (до виконання), зобов'язуючий | Das Kostenangebot für das Software-Projekt ist rechtlich verbindlich.
+jdn. verweisen auf (+ Akk.) (verweist, verwies, hat verwiesen)	to refer to / відсилати до (когось/чогось) | Bei Login-Problemen verweisen wir die User auf unsere FAQ-Seite.
+der Wettbewerber, -	competitor / конкурент | Unser größter Wettbewerber hat gestern ein ähnliches Feature gelauncht.
+die Zusicherung, -en	assurance, guarantee / запевнення, гарантія | Wir brauchen eine schriftliche Zusicherung für die Datensicherheit (DSGVO).
+der Abzug, "-e	deduction / відрахування, знижка | Nach Abzug der Steuern bleibt ein gutes Netto-Gehalt für Entwickler.
+der Akku, -s	battery / акумулятор | Der Akku meines neuen MacBooks hält beim Coden fast 10 Stunden.
+ein Angebot unterbreiten	to submit an offer/quote / робити/надавати пропозицію | Wir werden dem Kunden heute ein Angebot für die Webentwicklung unterbreiten.
+etw. anlegen (z. B. einen Garten)	to create, to set up / створювати (напр. базу даних, обліковий запис) | Ich muss einen neuen User-Account in der Datenbank anlegen.
+enthalten (enthält, enthielt, hat enthalten)	to contain, to include / містити в собі | Das neue Software-Update wird viele wichtige Sicherheits-Patches enthalten.
+der Ersatzakku, -s	spare battery / запасний акумулятор | Ich nehme einen Ersatzakku für den Laptop auf die Dienstreise mit.
+der Erstauftrag, "-e	initial order / перше замовлення | Für unseren Erstauftrag haben wir eine kleine Landingpage entwickelt.
+sich erweisen als (erweist sich, erwies sich, hat sich erwiesen)	to turn out to be, to prove to be / виявлятися (кимось/чимось) | Das neue React-Framework hat sich als sehr performant erwiesen.
+der Folgeauftrag, "-e	follow-up order / наступне/повторне замовлення | Nach dem guten MVP-Release haben wir direkt einen Folgeauftrag bekommen.
+die Funktionsfähigkeit (Sg.)	functionality, operability / функціональність, працездатність | Die QA testet die Funktionsfähigkeit der neuen App intensiv.
+die Gebrauchsweise (Sg.)	method of use, instructions for use / спосіб використання | Die Gebrauchsweise unserer API ist in der Dokumentation beschrieben.
+die Gesamtbestellung (Sg.)	total order / загальне замовлення | Die Gesamtbestellung für die Server-Hardware kostet 50.000 Euro.
+der Gesamtpreis, -e	total price / загальна вартість | Der Gesamtpreis für das Software-Projekt liegt genau im Budget.
+kostengünstig	cost-effective, cheap / вигідний за ціною, недорогий | AWS bietet auch sehr kostengünstige Speicherlösungen (S3) an.
+die Marktchancen (Pl.)	market opportunities / ринкові можливості | Die Marktchancen für KI-basierte Tools sind aktuell riesig.
+nachteilig	disadvantageous, detrimental / невигідний, шкідливий | Schlechter Code wirkt sich nachteilig auf die Server-Performance aus.
+optional	optional / опціональний, необов'язковий | Die Angabe der Telefonnummer im Registrierungsformular ist optional.
+der Skonto (Sg.)	cash discount / сконто (знижка за швидку оплату) | Wenn wir die Server sofort bezahlen, bekommen wir 2% Skonto.
+der Sonderpreis, -e	special price / спеціальна ціна | Zum Black Friday bieten wir unsere Software zum Sonderpreis an.
+standardmäßig	standard, by default / за замовчуванням, стандартно | Die Verschlüsselung der Passwörter ist im System standardmäßig aktiviert.
+der Stückpreis, -e	unit price / ціна за штуку | Der Stückpreis für Firmen-Laptops sinkt bei einer Großbestellung.
+einen Termin einhalten (hält ein, hielt ein, hat eingehalten)	to meet a deadline / дотримуватися терміну | Wir müssen den Termin für das Produktions-Release unbedingt einhalten.
+üblicherweise	usually, typically / зазвичай | Üblicherweise deployen wir am Freitag keinen neuen Code.
+die Versandkosten (Pl.)	shipping costs / вартість доставки | Beim Kauf von Hardware für über 50 Euro entfallen die Versandkosten.
+vorteilig	advantageous, beneficial / вигідний, сприятливий | Eine Microservice-Architektur ist sehr vorteilig für die Skalierbarkeit.
+die Zahlungsbedingungen (Pl.)	terms of payment / умови оплати | Die Zahlungsbedingungen für die Freelancer-Rechnung stehen unten.
+die Zahlungsfrist, -en	payment deadline/period / строк оплати | Die Zahlungsfrist für die Server-Miete beträgt 14 Tage.
+die Abnahme, -n	acceptance, approval / приймання (робіт), узгодження | Die Abnahme der neuen Software durch den Kunden erfolgt morgen.
+das Abnahmeprotokoll, -e	acceptance report/protocol / акт приймання-передачі | Der Kunde muss das Abnahmeprotokoll nach dem erfolgreichen Test unterschreiben.
+etw. anschauen	to look at, to examine / дивитися, розглядати | Lass uns den fehlerhaften Quellcode gemeinsam anschauen (Code Review).
+der Auftraggeber, - / die Auftraggeberin, -nen	client, principal, customer / замовник, клієнт | Unser Auftraggeber wünscht sich noch eine Dark-Mode-Funktion.
+etw. ausführen	to execute, to perform / виконувати | Das System wird den Code sicher in einem Docker-Container ausführen.
+die Bauabnahme, -n	building inspection/acceptance / приймання будівельного об'єкта | Nach der Installation der Server-Racks erfolgt die Bauabnahme im Rechenzentrum.
+der Bauherr, -en / die Bauherrin, -nen	building owner/client / забудовник, власник будівлі | Der Bauherr möchte Smart-Home-Technik im ganzen Haus integrieren.
+die Bauleistung, -en	construction work / будівельні роботи | Die Installation der IT-Infrastruktur gehört zur Bauleistung.
+das Bauunternehmen, -	construction company / будівельна компанія | Das Bauunternehmen nutzt unsere Projektmanagement-Software.
+bedauerlicherweise	unfortunately, regrettably / на жаль | Bedauerlicherweise hat der Server-Ausfall gestern einige Daten gelöscht.
+der Eigentümer, - / die Eigentümerin, -nen	owner / власник | Wer ist der Eigentümer dieses GitHub-Repositories?
+etw. fertigstellen	to complete, to finish / завершувати | Wir werden das MVP (Minimum Viable Product) nächsten Monat fertigstellen.
+die Fußleiste, -n	baseboard, skirting board / плінтус | Wir verlegen die Netzwerkkabel im IT-Büro sicher hinter der Fußleiste.
+die Gewährleistungsfrist, -en	warranty period / гарантійний термін | Die Gewährleistungsfrist für die neuen Firmen-Monitore beträgt zwei Jahre.
+die Kleinigkeit, -en	small detail, minor matter / дрібниця | Das kleine CSS-Problem ist nur eine Kleinigkeit und schnell gefixt.
+lediglich	merely, only / лише, тільки | Der Bug tritt lediglich im Safari-Browser auf.
+machbar	feasible, doable / здійсненний, можливий | Dieses Feature ist technisch machbar, dauert aber zwei Sprints.
+die Nacharbeiten (Pl.)	rework, touch-ups / доопрацювання | Nach dem Code Review müssen wir noch kleine Nacharbeiten erledigen.
+die Nachbesserung, -en	rectification of defects, improvement / виправлення (помилок), доопрацювання | Der Kunde fordert eine Nachbesserung beim UI-Design.
+der Personalengpass, "-e	staff shortage / нестача персоналу | Wegen Krankheit haben wir aktuell einen Personalengpass im Support-Team.
+das Prüfstück, -e	test piece, sample / дослідний зразок, тестовий екземпляр | Wir nutzen einen Prototyp der Hardware als Prüfstück.
+das Übergabeprotokoll, -e	handover protocol / акт передачі | Beim Wechsel des Laptops unterschreibt der Mitarbeiter ein Übergabeprotokoll.
+unverzüglich	immediately, without delay / негайно, без зволікань | Kritische Server-Ausfälle müssen unverzüglich gemeldet werden.
+die Verzögerung, -en	delay / затримка | Aufgrund eines Bugs gab es eine Verzögerung beim App-Release.
+zeitnah	promptly, in a timely manner / своєчасно, найближчим часом | Bitte beantworten Sie die Support-Tickets möglichst zeitnah.
+zufriedenstellend	satisfactory / задовільний | Die Performance der App ist nach dem Datenbank-Update sehr zufriedenstellend.
+die Abmahnung, -en	warning, reprimand (written) / попередження, догана | Ständiges Zuspätkommen zum Daily Scrum kann zu einer Abmahnung führen.
+akzeptabel	acceptable / прийнятний | Eine Ladezeit von über 5 Sekunden ist für die User nicht akzeptabel.
+die Bewertung, -en	evaluation, review, rating / оцінка, відгук | Unsere neue App hat eine sehr gute Bewertung im App Store erhalten.
+eine Dienstleistung erbringen (erbringt, erbrachte, hat erbracht)	to provide a service / надавати послугу | Unser Cloud-Provider muss die vertraglich vereinbarte Dienstleistung erbringen.
+erwünscht	desired, welcome / бажаний | Konstruktives Feedback im Code Review ist immer erwünscht.
+fällig werden	to become due (for payment) / підлягати сплаті, настати (про термін) | Die Rechnung für das Software-Abo wird am Monatsende fällig.
+permanent	permanent(ly) / постійний, перманентний | Wir brauchen eine permanente und sichere Verbindung zur Datenbank.
+eine Rolle spielen	to play a role/part / відігравати роль | Clean Code spielt eine große Rolle für die Wartbarkeit unseres IT-Projekts.
+der Schadenersatz (Sg.)	compensation for damages / відшкодування збитків | Bei einem großen Datenverlust kann der Kunde Schadenersatz fordern.
+tolerant	tolerant / толерантний | Unser Team ist sehr tolerant gegenüber Fehlern, wenn wir daraus lernen.
+zum guten Ton gehören	to be good manners/etiquette / бути правилом хорошого тону | Pünktlichkeit beim Zoom-Meeting gehört in unserem Team zum guten Ton.
+etw. abschalten	to switch off, to shut down / вимикати, відключати | Wir müssen den veralteten Datenbank-Server endgültig abschalten.
+anfallen (fällt an, fiel an, ist angefallen)	to arise, to be incurred / виникати (про витрати або роботу) | Beim AWS-Cloud-Hosting können sehr hohe Kosten anfallen.
+begeistert	enthusiastic, excited / у захваті, натхненний | Der Kunde war total begeistert von dem neuen UI-Design.
+etw. beheben (z. B. einen Fehler)	to fix, to resolve / усувати, виправляти (напр., помилку) | Wir müssen diesen kritischen Bug noch vor dem Release beheben.
+etw. beschädigen	to damage / пошкоджувати | Ein starker Stromausfall kann die Server-Hardware beschädigen.
+das Elektronikmodul, -e	electronic module / електронний модуль | Das Elektronikmodul des neuen IoT-Geräts ist leider durchgebrannt.
+etw. erkennen (erkennt, erkannte, hat erkannt)	to recognize, to detect / розпізнавати, виявляти | Die Künstliche Intelligenz kann komplexe Muster in den Daten erkennen.
+erscheinen (erscheint, erschien, ist erschienen)	to appear / з'являтися | Der Error-Code 500 wird auf dem Bildschirm erscheinen.
+das Fachgeschäft, -e	specialist shop / спеціалізований магазин | Wir kaufen spezielle Netzwerkkabel im IT-Fachgeschäft.
+fehlerhaft	faulty, defective, buggy / помилковий, дефектний | Der fehlerhafte Code führte gestern zu einem Server-Absturz.
+den Geist aufgeben	to give up the ghost, to break down / наказати довго жити, зламатися | Meine alte SSD-Festplatte hat gestern leider den Geist aufgegeben.
+glücklicherweise	fortunately, luckily / на щастя | Glücklicherweise hatten wir ein aktuelles Backup der gesamten Datenbank.
+die Großwäscherei, -en	large-scale laundry / велика пральня | Wir programmieren eine Logistik-Software für eine Großwäscherei.
+die Herstellerfirma, -firmen	manufacturing company / компанія-виробник | Die Herstellerfirma bietet keine Sicherheits-Updates mehr für diesen Router an.
+jdn. konfrontieren mit (+ Dat.)	to confront someone with / зіштовхувати когось із, пред'являти | Wir mussten den Cloud-Provider mit den ständigen Ausfallzeiten konfrontieren.
+lieferbar	available, deliverable / доступний для доставки, в наявності | Die neuen M3-MacBooks für das Entwicklerteam sind aktuell nicht lieferbar.
+das Modul, -e	module / модуль | Ich habe das Login-Modul in React komplett neu geschrieben.
+der Monteur, -e / die Monteurin, -nen	mechanic, fitter, installer / монтажник, механік | Der Monteur installiert heute das neue Server-Rack im Data Center.
+etw. nachbestellen	to reorder / дозамовляти | Wir müssen dringend neue Software-Lizenzen beim Anbieter nachbestellen.
+ein Problem beheben	to fix/resolve a problem / вирішити проблему | Der IT-Support konnte das Login-Problem des Kunden schnell beheben.
+der Retourenschein, -e	return slip / бланк повернення | Dem defekten Firmen-Laptop lag bereits ein Retourenschein bei.
+die Serviceleistung, -en	service / сервісна послуга | Die monatliche Server-Wartung ist eine wichtige Serviceleistung.
+die Textilie, -n	textile / текстиль, тканина | Unser E-Commerce-Kunde verkauft nachhaltige Textilien im Internet.
+umsonst	free of charge, in vain / безкоштовно, даремно | Mein ganzes Refactoring war umsonst, weil der Kunde das Feature gestrichen hat.
+etw. verfärben	to discolor / змінювати колір, забарвлювати | Durch die extreme Hitze im Serverraum hat sich das Plastik verfärbt.
+etw. versalzen	to oversalt / пересолити | Der Koch in der Betriebskantine hat das Mittagessen leider versalzen.
+sich verspäten	to be late, to be delayed / запізнюватися, затримуватися | Das Release-Datum der neuen Software wird sich um eine Woche verspäten.
+jdm. etw. versprechen (verspricht, versprach, hat versprochen)	to promise someone something / обіцяти комусь щось | Der Provider hat uns vertraglich eine Uptime von 99,9% versprochen.
+etw. zerbrechen (zerbricht, zerbrach, hat zerbrochen)	to break, to shatter / розбивати | Das Display des Firmen-Smartphones ist leider zerbrochen.
+etw. zerkratzen	to scratch / подряпати | Das Gehäuse meines Arbeitslaptops ist durch den Transport zerkratzt.
+etw. zerreißen (zerreißt, zerriss, hat zerrissen)	to tear, to rip / розривати | Ich habe das ausgedruckte Passwort aus Sicherheitsgründen zerrissen.
+Abhilfe schaffen	to remedy, to fix a problem / зарадити, усунути проблему | Ein neues Caching-System wird bei den langsamen Ladezeiten Abhilfe schaffen.
+allerdings	however, indeed / однак, щоправда | Der Code funktioniert einwandfrei, allerdings ist er sehr schwer zu lesen.
+etw. bedauern	to regret / шкодувати про щось | Wir bedauern den gestrigen Server-Ausfall und bitten um Entschuldigung.
+zu unserem Bedauern	to our regret / на наш жаль | Zu unserem Bedauern müssen wir die Entwicklung dieses Features stoppen.
+die Dunstabzugshaube, -n	extractor hood / витяжка (кухонна) | Wir haben Smart-Home-Technik für eine WLAN-Dunstabzugshaube entwickelt.
+eintreffen (trifft ein, traf ein, ist eingetroffen)	to arrive / прибувати, надходити | Die neue Server-Hardware wird voraussichtlich morgen im Büro eintreffen.
+der Eingang, "-e	receipt, arrival, entrance / надходження, вхід | Der Eingang der Zahlung wurde im CRM-System automatisch registriert.
+den Eingang bestätigen	to confirm receipt / підтвердити отримання | Die API wird den Eingang der JSON-Daten mit einem Status 200 bestätigen.
+die Flamme, -n	flame / полум'я | Eine defekte Lithium-Ionen-Batterie kann plötzlich in Flammen aufgehen.
+der Gefrierschrank, "-e	freezer / морозильна камера | Der smarte IoT-Gefrierschrank bestellt automatisch Lebensmittel nach.
+sich herausstellen	to turn out / з'ясовуватися, виявлятися | Es hat sich herausgestellt, dass das alte Framework enorme Sicherheitslücken hat.
+der Lieferschein, -e	delivery note / накладна (на доставку) | Der Lieferschein für die neuen Monitore liegt beim Office-Manager.
+etw. nachliefern	to deliver later, to supply subsequently / допоставити, доставити пізніше | Wir müssen das fehlende Netzwerkkabel für den Kunden umgehend nachliefern.
+verfügbar	available / доступний | Der neue Cloud-Service von AWS ist nun weltweit verfügbar.
+das Versehen, -	mistake, oversight, accident / помилка, недогляд | Das Löschen der Produktions-Datenbank war ein schreckliches Versehen.
+die Warenkontrolle, -n	goods inspection / перевірка товару | Die gelieferten Laptops müssen zuerst durch die interne Warenkontrolle.
+die Anfahrt, -en	journey, approach (driving) / проїзд, дорога (до місця) | Die Anfahrt zum externen Rechenzentrum dauert etwa eine Stunde.
+die Anschaffung, -en	purchase, acquisition / придбання, покупка | Die Anschaffung der neuen Server-Infrastruktur war eine große Investition.
+der Aufpreis, -e	surcharge, extra charge / доплата | Premium-Support mit 24/7 Hotline kostet bei dieser Software einen Aufpreis.
+ausgehen von (+ Dat.) (geht aus, ging aus, ist ausgegangen)	to assume, to proceed from / виходити з (припущення) | Wir gehen von einem erfolgreichen und fehlerfreien Deployment aus.
+defekt	defective, broken / несправний, дефектний | Der defekte RAM-Riegel im Server führte zu ständigen Abstürzen.
+erfolgen	to take place, to occur / відбуватися, здійснюватися | Das nächste große Software-Update wird in der Nacht von Samstag auf Sonntag erfolgen.
+der Fehlercode, -s	error code / код помилки | Der Fehlercode 404 bedeutet, dass die angeforderte Webseite nicht gefunden wurde.
+die Frachtkosten (Pl.)	freight costs, shipping costs / витрати на перевезення | Die Frachtkosten für den Transport der schweren Server-Racks sind hoch.
+freiwillig	voluntary / добровільно | Die Teilnahme an dem Programmierwettbewerb (Hackathon) ist komplett freiwillig.
+die Garantie, -n	guarantee, warranty / гарантія | Wir haben auf alle Firmen-Laptops eine Garantie von drei Jahren.
+die Garantieverlängerung, -en	warranty extension / продовження гарантії | Die Firma hat eine Garantieverlängerung für die teuren Server gekauft.
+die Gesprächsnotiz, -en	memo, discussion note / запис бесіди, нотатка | Ich erstelle eine Gesprächsnotiz nach dem Meeting mit dem Product Owner.
+gewährleisten	to guarantee, to ensure / гарантувати, забезпечувати | Die neue Architektur soll gewährleisten, dass die App auch bei hoher Last nicht abstürzt.
+der Händler, - / die Händlerin, -nen	dealer, retailer, trader / продавець, дилер | Der Händler nimmt das defekte Netzwerk-Equipment problemlos zurück.
+die Herstellergarantie, -n	manufacturer's warranty / гарантія від виробника | Wasserschäden am Laptop sind von der Herstellergarantie leider ausgeschlossen.
+der Kaufzeitpunkt, -e	time of purchase / момент покупки | Bitte geben Sie bei der Reklamation der Software den genauen Kaufzeitpunkt an.
+Kosten übernehmen (übernimmt, übernahm, hat übernommen)	to bear the costs / брати на себе витрати | Der Arbeitgeber wird die Kosten für das AWS-Zertifikat komplett übernehmen.
+kulant	accommodating, fair, obliging / поступливий, такий, що йде назустріч | Der Cloud-Anbieter war sehr kulant und hat uns die Ausfallzeit erstattet.
+der Kundenservice, -s	customer service / служба підтримки клієнтів | Der IT-Kundenservice hat mir sehr schnell bei dem Software-Problem geholfen.
+die Mängelbeseitigung, -en	rectification of defects / усунення недоліків | Die Mängelbeseitigung in der Produktionsumgebung hat höchste Priorität.
+etw. nachweisen (weist nach, wies nach, hat nachgewiesen)	to prove, to demonstrate / доводити, підтверджувати | Wir müssen dem Support den Fehler im Log-File eindeutig nachweisen.
+der Nachweis, -e	proof, evidence / доказ, підтвердження | Ein Screenshot der Fehlermeldung dient als Nachweis für den Bug.
+ordnungsgemäß	proper, correct(ly) / належним чином, правильно | Die Datenbank wurde vor dem Update ordnungsgemäß gesichert (Backup).
+etw. reklamieren	to complain, to claim / рекламувати, пред'являти претензію | Der Kunde möchte die fehlerhafte Software-Lizenz reklamieren und sein Geld zurück.
+verantwortlich für (+ Akk.)	responsible for / відповідальний за | Das DevOps-Team ist verantwortlich für das reibungslose Deployment.
+die Verlängerung, -en	extension / продовження, подовження | Die Verlängerung des SSL-Zertifikats muss heute manuell durchgeführt werden.
+jdm. etw. versichern	to assure someone of something / запевняти когось у чомусь | Ich kann Ihnen versichern, dass die Kundendaten absolut sicher verschlüsselt sind.
+der Zustand (Sg.)	state, condition / стан | Nach dem Crash befand sich die Datenbank in einem inkonsistenten Zustand.
+die Abrechnungssoftware, -s	billing software, accounting software / програмне забезпечення для розрахунків / бухгалтерії | Wir programmieren eine neue, cloudbasierte Abrechnungssoftware für B2B-Kunden.
+der Außendienst (Sg.)	field service, sales force / служба зовнішніх продажів / роботи з клієнтами | Unsere CRM-App wird hauptsächlich von Mitarbeitern im Außendienst genutzt.
+der Außendienstmitarbeiter, - / die Außendienstmitarbeiterin, -nen	field representative / співробітник, що працює на виїзді | Der Außendienstmitarbeiter installiert die Software direkt beim Kunden vor Ort.
+der Betriebsarzt, "-e / die Betriebsärztin, -nen	company doctor / лікар на підприємстві | Der Betriebsarzt berät uns Entwickler zum Thema Ergonomie am Arbeitsplatz.
+dazwischenkommen (kommt dazwischen, kam dazwischen, ist dazwischengekommen)	to intervene, to come up unexpectedly / втрутитися, виникнути непередбачено | Mir ist leider ein dringender Hotfix für die Produktion dazwischengekommen.
+firmenintern	internal to the company, in-house / всередині компанії, внутрішньокорпоративний | Wir nutzen für die Kommunikation ein sicheres, firmeninternes Chat-Tool.
+das Firmenjubiläum, -jubiläen	company anniversary / ювілей компанії | Nächsten Monat feiern wir das fünfjährige Firmenjubiläum unseres Startups.
+die Grippeimpfung, -en	flu vaccination / щеплення від грипу | Das IT-Unternehmen bietet im Herbst eine kostenlose Grippeimpfung im Büro an.
+hundertjährig	hundred-year-old, centennial / столітній | Ein hundertjähriger Code? So fühlt sich schlecht dokumentierter Legacy-Code oft an.
+das Intranet (Sg.)	intranet / інтранет, внутрішня мережа | Die neuen Coding-Guidelines (Richtlinien) findest du im Intranet.
+etw. wahrnehmen (z. B. einen Termin) (nimmt wahr, nahm wahr, hat wahrgenommen)	to attend (an appointment) / використовувати, з'явитися (на зустріч) | Wegen eines Serverausfalls kann ich den Meeting-Termin heute leider nicht wahrnehmen.
+amüsant	amusing, entertaining / кумедний, розважальний | Der kleine Bug im Frontend, der das Logo drehte, war eher amüsant als kritisch.
+die Entschädigung, -en	compensation / компенсація, відшкодування | Als Entschädigung für die Server-Downtime bieten wir den Usern einen Gratismonat an.
+die Enttäuschung, -en	disappointment / розчарування | Die Enttäuschung im Team über das gescheiterte Release war sehr groß.
+die Erstattung, -en	refund, reimbursement / відшкодування, повернення грошей | Sie erhalten eine automatische Erstattung für die stornierte Software-Lizenz.
+in jedem Fall	in any case, definitely / у будь-якому випадку | Wir müssen in jedem Fall ein Backup der Datenbank machen, bevor wir updaten.
+generell	general(ly), in general / загалом, як правило | Generell deployen wir bei uns keine neuen Features am Freitagnachmittag.
+klagen über (+ Akk.)	to complain about / скаржитися на | Viele Nutzer klagen über die verwirrende Navigation in der neuen App.
+die Meckerei (Sg.)	complaining, grumbling / постійні скарги, бурчання | Ständige Meckerei über den alten Legacy-Code bringt das Team nicht weiter.
+offensichtlich	obvious(ly), apparent(ly) / очевидний, явний | Der Memory Leak (Speicherfehler) im Skript war bei genauerem Hinsehen offensichtlich.
+der Pauschalurlaub, -e	package holiday / пакетний тур | Unsere Web-Plattform vermittelt Pauschalurlaube komplett digital.
+der Reiseveranstalter, -	tour operator / туроператор | Der Reiseveranstalter nutzt unsere API, um die Flugdaten live abzurufen.
+Schadenersatz leisten	to pay compensation for damages / відшкодовувати збитки | Die IT-Firma muss für den entstandenen Systemausfall Schadenersatz leisten.
+jdn. verklagen	to sue / подавати в суд на когось | Der Konkurrent will unser Startup wegen einer angeblichen Patentrechtsverletzung verklagen.
+das Anliegen, -	request, concern, matter / прохання, справа, питання | Was ist Ihr genaues Anliegen bezüglich der neuen Software?
+der Arbeitsspeicher, -	RAM, main memory / оперативна пам'ять (RAM) | Der Server braucht dringend mehr Arbeitsspeicher für die Datenbank.
+etw. ausstatten	to equip, to furnish / обладнувати, оснащувати | Wir müssen das neue Büro mit schnellem WLAN ausstatten.
+etw. ausstellen	to exhibit, to display / виставляти (на виставці) | Wir werden unser neues VR-Headset auf der Messe ausstellen.
+die Automobilausstellung, -en	motor show, car exhibition / автомобільна виставка | Auf der Automobilausstellung sieht man viel Software für autonomes Fahren.
+die Bildungsmesse, -n	education fair / освітня виставка | Das E-Learning-Startup präsentiert seine App auf der Bildungsmesse.
+die Buchmesse, -n	book fair / книжковий ярмарок | Auch auf der Buchmesse geht es heute viel um Digitalisierung und E-Books.
+die Einrichtungsmesse, -n	interior design fair, furniture fair / виставка інтер'єру / меблів | Unsere 3D-Planungssoftware war ein Hit auf der Einrichtungsmesse.
+die Fachveranstaltung, -en	professional event, symposium / фаховий захід | Ich halte einen Vortrag über Cloud-Security auf einer Fachveranstaltung.
+die Festplattengröße, -n	hard drive size/capacity / об'єм жорсткого диска | Die Festplattengröße der neuen Server reicht für unsere Big Data nicht aus.
+der Gesprächsinhalt, -e	content of conversation / зміст розмови | Wir müssen den Gesprächsinhalt des Meetings kurz im Protokoll festhalten.
+informativ	informative / інформативний | Die Präsentation über die neue Microservice-Architektur war sehr informativ.
+die Innovation, -en	innovation / інновація | Künstliche Intelligenz ist aktuell die wichtigste Innovation in der Tech-Branche.
+etw. konfigurieren	to configure, to set up / налаштовувати, конфігурувати | Der DevOps-Engineer muss die Firewall des Netzwerks neu konfigurieren.
+leistungsfähig	powerful, efficient / потужний, продуктивний | Dieses Framework ist extrem leistungsfähig bei der Datenverarbeitung.
+leistungsstark	high-performance, powerful / високопродуктивний | Wir brauchen einen leistungsstarken Prozessor für das Rendering.
+die Messegesprächsnotiz, -en	trade fair discussion note / нотатка про розмову на виставці | Bitte trage die Kontaktdaten des Kunden in die Messegesprächsnotiz ein.
+die Messeteilnahme (Sg.)	participation in a trade fair / участь у виставці | Die Messeteilnahme am Web Summit war ein großer Erfolg für unser Startup.
+die Publikumsmesse, -n	public fair, consumer exhibition / виставка для широкої публіки | Die Gamescom ist eine riesige Publikumsmesse für Videospiele.
+die Tourismusbörse, -n	tourism exchange/fair / туристична біржа/виставка | Unsere Buchungs-API wird auf der großen Tourismusbörse in Berlin vorgestellt.
+variabel	variable, adjustable / змінний, варіативний | Die Kosten für Cloud-Hosting sind meistens variabel und hängen vom Traffic ab.
+etw. abrufen	to fetch, to retrieve, to call up / робити запит, викликати, отримувати (дані) | Die Frontend-App kann die aktuellen Wetterdaten über eine API abrufen.
+abwechslungsreich	varied, diverse / різноманітний | Der Job als Fullstack-Entwickler in einem Startup ist extrem abwechslungsreich.
+angeblich	allegedly, supposedly / нібито, ймовірно | Der Bug ist angeblich schon gefixt, aber bei mir stürzt die App immer noch ab.
+ansprechbar	responsive, approachable / доступний для спілкування, чуйний | Ein guter Teamlead ist bei Problemen immer für seine Entwickler ansprechbar.
+etw. auszeichnen	to award, to distinguish / відзначати, нагороджувати | Unsere App wurde auf der Messe für das beste UX-Design ausgezeichnet.
+der Band, "-e	volume (book) / том (книги) | Das Handbuch für das alte System füllt einen ganzen Band.
+das Begleitprogramm, -e	supporting program / супровідна програма | Neben den Tech-Talks gibt es auf der Messe ein tolles Begleitprogramm (z.B. Hackathons).
+dynamisch	dynamic / динамічний | Wir haben eine dynamische Webseite entwickelt, die sich an User-Präferenzen anpasst.
+etw. einbeziehen	to include, to integrate / залучати, включати | Wir müssen das Feedback der Beta-Tester in das nächste Release einbeziehen.
+etw. einsetzen	to deploy, to use, to employ / застосовувати, впроваджувати | Welche Technologien setzt ihr in eurem aktuellen Projekt ein?
+das Experiment, -e	experiment / експеримент | Dieses A/B-Testing ist ein Experiment, um die Conversion Rate zu erhöhen.
+der Fachberater, - / die Fachberaterin, -nen	specialist consultant / фахівець-консультант, експерт | Unser IT-Fachberater hilft Kunden bei der Umstellung auf die Cloud.
+fundiert	profound, well-founded, sound / ґрунтовний, глибокий | Der Senior Developer hat sehr fundierte Kenntnisse in Softwarearchitektur.
+das Gerücht, -e	rumor / чутка | Es gibt das Gerücht, dass Apple bald eine neue VR-Brille vorstellt.
+individuell	individual, custom / індивідуальний, кастомний | Wir programmieren eine individuell angepasste Software-Lösung für den Kunden.
+die Jugendsozialarbeit (Sg.)	youth social work / молодіжна соціальна робота | Es gibt eine App, die Organisationen in der Jugendsozialarbeit vernetzt.
+die Komponente, -n	component / компонент | Wir entwickeln das User-Interface mit wiederverwendbaren React-Komponenten.
+das Lehrwerk, -e	textbook, coursebook / підручник, навчальний посібник | Dies ist das beste Lehrwerk, um die Programmiersprache C++ zu lernen.
+die Lernhilfe, -n	study aid / навчальний посібник | Flashcard-Apps wie Anki sind eine großartige digitale Lernhilfe.
+die Lernplattform, -en	learning platform / навчальна платформа | Wir hosten unsere Coding-Kurse auf einer eigenen Lernplattform.
+die Messepräsentation, -en	trade fair presentation / презентація на виставці | Die Messepräsentation unseres neuen KI-Features lief perfekt.
+Multimedia-Inhalte (Pl.)	multimedia content / мультимедійний контент | Die App muss große Mengen an Multimedia-Inhalten schnell laden können.
+die Neuerscheinung, -en	new release, new publication / новинка, нове видання | Diese Bibliothek ist eine Neuerscheinung auf GitHub und trendet gerade.
+sich orientieren an (+ Dat.)	to orient oneself by, to follow / орієнтуватися на | Beim Design orientieren wir uns stark an den Material Design Guidelines von Google.
+die Schulform, -en	type of school / тип школи | Unsere Bildungs-Software ist für jede Schulform (Gymnasium, Realschule) geeignet.
+der Überblick, -e	overview / огляд, уявлення, загальна картина | Das Dashboard gibt dem Admin einen schnellen Überblick über die Server-Last.
+überwiegend	predominantly, mostly / переважно | Unser Entwickler-Team arbeitet überwiegend remote aus dem Homeoffice.
+sich verbessern	to improve / покращуватися, вдосконалюватися | Dank des Refactorings hat sich die Code-Qualität deutlich verbessert.
+der Verlag, -e	publisher / видавництво | Der IT-Verlag bringt ein neues Buch über Kubernetes heraus.
+der Vortrag, "-e	lecture, presentation, talk / доповідь, лекція | Ich habe auf der Konferenz einen interessanten Vortrag über DevOps gehört.
+das Wissen (Sg.)	knowledge / знання | Das Wissen im IT-Bereich veraltet extrem schnell, man muss ständig lernen.
+der Workshop, -s	workshop / воркшоп, майстер-клас | Wir machen am Freitag einen internen Workshop zum Thema Clean Code.
+die Anforderung, -en	requirement, demand / вимога | Die technischen Anforderungen an dieses Projekt sind sehr hoch.
+die Arbeitsbelastung (Sg.)	workload / робоче навантаження | Die Arbeitsbelastung ist in der Woche vor dem Release oft enorm.
+die Beschreibung, -en	description / опис | Bitte füge dem Pull Request eine kurze Beschreibung deiner Änderungen hinzu.
+der Bildungsbereich, -e	education sector / сфера освіти | EdTech-Startups bringen Innovationen in den klassischen Bildungsbereich.
+etw. erfüllen (z. B. Anforderungen)	to meet, to fulfill (e.g. requirements) / виконувати, задовольняти (напр., вимоги) | Diese Software-Lösung erfüllt alle Anforderungen des Kunden.
+die Geschäftsidee, -n	business idea / бізнес-ідея | Er hat eine geniale Geschäftsidee für eine neue Social-Media-App.
+gut tun	to do good, to be beneficial / робити добро, йти на користь | Ein paar Tage Urlaub ohne Laptop werden dir nach diesem Projekt gut tun.
+etw. investieren	to invest / інвестувати, вкладати | Die Firma will eine Million Euro in die Entwicklung der neuen Plattform investieren.
+die Revolution, -en	revolution / революція | ChatGPT hat eine echte Revolution in der Softwareentwicklung ausgelöst.
+die Weisung, -en	instruction, directive / вказівка, інструкція | Der Entwickler arbeitete auf direkte Weisung des CTO an diesem Feature.
+die Anwendung, -en	application / застосунок, додаток (IT) | Die mobile Anwendung wurde nativ in Swift für iOS programmiert.
+ausgeprägt	distinct, pronounced, strong / виражений, характерний, сильний | Er hat ein stark ausgeprägtes logisches Denken – perfekt fürs Programmieren.
+das Bankdarlehen, -	bank loan / банківська позика | Das Startup musste ein Bankdarlehen aufnehmen, um die neuen Server zu bezahlen.
+das Bedürfnis, -se	need, requirement / потреба | Unsere Software ist exakt auf die Bedürfnisse der Logistik-Branche zugeschnitten.
+Bedürfnisse erfüllen	to fulfill needs / задовольняти потреби | Eine gute App muss die Bedürfnisse der User schnell und einfach erfüllen.
+der Bildungsverlag, -e	educational publisher / навчальне видавництво | Der Bildungsverlag digitalisiert seine Lerninhalte für die neue Schul-Cloud.
+die Branchenkenntnis, -se	industry knowledge / знання галузі | Für den Job als IT-Berater ist tiefe Branchenkenntnis im Finanzsektor wichtig.
+der Businessplan, "-e	business plan / бізнес-план | Im Businessplan für unser Tech-Startup ist auch das Budget für AWS kalkuliert.
+das Darlehen, -	loan / позика, кредит | Wir zahlen das Darlehen für das neue Büro in monatlichen Raten zurück.
+das Eigenkapital (Sg.)	equity, own capital / власний капітал | Die Gründer haben viel Eigenkapital in die Software-Firma gesteckt.
+erfolgsversprechend	promising / багатообіцяючий, перспективний | Die neue KI-Technologie sieht sehr erfolgsversprechend aus.
+der Finanzplan, "-e	financial plan / фінансовий план | Der CFO (Finanzchef) hat den Finanzplan für das nächste Jahr vorgestellt.
+die Fixkosten (Pl.)	fixed costs / постійні витрати | Server-Miete und Gehälter gehören zu den monatlichen Fixkosten der IT-Firma.
+geschäftsführend	managing, executive / керуючий | Als geschäftsführender Gesellschafter leitet er das Startup.
+das Geschäftsprofil, -e	business profile / бізнес-профіль | Unser Geschäftsprofil auf LinkedIn zieht viele Recruiter an.
+der Gesellschafter, - / die Gesellschafterin, -nen	partner, shareholder / засновник, партнер, акціонер | Die Gesellschafter haben entschieden, den Code als Open Source freizugeben.
+die GmbH, -s	LLC (Limited Liability Company) / ТОВ (товариство з обмеженою відповідальністю) | Unser IT-Startup wurde letztes Jahr offiziell als GmbH in Berlin registriert.
+die Investitionskosten (Pl.)	investment costs / інвестиційні витрати | Die Investitionskosten für den Aufbau eines eigenen Rechenzentrums sind gigantisch.
+etw. integrieren	to integrate / інтегрувати, впроваджувати | Wir wollen den Payment-Provider Stripe in unseren Shop integrieren.
+das Know-how (Sg.)	know-how, expertise / ноу-хау, практичні знання | Wir suchen jemanden mit tiefem Know-how im Bereich Cloud-Architektur.
+kompetent	competent, capable / компетентний | Unser Support-Team ist sehr kompetent und löst Tickets in Rekordzeit.
+das Konkurrenzunternehmen, -	competing company / компанія-конкурент | Das Konkurrenzunternehmen hat leider ein ähnliches Feature vor uns gelauncht.
+die Kredithöhe, -n	loan amount / сума кредиту | Die Kredithöhe reicht genau für die Entwicklung des Prototyps (MVP).
+die Laufzeit, -en	runtime, duration, term / час виконання (IT), термін дії (контракту) | Die Laufzeit (Runtime) dieses Algorithmus muss dringend optimiert werden.
+die Ratenzahlung, -en	installment payment / оплата частинами | Für teure Software-Lizenzen bieten wir Kunden auch Ratenzahlung an.
+etw. realisieren	to realize, to implement / реалізувати, впроваджувати | Wir wollen dieses komplexe Feature noch im aktuellen Sprint realisieren.
+die Rechtsform, -en	legal form / правова форма (підприємства) | Die GmbH ist die beliebteste Rechtsform für IT-Startups in Deutschland.
+die Schufa-Auskunft, "-e	credit report (Schufa) / кредитна історія (Schufa в Німеччині) | Der Vermieter des neuen IT-Büros verlangt eine positive Schufa-Auskunft.
+das Sprachtraining, -s	language training / мовний тренінг | Die Firma bezahlt mir ein Deutsch-Sprachtraining (B2) für den Job.
+der Support, -s	support / підтримка, сапорт (IT) | Wenn die App abstürzt, musst du ein Ticket beim Support eröffnen.
+die Tilgung, -en	repayment, amortization / погашення (боргу/кредиту) | Die monatliche Tilgung für den Bankkredit ist im Businessplan vermerkt.
+umfassend	comprehensive, extensive / комплексний, всеосяжний | Dieses Framework bietet eine umfassende Lösung für das Frontend-Routing.
+die Umsetzung, -en	implementation, execution / реалізація, впровадження | Die Umsetzung des Designs in echten Code dauert etwa zwei Wochen.
+sich verschärfen	to intensify, to worsen / загострюватися | Der Fachkräftemangel in der IT-Branche wird sich in Zukunft noch verschärfen.
+der Wettbewerb (Sg.)	competition / конкуренція | Im Cloud-Markt gibt es einen harten Wettbewerb zwischen AWS, Azure und Google.
+die Zielgruppe, -n	target audience/group / цільова аудиторія | Unsere Haupt-Zielgruppe sind junge Unternehmen, die ihre IT modernisieren wollen.
+belanglos	irrelevant, trivial / незначний, неважливий | Beim Small Talk in der Kaffeepause reden wir oft über belanglose Dinge.
+Beziehungen pflegen	to cultivate relationships / підтримувати стосунки | Auf Konferenzen ist es wichtig, berufliche Beziehungen zu pflegen (Networking).
+der Einstieg (Sg.)	entry, start / вступ, початок, старт | Ein kurzes Gespräch über das Wetter ist ein klassischer Einstieg beim Small Talk.
+der Eisbrecher (Sg.)	icebreaker / криголам (тема для початку розмови) | Ein Witz über fehlerhaften Code ist ein guter Eisbrecher unter Entwicklern.
+geeignet sein für (+ Akk.)	to be suitable for / бути придатним для | Politik ist kein geeignetes Thema für Small Talk im Büro.
+(miteinander) ins Gespräch kommen	to strike up a conversation / розговоритися, зав'язати розмову | Beim Hackathon kommt man schnell mit anderen Codern ins Gespräch.
+Kontakte knüpfen	to establish contacts, to network / встановлювати контакти (нетворкінг) | Ein Meetup ist der perfekte Ort, um neue Kontakte in der Tech-Szene zu knüpfen.
+oberflächlich	superficial / поверхневий | Small Talk ist meistens oberflächlich und geht nicht tief ins Detail.
+offene Fragen	open questions / відкриті питання | Stellen Sie offene Fragen, um das Gespräch auf der Messe am Laufen zu halten.
+plaudern	to chat / базікати, спілкуватися | Die Entwickler plaudern im Slack-Kanal über neue Features in React.
+das Plaudern (Sg.)	chatting / балаканина | Langes Plaudern im Daily Standup ist nicht erlaubt, wir müssen effizient sein.
+das Tabuthema, -themen	taboo subject / тема-табу, заборонена тема | Gehalt ist in vielen deutschen Unternehmen leider immer noch ein Tabuthema.
+das Umfeld (Sg.)	environment / середовище, оточення | Ein motivierendes Umfeld ist extrem wichtig für kreative Softwareentwicklung.
+zwanglos	casual, informal, relaxed / невимушений, розслаблений | Nach dem Release gab es ein zwangloses Pizza-Essen mit dem ganzen Team.
+ablaufen (läuft ab, lief ab, ist abgelaufen)	to expire, to run out / закінчуватися, закінчувати термін дії | Mein befristeter IT-Arbeitsvertrag wird bald ablaufen.
+angesichts (+ Gen.)	in view of, given / зважаючи на, з огляду на | Angesichts des Fachkräftemangels zahlen Firmen höhere Gehälter für Entwickler.
+die Arbeitsleistung, -en	work performance / результативність праці, виконана робота | Seine Arbeitsleistung als Junior-Entwickler ist wirklich hervorragend.
+aufgrund (+ Gen.)	due to, because of / через, на підставі | Aufgrund eines Serverausfalls arbeiten wir heute komplett offline.
+der Ausbildungsvertrag, "-e	training contract / договір на професійне навчання | Er hat seinen Ausbildungsvertrag zum Fachinformatiker unterschrieben.
+der Berufsalltag (Sg.)	everyday working life / професійні будні | Im IT-Berufsalltag nutzt man häufig agile Methoden wie Scrum.
+dank (+ Gen.)	thanks to / завдяки | Dank des neuen React-Frameworks laden die Seiten viel schneller.
+der Einblick, -e	insight, glimpse / уявлення, ознайомлення | Das Praktikum gab mir einen guten Einblick in die Softwarearchitektur.
+etw. erbringen (erbringt, erbrachte, hat erbracht)	to provide, to perform / надавати, виконувати | Der Freelancer muss die vertraglich vereinbarte Leistung erbringen.
+gültig	valid / дійсний | Das SSL-Zertifikat für unsere Webseite ist leider nicht mehr gültig.
+infolge (+ Gen.)	as a result of, due to / внаслідок, через | Infolge des fehlerhaften Updates gab es einige Bugs im System.
+die Institution, -en	institution / установа, інституція | Das BSI ist eine wichtige Institution für IT-Sicherheit in Deutschland.
+der Mindestlohn, "-e	minimum wage / мінімальна зарплата | Der Mindestlohn ist für Senior-Entwickler in der Regel nicht relevant.
+der Minijob, -s	marginal employment, mini-job / мініджоб (робота на неповний день до певної суми) | Neben dem Informatik-Studium mache ich einen Minijob als IT-Support.
+der Praktikumsvertrag, "-e	internship contract / договір на проходження практики | Mein Praktikumsvertrag als Frontend-Dev läuft über sechs Monate.
+der Renteneintritt (Sg.)	retirement / вихід на пенсію | Unser Senior-Architekt plant seinen Renteneintritt für nächstes Jahr.
+der Teilzeitarbeitsvertrag, "-e	part-time employment contract / договір про неповний робочий час | Sie hat einen Teilzeitarbeitsvertrag über 20 Stunden pro Woche.
+etw. übersteigen (übersteigt, überstieg, hat überstiegen)	to exceed / перевищувати | Die Ladezeit der App darf 2 Sekunden nicht übersteigen.
+sich verpflichten zu (+ Dat.)	to commit oneself to / зобов'язуватися | Wir verpflichten uns vertraglich zu strengster Datensicherheit.
+wegen (+ Gen.)	because of / через | Wegen des Fehlers im Code musste das geplante Release verschoben werden.
+der Werkvertrag, "-e	contract for work/services / договір підряду | Der externe Designer arbeitet bei uns auf Basis eines Werkvertrags.
+der Zeitaufwand (Sg.)	expenditure of time / витрати часу | Der Zeitaufwand für das Refactoring des alten Codes war enorm.
+der Arbeitskampf, "-e	labor dispute, strike / трудовий конфлікт, страйк | Die IT-Gewerkschaft ruft bei gescheiterten Verhandlungen zum Arbeitskampf auf.
+die Belegschaft, -en	workforce, staff / колектив, персонал | Die gesamte Belegschaft wurde über die neuen IT-Sicherheitsrichtlinien informiert.
+die Berufsgruppe, -n	occupational group / професійна група | Softwareentwickler sind momentan eine stark gefragte Berufsgruppe.
+bestehen aus (+ Dat.) (besteht, bestand, hat bestanden)	to consist of / складатися з | Unser agiles Team besteht aus drei Frontendlern und zwei Backend-Entwicklern.
+das Betriebsratsmitglied, -er	works council member / член виробничої ради | Das Betriebsratsmitglied berät uns bei Fragen zum neuen Arbeitsvertrag.
+die Betriebsratswahl, -en	works council election / вибори виробничої ради | Die Betriebsratswahl findet dieses Jahr komplett online im Intranet statt.
+die Betriebsverlegung, -en	relocation of the company / перенесення підприємства (в інше місце) | Wegen der Betriebsverlegung nach Berlin arbeiten nun viele Entwickler remote.
+die Elternzeit, -en	parental leave / декретна відпустка (для обох батьків) | Unser Scrum Master geht für sechs Monate in Elternzeit.
+das Erscheinen (Sg.)	appearance, attendance / присутність, явка | Pünktliches Erscheinen zum Daily Standup ist für alle Teammitglieder Pflicht.
+fair	fair / справедливий | Wir haben einen sehr fairen und transparenten Onboarding-Prozess.
+die Geschäftsführung, -en	management, executive board / керівництво компанії, дирекція | Die Geschäftsführung hat das Budget für unsere Cloud-Server erhöht.
+das Gremium, Gremien	committee, board / комітет, комісія | Das IT-Sicherheitsgremium prüft die neuen Firewall-Richtlinien.
+die Interessenvertretung, -en	representation of interests / представництво інтересів | Der Betriebsrat ist die offizielle Interessenvertretung der Arbeitnehmer.
+mitbestimmen	to have a say, to co-determine / мати право голосу, брати участь у вирішенні | Entwickler sollten bei der Wahl des Tech-Stacks immer mitbestimmen dürfen.
+die Mitbestimmung, -en	co-determination, worker participation / участь працівників в управлінні | Die Mitbestimmung des Betriebsrats bei Software-Tools ist gesetzlich geregelt.
+nachvollziehbar	comprehensible, understandable / зрозумілий, логічний | Dein Quellcode ist dank der guten Kommentare sehr leicht nachvollziehbar.
+der Schritt, -e	step / крок | Der Wechsel zu Microservices war ein großer, aber wichtiger Schritt für uns.
+der Sozialplan, "-e	social compensation plan / соціальний план (при скороченнях) | Der Sozialplan federt die finanziellen Folgen der Kündigungen im Startup ab.
+der Tätigkeitsbericht, -e	activity report / звіт про діяльність | Im Jira-System generieren wir automatisch unseren wöchentlichen Tätigkeitsbericht.
+die Teilzeitkraft, "-e	part-time employee / працівник на неповний робочий день | Wir suchen eine Teilzeitkraft für die Systemadministration.
+etw. vergüten	to remunerate, to pay / оплачувати, винагороджувати | Die Überstunden vor dem Release werden extra vergütet.
+etw. verlegen	to relocate, to misplace / переносити (в інше місце) | Wir verlegen den gesamten Serverraum in das neue, sicherere Gebäude.
+die Werkhalle, -n	factory hall, workshop / цех, виробниче приміщення | Die WLAN-Abdeckung in der großen Werkhalle wurde durch neue Router verbessert.
+die Abfindung, -en	severance pay / вихідна допомога | Nach der überraschenden Kündigung erhielt der Entwickler eine gute Abfindung.
+der Abfindungsanspruch, "-e	entitlement to severance pay / право на вихідну допомогу | Der Anwalt prüft meinen Abfindungsanspruch aus dem alten Arbeitsvertrag.
+die Alternative, -n	alternative / альтернатива | Die Datenbank PostgreSQL ist oft eine sehr gute Alternative zu MySQL.
+etw./jdn. anhören	to listen to, to hear / вислухати | Wir müssen uns die Sicherheitsbedenken der QA-Abteilung genau anhören.
+die Anstellung, -en	employment / працевлаштування, посада | Ich suche nach dem Kurs eine Festanstellung als Fullstack-Developer.
+die Arbeitsagentur, -en	employment agency / центр зайнятості | Die Arbeitsagentur finanziert oft IT-Weiterbildungen für Quereinsteiger.
+das Arbeitsgericht, -e	labor court / суд у трудових справах | Der Streit um die fristlose Kündigung endete vor dem Arbeitsgericht.
+das Arbeitslosengeld, -er (ALG)	unemployment benefit / допомога по безробіттю | Während meiner Jobsuche in der IT beziehe ich Arbeitslosengeld (ALG I).
+der Arbeitsplatzverlust (Sg.)	loss of job / втрата робочого місця | Durch Künstliche Intelligenz fürchten einige Berufsgruppen einen Arbeitsplatzverlust.
+arbeitssuchend	looking for work, job-seeking / який шукає роботу | Aktuell bin ich arbeitssuchend und lerne neue Frontend-Frameworks.
+das Arbeitsverhältnis, -se	employment relationship / трудові відносини | Wir beenden das Arbeitsverhältnis im gegenseitigen Einvernehmen.
+etw. auslagern	to outsource / віддавати на аутсорс | Die Firma möchte den First-Level-Support an einen Dienstleister auslagern.
+etw. beanspruchen	to claim, to require / претендувати на, потребувати | Das Rendering-Skript wird sehr viel CPU-Leistung beanspruchen.
+die Berechnung, -en	calculation / розрахунок, обчислення | Die komplexe Berechnung des Algorithmus geschieht sicher im Backend.
+betriebsbedingt	for operational reasons / зумовлений виробничою необхідністю | Wegen der Krise gab es leider drei betriebsbedingte Kündigungen im Team.
+etw. einbringen (z. B. Kenntnisse)	to bring in, to contribute / робити внесок, привносити (напр., знання) | Er wird sein Expertenwissen im Bereich Cloud-Security in das Projekt einbringen.
+die Eingliederung, -en	integration, inclusion / інтеграція, включення (в колектив) | Die Eingliederung der neuen Remote-Entwickler in das Team lief reibungslos.
+die Einhaltung (Sg.)	compliance, observance / дотримання | Die strikte Einhaltung der Clean-Code-Regeln ist bei uns Pflicht.
+endgültig	final(ly), definitive(ly) / остаточний, остаточно | Wir haben den fehlerhaften Legacy-Code nun endgültig vom Server gelöscht.
+führen zu (+ Dat.)	to lead to, to result in / призводити до | Memory Leaks im Code führen auf Dauer oft zu Server-Abstürzen.
+die Klage, -n	lawsuit, complaint / судовий позов, скарга | Gegen die unfaire Kündigung hat er sofort eine Klage eingereicht.
+die Klagefrist, -en	deadline for filing a suit / термін подання позову | Man muss die Klagefrist von drei Wochen nach der Kündigung streng beachten.
+eine Klage einreichen	to file a lawsuit / подати позов | Er wird beim zuständigen Arbeitsgericht eine Klage einreichen.
+eine Klage erheben	to file a lawsuit, to sue / подати в суд, пред'явити позов | Wir erheben Klage gegen den Diebstahl unserer Software-Patente.
+die Kündigungsfrist, -en	notice period / строк попередження про звільнення | Meine Kündigungsfrist beträgt drei Monate zum Monatsende.
+das Kündigungsschreiben, -	notice of termination / лист про звільнення | Ein gültiges Kündigungsschreiben muss in Deutschland schriftlich per Post erfolgen.
+möglicherweise	possibly / можливо | Der Bug liegt möglicherweise nicht im Frontend, sondern in der Datenbankverbindung.
+die Schließung, -en	closure / закриття | Die Schließung des Standorts in Berlin betrifft leider auch viele Entwickler.
+die Sperrzeit, -en	blocking period (for benefits) / період блокування (виплат) | Bei eigener Kündigung ohne neuen Job droht eine Sperrzeit beim Arbeitslosengeld.
+der Umbruch, "-e	upheaval, radical change / перелом, радикальна зміна | Die KI-Revolution ist ein gewaltiger Umbruch für die gesamte IT-Branche.
+vermutlich	probably, presumably / ймовірно | Der Fehler beim Login liegt vermutlich im Backend.
+der Verstoß, "-e	violation, breach / порушення | Das heimliche Teilen von Admin-Passwörtern ist ein schwerer Verstoß.
+verstreichen (verstreicht, verstrich, ist verstrichen)	to elapse, to pass (time) / минати, спливати (про час) | Wir ließen die wichtige Deadline für das Update ungenutzt verstreichen.
+wahrscheinlich	probably, likely / ймовірно, швидше за все | Das Server-Update wird wahrscheinlich etwa zwei Stunden dauern.
+wegfallen (fällt weg, fiel weg, ist weggefallen)	to be dropped, to cease to exist / відпадати, скасовуватися | Durch die Automatisierung (CI/CD) werden einige manuelle QA-Aufgaben wegfallen.
+sich wehren gegen (+ Akk.)	to defend oneself against / захищатися від | Man kann sich rechtlich gegen eine ungerechtfertigte Kündigung wehren.
+weiterhin	still, furthermore / і надалі, як і раніше | Wir werden für unsere Projekte weiterhin auf Open-Source-Software setzen.
+die Abwesenheit, -en	absence / відсутність | In meiner Abwesenheit übernimmt mein Kollege die Code-Reviews.
+die Altersgrenze, -n	age limit / вікове обмеження | Es gibt definitiv keine Altersgrenze für gute und erfahrene Programmierer.
+die Arbeitsunfähigkeit (Sg.)	inability to work, incapacity for work / непрацездатність | Bei Arbeitsunfähigkeit durch Krankheit muss man sofort das HR-Team informieren.
+die Arbeitsunfähigkeitsbescheinigung, -en	sick note, medical certificate / довідка про непрацездатність (лікарняний) | Die elektronische Arbeitsunfähigkeitsbescheinigung (eAU) geht nun direkt an die Kasse.
+die Arbeitsvergütung, -en	remuneration, pay / оплата праці | Die vertragliche Arbeitsvergütung für IT-Spezialisten ist in Deutschland sehr attraktiv.
+etw. beeinträchtigen	to affect, to impair / шкодити, негативно впливати | Die hohe Server-Latenz darf die User-Experience (UX) nicht beeinträchtigen.
+die Bruttovergütung, -en	gross remuneration / оплата брутто (до відрахування податків) | Seine jährliche Bruttovergütung im Startup beträgt 75.000 Euro.
+die Einwilligung erteilen	to give consent / давати згоду | Der User muss die Einwilligung erteilen, bevor Tracking-Cookies gespeichert werden.
+die Entgeltfortzahlung, -en	continued payment of wages (during illness) / збереження заробітної плати (під час хвороби) | Bei Krankheit gibt es in Deutschland eine Entgeltfortzahlung für bis zu sechs Wochen.
+das Geheimnis, -se	secret / таємниця, секрет | Die API-Keys für das Zahlungs-Gateway sind ein streng gehütetes Geheimnis.
+das Geschäftsgeheimnis, -se	trade secret / комерційна таємниця | Der Algorithmus unserer KI-Engine ist ein absolutes Geschäftsgeheimnis.
+gesondert	separate(ly) / окремо | Die finanziellen Boni für den erfolgreichen Launch werden gesondert abgerechnet.
+jdm. etw. gewähren	to grant sb. sth. / надавати (дозвіл, доступ) | Der Admin muss dir erst Lesezugriff auf das Git-Repository gewähren.
+die Kernarbeitszeit, -en	core working hours / основний робочий час (обов'язкова присутність) | Unsere Kernarbeitszeit im Büro ist von 10:00 bis 15:00 Uhr.
+der Mindesturlaub (Sg.)	minimum vacation / мінімальна відпустка | Der vertragliche Urlaub bei Tech-Firmen übersteigt oft den gesetzlichen Mindesturlaub.
+die Nebentätigkeit, -en	secondary employment, side job / додаткова робота, підробіток | Eine Nebentätigkeit als Freelancer muss der Hauptarbeitgeber meistens genehmigen.
+der Paragraf, -en	paragraph, section / параграф, пункт (договору) | In Paragraf 4 meines Arbeitsvertrags ist die Remote-Work (Homeoffice) geregelt.
+die Probezeit, -en	probationary period / випробувальний термін | Während der Probezeit von sechs Monaten lerne ich die große Codebase kennen.
+das Stillschweigen (Sg.)	silence, confidentiality / мовчання, конфіденційність | Über das neue Apple-Projekt haben wir vertraglich striktes Stillschweigen vereinbart.
+Stillschweigen bewahren	to maintain silence/confidentiality / зберігати мовчання / таємницю | Wir müssen über die sensiblen Kundendaten absolutes Stillschweigen bewahren.
+die Verschwiegenheitspflicht (Sg.)	duty of confidentiality (NDA) / обов'язок зберігати конфіденційність (NDA) | Jeder Entwickler unterschreibt eine Verschwiegenheitspflicht (NDA) vor Projektstart.
+verstoßen gegen (+ Akk.) (verstößt, verstieß, hat verstoßen)	to violate / порушувати | Wer geheimen Code stiehlt, verstößt massiv gegen den Arbeitsvertrag.
+das Weihnachtsgeld (Sg.)	Christmas bonus / різдвяна премія | Viele große Konzerne zahlen im November als Bonus ein Weihnachtsgeld (13. Gehalt).
+ausdrücklich	explicit(ly) / явно, категорично | Es ist ausdrücklich verboten, Kundendaten auf privaten USB-Sticks zu speichern.
+die Ausnahme, -n	exception / виняток | Das Ignorieren von Linter-Warnungen ist im Code nur in absoluten Ausnahmen erlaubt.
+der Bürgersteig, -e	pavement, sidewalk / тротуар | Die E-Scooter der Mitarbeiter dürfen den Fußgängern auf dem Bürgersteig nicht im Weg stehen.
+etw. entfernen	to remove / видаляти, усувати | Ich muss die Test-Logs unbedingt aus dem Code entfernen, bevor wir pushen.
+etw. erhalten (erhält, erhielt, hat erhalten)	to preserve, to maintain, to receive / зберігати, підтримувати, отримувати | Um die Server-Performance zu erhalten, löschen wir regelmäßig alte Cache-Daten.
+etw. erlauben	to allow, to permit / дозволяти | Die strenge Firmen-Firewall wird diese eingehende Verbindung niemals erlauben.
+der Gemeinschaftsraum, "-e	common room, lounge / кімната відпочинку (для всіх) | Wir haben eine Tischtennisplatte und eine Kaffeemaschine im Gemeinschaftsraum.
+etw. gestatten	to permit, to allow / дозволяти | Es ist aus Sicherheitsgründen nicht gestattet, externe Festplatten anzuschließen.
+grundsätzlich	fundamentally, in principle / в принципі, принципово | Wir programmieren hier grundsätzlich immer nach den strengen Regeln von Clean Code.
+herumlaufen (läuft herum, lief herum, ist herumgelaufen)	to walk around / бігати/ходити навколо | Die Bürohunde dürfen im Startup-Büro frei herumlaufen.
+die Holzkohle, -n	charcoal / деревне вугілля | Beim Firmen-Grillen auf der Dachterrasse nutzen wir echte Holzkohle.
+Rechte und Pflichten (Pl.)	rights and duties / права та обов'язки | Im Arbeitsvertrag stehen alle deine Rechte und Pflichten als Mitarbeiter.
+die Rücksicht (Sg.)	consideration, thoughtfulness / повага, увага (до інших) | Im Großraumbüro müssen wir besonders viel Rücksicht auf die Kollegen nehmen.
+Rücksicht nehmen auf (+ Akk.)	to be considerate of / зважати на, з повагою ставитися до | Beim Telefonieren müssen wir Rücksicht auf die konzentrierten Programmierer nehmen.
+rücksichtsvoll	considerate, thoughtful / уважний, тактовний | Ein rücksichtsvolles Team achtet auf den Code-Style und die Kommentare der anderen.
+sich wohlfühlen	to feel comfortable / почуватися добре / комфортно | Wir möchten, dass sich alle Entwickler im neuen, hellen IT-Büro wohlfühlen.
+die Tierhaltung (Sg.)	keeping of animals / утримання тварин | Die Tierhaltung in Form von kleinen Bürohunden ist bei uns im Startup erlaubt.
+jdm. etw. untersagen	to prohibit, to forbid / забороняти | Der Admin kann Nutzern den Zugriff auf bestimmte Webseiten im Netzwerk untersagen.
+die Verunreinigung, -en	contamination, pollution / забруднення | Eine Verunreinigung der Server-Racks durch Staub muss unbedingt verhindert werden.
+der Zugangsweg, -e	access path, entrance / шлях доступу | Der Zugangsweg zum Rechenzentrum ist durch mehrere Kameras gesichert.
+der Zustand, "-e	condition, state / стан | Das Git-Repository befindet sich nach dem Merge in einem sauberen Zustand.
+die Zustimmung (Sg.)	approval, consent / згода, схвалення | Ohne die Zustimmung (Approve) des Tech Leads darfst du diesen Code nicht mergen.
+etw./jdn. absichern	to secure, to insure / забезпечувати, страхувати | Als IT-Freelancer muss man sich selbst finanziell für das Alter absichern.
+die Absicherung, -en	security, safeguard, insurance / забезпечення, гарантія | Eine gute IT-Infrastruktur braucht eine starke Absicherung gegen Hacker.
+angewiesen auf (+ Akk.)	dependent on / залежний від | Unser System ist auf eine stabile und schnelle Datenbank-Verbindung angewiesen.
+der Anspruch, "-e	claim, right / претензія, право | Jeder Entwickler hat rechtlichen Anspruch auf mindestens 20 Tage Urlaub im Jahr.
+das Arbeitslosengeld (Sg.)	unemployment benefit / допомога по безробіттю | Nach der Startup-Pleite musste ich vorübergehend Arbeitslosengeld (ALG I) beantragen.
+die Arbeitslosenversicherung, -en	unemployment insurance / страхування на випадок безробіття | Die Arbeitslosenversicherung wird automatisch von deinem Bruttogehalt abgezogen.
+der Ausgleich (Sg.)	balance, compensation / баланс, компенсація | Sport ist ein extrem wichtiger Ausgleich zum ständigen Sitzen am PC.
+der Beamte, -n / die Beamtin, -nen	civil servant / державний службовець | Viele IT-Experten im Ministerium arbeiten sicher als Beamte.
+etw. beantragen	to apply for / подавати заяву на | Ich möchte nächste Woche Urlaub für die Tech-Konferenz beantragen.
+sich begeben (begibt sich, begab sich, hat sich begeben)	to go, to proceed / відправлятися, йти | Der Techniker muss sich in den Serverraum begeben, um das Kabel zu tauschen.
+die Beihilfe, -n	aid, subsidy / допомога, субсидія | Das Tech-Startup erhält eine staatliche Beihilfe für Forschung an KI.
+der Bürger, - / die Bürgerin, -nen	citizen / громадянин | Wir entwickeln eine digitale Service-App für alle Bürger der Stadt.
+das Elterngeld (Sg.)	parental allowance / допомога на дитину (для батьків у декреті) | Während meiner Elternzeit erhalte ich staatliches Elterngeld.
+das Existenzminimum (Sg.)	subsistence level / прожитковий мінімум | Ein Junior-Gehalt in der IT liegt zum Glück weit über dem Existenzminimum.
+die Grundsicherung (Sg.)	basic social security / базове соціальне забезпечення | Die Software der Arbeitsagentur berechnet automatisch die Grundsicherung.
+der Jahresverdienst, -e	annual earnings / річний дохід | Mein Jahresverdienst als Senior Developer ist im Arbeitsvertrag klar geregelt.
+das Kindergeld (Sg.)	child benefit / допомога на дитину | Die HR-Abteilung hilft mir bei den Formularen für das Kindergeld.
+das Krankengeld (Sg.)	sick pay / допомога по хворобі | Nach sechs Wochen schwerer Krankheit zahlt die Krankenkasse das Krankengeld.
+die Krankenversicherung, -en	health insurance / медичне страхування | In Deutschland ist eine Krankenversicherung für jeden Entwickler absolute Pflicht.
+die Leistung, -en	performance, benefit / продуктивність, виплата | Die Rechenleistung des neuen M3-Prozessors ist beeindruckend.
+oberhalb (+ Gen.)	above / вище, над | Dein Gehaltswunsch liegt leider etwas oberhalb unseres Budgets.
+die Pension, -en	pension (for civil servants) / пенсія (для держслужбовців) | Beamte in der staatlichen IT erhalten im Alter eine sehr gute Pension.
+das Pflegegeld (Sg.)	long-term care allowance / допомога по догляду | Die Health-Software berechnet automatisch das Pflegegeld für die Patienten.
+die Pflegeversicherung, -en	long-term care insurance / страхування на випадок потреби в догляді | Die Pflegeversicherung ist ein wichtiger Teil der deutschen Sozialabgaben.
+die Pflichtversicherung, -en	compulsory insurance / обов'язкове страхування | Die gesetzliche Krankenversicherung ist eine Pflichtversicherung.
+die Rente, -n	pension / пенсія | Er plant, mit 65 Jahren in Rente zu gehen und nur noch private Code-Projekte zu machen.
+das Rentenalter (Sg.)	retirement age / пенсійний вік | Das gesetzliche Rentenalter in Deutschland wird vermutlich bald angehoben.
+die Rentenversicherung, -en	pension insurance / пенсійне страхування | Dein Beitrag zur Rentenversicherung wird direkt vom Bruttogehalt abgezogen.
+der Sonderstatus (Sg.)	special status / особливий статус | IT-Security-Experten haben oft einen Sonderstatus im Unternehmen.
+sozial	social / соціальний | Unsere Firma engagiert sich stark für soziale Tech-Projekte.
+die Sozialhilfe (Sg.)	social assistance, welfare / соціальна допомога | Ein neuer Algorithmus soll die Auszahlung der Sozialhilfe beschleunigen.
+der Sozialstaat, -en	welfare state / соціальна держава | Deutschland ist ein starker Sozialstaat mit vielen verpflichtenden Versicherungen.
+die Sozialversicherung, -en	social security / соціальне страхування | Als Festangestellter bist du automatisch in der Sozialversicherung.
+unterhalb (+ Gen.)	below / нижче, під | Die Serverlast liegt zum Glück weit unterhalb des kritischen Limits.
+etw. vorlegen	to submit, to present / надавати, пред'являти | Du musst dem HR-Team deine Steuer-ID und das Zeugnis vorlegen.
+das Wohngeld (Sg.)	housing allowance / допомога на оплату житла | Mit einem guten IT-Gehalt hat man normalerweise keinen Anspruch auf Wohngeld.
+die Abgabe, -n	tax, duty, submission / податок, збір, здача | Auf dem Gehaltszettel siehst du alle Steuern und staatlichen Abgaben.
+alleinerziehend	single parent / який виховує дитину сам | Als alleinerziehender Vater im IT-Support habe ich sehr flexible Arbeitszeiten.
+der Arbeitgeberanteil (Sg.)	employer's contribution / частка роботодавця (у страхуванні) | Die Firma zahlt 50% deiner Krankenversicherung als Arbeitgeberanteil.
+ausmachen	to amount to, to turn off / складати (суму), вимикати | Die Steuern machen einen großen Teil meines Bruttogehalts aus.
+der Auszahlungsbetrag, "-e	payout amount, net amount / сума до виплати | Der Auszahlungsbetrag auf deinem Bankkonto ist dein endgültiges Nettogehalt.
+der Beitrag, "-e	contribution, post / внесок, стаття | Mein Beitrag zur gesetzlichen Krankenversicherung steigt nächstes Jahr.
+die Einkommensteuer, -n	income tax / прибутковий податок | Mit einer guten Software für die Einkommensteuer kann man viel Geld sparen.
+die Erwerbstätigkeit, -en	employment, gainful occupation / трудова діяльність, зайнятість | Die Aufnahme einer Erwerbstätigkeit muss der Krankenversicherung gemeldet werden.
+evangelisch	Protestant, Evangelical / євангельський, протестантський | Wenn man in Deutschland offiziell evangelisch ist, zahlt man Kirchensteuer.
+die Gemeinde, -n	municipality, community / громада, муніципалітет | Wir programmieren und digitalisieren die Verwaltung für eine kleine Gemeinde.
+gleichgeschlechtlich	same-sex / одностатевий | Das HR-System hat jetzt auch Felder für gleichgeschlechtliche Lebenspartner.
+jüdisch	Jewish / єврейський | Die jüdische Gemeinde nutzt unsere Cloud-Lösung für ihre Verwaltung.
+katholisch	Catholic / католицький | Wer katholisch ist, sieht den Abzug der Kirchensteuer auf dem Gehaltszettel.
+die Kirchensteuer, -n	church tax / церковний податок | Ich bin aus der Kirche ausgetreten, um mir die Kirchensteuer zu sparen.
+etw. kombinieren	to combine / комбінувати, поєднувати | Wir müssen das neue Frontend-Framework mit unserer alten Datenbank kombinieren.
+die Lebensgemeinschaft, -en	partnership, cohabitation / спільне проживання, партнерство | Die Steuerklasse hängt auch von einer eingetragenen Lebensgemeinschaft ab.
+die Lohnsteuer, -n	wage tax, income tax (on wages) / податок із заробітної плати | Die Lohnsteuer wird jeden Monat automatisch vom Arbeitgeber an das Finanzamt überwiesen.
+die Sozialabgaben (Pl.)	social security contributions / соціальні відрахування | Nach Abzug der Steuern und Sozialabgaben bleibt dein Nettogehalt übrig.
+die Sozialversicherungsnummer, -n	social security number / номер соціального страхування | Die HR braucht zwingend deine Sozialversicherungsnummer für den Arbeitsvertrag.
+die Steuer, -n	tax / податок | Das Steuersystem in Deutschland ist sehr komplex, weshalb viele Steuersoftware nutzen.
+die Steueridentifikationsnummer, -n	tax identification number / ідентифікаційний податковий номер (ІПН) | Gib deine 11-stellige Steueridentifikationsnummer (Steuer-ID) im HR-Portal ein.
+die Steuerklasse, -n	tax bracket, tax class / податковий клас | Als unverheirateter Entwickler bin ich automatisch in Steuerklasse 1.
+vermögenswirksame Leistungen (Pl.)	capital-forming benefits / накопичувальні пільги (від роботодавця) | Die Firma zahlt monatlich 40 Euro vermögenswirksame Leistungen in meinen ETF-Sparplan.
+der Zweitjob, -s	second job / друга робота, підробіток | Nebenbei programmiert er Webseiten für kleine Firmen als Zweitjob.
+absehbar	foreseeable / передбачуваний | Ein Ende des großen Refactoring-Projekts ist aktuell noch nicht absehbar.
+die Abwesenheit (Sg.)	absence / відсутність | In meiner Abwesenheit übernimmt der Junior-Dev meine Jira-Tickets.
+ansteckend	contagious / заразний, інфекційний | Komm nicht ins Büro, wenn du eine ansteckende Krankheit hast!
+arbeitsfähig	fit for work, able to work / працездатний | Nach einer Woche Grippe bin ich endlich wieder arbeitsfähig und online.
+erkranken	to fall ill / захворіти | Wenn Sie schwer erkranken, müssen Sie dem Team sofort Bescheid geben.
+die Erkrankung, -en	illness, disease / хвороба, захворювання | Wegen einer schweren Erkrankung fiel der Lead Developer wochenlang aus.
+der Herzinfarkt, -e	heart attack / інфаркт | Zu viel Stress vor dem Code-Release ist ungesund und kann zu einem Herzinfarkt führen.
+die Impfung, -en	vaccination / щеплення | Die Firma bietet im Herbst eine kostenlose Grippeimpfung für alle Entwickler an.
+die Infektionskrankheit, -en	infectious disease / інфекційна хвороба | Bei einer Infektionskrankheit ist Homeoffice gesetzlich oft Pflicht.
+jdn. krankschreiben (schreibt krank, schrieb krank, hat krankgeschrieben)	to put someone on sick leave / виписати лікарняний | Der Arzt wird mich wegen Fiebers für drei Tage krankschreiben.
+die Krankmeldung, -en	sick note, notification of illness / повідомлення про хворобу, лікарняний | Bitte sende deine Krankmeldung direkt per E-Mail an die Personalabteilung.
+der Kündigungsgrund, "-e	reason for termination / причина звільнення | Schlechter Code ist allein noch kein rechtlicher Kündigungsgrund in Deutschland.
+etw. nachholen	to catch up on, to make up for / надолужувати | Ich war krank und muss das verpasste Daily-Meeting heute Nachmittag nachholen.
+der Notfall, "-e	emergency / екстрений випадок, надзвичайна ситуація | Im Notfall kann uns der externe IT-Support auch am Wochenende helfen.
+der Orthopäde, -n / die Orthopädin, -nen	orthopedist / ортопед | Wegen meiner Rückenschmerzen vom ständigen Sitzen gehe ich zum Orthopäden.
+etw. rechtfertigen	to justify / виправдовувати, обґрунтовувати | Du musst deinen Code-Ansatz im Pull Request technisch rechtfertigen.
+soeben	just now / щойно, тільки-но | Der Produktions-Server ist soeben abgestürzt, wir müssen das fixen!
+die Vertretung, -en	representation, substitute / заміна, представництво | Während meines Urlaubs übernimmt mein Kollege die Vertretung für das Projekt.
+voraussichtlich	expected, probable / ймовірно, очікується | Das neue Feature ist voraussichtlich am Freitagnachmittag fertig.
+die Vorsorgeuntersuchung, -en	preventive medical checkup / профілактичний огляд | Ich habe heute einen Termin für die Vorsorgeuntersuchung meiner Augen.
+etw. weiterleiten	to forward / пересилати, перенаправляти | Ich werde die E-Mail des Kunden an den 2nd-Level-Support weiterleiten.
+etw. abmildern	to soften, to mitigate / пом'якшувати, зменшувати | Wir nutzen Load Balancer, um den extremen Traffic-Peak abzumildern.
+der Angehörige, -n / die Angehörige, -n	relative / родич | Wir haben eine spezielle Software für pflegende Angehörige entwickelt.
+Anspruch haben auf (+ Akk.)	to be entitled to, to have a right to / мати право на | Du hast bei einer 5-Tage-Woche Anspruch auf mindestens 20 Tage Urlaub im Jahr.
+ausschließlich	exclusively, only / виключно | Dieses AWS-Konto wird ausschließlich für die Produktion genutzt.
+etw./jdn. bedenken (bedenkt, bedachte, hat bedacht)	to consider, to think about / враховувати, обмірковувати | Wir müssen bei der App-Architektur auch die spätere Skalierbarkeit bedenken.
+der Berufswiedereinstieg (Sg.)	return to work (after a break) / повернення до професійної діяльності | Nach der Elternzeit plant sie ihren Berufswiedereinstieg als Scrum Master.
+die Betreuungsmöglichkeit, -en	childcare option / можливість догляду (за дітьми) | Unser IT-Konzern bietet eine eigene Kita als Betreuungsmöglichkeit an.
+die Elternzeit (Sg.)	parental leave / відпустка по догляду за дитиною | Der Lead Developer ist für drei Monate in Elternzeit und offline.
+jdn. freistellen	to exempt, to release (from work) / звільнити (від роботи) | Die Firma musste ihn nach der fristlosen Kündigung sofort freistellen.
+die Freistellung, -en	exemption, release from duty / звільнення від виконання обов'язків | Er erhielt eine bezahlte Freistellung für die letzten zwei Monate seines Vertrages.
+der Kündigungsschutz (Sg.)	protection against dismissal / захист від звільнення | Schwangere Entwicklerinnen haben einen besonderen gesetzlichen Kündigungsschutz.
+die Lohnersatzleistung, -en	wage replacement benefit / допомога, що замінює заробітну плату | Das Krankengeld ist eine klassische staatliche Lohnersatzleistung in Deutschland.
+pflegebedürftig	in need of care / такий, що потребує догляду | Er arbeitet in Teilzeit, weil sein Vater leider pflegebedürftig ist.
+die Pflegekasse (Sg.)	long-term care insurance fund / каса страхування по догляду | Wir digitalisieren die Antragsformulare für die gesetzliche Pflegekasse.
+die Pflegezeit, -en	care leave / відпустка для догляду за родичем | Man kann Pflegezeit beantragen, um schwerkranke Angehörige zu pflegen.
+rechnen mit (+ Dat.)	to expect, to count on / очікувати, розраховувати на | Wir rechnen mit einem massiven Anstieg der Serverlast am Black Friday.
+der Rechtsanspruch, "-e	legal right, legal claim / юридичне право | Du hast einen gesetzlichen Rechtsanspruch auf ein qualifiziertes Arbeitszeugnis.
+die Tagesmutter, "-	childminder, nanny / няня (яка доглядає вдень) | Die Tagesmutter passt auf mein Kind auf, während ich im Homeoffice programmiere.
+die Wechselschicht, -en	rotating shift / позмінна робота | Im 24/7 IT-Support gibt es oft eine anstrengende Wechselschicht.
+zinslos	interest-free / безвідсотковий | Die Firma hat dem Startup ein komplett zinsloses Darlehen gewährt.
+sich zurechtfinden	to find one's way around / орієнтуватися, розбиратися | Es dauert ein paar Wochen, bis man sich in der riesigen Codebase zurechtfindet.
+der Zusammenhang, "-e	connection, context / зв'язок, контекст | Ich sehe keinen Zusammenhang zwischen dem Frontend-Update und dem Datenbankfehler.
+etw. auflisten	to list / перераховувати, складати список | Kannst du bitte alle gefundenen Bugs ordentlich in einem Jira-Ticket auflisten?
+das Einkommensniveau, -s	income level / рівень доходів | Das Einkommensniveau für Softwarearchitekten in München ist extrem hoch.
+die Einkünfte (Pl.)	income, earnings / доходи | Meine zusätzlichen Einkünfte als Freelancer muss ich dem Finanzamt melden.
+das Gefühl, -e	feeling / почуття, відчуття | Ich habe das schlechte Gefühl, dass wir diese Deadline nicht schaffen werden.
+der Gehaltsvergleich, -e	salary comparison / порівняння зарплат | Ein Gehaltsvergleich auf Portalen wie Glassdoor hilft bei der Gehaltsverhandlung.
+die Geldanlage, -n	financial investment / грошовий вклад, інвестиція | Aktien und ETFs sind eine sehr beliebte Geldanlage bei gut bezahlten IT-Profis.
+etw. herausfinden (findet heraus, fand heraus, hat herausgefunden)	to find out / з'ясувати, дізнатися | Wir müssen dringend herausfinden, warum die Datenbank-Anfragen so lange dauern.
+luxuriös	luxurious / розкішний | Die neuen IT-Büros in Berlin sind sehr modern und fast schon luxuriös ausgestattet.
+etw. preisgeben (gibt preis, gab preis, hat preisgegeben)	to reveal, to disclose / розголошувати, видавати | Wir dürfen den Quellcode auf keinen Fall an die Konkurrenz preisgeben.
+stammen aus (+ Dat.)	to come from, to originate from / походити з | Dieses alte Code-Snippet (Legacy) stammt noch aus dem Jahr 2015.
+das Statussymbol, -e	status symbol / символ статусу | Ein teures Firmenauto ist für manche Manager ein wichtiges Statussymbol.
+die Steuererklärung, -en	tax return / податкова декларація | Ich nutze eine moderne App, um meine Steuererklärung digital abzugeben.
+der Tarifvertrag, "-e	collective labor agreement / тарифний договір | Der Tarifvertrag regelt die genauen Gehälter und Urlaubstage der Angestellten.
+die Übersicht, -en	overview / огляд, загальна картина | Das Monitoring-Dashboard bietet eine gute Übersicht über alle laufenden Server.
+umgehen mit (+ Dat.) (geht um, ging um, ist umgegangen)	to deal with, to handle / поводитися з, обходитися | Als DevOps-Engineer musst du gut mit Druck und Stress umgehen können.
+ungeeignet	unsuitable / непридатний | Dieses alte Framework ist für moderne Web-Apps völlig ungeeignet.
+ungerechtfertigt	unjustified / необґрунтований | Die fristlose Kündigung des Entwicklers war laut Gericht rechtlich ungerechtfertigt.
+vorherrschen	to prevail, to predominate / переважати, панувати | In unserem Startup soll eine Kultur der offenen Fehler-Kommunikation vorherrschen.

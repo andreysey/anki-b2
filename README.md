@@ -31,16 +31,11 @@ This is the master orchestration script used to generate the final importable An
   - Ensures correct sorting (Thema 1 -> Thema 12).
 - **Usage**: Run `python3 tools/build_decks.py` from the root directory.
 
-## How to Import into Anki
+## How to Import into Quizlet.com
 
-1. **Recommended File**: Use `Anki_B2_Clean.txt` (or another `Clean` variant) for the most efficient experience.
-2. **Setup**: Ensure your Anki Note Type has at least **4 fields** (e.g., *German, English, Ukrainian, Example*).
-3. **Import**: Select `File` -> `Import` in Anki and choose your desired `.txt` file.
-4. **Field Mapping**: Anki will automatically detect the `;` separator and map the columns thanks to the embedded headers.
-5. **Card Template**: For the best results, add `{{Ukrainian}}` and `{{Example}}` to your card templates.
-
-### Speech-to-Text (Audio)
-To enable live audio during your reviews without downloading large files, add the following to your Anki card template:
-```html
-{{tts de_DE:German}}
-```
+1. **Select File**: Use any of the files starting with `Quizlet_*.txt`. These are optimized for Quizlet with a `Term [Tab] Definition` format.
+2. **Create Set**: On Quizlet, click **"Create"** -> **"Study set"**.
+3. **Import**: Click **"+ Import from Word, Excel, Google Docs, etc."**.
+4. **Paste/Upload**: Copy the content of your chosen `Quizlet_*.txt` file and paste it into the box.
+5. **Settings**: Ensure **"Between term and definition"** is set to **Tab** and **"Between cards"** is set to **New line**.
+6. **Finalize**: Click **"Import"** and create your set!
