@@ -26,10 +26,10 @@ The `build_decks.py` tool generates multiple versions of each deck to suit diffe
 ```mermaid
 graph TD
     %% Define Styles
-    classDef source fill:#f9f,stroke:#333,stroke-width:2px;
-    classDef tool fill:#fff4dd,stroke:#d4a017,stroke-width:2px;
-    classDef output fill:#e1f5fe,stroke:#01579b,stroke-width:2px;
-    classDef logic fill:#f1f8e9,stroke:#33691e,stroke-dasharray: 5 5;
+    classDef source fill:#ff99ff,stroke:#333,stroke-width:2px,color:#000;
+    classDef tool fill:#fff4dd,stroke:#d4a017,stroke-width:2px,color:#000;
+    classDef output fill:#e1f5fe,stroke:#01579b,stroke-width:2px,color:#000;
+    classDef logic fill:#f1f8e9,stroke:#33691e,stroke-dasharray: 5 5,color:#000;
 
     %% Workflow
     S[source/*.txt] --> B(build_decks.py)
