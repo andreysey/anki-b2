@@ -25,24 +25,27 @@ The `build_decks.py` tool generates multiple versions of each deck to suit diffe
 
 ```mermaid
 graph TD
-    Source[source/ Thema Files] --> Build[build_decks.py]
-    Build --> AnkiDir[anki/]
-    Build --> QuizletDir[quizlet/]
-    
-    AnkiDir --> AF[Full]
-    AnkiDir --> AC[Clean]
-    
-    QuizletDir --> QF[Full]
-    QuizletDir --> QC[Clean]
-    QuizletDir --> QM[Minimal]
-    QuizletDir --> QMC[Minimal Clean]
+    %% Define Styles
+    classDef source fill:#f9f,stroke:#333,stroke-width:2px;
+    classDef tool fill:#fff4dd,stroke:#d4a017,stroke-width:2px;
+    classDef output fill:#e1f5fe,stroke:#01579b,stroke-width:2px;
+    classDef logic fill:#f1f8e9,stroke:#33691e,stroke-dasharray: 5 5;
 
-    subgraph "Suffix Meanings"
-    Full["Full: All entries (incl. duplicates)"]
-    Clean["Clean: Unique words only"]
-    Minimal["Minimal: Word + Translation only (no examples)"]
-    end
+    %% Workflow
+    S[source/*.txt] --> B(build_decks.py)
+    B --> L{"De-duplication<br/>& Formatting"}
+    L --> A[anki/*.txt]
+    L --> Q[quizlet/*.txt]
+
+    %% Assign Classes
+    class S source;
+    class B tool;
+    class A,Q output;
+    class L logic;
 ```
+
+### Path to Optimized Learning
+The workflow ensures that your **source** data remains the "Single Source of Truth", while the **anki/** and **quizlet/** folders act as distribution targets.
 
 ### Version Suffixes
 - **`_Full.txt`**: Contains every entry from every thematic file. Useful if you want to study words in the context of their specific themes.

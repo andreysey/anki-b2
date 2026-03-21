@@ -1,25 +1,45 @@
 import os
-import glob
-import re
+from pathlib import Path
+import logging
+from datetime import datetime
+
+# Configure logging
+log_file = Path('build.log')
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s [%(levelname)s] %(message)s',
+    handlers=[
+        logging.FileHandler(log_file, mode='w', encoding='utf-8'),
+        logging.StreamHandler()
+    ]
+)
+logger = logging.getLogger(__name__)
 
 HEADERS = '#separator:;\n#html:true\n#columns:German;English;Ukrainian;Example\n'
-
-def get_num(s):
-    match = re.search(r'Thema(\d+)', s)
-    return int(match.group(1)) if match else 0
 
 def generate_decks(files, base_name, format_type='anki', quizlet_minimal=False):
     all_entries = []
     unique_entries = []
-    seen = set()
+    seen = {} # word -> first_file_found
+    warnings = []
     
-    for f in files:
-        if not os.path.exists(f): continue
+    logger.info(f"Processing {base_name} ({format_type}{' minimal' if quizlet_minimal else ''})")
+    
+    for f_path in files:
+        f = Path(f_path)
+        if not f.exists(): continue
         with open(f, 'r', encoding='utf-8') as infile:
             lines = infile.readlines()
-            for l in lines:
-                if not l.startswith('#') and l.strip() and ';' in l:
-                    word = l.split(';')[0].strip()
+            for i, l in enumerate(lines, 1):
+                if not l.startswith('#') and l.strip():
+                    parts = [p.strip() for p in l.split(';')]
+                    if len(parts) < 3:
+                        msg = f"{f.name}:{i} - Less than 3 columns"
+                        warnings.append(msg)
+                        logger.warning(msg)
+                        continue
+                    
+                    word = parts[0]
                     
                     if format_type == 'quizlet':
                         parts = [p.strip() for p in l.split(';')]
@@ -37,7 +57,14 @@ def generate_decks(files, base_name, format_type='anki', quizlet_minimal=False):
                     all_entries.append(l)
                     if word not in seen:
                         unique_entries.append(l)
-                        seen.add(word)
+                        seen[word] = f.name
+                    else:
+                        if not quizlet_minimal: # Only log duplicates once per word per overall run
+                            logger.info(f"  Duplicate found: '{word}' in {f.name} (first seen in {seen[word]})")
+                        unique_entries.append(None) # Place holder to keep index if needed, but we don't use it
+    
+    # Filter unique_entries to remove Nones
+    unique_entries = [e for e in unique_entries if e is not None]
     
     def write_deck(data, name):
         if not data: return 0
@@ -52,30 +79,41 @@ def generate_decks(files, base_name, format_type='anki', quizlet_minimal=False):
     suffix = "_Minimal.txt" if quizlet_minimal else "_Full.txt"
     suffix_clean = "_Minimal_Clean.txt" if quizlet_minimal else "_Clean.txt"
     
-    n_full = write_deck(all_entries, f'quizlet/Quizlet_{base_name}{suffix}' if format_type == 'quizlet' else f'anki/Anki_{base_name}_Full.txt')
-    n_clean = write_deck(unique_entries, f'quizlet/Quizlet_{base_name}{suffix_clean}' if format_type == 'quizlet' else f'anki/Anki_{base_name}_Clean.txt')
+    out_dir = Path('quizlet' if format_type == 'quizlet' else 'anki')
+    out_dir.mkdir(exist_ok=True)
     
-    return n_full, n_clean
+    n_full = write_deck(all_entries, out_dir / f'Anki_{base_name}_Full.txt' if format_type == 'anki' else out_dir / f'Quizlet_{base_name}{suffix}')
+    n_clean = write_deck(unique_entries, out_dir / f'Anki_{base_name}_Clean.txt' if format_type == 'anki' else out_dir / f'Quizlet_{base_name}{suffix_clean}')
+    
+    return n_full, n_clean, warnings
+
+def get_num(s):
+    import re
+    match = re.search(r'Thema(\d+)', str(s))
+    return int(match.group(1)) if match else 0
 
 if __name__ == "__main__":
-    # Change to root if running from tools/
-    if os.path.basename(os.getcwd()) == 'tools':
-        os.chdir('..')
+    root = Path(__file__).parent.parent
+    os.chdir(root)
 
-    b1_files = sorted(glob.glob('source/B1_plus_Thema*.txt'), key=get_num)
-    b2_files = sorted(glob.glob('source/B2_Thema*.txt'), key=get_num)
-
+    b1_files = sorted(list(Path('source').glob('B1_plus_Thema*.txt')), key=get_num)
+    b2_files = sorted(list(Path('source').glob('B2_Thema*.txt')), key=get_num)
+    
+    logger.info("🚀 Starting build process...")
+    
     # Anki
-    for ft in ['anki']:
-        generate_decks(b1_files, 'B1plus', ft)
-        generate_decks(b2_files, 'B2', ft)
-        generate_decks(b1_files + b2_files, 'B1plus_B2', ft)
-        print(f"Generated Anki decks.")
+    n_f, n_c, w_anki = generate_decks(b1_files + b2_files, 'B1plus_B2', 'anki')
+    logger.info(f"✅ Anki: Combined deck generated ({n_c} unique cards from {n_f} total entries)")
 
-    # Quizlet (Normal and Minimal)
-    for qm in [False, True]:
-        generate_decks(b1_files, 'B1plus', 'quizlet', qm)
-        generate_decks(b2_files, 'B2', 'quizlet', qm)
-        generate_decks(b1_files + b2_files, 'B1plus_B2', 'quizlet', qm)
-        mode = "Minimal" if qm else "Full/Clean"
-        print(f"Generated Quizlet decks ({mode}).")
+    # Quizlet
+    n_fq, n_cq, w_q = generate_decks(b1_files + b2_files, 'B1plus_B2', 'quizlet', False)
+    logger.info(f"✅ Quizlet: Clean/Full decks generated.")
+    
+    n_fm, n_cm, w_m = generate_decks(b1_files + b2_files, 'B1plus_B2', 'quizlet', True)
+    logger.info(f"✅ Quizlet: Minimal decks generated.")
+
+    total_warnings = set(w_anki + w_q + w_m)
+    if total_warnings:
+        logger.warning(f"Build completed with {len(total_warnings)} unique warnings. Check build.log for details.")
+    else:
+        logger.info(f"✨ Build completed successfully with 0 errors!")
