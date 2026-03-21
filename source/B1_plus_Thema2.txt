@@ -1,75 +1,85 @@
 #separator:;
 #html:true
 #columns:German;English;Ukrainian;Example
-der Ansprechpartner, -;contact person;контактна особа;Wer ist mein Ansprechpartner für Fragen zum Vertrag?
-die Ansprechpartnerin, -nen;female contact person;контактна особа (жінка);Die Ansprechpartnerin im Personalbüro ist Fr. Müller.
-der Aushang, "-e;notice, posting;оголошення;Ich habe den Aushang am schwarzen Brett gelesen.
-das Bewerbungsschreiben, -;letter of application;заява про прийняття на роботу;Zum Bewerbungsschreiben gehört auch ein Lebenslauf.
-das Bewerbungsverfahren, -;application process;процес подання заявки;Das Bewerbungsverfahren dauert in dieser Firma zwei Wochen.
-der Eindruck, "-e;impression;враження;Er hat beim Vorstellungsgespräch einen guten Eindruck hinterlassen.
-die Elektrofirma, -firmen;electrical company;електротехнічна фірма;Er arbeitet seit drei Jahren in einer Elektrofirma.
-erwarten;to expect;очікувати;Wir erwarten kompetente Bewerber für diese Stelle.
-das Fachpersonal (Sg.);skilled personnel;кваліфікований персонал;Wir brauchen dringend Fachpersonal in der IT.
-fehlerfrei;error-free;без помилок;Deine Bewerbung sollte fehlerfrei geschrieben sein.
-die Initiativbewerbung, -en;unsolicited application;ініціативна заявка;Ich habe eine Initiativbewerbung an die Firma geschickt.
-die Installateurfirma, -firmen;plumbing company;сантехнічна фірма;Die Installateurfirma repariert die Rohre im Büro.
-die Konkurrenz (Sg.);competition;конкуренція;Die Konkurrenz auf dem Arbeitsmarkt ist groß.
-der Leiharbeiter, -;temporary worker;тимчасовий працівник;Er arbeitet momentan als Leiharbeiter bei BMW.
-die Leiharbeiterin, -nen;female temporary worker;тимчасова працівниця;Die Leiharbeiterin fängt morgen in der Produktion an.
-das Leitbild, -er;mission statement;місія, девіз компанії;Das Leitbild unserer Firma ist Kundenzufriedenheit.
-der Stand der Dinge;state of affairs;стан справ;Wie ist der aktuelle Stand der Dinge bei dem Projekt?
-einen Termin bestätigen;to confirm an appointment;підтверджувати зустріч;Können Sie den Termin bitte per E-Mail bestätigen?
-die Unterlage, -n;document;документ;Bitte laden Sie alle Unterlagen im Portal hoch.
-die Wartezeit, -en;waiting time;час очікування;Die Wartezeit für das Visum ist sehr lang.
-die Zeitarbeitsfirma, -en;temporary employment agency;агентство з працевлаштування;Die Zeitarbeitsfirma hat mir einen Job angeboten.
-zukünftig;future;майбутній;Was sind Ihre zukünftigen Pläne in der IT?
-die Arbeitskraft, "-e;worker, manpower;робоча сила;Wir brauchen mehr Arbeitskräfte für die Nachtschicht.
-das Arbeitsverhältnis, -se;employment relationship;трудові відносини;Das Arbeitsverhältnis beginnt am ersten März.
-ausleihen;to lend, to borrow;позичати, віддавати в оренду;Firmen können Arbeitskräfte von Zeitarbeitsfirmen ausleihen.
-die Berufsberatung, -en;vocational guidance;професійна консультація;Die Berufsberatung hilft Jugendlichen bei der Wahl.
-die Berufserfahrung, -en;professional experience;професійний досвід;Ich habe bereits fünf Jahre Berufserfahrung als Koch.
-beschäftigen;to employ;займати, працевлаштовувати;Die Firma beschäftigt über 200 Leute.
-die Beschäftigung (Sg.);employment;зайнятість;Er sucht eine Beschäftigung in Vollzeit.
-der Betrieb, -e;business, company;підприємство;Der Betrieb stellt Motoren her.
-die Genehmigung, -en;permission, permit;дозвіл;Haben Sie eine Genehmigung für dieses Projekt?
-die Leiharbeit (Sg.);temporary work;тимчасова праця;Leiharbeit ist oft ein Einstieg in einen festen Job.
-der Leiharbeiter, -;temporary worker;тимчасовий працівник;Er ist als Leiharbeiter angestellt.
-die Leiharbeiterin, -nen;female temporary worker;тимчасова робітниця;Die Leiharbeiterin kommt aus Polen.
-staatlich;state, public;державний;Er arbeitet in einer staatlichen Einrichtung.
-die Tätigkeit, -en;activity, task;діяльність;Welche Tätigkeiten gehören zu Ihrem Job?
-einen Termin vereinbaren;to make an appointment;домовлятися про зустріч;Ich möchte einen Termin für nächste Woche vereinbaren.
-verleihen;to lend;позичати, надавати;Die Agentur verleiht technisches Personal an Firmen.
-die Vermittlung, -en;placement, mediation;працевлаштування, посередництво;Die Vermittlung von Arbeitskräften ist kostenlos.
-die Vermittlungsgebühr, -en;placement fee;комісія за працевлаштування;In manchen Fällen muss man eine Vermittlungsgebühr zahlen.
-der Agraringenieur, -e;agricultural engineer;агроном-інженер;Der Agraringenieur berät die Bauern.
-die Agraringenieurin, -nen;female agricultural engineer;агрономка-інженерка;Die Agraringenieurin prüft die Bodenqualität.
-der Arbeitseinsatz, "-e;work assignment;використання робочої сили;Der Arbeitseinsatz ist für das Wochenende geplant.
-der Bereich, -e;area, field;сфера, галузь;Er arbeitet im Bereich Kundenservice.
-die Bereitschaft (Sg.);readiness, willingness;готовність;Bereitschaft zur Schichtarbeit ist erforderlich.
-der Einsatzort, -e;place of assignment;місце роботи (відрядження);Ihr Einsatzort ist das Werk in München.
-examiniert;qualified, examined;дипломований;Wir suchen examiniertes Pflegepersonal.
-das Familienunternehmen, -;family business;сімейне підприємство;Unsere Firma ist ein kleines Familienunternehmen.
-der Informatiker, -;IT specialist;інформатик;Der Informatiker programmiert eine neue App.
-die Informatikerin, -nen;female IT specialist;інформатиця;Die Informatikerin testet die Datenbank.
-der Ingenieur, -e;engineer;інженер;Der Ingenieur konstruiert eine neue Brücke.
-die Ingenieurin, -nen;female engineer;інженерка;Die Ingenieurin arbeitet an einem Flugzeug.
-innovativ;innovative;інноваційний;Wir bieten innovative Lösungen für die Industrie.
-die Karrierechance, -n;career opportunity;шанс на кар'єру;In dieser Firma gibt es gute Karrierechancen.
-die Kommunikationsfähigkeit, -en;communication skills;комунікабельність;Kommunikationsfähigkeit ist wichtig für Teamarbeit.
-der Kundenservice (Sg.);customer service;служба підтримки клієнтів;Der Kundenservice ist rund um die Uhr erreichbar.
-die Pflegekraft, "-e;caregiver, nurse;медпрацівник (з догляду);Die Pflegekraft kümmert sich um die Patienten.
-der Pflegeservice (Sg.);care service;служба догляду;Unser Pflegeservice hilft älteren Menschen zu Hause.
-der Sicherheitsmitarbeiter, -;security officer;співробітник безпеки;Der Sicherheitsmitarbeiter kontrolliert den Ausweis.
-die Sicherheitsmitarbeiterin, -nen;female security officer;співробітниця безпеки;Die Sicherheitsmitarbeiterin bewacht das Tor.
-der Teamgeist (Sg.);team spirit;командний дух;Wir legen großen Wert auf einen guten Teamgeist.
-die Verantwortung (Sg.);responsibility;відповідальність;Er übernimmt viel Verantwortung im Team.
-der Verkäufer, -;salesman;продавець;Der Verkäufer berät den Kunden im Laden.
-die Verkäuferin, -nen;female salesperson;продавчиня;Die Verkäuferin scannt die Ware.
-die Verstärkung, -en;reinforcement, addition to the team;підкріплення, новий співробітник;Wir suchen Verstärkung für unser Marketing-Team.
-die Zukunftsperspektive, -n;future prospect;перспектива на майбутнє;Dieser Job bietet eine gute Zukunftsperspektive.
-die Zusammenarbeit (Sg.);cooperation;співпраця;Die Zusammenarbeit mit den Kollegen macht Spaß.
-zuständig;responsible;відповідальний;Wer ist für dieses Problem zuständig?
-das Bauvorhaben, -;construction project;будівельний проект;Das neue Bauvorhaben beginnt im Sommer.
+der Ansprechpartner, -;contact person;контактна особа;Unser Ansprechpartner für das API-Gateway ist heute leider nicht erreichbar.
+die Ansprechpartnerin, -nen;female contact person;контактна особа (жінка);Die Ansprechpartnerin für den Datenschutz hat die neuen Sicherheitsrichtlinien genehmigt.
+der Aushang, "-e;notice, posting;оголошення;Ich habe den digitalen Aushang im Firmen-Intranet über das neue Slack-Update gesehen.
+das Bewerbungsschreiben, -;letter of application;заява про прийняття на роботу;In Ihrem Bewerbungsschreiben sollten Sie Ihre Erfahrung mit Cloud-Technologien hervorheben.
+das Bewerbungsverfahren, -;application process;процес подання заявки;Das Bewerbungsverfahren für die Stelle als DevOps-Engineer umfasst drei technische Interviews.
+der Eindruck, "-e;impression;враження;Die neue Architektur der mobilen App macht einen sehr modernen Eindruck.
+die Elektrofirma, -firmen;electrical company;електротехнічна фірма;Die Elektrofirma installiert die neue unterbrechungsfreie Stromversorgung (USV) in unserem Rechenzentrum.
+erwarten;to expect;очікувати;Von einem Senior-Entwickler erwarten wir fundierte Kenntnisse in Design Patterns.
+das Fachpersonal (Sg.);skilled personnel;кваліфікований персонал;Unser Unternehmen investiert stark in Fachpersonal für künstliche Intelligenz.
+fehlerfrei;error-free;без помилок;Ein fehlerfreier Code ist die Voraussetzung für eine erfolgreiche CI/CD-Pipeline.
+die Initiativbewerbung, -en;unsolicited application;ініціативна заявка;Ich habe eine Initiativbewerbung an das IT-Sicherheitszentrum geschickt.
+die Installateurfirma, -firmen;plumbing company;сантехнічна фірма;Die Installateurfirma wartet das Kühlsystem für unsere Hochleistungsserver.
+die Konkurrenz (Sg.);competition;конкуренція;In der Tech-Branche ist die Konkurrenz um die besten Talente extrem hoch.
+der Leiharbeiter, -;temporary worker;тимчасовий працівник;Wir haben einen Leiharbeiter für das kurzfristige Projekt zur Datenmigration eingestellt.
+die Leiharbeiterin, -nen;female temporary worker;тимчасова працівниця;Die Leiharbeiterin unterstützt unser QA-Team beim Testen der neuen Softwareversion.
+das Leitbild, -er;mission statement;місія, девіз компанії;Das Leitbild unseres Startups ist die Demokratisierung von Daten durch Open Source.
+der Stand der Dinge;state of affairs;стан справ;Können Sie mir beim nächsten Daily Stand-up den aktuellen Stand der Dinge zum Bug-Fixing geben?
+einen Termin bestätigen;to confirm an appointment;підтверджувати зустріч;Bitte bestätigen Sie den Termin für die Produktdemo über den Kalender-Link.
+die Unterlage, -n;document;документ;Bitte laden Sie alle technischen Unterlagen in den gemeinsamen Sharepoint-Ordner hoch.
+die Wartezeit, -en;waiting time;час очікування;Die Wartezeit für das Rendern des 4K-Videos beträgt etwa zwei Stunden.
+die Zeitarbeitsfirma, -en;temporary employment agency;агентство з працевлаштування;Die Zeitarbeitsfirma hat uns kurzfristig einen Spezialisten für Datenbanken vermittelt.
+zukünftig;future;майбутній;In der zukünftigen Version der Software wird eine Zwei-Faktor-Authentifizierung standardmäßig aktiviert sein.
+die Arbeitskraft, "-e;worker, manpower;робоча сила;Automatisierung reduziert den Bedarf an manueller Arbeitskraft bei Routineaufgaben.
+das Arbeitsverhältnis, -se;employment relationship;трудові відносини;Das unbefristete Arbeitsverhältnis bietet dem Softwareentwickler eine hohe Sicherheit.
+ausleihen;to lend, to borrow;позичати, віддавати в оренду;Man kann sich moderne VR-Brillen in der IT-Abteilung für Testzwecke ausleihen.
+die Berufsberatung, -en;vocational guidance;професійна консультація;Die Berufsberatung empfiehlt jungen Leuten oft ein Studium der Informatik.
+die Berufserfahrung, -en;professional experience;професійний досвід;Er bringt über zehn Jahre Berufserfahrung im Bereich Full-Stack-Entwicklung mit.
+beschäftigen;to employ;займати, працевлаштовувати;Das System beschäftigt sich derzeit mit der Indizierung der großen Datenbank.
+die Beschäftigung (Sg.);employment;зайнятість;Die Beschäftigung mit dem Thema Machine Learning erfordert viel mathematisches Verständnis.
+der Betrieb, -e;business, company;підприємство;Der Betrieb läuft nach dem Hardware-Upgrade wieder reibungslos.
+die Genehmigung, -en;permission, permit;дозвіл;Wir warten noch auf die offizielle Genehmigung der IT-Leitung für den Kauf der neuen Lizenzen.
+die Leiharbeit (Sg.);temporary work;тимчасова праця;Leiharbeit kann für IT-Freelancer eine gute Möglichkeit sein, verschiedene Unternehmen kennenzulernen.
+der Leiharbeiter, -;temporary worker;тимчасовий працівник;Der Leiharbeiter arbeitet als Systemadministrator in unserer Zweigstelle.
+die Leiharbeiterin, -nen;female temporary worker;тимчасова робітниця;Die Leiharbeiterin hilft uns bei der Bestandsaufnahme der Hardware.
+staatlich;state, public;державний;Das staatliche Amt für Cybersicherheit hat eine Warnung vor einem neuen Computervirus herausgegeben.
+die Tätigkeit, -en;activity, task;діяльність;Zu meinen täglichen Tätigkeiten gehört das Schreiben von Unit-Tests und das Bugtracking.
+einen Termin vereinbaren;to make an appointment;домовлятися про зустріч;Ich möchte einen Termin mit dem Product Owner vereinbaren, um die User Stories zu besprechen.
+verleihen;to lend;позичати, надавати;Das Rechenzentrum verleiht Rechenleistung an kleinere Startups.
+die Vermittlung, -en;placement, mediation;працевлаштування, посередництво;Die Vermittlung von IT-Fachkräften erfolgt oft über spezialisierte Headhunter-Agenturen.
+die Vermittlungsgebühr, -en;placement fee;комісія за працевлаштування;Die Firma zahlt eine hohe Vermittlungsgebühr für einen erfahrenen Softwarearchitekten.
+der Agraringenieur, -e;agricultural engineer;агроном-інженер;Der Agraringenieur nutzt Drohnen und IoT-Sensoren zur Optimierung der Bewässerung.
+die Agraringenieurin, -nen;female agricultural engineer;агрономка-інженерка;Die Agraringenieurin analysiert satellitengestützte Daten zur Bodenqualität am Computer.
+der Arbeitseinsatz, "-e;work assignment;використання робочої сили;Der Arbeitseinsatz der Entwickler wird über ein agiles Jira-Board gesteuert.
+der Bereich, -e;area, field;сфера, галузь;In welchem Bereich der Informatik möchtest du dich spezialisieren?
+die Bereitschaft (Sg.);readiness, willingness;готовність;Die Bereitschaft zur Wochenendarbeit ist bei kritischen Systemumstellungen notwendig.
+der Einsatzort, -e;place of assignment;місце роботи (відрядження);Mein aktueller Einsatzort ist das Headquarter der IT-Firma in San Francisco.
+examiniert;qualified, examined;дипломований;Wir suchen examiniertes Fachpersonal für die Wartung medizinischer IT-Systeme.
+das Familienunternehmen, -;family business;сімейне підприємство;Das mittelständische Familienunternehmen plant die Digitalisierung seiner gesamten Produktion.
+der Informatiker, -;IT specialist;інформатик;Der Informatiker optimiert den Algorithmus für eine schnellere Datenverarbeitung.
+die Informatikerin, -nen;female IT specialist;інформатиця;Die Informatikerin präsentiert die Ergebnisse ihrer Sicherheitsanalyse dem Vorstand.
+der Ingenieur, -e;engineer;інженер;Der Ingenieur entwickelt neue Hardwarekomponenten für Quantencomputer.
+die Ingenieurin, -nen;female engineer;інженерка;Die Ingenieurin leitet das Team für die Entwicklung autonomer Fahrzeugsoftware.
+innovativ;innovative;інноваційний;Unsere Firma bietet innovative Cloud-Lösungen für kleine und mittlere Unternehmen an.
+die Karrierechance, -n;career opportunity;шанс на кар'єру;Internationale Tech-Konzerne bieten hervorragende Karrierechancen für ehrgeizige Entwickler.
+die Kommunikationsfähigkeit, -en;communication skills;комунікабельність;Gute Kommunikationsfähigkeit ist bei der Zusammenarbeit in verteilten Teams unerlässlich.
+der Kundenservice (Sg.);customer service;служба підтримки клієнтів;Der Kundenservice wird durch einen KI-basierten Chatbot unterstützt.
+die Pflegekraft, "-e;caregiver, nurse;медпрацівник (з догляду);Die moderne Klinik verwendet digitale Tools, um die Pflegekraft bei der Dokumentation zu entlasten.
+der Pflegeservice (Sg.);care service;служба догляду;Ein digitaler Pflegeservice ermöglicht die Fernüberwachung von Patientendaten.
+der Sicherheitsmitarbeiter, -;security officer;співробітник безпеки;Der Sicherheitsmitarbeiter überwacht den physischen Zugang zum Serverraum.
+die Sicherheitsmitarbeiterin, -nen;female security officer;співробітниця безпеки;Die Sicherheitsmitarbeiterin weist alle externen Techniker in die Sicherheitsprotokolle ein.
+der Teamgeist (Sg.);team spirit;командний дух;Ein starker Teamgeist führt oft zu kreativeren Ansätzen in der Softwareentwicklung.
+die Verantwortung (Sg.);responsibility;відповідальність;Ein Chief Information Security Officer trägt eine enorme Verantwortung für den Datenschutz.
+der Verkäufer, -;salesman;продавець;Der Verkäufer erklärt dem Kunden die technischen Spezifikationen des neuen High-End-PCs.
+die Verkäuferin, -nen;female salesperson;продавчиня;Die Verkäuferin im Computerfachgeschäft empfiehlt eine externe Festplatte zur Datensicherung.
+die Verstärkung, -en;reinforcement, addition to the team;підкріплення, новий співробітник;Wir suchen dringend Verstärkung für unser Frontend-Team im Bereich React.
+die Zukunftsperspektive, -n;future prospect;перспектива на майнє;Die Arbeit im Bereich Cybersicherheit bietet eine exzellente Zukunftsperspektive.
+die Zusammenarbeit (Sg.);cooperation;співпраця;Die erfolgreiche Zusammenarbeit zwischen Designer und Entwickler ist entscheidend für das UI/UX Design.
+zuständig;responsible;відповідальний;Wer ist in eurem Team für die Code-Qualität zuständig?
+das Bauvorhaben, -;construction project;будівельний проект;Beim neuen Bauvorhaben wird auch ein modernes Glasfasernetz für das gesamte Bürogebäude verlegt.
+die Berufsausbildung, -en;vocational training;професійна освіта;Ich habe meine Berufsausbildung zum mathematisch-technischen Softwareentwickler abgeschlossen.
+der Einsatz, "-e;assignment, mission;виконання завдання;Der weltweite Einsatz unserer Software zeigt ihre hohe Skalierbarkeit.
+das Einverständnis, -se;consent, agreement;згода;Wir benötigen das Einverständnis des Nutzers für die Verarbeitung seiner personenbezogenen Daten.
+der Fachinformatiker, -;IT specialist;фахівець з інформатики;Als Fachinformatiker für Anwendungsentwicklung schreibe ich täglich Code in C#.
+die Fachinformatikerin, -nen;female IT specialist;фахівчиня з інформатики;Die Fachinformatikerin konfiguriert die Firewalls für das Firmennetzwerk.
+die Krankheitsvertretung, -en;sick leave cover;заміна на час хвороби;Er übernimmt kurzfristig die Krankheitsvertretung für den Lead-Architekten.
+der Realschulabschluss, "-e;secondary school certificate;атестат про закінчення реальної школи;Mit einem guten Realschulabschluss kann man eine Ausbildung zum IT-Systemkaufmann beginnen.
+die Urlaubsvertretung, -en;holiday replacement;заміна на час відпустки;Könntest du während meiner Abwesenheit meine Urlaubsvertretung für die Serverwartung machen?
+der Zeitraum, "-e;period of time;період часу;In dem Zeitraum zwischen 2:00 und 4:00 Uhr morgens finden Wartungsarbeiten am Netzwerk statt.
+auvorhaben, -;construction project;будівельний проект;Das neue Bauvorhaben beginnt im Sommer.
 die Berufsausbildung, -en;vocational training;професійна освіта;Nach der Schule beginnt er eine Berufsausbildung.
 der Einsatz, "-e;assignment, mission;виконання завдання;Der Einsatz dauert voraussichtlich einen Monat.
 das Einverständnis, -se;consent, agreement;згода;Wir brauchen Ihr Einverständnis für den Vertrag.

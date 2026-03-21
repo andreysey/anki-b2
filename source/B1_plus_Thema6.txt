@@ -1,73 +1,83 @@
 #separator:;
 #html:true
 #columns:German;English;Ukrainian;Example
-etw. aktivieren;to activate;активувати;Ich muss die neue SIM-Karte erst aktivieren.
-der Anbieter, -;provider;провайдер, постачальник;Wer ist dein Internet-Anbieter?
-die Anbieterin, -nen;female provider;провайдерка;Die Anbieterin bietet einen günstigen Tarif an.
-etw. auf|laden (lädt auf, lud auf, hat aufgeladen);to top up, to charge;заряджати, поповнювати (рахунок);Ich muss mein Handy-Guthaben aufladen.
-sich beraten lassen;to get advice;отримати консультацію;Ich lasse mich im Laden vom Experten beraten.
-sich beschweren;to complain;скаржитися;Der Kunde beschwert sich über das langsame Internet.
-die Bestellung, -en;order;замовлення;Ihre Bestellung wurde erfolgreich verschickt.
-das Datenvolumen, -;data volume;обсяг даних;Mein Tarif hat ein begrenztes Datenvolumen von 10 GB.
-etw. ein|geben (gibt ein, gab ein, hat eingegeben);to enter (data);вводити (дані);Bitte geben Sie Ihr Passwort ein.
-etw. ein|legen;to insert;вставляти;Sie müssen die SIM-Karte in das Handy einlegen.
-einmalig;one-time;одноразовий;Die Gebühr für die Aktivierung ist einmalig.
-der Einsteiger, -;beginner;початківець;Dieser Tarif ist perfekt für Einsteiger.
-die Einsteigerin, -nen;female beginner;початківиця;Die Einsteigerin lernt schnell, wie man die App nutzt.
-etw. entgegen|nehmen (nimmt entgegen, nahm entgegen, hat entgegengenommen);to receive, to accept;приймати;Der Mitarbeiter nimmt die Bestellung entgegen.
-das Festnetz (Sg.);landline;стаціонарна мережа;Ich nutze zu Hause nur noch selten das Festnetz.
-etw. frei|schalten;to unlock, to activate;активувати, розблокувати;Die Bank muss mein Konto für Online-Shopping freischalten.
-die Grundgebühr, -en;basic fee;абонентська плата;Die Grundgebühr für den Vertrag beträgt 20 Euro pro Monat.
-gültig;valid;дійсний;Mein Ausweis ist noch fünf Jahre gültig.
-günstig;cheap, favorable;вигідний, недешевий;Ich habe ein sehr günstiges Angebot gefunden.
-das Guthaben, -;credit;баланс (грошовий);Wie viel Guthaben habe ich noch auf meiner Prepaid-Karte?
-der Handwerker, -;craftsman, handyman;майстер;Der Handwerker kommt morgen, щоб відремонтувати кран.
-die Handwerkerin, -nen;female craftsman;майстриня;Die Handwerkerin installiert die neue Heizung.
-inklusive;inclusive;включно;Der Preis ist inklusive Versandkosten.
-die Kontrolle, -n;control;контроль;Die Kontrolle der Rechnungen dauert lange.
-der Lieferservice, -s;delivery service;служба доставки;Der Lieferservice bringt das Essen in 30 Minuten.
-das Netz, -e;network;мережа;In diesem Tunnel habe ich leider kein Netz.
-optimal;optimal;оптимальний;Diese Lösung ist optimal für unser Problem.
-profitieren von (+ Dat.);to profit from;отримувати вигоду;Wir profitieren von der neuen Technologie.
-etw. sperren;to block, to lock;блокувати;Ich musste meine Kreditkarte sperren lassen, weil ich sie verloren habe.
-der Tarif, -e;tariff;тариф;Welchen Tarif hast du für dein Handy gewählt?
-etw. verschicken;to send;відправляти;Ich verschicke das Paket noch heute.
-der Vertrag, "-e;contract;контракт, договір;Ich habe den neuen Arbeitsvertrag unterschrieben.
-die Vertragslaufzeit, -en;contract duration;термін дії договору;Die Vertragslaufzeit beträgt 24 Monate.
-etw. zu|stellen;to deliver;доставляти;Der Postbote konnte das Paket nicht zustellen.
-das Angebot, -e;offer;пропозиція;Das ist ein sehr attraktives Angebot.
-der Auftrag, "-e;order, assignment;замовлення, доручення;Die Firma hat einen großen Auftrag erhalten.
-der Ausdruck, -e;printout;роздруківка;Ich brauche einen Ausdruck der Rechnung.
-sich binden an (+ Akk.);to commit oneself to;зв'язувати себе зобов'язаннями;Mit diesem Vertrag bindet man sich für zwei Jahre an den Anbieter.
-brutto;gross;брутто (без вирахування податків);Wie hoch ist dein Bruttogehalt?
-einverstanden;agreed;згодний;Ich bin mit dem Vorschlag einverstanden.
-etw. empfehlen (empfiehlt, empfahl, hat empfohlen);to recommend;рекомендувати;Können Sie mir ein gutes Restaurant empfehlen?
-die Erledigung, -en;completion;виконання;Vielen Dank für die schnelle Erledigung meiner Anfrage.
-etw. erteilen (z.B. einen Auftrag);to grant, to give;надавати, видавати (доручення);Wir haben der Firma den Auftrag erteilt.
-der Grund, "-e;reason;причина;Was ist der Grund für deine Verspätung?
-die Mehrwertsteuer (Sg.);value added tax (VAT);ПДВ (податок на додану вартість);Der Preis enthält 19% Mehrwertsteuer.
-netto;net;нетто (після податків);Mein Nettogehalt reicht für die Miete.
-sorgfältig;carefully;ретельно;Bitte lesen Sie den Vertrag sorgfältig durch.
-die Summe, -n;sum, total;сума;Die Summe auf der Rechnung ist korrekt.
-die Unterschrift, -en;signature;підпис;Ich brauche hier unten Ihre Unterschrift.
-zahlbar;payable;до оплати;Der Betrag ist innerhalb von zehn Tagen zahlbar.
-zuverlässig;reliable;надійний;Er ist ein sehr zuverlässiger Mitarbeiter.
-der Ärger (Sg.);anger, trouble;неприємність, гнів;Ich hatte viel Ärger mit dem neuen Router.
-der Artikel, -;article;стаття, товар;Dieser Artikel ist leider ausverkauft.
-beschädigt;damaged;пошкоджений;Das Paket kam beschädigt bei mir an.
-die Beschwerde, -n;complaint;скарга;Ich möchte eine offizielle Beschwerde einreichen.
-defekt;defective;несправний;Mein Drucker ist leider defekt.
-dreckig;dirty;брудний;Der Monitor ist total dreckig.
-der Fleck, -en;stain;пляма;Auf dem Teppich ist ein großer Fleck.
-der Mangel, -;defect, lack;недолік;Das Auto hat einige technische Mängel.
-peinlich;embarrassing;соромно;Es war mir peinlich, що я забув пароль.
-die Reklamation, -en;reclamation, claim;рекламація, претензія;Die Reklamation wurde vom Händler akzeptiert.
-unvollständig;incomplete;неповний;Die Lieferung war leider unvollständig.
-der Vorschlag, "-e;suggestion;пропозиція;Hast du einen besseren Vorschlag?
-etw. zerbrechen (zerbricht, zerbrach, hat zerbrochen);to break;розбивати;Ich habe versehentlich eine Vase zerbrochen.
-etw. zerkratzen;to scratch;подряпати;Pass auf, dass du das Display nicht zerkratzt.
-etw. zerreißen (zerriss, hat zerrissen);to tear;розривати;Er hat den alten Vertrag zerrissen.
-jdn. ausreden lassen;to let someone finish speaking;давати комусь договорити;Bitte lass mich kurz ausreden.
+etw. aktivieren;to activate;активувати;Nach der Installation müssen Sie das Plugin im WordPress-Backend noch aktivieren.
+der Anbieter, -;provider;провайдер, постачальник;Welcher Anbieter hat derzeit die beste Performance für Cloud-Hosting?
+die Anbieterin, -nen;female provider;провайдерка;Die Anbieterin stellt uns eine dedizierte Leitung mit 10 Gbit/s zur Verfügung.
+etw. auf|laden (lädt auf, lud auf, hat aufgeladen);to top up, to charge;заряджати, поповнювати (рахунок);Ich muss den Akku meines Firmen-Laptops aufladen, bevor das Meeting beginnt.
+sich beraten lassen;to get advice;отримати консультацію;Wir lassen uns von einem Experten bezüglich der DSGVO-Konformität unserer App beraten.
+sich beschweren;to complain;скаржитися;Der Nutzer hat sich im Support-Forum über die langsame Ladezeit der Webseite beschwert.
+die Bestellung, -en;order;замовлення;Wir haben eine Bestellung für drei neue Workstations beim IT-Händler aufgegeben.
+das Datenvolumen, -;data volume;обсяг даних;Durch die Bildkompression konnten wir das übertragene Datenvolumen deutlich reduzieren.
+etw. ein|geben (gibt ein, gab ein, hat eingegeben);to enter (data);вводити (дані);Bitte geben Sie Ihren API-Key in das Konfigurationsfeld ein.
+etw. ein|legen;to insert;вставляти;Um den Server zu booten, müssen Sie zuerst den bootfähigen USB-Stick einlegen.
+einmalig;one-time;одноразовий;Die Kosten für die Software-Lizenz fallen nur einmalig an.
+der Einsteiger, -;beginner;початківець;Diese Programmiersprache ist auch für Einsteiger ohne Vorkenntnisse leicht zu erlernen.
+die Einsteigerin, -nen;female beginner;початківиця;Die Einsteigerin macht gerade ein Praktikum in der Frontend-Entwicklung.
+etw. entgegen|nehmen (nimmt entgegen, nahm entgegen, hat entgegengenommen);to receive, to accept;приймати;Der Webserver kann gleichzeitig Tausende von HTTP-Anfragen entgegennehmen.
+das Festnetz (Sg.);landline;стаціонарна мережа;In unserem Büro nutzen wir Voice-over-IP anstelle des klassischen Festnetzes.
+etw. frei|schalten;to unlock, to activate;активувати, розблокувати;Der Administrator kann deinen Zugang zum VPN-Server erst morgen freischalten.
+die Grundgebühr, -en;basic fee;абонентська плата;In der monatlichen Grundgebühr für unser CRM-System ist der E-Mail-Support bereits enthalten.
+gültig;valid;дійсний;Das SSL-Zertifikat für unsere Domain ist nur noch zwei Wochen gültig.
+günstig;cheap, favorable;вигідний, недешевий;Open-Source-Lösungen sind oft eine günstige Alternative zu teurer kommerzieller Software.
+das Guthaben, -;credit;баланс (грошовий);Ihr Guthaben für die Cloud-Ressourcen reicht noch für etwa drei Monate.
+der Handwerker, -;craftsman, handyman;майстер;In der Softwareentwicklung wird oft vom "Software-Craftsmanship" gesprochen, ähnlich wie beim klassischen Handwerker.
+die Handwerkerin, -nen;female craftsman;майстриня;Die IT-Spezialistin arbeitet wie eine Handwerkerin sehr präzise an der Systemarchitektur.
+inklusive;inclusive;включно;Das neue Update ist inklusive aller Sicherheits-Patches ab sofort verfügbar.
+die Kontrolle, -n;control;контроль;Die Versionskontrolle mit Git ist für professionelle Softwareentwicklung unerlässlich.
+der Lieferservice, -s;delivery service;служба доставки;Wir entwickeln eine API für einen internationalen Lieferservice.
+das Netz, -e;network;мережа;In unserem internen Netz sind alle Datenbanken durch eine dedizierte Firewall geschützt.
+optimal;optimal;оптимальний;Diese Datenbank-Struktur ist optimal für schnelle Lesezugriffe geeignet.
+profitieren von (+ Dat.);to profit from;отримувати вигоду;Unsere Anwendung profitiert stark von den neuen Funktionen des Frameworks.
+etw. sperren;to block, to lock;блокувати;Nach drei falschen Passworteingaben wird das Benutzerkonto automatisch für eine Stunde gesperrt.
+der Tarif, -e;tariff;тариф;Wir haben uns für den Enterprise-Tarif entschieden, um Zugriff auf alle Features zu erhalten.
+etw. verschicken;to send;відправляти;Das System kann automatisch Benachrichtigungen per Webhook verschicken.
+der Vertrag, "-e;contract;контракт, договір;Wir haben einen Wartungsvertrag mit dem Server-Anbieter abgeschlossen.
+die Vertragslaufzeit, -en;contract duration;термін дії договору;Die Vertragslaufzeit für unsere Cloud-Infrastruktur beträgt mindestens zwölf Monate.
+etw. zu|stellen;to deliver;доставляти;Die Push-Benachrichtigung konnte nicht an das Mobilgerät zugestellt werden.
+das Angebot, -e;offer;пропозиція;Das Angebot für das Redesign unserer Website war sehr überzeugend.
+der Auftrag, "-e;order, assignment;замовлення, доручення;Unser Team hat den Auftrag erhalten, eine neue E-Commerce-Plattform zu bauen.
+der Ausdruck, -e;printout;роздруківка;Ich benötige einen Ausdruck der API-Dokumentation für das Meeting.
+sich binden an (+ Akk.);to commit oneself to;зв'язувати себе зобов'язаннями;Durch den Lizenzvertrag binden wir uns langfristig an diesen Software-Anbieter.
+brutto;gross;брутто (без вирахування податків);Das Bruttogehalt für diese Senior-Entwickler-Stelle ist sehr attraktiv.
+einverstanden;agreed;згодний;Ich bin mit den vorgeschlagenen Änderungen am Code einverstanden.
+etw. empfehlen (empfiehlt, empfahl, hat empfohlen);to recommend;рекомендувати;Können Sie eine gute Bibliothek für die Einbindung von Diagrammen empfehlen?
+die Erledigung, -en;completion;виконання;Vielen Dank für die schnelle Erledigung des Bug-Reports.
+etw. erteilen (z.B. einen Auftrag);to grant, to give;надавати, видавати (доручення);Die Geschäftsführung wird heute die Freigabe für das Projekt erteilen.
+der Grund, "-e;reason;причина;Der Grund für den Systemausfall war eine Fehlkonfiguration des Load-Balancers.
+die Mehrwertsteuer (Sg.);value added tax (VAT);ПДВ (податок на додану вартість);Die Cloud-Gebühren werden monatlich zuzüglich der gesetzlichen Mehrwertsteuer abgerechnet.
+netto;net;нетто (після податків);In der Preisliste sind alle Beträge als Netto-Preise angegeben.
+sorgfältig;carefully;ретельно;Bitte prüfen Sie den Code sorgfältig auf mögliche Sicherheitslücken.
+die Summe, -n;sum, total;сума;Die Gesamtsumme der Lizenzen übersteigt leider unser geplantes Budget.
+die Unterschrift, -en;signature;підпис;Für die digitale Signatur wird keine physische Unterschrift mehr benötigt.
+zahlbar;payable;до оплати;Der Rechnungsbetrag für das Hosting ist sofort nach Rechnungsstellung zahlbar.
+zuverlässig;reliable;надійний;Dieser Backup-Dienst arbeitet sehr zuverlässig im Hintergrund.
+der Ärger (Sg.);anger, trouble;неприємність, гнів;Wir hatten viel Ärger mit dem instabilen WLAN-Router im Büro.
+der Artikel, -;article;стаття, товар;Ich habe einen interessanten Artikel über Microservices auf Medium gelesen.
+beschädigt;damaged;пошкоджений;Die Festplatte war beim Transport leider so stark beschädigt, dass kein Datenzugriff mehr möglich war.
+die Beschwerde, -n;complaint;скарга;Nach dem fehlerhaften Update gab es zahlreiche Beschwerden von unseren Nutzern.
+defekt;defective;несправний;Der Controller ist defekt und muss ausgetauscht werden.
+dreckig;dirty;брудний;Der Sensor der optischen Maus ist dreckig und muss gereinigt werden.
+der Fleck, -en;stain;пляма;Auf dem Gehäuse des neuen Servers ist ein kleiner Fleck, was aber die Funktion nicht beeinträchtigt.
+der Mangel, -;defect, lack;недолік;Die Dokumentation weist leider erhebliche Mängel auf.
+peinlich;embarrassing;соромно;Es war mir peinlich, dass ich den falschen Link in der E-Mail verschickt habe.
+die Reklamation, -en;reclamation, claim;рекламація, претензія;Die Reklamation der fehlerhaften Hardware wurde vom Support-Team sofort bearbeitet.
+unvollständig;incomplete;неповний;Die API-Antwort ist unvollständig, da das Timeout-Limit erreicht wurde.
+der Vorschlag, "-e;suggestion;пропозиція;Mein Vorschlag ist, die Datenbank-Abfragen mithilfe von Caching zu optimieren.
+etw. zerbrechen (zerbricht, zerbrach, hat zerbrochen);to break;розбивати;Vorsicht, das Glaspanel des Computergehäuses kann leicht zerbrechen.
+etw. zerkratzen;to scratch;подряпати;Verwenden Sie nur weiche Tücher, um das Display nicht zu zerkratzen.
+etw. zerreißen (zerriss, hat zerrissen);to tear;розривати;Der Systemadministrator hat das alte Fehlerprotokoll zerrissen.
+jdn. ausreden lassen;to let someone finish speaking;давати комусь договорити;Lass den Product Owner bitte ausreden, bevor du deine technischen Bedenken äußerst.
+die Bedeutung, -en;meaning;значення;Diese Fehlermeldung hat in diesem Kontext eine völlig neue Bedeutung.
+die Erwartung, -en;expectation;очікування;Die Performance der neuen Grafikkarte hat unsere Erwartungen weit übertroffen.
+etw. klären;to clarify;з'ясовувати;Wir müssen im nächsten Meeting klären, welches Framework wir für das Backend nutzen wollen.
+konkurrenzfähig;competitive;конкурентоспроможний;Um konkurrenzfähig zu bleiben, müssen wir die Ladezeit unserer App halbieren.
+sich etw. leisten können;to be able to afford;могти собі дозволити;Dank der neuen Finanzierung können wir uns zwei zusätzliche Senior-Entwickler leisten.
+einen Preisnachlass gewähren;to grant a discount;надавати знижку;Da wir eine große Menge an Lizenzen kaufen, gewährt uns der Anbieter einen Preisnachlass.
+treu bleiben;to stay loyal;залишатися вірним;Unsere Kunden bleiben unserem Service treu, weil wir regelmäßig neue Features liefern.
+unzufrieden;dissatisfied;незадоволений;Das Team ist unzufrieden mit der Qualität der aktuellen Dokumentation.
+vereinbart;agreed;узгоджений;Die API liefert die Daten nun im vereinbarten JSON-Format zurück.
+sich etw. vor|stellen;to imagine;уявляти;Können Sie sich vorstellen, das gesamte System auf eine Serverless-Architektur umzustellen?
 die Bedeutung, -en;meaning;значення;Dieses Wort hat mehrere Bedeutungen.
 die Erwartung, -en;expectation;очікування;Die neue Software hat meine Erwartungen erfüllt.
 etw. klären;to clarify;з'ясовувати;Wir müssen dieses Problem noch klären.

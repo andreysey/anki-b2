@@ -49,7 +49,7 @@ die Küchenhelferin, -nen	female kitchen assistant / кухонна помічн
 sich selbstständig machen	to go self-employed / почати власну справу
 die Selbstständigkeit (Sg.)	self-employment / самостійність, самозайнятість
 überlegen	to consider, to think about / обмірковувати
-Verantwortung tragen für (+ Akk.)	to bear responsibility / нести відповідальність
+Verantwortung tragen for (+ Akk.)	to bear responsibility / нести відповідальність
 etw. anerkennen lassen	to have something recognized / визнавати (напр. диплом)
 der Berufsabschluss, "-e	vocational qualification / професійна освіта
 die Berufsausbildung, -en	vocational training / професійна освіта
@@ -132,10 +132,20 @@ die Verantwortung (Sg.)	responsibility / відповідальність
 der Verkäufer, -	salesman / продавець
 die Verkäuferin, -nen	female salesperson / продавчиня
 die Verstärkung, -en	reinforcement, addition to the team / підкріплення, новий співробітник
-die Zukunftsperspektive, -n	future prospect / перспектива на майбутнє
+die Zukunftsperspektive, -n	future prospect / перспектива на майнє
 die Zusammenarbeit (Sg.)	cooperation / співпраця
 zuständig	responsible / відповідальний
 das Bauvorhaben, -	construction project / будівельний проект
+die Berufsausbildung, -en	vocational training / професійна освіта
+der Einsatz, "-e	assignment, mission / виконання завдання
+das Einverständnis, -se	consent, agreement / згода
+der Fachinformatiker, -	IT specialist / фахівець з інформатики
+die Fachinformatikerin, -nen	female IT specialist / фахівчиня з інформатики
+die Krankheitsvertretung, -en	sick leave cover / заміна на час хвороби
+der Realschulabschluss, "-e	secondary school certificate / атестат про закінчення реальної школи
+die Urlaubsvertretung, -en	holiday replacement / заміна на час відпустки
+der Zeitraum, "-e	period of time / період часу
+auvorhaben, -	construction project / будівельний проект
 die Berufsausbildung, -en	vocational training / професійна освіта
 der Einsatz, "-e	assignment, mission / виконання завдання
 das Einverständnis, -se	consent, agreement / згода
@@ -234,14 +244,14 @@ das Treffen, -	meeting / зустріч
 sich verspäten	to be late / запізнюватися
 das Wohlbefinden (Sg.)	well-being / самопочуття
 der Zeitdruck (Sg.)	time pressure / дефіцит часу
-die Abteilunskonferenz, -en	department conference / конференція відділу
+die Abteilungskonferenz, -en	department conference / конференція відділу
 sich ab|sprechen (mit + Dat.)	to coordinate (with someone) / домовлятися
 der Anspruch, "-e	claim, demand / претензія, вимога
 Anspruch haben auf (+ Akk.)	to have a right to / мати право на
 der Arbeitsweg, -e	commute / шлях на роботу
 die Arbeitszeit, -en	working time / робочий час
 das Arbeitszeitgesetz, -e	working time act / закон про робочий час
-die Betriebsruhe (Sg.)	company holidays / канікули на підприємстві
+die Betriebsruhe (Sg.)	company holidays / канікули auf підприємстві
 das EDV-System, -e	IT system / ІТ-система
 jdn. ein|weisen in (+ Akk.)	to instruct, to brief / інструктувати
 der Ersatzruhetag, -e	compensatory rest day / компенсаційний вихідний
@@ -432,6 +442,16 @@ treu bleiben	to stay loyal / залишатися вірним
 unzufrieden	dissatisfied / незадоволений
 vereinbart	agreed / узгоджений
 sich etw. vor|stellen	to imagine / уявляти
+die Bedeutung, -en	meaning / значення
+die Erwartung, -en	expectation / очікування
+etw. klären	to clarify / з'ясовувати
+konkurrenzfähig	competitive / конкурентоспроможний
+sich etw. leisten können	to be able to afford / могти собі дозволити
+einen Preisnachlass gewähren	to grant a discount / надавати знижку
+treu bleiben	to stay loyal / залишатися вірним
+unzufrieden	dissatisfied / незадоволений
+vereinbart	agreed / узгоджений
+sich etw. vor|stellen	to imagine / уявляти
 der Alltag (Sg.)	everyday life / будні, повсякденне життя
 der Anschluss, "-e	connection / підключення
 die Anwendungsmöglichkeit, -en	application possibility / можливість застосування
@@ -459,7 +479,7 @@ die Arbeit erleichtern	to make work easier / полегшувати роботу
 die Daten (Pl.)	data / дані
 Daten missbrauchen	to misuse data / зловживати даними
 nachteilig	disadvantageous / невигідний
-papierlos	paperless / безпаперовий
+papierlos	paperless / безпеперовий
 die sozialen Netzwerke	social networks / соціальні мережі
 speichern	to save / зберігати
 verzichten auf (+ Akk.)	to do without / відмовлятися від
@@ -488,6 +508,15 @@ die Zuverlässigkeit (Pl. selten)	reliability / надійність
 der Arbeitsablauf, "-e	workflow / робочий процес
 die Automatisierung (Sg.)	automation / автоматизація
 etw. ein|führen	to introduce / запроваджувати
+die Einführung, -en	introduction / запровадження
+etw. fern|steuern	to remote control / керувати дистанційно
+das Fließband, "-er	conveyor belt / конвеєр
+die Informationstechnologie, -n	information technology (IT) / інформаційні технології
+das Internet der Dinge (Sg.)	Internet of Things (IoT) / інтернет речей
+der Sprachassistent, -en	voice assistant / голосовий помічник
+die Vernetzung, -en	networking / мережування, поєднання
+vielfältig	diverse, manifold / різноманітний
+ntroduce	запроваджувати / Wir wollen ein neues System zur Zeiterfassung einführen.
 die Einführung, -en	introduction / запровадження
 etw. fern|steuern	to remote control / керувати дистанційно
 das Fließband, "-er	conveyor belt / конвеєр

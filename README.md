@@ -1,6 +1,6 @@
-# Anki & Quizlet German Vocabulary (B1+ & B2)
+# Anki & Quizlet German Vocabulary (B1+ & B2 Beruf)
 
-This repository contains professional thematic vocabulary files for Anki and Quizlet, covering Goethe-Zertifikat B1+ and B2 levels.
+This repository contains professional thematic vocabulary files for Anki and Quizlet, covering German B1+ and B2 levels specifically from a **B2 Beruf** course. Each entry includes German terms, English and Ukrainian translations, and German example sentences.
 
 ## Project Structure
 

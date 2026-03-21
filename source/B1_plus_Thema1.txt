@@ -1,72 +1,72 @@
 #separator:;
 #html:true
 #columns:German;English;Ukrainian;Example
-die Abteilung, -en;department;відділ;In dieser Firma gibt es eine große IT-Abteilung.
-der Arbeitgeber, -;employer;роботодавець;Mein neuer Arbeitgeber ist sehr freundlich.
-die Arbeitgeberin, -nen;female employer;роботодавиця;Die Arbeitgeberin hat mir einen Vertrag angeboten.
-das Asylverfahren, -;asylum procedure;процедура надання притулку;Das Asylverfahren kann mehrere Monate dauern.
-die Ausbildung, -en;apprenticeship, vocational training;професійне навчання;Ich mache eine Ausbildung zum Mechatroniker.
-auf|fallen (fällt auf, fiel auf, ist aufgefallen);to stand out, to be noticeable;впадати в око;Ihm ist sofort aufgefallen, dass etwas nicht stimmt.
-(eine Prüfung) bestehen;to pass (an exam);скласти (іспит);Ich habe die B2-Prüfung bestanden.
-das Berufsinformationszentrum (BIZ);career information center;центр профорієнтації;Im BIZ kann man sich über verschiedene Berufe informieren.
-der Betrieb, -e;company, business;підприємство;Der Betrieb stellt kleine Elektronikteile her.
-sich bewerben (bewirbt sich, bewarb sich, hat sich beworben);to apply;подавати заявку (на роботу);Ich bewerbe mich um eine Stelle als Informatiker.
-jdn. ein|stellen;to hire someone;наймати когось;Die Firma möchte zwei neue Mitarbeiter einstellen.
-das E-Learning (Sg.);e-learning;електронне навчання;Wir nutzen E-Learning für unsere Weiterbildung.
-der E-Learning-Kurs, -e;e-learning course;курс дистанційного навчання;Ich habe mich für einen E-Learning-Kurs angemeldet.
-der Facharbeiter, -;skilled worker;кваліфікований робітник;Er arbeitet seit fünf Jahren als Facharbeiter.
-die Facharbeiterin, -nen;female skilled worker;кваліфікована робітниця;Die Facharbeiterin repariert die Maschine.
-der Gabelstapler, -;forklift;навантажувач;Der Gabelstapler hebt die schweren Paletten.
-die Geschäftsführung, -en;management;керівництво;Die Geschäftsführung hat neue Ziele für das Jahr gesetzt.
-sich informieren über (+ Akk.);to inform oneself;інформуватися;Ich informiere mich über die neuesten Technologien.
-das Lager, -;warehouse, storage;склад;Die Pakete werden im Lager aufbewahrt.
-die Lagerlogistik (Sg.);warehouse logistics;складська логістика;Sie studiert Lagerlogistik an der Fachhochschule.
-der Mitarbeiter, -;employee;співробітник;Der Mitarbeiter hilft dem Kunden.
-die Mitarbeiterin, -nen;female employee;співробітниця;Die Mitarbeiterin schreibt eine E-Mail.
-jdm. etw. raten;to advise someone;радити комусь щось;Der Lehrer rat mir, fleißig zu lernen.
-der Schulabschluss, "-e;school-leaving certificate;шкільний атестат;Nach der zehnten Klasse machte er seinen Schulabschluss.
-steigen (stieg, ist gestiegen);to rise, to climb;підніматися, зростати;Die Zahl der Fachkräfte ist in diesem Jahr gestiegen.
-teil|nehmen an (+ Dat.);to participate in;брати участь;Ich nehme an einem Deutschkurs teil.
-der Umsatz, "-e;revenue, turnover;оборот, виручка;Der Umsatz der Firma ist gestiegen.
-die Umschulung, -en;retraining;перекваліфікація;Nach dem Unfall macht er eine Umschulung zum Informatiker.
-wahrscheinlich;probably;ймовірно;Er wird wahrscheinlich erst morgen kommen.
-die Weiterbildung, -en;further education;підвищення кваліфікації;Weiterbildung ist in der IT sehr wichtig.
-der Antrag, "-e;application, request;заява;Ich habe einen Antrag auf Arbeitserlaubnis gestellt.
-einen Antrag stellen;to submit an application;падавати заяву;Sie müssen für den Pass einen Antrag stellen.
-die Aufenthaltsgenehmigung, -en;residence permit;посвідка на проживання;Meine Aufenthaltsgenehmigung wurde verlängert.
-auf|wachsen (wächst auf, wuchs auf, ist aufgewachsen);to grow up;виростати;Ich bin in einer kleinen Stadt aufgewachsen.
-der Berater, -;advisor, counselor;консультант;Der Berater hilft mir bei der Jobsuche.
-die Beraterin, -nen;female advisor;консультантка;Die Beraterin ist sehr kompetent.
-jdn. beschäftigen;to employ someone;мати у штаті, займати когось;Die Firma beschäftigt über 100 Mitarbeiter.
-der Businessplan, "-e;business plan;бізнес-план;Für das Startup brauchen wir einen guten Businessplan.
-das Einkommen, -;income;дохід;Das monatliche Einkommen reicht für die Miete.
-die Entscheidung, -en;decision;рішення;Es war eine schwierige Entscheidung.
-eine Entscheidung treffen;to make a decision;приймати рішення;Wir müssen bis morgen eine Entscheidung treffen.
-die Existenzgründung, -en;founding of a business;заснування власної справи;Sie plant eine Existenzgründung im Bereich Grafikdesign.
-die Fortbildung, -en;advanced training;підвищення кваліфікації;Ich besuche eine Fortbildung für Projektmanagement.
-eine Fortbildung machen;to do a training;проходити курс підвищення кваліфікації;Er möchte eine Fortbildung im Bereich Marketing machen.
-(ein Unternehmen) gründen;to found (a company);засновувати (компанію);Mein Bruder möchte ein Unternehmen gründen.
-einen Kredit bewilligen;to approve a loan;надавати кредит;Die Bank hat den Kredit bewilligt.
-der Küchenhelfer, -;kitchen assistant;кухонний помічник;Er arbeitet als Küchenhelfer in einem Restaurant.
-die Küchenhelferin, -nen;female kitchen assistant;кухонна помічниця;Die Küchenhelferin hilft beim Schneiden des Gemüses.
-sich selbstständig machen;to go self-employed;почати власну справу;Nach dem Kurs möchte ich mich selbstständig machen.
-die Selbstständigkeit (Sg.);self-employment;самостійність, самозайнятість;Die Selbstständigkeit bringt viel Freiheit, aber auch Risiko.
-überlegen;to consider, to think about;обмірковувати;Ich muss mir das noch einmal genau überlegen.
-Verantwortung tragen für (+ Akk.);to bear responsibility;нести відповідальність;Ein Teamleiter muss viel Verantwortung tragen.
-etw. anerkennen lassen;to have something recognized;визнавати (напр. диплом);Ich muss mein Diplom in Deutschland anerkennen lassen.
-der Berufsabschluss, "-e;vocational qualification;професійна освіта;Ohne Berufsabschluss ist es schwer, eine gute Stelle zu finden.
-die Berufsausbildung, -en;vocational training;професійна освіта;Die Berufsausbildung dauert meistens drei Jahre.
-etw. beschließen;to decide on, to resolve;вирішувати, постановити;Wir haben beschlossen, das Projekt am Montag zu starten.
-das Zeugnis, -se;report card, certificate;свідоцтво, атестат;Ich habe mein Zeugnis per Post bekommen.
-die Anerkennung, -en;recognition;визнання;Fachkräfte brauchen die Anerkennung ihrer Abschlüsse.
-das Anerkennungsverfahren, -;recognition process;процедура визнання;Das Anerkennungsverfahren für Ärzte ist kompliziert.
-die Arbeitserlaubnis, -se;work permit;дозвіл на роботу;Haben Sie schon Ihre Arbeitserlaubnis erhalten?
-die Fachkraft, "-e;specialist;спеціаліст;In Deutschland fehlen viele Fachkräfte im Handwerk.
-die Kompetenz, -en;competence, skill;компетенція, навичка;Er zeigt eine hohe soziale Kompetenz.
-Kosten übernehmen;to cover costs;брати на себе витрати;Die Versicherung wird die Kosten übernehmen.
-der Nachweis, -e;proof, evidence;доказ, підтвердження;Ich brauche einen Nachweis über meine Deutschkenntnisse.
-das Praktikum, Praktika;internship;практика;Ich mache im Sommer ein Praktikum bei Mercedes.
-die Qualifikation, -en;qualification;кваліфікація;Welche Qualifikationen bringen Sie für diesen Job mit?
-reglementiert;regulated;регламентований;Der Beruf des Arztes ist in Deutschland reglementiert.
-die Unterlage, -n;document;документ;Bitte senden Sie mir alle Unterlagen per E-Mail.
-etw. vergleichen mit (+ Dat.);to compare with;порівнювати;Man kann die beiden Programme nicht direkt vergleichen.
+die Abteilung, -en;department;відділ;Unsere IT-Abteilung kümmert sich um die gesamte Cloud-Infrastruktur.
+der Arbeitgeber, -;employer;роботодавець;Mein neuer Arbeitgeber bietet viele Remote-Work-Optionen für Softwareentwickler an.
+die Arbeitgeberin, -nen;female employer;роботодавиця;Die Arbeitgeberin investiert massiv in neue Technologien und Mitarbeiter-Schulungen.
+das Asylverfahren, -;asylum procedure;процедура надання притулку;Wir unterstützen geflüchtete IT-Spezialisten während ihres Asylverfahrens bei der Jobsuche.
+die Ausbildung, -en;apprenticeship, vocational training;професійне навчання;Ich mache eine Ausbildung zum Fachinformatiker für Systemintegration.
+auf|fallen (fällt auf, fiel auf, ist aufgefallen);to stand out, to be noticeable;впадати в око;Im Code-Review ist mir sofort aufgefallen, dass eine Sicherheitslücke besteht.
+(eine Prüfung) bestehen;to pass (an exam);скласти (іспит);Er hat die Zertifizierungsprüfung zum AWS Certified Solutions Architect bestanden.
+das Berufsinformationszentrum (BIZ);career information center;центр профорієнтації;Im BIZ gibt es spezielle Beratungen für Quereinsteiger in die IT-Branche.
+der Betrieb, -e;company, business;підприємство;Unser Betrieb hat vor kurzem auf eine Microservices-Architektur umgestellt.
+sich bewerben (bewirbt sich, bewarb sich, hat sich beworben);to apply;подавати заявку (на роботу);Ich bewerbe mich um die Stelle als Senior Java Developer bei diesem Startup.
+jdn. ein|stellen;to hire someone;наймати когось;Wir möchten diesen Monat drei neue Backend-Entwickler einstellen.
+das E-Learning (Sg.);e-learning;електронне навчання;E-Learning-Plattformen wie Coursera sind ideal, um neue Programmiersprachen zu lernen.
+der E-Learning-Kurs, -e;e-learning course;курс дистанційного навчання;Ich belege einen E-Learning-Kurs zum Thema "Deep Learning mit Python".
+der Facharbeiter, -;skilled worker;кваліфікований робітник;In der Halbleiterfertigung werden hochqualifizierte Facharbeiter benötigt.
+die Facharbeiterin, -nen;female skilled worker;кваліфікована робітниця;Die Facharbeiterin überwacht den automatisierten Produktionsprozess des Serverboards.
+der Gabelstapler, -;forklift;навантажувач;Wir programmieren die Software für die automatische Steuerung der Gabelstapler im Logistikzentrum.
+die Geschäftsführung, -en;management;керівництво;Die Geschäftsführung hat das Budget für die Cybersicherheit verdoppelt.
+sich informieren über (+ Akk.);to inform oneself;інформуватися;Ich informiere mich täglich über die neuesten Frameworks und Bibliotheken.
+das Lager, -;warehouse, storage;склад;Das digitale Lager verwaltet Tausende von Hardware-Komponenten für unser Rechenzentrum.
+die Lagerlogistik (Sg.);warehouse logistics;складська логістика;Ein effizientes ERP-System optimiert die gesamte Lagerlogistik des Hardware-Händlers.
+der Mitarbeiter, -;employee;співробітник;Jeder Mitarbeiter erhält einen leistungsstarken Laptop für die Softwareentwicklung.
+die Mitarbeiterin, -nen;female employee;співробітниця;Die Mitarbeiterin ist für das Deployment der neuen App-Version verantwortlich.
+jdm. etw. raten;to advise someone;радити комусь щось;Der Senior-Entwickler riet mir, Python als erste Programmiersprache zu lernen.
+der Schulabschluss, "-e;school-leaving certificate;шкільний атестат;Nach meinem Schulabschluss möchte ich Informatik an einer Technischen Universität studieren.
+steigen (stieg, ist gestiegen);to rise, to climb;підніматися, зростати;Die Nachfrage nach Sicherheitsexperten ist in den letzten Jahren stark gestiegen.
+teil|nehmen an (+ Dat.);to participate in;брати участь;Nächste Woche nehme ich an einem Hackathon in Berlin teil.
+der Umsatz, "-e;revenue, turnover;оборот, виручка;Der Umsatz unseres Software-as-a-Service-Produkts hat sich dieses Jahr verdofft.
+die Umschulung, -en;retraining;перекваліфікація;Nach meiner Karriere im Marketing mache ich eine Umschulung zum Webentwickler.
+wahrscheinlich;probably;ймовірно;Die Migration zur neuen Datenbank wird wahrscheinlich das ganze Wochenende dauern.
+die Weiterbildung, -en;further education;підвищення кваліфікації;In der IT-Welt ist kontinuierliche Weiterbildung die Basis für beruflichen Erfolg.
+der Antrag, "-e;application, request;заява;Ich habe einen Antrag auf Zugriffsberechtigung für den Produktionsserver gestellt.
+einen Antrag stellen;to submit an application;падавати заяву;Sie müssen einen Antrag stellen, um das neue Grafiktablett aus dem IT-Bestand zu erhalten.
+die Aufenthaltsgenehmigung, -en;residence permit;посвідка на проживання;Für das Visum als Blue-Card-Inhaber benötige ich eine gültige Aufenthaltsgenehmigung.
+auf|wachsen (wächst auf, wuchs auf, ist aufgewachsen);to grow up;виростати;Er ist im Silicon Valley aufgewachsen und hat schon früh mit dem Programmieren begonnen.
+der Berater, -;advisor, counselor;консультант;Der externe IT-Berater analysiert unsere aktuelle Netzwerkstruktur.
+die Beraterin, -nen;female advisor;консультантка;Die SAP-Beraterin hilft uns bei der Implementierung des neuen Moduls.
+jdn. beschäftigen;to employ someone;мати у штаті, займати когось;Unser Unternehmen beschäftigt weltweit über 500 Softwarearchitekten.
+der Businessplan, "-e;business plan;бізнес-план;Bevor wir Investoren für unsere App suchen, brauchen wir einen soliden Businessplan.
+das Einkommen, -;income;дохід;Das Einkommen als Freelancer in der Softwareentwicklung variiert je nach Projektlage.
+die Entscheidung, -en;decision;рішення;Die Entscheidung, auf Rust umzusteigen, war für die Performance der App entscheidend.
+eine Entscheidung treffen;to make a decision;приймати рішення;Das Management muss endlich eine Entscheidung bezüglich des Cloud-Providers treffen.
+die Existenzgründung, -en;founding of a business;заснування власної справи;Er plant eine Existenzgründung mit einer innovativen KI-Lösung für den E-Commerce.
+die Fortbildung, -en;advanced training;підвищення кваліфікації;Nächsten Monat besuche ich eine Fortbildung zum Thema Containerisierung mit Docker.
+eine Fortbildung machen;to do a training;проходити курс підвищення кваліфікації;Ich möchte eine Fortbildung machen, um mich auf IT-Sicherheit zu spezialisieren.
+(ein Unternehmen) gründen;to found (a company);засновувати (компанію);Sie möchten ein Startup gründen, das Blockchain-Technologie für Lieferketten nutzt.
+einen Kredit bewilligen;to approve a loan;надавати кредит;Die Bank hat den Kredit für die neue Hardware-Ausstattung bewilligt.
+der Küchenhelfer, -;kitchen assistant;кухонний помічник;In unserer Kantine nutzt der Küchenhelfer ein Tablet, um die Bestellungen zu verwalten.
+die Küchenhelferin, -nen;female kitchen assistant;кухонна помічниця;Die Küchenhelferin scannt den QR-Code auf der App des Gastes.
+sich selbstständig machen;to go self-employed;почати власну справу;Nach zehn Jahren Festanstellung möchte ich mich als IT-Consultant selbstständig machen.
+die Selbstständigkeit (Sg.);self-employment;самостійність, самозайнятість;Die Selbstständigkeit erfordert gute Kenntnisse in Projektmanagement und Buchhaltung.
+überlegen;to consider, to think about;обмірковувати;Wir überlegen, ob wir die gesamte Backend-Infrastruktur auf Serverless umstellen.
+Verantwortung tragen for (+ Akk.);to bear responsibility;нести відповідальність;Als CTO trage ich die Verantwortung für alle technischen Entscheidungen im Unternehmen.
+etw. anerkennen lassen;to have something recognized;визнавати (напр. диплом);Ich muss meine ausländischen IT-Zertifikate in Deutschland anerkennen lassen.
+der Berufsabschluss, "-e;vocational qualification;професійна освіта;Ein staatlich anerkannter Berufsabschluss ist oft Voraussetzung für eine Anstellung im öffentlichen Dienst.
+die Berufsausbildung, -en;vocational training;професійна освіта;Während meiner Berufsausbildung habe ich verschiedene Programmiersprachen gelernt.
+etw. beschließen;to decide on, to resolve;вирішувати, постановити;Wir haben beschlossen, das nächste Projekt mit der agilen Scrum-Methode umzusetzen.
+das Zeugnis, -se;report card, certificate;свідоцтво, атестат;Ich habe mein Arbeitszeugnis als PDF für die Bewerbung hochgeladen.
+die Anerkennung, -en;recognition;визнання;Die Anerkennung meiner Masterurkunde war für das Visum als Fachkraft notwendig.
+das Anerkennungsverfahren, -;recognition process;процедура визнання;Das Anerkennungsverfahren kann online über das Portal der IHK verfolgt werden.
+die Arbeitserlaubnis, -se;work permit;дозвіл на роботу;Ohne eine gültige Arbeitserlaubnis darf man in Deutschland nicht als Entwickler arbeiten.
+die Fachkraft, "-e;specialist;спеціаліст;In Deutschland herrscht ein großer Mangel an Fachkräften im Bereich Cybersicherheit.
+die Kompetenz, -en;competence, skill;компетенція, навичка;Problemlösungskompetenz ist eine der wichtigsten Eigenschaften eines Programmierers.
+Kosten übernehmen;to cover costs;брати на себе витрати;Mein Arbeitgeber wird die Kosten für die Microsoft-Zertifizierung übernehmen.
+der Nachweis, -e;proof, evidence;доказ, підтвердження;Als Nachweis meiner Erfahrung habe ich mein GitHub-Portfolio im Lebenslauf verlinkt.
+das Praktikum, Praktika;internship;практика;Ich mache ein dreimonatiges Praktikum in der Qualitätssicherung eines Softwarehauses.
+die Qualifikation, -en;qualification;кваліфікація;Welche zusätzlichen Qualifikationen werden für die Stelle als Cloud-Engineer gefordert?
+reglementiert;regulated;регламентований;Der Beruf des Softwareentwicklers ist in Deutschland glücklicherweise nicht reglementiert.
+die Unterlage, -n;document;документ;Bitte laden Sie alle relevanten Unterlagen in das Bewerberportal hoch.
+etw. vergleichen mit (+ Dat.);to compare with;порівнювати;Wir müssen die Performance der verschiedenen Datenbanken miteinander vergleichen.

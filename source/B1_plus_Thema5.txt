@@ -1,74 +1,74 @@
 #separator:;
 #html:true
 #columns:German;English;Ukrainian;Example
-abhängig sein von (+ Dat.);to be dependent on;бути залежним від;Die Firma ist von ausländischen Chips abhängig.
-die Beratung, -en;advice, consulting;консультація;Eine gute Beratung ist vor dem Kauf wichtig.
-Geld ausgeben für (+ Akk.);to spend money on;витрачати гроші на;Ich gebe nicht gerne viel Geld für Kleidung aus.
-die Lieferzeit, -en;delivery time;час доставки;Die Lieferzeit beträgt drei bis fünf Werktage.
-die Öffnungszeit, -en;opening time;години роботи;Wie sind die Öffnungszeiten am Samstag?
-der Online-Einkauf, "-e;online shopping;онлайн-покупки;Der Online-Einkauf ist sehr bequem.
-die Qualität, -en;quality;якість;Wir legen großen Wert auf die Qualität der Software.
-vorsichtig;careful;обережний;Sei vorsichtig mit den neuen Servern!
-die Ware, -n;goods, merchandise;товар;Die Ware wird morgen geliefert.
-der Absatz, "-e;sales, turnover;збут, продажі;Der Absatz der E-Autos ist gestiegen.
-die (technische) Anlage, -n;technical system / equipment;технічна установка;Die technische Anlage muss regelmäßig gewartet werden.
-eine Anlage warten;to maintain a system;обслуговувати установку;Der Techniker kommt, um die Anlage zu warten.
-jdn./etw. beobachten;to observe;спостерігати;Wir beobachten das Verhalten der Nutzer genau.
-der Einzelhandel (Sg.);retail;роздрібна торгівля;Der Einzelhandel leidet unter der Konkurrenz.
-der Endkunde, -n;end customer;кінцевий споживач;Wir liefern die Ware direkt an den Endkunden.
-die Endkundin, -nen;female end customer;кінцева споживачка;Die Endkundin ist mit dem Service zufrieden.
-etw. entwickeln;to develop;розробляти;Wir entwickeln eine neue App für den Handel.
-die Forschung und Entwicklung (Sg.);research and development (R&D);дослідження та розробка;Er arbeitet in der Abteilung für Forschung und Entwicklung.
-der Großhandel (Sg.);wholesale;гуртова торгівля;Der Großhandel beliefert viele kleine Geschäfte.
-der Handel (Sg.);trade, commerce;торгівля;Der Handel zwischen den Ländern wächst.
-her|stellen;to produce, to manufacture;виробляти;Die Firma stellt Mikrochips her.
-die Herstellung (Sg.);manufacturing;виробництво;Die Herstellung ist sehr komplex.
-etw. liefern;to deliver;доставляти;Können Sie die Pizza bis 19 Uhr liefern?
-der Lieferschein, -e;delivery note;накладна;Unterschreiben Sie bitte den Lieferschein.
-Lieferscheine aus|stellen;to issue delivery notes;виписувати накладні;Der Lagerist muss die Lieferscheine ausstellen.
-die Lieferung, -en;delivery;доставка;Die Lieferung ist heute Morgen angekommen.
-der Markt, "-e;market;ринок;Wir müssen den Markt genau analysieren.
-das Maß, -e;measure, dimension;міра, розмір;Wir brauchen die genauen Maße für den Tisch.
-die Menge, -n;quantity, amount;кількість;Eine große Menge Daten muss verarbeitet werden.
-etw. montieren;to assemble, to install;монтувати;Wir müssen die neuen Monitore im Büro montieren.
-die Produktion, -en;production;виробництво;Die Produktion läuft rund um die Uhr.
-die Rechnung, -en;invoice, bill;рахунок;Bitte bezahlen Sie die Rechnung innerhalb von 14 Tagen.
-die Spedition, -en;shipping company;експедиторська компанія;Die Spedition liefert die Möbel morgen.
-der Transport, -e;transport;транспорт;Der Transport der Server war schwierig.
-die Verpackung, -en;packaging;упаковка;Die Verpackung ist beschädigt.
-der Versand (Sg.);shipping, dispatch;відправка;Der Versand erfolgt per DHL.
-der Vertrieb (Sg.);sales, distribution;відділ збуту;Der Vertrieb kümmert sich um neue Kunden.
-der Zwischenhändler, -;middleman, reseller;посередник;Händler kaufen oft beim Zwischenhändler.
-etw. analysieren;to analyze;аналізувати;Wir analysieren die Fehler-Logs.
-etw. bearbeiten;to process, to edit;обробляти;Ich muss den Bug im Code bearbeiten.
-jdn./etw. befördern;to promote, to transport;підвищувати (на посаді), перевозити;Er wurde zum Senior Developer befördert.
-jdn./etw. betreuen;to support, to manage;обслуговувати, супроводжувати;Das Team betreut die gesamte Infrastruktur.
-die Branche, -n;industry, sector;галузь;In der IT-Branche gibt es viele Jobs.
-etw. entwickeln;to develop;розробляти;Wir entwickeln innovative Lösungen.
-die Gastronomie (Sg.);gastronomy, catering;гастрономія;Er arbeitet in der Gastronomie.
-etw. gestalten;to design, to shape;оформляти, організовувати;Wir müssen das User Interface neu gestalten.
-das Handwerk (Sg.);craft, trade;ремесло;Gute Programmierung ist echtes Handwerk.
-die IT-Branche (Sg.);IT industry;ІТ-галузь;Die IT-Branche verändert sich schnell.
-etw. konstruieren;to construct, to design;конструювати;Er konstruiert ein neues Bauteil.
-etw. kontrollieren;to control, to check;контролювати;Bitte kontrollieren Sie den Code noch einmal.
-Kunden bedienen;to serve customers;обслуговувати клієнтів;Wir bedienen Kunden aus der ganzen Welt.
-der Kundenberater, -;customer advisor;консультант клієнтів;Der Kundenberater hilft bei Fragen.
-die Kundenberaterin, -nen;female customer advisor;консультантка клієнтів;Die Kundenberaterin ist sehr freundlich.
-das Labor, -e;laboratory;лабораторія;Die Hardware wird im Labor getestet.
-der Lagerist, -en;warehouse clerk;працівник складу;Der Lagerist sortiert die Pakete.
-die Lageristin, -nen;female warehouse clerk;працівниця складу;Die Lageristin führt die Inventur durch.
-der Tierpfleger, -;animal keeper;доглядач за тваринами;Der Tierpfleger füttert die Löwen.
-die Tierpflegerin, -nen;female animal keeper;доглядачка за тваринами;Die Tierpflegerin arbeitet im Zoo.
-Transport und Logistik (Sg.);transport and logistics;транспорт і логістика;Er arbeitet im Bereich Transport und Logistik.
-der Vertriebsweg, -e;distribution channel;канал збуту;Der Online-Shop ist unser wichtigster Vertriebsweg.
-Waren bestellen;to order goods;замовляти товари;Können Sie bitte neue Kabel bestellen?
-Wissenschaft und Forschung (Sg.);science and research;наука та дослідження;Geld fließt in Wissenschaft und Forschung.
-etw. zu|bereiten;to prepare (food);готувати (їжу);Er kann den Kaffee per App zubereiten.
-etw. zu|stellen;to deliver, to serve;доставляти;Der Paketbote muss die Sendung zustellen.
-die Bequemlichkeit, -en;convenience;зручність;Online-Shopping bietet viel Bequemlichkeit.
-der CO2-Ausstoß (Sg.);CO2 emission;викид CO2;Wir müssen den CO2-Ausstoß reduzieren.
-der Händler, -;dealer, vendor;торговець;Der Händler verkauft gebrauchte Laptops.
-die Händlerin, -nen;female dealer;торговка;Die Händlerin bietet Bio-Produkte an.
-die Lagerhalle, -n;warehouse;складська будівля;Die neue Lagerhalle ist riesig.
-die Online-Plattform, -en;online platform;онлайн-платформа;Wir bauen eine neue Online-Plattform.
-der Sonderwunsch, "-e;special request;особливе побажання;Haben Sie noch einen Sonderwunsch?
+abhängig sein von (+ Dat.);to be dependent on;бути залежним від;Der Erfolg des Deployments ist von der Stabilität der Datenbank abhängig.
+die Beratung, -en;advice, consulting;консультація;Wir bieten eine technische Beratung zur Migration auf eine Microservices-Architektur an.
+Geld ausgeben für (+ Akk.);to spend money on;витрачати гроші на;Unternehmen sollten mehr Geld für moderne IT-Sicherheit ausgeben.
+die Lieferzeit, -en;delivery time;час доставки;Die Lieferzeit für die neuen High-End-Grafikkarten beträgt momentan drei Wochen.
+die Öffnungszeit, -en;opening time;години роботи;Der IT-Support hat feste Öffnungszeiten, ist aber für Notfälle rund um die Uhr erreichbar.
+der Online-Einkauf, "-e;online shopping;онлайн-покупки;Wir haben das Backend für einen großen Online-Einkauf-Marktplatz entwickelt.
+die Qualität, -en;quality;якість;Die Qualität der Software wird durch kontinuierliche Code-Reviews sichergestellt.
+vorsichtig;careful;обережний;Sei vorsichtig, wenn du Änderungen direkt an der Produktions-Datenbank vornimmst!
+die Ware, -n;goods, merchandise;товар;Unsere Software verfolgt jede einzelne Ware im Lager in Echtzeit.
+der Absatz, "-e;sales, turnover;збут, продажі;Der Absatz unserer neuen Software-Lizenzen ist im letzten Quartal stark gestiegen.
+die (technische) Anlage, -n;technical system / equipment;технічна установка;Die gesamte technische Anlage des Rechenzentrums wird zentral überwacht.
+eine Anlage warten;to maintain a system;обслуговувати установку;Einmal im Monat muss ein Techniker die Klimaanlage im Serverraum warten.
+jdn./etw. beobachten;to observe;спостерігати;Wir beobachten die Server-Last genau, um Engpässe frühzeitig zu erkennen.
+der Einzelhandel (Sg.);retail;роздрібна торгівля;Der Einzelhandel nutzt immer mehr IT-Lösungen für das Bestandsmanagement.
+der Endkunde, -n;end customer;кінцевий споживач;Unsere App wird direkt vom Endkunden im App Store heruntergeladen.
+die Endkundin, -nen;female end customer;кінцева споживачка;Die Endkundin hat ein Ticket eröffnet, weil sie sich nicht einloggen kann.
+etw. entwickeln;to develop;розробляти;Wir entwickeln ein neues Framework für performante Webanwendungen.
+die Forschung und Entwicklung (Sg.);research and development (R&D);дослідження та розробка;Die Abteilung für Forschung und Entwicklung arbeitet an Quantencomputer-Algorithmen.
+der Großhandel (Sg.);wholesale;гуртова торгівля;Unser ERP-System optimiert die Lieferketten für den internationalen Großhandel.
+der Handel (Sg.);trade, commerce;торгівля;Der elektronische Handel erfordert eine sichere Zahlungsabwicklung.
+her|stellen;to produce, to manufacture;виробляти;Die Firma plant, ihre eigenen ARM-basierten Prozessoren herzustellen.
+die Herstellung (Sg.);manufacturing;виробництво;Die Herstellung von Halbleitern erfordert extrem saubere Umgebungen.
+etw. liefern;to deliver;доставляти;Der Paketbote wird die neuen Laptops heute Nachmittag liefern.
+der Lieferschein, -e;delivery note;накладна;Bitte scannen Sie den Lieferschein für die neue Hardware direkt ein.
+Lieferscheine aus|stellen;to issue delivery notes;виписувати накладні;Das System kann automatisch Lieferscheine als PDF-Datei ausstellen.
+die Lieferung, -en;delivery;доставка;Die Lieferung der neuen Server-Racks wurde für morgen bestätigt.
+der Markt, "-e;market;ринок;Wir müssen den Markt für Cloud-Computing-Dienste genau beobachten.
+das Maß, -e;measure, dimension;міра, розмір;Wir brauchen die genauen Maße der Switch-Gehäuse für den Einbau im Rack.
+die Menge, -n;quantity, amount;кількість;Eine riesige Menge an Daten wird täglich durch unsere KI verarbeitet.
+etw. montieren;to assemble, to install;монтувати;Wir müssen heute noch die neuen Access-Points im Büro montieren.
+die Produktion, -en;production;виробництво;Ein Softwarefehler führte zum kompletten Stillstand der Produktion.
+die Rechnung, -en;invoice, bill;рахунок;Die Rechnung für das Azure-Abonnement wird automatisch per Lastschrift bezahlt.
+die Spedition, -en;shipping company;експедиторська компанія;Die Spedition hat die Paletten mit der neuen Hardware am Hafen abgeholt.
+der Transport, -e;transport;транспорт;Der Transport verschlüsselter Daten muss über eine sichere Verbindung erfolgen.
+die Verpackung, -en;packaging;упаковка;Die Verpackung des neuen Macs ist sehr hochwertig und umweltfreundlich gestaltet.
+der Versand (Sg.);shipping, dispatch;відправка;Nach dem QA-Check erfolgt der Versand der Hardware an den Kunden.
+der Vertrieb (Sg.);sales, distribution;відділ збуту;Unser Vertrieb nutzt ein CRM-System zur Verwaltung der Kundenkontakte.
+der Zwischenhändler, -;middleman, reseller;посередник;Händler kaufen die Laptops oft bei einem spezialisierten IT-Zwischenhändler.
+etw. analysieren;to analyze;аналізувати;Wir müssen den Netzwerk-Traffic analysieren, um das Problem zu finden.
+etw. bearbeiten;to process, to edit;обробляти;Ich muss den Pull-Request meines Kollegen heute noch bearbeiten.
+jdn./etw. befördern;to promote, to transport;підвищувати (на посаді), перевозити;Er wurde zum Leiter der Softwareentwicklung befördert.
+jdn./etw. betreuen;to support, to manage;обслуговувати, супроводжувати;Unser Support-Team betreut Kunden bei technischen Problemen mit der App.
+die Branche, -n;industry, sector;галузь;In der Tech-Branche ist lebenslanges Lernen absolut notwendig.
+etw. entwickeln;to develop;розробляти;Wir entwickeln eine innovative Lösung zur automatischen Code-Generierung.
+die Gastronomie (Sg.);gastronomy, catering;гастрономія;Die Gastronomie nutzt immer häufiger digitale Kassensysteme mit Cloud-Anbindung.
+etw. gestalten;to design, to shape;оформляти, організовувати;Ein UX-Designer hilft uns dabei, die Website benutzerfreundlich zu gestalten.
+das Handwerk (Sg.);craft, trade;ремесло;Gutes Software-Engineering wird oft als modernes digitales Handwerk bezeichnet.
+die IT-Branche (Sg.);IT industry;ІТ-галузь;Die IT-Branche ist einer der wichtigsten Arbeitgeber in Deutschland.
+etw. konstruieren;to construct, to design;конструювати;Wir konstruieren ein neues Gehäuse für unsere IoT-Geräte.
+etw. kontrollieren;to control, to check;контролювати;Der Administrator muss die Zugriffsrechte der Benutzer regelmäßig kontrollieren.
+Kunden bedienen;to serve customers;обслуговувати клієнтів;Unsere Web-Server bedienen gleichzeitig Tausende von Anfragen pro Sekunde.
+der Kundenberater, -;customer advisor;консультант клієнтів;Der technische Kundenberater erklärt die Vorteile unserer API.
+die Kundenberaterin, -nen;female customer advisor;консультантка клієнтів;Die Kundenberaterin hat uns bei der Auswahl des passenden Hosting-Pakets geholfen.
+das Labor, -e;laboratory;лабораторія;Im Hardware-Labor werden neue Prozessoren unter Extrembedingungen getestet.
+der Lagerist, -en;warehouse clerk;працівник складу;Der Lagerist nutzt einen Handscanner, der direkt mit der Datenbank verbunden ist.
+die Lageristin, -nen;female warehouse clerk;працівниця складу;Die Lageristin aktualisiert den Bestand der Motherboards im System.
+der Tierpfleger, -;animal keeper;доглядач за тваринами;Der Tierpfleger nutzt ein Tablet, um die Vitalwerte der Zootiere digital zu erfassen.
+die Tierpflegerin, -nen;female animal keeper;доглядачка за тваринами;Die Tierpflegerin programmiert den Futterautomaten für die Aquarien.
+Transport und Logistik (Sg.);transport and logistics;транспорт і логістика;In den Bereichen Transport und Logistik spielt die Routenoptimierung durch KI eine große Rolle.
+der Vertriebsweg, -e;distribution channel;канал збуту;Der direkte Download über unsere Website ist unser effektivster Vertriebsweg.
+Waren bestellen;to order goods;замовляти товари;Wir müssen neue RAM-Riegel für das Server-Upgrade bestellen.
+Wissenschaft und Forschung (Sg.);science and research;наука та дослідження;Viel Geld aus der Tech-Branche fließt in moderne Wissenschaft und Forschung.
+etw. zu|bereiten;to prepare (food);готувати (їжу);Dank Smart-Home-Technik kann ich meinen Kaffee schon vom Computer aus zubereiten.
+etw. zu|stellen;to deliver, to serve;доставляти;Die E-Mail mit dem Bestätigungs-Code konnte leider nicht zugestellt werden.
+die Bequemlichkeit, -en;convenience;зручність;Viele Nutzer schätzen die Bequemlichkeit von Single-Sign-On-Verfahren.
+der CO2-Ausstoß (Sg.);CO2 emission;викид CO2;Der CO2-Ausstoß von großen Rechenzentren ist ein wichtiges Thema in der Green-IT.
+der Händler, -;dealer, vendor;торговець;Der autorisierte Händler bietet speziellen Support für unsere Firmen-Laptops an.
+die Händlerin, -nen;female dealer;торговка;Die Händlerin verkauft gebrauchte Netzwerk-Komponenten über eine Online-Plattform.
+die Lagerhalle, -n;warehouse;складська будівля;In der neuen Lagerhalle werden die Server-Racks für den Versand vorbereitet.
+die Online-Plattform, -en;online platform;онлайн-платформа;Wir entwickeln eine neue Online-Plattform für das Projektmanagement.
+der Sonderwunsch, "-e;special request;особливе побажання;Haben Sie bezüglich der Konfiguration Ihres neuen PCs noch einen Sonderwunsch?

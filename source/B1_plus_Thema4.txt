@@ -1,76 +1,76 @@
 #separator:;
 #html:true
 #columns:German;English;Ukrainian;Example
-sich etw. an|schauen;to look at something;подивитися на щось;Ich schaue mir die neue Webseite an.
-der Arbeitsalltag (Sg.);everyday work life;робочі будні;Der Arbeitsalltag war sehr anstrengend.
-die Arbeitsdichte (Sg.);work density;щільність роботи (навантаження);Die Arbeitsdichte ist in diesem Monat sehr hoch.
-das Arbeitsleben (Sg.);professional life;трудове життя;Das Arbeitsleben ist anders als das Studium.
-die Arbeitswelt (Sg.);working world;світ праці;Die Arbeitswelt ändert sich durch die KI.
-sich aus|wirken (auf + Akk.);to affect, to impact;впливати;Stress kann sich negativ на die Gesundheit auswirken.
-die Baustelle, -n;construction site;будівельний майданчик;Vor dem Büro ist eine große Baustelle.
-sich beeilen;to hurry;поспішати;Wir müssen uns beeilen, die Bahn kommt gleich.
-die Berufssparte, -n;professional sector;професійна галузь;Er arbeitet in einer modernen Berufssparte.
-der Beschäftigte, -n;employee;співробітник;Die Firma hat über tausend Beschäftigte.
-die Beschäftigte, -n;female employee;співробітниця;Sie ist eine langjährige Beschäftigte.
-die Beschleunigung, -en;acceleration;прискорення;Wir brauchen eine Beschleunigung der Prozesse.
-etw. bewältigen;to manage, to cope with;долати, справлятися;Gemeinsam können wir das Problem bewältigen.
-die Herausforderung, -en;challenge;виклик;Das neue Projekt є великим викликом.
-der Maurer, -;mason, bricklayer;муляр;Der Maurer baut eine neue Wand.
-die Maurerin, -nen;female mason;мулярка;Die Maurerin arbeitet auf der Baustelle.
-die Strecke, -n;distance, route;дистанція, шлях;Die Strecke nach Berlin ist sehr lang.
-auf der Strecke bleiben;to fall by the wayside;відстати, бути занедбаним;In der Krise bleiben viele kleine Firmen auf der Strecke.
-einen Termin ab|sagen;to cancel an appointment;скасувати зустріч;Ich muss den Termin leider absagen.
-das Treffen, -;meeting;зустріч;Das Treffen war sehr erfolgreich.
-sich verspäten;to be late;запізнюватися;Der Zug hat sich um zehn Minuten verspätet.
-das Wohlbefinden (Sg.);well-being;самопочуття;Gute Luft im Büro ist wichtig für das Wohlbefinden.
-der Zeitdruck (Sg.);time pressure;дефіцит часу;Wir arbeiten oft unter großem Zeitdruck.
-die Abteilunskonferenz, -en;department conference;конференція відділу;Heute findet eine Abteilunskonferenz statt.
-sich ab|sprechen (mit + Dat.);to coordinate (with someone);домовлятися;Ich muss mich mit meinem Team absprechen.
-der Anspruch, "-e;claim, demand;претензія, вимога;Deine Ansprüche sind sehr hoch.
-Anspruch haben auf (+ Akk.);to have a right to;мати право на;Mitarbeiter haben Anspruch auf 30 Tage Urlaub.
+sich etw. an|schauen;to look at something;подивитися на щось;Ich schaue mir die neue Dokumentation für das Framework an.
+der Arbeitsalltag (Sg.);everyday work life;робочі будні;Der Arbeitsalltag eines DevOps-Engineers wird stark von Automatisierung geprägt.
+die Arbeitsdichte (Sg.);work density;щільність роботи (навантаження);Die Arbeitsdichte ist während der Crunch-Phase vor dem Produkt-Launch extrem hoch.
+das Arbeitsleben (Sg.);professional life;трудове життя;Das Arbeitsleben in einem Tech-Startup unterscheidet sich stark von dem in einem Großkonzern.
+die Arbeitswelt (Sg.);working world;світ праці;Die moderne Arbeitswelt erfordert ständige Anpassung an neue Software-Tools.
+sich aus|wirken (auf + Akk.);to affect, to impact;впливати;Ein fehlerhaftes Update kann sich negativ auf die Systemstabilität auswirken.
+die Baustelle, -n;construction site;будівельний майданчик;Die Migration der Legacy-Daten ist derzeit unsere größte Baustelle im Projekt.
+sich beeilen;to hurry;поспішати;Wir müssen uns beeilen, den Hotfix vor dem nächsten Kunden-Meeting zu mergen.
+die Berufssparte, -n;professional sector;професійна галузь;Die IT-Sicherheit ist eine Berufssparte mit hervorragenden Zukunftsaussichten.
+der Beschäftigte, -n;employee;співробітник;Jeder Beschäftigte in der IT-Abteilung hat Zugriff auf das interne Wiki.
+die Beschäftigte, -n;female employee;співробітниця;Die Beschäftigte im QA-Team hat einen kritischen Fehler in der Benutzeroberfläche gefunden.
+die Beschleunigung, -en;acceleration;прискорення;Gute Indizes führen zur Beschleunigung komplexer SQL-Abfragen.
+etw. bewältigen;to manage, to cope with;долати, справлятися;Dank agiler Methoden konnten wir die hohen Anforderungen des Kunden bewältigen.
+die Herausforderung, -en;challenge;виклик;Die Skalierung der Datenbank für Millionen von Nutzern ist eine technische Herausforderung.
+der Maurer, -;mason, bricklayer;муляр;Wir entwickeln eine Software, die Maurer bei der Berechnung von Materialkosten unterstützt.
+die Maurerin, -nen;female mason;мулярка;Die Maurerin nutzt eine App auf dem Tablet, um die Baupläne in 3D zu betrachten.
+die Strecke, -n;distance, route;дистанція, шлях;Die Strecke für die Glasfaserverbindung zum neuen Rechenzentrum wurde bereits vermessen.
+auf der Strecke bleiben;to fall by the wayside;відстати, бути занедбаним;Ohne kontinuierliche Updates der Skills kann man in der IT schnell auf der Strecke bleiben.
+einen Termin ab|sagen;to cancel an appointment;скасувати зустріч;Ich muss den Termin für das Code-Review leider auf morgen verschieben.
+das Treffen, -;meeting;зустріч;Das Treffen mit den Stakeholdern war für die Priorisierung des Backlogs sehr wichtig.
+sich verspäten;to be late;запізнюватися;Das Deployment der neuen Version wird sich aufgrund technischer Probleme leider verspäten.
+das Wohlbefinden (Sg.);well-being;самопочуття;Ergonomische Stühle im Büro tragen wesentlich zum Wohlbefinden der Programmierer bei.
+der Zeitdruck (Sg.);time pressure;дефіцит часу;Unter großem Zeitdruck passieren beim Programmieren leider oft Flüchtigkeitsfehler.
+die Abteilungskonferenz, -en;department conference;конференція відділу;In der monatlichen Abteilungskonferenz stellt der CTO die neue Technik-Roadmap vor.
+sich ab|sprechen (mit + Dat.);to coordinate (with someone);домовлятися;Ich muss mich kurz mit dem Backend-Team bezüglich der API-Schnittstelle absprechen.
+der Anspruch, "-e;claim, demand;претензія, вимога;Der Anspruch an die Datensicherheit ist bei dieser Anwendung extrem hoch.
+Anspruch haben auf (+ Akk.);to have a right to;мати право на;Alle Mitarbeiter haben Anspruch auf eine moderne Hardware-Ausstattung mitsamt zwei Monitoren.
 der Arbeitsweg, -e;commute;шлях на роботу;Mein Arbeitsweg dauert eine halbe Stunde.
-die Arbeitszeit, -en;working time;робочий час;Meine Arbeitszeit beginnt um 9 Uhr.
-das Arbeitszeitgesetz, -e;working time act;закон про робочий час;Das Arbeitszeitgesetz regelt die Pausen.
-die Betriebsruhe (Sg.);company holidays;канікули на підприємстві;Zwischen Weihnachten und Neujahr ist Betriebsruhe.
-das EDV-System, -e;IT system;ІТ-система;Das neue EDV-System läuft stabil.
-jdn. ein|weisen in (+ Akk.);to instruct, to brief;інструктувати;Der Kollege weist mich in die Software ein.
-der Ersatzruhetag, -e;compensatory rest day;компенсаційний вихідний;Wenn man am Sonntag arbeitet, bekommt man einen Ersatzruhetag.
-etw. vor|schreiben;to prescribe, to mandate;приписувати, зобов'язувати;Das Gesetz schreibt vor, wie man Pausen macht.
-der Fall, "-e;case;випадок;In diesem Fall müssen wir den Chef anrufen.
-auf keinen Fall;in no case;ні в якому разі;Ich werde auf keinen Fall aufgeben.
-der Freizeitausgleich (Sg.);compensatory time off;компенсація вільного часу;Er hat Überstunden gemacht und bekommt Freizeitausgleich.
-der Mindesturlaub (Sg.);minimum leave;мінімальна відпустка;Der gesetzliche Mindesturlaub beträgt 20 Tage.
-die Pflicht, -en;duty;обов'язок;Es ist meine Pflicht, pünktlich zu sein.
-das Recht, -e;right, law;право;Jeder hat das Recht на eine Pause.
-Recht haben;to be right;мати рацію;Du hast Recht, das ist ein Fehler.
-die (gesetzliche) Regel, -n;legal rule;законне правило;Wir müssen die gesetzlichen Regeln befolgen.
-die Schichtarbeit (Sg.);shift work;позмінна робота;Im Krankenhaus є часто Schichtarbeit.
-die Teilzeitarbeit (Sg.);part-time work;неповна зайнятість;Viele Eltern machen Teilzeitarbeit.
-die Überstunde, -n;overtime;понаднормова година;Letzte Woche habe ich fünf Überstunden gemacht.
-der Urlaubstag, -e;vacation day;день відпустки;Ich habe noch zehn Urlaubstage übrig.
-die Urlaubszeit, -en;vacation time;час відпустки;Im Sommer ist die beliebteste Urlaubszeit.
-die Vollzeitarbeit (Sg.);full-time work;повна зайнятість;Er sucht eine Stelle für Vollzeitarbeit.
-die Wochenendarbeit, -en;weekend work;робота у вихідні;In der Gastronomie ist Wochenendarbeit normal.
-die Deadline, -s;deadline;дедлайн;Die Deadline für das Projekt ist am Freitag.
-das Drehbuch, "-er;script;сценарій;Er schreibt ein Drehbuch für einen Werbefilm.
-der Entwurf, "-e;draft;чернетка, проект;Der erste Entwurf der Webseite ist fertig.
-die Kampagne, -n;campaign;кампанія;Die neue Kampagne startet im Herbst.
-die Kosmetikserie, -n;cosmetics line;серія косметики;Wir bewerben eine neue Kosmetikserie.
-das Printmedium, -medien;print medium;друковане видання;Zeitschriften sind klassische Printmedien.
-relevant;relevant;важливий, релевантний;Diese Information ist für uns nicht relevant.
-der Senior Manager, -;senior manager;старший менеджер;Der Senior Manager leitet das Team.
-die Senior Managerin, -nen;female senior manager;старша менеджерка;Die Senior Managerin ist sehr erfahren.
-der Werbefilm, -e;commercial;рекламний ролик;Der Werbefilm wird im Fernsehen gezeigt.
-die Werbekampagne, -n;advertising campaign;рекламна кампанія;Die Werbekampagne war sehr teuer.
-die Abmahnung, -en;written warning;попередження (догана);Nach der zweiten Verspätung gab es eine Abмаhnung.
-das Arbeitsgericht, -e;labor court;трудовий суд;Der Fall geht vor das Arbeitsgericht.
-der Betriebsrat, "-e;works council;виробнича рада (профспілка);Wir müssen den Betriebsrat fragen.
-die Betriebsfeier, -n;company party;корпоратив;Die Betriebsfeier war sehr lustig.
-dokumentieren;to document;документувати;Wir müssen alle Meetings dokumentieren.
-der Heizungstechniker, -;heating technician;майстер з опалення;Der Heizungstechniker repariert die Anlage.
-die Heizungstechnikerin, -nen;female heating technician;майстриня з опалення;Die Heizungstechnikerin kommt morgen.
-die Hilfe, -n;help;допомога;Ich brauche Hilfe bei der App.
-um Hilfe bitten;to ask for help;просити про допомогу;Man sollte immer um Hilfe bitten, wenn man sie braucht.
-das Zuspätkommen (Sg.);being late;запізнення;Sein häufiges Zuspätkommen ist ein Problem.
-das Verständnis (Sg.);understanding;розуміння;Danke für Ihr Verständnis.
-verärgert sein über (+ Akk.);to be annoyed about;бути роздратованим через;Der Chef ist verärgert über die Verspätung.
+die Arbeitszeit, -en;working time;робочий час;In unserer IT-Firma gibt es flexible Arbeitszeit-Modelle und Vertrauensarbeitszeit.
+das Arbeitszeitgesetz, -e;working time act;закон про робочий час;Das Arbeitszeitgesetz schreibt zwingend eine Pause nach sechs Stunden Arbeit vor.
+die Betriebsruhe (Sg.);company holidays;канікули auf підприємстві;Während der Betriebsruhe werden wichtige Wartungsarbeiten am zentralen Server-Cluster durchgeführt.
+das EDV-System, -e;IT system;ІТ-система;Unser EDV-System wurde auf die neueste Version von SAP umgestellt.
+jdn. ein|weisen in (+ Akk.);to instruct, to brief;інструктувати;Der Senior-Admin wird dich heute in das Monitoring-System einweisen.
+der Ersatzruhetag, -e;compensatory rest day;компенсаційний вихідний;Wenn wir am Releasetag am Sonntag arbeiten, erhalten wir einen Ersatzruhetag in der Woche.
+etw. vor|schreiben;to prescribe, to mandate;приписувати, зобов'язувати;Die DSGVO schreibt vor, wie personenbezogene Daten in unserer SQL-Datenbank gespeichert werden müssen.
+der Fall, "-e;case;випадок;Im Falle eines Systemabsturzes ist sofort das On-Call-Team zu benachrichtigen.
+auf keinen Fall;in no case;ні в якому разі;Man sollte auf keinen Fall ungetesteten Code direkt in den Main-Branch mergen.
+der Freizeitausgleich (Sg.);compensatory time off;компенсація вільного часу;Für die Überstunden während der Migration bekomme ich nächste Woche Freizeitausgleich.
+der Mindesturlaub (Sg.);minimum leave;мінімальна відпустка;Der gesetzliche Mindesturlaub beträgt in Deutschland 20 Tage bei einer Fünf-Tage-Woche.
+die Pflicht, -en;duty;обов'язок;Es ist die Pflicht jedes Entwicklers, regelmäßig Backups seiner lokalen Repositorys zu machen.
+das Recht, -e;right, law;право;Der Administrator hat das Recht, Benutzerkonten bei Sicherheitsverstößen zu sperren.
+Recht haben;to be right;мати рацію;Du hast Recht, wir sollten für das neue Projekt lieber Python anstatt Java verwenden.
+die (gesetzliche) Regel, -n;legal rule;законне правило;Wir müssen die gesetzlichen Regeln zum Datenschutz strikt befolgen.
+die Schichtarbeit (Sg.);shift work;позмінна робота;Im 24/7-Support ist Schichtarbeit leider unvermeidlich.
+die Teilzeitarbeit (Sg.);part-time work;неповна зайнятість;Teilzeitarbeit ist auch für erfahrene Softwarearchitekten eine gute Option.
+die Überstunde, -n;overtime;понаднормова година;Wegen des kritischen Bugs mussten wir gestern drei Überstunden machen.
+der Urlaubstag, -e;vacation day;день відпустки;Ich habe für die Gamescom-Messe extra zwei Urlaubstage genommen.
+die Urlaubszeit, -en;vacation time;час відпустки;In der Urlaubszeit ist die Besetzung im Support-Team oft etwas dünner.
+die Vollzeitarbeit (Sg.);full-time work;повна зайнятість;Nach dem Studium fange ich direkt eine Vollzeitarbeit als Frontend-Entwickler an.
+die Wochenendarbeit, -en;weekend work;робота у вихідні;Große Datenbank-Upgrades werden oft als Wochenendarbeit durchgeführt, um den Betrieb nicht zu stören.
+die Deadline, -s;deadline;дедлайн;Wir müssen hart arbeiten, um die Deadline für den nächsten Sprint einzuhalten.
+das Drehbuch, "-er;script;сценарій;Das Drehbuch für das neue Erklärvideo zur Software-Installation ist fertig.
+der Entwurf, "-e;draft;чернетка, проект;Der erste Entwurf des Datenbank-Schemas muss noch vom Senior-Developer geprüft werden.
+die Kampagne, -n;campaign;кампанія;Unsere Marketing-Abteilung plant eine große Kampagne für das neue SaaS-Produkt.
+die Kosmetikserie, -n;cosmetics line;серія косметики;Wir entwickeln einen intelligenten Onlineshop für eine neue Kosmetikserie.
+das Printmedium, -medien;print medium;друковане видання;In diesem Printmedium wurde ein Artikel über unsere innovative App veröffentlicht.
+relevant;relevant;важливий, релевантний;Diese Bibliotheken sind für unser aktuelles Projekt nicht relevant.
+der Senior Manager, -;senior manager;старший менеджер;Der Senior Manager für Cloud-Operations hat das neue Sicherheitskonzept genehmigt.
+die Senior Managerin, -nen;female senior manager;старша менеджерка;Die Senior Managerin bespricht mit uns die Quartalsziele für die Softwareentwicklung.
+der Werbefilm, -e;commercial;рекламний ролик;Der Werbefilm für unsere mobile Anwendung wird auf YouTube geschaltet.
+die Werbekampagne, -n;advertising campaign;рекламна кампанія;Unsere neue Werbekampagne konzentriert sich auf die Vorteile von Open-Source-Software.
+die Abmahnung, -en;written warning;попередження (догана);Eine Abmahnung wegen Verletzung der IT-Sicherheitsrichtlinien ist sehr ernst zu nehmen.
+das Arbeitsgericht, -e;labor court;трудовий суд;Der Streit um die Überstundenvergütung wird nun vor dem Arbeitsgericht geklärt.
+der Betriebsrat, "-e;works council;виробнича рада (профспілка);Der Betriebsrat hat der Einführung der neuen Remote-Monitoring-Software zugestimmt.
+die Betriebsfeier, -n;company party;корпоратив;Auf der Betriebsfeier haben wir den erfolgreichen Release unserer Plattform gefeiert.
+dokumentieren;to document;документувати;Gute Entwickler dokumentieren ihren Code immer sorgfältig in Javadoc oder Swagger.
+der Heizungstechniker, -;heating technician;майстер з опалення;Der Heizungstechniker wartet auch die Klimaanlage in unserem Serverraum.
+die Heizungstechnikerin, -nen;female heating technician;майстриня з опалення;Die Heizungstechnikerin hat die Temperaturfühler in der IT-Abteilung ausgetauscht.
+die Hilfe, -n;help;допомога;Ich benötige Hilfe beim Konfigurieren des lokalen Kubernetes-Clusters.
+um Hilfe bitten;to ask for help;просити про допомогу;Bei komplexen Architekturfragen sollte man immer das Core-Team um Hilfe bitten.
+das Zuspätkommen (Sg.);being late;запізнення;Sein häufiges Zuspätkommen zu den Daily Scrums sorgt für Ärger im Team.
+das Verständnis (Sg.);understanding;розуміння;Danke für Ihr Verständnis bezüglich der kurzen Downtime heute Morgen.
+verärgert sein über (+ Akk.);to be annoyed about;бути роздратованим через;Der Product Owner ist verärgert über die mangelnde Code-Qualität.
