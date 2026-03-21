@@ -1,0 +1,142 @@
+#separator:;
+#html:true
+#columns:German;English;Ukrainian;Example
+die Anweisung, -en;instruction, directive;інструкція, вказівка;Bitte folgen Sie der Anweisung im Readme-File für die Installation.
+das Ersatzfahrzeug, -e;replacement vehicle;підмінний автомобіль;Während mein Firmenwagen in der Werkstatt ist, nutze ich ein Ersatzfahrzeug.
+das Ersatzteil, -e;spare part;запасна частина;Wir brauchen dringend ein Ersatzteil für den defekten Server im Rack.
+das Fahrzeug, -e;vehicle;транспортний засіб;Ein autonomes Fahrzeug wird durch komplexe KI-Algorithmen gesteuert.
+der Gebrauchtwagen, -;used car;вживаний автомобіль;Der IT-Consultant kauft sich einen Gebrauchtwagen für die Fahrten zum Kunden.
+die Gehaltsabrechnung, -en;payslip, salary statement;розрахунковий листок (по зарплаті);Die HR-Abteilung schickt mir jeden Monat meine Gehaltsabrechnung per E-Mail.
+die Inspektion, -en;inspection, maintenance;огляд, техогляд;Das Backup-System muss einmal im Jahr zur technischen Inspektion.
+jdn. kontaktieren;to contact sb.;зв'язуватися з кимось;Wenn der Server offline ist, müssen Sie sofort den IT-Support kontaktieren.
+der Kundenservice (Sg.);customer service;служба підтримки клієнтів;Unser Software-Unternehmen hat einen exzellenten 24/7 Kundenservice.
+etw. lackieren;to paint, to varnish;фарбувати, лакувати;Wir lassen die Gehäuse der neuen Hardware in unseren Firmenfarben lackieren.
+der Liefertermin, -e;delivery date;дата доставки;Der Liefertermin für die neuen Monitore hat sich leider verschoben.
+die Lieferverzögerung, -en;delivery delay;затримка доставки;Wegen einer Lieferverzögerung können wir das Netzwerk noch nicht aufbauen.
+der Montagetermin, -e;assembly/installation appointment;дата монтажу / встановлення;Der Techniker hat einen Montagetermin für den neuen Router gebucht.
+der Neuwagen, -;new car;новий автомобіль;Als Teamlead bekommt er einen Neuwagen als Firmenauto.
+preisgünstig;reasonably priced, cheap;недорогий, вигідний;Wir nutzen einen preisgünstigen Cloud-Anbieter für unsere Test-Umgebungen.
+das Reifenlager, -;tire storage;склад шин;Die Winterreifen der Firmenautos liegen im Reifenlager.
+der Reparaturauftrag, "-e;repair order;замовлення на ремонт;Ich habe einen Reparaturauftrag für meinen defekten Firmen-Laptop erstellt.
+der Sommerreifen, -;summer tire;літня шина;Im April wechseln wir am Dienstwagen auf Sommerreifen.
+verhandeln;to negotiate;вести переговори;Wir müssen mit dem Cloud-Provider über den Preis verhandeln.
+vermitteln;to mediate, to convey;посередничати, передавати;Eine REST-API vermittelt die Daten zwischen Frontend und Backend.
+der Vertriebsleiter, - / die Vertriebsleiterin, -nen;sales manager;керівник відділу продажів;Der Vertriebsleiter präsentiert dem Kunden unser neues CRM-System.
+vorgehen (geht vor, ging vor, ist vorgegangen);to proceed, to act;діяти, чинити;Wie sollen wir bei diesem kritischen Bug im System vorgehen?
+der Wagenpark, -s;vehicle fleet;автопарк;Die Firma stellt ihren Wagenpark komplett auf Elektroautos um.
+das Werbegeschenk, -e;promotional gift;рекламний подарунок;Auf der IT-Messe haben wir viele Powerbanks als Werbegeschenk verteilt.
+den Wert schätzen;to estimate the value;оцінювати вартість;Wir müssen den Wert der alten Hardware schätzen, bevor wir sie verkaufen.
+der Winterreifen, -;winter tire;зимова шина;Ohne Winterreifen darf man das Firmenauto bei Schnee nicht fahren.
+etw. anschaffen;to acquire, to purchase;купувати, придбати (обладнання);Wir müssen für das ganze Entwickler-Team neue Laptops anschaffen.
+auftauchen;to appear, to pop up;з'являтися, виникати;Nach dem Update sind leider einige neue Bugs aufgetaucht.
+daher;therefore, hence;тому, з цієї причини;Der Server war überlastet, daher ist die App abgestürzt.
+darum;therefore, for that reason;тому, через це;Ich kenne das Framework nicht gut, darum lerne ich es am Wochenende.
+die technischen Daten (Pl.);technical data/specifications;технічні характеристики / дані;In den technischen Daten steht, dass der Prozessor 8 Kerne hat.
+dennoch;nevertheless, yet;тим не менш, проте;Der Code war unsauber, dennoch hat das Programm funktioniert.
+deshalb;therefore, that's why;тому, ось чому;Wir nutzen Microservices, deshalb ist unsere Architektur sehr flexibel.
+deswegen;therefore, because of that;тому, через це;Das Passwort war zu schwach, deswegen wurde der Account gehackt.
+das Eigengewicht, -e;dead weight, own weight;власна вага;Das Eigengewicht des großen Server-Racks beträgt über 100 Kilogramm.
+erforderlich;required, necessary;необхідний;Für die Installation der Software sind Administratorrechte erforderlich.
+folglich;consequently, as a result;отже, внаслідок цього;Das Budget wurde gekürzt, folglich können wir keine neuen Tools kaufen.
+die Gewährleistung, -en;warranty, guarantee;гарантія (за законом);Auf diese Hardware haben wir noch zwei Jahre Gewährleistung.
+die Geschwindigkeit, -en;speed;швидкість;Die Lade-Geschwindigkeit der Webseite wurde durch das Caching verdoppelt.
+die Hebebühne, -n;lifting platform, hoist;підйомник;Das Auto wird in der Werkstatt auf der Hebebühne repariert.
+die Hubhöhe, -n;lifting height;висота підйому;Die Hubhöhe des Gabelstaplers reicht für die obersten Regale im Server-Lager.
+die Kaufentscheidung, -en;purchase decision;рішення про покупку;Gute Reviews im Internet beeinflussen die Kaufentscheidung für Software.
+etw. lagern;to store;зберігати;Wir lagern die Backups verschlüsselt in einem externen Rechenzentrum.
+die Lieferzeit, -en;delivery time;час доставки;Die Lieferzeit für die neuen MacBook Pros beträgt leider drei Wochen.
+die Neuanschaffung, -en;new acquisition, purchase;нове придбання;Die Neuanschaffung von 3D-Druckern hat unsere Prototypen-Entwicklung beschleunigt.
+das Qualitätsproblem, -e;quality problem;проблема з якістю;Dieses Framework hat ein bekanntes Qualitätsproblem beim Speichermanagement.
+der Rabatt, -e;discount;знижка;Wir bekommen als Startup einen großen Rabatt auf die Cloud-Kosten.
+die Raumhöhe, -n;room height;висота приміщення;Die Raumhöhe im Serverraum muss für die Kühlungsanlagen ausreichen.
+die Tragfähigkeit, -en;load capacity;вантажопідйомність, несуча здатність;Die Tragfähigkeit des Bodens im Data Center muss sehr hoch sein.
+trotzdem;nevertheless, anyway;незважаючи на це, все ж;Das Projekt war extrem stressig, trotzdem haben wir die Deadline geschafft.
+überzeugend;convincing;переконливий;Das Konzept für die neue Software-Architektur war sehr überzeugend.
+die Wartung, -en;maintenance;технічне обслуговування;Die monatliche Wartung der Datenbank findet am Wochenende statt.
+das Bedienungsproblem, -e;operating problem, user error;проблема з експлуатацією / використанням;Ein gutes UX-Design verhindert ein Bedienungsproblem durch den User.
+etw. beheben (z. B. einen Fehler) (behebt, behob, hat behoben);to fix, to resolve (an error);усувати, виправляти (напр., помилку);Wir konnten den kritischen Bug im Code schnell beheben.
+etw. beseitigen;to eliminate, to remove;усувати, ліквідувати;Das Skript soll alte Cache-Dateien automatisch beseitigen.
+der Defekt, -e;defect, fault;дефект, несправність;Wegen eines Hardware-Defekts auf dem Mainboard startet der PC nicht mehr.
+das Display, -s;display, screen;дисплей, екран;Das responsive Design passt sich automatisch an jedes Display an.
+einerseits ..., andererseits ...;on the one hand ..., on the other hand ...;з одного боку ..., з іншого боку ...;Einerseits ist die Cloud flexibel, andererseits kostet sie viel Geld.
+die Einstellung, -en;setting;налаштування;Du kannst den Dark Mode in den Account-Einstellungen aktivieren.
+die Elektronik (Sg.);electronics;електроніка;Die feine Elektronik auf der Platine ist sehr empfindlich gegen Wasser.
+etw. entkalken;to descale;очищати від накипу;Der Praktikant muss die Kaffeemaschine im IT-Büro entkalken.
+etw. erhitzen;to heat up;нагрівати;Wenn der Algorithmus läuft, kann sich die CPU stark erhitzen.
+etw. herunterladen (lädt herunter, lud herunter, hat heruntergeladen);to download;завантажувати;Bitte lade die neueste Version von Docker herunter.
+je ..., desto ...;the ..., the ...;чим ..., тим ...;Je sauberer der Code ist, desto weniger Bugs entstehen.
+der Kaffeesatzbehälter, -;coffee grounds container;контейнер для кавової гущі;Bitte leeren Sie den Kaffeesatzbehälter nach der Benutzung aus.
+die Mechanik (Sg.);mechanics;механіка;Neben Elektronik ist auch Mechanik wichtig für den Bau von Robotern.
+das Menü, -s;menu;меню;Das Navigations-Menü auf unserer Webseite muss intuitiver werden.
+etw. nachfüllen;to refill;поповнювати, доливати;Der Drucker im Büro zeigt an, dass wir Tinte nachfüllen müssen.
+die Programmierung, -en;programming;програмування;Die Programmierung von Künstlicher Intelligenz erfordert viel Mathe-Wissen.
+etw. reinigen;to clean;чистити;Es ist wichtig, die Tastatur und den Monitor regelmäßig zu reinigen.
+die Reinigungstablette, -n;cleaning tablet;таблетка для чищення;Die Kaffeemaschine verlangt nach einer Reinigungstablette.
+etw. säubern;to clean;очищати;Ich nutze ein Skript, um die alte Datenbank zu säubern.
+sowohl ... als auch ...;both ... and ...;як ..., так і ...;Die App ist sowohl für iOS als auch für Android verfügbar.
+etw. starten;to start, to boot;запускати;Nach der Installation musst du den lokalen Server neu starten.
+der Stillstand (Sg.);standstill, downtime;простій, зупинка;Ein Server-Stillstand von nur fünf Minuten kostet das Unternehmen viel Geld.
+die Störung, -en;fault, malfunction, disturbance;збій, несправність;Wir haben aktuell eine große Störung im Netzwerk.
+umgehend;immediately, promptly;негайно, терміново;Bitte kümmern Sie sich umgehend um das Support-Ticket des Kunden.
+etw. verwenden;to use, to apply;використовувати;Für das Backend verwenden wir momentan Node.js.
+etw. warten (z. B. eine Maschine);to maintain;обслуговувати (технічно);Administratoren müssen die IT-Infrastruktur regelmäßig warten.
+zwar ..., aber ...;indeed ..., but ...;хоча й ..., але ...;Der Code ist zwar sehr kurz, aber schwer zu verstehen.
+der (Drehmoment-)Schlüssel, -;(torque) wrench;(динамометричний) гайковий ключ;Der Mechaniker zieht die Schraube am Auto mit dem Drehmoment-Schlüssel fest.
+etw. abmontieren;to dismantle, to remove;демонтувати, знімати;Ich muss die Abdeckung des Servers abmontieren, um den RAM zu tauschen.
+der Aktionstag, -e;promotional day, action day;день акції / кампанії;Am Black Friday gibt es einen Aktionstag mit großen Software-Rabatten.
+etw. anheben (hebt an, hob an, hat angehoben);to lift, to raise;піднімати;Der Wagenheber wird benutzt, um das Auto anzuheben.
+der Auszubildende, -n / die Auszubildende, -n;trainee, apprentice;стажер, учень;Der Auszubildende (Azubi) lernt heute, wie man Netzwerkkabel crimpt.
+die Autobatterie, -n;car battery;автомобільний акумулятор;Im Winter streikt oft die Autobatterie des Firmenwagens.
+der Azubi, -s / die Azubi, -s;trainee, apprentice (short form);стажер, учень (скорочено);Unser neuer IT-Azubi richtet gerade seinen Arbeitsplatz ein.
+die Bremsflüssigkeit (Sg.);brake fluid;гальмівна рідина;Bei der Inspektion wurde die Bremsflüssigkeit des Leasing-Autos gewechselt.
+die Drahtbürste, -n;wire brush;дротяна щітка;Rostige Teile werden in der Werkstatt mit der Drahtbürste gereinigt.
+etw. eindrehen;to screw in;вкручувати;Du musst die Schraube für das Motherboard vorsichtig eindrehen.
+etw. einfetten;to grease, to lubricate;змащувати (жиром/мастилом);Der Mechaniker muss die quietschende Tür des Firmenwagens einfetten.
+etw. einfüllen;to fill in, to pour in;наливати, наповнювати;Wir müssen Wasser in das Kühlsystem des Gaming-PCs einfüllen.
+etw. einlagern;to store;здавати на зберігання;Die Sommerreifen werden über den Winter in der Werkstatt eingelagert.
+etw. erledigen;to complete, to get done;виконувати, залагоджувати;Ich konnte alle Tickets im Sprint erfolgreich erledigen.
+etw. festdrehen;to tighten;закручувати, затягувати;Vergiss nicht, die Schrauben an der Festplatte richtig festzudrehen.
+die Fettkreide, -n;wax crayon;воскова крейда;Mit Fettkreide markiert der Mechaniker die Position der Reifen.
+das Frostschutzmittel, -;antifreeze;антифриз;Im Dezember füllen wir Frostschutzmittel in das Wischwasser des Autos.
+der Kratzer, -;scratch;подряпина;Leider hat der Bildschirm des neuen Laptops einen tiefen Kratzer.
+Kunden aufrufen;to call customers;викликати клієнтів;Das System kann Kunden nach ihrer Ticket-Nummer aufrufen.
+etw. lösen;to loosen, to solve;відкручувати (болт) / вирішувати (проблему);Er muss die verrostete Schraube mit etwas Öl lösen.
+die Mutter, -n;nut (hardware);гайка;Um das Bauteil zu befestigen, brauchst du eine passende Schraube und Mutter.
+etw. nachfüllen;to refill;поповнювати, доливати;Ich muss das Motoröl am Firmenwagen nachfüllen.
+der Ölstand (Sg.);oil level;рівень масла;Ein moderner Bordcomputer misst den Ölstand elektronisch.
+etw. platzieren;to place, to position;розміщувати, розташовувати;Wir platzieren den WLAN-Router zentral im Büro für besseren Empfang.
+die Probefahrt, -en;test drive;тестова поїздка;Nach dem Update der Auto-Software machen wir eine Probefahrt.
+das Profil, -e;profile, tread;профіль, протектор шини;Das Profil der Reifen ist schon sehr abgenutzt.
+die Rabattaktion, -en;discount campaign;акція зі знижками;Durch eine Rabattaktion haben wir 50% beim Kauf der Software gespart.
+das Radkreuz, -e;wheel brace, lug wrench;балонний ключ;Mit dem Radkreuz lassen sich die Radmuttern am Auto lösen.
+die Radnabe, -n;wheel hub;маточина колеса;Die Felge wird auf die Radnabe des Autos geschraubt.
+der Reifendruck (Sg.);tire pressure;тиск у шинах;Sensoren senden den aktuellen Reifendruck an das Display.
+das Reifenprofil, -e;tire tread;протектор шини;Ein tiefes Reifenprofil ist wichtig für die Sicherheit bei Regen.
+der Reifenwechsel, -;tire change;заміна шин;Den Termin für den Reifenwechsel mache ich immer online.
+der Schlagschrauber, -;impact wrench;ударний гайковерт;Die Werkstatt nutzt einen Schlagschrauber, um Reifen schneller zu wechseln.
+die Schraube, -n;screw;гвинт, шуруп;Mir fehlt eine kleine Schraube, um den Laptop wieder zusammenzubauen.
+der Wagenheber, -;car jack;домкрат;Mit einem Wagenheber kannst du den Reifenwechsel auch selbst machen.
+die Abgase (Pl.);exhaust gases, emissions;вихлопні гази;Elektroautos stoßen keine schädlichen Abgase aus.
+autonomes Fahren;autonomous driving;автономне водіння;Künstliche Intelligenz ist die Grundlage für autonomes Fahren.
+etw. befürworten;to support, to advocate;підтримувати, схвалювати;Ich befürworte den Vorschlag, unsere Server auf grüne Energie umzustellen.
+das Carsharing (Sg.);car sharing;каршерінг;Viele Entwickler in Berlin nutzen Carsharing statt eines eigenen Autos.
+das Elektroauto, -s;electric car;електромобіль;Unser Chef fährt ein modernes Elektroauto von Tesla.
+energieintensiv;energy-intensive;енергоємний;Das Training von KI-Modellen ist extrem energieintensiv.
+etw. erschweren;to make difficult, to complicate;ускладнювати;Schlecht geschriebener Code wird die zukünftige Wartung stark erschweren.
+der Individualverkehr (Sg.);private transport;приватний транспорт;Der Individualverkehr in Großstädten führt oft zu Staus.
+der Klimawandel (Sg.);climate change;зміна клімату;Die Tech-Branche versucht, ihren Beitrag zum Klimawandel zu minimieren.
+die Lärmbelästigung (Sg.);noise pollution;шумове забруднення;Elektromotoren verringern die Lärmbelästigung in der Stadt enorm.
+die Luftverschmutzung (Sg.);air pollution;забруднення повітря;Smog und Abgase verursachen in vielen Metropolen große Luftverschmutzung.
+die Mobilität (Sg.);mobility;мобільність;Apps für E-Scooter verändern die urbane Mobilität.
+das Park-and-Ride-System (Sg.);park and ride system;перехоплююча парковка;Dank des Park-and-Ride-Systems fahre ich mit der Bahn ins Büro.
+die Selbstverständlichkeit (Sg.);matter of course, given;само собою зрозуміле;Dass Code versioniert wird (z. B. mit Git), ist heute eine Selbstverständlichkeit.
+etw. sperren;to block, to lock;блокувати;Nach drei falschen Passworteingaben wird der Account automatisch gesperrt.
+überflüssig;superfluous, unnecessary;зайвий, непотрібний;Dank KI-Generatoren wird viel manueller Code langsam überflüssig.
+etw. überlasten;to overload;перевантажувати;Eine DDoS-Attacke kann das Netzwerk des Unternehmens überlasten.
+umsteigen auf (+ Akk.) (steigt um, stieg um, ist umgestiegen);to switch to, to change;пересідати, переходити (на інше);Wir werden im Backend bald von Java auf Golang umsteigen.
+umweltfreundlich;environmentally friendly;екологічний;Green IT fördert umweltfreundliche Technologien und Server.
+der Verbrennungsmotor, -en;internal combustion engine;двигун внутрішнього згоряння;Das Startup entwickelt Software für Autos ohne Verbrennungsmotor.
+das Verkehrsnetz, -e;transport network;транспортна мережа;Das digitale Verkehrsnetz steuert die Ampeln in Echtzeit.
+verzichten auf (+ Akk.);to do without, to abstain from;відмовлятися від;Beim neuen UI/UX-Design verzichten wir komplett auf Dropdown-Menüs.
+Vorrang haben;to have priority;мати пріоритет;Die Behebung von Sicherheitslücken muss immer Vorrang haben.
+jdn. zwingen (zwingt, zwang, hat gezwungen);to force, to compel;змушувати;Der neue Chief Security Officer wird uns zwingen, 2FA zu nutzen.

@@ -1,0 +1,133 @@
+#separator:;
+#html:true
+#columns:German;English;Ukrainian;Example
+der Ablauf, "-e;process, sequence;процес, хід;Wir müssen den Ablauf des Software-Deployments optimieren.
+etw. abwägen;to weigh up, to consider;зважувати, обмірковувати;Wir müssen die Vor- und Nachteile der neuen API abwägen.
+die Arbeitsbedingung, -en;working condition;умова праці;Flexible Arbeitsbedingungen sind sehr wichtig für Entwickler.
+der Aspekt, -e;aspect;аспект;Datensicherheit ist ein wichtiger Aspekt beim Cloud-Computing.
+die Auftragsabwicklung, -en;order processing;обробка замовлення;Die App automatisiert die komplette Auftragsabwicklung für den Shop.
+der Baustoff, -e;building material;будівельний матеріал;Wir programmieren eine Logistik-Software für Baustoffe.
+etw./jdm. Beachtung schenken;to pay attention to;приділяти увагу;Wir müssen dem Feedback der User mehr Beachtung schenken.
+etw. benötigen;to need, to require;потребувати;Wir benötigen mehr RAM für diesen Datenbank-Server.
+etw. berücksichtigen;to consider, to take into account;враховувати;Bitte berücksichtigen Sie die Ladezeiten beim mobilen Webdesign.
+etw. beschaffen;to procure, to obtain;діставати, закуповувати;Die IT-Abteilung muss dringend neue Monitore beschaffen.
+die Beschaffung (Sg.);procurement;закупівля, придбання;Die Beschaffung der neuen Server-Hardware dauert drei Wochen.
+der Beschaffungsmarkt, "-e;procurement market;ринок закупівель;Der Beschaffungsmarkt für Mikrochips ist aktuell sehr angespannt.
+die Bestandsaufnahme, -n;inventory, taking stock;інвентаризація, оцінка стану;Wir machen eine Bestandsaufnahme unserer Software-Lizenzen.
+das CAD-Programm, -e;CAD program;САПР (система автоматизованого проектування);Der Ingenieur nutzt ein CAD-Programm für das 3D-Modell.
+der Einfluss, "-e;influence;вплив;Der Lead Developer hat großen Einfluss auf die IT-Architektur.
+Einfluss haben auf (+ Akk.);to have an influence on;мати вплив на;Die Server-Auslastung hat direkten Einfluss auf die Ladezeit der App.
+etw. einkalkulieren;to factor in, to take into account;враховувати (у розрахунках);Wir müssen Pufferzeit für Bugfixes einkalkulieren.
+erforderlich;required, necessary;необхідний;Zwei-Faktor-Authentifizierung (2FA) ist für Admins erforderlich.
+die Fachmesse, -n;trade fair;спеціалізована виставка;Wir stellen unser Produkt auf der IT-Fachmesse vor.
+das Fertighaus, "-er;prefabricated house;збірний будинок;Unser Kunde baut Smart-Home-Systeme für Fertighäuser.
+die Fertighausfirma, -firmen;prefabricated house company;компанія-виробник збірних будинків;Die Fertighausfirma nutzt unsere VR-Software für ihre Kunden.
+das Gartengerät, -e;garden tool;садовий інструмент;Die App steuert smarte Gartengeräte wie Mähroboter.
+geeignet;suitable;підходящий, придатний;Python ist sehr geeignet für Data Science und Machine Learning.
+global;global;глобальний;Wir arbeiten in einem globalen Entwickler-Team.
+die Globalisierung (Sg.);globalization;глобалізація;Durch die Globalisierung können wir Tech-Talente weltweit einstellen.
+das Gut, "-er;good, commodity, asset;товар, майно;Daten sind das wertvollste Gut in der modernen Wirtschaft.
+der Konkurrenzdruck (Sg.);competitive pressure;конкурентний тиск;Der Konkurrenzdruck im E-Commerce-Bereich ist enorm hoch.
+die Lagerkapazität, -en;storage capacity;місткість складу, ємність сховища;Wir müssen die Lagerkapazität unserer Cloud-Datenbank erweitern.
+die Liefersicherheit (Sg.);delivery reliability, security of supply;надійність постачання;Liefersicherheit bei Hardware-Komponenten ist wichtig für das Rechenzentrum.
+massiv;massive(ly);масивний, масштабний;Wir haben massive Probleme mit dem neuen Server-Deployment.
+das Material, -ien;material;матеріал;Wir bestellen neues Material für den 3D-Drucker.
+die Menge, -n;amount, quantity;кількість, обсяг;Das Python-Skript muss eine riesige Menge an Daten verarbeiten.
+die Produktionsunterbrechung, -en;production interruption, downtime;переривання виробництва, простій;Ein Serverausfall führt zu einer teuren Produktionsunterbrechung.
+das Rohmaterial, -ien;raw material;сировина;Unstrukturierte Daten sind das Rohmaterial für KI-Modelle.
+sorgen für (+ Akk.);to ensure, to take care of;піклуватися про, забезпечувати;Der Load Balancer sorgt für eine stabile Server-Performance.
+das Steuerbüro, -s;tax consultancy/office;податкове бюро;Unsere Buchhaltungs-Software wird von vielen Steuerbüros genutzt.
+die Umweltpolitik (Sg.);environmental policy;екологічна політика;Green IT ist ein wichtiger Teil unserer Unternehmens-Umweltpolitik.
+vertraut sein mit (+ Dat.);to be familiar with;бути обізнаним з;Bist du mit der Architektur der AWS-Cloud vertraut?
+der Zeichentisch, -e;drawing board, drafting table;креслярський стіл;Das Architektur-Startup ersetzt den analogen Zeichentisch durch VR.
+die Zollbestimmung, -en;customs regulation;митне правило;Beim Import der Server aus den USA müssen wir Zollbestimmungen beachten.
+Angebote einholen;to get/obtain quotes;отримувати пропозиції (цінові);Wir müssen Angebote von drei verschiedenen Cloud-Providern einholen.
+der Ansprechpartner, - / die Ansprechpartnerin, -nen;contact person;контактна особа;Er ist mein technischer Ansprechpartner für die API-Integration.
+jdn. auffordern;to request, to ask;закликати, вимагати;Das System wird den User auffordern, sein Passwort zu ändern.
+aufmerksam machen auf (+ Akk.);to draw attention to;звертати увагу на;Ich möchte das Team auf einen kritischen Bug im Code aufmerksam machen.
+die Auftragsvergabe, -n;award of contract, order placement;розміщення замовлення, укладання контракту;Die Auftragsvergabe für das neue CRM-System erfolgt nächste Woche.
+etw. ausrichten;to pass on (a message);передавати (повідомлення);Können Sie dem IT-Leiter bitte ausrichten, dass ich das Ticket gelöst habe?
+etw. entgegennehmen (nimmt entgegen, nahm entgegen, hat entgegengenommen);to receive, to accept;приймати (замовлення, дзвінок);Unser Support-Team wird die Fehlermeldungen der User entgegennehmen.
+entscheidend;crucial, decisive;вирішальний;Skalierbarkeit ist ein entscheidender Faktor für unsere neue App.
+jdn. hinweisen auf (+ Akk.);to point out to;вказувати комусь на щось;Der Linter wird den Entwickler automatisch auf Syntaxfehler hinweisen.
+das Kriterium, Kriterien;criterion;критерій;Server-Performance ist das wichtigste Kriterium bei der Provider-Wahl.
+die Lieferfrist, -en;delivery deadline, time for delivery;термін доставки;Die Lieferfrist für die neuen Firmen-Laptops beträgt zwei Wochen.
+maßgeblich;significant, decisive;визначальний, істотний;Ihre Architektur-Entscheidung war maßgeblich für den Projekterfolg.
+die Prokura (Sg.);commercial power of attorney;довіреність (на право підпису);Der CTO hat Prokura und darf Software-Lizenzen selbstständig kaufen.
+das Türschloss, "-er;door lock;дверний замок;Wir entwickeln eine Smartphone-App für ein smartes Türschloss.
+verbinden mit (+ Dat.);to connect with;з'єднувати з;Bitte verbinden Sie mich telefonisch mit dem IT-Support.
+verbindlich;binding, obligatory;обов'язковий (до виконання), зобов'язуючий;Das Kostenangebot für das Software-Projekt ist rechtlich verbindlich.
+jdn. verweisen auf (+ Akk.) (verweist, verwies, hat verwiesen);to refer to;відсилати до (когось/чогось);Bei Login-Problemen verweisen wir die User auf unsere FAQ-Seite.
+der Wettbewerber, -;competitor;конкурент;Unser größter Wettbewerber hat gestern ein ähnliches Feature gelauncht.
+die Zusicherung, -en;assurance, guarantee;запевнення, гарантія;Wir brauchen eine schriftliche Zusicherung für die Datensicherheit (DSGVO).
+der Abzug, "-e;deduction;відрахування, знижка;Nach Abzug der Steuern bleibt ein gutes Netto-Gehalt für Entwickler.
+der Akku, -s;battery;акумулятор;Der Akku meines neuen MacBooks hält beim Coden fast 10 Stunden.
+ein Angebot unterbreiten;to submit an offer/quote;робити/надавати пропозицію;Wir werden dem Kunden heute ein Angebot für die Webentwicklung unterbreiten.
+etw. anlegen (z. B. einen Garten);to create, to set up;створювати (напр. базу даних, обліковий запис);Ich muss einen neuen User-Account in der Datenbank anlegen.
+enthalten (enthält, enthielt, hat enthalten);to contain, to include;містити в собі;Das neue Software-Update wird viele wichtige Sicherheits-Patches enthalten.
+der Ersatzakku, -s;spare battery;запасний акумулятор;Ich nehme einen Ersatzakku für den Laptop auf die Dienstreise mit.
+der Erstauftrag, "-e;initial order;перше замовлення;Für unseren Erstauftrag haben wir eine kleine Landingpage entwickelt.
+sich erweisen als (erweist sich, erwies sich, hat sich erwiesen);to turn out to be, to prove to be;виявлятися (кимось/чимось);Das neue React-Framework hat sich als sehr performant erwiesen.
+der Folgeauftrag, "-e;follow-up order;наступне/повторне замовлення;Nach dem guten MVP-Release haben wir direkt einen Folgeauftrag bekommen.
+die Funktionsfähigkeit (Sg.);functionality, operability;функціональність, працездатність;Die QA testet die Funktionsfähigkeit der neuen App intensiv.
+die Gebrauchsweise (Sg.);method of use, instructions for use;спосіб використання;Die Gebrauchsweise unserer API ist in der Dokumentation beschrieben.
+die Gesamtbestellung (Sg.);total order;загальне замовлення;Die Gesamtbestellung für die Server-Hardware kostet 50.000 Euro.
+der Gesamtpreis, -e;total price;загальна вартість;Der Gesamtpreis für das Software-Projekt liegt genau im Budget.
+kostengünstig;cost-effective, cheap;вигідний за ціною, недорогий;AWS bietet auch sehr kostengünstige Speicherlösungen (S3) an.
+die Marktchancen (Pl.);market opportunities;ринкові можливості;Die Marktchancen für KI-basierte Tools sind aktuell riesig.
+nachteilig;disadvantageous, detrimental;невигідний, шкідливий;Schlechter Code wirkt sich nachteilig auf die Server-Performance aus.
+optional;optional;опціональний, необов'язковий;Die Angabe der Telefonnummer im Registrierungsformular ist optional.
+der Rabatt, -e;discount;знижка;Wir gewähren Neukunden einen Rabatt von 10% auf die SaaS-Lizenzen.
+der Skonto (Sg.);cash discount;сконто (знижка за швидку оплату);Wenn wir die Server sofort bezahlen, bekommen wir 2% Skonto.
+der Sonderpreis, -e;special price;спеціальна ціна;Zum Black Friday bieten wir unsere Software zum Sonderpreis an.
+standardmäßig;standard, by default;за замовчуванням, стандартно;Die Verschlüsselung der Passwörter ist im System standardmäßig aktiviert.
+der Stückpreis, -e;unit price;ціна за штуку;Der Stückpreis für Firmen-Laptops sinkt bei einer Großbestellung.
+einen Termin einhalten (hält ein, hielt ein, hat eingehalten);to meet a deadline;дотримуватися терміну;Wir müssen den Termin für das Produktions-Release unbedingt einhalten.
+üblicherweise;usually, typically;зазвичай;Üblicherweise deployen wir am Freitag keinen neuen Code.
+die Versandkosten (Pl.);shipping costs;вартість доставки;Beim Kauf von Hardware für über 50 Euro entfallen die Versandkosten.
+vorteilig;advantageous, beneficial;вигідний, сприятливий;Eine Microservice-Architektur ist sehr vorteilig für die Skalierbarkeit.
+die Zahlungsbedingungen (Pl.);terms of payment;умови оплати;Die Zahlungsbedingungen für die Freelancer-Rechnung stehen unten.
+die Zahlungsfrist, -en;payment deadline/period;строк оплати;Die Zahlungsfrist für die Server-Miete beträgt 14 Tage.
+die Abnahme, -n;acceptance, approval;приймання (робіт), узгодження;Die Abnahme der neuen Software durch den Kunden erfolgt morgen.
+das Abnahmeprotokoll, -e;acceptance report/protocol;акт приймання-передачі;Der Kunde muss das Abnahmeprotokoll nach dem erfolgreichen Test unterschreiben.
+etw. anschauen;to look at, to examine;дивитися, розглядати;Lass uns den fehlerhaften Quellcode gemeinsam anschauen (Code Review).
+der Auftraggeber, - / die Auftraggeberin, -nen;client, principal, customer;замовник, клієнт;Unser Auftraggeber wünscht sich noch eine Dark-Mode-Funktion.
+etw. ausführen;to execute, to perform;виконувати;Das System wird den Code sicher in einem Docker-Container ausführen.
+die Bauabnahme, -n;building inspection/acceptance;приймання будівельного об'єкта;Nach der Installation der Server-Racks erfolgt die Bauabnahme im Rechenzentrum.
+der Bauherr, -en / die Bauherrin, -nen;building owner/client;забудовник, власник будівлі;Der Bauherr möchte Smart-Home-Technik im ganzen Haus integrieren.
+die Bauleistung, -en;construction work;будівельні роботи;Die Installation der IT-Infrastruktur gehört zur Bauleistung.
+das Bauunternehmen, -;construction company;будівельна компанія;Das Bauunternehmen nutzt unsere Projektmanagement-Software.
+bedauerlicherweise;unfortunately, regrettably;на жаль;Bedauerlicherweise hat der Server-Ausfall gestern einige Daten gelöscht.
+etw. beseitigen;to eliminate, to fix;усувати;Wir müssen diesen Speicher-Bug im Code sehr schnell beseitigen.
+die Beseitigung (Sg.);removal, resolution;усунення;Die Beseitigung der Sicherheitslücke hat für uns oberste Priorität.
+der Eigentümer, - / die Eigentümerin, -nen;owner;власник;Wer ist der Eigentümer dieses GitHub-Repositories?
+die Einweisung, -en;instruction, briefing;інструктаж;Neue Entwickler bekommen eine kurze Einweisung in unsere Git-Flows.
+etw. fertigstellen;to complete, to finish;завершувати;Wir werden das MVP (Minimum Viable Product) nächsten Monat fertigstellen.
+die Fußleiste, -n;baseboard, skirting board;плінтус;Wir verlegen die Netzwerkkabel im IT-Büro sicher hinter der Fußleiste.
+die Gewährleistungsfrist, -en;warranty period;гарантійний термін;Die Gewährleistungsfrist für die neuen Firmen-Monitore beträgt zwei Jahre.
+die Kleinigkeit, -en;small detail, minor matter;дрібниця;Das kleine CSS-Problem ist nur eine Kleinigkeit und schnell gefixt.
+lediglich;merely, only;лише, тільки;Der Bug tritt lediglich im Safari-Browser auf.
+machbar;feasible, doable;здійсненний, можливий;Dieses Feature ist technisch machbar, dauert aber zwei Sprints.
+der Mangel, "-;defect, flaw;недолік, дефект;Beim automatisierten Software-Test haben wir einen kritischen Mangel gefunden.
+die Nacharbeiten (Pl.);rework, touch-ups;доопрацювання;Nach dem Code Review müssen wir noch kleine Nacharbeiten erledigen.
+die Nachbesserung, -en;rectification of defects, improvement;виправлення (помилок), доопрацювання;Der Kunde fordert eine Nachbesserung beim UI-Design.
+der Personalengpass, "-e;staff shortage;нестача персоналу;Wegen Krankheit haben wir aktuell einen Personalengpass im Support-Team.
+die Pflicht, -en;duty, obligation;обов'язок;Es ist meine Pflicht als Admin, regelmäßige Backups zu erstellen.
+das Prüfstück, -e;test piece, sample;дослідний зразок, тестовий екземпляр;Wir nutzen einen Prototyp der Hardware als Prüfstück.
+in der Regel;usually, as a rule;зазвичай, як правило;In der Regel schreiben wir Unit-Tests für jede neue Funktion.
+das Übergabeprotokoll, -e;handover protocol;акт передачі;Beim Wechsel des Laptops unterschreibt der Mitarbeiter ein Übergabeprotokoll.
+unverzüglich;immediately, without delay;негайно, без зволікань;Kritische Server-Ausfälle müssen unverzüglich gemeldet werden.
+die Verzögerung, -en;delay;затримка;Aufgrund eines Bugs gab es eine Verzögerung beim App-Release.
+zeitnah;promptly, in a timely manner;своєчасно, найближчим часом;Bitte beantworten Sie die Support-Tickets möglichst zeitnah.
+zufriedenstellend;satisfactory;задовільний;Die Performance der App ist nach dem Datenbank-Update sehr zufriedenstellend.
+die Abmahnung, -en;warning, reprimand (written);попередження, догана;Ständiges Zuspätkommen zum Daily Scrum kann zu einer Abmahnung führen.
+akzeptabel;acceptable;прийнятний;Eine Ladezeit von über 5 Sekunden ist für die User nicht akzeptabel.
+die Bewertung, -en;evaluation, review, rating;оцінка, відгук;Unsere neue App hat eine sehr gute Bewertung im App Store erhalten.
+eine Dienstleistung erbringen (erbringt, erbrachte, hat erbracht);to provide a service;надавати послугу;Unser Cloud-Provider muss die vertraglich vereinbarte Dienstleistung erbringen.
+erwünscht;desired, welcome;бажаний;Konstruktives Feedback im Code Review ist immer erwünscht.
+fällig werden;to become due (for payment);підлягати сплаті, настати (про термін);Die Rechnung für das Software-Abo wird am Monatsende fällig.
+permanent;permanent(ly);постійний, перманентний;Wir brauchen eine permanente und sichere Verbindung zur Datenbank.
+eine Rolle spielen;to play a role/part;відігравати роль;Clean Code spielt eine große Rolle für die Wartbarkeit unseres IT-Projekts.
+der Schadenersatz (Sg.);compensation for damages;відшкодування збитків;Bei einem großen Datenverlust kann der Kunde Schadenersatz fordern.
+tolerant;tolerant;толерантний;Unser Team ist sehr tolerant gegenüber Fehlern, wenn wir daraus lernen.
+zum guten Ton gehören;to be good manners/etiquette;бути правилом хорошого тону;Pünktlichkeit beim Zoom-Meeting gehört in unserem Team zum guten Ton.

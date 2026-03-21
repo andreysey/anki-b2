@@ -1,0 +1,127 @@
+#separator:;
+#html:true
+#columns:German;English;Ukrainian;Example
+das Arbeitsklima (Sg.);working atmosphere;робоча атмосфера;Ein gutes Arbeitsklima ist für die Motivation der Entwickler extrem wichtig.
+die Atmosphäre (Sg.);atmosphere;атмосфера;Die Atmosphäre im Team ist nach dem erfolgreichen Release sehr entspannt.
+ausreden (lässt ausreden, ließ ausreden, hat ausreden lassen);to finish speaking;договорити (до кінця);Bitte lass mich im Daily Standup kurz ausreden.
+die Ausstattung, -en;equipment, facilities;обладнання, оснащення;Die technische Ausstattung in unserem Büro (Monitore, Stühle) ist top.
+das Beratungsgespräch, -e;consultation, advisory discussion;консультація;Das Beratungsgespräch mit dem IT-Consultant hat uns sehr geholfen.
+der Besprechungspunkt, -e;agenda item, point of discussion;пункт обговорення;Der wichtigste Besprechungspunkt heute ist die neue Server-Architektur.
+der Bestseller, -;bestseller;бестселер;Dieses Buch über Clean Code ist ein absoluter Bestseller.
+die Beteiligung, -en;participation;участь;Die Beteiligung aller Entwickler am Code-Review ist Pflicht.
+dadurch, dass;due to the fact that, because;через те, що;Dadurch, dass wir agil arbeiten, können wir Fehler schneller fixen.
+effektiv;effective(ly);ефективний;Wir müssen unsere Meetings kürzer und effektiver gestalten.
+die Ergänzung, -en;addition, supplement;доповнення;Ich habe noch eine kurze Ergänzung zum Protokoll von gestern.
+etw. erledigen;to complete, to get done;виконувати;Ich muss heute unbedingt noch dieses Jira-Ticket erledigen.
+etw. festlegen;to determine, to set;визначати, встановлювати;Wir müssen die genaue Deadline für das nächste Release festlegen.
+die Gelegenheit bieten;to offer an opportunity;надавати можливість;Das Projekt bietet die Gelegenheit, neue Cloud-Technologien zu lernen.
+die Gesprächsregel, -n;rule of conversation;правило спілкування;Eine wichtige Gesprächsregel im Team ist, einander ausreden zu lassen.
+etw. gestalten;to design, to structure;оформлювати, структурувати;Der Designer hilft uns, das UI der App moderner zu gestalten.
+sich halten an (+ Akk.);to stick to, to abide by;дотримуватися (чогось);Wir müssen uns strikt an die Coding-Guidelines halten.
+indem;by (doing something);тим, що / шляхом;Wir optimieren den Code, indem wir redundante Schleifen entfernen.
+die Klarheit, -en;clarity;ясність, чіткість;Bei der API-Dokumentation brauchen wir absolute Klarheit für die User.
+Kritik üben;to criticize;критикувати;Im Pull Request üben wir oft konstruktive Kritik am Code.
+leiten;to lead, to manage;керувати;Der Scrum Master wird das heutige Meeting leiten.
+das Meeting, -s;meeting;мітинг, зустріч;Das wöchentliche Entwickler-Meeting beginnt um 10 Uhr.
+das Prospektmaterial, -ien;brochures, promotional material;рекламні матеріали;Das Marketing erstellt neues Prospektmaterial für unsere Software.
+das Protokoll, -e;protocol, minutes;протокол, лог;Wer schreibt heute das Protokoll für die Teambesprechung?
+der Stand (Sg.);status, state;стан;Können Sie mir bitte den aktuellen Stand der Entwicklung mitteilen?
+die Tagesordnung, -en;agenda;порядок денний;Der nächste Punkt auf der Tagesordnung ist das Datenbank-Update.
+der Tagesordnungspunkt, -e;agenda item;пункт порядку денного;Welcher Tagesordnungspunkt im Sprint Planning ist am wichtigsten?
+die Teambesprechung, -en;team meeting;командна нарада;In der Teambesprechung verteilen wir die Aufgaben für die Woche.
+die Teamsitzung, -en;team meeting;командне засідання;Die Teamsitzung findet ab jetzt immer im Konferenzraum statt.
+verfassen;to write, to draft;складати, писати;Ich muss noch die Release Notes für das neue Update verfassen.
+der Verkaufsberater, - / die Verkaufsberaterin, -nen;sales consultant;продавець-консультант;Der Verkaufsberater präsentiert dem Kunden unser CRM-System.
+abraten von (+ Dat.) (rät ab, riet ab, hat abgeraten);to advise against;відмовляти від;Ich rate dringend davon ab, diese veraltete Bibliothek zu nutzen.
+abwesend;absent;відсутній;Zwei Entwickler sind heute leider wegen Krankheit abwesend.
+anwesend;present;присутній;Glücklicherweise sind alle Projektleiter beim Meeting anwesend.
+die Anzeigenkampagne, -n;advertising campaign;рекламна кампанія;Die Anzeigenkampagne für die neue App startet nächste Woche auf LinkedIn.
+der Aufbau, -ten;structure, setup;структура, побудова;Der Aufbau der Datenbank muss für mehr Performance optimiert werden.
+die Ausstellung, -en;exhibition;виставка;Wir präsentieren unsere VR-Brille auf einer großen Tech-Ausstellung.
+jdn. beauftragen;to assign, to commission;доручати;Wir beauftragen eine externe Agentur mit dem Penetration-Test.
+das Beratungsprotokoll, -e;consultation protocol;протокол консультації;Das Beratungsprotokoll fasst die Wünsche des Kunden detailliert zusammen.
+Druck machen;to put pressure on;тиснути;Der Kunde macht Druck, weil das Projekt nicht pünktlich fertig wird.
+der Einzelhandel (Sg.);retail;роздрібна торгівля;Wir programmieren ein modernes Kassensystem für den Einzelhandel.
+das Ergebnisprotokoll, -e;minutes of results;протокол рішень / результатів;Im Ergebnisprotokoll stehen alle Beschlüsse, die wir getroffen haben.
+das Gesprächsprotokoll, -e;minutes of a meeting;протокол бесіди;Ich sende euch das Gesprächsprotokoll nach dem Meeting per E-Mail.
+der Gesprächstermin, -e;appointment for a discussion;час бесіди, зустріч;Wir brauchen einen neuen Gesprächstermin mit dem Product Owner.
+hilfsbereit;helpful;готовий допомогти;Mein IT-Team ist immer sehr hilfsbereit, wenn ich einen Bug nicht finde.
+das Messegespräch, -e;trade fair discussion;розмова на виставці;Das Messegespräch mit dem potenziellen Investor war sehr erfolgreich.
+der Messestand, "-e;exhibition stand;виставковий стенд;Unser Startup hat einen kleinen Messestand auf der Web Summit.
+die Möbelmesse, -n;furniture fair;меблева виставка;Wir haben unsere 3D-Design-Software auf der Möbelmesse vorgestellt.
+die Protokollführung (Sg.);taking of minutes;ведення протоколу;Die Protokollführung übernimmt heute ausnahmsweise der Praktikant.
+der Schwerpunkt, -e;focus, main emphasis;головна увага, акцент;Der Schwerpunkt dieses Sprints liegt ganz klar auf Bugfixes.
+der Standaufbau, -ten;stand construction;монтаж стенду;Der Standaufbau auf der IT-Messe dauert meistens zwei Tage.
+der Teamleiter, - / die Teamleiterin, -nen;team leader;керівник команди;Mein Teamleiter unterstützt mich bei schwierigen Architektur-Entscheidungen.
+der Thermosbecher, -;thermos mug;термокружка;Ich habe immer einen Thermosbecher mit Kaffee neben der Tastatur.
+etw. verschenken;to give away;дарувати;Wir verschenken Firmen-Laptops an die Mitarbeiter im Homeoffice.
+das Versuchsprotokoll, -e;test protocol/log;протокол випробування;Das Versuchsprotokoll der QA-Abteilung zeigt, dass der Fehler behoben ist.
+die Vertriebsabteilung, -en;sales department;відділ збуту;Die Vertriebsabteilung kümmert sich um den Verkauf der Software-Lizenzen.
+das Werbegeschenk, -e;promotional gift;рекламний подарунок;USB-Sticks mit Firmenlogo sind ein sehr beliebtes Werbegeschenk.
+das Werbevideo, -s;promotional video;рекламний ролик;Das Marketing hat ein cooles Werbevideo für das neue Feature gemacht.
+aggressiv;aggressive;агресивний;Aggressives Verhalten wird in unserem agilen Team nicht toleriert.
+etw. ansprechen;to address, to bring up;піднімати питання, заговорювати про;Wir müssen dieses technische Problem dringend im Meeting ansprechen.
+der Arbeitsalltag (Sg.);everyday working life;робочі будні;Git-Merge-Konflikte gehören zum Arbeitsalltag eines jeden Entwicklers.
+die Arbeitsatmosphäre (Sg.);working atmosphere;робоча атмосфера;Eine toxische Arbeitsatmosphäre schadet der Motivation und der Produktivität.
+auswirken;to affect, to have an impact;впливати, позначатися;Dieser Speicher-Bug wird sich extrem negativ auf den Server auswirken.
+die Auswirkung, -en;effect, impact;наслідок, вплив;Die Auswirkung des Updates auf die Ladezeit der Seite ist sehr positiv.
+etw. beilegen (z. B. einen Streit);to settle (e.g. a dispute);владнати (напр., суперечку);Wir konnten den Konflikt über das Code-Design schnell beilegen.
+der Eindruck, "-e;impression;враження;Mein erster Eindruck von dem neuen Frontend-Framework ist sehr gut.
+den Eindruck haben;to have the impression;мати враження;Ich habe den Eindruck, dass die Datenbankanfragen zu langsam sind.
+die Du-Botschaft, -en;"you" message (blaming);"ти-повідомлення" (звинувачення);Du-Botschaften ("Du hast das kaputt gemacht") führen im Team zu Konflikten.
+fehlender Respekt;lack of respect;відсутність поваги;Fehlender Respekt bei Code-Reviews zerstört das Vertrauen im Team.
+die Gemeinsamkeit, -en;similarity, common ground;спільна риса, спільність;Wir haben viele Gemeinsamkeiten, zum Beispiel programmieren wir beide in Go.
+die Ich-Botschaft, -en;"I" message;"я-повідомлення";Mit einer Ich-Botschaft ("Ich habe Schwierigkeiten, den Code zu lesen") kritisiert man konstruktiver.
+der Kompromiss, -e;compromise;компроміс;Wir haben einen technischen Kompromiss für das API-Design gefunden.
+Kompromisse eingehen;to make compromises;йти на компроміси;Manchmal muss man bei der Performance kleine Kompromisse eingehen.
+der Konflikt, -e;conflict;конфлікт;Es gab einen kleinen Konflikt wegen des abgelehnten Pull-Requests.
+das Konfliktgespräch, -e;conflict resolution discussion;розмова для вирішення конфлікту;Der Scrum Master führt ein Konfliktgespräch mit den zwei Entwicklern.
+kooperativ;cooperative;схильний до співпраці, кооперативний;Unser Team arbeitet sehr kooperativ und teilt das Wissen gerne.
+der Leistungsdruck (Sg.);pressure to perform;тиск щодо продуктивності (стрес);Kurz vor dem App-Release ist der Leistungsdruck extrem hoch.
+Lösungen erarbeiten;to develop solutions;розробляти рішення;Wir müssen gemeinsam neue Lösungen für dieses Server-Problem erarbeiten.
+lüften;to air, to ventilate;провітрювати;Nach zwei Stunden Meeting müssen wir den Raum unbedingt lüften.
+die Meinungsverschiedenheit, -en;difference of opinion;розбіжність у поглядах;Es gab eine Meinungsverschiedenheit über die Wahl der richtigen Datenbank.
+das Missverständnis, -se;misunderstanding;непорозуміння;Ein unklarer Variablenname im Code führt oft zu einem Missverständnis.
+etw. nachvollziehen;to comprehend, to understand;розуміти, осягати;Ich kann deinen Lösungsansatz für den Algorithmus absolut nachvollziehen.
+der Neid (Sg.);envy;заздрість;Neid auf das höhere Gehalt der Kollegen ist unprofessionell.
+nervig;annoying;дратівливий, набридливий;Dieser wiederkehrende Bug im Frontend ist wirklich sehr nervig.
+der Respekt (Sg.);respect;повага;Gegenseitiger Respekt ist die absolute Basis für erfolgreiches Pair-Programming.
+die Rivalität, -en;rivalry;суперництво;Eine gesunde Rivalität zwischen Entwicklern kann das Projekt beschleunigen.
+sachlich;objective, factual;об'єктивний, по суті;Bitte bleib bei der Code-Kritik immer sachlich und nicht emotional.
+die Spannung, -en;tension;напруга;Kurz vor der wichtigen Deadline gibt es oft Spannungen im Team.
+stickig;stuffy;задушливий;Die Luft im kleinen Serverraum ohne Klimaanlage ist sehr stickig.
+die Strategie, -n;strategy;стратегія;Unsere Deployment-Strategie muss überarbeitet werden.
+der Streit, -igkeiten;argument, dispute;суперечка;Der Streit um die "beste" Programmiersprache im Büro ist völlig sinnlos.
+die Überstunde, -n;overtime;понаднормова робота;Um den Bug zu fixen, musste ich gestern leider Überstunden machen.
+die Umgangsform, -en;manner, etiquette;манера поведінки;Gute Umgangsformen sind auch bei Remote-Arbeit im Slack-Chat wichtig.
+unerträglich;unbearable;нестерпний;Die Hitze im unklimatisierten IT-Büro war im Sommer unerträglich.
+unpünktlich;unpunctual, late;непунктуальний;Es stört das Team, wenn jemand beim Daily Meeting unpünktlich ist.
+unsachlich;unobjective, biased;необ'єктивний;Unsachliche Kommentare haben in einem professionellen Code-Review nichts zu suchen.
+unter vier Augen;face-to-face, privately;віч-на-віч;Kritik an der Leistung besprechen wir besser privat unter vier Augen.
+etw./jdn. vergiften (z. B. die Atmosphäre);to poison (e.g. the atmosphere);отруювати (напр., атмосферу);Ständiges Meckern kann die Arbeitsatmosphäre im Team vergiften.
+etw. vermeiden;to avoid;уникати;Wir müssen Fehler und Redundanzen im Code unbedingt vermeiden (DRY).
+Verständnis zeigen für (+ Akk.);to show understanding for;виявляти розуміння;Der Arbeitgeber muss Verständnis für familiäre Notfälle zeigen.
+der Zeitdruck (Sg.);time pressure;брак часу;Wir arbeiten beim aktuellen Sprint leider unter enormem Zeitdruck.
+die Aufnahme, -n;recording, photo, admission;знімок, запис, прийом;Wir machen eine Aufnahme der Fehlermeldung (Screenshot) für das Ticket.
+einen Berg besteigen (besteigt, bestieg, hat bestiegen);to climb a mountain;підніматися на гору;Im Urlaub möchte der Chef in den Alpen einen Berg besteigen.
+die Butterbrezel, -n;butter pretzel;брецель з маслом;Zum gemeinsamen Frühstück im Büro gibt es heute frische Butterbrezeln.
+der Einstand (Sg.);debut, starting a new job;початок роботи, вступ на посаду;Zur Feier seines Einstands bringt der neue Entwickler Kuchen mit.
+die Einstandsfeier, -n;welcome party (for a new employee);вечірка на честь нового співробітника;Die Einstandsfeier für das neue Teammitglied findet Freitag nach Feierabend statt.
+sich erholen;to recover, to rest;відпочивати, відновлюватися;Am Wochenende muss ich mich vom stressigen Programmieren erholen.
+etw. genehmigen;to approve;схвалювати, затверджувати;Der IT-Leiter muss meinen Urlaubsantrag erst genehmigen.
+die Kreuzfahrt, -en;cruise;круїз;Mein Teamlead macht im Sommer eine Kreuzfahrt im Mittelmeer.
+in der Regel;usually, as a rule;зазвичай;In der Regel pushen wir freitagnachmittags keinen neuen Code auf Produktion.
+etw. stückeln (z.B. den Urlaub);to split up, to piece together;розбивати на частини (напр., відпустку);Wegen des großen Projekts muss ich meinen Jahresurlaub leider stückeln.
+der Urlaubsantrag, "-e;leave application, vacation request;заява на відпустку;Ich habe meinen Urlaubsantrag digital im HR-System eingereicht.
+sich aufhalten (hält auf, hielt auf, hat aufgehalten);to stay, to linger;перебувати, затримуватися;In der Mittagspause halte ich mich gerne in der gemütlichen Büro-Küche auf.
+etw. beklagen;to complain about, to lament;скаржитися на;Viele Entwickler beklagen die schlechte Dokumentation der alten API.
+zu einem Ergebnis kommen;to come to a conclusion/result;дійти висновку / результату;Wir müssen in diesem Meeting zu einem Ergebnis beim Datenbank-Design kommen.
+das Freizeitverhalten (Sg.);leisure behavior;проведення вільного часу;Das Freizeitverhalten vieler Entwickler schließt Videospiele (Gaming) ein.
+die Freizeitbeschäftigung, -en;leisure activity;заняття у вільний час;Programmieren ist für manche nicht nur Beruf, sondern auch Freizeitbeschäftigung.
+der Mittagsschlaf (Sg.);afternoon nap;післяобідній сон;Im Homeoffice mache ich manchmal einen kurzen Mittagsschlaf (Powernap).
+das Multitasking (Sg.);multitasking;багатозадачність;Multitasking beim Coden führt nachweislich zu mehr Fehlern im System.
+repräsentativ;representative;репрезентативний;Die Umfrage unter den Usern der neuen App ist sehr repräsentativ.
+eine repräsentative Studie;a representative study;репрезентативне дослідження;Eine repräsentative Studie zeigt, dass IT-Fachkräfte viel Kaffee trinken.
+die Stiftung, -en;foundation, charity;фонд;Die Firma spendet an eine Stiftung, die IT-Bildung für Kinder fördert.
+etw. unternehmen (unternimmt, unternahm, hat unternommen);to undertake, to do (an activity);робити, здійснювати (часто разом);Am Wochenende möchte ich etwas mit meinen IT-Kollegen unternehmen.
+sich etw. vornehmen (nimmt vor, nahm vor, hat vorgenommen);to plan to do sth., to resolve;планувати, задумувати;Ich habe mir vorgenommen, dieses Jahr die Programmiersprache Rust zu lernen.

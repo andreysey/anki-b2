@@ -1,0 +1,129 @@
+#separator:;
+#html:true
+#columns:German;English;Ukrainian;Example
+der Arbeitsvertrag, "-e;employment contract;трудовий договір;Ich habe meinen neuen Arbeitsvertrag als Entwickler unterschrieben.
+der Aushang, "-e;notice, poster;оголошення, афіша;Ich habe das Jobangebot für Software-Tester durch einen Aushang gefunden.
+aussagekräftig;meaningful, expressive;змістовний, переконливий;Dein GitHub-Profil ist sehr aussagekräftig für deine Coding-Skills.
+etw. beinhalten;to contain, to include;містити в собі, охоплювати;Das neue Software-Update wird viele Bugfixes beinhalten.
+das BIZ (Berufsinformationszentrum) (Sg.);career information center;центр профорієнтації;Das BIZ hilft auch Quereinsteigern beim Start in die IT.
+die Chancengleichheit, -en;equal opportunity;рівні можливості;Chancengleichheit im Tech-Team ist unserem Unternehmen sehr wichtig.
+etw. entwickeln;to develop;розробляти;Wir entwickeln eine neue Cloud-Lösung für B2B-Kunden.
+der (medizinische) Fortschritt (Sg.);(medical) progress;(медичний) прогрес;Künstliche Intelligenz beschleunigt den medizinischen Fortschritt enorm.
+ein inklusiver Arbeitsplatz;inclusive workplace;інклюзивне робоче місце;Unsere Tech-Firma fördert einen modernen und inklusiven Arbeitsplatz.
+innovativ;innovative;інноваційний;Wir arbeiten an einer innovativen App-Architektur.
+die Jobmesse, -n;job fair;ярмарок вакансій;Auf der IT-Jobmesse habe ich viele nützliche Kontakte geknüpft.
+der Labormitarbeiter, - / die Labormitarbeiterin, -nen;laboratory worker;співробітник лабораторії;Der Labormitarbeiter testet die neue Hardware-Komponente.
+die Messmethode, -n;measurement method;метод вимірювання;Wir nutzen eine neue Messmethode für die Server-Performance.
+das Netzwerk, -e;network;мережа;Ein gutes Netzwerk auf LinkedIn ist wichtig für die Jobsuche.
+die Online-Jobbörse, -n;online job board;онлайн-біржа праці;Ich suche auf einer Online-Jobbörse nach Remote-Jobs.
+das Online-Stellenportal, -e;online job portal;онлайн-портал вакансій;StepStone ist ein bekanntes Online-Stellenportal in Deutschland.
+das Pharmaunternehmen, -;pharmaceutical company;фармацевтична компанія;Das Pharmaunternehmen sucht IT-Experten für die Datenanalyse (Big Data).
+die Qualitätskontrolle, -n;quality control;контроль якості;Die QA (Qualitätskontrolle) prüft den Code vor dem Release.
+etw. recherchieren;to research;досліджувати, шукати інформацію;Ich muss die beste API-Lösung für unser Projekt recherchieren.
+sorgfältig;careful(ly), diligent(ly);ретельний, акуратний;Programmierer müssen beim Unit-Testing sehr sorgfältig sein.
+soziale Netzwerke (Pl.);social networks;соціальні мережі;Wir teilen das Jobangebot für Entwickler auch über soziale Netzwerke.
+die Sozialleistung, -en;social benefit;соціальна виплата, пільга від компанії;Dieses IT-Startup bietet sehr gute Sozialleistungen für Mitarbeiter.
+die Stellenbörse, -n;job market, job exchange;біржа праці, ринок вакансій;Stack Overflow hatte früher eine eigene Stellenbörse für Coder.
+das Stellengesuch, -e;job request, job application;заява про пошук роботи;Ich habe mein Stellengesuch als DevOps-Engineer online gestellt.
+die Stellensuche (Sg.);job search;пошук роботи;Meine Stellensuche in der Tech-Branche war nach zwei Wochen erfolgreich.
+umfangreich;extensive, comprehensive;об'ємний, великий, розлогий;Diese API hat eine sehr umfangreiche Dokumentation.
+unbefristet;unlimited, permanent;безстроковий;Ich suche einen unbefristeten Arbeitsvertrag als Fullstack-Developer.
+die Vergütung, -en;compensation, remuneration;оплата праці, винагорода;Die finanzielle Vergütung für Senior Entwickler ist sehr attraktiv.
+etw. verlangen;to demand, to require;вимагати;Der Job verlangt sehr gute Kenntnisse in React und Node.js.
+die Voraussetzung, -en;prerequisite, requirement;передумова, вимога;Gute Englischkenntnisse sind eine absolute Voraussetzung für das IT-Team.
+die Webseite, -n;website;вебсайт;Wir müssen das Design unserer Webseite dringend aktualisieren.
+zur Verfügung stehen;to be available;бути в розпорядженні, бути доступним;Der neue Test-Server wird ab morgen zur Verfügung stehen.
+der Abschluss, "-e;degree, graduation;закінчення (навчального закладу), диплом;Mein Abschluss in Informatik hilft mir bei der Jobsuche.
+etw. auswerten;to evaluate, to analyze;оцінювати, аналізувати;Wir müssen die Log-Dateien des Servers auswerten, um den Fehler zu finden.
+begeistert von (+ Dat.);enthusiastic about;у захваті від;Ich bin sehr begeistert von den neuen Features in TypeScript 5.
+der Bildungsweg, -e;educational path;освітній шлях, шлях отримання освіти;Mein Bildungsweg umfasst ein Coding Bootcamp und ein Studium.
+die Daten (Pl.);data;дані;Wir müssen die persönlichen Daten unserer User sicher verschlüsseln.
+etw. dokumentieren;to document;документувати;Als Entwickler müssen wir unseren Quellcode sauber dokumentieren.
+eigenverantwortlich;independent(ly), responsible;під власну відповідальність, самостійний;Im Homeoffice arbeite ich sehr eigenverantwortlich.
+die Fähigkeit, -en;ability, skill;навичка, здатність;Schnelle Problemlösung ist eine wichtige Fähigkeit für IT-Spezialisten.
+fehlerfrei;flawless, error-free;безпомилковий;Mein Ziel ist es, skalierbaren und fehlerfreien Code zu schreiben.
+jdn. hinweisen auf (+ Akk.) (weist hin, wies hin, hat hingewiesen);to point out to;вказувати комусь на щось;Der Compiler weist den Entwickler auf Syntax-Fehler hin.
+etw. hinzufügen zu (+ Dat.) (fügt hinzu, fügte hinzu, hat hinzugefügt);to add to;додавати до;Ich möchte dieses Projekt-Repository zu meinem GitHub-Profil hinzufügen.
+die Kenntnis, -se;knowledge, skill;знання, навичка;Ich habe fundierte Kenntnisse in Python und SQL-Datenbanken.
+die Korrektheit (Sg.);correctness;правильність, коректність;Die QA testet die funktionale Korrektheit der Software.
+persönliche Daten (Pl.);personal data;персональні дані;Die DSGVO schützt persönliche Daten im Internet.
+die Praxis- und Berufserfahrung, -en;practical and professional experience;практичний та професійний досвід;Ich habe fünf Jahre Praxis- und Berufserfahrung als Sysadmin.
+selbstständig;independent, autonomous;самостійний, незалежний;Ich kann dieses Jira-Ticket komplett selbstständig bearbeiten.
+die Stellenausschreibung, -en;job advertisement;оголошення про вакансію;Die Stellenausschreibung passt perfekt zu meinem technischen Profil.
+verfügen über (+ Akk.);to possess, to have at one's disposal;володіти, мати в розпорядженні;Sie verfügen über exzellente Kenntnisse im Bereich Cloud-Computing.
+vertraut mit (+ Dat.);familiar with;обізнаний з, знайомий з;Ich bin sehr vertraut mit agilen Methoden wie Scrum und Kanban.
+die Vollständigkeit (Sg.);completeness;повнота, цілісність;Wir prüfen die Vollständigkeit der Datenbank nach der Migration.
+die Weiterbildung, -en;further education, training;підвищення кваліфікації;Ich mache eine Weiterbildung zum AWS Certified Solutions Architect.
+die Messung, -en;measurement;вимірювання;Die Messung der Ladezeiten (Performance) erfolgt automatisch durch Scripts.
+reizen;to appeal to, to tempt;приваблювати, манити;Die Arbeit an Künstlicher Intelligenz reizt mich beruflich sehr.
+die Rückmeldung, -en;feedback, reply;зворотний зв'язок, відповідь;Ich warte noch auf eine Rückmeldung vom HR nach dem Vorstellungsgespräch.
+die Soft Skills (Pl.);soft skills;м'які навички;Gute Kommunikation ist einer der wichtigsten Soft Skills in der IT.
+die Stärke, -n;strength;сильна сторона;Meine größte Stärke ist das Debugging von komplexem Legacy-Code.
+der Versuchsablauf, "-e;test procedure, experimental procedure;хід тестування, експерименту;Der Versuchsablauf beim A/B-Testing für das neue Design ist dokumentiert.
+etw. vertiefen;to deepen;поглиблювати (напр. знання);Ich möchte meine Kenntnisse in Docker und Kubernetes weiter vertiefen.
+vielfältig;diverse, varied;різноманітний, багатогранний;Die Aufgaben eines Fullstack-Entwicklers in einem Startup sind sehr vielfältig.
+vollständig;complete(ly);повний;Der Quellcode des Projekts ist vollständig auf GitHub verfügbar.
+sich weiterentwickeln;to develop further;розвиватися далі, вдосконалюватися;In der IT-Branche muss man sich ständig weiterentwickeln.
+Wert legen auf (+ Akk.);to attach importance to, to value;надавати значення, цінувати;Wir legen großen Wert auf sauberen Code und gute Testabdeckung.
+der Absender, -;sender;відправник;Der Absender der E-Mail war der IT-Recruiter des Unternehmens.
+die Anlage, -n;attachment, enclosure;додаток (до листа);Mein detaillierter Lebenslauf befindet sich in der Anlage dieser E-Mail.
+die Anrede, -n;salutation;звертання (в листі);In der Bewerbung habe ich eine formelle Anrede benutzt.
+der Ansprechpartner, - / die Ansprechpartnerin, -nen;contact person;контактна особа;Wer ist mein technischer Ansprechpartner für das neue Projekt?
+der Aufgabenbereich, -e;area of responsibility;сфера завдань, обов'язків;Die Frontend-Entwicklung gehört zu meinem neuen Aufgabenbereich.
+das Aufgabengebiet, -e;field of activity, scope of duties;сфера діяльності;Cloud-Administration ist mein primäres Aufgabengebiet.
+etw. beantworten;to answer;відповідати на щось;Ich muss noch ein paar Fragen des Kunden im Ticket beantworten.
+etw. beweisen (beweist, bewies, hat bewiesen);to prove;доводити;Er konnte seine Coding-Skills im technischen Interview (Live-Coding) beweisen.
+die Bewerbungsunterlagen (Pl.);application documents;документи для працевлаштування;Ich habe meine Bewerbungsunterlagen als PDF per E-Mail geschickt.
+die Durchführung, -en;execution, implementation;виконання, проведення;Ich bin für die Durchführung der automatisierten Software-Tests verantwortlich.
+sich einarbeiten in (+ Akk.);to familiarize oneself with;вникати, освоювати, опановувати;Ich muss mich in der ersten Woche in das neue Framework einarbeiten.
+die Einleitung, -en;introduction;вступ;Die Einleitung im Anschreiben sollte direkt und spannend formuliert sein.
+der Empfänger, - / die Empfängerin, -nen;recipient;одержувач;Der Empfänger der Nachricht bekommt sofort eine Push-Benachrichtigung.
+engagiert;committed, dedicated;відданий справі, активний;Wir suchen engagierte Junior-Entwickler für unser wachsendes Team.
+das Fachwissen (Sg.);expertise, expert knowledge;професійні знання;Er hat ein unglaubliches Fachwissen im Bereich Cybersecurity.
+das Fähigkeitsprofil, -e;skill profile;профіль навичок;Mein technisches Fähigkeitsprofil passt sehr gut zu den Anforderungen.
+etw. fordern;to demand, to require;вимагати;Die neue Software fordert leider viel mehr Rechenleistung (CPU).
+herausfordernd;challenging;складний, такий, що кидає виклик;Die Migration der Backend-Architektur ist sehr herausfordernd.
+leichtfallen (fällt leicht, fiel leicht, ist leichtgefallen);to be easy (for someone);даватися легко;Das Erlernen von neuen Programmiersprachen fällt mir sehr leicht.
+einen Termin bestätigen;to confirm an appointment;підтвердити зустріч;Ich möchte hiermit den Termin für das IT-Interview nächste Woche bestätigen.
+überzeugend;convincing;переконливий;Seine Lösung für den Algorithmus beim Live-Coding war sehr überzeugend.
+unbedingt;absolutely, necessarily;обов'язково, неодмінно;Wir müssen diesen kritischen Bug unbedingt noch vor dem Wochenende fixen.
+etw. variieren;to vary;варіювати, змінювати;Die Server-Auslastung kann je nach Tageszeit stark variieren.
+verständlich;understandable, comprehensible;зрозумілий;Die API-Dokumentation muss für alle externen Entwickler verständlich sein.
+die Vorlage, -n;template;шаблон, макет, зразок;Ich nutze eine fertige CSS-Vorlage für das neue Webdesign.
+etw./jdn. wahrnehmen (nimmt wahr, nahm wahr, hat wahrgenommen);to perceive, to notice;сприймати, помічати;User nehmen langsame Ladezeiten der App sehr negativ wahr.
+die Zuverlässigkeit (Sg.);reliability;надійність;Die Zuverlässigkeit unseres Cloud-Providers ist für das Business entscheidend.
+etw. anpacken;to tackle, to take hold of;братися за щось;Wir müssen dieses komplexe Architektur-Problem gemeinsam anpacken.
+die Auflistung, -en;list, listing;перелік, список;Hier ist eine Auflistung aller Bugs, die wir im nächsten Sprint fixen müssen.
+etw. bestätigen;to confirm;підтверджувати;Bitte bestätigen Sie den Empfang der neuen Server-Hardware.
+der Dienstleister, - / die Dienstleisterin, -nen;service provider;постачальник послуг;Wir nutzen AWS als Dienstleister für unsere IT-Infrastruktur.
+ehrgeizig;ambitious;амбітний;Er ist ein sehr ehrgeiziger Junior-Entwickler und lernt unglaublich schnell.
+erforderlich;required, necessary;необхідний;Administratorrechte sind für die Installation dieser Software erforderlich.
+etw./jdn. erkennen (erkennt, erkannte, hat erkannt);to recognize;розпізнавати, усвідомлювати;Die KI kann komplexe Muster in diesen großen Datenmengen erkennen.
+etw. erledigen;to complete, to get done;виконувати, залагоджувати;Ich werde dieses Jira-Ticket bis morgen Abend erledigen.
+etw. erstatten;to refund, to reimburse;відшкодовувати (кошти);Die Firma wird mir die Kosten für das IT-Zertifikat erstatten.
+die Fahrkosten (Pl.);travel expenses;транспортні витрати;Werden die Fahrkosten zum Vorstellungsgespräch vom Arbeitgeber übernommen?
+die Flexibilität (Sg.);flexibility;гнучкість;Agile Softwareentwicklung erfordert viel Flexibilität vom gesamten Team.
+der Gesprächspartner, - / die Gesprächspartnerin, -nen;conversation partner, interviewer;співрозмовник, інтерв'юер;Mein Gesprächspartner beim Interview war der Lead Developer.
+gründlich;thorough(ly);ретельний;Der Code muss vor dem Commit in den Main-Branch gründlich getestet werden.
+die Kommunikationskompetenz (Sg.);communication skills;комунікативні навички;Kommunikationskompetenz ist besonders wichtig bei der agilen Arbeit im Team.
+die Kosten (Pl.);costs, expenses;витрати, вартість;Wir müssen die Kosten für unsere Cloud-Datenbanken reduzieren.
+Kosten erstatten;to reimburse costs;відшкодовувати витрати;Das Unternehmen wird die Kosten für das Homeoffice-Equipment erstatten.
+die Kritikfähigkeit (Sg.);ability to accept criticism;здатність сприймати критику;Bei Code-Reviews ist eine hohe Kritikfähigkeit extrem wichtig für Entwickler.
+etw./jdn. kritisieren;to criticize;критикувати;Wir kritisieren im Review immer nur den Code, niemals den Entwickler.
+der Laborleiter, - / die Laborleiterin, -nen;laboratory manager;керівник лабораторії;Der Laborleiter überwacht die Qualität der neuen Hardware-Tests.
+die Leistungsbereitschaft (Sg.);motivation, willingness to perform;готовність до роботи, мотивація;Die Leistungsbereitschaft unseres IT-Teams vor einem Release ist sehr hoch.
+der Personalverantwortliche, -n / die Personalverantwortliche, -n;HR manager;HR-менеджер, відповідальний за персонал;Das Erstgespräch findet mit dem Personalverantwortlichen statt.
+die Quittung, -en;receipt;квитанція, чек;Ich brauche die Quittung für den Kauf der Software-Lizenz für die Buchhaltung.
+die Teamfähigkeit (Sg.);teamwork skills;здатність працювати в команді;Für Pair-Programming ist absolute Teamfähigkeit erforderlich.
+angespannt;tense, tight;напружений;Der Wohnungsmarkt in IT-Hubs wie München oder Berlin ist sehr angespannt.
+die Bescheinigung, -en;certificate, attestation;довідка, свідоцтво;Ich brauche eine Bescheinigung meines Arbeitgebers für den neuen Vermieter.
+der Besichtigungstermin, -e;viewing appointment;час огляду (квартири);Ich habe heute Nachmittag einen Besichtigungstermin für eine schöne Wohnung.
+betragen (beträgt, betrug, hat betragen);to amount to, to be;становити, дорівнювати;Die Miete darf laut Experten maximal 30% des Netto-Gehalts betragen.
+deprimierend;depressing;пригнічуючий, депресивний;Die lange Wohnungssuche in Deutschland kann für Expats manchmal deprimierend sein.
+das Familieneinkommen, -;family income;дохід сім'ї;Als Softwareentwickler trägt er den größten Teil zum Familieneinkommen bei.
+der Gehaltsnachweis, -e;proof of salary/income;довідка про доходи;Der Vermieter verlangt die Gehaltsnachweise der letzten drei Monate.
+gemeinsam;together, common;разом, спільний;Wir suchen gemeinsam mit meiner Frau nach einer größeren Wohnung.
+die Immobilie, -n;real estate, property;нерухомість;Als Senior Developer möchte er später in eine eigene Immobilie investieren.
+der Makler, - / die Maklerin, -nen;real estate agent, broker;маклер, брокер, рієлтор;Der Makler hat mir eine tolle Wohnung in der Nähe des IT-Büros gezeigt.
+die Mietschulden (Pl.);rent arrears, rent debts;борги з оренди;Zum Glück habe ich ein gutes IT-Gehalt und absolut keine Mietschulden.
+mühsam;arduous, laborious;важкий, виснажливий;Die Suche nach einer bezahlbaren Wohnung ist in Großstädten oft sehr mühsam.

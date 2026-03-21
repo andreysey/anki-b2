@@ -1,0 +1,135 @@
+#separator:;
+#html:true
+#columns:German;English;Ukrainian;Example
+etw./jdn. absichern;to secure, to insure;забезпечувати, страхувати;Als IT-Freelancer muss man sich selbst finanziell für das Alter absichern.
+die Absicherung, -en;security, safeguard, insurance;забезпечення, гарантія;Eine gute IT-Infrastruktur braucht eine starke Absicherung gegen Hacker.
+angewiesen auf (+ Akk.);dependent on;залежний від;Unser System ist auf eine stabile und schnelle Datenbank-Verbindung angewiesen.
+der Anspruch, "-e;claim, right;претензія, право;Jeder Entwickler hat rechtlichen Anspruch auf mindestens 20 Tage Urlaub im Jahr.
+das Arbeitslosengeld (Sg.);unemployment benefit;допомога по безробіттю;Nach der Startup-Pleite musste ich vorübergehend Arbeitslosengeld (ALG I) beantragen.
+die Arbeitslosenversicherung, -en;unemployment insurance;страхування на випадок безробіття;Die Arbeitslosenversicherung wird automatisch von deinem Bruttogehalt abgezogen.
+der Ausgleich (Sg.);balance, compensation;баланс, компенсація;Sport ist ein extrem wichtiger Ausgleich zum ständigen Sitzen am PC.
+der Beamte, -n / die Beamtin, -nen;civil servant;державний службовець;Viele IT-Experten im Ministerium arbeiten sicher als Beamte.
+etw. beantragen;to apply for;подавати заяву на;Ich möchte nächste Woche Urlaub für die Tech-Konferenz beantragen.
+sich begeben (begibt sich, begab sich, hat sich begeben);to go, to proceed;відправлятися, йти;Der Techniker muss sich in den Serverraum begeben, um das Kabel zu tauschen.
+die Beihilfe, -n;aid, subsidy;допомога, субсидія;Das Tech-Startup erhält eine staatliche Beihilfe für Forschung an KI.
+die Betriebsrente, -n;company pension;корпоративна пенсія;Zusätzlich zum Gehalt zahlt die Firma jeden Monat in meine Betriebsrente ein.
+etw. bewilligen;to approve, to grant;затверджувати, давати дозвіл;Der Chef hat mein Budget für die AWS-Serverzertifizierung bewilligt.
+der Bürger, - / die Bürgerin, -nen;citizen;громадянин;Wir entwickeln eine digitale Service-App für alle Bürger der Stadt.
+das Elterngeld (Sg.);parental allowance;допомога на дитину (для батьків у декреті);Während meiner Elternzeit erhalte ich staatliches Elterngeld.
+das Existenzminimum (Sg.);subsistence level;прожитковий мінімум;Ein Junior-Gehalt in der IT liegt zum Glück weit über dem Existenzminimum.
+die Grundsicherung (Sg.);basic social security;базове соціальне забезпечення;Die Software der Arbeitsagentur berechnet automatisch die Grundsicherung.
+der Jahresverdienst, -e;annual earnings;річний дохід;Mein Jahresverdienst als Senior Developer ist im Arbeitsvertrag klar geregelt.
+das Kindergeld (Sg.);child benefit;допомога на дитину;Die HR-Abteilung hilft mir bei den Formularen für das Kindergeld.
+das Krankengeld (Sg.);sick pay;допомога по хворобі;Nach sechs Wochen schwerer Krankheit zahlt die Krankenkasse das Krankengeld.
+die Krankenversicherung, -en;health insurance;медичне страхування;In Deutschland ist eine Krankenversicherung für jeden Entwickler absolute Pflicht.
+die Leistung, -en;performance, benefit;продуктивність, виплата;Die Rechenleistung des neuen M3-Prozessors ist beeindruckend.
+das Nettoeinkommen, -;net income;чистий дохід (нетто);Nach Abzug aller Steuern bleibt dir dein monatliches Nettoeinkommen.
+oberhalb (+ Gen.);above;вище, над;Dein Gehaltswunsch liegt leider etwas oberhalb unseres Budgets.
+die Pension, -en;pension (for civil servants);пенсія (для держслужбовців);Beamte in der staatlichen IT erhalten im Alter eine sehr gute Pension.
+das Pflegegeld (Sg.);long-term care allowance;допомога по догляду;Die Health-Software berechnet automatisch das Pflegegeld für die Patienten.
+die Pflegeversicherung, -en;long-term care insurance;страхування на випадок потреби в догляді;Die Pflegeversicherung ist ein wichtiger Teil der deutschen Sozialabgaben.
+die Pflichtversicherung, -en;compulsory insurance;обов'язкове страхування;Die gesetzliche Krankenversicherung ist eine Pflichtversicherung.
+die Rente, -n;pension;пенсія;Er plant, mit 65 Jahren in Rente zu gehen und nur noch private Code-Projekte zu machen.
+das Rentenalter (Sg.);retirement age;пенсійний вік;Das gesetzliche Rentenalter in Deutschland wird vermutlich bald angehoben.
+die Rentenversicherung, -en;pension insurance;пенсійне страхування;Dein Beitrag zur Rentenversicherung wird direkt vom Bruttogehalt abgezogen.
+der Sonderstatus (Sg.);special status;особливий статус;IT-Security-Experten haben oft einen Sonderstatus im Unternehmen.
+sozial;social;соціальний;Unsere Firma engagiert sich stark für soziale Tech-Projekte.
+die Sozialhilfe (Sg.);social assistance, welfare;соціальна допомога;Ein neuer Algorithmus soll die Auszahlung der Sozialhilfe beschleunigen.
+der Sozialstaat, -en;welfare state;соціальна держава;Deutschland ist ein starker Sozialstaat mit vielen verpflichtenden Versicherungen.
+die Sozialversicherung, -en;social security;соціальне страхування;Als Festangestellter bist du automatisch in der Sozialversicherung.
+unterhalb (+ Gen.);below;нижче, під;Die Serverlast liegt zum Glück weit unterhalb des kritischen Limits.
+etw. vorlegen;to submit, to present;надавати, пред'являти;Du musst dem HR-Team deine Steuer-ID und das Zeugnis vorlegen.
+das Wohngeld (Sg.);housing allowance;допомога на оплату житла;Mit einem guten IT-Gehalt hat man normalerweise keinen Anspruch auf Wohngeld.
+die Abgabe, -n;tax, duty, submission;податок, збір, здача;Auf dem Gehaltszettel siehst du alle Steuern und staatlichen Abgaben.
+alleinerziehend;single parent;який виховує дитину сам;Als alleinerziehender Vater im IT-Support habe ich sehr flexible Arbeitszeiten.
+der Arbeitgeberanteil (Sg.);employer's contribution;частка роботодавця (у страхуванні);Die Firma zahlt 50% deiner Krankenversicherung als Arbeitgeberanteil.
+ausmachen;to amount to, to turn off;складати (суму), вимикати;Die Steuern machen einen großen Teil meines Bruttogehalts aus.
+der Auszahlungsbetrag, "-e;payout amount, net amount;сума до виплати;Der Auszahlungsbetrag auf deinem Bankkonto ist dein endgültiges Nettogehalt.
+der Beitrag, "-e;contribution, post;внесок, стаття;Mein Beitrag zur gesetzlichen Krankenversicherung steigt nächstes Jahr.
+die Einkommensteuer, -n;income tax;прибутковий податок;Mit einer guten Software für die Einkommensteuer kann man viel Geld sparen.
+die Erwerbstätigkeit, -en;employment, gainful occupation;трудова діяльність, зайнятість;Die Aufnahme einer Erwerbstätigkeit muss der Krankenversicherung gemeldet werden.
+evangelisch;Protestant, Evangelical;євангельський, протестантський;Wenn man in Deutschland offiziell evangelisch ist, zahlt man Kirchensteuer.
+die Gehaltsabrechnung, -en;payslip;розрахунковий листок;Die HR-Abteilung lädt die Gehaltsabrechnung jeden Monat sicher ins Intranet hoch.
+die Gemeinde, -n;municipality, community;громада, муніципалітет;Wir programmieren und digitalisieren die Verwaltung für eine kleine Gemeinde.
+gleichgeschlechtlich;same-sex;одностатевий;Das HR-System hat jetzt auch Felder für gleichgeschlechtliche Lebenspartner.
+jüdisch;Jewish;єврейський;Die jüdische Gemeinde nutzt unsere Cloud-Lösung für ihre Verwaltung.
+katholisch;Catholic;католицький;Wer katholisch ist, sieht den Abzug der Kirchensteuer auf dem Gehaltszettel.
+die Kirchensteuer, -n;church tax;церковний податок;Ich bin aus der Kirche ausgetreten, um mir die Kirchensteuer zu sparen.
+etw. kombinieren;to combine;комбінувати, поєднувати;Wir müssen das neue Frontend-Framework mit unserer alten Datenbank kombinieren.
+die Lebensgemeinschaft, -en;partnership, cohabitation;спільне проживання, партнерство;Die Steuerklasse hängt auch von einer eingetragenen Lebensgemeinschaft ab.
+die Lohnsteuer, -n;wage tax, income tax (on wages);податок із заробітної плати;Die Lohnsteuer wird jeden Monat automatisch vom Arbeitgeber an das Finanzamt überwiesen.
+die Sozialabgaben (Pl.);social security contributions;соціальні відрахування;Nach Abzug der Steuern und Sozialabgaben bleibt dein Nettogehalt übrig.
+die Sozialversicherungsnummer, -n;social security number;номер соціального страхування;Die HR braucht zwingend deine Sozialversicherungsnummer für den Arbeitsvertrag.
+die Steuer, -n;tax;податок;Das Steuersystem in Deutschland ist sehr komplex, weshalb viele Steuersoftware nutzen.
+die Steueridentifikationsnummer, -n;tax identification number;ідентифікаційний податковий номер (ІПН);Gib deine 11-stellige Steueridentifikationsnummer (Steuer-ID) im HR-Portal ein.
+die Steuerklasse, -n;tax bracket, tax class;податковий клас;Als unverheirateter Entwickler bin ich automatisch in Steuerklasse 1.
+etw. variieren;to vary;варіювати, змінювати;Die Hosting-Kosten können je nach Server-Traffic stark variieren.
+vermögenswirksame Leistungen (Pl.);capital-forming benefits;накопичувальні пільги (від роботодавця);Die Firma zahlt monatlich 40 Euro vermögenswirksame Leistungen in meinen ETF-Sparplan.
+der Zweitjob, -s;second job;друга робота, підробіток;Nebenbei programmiert er Webseiten für kleine Firmen als Zweitjob.
+absehbar;foreseeable;передбачуваний;Ein Ende des großen Refactoring-Projekts ist aktuell noch nicht absehbar.
+die Abwesenheit (Sg.);absence;відсутність;In meiner Abwesenheit übernimmt der Junior-Dev meine Jira-Tickets.
+ansteckend;contagious;заразний, інфекційний;Komm nicht ins Büro, wenn du eine ansteckende Krankheit hast!
+arbeitsfähig;fit for work, able to work;працездатний;Nach einer Woche Grippe bin ich endlich wieder arbeitsfähig und online.
+erkranken;to fall ill;захворіти;Wenn Sie schwer erkranken, müssen Sie dem Team sofort Bescheid geben.
+die Erkrankung, -en;illness, disease;хвороба, захворювання;Wegen einer schweren Erkrankung fiel der Lead Developer wochenlang aus.
+der Herzinfarkt, -e;heart attack;інфаркт;Zu viel Stress vor dem Code-Release ist ungesund und kann zu einem Herzinfarkt führen.
+die Impfung, -en;vaccination;щеплення;Die Firma bietet im Herbst eine kostenlose Grippeimpfung für alle Entwickler an.
+die Infektionskrankheit, -en;infectious disease;інфекційна хвороба;Bei einer Infektionskrankheit ist Homeoffice gesetzlich oft Pflicht.
+jdn. krankschreiben (schreibt krank, schrieb krank, hat krankgeschrieben);to put someone on sick leave;виписати лікарняний;Der Arzt wird mich wegen Fiebers für drei Tage krankschreiben.
+die Krankmeldung, -en;sick note, notification of illness;повідомлення про хворобу, лікарняний;Bitte sende deine Krankmeldung direkt per E-Mail an die Personalabteilung.
+der Kündigungsgrund, "-e;reason for termination;причина звільнення;Schlechter Code ist allein noch kein rechtlicher Kündigungsgrund in Deutschland.
+etw. nachholen;to catch up on, to make up for;надолужувати;Ich war krank und muss das verpasste Daily-Meeting heute Nachmittag nachholen.
+der Notfall, "-e;emergency;екстрений випадок, надзвичайна ситуація;Im Notfall kann uns der externe IT-Support auch am Wochenende helfen.
+der Orthopäde, -n / die Orthopädin, -nen;orthopedist;ортопед;Wegen meiner Rückenschmerzen vom ständigen Sitzen gehe ich zum Orthopäden.
+etw. rechtfertigen;to justify;виправдовувати, обґрунтовувати;Du musst deinen Code-Ansatz im Pull Request technisch rechtfertigen.
+soeben;just now;щойно, тільки-но;Der Produktions-Server ist soeben abgestürzt, wir müssen das fixen!
+die Vertretung, -en;representation, substitute;заміна, представництво;Während meines Urlaubs übernimmt mein Kollege die Vertretung für das Projekt.
+voraussichtlich;expected, probable;ймовірно, очікується;Das neue Feature ist voraussichtlich am Freitagnachmittag fertig.
+die Vorsorgeuntersuchung, -en;preventive medical checkup;профілактичний огляд;Ich habe heute einen Termin für die Vorsorgeuntersuchung meiner Augen.
+etw. weiterleiten;to forward;пересилати, перенаправляти;Ich werde die E-Mail des Kunden an den 2nd-Level-Support weiterleiten.
+etw. abmildern;to soften, to mitigate;пом'якшувати, зменшувати;Wir nutzen Load Balancer, um den extremen Traffic-Peak abzumildern.
+der Angehörige, -n / die Angehörige, -n;relative;родич;Wir haben eine spezielle Software für pflegende Angehörige entwickelt.
+Anspruch haben auf (+ Akk.);to be entitled to, to have a right to;мати право на;Du hast bei einer 5-Tage-Woche Anspruch auf mindestens 20 Tage Urlaub im Jahr.
+ausschließlich;exclusively, only;виключно;Dieses AWS-Konto wird ausschließlich für die Produktion genutzt.
+etw./jdn. bedenken (bedenkt, bedachte, hat bedacht);to consider, to think about;враховувати, обмірковувати;Wir müssen bei der App-Architektur auch die spätere Skalierbarkeit bedenken.
+der Berufswiedereinstieg (Sg.);return to work (after a break);повернення до професійної діяльності;Nach der Elternzeit plant sie ihren Berufswiedereinstieg als Scrum Master.
+die Betreuungsmöglichkeit, -en;childcare option;можливість догляду (за дітьми);Unser IT-Konzern bietet eine eigene Kita als Betreuungsmöglichkeit an.
+die Elternzeit (Sg.);parental leave;відпустка по догляду за дитиною;Der Lead Developer ist für drei Monate in Elternzeit und offline.
+jdn. freistellen;to exempt, to release (from work);звільнити (від роботи);Die Firma musste ihn nach der fristlosen Kündigung sofort freistellen.
+die Freistellung, -en;exemption, release from duty;звільнення від виконання обов'язків;Er erhielt eine bezahlte Freistellung für die letzten zwei Monate seines Vertrages.
+das Homeoffice (Sg.);home office, working from home;робота з дому;Wir haben eine Betriebsvereinbarung für 100% Remote-Work und Homeoffice.
+der Kündigungsschutz (Sg.);protection against dismissal;захист від звільнення;Schwangere Entwicklerinnen haben einen besonderen gesetzlichen Kündigungsschutz.
+die Lohnersatzleistung, -en;wage replacement benefit;допомога, що замінює заробітну плату;Das Krankengeld ist eine klassische staatliche Lohnersatzleistung in Deutschland.
+pflegebedürftig;in need of care;такий, що потребує догляду;Er arbeitet in Teilzeit, weil sein Vater leider pflegebedürftig ist.
+die Pflegekasse (Sg.);long-term care insurance fund;каса страхування по догляду;Wir digitalisieren die Antragsformulare für die gesetzliche Pflegekasse.
+die Pflegezeit, -en;care leave;відпустка для догляду за родичем;Man kann Pflegezeit beantragen, um schwerkranke Angehörige zu pflegen.
+rechnen mit (+ Dat.);to expect, to count on;очікувати, розраховувати на;Wir rechnen mit einem massiven Anstieg der Serverlast am Black Friday.
+der Rechtsanspruch, "-e;legal right, legal claim;юридичне право;Du hast einen gesetzlichen Rechtsanspruch auf ein qualifiziertes Arbeitszeugnis.
+die Tagesmutter, "-;childminder, nanny;няня (яка доглядає вдень);Die Tagesmutter passt auf mein Kind auf, während ich im Homeoffice programmiere.
+die Wechselschicht, -en;rotating shift;позмінна робота;Im 24/7 IT-Support gibt es oft eine anstrengende Wechselschicht.
+zinslos;interest-free;безвідсотковий;Die Firma hat dem Startup ein komplett zinsloses Darlehen gewährt.
+sich zurechtfinden;to find one's way around;орієнтуватися, розбиратися;Es dauert ein paar Wochen, bis man sich in der riesigen Codebase zurechtfindet.
+der Zusammenhang, "-e;connection, context;зв'язок, контекст;Ich sehe keinen Zusammenhang zwischen dem Frontend-Update und dem Datenbankfehler.
+der Arbeitgeberverband, "-e;employers' association;спілка роботодавців;Der Arbeitgeberverband verhandelt die IT-Tarifverträge mit der Gewerkschaft.
+etw. auflisten;to list;перераховувати, складати список;Kannst du bitte alle gefundenen Bugs ordentlich in einem Jira-Ticket auflisten?
+etw. aushandeln;to negotiate;домовлятися, вести переговори;Beim Jobwechsel konnte ich ein deutlich höheres Gehalt aushandeln.
+das Einkommensniveau, -s;income level;рівень доходів;Das Einkommensniveau für Softwarearchitekten in München ist extrem hoch.
+die Einkünfte (Pl.);income, earnings;доходи;Meine zusätzlichen Einkünfte als Freelancer muss ich dem Finanzamt melden.
+das Gefühl, -e;feeling;почуття, відчуття;Ich habe das schlechte Gefühl, dass wir diese Deadline nicht schaffen werden.
+der Gehaltsvergleich, -e;salary comparison;порівняння зарплат;Ein Gehaltsvergleich auf Portalen wie Glassdoor hilft bei der Gehaltsverhandlung.
+die Geldanlage, -n;financial investment;грошовий вклад, інвестиція;Aktien und ETFs sind eine sehr beliebte Geldanlage bei gut bezahlten IT-Profis.
+generell;general(ly), in general;загалом, в основному;Generell gibt es bei uns im Tech-Team absolut keine Dresscode-Regeln.
+etw. herausfinden (findet heraus, fand heraus, hat herausgefunden);to find out;з'ясувати, дізнатися;Wir müssen dringend herausfinden, warum die Datenbank-Anfragen so lange dauern.
+luxuriös;luxurious;розкішний;Die neuen IT-Büros in Berlin sind sehr modern und fast schon luxuriös ausgestattet.
+peinlich;embarrassing;соромно, незручно;Es war extrem peinlich, als seine Demo-App vor dem wichtigsten Kunden abstürzte.
+etw. preisgeben (gibt preis, gab preis, hat preisgegeben);to reveal, to disclose;розголошувати, видавати;Wir dürfen den Quellcode auf keinen Fall an die Konkurrenz preisgeben.
+stammen aus (+ Dat.);to come from, to originate from;походити з;Dieses alte Code-Snippet (Legacy) stammt noch aus dem Jahr 2015.
+das Statussymbol, -e;status symbol;символ статусу;Ein teures Firmenauto ist für manche Manager ein wichtiges Statussymbol.
+die Steuererklärung, -en;tax return;податкова декларація;Ich nutze eine moderne App, um meine Steuererklärung digital abzugeben.
+der Tarifvertrag, "-e;collective labor agreement;тарифний договір;Der Tarifvertrag regelt die genauen Gehälter und Urlaubstage der Angestellten.
+die Übersicht, -en;overview;огляд, загальна картина;Das Monitoring-Dashboard bietet eine gute Übersicht über alle laufenden Server.
+üblich;usual, common;звичайний, прийнятий;In agilen Software-Teams ist das Duzen der Kollegen absolut üblich.
+umgehen mit (+ Dat.) (geht um, ging um, ist umgegangen);to deal with, to handle;поводитися з, обходитися;Als DevOps-Engineer musst du gut mit Druck und Stress umgehen können.
+ungeeignet;unsuitable;непридатний;Dieses alte Framework ist für moderne Web-Apps völlig ungeeignet.
+ungerechtfertigt;unjustified;необґрунтований;Die fristlose Kündigung des Entwicklers war laut Gericht rechtlich ungerechtfertigt.
+vorherrschen;to prevail, to predominate;переважати, панувати;In unserem Startup soll eine Kultur der offenen Fehler-Kommunikation vorherrschen.

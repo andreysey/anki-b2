@@ -1,0 +1,136 @@
+#separator:;
+#html:true
+#columns:German;English;Ukrainian;Example
+der Absolvent, -en / die Absolventin, -nen;graduate;випускник;Als Absolvent einer IT-Akademie suche ich meinen ersten Job.
+sich anpassen an (+ Akk.);to adapt to;пристосовуватися до, адаптуватися до;Wir müssen uns schnell an die neuen Technologien anpassen.
+der Arbeitsberater, - / die Arbeitsberaterin, -nen;employment counselor;консультант з працевлаштування;Der Arbeitsberater hilft mir, passende IT-Stellen zu finden.
+die Arbeitsteilung (Sg.);division of labor;розподіл праці;Agile Softwareentwicklung funktioniert gut durch klare Arbeitsteilung.
+die Arbeitswelt (Sg.);working world;світ праці, робоче середовище;Die digitale Arbeitswelt erfordert ständiges Lernen.
+aufgrund von (+ Dat.);due to, based on;на підставі, через;Aufgrund von Serverproblemen ist die Webseite offline.
+die Bedeutung, -en;meaning, significance;значення, важливість;Datensicherheit hat in unserer Firma eine große Bedeutung.
+sich behaupten;to assert oneself, to hold one's own;зарекомендувати себе, відстоювати свої позиції;Als Junior Developer muss man sich im neuen Team erst behaupten.
+der Berufsweg, -e;career path;кар'єрний шлях;Mein Berufsweg in der IT begann als Support-Mitarbeiter.
+die Digitalisierung (Sg.);digitalization;цифровізація;Die Digitalisierung verändert alle Prozesse im Unternehmen.
+sich einstellen auf (+ Akk.);to prepare for, to adjust to;налаштовуватися на, готуватися до;Wir müssen uns auf ein stressiges Release am Freitag einstellen.
+erforderlich;required, necessary;необхідний;Für diese Position sind gute Kenntnisse in React erforderlich.
+etw. erwerben (erwirbt, erwarb, hat erworben);to acquire;здобувати (напр. знання, навички);Ich möchte in diesem Projekt neue Programmierkenntnisse erwerben.
+der Erwerbstätige, -n / die Erwerbstätige, -n;employed person;працюючий, людина, що має оплачувану роботу;Viele Erwerbstätige in der IT arbeiten im Home-Office.
+der Freiberufler, - / die Freiberuflerin, -nen;freelancer;фрилансер;Als Freiberufler entwickle ich Apps für verschiedene Kunden.
+die Globalisierung (Sg.);globalization;глобалізація;Durch die Globalisierung arbeiten wir mit Entwicklern aus aller Welt.
+die Herausforderung, -en;challenge;виклик, складна задача;Die Server-Migration ist eine große technische Herausforderung.
+interkulturelle Kompetenz;intercultural competence;міжкультурна компетенція;Im internationalen Team ist interkulturelle Kompetenz sehr wichtig.
+der Klimawandel (Sg.);climate change;зміна клімату;Green IT versucht, den Klimawandel durch energiesparende Server zu bremsen.
+die Kompetenz, -en;competence, skill;компетенція, навичка;Er hat eine hohe Kompetenz im Bereich Cloud-Computing.
+modernisieren;to modernize;модернізувати, оновлювати;Wir müssen unsere alte IT-Infrastruktur modernisieren.
+die Neuorientierung, -en;reorientation;переорієнтація;Nach fünf Jahren im Frontend brauche ich eine berufliche Neuorientierung ins Backend.
+sich niederlassen (lässt sich nieder, ließ sich nieder, hat sich niedergelassen);to settle, to establish oneself;осісти, заснувати справу;Das Startup hat sich in Berlin niedergelassen.
+ökologisch;ecological;екологічний;Unsere Rechenzentren nutzen ökologischen Strom.
+das Pausengespräch, -e;break conversation;розмова під час перерви;Im Pausengespräch reden wir oft über neue Frameworks.
+die Technologie, -n;technology;технологія;Wir nutzen die neueste Technologie für unsere App.
+die Unterbrechung, -en;interruption;перерва, переривання;Ein Deployment ohne Unterbrechung (Zero Downtime) ist unser Ziel.
+das Unternehmen, -;company, enterprise;підприємство, компанія;Das IT-Unternehmen wächst sehr schnell.
+veralten;to become obsolete / outdated;застарівати;Dieser Code ist leider schon nach zwei Jahren veraltet.
+vertrauen auf (+ Akk.);to trust in, to rely on;довіряти, покладатися на;Wir vertrauen auf das neue Backup-System.
+ambulant;outpatient, ambulatory;амбулаторний;Wir programmieren eine Software für ambulante Pflegedienste.
+das Berufsleben (Sg.);professional life, career;професійне життя;Ein lebenslanges Lernen gehört zum Berufsleben in der IT.
+das Beschwerdemanagement (Sg.);complaint management;управління скаргами;Das Beschwerdemanagement nutzt unser neues Ticket-System.
+der Betreuungsdienst, -e;care service, support service;служба догляду (або підтримки);Der IT-Betreuungsdienst hilft den Usern bei Problemen.
+der Bildungsgutschein, -e;education voucher;ваучер на навчання;Mit dem Bildungsgutschein vom Jobcenter mache ich einen IT-Kurs.
+bisherig;previous;попередній, нинішній (до цього моменту);Mein bisheriger Arbeitgeber hat keine Cloud genutzt.
+eingehende Post;incoming mail;вхідна пошта;Das Skript sortiert automatisch alle eingehende Post.
+die Fachkraft, "-e;skilled worker, specialist;кваліфікований спеціаліст;Es gibt einen großen Mangel an IT-Fachkräften in Deutschland.
+die Fördermöglichkeit, -en;funding opportunity;можливість фінансування;Startups suchen oft nach staatlichen Fördermöglichkeiten.
+geeignet für (+ Akk.);suitable for;придатний для, підходящий;Diese Datenbank ist gut geeignet für große Datenmengen.
+die Haushaltsführung, -en;household management;ведення домашнього господарства;Unsere Smart-Home-App hilft bei der Haushaltsführung.
+die Hilfskraft, "-e;assistant, helper;помічник, допоміжний персонал;Wir suchen eine studentische Hilfskraft für den IT-Support.
+die Kenntnis, -se;knowledge;знання;Gute Kenntnisse in JavaScript sind für diesen Job Pflicht.
+Kenntnisse erwerben;to acquire knowledge;здобувати знання;Im Praktikum möchte ich praktische Kenntnisse erwerben.
+die Lagerliste, -n;inventory list, stock list;складський список;Die Datenbank aktualisiert die Lagerliste in Echtzeit.
+der Lagerlogistiker, - / die Lagerlogistikerin, -nen;warehouse logistician;спеціаліст зі складської логістики;Der Lagerlogistiker nutzt unser neues Barcode-System.
+der Lehrplan, "-e;curriculum;навчальний план;Docker steht im Lehrplan meines Coding-Bootcamps.
+der Pflegedienst, -e;nursing service;служба догляду;Wir digitalisieren die Akten für einen Pflegedienst.
+die Pflegeeinrichtung, -en;care facility;заклад догляду;Die Pflegeeinrichtung braucht ein neues Netzwerk.
+die Pflegekraft, "-e;caregiver, nurse;медпрацівник, доглядальник;Die Pflegekraft nutzt Tablets für die Dokumentation.
+das Pflegezertifikat, -e;care certificate;сертифікат з догляду;Für medizinische Software brauchen wir spezielle Pflegezertifikate.
+das Präsenzseminar, -e;in-person seminar;очний семінар;Ich lerne lieber online als in einem Präsenzseminar.
+der Produktionshelfer, - / die Produktionshelferin, -nen;production assistant;помічник на виробництві;Der Produktionshelfer bedient die Maschinen.
+sich qualifizieren;to qualify oneself;кваліфікуватися, підвищувати кваліфікацію;Ich möchte mich für die Position als Senior Developer qualifizieren.
+die Sachkenntnis, -se;expertise, factual knowledge;експертність, професійні знання;Für dieses Architektur-Muster braucht man viel Sachkenntnis.
+etw. vermitteln;to convey, to impart, to mediate;передавати (досвід), посередничати, працевлаштовувати;Ein guter Mentor kann komplexes Wissen gut vermitteln.
+zur Verfügung stehen;to be available;бути в розпорядженні, бути доступним;Der neue Server wird ab morgen zur Verfügung stehen.
+die Abfallvermeidung (Sg.);waste prevention;уникнення відходів;Unser Büro legt großen Wert auf digitale Abfallvermeidung.
+der Anschluss, "-e;connection;підключення, зв'язок;Der Internetanschluss im neuen Büro ist sehr schnell.
+der Bereich, -e;area, field, department;відділ, сфера;Ich arbeite im Bereich Softwareentwicklung.
+die Betriebsbesichtigung, -en;company tour;екскурсія підприємством;Am ersten Tag gibt es eine Betriebsbesichtigung für neue Mitarbeiter.
+das Betriebsgelände (Sg.);company grounds;територія підприємства;Auf dem Betriebsgelände gibt es kostenloses WLAN.
+etw. einführen;to introduce, to implement;впроваджувати, запроваджувати;Wir werden nächste Woche ein neues CRM-System einführen.
+die Energieeinsparung, -en;energy saving;енергозбереження;Die Energieeinsparung bei den neuen Servern ist enorm.
+der Entscheidungsspielraum, "-e;scope for decision-making;свобода прийняття рішень;In unserem Startup haben Entwickler viel Entscheidungsspielraum.
+etw. eröffnen;to open;відкривати;Die Firma wird einen neuen Standort in Berlin eröffnen.
+die Eröffnung, -en;opening;відкриття;Die Eröffnung des neuen Büros feiern wir am Freitag.
+die Erschließung (Sg.) (z. B. neuer Märkte);development, opening up;освоєння (наприклад, нових ринків);Die Erschließung des europäischen Marktes ist unser Ziel.
+etw. erweitern;to expand;розширювати;Wir müssen die Kapazität der Datenbank erweitern.
+die Fertigstellung (Sg.);completion;завершення, готовність;Die Fertigstellung des Projekts ist für Mai geplant.
+die Filiale, -n;branch, subsidiary;філія, відділення;Die Firma eröffnet eine neue Filiale in München.
+eine flache Hierarchie;a flat hierarchy;плоска ієрархія (мало рівнів керівництва);Startups haben meistens eine flache Hierarchie.
+das Geschäftsjahr, -e;financial year;фінансовий рік;Im letzten Geschäftsjahr hat das Unternehmen den Gewinn verdoppelt.
+das Gründungsdatum, -daten;founding date;дата заснування;Das Gründungsdatum unseres IT-Startups war im Jahr 2020.
+die Hierarchie, -n;hierarchy;ієрархія;In traditionellen Konzernen gibt es oft eine strenge Hierarchie.
+im Anschluss an (+ Akk.);following, subsequent to;після, услід за (чимось);Im Anschluss an das Meeting schreiben wir das Protokoll.
+das Mitspracherecht, -e;right to have a say;право голосу;Die Entwickler haben ein Mitspracherecht bei der Technologiewahl.
+nachhaltig;sustainable;сталий, екологічний;Wir wollen unsere Server-Infrastruktur nachhaltig gestalten.
+etw. präsentieren;to present;презентувати;Heute muss ich dem Kunden die neue App präsentieren.
+der Pressesprecher, - / die Pressesprecherin, -nen;press spokesperson;прес-секретар;Der Pressesprecher kündigt das neue Software-Release an.
+Produkte einführen;to introduce products;впроваджувати / випускати продукти;Wir wollen dieses Jahr drei neue digitale Produkte einführen.
+die Produktionsstätte, -n;production facility;виробниче приміщення, фабрика;Die Server-Hardware wird in einer Produktionsstätte in Asien gebaut.
+der Rundgang, "-e;tour (of a building);обхід, екскурсія;Der Chef macht einen Rundgang durch die IT-Abteilung.
+das Sortiment, -e;assortment, range of products;асортимент;Unser Sortiment umfasst verschiedene Cloud-Lösungen.
+der Standort, -e;location, site;місцезнаходження, локація;Das Unternehmen sucht einen neuen Standort für das Rechenzentrum.
+die Terminbestätigung, -en;appointment confirmation;підтвердження зустрічі;Ich habe die Terminbestätigung für das Vorstellungsgespräch erhalten.
+etw. übernehmen;to take over, to assume;переймати, брати на себе;Ich werde die Betreuung der Datenbank übernehmen.
+der Umsatz, "-e;revenue, turnover;оборот, виручка;Der E-Commerce-Shop macht einen sehr hohen Umsatz.
+die Unternehmensgeschichte, -n;company history;історія компанії;Die Unternehmensgeschichte begann in einer kleinen Garage.
+die Verkaufsfläche, -n;sales area;торгова площа;Ein Online-Shop braucht keine physische Verkaufsfläche.
+das Verkaufsgespräch, -e;sales talk, sales pitch;комерційна бесіда, переговори про продаж;Der IT-Berater führt ein Verkaufsgespräch mit dem neuen Kunden.
+das Zentrallager, -;central warehouse;центральний склад;Die Hardware wird vom Zentrallager aus verschickt.
+das Zweigwerk, -e;branch factory;філія заводу;Das IT-Unternehmen hat ein Zweigwerk in Osteuropa.
+etw. anordnen;to order, to arrange, to instruct;наказувати, розпоряджатися, впорядковувати;Der Vorgesetzte kann Überstunden anordnen.
+das Controlling (Sg.);controlling, management accounting;контролінг, фінансове управління;Das Controlling überprüft das Budget für die neue Software.
+die Finanzabteilung, -en;finance department;фінансовий відділ, бухгалтерія;Die Finanzabteilung überweist das Gehalt pünktlich.
+die Fläche, -n;area, surface;площа;Wir mieten eine größere Bürofläche für die Entwickler.
+die Forschung & Entwicklung (Sg.);research & development (R&D);дослідження та розробка;Unser Team arbeitet in der Forschung & Entwicklung für KI.
+die Geschäftsleitung, -en;management, executive board;керівництво (компанії);Die Geschäftsleitung hat die neuen Ziele präsentiert.
+der Hauptbereich, -e;main area, core department;головний напрямок, основний відділ;Der Hauptbereich unseres Unternehmens ist die Webentwicklung.
+die Haustechnik (Sg.);building services, technical facilities;технічне обслуговування будівлі;Die Haustechnik muss die Klimaanlage im Serverraum reparieren.
+die Herstellung (Sg.);production, manufacturing;виробництво, виготовлення;Die Herstellung der Chips dauert mehrere Monate.
+die Hierarchieebene, -n;hierarchical level;рівень ієрархії;Es gibt nur drei Hierarchieebenen in unserem Startup.
+das Lager, -;warehouse, storage;склад;Die Ersatzteile für die Server liegen im Lager.
+etw. leiten;to lead, to manage, to head;керувати, очолювати;Sie wird das neue IT-Projekt leiten.
+das Marketing (Sg.);marketing;маркетинг;Das Marketing bewirbt unser neues Software-Produkt.
+die Marktuntersuchung, -en;market research;дослідження ринку;Die Marktuntersuchung zeigt, dass User eine Dark-Mode-Option wollen.
+die Mitarbeiterzahl, -en;number of employees;кількість співробітників;Die Mitarbeiterzahl ist in diesem Jahr auf 50 Entwickler gestiegen.
+die Öffentlichkeitsarbeit (Sg.);public relations (PR);зв'язки з громадськістю, PR;Die Öffentlichkeitsarbeit kümmert sich um unseren Tech-Blog.
+das Organigramm, -e;organizational chart;організаційна схема (структура компанії);Das Organigramm zeigt, wer wem im Team berichtet.
+das Produktionsverfahren, -;production process;виробничий процес;Wir haben ein automatisiertes Produktionsverfahren für Code-Releases.
+die Qualitätssicherung (Sg.);quality assurance (QA);забезпечення якості (QA);Die Qualitätssicherung testet die App vor dem Launch.
+die Rechtsabteilung, -en;legal department;юридичний відділ;Die Rechtsabteilung prüft die Software-Lizenzen.
+die Spitze, -n;top, peak;верхівка, керівництво;Er steht an der Spitze der IT-Abteilung.
+an der Spitze von (+ Dat.);at the top of, heading;на чолі;An der Spitze von unserem Team steht ein erfahrener Scrum Master.
+untergeordnet;subordinate;підлеглий;Das QA-Team ist der Entwicklungsabteilung nicht untergeordnet.
+untergliedert;subdivided;підрозділений;Das IT-Department ist in Frontend und Backend untergliedert.
+unterteilt;divided;поділений;Das Projekt ist in mehrere Sprints unterteilt.
+die Verkaufsförderung (Sg.);sales promotion;стимулювання збуту;Die Verkaufsförderung plant Rabatte für unsere Software.
+der Vertrieb (Sg.);sales, distribution;збут, відділ продажів;Der Vertrieb verkauft unsere Lizenzen an große Firmen.
+die Verwaltung, -en;administration;адміністрація, управління;Die System-Verwaltung kümmert sich um die Server-Rechte.
+etw. zuordnen zu (+ Dat.);to assign to, to allocate to;призначати, відносити, класифікувати;Dieses Ticket müssen wir dem Backend-Team zuordnen.
+die Zuständigkeit, -en;responsibility, competence;компетенція, сфера відповідальності;Das Deployment fällt in die Zuständigkeit der DevOps-Engineers.
+die Anrede, -n;form of address;звертання (на початку листа/розмови);In formellen E-Mails nutzen wir die Anrede "Sehr geehrte Damen und Herren".
+distanzlos;overfamiliar, lack of distance;без дотримання дистанції, фамільярний;Es wirkt unprofessionell und distanzlos, wenn man den Kunden sofort duzt.
+das Du (Sg.);informal "you";звертання на "ти";In vielen Tech-Firmen ist das "Du" der Standard.
+sich duzen;to be on first-name terms;звертатися на "ти";In unserem Entwickler-Team duzen sich alle.
+der Kompromiss, -e;compromise;компроміс;Wir haben einen guten Kompromiss für das API-Design gefunden.
+einen Kompromiss finden;to find a compromise;знайти компроміс;Bei der Technologiewahl mussten wir einen Kompromiss finden.
+etw./jdn. respektieren;to respect;поважати;Im Code Review müssen wir die Arbeit der Kollegen respektieren.
+das Sie (Sg.);formal "you";звертання на "Ви";Bei offiziellen Behörden benutzt man immer das "Sie".
+sich siezen;to be on formal terms;звертатися на "Ви";Mit den Bankkunden müssen wir uns noch siezen.
+jdm. das Du anbieten (bietet an, bot an, hat angeboten);to offer to use "du" (first-name terms);запропонувати перейти на "ти";Der Chef hat mir nach der Probezeit das Du angeboten.

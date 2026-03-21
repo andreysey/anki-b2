@@ -1,0 +1,151 @@
+#separator:;
+#html:true
+#columns:German;English;Ukrainian;Example
+ablaufen (läuft ab, lief ab, ist abgelaufen);to expire, to run out;закінчуватися, закінчувати термін дії;Mein befristeter IT-Arbeitsvertrag wird bald ablaufen.
+angesichts (+ Gen.);in view of, given;зважаючи на, з огляду на;Angesichts des Fachkräftemangels zahlen Firmen höhere Gehälter für Entwickler.
+die Arbeitsleistung, -en;work performance;результативність праці, виконана робота;Seine Arbeitsleistung als Junior-Entwickler ist wirklich hervorragend.
+aufgrund (+ Gen.);due to, because of;через, на підставі;Aufgrund eines Serverausfalls arbeiten wir heute komplett offline.
+der Ausbildungsvertrag, "-e;training contract;договір на професійне навчання;Er hat seinen Ausbildungsvertrag zum Fachinformatiker unterschrieben.
+befristet;fixed-term, temporary;строковий (договір), тимчасовий;Der erste Vertrag im Tech-Startup ist oft auf ein Jahr befristet.
+der Berufsalltag (Sg.);everyday working life;професійні будні;Im IT-Berufsalltag nutzt man häufig agile Methoden wie Scrum.
+dank (+ Gen.);thanks to;завдяки;Dank des neuen React-Frameworks laden die Seiten viel schneller.
+der Einblick, -e;insight, glimpse;уявлення, ознайомлення;Das Praktikum gab mir einen guten Einblick in die Softwarearchitektur.
+etw. erbringen (erbringt, erbrachte, hat erbracht);to provide, to perform;надавати, виконувати;Der Freelancer muss die vertraglich vereinbarte Leistung erbringen.
+gültig;valid;дійсний;Das SSL-Zertifikat für unsere Webseite ist leider nicht mehr gültig.
+infolge (+ Gen.);as a result of, due to;внаслідок, через;Infolge des fehlerhaften Updates gab es einige Bugs im System.
+die Institution, -en;institution;установа, інституція;Das BSI ist eine wichtige Institution für IT-Sicherheit in Deutschland.
+der Mindestlohn, "-e;minimum wage;мінімальна зарплата;Der Mindestlohn ist für Senior-Entwickler in der Regel nicht relevant.
+der Minijob, -s;marginal employment, mini-job;мініджоб (робота на неповний день до певної суми);Neben dem Informatik-Studium mache ich einen Minijob als IT-Support.
+der Praktikumsvertrag, "-e;internship contract;договір на проходження практики;Mein Praktikumsvertrag als Frontend-Dev läuft über sechs Monate.
+der Renteneintritt (Sg.);retirement;вихід на пенсію;Unser Senior-Architekt plant seinen Renteneintritt für nächstes Jahr.
+der Teilzeitarbeitsvertrag, "-e;part-time employment contract;договір про неповний робочий час;Sie hat einen Teilzeitarbeitsvertrag über 20 Stunden pro Woche.
+etw. übersteigen (übersteigt, überstieg, hat überstiegen);to exceed;перевищувати;Die Ladezeit der App darf 2 Sekunden nicht übersteigen.
+unbefristet;permanent, unlimited;безстроковий;Ich habe endlich einen unbefristeten Arbeitsvertrag als Entwickler bekommen!
+sich verpflichten zu (+ Dat.);to commit oneself to;зобов'язуватися;Wir verpflichten uns vertraglich zu strengster Datensicherheit.
+wegen (+ Gen.);because of;через;Wegen des Fehlers im Code musste das geplante Release verschoben werden.
+der Werkvertrag, "-e;contract for work/services;договір підряду;Der externe Designer arbeitet bei uns auf Basis eines Werkvertrags.
+der Zeitaufwand (Sg.);expenditure of time;витрати часу;Der Zeitaufwand für das Refactoring des alten Codes war enorm.
+die Abmahnung, -en;warning, reprimand;попередження, догана;Wegen unautorisierter Software-Nutzung bekam er eine Abmahnung.
+der Arbeitskampf, "-e;labor dispute, strike;трудовий конфлікт, страйк;Die IT-Gewerkschaft ruft bei gescheiterten Verhandlungen zum Arbeitskampf auf.
+die Belegschaft, -en;workforce, staff;колектив, персонал;Die gesamte Belegschaft wurde über die neuen IT-Sicherheitsrichtlinien informiert.
+die Berufsgruppe, -n;occupational group;професійна група;Softwareentwickler sind momentan eine stark gefragte Berufsgruppe.
+bestehen aus (+ Dat.) (besteht, bestand, hat bestanden);to consist of;складатися з;Unser agiles Team besteht aus drei Frontendlern und zwei Backend-Entwicklern.
+das Betriebsratsmitglied, -er;works council member;член виробничої ради;Das Betriebsratsmitglied berät uns bei Fragen zum neuen Arbeitsvertrag.
+die Betriebsratswahl, -en;works council election;вибори виробничої ради;Die Betriebsratswahl findet dieses Jahr komplett online im Intranet statt.
+die Betriebsverlegung, -en;relocation of the company;перенесення підприємства (в інше місце);Wegen der Betriebsverlegung nach Berlin arbeiten nun viele Entwickler remote.
+die Betriebsversammlung, -en;works meeting, staff meeting;загальні збори працівників;Auf der Betriebsversammlung präsentierte der CEO die neuen Quartalsziele.
+die Elternzeit, -en;parental leave;декретна відпустка (для обох батьків);Unser Scrum Master geht für sechs Monate in Elternzeit.
+das Erscheinen (Sg.);appearance, attendance;присутність, явка;Pünktliches Erscheinen zum Daily Standup ist für alle Teammitglieder Pflicht.
+fair;fair;справедливий;Wir haben einen sehr fairen und transparenten Onboarding-Prozess.
+die Geschäftsführung, -en;management, executive board;керівництво компанії, дирекція;Die Geschäftsführung hat das Budget für unsere Cloud-Server erhöht.
+die Gewerkschaft, -en;trade union;профспілка;Die Gewerkschaft verhandelt einen neuen Tarifvertrag für die IT-Branche.
+das Gremium, Gremien;committee, board;комітет, комісія;Das IT-Sicherheitsgremium prüft die neuen Firewall-Richtlinien.
+die Interessenvertretung, -en;representation of interests;представництво інтересів;Der Betriebsrat ist die offizielle Interessenvertretung der Arbeitnehmer.
+mitbestimmen;to have a say, to co-determine;мати право голосу, брати участь у вирішенні;Entwickler sollten bei der Wahl des Tech-Stacks immer mitbestimmen dürfen.
+die Mitbestimmung, -en;co-determination, worker participation;участь працівників в управлінні;Die Mitbestimmung des Betriebsrats bei Software-Tools ist gesetzlich geregelt.
+nachvollziehbar;comprehensible, understandable;зрозумілий, логічний;Dein Quellcode ist dank der guten Kommentare sehr leicht nachvollziehbar.
+der Schritt, -e;step;крок;Der Wechsel zu Microservices war ein großer, aber wichtiger Schritt für uns.
+der Sozialplan, "-e;social compensation plan;соціальний план (при скороченнях);Der Sozialplan federt die finanziellen Folgen der Kündigungen im Startup ab.
+der Tätigkeitsbericht, -e;activity report;звіт про діяльність;Im Jira-System generieren wir automatisch unseren wöchentlichen Tätigkeitsbericht.
+die Teilzeitkraft, "-e;part-time employee;працівник на неповний робочий день;Wir suchen eine Teilzeitkraft für die Systemadministration.
+etw. vergüten;to remunerate, to pay;оплачувати, винагороджувати;Die Überstunden vor dem Release werden extra vergütet.
+verhandeln;to negotiate;вести переговори;Ich muss nächste Woche mit HR über mein neues Senior-Gehalt verhandeln.
+etw. verhindern;to prevent;запобігати, перешкоджати;Ein gutes, automatisiertes Backup-System kann Datenverlust verhindern.
+etw. verlegen;to relocate, to misplace;переносити (в інше місце);Wir verlegen den gesamten Serverraum in das neue, sicherere Gebäude.
+verständlich;understandable;зрозумілий;Die API-Dokumentation muss für alle externen Entwickler verständlich sein.
+etw./jdn. vertreten (vertritt, vertrat, hat vertreten);to represent, to replace;представляти, заміняти (когось);Ich muss heute den kranken Product Owner im Kunden-Meeting vertreten.
+die Werkhalle, -n;factory hall, workshop;цех, виробниче приміщення;Die WLAN-Abdeckung in der großen Werkhalle wurde durch neue Router verbessert.
+die Abfindung, -en;severance pay;вихідна допомога;Nach der überraschenden Kündigung erhielt der Entwickler eine gute Abfindung.
+der Abfindungsanspruch, "-e;entitlement to severance pay;право на вихідну допомогу;Der Anwalt prüft meinen Abfindungsanspruch aus dem alten Arbeitsvertrag.
+die Alternative, -n;alternative;альтернатива;Die Datenbank PostgreSQL ist oft eine sehr gute Alternative zu MySQL.
+etw./jdn. anhören;to listen to, to hear;вислухати;Wir müssen uns die Sicherheitsbedenken der QA-Abteilung genau anhören.
+die Anstellung, -en;employment;працевлаштування, посада;Ich suche nach dem Kurs eine Festanstellung als Fullstack-Developer.
+die Arbeitsagentur, -en;employment agency;центр зайнятості;Die Arbeitsagentur finanziert oft IT-Weiterbildungen für Quereinsteiger.
+das Arbeitsgericht, -e;labor court;суд у трудових справах;Der Streit um die fristlose Kündigung endete vor dem Arbeitsgericht.
+das Arbeitslosengeld, -er (ALG);unemployment benefit;допомога по безробіттю;Während meiner Jobsuche in der IT beziehe ich Arbeitslosengeld (ALG I).
+der Arbeitsplatzverlust (Sg.);loss of job;втрата робочого місця;Durch Künstliche Intelligenz fürchten einige Berufsgruppen einen Arbeitsplatzverlust.
+arbeitssuchend;looking for work, job-seeking;який шукає роботу;Aktuell bin ich arbeitssuchend und lerne neue Frontend-Frameworks.
+das Arbeitsverhältnis, -se;employment relationship;трудові відносини;Wir beenden das Arbeitsverhältnis im gegenseitigen Einvernehmen.
+ausgehen von (+ Dat.) (geht aus, ging aus, ist ausgegangen);to assume, to expect;виходити з (припущення);Wir gehen von einem fehlerfreien und schnellen Deployment am Freitag aus.
+etw. auslagern;to outsource;віддавати на аутсорс;Die Firma möchte den First-Level-Support an einen Dienstleister auslagern.
+etw. beanspruchen;to claim, to require;претендувати на, потребувати;Das Rendering-Skript wird sehr viel CPU-Leistung beanspruchen.
+die Berechnung, -en;calculation;розрахунок, обчислення;Die komplexe Berechnung des Algorithmus geschieht sicher im Backend.
+betriebsbedingt;for operational reasons;зумовлений виробничою необхідністю;Wegen der Krise gab es leider drei betriebsbedingte Kündigungen im Team.
+etw. einbringen (z. B. Kenntnisse);to bring in, to contribute;робити внесок, привносити (напр., знання);Er wird sein Expertenwissen im Bereich Cloud-Security in das Projekt einbringen.
+die Eingliederung, -en;integration, inclusion;інтеграція, включення (в колектив);Die Eingliederung der neuen Remote-Entwickler in das Team lief reibungslos.
+die Einhaltung (Sg.);compliance, observance;дотримання;Die strikte Einhaltung der Clean-Code-Regeln ist bei uns Pflicht.
+endgültig;final(ly), definitive(ly);остаточний, остаточно;Wir haben den fehlerhaften Legacy-Code nun endgültig vom Server gelöscht.
+führen zu (+ Dat.);to lead to, to result in;призводити до;Memory Leaks im Code führen auf Dauer oft zu Server-Abstürzen.
+die Klage, -n;lawsuit, complaint;судовий позов, скарга;Gegen die unfaire Kündigung hat er sofort eine Klage eingereicht.
+die Klagefrist, -en;deadline for filing a suit;термін подання позову;Man muss die Klagefrist von drei Wochen nach der Kündigung streng beachten.
+eine Klage einreichen;to file a lawsuit;подати позов;Er wird beim zuständigen Arbeitsgericht eine Klage einreichen.
+eine Klage erheben;to file a lawsuit, to sue;подати в суд, пред'явити позов;Wir erheben Klage gegen den Diebstahl unserer Software-Patente.
+die Kündigungsfrist, -en;notice period;строк попередження про звільнення;Meine Kündigungsfrist beträgt drei Monate zum Monatsende.
+das Kündigungsschreiben, -;notice of termination;лист про звільнення;Ein gültiges Kündigungsschreiben muss in Deutschland schriftlich per Post erfolgen.
+möglicherweise;possibly;можливо;Der Bug liegt möglicherweise nicht im Frontend, sondern in der Datenbankverbindung.
+die Schließung, -en;closure;закриття;Die Schließung des Standorts in Berlin betrifft leider auch viele Entwickler.
+die Sperrzeit, -en;blocking period (for benefits);період блокування (виплат);Bei eigener Kündigung ohne neuen Job droht eine Sperrzeit beim Arbeitslosengeld.
+der Umbruch, "-e;upheaval, radical change;перелом, радикальна зміна;Die KI-Revolution ist ein gewaltiger Umbruch für die gesamte IT-Branche.
+sich verbessern;to improve;покращуватися;Die Code-Qualität hat sich dank regelmäßiger Code-Reviews stark verbessert.
+vermutlich;probably, presumably;ймовірно;Der Fehler beim Login liegt vermutlich im Backend.
+der Verstoß, "-e;violation, breach;порушення;Das heimliche Teilen von Admin-Passwörtern ist ein schwerer Verstoß.
+verstreichen (verstreicht, verstrich, ist verstrichen);to elapse, to pass (time);минати, спливати (про час);Wir ließen die wichtige Deadline für das Update ungenutzt verstreichen.
+wahrscheinlich;probably, likely;ймовірно, швидше за все;Das Server-Update wird wahrscheinlich etwa zwei Stunden dauern.
+wegfallen (fällt weg, fiel weg, ist weggefallen);to be dropped, to cease to exist;відпадати, скасовуватися;Durch die Automatisierung (CI/CD) werden einige manuelle QA-Aufgaben wegfallen.
+sich wehren gegen (+ Akk.);to defend oneself against;захищатися від;Man kann sich rechtlich gegen eine ungerechtfertigte Kündigung wehren.
+weiterhin;still, furthermore;і надалі, як і раніше;Wir werden für unsere Projekte weiterhin auf Open-Source-Software setzen.
+jdn. zwingen (zwingt, zwang, hat gezwungen);to force, to compel;змушувати;Der Zeitmangel zwingt uns dazu, das Feature auf den nächsten Sprint zu verschieben.
+die Abwesenheit, -en;absence;відсутність;In meiner Abwesenheit übernimmt mein Kollege die Code-Reviews.
+die Altersgrenze, -n;age limit;вікове обмеження;Es gibt definitiv keine Altersgrenze für gute und erfahrene Programmierer.
+die Arbeitsunfähigkeit (Sg.);inability to work, incapacity for work;непрацездатність;Bei Arbeitsunfähigkeit durch Krankheit muss man sofort das HR-Team informieren.
+die Arbeitsunfähigkeitsbescheinigung, -en;sick note, medical certificate;довідка про непрацездатність (лікарняний);Die elektronische Arbeitsunfähigkeitsbescheinigung (eAU) geht nun direkt an die Kasse.
+die Arbeitsvergütung, -en;remuneration, pay;оплата праці;Die vertragliche Arbeitsvergütung für IT-Spezialisten ist in Deutschland sehr attraktiv.
+das Arbeitsverhältnis, -se;employment relationship;трудові відносини;Ihr neues Arbeitsverhältnis als Lead Developer beginnt am 1. September.
+etw. beeinträchtigen;to affect, to impair;шкодити, негативно впливати;Die hohe Server-Latenz darf die User-Experience (UX) nicht beeinträchtigen.
+die Bruttovergütung, -en;gross remuneration;оплата брутто (до відрахування податків);Seine jährliche Bruttovergütung im Startup beträgt 75.000 Euro.
+jdn. einstellen;to hire, to employ;наймати на роботу;Wir wollen in diesem Quartal drei neue Entwickler einstellen.
+die Einwilligung erteilen;to give consent;давати згоду;Der User muss die Einwilligung erteilen, bevor Tracking-Cookies gespeichert werden.
+die Entgeltfortzahlung, -en;continued payment of wages (during illness);збереження заробітної плати (під час хвороби);Bei Krankheit gibt es in Deutschland eine Entgeltfortzahlung für bis zu sechs Wochen.
+etw. erreichen;to achieve, to reach;досягати;Wir wollen im Projekt eine Code-Testabdeckung (Coverage) von über 80% erreichen.
+das Geheimnis, -se;secret;таємниця, секрет;Die API-Keys für das Zahlungs-Gateway sind ein streng gehütetes Geheimnis.
+das Geschäftsgeheimnis, -se;trade secret;комерційна таємниця;Der Algorithmus unserer KI-Engine ist ein absolutes Geschäftsgeheimnis.
+gesetzlich;legal, statutory;встановлений законом;Der gesetzliche Urlaubsanspruch in Deutschland beträgt 20 Tage bei einer 5-Tage-Woche.
+gesondert;separate(ly);окремо;Die finanziellen Boni für den erfolgreichen Launch werden gesondert abgerechnet.
+jdm. etw. gewähren;to grant sb. sth.;надавати (дозвіл, доступ);Der Admin muss dir erst Lesezugriff auf das Git-Repository gewähren.
+die Kernarbeitszeit, -en;core working hours;основний робочий час (обов'язкова присутність);Unsere Kernarbeitszeit im Büro ist von 10:00 bis 15:00 Uhr.
+der Mindesturlaub (Sg.);minimum vacation;мінімальна відпустка;Der vertragliche Urlaub bei Tech-Firmen übersteigt oft den gesetzlichen Mindesturlaub.
+die Nebentätigkeit, -en;secondary employment, side job;додаткова робота, підробіток;Eine Nebentätigkeit als Freelancer muss der Hauptarbeitgeber meistens genehmigen.
+der Paragraf, -en;paragraph, section;параграф, пункт (договору);In Paragraf 4 meines Arbeitsvertrags ist die Remote-Work (Homeoffice) geregelt.
+die Probezeit, -en;probationary period;випробувальний термін;Während der Probezeit von sechs Monaten lerne ich die große Codebase kennen.
+das Stillschweigen (Sg.);silence, confidentiality;мовчання, конфіденційність;Über das neue Apple-Projekt haben wir vertraglich striktes Stillschweigen vereinbart.
+Stillschweigen bewahren;to maintain silence/confidentiality;зберігати мовчання / таємницю;Wir müssen über die sensiblen Kundendaten absolutes Stillschweigen bewahren.
+etw. verlangen;to demand, to require;вимагати;Der neue API-Endpoint wird einen gültigen Authentifizierungs-Token verlangen.
+die Verschwiegenheitspflicht (Sg.);duty of confidentiality (NDA);обов'язок зберігати конфіденційність (NDA);Jeder Entwickler unterschreibt eine Verschwiegenheitspflicht (NDA) vor Projektstart.
+verstoßen gegen (+ Akk.) (verstößt, verstieß, hat verstoßen);to violate;порушувати;Wer geheimen Code stiehlt, verstößt massiv gegen den Arbeitsvertrag.
+das Weihnachtsgeld (Sg.);Christmas bonus;різдвяна премія;Viele große Konzerne zahlen im November als Bonus ein Weihnachtsgeld (13. Gehalt).
+der Anlass, "-e;occasion, reason;привід, нагода;Das erfolgreiche Release der App ist ein guter Anlass für eine kleine Party im Büro.
+ausdrücklich;explicit(ly);явно, категорично;Es ist ausdrücklich verboten, Kundendaten auf privaten USB-Sticks zu speichern.
+die Ausnahme, -n;exception;виняток;Das Ignorieren von Linter-Warnungen ist im Code nur in absoluten Ausnahmen erlaubt.
+der Bürgersteig, -e;pavement, sidewalk;тротуар;Die E-Scooter der Mitarbeiter dürfen den Fußgängern auf dem Bürgersteig nicht im Weg stehen.
+etw. entfernen;to remove;видаляти, усувати;Ich muss die Test-Logs unbedingt aus dem Code entfernen, bevor wir pushen.
+etw. erhalten (erhält, erhielt, hat erhalten);to preserve, to maintain, to receive;зберігати, підтримувати, отримувати;Um die Server-Performance zu erhalten, löschen wir regelmäßig alte Cache-Daten.
+etw. erlauben;to allow, to permit;дозволяти;Die strenge Firmen-Firewall wird diese eingehende Verbindung niemals erlauben.
+der Gemeinschaftsraum, "-e;common room, lounge;кімната відпочинку (для всіх);Wir haben eine Tischtennisplatte und eine Kaffeemaschine im Gemeinschaftsraum.
+etw. gestatten;to permit, to allow;дозволяти;Es ist aus Sicherheitsgründen nicht gestattet, externe Festplatten anzuschließen.
+grundsätzlich;fundamentally, in principle;в принципі, принципово;Wir programmieren hier grundsätzlich immer nach den strengen Regeln von Clean Code.
+die Hausordnung, -en;house rules;правила внутрішнього розпорядку;Laut Hausordnung ist das Essen im Serverraum logischerweise streng verboten.
+herumlaufen (läuft herum, lief herum, ist herumgelaufen);to walk around;бігати/ходити навколо;Die Bürohunde dürfen im Startup-Büro frei herumlaufen.
+die Holzkohle, -n;charcoal;деревне вугілля;Beim Firmen-Grillen auf der Dachterrasse nutzen wir echte Holzkohle.
+die Pflicht, -en;duty, obligation;обов'язок;Es ist die absolute Pflicht des Sysadmins, funktionierende Backups zu erstellen.
+Rechte und Pflichten (Pl.);rights and duties;права та обов'язки;Im Arbeitsvertrag stehen alle deine Rechte und Pflichten als Mitarbeiter.
+die Rücksicht (Sg.);consideration, thoughtfulness;повага, увага (до інших);Im Großraumbüro müssen wir besonders viel Rücksicht auf die Kollegen nehmen.
+Rücksicht nehmen auf (+ Akk.);to be considerate of;зважати на, з повагою ставитися до;Beim Telefonieren müssen wir Rücksicht auf die konzentrierten Programmierer nehmen.
+rücksichtsvoll;considerate, thoughtful;уважний, тактовний;Ein rücksichtsvolles Team achtet auf den Code-Style und die Kommentare der anderen.
+sich wohlfühlen;to feel comfortable;почуватися добре / комфортно;Wir möchten, dass sich alle Entwickler im neuen, hellen IT-Büro wohlfühlen.
+die Tierhaltung (Sg.);keeping of animals;утримання тварин;Die Tierhaltung in Form von kleinen Bürohunden ist bei uns im Startup erlaubt.
+umgehend;immediately, promptly;негайно;Kritische Bugs in der Produktion müssen dem Team umgehend gemeldet werden.
+jdm. etw. untersagen;to prohibit, to forbid;забороняти;Der Admin kann Nutzern den Zugriff auf bestimmte Webseiten im Netzwerk untersagen.
+die Verunreinigung, -en;contamination, pollution;забруднення;Eine Verunreinigung der Server-Racks durch Staub muss unbedingt verhindert werden.
+der Zugangsweg, -e;access path, entrance;шлях доступу;Der Zugangsweg zum Rechenzentrum ist durch mehrere Kameras gesichert.
+der Zustand, "-e;condition, state;стан;Das Git-Repository befindet sich nach dem Merge in einem sauberen Zustand.
+die Zustimmung (Sg.);approval, consent;згода, схвалення;Ohne die Zustimmung (Approve) des Tech Leads darfst du diesen Code nicht mergen.
