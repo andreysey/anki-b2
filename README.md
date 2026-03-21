@@ -51,9 +51,22 @@ The workflow ensures that your **source** data remains the "Single Source of Tru
 - **`_Full.txt`**: Contains every entry from every thematic file. Useful if you want to study words in the context of their specific themes.
 - **`_Clean.txt`**: Removes duplicate words across different themes. Best for long-term vocabulary building.
 - **`_Minimal.txt`**: Formats entries for Quizlet as `Term <Tab> Definition / Translation` without example sentences.
-- **`_Minimal_Clean.txt`**: Combined Minimal format with duplicates removed.
+| Suffix | Description | Use Case |
+|---|---|---|
+| **`_Minimal_Clean.txt`** | Unique entries, word & translation only, no examples | Faster review of core terms
 
-## Audio Pronunciation
+## 🌐 Interactive Vocabulary Website
+
+This project includes a modern, searchable web interface hosted via **GitHub Pages**.
+
+- **Live Search**: Find any word across German, English, and Ukrainian fields.
+- **Filtering**: Quickly filter by Level (B1+, B2) or specific Theme.
+- **Mobile Ready**: Study on the go with a responsive, premium design.
+
+To view the site, enable GitHub Pages in your repository settings pointing to the `/docs` folder.
+
+## 🛠️ How to use
+nciation
 
 To enhance your learning with audio, follow our [AwesomeTTS Guide](file:///home/kubuntu/Dev/anki-b2/AUDIO_GUIDE.md) to automatically add German pronunciation to your Anki decks.
 

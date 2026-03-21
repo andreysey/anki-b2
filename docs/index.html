@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Німецька B1+/B2 Beruf - Словник</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body class="dark-theme">
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <div class="container">
+        <header>
+            <h1>Німецька B1+/B2 Beruf</h1>
+            <p class="subtitle">Інтерактивний словник професійної лексики</p>
+            <div class="stats" id="stats">Завантаження...</div>
+        </header>
+
+        <section class="controls glass">
+            <div class="search-box">
+                <input type="text" id="search" placeholder="Пошук (нім, англ, укр)..." autocomplete="off">
+                <span class="search-icon">🔍</span>
+            </div>
+            <div class="filters">
+                <select id="level-filter">
+                    <option value="all">Всі рівні</option>
+                    <option value="B1+">B1+</option>
+                    <option value="B2">B2</option>
+                </select>
+                <select id="thema-filter">
+                    <option value="all">Всі теми</option>
+                    <!-- Will be populated by JS -->
+                </select>
+            </div>
+        </section>
+
+        <main id="vocabulary-grid" class="grid">
+            <!-- Cards will be injected by JS -->
+        </main>
+
+        <footer>
+            <p>Створено для вивчення B2 Beruf IT German</p>
+            <div class="footer-links">
+                <a href="../README.md">Про проект</a>
+                <a href="../AUDIO_GUIDE.md">Аудіо-гід</a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

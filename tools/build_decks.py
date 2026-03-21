@@ -1,6 +1,7 @@
 import os
 from pathlib import Path
 import logging
+import json
 from datetime import datetime
 
 # Configure logging
@@ -40,6 +41,14 @@ def generate_decks(files, base_name, format_type='anki', quizlet_minimal=False):
                         continue
                     
                     word = parts[0]
+                    entry_data = {
+                        'level': 'B1+' if 'B1_plus' in f.name else 'B2',
+                        'thema': get_num(f.name),
+                        'german': word,
+                        'english': parts[1],
+                        'ukrainian': parts[2],
+                        'example': parts[3] if len(parts) > 3 else ''
+                    }
                     
                     if format_type == 'quizlet':
                         parts = [p.strip() for p in l.split(';')]
@@ -57,11 +66,11 @@ def generate_decks(files, base_name, format_type='anki', quizlet_minimal=False):
                     all_entries.append(l)
                     if word not in seen:
                         unique_entries.append(l)
-                        seen[word] = f.name
+                        seen[word] = (f.name, entry_data)
                     else:
-                        if not quizlet_minimal: # Only log duplicates once per word per overall run
-                            logger.info(f"  Duplicate found: '{word}' in {f.name} (first seen in {seen[word]})")
-                        unique_entries.append(None) # Place holder to keep index if needed, but we don't use it
+                        if not quizlet_minimal: 
+                            logger.info(f"  Duplicate found: '{word}' in {f.name} (first seen in {seen[word][0]})")
+                        unique_entries.append(None)
     
     # Filter unique_entries to remove Nones
     unique_entries = [e for e in unique_entries if e is not None]
@@ -82,10 +91,19 @@ def generate_decks(files, base_name, format_type='anki', quizlet_minimal=False):
     out_dir = Path('quizlet' if format_type == 'quizlet' else 'anki')
     out_dir.mkdir(exist_ok=True)
     
-    n_full = write_deck(all_entries, out_dir / f'Anki_{base_name}_Full.txt' if format_type == 'anki' else out_dir / f'Quizlet_{base_name}{suffix}')
-    n_clean = write_deck(unique_entries, out_dir / f'Anki_{base_name}_Clean.txt' if format_type == 'anki' else out_dir / f'Quizlet_{base_name}{suffix_clean}')
+    n_f = write_deck(all_entries, out_dir / f'Anki_{base_name}_Full.txt' if format_type == 'anki' else out_dir / f'Quizlet_{base_name}{suffix}')
+    n_c = write_deck(unique_entries, out_dir / f'Anki_{base_name}_Clean.txt' if format_type == 'anki' else out_dir / f'Quizlet_{base_name}{suffix_clean}')
     
-    return n_full, n_clean, warnings
+    # Web export (only once for combined)
+    if base_name == 'B1plus_B2' and format_type == 'anki':
+        web_data = [info[1] for word, info in seen.items()]
+        web_dir = Path('docs')
+        web_dir.mkdir(exist_ok=True)
+        with open(web_dir / 'data.json', 'w', encoding='utf-8') as web_file:
+            json.dump(web_data, web_file, ensure_ascii=False, indent=2)
+        logger.info(f"✅ Web data exported to docs/data.json ({len(web_data)} unique entries)")
+
+    return n_f, n_c, warnings
 
 def get_num(s):
     import re
