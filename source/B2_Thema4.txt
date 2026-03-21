@@ -3,7 +3,7 @@
 #columns:German;English;Ukrainian;Example
 angemessen;appropriate, reasonable;відповідний, доречний, належний;Ein angemessenes Gehalt ist für Senior Developer sehr wichtig.
 der Arbeitgeberverband, "-e;employers' association;спілка роботодавців;Der Arbeitgeberverband verhandelt auch über IT-Tarifverträge.
-etw. aushandeln;to negotiate;домовлятися, вести переговори;Ich konnte im Interview mehr Urlaubstage aushandeln.
+etw. aushandeln (handelt aus, handelte aus, hat ausgehandelt);to negotiate;домовлятися, вести переговори;Ich konnte im Interview mehr Urlaubstage aushandeln.
 der Bescheid, -e;decision, notification;відповідь, рішення, повідомлення;Ich warte noch auf den Bescheid nach dem technischen Interview.
 Bescheid bekommen (bekommt, bekam, hat bekommen);to be informed, to receive notice;отримати повідомлення / відповідь;Sie werden nächste Woche Bescheid bekommen, ob wir Sie einstellen.
 die Bezahlung, -en;payment, pay;оплата;Die Bezahlung in diesem Tech-Startup ist überdurchschnittlich gut.
@@ -16,7 +16,7 @@ inklusive;inclusive, including;включно, у тому числі;Das Gehalt
 die Mess- und Analysetechnik, -en;measurement and analysis technology;вимірювальна та аналітична техніка;Wir entwickeln Software für die Mess- und Analysetechnik.
 mittelständisch;medium-sized;середній (про бізнес);Ich arbeite lieber in einem mittelständischen IT-Unternehmen als im Großkonzern.
 das Motiv, -e;motive, reason;мотив, причина;Was war Ihr Motiv, sich bei uns als Entwickler zu bewerben?
-nach Tarif zahlen;to pay according to the collective agreement;платити за тарифною сіткою;Viele große Tech-Konzerne in Deutschland zahlen nach Tarif.
+nach Tarif zahlen (zahlt, zahlte, hat gezahlt);to pay according to the collective agreement;платити за тарифною сіткою;Viele große Tech-Konzerne in Deutschland zahlen nach Tarif.
 der Personalverantwortliche, -n / die Personalverantwortliche, -n;HR manager, person responsible for HR;HR-менеджер, відповідальний за персонал;Die Personalverantwortliche schickt mir den Arbeitsvertrag zu.
 die Produktpalette, -n;product range;асортимент продукції;Unsere Produktpalette umfasst verschiedene Cloud- und SaaS-Lösungen.
 regelmäßig;regular(ly);регулярний;Wir machen regelmäßig Code-Refactoring, um die Qualität zu halten.
@@ -47,16 +47,16 @@ der Schichtbetrieb (Sg.);shift operation, shift work;позмінна робот
 die Teambesprechung, -en;team meeting;командна нарада;Wir planen den nächsten Sprint in der Teambesprechung.
 der Urlaubsanspruch, "-e;leave entitlement, right to vacation;право на відпустку;Mein Urlaubsanspruch beträgt 30 Tage pro Jahr.
 (gut/schlecht) verlaufen (verläuft, verlief, ist verlaufen);to go (well/badly);проходити (добре/погано);Das Code-Review ist heute sehr gut verlaufen.
-sich etw. verschaffen (z. B. einen Eindruck);to obtain, to gain (e.g., an impression);здобути, отримати (напр., враження);Ich muss mir erst einen Überblick über den alten Code verschaffen.
+sich etw. verschaffen (z. B. einen Eindruck) (verschafft sich, verschaffte sich, hat sich verschafft);to obtain, to gain (e.g., an impression);здобути, отримати (напр., враження);Ich muss mir erst einen Überblick über den alten Code verschaffen.
 der Zuschuss, "-e;subsidy, grant, allowance;доплата, субсидія, допомога;Die Firma zahlt einen Zuschuss für das Ticket des ÖPNV.
 etw. antreten (z. B. eine Stelle) (tritt an, trat an, hat angetreten);to take up, to start (e.g., a job);починати, приступати до (роботи);Ich werde meine neue Stelle als Fullstack-Developer am Montag antreten.
-etw. aushändigen;to hand over;вручати, видавати на руки;Die IT-Abteilung wird dir am ersten Tag den Laptop aushändigen.
+etw. aushändigen (händigt aus, händigte aus, hat ausgehändigt);to hand over;вручати, видавати auf руки;Die IT-Abteilung wird dir am ersten Tag den Laptop aushändigen.
 der Betriebsrat, "-e;works council;виробнича рада (представник працівників);Der Betriebsrat hat der neuen Homeoffice-Regelung zugestimmt.
 chaotisch;chaotic;хаотичний;Ohne Jira und Scrum war die Projektplanung früher sehr chaotisch.
 der Dienstplan, "-e;roster, shift schedule;графік чергувань / роботи;Der Dienstplan für den IT-Support wird wöchentlich aktualisiert.
-etw. einplanen;to schedule, to plan for;планувати, передбачати;Wir müssen genug Zeit für das Testing einplanen.
+etw. einplanen (plant ein, plante ein, hat eingeplant);to schedule, to plan for;планувати, передбачати;Wir müssen genug Zeit für das Testing einplanen.
 die Einweisung, -en;instruction, briefing;інструктаж, введення в курс справи;Am ersten Tag bekommst du eine Einweisung in unsere Server-Struktur.
-sich erinnern an (+ Akk.);to remember;пам'ятати про, згадувати;Ich kann mich nicht an das Admin-Passwort erinnern.
+sich erinnern an (+ Akk.) (erinnert sich, erinnerte sich, hat sich erinnert);to remember;пам'ятати про, згадувати;Ich kann mich nicht an das Admin-Passwort erinnern.
 die Hausordnung, -en;house rules;правила внутрішнього розпорядку;Laut Hausordnung darf man keine privaten USB-Sticks verwenden.
 der Haustechniker, - / die Haustechnikerin, -nen;building technician, maintenance worker;технік будівлі, завгосп;Der Haustechniker repariert die Klimaanlage im Serverraum.
 der Lieferant, -en / die Lieferantin, -nen;supplier;постачальник;Der Lieferant bringt morgen die neuen Monitore.
@@ -77,15 +77,15 @@ der Anlass, "-e;occasion, reason;привід, нагода;Das erfolgreiche Rel
 das Antragsformular, -e;application form;бланк заяви;Du musst ein Antragsformular ausfüllen, um einen zweiten Monitor zu bekommen.
 etw. aufladen (lädt auf, lud auf, hat aufgeladen);to charge, to top up;заряджати, поповнювати;Ich muss den Akku meines Firmenlaptops aufladen.
 etw. aushängen (hängt aus, hing aus, hat ausgehangen);to post (a notice);вивішувати (оголошення);Der neue Dienstplan wird am schwarzen Brett aushängen.
-etw. ausstellen (z. B. einen Parkausweis);to issue (e.g., a parking permit);виписувати, видавати (документ);Der Empfang wird dir einen Besucherausweis ausstellen.
-etw. beantragen (z. B. einen Zuschuss);to apply for, to request;подавати заяву на, запитувати;Ich möchte Homeoffice-Tage für nächste Woche beantragen.
+etw. ausstellen (z. B. einen Parkausweis) (stellt aus, stellte aus, hat ausgestellt);to issue (e.g., a parking permit);виписувати, видавати (документ);Der Empfang wird dir einen Besucherausweis ausstellen.
+etw. beantragen (z. B. einen Zuschuss) (beantragt, beantragte, hat beantragt);to apply for, to request;подавати заяву на, запитувати;Ich möchte Homeoffice-Tage für nächste Woche beantragen.
 betrieblich;operational, company-related;виробничий, службовий, корпоративний;Private Nutzung des Firmenlaptops ist aus betrieblichen Gründen verboten.
 der Betriebsausflug, "-e;company outing;корпоративна поїздка / екскурсія;Nächsten Monat machen wir einen Betriebsausflug in die Berge.
 die Betriebsrente, -n;company pension;корпоративна пенсія;Das IT-Unternehmen bietet als Bonus eine gute Betriebsrente an.
 die Betriebsversammlung, -en;staff meeting, company assembly;загальні збори працівників;Auf der Betriebsversammlung präsentiert der CEO die neuen Ziele.
 die Betriebszugehörigkeit (Sg.);length of service with a company;стаж роботи на підприємстві;Nach fünf Jahren Betriebszugehörigkeit bekommt man mehr Urlaubstage.
 der Betroffene, -n / die Betroffene, -n;person affected, person concerned;зацікавлена особа, постраждалий;Bei einem Datenleck müssen alle Betroffenen sofort informiert werden.
-etw. bezuschussen;to subsidize;субсидіювати, доплачувати;Die Firma wird mein Ticket für die öffentlichen Verkehrsmittel bezuschussen.
+etw. bezuschussen (bezuschusst, bezuschusste, hat bezuschusst);to subsidize;субсидіювати, доплачувати;Die firma wird mein Ticket für die öffentlichen Verkehrsmittel bezuschussen.
 der Brandfall, "-e;in case of fire;випадок пожежі;Im Brandfall dürfen die Aufzüge nicht benutzt werden.
 die Dienstreise, -n;business trip;відрядження;Ich muss nächste Woche auf Dienstreise zum Kunden nach Berlin.
 eine Dienstreise antreten;to go on a business trip;відправитися у відрядження;Der Projektmanager muss eine Dienstreise in die USA antreten.
@@ -107,7 +107,7 @@ der Verwaltungsbereich, -e;administrative area;адміністративний 
 die Wertsache, -n;valuable item;цінна річ;Bitte lassen Sie keine Wertsachen offen auf dem Schreibtisch liegen.
 der Abstand, "-e;distance, gap;відстань, дистанція;Bitte halten Sie genug Abstand zu den heißen Servern.
 aufdringlich;intrusive, pushy;нав'язливий;Zu viele Push-Benachrichtigungen in der App wirken auf die User aufdringlich.
-jdn. belästigen;to harass, to bother;турбувати, докучати;Ein Kollege darf dich am Wochenende nicht mit Arbeits-Mails belästigen.
+jdn. belästigen (belästigt, belästigte, hat belästigt);to harass, to bother;турбувати, докучати;Ein Kollege darf dich am Wochenende nicht mit Arbeits-Mails belästigen.
 die Distanz (Sg.);distance;дистанція;Trotz Remote-Work versuchen wir, keine persönliche Distanz im Team aufzubauen.
 etw. einhalten (hält ein, hielt ein, hat eingehalten);to comply with, to keep (e.g., rules/deadlines);дотримуватися (правил, строків);Wir müssen die Deadline für das Projekt unbedingt einhalten.
 etw. empfinden (empfindet, empfand, hat empfunden);to feel, to perceive;відчувати, сприймати;Ich empfinde das neue UI-Design als sehr angenehm.
@@ -115,6 +115,6 @@ intim;intimate;інтимний, особистий;Gehälter sind in vielen Fir
 etw./jdm. nahekommen (kommt nahe, kam nahe, ist nahegekommen);to approach, to come close to;наближатися до;Dieser Lösungsansatz kommt der perfekten Architektur schon sehr nahe.
 das Publikum (Sg.);audience;публіка, аудиторія;Das Publikum bei der Tech-Konferenz war sehr interessiert an meinem Vortrag.
 der Referent, -en / die Referentin, -nen;speaker, presenter;доповідач;Der Referent erklärt die Vorteile von maschinellem Lernen.
-etw./jdn. respektieren;to respect;поважати;Wir respektieren die verschiedenen Meinungen beim Code-Review.
+etw./jdn. respektieren (respektiert, respektierte, hat respektiert);to respect;поважати;Wir respektieren die verschiedenen Meinungen beim Code-Review.
 unangenehm;unpleasant, uncomfortable;неприємний;Es ist unangenehm, dem Kunden einen kritischen Bug beichten zu müssen.
 etw./jdn. wahrnehmen (nimmt wahr, nahm wahr, hat wahrgenommen);to perceive, to notice;сприймати, помічати;Lange Ladezeiten werden von Usern sehr negativ wahrgenommen.

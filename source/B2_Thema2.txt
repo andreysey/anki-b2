@@ -4,11 +4,11 @@
 die Arbeitslosenquote, -n;unemployment rate;рівень безробіття;Die Arbeitslosenquote in der IT-Branche ist relativ gering.
 auffallen (fällt auf, fiel auf, ist aufgefallen);to stand out, to be noticeable;впадати в око, виділятися;Der saubere Code ist mir beim Review sofort aufgefallen.
 das Baugewerbe (Sg.);construction industry;будівельна галузь;Wir entwickeln eine Projektmanagement-Software für das Baugewerbe.
-etw. bearbeiten;to process, to edit;обробляти, редагувати;Das Backend muss diese großen Datenmengen sehr schnell bearbeiten.
-etw./jdn. beaufsichtigen;to supervise, to oversee;наглядати, контролювати;Der Senior Developer muss die neuen Praktikanten beaufsichtigen.
+etw. bearbeiten (bearbeitet, bearbeitete, hat bearbeitet);to process, to edit;обробляти, редагувати;Das Backend muss diese großen Datenmengen sehr schnell bearbeiten.
+etw./jdn. beaufsichtigen (beaufsichtigt, beaufsichtigte, hat beaufsichtigt);to supervise, to oversee;наглядати, контролювати;Der Senior Developer muss die neuen Praktikanten beaufsichtigen.
 befristet;temporary, fixed-term;строковий (про договір), тимчасовий;Mein erster IT-Vertrag war leider nur auf ein Jahr befristet.
 der Beschäftigte, -n / die Beschäftigte, -n;employee;працівник, співробітник;Das Startup hat mittlerweile über 50 Beschäftigte.
-etw./jdn. betreuen;to look after, to support, to manage;обслуговувати, супроводжувати, керувати;Unser DevOps-Team muss die Server-Infrastruktur rund um die Uhr betreuen.
+etw./jdn. betreuen (betreut, betreute, hat betreut);to look after, to support, to manage;обслуговувати, супроводжувати, керувати;Unser DevOps-Team muss die Server-Infrastruktur rund um die Uhr betreuen.
 die Branche, -n;industry, sector;галузь, сфера;Die IT-Branche entwickelt sich extrem schnell weiter.
 die Dienstleistung, -en;service;послуга;Cloud-Computing (SaaS) ist heute eine sehr gefragte Dienstleistung.
 die Finanzbranche (Sg.);financial sector;фінансовий сектор;Datensicherheit ist das wichtigste Thema in der Softwareentwicklung für die Finanzbranche.
@@ -36,28 +36,28 @@ der Server, -;server;сервер;Die Web-Applikation läuft stabil auf einem Li
 sozialversicherungspflichtig;subject to social security contributions;який підлягає соціальному страхуванню;Mein neuer Job als Frontend-Entwickler ist sozialversicherungspflichtig.
 stabil;stable;стабільний;Die neue Microservice-Architektur ist sehr stabil und stürzt nicht ab.
 die Teilzeit (Sg.);part-time;неповний робочий день;Ich arbeite momentan in Teilzeit, um mehr Zeit zum Deutschlernen zu haben.
-etw. überwachen;to monitor, to supervise;контролювати, здійснювати моніторинг;Wir nutzen Datadog, um unsere Server in Echtzeit zu überwachen.
-etw. verwalten;to manage, to administer;управляти, адмініструвати;Als Sysadmin muss ich die Zugriffsrechte aller User verwalten.
+etw. überwachen (überwacht, überwachte, hat überwacht);to monitor, to supervise;контролювати, здійснювати моніторинг;Wir nutzen Datadog, um unsere Server in Echtzeit zu überwachen.
+etw. verwalten (verwaltet, verwaltete, hat verwaltet);to manage, to administer;управляти, адмініструвати;Als Sysadmin muss ich die Zugriffsrechte aller User verwalten.
 die Vollzeit (Sg.);full-time;повний робочий день;Ich suche nach dem Kurs eine Festanstellung in Vollzeit.
 der Vollzeitjob, -s;full-time job;робота на повний робочий день;Ein Vollzeitjob in der deutschen IT bedeutet meistens 40 Stunden pro Woche.
-etw. warten (z. B. eine Maschine);to maintain (e.g., equipment);обслуговувати технічно;Wir müssen die Datenbank-Server regelmäßig am Wochenende warten.
+etw. warten (z. B. eine Maschine) (wartet, wartete, hat gewartet);to maintain (e.g., equipment);обслуговувати технічно;Wir müssen die Datenbank-Server regelmäßig am Wochenende warten.
 die Wirtschaftsbranche (Sg.);economic sector;економічна галузь;Die IT ist eine der am schnellsten wachsenden Wirtschaftsbranchen.
-etw. zubereiten;to prepare (food);готувати (їжу);Die smarte Büro-Kaffeemaschine kann den Espresso per App-Befehl zubereiten.
+etw. zubereiten (bereitet zu, bereitete zu, hat zubereitet);to prepare (food);готувати (їжу);Die smarte Büro-Kaffeemaschine kann den Espresso per App-Befehl zubereiten.
 die Zuverlässigkeit (Sg.);reliability;надійність;Zuverlässigkeit ist bei einem Cloud-Backup-System das Wichtigste.
-etw./jdn. abfertigen;to dispatch, to process, to handle;обслуговувати, оформляти;Die Software hilft, die Anfragen (Requests) im Server schneller abzufertigen.
+etw./jdn. abfertigen (fertigt ab, fertigte ab, hat abgefertigt);to dispatch, to process, to handle;обслуговувати, оформляти;Die Software hilft, die Anfragen (Requests) im Server schneller abzufertigen.
 die Arbeitsstätte, -n;workplace, place of work;робоче місце;Mein Homeoffice ist vertraglich meine offizielle Arbeitsstätte.
 etw. beschreiben (beschreibt, beschrieb, hat beschrieben);to describe;описувати;Bitte beschreiben Sie den Bug im Jira-Ticket so genau wie möglich.
 etw. betreiben (betreibt, betrieb, hat betrieben);to operate, to run;експлуатувати, керувати;Wir betreiben unsere eigenen Server in einem sicheren Rechenzentrum.
 das Bodenpersonal (Sg.);ground staff;наземний персонал;Das Bodenpersonal am Flughafen nutzt unsere Tablet-App zur Kommunikation.
 der Check-in (Sg.);check-in;реєстрація;Das System für den Online-Check-in funktioniert leider gerade nicht.
-jdn. einstellen;to hire, to employ;наймати на роботу;Die Tech-Firma möchte dieses Jahr 20 neue Entwickler einstellen.
+jdn. einstellen (stellt ein, stellte ein, hat eingestellt);to hire, to employ;наймати на роботу;Die Tech-Firma möchte dieses Jahr 20 neue Entwickler einstellen.
 der Einzelhandel (Sg.);retail;роздрібна торгівля;Wir entwickeln eine moderne E-Commerce-Plattform für den Einzelhandel.
-etw. erweitern;to expand, to extend;розширювати;Wir müssen die Kapazität unserer Datenbank dringend erweitern.
+etw. erweitern (erweitert, erweiterte, hat erweitert);to expand, to extend;розширювати;Wir müssen die Kapazität unserer Datenbank dringend erweitern.
 der Fluglotse, -n / die Fluglotsin, -nen;air traffic controller;авіадиспетчер;Der Fluglotse verlässt sich auf hochkomplexe Echtzeit-Software.
 die Flugzeugabfertigung (Sg.);aircraft handling;наземне обслуговування літаків;Unsere Sensoren optimieren die Flugzeugabfertigung am Terminal.
 die Gepäckabfertigung (Sg.);baggage handling;обробка багажу;Das IT-System für die Gepäckabfertigung ist durch einen Bug ausgefallen.
 die Gewerkschaft, -en;trade union;профспілка;Es gibt in Deutschland auch eine Gewerkschaft, die IT-Mitarbeiter vertritt.
-etw. gründen;to found, to establish;засновувати;Ich möchte nach dem Kurs mein eigenes IT-Startup gründen.
+etw. gründen (gründet, gründete, hat gegründet);to found, to establish;засновувати;Ich möchte nach dem Kurs mein eigenes IT-Startup gründen.
 das Handgepäck (Sg.);hand luggage, carry-on baggage;ручна поклажа;Mein Firmenlaptop muss bei der Sicherheitskontrolle aus dem Handgepäck.
 die Hygiene (Sg.);hygiene;гігієна;Cyber-Hygiene (wie das regelmäßige Ändern von Passwörtern) ist extrem wichtig.
 die Logistik (Sg.);logistics;логістика;Wir programmieren eine KI-basierte Routing-Software für die Logistik.
@@ -65,20 +65,20 @@ die Luftfracht (Sg.);air freight, air cargo;авіаперевезення, ав
 der Passagier, -e / die Passagierin, -nen;passenger;пасажир;Jeder Passagier bekommt automatisiert eine E-Mail mit dem QR-Code.
 der Quereinsteiger, - / die Quereinsteigerin, -nen;career changer;світчер, людина, що змінила професію;Viele gute Programmierer sind Quereinsteiger ohne Informatik-Studium.
 die Spedition, -en;freight forwarding company;експедиторська компанія, служба доставки;Die Spedition nutzt unser Tracking-System für ihre LKWs.
-etw. umbauen;to rebuild, to modify;перебудовувати, реконструювати, переробляти;Wir müssen die Architektur der App komplett umbauen (Refactoring).
-etw. umfassen;to include, to comprise;охоплювати, включати;Das neue Software-Update wird viele coole Features umfassen.
+etw. umbauen (baut um, baute um, hat umgebaut);to rebuild, to modify;перебудовувати, реконструювати, переробляти;Wir müssen die Architektur der App komplett umbauen (Refactoring).
+etw. umfassen (umfasst, umfasste, hat umfasst);to include, to comprise;охоплювати, включати;Das neue Software-Update wird viele coole Features umfassen.
 etw./jdn. vertreten (vertritt, vertrat, hat vertreten);to represent, to substitute;представляти, заміняти (когось);Ich muss meinen Teamlead heute im Daily-Meeting vertreten.
 das Arbeitsmittel, -;work equipment, tool;засіб праці, робочий інструмент;Ein leistungsstarker Laptop und zwei Monitore sind meine wichtigsten Arbeitsmittel.
 der Arbeitsschutz (Sg.);occupational safety, health and safety;охорона праці;Die strengen Regeln zum Arbeitsschutz gelten auch im Serverraum.
-etw. befolgen;to follow, to obey;дотримуватися, виконувати (правила);Wir müssen die Sicherheitsrichtlinien (Security Policies) der Firma strikt befolgen.
-etw./jdn. behindern;to hinder, to obstruct;перешкоджати, заважати;Ein langsamer Server darf den Entwicklungsprozess nicht behindern.
-etw. betätigen (z. B. den Brandmelder);to operate, to press;приводити в дію, натискати;Im Notfall müssen Sie den roten Knopf betätigen, um den Strom abzuschalten.
+etw. befolgen (befolgt, befolgte, hat befolgt);to follow, to obey;дотримуватися, виконувати (правила);Wir müssen die Sicherheitsrichtlinien (Security Policies) der Firma strikt befolgen.
+etw./jdn. behindern (behindert, behinderte, hat behindert);to hinder, to obstruct;перешкоджати, заважати;Ein langsamer Server darf den Entwicklungsprozess nicht behindern.
+etw. betätigen (z. B. den Brandmelder) (betätigt, betätigte, hat betätigt);to operate, to press;приводити в дію, натискати;Im Notfall müssen Sie den roten Knopf betätigen, um den Strom abzuschalten.
 der Brandmelder, -;fire alarm, smoke detector;пожежний сповіщувач;Der Brandmelder im Rechenzentrum hat wegen Überhitzung Alarm geschlagen.
 der Brandschutz (Sg.);fire protection;пожежна безпека;Die neuen Server-Racks entsprechen den strengsten Vorgaben für den Brandschutz.
 das Brandschutzzeichen, -;fire safety sign;знак пожежної безпеки;Das rote Brandschutzzeichen zeigt, wo der Feuerlöscher im Flur hängt.
 dreieckig;triangular;трикутний;Warnschilder sind in Deutschland meistens gelb und dreieckig.
 etw. einschlagen (schlägt ein, schlug ein, hat eingeschlagen);to smash, to break in;розбивати (скло);Im Notfall müssen Sie die Glasscheibe einschlagen, um an den Schlüssel zu kommen.
-etw. entsorgen;to dispose of;утилізувати;Alte Festplatten müssen sicher und datenschutzkonform entsorgt werden.
+etw. entsorgen (entsorgt, entsorgte, hat entsorgt);to dispose of;утилізувати;Alte Festplatten müssen sicher und datenschutzkonform entsorgt werden.
 der Feuerlöscher, -;fire extinguisher;вогнегасник;Im Serverraum darf man auf keinen Fall einen Wasser-Feuerlöscher benutzen!
 der Feuermelder, -;fire alarm;пожежна сигналізація;Bei starker Rauchentwicklung löst der Feuermelder sofort aus.
 der Flucht- und Rettungsweg, -e;escape and rescue route;шлях евакуації;Der Flucht- und Rettungsweg im IT-Büro darf nie mit Kartons blockiert sein.
@@ -87,14 +87,14 @@ das Gebotszeichen, -;mandatory sign;приписний знак (обов'язк
 die Glasscheibe, -n;glass pane;шибка, скляна панель;Hinter der kleinen Glasscheibe befindet sich der Not-Aus-Schalter für den Strom.
 hinweisen auf (+ Akk.) (weist hin, wies hin, hat hingewiesen);to point out, to refer to;вказувати на;Das Monitoring-Tool weist uns auf kritische Speicherprobleme hin.
 das Hinweisschild, -er;information sign;інформаційна табличка;Ein Hinweisschild auf dem Gang zeigt den Weg zum IT-Support.
-etw. löschen;to extinguish (fire), to delete (data);гасити (пожежу), видаляти (дані);Du darfst diese wichtige Datenbank-Tabelle auf keinen Fall löschen!
+etw. löschen (löscht, löschte, hat gelöscht);to extinguish (fire), to delete (data);гасити (пожежу), видаляти (дані);Du darfst diese wichtige Datenbank-Tabelle auf keinen Fall löschen!
 der Notausgang, "-e;emergency exit;аварійний вихід;Der Notausgang ist durch ein leuchtend grünes Schild markiert.
 die Pflicht, -en;duty, obligation;обов'язок;Es ist unsere Pflicht, den Code vor dem Release gründlich zu testen.
 quadratisch;square;квадратний;Das UI-Icon für die neue App ist quadratisch mit abgerundeten Ecken.
 das Rettungszeichen, -;rescue sign, emergency sign;знак евакуації/порятунку;Rettungszeichen sind meistens grün und rechteckig.
 die Schutzausrüstung, -en;protective equipment;захисне спорядження;Beim Einbau von schweren Servern braucht man manchmal Schutzausrüstung.
 die Schutzbrille, -n;safety goggles;захисні окуляри;Beim Löten der Hardware-Platinen muss man eine Schutzbrille tragen.
-etw./jdn. schützen;to protect;захищати;Eine gut konfigurierte Firewall schützt unser internes Netzwerk vor Hackern.
+etw./jdn. schützen (schützt, schützte, hat geschützt);to protect;захищати;Eine gut konfigurierte Firewall schützt unser internes Netzwerk vor Hackern.
 der Schutzhelm, -e;safety helmet, hard hat;захисний шолом, каска;Auf der Baustelle für das neue Rechenzentrum ist ein Schutzhelm absolute Pflicht.
 der Sicherheitshinweis, -e;safety instruction/warning;вказівка щодо безпеки;Bitte lesen Sie den Sicherheitshinweis, bevor Sie den Server aufschrauben.
 der Sicherheitsschuh, -e;safety shoe;захисне взуття;Techniker tragen im Data Center oft Sicherheitsschuhe, falls Hardware herunterfällt.
@@ -106,7 +106,7 @@ das Verbotszeichen, -;prohibition sign;заборонний знак;Das Verbots
 etw. vermeiden (vermeidet, vermied, hat vermieden);to avoid;уникати;Wir müssen redundanten Code im Projekt unbedingt vermeiden (DRY-Prinzip).
 die Verordnung, -en;regulation, decree;постанова, розпорядження;Die Datenschutz-Grundverordnung (DSGVO) ändert sehr viel für Software-Entwickler.
 verpflichtet;obliged, bound;зобов'язаний;Wir sind vertraglich verpflichtet, alle Benutzerdaten sicher zu verschlüsseln.
-etw. verstauen;to stow, to store;ховати, укладати, зберігати;Ich muss die vielen Kabel ordentlich im Rack verstauen.
+etw. verstauen (verstaut, verstaute, hat verstaut);to stow, to store;ховати, укладати, зберігати;Ich muss die vielen Kabel ordentlich im Rack verstauen.
 das Warnzeichen, -;warning sign;попереджувальний знак;Ein Warnzeichen im Compiler zeigt an, dass dieser Code bald veraltet (deprecated) ist.
 der Ablauf, "-e;process, sequence, flow;процес, хід подій;Wir müssen den Ablauf für das automatisierte Deployment (CI/CD) optimieren.
 arbeitsunfähig;incapable of working, unfit for work;непрацездатний;Wegen einer starken Grippe bin ich diese Woche leider arbeitsunfähig.
@@ -117,19 +117,19 @@ das Detail, -s;detail;деталь, подробиця;Wir müssen noch ein klei
 das Ereignis, -se;event, occurrence;подія;Das Log-System (wie ELK-Stack) zeichnet jedes wichtige Ereignis im System auf.
 glatt;smooth, slippery;гладкий, слизький;Das neue Design der Benutzeroberfläche (UI) sieht sehr modern und glatt aus.
 das Kabel, -;cable, wire;кабель, провід;Das Netzwerkkabel am Router ist leider defekt und muss getauscht werden.
-sich (etw.) quetschen;to squeeze, to bruise (oneself);защемити (собі щось), прищемити;Er hat sich beim Einbauen des schweren Servers den Finger gequetscht.
+sich (etw.) quetschen (quetscht sich, quetschte sich, hat sich gequetscht);to squeeze, to bruise (oneself);защемити (собі щось), прищемити;Er hat sich beim Einbauen des schweren Servers den Finger gequetscht.
 Ruhe bewahren;to keep calm;зберігати спокій;Wenn der Produktions-Server abstürzt, müssen wir als DevOps-Team Ruhe bewahren.
 rutschig;slippery;слизький;Vorsicht, der frisch gewischte Boden vor dem Büro ist sehr rutschig.
 sachlich;factual, objective;об'єктивний, предметний;Die Diskussion beim Code Review sollte immer sachlich und professionell bleiben.
 der Schaden, "-;damage, harm;шкода, збиток;Ein Hackerangriff kann einen enormen finanziellen Schaden verursachen.
-etw. schildern;to describe, to depict;описувати, змальовувати;Können Sie den Software-Fehler genauer schildern, damit ich ihn reproduzieren kann?
+etw. schildern (schildert, schilderte, hat geschildert);to describe, to depict;описувати, змальовувати;Können Sie den Software-Fehler genauer schildern, damit ich ihn reproduzieren kann?
 der Schlauch, "-e;hose, tube;шланг;Die Server-Wasserkühlung braucht dringend einen neuen Schlauch.
 stolpern;to stumble, to trip;спотикатися;Jemand könnte über dieses herumliegende Stromkabel stolpern.
 sich (etw.) verbrennen (verbrennt, verbrannte, hat verbrannt);to burn (oneself);обпектися;Die CPU wird unter Last extrem heiß, pass auf, dass du dich nicht verbrennst.
 das Verhalten (Sg.);behavior;поведінка;Wir analysieren das Verhalten der User auf unserer neuen Web-Plattform.
 die Vorsichtsmaßnahme, -n;precaution, precautionary measure;запобіжний захід;Regelmäßige Backups in der Cloud sind eine sehr wichtige Vorsichtsmaßnahme.
 der Zeuge, -n / die Zeugin, -nen;witness;свідок;Er war leider Zeuge des Arbeitsunfalls im Rechenzentrum.
-etw. behaupten;to claim, to assert;стверджувати;Der Entwickler behauptet, dass dieser Bug in der neuen Version bereits gefixt ist.
+etw. behaupten (behauptet, behauptete, hat behauptet);to claim, to assert;стверджувати;Der Entwickler behauptet, dass dieser bug in der neuen Version bereits gefixt ist.
 etw./jdn. beobachten;to observe, to monitor;спостерігати, стежити;Wir beobachten die Ladezeiten der App genau, um sie zu optimieren.
 entscheidend;crucial, decisive;вирішальний;Eine saubere Software-Architektur ist entscheidend für den langfristigen Erfolg.
 die Geldsorgen (Pl.);money worries, financial problems;фінансові проблеми;Als gefragter Senior Developer in Deutschland hat man meistens keine Geldsorgen.

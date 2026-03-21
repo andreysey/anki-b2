@@ -1,56 +1,56 @@
 #separator:;
 #html:true
 #columns:German;English;Ukrainian;Example
-etw. abschalten;to switch off, to shut down;вимикати, відключати;Wir müssen den veralteten Datenbank-Server endgültig abschalten.
+etw. abschalten (schaltet ab, schaltete ab, hat abgeschaltet);to switch off, to shut down;вимикати, відключати;Wir müssen den veralteten Datenbank-Server endgültig abschalten.
 anfallen (fällt an, fiel an, ist angefallen);to arise, to be incurred;виникати (про витрати або роботу);Beim AWS-Cloud-Hosting können sehr hohe Kosten anfallen.
 die Aufnahme, -n;recording, picture, admission;знімок, запис, прийом;Bitte schicken Sie eine Aufnahme (Screenshot) der Fehlermeldung im Browser.
 begeistert;enthusiastic, excited;у захваті, натхненний;Der Kunde war total begeistert von dem neuen UI-Design.
-etw. beheben (z. B. einen Fehler);to fix, to resolve;усувати, виправляти (напр., помилку);Wir müssen diesen kritischen Bug noch vor dem Release beheben.
-etw. beschädigen;to damage;пошкоджувати;Ein starker Stromausfall kann die Server-Hardware beschädigen.
+etw. beheben (z. B. einen Fehler) (behebt, behob, hat behoben);to fix, to resolve;усувати, виправляти (напр., помилку);Wir müssen diesen kritischen Bug noch vor dem Release beheben.
+etw. beschädigen (beschädigt, beschädigte, hat beschädigt);to damage;пошкоджувати;Ein starker Stromausfall kann die Server-Hardware beschädigen.
 der Dienstleister, - / die Dienstleisterin, -nen;service provider;постачальник послуг, підрядник;Wir nutzen einen externen Dienstleister für unsere IT-Security.
 das Display, -s;display, screen;дисплей, екран;Das responsive Design muss sich an jedes Smartphone-Display anpassen.
-etw. einstellen;to stop, to adjust;припиняти, налаштовувати;Wir werden den Support für diese alte Software-Version einstellen.
+etw. einstellen (stellt ein, stellte ein, hat eingestellt);to stop, to adjust;припиняти, налаштовувати;Wir werden den Support for diese alte Software-Version einstellen.
 das Elektronikmodul, -e;electronic module;електронний модуль;Das Elektronikmodul des neuen IoT-Geräts ist leider durchgebrannt.
 etw. erkennen (erkennt, erkannte, hat erkannt);to recognize, to detect;розпізнавати, виявляти;Die Künstliche Intelligenz kann komplexe Muster in den Daten erkennen.
 erscheinen (erscheint, erschien, ist erschienen);to appear;з'являтися;Der Error-Code 500 wird auf dem Bildschirm erscheinen.
 das Fachgeschäft, -e;specialist shop;спеціалізований магазин;Wir kaufen spezielle Netzwerkkabel im IT-Fachgeschäft.
 fehlerhaft;faulty, defective, buggy;помилковий, дефектний;Der fehlerhafte Code führte gestern zu einem Server-Absturz.
-den Geist aufgeben;to give up the ghost, to break down;наказати довго жити, зламатися;Meine alte SSD-Festplatte hat gestern leider den Geist aufgegeben.
+den Geist aufgeben (gibt auf, gab auf, hat aufgegeben);to give up the ghost, to break down;наказати довго жити, зламатися;Meine alte SSD-Festplatte hat gestern leider den Geist aufgegeben.
 glücklicherweise;fortunately, luckily;на щастя;Glücklicherweise hatten wir ein aktuelles Backup der gesamten Datenbank.
 die Großwäscherei, -en;large-scale laundry;велика пральня;Wir programmieren eine Logistik-Software für eine Großwäscherei.
 die Herstellerfirma, -firmen;manufacturing company;компанія-виробник;Die Herstellerfirma bietet keine Sicherheits-Updates mehr für diesen Router an.
-jdn. konfrontieren mit (+ Dat.);to confront someone with;зіштовхувати когось із, пред'являти;Wir mussten den Cloud-Provider mit den ständigen Ausfallzeiten konfrontieren.
+jdn. konfrontieren mit (+ Dat.) (konfrontiert, konfrontierte, hat konfrontiert);to confront someone with;зіштовхувати когось із, пред'являти;Wir mussten den Cloud-Provider mit den ständigen Ausfallzeiten konfrontieren.
 lieferbar;available, deliverable;доступний для доставки, в наявності;Die neuen M3-MacBooks für das Entwicklerteam sind aktuell nicht lieferbar.
 der Mangel, "-;defect, flaw, shortage;дефект, недолік, нестача;Das QA-Team hat einen schweren Mangel in der App-Sicherheit gefunden.
 das Modul, -e;module;модуль;Ich habe das Login-Modul in React komplett neu geschrieben.
 der Monteur, -e / die Monteurin, -nen;mechanic, fitter, installer;монтажник, механік;Der Monteur installiert heute das neue Server-Rack im Data Center.
-etw. nachbestellen;to reorder;дозамовляти;Wir müssen dringend neue Software-Lizenzen beim Anbieter nachbestellen.
-ein Problem beheben;to fix/resolve a problem;вирішити проблему;Der IT-Support konnte das Login-Problem des Kunden schnell beheben.
+etw. nachbestellen (bestellt nach, bestellte nach, hat nachbestellt);to reorder;дозамовляти;Wir müssen dringend neue Software-Lizenzen beim Anbieter nachbestellen.
+ein Problem beheben (behebt, behob, hat behoben);to fix/resolve a problem;вирішити проблему;Der IT-Support konnte das Login-Problem des Kunden schnell beheben.
 der Retourenschein, -e;return slip;бланк повернення;Dem defekten Firmen-Laptop lag bereits ein Retourenschein bei.
 die Serviceleistung, -en;service;сервісна послуга;Die monatliche Server-Wartung ist eine wichtige Serviceleistung.
 die Textilie, -n;textile;текстиль, тканина;Unser E-Commerce-Kunde verkauft nachhaltige Textilien im Internet.
 umsonst;free of charge, in vain;безкоштовно, даремно;Mein ganzes Refactoring war umsonst, weil der Kunde das Feature gestrichen hat.
-etw. verfärben;to discolor;змінювати колір, забарвлювати;Durch die extreme Hitze im Serverraum hat sich das Plastik verfärbt.
-etw. versalzen;to oversalt;пересолити;Der Koch in der Betriebskantine hat das Mittagessen leider versalzen.
-sich verspäten;to be late, to be delayed;запізнюватися, затримуватися;Das Release-Datum der neuen Software wird sich um eine Woche verspäten.
+etw. verfärben (verfärbt, verfärbte, hat verfärbt);to discolor;змінювати колір, забарвлювати;Durch die extreme Hitze im Serverraum hat sich das Plastik verfärbt.
+etw. versalzen (versalzt, versalzte, hat versalzen);to oversalt;пересолити;Der Koch in der Betriebskantine hat das Mittagessen leider versalzen.
+sich verspäten (verspätet sich, verspätete sich, ist verspätet);to be late, to be delayed;запізнюватися, затримуватися;Das Release-Datum der neuen Software wird sich um eine Woche verspäten.
 jdm. etw. versprechen (verspricht, versprach, hat versprochen);to promise someone something;обіцяти комусь щось;Der Provider hat uns vertraglich eine Uptime von 99,9% versprochen.
 etw. zerbrechen (zerbricht, zerbrach, hat zerbrochen);to break, to shatter;розбивати;Das Display des Firmen-Smartphones ist leider zerbrochen.
 etw. zerkratzen;to scratch;подряпати;Das Gehäuse meines Arbeitslaptops ist durch den Transport zerkratzt.
 etw. zerreißen (zerreißt, zerriss, hat zerrissen);to tear, to rip;розривати;Ich habe das ausgedruckte Passwort aus Sicherheitsgründen zerrissen.
-Abhilfe schaffen;to remedy, to fix a problem;зарадити, усунути проблему;Ein neues Caching-System wird bei den langsamen Ladezeiten Abhilfe schaffen.
+Abhilfe schaffen (schafft, schaffte, hat geschaffen);to remedy, to fix a problem;зарадити, усунути проблему;Ein neues Caching-System wird bei den langsamen Ladezeiten Abhilfe schaffen.
 allerdings;however, indeed;однак, щоправда;Der Code funktioniert einwandfrei, allerdings ist er sehr schwer zu lesen.
-etw. bedauern;to regret;шкодувати про щось;Wir bedauern den gestrigen Server-Ausfall und bitten um Entschuldigung.
+etw. bedauern (bedauert, bedauerte, hat bedauert);to regret;шкодувати про щось;Wir bedauern den gestrigen Server-Ausfall und bitten um Entschuldigung.
 zu unserem Bedauern;to our regret;на наш жаль;Zu unserem Bedauern müssen wir die Entwicklung dieses Features stoppen.
-etw. bestätigen;to confirm;підтверджувати;Bitte bestätigen Sie den Empfang der neuen Zugangsdaten per E-Mail.
+etw. bestätigen (bestätigt, bestätigte, hat bestätigt);to confirm;підтверджувати;Bitte bestätigen Sie den Empfang der neuen Zugangsdaten per E-Mail.
 die Dunstabzugshaube, -n;extractor hood;витяжка (кухонна);Wir haben Smart-Home-Technik für eine WLAN-Dunstabzugshaube entwickelt.
 eintreffen (trifft ein, traf ein, ist eingetroffen);to arrive;прибувати, надходити;Die neue Server-Hardware wird voraussichtlich morgen im Büro eintreffen.
 der Eingang, "-e;receipt, arrival, entrance;надходження, вхід;Der Eingang der Zahlung wurde im CRM-System automatisch registriert.
-den Eingang bestätigen;to confirm receipt;підтвердити отримання;Die API wird den Eingang der JSON-Daten mit einem Status 200 bestätigen.
+den Eingang bestätigen (bestätigt, bestätigte, hat bestätigt);to confirm receipt;підтвердити отримання;Die API wird den Eingang der JSON-Daten mit einem Status 200 bestätigen.
 die Flamme, -n;flame;полум'я;Eine defekte Lithium-Ionen-Batterie kann plötzlich in Flammen aufgehen.
 der Gefrierschrank, "-e;freezer;морозильна камера;Der smarte IoT-Gefrierschrank bestellt automatisch Lebensmittel nach.
-sich herausstellen;to turn out;з'ясовуватися, виявлятися;Es hat sich herausgestellt, dass das alte Framework enorme Sicherheitslücken hat.
+sich herausstellen (stellt sich heraus, stellte sich heraus, hat sich herausgestellt);to turn out;з'ясовуватися, виявлятися;Es hat sich herausgestellt, dass das alte Framework enorme Sicherheitslücken hat.
 der Lieferschein, -e;delivery note;накладна (на доставку);Der Lieferschein für die neuen Monitore liegt beim Office-Manager.
-etw. nachliefern;to deliver later, to supply subsequently;допоставити, доставити пізніше;Wir müssen das fehlende Netzwerkkabel für den Kunden umgehend nachliefern.
+etw. nachliefern (liefert nach, lieferte nach, hat nachgeliefert);to deliver later, to supply subsequently;допоставити, доставити пізніше;Wir müssen das fehlende Netzwerkkabel für den Kunden umgehend nachliefern.
 umgehend;immediately, promptly;негайно, терміново;Bitte beheben Sie diesen kritischen Bug auf dem Produktionsserver umgehend.
 verfügbar;available;доступний;Der neue Cloud-Service von AWS ist nun weltweit verfügbar.
 das Versehen, -;mistake, oversight, accident;помилка, недогляд;Das Löschen der Produktions-Datenbank war ein schreckliches Versehen.
@@ -59,11 +59,11 @@ die Anfahrt, -en;journey, approach (driving);проїзд, дорога (до м
 die Anschaffung, -en;purchase, acquisition;придбання, покупка;Die Anschaffung der neuen Server-Infrastruktur war eine große Investition.
 der Aufpreis, -e;surcharge, extra charge;доплата;Premium-Support mit 24/7 Hotline kostet bei dieser Software einen Aufpreis.
 ausgehen von (+ Dat.) (geht aus, ging aus, ist ausgegangen);to assume, to proceed from;виходити з (припущення);Wir gehen von einem erfolgreichen und fehlerfreien Deployment aus.
-etw. beinhalten;to contain, to include;містити, охоплювати;Der IT-Support-Vertrag beinhaltet regelmäßige automatisierte Backups.
-etw. beseitigen;to eliminate, to fix;усувати, ліквідувати;Die gefundene Sicherheitslücke (Vulnerability) wurde sofort beseitigt.
+etw. beinhalten (beinhaltet, beinhaltete, hat beinhaltet);to contain, to include;містити, охоплювати;Der IT-Support-Vertrag beinhaltet regelmäßige automatisierte Backups.
+etw. beseitigen (beseitigt, beseitigte, hat beseitigt);to eliminate, to fix;усувати, ліквідувати;Die gefundene Sicherheitslücke (Vulnerability) wurde sofort beseitigt.
 die Beteiligung, -en;participation, share;участь, частка;Wir danken dem Team für die aktive Beteiligung am Beta-Test der App.
 defekt;defective, broken;несправний, дефектний;Der defekte RAM-Riegel im Server führte zu ständigen Abstürzen.
-erfolgen;to take place, to occur;відбуватися, здійснюватися;Das nächste große Software-Update wird in der Nacht von Samstag auf Sonntag erfolgen.
+erfolgen (erfolgt, erfolgte, ist erfolgt);to take place, to occur;відбуватися, здійснюватися;Das nächste große Software-Update wird in der Nacht von Samstag auf Sonntag erfolgen.
 der Fehlercode, -s;error code;код помилки;Der Fehlercode 404 bedeutet, dass die angeforderte Webseite nicht gefunden wurde.
 die Frachtkosten (Pl.);freight costs, shipping costs;витрати на перевезення;Die Frachtkosten für den Transport der schweren Server-Racks sind hoch.
 freiwillig;voluntary;добровільно;Die Teilnahme an dem Programmierwettbewerb (Hackathon) ist komplett freiwillig.
@@ -71,7 +71,7 @@ die Garantie, -n;guarantee, warranty;гарантія;Wir haben auf alle Firmen-
 die Garantieverlängerung, -en;warranty extension;продовження гарантії;Die Firma hat eine Garantieverlängerung für die teuren Server gekauft.
 gesetzlich;legal, statutory;законний, законодавчий;Wir müssen die gesetzlichen Datenschutz-Richtlinien (DSGVO) strikt einhalten.
 die Gesprächsnotiz, -en;memo, discussion note;запис бесіди, нотатка;Ich erstelle eine Gesprächsnotiz nach dem Meeting mit dem Product Owner.
-gewährleisten;to guarantee, to ensure;гарантувати, забезпечувати;Die neue Architektur soll gewährleisten, dass die App auch bei hoher Last nicht abstürzt.
+gewährleisten (gewährleistet, gewährleistete, hat gewährleistet);to guarantee, to ensure;гарантувати, забезпечувати;Die neue Architektur soll gewährleisten, dass die App auch bei hoher Last nicht abstürzt.
 die Gewährleistung, -en;warranty, guarantee (statutory);гарантійне зобов'язання (за законом);Bei Hardware-Fehlern greift in Deutschland die gesetzliche Gewährleistung von zwei Jahren.
 der Händler, - / die Händlerin, -nen;dealer, retailer, trader;продавець, дилер;Der Händler nimmt das defekte Netzwerk-Equipment problemlos zurück.
 die Herstellergarantie, -n;manufacturer's warranty;гарантія від виробника;Wasserschäden am Laptop sind von der Herstellergarantie leider ausgeschlossen.
@@ -84,10 +84,10 @@ das Missverständnis, -se;misunderstanding;непорозуміння;Eine unkla
 etw. nachweisen (weist nach, wies nach, hat nachgewiesen);to prove, to demonstrate;доводити, підтверджувати;Wir müssen dem Support den Fehler im Log-File eindeutig nachweisen.
 der Nachweis, -e;proof, evidence;доказ, підтвердження;Ein Screenshot der Fehlermeldung dient als Nachweis für den Bug.
 ordnungsgemäß;proper, correct(ly);належним чином, правильно;Die Datenbank wurde vor dem Update ordnungsgemäß gesichert (Backup).
-etw. reklamieren;to complain, to claim;рекламувати, пред'являти претензію;Der Kunde möchte die fehlerhafte Software-Lizenz reklamieren und sein Geld zurück.
+etw. reklamieren (reklamiert, reklamierte, hat reklamiert);to complain, to claim;рекламувати, пред'являти претензію;Der Kunde möchte die fehlerhafte Software-Lizenz reklamieren und sein Geld zurück.
 verantwortlich für (+ Akk.);responsible for;відповідальний за;Das DevOps-Team ist verantwortlich für das reibungslose Deployment.
 die Verlängerung, -en;extension;продовження, подовження;Die Verlängerung des SSL-Zertifikats muss heute manuell durchgeführt werden.
-jdm. etw. versichern;to assure someone of something;запевняти когось у чомусь;Ich kann Ihnen versichern, dass die Kundendaten absolut sicher verschlüsselt sind.
+jdm. etw. versichern (versichert, versicherte, hat versichert);to assure someone of something;запевняти когось у чомусь;Ich kann Ihnen versichern, dass die Kundendaten absolut sicher verschlüsselt sind.
 der Zustand (Sg.);state, condition;стан;Nach dem Crash befand sich die Datenbank in einem inkonsistenten Zustand.
 die Abrechnungssoftware, -s;billing software, accounting software;програмне забезпечення для розрахунків / бухгалтерії;Wir programmieren eine neue, cloudbasierte Abrechnungssoftware für B2B-Kunden.
 der Ansprechpartner, - / die Ansprechpartnerin, -nen;contact person;контактна особа;Unser Tech-Lead ist der richtige Ansprechpartner für Fragen zur Architektur.
@@ -109,12 +109,12 @@ die Erstattung, -en;refund, reimbursement;відшкодування, повер
 etw. einhalten (hält ein, hielt ein, hat eingehalten);to comply with, to keep (e.g. deadlines);дотримуватися (правил, термінів);Wir müssen die Deadlines (Termine) für den aktuellen Sprint unbedingt einhalten.
 in jedem Fall;in any case, definitely;у будь-якому випадку;Wir müssen in jedem Fall ein Backup der Datenbank machen, bevor wir updaten.
 generell;general(ly), in general;загалом, як правило;Generell deployen wir bei uns keine neuen Features am Freitagnachmittag.
-klagen über (+ Akk.);to complain about;скаржитися на;Viele Nutzer klagen über die verwirrende Navigation in der neuen App.
+klagen über (+ Akk.) (klagt, klagte, hat geklagt);to complain about;скаржитися на;Viele Nutzer klagen über die verwirrende Navigation in der neuen App.
 die Meckerei (Sg.);complaining, grumbling;постійні скарги, бурчання;Ständige Meckerei über den alten Legacy-Code bringt das Team nicht weiter.
 offensichtlich;obvious(ly), apparent(ly);очевидний, явний;Der Memory Leak (Speicherfehler) im Skript war bei genauerem Hinsehen offensichtlich.
 der Pauschalurlaub, -e;package holiday;пакетний тур;Unsere Web-Plattform vermittelt Pauschalurlaube komplett digital.
 der Reiseveranstalter, -;tour operator;туроператор;Der Reiseveranstalter nutzt unsere API, um die Flugdaten live abzurufen.
 der Schadenersatz (Sg.);damages, compensation;відшкодування збитків;Der Kunde verlangt Schadenersatz wegen des massiven Datenverlusts.
-Schadenersatz leisten;to pay compensation for damages;відшкодовувати збитки;Die IT-Firma muss für den entstandenen Systemausfall Schadenersatz leisten.
-jdn. verklagen;to sue;подавати в суд на когось;Der Konkurrent will unser Startup wegen einer angeblichen Patentrechtsverletzung verklagen.
-etw. verlangen;to demand, to require;вимагати;Der Product Owner verlangt eine sofortige Behebung des kritischen Bugs.
+Schadenersatz leisten (leistet, leistete, hat geleistet);to pay compensation for damages;відшкодовувати збитки;Die IT-Firma muss für den entstandenen Systemausfall Schadenersatz leisten.
+jdn. verklagen (verklagt, verklagte, hat verklagt);to sue;подавати в суд на когось;Der Konkurrent will unser Startup wegen einer angeblichen Patentrechtsverletzung verklagen.
+etw. verlangen (verlangt, verlangte, hat verlangt);to demand, to require;вимагати;Der Product Owner verlangt eine sofortige Behebung des kritischen Bugs.

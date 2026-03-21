@@ -2,14 +2,14 @@
 #html:true
 #columns:German;English;Ukrainian;Example
 die Bedienbarkeit (Sg.);usability, operability;зручність використання, юзабіліті;Die Bedienbarkeit (Usability) unserer App muss stark verbessert werden.
-etw./jdn. bedienen;to operate, to serve;обслуговувати, керувати;Die neue Software lässt sich sehr intuitiv bedienen.
+etw./jdn. bedienen (bedient, bediente, hat bedient);to operate, to serve;обслуговувати, керувати;Die neue Software lässt sich sehr intuitiv bedienen.
 benutzerfreundlich;user-friendly;зручний для користувача;Ein benutzerfreundliches Interface ist entscheidend für den Erfolg.
 die Beseitigung (Sg.);removal, elimination;усунення, ліквідація;Die Beseitigung dieses Bugs hat höchste Priorität im Sprint.
-etw. betreiben;to operate, to run;експлуатувати, керувати;Wir betreiben unsere eigenen Server in einem Rechenzentrum in Frankfurt.
+etw. betreiben (betreibt, betrieb, hat betrieben);to operate, to run;експлуатувати, керувати;Wir betreiben unsere eigenen Server in einem Rechenzentrum in Frankfurt.
 die Checkliste, -n;checklist;чек-лист, контрольний список;Wir haben eine Checkliste für das Deployment auf den Produktions-Server.
 das Design, -s;design;дизайн;Das neue UI-Design sieht sehr modern aus.
 effizient;efficient;ефективний;Dieser Suchalgorithmus ist viel effizienter als der alte.
-etw. einstellen;to set, to adjust, to stop;налаштовувати, припиняти;Wir müssen den Support für den alten Internet Explorer einstellen.
+etw. einstellen (stellt ein, stellte ein, hat eingestellt);to set, to adjust, to stop;налаштовувати, припиняти;Wir müssen den Support für den alten Internet Explorer einstellen.
 haltbar;durable, stable;міцний, довговічний;Hardware für Server muss besonders haltbar sein.
 die Haltbarkeit (Sg.);durability, shelf life;довговічність, термін придатності;Die Haltbarkeit von SSD-Festplatten hängt von den Schreibzyklen ab.
 das Image (Sg.);image, reputation;імідж, репутація;Ein Datenleck würde das Image unserer IT-Firma zerstören.
@@ -25,90 +25,90 @@ die Pauschalreise, -n;package holiday;туристична путівка, па�
 das Regalbrett, -er;shelf board;полиця;Das Regalbrett im Server-Rack muss 50 Kilo aushalten.
 die Sägemaschine, -n;sawing machine;пиляльний верстат;Wir programmieren die Steuerungs-Software für eine Sägemaschine.
 die Umweltfreundlichkeit (Sg.);environmental friendliness;екологічність;Umweltfreundlichkeit ist ein Ziel unseres neuen Rechenzentrums.
-etw. vermeiden;to avoid;уникати;Redundanzen in der Datenbank müssen wir unbedingt vermeiden.
+etw. vermeiden (vermeidet, vermied, hat vermieden);to avoid;уникати;Redundanzen in der Datenbank müssen wir unbedingt vermeiden.
 wettbewerbsfähig;competitive;конкурентоспроможний;Um wettbewerbsfähig zu bleiben, müssen wir KI in unsere Produkte integrieren.
 der Zusammenbau (Sg.);assembly;складання, монтаж;Der Zusammenbau der neuen Server dauerte den ganzen Tag.
-etw. zusammenbauen;to assemble;збирати, монтувати;Der IT-Techniker muss den neuen PC zusammenbauen.
+etw. zusammenbauen (baut zusammen, baute zusammen, hat zusammengebaut);to assemble;збирати, монтувати;Der IT-Techniker muss den neuen PC zusammenbauen.
 die Zuverlässigkeit (Sg.);reliability;надійність;Die Zuverlässigkeit unseres Backends liegt bei 99,9 Prozent.
 die Arbeitsfläche, -n;workspace, work surface;робоча поверхня;Bitte halten Sie Ihre Arbeitsfläche im Büro sauber.
-etw. auslösen (z. B. Krankheiten);to trigger (e.g. diseases);викликати, провокувати;Ein Fehler im Code kann einen Systemausfall auslösen.
+etw. auslösen (z. B. Krankheiten) (löst aus, löste aus, hat ausgelöst);to trigger (e.g. diseases);викликати, провокувати;Ein Fehler im Code kann einen Systemausfall auslösen.
 die Bakterie, -n;bacterium;бактерія;Auf Tastaturen sammeln sich oft viele Bakterien.
 das Desinfektionsmittel, -;disinfectant;дезінфікуючий засіб;Im Büro-Eingang steht ein Spender mit Desinfektionsmittel.
-etw. desinfizieren;to disinfect;дезінфікувати;Du solltest dein Smartphone regelmäßig desinfizieren.
+etw. desinfizieren (desinfiziert, desinfizierte, hat desinfiziert);to disinfect;дезінфікувати;Du solltest dein Smartphone regelmäßig desinfizieren.
 die Dienstkleidung, -en;workwear, uniform;робочий одяг, уніформа;In unserem Startup gibt es keine Dienstkleidung, nur einen lockeren Dresscode.
 der Einmalhandschuh, -e;disposable glove;одноразова рукавичка;Für den Austausch der Druckerpatrone nutze ich einen Einmalhandschuh.
-etw./jdn. einseifen;to soap, to lather;намилювати;Man soll sich die Hände 20 Sekunden lang gut einseifen.
+etw./jdn. einseifen (seift ein, seifte ein, hat eingeseift);to soap, to lather;намилювати;Man soll sich die Hände 20 Sekunden lang gut einseifen.
 das Fieberthermometer, -;clinical thermometer;медичний термометр;Das smarte Fieberthermometer synchronisiert die Daten mit unserer App.
 der Fingernagel, "-;fingernail;ніготь;Die Software analysiert Bilder vom Fingernagel für medizinische Diagnosen.
 fließendes Wasser;running water;проточна вода;Waschen Sie die Hände mit Seife unter fließendem Wasser.
 der Funktionsraum, "-e;utility room, functional room;технічне приміщення;Der Serverraum ist der wichtigste Funktionsraum im Gebäude.
-etw./jdn. gefährden;to endanger;наражати на небезпеку;Ein offener Port kann das gesamte Firmennetzwerk gefährden.
+etw./jdn. gefährden (gefährdet, gefährdete, hat gefährdet);to endanger;наражати на небезпеку;Ein offener Port kann das gesamte Firmennetzwerk gefährden.
 die Hygiene (Sg.);hygiene;гігієна;Gute Cyber-Hygiene schützt vor Hackerangriffen.
 der Hygienebeauftragte, -n / die Hygienebeauftragte, -n;hygiene officer;відповідальний за гігієну;Der Hygienebeauftragte hat neue Corona-Regeln für das Büro erstellt.
 der Hygieneplan, "-e;hygiene plan;план санітарних заходів;Der Hygieneplan schreibt vor, dass die Tische täglich gereinigt werden.
 die Infektion, -en;infection;інфекція;Unsere Health-App warnt Nutzer vor einer möglichen Infektion.
-etw. kontaminieren;to contaminate;забруднювати, заражати;Ein fehlerhaftes Skript hat unsere Datenbank kontaminiert.
+etw. kontaminieren (kontaminiert, kontaminierte, hat kontaminiert);to contaminate;забруднювати, заражати;Ein fehlerhaftes Skript hat unsere Datenbank kontaminiert.
 der Krankheitserreger, -;pathogen, germ;збудник хвороби;Wir entwickeln Software, die DNA von Krankheitserregern analysiert.
 die Pandemie, -n;pandemic;пандемія;Während der Pandemie sind viele Entwickler ins Homeoffice gewechselt.
 der Pflegebereich, -e;care sector;сфера догляду;Wir schreiben sichere Software für Krankenhäuser und den Pflegebereich.
 die Pflegekraft, "-e;nurse, caregiver;медпрацівник, доглядальник;Die App hilft der Pflegekraft, Patientendaten schneller zu erfassen.
 die Sanitäreinrichtung, -en;sanitary facility;санітарний вузол;Die Sanitäreinrichtungen im Büro wurden frisch renoviert.
-etw./jdn. schützen vor (+ Dat.);to protect from;захищати від;Die Firewall soll uns vor DDoS-Angriffen schützen.
+etw./jdn. schützen vor (+ Dat.) (schützt, schützte, hat geschützt);to protect from;захищати від;Die Firewall soll uns vor DDoS-Angriffen schützen.
 der Stuhl (Sg.);stool (medical) / chair;випорожнення (мед.) / стілець;Das medizinische Labor untersucht den Stuhl des Patienten digital.
 die Übertragung, -en;transmission, transfer;передача (даних/інфекції);Die Übertragung der Daten erfolgt verschlüsselt über HTTPS.
 der Urin, -e;urine;сеча;Die smarte Toilette kann den Urin automatisch analysieren.
 die Verbreitung, -en;spread, distribution;поширення;Wir wollen die Verbreitung unserer Open-Source-Software fördern.
-etw. verhindern;to prevent;запобігати, перешкоджати;Regelmäßige Updates verhindern, dass das System gehackt wird.
+etw. verhindern (verhindert, verhinderte, hat verhindert);to prevent;запобігати, перешкоджати;Regelmäßige Updates verhindern, dass das System gehackt wird.
 das Virus, Viren;virus;вірус (комп'ютерний або біологічний);Das Antivirenprogramm hat ein gefährliches Virus blockiert.
 der Zwischenraum, "-e;gap, space between;проміжок, зазор;Im Zwischenraum der Tastatur sammelt sich viel Staub.
 angespannt;tense;напружений;Die Stimmung vor dem wichtigen Release ist sehr angespannt.
 anregend;stimulating, inspiring;надихаючий, стимулюючий;Das Gespräch mit dem Software-Architekten war sehr anregend.
 das Arbeitsklima (Sg.);working atmosphere;робочий клімат;Das Arbeitsklima in unserem Team ist wirklich großartig.
 die Atmosphäre (Sg.);atmosphere;атмосфера;In IT-Startups herrscht oft eine sehr lockere Atmosphäre.
-Aufgaben erfüllen;to fulfill tasks;виконувати завдання;Ein Algorithmus muss genau definierte Aufgaben erfüllen.
+Aufgaben erfüllen (erfüllt, erfüllte, hat erfüllt);to fulfill tasks;виконувати завдання;Ein Algorithmus muss genau definierte Aufgaben erfüllen.
 ausführlich;detailed, extensive;детальний, докладний;Bitte schreibe einen ausführlichen Kommentar zu diesem Code.
 befreiend;liberating;визвольний, такий, що приносить полегшення;Es war sehr befreiend, diesen uralten Code endlich zu löschen.
-etw./jdn. beurteilen;to assess, to judge;оцінювати, судити;Im Code Review beurteilen wir die Qualität der Lösung.
-etw. bewerten;to evaluate, to rate;оцінювати;Wie würden Sie Ihre eigenen React-Kenntnisse bewerten?
+etw./jdn. beurteilen (beurteilt, beurteilte, hat beurteilt);to assess, to judge;оцінювати, судити;Im Code Review beurteilen wir die Qualität der Lösung.
+etw. bewerten (bewertet, bewertete, hat bewertet);to evaluate, to rate;оцінювати;Wie würden Sie Ihre eigenen React-Kenntnisse bewerten?
 ehrlich;honest(ly);чесний;Sei ehrlich, wenn du einen Bug nicht selbst fixen kannst.
 einfühlsam;empathetic, sensitive;чуйний;Ein guter Scrum Master reagiert einfühlsam auf Teamprobleme.
 emotional;emotional;емоційний;Bitte bleibt bei Diskussionen über Architektur sachlich, nicht emotional.
 ernst;serious(ly);серйозний;Das ist ein sehr ernstes Sicherheitsproblem (Security Issue).
-etw. erreichen;to achieve, to reach;досягати;Zusammen können wir das Ziel des Sprints erreichen.
-etw. zur Diskussion stellen;to put up for discussion;винести на обговорення;Ich möchte dieses neue Datenbank-Modell zur Diskussion stellen.
-Feedback geben;to give feedback;давати зворотний зв'язок;Beim Pair-Programming können wir uns direkt Feedback geben.
+etw. erreichen (erreicht, erreichte, hat erreicht);to achieve, to reach;досягати;Zusammen können wir das Ziel des Sprints erreichen.
+etw. zur Diskussion stellen (stellt, stellte, hat gestellt);to put up for discussion;винести на обговорення;Ich möchte dieses neue Datenbank-Modell zur Diskussion stellen.
+Feedback geben (gibt, gab, hat gegeben);to give feedback;давати зворотний зв'язок;Beim Pair-Programming können wir uns direkt Feedback geben.
 das Feedback, -s;feedback;зворотний зв'язок;Das Feedback der Nutzer zur neuen Version war sehr positiv.
-Fragen stellen;to ask questions;ставити запитання;Zögern Sie nicht, im Interview technische Fragen zu stellen.
+Fragen stellen (stellt, stellte, hat gestellt);to ask questions;ставити запитання;Zögern Sie nicht, im Interview technische Fragen zu stellen.
 die Führungskraft, "-e;manager, executive;керівник;Unser CTO ist eine sehr erfahrene Führungskraft.
-die Gelegenheit ergreifen;to seize the opportunity;скористатися нагодою;Er sollte die Gelegenheit ergreifen und Lead Developer werden.
+die Gelegenheit ergreifen (ergreift, ergriff, hat ergriffen);to seize the opportunity;скористатися нагодою;Er sollte die Gelegenheit ergreifen und Lead Developer werden.
 harmonisch;harmonious;гармонійний;Die Zusammenarbeit im Frontend-Team verläuft sehr harmonisch.
 hitzig;heated (argument);палкий, гарячий;Es gab eine hitzige Debatte über Tabs vs. Spaces.
-in Wut geraten;to fly into a rage, to get angry;розлютитися;Du darfst nicht in Wut geraten, wenn dein Code abgelehnt wird.
+in Wut geraten (gerät, geriet, ist geraten);to fly into a rage, to get angry;розлютитися;Du darfst nicht in Wut geraten, wenn dein Code abgelehnt wird.
 klärend;clarifying;прояснюючий;Nach dem Konflikt hatten wir ein klärendes Gespräch.
 kollegial;cooperative, collegial;товариський, колегіальний;Wir haben ein sehr kollegiales Verhältnis im Büro.
 die Kooperationsfähigkeit (Sg.);ability to cooperate;здатність до співпраці;Kooperationsfähigkeit ist das Wichtigste bei Scrum.
-Kritik üben;to criticize;критикувати;Man darf Kritik üben, aber sie muss immer konstruktiv sein.
+Kritik üben (übt, übte, hat geübt);to criticize;критикувати;Man darf Kritik üben, aber sie muss immer konstruktiv sein.
 die Kundenorientierung (Sg.);customer orientation;клієнтоорієнтованість;Die Kundenorientierung steht bei der Entwicklung unseres UIs im Fokus.
 locker;relaxed, casual;розслаблений, невимушений;Der Tech-Talk am Freitag ist immer sehr locker.
 offen;open;відкритий;Wir pflegen eine sehr offene Feedback-Kultur im Startup.
-Protokoll führen;to take minutes/notes;вести протокол;Wer wird im heutigen Meeting das Protokoll führen?
+Protokoll führen (führt, führte, hat geführt);to take minutes/notes;вести протокол;Wer wird im heutigen Meeting das Protokoll führen?
 die Rückmeldung, -en;feedback, response;відповідь, відгук;Ich habe noch keine Rückmeldung auf meinen Pull Request.
-Vereinbarungen treffen;to make agreements;укладати угоди, домовлятися;Wir müssen klare Vereinbarungen über die API-Schnittstelle treffen.
+Vereinbarungen treffen (trifft, traf, hat getroffen);to make agreements;укладати угоди, домовлятися;Wir müssen klare Vereinbarungen über die API-Schnittstelle treffen.
 das Verhalten (Sg.);behavior;поведінка;Das asynchrone Verhalten von JavaScript ist anfangs verwirrend.
 vertraulich;confidential;конфіденційний;Kundendaten müssen immer absolut vertraulich behandelt werden.
 das Zielvereinbarungsgespräch, -e;target agreement discussion;розмова про встановлення цілей;Im Zielvereinbarungsgespräch legen wir meine Boni für das Jahr fest.
-zur Sprache kommen;to come up for discussion;бути обговореним, підніматися (про питання);Die schlechte Server-Performance muss heute im Meeting zur Sprache kommen.
+zur Sprache kommen (kommt, kam, ist gekommen);to come up for discussion;бути обговореним, підніматися (про питання);Die schlechte Server-Performance muss heute im Meeting zur Sprache kommen.
 die (stationäre) Altenpflege (Sg.);inpatient elder care;догляд за літніми людьми;Wir entwickeln eine Verwaltungs-Software für die Altenpflege.
 die Arbeitsbelastung, -en;workload;робоче навантаження;Die Arbeitsbelastung ist kurz vor dem Release sehr hoch.
-etw. ausgleichen;to balance out, to compensate;урівноважувати, компенсувати;Mit Freizeitausgleich können wir Überstunden ausgleichen.
-etw. aushandeln;to negotiate;вести переговори, домовлятися;Wir müssen mit dem Kunden eine neue Deadline aushandeln.
+etw. ausgleichen (gleicht aus, glich aus, hat ausgeglichen);to balance out, to compensate;урівноважувати, компенсувати;Mit Freizeitausgleich können wir Überstunden ausgleichen.
+etw. aushandeln (handelt aus, handelte aus, hat ausgehandelt);to negotiate;вести переговори, домовлятися;Wir müssen mit dem Kunden eine neue Deadline aushandeln.
 belastend;burdensome, stressful;обтяжливий, стресовий;Ständige Server-Ausfälle sind sehr belastend für das DevOps-Team.
 berechtigt;justified, authorized;обґрунтований, виправданий;Die Kritik am langsamen Ladebildschirm ist völlig berechtigt.
 die Betriebsvereinbarung, -en;company agreement;корпоративна угода;Homeoffice ist bei uns durch eine Betriebsvereinbarung geregelt.
-etw. bewilligen;to approve, to grant;схвалювати, давати дозвіл;Der Chef hat mein Budget für die AWS-Zertifizierung bewilligt.
+etw. bewilligen (bewilligt, bewilligte, hat bewilligt);to approve, to grant;схвалювати, давати дозвіл;Der Chef hat mein Budget für die AWS-Zertifizierung bewilligt.
 destruktiv;destructive;деструктивний;Destruktive Kommentare im Code Review helfen niemandem weiter.
 die Einschätzung, -en;assessment, evaluation;оцінка, думка;Teilst du meine Einschätzung, dass diese Datenbank zu langsam ist?
-sich einschleichen (z. B. ein Fehler hat sich eingeschlichen);to creep in;закрадатися (напр., помилка);Nach dem Refactoring hat sich leider ein kleiner Fehler eingeschlichen.
+sich einschleichen (z. B. ein Fehler hat sich eingeschlichen) (schleicht sich ein, schlich sich ein, hat sich eingeschlichen);to creep in;закрадатися (напр., помилка);Nach dem Refactoring hat sich leider ein kleiner Fehler eingeschlichen.
 die Entlastung, -en;relief;розвантаження, полегшення;Automatisierte Tests bringen eine enorme Entlastung für das QA-Team.
 die Fachkraft, "-e;skilled worker, professional;кваліфікований спеціаліст;Senior Entwickler sind stark gefragte IT-Fachkräfte.
 jdm. sind die Hände gebunden;one's hands are tied;руки зв'язані;Ich kann das Update nicht machen, mir sind ohne Admin-Rechte die Hände gebunden.
@@ -122,15 +122,15 @@ peinlich;embarrassing;незручний, соромно;Es ist peinlich, wenn d
 der Personalmangel (Sg.);staff shortage;нестача персоналу;Wegen des Personalmangels suchen wir dringend neue Entwickler.
 sachlich;objective, factual;об'єктивний;Lass uns das Architektur-Problem ganz sachlich analysieren.
 der Tadel, -;reprimand, blame;догана, осуд;Für diesen kritischen Fehler gab es einen Tadel vom CTO.
-jdm. etw. übel nehmen;to take offense at, to resent;ображатися на когось;Nimm mir die strenge Code-Kritik bitte nicht übel.
+jdm. etw. übel nehmen (nimmt, nahm, hat genommen);to take offense at, to resent;ображатися на когось;Nimm mir die strenge Code-Kritik bitte nicht übel.
 unangenehm;unpleasant;неприємний;Ein Gespräch über eine Gehaltserhöhung ist oft unangenehm.
 etw. verbergen (verbirgt, verbarg, hat verborgen);to hide, to conceal;приховувати;Du solltest deine Fehler im Code niemals vor dem Team verbergen.
 versehentlich;accidentally, by mistake;випадково;Ich habe versehentlich die Produktions-Datenbank gelöscht!
 etw./jdn. zurückweisen (weist zurück, wies zurück, hat zurückgewiesen);to reject;відхиляти;Der Senior Developer musste meinen Pull Request leider zurückweisen.
-sich etw. abgewöhnen;to break the habit of;відвикати;Ich muss mir abgewöhnen, ohne Unit-Tests zu pushen.
-sich bemühen um (+ Akk.);to strive for, to make an effort;намагатися, докладати зусиль;Ich werde mich bemühen, den Bug bis morgen zu beheben.
+sich etw. abgewöhnen (gewöhnt sich ab, gewöhnte sich ab, hat sich abgewöhnt);to break the habit of;відвикати;Ich muss mir abgewöhnen, ohne Unit-Tests zu pushen.
+sich bemühen um (+ Akk.) (bemüht sich, bemühte sich, hat sich bemüht);to strive for, to make an effort;намагатися, докладати зусиль;Ich werde mich bemühen, den Bug bis morgen zu beheben.
 die Beziehung, -en;relationship;відносини, зв'язок;Wir haben eine sehr gute Beziehung zu unseren B2B-Kunden.
-etw. erforschen;to research, to explore;досліджувати;Wir müssen erst erforschen, warum die Server-Last plötzlich ansteigt.
+etw. erforschen (erforscht, erforschte, hat erforscht);to research, to explore;досліджувати;Wir müssen erst erforschen, warum die Server-Last plötzlich ansteigt.
 halten von (+ Dat.) (hält, hielt, hat gehalten);to think of (an opinion);бути якоїсь думки про щось;Was hältst du von dem neuen JavaScript-Framework?
 die Ich-Botschaft, -en;"I" message;"я-повідомлення";Kommuniziere Kritik besser als Ich-Botschaft ("Ich finde das schwer lesbar").
 klingen (klingt, klang, hat geklungen);to sound;звучати;Dein Plan für die Datenmigration klingt sehr gut.
@@ -142,4 +142,4 @@ das Tabu, -s;taboo;табу;Passwörter im Code (Hardcoding) sind ein absolutes 
 ungewohnt;unusual, unfamiliar;незвичний;Die Syntax von Python war für mich am Anfang etwas ungewohnt.
 verständnisvoll;understanding, sympathetic;тямущий, з розумінням;Mein Teamlead reagierte sehr verständnisvoll auf meine Krankheit.
 wahnsinnig;crazy, insane(ly);божевільний, неймовірно;Die neuen M3-Chips von Apple sind wahnsinnig schnell.
-sich zurückziehen von (+ Dat.) (zieht zurück, zog zurück, hat zurückgezogen);to withdraw from;відсторонятися, відступати;Man darf sich nach Kritik nicht sofort aus dem Team zurückziehen.
+sich zurückziehen von (+ Dat.) (zieht sich zurück, zog sich zurück, hat sich zurückgezogen);to withdraw from;відсторонятися, відступати;Man darf sich nach Kritik nicht sofort aus dem Team zurückziehen.

@@ -3,8 +3,8 @@
 #columns:German;English;Ukrainian;Example
 das Anliegen, -;request, concern, matter;прохання, справа, питання;Was ist Ihr genaues Anliegen bezüglich der neuen Software?
 der Arbeitsspeicher, -;RAM, main memory;оперативна пам'ять (RAM);Der Server braucht dringend mehr Arbeitsspeicher für die Datenbank.
-etw. ausstatten;to equip, to furnish;обладнувати, оснащувати;Wir müssen das neue Büro mit schnellem WLAN ausstatten.
-etw. ausstellen;to exhibit, to display;виставляти (на виставці);Wir werden unser neues VR-Headset auf der Messe ausstellen.
+etw. ausstatten (stattet aus, stattete aus, hat ausgestattet);to equip, to furnish;обладнувати, оснащувати;Wir müssen das neue Büro mit schnellem WLAN ausstatten.
+etw. ausstellen (stellt aus, stellte aus, hat ausgestellt);to exhibit, to display;виставляти (на виставці);Wir werden unser neues VR-Headset auf der Messe ausstellen.
 die Automobilausstellung, -en;motor show, car exhibition;автомобільна виставка;Auf der Automobilausstellung sieht man viel Software für autonomes Fahren.
 die Bildungsmesse, -n;education fair;освітня виставка;Das E-Learning-Startup präsentiert seine App auf der Bildungsmesse.
 die Buchmesse, -n;book fair;книжковий ярмарок;Auch auf der Buchmesse geht es heute viel um Digitalisierung und E-Books.
@@ -15,7 +15,7 @@ die Festplattengröße, -n;hard drive size/capacity;об'єм жорсткого
 der Gesprächsinhalt, -e;content of conversation;зміст розмови;Wir müssen den Gesprächsinhalt des Meetings kurz im Protokoll festhalten.
 informativ;informative;інформативний;Die Präsentation über die neue Microservice-Architektur war sehr informativ.
 die Innovation, -en;innovation;інновація;Künstliche Intelligenz ist aktuell die wichtigste Innovation in der Tech-Branche.
-etw. konfigurieren;to configure, to set up;налаштовувати, конфігурувати;Der DevOps-Engineer muss die Firewall des Netzwerks neu konfigurieren.
+etw. konfigurieren (konfiguriert, konfigurierte, hat konfiguriert);to configure, to set up;налаштовувати, конфігурувати;Der DevOps-Engineer muss die Firewall des Netzwerks neu konfigurieren.
 leistungsfähig;powerful, efficient;потужний, продуктивний;Dieses Framework ist extrem leistungsfähig bei der Datenverarbeitung.
 leistungsstark;high-performance, powerful;високопродуктивний;Wir brauchen einen leistungsstarken Prozessor für das Rendering.
 die Messegesprächsnotiz, -en;trade fair discussion note;нотатка про розмову на виставці;Bitte trage die Kontaktdaten des Kunden in die Messegesprächsnotiz ein.
@@ -25,19 +25,19 @@ die Publikumsmesse, -n;public fair, consumer exhibition;виставка для 
 die Tourismusbörse, -n;tourism exchange/fair;туристична біржа/виставка;Unsere Buchungs-API wird auf der großen Tourismusbörse in Berlin vorgestellt.
 der Umsatz, "-e;revenue, sales, turnover;оборот, виручка, обсяг продажів;Der Umsatz unseres E-Commerce-Shops hat sich dieses Jahr verdoppelt.
 variabel;variable, adjustable;змінний, варіативний;Die Kosten für Cloud-Hosting sind meistens variabel und hängen vom Traffic ab.
-etw. abrufen;to fetch, to retrieve, to call up;робити запит, викликати, отримувати (дані);Die Frontend-App kann die aktuellen Wetterdaten über eine API abrufen.
+etw. abrufen (ruft ab, rief ab, hat abgerufen);to fetch, to retrieve, to call up;робити запит, викликати, отримувати (дані);Die Frontend-App kann die aktuellen Wetterdaten über eine API abrufen.
 abwechslungsreich;varied, diverse;різноманітний;Der Job als Fullstack-Entwickler in einem Startup ist extrem abwechslungsreich.
 angeblich;allegedly, supposedly;нібито, ймовірно;Der Bug ist angeblich schon gefixt, aber bei mir stürzt die App immer noch ab.
 ansprechbar;responsive, approachable;доступний для спілкування, чуйний;Ein guter Teamlead ist bei Problemen immer für seine Entwickler ansprechbar.
-etw. auszeichnen;to award, to distinguish;відзначати, нагороджувати;Unsere App wurde auf der Messe für das beste UX-Design ausgezeichnet.
+etw. auszeichnen (zeichnet aus, zeichnete aus, hat ausgezeichnet);to award, to distinguish;відзначати, нагороджувати;Unsere App wurde auf der Messe für das beste UX-Design ausgezeichnet.
 der Band, "-e;volume (book);том (книги);Das Handbuch für das alte System füllt einen ganzen Band.
 die Bedienbarkeit (Sg.);usability, operability;зручність використання, юзабіліті;Wir haben die Bedienbarkeit (Usability) des Admin-Dashboards stark verbessert.
 das Begleitprogramm, -e;supporting program;супровідна програма;Neben den Tech-Talks gibt es auf der Messe ein tolles Begleitprogramm (z.B. Hackathons).
-etw. behaupten;to claim, to assert;стверджувати;Der Anbieter behauptet, dass sein System absolut sicher vor Hackern ist.
+etw. behaupten (behauptet, behauptete, hat behauptet);to claim, to assert;стверджувати;Der Anbieter behauptet, dass sein System absolut sicher vor Hackern ist.
 dynamisch;dynamic;динамічний;Wir haben eine dynamische Webseite entwickelt, die sich an User-Präferenzen anpasst.
-etw. einbeziehen;to include, to integrate;залучати, включати;Wir müssen das Feedback der Beta-Tester in das nächste Release einbeziehen.
-etw. einsetzen;to deploy, to use, to employ;застосовувати, впроваджувати;Welche Technologien setzt ihr in eurem aktuellen Projekt ein?
-etw. erweitern;to expand, to extend;розширювати;Wir wollen die Funktionalität unserer API noch in diesem Quartal erweitern.
+etw. einbeziehen (bezieht ein, bezog ein, hat einbezogen);to include, to integrate;залучати, включати;Wir müssen das Feedback der Beta-Tester in das nächste Release einbeziehen.
+etw. einsetzen (setzt ein, setzte ein, hat eingesetzt);to deploy, to use, to employ;застосовувати, впроваджувати;Welche Technologien setzt ihr in eurem aktuellen Projekt ein?
+etw. erweitern (erweitert, erweiterte, hat erweitert);to expand, to extend;розширювати;Wir wollen die Funktionalität unserer API noch in diesem Quartal erweitern.
 das Experiment, -e;experiment;експеримент;Dieses A/B-Testing ist ein Experiment, um die Conversion Rate zu erhöhen.
 der Fachberater, - / die Fachberaterin, -nen;specialist consultant;фахівець-консультант, експерт;Unser IT-Fachberater hilft Kunden bei der Umstellung auf die Cloud.
 das Fachwissen (Sg.);expertise, expert knowledge;професійні знання, експертиза;Für diese Position wird tiefes Fachwissen im Bereich Cybersecurity erwartet.
@@ -52,11 +52,11 @@ die Lernplattform, -en;learning platform;навчальна платформа;W
 die Messepräsentation, -en;trade fair presentation;презентація на виставці;Die Messepräsentation unseres neuen KI-Features lief perfekt.
 Multimedia-Inhalte (Pl.);multimedia content;мультимедійний контент;Die App muss große Mengen an Multimedia-Inhalten schnell laden können.
 die Neuerscheinung, -en;new release, new publication;новинка, нове видання;Diese Bibliothek ist eine Neuerscheinung auf GitHub und trendet gerade.
-sich orientieren an (+ Dat.);to orient oneself by, to follow;орієнтуватися на;Beim Design orientieren wir uns stark an den Material Design Guidelines von Google.
+sich orientieren an (+ Dat.) (orientiert sich, orientierte sich, hat sich orientiert);to orient oneself by, to follow;орієнтуватися на;Beim Design orientieren wir uns stark an den Material Design Guidelines von Google.
 die Schulform, -en;type of school;тип школи;Unsere Bildungs-Software ist für jede Schulform (Gymnasium, Realschule) geeignet.
 der Überblick, -e;overview;огляд, уявлення, загальна картина;Das Dashboard gibt dem Admin einen schnellen Überblick über die Server-Last.
 überwiegend;predominantly, mostly;переважно;Unser Entwickler-Team arbeitet überwiegend remote aus dem Homeoffice.
-sich verbessern;to improve;покращуватися, вдосконалюватися;Dank des Refactorings hat sich die Code-Qualität deutlich verbessert.
+sich verbessern (verbessert sich, verbesserte sich, hat sich verbessert);to improve;покращуватися, вдосконалюватися;Dank des Refactorings hat sich die Code-Qualität deutlich verbessert.
 der Verlag, -e;publisher;видавництво;Der IT-Verlag bringt ein neues Buch über Kubernetes heraus.
 der Vortrag, "-e;lecture, presentation, talk;доповідь, лекція;Ich habe auf der Konferenz einen interessanten Vortrag über DevOps gehört.
 das Wissen (Sg.);knowledge;знання;Das Wissen im IT-Bereich veraltet extrem schnell, man muss ständig lernen.
@@ -66,10 +66,10 @@ die Arbeitsbelastung (Sg.);workload;робоче навантаження;Die Ar
 die Beschreibung, -en;description;опис;Bitte füge dem Pull Request eine kurze Beschreibung deiner Änderungen hinzu.
 der Bildungsbereich, -e;education sector;сфера освіти;EdTech-Startups bringen Innovationen in den klassischen Bildungsbereich.
 die Digitalisierung (Sg.);digitalization;цифровізація;Die Digitalisierung von analogen Prozessen spart Unternehmen viel Zeit und Geld.
-etw. erfüllen (z. B. Anforderungen);to meet, to fulfill (e.g. requirements);виконувати, задовольняти (напр., вимоги);Diese Software-Lösung erfüllt alle Anforderungen des Kunden.
+etw. erfüllen (z. B. Anforderungen) (erfüllt, erfüllte, hat erfüllt);to meet, to fulfill (e.g. requirements);виконувати, задовольняти (напр., вимоги);Diese Software-Lösung erfüllt alle Anforderungen des Kunden.
 die Geschäftsidee, -n;business idea;бізнес-ідея;Er hat eine geniale Geschäftsidee für eine neue Social-Media-App.
-gut tun;to do good, to be beneficial;робити добро, йти на користь;Ein paar Tage Urlaub ohne Laptop werden dir nach diesem Projekt gut tun.
-etw. investieren;to invest;інвестувати, вкладати;Die Firma will eine Million Euro in die Entwicklung der neuen Plattform investieren.
+gut tun (tut gut, tat gut, hat gutgetan);to do good, to be beneficial;робити добро, йти на користь;Ein paar Tage Urlaub ohne Laptop werden dir nach diesem Projekt gut tun.
+etw. investieren (investiert, investierte, hat investiert);to invest;інвестувати, вкладати;Die Firma will eine Million Euro in die Entwicklung der neuen Plattform investieren.
 die Revolution, -en;revolution;революція;ChatGPT hat eine echte Revolution in der Softwareentwicklung ausgelöst.
 die Weisung, -en;instruction, directive;вказівка, інструкція;Der Entwickler arbeitete auf direkte Weisung des CTO an diesem Feature.
 die Anwendung, -en;application;застосунок, додаток (IT);Die mobile Anwendung wurde nativ in Swift für iOS programmiert.
@@ -91,14 +91,14 @@ das Geschäftsprofil, -e;business profile;бізнес-профіль;Unser Gesc
 der Gesellschafter, - / die Gesellschafterin, -nen;partner, shareholder;засновник, партнер, акціонер;Die Gesellschafter haben entschieden, den Code als Open Source freizugeben.
 die GmbH, -s;LLC (Limited Liability Company);ТОВ (товариство з обмеженою відповідальністю);Unser IT-Startup wurde letztes Jahr offiziell als GmbH in Berlin registriert.
 die Investitionskosten (Pl.);investment costs;інвестиційні витрати;Die Investitionskosten für den Aufbau eines eigenen Rechenzentrums sind gigantisch.
-etw. integrieren;to integrate;інтегрувати, впроваджувати;Wir wollen den Payment-Provider Stripe in unseren Shop integrieren.
+etw. integrieren (integriert, integrierte, hat integriert);to integrate;інтегрувати, впроваджувати;Wir wollen den Payment-Provider Stripe in unseren Shop integrieren.
 das Know-how (Sg.);know-how, expertise;ноу-хау, практичні знання;Wir suchen jemanden mit tiefem Know-how im Bereich Cloud-Architektur.
 kompetent;competent, capable;компетентний;Unser Support-Team ist sehr kompetent und löst Tickets in Rekordzeit.
 das Konkurrenzunternehmen, -;competing company;компанія-конкурент;Das Konkurrenzunternehmen hat leider ein ähnliches Feature vor uns gelauncht.
 die Kredithöhe, -n;loan amount;сума кредиту;Die Kredithöhe reicht genau für die Entwicklung des Prototyps (MVP).
 die Laufzeit, -en;runtime, duration, term;час виконання (IT), термін дії (контракту);Die Laufzeit (Runtime) dieses Algorithmus muss dringend optimiert werden.
 die Ratenzahlung, -en;installment payment;оплата частинами;Für teure Software-Lizenzen bieten wir Kunden auch Ratenzahlung an.
-etw. realisieren;to realize, to implement;реалізувати, впроваджувати;Wir wollen dieses komplexe Feature noch im aktuellen Sprint realisieren.
+etw. realisieren (realisiert, realisierte, hat realisiert);to realize, to implement;реалізувати, впроваджувати;Wir wollen dieses komplexe Feature noch im aktuellen Sprint realisieren.
 die Rechtsform, -en;legal form;правова форма (підприємства);Die GmbH ist die beliebteste Rechtsform für IT-Startups in Deutschland.
 die Schufa-Auskunft, "-e;credit report (Schufa);кредитна історія (Schufa в Німеччині);Der Vermieter des neuen IT-Büros verlangt eine positive Schufa-Auskunft.
 das Sprachtraining, -s;language training;мовний тренінг;Die Firma bezahlt mir ein Deutsch-Sprachtraining (B2) für den Job.
@@ -106,23 +106,23 @@ der Support, -s;support;підтримка, сапорт (IT);Wenn die App abst�
 die Tilgung, -en;repayment, amortization;погашення (боргу/кредиту);Die monatliche Tilgung für den Bankkredit ist im Businessplan vermerkt.
 umfassend;comprehensive, extensive;комплексний, всеосяжний;Dieses Framework bietet eine umfassende Lösung für das Frontend-Routing.
 die Umsetzung, -en;implementation, execution;реалізація, впровадження;Die Umsetzung des Designs in echten Code dauert etwa zwei Wochen.
-sich verschärfen;to intensify, to worsen;загострюватися;Der Fachkräftemangel in der IT-Branche wird sich in Zukunft noch verschärfen.
+sich verschärfen (verschärft sich, verschärfte sich, hat sich verschärft);to intensify, to worsen;загострюватися;Der Fachkräftemangel in der IT-Branche wird sich in Zukunft noch verschärfen.
 vielfältig;diverse, varied;різноманітний;Die Aufgaben in einem agilen Entwicklungsteam sind sehr vielfältig.
 der Wettbewerb (Sg.);competition;конкуренція;Im Cloud-Markt gibt es einen harten Wettbewerb zwischen AWS, Azure und Google.
 die Zielgruppe, -n;target audience/group;цільова аудиторія;Unsere Haupt-Zielgruppe sind junge Unternehmen, die ihre IT modernisieren wollen.
 belanglos;irrelevant, trivial;незначний, неважливий;Beim Small Talk in der Kaffeepause reden wir oft über belanglose Dinge.
-Beziehungen pflegen;to cultivate relationships;підтримувати стосунки;Auf Konferenzen ist es wichtig, berufliche Beziehungen zu pflegen (Networking).
+Beziehungen pflegen (pflegt, pflegte, hat gepflegt);to cultivate relationships;підтримувати стосунки;Auf Konferenzen ist es wichtig, berufliche Beziehungen zu pflegen (Networking).
 der Einstieg (Sg.);entry, start;вступ, початок, старт;Ein kurzes Gespräch über das Wetter ist ein klassischer Einstieg beim Small Talk.
 der Eisbrecher (Sg.);icebreaker;криголам (тема для початку розмови);Ein Witz über fehlerhaften Code ist ein guter Eisbrecher unter Entwicklern.
 geeignet sein für (+ Akk.);to be suitable for;бути придатним для;Politik ist kein geeignetes Thema für Small Talk im Büro.
-(miteinander) ins Gespräch kommen;to strike up a conversation;розговоритися, зав'язати розмову;Beim Hackathon kommt man schnell mit anderen Codern ins Gespräch.
-Kontakte knüpfen;to establish contacts, to network;встановлювати контакти (нетворкінг);Ein Meetup ist der perfekte Ort, um neue Kontakte in der Tech-Szene zu knüpfen.
+(miteinander) ins Gespräch kommen (kommt, kam, ist gekommen);to strike up a conversation;розговоритися, зав'язати розмову;Beim Hackathon kommt man schnell mit anderen Codern ins Gespräch.
+Kontakte knüpfen (knüpft, knüpfte, hat geknüpft);to establish contacts, to network;встановлювати контакти (нетворкінг);Ein Meetup ist der perfekte Ort, um neue Kontakte in der Tech-Szene zu knüpfen.
 oberflächlich;superficial;поверхневий;Small Talk ist meistens oberflächlich und geht nicht tief ins Detail.
 offene Fragen;open questions;відкриті питання;Stellen Sie offene Fragen, um das Gespräch auf der Messe am Laufen zu halten.
-plaudern;to chat;базікати, спілкуватися;Die Entwickler plaudern im Slack-Kanal über neue Features in React.
+plaudern (plaudert, plauderte, hat geplaudert);to chat;базікати, спілкуватися;Die Entwickler plaudern im Slack-Kanal über neue Features in React.
 das Plaudern (Sg.);chatting;балаканина;Langes Plaudern im Daily Standup ist nicht erlaubt, wir müssen effizient sein.
 das Tabuthema, -themen;taboo subject;тема-табу, заборонена тема;Gehalt ist in vielen deutschen Unternehmen leider immer noch ein Tabuthema.
 das Umfeld (Sg.);environment;середовище, оточення;Ein motivierendes Umfeld ist extrem wichtig für kreative Softwareentwicklung.
-etw. vermeiden;to avoid;уникати;Wir sollten kontroverse Themen beim Mittagessen mit Kunden vermeiden.
-etw. vertiefen;to deepen;поглиблювати;Wenn das Gespräch gut läuft, kann man das technische Thema weiter vertiefen.
+etw. vermeiden (vermeidet, vermied, hat vermieden);to avoid;уникати;Wir sollten kontroverse Themen beim Mittagessen mit Kunden vermeiden.
+etw. vertiefen (vertieft, vertiefte, hat vertieft);to deepen;поглиблювати;Wenn das Gespräch gut läuft, kann man das technische Thema weiter vertiefen.
 zwanglos;casual, informal, relaxed;невимушений, розслаблений;Nach dem Release gab es ein zwangloses Pizza-Essen mit dem ganzen Team.

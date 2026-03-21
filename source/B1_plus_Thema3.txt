@@ -17,41 +17,41 @@ der Ansprechpartner, -;contact person;контактна особа;Bei technisc
 die Ansprechpartnerin, -nen;female contact person;контактна особа (жінка);Die Ansprechpartnerin für die IT-Sicherheit erklärt uns morgen die neue Firewall-Policy.
 die Pausenregelung, -en;break policy;правило перерв;Die digitale Zeiterfassung sorgt dafür, dass die Pausenregelung automatisch eingehalten wird.
 der Rundgang, "-e;tour (of a building);обхід, екскурсія;Nach dem Rundgang durch das Rechenzentrum haben wir die Kühlsysteme besprochen.
-sich weiter|bilden;to continue education;підвищувати кваліфікацію;In der IT-Branche muss man sich ständig weiterbilden, um auf dem neuesten Stand zu bleiben.
-sich ärgern über (+ Akk.);to be annoyed about;сердитися через;Ich ärgere mich über den langsamen Datenbank-Server.
+sich weiter|bilden (bildet sich weiter, bildete sich weiter, hat sich weitergebildet);to continue education;підвищувати кваліфікацію;In der IT-Branche muss man sich ständig weiterbilden, um auf dem neuesten Stand zu bleiben.
+sich ärgern über (+ Akk.) (ärgert sich, ärgerte sich, hat sich geärgert);to be annoyed about;сердитися через;Ich ärgere mich über den langsamen Datenbank-Server.
 der Berufsalltag (Sg.);professional life;професійні будні;Der Berufsalltag eines Programmierers besteht oft aus Coding und Bugfixing.
 die Erfahrung, -en;experience;досвід;Wir suchen jemanden mit viel Erfahrung in der Cloud-Architektur.
 Erfahrung haben mit (+ Dat.);to have experience with;мати досвід у;Hast du bereits Erfahrung mit der Containerisierung von Anwendungen?
-sich freuen auf (+ Akk.);to look forward to;чекати з нетерпінням (на щось у майбутньому);Ich freue mich auf den Release der neuen Software-Version.
+sich freuen auf (+ Akk.) (freut sich, freute sich, hat sich gefreut);to look forward to;чекати з нетерпінням (на щось у майбутньому);Ich freue mich auf den Release der neuen Software-Version.
 sich freuen über (+ Akk.);to be happy about;радіти (чомусь, що вже є);Das Team freut sich über das positive Feedback der Beta-Tester.
-gehören zu (+ Dat.);to belong to;належати до;Das Schreiben technischer Dokumentation gehört zu den Aufgaben eines Entwicklers.
+gehören zu (+ Dat.) (gehört, gehörte, hat gehört);to belong to;належати до;Das Schreiben technischer Dokumentation gehört zu den Aufgaben eines Entwicklers.
 es geht um (+ Akk.);it's about;йдеться про;In diesem Meeting geht es um die Behebung kritischer Sicherheitslücken.
-ein Gespräch führen;to lead a conversation;вести розмову;Wir müssen ein Gespräch über die Performance-Probleme der Website führen.
-sich interessieren für (+ Akk.);to be interested in;цікавитися;Interessierst du dich für die Entwicklung mobiler Apps?
-investieren in (+ Akk.);to invest in;інвестувати в;Unternehmen müssen mehr in die Cybersicherheit investieren.
+ein Gespräch führen (führt, führte, hat geführt);to lead a conversation;вести розмову;Wir müssen ein Gespräch über die Performance-Probleme der Website führen.
+sich interessieren für (+ Akk.) (interessiert sich, interessierte sich, hat sich interessiert);to be interested in;цікавитися;Interessierst du dich for die Entwicklung mobiler Apps?
+investieren in (+ Akk.) (investiert, investierte, hat investiert);to invest in;інвестувати в;Unternehmen müssen mehr in die Cybersicherheit investieren.
 statt|finden (fand statt, hat stattgefunden);to take place;відбуватися;Der tägliche Scrum-Call findet jeden Morgen um 9 Uhr statt.
-etw. vermitteln;to convey, to mediate;передавати (знання), посередничати;Der Workshop vermittelt grundlegende Kenntnisse in der Python-Programmierung.
+etw. vermitteln (vermittelt, vermittelte, hat vermittelt);to convey, to mediate;передавати (знання), посередничати;Der Workshop vermittelt grundlegende Kenntnisse in der Python-Programmierung.
 die Voraussetzung, -en;requirement;умова, передумова;Gute SQL-Kenntnisse sind eine Voraussetzung für diesen Job.
 die Webseite, -n;website;веб-сторінка;Die Webseite unseres Unternehmens wurde für mobile Endgeräte optimiert.
 das Ergebnisprotokoll, -e;minutes of a meeting;протокол результатів зустрічі;Ich habe das Ergebnisprotokoll des Sprints per E-Mail an das Team geschickt.
 die Besprechung, -en;meeting;нарада;In der Besprechung wurde die neue Cloud-Strategie vorgestellt.
 die Teamsitzung, -en;team meeting;командна нарада;Während der Teamsitzung haben wir die Aufgaben für die nächste Woche verteilt.
-etw. zusammen|fassen;to summarize;підсумовувати;Können Sie die wichtigsten Punkte der Anforderungsanalyse zusammenfassen?
+etw. zusammen|fassen (fasst zusammen, fasste zusammen, hat zusammengefasst);to summarize;підсумовувати;Können Sie die wichtigsten Punkte der Anforderungsanalyse zusammenfassen?
 der Beschluss, "-e;decision;рішення, постанова;Der Beschluss, die Legacy-Software zu ersetzen, wurde gestern gefasst.
 die Entscheidung, -en;decision;рішення;Die Entscheidung für das React-Framework war goldrichtig.
 die Vereinbarung, -en;agreement;угода, домовленість;Wir haben eine Vereinbarung über die Nutzung der Open-Source-Bibliotheken getroffen.
 die Tagesordnung, -en;agenda;порядок денний;Der Punkt "System-Sicherheit" steht heute ganz oben auf der Tagesordnung.
 das Stichwort, -e;keyword;ключове слово;Ich habe mir während des Vortrags nur ein paar Stichworte zum Thema Blockchain notiert.
-etw. dokumentieren;to document;документувати;Bitte dokumentieren Sie alle Änderungen am Datenbank-Schema im Wiki.
-etw. protokollieren;to record;протоколювати;Alle API-Aufrufe werden zu Analysezwecken protokolliert.
+etw. dokumentieren (dokumentiert, dokumentierte, hat dokumentiert);to document;документувати;Bitte dokumentieren Sie alle Änderungen am Datenbank-Schema im Wiki.
+etw. protokollieren (protokolliert, protokollierte, hat protokolliert);to record;протоколювати;Alle API-Aufrufe werden zu Analysezwecken protokolliert.
 die Regel, -n;rule;правило;In diesem Netzwerk gelten strenge Regeln für den Passwortschutz.
 in der Regel;as a rule;як правило;In der Regel erfolgt das Deployment der neuen Version am Dienstagabend.
 der Teilnehmer, -;participant;учасник;An dem Web-Seminar nehmen über 100 Teilnehmer aus aller Welt teil.
 die Teilnehmerin, -nen;female participant;учасниця;Die Teilnehmerin hat eine interessante Frage zum Thema Container-Sicherheit gestellt.
-etw. vor|schlagen (schlägt vor, schlug vor, hat vorgeschlagen);to suggest;пропонувати;Ich schlage vor, wir nutzen Docker für dieses Projekt.
+etw. vor|schlagen (schlägt vor, schlug vor, hat vorgeschlagen);to suggest;пропонувати;Ich schlage vor, wir nutzen Docker для dieses Projekt.
 der Zweifel, -;doubt;сумнів;Ich habe keine Zweifel, dass wir die Deadline für die App einhalten.
-etw. schaffen;to manage;впоратися;Wir werden es schaffen, alle Fehler bis zum Wochenende zu beheben.
-sich etw. merken;to remember;запам'ятовувати;Bitte merken Sie sich das neue Administratoren-Passwort gut.
+etw. schaffen (schafft, schaffte, hat geschafft);to manage;впоратися;Wir werden es schaffen, alle Fehler bis zum Wochenende zu beheben.
+sich etw. merken (merkt sich, merkte sich, hat sich gemerkt);to remember;запам'ятовувати;Bitte merken Sie sich das neue Administratoren-Passwort gut.
 die Pünktlichkeit (Sg.);punctuality;пунктуальність;Pünktlichkeit ist auch bei virtuellen Meetings sehr wichtig.
 die Begrüßung, -en;greeting;привітання;Die Begrüßung des neuen Programmierers erfolgte über einen Video-Call.
 der Feierabend, -e;closing time, finish work;кінець робочого дня;Nach dem Feierabend programmiere ich oft an meinen privaten Projekten weiter.
@@ -60,10 +60,10 @@ der Erfolg, -e;success;успіх;Die Migration zur Cloud war ein großer Erfolg
 nützlich;useful;корисний;Diese neue Bibliothek ist sehr nützlich für die Bildverarbeitung.
 der Berufsverkehr (Sg.);professional traffic;робочий дорожній рух (години пік);Dank Homeoffice vermeide ich den stressigen Berufsverkehr am Morgen.
 üblich;common;звичайний;In der IT-Branche ist das Duzen unter Kollegen absolut üblich.
-lächeln;to smile;усміхатися;Der Support-Mitarbeiter lächelt, als er das Problem endlich gelöst hat.
+lächeln (lächeлт, lächelte, hat gelächelt);to smile;усміхатися;Der Support-Mitarbeiter lächelt, als er das Problem endlich gelöst hat.
 erwünscht;desired;бажаний;Erfahrung mit agilen Methoden wie Scrum ist bei uns ausdrücklich erwünscht.
 beliebt;popular;популярний;Python ist derzeit eine der beliebtesten Sprachen für Data Science.
 im Allgemeinen;in general;взагалі;Im Allgemeinen sind unsere Kunden mit der Performance der Software zufrieden.
 der Vorgesetzte, -n;supervisor;керівник;Mein Vorgesetzter hat mir wertvolles Feedback zu meinem Code gegeben.
 die Vorgesetzte, -n;female supervisor;керівниця;Die Vorgesetzte leitet die Abteilung für Webentwicklung.
-sich verabschieden (von + Dat.);to say goodbye;прощатися;Ich verabschiede mich aus dem Slack-Channel, da ich das Projekt wechsle.
+sich verabschieden (von + Dat.) (verabschiedet sich, verabschiedete sich, hat sich verabschiedet);to say goodbye;прощатися;Ich verabschiede mich aus dem Slack-Channel, da ich das Projekt wechsle.

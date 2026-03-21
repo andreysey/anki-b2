@@ -7,63 +7,63 @@ die Arbeitgeberin, -nen;female employer;роботодавиця;Die Arbeitgeber
 das Asylverfahren, -;asylum procedure;процедура надання притулку;Wir unterstützen geflüchtete IT-Spezialisten während ihres Asylverfahrens bei der Jobsuche.
 die Ausbildung, -en;apprenticeship, vocational training;професійне навчання;Ich mache eine Ausbildung zum Fachinformatiker für Systemintegration.
 auf|fallen (fällt auf, fiel auf, ist aufgefallen);to stand out, to be noticeable;впадати в око;Im Code-Review ist mir sofort aufgefallen, dass eine Sicherheitslücke besteht.
-(eine Prüfung) bestehen;to pass (an exam);скласти (іспит);Er hat die Zertifizierungsprüfung zum AWS Certified Solutions Architect bestanden.
+(eine Prüfung) bestehen (besteht, bestand, hat bestanden);to pass (an exam);скласти (іспит);Er hat die Zertifizierungsprüfung zum AWS Certified Solutions Architect bestanden.
 das Berufsinformationszentrum (BIZ);career information center;центр профорієнтації;Im BIZ gibt es spezielle Beratungen für Quereinsteiger in die IT-Branche.
 der Betrieb, -e;company, business;підприємство;Unser Betrieb hat vor kurzem auf eine Microservices-Architektur umgestellt.
 sich bewerben (bewirbt sich, bewarb sich, hat sich beworben);to apply;подавати заявку (на роботу);Ich bewerbe mich um die Stelle als Senior Java Developer bei diesem Startup.
-jdn. ein|stellen;to hire someone;наймати когось;Wir möchten diesen Monat drei neue Backend-Entwickler einstellen.
+jdn. ein|stellen (stellt ein, stellte ein, hat eingestellt);to hire someone;наймати когось;Wir möchten diesen Monat drei neue Backend-Entwickler einstellen.
 das E-Learning (Sg.);e-learning;електронне навчання;E-Learning-Plattformen wie Coursera sind ideal, um neue Programmiersprachen zu lernen.
 der E-Learning-Kurs, -e;e-learning course;курс дистанційного навчання;Ich belege einen E-Learning-Kurs zum Thema "Deep Learning mit Python".
 der Facharbeiter, -;skilled worker;кваліфікований робітник;In der Halbleiterfertigung werden hochqualifizierte Facharbeiter benötigt.
 die Facharbeiterin, -nen;female skilled worker;кваліфікована робітниця;Die Facharbeiterin überwacht den automatisierten Produktionsprozess des Serverboards.
 der Gabelstapler, -;forklift;навантажувач;Wir programmieren die Software für die automatische Steuerung der Gabelstapler im Logistikzentrum.
 die Geschäftsführung, -en;management;керівництво;Die Geschäftsführung hat das Budget für die Cybersicherheit verdoppelt.
-sich informieren über (+ Akk.);to inform oneself;інформуватися;Ich informiere mich täglich über die neuesten Frameworks und Bibliotheken.
+sich informieren über (+ Akk.) (informiert sich, informierte sich, hat sich informiert);to inform oneself;інформуватися;Ich informiere mich täglich über die neuesten Frameworks und Bibliotheken.
 das Lager, -;warehouse, storage;склад;Das digitale Lager verwaltet Tausende von Hardware-Komponenten für unser Rechenzentrum.
 die Lagerlogistik (Sg.);warehouse logistics;складська логістика;Ein effizientes ERP-System optimiert die gesamte Lagerlogistik des Hardware-Händlers.
 der Mitarbeiter, -;employee;співробітник;Jeder Mitarbeiter erhält einen leistungsstarken Laptop für die Softwareentwicklung.
 die Mitarbeiterin, -nen;female employee;співробітниця;Die Mitarbeiterin ist für das Deployment der neuen App-Version verantwortlich.
-jdm. etw. raten;to advise someone;радити комусь щось;Der Senior-Entwickler riet mir, Python als erste Programmiersprache zu lernen.
+jdm. etw. raten (rät, riet, hat geraten);to advise someone;радити комусь щось;Der Senior-Entwickler riet mir, Python als erste Programmiersprache zu lernen.
 der Schulabschluss, "-e;school-leaving certificate;шкільний атестат;Nach meinem Schulabschluss möchte ich Informatik an einer Technischen Universität studieren.
 steigen (stieg, ist gestiegen);to rise, to climb;підніматися, зростати;Die Nachfrage nach Sicherheitsexperten ist in den letzten Jahren stark gestiegen.
-teil|nehmen an (+ Dat.);to participate in;брати участь;Nächste Woche nehme ich an einem Hackathon in Berlin teil.
+teil|nehmen an (+ Dat.) (nimmt teil, nahm teil, hat teilgenommen);to participate in;брати участь;Nächсте Woche nehme ich an einem Hackathon in Berlin teil.
 der Umsatz, "-e;revenue, turnover;оборот, виручка;Der Umsatz unseres Software-as-a-Service-Produkts hat sich dieses Jahr verdofft.
 die Umschulung, -en;retraining;перекваліфікація;Nach meiner Karriere im Marketing mache ich eine Umschulung zum Webentwickler.
 wahrscheinlich;probably;ймовірно;Die Migration zur neuen Datenbank wird wahrscheinlich das ganze Wochenende dauern.
 die Weiterbildung, -en;further education;підвищення кваліфікації;In der IT-Welt ist kontinuierliche Weiterbildung die Basis für beruflichen Erfolg.
 der Antrag, "-e;application, request;заява;Ich habe einen Antrag auf Zugriffsberechtigung für den Produktionsserver gestellt.
-einen Antrag stellen;to submit an application;падавати заяву;Sie müssen einen Antrag stellen, um das neue Grafiktablett aus dem IT-Bestand zu erhalten.
+einen Antrag stellen (stellt, stellte, hat gestellt);to submit an application;падавати заяву;Sie müssen einen Antrag stellen, um das neue Grafiktablett aus dem IT-Bestand zu erhalten.
 die Aufenthaltsgenehmigung, -en;residence permit;посвідка на проживання;Für das Visum als Blue-Card-Inhaber benötige ich eine gültige Aufenthaltsgenehmigung.
 auf|wachsen (wächst auf, wuchs auf, ist aufgewachsen);to grow up;виростати;Er ist im Silicon Valley aufgewachsen und hat schon früh mit dem Programmieren begonnen.
 der Berater, -;advisor, counselor;консультант;Der externe IT-Berater analysiert unsere aktuelle Netzwerkstruktur.
 die Beraterin, -nen;female advisor;консультантка;Die SAP-Beraterin hilft uns bei der Implementierung des neuen Moduls.
-jdn. beschäftigen;to employ someone;мати у штаті, займати когось;Unser Unternehmen beschäftigt weltweit über 500 Softwarearchitekten.
+jdn. beschäftigen (beschäftigt, beschäftigte, hat beschäftigt);to employ someone;мати у штаті, займати когось;Unser Unternehmen beschäftigt weltweit über 500 Softwarearchitekten.
 der Businessplan, "-e;business plan;бізнес-план;Bevor wir Investoren für unsere App suchen, brauchen wir einen soliden Businessplan.
 das Einkommen, -;income;дохід;Das Einkommen als Freelancer in der Softwareentwicklung variiert je nach Projektlage.
 die Entscheidung, -en;decision;рішення;Die Entscheidung, auf Rust umzusteigen, war für die Performance der App entscheidend.
-eine Entscheidung treffen;to make a decision;приймати рішення;Das Management muss endlich eine Entscheidung bezüglich des Cloud-Providers treffen.
+eine Entscheidung treffen (trifft, traf, hat getroffen);to make a decision;прийти до рішення;Das Management muss endlich eine Entscheidung bezüglich des Cloud-Providers treffen.
 die Existenzgründung, -en;founding of a business;заснування власної справи;Er plant eine Existenzgründung mit einer innovativen KI-Lösung für den E-Commerce.
 die Fortbildung, -en;advanced training;підвищення кваліфікації;Nächsten Monat besuche ich eine Fortbildung zum Thema Containerisierung mit Docker.
-eine Fortbildung machen;to do a training;проходити курс підвищення кваліфікації;Ich möchte eine Fortbildung machen, um mich auf IT-Sicherheit zu spezialisieren.
-(ein Unternehmen) gründen;to found (a company);засновувати (компанію);Sie möchten ein Startup gründen, das Blockchain-Technologie für Lieferketten nutzt.
-einen Kredit bewilligen;to approve a loan;надавати кредит;Die Bank hat den Kredit für die neue Hardware-Ausstattung bewilligt.
+eine Fortbildung machen (macht, machte, hat gemacht);to do a training;проходити курс підвищення кваліфікації;Ich möchte eine Fortbildung machen, um mich auf IT-Sicherheit zu spezialisieren.
+(ein Unternehmen) gründen (gründet, gründete, hat gegründet);to found (a company);засновувати (компанію);Sie möchten ein Startup gründen, das Blockchain-Technologie für Lieferketten nutzt.
+einen Kredit bewilligen (bewilligt, bewilligte, hat bewilligt);to approve a loan;надавати кредит;Die Bank hat den Kredit für die neue Hardware-Ausstattung bewilligt.
 der Küchenhelfer, -;kitchen assistant;кухонний помічник;In unserer Kantine nutzt der Küchenhelfer ein Tablet, um die Bestellungen zu verwalten.
 die Küchenhelferin, -nen;female kitchen assistant;кухонна помічниця;Die Küchenhelferin scannt den QR-Code auf der App des Gastes.
 sich selbstständig machen;to go self-employed;почати власну справу;Nach zehn Jahren Festanstellung möchte ich mich als IT-Consultant selbstständig machen.
 die Selbstständigkeit (Sg.);self-employment;самостійність, самозайнятість;Die Selbstständigkeit erfordert gute Kenntnisse in Projektmanagement und Buchhaltung.
-überlegen;to consider, to think about;обмірковувати;Wir überlegen, ob wir die gesamte Backend-Infrastruktur auf Serverless umstellen.
+überlegen (überlegt, überlegte, hat überlegt);to consider, to think about;обмірковувати;Wir überlegen, ob wir die gesamte Backend-Infrastruktur auf Serverless umstellen.
 Verantwortung tragen for (+ Akk.);to bear responsibility;нести відповідальність;Als CTO trage ich die Verantwortung für alle technischen Entscheidungen im Unternehmen.
 etw. anerkennen lassen;to have something recognized;визнавати (напр. диплом);Ich muss meine ausländischen IT-Zertifikate in Deutschland anerkennen lassen.
 der Berufsabschluss, "-e;vocational qualification;професійна освіта;Ein staatlich anerkannter Berufsabschluss ist oft Voraussetzung für eine Anstellung im öffentlichen Dienst.
 die Berufsausbildung, -en;vocational training;професійна освіта;Während meiner Berufsausbildung habe ich verschiedene Programmiersprachen gelernt.
-etw. beschließen;to decide on, to resolve;вирішувати, постановити;Wir haben beschlossen, das nächste Projekt mit der agilen Scrum-Methode umzusetzen.
+etw. beschließen (beschließt, beschloss, hat beschlossen);to decide on, to resolve;вирішувати, постановити;Wir haben beschlossen, das nächste Projekt mit der agilen Scrum-Methode umзвести.
 das Zeugnis, -se;report card, certificate;свідоцтво, атестат;Ich habe mein Arbeitszeugnis als PDF für die Bewerbung hochgeladen.
 die Anerkennung, -en;recognition;визнання;Die Anerkennung meiner Masterurkunde war für das Visum als Fachkraft notwendig.
 das Anerkennungsverfahren, -;recognition process;процедура визнання;Das Anerkennungsverfahren kann online über das Portal der IHK verfolgt werden.
 die Arbeitserlaubnis, -se;work permit;дозвіл на роботу;Ohne eine gültige Arbeitserlaubnis darf man in Deutschland nicht als Entwickler arbeiten.
 die Fachkraft, "-e;specialist;спеціаліст;In Deutschland herrscht ein großer Mangel an Fachkräften im Bereich Cybersicherheit.
 die Kompetenz, -en;competence, skill;компетенція, навичка;Problemlösungskompetenz ist eine der wichtigsten Eigenschaften eines Programmierers.
-Kosten übernehmen;to cover costs;брати на себе витрати;Mein Arbeitgeber wird die Kosten für die Microsoft-Zertifizierung übernehmen.
+Kosten übernehmen (übernimmt, übernahm, hat übernommen);to cover costs;брати на себе витрати;Mein Arbeitgeber wird die Kosten für die Microsoft-Zertifizierung übernehmen.
 der Nachweis, -e;proof, evidence;доказ, підтвердження;Als Nachweis meiner Erfahrung habe ich mein GitHub-Portfolio im Lebenslauf verlinkt.
 das Praktikum, Praktika;internship;практика;Ich mache ein dreimonatiges Praktikum in der Qualitätssicherung eines Softwarehauses.
 die Qualifikation, -en;qualification;кваліфікація;Welche zusätzlichen Qualifikationen werden für die Stelle als Cloud-Engineer gefordert?
@@ -77,7 +77,7 @@ das Bewerbungsschreiben, -;letter of application;заява про прийня�
 das Bewerbungsverfahren, -;application process;процес подання заявки;Das Bewerbungsverfahren für die Stelle als DevOps-Engineer umfasst drei technische Interviews.
 der Eindruck, "-e;impression;враження;Die neue Architektur der mobilen App macht einen sehr modernen Eindruck.
 die Elektrofirma, -firmen;electrical company;електротехнічна фірма;Die Elektrofirma installiert die neue unterbrechungsfreie Stromversorgung (USV) in unserem Rechenzentrum.
-erwarten;to expect;очікувати;Von einem Senior-Entwickler erwarten wir fundierte Kenntnisse in Design Patterns.
+erwarten (erwartet, erwartete, hat erwartet);to expect;очікувати;Von einem Senior-Entwickler erwarten wir fundierte Kenntnisse in Design Patterns.
 das Fachpersonal (Sg.);skilled personnel;кваліфікований персонал;Unser Unternehmen investiert stark in Fachpersonal für künstliche Intelligenz.
 fehlerfrei;error-free;без помилок;Ein fehlerfreier Code ist die Voraussetzung für eine erfolgreiche CI/CD-Pipeline.
 die Initiativbewerbung, -en;unsolicited application;ініціативна заявка;Ich habe eine Initiativbewerbung an das IT-Sicherheitszentrum geschickt.
@@ -87,23 +87,23 @@ der Leiharbeiter, -;temporary worker;тимчасовий працівник;Wir
 die Leiharbeiterin, -nen;female temporary worker;тимчасова працівниця;Die Leiharbeiterin unterstützt unser QA-Team beim Testen der neuen Softwareversion.
 das Leitbild, -er;mission statement;місія, девіз компанії;Das Leitbild unseres Startups ist die Demokratisierung von Daten durch Open Source.
 der Stand der Dinge;state of affairs;стан справ;Können Sie mir beim nächsten Daily Stand-up den aktuellen Stand der Dinge zum Bug-Fixing geben?
-einen Termin bestätigen;to confirm an appointment;підтверджувати зустріч;Bitte bestätigen Sie den Termin für die Produktdemo über den Kalender-Link.
+einen Termin bestätigen (bestätigt, bestätigte, hat bestätigt);to confirm an appointment;підтверджувати зустріч;Bitte bestätigen Sie den Termin for die Produktdemo über den Kalender-Link.
 die Wartezeit, -en;waiting time;час очікування;Die Wartezeit für das Rendern des 4K-Videos beträgt etwa zwei Stunden.
 die Zeitarbeitsfirma, -en;temporary employment agency;агентство з працевлаштування;Die Zeitarbeitsfirma hat uns kurzfristig einen Spezialisten für Datenbanken vermittelt.
 zukünftig;future;майбутній;In der zukünftigen Version der Software wird eine Zwei-Faktor-Authentifizierung standardmäßig aktiviert sein.
 die Arbeitskraft, "-e;worker, manpower;робоча сила;Automatisierung reduziert den Bedarf an manueller Arbeitskraft bei Routineaufgaben.
 das Arbeitsverhältnis, -se;employment relationship;трудові відносини;Das unbefristete Arbeitsverhältnis bietet dem Softwareentwickler eine hohe Sicherheit.
-ausleihen;to lend, to borrow;позичати, віддавати в оренду;Man kann sich moderne VR-Brillen in der IT-Abteilung für Testzwecke ausleihen.
+ausleihen (leiht aus, lieh aus, hat ausgeliehen);to lend, to borrow;позичати, віддавати в оренду;Man kann sich moderne VR-Brillen in der IT-Abteilung для Testzwecke ausleihen.
 die Berufsberatung, -en;vocational guidance;професійна консультація;Die Berufsberatung empfiehlt jungen Leuten oft ein Studium der Informatik.
 die Berufserfahrung, -en;professional experience;професійний досвід;Er bringt über zehn Jahre Berufserfahrung im Bereich Full-Stack-Entwicklung mit.
-beschäftigen;to employ;займати, працевлаштовувати;Das System beschäftigt sich derzeit mit der Indizierung der großen Datenbank.
+beschäftigen (beschäftigt, beschäftigte, hat beschäftigt);to employ;займати, працевлаштовувати;Das System beschäftigt sich derzeit mit der Indizierung der großen Datenbank.
 die Beschäftigung (Sg.);employment;зайнятість;Die Beschäftigung mit dem Thema Machine Learning erfordert viel mathematisches Verständnis.
 die Genehmigung, -en;permission, permit;дозвіл;Wir warten noch auf die offizielle Genehmigung der IT-Leitung für den Kauf der neuen Lizenzen.
 die Leiharbeit (Sg.);temporary work;тимчасова праця;Leiharbeit kann für IT-Freelancer eine gute Möglichkeit sein, verschiedene Unternehmen kennenzulernen.
 staatlich;state, public;державний;Das staatliche Amt für Cybersicherheit hat eine Warnung vor einem neuen Computervirus herausgegeben.
 die Tätigkeit, -en;activity, task;діяльність;Zu meinen täglichen Tätigkeiten gehört das Schreiben von Unit-Tests und das Bugtracking.
-einen Termin vereinbaren;to make an appointment;домовлятися про зустріч;Ich möchte einen Termin mit dem Product Owner vereinbaren, um die User Stories zu besprechen.
-verleihen;to lend;позичати, надавати;Das Rechenzentrum verleiht Rechenleistung an kleinere Startups.
+einen Termin vereinbaren (vereinbart, vereinbarte, hat vereinbart);to make an appointment;домовлятися про зустріч;Ich möchte einen Termin mit dem Product Owner vereinbaren, um die User Stories zu besprechen.
+verleihen (verleiht, verlieh, hat verliehen);to lend;позичати, надавати;Das Rechenzentrum verleiht Rechenleistung an kleinere Startups.
 die Vermittlung, -en;placement, mediation;працевлаштування, посередництво;Die Vermittlung von IT-Fachkräften erfolgt oft über spezialisierte Headhunter-Agenturen.
 die Vermittlungsgebühr, -en;placement fee;комісія за працевлаштування;Die Firma zahlt eine hohe Vermittlungsgebühr für einen erfahrenen Softwarearchitekten.
 der Agraringenieur, -e;agricultural engineer;агроном-інженер;Der Agraringenieur nutzt Drohnen und IoT-Sensoren zur Optimierung der Bewässerung.
@@ -143,7 +143,6 @@ die Krankheitsvertretung, -en;sick leave cover;заміна на час хвор
 der Realschulabschluss, "-e;secondary school certificate;атестат про закінчення реальної школи;Mit einem guten Realschulabschluss kann man eine Ausbildung zum IT-Systemkaufmann beginnen.
 die Urlaubsvertretung, -en;holiday replacement;заміна на час відпустки;Könntest du während meiner Abwesenheit meine Urlaubsvertretung für die Serverwartung machen?
 der Zeitraum, "-e;period of time;період часу;In dem Zeitraum zwischen 2:00 und 4:00 Uhr morgens finden Wartungsarbeiten am Netzwerk statt.
-auvorhaben, -;construction project;будівельний проект;Das neue Bauvorhaben beginnt im Sommer.
 der Empfang, "-e;reception;прийом, рецепція;Alle externen Dienstleister müssen sich am Empfang anmelden, um einen Besucherausweis zu erhalten.
 die Personalabteilung, -en;HR department;відділ кадрів;Die Personalabteilung nutzt eine Web-App zur Verwaltung der Urlaubstage.
 die Kantine, -n;canteen;їдальня;In unserer Kantine gibt es kostenloses WLAN für alle Mitarbeiter.
@@ -156,40 +155,40 @@ die Finanzbuchhaltung, -en;financial accounting;бухгалтерія;Die Finan
 die Einarbeitung, -en;induction, orientation;введення в курс справи (стажування);Während der Einarbeitung lernst du unsere internen Coding-Standards kennen.
 die Pausenregelung, -en;break policy;правило перерв;Die digitale Zeiterfassung sorgt dafür, dass die Pausenregelung automatisch eingehalten wird.
 der Rundgang, "-e;tour (of a building);обхід, екскурсія;Nach dem Rundgang durch das Rechenzentrum haben wir die Kühlsysteme besprochen.
-sich weiter|bilden;to continue education;підвищувати кваліфікацію;In der IT-Branche muss man sich ständig weiterbilden, um auf dem neuesten Stand zu bleiben.
-sich ärgern über (+ Akk.);to be annoyed about;сердитися через;Ich ärgere mich über den langsamen Datenbank-Server.
+sich weiter|bilden (bildet sich weiter, bildete sich weiter, hat sich weitergebildet);to continue education;підвищувати кваліфікацію;In der IT-Branche muss man sich ständig weiterbilden, um auf dem neuesten Stand zu bleiben.
+sich ärgern über (+ Akk.) (ärgert sich, ärgerte sich, hat sich geärgert);to be annoyed about;сердитися через;Ich ärgere mich über den langsamen Datenbank-Server.
 der Berufsalltag (Sg.);professional life;професійні будні;Der Berufsalltag eines Programmierers besteht oft aus Coding und Bugfixing.
 die Erfahrung, -en;experience;досвід;Wir suchen jemanden mit viel Erfahrung in der Cloud-Architektur.
 Erfahrung haben mit (+ Dat.);to have experience with;мати досвід у;Hast du bereits Erfahrung mit der Containerisierung von Anwendungen?
-sich freuen auf (+ Akk.);to look forward to;чекати з нетерпінням (на щось у майбутньому);Ich freue mich auf den Release der neuen Software-Version.
+sich freuen auf (+ Akk.) (freut sich, freute sich, hat sich gefreut);to look forward to;чекати з нетерпінням (на щось у майбутньому);Ich freue mich auf den Release der neuen Software-Version.
 sich freuen über (+ Akk.);to be happy about;радіти (чомусь, що вже є);Das Team freut sich über das positive Feedback der Beta-Tester.
-gehören zu (+ Dat.);to belong to;належати до;Das Schreiben technischer Dokumentation gehört zu den Aufgaben eines Entwicklers.
+gehören zu (+ Dat.) (gehört, gehörte, hat gehört);to belong to;належати до;Das Schreiben technischer Dokumentation gehört zu den Aufgaben eines Entwicklers.
 es geht um (+ Akk.);it's about;йдеться про;In diesem Meeting geht es um die Behebung kritischer Sicherheitslücken.
-ein Gespräch führen;to lead a conversation;вести розмову;Wir müssen ein Gespräch über die Performance-Probleme der Website führen.
-sich interessieren für (+ Akk.);to be interested in;цікавитися;Interessierst du dich für die Entwicklung mobiler Apps?
-investieren in (+ Akk.);to invest in;інвестувати в;Unternehmen müssen mehr in die Cybersicherheit investieren.
+ein Gespräch führen (führt, führte, hat geführt);to lead a conversation;вести розмову;Wir müssen ein Gespräch über die Performance-Probleme der Website führen.
+sich interessieren für (+ Akk.) (interessiert sich, interessierte sich, hat sich interessiert);to be interested in;цікавитися;Interessierst du dich for die Entwicklung mobiler Apps?
+investieren in (+ Akk.) (investiert, investierte, hat investiert);to invest in;інвестувати в;Unternehmen müssen mehr in die Cybersicherheit investieren.
 statt|finden (fand statt, hat stattgefunden);to take place;відбуватися;Der tägliche Scrum-Call findet jeden Morgen um 9 Uhr statt.
-etw. vermitteln;to convey, to mediate;передавати (знання), посередничати;Der Workshop vermittelt grundlegende Kenntnisse in der Python-Programmierung.
+etw. vermitteln (vermittelt, vermittelte, hat vermittelt);to convey, to mediate;передавати (знання), посередничати;Der Workshop vermittelt grundlegende Kenntnisse in der Python-Programmierung.
 die Voraussetzung, -en;requirement;умова, передумова;Gute SQL-Kenntnisse sind eine Voraussetzung für diesen Job.
 die Webseite, -n;website;веб-сторінка;Die Webseite unseres Unternehmens wurde für mobile Endgeräte optimiert.
 das Ergebnisprotokoll, -e;minutes of a meeting;протокол результатів зустрічі;Ich habe das Ergebnisprotokoll des Sprints per E-Mail an das Team geschickt.
 die Besprechung, -en;meeting;нарада;In der Besprechung wurde die neue Cloud-Strategie vorgestellt.
 die Teamsitzung, -en;team meeting;командна нарада;Während der Teamsitzung haben wir die Aufgaben für die nächste Woche verteilt.
-etw. zusammen|fassen;to summarize;підсумовувати;Können Sie die wichtigsten Punkte der Anforderungsanalyse zusammenfassen?
+etw. zusammen|fassen (fasst zusammen, fasste zusammen, hat zusammengefasst);to summarize;підсумовувати;Können Sie die wichtigsten Punkte der Anforderungsanalyse zusammenfassen?
 der Beschluss, "-e;decision;рішення, постанова;Der Beschluss, die Legacy-Software zu ersetzen, wurde gestern gefasst.
 die Vereinbarung, -en;agreement;угода, домовленість;Wir haben eine Vereinbarung über die Nutzung der Open-Source-Bibliotheken getroffen.
 die Tagesordnung, -en;agenda;порядок денний;Der Punkt "System-Sicherheit" steht heute ganz oben auf der Tagesordnung.
 das Stichwort, -e;keyword;ключове слово;Ich habe mir während des Vortrags nur ein paar Stichworte zum Thema Blockchain notiert.
-etw. dokumentieren;to document;документувати;Bitte dokumentieren Sie alle Änderungen am Datenbank-Schema im Wiki.
-etw. protokollieren;to record;протоколювати;Alle API-Aufrufe werden zu Analysezwecken protokolliert.
+etw. dokumentieren (dokumentiert, dokumentierte, hat dokumentiert);to document;документувати;Bitte dokumentieren Sie alle Änderungen am Datenbank-Schema im Wiki.
+etw. protokollieren (protokolliert, protokollierte, hat protokolliert);to record;протоколювати;Alle API-Aufrufe werden zu Analysezwecken protokolliert.
 die Regel, -n;rule;правило;In diesem Netzwerk gelten strenge Regeln für den Passwortschutz.
 in der Regel;as a rule;як правило;In der Regel erfolgt das Deployment der neuen Version am Dienstagabend.
 der Teilnehmer, -;participant;учасник;An dem Web-Seminar nehmen über 100 Teilnehmer aus aller Welt teil.
 die Teilnehmerin, -nen;female participant;учасниця;Die Teilnehmerin hat eine interessante Frage zum Thema Container-Sicherheit gestellt.
-etw. vor|schlagen (schlägt vor, schlug vor, hat vorgeschlagen);to suggest;пропонувати;Ich schlage vor, wir nutzen Docker für dieses Projekt.
+etw. vor|schlagen (schlägt vor, schlug vor, hat vorgeschlagen);to suggest;пропонувати;Ich schlage vor, wir nutzen Docker для dieses Projekt.
 der Zweifel, -;doubt;сумнів;Ich habe keine Zweifel, dass wir die Deadline für die App einhalten.
-etw. schaffen;to manage;впоратися;Wir werden es schaffen, alle Fehler bis zum Wochenende zu beheben.
-sich etw. merken;to remember;запам'ятовувати;Bitte merken Sie sich das neue Administratoren-Passwort gut.
+etw. schaffen (schafft, schaffte, hat geschafft);to manage;впоратися;Wir werden es schaffen, alle Fehler bis zum Wochenende zu beheben.
+sich etw. merken (merkt sich, merkte sich, hat sich gemerkt);to remember;запам'ятовувати;Bitte merken Sie sich das neue Administratoren-Passwort gut.
 die Pünktlichkeit (Sg.);punctuality;пунктуальність;Pünktlichkeit ist auch bei virtuellen Meetings sehr wichtig.
 die Begrüßung, -en;greeting;привітання;Die Begrüßung des neuen Programmierers erfolgte über einen Video-Call.
 der Feierabend, -e;closing time, finish work;кінець робочого дня;Nach dem Feierabend programmiere ich oft an meinen privaten Projekten weiter.
@@ -198,26 +197,26 @@ der Erfolg, -e;success;успіх;Die Migration zur Cloud war ein großer Erfolg
 nützlich;useful;корисний;Diese neue Bibliothek ist sehr nützlich für die Bildverarbeitung.
 der Berufsverkehr (Sg.);professional traffic;робочий дорожній рух (години пік);Dank Homeoffice vermeide ich den stressigen Berufsverkehr am Morgen.
 üblich;common;звичайний;In der IT-Branche ist das Duzen unter Kollegen absolut üblich.
-lächeln;to smile;усміхатися;Der Support-Mitarbeiter lächelt, als er das Problem endlich gelöst hat.
+lächeln (lächeлт, lächelte, hat gelächelt);to smile;усміхатися;Der Support-Mitarbeiter lächelt, als er das Problem endlich gelöst hat.
 erwünscht;desired;бажаний;Erfahrung mit agilen Methoden wie Scrum ist bei uns ausdrücklich erwünscht.
 beliebt;popular;популярний;Python ist derzeit eine der beliebtesten Sprachen für Data Science.
 im Allgemeinen;in general;взагалі;Im Allgemeinen sind unsere Kunden mit der Performance der Software zufrieden.
 der Vorgesetzte, -n;supervisor;керівник;Mein Vorgesetzter hat mir wertvolles Feedback zu meinem Code gegeben.
 die Vorgesetzte, -n;female supervisor;керівниця;Die Vorgesetzte leitet die Abteilung für Webentwicklung.
-sich verabschieden (von + Dat.);to say goodbye;прощатися;Ich verabschiede mich aus dem Slack-Channel, da ich das Projekt wechsle.
-sich etw. an|schauen;to look at something;подивитися на щось;Ich schaue mir die neue Dokumentation für das Framework an.
+sich verabschieden (von + Dat.) (verabschiedet sich, verabschiedete sich, hat sich verabschiedet);to say goodbye;прощатися;Ich verabschiede mich aus dem Slack-Channel, da ich das Projekt wechsle.
+sich etw. an|schauen (schaut an, schaute an, hat angeschaut);to look at something;подивитися на щось;Ich schaue mir die neue Dokumentation für das Framework an.
 der Arbeitsalltag (Sg.);everyday work life;робочі будні;Der Arbeitsalltag eines DevOps-Engineers wird stark von Automatisierung geprägt.
 die Arbeitsdichte (Sg.);work density;щільність роботи (навантаження);Die Arbeitsdichte ist während der Crunch-Phase vor dem Produkt-Launch extrem hoch.
 das Arbeitsleben (Sg.);professional life;трудове життя;Das Arbeitsleben in einem Tech-Startup unterscheidet sich stark von dem in einem Großkonzern.
 die Arbeitswelt (Sg.);working world;світ праці;Die moderne Arbeitswelt erfordert ständige Anpassung an neue Software-Tools.
-sich aus|wirken (auf + Akk.);to affect, to impact;впливати;Ein fehlerhaftes Update kann sich negativ auf die Systemstabilität auswirken.
+sich aus|wirken (auf + Akk.) (wirkt aus, wirkte aus, hat ausgewirkt);to affect, to impact;впливати;Ein fehlerhaftes Update kann sich negativ auf die Systemstabilität auswirken.
 die Baustelle, -n;construction site;будівельний майданчик;Die Migration der Legacy-Daten ist derzeit unsere größte Baustelle im Projekt.
-sich beeilen;to hurry;поспішати;Wir müssen uns beeilen, den Hotfix vor dem nächsten Kunden-Meeting zu mergen.
+sich beeilen (beeilt sich, beeilte sich, hat sich beeilt);to hurry;поспішати;Wir müssen uns beeilen, den Hotfix vor dem nächsten Kunden-Meeting zu mergen.
 die Berufssparte, -n;professional sector;професійна галузь;Die IT-Sicherheit ist eine Berufssparte mit hervorragenden Zukunftsaussichten.
 der Beschäftigte, -n;employee;співробітник;Jeder Beschäftigte in der IT-Abteilung hat Zugriff auf das interne Wiki.
 die Beschäftigte, -n;female employee;співробітниця;Die Beschäftigte im QA-Team hat einen kritischen Fehler in der Benutzeroberfläche gefunden.
 die Beschleunigung, -en;acceleration;прискорення;Gute Indizes führen zur Beschleunigung komplexer SQL-Abfragen.
-etw. bewältigen;to manage, to cope with;долати, справлятися;Dank agiler Methoden konnten wir die hohen Anforderungen des Kunden bewältigen.
+etw. bewältigen (bewältigt, bewältigte, hat bewältigt);to manage, to cope with;долати, справлятися;Dank agiler Methoden konnten wir die hohen Anforderungen des Kunden bewältigen.
 die Herausforderung, -en;challenge;виклик;Die Skalierung der Datenbank für Millionen von Nutzern ist eine technische Herausforderung.
 der Maurer, -;mason, bricklayer;муляр;Wir entwickeln eine Software, die Maurer bei der Berechnung von Materialkosten unterstützt.
 die Maurerin, -nen;female mason;мулярка;Die Maurerin nutzt eine App auf dem Tablet, um die Baupläne in 3D zu betrachten.
@@ -225,11 +224,11 @@ die Strecke, -n;distance, route;дистанція, шлях;Die Strecke für di
 auf der Strecke bleiben;to fall by the wayside;відстати, бути занедбаним;Ohne kontinuierliche Updates der Skills kann man in der IT schnell auf der Strecke bleiben.
 einen Termin ab|sagen;to cancel an appointment;скасувати зустріч;Ich muss den Termin für das Code-Review leider auf morgen verschieben.
 das Treffen, -;meeting;зустріч;Das Treffen mit den Stakeholdern war für die Priorisierung des Backlogs sehr wichtig.
-sich verspäten;to be late;запізнюватися;Das Deployment der neuen Version wird sich aufgrund technischer Probleme leider verspäten.
+sich verspäten (verspätet sich, verspätete sich, hat sich verspätet);to be late;запізнюватися;Das Deployment der neuen Version wird sich aufgrund technischer Probleme leider verspäten.
 das Wohlbefinden (Sg.);well-being;самопочуття;Ergonomische Stühle im Büro tragen wesentlich zum Wohlbefinden der Programmierer bei.
 der Zeitdruck (Sg.);time pressure;дефіцит часу;Unter großem Zeitdruck passieren beim Programmieren leider oft Flüchtigkeitsfehler.
 die Abteilungskonferenz, -en;department conference;конференція відділу;In der monatlichen Abteilungskonferenz stellt der CTO die neue Technik-Roadmap vor.
-sich ab|sprechen (mit + Dat.);to coordinate (with someone);домовлятися;Ich muss mich kurz mit dem Backend-Team bezüglich der API-Schnittstelle absprechen.
+sich ab|sprechen (mit + Dat.) (spricht sich ab, sprach sich ab, hat sich abgesprochen);to coordinate (with someone);домовлятися;Ich muss mich kurz mit dem Backend-Team bezüglich der API-Schnittstelle absprechen.
 der Anspruch, "-e;claim, demand;претензія, вимога;Der Anspruch an die Datensicherheit ist bei dieser Anwendung extrem hoch.
 Anspruch haben auf (+ Akk.);to have a right to;мати право на;Alle Mitarbeiter haben Anspruch auf eine moderne Hardware-Ausstattung mitsamt zwei Monitoren.
 der Arbeitsweg, -e;commute;шлях на роботу;Mein Arbeitsweg dauert eine halbe Stunde.
@@ -237,9 +236,9 @@ die Arbeitszeit, -en;working time;робочий час;In unserer IT-Firma gibt
 das Arbeitszeitgesetz, -e;working time act;закон про робочий час;Das Arbeitszeitgesetz schreibt zwingend eine Pause nach sechs Stunden Arbeit vor.
 die Betriebsruhe (Sg.);company holidays;канікули auf підприємстві;Während der Betriebsruhe werden wichtige Wartungsarbeiten am zentralen Server-Cluster durchgeführt.
 das EDV-System, -e;IT system;ІТ-система;Unser EDV-System wurde auf die neueste Version von SAP umgestellt.
-jdn. ein|weisen in (+ Akk.);to instruct, to brief;інструктувати;Der Senior-Admin wird dich heute in das Monitoring-System einweisen.
+jdn. ein|weisen in (+ Akk.) (weist ein, wies ein, hat eingewiesen);to instruct, to brief;інструктувати;Der Senior-Admin wird dich heute in das Monitoring-System einweisen.
 der Ersatzruhetag, -e;compensatory rest day;компенсаційний вихідний;Wenn wir am Releasetag am Sonntag arbeiten, erhalten wir einen Ersatzruhetag in der Woche.
-etw. vor|schreiben;to prescribe, to mandate;приписувати, зобов'язувати;Die DSGVO schreibt vor, wie personenbezogene Daten in unserer SQL-Datenbank gespeichert werden müssen.
+etw. vor|schreiben (schreibt vor, schrieb vor, hat vorgeschrieben);to prescribe, to mandate;приписувати, зобов'язувати;Die DSGVO schreibt vor, wie personenbezogene Daten in unserer SQL-Datenbank gespeichert werden müssen.
 der Fall, "-e;case;випадок;Im Falle eines Systemabsturzes ist sofort das On-Call-Team zu benachrichtigen.
 auf keinen Fall;in no case;ні в якому разі;Man sollte auf keinen Fall ungetesteten Code direkt in den Main-Branch mergen.
 der Freizeitausgleich (Sg.);compensatory time off;компенсація вільного часу;Für die Überstunden während der Migration bekomme ich nächste Woche Freizeitausgleich.
@@ -269,7 +268,7 @@ die Werbekampagne, -n;advertising campaign;рекламна кампанія;Uns
 die Abmahnung, -en;written warning;попередження (догана);Eine Abmahnung wegen Verletzung der IT-Sicherheitsrichtlinien ist sehr ernst zu nehmen.
 das Arbeitsgericht, -e;labor court;трудовий суд;Der Streit um die Überstundenvergütung wird nun vor dem Arbeitsgericht geklärt.
 die Betriebsfeier, -n;company party;корпоратив;Auf der Betriebsfeier haben wir den erfolgreichen Release unserer Plattform gefeiert.
-dokumentieren;to document;документувати;Gute Entwickler dokumentieren ihren Code immer sorgfältig in Javadoc oder Swagger.
+dokumentieren (dokumentiert, dokumentierte, hat dokumentiert);to document;документувати;Gute Entwickler dokumentieren ihren Code immer sorgfältig in Javadoc oder Swagger.
 der Heizungstechniker, -;heating technician;майстер з опалення;Der Heizungstechniker wartet auch die Klimaanlage in unserem Serverraum.
 die Heizungstechnikerin, -nen;female heating technician;майстриня з опалення;Die Heizungstechnikerin hat die Temperaturfühler in der IT-Abteilung ausgetauscht.
 die Hilfe, -n;help;допомога;Ich benötige Hilfe beim Konfigurieren des lokalen Kubernetes-Clusters.
@@ -279,7 +278,7 @@ das Verständnis (Sg.);understanding;розуміння;Danke für Ihr Verständ
 verärgert sein über (+ Akk.);to be annoyed about;бути роздратованим через;Der Product Owner ist verärgert über die mangelnde Code-Qualität.
 abhängig sein von (+ Dat.);to be dependent on;бути залежним від;Der Erfolg des Deployments ist von der Stabilität der Datenbank abhängig.
 die Beratung, -en;advice, consulting;консультація;Wir bieten eine technische Beratung zur Migration auf eine Microservices-Architektur an.
-Geld ausgeben für (+ Akk.);to spend money on;витрачати гроші на;Unternehmen sollten mehr Geld für moderne IT-Sicherheit ausgeben.
+Geld ausgeben für (+ Akk.) (gibt aus, gab aus, hat ausgegeben);to spend money on;витрачати гроші на;Unternehmen sollten mehr Geld für moderne IT-Sicherheit ausgeben.
 die Lieferzeit, -en;delivery time;час доставки;Die Lieferzeit für die neuen High-End-Grafikkarten beträgt momentan drei Wochen.
 die Öffnungszeit, -en;opening time;години роботи;Der IT-Support hat feste Öffnungszeiten, ist aber für Notfälle rund um die Uhr erreichbar.
 der Online-Einkauf, "-e;online shopping;онлайн-покупки;Wir haben das Backend für einen großen Online-Einkauf-Marktplatz entwickelt.
@@ -288,25 +287,25 @@ vorsichtig;careful;обережний;Sei vorsichtig, wenn du Änderungen direkt
 die Ware, -n;goods, merchandise;товар;Unsere Software verfolgt jede einzelne Ware im Lager in Echtzeit.
 der Absatz, "-e;sales, turnover;збут, продажі;Der Absatz unserer neuen Software-Lizenzen ist im letzten Quartal stark gestiegen.
 die (technische) Anlage, -n;technical system / equipment;технічна установка;Die gesamte technische Anlage des Rechenzentrums wird zentral überwacht.
-eine Anlage warten;to maintain a system;обслуговувати установку;Einmal im Monat muss ein Techniker die Klimaanlage im Serverraum warten.
-jdn./etw. beobachten;to observe;спостерігати;Wir beobachten die Server-Last genau, um Engpässe frühzeitig zu erkennen.
+eine Anlage warten (wartet, wartete, hat gewartet);to maintain a system;обслуговувати установку;Einmal im Monat muss ein Techniker die Klimaanlage im Serverraum warten.
+jdn./etw. beobachten (beobachtet, beobachtete, hat beobachtet);to observe;спостерігати;Wir beobachten die Server-Last genau, um Engpässe frühzeitig zu erkennen.
 der Einzelhandel (Sg.);retail;роздрібна торгівля;Der Einzelhandel nutzt immer mehr IT-Lösungen für das Bestandsmanagement.
 der Endkunde, -n;end customer;кінцевий споживач;Unsere App wird direkt vom Endkunden im App Store heruntergeladen.
 die Endkundin, -nen;female end customer;кінцева споживачка;Die Endkundin hat ein Ticket eröffnet, weil sie sich nicht einloggen kann.
-etw. entwickeln;to develop;розробляти;Wir entwickeln ein neues Framework für performante Webanwendungen.
+etw. entwickeln (entwickelt, entwickelte, hat entwickelt);to develop;розробляти;Wir entwickeln ein neues Framework for performante Webanwendungen.
 die Forschung und Entwicklung (Sg.);research and development (R&D);дослідження та розробка;Die Abteilung für Forschung und Entwicklung arbeitet an Quantencomputer-Algorithmen.
 der Großhandel (Sg.);wholesale;гуртова торгівля;Unser ERP-System optimiert die Lieferketten für den internationalen Großhandel.
 der Handel (Sg.);trade, commerce;торгівля;Der elektronische Handel erfordert eine sichere Zahlungsabwicklung.
-her|stellen;to produce, to manufacture;виробляти;Die Firma plant, ihre eigenen ARM-basierten Prozessoren herzustellen.
+her|stellen (stellt her, stellte her, hat hergestellt);to produce, to manufacture;виробляти;Die Firma plant, ihre eigenen ARM-basierten Prozessoren herzustellen.
 die Herstellung (Sg.);manufacturing;виробництво;Die Herstellung von Halbleitern erfordert extrem saubere Umgebungen.
-etw. liefern;to deliver;доставляти;Der Paketbote wird die neuen Laptops heute Nachmittag liefern.
+etw. liefern (liefert, lieferte, hat geliefert);to deliver;доставляти;Der Paketbote wird die neuen Laptops heute Nachmittag liefern.
 der Lieferschein, -e;delivery note;накладна;Bitte scannen Sie den Lieferschein für die neue Hardware direkt ein.
-Lieferscheine aus|stellen;to issue delivery notes;виписувати накладні;Das System kann automatisch Lieferscheine als PDF-Datei ausstellen.
+Lieferscheine aus|stellen (stellt aus, stellte aus, hat ausgestellt);to issue delivery notes;виписувати накладні;Das System kann automatisch Lieferscheine als PDF-Datei ausstellen.
 die Lieferung, -en;delivery;доставка;Die Lieferung der neuen Server-Racks wurde für morgen bestätigt.
 der Markt, "-e;market;ринок;Wir müssen den Markt für Cloud-Computing-Dienste genau beobachten.
 das Maß, -e;measure, dimension;міра, розмір;Wir brauchen die genauen Maße der Switch-Gehäuse für den Einbau im Rack.
 die Menge, -n;quantity, amount;кількість;Eine riesige Menge an Daten wird täglich durch unsere KI verarbeitet.
-etw. montieren;to assemble, to install;монтувати;Wir müssen heute noch die neuen Access-Points im Büro montieren.
+etw. montieren (montiert, montierte, hat montiert);to assemble, to install;монтувати;Wir müssen heute noch die neuen Access-Points im Büro montieren.
 die Produktion, -en;production;виробництво;Ein Softwarefehler führte zum kompletten Stillstand der Produktion.
 die Rechnung, -en;invoice, bill;рахунок;Die Rechnung für das Azure-Abonnement wird automatisch per Lastschrift bezahlt.
 die Spedition, -en;shipping company;експедиторська компанія;Die Spedition hat die Paletten mit der neuen Hardware am Hafen abgeholt.
@@ -316,17 +315,18 @@ der Versand (Sg.);shipping, dispatch;відправка;Nach dem QA-Check erfolg
 der Vertrieb (Sg.);sales, distribution;відділ збуту;Unser Vertrieb nutzt ein CRM-System zur Verwaltung der Kundenkontakte.
 der Zwischenhändler, -;middleman, reseller;посередник;Händler kaufen die Laptops oft bei einem spezialisierten IT-Zwischenhändler.
 etw. analysieren;to analyze;аналізувати;Wir müssen den Netzwerk-Traffic analysieren, um das Problem zu finden.
-etw. bearbeiten;to process, to edit;обробляти;Ich muss den Pull-Request meines Kollegen heute noch bearbeiten.
-jdn./etw. befördern;to promote, to transport;підвищувати (на посаді), перевозити;Er wurde zum Leiter der Softwareentwicklung befördert.
-jdn./etw. betreuen;to support, to manage;обслуговувати, супроводжувати;Unser Support-Team betreut Kunden bei technischen Problemen mit der App.
+etw. bearbeiten (bearbeitet, bearbeitete, hat bearbeitet);to process, to edit;обробляти;Ich muss den Pull-Request meines Kollegen heute noch bearbeiten.
+jdn./etw. befördern (befördert, beförderte, hat befördert);to promote, to transport;підвищувати (на посаді), перевозити;Er wurde zum Leiter der Softwareentwicklung befördert.
+jdn./etw. betreuen (betreut, betreute, hat betreut);to support, to manage;обслуговувати, супроводжувати;Unser Support-Team betreut Kunden bei technischen Problemen mit der App.
 die Branche, -n;industry, sector;галузь;In der Tech-Branche ist lebenslanges Lernen absolut notwendig.
+etw. entwickeln;to develop;розробляти;Wir entwickeln eine innovative Lösung zur automatischen Code-Generierung.
 die Gastronomie (Sg.);gastronomy, catering;гастрономія;Die Gastronomie nutzt immer häufiger digitale Kassensysteme mit Cloud-Anbindung.
-etw. gestalten;to design, to shape;оформляти, організовувати;Ein UX-Designer hilft uns dabei, die Website benutzerfreundlich zu gestalten.
+etw. gestalten (gestaltet, gestaltete, hat gestaltet);to design, to shape;оформляти, організовувати;Ein UX-Designer hilft uns dabei, die Website benutzerfreundlich zu gestalten.
 das Handwerk (Sg.);craft, trade;ремесло;Gutes Software-Engineering wird oft als modernes digitales Handwerk bezeichnet.
 die IT-Branche (Sg.);IT industry;ІТ-галузь;Die IT-Branche ist einer der wichtigsten Arbeitgeber in Deutschland.
-etw. konstruieren;to construct, to design;конструювати;Wir konstruieren ein neues Gehäuse für unsere IoT-Geräte.
-etw. kontrollieren;to control, to check;контролювати;Der Administrator muss die Zugriffsrechte der Benutzer regelmäßig kontrollieren.
-Kunden bedienen;to serve customers;обслуговувати клієнтів;Unsere Web-Server bedienen gleichzeitig Tausende von Anfragen pro Sekunde.
+etw. konstruieren (konstruiert, konstruierte, hat konstruiert);to construct, to design;конструювати;Wir konstruieren ein neues Gehäuse for unsere IoT-Geräte.
+etw. kontrollieren (kontrolliert, kontrollierte, hat kontrolliert);to control, to check;контролювати;Der Administrator muss die Zugriffsrechte der Benutzer regelmäßig kontrollieren.
+Kunden bedienen (bedient, bediente, hat bedient);to serve customers;обслуговувати клієнтів;Unsere Web-Server bedienen gleichzeitig Tausende von Anfragen pro Sekunde.
 der Kundenberater, -;customer advisor;консультант клієнтів;Der technische Kundenberater erklärt die Vorteile unserer API.
 die Kundenberaterin, -nen;female customer advisor;консультантка клієнтів;Die Kundenberaterin hat uns bei der Auswahl des passenden Hosting-Pakets geholfen.
 das Labor, -e;laboratory;лабораторія;Im Hardware-Labor werden neue Prozessoren unter Extrembedingungen getestet.
@@ -336,10 +336,10 @@ der Tierpfleger, -;animal keeper;доглядач за тваринами;Der Ti
 die Tierpflegerin, -nen;female animal keeper;доглядачка за тваринами;Die Tierpflegerin programmiert den Futterautomaten für die Aquarien.
 Transport und Logistik (Sg.);transport and logistics;транспорт і логістика;In den Bereichen Transport und Logistik spielt die Routenoptimierung durch KI eine große Rolle.
 der Vertriebsweg, -e;distribution channel;канал збуту;Der direkte Download über unsere Website ist unser effektivster Vertriebsweg.
-Waren bestellen;to order goods;замовляти товари;Wir müssen neue RAM-Riegel für das Server-Upgrade bestellen.
+Waren bestellen (bestellt, bestellte, hat bestellt);to order goods;замовляти товари;Wir müssen neue RAM-Riegel for das Server-Upgrade bestellen.
 Wissenschaft und Forschung (Sg.);science and research;наука та дослідження;Viel Geld aus der Tech-Branche fließt in moderne Wissenschaft und Forschung.
-etw. zu|bereiten;to prepare (food);готувати (їжу);Dank Smart-Home-Technik kann ich meinen Kaffee schon vom Computer aus zubereiten.
-etw. zu|stellen;to deliver, to serve;доставляти;Die E-Mail mit dem Bestätigungs-Code konnte leider nicht zugestellt werden.
+etw. zu|bereiten (bereitet zu, bereitete zu, hat zubereitet);to prepare (food);готувати (їжу);Dank Smart-Home-Technik kann ich meinen Kaffee schon vom Computer aus zubereiten.
+etw. zu|stellen (stellt zu, stellte zu, hat zugestellt);to deliver, to serve;доставляти;Die E-Mail mit dem Bestätigungs-Code konnte leider nicht zugestellt werden.
 die Bequemlichkeit, -en;convenience;зручність;Viele Nutzer schätzen die Bequemlichkeit von Single-Sign-On-Verfahren.
 der CO2-Ausstoß (Sg.);CO2 emission;викид CO2;Der CO2-Ausstoß von großen Rechenzentren ist ein wichtiges Thema in der Green-IT.
 der Händler, -;dealer, vendor;торговець;Der autorisierte Händler bietet speziellen Support für unsere Firmen-Laptops an.
@@ -347,22 +347,22 @@ die Händlerin, -nen;female dealer;торговка;Die Händlerin verkauft gebr
 die Lagerhalle, -n;warehouse;складська будівля;In der neuen Lagerhalle werden die Server-Racks für den Versand vorbereitet.
 die Online-Plattform, -en;online platform;онлайн-платформа;Wir entwickeln eine neue Online-Plattform für das Projektmanagement.
 der Sonderwunsch, "-e;special request;особливе побажання;Haben Sie bezüglich der Konfiguration Ihres neuen PCs noch einen Sonderwunsch?
-etw. aktivieren;to activate;активувати;Nach der Installation müssen Sie das Plugin im WordPress-Backend noch aktivieren.
+etw. aktivieren (aktiviert, aktivierte, hat aktiviert);to activate;активувати;Nach der Installation müssen Sie das Plugin im WordPress-Backend noch aktivieren.
 der Anbieter, -;provider;провайдер, постачальник;Welcher Anbieter hat derzeit die beste Performance für Cloud-Hosting?
 die Anbieterin, -nen;female provider;провайдерка;Die Anbieterin stellt uns eine dedizierte Leitung mit 10 Gbit/s zur Verfügung.
 etw. auf|laden (lädt auf, lud auf, hat aufgeladen);to top up, to charge;заряджати, поповнювати (рахунок);Ich muss den Akku meines Firmen-Laptops aufladen, bevor das Meeting beginnt.
-sich beraten lassen;to get advice;отримати консультацію;Wir lassen uns von einem Experten bezüglich der DSGVO-Konformität unserer App beraten.
-sich beschweren;to complain;скаржитися;Der Nutzer hat sich im Support-Forum über die langsame Ladezeit der Webseite beschwert.
+sich beraten lassen (lässt sich beraten, ließ sich beraten, hat sich beraten lassen);to get advice;отримати консультацію;Wir lassen uns von einem Experten bezüglich der DSGVO-Konformität unserer App beraten.
+sich beschweren (beschwert sich, beschwerte sich, hat sich beschwert);to complain;скаржитися;Der Nutzer hat sich im Support-Forum über die langsame Ladezeit der Webseite beschwert.
 die Bestellung, -en;order;замовлення;Wir haben eine Bestellung für drei neue Workstations beim IT-Händler aufgegeben.
 das Datenvolumen, -;data volume;обсяг даних;Durch die Bildkompression konnten wir das übertragene Datenvolumen deutlich reduzieren.
 etw. ein|geben (gibt ein, gab ein, hat eingegeben);to enter (data);вводити (дані);Bitte geben Sie Ihren API-Key in das Konfigurationsfeld ein.
-etw. ein|legen;to insert;вставляти;Um den Server zu booten, müssen Sie zuerst den bootfähigen USB-Stick einlegen.
+etw. ein|legen (legt ein, legte ein, hat eingelegt);to insert;вставляти;Um den Server zu booten, müssen Sie zuerst den bootfähigen USB-Stick einlegen.
 einmalig;one-time;одноразовий;Die Kosten für die Software-Lizenz fallen nur einmalig an.
 der Einsteiger, -;beginner;початківець;Diese Programmiersprache ist auch für Einsteiger ohne Vorkenntnisse leicht zu erlernen.
 die Einsteigerin, -nen;female beginner;початківиця;Die Einsteigerin macht gerade ein Praktikum in der Frontend-Entwicklung.
 etw. entgegen|nehmen (nimmt entgegen, nahm entgegen, hat entgegengenommen);to receive, to accept;приймати;Der Webserver kann gleichzeitig Tausende von HTTP-Anfragen entgegennehmen.
 das Festnetz (Sg.);landline;стаціонарна мережа;In unserem Büro nutzen wir Voice-over-IP anstelle des klassischen Festnetzes.
-etw. frei|schalten;to unlock, to activate;активувати, розблокувати;Der Administrator kann deinen Zugang zum VPN-Server erst morgen freischalten.
+etw. frei|schalten (schaltet frei, schaltete frei, hat freigeschaltet);to unlock, to activate;активувати, розблокувати;Der Administrator kann deinen Zugang zum VPN-Server erst morgen freischalten.
 die Grundgebühr, -en;basic fee;абонентська плата;In der monatlichen Grundgebühr für unser CRM-System ist der E-Mail-Support bereits enthalten.
 gültig;valid;дійсний;Das SSL-Zertifikat für unsere Domain ist nur noch zwei Wochen gültig.
 günstig;cheap, favorable;вигідний, недешевий;Open-Source-Lösungen sind oft eine günstige Alternative zu teurer kommerzieller Software.
@@ -374,21 +374,21 @@ die Kontrolle, -n;control;контроль;Die Versionskontrolle mit Git ist fü
 der Lieferservice, -s;delivery service;служба доставки;Wir entwickeln eine API für einen internationalen Lieferservice.
 das Netz, -e;network;мережа;In unserem internen Netz sind alle Datenbanken durch eine dedizierte Firewall geschützt.
 optimal;optimal;оптимальний;Diese Datenbank-Struktur ist optimal für schnelle Lesezugriffe geeignet.
-profitieren von (+ Dat.);to profit from;отримувати вигоду;Unsere Anwendung profitiert stark von den neuen Funktionen des Frameworks.
-etw. sperren;to block, to lock;блокувати;Nach drei falschen Passworteingaben wird das Benutzerkonto automatisch für eine Stunde gesperrt.
+profitieren von (+ Dat.) (profitiert, profitierte, hat profitiert);to profit from;отримувати вигоду;Unsere Anwendung profitiert stark von den neuen Funktionen des Frameworks.
+etw. sperren (sperrt, sperrte, hat gesperrt);to block, to lock;блокувати;Nach drei falschen Passworteingaben wird das Benutzerkonto automatisch für eine Stunde gesperrt.
 der Tarif, -e;tariff;тариф;Wir haben uns für den Enterprise-Tarif entschieden, um Zugriff auf alle Features zu erhalten.
-etw. verschicken;to send;відправляти;Das System kann automatisch Benachrichtigungen per Webhook verschicken.
+etw. verschicken (verschickt, verschickte, hat verschickt);to send;відправляти;Das System kann automatisch Benachrichtigungen per Webhook verschicken.
 der Vertrag, "-e;contract;контракт, договір;Wir haben einen Wartungsvertrag mit dem Server-Anbieter abgeschlossen.
 die Vertragslaufzeit, -en;contract duration;термін дії договору;Die Vertragslaufzeit für unsere Cloud-Infrastruktur beträgt mindestens zwölf Monate.
 das Angebot, -e;offer;пропозиція;Das Angebot für das Redesign unserer Website war sehr überzeugend.
 der Auftrag, "-e;order, assignment;замовлення, доручення;Unser Team hat den Auftrag erhalten, eine neue E-Commerce-Plattform zu bauen.
 der Ausdruck, -e;printout;роздруківка;Ich benötige einen Ausdruck der API-Dokumentation für das Meeting.
-sich binden an (+ Akk.);to commit oneself to;зв'язувати себе зобов'язаннями;Durch den Lizenzvertrag binden wir uns langfristig an diesen Software-Anbieter.
+sich binden an (+ Akk.) (bindet sich, band sich, hat sich gebunden);to commit oneself to;зв'язувати себе зобов'язаннями;Durch den Lizenzvertrag binden wir uns langfristig an diesen Software-Anbieter.
 brutto;gross;брутто (без вирахування податків);Das Bruttogehalt für diese Senior-Entwickler-Stelle ist sehr attraktiv.
 einverstanden;agreed;згодний;Ich bin mit den vorgeschlagenen Änderungen am Code einverstanden.
 etw. empfehlen (empfiehlt, empfahl, hat empfohlen);to recommend;рекомендувати;Können Sie eine gute Bibliothek für die Einbindung von Diagrammen empfehlen?
 die Erledigung, -en;completion;виконання;Vielen Dank für die schnelle Erledigung des Bug-Reports.
-etw. erteilen (z.B. einen Auftrag);to grant, to give;надавати, видавати (доручення);Die Geschäftsführung wird heute die Freigabe für das Projekt erteilen.
+etw. erteilen (z.B. einen Auftrag) (erteilt, erteilte, hat erteilt);to grant, to give;надавати, видавати (доручення);Die Geschäftsführung wird heute die Freigabe for das Projekt erteilen.
 der Grund, "-e;reason;причина;Der Grund für den Systemausfall war eine Fehlkonfiguration des Load-Balancers.
 die Mehrwertsteuer (Sg.);value added tax (VAT);ПДВ (податок на додану вартість);Die Cloud-Gebühren werden monatlich zuzüglich der gesetzlichen Mehrwertsteuer abgerechnet.
 netto;net;нетто (після податків);In der Preisliste sind alle Beträge als Netto-Preise angegeben.
@@ -410,19 +410,19 @@ die Reklamation, -en;reclamation, claim;рекламація, претензія
 unvollständig;incomplete;неповний;Die API-Antwort ist unvollständig, da das Timeout-Limit erreicht wurde.
 der Vorschlag, "-e;suggestion;пропозиція;Mein Vorschlag ist, die Datenbank-Abfragen mithilfe von Caching zu optimieren.
 etw. zerbrechen (zerbricht, zerbrach, hat zerbrochen);to break;розбивати;Vorsicht, das Glaspanel des Computergehäuses kann leicht zerbrechen.
-etw. zerkratzen;to scratch;подряпати;Verwenden Sie nur weiche Tücher, um das Display nicht zu zerkratzen.
+etw. zerkratzen (zerkratzt, zerkratzte, hat zerkratzt);to scratch;подряпати;Verwenden Sie nur weiche Tücher, um das Display nicht zu zerkratzen.
 etw. zerreißen (zerriss, hat zerrissen);to tear;розривати;Der Systemadministrator hat das alte Fehlerprotokoll zerrissen.
 jdn. ausreden lassen;to let someone finish speaking;давати комусь договорити;Lass den Product Owner bitte ausreden, bevor du deine technischen Bedenken äußerst.
 die Bedeutung, -en;meaning;значення;Diese Fehlermeldung hat in diesem Kontext eine völlig neue Bedeutung.
 die Erwartung, -en;expectation;очікування;Die Performance der neuen Grafikkarte hat unsere Erwartungen weit übertroffen.
-etw. klären;to clarify;з'ясовувати;Wir müssen im nächsten Meeting klären, welches Framework wir für das Backend nutzen wollen.
+etw. klären (klärt, klärte, hat geklärt);to clarify;з'ясовувати;Wir müssen im nächsten Meeting klären, welches Framework wir for das Backend nutzen wollen.
 konkurrenzfähig;competitive;конкурентоспроможний;Um konkurrenzfähig zu bleiben, müssen wir die Ladezeit unserer App halbieren.
-sich etw. leisten können;to be able to afford;могти собі дозволити;Dank der neuen Finanzierung können wir uns zwei zusätzliche Senior-Entwickler leisten.
-einen Preisnachlass gewähren;to grant a discount;надавати знижку;Da wir eine große Menge an Lizenzen kaufen, gewährt uns der Anbieter einen Preisnachlass.
-treu bleiben;to stay loyal;залишатися вірним;Unsere Kunden bleiben unserem Service treu, weil wir regelmäßig neue Features liefern.
+sich etw. leisten können (kann sich leisten, konnte sich leisten, hat sich leisten können);to be able to afford;могти собі дозволити;Dank der neuen Finanzierung können wir uns zwei zusätzliche Senior-Entwickler leisten.
+einen Preisnachlass gewähren (gewährt, gewährte, hat gewährt);to grant a discount;надавати знижку;Da wir eine große Menge an Lizenzen kaufen, gewährt uns der Anbieter einen Preisnachlass.
+treu bleiben (bleibt treu, blieb treu, ist treu geblieben);to stay loyal;залишатися вірним;Unsere Kunden bleiben unserem Service treu, weil wir regelmäßig neue Features liefern.
 unzufrieden;dissatisfied;незадоволений;Das Team ist unzufrieden mit der Qualität der aktuellen Dokumentation.
 vereinbart;agreed;узгоджений;Die API liefert die Daten nun im vereinbarten JSON-Format zurück.
-sich etw. vor|stellen;to imagine;уявляти;Können Sie sich vorstellen, das gesamte System auf eine Serverless-Architektur umzustellen?
+sich etw. vor|stellen (stellt sich vor, stellte sich vor, hat sich vorgestellt);to imagine;уявляти;Können Sie sich vorstellen, das gesamte System auf eine Serverless-Architektur umzustellen?
 der Alltag (Sg.);everyday life;будні, повсякденне життя;Der technische Wandel prägt unseren IT-Berufsalltag durch immer neue Frameworks.
 der Anschluss, "-e;connection;підключення;Der neue Glasfaser-Anschluss im Rechenzentrum ermöglicht deutlich höhere Upload-Raten.
 die Anwendungsmöglichkeit, -en;application possibility;можливість застосування;Die Docker-Technologie bietet vielfältige Anwendungsmöglichkeiten für die Microservices-Bereitstellung.
@@ -430,7 +430,7 @@ das Display, -s;display, screen;дисплей, екран;Das 4K-Display des ne
 einsatzbereit;ready for use;готовий до роботи;Die neue Staging-Umgebung ist ab sofort einsatzbereit für die finalen Tests.
 das Gerät, -e;device;пристрій;Jedes Gerät im Netzwerk muss eine eindeutige IP-Adresse zugewiesen bekommen.
 herunter|laden (lädt herunter, lud herunter, hat heruntergeladen);to download;завантажувати;Bitte laden Sie sich die neueste Version von Git von der offiziellen Webseite herunter.
-etw. installieren;to install;інсталювати;Der Systemadministrator muss den Sicherheitspatch auf allen Servern gleichzeitig installieren.
+etw. installieren (installiert, installierte, hat installiert);to install;інсталювати;Der Systemadministrator muss den Sicherheitspatch auf allen Servern gleichzeitig installieren.
 das Kommunikationsmittel, -;means of communication;засіб зв'язку;Slack ist in unserem Team das wichtigste Kommunikationsmittel für den schnellen Austausch.
 leistungsfähig;powerful, efficient;потужний, продуктивний;Dieser neue M3-Chip ist extrem leistungsfähig für rechenintensive Kompiliervorgänge.
 der Mobilfunk (Sg.);mobile communications;мобільний зв'язок;Dank 5G-Mobilfunk können wir auch unterwegs problemlos an Video-Konferenzen teilnehmen.
@@ -442,20 +442,20 @@ das Risiko, Risiken;risk;ризик;Das größte Risiko bei diesem Projekt ist d
 sinken (sinkt, sank, ist gesunken);to sink, to decrease;падати, знижуватися;Die Kosten für Cloud-Speicherplatz sind im letzten Jahr kontinuierlich gesunken.
 die Tastatur, -en;keyboard;клавіатура;Mechanische Tastaturen sind bei vielen Softwareentwicklern wegen des besseren Schreibgefühls sehr beliebt.
 verfügbar;available;доступний;Der neue Endpunkt unserer REST-API ist ab sofort in der Dokumentation verfügbar.
-etw. weiterentwickeln;to develop further;розвивати далі;Wir müssen den Algorithmus zur Bilderkennung mithilfe von Machine Learning ständig weiterentwickeln.
+etw. weiterentwickeln (entwickelt weiter, entwickelte weiter, hat weiterentwickelt);to develop further;розвивати далі;Wir müssen den Algorithmus zur Bilderkennung mithilfe von Machine Learning ständig weiterentwickeln.
 die Zukunft (Sg.);future;майбутнє;Die Zukunft der Webentwicklung liegt vermutlich in der Nutzung von WebAssembly.
 in Zukunft;in the future;у майбутньому;In Zukunft wollen wir unsere Infrastruktur komplett auf "Infrastructure as Code" umstellen.
-die Arbeit erleichtern;to make work easier;полегшувати роботу;Künstliche Intelligenz kann Entwicklern die Arbeit erleichtern, indem sie Boilerplate-Code generiert.
+die Arbeit erleichtern (erleichtert, erleichterte, hat erleichtert);to make work easier;полегшувати роботу;Künstliche Intelligenz kann Entwicklern die Arbeit erleichtern, indem sie Boilerplate-Code generiert.
 die Daten (Pl.);data;дані;Wir nutzen eine verschlüsselte SQL-Datenbank, um die persönlichen Daten unserer Nutzer zu schützen.
-Daten missbrauchen;to misuse data;зловживати даними;Durch unzureichende Verschlüsselung könnten Cyberkriminelle sensible Kundendaten missbrauchen.
+Daten missbrauchen (missbraucht, missbrauchte, hat missbraucht);to misuse data;зловживати даними;Durch unzureichende Verschlüsselung könnten Cyberkriminelle sensible Kundendaten missbrauchen.
 nachteilig;disadvantageous;невигідний;Die Nutzung veralteter Bibliotheken kann sich nachteilig auf die Sicherheit der gesamten App auswirken.
 papierlos;paperless;безпеперовий;Wir nutzen digitale Tools wie Jira und Confluence, um ein komplett papierloses Projektmanagement zu ermöglichen.
 die sozialen Netzwerke;social networks;соціальні мережі;Viele Unternehmen nutzen soziale Netzwerke wie LinkedIn, um neue IT-Talente zu finden.
-speichern;to save;зберігати;Die Anwendung muss die Benutzereinstellungen lokal im LocalStorage des Browsers speichern.
-verzichten auf (+ Akk.);to do without;відмовлятися від;Kein modernes Unternehmen kann heute mehr auf eine eigene Webseite verzichten.
+speichern (speichert, speicherte, hat gespeichert);to save;зберігати;Die Anwendung muss die Benutzereinstellungen lokal im LocalStorage des Browsers speichern.
+verzichten auf (+ Akk.) (verzichtet, verzichtete, hat verzichtet);to do without;відмовлятися від;Kein modernes Unternehmen kann heute mehr auf eine eigene Webseite verzichten.
 die Anforderung, -en;requirement, demand;вимога;Die funktionalen Anforderungen an das System wurden in einem Lastenheft genau dokumentiert.
 der Ausbildungsberuf, -e;recognized vocational profession;професія, що потребує спеціальної освіти;Fachinformatiker für Anwendungsentwicklung ist ein sehr gefragter Ausbildungsberuf.
-beeinflussen;to influence;впливати;Die Wahl des Betriebssystems beeinflusst die Performance unserer Docker-Container massiv.
+beeinflussen (beeinflusst, beeinflusste, hat beeinflusst);to influence;впливати;Die Wahl des Betriebssystems beeinflusst die Performance unserer Docker-Container massiv.
 die Berufsaussicht, -en;career prospect;перспектива працевлаштування;Die Berufsaussichten für Experten im Bereich Cyber-Security sind derzeit exzellent.
 die Digitalisierung (Sg.);digitization;цифровізація;Die Digitalisierung interner Prozesse spart Unternehmen langfristig enorme Kosten.
 die Eigenschaft, -en;property, characteristic;властивість, якість;Die wichtigste Eigenschaft eines guten Programmierers ist logisches Denkvermögen.
@@ -469,18 +469,17 @@ die Soft Skills (Pl.);soft skills;гнучкі навички;Neben technischem 
 teamfähig;able to work in a team;здатний працювати в команді;Wir suchen neue Senior-Entwickler, die nicht nur technisch brillant, sondern auch teamfähig sind.
 die Teamfähigkeit (Sg.);ability to work in a team;вміння працювати в команді;Teamfähigkeit ist in agilen Scrum-Teams eine absolute Grundvoraussetzung.
 die Umfrage, -n;survey, poll;опитування;Die Ergebnisse der Umfrage unter den Beta-Testern zeigen eine hohe Zufriedenheit mit dem neuen Design.
-Wert legen auf (+ Akk.);to attach importance to;надавати значення;Wir legen großen Wert auf eine saubere Code-Struktur und ausführliche Kommentare.
+Wert legen auf (+ Akk.) (legt, legte, hat gelegt);to attach importance to;надавати значення;Wir legen großen Wert auf eine saubere Code-Struktur und ausführliche Kommentare.
 das Wissensmanagement (Sg.);knowledge management;управління знаннями;Ein gutes Wissensmanagement im Wiki hilft neuen Kollegen bei der Einarbeitung.
 die Zuverlässigkeit (Pl. selten);reliability;надійність;Die Zuverlässigkeit der Backup-Systeme ist für den Schutz unserer Geschäftsdaten essenziell.
 der Arbeitsablauf, "-e;workflow;робочий процес;Durch die Nutzung von CI/CD-Pipelines konnten wir den gesamten Arbeitsablauf automatisieren.
 die Automatisierung (Sg.);automation;автоматизація;Die Automatisierung von Standardaufgaben spart dem DevOps-Team viel Zeit und reduziert Fehler.
-etw. ein|führen;to introduce;запроваджувати;Wir wollen im nächsten Monat eine neue Software zur automatischen Fehlersuche einführen.
+etw. ein|führen (führt ein, führte ein, hat eingeführt);to introduce;запроваджувати;Wir wollen im nächsten Monat eine neue Software zur automatischen Fehlersuche einführen.
 die Einführung, -en;introduction;запровадження;Die Einführung der neuen Cloud-Plattform verlief reibungsloser als ursprünglich geplant.
-etw. fern|steuern;to remote control;керувати дистанційно;Mithilfe von SSH kann man Linux-Server sicher von jedem Ort der Welt aus fernsteuern.
+etw. fern|steuern (steuert fern, steuerte fern, hat ferngesteuert);to remote control;керувати дистанційно;Mithilfe von SSH kann man Linux-Server sicher von jedem Ort der Welt aus fernsteuern.
 das Fließband, "-er;conveyor belt;конвеєр;In der modernen Software-Entwicklung ähnelt die Build-Pipeline einem digitalen Fließband.
 die Informationstechnologie, -n;information technology (IT);інформаційні технології;Er leitet die Abteilung für Informationstechnologie bei einem mittelständischen Unternehmen.
 das Internet der Dinge (Sg.);Internet of Things (IoT);інтернет речей;Das Internet der Dinge ermöglicht die Vernetzung von Sensoren direkt mit der Cloud.
 der Sprachassistent, -en;voice assistant;голосовий помічник;Unser neuer Sprachassistent nutzt Deep Learning, um Befehle besser zu verstehen.
 die Vernetzung, -en;networking;мережування, поєднання;Die intelligente Vernetzung von IT-Systemen schafft völlig neue Möglichkeiten der Zusammenarbeit.
 vielfältig;diverse, manifold;різноманітний;Die Einsatzmöglichkeiten von Python sind äußerst vielfältig, von Data Science bis Webentwicklung.
-ntroduce;запроваджувати;Wir wollen ein neues System zur Zeiterfassung einführen.

@@ -8,7 +8,7 @@ das Bewerbungsschreiben, -;letter of application;заява про прийня�
 das Bewerbungsverfahren, -;application process;процес подання заявки;Das Bewerbungsverfahren für die Stelle als DevOps-Engineer umfasst drei technische Interviews.
 der Eindruck, "-e;impression;враження;Die neue Architektur der mobilen App macht einen sehr modernen Eindruck.
 die Elektrofirma, -firmen;electrical company;електротехнічна фірма;Die Elektrofirma installiert die neue unterbrechungsfreie Stromversorgung (USV) in unserem Rechenzentrum.
-erwarten;to expect;очікувати;Von einem Senior-Entwickler erwarten wir fundierte Kenntnisse in Design Patterns.
+erwarten (erwartet, erwartete, hat erwartet);to expect;очікувати;Von einem Senior-Entwickler erwarten wir fundierte Kenntnisse in Design Patterns.
 das Fachpersonal (Sg.);skilled personnel;кваліфікований персонал;Unser Unternehmen investiert stark in Fachpersonal für künstliche Intelligenz.
 fehlerfrei;error-free;без помилок;Ein fehlerfreier Code ist die Voraussetzung für eine erfolgreiche CI/CD-Pipeline.
 die Initiativbewerbung, -en;unsolicited application;ініціативна заявка;Ich habe eine Initiativbewerbung an das IT-Sicherheitszentrum geschickt.
@@ -18,17 +18,17 @@ der Leiharbeiter, -;temporary worker;тимчасовий працівник;Wir
 die Leiharbeiterin, -nen;female temporary worker;тимчасова працівниця;Die Leiharbeiterin unterstützt unser QA-Team beim Testen der neuen Softwareversion.
 das Leitbild, -er;mission statement;місія, девіз компанії;Das Leitbild unseres Startups ist die Demokratisierung von Daten durch Open Source.
 der Stand der Dinge;state of affairs;стан справ;Können Sie mir beim nächsten Daily Stand-up den aktuellen Stand der Dinge zum Bug-Fixing geben?
-einen Termin bestätigen;to confirm an appointment;підтверджувати зустріч;Bitte bestätigen Sie den Termin für die Produktdemo über den Kalender-Link.
+einen Termin bestätigen (bestätigt, bestätigte, hat bestätigt);to confirm an appointment;підтверджувати зустріч;Bitte bestätigen Sie den Termin for die Produktdemo über den Kalender-Link.
 die Unterlage, -n;document;документ;Bitte laden Sie alle technischen Unterlagen in den gemeinsamen Sharepoint-Ordner hoch.
 die Wartezeit, -en;waiting time;час очікування;Die Wartezeit für das Rendern des 4K-Videos beträgt etwa zwei Stunden.
 die Zeitarbeitsfirma, -en;temporary employment agency;агентство з працевлаштування;Die Zeitarbeitsfirma hat uns kurzfristig einen Spezialisten für Datenbanken vermittelt.
 zukünftig;future;майбутній;In der zukünftigen Version der Software wird eine Zwei-Faktor-Authentifizierung standardmäßig aktiviert sein.
 die Arbeitskraft, "-e;worker, manpower;робоча сила;Automatisierung reduziert den Bedarf an manueller Arbeitskraft bei Routineaufgaben.
 das Arbeitsverhältnis, -se;employment relationship;трудові відносини;Das unbefristete Arbeitsverhältnis bietet dem Softwareentwickler eine hohe Sicherheit.
-ausleihen;to lend, to borrow;позичати, віддавати в оренду;Man kann sich moderne VR-Brillen in der IT-Abteilung für Testzwecke ausleihen.
+ausleihen (leiht aus, lieh aus, hat ausgeliehen);to lend, to borrow;позичати, віддавати в оренду;Man kann sich moderne VR-Brillen in der IT-Abteilung для Testzwecke ausleihen.
 die Berufsberatung, -en;vocational guidance;професійна консультація;Die Berufsberatung empfiehlt jungen Leuten oft ein Studium der Informatik.
 die Berufserfahrung, -en;professional experience;професійний досвід;Er bringt über zehn Jahre Berufserfahrung im Bereich Full-Stack-Entwicklung mit.
-beschäftigen;to employ;займати, працевлаштовувати;Das System beschäftigt sich derzeit mit der Indizierung der großen Datenbank.
+beschäftigen (beschäftigt, beschäftigte, hat beschäftigt);to employ;займати, працевлаштовувати;Das System beschäftigt sich derzeit mit der Indizierung der großen Datenbank.
 die Beschäftigung (Sg.);employment;зайнятість;Die Beschäftigung mit dem Thema Machine Learning erfordert viel mathematisches Verständnis.
 der Betrieb, -e;business, company;підприємство;Der Betrieb läuft nach dem Hardware-Upgrade wieder reibungslos.
 die Genehmigung, -en;permission, permit;дозвіл;Wir warten noch auf die offizielle Genehmigung der IT-Leitung für den Kauf der neuen Lizenzen.
@@ -37,8 +37,8 @@ der Leiharbeiter, -;temporary worker;тимчасовий працівник;Der
 die Leiharbeiterin, -nen;female temporary worker;тимчасова робітниця;Die Leiharbeiterin hilft uns bei der Bestandsaufnahme der Hardware.
 staatlich;state, public;державний;Das staatliche Amt für Cybersicherheit hat eine Warnung vor einem neuen Computervirus herausgegeben.
 die Tätigkeit, -en;activity, task;діяльність;Zu meinen täglichen Tätigkeiten gehört das Schreiben von Unit-Tests und das Bugtracking.
-einen Termin vereinbaren;to make an appointment;домовлятися про зустріч;Ich möchte einen Termin mit dem Product Owner vereinbaren, um die User Stories zu besprechen.
-verleihen;to lend;позичати, надавати;Das Rechenzentrum verleiht Rechenleistung an kleinere Startups.
+einen Termin vereinbaren (vereinbart, vereinbarte, hat vereinbart);to make an appointment;домовлятися про зустріч;Ich möchte einen Termin mit dem Product Owner vereinbaren, um die User Stories zu besprechen.
+verleihen (verleiht, verlieh, hat verliehen);to lend;позичати, надавати;Das Rechenzentrum verleiht Rechenleistung an kleinere Startups.
 die Vermittlung, -en;placement, mediation;працевлаштування, посередництво;Die Vermittlung von IT-Fachkräften erfolgt oft über spezialisierte Headhunter-Agenturen.
 die Vermittlungsgebühr, -en;placement fee;комісія за працевлаштування;Die Firma zahlt eine hohe Vermittlungsgebühr für einen erfahrenen Softwarearchitekten.
 der Agraringenieur, -e;agricultural engineer;агроном-інженер;Der Agraringenieur nutzt Drohnen und IoT-Sensoren zur Optimierung der Bewässerung.
@@ -79,13 +79,3 @@ die Krankheitsvertretung, -en;sick leave cover;заміна на час хвор
 der Realschulabschluss, "-e;secondary school certificate;атестат про закінчення реальної школи;Mit einem guten Realschulabschluss kann man eine Ausbildung zum IT-Systemkaufmann beginnen.
 die Urlaubsvertretung, -en;holiday replacement;заміна на час відпустки;Könntest du während meiner Abwesenheit meine Urlaubsvertretung für die Serverwartung machen?
 der Zeitraum, "-e;period of time;період часу;In dem Zeitraum zwischen 2:00 und 4:00 Uhr morgens finden Wartungsarbeiten am Netzwerk statt.
-auvorhaben, -;construction project;будівельний проект;Das neue Bauvorhaben beginnt im Sommer.
-die Berufsausbildung, -en;vocational training;професійна освіта;Nach der Schule beginnt er eine Berufsausbildung.
-der Einsatz, "-e;assignment, mission;виконання завдання;Der Einsatz dauert voraussichtlich einen Monat.
-das Einverständnis, -se;consent, agreement;згода;Wir brauchen Ihr Einverständnis für den Vertrag.
-der Fachinformatiker, -;IT specialist;фахівець з інформатики;Er macht eine Ausbildung zum Fachinformatiker.
-die Fachinformatikerin, -nen;female IT specialist;фахівчиня з інформатики;Die Fachinformatikerin konfiguriert das Netzwerk.
-die Krankheitsvertretung, -en;sick leave cover;заміна на час хвороби;Sie arbeitet als Krankheitsvertretung für Fr. Berger.
-der Realschulabschluss, "-e;secondary school certificate;атестат про закінчення реальної школи;Er hat seinen Realschulabschluss in Berlin gemacht.
-die Urlaubsvertretung, -en;holiday replacement;заміна на час відпустки;Können Sie bitte meine Urlaubsvertretung übernehmen?
-der Zeitraum, "-e;period of time;період часу;In diesem Zeitraum bin ich leider nicht erreichbar.

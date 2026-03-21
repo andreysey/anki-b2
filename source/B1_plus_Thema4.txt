@@ -1,19 +1,19 @@
 #separator:;
 #html:true
 #columns:German;English;Ukrainian;Example
-sich etw. an|schauen;to look at something;подивитися на щось;Ich schaue mir die neue Dokumentation für das Framework an.
+sich etw. an|schauen (schaut an, schaute an, hat angeschaut);to look at something;подивитися на щось;Ich schaue mir die neue Dokumentation für das Framework an.
 der Arbeitsalltag (Sg.);everyday work life;робочі будні;Der Arbeitsalltag eines DevOps-Engineers wird stark von Automatisierung geprägt.
 die Arbeitsdichte (Sg.);work density;щільність роботи (навантаження);Die Arbeitsdichte ist während der Crunch-Phase vor dem Produkt-Launch extrem hoch.
 das Arbeitsleben (Sg.);professional life;трудове життя;Das Arbeitsleben in einem Tech-Startup unterscheidet sich stark von dem in einem Großkonzern.
 die Arbeitswelt (Sg.);working world;світ праці;Die moderne Arbeitswelt erfordert ständige Anpassung an neue Software-Tools.
-sich aus|wirken (auf + Akk.);to affect, to impact;впливати;Ein fehlerhaftes Update kann sich negativ auf die Systemstabilität auswirken.
+sich aus|wirken (auf + Akk.) (wirkt aus, wirkte aus, hat ausgewirkt);to affect, to impact;впливати;Ein fehlerhaftes Update kann sich negativ auf die Systemstabilität auswirken.
 die Baustelle, -n;construction site;будівельний майданчик;Die Migration der Legacy-Daten ist derzeit unsere größte Baustelle im Projekt.
-sich beeilen;to hurry;поспішати;Wir müssen uns beeilen, den Hotfix vor dem nächsten Kunden-Meeting zu mergen.
+sich beeilen (beeilt sich, beeilte sich, hat sich beeilt);to hurry;поспішати;Wir müssen uns beeilen, den Hotfix vor dem nächsten Kunden-Meeting zu mergen.
 die Berufssparte, -n;professional sector;професійна галузь;Die IT-Sicherheit ist eine Berufssparte mit hervorragenden Zukunftsaussichten.
 der Beschäftigte, -n;employee;співробітник;Jeder Beschäftigte in der IT-Abteilung hat Zugriff auf das interne Wiki.
 die Beschäftigte, -n;female employee;співробітниця;Die Beschäftigte im QA-Team hat einen kritischen Fehler in der Benutzeroberfläche gefunden.
 die Beschleunigung, -en;acceleration;прискорення;Gute Indizes führen zur Beschleunigung komplexer SQL-Abfragen.
-etw. bewältigen;to manage, to cope with;долати, справлятися;Dank agiler Methoden konnten wir die hohen Anforderungen des Kunden bewältigen.
+etw. bewältigen (bewältigt, bewältigte, hat bewältigt);to manage, to cope with;долати, справлятися;Dank agiler Methoden konnten wir die hohen Anforderungen des Kunden bewältigen.
 die Herausforderung, -en;challenge;виклик;Die Skalierung der Datenbank für Millionen von Nutzern ist eine technische Herausforderung.
 der Maurer, -;mason, bricklayer;муляр;Wir entwickeln eine Software, die Maurer bei der Berechnung von Materialkosten unterstützt.
 die Maurerin, -nen;female mason;мулярка;Die Maurerin nutzt eine App auf dem Tablet, um die Baupläne in 3D zu betrachten.
@@ -21,11 +21,11 @@ die Strecke, -n;distance, route;дистанція, шлях;Die Strecke für di
 auf der Strecke bleiben;to fall by the wayside;відстати, бути занедбаним;Ohne kontinuierliche Updates der Skills kann man in der IT schnell auf der Strecke bleiben.
 einen Termin ab|sagen;to cancel an appointment;скасувати зустріч;Ich muss den Termin für das Code-Review leider auf morgen verschieben.
 das Treffen, -;meeting;зустріч;Das Treffen mit den Stakeholdern war für die Priorisierung des Backlogs sehr wichtig.
-sich verspäten;to be late;запізнюватися;Das Deployment der neuen Version wird sich aufgrund technischer Probleme leider verspäten.
+sich verspäten (verspätet sich, verspätete sich, hat sich verspätet);to be late;запізнюватися;Das Deployment der neuen Version wird sich aufgrund technischer Probleme leider verspäten.
 das Wohlbefinden (Sg.);well-being;самопочуття;Ergonomische Stühle im Büro tragen wesentlich zum Wohlbefinden der Programmierer bei.
 der Zeitdruck (Sg.);time pressure;дефіцит часу;Unter großem Zeitdruck passieren beim Programmieren leider oft Flüchtigkeitsfehler.
 die Abteilungskonferenz, -en;department conference;конференція відділу;In der monatlichen Abteilungskonferenz stellt der CTO die neue Technik-Roadmap vor.
-sich ab|sprechen (mit + Dat.);to coordinate (with someone);домовлятися;Ich muss mich kurz mit dem Backend-Team bezüglich der API-Schnittstelle absprechen.
+sich ab|sprechen (mit + Dat.) (spricht sich ab, sprach sich ab, hat sich abgesprochen);to coordinate (with someone);домовлятися;Ich muss mich kurz mit dem Backend-Team bezüglich der API-Schnittstelle absprechen.
 der Anspruch, "-e;claim, demand;претензія, вимога;Der Anspruch an die Datensicherheit ist bei dieser Anwendung extrem hoch.
 Anspruch haben auf (+ Akk.);to have a right to;мати право на;Alle Mitarbeiter haben Anspruch auf eine moderne Hardware-Ausstattung mitsamt zwei Monitoren.
 der Arbeitsweg, -e;commute;шлях на роботу;Mein Arbeitsweg dauert eine halbe Stunde.
@@ -33,9 +33,9 @@ die Arbeitszeit, -en;working time;робочий час;In unserer IT-Firma gibt
 das Arbeitszeitgesetz, -e;working time act;закон про робочий час;Das Arbeitszeitgesetz schreibt zwingend eine Pause nach sechs Stunden Arbeit vor.
 die Betriebsruhe (Sg.);company holidays;канікули auf підприємстві;Während der Betriebsruhe werden wichtige Wartungsarbeiten am zentralen Server-Cluster durchgeführt.
 das EDV-System, -e;IT system;ІТ-система;Unser EDV-System wurde auf die neueste Version von SAP umgestellt.
-jdn. ein|weisen in (+ Akk.);to instruct, to brief;інструктувати;Der Senior-Admin wird dich heute in das Monitoring-System einweisen.
+jdn. ein|weisen in (+ Akk.) (weist ein, wies ein, hat eingewiesen);to instruct, to brief;інструктувати;Der Senior-Admin wird dich heute in das Monitoring-System einweisen.
 der Ersatzruhetag, -e;compensatory rest day;компенсаційний вихідний;Wenn wir am Releasetag am Sonntag arbeiten, erhalten wir einen Ersatzruhetag in der Woche.
-etw. vor|schreiben;to prescribe, to mandate;приписувати, зобов'язувати;Die DSGVO schreibt vor, wie personenbezogene Daten in unserer SQL-Datenbank gespeichert werden müssen.
+etw. vor|schreiben (schreibt vor, schrieb vor, hat vorgeschrieben);to prescribe, to mandate;приписувати, зобов'язувати;Die DSGVO schreibt vor, wie personenbezogene Daten in unserer SQL-Datenbank gespeichert werden müssen.
 der Fall, "-e;case;випадок;Im Falle eines Systemabsturzes ist sofort das On-Call-Team zu benachrichtigen.
 auf keinen Fall;in no case;ні в якому разі;Man sollte auf keinen Fall ungetesteten Code direkt in den Main-Branch mergen.
 der Freizeitausgleich (Sg.);compensatory time off;компенсація вільного часу;Für die Überstunden während der Migration bekomme ich nächste Woche Freizeitausgleich.
@@ -66,7 +66,7 @@ die Abmahnung, -en;written warning;попередження (догана);Eine 
 das Arbeitsgericht, -e;labor court;трудовий суд;Der Streit um die Überstundenvergütung wird nun vor dem Arbeitsgericht geklärt.
 der Betriebsrat, "-e;works council;виробнича рада (профспілка);Der Betriebsrat hat der Einführung der neuen Remote-Monitoring-Software zugestimmt.
 die Betriebsfeier, -n;company party;корпоратив;Auf der Betriebsfeier haben wir den erfolgreichen Release unserer Plattform gefeiert.
-dokumentieren;to document;документувати;Gute Entwickler dokumentieren ihren Code immer sorgfältig in Javadoc oder Swagger.
+dokumentieren (dokumentiert, dokumentierte, hat dokumentiert);to document;документувати;Gute Entwickler dokumentieren ihren Code immer sorgfältig in Javadoc oder Swagger.
 der Heizungstechniker, -;heating technician;майстер з опалення;Der Heizungstechniker wartet auch die Klimaanlage in unserem Serverraum.
 die Heizungstechnikerin, -nen;female heating technician;майстриня з опалення;Die Heizungstechnikerin hat die Temperaturfühler in der IT-Abteilung ausgetauscht.
 die Hilfe, -n;help;допомога;Ich benötige Hilfe beim Konfigurieren des lokalen Kubernetes-Clusters.

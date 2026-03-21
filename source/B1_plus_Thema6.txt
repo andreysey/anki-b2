@@ -1,22 +1,22 @@
 #separator:;
 #html:true
 #columns:German;English;Ukrainian;Example
-etw. aktivieren;to activate;активувати;Nach der Installation müssen Sie das Plugin im WordPress-Backend noch aktivieren.
+etw. aktivieren (aktiviert, aktivierte, hat aktiviert);to activate;активувати;Nach der Installation müssen Sie das Plugin im WordPress-Backend noch aktivieren.
 der Anbieter, -;provider;провайдер, постачальник;Welcher Anbieter hat derzeit die beste Performance für Cloud-Hosting?
 die Anbieterin, -nen;female provider;провайдерка;Die Anbieterin stellt uns eine dedizierte Leitung mit 10 Gbit/s zur Verfügung.
 etw. auf|laden (lädt auf, lud auf, hat aufgeladen);to top up, to charge;заряджати, поповнювати (рахунок);Ich muss den Akku meines Firmen-Laptops aufladen, bevor das Meeting beginnt.
-sich beraten lassen;to get advice;отримати консультацію;Wir lassen uns von einem Experten bezüglich der DSGVO-Konformität unserer App beraten.
-sich beschweren;to complain;скаржитися;Der Nutzer hat sich im Support-Forum über die langsame Ladezeit der Webseite beschwert.
+sich beraten lassen (lässt sich beraten, ließ sich beraten, hat sich beraten lassen);to get advice;отримати консультацію;Wir lassen uns von einem Experten bezüglich der DSGVO-Konformität unserer App beraten.
+sich beschweren (beschwert sich, beschwerte sich, hat sich beschwert);to complain;скаржитися;Der Nutzer hat sich im Support-Forum über die langsame Ladezeit der Webseite beschwert.
 die Bestellung, -en;order;замовлення;Wir haben eine Bestellung für drei neue Workstations beim IT-Händler aufgegeben.
 das Datenvolumen, -;data volume;обсяг даних;Durch die Bildkompression konnten wir das übertragene Datenvolumen deutlich reduzieren.
 etw. ein|geben (gibt ein, gab ein, hat eingegeben);to enter (data);вводити (дані);Bitte geben Sie Ihren API-Key in das Konfigurationsfeld ein.
-etw. ein|legen;to insert;вставляти;Um den Server zu booten, müssen Sie zuerst den bootfähigen USB-Stick einlegen.
+etw. ein|legen (legt ein, legte ein, hat eingelegt);to insert;вставляти;Um den Server zu booten, müssen Sie zuerst den bootfähigen USB-Stick einlegen.
 einmalig;one-time;одноразовий;Die Kosten für die Software-Lizenz fallen nur einmalig an.
 der Einsteiger, -;beginner;початківець;Diese Programmiersprache ist auch für Einsteiger ohne Vorkenntnisse leicht zu erlernen.
 die Einsteigerin, -nen;female beginner;початківиця;Die Einsteigerin macht gerade ein Praktikum in der Frontend-Entwicklung.
 etw. entgegen|nehmen (nimmt entgegen, nahm entgegen, hat entgegengenommen);to receive, to accept;приймати;Der Webserver kann gleichzeitig Tausende von HTTP-Anfragen entgegennehmen.
 das Festnetz (Sg.);landline;стаціонарна мережа;In unserem Büro nutzen wir Voice-over-IP anstelle des klassischen Festnetzes.
-etw. frei|schalten;to unlock, to activate;активувати, розблокувати;Der Administrator kann deinen Zugang zum VPN-Server erst morgen freischalten.
+etw. frei|schalten (schaltet frei, schaltete frei, hat freigeschaltet);to unlock, to activate;активувати, розблокувати;Der Administrator kann deinen Zugang zum VPN-Server erst morgen freischalten.
 die Grundgebühr, -en;basic fee;абонентська плата;In der monatlichen Grundgebühr für unser CRM-System ist der E-Mail-Support bereits enthalten.
 gültig;valid;дійсний;Das SSL-Zertifikat für unsere Domain ist nur noch zwei Wochen gültig.
 günstig;cheap, favorable;вигідний, недешевий;Open-Source-Lösungen sind oft eine günstige Alternative zu teurer kommerzieller Software.
@@ -28,22 +28,22 @@ die Kontrolle, -n;control;контроль;Die Versionskontrolle mit Git ist fü
 der Lieferservice, -s;delivery service;служба доставки;Wir entwickeln eine API für einen internationalen Lieferservice.
 das Netz, -e;network;мережа;In unserem internen Netz sind alle Datenbanken durch eine dedizierte Firewall geschützt.
 optimal;optimal;оптимальний;Diese Datenbank-Struktur ist optimal für schnelle Lesezugriffe geeignet.
-profitieren von (+ Dat.);to profit from;отримувати вигоду;Unsere Anwendung profitiert stark von den neuen Funktionen des Frameworks.
-etw. sperren;to block, to lock;блокувати;Nach drei falschen Passworteingaben wird das Benutzerkonto automatisch für eine Stunde gesperrt.
+profitieren von (+ Dat.) (profitiert, profitierte, hat profitiert);to profit from;отримувати вигоду;Unsere Anwendung profitiert stark von den neuen Funktionen des Frameworks.
+etw. sperren (sperrt, sperrte, hat gesperrt);to block, to lock;блокувати;Nach drei falschen Passworteingaben wird das Benutzerkonto automatisch für eine Stunde gesperrt.
 der Tarif, -e;tariff;тариф;Wir haben uns für den Enterprise-Tarif entschieden, um Zugriff auf alle Features zu erhalten.
-etw. verschicken;to send;відправляти;Das System kann automatisch Benachrichtigungen per Webhook verschicken.
+etw. verschicken (verschickt, verschickte, hat verschickt);to send;відправляти;Das System kann automatisch Benachrichtigungen per Webhook verschicken.
 der Vertrag, "-e;contract;контракт, договір;Wir haben einen Wartungsvertrag mit dem Server-Anbieter abgeschlossen.
 die Vertragslaufzeit, -en;contract duration;термін дії договору;Die Vertragslaufzeit für unsere Cloud-Infrastruktur beträgt mindestens zwölf Monate.
-etw. zu|stellen;to deliver;доставляти;Die Push-Benachrichtigung konnte nicht an das Mobilgerät zugestellt werden.
+etw. zu|stellen (stellt zu, stellte zu, hat zugestellt);to deliver;доставляти;Die Push-Benachrichtigung konnte nicht an das Mobilgerät zugestellt werden.
 das Angebot, -e;offer;пропозиція;Das Angebot für das Redesign unserer Website war sehr überzeugend.
 der Auftrag, "-e;order, assignment;замовлення, доручення;Unser Team hat den Auftrag erhalten, eine neue E-Commerce-Plattform zu bauen.
 der Ausdruck, -e;printout;роздруківка;Ich benötige einen Ausdruck der API-Dokumentation für das Meeting.
-sich binden an (+ Akk.);to commit oneself to;зв'язувати себе зобов'язаннями;Durch den Lizenzvertrag binden wir uns langfristig an diesen Software-Anbieter.
+sich binden an (+ Akk.) (bindet sich, band sich, hat sich gebunden);to commit oneself to;зв'язувати себе зобов'язаннями;Durch den Lizenzvertrag binden wir uns langfristig an diesen Software-Anbieter.
 brutto;gross;брутто (без вирахування податків);Das Bruttogehalt für diese Senior-Entwickler-Stelle ist sehr attraktiv.
 einverstanden;agreed;згодний;Ich bin mit den vorgeschlagenen Änderungen am Code einverstanden.
 etw. empfehlen (empfiehlt, empfahl, hat empfohlen);to recommend;рекомендувати;Können Sie eine gute Bibliothek für die Einbindung von Diagrammen empfehlen?
 die Erledigung, -en;completion;виконання;Vielen Dank für die schnelle Erledigung des Bug-Reports.
-etw. erteilen (z.B. einen Auftrag);to grant, to give;надавати, видавати (доручення);Die Geschäftsführung wird heute die Freigabe für das Projekt erteilen.
+etw. erteilen (z.B. einen Auftrag) (erteilt, erteilte, hat erteilt);to grant, to give;надавати, видавати (доручення);Die Geschäftsführung wird heute die Freigabe for das Projekt erteilen.
 der Grund, "-e;reason;причина;Der Grund für den Systemausfall war eine Fehlkonfiguration des Load-Balancers.
 die Mehrwertsteuer (Sg.);value added tax (VAT);ПДВ (податок на додану вартість);Die Cloud-Gebühren werden monatlich zuzüglich der gesetzlichen Mehrwertsteuer abgerechnet.
 netto;net;нетто (після податків);In der Preisliste sind alle Beträge als Netto-Preise angegeben.
@@ -65,26 +65,16 @@ die Reklamation, -en;reclamation, claim;рекламація, претензія
 unvollständig;incomplete;неповний;Die API-Antwort ist unvollständig, da das Timeout-Limit erreicht wurde.
 der Vorschlag, "-e;suggestion;пропозиція;Mein Vorschlag ist, die Datenbank-Abfragen mithilfe von Caching zu optimieren.
 etw. zerbrechen (zerbricht, zerbrach, hat zerbrochen);to break;розбивати;Vorsicht, das Glaspanel des Computergehäuses kann leicht zerbrechen.
-etw. zerkratzen;to scratch;подряпати;Verwenden Sie nur weiche Tücher, um das Display nicht zu zerkratzen.
+etw. zerkratzen (zerkratzt, zerkratzte, hat zerkratzt);to scratch;подряпати;Verwenden Sie nur weiche Tücher, um das Display nicht zu zerkratzen.
 etw. zerreißen (zerriss, hat zerrissen);to tear;розривати;Der Systemadministrator hat das alte Fehlerprotokoll zerrissen.
 jdn. ausreden lassen;to let someone finish speaking;давати комусь договорити;Lass den Product Owner bitte ausreden, bevor du deine technischen Bedenken äußerst.
 die Bedeutung, -en;meaning;значення;Diese Fehlermeldung hat in diesem Kontext eine völlig neue Bedeutung.
 die Erwartung, -en;expectation;очікування;Die Performance der neuen Grafikkarte hat unsere Erwartungen weit übertroffen.
-etw. klären;to clarify;з'ясовувати;Wir müssen im nächsten Meeting klären, welches Framework wir für das Backend nutzen wollen.
+etw. klären (klärt, klärte, hat geklärt);to clarify;з'ясовувати;Wir müssen im nächsten Meeting klären, welches Framework wir for das Backend nutzen wollen.
 konkurrenzfähig;competitive;конкурентоспроможний;Um konkurrenzfähig zu bleiben, müssen wir die Ladezeit unserer App halbieren.
-sich etw. leisten können;to be able to afford;могти собі дозволити;Dank der neuen Finanzierung können wir uns zwei zusätzliche Senior-Entwickler leisten.
-einen Preisnachlass gewähren;to grant a discount;надавати знижку;Da wir eine große Menge an Lizenzen kaufen, gewährt uns der Anbieter einen Preisnachlass.
-treu bleiben;to stay loyal;залишатися вірним;Unsere Kunden bleiben unserem Service treu, weil wir regelmäßig neue Features liefern.
+sich etw. leisten können (kann sich leisten, konnte sich leisten, hat sich leisten können);to be able to afford;могти собі дозволити;Dank der neuen Finanzierung können wir uns zwei zusätzliche Senior-Entwickler leisten.
+einen Preisnachlass gewähren (gewährt, gewährte, hat gewährt);to grant a discount;надавати знижку;Da wir eine große Menge an Lizenzen kaufen, gewährt uns der Anbieter einen Preisnachlass.
+treu bleiben (bleibt treu, blieb treu, ist treu geblieben);to stay loyal;залишатися вірним;Unsere Kunden bleiben unserem Service treu, weil wir regelmäßig neue Features liefern.
 unzufrieden;dissatisfied;незадоволений;Das Team ist unzufrieden mit der Qualität der aktuellen Dokumentation.
 vereinbart;agreed;узгоджений;Die API liefert die Daten nun im vereinbarten JSON-Format zurück.
-sich etw. vor|stellen;to imagine;уявляти;Können Sie sich vorstellen, das gesamte System auf eine Serverless-Architektur umzustellen?
-die Bedeutung, -en;meaning;значення;Dieses Wort hat mehrere Bedeutungen.
-die Erwartung, -en;expectation;очікування;Die neue Software hat meine Erwartungen erfüllt.
-etw. klären;to clarify;з'ясовувати;Wir müssen dieses Problem noch klären.
-konkurrenzfähig;competitive;конкурентоспроможний;Unsere Preise sind auf dem Markt konkurrenzfähig.
-sich etw. leisten können;to be able to afford;могти собі дозволити;Ich kann mir momentan kein neues Auto leisten.
-einen Preisnachlass gewähren;to grant a discount;надавати знижку;Der Verkäufer hat uns einen kleinen Preisnachlass gewährt.
-treu bleiben;to stay loyal;залишатися вірним;Unsere Kunden bleiben uns seit Jahren treu.
-unzufrieden;dissatisfied;незадоволений;Er ist unzufrieden mit seinem Gehalt.
-vereinbart;agreed;узгоджений;Wir treffen uns zum vereinbarten Zeitpunkt.
-sich etw. vor|stellen;to imagine;уявляти;Kannst du dir vorstellen, в Америці жити?
+sich etw. vor|stellen (stellt sich vor, stellte sich vor, hat sich vorgestellt);to imagine;уявляти;Können Sie sich vorstellen, das gesamte System auf eine Serverless-Architektur umzustellen?
