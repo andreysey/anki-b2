@@ -1,8 +1,7 @@
 #separator:;
 #html:true
 #columns:German;English;Ukrainian;Example
-der Ansprechpartner, -;contact person;контактна особа;Unser Ansprechpartner für das API-Gateway ist heute leider nicht erreichbar.
-die Ansprechpartnerin, -nen;female contact person;контактна особа (жінка);Die Ansprechpartnerin für den Datenschutz hat die neuen Sicherheitsrichtlinien genehmigt.
+der Ansprechpartner, - / die Ansprechpartnerin, -nen;contact person;контактна особа;Unser Ansprechpartner для das API-Gateway сьогодні, на жаль, не доступний.
 der Aushang, "-e;notice, posting;оголошення;Ich habe den digitalen Aushang im Firmen-Intranet über das neue Slack-Update gesehen.
 das Bewerbungsschreiben, -;letter of application;заява про прийняття на роботу;In Ihrem Bewerbungsschreiben sollten Sie Ihre Erfahrung mit Cloud-Technologien hervorheben.
 das Bewerbungsverfahren, -;application process;процес подання заявки;Das Bewerbungsverfahren für die Stelle als DevOps-Engineer umfasst drei technische Interviews.
@@ -14,8 +13,7 @@ fehlerfrei;error-free;без помилок;Ein fehlerfreier Code ist die Voraus
 die Initiativbewerbung, -en;unsolicited application;ініціативна заявка;Ich habe eine Initiativbewerbung an das IT-Sicherheitszentrum geschickt.
 die Installateurfirma, -firmen;plumbing company;сантехнічна фірма;Die Installateurfirma wartet das Kühlsystem für unsere Hochleistungsserver.
 die Konkurrenz (Sg.);competition;конкуренція;In der Tech-Branche ist die Konkurrenz um die besten Talente extrem hoch.
-der Leiharbeiter, -;temporary worker;тимчасовий працівник;Wir haben einen Leiharbeiter für das kurzfristige Projekt zur Datenmigration eingestellt.
-die Leiharbeiterin, -nen;female temporary worker;тимчасова працівниця;Die Leiharbeiterin unterstützt unser QA-Team beim Testen der neuen Softwareversion.
+der Leiharbeiter, - / die Leiharbeiterin, -nen;temporary worker;тимчасовий працівник/-ця;Ми найняли тимчасового працівника для короткострокового проекту з міграції даних.
 das Leitbild, -er;mission statement;місія, девіз компанії;Das Leitbild unseres Startups ist die Demokratisierung von Daten durch Open Source.
 der Stand der Dinge;state of affairs;стан справ;Können Sie mir beim nächsten Daily Stand-up den aktuellen Stand der Dinge zum Bug-Fixing geben?
 einen Termin bestätigen (bestätigt, bestätigte, hat bestätigt);to confirm an appointment;підтверджувати зустріч;Bitte bestätigen Sie den Termin for die Produktdemo über den Kalender-Link.
@@ -33,38 +31,31 @@ die Beschäftigung (Sg.);employment;зайнятість;Die Beschäftigung mit 
 der Betrieb, -e;business, company;підприємство;Der Betrieb läuft nach dem Hardware-Upgrade wieder reibungslos.
 die Genehmigung, -en;permission, permit;дозвіл;Wir warten noch auf die offizielle Genehmigung der IT-Leitung für den Kauf der neuen Lizenzen.
 die Leiharbeit (Sg.);temporary work;тимчасова праця;Leiharbeit kann für IT-Freelancer eine gute Möglichkeit sein, verschiedene Unternehmen kennenzulernen.
-der Leiharbeiter, -;temporary worker;тимчасовий працівник;Der Leiharbeiter arbeitet als Systemadministrator in unserer Zweigstelle.
-die Leiharbeiterin, -nen;female temporary worker;тимчасова робітниця;Die Leiharbeiterin hilft uns bei der Bestandsaufnahme der Hardware.
 staatlich;state, public;державний;Das staatliche Amt für Cybersicherheit hat eine Warnung vor einem neuen Computervirus herausgegeben.
 die Tätigkeit, -en;activity, task;діяльність;Zu meinen täglichen Tätigkeiten gehört das Schreiben von Unit-Tests und das Bugtracking.
 einen Termin vereinbaren (vereinbart, vereinbarte, hat vereinbart);to make an appointment;домовлятися про зустріч;Ich möchte einen Termin mit dem Product Owner vereinbaren, um die User Stories zu besprechen.
 verleihen (verleiht, verlieh, hat verliehen);to lend;позичати, надавати;Das Rechenzentrum verleiht Rechenleistung an kleinere Startups.
 die Vermittlung, -en;placement, mediation;працевлаштування, посередництво;Die Vermittlung von IT-Fachkräften erfolgt oft über spezialisierte Headhunter-Agenturen.
 die Vermittlungsgebühr, -en;placement fee;комісія за працевлаштування;Die Firma zahlt eine hohe Vermittlungsgebühr für einen erfahrenen Softwarearchitekten.
-der Agraringenieur, -e;agricultural engineer;агроном-інженер;Der Agraringenieur nutzt Drohnen und IoT-Sensoren zur Optimierung der Bewässerung.
-die Agraringenieurin, -nen;female agricultural engineer;агрономка-інженерка;Die Agraringenieurin analysiert satellitengestützte Daten zur Bodenqualität am Computer.
+der Agraringenieur, -e / die Agraringenieurin, -nen;agricultural engineer;агроном-інженер/-ка;Der Agraringenieur nutzt Drohnen und IoT-Sensoren zur Optimierung der Bewässerung.
 der Arbeitseinsatz, "-e;work assignment;використання робочої сили;Der Arbeitseinsatz der Entwickler wird über ein agiles Jira-Board gesteuert.
 der Bereich, -e;area, field;сфера, галузь;In welchem Bereich der Informatik möchtest du dich spezialisieren?
 die Bereitschaft (Sg.);readiness, willingness;готовність;Die Bereitschaft zur Wochenendarbeit ist bei kritischen Systemumstellungen notwendig.
 der Einsatzort, -e;place of assignment;місце роботи (відрядження);Mein aktueller Einsatzort ist das Headquarter der IT-Firma in San Francisco.
 examiniert;qualified, examined;дипломований;Wir suchen examiniertes Fachpersonal für die Wartung medizinischer IT-Systeme.
 das Familienunternehmen, -;family business;сімейне підприємство;Das mittelständische Familienunternehmen plant die Digitalisierung seiner gesamten Produktion.
-der Informatiker, -;IT specialist;інформатик;Der Informatiker optimiert den Algorithmus für eine schnellere Datenverarbeitung.
-die Informatikerin, -nen;female IT specialist;інформатиця;Die Informatikerin präsentiert die Ergebnisse ihrer Sicherheitsanalyse dem Vorstand.
-der Ingenieur, -e;engineer;інженер;Der Ingenieur entwickelt neue Hardwarekomponenten für Quantencomputer.
-die Ingenieurin, -nen;female engineer;інженерка;Die Ingenieurin leitet das Team für die Entwicklung autonomer Fahrzeugsoftware.
+der Informatiker, - / die Informatikerin, -nen;IT specialist;інформатик/-иця;Der Informatiker optimiert den Algorithmus für eine schnellere Datenverarbeitung.
+der Ingenieur, -e / die Ingenieurin, -nen;engineer;інженер/-ка;Der Ingenieur entwickelt neue Hardwarekomponenten für Quantencomputer.
 innovativ;innovative;інноваційний;Unsere Firma bietet innovative Cloud-Lösungen für kleine und mittlere Unternehmen an.
 die Karrierechance, -n;career opportunity;шанс на кар'єру;Internationale Tech-Konzerne bieten hervorragende Karrierechancen für ehrgeizige Entwickler.
 die Kommunikationsfähigkeit, -en;communication skills;комунікабельність;Gute Kommunikationsfähigkeit ist bei der Zusammenarbeit in verteilten Teams unerlässlich.
 der Kundenservice (Sg.);customer service;служба підтримки клієнтів;Der Kundenservice wird durch einen KI-basierten Chatbot unterstützt.
 die Pflegekraft, "-e;caregiver, nurse;медпрацівник (з догляду);Die moderne Klinik verwendet digitale Tools, um die Pflegekraft bei der Dokumentation zu entlasten.
 der Pflegeservice (Sg.);care service;служба догляду;Ein digitaler Pflegeservice ermöglicht die Fernüberwachung von Patientendaten.
-der Sicherheitsmitarbeiter, -;security officer;співробітник безпеки;Der Sicherheitsmitarbeiter überwacht den physischen Zugang zum Serverraum.
-die Sicherheitsmitarbeiterin, -nen;female security officer;співробітниця безпеки;Die Sicherheitsmitarbeiterin weist alle externen Techniker in die Sicherheitsprotokolle ein.
+der Sicherheitsmitarbeiter, - / die Sicherheitsmitarbeiterin, -nen;security officer;співробітник/-ця безпеки;Der Sicherheitsmitarbeiter überwacht den physischen Zugang zum Serverraum.
 der Teamgeist (Sg.);team spirit;командний дух;Ein starker Teamgeist führt oft zu kreativeren Ansätzen in der Softwareentwicklung.
 die Verantwortung (Sg.);responsibility;відповідальність;Ein Chief Information Security Officer trägt eine enorme Verantwortung für den Datenschutz.
-der Verkäufer, -;salesman;продавець;Der Verkäufer erklärt dem Kunden die technischen Spezifikationen des neuen High-End-PCs.
-die Verkäuferin, -nen;female salesperson;продавчиня;Die Verkäuferin im Computerfachgeschäft empfiehlt eine externe Festplatte zur Datensicherung.
+der Verkäufer, - / die Verkäuferin, -nen;salesperson;продавець/-чиня;Der Verkäufer erklärt dem Kunden die technischen Spezifikationen des neuen High-End-PCs.
 die Verstärkung, -en;reinforcement, addition to the team;підкріплення, новий співробітник;Wir suchen dringend Verstärkung für unser Frontend-Team im Bereich React.
 die Zukunftsperspektive, -n;future prospect;перспектива на майнє;Die Arbeit im Bereich Cybersicherheit bietet eine exzellente Zukunftsperspektive.
 die Zusammenarbeit (Sg.);cooperation;співпраця;Die erfolgreiche Zusammenarbeit zwischen Designer und Entwickler ist entscheidend für das UI/UX Design.
@@ -73,8 +64,7 @@ das Bauvorhaben, -;construction project;будівельний проект;Beim
 die Berufsausbildung, -en;vocational training;професійна освіта;Ich habe meine Berufsausbildung zum mathematisch-technischen Softwareentwickler abgeschlossen.
 der Einsatz, "-e;assignment, mission;виконання завдання;Der weltweite Einsatz unserer Software zeigt ihre hohe Skalierbarkeit.
 das Einverständnis, -se;consent, agreement;згода;Wir benötigen das Einverständnis des Nutzers für die Verarbeitung seiner personenbezogenen Daten.
-der Fachinformatiker, -;IT specialist;фахівець з інформатики;Als Fachinformatiker für Anwendungsentwicklung schreibe ich täglich Code in C#.
-die Fachinformatikerin, -nen;female IT specialist;фахівчиня з інформатики;Die Fachinformatikerin konfiguriert die Firewalls für das Firmennetzwerk.
+der Fachinformatiker, - / die Fachinformatikerin, -nen;IT specialist;фахівець/-чиня з інформатики;Als Fachinformatiker für Anwendungsentwicklung schreibe я щодня код на C#.
 die Krankheitsvertretung, -en;sick leave cover;заміна на час хвороби;Er übernimmt kurzfristig die Krankheitsvertretung für den Lead-Architekten.
 der Realschulabschluss, "-e;secondary school certificate;атестат про закінчення реальної школи;Mit einem guten Realschulabschluss kann man eine Ausbildung zum IT-Systemkaufmann beginnen.
 die Urlaubsvertretung, -en;holiday replacement;заміна на час відпустки;Könntest du während meiner Abwesenheit meine Urlaubsvertretung für die Serverwartung machen?

@@ -2,8 +2,7 @@
 #html:true
 #columns:German;English;Ukrainian;Example
 die Abteilung, -en;department;відділ;Unsere IT-Abteilung kümmert sich um die gesamte Cloud-Infrastruktur.
-der Arbeitgeber, -;employer;роботодавець;Mein neuer Arbeitgeber bietet viele Remote-Work-Optionen für Softwareentwickler an.
-die Arbeitgeberin, -nen;female employer;роботодавиця;Die Arbeitgeberin investiert massiv in neue Technologien und Mitarbeiter-Schulungen.
+der Arbeitgeber, - / die Arbeitgeberin, -nen;employer;роботодавець/-иця;Mein новий Arbeitgeber bietet viele Remote-Work-Optionen для Softwareentwickler an.
 das Asylverfahren, -;asylum procedure;процедура надання притулку;Wir unterstützen geflüchtete IT-Spezialisten während ihres Asylverfahrens bei der Jobsuche.
 die Ausbildung, -en;apprenticeship, vocational training;професійне навчання;Ich mache eine Ausbildung zum Fachinformatiker für Systemintegration.
 auf|fallen (fällt auf, fiel auf, ist aufgefallen);to stand out, to be noticeable;впадати в око;Im Code-Review ist mir sofort aufgefallen, dass eine Sicherheitslücke besteht.
@@ -14,15 +13,13 @@ sich bewerben (bewirbt sich, bewarb sich, hat sich beworben);to apply;подав
 jdn. ein|stellen (stellt ein, stellte ein, hat eingestellt);to hire someone;наймати когось;Wir möchten diesen Monat drei neue Backend-Entwickler einstellen.
 das E-Learning (Sg.);e-learning;електронне навчання;E-Learning-Plattformen wie Coursera sind ideal, um neue Programmiersprachen zu lernen.
 der E-Learning-Kurs, -e;e-learning course;курс дистанційного навчання;Ich belege einen E-Learning-Kurs zum Thema "Deep Learning mit Python".
-der Facharbeiter, -;skilled worker;кваліфікований робітник;In der Halbleiterfertigung werden hochqualifizierte Facharbeiter benötigt.
-die Facharbeiterin, -nen;female skilled worker;кваліфікована робітниця;Die Facharbeiterin überwacht den automatisierten Produktionsprozess des Serverboards.
+der Facharbeiter, - / die Facharbeiterin, -nen;skilled worker;кваліфікований робітник/-ця;In der Halbleiterfertigung werden hochqualifizierte Facharbeiter benötigt.
 der Gabelstapler, -;forklift;навантажувач;Wir programmieren die Software für die automatische Steuerung der Gabelstapler im Logistikzentrum.
 die Geschäftsführung, -en;management;керівництво;Die Geschäftsführung hat das Budget für die Cybersicherheit verdoppelt.
 sich informieren über (+ Akk.) (informiert sich, informierte sich, hat sich informiert);to inform oneself;інформуватися;Ich informiere mich täglich über die neuesten Frameworks und Bibliotheken.
 das Lager, -;warehouse, storage;склад;Das digitale Lager verwaltet Tausende von Hardware-Komponenten für unser Rechenzentrum.
 die Lagerlogistik (Sg.);warehouse logistics;складська логістика;Ein effizientes ERP-System optimiert die gesamte Lagerlogistik des Hardware-Händlers.
-der Mitarbeiter, -;employee;співробітник;Jeder Mitarbeiter erhält einen leistungsstarken Laptop für die Softwareentwicklung.
-die Mitarbeiterin, -nen;female employee;співробітниця;Die Mitarbeiterin ist für das Deployment der neuen App-Version verantwortlich.
+der Mitarbeiter, - / die Mitarbeiterin, -nen;employee;співробітник/-ця;Jeder Mitarbeiter erhält einen leistungsstarken Laptop für die Softwareentwicklung.
 jdm. etw. raten (rät, riet, hat geraten);to advise someone;радити комусь щось;Der Senior-Entwickler riet mir, Python als erste Programmiersprache zu lernen.
 der Schulabschluss, "-e;school-leaving certificate;шкільний атестат;Nach meinem Schulabschluss möchte ich Informatik an einer Technischen Universität studieren.
 steigen (stieg, ist gestiegen);to rise, to climb;підніматися, зростати;Die Nachfrage nach Sicherheitsexperten ist in den letzten Jahren stark gestiegen.
@@ -35,8 +32,7 @@ der Antrag, "-e;application, request;заява;Ich habe einen Antrag auf Zugrif
 einen Antrag stellen (stellt, stellte, hat gestellt);to submit an application;падавати заяву;Sie müssen einen Antrag stellen, um das neue Grafiktablett aus dem IT-Bestand zu erhalten.
 die Aufenthaltsgenehmigung, -en;residence permit;посвідка на проживання;Für das Visum als Blue-Card-Inhaber benötige ich eine gültige Aufenthaltsgenehmigung.
 auf|wachsen (wächst auf, wuchs auf, ist aufgewachsen);to grow up;виростати;Er ist im Silicon Valley aufgewachsen und hat schon früh mit dem Programmieren begonnen.
-der Berater, -;advisor, counselor;консультант;Der externe IT-Berater analysiert unsere aktuelle Netzwerkstruktur.
-die Beraterin, -nen;female advisor;консультантка;Die SAP-Beraterin hilft uns bei der Implementierung des neuen Moduls.
+der Berater, - / die Beraterin, -nen;advisor, counselor;консультант/-ка;Der externe IT-Berater analysiert unsere aktuelle Netzwerkstruktur.
 jdn. beschäftigen (beschäftigt, beschäftigte, hat beschäftigt);to employ someone;мати у штаті, займати когось;Unser Unternehmen beschäftigt weltweit über 500 Softwarearchitekten.
 der Businessplan, "-e;business plan;бізнес-план;Bevor wir Investoren für unsere App suchen, brauchen wir einen soliden Businessplan.
 das Einkommen, -;income;дохід;Das Einkommen als Freelancer in der Softwareentwicklung variiert je nach Projektlage.
@@ -47,8 +43,7 @@ die Fortbildung, -en;advanced training;підвищення кваліфікац
 eine Fortbildung machen (macht, machte, hat gemacht);to do a training;проходити курс підвищення кваліфікації;Ich möchte eine Fortbildung machen, um mich auf IT-Sicherheit zu spezialisieren.
 (ein Unternehmen) gründen (gründet, gründete, hat gegründet);to found (a company);засновувати (компанію);Sie möchten ein Startup gründen, das Blockchain-Technologie für Lieferketten nutzt.
 einen Kredit bewilligen (bewilligt, bewilligte, hat bewilligt);to approve a loan;надавати кредит;Die Bank hat den Kredit für die neue Hardware-Ausstattung bewilligt.
-der Küchenhelfer, -;kitchen assistant;кухонний помічник;In unserer Kantine nutzt der Küchenhelfer ein Tablet, um die Bestellungen zu verwalten.
-die Küchenhelferin, -nen;female kitchen assistant;кухонна помічниця;Die Küchenhelferin scannt den QR-Code auf der App des Gastes.
+der Küchenhelfer, - / die Küchenhelferin, -nen;kitchen assistant;кухонний помічник/-ниця;У нашій їдальні кухонний помічник використовує планшет, щоб керувати замовленнями.
 sich selbstständig machen;to go self-employed;почати власну справу;Nach zehn Jahren Festanstellung möchte ich mich als IT-Consultant selbstständig machen.
 die Selbstständigkeit (Sg.);self-employment;самостійність, самозайнятість;Die Selbstständigkeit erfordert gute Kenntnisse in Projektmanagement und Buchhaltung.
 überlegen (überlegt, überlegte, hat überlegt);to consider, to think about;обмірковувати;Wir überlegen, ob wir die gesamte Backend-Infrastruktur auf Serverless umstellen.

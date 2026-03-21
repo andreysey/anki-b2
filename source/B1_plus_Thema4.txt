@@ -10,13 +10,11 @@ sich aus|wirken (auf + Akk.) (wirkt aus, wirkte aus, hat ausgewirkt);to affect, 
 die Baustelle, -n;construction site;будівельний майданчик;Die Migration der Legacy-Daten ist derzeit unsere größte Baustelle im Projekt.
 sich beeilen (beeilt sich, beeilte sich, hat sich beeilt);to hurry;поспішати;Wir müssen uns beeilen, den Hotfix vor dem nächsten Kunden-Meeting zu mergen.
 die Berufssparte, -n;professional sector;професійна галузь;Die IT-Sicherheit ist eine Berufssparte mit hervorragenden Zukunftsaussichten.
-der Beschäftigte, -n;employee;співробітник;Jeder Beschäftigte in der IT-Abteilung hat Zugriff auf das interne Wiki.
-die Beschäftigte, -n;female employee;співробітниця;Die Beschäftigte im QA-Team hat einen kritischen Fehler in der Benutzeroberfläche gefunden.
+der/die Beschäftigte, -n;employee;співробітник/-ця;Кожен співробітник в ІТ-відділі має доступ до внутрішнього Вікі.
 die Beschleunigung, -en;acceleration;прискорення;Gute Indizes führen zur Beschleunigung komplexer SQL-Abfragen.
 etw. bewältigen (bewältigt, bewältigte, hat bewältigt);to manage, to cope with;долати, справлятися;Dank agiler Methoden konnten wir die hohen Anforderungen des Kunden bewältigen.
 die Herausforderung, -en;challenge;виклик;Die Skalierung der Datenbank für Millionen von Nutzern ist eine technische Herausforderung.
-der Maurer, -;mason, bricklayer;муляр;Wir entwickeln eine Software, die Maurer bei der Berechnung von Materialkosten unterstützt.
-die Maurerin, -nen;female mason;мулярка;Die Maurerin nutzt eine App auf dem Tablet, um die Baupläne in 3D zu betrachten.
+der Maurer, - / die Maurerin, -nen;mason;муляр/-ка;Ми розробляємо програму, яка допомагає мулярам у розрахунку витрат матеріалів.
 die Strecke, -n;distance, route;дистанція, шлях;Die Strecke für die Glasfaserverbindung zum neuen Rechenzentrum wurde bereits vermessen.
 auf der Strecke bleiben;to fall by the wayside;відстати, бути занедбаним;Ohne kontinuierliche Updates der Skills kann man in der IT schnell auf der Strecke bleiben.
 einen Termin ab|sagen;to cancel an appointment;скасувати зустріч;Ich muss den Termin für das Code-Review leider auf morgen verschieben.
@@ -58,8 +56,7 @@ die Kampagne, -n;campaign;кампанія;Unsere Marketing-Abteilung plant eine
 die Kosmetikserie, -n;cosmetics line;серія косметики;Wir entwickeln einen intelligenten Onlineshop für eine neue Kosmetikserie.
 das Printmedium, -medien;print medium;друковане видання;In diesem Printmedium wurde ein Artikel über unsere innovative App veröffentlicht.
 relevant;relevant;важливий, релевантний;Diese Bibliotheken sind für unser aktuelles Projekt nicht relevant.
-der Senior Manager, -;senior manager;старший менеджер;Der Senior Manager für Cloud-Operations hat das neue Sicherheitskonzept genehmigt.
-die Senior Managerin, -nen;female senior manager;старша менеджерка;Die Senior Managerin bespricht mit uns die Quartalsziele für die Softwareentwicklung.
+der Senior Manager, - / die Senior Managerin, -nen;senior manager;старший менеджер/-ка;Старший менеджер з Cloud-Operations затвердив нову концепцію безпеки.
 der Werbefilm, -e;commercial;рекламний ролик;Der Werbefilm für unsere mobile Anwendung wird auf YouTube geschaltet.
 die Werbekampagne, -n;advertising campaign;рекламна кампанія;Unsere neue Werbekampagne konzentriert sich auf die Vorteile von Open-Source-Software.
 die Abmahnung, -en;written warning;попередження (догана);Eine Abmahnung wegen Verletzung der IT-Sicherheitsrichtlinien ist sehr ernst zu nehmen.
@@ -67,8 +64,7 @@ das Arbeitsgericht, -e;labor court;трудовий суд;Der Streit um die Üb
 der Betriebsrat, "-e;works council;виробнича рада (профспілка);Der Betriebsrat hat der Einführung der neuen Remote-Monitoring-Software zugestimmt.
 die Betriebsfeier, -n;company party;корпоратив;Auf der Betriebsfeier haben wir den erfolgreichen Release unserer Plattform gefeiert.
 dokumentieren (dokumentiert, dokumentierte, hat dokumentiert);to document;документувати;Gute Entwickler dokumentieren ihren Code immer sorgfältig in Javadoc oder Swagger.
-der Heizungstechniker, -;heating technician;майстер з опалення;Der Heizungstechniker wartet auch die Klimaanlage in unserem Serverraum.
-die Heizungstechnikerin, -nen;female heating technician;майстриня з опалення;Die Heizungstechnikerin hat die Temperaturfühler in der IT-Abteilung ausgetauscht.
+der Heizungstechniker, - / die Heizungstechnikerin, -nen;heating technician;майстер/-иня з опалення;Heizungstechniker wartet auch die Klimaanlage in unserem Serverraum.
 die Hilfe, -n;help;допомога;Ich benötige Hilfe beim Konfigurieren des lokalen Kubernetes-Clusters.
 um Hilfe bitten;to ask for help;просити про допомогу;Bei komplexen Architekturfragen sollte man immer das Core-Team um Hilfe bitten.
 das Zuspätkommen (Sg.);being late;запізнення;Sein häufiges Zuspätkommen zu den Daily Scrums sorgt für Ärger im Team.

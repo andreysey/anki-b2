@@ -1,6 +1,5 @@
 die Abteilung, -en	department / відділ
-der Arbeitgeber, -	employer / роботодавець
-die Arbeitgeberin, -nen	female employer / роботодавиця
+der Arbeitgeber, - / die Arbeitgeberin, -nen	employer / роботодавець/-иця
 das Asylverfahren, -	asylum procedure / процедура надання притулку
 die Ausbildung, -en	apprenticeship, vocational training / професійне навчання
 auf|fallen (fällt auf, fiel auf, ist aufgefallen)	to stand out, to be noticeable / впадати в око
@@ -11,15 +10,13 @@ sich bewerben (bewirbt sich, bewarb sich, hat sich beworben)	to apply / пода
 jdn. ein|stellen (stellt ein, stellte ein, hat eingestellt)	to hire someone / наймати когось
 das E-Learning (Sg.)	e-learning / електронне навчання
 der E-Learning-Kurs, -e	e-learning course / курс дистанційного навчання
-der Facharbeiter, -	skilled worker / кваліфікований робітник
-die Facharbeiterin, -nen	female skilled worker / кваліфікована робітниця
+der Facharbeiter, - / die Facharbeiterin, -nen	skilled worker / кваліфікований робітник/-ця
 der Gabelstapler, -	forklift / навантажувач
 die Geschäftsführung, -en	management / керівництво
 sich informieren über (+ Akk.) (informiert sich, informierte sich, hat sich informiert)	to inform oneself / інформуватися
 das Lager, -	warehouse, storage / склад
 die Lagerlogistik (Sg.)	warehouse logistics / складська логістика
-der Mitarbeiter, -	employee / співробітник
-die Mitarbeiterin, -nen	female employee / співробітниця
+der Mitarbeiter, - / die Mitarbeiterin, -nen	employee / співробітник/-ця
 jdm. etw. raten (rät, riet, hat geraten)	to advise someone / радити комусь щось
 der Schulabschluss, "-e	school-leaving certificate / шкільний атестат
 steigen (stieg, ist gestiegen)	to rise, to climb / підніматися, зростати
@@ -32,8 +29,7 @@ der Antrag, "-e	application, request / заява
 einen Antrag stellen (stellt, stellte, hat gestellt)	to submit an application / падавати заяву
 die Aufenthaltsgenehmigung, -en	residence permit / посвідка на проживання
 auf|wachsen (wächst auf, wuchs auf, ist aufgewachsen)	to grow up / виростати
-der Berater, -	advisor, counselor / консультант
-die Beraterin, -nen	female advisor / консультантка
+der Berater, - / die Beraterin, -nen	advisor, counselor / консультант/-ка
 jdn. beschäftigen (beschäftigt, beschäftigte, hat beschäftigt)	to employ someone / мати у штаті, займати когось
 der Businessplan, "-e	business plan / бізнес-план
 das Einkommen, -	income / дохід
@@ -44,8 +40,7 @@ die Fortbildung, -en	advanced training / підвищення кваліфіка
 eine Fortbildung machen (macht, machte, hat gemacht)	to do a training / проходити курс підвищення кваліфікації
 (ein Unternehmen) gründen (gründet, gründete, hat gegründet)	to found (a company) / засновувати (компанію)
 einen Kredit bewilligen (bewilligt, bewilligte, hat bewilligt)	to approve a loan / надавати кредит
-der Küchenhelfer, -	kitchen assistant / кухонний помічник
-die Küchenhelferin, -nen	female kitchen assistant / кухонна помічниця
+der Küchenhelfer, - / die Küchenhelferin, -nen	kitchen assistant / кухонний помічник/-ниця
 sich selbstständig machen	to go self-employed / почати власну справу
 die Selbstständigkeit (Sg.)	self-employment / самостійність, самозайнятість
 überlegen (überlegt, überlegte, hat überlegt)	to consider, to think about / обмірковувати
@@ -67,8 +62,7 @@ die Qualifikation, -en	qualification / кваліфікація
 reglementiert	regulated / регламентований
 die Unterlage, -n	document / документ
 etw. vergleichen mit (+ Dat.)	to compare with / порівнювати
-der Ansprechpartner, -	contact person / контактна особа
-die Ansprechpartnerin, -nen	female contact person / контактна особа (жінка)
+der Ansprechpartner, - / die Ansprechpartnerin, -nen	contact person / контактна особа
 der Aushang, "-e	notice, posting / оголошення
 das Bewerbungsschreiben, -	letter of application / заява про прийняття на роботу
 das Bewerbungsverfahren, -	application process / процес подання заявки
@@ -80,8 +74,7 @@ fehlerfrei	error-free / без помилок
 die Initiativbewerbung, -en	unsolicited application / ініціативна заявка
 die Installateurfirma, -firmen	plumbing company / сантехнічна фірма
 die Konkurrenz (Sg.)	competition / конкуренція
-der Leiharbeiter, -	temporary worker / тимчасовий працівник
-die Leiharbeiterin, -nen	female temporary worker / тимчасова працівниця
+der Leiharbeiter, - / die Leiharbeiterin, -nen	temporary worker / тимчасовий працівник/-ця
 das Leitbild, -er	mission statement / місія, девіз компанії
 der Stand der Dinge	state of affairs / стан справ
 einen Termin bestätigen (bestätigt, bestätigte, hat bestätigt)	to confirm an appointment / підтверджувати зустріч
@@ -99,38 +92,31 @@ die Beschäftigung (Sg.)	employment / зайнятість
 der Betrieb, -e	business, company / підприємство
 die Genehmigung, -en	permission, permit / дозвіл
 die Leiharbeit (Sg.)	temporary work / тимчасова праця
-der Leiharbeiter, -	temporary worker / тимчасовий працівник
-die Leiharbeiterin, -nen	female temporary worker / тимчасова робітниця
 staatlich	state, public / державний
 die Tätigkeit, -en	activity, task / діяльність
 einen Termin vereinbaren (vereinbart, vereinbarte, hat vereinbart)	to make an appointment / домовлятися про зустріч
 verleihen (verleiht, verlieh, hat verliehen)	to lend / позичати, надавати
 die Vermittlung, -en	placement, mediation / працевлаштування, посередництво
 die Vermittlungsgebühr, -en	placement fee / комісія за працевлаштування
-der Agraringenieur, -e	agricultural engineer / агроном-інженер
-die Agraringenieurin, -nen	female agricultural engineer / агрономка-інженерка
+der Agraringenieur, -e / die Agraringenieurin, -nen	agricultural engineer / агроном-інженер/-ка
 der Arbeitseinsatz, "-e	work assignment / використання робочої сили
 der Bereich, -e	area, field / сфера, галузь
 die Bereitschaft (Sg.)	readiness, willingness / готовність
 der Einsatzort, -e	place of assignment / місце роботи (відрядження)
 examiniert	qualified, examined / дипломований
 das Familienunternehmen, -	family business / сімейне підприємство
-der Informatiker, -	IT specialist / інформатик
-die Informatikerin, -nen	female IT specialist / інформатиця
-der Ingenieur, -e	engineer / інженер
-die Ingenieurin, -nen	female engineer / інженерка
+der Informatiker, - / die Informatikerin, -nen	IT specialist / інформатик/-иця
+der Ingenieur, -e / die Ingenieurin, -nen	engineer / інженер/-ка
 innovativ	innovative / інноваційний
 die Karrierechance, -n	career opportunity / шанс на кар'єру
 die Kommunikationsfähigkeit, -en	communication skills / комунікабельність
 der Kundenservice (Sg.)	customer service / служба підтримки клієнтів
 die Pflegekraft, "-e	caregiver, nurse / медпрацівник (з догляду)
 der Pflegeservice (Sg.)	care service / служба догляду
-der Sicherheitsmitarbeiter, -	security officer / співробітник безпеки
-die Sicherheitsmitarbeiterin, -nen	female security officer / співробітниця безпеки
+der Sicherheitsmitarbeiter, - / die Sicherheitsmitarbeiterin, -nen	security officer / співробітник/-ця безпеки
 der Teamgeist (Sg.)	team spirit / командний дух
 die Verantwortung (Sg.)	responsibility / відповідальність
-der Verkäufer, -	salesman / продавець
-die Verkäuferin, -nen	female salesperson / продавчиня
+der Verkäufer, - / die Verkäuferin, -nen	salesperson / продавець/-чиня
 die Verstärkung, -en	reinforcement, addition to the team / підкріплення, новий співробітник
 die Zukunftsperspektive, -n	future prospect / перспектива на майнє
 die Zusammenarbeit (Sg.)	cooperation / співпраця
@@ -139,8 +125,7 @@ das Bauvorhaben, -	construction project / будівельний проект
 die Berufsausbildung, -en	vocational training / професійна освіта
 der Einsatz, "-e	assignment, mission / виконання завдання
 das Einverständnis, -se	consent, agreement / згода
-der Fachinformatiker, -	IT specialist / фахівець з інформатики
-die Fachinformatikerin, -nen	female IT specialist / фахівчиня з інформатики
+der Fachinformatiker, - / die Fachinformatikerin, -nen	IT specialist / фахівець/-чиня з інформатики
 die Krankheitsvertretung, -en	sick leave cover / заміна на час хвороби
 der Realschulabschluss, "-e	secondary school certificate / атестат про закінчення реальної школи
 die Urlaubsvertretung, -en	holiday replacement / заміна на час відпустки
@@ -152,13 +137,11 @@ das Lager, -	warehouse / склад
 die Produktion (Sg.)	production / виробництво
 die Forschung, -en	research / дослідження
 die Entwicklung, -en	development / розробка
-der Betriebsrat, "-e	works council / виробнича рада (профспілка)
-die Betriebsrätin, -nen	female works council member / членкиня виробничої ради
+der Betriebsrat, "-e / die Betriebsrätin, -nen	works council (member) / виробнича рада / членкиня ради
 die Geschäftsführung, -en	management / керівництво
 die Finanzbuchhaltung, -en	financial accounting / бухгалтерія
 die Einarbeitung, -en	induction, orientation / введення в курс справи (стажування)
-der Ansprechpartner, -	contact person / контактна особа
-die Ansprechpartnerin, -nen	female contact person / контактна особа (жінка)
+der Ansprechpartner, - / die Ansprechpartnerin, -nen	contact person / контактна особа
 die Pausenregelung, -en	break policy / правило перерв
 der Rundgang, "-e	tour (of a building) / обхід, екскурсія
 sich weiter|bilden (bildet sich weiter, bildete sich weiter, hat sich weitergebildet)	to continue education / підвищувати кваліфікацію
@@ -190,8 +173,7 @@ etw. dokumentieren (dokumentiert, dokumentierte, hat dokumentiert)	to document /
 etw. protokollieren (protokolliert, protokollierte, hat protokolliert)	to record / протоколювати
 die Regel, -n	rule / правило
 in der Regel	as a rule / як правило
-der Teilnehmer, -	participant / учасник
-die Teilnehmerin, -nen	female participant / учасниця
+der Teilnehmer, - / die Teilnehmerin, -nen	participant / учасник/-ця
 etw. vor|schlagen (schlägt vor, schlug vor, hat vorgeschlagen)	to suggest / пропонувати
 der Zweifel, -	doubt / сумнів
 etw. schaffen (schafft, schaffte, hat geschafft)	to manage / впоратися
@@ -208,8 +190,7 @@ lächeln (lächeлт, lächelte, hat gelächelt)	to smile / усміхатися
 erwünscht	desired / бажаний
 beliebt	popular / популярний
 im Allgemeinen	in general / взагалі
-der Vorgesetzte, -n	supervisor / керівник
-die Vorgesetzte, -n	female supervisor / керівниця
+der/die Vorgesetzte, -n	supervisor / керівник/-ця
 sich verabschieden (von + Dat.) (verabschiedet sich, verabschiedete sich, hat sich verabschiedet)	to say goodbye / прощатися
 sich etw. an|schauen (schaut an, schaute an, hat angeschaut)	to look at something / подивитися на щось
 der Arbeitsalltag (Sg.)	everyday work life / робочі будні
@@ -220,13 +201,11 @@ sich aus|wirken (auf + Akk.) (wirkt aus, wirkte aus, hat ausgewirkt)	to affect, 
 die Baustelle, -n	construction site / будівельний майданчик
 sich beeilen (beeilt sich, beeilte sich, hat sich beeilt)	to hurry / поспішати
 die Berufssparte, -n	professional sector / професійна галузь
-der Beschäftigte, -n	employee / співробітник
-die Beschäftigte, -n	female employee / співробітниця
+der/die Beschäftigte, -n	employee / співробітник/-ця
 die Beschleunigung, -en	acceleration / прискорення
 etw. bewältigen (bewältigt, bewältigte, hat bewältigt)	to manage, to cope with / долати, справлятися
 die Herausforderung, -en	challenge / виклик
-der Maurer, -	mason, bricklayer / муляр
-die Maurerin, -nen	female mason / мулярка
+der Maurer, - / die Maurerin, -nen	mason / муляр/-ка
 die Strecke, -n	distance, route / дистанція, шлях
 auf der Strecke bleiben	to fall by the wayside / відстати, бути занедбаним
 einen Termin ab|sagen	to cancel an appointment / скасувати зустріч
@@ -268,8 +247,7 @@ die Kampagne, -n	campaign / кампанія
 die Kosmetikserie, -n	cosmetics line / серія косметики
 das Printmedium, -medien	print medium / друковане видання
 relevant	relevant / важливий, релевантний
-der Senior Manager, -	senior manager / старший менеджер
-die Senior Managerin, -nen	female senior manager / старша менеджерка
+der Senior Manager, - / die Senior Managerin, -nen	senior manager / старший менеджер/-ка
 der Werbefilm, -e	commercial / рекламний ролик
 die Werbekampagne, -n	advertising campaign / рекламна кампанія
 die Abmahnung, -en	written warning / попередження (догана)
@@ -277,8 +255,7 @@ das Arbeitsgericht, -e	labor court / трудовий суд
 der Betriebsrat, "-e	works council / виробнича рада (профспілка)
 die Betriebsfeier, -n	company party / корпоратив
 dokumentieren (dokumentiert, dokumentierte, hat dokumentiert)	to document / документувати
-der Heizungstechniker, -	heating technician / майстер з опалення
-die Heizungstechnikerin, -nen	female heating technician / майстриня з опалення
+der Heizungstechniker, - / die Heizungstechnikerin, -nen	heating technician / майстер/-иня з опалення
 die Hilfe, -n	help / допомога
 um Hilfe bitten	to ask for help / просити про допомогу
 das Zuspätkommen (Sg.)	being late / запізнення
@@ -298,8 +275,7 @@ die (technische) Anlage, -n	technical system / equipment / технічна ус
 eine Anlage warten (wartet, wartete, hat gewartet)	to maintain a system / обслуговувати установку
 jdn./etw. beobachten (beobachtet, beobachtete, hat beobachtet)	to observe / спостерігати
 der Einzelhandel (Sg.)	retail / роздрібна торгівля
-der Endkunde, -n	end customer / кінцевий споживач
-die Endkundin, -nen	female end customer / кінцева споживачка
+der Endkunde, -n / die Endkundin, -nen	end customer / кінцевий споживач/-ка
 etw. entwickeln (entwickelt, entwickelte, hat entwickelt)	to develop / розробляти
 die Forschung und Entwicklung (Sg.)	research and development (R&D) / дослідження та розробка
 der Großhandel (Sg.)	wholesale / гуртова торгівля
@@ -335,13 +311,10 @@ die IT-Branche (Sg.)	IT industry / ІТ-галузь
 etw. konstruieren (konstruiert, konstruierte, hat konstruiert)	to construct, to design / конструювати
 etw. kontrollieren (kontrolliert, kontrollierte, hat kontrolliert)	to control, to check / контролювати
 Kunden bedienen (bedient, bediente, hat bedient)	to serve customers / обслуговувати клієнтів
-der Kundenberater, -	customer advisor / консультант клієнтів
-die Kundenberaterin, -nen	female customer advisor / консультантка клієнтів
+der Kundenberater, - / die Kundenberaterin, -nen	customer advisor / консультант/-ка клієнтів
 das Labor, -e	laboratory / лабораторія
-der Lagerist, -en	warehouse clerk / працівник складу
-die Lageristin, -nen	female warehouse clerk / працівниця складу
-der Tierpfleger, -	animal keeper / доглядач за тваринами
-die Tierpflegerin, -nen	female animal keeper / доглядачка за тваринами
+der Lagerist, -en / die Lageristin, -nen	warehouse clerk / працівник/-ця складу
+der Tierpfleger, - / die Tierpflegerin, -nen	animal keeper / доглядач/-ка за тваринами
 Transport und Logistik (Sg.)	transport and logistics / транспорт і логістика
 der Vertriebsweg, -e	distribution channel / канал збуту
 Waren bestellen (bestellt, bestellte, hat bestellt)	to order goods / замовляти товари
@@ -350,14 +323,12 @@ etw. zu|bereiten (bereitet zu, bereitete zu, hat zubereitet)	to prepare (food) /
 etw. zu|stellen (stellt zu, stellte zu, hat zugestellt)	to deliver, to serve / доставляти
 die Bequemlichkeit, -en	convenience / зручність
 der CO2-Ausstoß (Sg.)	CO2 emission / викид CO2
-der Händler, -	dealer, vendor / торговець
-die Händlerin, -nen	female dealer / торговка
+der Händler, - / die Händlerin, -nen	dealer, vendor / торговець/-ка
 die Lagerhalle, -n	warehouse / складська будівля
 die Online-Plattform, -en	online platform / онлайн-платформа
 der Sonderwunsch, "-e	special request / особливе побажання
 etw. aktivieren (aktiviert, aktivierte, hat aktiviert)	to activate / активувати
-der Anbieter, -	provider / провайдер, постачальник
-die Anbieterin, -nen	female provider / провайдерка
+der Anbieter, - / die Anbieterin, -nen	provider / провайдер/-ка
 etw. auf|laden (lädt auf, lud auf, hat aufgeladen)	to top up, to charge / заряджати, поповнювати (рахунок)
 sich beraten lassen (lässt sich beraten, ließ sich beraten, hat sich beraten lassen)	to get advice / отримати консультацію
 sich beschweren (beschwert sich, beschwerte sich, hat sich beschwert)	to complain / скаржитися
@@ -366,8 +337,7 @@ das Datenvolumen, -	data volume / обсяг даних
 etw. ein|geben (gibt ein, gab ein, hat eingegeben)	to enter (data) / вводити (дані)
 etw. ein|legen (legt ein, legte ein, hat eingelegt)	to insert / вставляти
 einmalig	one-time / одноразовий
-der Einsteiger, -	beginner / початківець
-die Einsteigerin, -nen	female beginner / початківиця
+der Einsteiger, - / die Einsteigerin, -nen	beginner / початківець/-иця
 etw. entgegen|nehmen (nimmt entgegen, nahm entgegen, hat entgegengenommen)	to receive, to accept / приймати
 das Festnetz (Sg.)	landline / стаціонарна мережа
 etw. frei|schalten (schaltet frei, schaltete frei, hat freigeschaltet)	to unlock, to activate / активувати, розблокувати
@@ -375,8 +345,7 @@ die Grundgebühr, -en	basic fee / абонентська плата
 gültig	valid / дійсний
 günstig	cheap, favorable / вигідний, недешевий
 das Guthaben, -	credit / баланс (грошовий)
-der Handwerker, -	craftsman, handyman / майстер
-die Handwerkerin, -nen	female craftsman / майстриня
+der Handwerker, - / die Handwerkerin, -nen	craftsman / майстер/-иня
 inklusive	inclusive / включно
 die Kontrolle, -n	control / контроль
 der Lieferservice, -s	delivery service / служба доставки
@@ -474,8 +443,7 @@ Erfolg haben	to have success / мати успіх
 fächerübergreifend	interdisciplinary / міждисциплінарний
 die Gesprächs- und Verhandlungsführung (Sg.)	conversation and negotiation management / ведення переговорів
 interkulturell	intercultural / міжкультурний
-die IT-Systemkauffrau, -en	female IT systems management assistant / фахівець з продажів ІТ-систем (жінка)
-der IT-Systemkaufmann, IT-Kaufleute	IT systems management assistant / фахівець з продажів ІТ-систем
+der IT-Systemkaufmann, -leute / die IT-Systemkauffrau, -en	IT systems management assistant / фахівець/-чиня з продажів ІТ-систем
 die Soft Skills (Pl.)	soft skills / гнучкі навички
 teamfähig	able to work in a team / здатний працювати в команді
 die Teamfähigkeit (Sg.)	ability to work in a team / вміння працювати в команді
