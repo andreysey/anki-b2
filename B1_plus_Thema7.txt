@@ -1,0 +1,67 @@
+#separator:;
+#html:true
+#columns:German;English;Ukrainian;Example
+der Alltag (Sg.);everyday life;будні, повсякденне життя;Der technische Wandel prägt unseren Alltag.
+der Anschluss, "-e;connection;підключення;Ich warte noch auf meinen Glasfaser-Anschluss.
+die Anwendungsmöglichkeit, -en;application possibility;можливість застосування;Die Software bietet viele Anwendungsmöglichkeiten.
+das Display, -s;display, screen;дисплей, екран;Das Display meines Smartphones ist gesprungen.
+einsatzbereit;ready for use;готовий до роботи;Die neue Hardware ist ab morgen einsatzbereit.
+das Festnetz (Sg.);landline;стаціонарна мережа;Ich habe nur noch einen Mobilfunk-Vertrag, kein Festnetz mehr.
+das Gerät, -e;device;пристрій;Wie viele Geräte sind mit dem WLAN verbunden?
+herunter|laden (lädt herunter, lud herunter, hat heruntergeladen);to download;завантажувати;Ich lade mir gerade die neue App herunter.
+etw. installieren;to install;інсталювати;Hast du die Sicherheitsupdates schon installiert?
+das Kommunikationsmittel, -;means of communication;засіб зв'язку;Das Internet ist das wichtigste Kommunikationsmittel.
+leistungsfähig;powerful, efficient;потужний, продуктивний;Dieser Computer ist sehr leistungsfähig.
+der Mobilfunk (Sg.);mobile communications;мобільний зв'язок;Der Mobilfunk-Markt ist hart umkämpft.
+multifunktional;multifunctional;багатофункціональний;Moderne Geräte sind meist multifunktional.
+das Navi, -s;sat nav, navigation system;навігатор;Ohne mein Navi würde ich mich ständig verfahren.
+das Navigationsgerät, -e;navigation device;навігатор;Das Navigationsgerät zeigt die schnellste Route an.
+problemlos;problem-free;без проблем;Die Installation verlief zum Glück problemlos.
+das Risiko, Risiken;risk;ризик;Man sollte die Risiken der Digitalisierung nicht ignorieren.
+sinken (sinkt, sank, ist gesunken);to sink, to decrease;падати, знижуватися;Die Preise für Laptops sind stark gesunken.
+die Tastatur, -en;keyboard;клавіатура;Die Tastatur meines Laptops ist kaputt.
+verfügbar;available;доступний;Das neue Modell ist ab sofort verfügbar.
+etw. weiterentwickeln;to develop further;розвивати далі;Wir müssen unsere Software ständig weiterentwickeln.
+die Zukunft (Sg.);future;майбутнє;Was bringt uns die technische Zukunft?
+in Zukunft;in the future;у майбутньому;In Zukunft will ich mehr im Homeoffice arbeiten.
+die Arbeit erleichtern;to make work easier;полегшувати роботу;Die neuen Maschinen werden uns die Arbeit erleichtern.
+die Daten (Pl.);data;дані;Wir müssen unsere persönlichen Daten schützen.
+Daten missbrauchen;to misuse data;зловживати даними;Man sollte vorsichtig sein, щоб ніхто не міг наші дані зловживати.
+nachteilig;disadvantageous;невигідний;Die neue Regelung ist nachteilig für kleine Firmen.
+papierlos;paperless;безпаперовий;Wir streben ein papierloses Büro an.
+die sozialen Netzwerke;social networks;соціальні мережі;Er postet täglich in den sozialen Netzwerken.
+speichern;to save;зберігати;Vergiss nicht, deine Dokumente regelmäßig zu speichern.
+verzichten auf (+ Akk.);to do without;відмовлятися від;Ich kann nicht auf mein Smartphone verzichten.
+die Anforderung, -en;requirement, demand;вимога;Die Anforderungen за цей Job sind sehr hoch.
+der Ausbildungsberuf, -e;recognized vocational profession;професія, що потребує спеціальної освіти;Informatiker ist ein beliebter Ausbildungsberuf.
+beeinflussen;to influence;впливати;Die Digitalisierung beeinflusst unser Leben stark.
+die Berufsaussicht, -en;career prospect;перспектива працевлаштування;Als IT-Spezialist hat man sehr gute Berufsaussichten.
+die Digitalisierung (Sg.);digitization;цифровізація;Die Digitalisierung der Schulen schreitet voran.
+die Eigenschaft, -en;property, characteristic;властивість, якість;Zuverlässigkeit ist eine wichtige Eigenschaft.
+der Erfolg, -e;success;успіх;Ich wünsche dir viel Erfolg bei deiner Arbeit.
+Erfolg haben;to have success;мати успіх;Mit dieser Strategie werden wir sicher Erfolg haben.
+fächerübergreifend;interdisciplinary;міждисциплінарний;Wir planen ein fächerübergreifendes Projekt.
+die Gesprächs- und Verhandlungsführung (Sg.);conversation and negotiation management;ведення переговорів;In dem Kurs man lernt багато за керівництво переговорів.
+interkulturell;intercultural;міжкультурний;Interkulturelle Kompetenz ist heute sehr wichtig.
+die IT-Systemkauffrau, -en;female IT systems management assistant;фахівець з продажів ІТ-систем (жінка);Die IT-Systemkauffrau berät die Kunden.
+der IT-Systemkaufmann, IT-Kaufleute;IT systems management assistant;фахівець з продажів ІТ-систем;Die IT-Systemkaufleute kalkulieren die Preise.
+die Soft Skills (Pl.);soft skills;гнучкі навички;Fachwissen ist gut, aber Soft Skills sind auch wichtig.
+teamfähig;able to work in a team;здатний працювати в команді;Wir suchen neue Kollegen, die teamfähig sind.
+die Teamfähigkeit (Sg.);ability to work in a team;вміння працювати в команді;Teamfähigkeit ist eine Grundvoraussetzung.
+die Umfrage, -n;survey, poll;опитування;Die Ergebnisse der Umfrage sind sehr interessant.
+wahrscheinlich;probable, probably;ймовірно;Es ist wahrscheinlich, що die Preise steigen будуть.
+Wert legen auf (+ Akk.);to attach importance to;надавати значення;Wir legen Wert auf eine gute Zusammenarbeit.
+das Wissensmanagement (Sg.);knowledge management;управління знаннями;Gutes Wissensmanagement spart viel Zeit.
+zuverlässig;reliable;надійний;Unser neuer Server є дуже надійним.
+die Zuverlässigkeit (Pl. selten);reliability;надійність;Zuverlässigkeit steht bei uns an erster Stelle.
+der Arbeitsablauf, "-e;workflow;робочий процес;Wir müssen die Arbeitsabläufe optimieren.
+die Automatisierung (Sg.);automation;автоматизація;Die Automatisierung führt zu weniger Handarbeit.
+etw. ein|führen;to introduce;запроваджувати;Wir wollen ein neues System zur Zeiterfassung einführen.
+die Einführung, -en;introduction;запровадження;Die Einführung der neuen Software war erfolgreich.
+etw. fern|steuern;to remote control;керувати дистанційно;Man kann die Heizung per App fernsteuern.
+das Fließband, "-er;conveyor belt;конвеєр;In der Autofabrik läuft alles am Fließband.
+die Informationstechnologie, -n;information technology (IT);інформаційні технології;Er studiert Informationstechnologie in München.
+das Internet der Dinge (Sg.);Internet of Things (IoT);інтернет речей;Das Internet der Dinge verbindet Alltagsgeräte.
+der Sprachassistent, -en;voice assistant;голосовий помічник;Mein Sprachassistent versteht mich oft nicht.
+die Vernetzung, -en;networking;мережування, поєднання;Die Vernetzung der Geräte spart viel Energie.
+vielfältig;diverse, manifold;різноманітний;Die Einsatzmöglichkeiten sind sehr vielfältig.

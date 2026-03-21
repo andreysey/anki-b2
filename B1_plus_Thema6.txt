@@ -1,0 +1,80 @@
+#separator:;
+#html:true
+#columns:German;English;Ukrainian;Example
+etw. aktivieren;to activate;активувати;Ich muss die neue SIM-Karte erst aktivieren.
+der Anbieter, -;provider;провайдер, постачальник;Wer ist dein Internet-Anbieter?
+die Anbieterin, -nen;female provider;провайдерка;Die Anbieterin bietet einen günstigen Tarif an.
+etw. auf|laden (lädt auf, lud auf, hat aufgeladen);to top up, to charge;заряджати, поповнювати (рахунок);Ich muss mein Handy-Guthaben aufladen.
+sich beraten lassen;to get advice;отримати консультацію;Ich lasse mich im Laden vom Experten beraten.
+sich beschweren;to complain;скаржитися;Der Kunde beschwert sich über das langsame Internet.
+die Bestellung, -en;order;замовлення;Ihre Bestellung wurde erfolgreich verschickt.
+das Datenvolumen, -;data volume;обсяг даних;Mein Tarif hat ein begrenztes Datenvolumen von 10 GB.
+etw. ein|geben (gibt ein, gab ein, hat eingegeben);to enter (data);вводити (дані);Bitte geben Sie Ihr Passwort ein.
+etw. ein|legen;to insert;вставляти;Sie müssen die SIM-Karte in das Handy einlegen.
+einmalig;one-time;одноразовий;Die Gebühr für die Aktivierung ist einmalig.
+der Einsteiger, -;beginner;початківець;Dieser Tarif ist perfekt für Einsteiger.
+die Einsteigerin, -nen;female beginner;початківиця;Die Einsteigerin lernt schnell, wie man die App nutzt.
+etw. entgegen|nehmen (nimmt entgegen, nahm entgegen, hat entgegengenommen);to receive, to accept;приймати;Der Mitarbeiter nimmt die Bestellung entgegen.
+das Festnetz (Sg.);landline;стаціонарна мережа;Ich nutze zu Hause nur noch selten das Festnetz.
+etw. frei|schalten;to unlock, to activate;активувати, розблокувати;Die Bank muss mein Konto für Online-Shopping freischalten.
+die Grundgebühr, -en;basic fee;абонентська плата;Die Grundgebühr für den Vertrag beträgt 20 Euro pro Monat.
+gültig;valid;дійсний;Mein Ausweis ist noch fünf Jahre gültig.
+günstig;cheap, favorable;вигідний, недешевий;Ich habe ein sehr günstiges Angebot gefunden.
+das Guthaben, -;credit;баланс (грошовий);Wie viel Guthaben habe ich noch auf meiner Prepaid-Karte?
+der Handwerker, -;craftsman, handyman;майстер;Der Handwerker kommt morgen, щоб відремонтувати кран.
+die Handwerkerin, -nen;female craftsman;майстриня;Die Handwerkerin installiert die neue Heizung.
+inklusive;inclusive;включно;Der Preis ist inklusive Versandkosten.
+die Kontrolle, -n;control;контроль;Die Kontrolle der Rechnungen dauert lange.
+der Lieferservice, -s;delivery service;служба доставки;Der Lieferservice bringt das Essen in 30 Minuten.
+das Netz, -e;network;мережа;In diesem Tunnel habe ich leider kein Netz.
+optimal;optimal;оптимальний;Diese Lösung ist optimal für unser Problem.
+profitieren von (+ Dat.);to profit from;отримувати вигоду;Wir profitieren von der neuen Technologie.
+etw. sperren;to block, to lock;блокувати;Ich musste meine Kreditkarte sperren lassen, weil ich sie verloren habe.
+der Tarif, -e;tariff;тариф;Welchen Tarif hast du für dein Handy gewählt?
+etw. verschicken;to send;відправляти;Ich verschicke das Paket noch heute.
+der Vertrag, "-e;contract;контракт, договір;Ich habe den neuen Arbeitsvertrag unterschrieben.
+die Vertragslaufzeit, -en;contract duration;термін дії договору;Die Vertragslaufzeit beträgt 24 Monate.
+etw. zu|stellen;to deliver;доставляти;Der Postbote konnte das Paket nicht zustellen.
+das Angebot, -e;offer;пропозиція;Das ist ein sehr attraktives Angebot.
+der Auftrag, "-e;order, assignment;замовлення, доручення;Die Firma hat einen großen Auftrag erhalten.
+der Ausdruck, -e;printout;роздруківка;Ich brauche einen Ausdruck der Rechnung.
+sich binden an (+ Akk.);to commit oneself to;зв'язувати себе зобов'язаннями;Mit diesem Vertrag bindet man sich für zwei Jahre an den Anbieter.
+brutto;gross;брутто (без вирахування податків);Wie hoch ist dein Bruttogehalt?
+einverstanden;agreed;згодний;Ich bin mit dem Vorschlag einverstanden.
+etw. empfehlen (empfiehlt, empfahl, hat empfohlen);to recommend;рекомендувати;Können Sie mir ein gutes Restaurant empfehlen?
+die Erledigung, -en;completion;виконання;Vielen Dank für die schnelle Erledigung meiner Anfrage.
+etw. erteilen (z.B. einen Auftrag);to grant, to give;надавати, видавати (доручення);Wir haben der Firma den Auftrag erteilt.
+der Grund, "-e;reason;причина;Was ist der Grund für deine Verspätung?
+die Mehrwertsteuer (Sg.);value added tax (VAT);ПДВ (податок на додану вартість);Der Preis enthält 19% Mehrwertsteuer.
+netto;net;нетто (після податків);Mein Nettogehalt reicht für die Miete.
+sorgfältig;carefully;ретельно;Bitte lesen Sie den Vertrag sorgfältig durch.
+die Summe, -n;sum, total;сума;Die Summe auf der Rechnung ist korrekt.
+die Unterschrift, -en;signature;підпис;Ich brauche hier unten Ihre Unterschrift.
+zahlbar;payable;до оплати;Der Betrag ist innerhalb von zehn Tagen zahlbar.
+zuverlässig;reliable;надійний;Er ist ein sehr zuverlässiger Mitarbeiter.
+der Ärger (Sg.);anger, trouble;неприємність, гнів;Ich hatte viel Ärger mit dem neuen Router.
+der Artikel, -;article;стаття, товар;Dieser Artikel ist leider ausverkauft.
+beschädigt;damaged;пошкоджений;Das Paket kam beschädigt bei mir an.
+die Beschwerde, -n;complaint;скарга;Ich möchte eine offizielle Beschwerde einreichen.
+defekt;defective;несправний;Mein Drucker ist leider defekt.
+dreckig;dirty;брудний;Der Monitor ist total dreckig.
+der Fleck, -en;stain;пляма;Auf dem Teppich ist ein großer Fleck.
+der Mangel, -;defect, lack;недолік;Das Auto hat einige technische Mängel.
+peinlich;embarrassing;соромно;Es war mir peinlich, що я забув пароль.
+die Reklamation, -en;reclamation, claim;рекламація, претензія;Die Reklamation wurde vom Händler akzeptiert.
+unvollständig;incomplete;неповний;Die Lieferung war leider unvollständig.
+der Vorschlag, "-e;suggestion;пропозиція;Hast du einen besseren Vorschlag?
+etw. zerbrechen (zerbricht, zerbrach, hat zerbrochen);to break;розбивати;Ich habe versehentlich eine Vase zerbrochen.
+etw. zerkratzen;to scratch;подряпати;Pass auf, dass du das Display nicht zerkratzt.
+etw. zerreißen (zerriss, hat zerrissen);to tear;розривати;Er hat den alten Vertrag zerrissen.
+jdn. ausreden lassen;to let someone finish speaking;давати комусь договорити;Bitte lass mich kurz ausreden.
+die Bedeutung, -en;meaning;значення;Dieses Wort hat mehrere Bedeutungen.
+die Erwartung, -en;expectation;очікування;Die neue Software hat meine Erwartungen erfüllt.
+etw. klären;to clarify;з'ясовувати;Wir müssen dieses Problem noch klären.
+konkurrenzfähig;competitive;конкурентоспроможний;Unsere Preise sind auf dem Markt konkurrenzfähig.
+sich etw. leisten können;to be able to afford;могти собі дозволити;Ich kann mir momentan kein neues Auto leisten.
+einen Preisnachlass gewähren;to grant a discount;надавати знижку;Der Verkäufer hat uns einen kleinen Preisnachlass gewährt.
+treu bleiben;to stay loyal;залишатися вірним;Unsere Kunden bleiben uns seit Jahren treu.
+unzufrieden;dissatisfied;незадоволений;Er ist unzufrieden mit seinem Gehalt.
+vereinbart;agreed;узгоджений;Wir treffen uns zum vereinbarten Zeitpunkt.
+sich etw. vor|stellen;to imagine;уявляти;Kannst du dir vorstellen, в Америці жити?

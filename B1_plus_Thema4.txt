@@ -1,0 +1,76 @@
+#separator:;
+#html:true
+#columns:German;English;Ukrainian;Example
+sich etw. an|schauen;to look at something;подивитися на щось;Ich schaue mir die neue Webseite an.
+der Arbeitsalltag (Sg.);everyday work life;робочі будні;Der Arbeitsalltag war sehr anstrengend.
+die Arbeitsdichte (Sg.);work density;щільність роботи (навантаження);Die Arbeitsdichte ist in diesem Monat sehr hoch.
+das Arbeitsleben (Sg.);professional life;трудове життя;Das Arbeitsleben ist anders als das Studium.
+die Arbeitswelt (Sg.);working world;світ праці;Die Arbeitswelt ändert sich durch die KI.
+sich aus|wirken (auf + Akk.);to affect, to impact;впливати;Stress kann sich negativ на die Gesundheit auswirken.
+die Baustelle, -n;construction site;будівельний майданчик;Vor dem Büro ist eine große Baustelle.
+sich beeilen;to hurry;поспішати;Wir müssen uns beeilen, die Bahn kommt gleich.
+die Berufssparte, -n;professional sector;професійна галузь;Er arbeitet in einer modernen Berufssparte.
+der Beschäftigte, -n;employee;співробітник;Die Firma hat über tausend Beschäftigte.
+die Beschäftigte, -n;female employee;співробітниця;Sie ist eine langjährige Beschäftigte.
+die Beschleunigung, -en;acceleration;прискорення;Wir brauchen eine Beschleunigung der Prozesse.
+etw. bewältigen;to manage, to cope with;долати, справлятися;Gemeinsam können wir das Problem bewältigen.
+die Herausforderung, -en;challenge;виклик;Das neue Projekt є великим викликом.
+der Maurer, -;mason, bricklayer;муляр;Der Maurer baut eine neue Wand.
+die Maurerin, -nen;female mason;мулярка;Die Maurerin arbeitet auf der Baustelle.
+die Strecke, -n;distance, route;дистанція, шлях;Die Strecke nach Berlin ist sehr lang.
+auf der Strecke bleiben;to fall by the wayside;відстати, бути занедбаним;In der Krise bleiben viele kleine Firmen auf der Strecke.
+einen Termin ab|sagen;to cancel an appointment;скасувати зустріч;Ich muss den Termin leider absagen.
+das Treffen, -;meeting;зустріч;Das Treffen war sehr erfolgreich.
+sich verspäten;to be late;запізнюватися;Der Zug hat sich um zehn Minuten verspätet.
+das Wohlbefinden (Sg.);well-being;самопочуття;Gute Luft im Büro ist wichtig für das Wohlbefinden.
+der Zeitdruck (Sg.);time pressure;дефіцит часу;Wir arbeiten oft unter großem Zeitdruck.
+die Abteilunskonferenz, -en;department conference;конференція відділу;Heute findet eine Abteilunskonferenz statt.
+sich ab|sprechen (mit + Dat.);to coordinate (with someone);домовлятися;Ich muss mich mit meinem Team absprechen.
+der Anspruch, "-e;claim, demand;претензія, вимога;Deine Ansprüche sind sehr hoch.
+Anspruch haben auf (+ Akk.);to have a right to;мати право на;Mitarbeiter haben Anspruch auf 30 Tage Urlaub.
+der Arbeitsweg, -e;commute;шлях на роботу;Mein Arbeitsweg dauert eine halbe Stunde.
+die Arbeitszeit, -en;working time;робочий час;Meine Arbeitszeit beginnt um 9 Uhr.
+das Arbeitszeitgesetz, -e;working time act;закон про робочий час;Das Arbeitszeitgesetz regelt die Pausen.
+die Betriebsruhe (Sg.);company holidays;канікули на підприємстві;Zwischen Weihnachten und Neujahr ist Betriebsruhe.
+das EDV-System, -e;IT system;ІТ-система;Das neue EDV-System läuft stabil.
+jdn. ein|weisen in (+ Akk.);to instruct, to brief;інструктувати;Der Kollege weist mich in die Software ein.
+der Ersatzruhetag, -e;compensatory rest day;компенсаційний вихідний;Wenn man am Sonntag arbeitet, bekommt man einen Ersatzruhetag.
+etw. vor|schreiben;to prescribe, to mandate;приписувати, зобов'язувати;Das Gesetz schreibt vor, wie man Pausen macht.
+der Fall, "-e;case;випадок;In diesem Fall müssen wir den Chef anrufen.
+auf keinen Fall;in no case;ні в якому разі;Ich werde auf keinen Fall aufgeben.
+der Freizeitausgleich (Sg.);compensatory time off;компенсація вільного часу;Er hat Überstunden gemacht und bekommt Freizeitausgleich.
+der Mindesturlaub (Sg.);minimum leave;мінімальна відпустка;Der gesetzliche Mindesturlaub beträgt 20 Tage.
+die Pflicht, -en;duty;обов'язок;Es ist meine Pflicht, pünktlich zu sein.
+das Recht, -e;right, law;право;Jeder hat das Recht на eine Pause.
+Recht haben;to be right;мати рацію;Du hast Recht, das ist ein Fehler.
+die (gesetzliche) Regel, -n;legal rule;законне правило;Wir müssen die gesetzlichen Regeln befolgen.
+die Schichtarbeit (Sg.);shift work;позмінна робота;Im Krankenhaus є часто Schichtarbeit.
+die Teilzeitarbeit (Sg.);part-time work;неповна зайнятість;Viele Eltern machen Teilzeitarbeit.
+die Überstunde, -n;overtime;понаднормова година;Letzte Woche habe ich fünf Überstunden gemacht.
+der Urlaubstag, -e;vacation day;день відпустки;Ich habe noch zehn Urlaubstage übrig.
+die Urlaubszeit, -en;vacation time;час відпустки;Im Sommer ist die beliebteste Urlaubszeit.
+die Vollzeitarbeit (Sg.);full-time work;повна зайнятість;Er sucht eine Stelle für Vollzeitarbeit.
+die Wochenendarbeit, -en;weekend work;робота у вихідні;In der Gastronomie ist Wochenendarbeit normal.
+die Deadline, -s;deadline;дедлайн;Die Deadline für das Projekt ist am Freitag.
+das Drehbuch, "-er;script;сценарій;Er schreibt ein Drehbuch für einen Werbefilm.
+der Entwurf, "-e;draft;чернетка, проект;Der erste Entwurf der Webseite ist fertig.
+die Kampagne, -n;campaign;кампанія;Die neue Kampagne startet im Herbst.
+die Kosmetikserie, -n;cosmetics line;серія косметики;Wir bewerben eine neue Kosmetikserie.
+das Printmedium, -medien;print medium;друковане видання;Zeitschriften sind klassische Printmedien.
+relevant;relevant;важливий, релевантний;Diese Information ist für uns nicht relevant.
+der Senior Manager, -;senior manager;старший менеджер;Der Senior Manager leitet das Team.
+die Senior Managerin, -nen;female senior manager;старша менеджерка;Die Senior Managerin ist sehr erfahren.
+der Werbefilm, -e;commercial;рекламний ролик;Der Werbefilm wird im Fernsehen gezeigt.
+die Werbekampagne, -n;advertising campaign;рекламна кампанія;Die Werbekampagne war sehr teuer.
+die Abmahnung, -en;written warning;попередження (догана);Nach der zweiten Verspätung gab es eine Abмаhnung.
+das Arbeitsgericht, -e;labor court;трудовий суд;Der Fall geht vor das Arbeitsgericht.
+der Betriebsrat, "-e;works council;виробнича рада (профспілка);Wir müssen den Betriebsrat fragen.
+die Betriebsfeier, -n;company party;корпоратив;Die Betriebsfeier war sehr lustig.
+dokumentieren;to document;документувати;Wir müssen alle Meetings dokumentieren.
+der Heizungstechniker, -;heating technician;майстер з опалення;Der Heizungstechniker repariert die Anlage.
+die Heizungstechnikerin, -nen;female heating technician;майстриня з опалення;Die Heizungstechnikerin kommt morgen.
+die Hilfe, -n;help;допомога;Ich brauche Hilfe bei der App.
+um Hilfe bitten;to ask for help;просити про допомогу;Man sollte immer um Hilfe bitten, wenn man sie braucht.
+das Zuspätkommen (Sg.);being late;запізнення;Sein häufiges Zuspätkommen ist ein Problem.
+das Verständnis (Sg.);understanding;розуміння;Danke für Ihr Verständnis.
+verärgert sein über (+ Akk.);to be annoyed about;бути роздратованим через;Der Chef ist verärgert über die Verspätung.

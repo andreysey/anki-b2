@@ -1,0 +1,72 @@
+#separator:;
+#html:true
+#columns:German;English;Ukrainian;Example
+die Abteilung, -en;department;відділ;In dieser Firma gibt es eine große IT-Abteilung.
+der Arbeitgeber, -;employer;роботодавець;Mein neuer Arbeitgeber ist sehr freundlich.
+die Arbeitgeberin, -nen;female employer;роботодавиця;Die Arbeitgeberin hat mir einen Vertrag angeboten.
+das Asylverfahren, -;asylum procedure;процедура надання притулку;Das Asylverfahren kann mehrere Monate dauern.
+die Ausbildung, -en;apprenticeship, vocational training;професійне навчання;Ich mache eine Ausbildung zum Mechatroniker.
+auf|fallen (fällt auf, fiel auf, ist aufgefallen);to stand out, to be noticeable;впадати в око;Ihm ist sofort aufgefallen, dass etwas nicht stimmt.
+(eine Prüfung) bestehen;to pass (an exam);скласти (іспит);Ich habe die B2-Prüfung bestanden.
+das Berufsinformationszentrum (BIZ);career information center;центр профорієнтації;Im BIZ kann man sich über verschiedene Berufe informieren.
+der Betrieb, -e;company, business;підприємство;Der Betrieb stellt kleine Elektronikteile her.
+sich bewerben (bewirbt sich, bewarb sich, hat sich beworben);to apply;подавати заявку (на роботу);Ich bewerbe mich um eine Stelle als Informatiker.
+jdn. ein|stellen;to hire someone;наймати когось;Die Firma möchte zwei neue Mitarbeiter einstellen.
+das E-Learning (Sg.);e-learning;електронне навчання;Wir nutzen E-Learning für unsere Weiterbildung.
+der E-Learning-Kurs, -e;e-learning course;курс дистанційного навчання;Ich habe mich für einen E-Learning-Kurs angemeldet.
+der Facharbeiter, -;skilled worker;кваліфікований робітник;Er arbeitet seit fünf Jahren als Facharbeiter.
+die Facharbeiterin, -nen;female skilled worker;кваліфікована робітниця;Die Facharbeiterin repariert die Maschine.
+der Gabelstapler, -;forklift;навантажувач;Der Gabelstapler hebt die schweren Paletten.
+die Geschäftsführung, -en;management;керівництво;Die Geschäftsführung hat neue Ziele für das Jahr gesetzt.
+sich informieren über (+ Akk.);to inform oneself;інформуватися;Ich informiere mich über die neuesten Technologien.
+das Lager, -;warehouse, storage;склад;Die Pakete werden im Lager aufbewahrt.
+die Lagerlogistik (Sg.);warehouse logistics;складська логістика;Sie studiert Lagerlogistik an der Fachhochschule.
+der Mitarbeiter, -;employee;співробітник;Der Mitarbeiter hilft dem Kunden.
+die Mitarbeiterin, -nen;female employee;співробітниця;Die Mitarbeiterin schreibt eine E-Mail.
+jdm. etw. raten;to advise someone;радити комусь щось;Der Lehrer rat mir, fleißig zu lernen.
+der Schulabschluss, "-e;school-leaving certificate;шкільний атестат;Nach der zehnten Klasse machte er seinen Schulabschluss.
+steigen (stieg, ist gestiegen);to rise, to climb;підніматися, зростати;Die Zahl der Fachkräfte ist in diesem Jahr gestiegen.
+teil|nehmen an (+ Dat.);to participate in;брати участь;Ich nehme an einem Deutschkurs teil.
+der Umsatz, "-e;revenue, turnover;оборот, виручка;Der Umsatz der Firma ist gestiegen.
+die Umschulung, -en;retraining;перекваліфікація;Nach dem Unfall macht er eine Umschulung zum Informatiker.
+wahrscheinlich;probably;ймовірно;Er wird wahrscheinlich erst morgen kommen.
+die Weiterbildung, -en;further education;підвищення кваліфікації;Weiterbildung ist in der IT sehr wichtig.
+der Antrag, "-e;application, request;заява;Ich habe einen Antrag auf Arbeitserlaubnis gestellt.
+einen Antrag stellen;to submit an application;падавати заяву;Sie müssen für den Pass einen Antrag stellen.
+die Aufenthaltsgenehmigung, -en;residence permit;посвідка на проживання;Meine Aufenthaltsgenehmigung wurde verlängert.
+auf|wachsen (wächst auf, wuchs auf, ist aufgewachsen);to grow up;виростати;Ich bin in einer kleinen Stadt aufgewachsen.
+der Berater, -;advisor, counselor;консультант;Der Berater hilft mir bei der Jobsuche.
+die Beraterin, -nen;female advisor;консультантка;Die Beraterin ist sehr kompetent.
+jdn. beschäftigen;to employ someone;мати у штаті, займати когось;Die Firma beschäftigt über 100 Mitarbeiter.
+der Businessplan, "-e;business plan;бізнес-план;Für das Startup brauchen wir einen guten Businessplan.
+das Einkommen, -;income;дохід;Das monatliche Einkommen reicht für die Miete.
+die Entscheidung, -en;decision;рішення;Es war eine schwierige Entscheidung.
+eine Entscheidung treffen;to make a decision;приймати рішення;Wir müssen bis morgen eine Entscheidung treffen.
+die Existenzgründung, -en;founding of a business;заснування власної справи;Sie plant eine Existenzgründung im Bereich Grafikdesign.
+die Fortbildung, -en;advanced training;підвищення кваліфікації;Ich besuche eine Fortbildung für Projektmanagement.
+eine Fortbildung machen;to do a training;проходити курс підвищення кваліфікації;Er möchte eine Fortbildung im Bereich Marketing machen.
+(ein Unternehmen) gründen;to found (a company);засновувати (компанію);Mein Bruder möchte ein Unternehmen gründen.
+einen Kredit bewilligen;to approve a loan;надавати кредит;Die Bank hat den Kredit bewilligt.
+der Küchenhelfer, -;kitchen assistant;кухонний помічник;Er arbeitet als Küchenhelfer in einem Restaurant.
+die Küchenhelferin, -nen;female kitchen assistant;кухонна помічниця;Die Küchenhelferin hilft beim Schneiden des Gemüses.
+sich selbstständig machen;to go self-employed;почати власну справу;Nach dem Kurs möchte ich mich selbstständig machen.
+die Selbstständigkeit (Sg.);self-employment;самостійність, самозайнятість;Die Selbstständigkeit bringt viel Freiheit, aber auch Risiko.
+überlegen;to consider, to think about;обмірковувати;Ich muss mir das noch einmal genau überlegen.
+Verantwortung tragen für (+ Akk.);to bear responsibility;нести відповідальність;Ein Teamleiter muss viel Verantwortung tragen.
+etw. anerkennen lassen;to have something recognized;визнавати (напр. диплом);Ich muss mein Diplom in Deutschland anerkennen lassen.
+der Berufsabschluss, "-e;vocational qualification;професійна освіта;Ohne Berufsabschluss ist es schwer, eine gute Stelle zu finden.
+die Berufsausbildung, -en;vocational training;професійна освіта;Die Berufsausbildung dauert meistens drei Jahre.
+etw. beschließen;to decide on, to resolve;вирішувати, постановити;Wir haben beschlossen, das Projekt am Montag zu starten.
+das Zeugnis, -se;report card, certificate;свідоцтво, атестат;Ich habe mein Zeugnis per Post bekommen.
+die Anerkennung, -en;recognition;визнання;Fachkräfte brauchen die Anerkennung ihrer Abschlüsse.
+das Anerkennungsverfahren, -;recognition process;процедура визнання;Das Anerkennungsverfahren für Ärzte ist kompliziert.
+die Arbeitserlaubnis, -se;work permit;дозвіл на роботу;Haben Sie schon Ihre Arbeitserlaubnis erhalten?
+die Fachkraft, "-e;specialist;спеціаліст;In Deutschland fehlen viele Fachkräfte im Handwerk.
+die Kompetenz, -en;competence, skill;компетенція, навичка;Er zeigt eine hohe soziale Kompetenz.
+Kosten übernehmen;to cover costs;брати на себе витрати;Die Versicherung wird die Kosten übernehmen.
+der Nachweis, -e;proof, evidence;доказ, підтвердження;Ich brauche einen Nachweis über meine Deutschkenntnisse.
+das Praktikum, Praktika;internship;практика;Ich mache im Sommer ein Praktikum bei Mercedes.
+die Qualifikation, -en;qualification;кваліфікація;Welche Qualifikationen bringen Sie für diesen Job mit?
+reglementiert;regulated;регламентований;Der Beruf des Arztes ist in Deutschland reglementiert.
+die Unterlage, -n;document;документ;Bitte senden Sie mir alle Unterlagen per E-Mail.
+etw. vergleichen mit (+ Dat.);to compare with;порівнювати;Man kann die beiden Programme nicht direkt vergleichen.

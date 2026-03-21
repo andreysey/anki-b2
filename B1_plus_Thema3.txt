@@ -1,0 +1,69 @@
+#separator:;
+#html:true
+#columns:German;English;Ukrainian;Example
+der Empfang, "-e;reception;прийом, рецепція;Wir treffen uns am Empfang.
+die Personalabteilung, -en;HR department;відділ кадрів;Die Personalabteilung schickt mir den Vertrag.
+die Kantine, -n;canteen;їдальня;Das Essen in der Kantine ist sehr gut.
+das Lager, -;warehouse;склад;Wir müssen die Kartons ins Lager bringen.
+die Produktion (Sg.);production;виробництво;Die Produktion der neuen Serie beginnt morgen.
+die Forschung, -en;research;дослідження;Er arbeitet in der Forschung und Entwicklung.
+die Entwicklung, -en;development;розробка;Die Entwicklung der Software dauert lange.
+der Betriebsrat, "-e;works council;виробнича рада (профспілка);Der Betriebsrat vertritt die Mitarbeiter.
+die Betriebsrätin, -nen;female works council member;членкиня виробничої ради;Die Betriebsrätin hilft bei Problemen.
+die Geschäftsführung, -en;management;керівництво;Die Geschäftsführung hat eine Entscheidung getroffen.
+die Finanzbuchhaltung, -en;financial accounting;бухгалтерія;Die Finanzbuchhaltung kümmert sich um die Rechnungen.
+die Einarbeitung, -en;induction, orientation;введення в курс справи (стажування);Die Einarbeitung dauert gewöhnlich zwei Wochen.
+der Ansprechpartner, -;contact person;контактна особа;Mein Ansprechpartner ist Herr Schmidt.
+die Ansprechpartnerin, -nen;female contact person;контактна особа (жінка);Frau Müller ist meine Ansprechpartnerin.
+die Pausenregelung, -en;break policy;правило перерв;Die Pausenregelung variiert je nach Team.
+der Rundgang, "-e;tour (of a building);обхід, екскурсія;Am ersten Tag machen wir einen Rundgang.
+sich weiter|bilden;to continue education;підвищувати кваліфікацію;Ich möchte mich in Python weiterbilden.
+sich ärgern über (+ Akk.);to be annoyed about;сердитися через;Ich ärgere mich über den langsamen Server.
+der Berufsalltag (Sg.);professional life;професійні будні;Der Berufsalltag in der IT ist stressig.
+die Erfahrung, -en;experience;досвід;Sie hat viel Erfahrung im Marketing.
+Erfahrung haben mit (+ Dat.);to have experience with;мати досвід у;Er hat viel Erfahrung mit Linux.
+sich freuen auf (+ Akk.);to look forward to;чекати з нетерпінням (на щось у майбутньому);Ich freue mich на das Wochenende.
+sich freuen über (+ Akk.);to be happy about;радіти (чомусь, що вже є);Ich freue mich über das Geschenk.
+gehören zu (+ Dat.);to belong to;належати до;Was gehört zu deinen Aufgaben?
+es geht um (+ Akk.);it's about;йдеться про;In dem Buch geht es um Geschichte.
+ein Gespräch führen;to lead a conversation;вести розмову;Wir haben ein nettes Gespräch geführt.
+sich interessieren für (+ Akk.);to be interested in;цікавитися;Interessierst du dich für Kunst?
+investieren in (+ Akk.);to invest in;інвестувати в;Man muss in die Zukunft investieren.
+statt|finden (fand statt, hat stattgefunden);to take place;відбуватися;Das Meeting findet um 10 Uhr statt.
+etw. vermitteln;to convey, to mediate;передавати (знання), посередничати;Der Kurs vermittelt wichtige Kenntnisse.
+die Voraussetzung, -en;requirement;умова, передумова;Gute Englischkenntnisse sind eine Voraussetzung.
+die Webseite, -n;website;веб-сторінка;Die Webseite der Firma ist sehr modern.
+das Ergebnisprotokoll, -e;minutes of a meeting;протокол результатів зустрічі;Das Ergebnisprotokoll wurde per E-Mail verschickt.
+die Besprechung, -en;meeting;нарада;Wir haben morgen eine wichtige Besprechung.
+die Teamsitzung, -en;team meeting;командна нарада;Die Teamsitzung dauert eine Stunde.
+etw. zusammen|fassen;to summarize;підсумовувати;Können Sie die Ergebnisse zusammenfassen?
+der Beschluss, "-e;decision;рішення, постанова;Der Beschluss wurde einstimmig gefasst.
+die Entscheidung, -en;decision;рішення;Er hat eine gute Entscheidung getroffen.
+die Vereinbarung, -en;agreement;угода, домовленість;Wir haben eine Vereinbarung getroffen.
+die Tagesordnung, -en;agenda;порядок денний;Was steht heute auf der Tagesordnung?
+das Stichwort, -e;keyword;ключове слово;Ich habe mir nur Stichworte gemacht.
+etw. dokumentieren;to document;документувати;Wir müssen alle Fehler dokumentieren.
+etw. protokollieren;to record;протоколювати;Jemand muss das Meeting protokollieren.
+die Regel, -n;rule;правило;Wir müssen uns an die Regeln halten.
+in der Regel;as a rule;як правило;In der Regel fange ich um 8 Uhr an.
+der Teilnehmer, -;participant;учасник;Es gibt zwanzig Teilnehmer.
+die Teilnehmerin, -nen;female participant;учасниця;Die Teilnehmerin stellt eine Frage.
+etw. vor|schlagen (schlägt vor, schlug vor, hat vorgeschlagen);to suggest;пропонувати;Ich schlage vor, wir machen eine Pause.
+der Zweifel, -;doubt;сумнів;Ich habe keine Zweifel an deiner Arbeit.
+etw. schaffen;to manage;впоратися;Wir werden das Projekt pріоритетно schaffen.
+sich etw. merken;to remember;запам'ятовувати;Du musst dir den Code merken.
+die Pünktlichkeit (Sg.);punctuality;пунктуальність;Pünktlichkeit ist in Deutschland sehr wichtig.
+die Begrüßung, -en;greeting;привітання;Die Begrüßung war sehr herzlich.
+der Feierabend, -e;closing time, finish work;кінець робочого дня;Nach dem Feierabend gehe ich zum Sport.
+aufregend;exciting;захоплюючий;Der erste Arbeitstag war sehr aufregend.
+der Erfolg, -e;success;успіх;Ich wünsche dir viel Erfolg.
+nützlich;useful;корисний;Das Buch ist sehr nützlich.
+der Berufsverkehr (Sg.);professional traffic;робочий дорожній рух (години пік);Im Berufsverkehr stehe ich oft im Stau.
+üblich;common;звичайний;In der IT ist das Duzen üblich.
+lächeln;to smile;усміхатися;Die Kollegen lächeln mich an.
+erwünscht;desired;бажаний;Engagement ist im Team erwünscht.
+beliebt;popular;популярний;Dieser Chef є дуже популярним.
+im Allgemeinen;in general;взагалі;Im Allgemeinen sind wir zufrieden.
+der Vorgesetzte, -n;supervisor;керівник;Mein Vorgesetzter ist sehr nett.
+die Vorgesetzte, -n;female supervisor;керівниця;Die Vorgesetzte leitet das Team.
+sich verabschieden (von + Dat.);to say goodbye;прощатися;Ich verabschiede mich von meinen Kollegen.
