@@ -19,7 +19,7 @@ async function init() {
         
     } catch (error) {
         console.error('Error loading vocabulary:', error);
-        stats.textContent = 'Помилка завантаження даних.';
+        stats.textContent = 'Error loading data.';
     }
 }
 
@@ -28,7 +28,7 @@ function populateThemaFilter() {
     themen.forEach(t => {
         const opt = document.createElement('option');
         opt.value = t;
-        opt.textContent = `Thema ${t}`;
+        opt.textContent = `Theme ${t}`;
         themaFilter.appendChild(opt);
     });
 }
@@ -50,7 +50,7 @@ function render() {
         return matchesQuery && matchesLevel && matchesThema;
     });
     
-    stats.textContent = `Знайдено ${filtered.length} з ${vocabulary.length} слів`;
+    stats.textContent = `Found ${filtered.length} of ${vocabulary.length} words`;
     
     grid.innerHTML = filtered.map(item => `
         <div class="card glass">
