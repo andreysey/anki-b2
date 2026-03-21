@@ -50,12 +50,12 @@ def generate_decks(files, base_name, format_type='anki', quizlet_minimal=False):
         return len(data)
 
     suffix = "_Minimal.txt" if quizlet_minimal else "_Full.txt"
-    n_full = write_deck(all_entries, f'quizlet/Quizlet_{base_name}{suffix}' if format_type == 'quizlet' else f'anki/Anki_{base_name}_Full.txt')
+    suffix_clean = "_Minimal_Clean.txt" if quizlet_minimal else "_Clean.txt"
     
-    if not quizlet_minimal:
-        n_clean = write_deck(unique_entries, f'quizlet/Quizlet_{base_name}_Clean.txt' if format_type == 'quizlet' else f'anki/Anki_{base_name}_Clean.txt')
-        return n_full, n_clean
-    return n_full, 0
+    n_full = write_deck(all_entries, f'quizlet/Quizlet_{base_name}{suffix}' if format_type == 'quizlet' else f'anki/Anki_{base_name}_Full.txt')
+    n_clean = write_deck(unique_entries, f'quizlet/Quizlet_{base_name}{suffix_clean}' if format_type == 'quizlet' else f'anki/Anki_{base_name}_Clean.txt')
+    
+    return n_full, n_clean
 
 if __name__ == "__main__":
     # Change to root if running from tools/

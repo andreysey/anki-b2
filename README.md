@@ -19,6 +19,37 @@ Ensures all files in `source/` strictly adhere to the expected Anki format.
 Scans the `source/` directory and regenerates all files in `anki/` and `quizlet/`.
 - **Usage**: `python3 tools/build_decks.py`
 
+## Deck Versions & Generation
+
+The `build_decks.py` tool generates multiple versions of each deck to suit different learning styles:
+
+```mermaid
+graph TD
+    Source[source/ Thema Files] --> Build[build_decks.py]
+    Build --> AnkiDir[anki/]
+    Build --> QuizletDir[quizlet/]
+    
+    AnkiDir --> AF[Full]
+    AnkiDir --> AC[Clean]
+    
+    QuizletDir --> QF[Full]
+    QuizletDir --> QC[Clean]
+    QuizletDir --> QM[Minimal]
+    QuizletDir --> QMC[Minimal Clean]
+
+    subgraph "Suffix Meanings"
+    Full["Full: All entries (incl. duplicates)"]
+    Clean["Clean: Unique words only"]
+    Minimal["Minimal: Word + Translation only (no examples)"]
+    end
+```
+
+### Version Suffixes
+- **`_Full.txt`**: Contains every entry from every thematic file. Useful if you want to study words in the context of their specific themes.
+- **`_Clean.txt`**: Removes duplicate words across different themes. Best for long-term vocabulary building.
+- **`_Minimal.txt`**: Formats entries for Quizlet as `Term <Tab> Definition / Translation` without example sentences.
+- **`_Minimal_Clean.txt`**: Combined Minimal format with duplicates removed.
+
 ## Audio Pronunciation
 
 To enhance your learning with audio, follow our [AwesomeTTS Guide](file:///home/kubuntu/Dev/anki-b2/AUDIO_GUIDE.md) to automatically add German pronunciation to your Anki decks.
