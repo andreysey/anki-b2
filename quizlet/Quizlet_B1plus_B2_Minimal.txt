@@ -1,0 +1,2069 @@
+die Abteilung, -en	department / відділ
+der Arbeitgeber, -	employer / роботодавець
+die Arbeitgeberin, -nen	female employer / роботодавиця
+das Asylverfahren, -	asylum procedure / процедура надання притулку
+die Ausbildung, -en	apprenticeship, vocational training / професійне навчання
+auf|fallen (fällt auf, fiel auf, ist aufgefallen)	to stand out, to be noticeable / впадати в око
+(eine Prüfung) bestehen	to pass (an exam) / скласти (іспит)
+das Berufsinformationszentrum (BIZ)	career information center / центр профорієнтації
+der Betrieb, -e	company, business / підприємство
+sich bewerben (bewirbt sich, bewarb sich, hat sich beworben)	to apply / подавати заявку (на роботу)
+jdn. ein|stellen	to hire someone / наймати когось
+das E-Learning (Sg.)	e-learning / електронне навчання
+der E-Learning-Kurs, -e	e-learning course / курс дистанційного навчання
+der Facharbeiter, -	skilled worker / кваліфікований робітник
+die Facharbeiterin, -nen	female skilled worker / кваліфікована робітниця
+der Gabelstapler, -	forklift / навантажувач
+die Geschäftsführung, -en	management / керівництво
+sich informieren über (+ Akk.)	to inform oneself / інформуватися
+das Lager, -	warehouse, storage / склад
+die Lagerlogistik (Sg.)	warehouse logistics / складська логістика
+der Mitarbeiter, -	employee / співробітник
+die Mitarbeiterin, -nen	female employee / співробітниця
+jdm. etw. raten	to advise someone / радити комусь щось
+der Schulabschluss, "-e	school-leaving certificate / шкільний атестат
+steigen (stieg, ist gestiegen)	to rise, to climb / підніматися, зростати
+teil|nehmen an (+ Dat.)	to participate in / брати участь
+der Umsatz, "-e	revenue, turnover / оборот, виручка
+die Umschulung, -en	retraining / перекваліфікація
+wahrscheinlich	probably / ймовірно
+die Weiterbildung, -en	further education / підвищення кваліфікації
+der Antrag, "-e	application, request / заява
+einen Antrag stellen	to submit an application / падавати заяву
+die Aufenthaltsgenehmigung, -en	residence permit / посвідка на проживання
+auf|wachsen (wächst auf, wuchs auf, ist aufgewachsen)	to grow up / виростати
+der Berater, -	advisor, counselor / консультант
+die Beraterin, -nen	female advisor / консультантка
+jdn. beschäftigen	to employ someone / мати у штаті, займати когось
+der Businessplan, "-e	business plan / бізнес-план
+das Einkommen, -	income / дохід
+die Entscheidung, -en	decision / рішення
+eine Entscheidung treffen	to make a decision / приймати рішення
+die Existenzgründung, -en	founding of a business / заснування власної справи
+die Fortbildung, -en	advanced training / підвищення кваліфікації
+eine Fortbildung machen	to do a training / проходити курс підвищення кваліфікації
+(ein Unternehmen) gründen	to found (a company) / засновувати (компанію)
+einen Kredit bewilligen	to approve a loan / надавати кредит
+der Küchenhelfer, -	kitchen assistant / кухонний помічник
+die Küchenhelferin, -nen	female kitchen assistant / кухонна помічниця
+sich selbstständig machen	to go self-employed / почати власну справу
+die Selbstständigkeit (Sg.)	self-employment / самостійність, самозайнятість
+überlegen	to consider, to think about / обмірковувати
+Verantwortung tragen für (+ Akk.)	to bear responsibility / нести відповідальність
+etw. anerkennen lassen	to have something recognized / визнавати (напр. диплом)
+der Berufsabschluss, "-e	vocational qualification / професійна освіта
+die Berufsausbildung, -en	vocational training / професійна освіта
+etw. beschließen	to decide on, to resolve / вирішувати, постановити
+das Zeugnis, -se	report card, certificate / свідоцтво, атестат
+die Anerkennung, -en	recognition / визнання
+das Anerkennungsverfahren, -	recognition process / процедура визнання
+die Arbeitserlaubnis, -se	work permit / дозвіл на роботу
+die Fachkraft, "-e	specialist / спеціаліст
+die Kompetenz, -en	competence, skill / компетенція, навичка
+Kosten übernehmen	to cover costs / брати на себе витрати
+der Nachweis, -e	proof, evidence / доказ, підтвердження
+das Praktikum, Praktika	internship / практика
+die Qualifikation, -en	qualification / кваліфікація
+reglementiert	regulated / регламентований
+die Unterlage, -n	document / документ
+etw. vergleichen mit (+ Dat.)	to compare with / порівнювати
+der Ansprechpartner, -	contact person / контактна особа
+die Ansprechpartnerin, -nen	female contact person / контактна особа (жінка)
+der Aushang, "-e	notice, posting / оголошення
+das Bewerbungsschreiben, -	letter of application / заява про прийняття на роботу
+das Bewerbungsverfahren, -	application process / процес подання заявки
+der Eindruck, "-e	impression / враження
+die Elektrofirma, -firmen	electrical company / електротехнічна фірма
+erwarten	to expect / очікувати
+das Fachpersonal (Sg.)	skilled personnel / кваліфікований персонал
+fehlerfrei	error-free / без помилок
+die Initiativbewerbung, -en	unsolicited application / ініціативна заявка
+die Installateurfirma, -firmen	plumbing company / сантехнічна фірма
+die Konkurrenz (Sg.)	competition / конкуренція
+der Leiharbeiter, -	temporary worker / тимчасовий працівник
+die Leiharbeiterin, -nen	female temporary worker / тимчасова працівниця
+das Leitbild, -er	mission statement / місія, девіз компанії
+der Stand der Dinge	state of affairs / стан справ
+einen Termin bestätigen	to confirm an appointment / підтверджувати зустріч
+die Unterlage, -n	document / документ
+die Wartezeit, -en	waiting time / час очікування
+die Zeitarbeitsfirma, -en	temporary employment agency / агентство з працевлаштування
+zukünftig	future / майбутній
+die Arbeitskraft, "-e	worker, manpower / робоча сила
+das Arbeitsverhältnis, -se	employment relationship / трудові відносини
+ausleihen	to lend, to borrow / позичати, віддавати в оренду
+die Berufsberatung, -en	vocational guidance / професійна консультація
+die Berufserfahrung, -en	professional experience / професійний досвід
+beschäftigen	to employ / займати, працевлаштовувати
+die Beschäftigung (Sg.)	employment / зайнятість
+der Betrieb, -e	business, company / підприємство
+die Genehmigung, -en	permission, permit / дозвіл
+die Leiharbeit (Sg.)	temporary work / тимчасова праця
+der Leiharbeiter, -	temporary worker / тимчасовий працівник
+die Leiharbeiterin, -nen	female temporary worker / тимчасова робітниця
+staatlich	state, public / державний
+die Tätigkeit, -en	activity, task / діяльність
+einen Termin vereinbaren	to make an appointment / домовлятися про зустріч
+verleihen	to lend / позичати, надавати
+die Vermittlung, -en	placement, mediation / працевлаштування, посередництво
+die Vermittlungsgebühr, -en	placement fee / комісія за працевлаштування
+der Agraringenieur, -e	agricultural engineer / агроном-інженер
+die Agraringenieurin, -nen	female agricultural engineer / агрономка-інженерка
+der Arbeitseinsatz, "-e	work assignment / використання робочої сили
+der Bereich, -e	area, field / сфера, галузь
+die Bereitschaft (Sg.)	readiness, willingness / готовність
+der Einsatzort, -e	place of assignment / місце роботи (відрядження)
+examiniert	qualified, examined / дипломований
+das Familienunternehmen, -	family business / сімейне підприємство
+der Informatiker, -	IT specialist / інформатик
+die Informatikerin, -nen	female IT specialist / інформатиця
+der Ingenieur, -e	engineer / інженер
+die Ingenieurin, -nen	female engineer / інженерка
+innovativ	innovative / інноваційний
+die Karrierechance, -n	career opportunity / шанс на кар'єру
+die Kommunikationsfähigkeit, -en	communication skills / комунікабельність
+der Kundenservice (Sg.)	customer service / служба підтримки клієнтів
+die Pflegekraft, "-e	caregiver, nurse / медпрацівник (з догляду)
+der Pflegeservice (Sg.)	care service / служба догляду
+der Sicherheitsmitarbeiter, -	security officer / співробітник безпеки
+die Sicherheitsmitarbeiterin, -nen	female security officer / співробітниця безпеки
+der Teamgeist (Sg.)	team spirit / командний дух
+die Verantwortung (Sg.)	responsibility / відповідальність
+der Verkäufer, -	salesman / продавець
+die Verkäuferin, -nen	female salesperson / продавчиня
+die Verstärkung, -en	reinforcement, addition to the team / підкріплення, новий співробітник
+die Zukunftsperspektive, -n	future prospect / перспектива на майбутнє
+die Zusammenarbeit (Sg.)	cooperation / співпраця
+zuständig	responsible / відповідальний
+das Bauvorhaben, -	construction project / будівельний проект
+die Berufsausbildung, -en	vocational training / професійна освіта
+der Einsatz, "-e	assignment, mission / виконання завдання
+das Einverständnis, -se	consent, agreement / згода
+der Fachinformatiker, -	IT specialist / фахівець з інформатики
+die Fachinformatikerin, -nen	female IT specialist / фахівчиня з інформатики
+die Krankheitsvertretung, -en	sick leave cover / заміна на час хвороби
+der Realschulabschluss, "-e	secondary school certificate / атестат про закінчення реальної школи
+die Urlaubsvertretung, -en	holiday replacement / заміна на час відпустки
+der Zeitraum, "-e	period of time / період часу
+der Empfang, "-e	reception / прийом, рецепція
+die Personalabteilung, -en	HR department / відділ кадрів
+die Kantine, -n	canteen / їдальня
+das Lager, -	warehouse / склад
+die Produktion (Sg.)	production / виробництво
+die Forschung, -en	research / дослідження
+die Entwicklung, -en	development / розробка
+der Betriebsrat, "-e	works council / виробнича рада (профспілка)
+die Betriebsrätin, -nen	female works council member / членкиня виробничої ради
+die Geschäftsführung, -en	management / керівництво
+die Finanzbuchhaltung, -en	financial accounting / бухгалтерія
+die Einarbeitung, -en	induction, orientation / введення в курс справи (стажування)
+der Ansprechpartner, -	contact person / контактна особа
+die Ansprechpartnerin, -nen	female contact person / контактна особа (жінка)
+die Pausenregelung, -en	break policy / правило перерв
+der Rundgang, "-e	tour (of a building) / обхід, екскурсія
+sich weiter|bilden	to continue education / підвищувати кваліфікацію
+sich ärgern über (+ Akk.)	to be annoyed about / сердитися через
+der Berufsalltag (Sg.)	professional life / професійні будні
+die Erfahrung, -en	experience / досвід
+Erfahrung haben mit (+ Dat.)	to have experience with / мати досвід у
+sich freuen auf (+ Akk.)	to look forward to / чекати з нетерпінням (на щось у майбутньому)
+sich freuen über (+ Akk.)	to be happy about / радіти (чомусь, що вже є)
+gehören zu (+ Dat.)	to belong to / належати до
+es geht um (+ Akk.)	it's about / йдеться про
+ein Gespräch führen	to lead a conversation / вести розмову
+sich interessieren für (+ Akk.)	to be interested in / цікавитися
+investieren in (+ Akk.)	to invest in / інвестувати в
+statt|finden (fand statt, hat stattgefunden)	to take place / відбуватися
+etw. vermitteln	to convey, to mediate / передавати (знання), посередничати
+die Voraussetzung, -en	requirement / умова, передумова
+die Webseite, -n	website / веб-сторінка
+das Ergebnisprotokoll, -e	minutes of a meeting / протокол результатів зустрічі
+die Besprechung, -en	meeting / нарада
+die Teamsitzung, -en	team meeting / командна нарада
+etw. zusammen|fassen	to summarize / підсумовувати
+der Beschluss, "-e	decision / рішення, постанова
+die Entscheidung, -en	decision / рішення
+die Vereinbarung, -en	agreement / угода, домовленість
+die Tagesordnung, -en	agenda / порядок денний
+das Stichwort, -e	keyword / ключове слово
+etw. dokumentieren	to document / документувати
+etw. protokollieren	to record / протоколювати
+die Regel, -n	rule / правило
+in der Regel	as a rule / як правило
+der Teilnehmer, -	participant / учасник
+die Teilnehmerin, -nen	female participant / учасниця
+etw. vor|schlagen (schlägt vor, schlug vor, hat vorgeschlagen)	to suggest / пропонувати
+der Zweifel, -	doubt / сумнів
+etw. schaffen	to manage / впоратися
+sich etw. merken	to remember / запам'ятовувати
+die Pünktlichkeit (Sg.)	punctuality / пунктуальність
+die Begrüßung, -en	greeting / привітання
+der Feierabend, -e	closing time, finish work / кінець робочого дня
+aufregend	exciting / захоплюючий
+der Erfolg, -e	success / успіх
+nützlich	useful / корисний
+der Berufsverkehr (Sg.)	professional traffic / робочий дорожній рух (години пік)
+üblich	common / звичайний
+lächeln	to smile / усміхатися
+erwünscht	desired / бажаний
+beliebt	popular / популярний
+im Allgemeinen	in general / взагалі
+der Vorgesetzte, -n	supervisor / керівник
+die Vorgesetzte, -n	female supervisor / керівниця
+sich verabschieden (von + Dat.)	to say goodbye / прощатися
+sich etw. an|schauen	to look at something / подивитися на щось
+der Arbeitsalltag (Sg.)	everyday work life / робочі будні
+die Arbeitsdichte (Sg.)	work density / щільність роботи (навантаження)
+das Arbeitsleben (Sg.)	professional life / трудове життя
+die Arbeitswelt (Sg.)	working world / світ праці
+sich aus|wirken (auf + Akk.)	to affect, to impact / впливати
+die Baustelle, -n	construction site / будівельний майданчик
+sich beeilen	to hurry / поспішати
+die Berufssparte, -n	professional sector / професійна галузь
+der Beschäftigte, -n	employee / співробітник
+die Beschäftigte, -n	female employee / співробітниця
+die Beschleunigung, -en	acceleration / прискорення
+etw. bewältigen	to manage, to cope with / долати, справлятися
+die Herausforderung, -en	challenge / виклик
+der Maurer, -	mason, bricklayer / муляр
+die Maurerin, -nen	female mason / мулярка
+die Strecke, -n	distance, route / дистанція, шлях
+auf der Strecke bleiben	to fall by the wayside / відстати, бути занедбаним
+einen Termin ab|sagen	to cancel an appointment / скасувати зустріч
+das Treffen, -	meeting / зустріч
+sich verspäten	to be late / запізнюватися
+das Wohlbefinden (Sg.)	well-being / самопочуття
+der Zeitdruck (Sg.)	time pressure / дефіцит часу
+die Abteilunskonferenz, -en	department conference / конференція відділу
+sich ab|sprechen (mit + Dat.)	to coordinate (with someone) / домовлятися
+der Anspruch, "-e	claim, demand / претензія, вимога
+Anspruch haben auf (+ Akk.)	to have a right to / мати право на
+der Arbeitsweg, -e	commute / шлях на роботу
+die Arbeitszeit, -en	working time / робочий час
+das Arbeitszeitgesetz, -e	working time act / закон про робочий час
+die Betriebsruhe (Sg.)	company holidays / канікули на підприємстві
+das EDV-System, -e	IT system / ІТ-система
+jdn. ein|weisen in (+ Akk.)	to instruct, to brief / інструктувати
+der Ersatzruhetag, -e	compensatory rest day / компенсаційний вихідний
+etw. vor|schreiben	to prescribe, to mandate / приписувати, зобов'язувати
+der Fall, "-e	case / випадок
+auf keinen Fall	in no case / ні в якому разі
+der Freizeitausgleich (Sg.)	compensatory time off / компенсація вільного часу
+der Mindesturlaub (Sg.)	minimum leave / мінімальна відпустка
+die Pflicht, -en	duty / обов'язок
+das Recht, -e	right, law / право
+Recht haben	to be right / мати рацію
+die (gesetzliche) Regel, -n	legal rule / законне правило
+die Schichtarbeit (Sg.)	shift work / позмінна робота
+die Teilzeitarbeit (Sg.)	part-time work / неповна зайнятість
+die Überstunde, -n	overtime / понаднормова година
+der Urlaubstag, -e	vacation day / день відпустки
+die Urlaubszeit, -en	vacation time / час відпустки
+die Vollzeitarbeit (Sg.)	full-time work / повна зайнятість
+die Wochenendarbeit, -en	weekend work / робота у вихідні
+die Deadline, -s	deadline / дедлайн
+das Drehbuch, "-er	script / сценарій
+der Entwurf, "-e	draft / чернетка, проект
+die Kampagne, -n	campaign / кампанія
+die Kosmetikserie, -n	cosmetics line / серія косметики
+das Printmedium, -medien	print medium / друковане видання
+relevant	relevant / важливий, релевантний
+der Senior Manager, -	senior manager / старший менеджер
+die Senior Managerin, -nen	female senior manager / старша менеджерка
+der Werbefilm, -e	commercial / рекламний ролик
+die Werbekampagne, -n	advertising campaign / рекламна кампанія
+die Abmahnung, -en	written warning / попередження (догана)
+das Arbeitsgericht, -e	labor court / трудовий суд
+der Betriebsrat, "-e	works council / виробнича рада (профспілка)
+die Betriebsfeier, -n	company party / корпоратив
+dokumentieren	to document / документувати
+der Heizungstechniker, -	heating technician / майстер з опалення
+die Heizungstechnikerin, -nen	female heating technician / майстриня з опалення
+die Hilfe, -n	help / допомога
+um Hilfe bitten	to ask for help / просити про допомогу
+das Zuspätkommen (Sg.)	being late / запізнення
+das Verständnis (Sg.)	understanding / розуміння
+verärgert sein über (+ Akk.)	to be annoyed about / бути роздратованим через
+abhängig sein von (+ Dat.)	to be dependent on / бути залежним від
+die Beratung, -en	advice, consulting / консультація
+Geld ausgeben für (+ Akk.)	to spend money on / витрачати гроші на
+die Lieferzeit, -en	delivery time / час доставки
+die Öffnungszeit, -en	opening time / години роботи
+der Online-Einkauf, "-e	online shopping / онлайн-покупки
+die Qualität, -en	quality / якість
+vorsichtig	careful / обережний
+die Ware, -n	goods, merchandise / товар
+der Absatz, "-e	sales, turnover / збут, продажі
+die (technische) Anlage, -n	technical system / equipment / технічна установка
+eine Anlage warten	to maintain a system / обслуговувати установку
+jdn./etw. beobachten	to observe / спостерігати
+der Einzelhandel (Sg.)	retail / роздрібна торгівля
+der Endkunde, -n	end customer / кінцевий споживач
+die Endkundin, -nen	female end customer / кінцева споживачка
+etw. entwickeln	to develop / розробляти
+die Forschung und Entwicklung (Sg.)	research and development (R&D) / дослідження та розробка
+der Großhandel (Sg.)	wholesale / гуртова торгівля
+der Handel (Sg.)	trade, commerce / торгівля
+her|stellen	to produce, to manufacture / виробляти
+die Herstellung (Sg.)	manufacturing / виробництво
+etw. liefern	to deliver / доставляти
+der Lieferschein, -e	delivery note / накладна
+Lieferscheine aus|stellen	to issue delivery notes / виписувати накладні
+die Lieferung, -en	delivery / доставка
+der Markt, "-e	market / ринок
+das Maß, -e	measure, dimension / міра, розмір
+die Menge, -n	quantity, amount / кількість
+etw. montieren	to assemble, to install / монтувати
+die Produktion, -en	production / виробництво
+die Rechnung, -en	invoice, bill / рахунок
+die Spedition, -en	shipping company / експедиторська компанія
+der Transport, -e	transport / транспорт
+die Verpackung, -en	packaging / упаковка
+der Versand (Sg.)	shipping, dispatch / відправка
+der Vertrieb (Sg.)	sales, distribution / відділ збуту
+der Zwischenhändler, -	middleman, reseller / посередник
+etw. analysieren	to analyze / аналізувати
+etw. bearbeiten	to process, to edit / обробляти
+jdn./etw. befördern	to promote, to transport / підвищувати (на посаді), перевозити
+jdn./etw. betreuen	to support, to manage / обслуговувати, супроводжувати
+die Branche, -n	industry, sector / галузь
+etw. entwickeln	to develop / розробляти
+die Gastronomie (Sg.)	gastronomy, catering / гастрономія
+etw. gestalten	to design, to shape / оформляти, організовувати
+das Handwerk (Sg.)	craft, trade / ремесло
+die IT-Branche (Sg.)	IT industry / ІТ-галузь
+etw. konstruieren	to construct, to design / конструювати
+etw. kontrollieren	to control, to check / контролювати
+Kunden bedienen	to serve customers / обслуговувати клієнтів
+der Kundenberater, -	customer advisor / консультант клієнтів
+die Kundenberaterin, -nen	female customer advisor / консультантка клієнтів
+das Labor, -e	laboratory / лабораторія
+der Lagerist, -en	warehouse clerk / працівник складу
+die Lageristin, -nen	female warehouse clerk / працівниця складу
+der Tierpfleger, -	animal keeper / доглядач за тваринами
+die Tierpflegerin, -nen	female animal keeper / доглядачка за тваринами
+Transport und Logistik (Sg.)	transport and logistics / транспорт і логістика
+der Vertriebsweg, -e	distribution channel / канал збуту
+Waren bestellen	to order goods / замовляти товари
+Wissenschaft und Forschung (Sg.)	science and research / наука та дослідження
+etw. zu|bereiten	to prepare (food) / готувати (їжу)
+etw. zu|stellen	to deliver, to serve / доставляти
+die Bequemlichkeit, -en	convenience / зручність
+der CO2-Ausstoß (Sg.)	CO2 emission / викид CO2
+der Händler, -	dealer, vendor / торговець
+die Händlerin, -nen	female dealer / торговка
+die Lagerhalle, -n	warehouse / складська будівля
+die Online-Plattform, -en	online platform / онлайн-платформа
+der Sonderwunsch, "-e	special request / особливе побажання
+etw. aktivieren	to activate / активувати
+der Anbieter, -	provider / провайдер, постачальник
+die Anbieterin, -nen	female provider / провайдерка
+etw. auf|laden (lädt auf, lud auf, hat aufgeladen)	to top up, to charge / заряджати, поповнювати (рахунок)
+sich beraten lassen	to get advice / отримати консультацію
+sich beschweren	to complain / скаржитися
+die Bestellung, -en	order / замовлення
+das Datenvolumen, -	data volume / обсяг даних
+etw. ein|geben (gibt ein, gab ein, hat eingegeben)	to enter (data) / вводити (дані)
+etw. ein|legen	to insert / вставляти
+einmalig	one-time / одноразовий
+der Einsteiger, -	beginner / початківець
+die Einsteigerin, -nen	female beginner / початківиця
+etw. entgegen|nehmen (nimmt entgegen, nahm entgegen, hat entgegengenommen)	to receive, to accept / приймати
+das Festnetz (Sg.)	landline / стаціонарна мережа
+etw. frei|schalten	to unlock, to activate / активувати, розблокувати
+die Grundgebühr, -en	basic fee / абонентська плата
+gültig	valid / дійсний
+günstig	cheap, favorable / вигідний, недешевий
+das Guthaben, -	credit / баланс (грошовий)
+der Handwerker, -	craftsman, handyman / майстер
+die Handwerkerin, -nen	female craftsman / майстриня
+inklusive	inclusive / включно
+die Kontrolle, -n	control / контроль
+der Lieferservice, -s	delivery service / служба доставки
+das Netz, -e	network / мережа
+optimal	optimal / оптимальний
+profitieren von (+ Dat.)	to profit from / отримувати вигоду
+etw. sperren	to block, to lock / блокувати
+der Tarif, -e	tariff / тариф
+etw. verschicken	to send / відправляти
+der Vertrag, "-e	contract / контракт, договір
+die Vertragslaufzeit, -en	contract duration / термін дії договору
+etw. zu|stellen	to deliver / доставляти
+das Angebot, -e	offer / пропозиція
+der Auftrag, "-e	order, assignment / замовлення, доручення
+der Ausdruck, -e	printout / роздруківка
+sich binden an (+ Akk.)	to commit oneself to / зв'язувати себе зобов'язаннями
+brutto	gross / брутто (без вирахування податків)
+einverstanden	agreed / згодний
+etw. empfehlen (empfiehlt, empfahl, hat empfohlen)	to recommend / рекомендувати
+die Erledigung, -en	completion / виконання
+etw. erteilen (z.B. einen Auftrag)	to grant, to give / надавати, видавати (доручення)
+der Grund, "-e	reason / причина
+die Mehrwertsteuer (Sg.)	value added tax (VAT) / ПДВ (податок на додану вартість)
+netto	net / нетто (після податків)
+sorgfältig	carefully / ретельно
+die Summe, -n	sum, total / сума
+die Unterschrift, -en	signature / підпис
+zahlbar	payable / до оплати
+zuverlässig	reliable / надійний
+der Ärger (Sg.)	anger, trouble / неприємність, гнів
+der Artikel, -	article / стаття, товар
+beschädigt	damaged / пошкоджений
+die Beschwerde, -n	complaint / скарга
+defekt	defective / несправний
+dreckig	dirty / брудний
+der Fleck, -en	stain / пляма
+der Mangel, -	defect, lack / недолік
+peinlich	embarrassing / соромно
+die Reklamation, -en	reclamation, claim / рекламація, претензія
+unvollständig	incomplete / неповний
+der Vorschlag, "-e	suggestion / пропозиція
+etw. zerbrechen (zerbricht, zerbrach, hat zerbrochen)	to break / розбивати
+etw. zerkratzen	to scratch / подряпати
+etw. zerreißen (zerriss, hat zerrissen)	to tear / розривати
+jdn. ausreden lassen	to let someone finish speaking / давати комусь договорити
+die Bedeutung, -en	meaning / значення
+die Erwartung, -en	expectation / очікування
+etw. klären	to clarify / з'ясовувати
+konkurrenzfähig	competitive / конкурентоспроможний
+sich etw. leisten können	to be able to afford / могти собі дозволити
+einen Preisnachlass gewähren	to grant a discount / надавати знижку
+treu bleiben	to stay loyal / залишатися вірним
+unzufrieden	dissatisfied / незадоволений
+vereinbart	agreed / узгоджений
+sich etw. vor|stellen	to imagine / уявляти
+der Alltag (Sg.)	everyday life / будні, повсякденне життя
+der Anschluss, "-e	connection / підключення
+die Anwendungsmöglichkeit, -en	application possibility / можливість застосування
+das Display, -s	display, screen / дисплей, екран
+einsatzbereit	ready for use / готовий до роботи
+das Festnetz (Sg.)	landline / стаціонарна мережа
+das Gerät, -e	device / пристрій
+herunter|laden (lädt herunter, lud herunter, hat heruntergeladen)	to download / завантажувати
+etw. installieren	to install / інсталювати
+das Kommunikationsmittel, -	means of communication / засіб зв'язку
+leistungsfähig	powerful, efficient / потужний, продуктивний
+der Mobilfunk (Sg.)	mobile communications / мобільний зв'язок
+multifunktional	multifunctional / багатофункціональний
+das Navi, -s	sat nav, navigation system / навігатор
+das Navigationsgerät, -e	navigation device / навігатор
+problemlos	problem-free / без проблем
+das Risiko, Risiken	risk / ризик
+sinken (sinkt, sank, ist gesunken)	to sink, to decrease / падати, знижуватися
+die Tastatur, -en	keyboard / клавіатура
+verfügbar	available / доступний
+etw. weiterentwickeln	to develop further / розвивати далі
+die Zukunft (Sg.)	future / майбутнє
+in Zukunft	in the future / у майбутньому
+die Arbeit erleichtern	to make work easier / полегшувати роботу
+die Daten (Pl.)	data / дані
+Daten missbrauchen	to misuse data / зловживати даними
+nachteilig	disadvantageous / невигідний
+papierlos	paperless / безпаперовий
+die sozialen Netzwerke	social networks / соціальні мережі
+speichern	to save / зберігати
+verzichten auf (+ Akk.)	to do without / відмовлятися від
+die Anforderung, -en	requirement, demand / вимога
+der Ausbildungsberuf, -e	recognized vocational profession / професія, що потребує спеціальної освіти
+beeinflussen	to influence / впливати
+die Berufsaussicht, -en	career prospect / перспектива працевлаштування
+die Digitalisierung (Sg.)	digitization / цифровізація
+die Eigenschaft, -en	property, characteristic / властивість, якість
+der Erfolg, -e	success / успіх
+Erfolg haben	to have success / мати успіх
+fächerübergreifend	interdisciplinary / міждисциплінарний
+die Gesprächs- und Verhandlungsführung (Sg.)	conversation and negotiation management / ведення переговорів
+interkulturell	intercultural / міжкультурний
+die IT-Systemkauffrau, -en	female IT systems management assistant / фахівець з продажів ІТ-систем (жінка)
+der IT-Systemkaufmann, IT-Kaufleute	IT systems management assistant / фахівець з продажів ІТ-систем
+die Soft Skills (Pl.)	soft skills / гнучкі навички
+teamfähig	able to work in a team / здатний працювати в команді
+die Teamfähigkeit (Sg.)	ability to work in a team / вміння працювати в команді
+die Umfrage, -n	survey, poll / опитування
+wahrscheinlich	probable, probably / ймовірно
+Wert legen auf (+ Akk.)	to attach importance to / надавати значення
+das Wissensmanagement (Sg.)	knowledge management / управління знаннями
+zuverlässig	reliable / надійний
+die Zuverlässigkeit (Pl. selten)	reliability / надійність
+der Arbeitsablauf, "-e	workflow / робочий процес
+die Automatisierung (Sg.)	automation / автоматизація
+etw. ein|führen	to introduce / запроваджувати
+die Einführung, -en	introduction / запровадження
+etw. fern|steuern	to remote control / керувати дистанційно
+das Fließband, "-er	conveyor belt / конвеєр
+die Informationstechnologie, -n	information technology (IT) / інформаційні технології
+das Internet der Dinge (Sg.)	Internet of Things (IoT) / інтернет речей
+der Sprachassistent, -en	voice assistant / голосовий помічник
+die Vernetzung, -en	networking / мережування, поєднання
+vielfältig	diverse, manifold / різноманітний
+der Absolvent, -en / die Absolventin, -nen	graduate / випускник
+sich anpassen an (+ Akk.)	to adapt to / пристосовуватися до, адаптуватися до
+der Arbeitsberater, - / die Arbeitsberaterin, -nen	employment counselor / консультант з працевлаштування
+die Arbeitsteilung (Sg.)	division of labor / розподіл праці
+die Arbeitswelt (Sg.)	working world / світ праці, робоче середовище
+aufgrund von (+ Dat.)	due to, based on / на підставі, через
+die Bedeutung, -en	meaning, significance / значення, важливість
+sich behaupten	to assert oneself, to hold one's own / зарекомендувати себе, відстоювати свої позиції
+der Berufsweg, -e	career path / кар'єрний шлях
+die Digitalisierung (Sg.)	digitalization / цифровізація
+sich einstellen auf (+ Akk.)	to prepare for, to adjust to / налаштовуватися на, готуватися до
+erforderlich	required, necessary / необхідний
+etw. erwerben (erwirbt, erwarb, hat erworben)	to acquire / здобувати (напр. знання, навички)
+der Erwerbstätige, -n / die Erwerbstätige, -n	employed person / працюючий, людина, що має оплачувану роботу
+der Freiberufler, - / die Freiberuflerin, -nen	freelancer / фрилансер
+die Globalisierung (Sg.)	globalization / глобалізація
+die Herausforderung, -en	challenge / виклик, складна задача
+interkulturelle Kompetenz	intercultural competence / міжкультурна компетенція
+der Klimawandel (Sg.)	climate change / зміна клімату
+die Kompetenz, -en	competence, skill / компетенція, навичка
+modernisieren	to modernize / модернізувати, оновлювати
+die Neuorientierung, -en	reorientation / переорієнтація
+sich niederlassen (lässt sich nieder, ließ sich nieder, hat sich niedergelassen)	to settle, to establish oneself / осісти, заснувати справу
+ökologisch	ecological / екологічний
+das Pausengespräch, -e	break conversation / розмова під час перерви
+die Technologie, -n	technology / технологія
+die Unterbrechung, -en	interruption / перерва, переривання
+das Unternehmen, -	company, enterprise / підприємство, компанія
+veralten	to become obsolete / outdated / застарівати
+vertrauen auf (+ Akk.)	to trust in, to rely on / довіряти, покладатися на
+ambulant	outpatient, ambulatory / амбулаторний
+das Berufsleben (Sg.)	professional life, career / професійне життя
+das Beschwerdemanagement (Sg.)	complaint management / управління скаргами
+der Betreuungsdienst, -e	care service, support service / служба догляду (або підтримки)
+der Bildungsgutschein, -e	education voucher / ваучер на навчання
+bisherig	previous / попередній, нинішній (до цього моменту)
+eingehende Post	incoming mail / вхідна пошта
+die Fachkraft, "-e	skilled worker, specialist / кваліфікований спеціаліст
+die Fördermöglichkeit, -en	funding opportunity / можливість фінансування
+geeignet für (+ Akk.)	suitable for / придатний для, підходящий
+die Haushaltsführung, -en	household management / ведення домашнього господарства
+die Hilfskraft, "-e	assistant, helper / помічник, допоміжний персонал
+die Kenntnis, -se	knowledge / знання
+Kenntnisse erwerben	to acquire knowledge / здобувати знання
+die Lagerliste, -n	inventory list, stock list / складський список
+der Lagerlogistiker, - / die Lagerlogistikerin, -nen	warehouse logistician / спеціаліст зі складської логістики
+der Lehrplan, "-e	curriculum / навчальний план
+der Pflegedienst, -e	nursing service / служба догляду
+die Pflegeeinrichtung, -en	care facility / заклад догляду
+die Pflegekraft, "-e	caregiver, nurse / медпрацівник, доглядальник
+das Pflegezertifikat, -e	care certificate / сертифікат з догляду
+das Präsenzseminar, -e	in-person seminar / очний семінар
+der Produktionshelfer, - / die Produktionshelferin, -nen	production assistant / помічник на виробництві
+sich qualifizieren	to qualify oneself / кваліфікуватися, підвищувати кваліфікацію
+die Sachkenntnis, -se	expertise, factual knowledge / експертність, професійні знання
+etw. vermitteln	to convey, to impart, to mediate / передавати (досвід), посередничати, працевлаштовувати
+zur Verfügung stehen	to be available / бути в розпорядженні, бути доступним
+die Abfallvermeidung (Sg.)	waste prevention / уникнення відходів
+der Anschluss, "-e	connection / підключення, зв'язок
+der Bereich, -e	area, field, department / відділ, сфера
+die Betriebsbesichtigung, -en	company tour / екскурсія підприємством
+das Betriebsgelände (Sg.)	company grounds / територія підприємства
+etw. einführen	to introduce, to implement / впроваджувати, запроваджувати
+die Energieeinsparung, -en	energy saving / енергозбереження
+der Entscheidungsspielraum, "-e	scope for decision-making / свобода прийняття рішень
+etw. eröffnen	to open / відкривати
+die Eröffnung, -en	opening / відкриття
+die Erschließung (Sg.) (z. B. neuer Märkte)	development, opening up / освоєння (наприклад, нових ринків)
+etw. erweitern	to expand / розширювати
+die Fertigstellung (Sg.)	completion / завершення, готовність
+die Filiale, -n	branch, subsidiary / філія, відділення
+eine flache Hierarchie	a flat hierarchy / плоска ієрархія (мало рівнів керівництва)
+das Geschäftsjahr, -e	financial year / фінансовий рік
+das Gründungsdatum, -daten	founding date / дата заснування
+die Hierarchie, -n	hierarchy / ієрархія
+im Anschluss an (+ Akk.)	following, subsequent to / після, услід за (чимось)
+das Mitspracherecht, -e	right to have a say / право голосу
+nachhaltig	sustainable / сталий, екологічний
+etw. präsentieren	to present / презентувати
+der Pressesprecher, - / die Pressesprecherin, -nen	press spokesperson / прес-секретар
+Produkte einführen	to introduce products / впроваджувати / випускати продукти
+die Produktionsstätte, -n	production facility / виробниче приміщення, фабрика
+der Rundgang, "-e	tour (of a building) / обхід, екскурсія
+das Sortiment, -e	assortment, range of products / асортимент
+der Standort, -e	location, site / місцезнаходження, локація
+die Terminbestätigung, -en	appointment confirmation / підтвердження зустрічі
+etw. übernehmen	to take over, to assume / переймати, брати на себе
+der Umsatz, "-e	revenue, turnover / оборот, виручка
+die Unternehmensgeschichte, -n	company history / історія компанії
+die Verkaufsfläche, -n	sales area / торгова площа
+das Verkaufsgespräch, -e	sales talk, sales pitch / комерційна бесіда, переговори про продаж
+das Zentrallager, -	central warehouse / центральний склад
+das Zweigwerk, -e	branch factory / філія заводу
+etw. anordnen	to order, to arrange, to instruct / наказувати, розпоряджатися, впорядковувати
+das Controlling (Sg.)	controlling, management accounting / контролінг, фінансове управління
+die Finanzabteilung, -en	finance department / фінансовий відділ, бухгалтерія
+die Fläche, -n	area, surface / площа
+die Forschung & Entwicklung (Sg.)	research & development (R&D) / дослідження та розробка
+die Geschäftsleitung, -en	management, executive board / керівництво (компанії)
+der Hauptbereich, -e	main area, core department / головний напрямок, основний відділ
+die Haustechnik (Sg.)	building services, technical facilities / технічне обслуговування будівлі
+die Herstellung (Sg.)	production, manufacturing / виробництво, виготовлення
+die Hierarchieebene, -n	hierarchical level / рівень ієрархії
+das Lager, -	warehouse, storage / склад
+etw. leiten	to lead, to manage, to head / керувати, очолювати
+das Marketing (Sg.)	marketing / маркетинг
+die Marktuntersuchung, -en	market research / дослідження ринку
+die Mitarbeiterzahl, -en	number of employees / кількість співробітників
+die Öffentlichkeitsarbeit (Sg.)	public relations (PR) / зв'язки з громадськістю, PR
+das Organigramm, -e	organizational chart / організаційна схема (структура компанії)
+das Produktionsverfahren, -	production process / виробничий процес
+die Qualitätssicherung (Sg.)	quality assurance (QA) / забезпечення якості (QA)
+die Rechtsabteilung, -en	legal department / юридичний відділ
+die Spitze, -n	top, peak / верхівка, керівництво
+an der Spitze von (+ Dat.)	at the top of, heading / на чолі
+untergeordnet	subordinate / підлеглий
+untergliedert	subdivided / підрозділений
+unterteilt	divided / поділений
+die Verkaufsförderung (Sg.)	sales promotion / стимулювання збуту
+der Vertrieb (Sg.)	sales, distribution / збут, відділ продажів
+die Verwaltung, -en	administration / адміністрація, управління
+etw. zuordnen zu (+ Dat.)	to assign to, to allocate to / призначати, відносити, класифікувати
+die Zuständigkeit, -en	responsibility, competence / компетенція, сфера відповідальності
+die Anrede, -n	form of address / звертання (на початку листа/розмови)
+distanzlos	overfamiliar, lack of distance / без дотримання дистанції, фамільярний
+das Du (Sg.)	informal "you" / звертання на "ти"
+sich duzen	to be on first-name terms / звертатися на "ти"
+der Kompromiss, -e	compromise / компроміс
+einen Kompromiss finden	to find a compromise / знайти компроміс
+etw./jdn. respektieren	to respect / поважати
+das Sie (Sg.)	formal "you" / звертання на "Ви"
+sich siezen	to be on formal terms / звертатися на "Ви"
+jdm. das Du anbieten (bietet an, bot an, hat angeboten)	to offer to use "du" (first-name terms) / запропонувати перейти на "ти"
+die Arbeitslosenquote, -n	unemployment rate / рівень безробіття
+auffallen (fällt auf, fiel auf, ist aufgefallen)	to stand out, to be noticeable / впадати в око, виділятися
+das Baugewerbe (Sg.)	construction industry / будівельна галузь
+etw. bearbeiten	to process, to edit / обробляти, редагувати
+etw./jdn. beaufsichtigen	to supervise, to oversee / наглядати, контролювати
+befristet	temporary, fixed-term / строковий (про договір), тимчасовий
+der Beschäftigte, -n / die Beschäftigte, -n	employee / працівник, співробітник
+etw./jdn. betreuen	to look after, to support, to manage / обслуговувати, супроводжувати, керувати
+die Branche, -n	industry, sector / галузь, сфера
+die Dienstleistung, -en	service / послуга
+die Finanzbranche (Sg.)	financial sector / фінансовий сектор
+der Fluggerätemechaniker, - / die Fluggerätemechanikerin, -nen	aircraft mechanic / авіамеханік
+das Gastgewerbe (Sg.)	hospitality industry / готельно-ресторанний бізнес
+das Gesundheitswesen (Sg.)	healthcare system / система охорони здоров'я
+das Gewerbe (Sg.)	trade, business, industry / промисел, бізнес, підприємництво
+die Gleitzeit (Sg.)	flextime, flexible working hours / гнучкий графік роботи
+der Handel (Sg.)	trade, commerce / торгівля
+das Handwerk (Sg.)	craft, trade / ремесло
+hervorgehen aus (+ Dat.) (geht hervor, ging hervor, ist hervorgegangen)	to emerge from, to follow from / випливати з, походити з
+das Homeoffice (Sg.)	home office, working from home / робота з дому
+Hotel und Gastronomie (Sg.)	hotel and catering industry / готельно-ресторанна сфера
+die IT-Branche (Sg.)	IT industry / ІТ-галузь
+kaufmännisch	commercial, business / комерційний, торговельний
+die Konjunktur (Sg.)	economic situation, boom / економічна ситуація, кон'юнктура
+die Lagerlogistik (Sg.)	warehouse logistics / складська логістика
+die Land- und Forstwirtschaft (Sg.)	agriculture and forestry / сільське та лісове господарство
+etw. nahelegen (legt nahe, legte nahe, hat nahegelegt)	to suggest (e.g., a conclusion) / наводити на думку, підказувати
+das Pflegeheim, -e	nursing home / будинок престарілих
+produzierendes Gewerbe	manufacturing industry / виробнича промисловість
+die Reservierung, -en	reservation / бронювання
+die Schichtarbeit (Sg.)	shift work / позмінна робота
+der Server, -	server / сервер
+sozialversicherungspflichtig	subject to social security contributions / який підлягає соціальному страхуванню
+stabil	stable / стабільний
+die Teilzeit (Sg.)	part-time / неповний робочий день
+etw. überwachen	to monitor, to supervise / контролювати, здійснювати моніторинг
+etw. verwalten	to manage, to administer / управляти, адмініструвати
+die Vollzeit (Sg.)	full-time / повний робочий день
+der Vollzeitjob, -s	full-time job / робота на повний робочий день
+etw. warten (z. B. eine Maschine)	to maintain (e.g., equipment) / обслуговувати технічно
+die Wirtschaftsbranche (Sg.)	economic sector / економічна галузь
+etw. zubereiten	to prepare (food) / готувати (їжу)
+die Zuverlässigkeit (Sg.)	reliability / надійність
+etw./jdn. abfertigen	to dispatch, to process, to handle / обслуговувати, оформляти
+die Arbeitsstätte, -n	workplace, place of work / робоче місце
+etw. beschreiben (beschreibt, beschrieb, hat beschrieben)	to describe / описувати
+etw. betreiben (betreibt, betrieb, hat betrieben)	to operate, to run / експлуатувати, керувати
+das Bodenpersonal (Sg.)	ground staff / наземний персонал
+der Check-in (Sg.)	check-in / реєстрація
+jdn. einstellen	to hire, to employ / наймати на роботу
+der Einzelhandel (Sg.)	retail / роздрібна торгівля
+etw. erweitern	to expand, to extend / розширювати
+der Fluglotse, -n / die Fluglotsin, -nen	air traffic controller / авіадиспетчер
+die Flugzeugabfertigung (Sg.)	aircraft handling / наземне обслуговування літаків
+die Gepäckabfertigung (Sg.)	baggage handling / обробка багажу
+die Gewerkschaft, -en	trade union / профспілка
+etw. gründen	to found, to establish / засновувати
+das Handgepäck (Sg.)	hand luggage, carry-on baggage / ручна поклажа
+die Hygiene (Sg.)	hygiene / гігієна
+die Logistik (Sg.)	logistics / логістика
+die Luftfracht (Sg.)	air freight, air cargo / авіаперевезення, авіавантаж
+der Passagier, -e / die Passagierin, -nen	passenger / пасажир
+der Quereinsteiger, - / die Quereinsteigerin, -nen	career changer / світчер, людина, що змінила професію
+die Spedition, -en	freight forwarding company / експедиторська компанія, служба доставки
+etw. umbauen	to rebuild, to modify / перебудовувати, реконструювати, переробляти
+etw. umfassen	to include, to comprise / охоплювати, включати
+etw./jdn. vertreten (vertritt, vertrat, hat vertreten)	to represent, to substitute / представляти, заміняти (когось)
+das Arbeitsmittel, -	work equipment, tool / засіб праці, робочий інструмент
+der Arbeitsschutz (Sg.)	occupational safety, health and safety / охорона праці
+etw. befolgen	to follow, to obey / дотримуватися, виконувати (правила)
+etw./jdn. behindern	to hinder, to obstruct / перешкоджати, заважати
+etw. betätigen (z. B. den Brandmelder)	to operate, to press / приводити в дію, натискати
+der Brandmelder, -	fire alarm, smoke detector / пожежний сповіщувач
+der Brandschutz (Sg.)	fire protection / пожежна безпека
+das Brandschutzzeichen, -	fire safety sign / знак пожежної безпеки
+dreieckig	triangular / трикутний
+etw. einschlagen (schlägt ein, schlug ein, hat eingeschlagen)	to smash, to break in / розбивати (скло)
+etw. entsorgen	to dispose of / утилізувати
+der Feuerlöscher, -	fire extinguisher / вогнегасник
+der Feuermelder, -	fire alarm / пожежна сигналізація
+der Flucht- und Rettungsweg, -e	escape and rescue route / шлях евакуації
+etw. freihalten (hält frei, hielt frei, hat freigehalten)	to keep clear / тримати вільним (прохід)
+das Gebotszeichen, -	mandatory sign / приписний знак (обов'язкова дія)
+die Glasscheibe, -n	glass pane / шибка, скляна панель
+hinweisen auf (+ Akk.) (weist hin, wies hin, hat hingewiesen)	to point out, to refer to / вказувати на
+das Hinweisschild, -er	information sign / інформаційна табличка
+etw. löschen	to extinguish (fire), to delete (data) / гасити (пожежу), видаляти (дані)
+der Notausgang, "-e	emergency exit / аварійний вихід
+die Pflicht, -en	duty, obligation / обов'язок
+quadratisch	square / квадратний
+das Rettungszeichen, -	rescue sign, emergency sign / знак евакуації/порятунку
+die Schutzausrüstung, -en	protective equipment / захисне спорядження
+die Schutzbrille, -n	safety goggles / захисні окуляри
+etw./jdn. schützen	to protect / захищати
+der Schutzhelm, -e	safety helmet, hard hat / захисний шолом, каска
+der Sicherheitshinweis, -e	safety instruction/warning / вказівка щодо безпеки
+der Sicherheitsschuh, -e	safety shoe / захисне взуття
+die Sicherheitsvorschrift, -en	safety regulation / правило техніки безпеки
+die Stolpergefahr, -en	tripping hazard / небезпека спотикання
+die Straßenverkehrsordnung (Sg.)	traffic regulations / правила дорожнього руху
+das Verbotsschild, -er	prohibition sign / заборонний знак
+das Verbotszeichen, -	prohibition sign / заборонний знак
+etw. vermeiden (vermeidet, vermied, hat vermieden)	to avoid / уникати
+die Verordnung, -en	regulation, decree / постанова, розпорядження
+verpflichtet	obliged, bound / зобов'язаний
+etw. verstauen	to stow, to store / ховати, укладати, зберігати
+das Warnzeichen, -	warning sign / попереджувальний знак
+der Ablauf, "-e	process, sequence, flow / процес, хід подій
+arbeitsunfähig	incapable of working, unfit for work / непрацездатний
+ausrutschen (rutscht aus, rutschte aus, ist ausgerutscht)	to slip / посковзнутися
+die Berufsgenossenschaft, -en	employers' liability insurance association / профспілка страховиків від нещасних випадків на виробництві
+beteiligt an (+ Dat.)	involved in / причетний до, бере участь у
+das Detail, -s	detail / деталь, подробиця
+das Ereignis, -se	event, occurrence / подія
+glatt	smooth, slippery / гладкий, слизький
+das Kabel, -	cable, wire / кабель, провід
+sich (etw.) quetschen	to squeeze, to bruise (oneself) / защемити (собі щось), прищемити
+Ruhe bewahren	to keep calm / зберігати спокій
+rutschig	slippery / слизький
+sachlich	factual, objective / об'єктивний, предметний
+der Schaden, "-	damage, harm / шкода, збиток
+etw. schildern	to describe, to depict / описувати, змальовувати
+der Schlauch, "-e	hose, tube / шланг
+stolpern	to stumble, to trip / спотикатися
+sich (etw.) verbrennen (verbrennt, verbrannte, hat verbrannt)	to burn (oneself) / обпектися
+das Verhalten (Sg.)	behavior / поведінка
+die Vorsichtsmaßnahme, -n	precaution, precautionary measure / запобіжний захід
+der Zeuge, -n / die Zeugin, -nen	witness / свідок
+etw. behaupten	to claim, to assert / стверджувати
+etw./jdn. beobachten	to observe, to monitor / спостерігати, стежити
+entscheidend	crucial, decisive / вирішальний
+die Geldsorgen (Pl.)	money worries, financial problems / фінансові проблеми
+gemütlich	comfortable, cozy / затишний, комфортний
+die Geselligkeit (Sg.)	sociability, conviviality / товариськість, компанійність
+das Grundbedürfnis, -se	basic need / базова потреба
+die Partnerschaft, -en	partnership / партнерство
+das Wohlbefinden (Sg.)	well-being / добробут, самопочуття
+die Zufriedenheit (Sg.)	satisfaction / задоволеність
+der Arbeitsvertrag, "-e	employment contract / трудовий договір
+der Aushang, "-e	notice, poster / оголошення, афіша
+aussagekräftig	meaningful, expressive / змістовний, переконливий
+etw. beinhalten	to contain, to include / містити в собі, охоплювати
+das BIZ (Berufsinformationszentrum) (Sg.)	career information center / центр профорієнтації
+die Chancengleichheit, -en	equal opportunity / рівні можливості
+etw. entwickeln	to develop / розробляти
+der (medizinische) Fortschritt (Sg.)	(medical) progress / (медичний) прогрес
+ein inklusiver Arbeitsplatz	inclusive workplace / інклюзивне робоче місце
+innovativ	innovative / інноваційний
+die Jobmesse, -n	job fair / ярмарок вакансій
+der Labormitarbeiter, - / die Labormitarbeiterin, -nen	laboratory worker / співробітник лабораторії
+die Messmethode, -n	measurement method / метод вимірювання
+das Netzwerk, -e	network / мережа
+die Online-Jobbörse, -n	online job board / онлайн-біржа праці
+das Online-Stellenportal, -e	online job portal / онлайн-портал вакансій
+das Pharmaunternehmen, -	pharmaceutical company / фармацевтична компанія
+die Qualitätskontrolle, -n	quality control / контроль якості
+etw. recherchieren	to research / досліджувати, шукати інформацію
+sorgfältig	careful(ly), diligent(ly) / ретельний, акуратний
+soziale Netzwerke (Pl.)	social networks / соціальні мережі
+die Sozialleistung, -en	social benefit / соціальна виплата, пільга від компанії
+die Stellenbörse, -n	job market, job exchange / біржа праці, ринок вакансій
+das Stellengesuch, -e	job request, job application / заява про пошук роботи
+die Stellensuche (Sg.)	job search / пошук роботи
+umfangreich	extensive, comprehensive / об'ємний, великий, розлогий
+unbefristet	unlimited, permanent / безстроковий
+die Vergütung, -en	compensation, remuneration / оплата праці, винагорода
+etw. verlangen	to demand, to require / вимагати
+die Voraussetzung, -en	prerequisite, requirement / передумова, вимога
+die Webseite, -n	website / вебсайт
+zur Verfügung stehen	to be available / бути в розпорядженні, бути доступним
+der Abschluss, "-e	degree, graduation / закінчення (навчального закладу), диплом
+etw. auswerten	to evaluate, to analyze / оцінювати, аналізувати
+begeistert von (+ Dat.)	enthusiastic about / у захваті від
+der Bildungsweg, -e	educational path / освітній шлях, шлях отримання освіти
+die Daten (Pl.)	data / дані
+etw. dokumentieren	to document / документувати
+eigenverantwortlich	independent(ly), responsible / під власну відповідальність, самостійний
+die Fähigkeit, -en	ability, skill / навичка, здатність
+fehlerfrei	flawless, error-free / безпомилковий
+jdn. hinweisen auf (+ Akk.) (weist hin, wies hin, hat hingewiesen)	to point out to / вказувати комусь на щось
+etw. hinzufügen zu (+ Dat.) (fügt hinzu, fügte hinzu, hat hinzugefügt)	to add to / додавати до
+die Kenntnis, -se	knowledge, skill / знання, навичка
+die Korrektheit (Sg.)	correctness / правильність, коректність
+persönliche Daten (Pl.)	personal data / персональні дані
+die Praxis- und Berufserfahrung, -en	practical and professional experience / практичний та професійний досвід
+selbstständig	independent, autonomous / самостійний, незалежний
+die Stellenausschreibung, -en	job advertisement / оголошення про вакансію
+verfügen über (+ Akk.)	to possess, to have at one's disposal / володіти, мати в розпорядженні
+vertraut mit (+ Dat.)	familiar with / обізнаний з, знайомий з
+die Vollständigkeit (Sg.)	completeness / повнота, цілісність
+die Weiterbildung, -en	further education, training / підвищення кваліфікації
+die Messung, -en	measurement / вимірювання
+reizen	to appeal to, to tempt / приваблювати, манити
+die Rückmeldung, -en	feedback, reply / зворотний зв'язок, відповідь
+die Soft Skills (Pl.)	soft skills / м'які навички
+die Stärke, -n	strength / сильна сторона
+der Versuchsablauf, "-e	test procedure, experimental procedure / хід тестування, експерименту
+etw. vertiefen	to deepen / поглиблювати (напр. знання)
+vielfältig	diverse, varied / різноманітний, багатогранний
+vollständig	complete(ly) / повний
+sich weiterentwickeln	to develop further / розвиватися далі, вдосконалюватися
+Wert legen auf (+ Akk.)	to attach importance to, to value / надавати значення, цінувати
+der Absender, -	sender / відправник
+die Anlage, -n	attachment, enclosure / додаток (до листа)
+die Anrede, -n	salutation / звертання (в листі)
+der Ansprechpartner, - / die Ansprechpartnerin, -nen	contact person / контактна особа
+der Aufgabenbereich, -e	area of responsibility / сфера завдань, обов'язків
+das Aufgabengebiet, -e	field of activity, scope of duties / сфера діяльності
+etw. beantworten	to answer / відповідати на щось
+etw. beweisen (beweist, bewies, hat bewiesen)	to prove / доводити
+die Bewerbungsunterlagen (Pl.)	application documents / документи для працевлаштування
+die Durchführung, -en	execution, implementation / виконання, проведення
+sich einarbeiten in (+ Akk.)	to familiarize oneself with / вникати, освоювати, опановувати
+die Einleitung, -en	introduction / вступ
+der Empfänger, - / die Empfängerin, -nen	recipient / одержувач
+engagiert	committed, dedicated / відданий справі, активний
+das Fachwissen (Sg.)	expertise, expert knowledge / професійні знання
+das Fähigkeitsprofil, -e	skill profile / профіль навичок
+etw. fordern	to demand, to require / вимагати
+herausfordernd	challenging / складний, такий, що кидає виклик
+leichtfallen (fällt leicht, fiel leicht, ist leichtgefallen)	to be easy (for someone) / даватися легко
+einen Termin bestätigen	to confirm an appointment / підтвердити зустріч
+überzeugend	convincing / переконливий
+unbedingt	absolutely, necessarily / обов'язково, неодмінно
+etw. variieren	to vary / варіювати, змінювати
+verständlich	understandable, comprehensible / зрозумілий
+die Vorlage, -n	template / шаблон, макет, зразок
+etw./jdn. wahrnehmen (nimmt wahr, nahm wahr, hat wahrgenommen)	to perceive, to notice / сприймати, помічати
+die Zuverlässigkeit (Sg.)	reliability / надійність
+etw. anpacken	to tackle, to take hold of / братися за щось
+die Auflistung, -en	list, listing / перелік, список
+etw. bestätigen	to confirm / підтверджувати
+der Dienstleister, - / die Dienstleisterin, -nen	service provider / постачальник послуг
+ehrgeizig	ambitious / амбітний
+erforderlich	required, necessary / необхідний
+etw./jdn. erkennen (erkennt, erkannte, hat erkannt)	to recognize / розпізнавати, усвідомлювати
+etw. erledigen	to complete, to get done / виконувати, залагоджувати
+etw. erstatten	to refund, to reimburse / відшкодовувати (кошти)
+die Fahrkosten (Pl.)	travel expenses / транспортні витрати
+die Flexibilität (Sg.)	flexibility / гнучкість
+der Gesprächspartner, - / die Gesprächspartnerin, -nen	conversation partner, interviewer / співрозмовник, інтерв'юер
+gründlich	thorough(ly) / ретельний
+die Kommunikationskompetenz (Sg.)	communication skills / комунікативні навички
+die Kosten (Pl.)	costs, expenses / витрати, вартість
+Kosten erstatten	to reimburse costs / відшкодовувати витрати
+die Kritikfähigkeit (Sg.)	ability to accept criticism / здатність сприймати критику
+etw./jdn. kritisieren	to criticize / критикувати
+der Laborleiter, - / die Laborleiterin, -nen	laboratory manager / керівник лабораторії
+die Leistungsbereitschaft (Sg.)	motivation, willingness to perform / готовність до роботи, мотивація
+der Personalverantwortliche, -n / die Personalverantwortliche, -n	HR manager / HR-менеджер, відповідальний за персонал
+die Quittung, -en	receipt / квитанція, чек
+die Teamfähigkeit (Sg.)	teamwork skills / здатність працювати в команді
+angespannt	tense, tight / напружений
+die Bescheinigung, -en	certificate, attestation / довідка, свідоцтво
+der Besichtigungstermin, -e	viewing appointment / час огляду (квартири)
+betragen (beträgt, betrug, hat betragen)	to amount to, to be / становити, дорівнювати
+deprimierend	depressing / пригнічуючий, депресивний
+das Familieneinkommen, -	family income / дохід сім'ї
+der Gehaltsnachweis, -e	proof of salary/income / довідка про доходи
+gemeinsam	together, common / разом, спільний
+die Immobilie, -n	real estate, property / нерухомість
+der Makler, - / die Maklerin, -nen	real estate agent, broker / маклер, брокер, рієлтор
+die Mietschulden (Pl.)	rent arrears, rent debts / борги з оренди
+mühsam	arduous, laborious / важкий, виснажливий
+angemessen	appropriate, reasonable / відповідний, доречний, належний
+der Arbeitgeberverband, "-e	employers' association / спілка роботодавців
+etw. aushandeln	to negotiate / домовлятися, вести переговори
+der Bescheid, -e	decision, notification / відповідь, рішення, повідомлення
+Bescheid bekommen (bekommt, bekam, hat bekommen)	to be informed, to receive notice / отримати повідомлення / відповідь
+die Bezahlung, -en	payment, pay / оплата
+die Eigenverantwortung (Sg.)	personal responsibility / особиста відповідальність
+das Einstiegsgehalt, "-er	starting salary / початкова зарплата
+die Firmenzentrale, -n	headquarters / головний офіс, штаб-квартира
+der Freizeitausgleich (Sg.)	compensatory time off / компенсація вільного часу (відгул за перепрацювання)
+die Gewerkschaft, -en	trade union / профспілка
+inklusive	inclusive, including / включно, у тому числі
+die Mess- und Analysetechnik, -en	measurement and analysis technology / вимірювальна та аналітична техніка
+mittelständisch	medium-sized / середній (про бізнес)
+das Motiv, -e	motive, reason / мотив, причина
+nach Tarif zahlen	to pay according to the collective agreement / платити за тарифною сіткою
+der Personalverantwortliche, -n / die Personalverantwortliche, -n	HR manager, person responsible for HR / HR-менеджер, відповідальний за персонал
+die Produktpalette, -n	product range / асортимент продукції
+regelmäßig	regular(ly) / регулярний
+der Tarif, -e	tariff, rate, collective agreement / тариф
+sich verhalten (verhält sich, verhielt sich, hat sich verhalten)	to behave, to act / поводитися
+die Verabschiedung (Sg.)	farewell, saying goodbye / прощання
+das Vertriebsbüro, -s	sales office / офіс продажу
+die Anwesenheit (Sg.)	presence, attendance / присутність
+der Arbeitsbeginn (Sg.)	start of work / початок роботи
+der Auswahlprozess, -e	selection process / процес відбору
+die Besetzung (einer Stelle) (Sg.)	filling (of a position) / заповнення (вакансії)
+die Betriebsferien (Pl.)	company holidays / корпоративна відпустка (закриття підприємства на свята)
+die Betriebskantine, -n	company canteen / їдальня на підприємстві
+das Bewerbungsverfahren, -	application process / процес подачі заявки / відбору
+der Büroleiter, - / die Büroleiterin, -nen	office manager / офіс-менеджер, керівник офісу
+durchgehend	continuous(ly), non-stop / безперервний, цілодобовий
+die Einarbeitung (Sg.)	onboarding, training period / онбординг, введення в посаду
+der Eindruck, "-e	impression / враження
+das Einstellungsgespräch, -e	job interview / співбесіда (при прийомі на роботу)
+die Einzelheit, -en	detail / деталь, подробиця
+sich erkundigen nach (+ Dat.)	to inquire about / дізнаватися про, довідуватися
+der Feierabend (Sg.)	end of the working day / кінець робочого дня
+flexibel	flexible / гнучкий
+gesetzlich	legal, statutory / законний, встановлений законом
+die Kündigungsregelung, -en	termination rule/policy / правила звільнення (розірвання договору)
+der ÖPNV (Öffentlicher Personennahverkehr) (Sg.)	public transport / громадський транспорт
+der Schichtbetrieb (Sg.)	shift operation, shift work / позмінна робота
+die Teambesprechung, -en	team meeting / командна нарада
+der Urlaubsanspruch, "-e	leave entitlement, right to vacation / право на відпустку
+(gut/schlecht) verlaufen (verläuft, verlief, ist verlaufen)	to go (well/badly) / проходити (добре/погано)
+sich etw. verschaffen (z. B. einen Eindruck)	to obtain, to gain (e.g., an impression) / здобути, отримати (напр., враження)
+der Zuschuss, "-e	subsidy, grant, allowance / доплата, субсидія, допомога
+etw. antreten (z. B. eine Stelle) (tritt an, trat an, hat angetreten)	to take up, to start (e.g., a job) / починати, приступати до (роботи)
+etw. aushändigen	to hand over / вручати, видавати на руки
+der Betriebsrat, "-e	works council / виробнича рада (представник працівників)
+chaotisch	chaotic / хаотичний
+der Dienstplan, "-e	roster, shift schedule / графік чергувань / роботи
+etw. einplanen	to schedule, to plan for / планувати, передбачати
+die Einweisung, -en	instruction, briefing / інструктаж, введення в курс справи
+sich erinnern an (+ Akk.)	to remember / пам'ятати про, згадувати
+die Hausordnung, -en	house rules / правила внутрішнього розпорядку
+der Haustechniker, - / die Haustechnikerin, -nen	building technician, maintenance worker / технік будівлі, завгосп
+der Lieferant, -en / die Lieferantin, -nen	supplier / постачальник
+der Medikamentenschrank, "-e	medicine cabinet / аптечка (шафка для ліків)
+der Mitarbeiterausweis, -e	employee ID card / перепустка, посвідчення працівника
+die Pausenregelung, -en	break regulation / правила щодо перерв
+die Personalabteilung, -en	HR department / відділ кадрів (HR)
+die Pflegedienstleitung, -en	nursing management / керівництво служби догляду
+der Stationsleiter, - / die Stationsleiterin, -nen	ward manager (hospital) / завідувач відділення (в лікарні)
+das Unfallrisiko, -risiken	accident risk / ризик нещасного випадку
+die Unterweisung, -en	instruction, training / інструктаж, навчання
+das Verbandmaterial, -ien	bandage material, dressings / перев'язувальний матеріал
+die Willkommensmappe, -n	welcome folder / вітальна папка (для нових співробітників)
+sich zurechtfinden (findet zurecht, fand zurecht, hat zurechtgefunden)	to find one's way around, to orient oneself / орієнтуватися, розібратися
+die Abschiedsfeier, -n	farewell party / прощальна вечірка
+der Alarm, -e	alarm / сигналізація, тривога
+der Anlass, "-e	occasion, reason / привід, нагода
+das Antragsformular, -e	application form / бланк заяви
+etw. aufladen (lädt auf, lud auf, hat aufgeladen)	to charge, to top up / заряджати, поповнювати
+etw. aushängen (hängt aus, hing aus, hat ausgehangen)	to post (a notice) / вивішувати (оголошення)
+etw. ausstellen (z. B. einen Parkausweis)	to issue (e.g., a parking permit) / виписувати, видавати (документ)
+etw. beantragen (z. B. einen Zuschuss)	to apply for, to request / подавати заяву на, запитувати
+betrieblich	operational, company-related / виробничий, службовий, корпоративний
+der Betriebsausflug, "-e	company outing / корпоративна поїздка / екскурсія
+die Betriebsrente, -n	company pension / корпоративна пенсія
+die Betriebsversammlung, -en	staff meeting, company assembly / загальні збори працівників
+die Betriebszugehörigkeit (Sg.)	length of service with a company / стаж роботи на підприємстві
+der Betroffene, -n / die Betroffene, -n	person affected, person concerned / зацікавлена особа, постраждалий
+etw. bezuschussen	to subsidize / субсидіювати, доплачувати
+der Brandfall, "-e	in case of fire / випадок пожежі
+die Dienstreise, -n	business trip / відрядження
+eine Dienstreise antreten	to go on a business trip / відправитися у відрядження
+durchschnittlich	average, on average / в середньому, середньостатистичний
+das Firmengelände, -	company grounds, premises / територія компанії
+der Firmenparkplatz, "-e	company car park / корпоративна парковка
+ganztägig	all-day, full-day / на цілий день
+die Genehmigung, -en	approval, permit / дозвіл, затвердження
+die Ladestation, -en	charging station / зарядна станція
+die Lautsprecheranlage, -n	public address system, PA system / система гучномовців
+das Nettoeinkommen, -	net income / чистий дохід (нетто)
+die Nutzung, -en	use, usage / використання
+der Ruhestand (Sg.)	retirement / вихід на пенсію
+die Sozialleistung, -en	social benefit / соціальна пільга / виплата
+die Telefonbenutzung (Sg.)	telephone usage / користування телефоном
+üblich	usual, common / звичайний, прийнятий
+etw. untersagen	to prohibit, to forbid / забороняти
+der Verwaltungsbereich, -e	administrative area / адміністративний відділ
+die Wertsache, -n	valuable item / цінна річ
+der Abstand, "-e	distance, gap / відстань, дистанція
+aufdringlich	intrusive, pushy / нав'язливий
+jdn. belästigen	to harass, to bother / турбувати, докучати
+die Distanz (Sg.)	distance / дистанція
+etw. einhalten (hält ein, hielt ein, hat eingehalten)	to comply with, to keep (e.g., rules/deadlines) / дотримуватися (правил, строків)
+etw. empfinden (empfindet, empfand, hat empfunden)	to feel, to perceive / відчувати, сприймати
+intim	intimate / інтимний, особистий
+etw./jdm. nahekommen (kommt nahe, kam nahe, ist nahegekommen)	to approach, to come close to / наближатися до
+das Publikum (Sg.)	audience / публіка, аудиторія
+der Referent, -en / die Referentin, -nen	speaker, presenter / доповідач
+etw./jdn. respektieren	to respect / поважати
+unangenehm	unpleasant, uncomfortable / неприємний
+etw./jdn. wahrnehmen (nimmt wahr, nahm wahr, hat wahrgenommen)	to perceive, to notice / сприймати, помічати
+das Arbeitsklima (Sg.)	working atmosphere / робоча атмосфера
+die Atmosphäre (Sg.)	atmosphere / атмосфера
+ausreden (lässt ausreden, ließ ausreden, hat ausreden lassen)	to finish speaking / договорити (до кінця)
+die Ausstattung, -en	equipment, facilities / обладнання, оснащення
+das Beratungsgespräch, -e	consultation, advisory discussion / консультація
+der Besprechungspunkt, -e	agenda item, point of discussion / пункт обговорення
+der Bestseller, -	bestseller / бестселер
+die Beteiligung, -en	participation / участь
+dadurch, dass	due to the fact that, because / через те, що
+effektiv	effective(ly) / ефективний
+die Ergänzung, -en	addition, supplement / доповнення
+etw. erledigen	to complete, to get done / виконувати
+etw. festlegen	to determine, to set / визначати, встановлювати
+die Gelegenheit bieten	to offer an opportunity / надавати можливість
+die Gesprächsregel, -n	rule of conversation / правило спілкування
+etw. gestalten	to design, to structure / оформлювати, структурувати
+sich halten an (+ Akk.)	to stick to, to abide by / дотримуватися (чогось)
+indem	by (doing something) / тим, що / шляхом
+die Klarheit, -en	clarity / ясність, чіткість
+Kritik üben	to criticize / критикувати
+leiten	to lead, to manage / керувати
+das Meeting, -s	meeting / мітинг, зустріч
+das Prospektmaterial, -ien	brochures, promotional material / рекламні матеріали
+das Protokoll, -e	protocol, minutes / протокол, лог
+der Stand (Sg.)	status, state / стан
+die Tagesordnung, -en	agenda / порядок денний
+der Tagesordnungspunkt, -e	agenda item / пункт порядку денного
+die Teambesprechung, -en	team meeting / командна нарада
+die Teamsitzung, -en	team meeting / командне засідання
+verfassen	to write, to draft / складати, писати
+der Verkaufsberater, - / die Verkaufsberaterin, -nen	sales consultant / продавець-консультант
+abraten von (+ Dat.) (rät ab, riet ab, hat abgeraten)	to advise against / відмовляти від
+abwesend	absent / відсутній
+anwesend	present / присутній
+die Anzeigenkampagne, -n	advertising campaign / рекламна кампанія
+der Aufbau, -ten	structure, setup / структура, побудова
+die Ausstellung, -en	exhibition / виставка
+jdn. beauftragen	to assign, to commission / доручати
+das Beratungsprotokoll, -e	consultation protocol / протокол консультації
+Druck machen	to put pressure on / тиснути
+der Einzelhandel (Sg.)	retail / роздрібна торгівля
+das Ergebnisprotokoll, -e	minutes of results / протокол рішень / результатів
+das Gesprächsprotokoll, -e	minutes of a meeting / протокол бесіди
+der Gesprächstermin, -e	appointment for a discussion / час бесіди, зустріч
+hilfsbereit	helpful / готовий допомогти
+das Messegespräch, -e	trade fair discussion / розмова на виставці
+der Messestand, "-e	exhibition stand / виставковий стенд
+die Möbelmesse, -n	furniture fair / меблева виставка
+die Protokollführung (Sg.)	taking of minutes / ведення протоколу
+der Schwerpunkt, -e	focus, main emphasis / головна увага, акцент
+der Standaufbau, -ten	stand construction / монтаж стенду
+der Teamleiter, - / die Teamleiterin, -nen	team leader / керівник команди
+der Thermosbecher, -	thermos mug / термокружка
+etw. verschenken	to give away / дарувати
+das Versuchsprotokoll, -e	test protocol/log / протокол випробування
+die Vertriebsabteilung, -en	sales department / відділ збуту
+das Werbegeschenk, -e	promotional gift / рекламний подарунок
+das Werbevideo, -s	promotional video / рекламний ролик
+aggressiv	aggressive / агресивний
+etw. ansprechen	to address, to bring up / піднімати питання, заговорювати про
+der Arbeitsalltag (Sg.)	everyday working life / робочі будні
+die Arbeitsatmosphäre (Sg.)	working atmosphere / робоча атмосфера
+auswirken	to affect, to have an impact / впливати, позначатися
+die Auswirkung, -en	effect, impact / наслідок, вплив
+etw. beilegen (z. B. einen Streit)	to settle (e.g. a dispute) / владнати (напр., суперечку)
+der Eindruck, "-e	impression / враження
+den Eindruck haben	to have the impression / мати враження
+die Du-Botschaft, -en	"you" message (blaming) / "ти-повідомлення" (звинувачення)
+fehlender Respekt	lack of respect / відсутність поваги
+die Gemeinsamkeit, -en	similarity, common ground / спільна риса, спільність
+die Ich-Botschaft, -en	"I" message / "я-повідомлення"
+der Kompromiss, -e	compromise / компроміс
+Kompromisse eingehen	to make compromises / йти на компроміси
+der Konflikt, -e	conflict / конфлікт
+das Konfliktgespräch, -e	conflict resolution discussion / розмова для вирішення конфлікту
+kooperativ	cooperative / схильний до співпраці, кооперативний
+der Leistungsdruck (Sg.)	pressure to perform / тиск щодо продуктивності (стрес)
+Lösungen erarbeiten	to develop solutions / розробляти рішення
+lüften	to air, to ventilate / провітрювати
+die Meinungsverschiedenheit, -en	difference of opinion / розбіжність у поглядах
+das Missverständnis, -se	misunderstanding / непорозуміння
+etw. nachvollziehen	to comprehend, to understand / розуміти, осягати
+der Neid (Sg.)	envy / заздрість
+nervig	annoying / дратівливий, набридливий
+der Respekt (Sg.)	respect / повага
+die Rivalität, -en	rivalry / суперництво
+sachlich	objective, factual / об'єктивний, по суті
+die Spannung, -en	tension / напруга
+stickig	stuffy / задушливий
+die Strategie, -n	strategy / стратегія
+der Streit, -igkeiten	argument, dispute / суперечка
+die Überstunde, -n	overtime / понаднормова робота
+die Umgangsform, -en	manner, etiquette / манера поведінки
+unerträglich	unbearable / нестерпний
+unpünktlich	unpunctual, late / непунктуальний
+unsachlich	unobjective, biased / необ'єктивний
+unter vier Augen	face-to-face, privately / віч-на-віч
+etw./jdn. vergiften (z. B. die Atmosphäre)	to poison (e.g. the atmosphere) / отруювати (напр., атмосферу)
+etw. vermeiden	to avoid / уникати
+Verständnis zeigen für (+ Akk.)	to show understanding for / виявляти розуміння
+der Zeitdruck (Sg.)	time pressure / брак часу
+die Aufnahme, -n	recording, photo, admission / знімок, запис, прийом
+einen Berg besteigen (besteigt, bestieg, hat bestiegen)	to climb a mountain / підніматися на гору
+die Butterbrezel, -n	butter pretzel / брецель з маслом
+der Einstand (Sg.)	debut, starting a new job / початок роботи, вступ на посаду
+die Einstandsfeier, -n	welcome party (for a new employee) / вечірка на честь нового співробітника
+sich erholen	to recover, to rest / відпочивати, відновлюватися
+etw. genehmigen	to approve / схвалювати, затверджувати
+die Kreuzfahrt, -en	cruise / круїз
+in der Regel	usually, as a rule / зазвичай
+etw. stückeln (z.B. den Urlaub)	to split up, to piece together / розбивати на частини (напр., відпустку)
+der Urlaubsantrag, "-e	leave application, vacation request / заява на відпустку
+sich aufhalten (hält auf, hielt auf, hat aufgehalten)	to stay, to linger / перебувати, затримуватися
+etw. beklagen	to complain about, to lament / скаржитися на
+zu einem Ergebnis kommen	to come to a conclusion/result / дійти висновку / результату
+das Freizeitverhalten (Sg.)	leisure behavior / проведення вільного часу
+die Freizeitbeschäftigung, -en	leisure activity / заняття у вільний час
+der Mittagsschlaf (Sg.)	afternoon nap / післяобідній сон
+das Multitasking (Sg.)	multitasking / багатозадачність
+repräsentativ	representative / репрезентативний
+eine repräsentative Studie	a representative study / репрезентативне дослідження
+die Stiftung, -en	foundation, charity / фонд
+etw. unternehmen (unternimmt, unternahm, hat unternommen)	to undertake, to do (an activity) / робити, здійснювати (часто разом)
+sich etw. vornehmen (nimmt vor, nahm vor, hat vorgenommen)	to plan to do sth., to resolve / планувати, задумувати
+die Anweisung, -en	instruction, directive / інструкція, вказівка
+das Ersatzfahrzeug, -e	replacement vehicle / підмінний автомобіль
+das Ersatzteil, -e	spare part / запасна частина
+das Fahrzeug, -e	vehicle / транспортний засіб
+der Gebrauchtwagen, -	used car / вживаний автомобіль
+die Gehaltsabrechnung, -en	payslip, salary statement / розрахунковий листок (по зарплаті)
+die Inspektion, -en	inspection, maintenance / огляд, техогляд
+jdn. kontaktieren	to contact sb. / зв'язуватися з кимось
+der Kundenservice (Sg.)	customer service / служба підтримки клієнтів
+etw. lackieren	to paint, to varnish / фарбувати, лакувати
+der Liefertermin, -e	delivery date / дата доставки
+die Lieferverzögerung, -en	delivery delay / затримка доставки
+der Montagetermin, -e	assembly/installation appointment / дата монтажу / встановлення
+der Neuwagen, -	new car / новий автомобіль
+preisgünstig	reasonably priced, cheap / недорогий, вигідний
+das Reifenlager, -	tire storage / склад шин
+der Reparaturauftrag, "-e	repair order / замовлення на ремонт
+der Sommerreifen, -	summer tire / літня шина
+verhandeln	to negotiate / вести переговори
+vermitteln	to mediate, to convey / посередничати, передавати
+der Vertriebsleiter, - / die Vertriebsleiterin, -nen	sales manager / керівник відділу продажів
+vorgehen (geht vor, ging vor, ist vorgegangen)	to proceed, to act / діяти, чинити
+der Wagenpark, -s	vehicle fleet / автопарк
+das Werbegeschenk, -e	promotional gift / рекламний подарунок
+den Wert schätzen	to estimate the value / оцінювати вартість
+der Winterreifen, -	winter tire / зимова шина
+etw. anschaffen	to acquire, to purchase / купувати, придбати (обладнання)
+auftauchen	to appear, to pop up / з'являтися, виникати
+daher	therefore, hence / тому, з цієї причини
+darum	therefore, for that reason / тому, через це
+die technischen Daten (Pl.)	technical data/specifications / технічні характеристики / дані
+dennoch	nevertheless, yet / тим не менш, проте
+deshalb	therefore, that's why / тому, ось чому
+deswegen	therefore, because of that / тому, через це
+das Eigengewicht, -e	dead weight, own weight / власна вага
+erforderlich	required, necessary / необхідний
+folglich	consequently, as a result / отже, внаслідок цього
+die Gewährleistung, -en	warranty, guarantee / гарантія (за законом)
+die Geschwindigkeit, -en	speed / швидкість
+die Hebebühne, -n	lifting platform, hoist / підйомник
+die Hubhöhe, -n	lifting height / висота підйому
+die Kaufentscheidung, -en	purchase decision / рішення про покупку
+etw. lagern	to store / зберігати
+die Lieferzeit, -en	delivery time / час доставки
+die Neuanschaffung, -en	new acquisition, purchase / нове придбання
+das Qualitätsproblem, -e	quality problem / проблема з якістю
+der Rabatt, -e	discount / знижка
+die Raumhöhe, -n	room height / висота приміщення
+die Tragfähigkeit, -en	load capacity / вантажопідйомність, несуча здатність
+trotzdem	nevertheless, anyway / незважаючи на це, все ж
+überzeugend	convincing / переконливий
+die Wartung, -en	maintenance / технічне обслуговування
+das Bedienungsproblem, -e	operating problem, user error / проблема з експлуатацією / використанням
+etw. beheben (z. B. einen Fehler) (behebt, behob, hat behoben)	to fix, to resolve (an error) / усувати, виправляти (напр., помилку)
+etw. beseitigen	to eliminate, to remove / усувати, ліквідувати
+der Defekt, -e	defect, fault / дефект, несправність
+das Display, -s	display, screen / дисплей, екран
+einerseits ..., andererseits ...	on the one hand ..., on the other hand ... / з одного боку ..., з іншого боку ...
+die Einstellung, -en	setting / налаштування
+die Elektronik (Sg.)	electronics / електроніка
+etw. entkalken	to descale / очищати від накипу
+etw. erhitzen	to heat up / нагрівати
+etw. herunterladen (lädt herunter, lud herunter, hat heruntergeladen)	to download / завантажувати
+je ..., desto ...	the ..., the ... / чим ..., тим ...
+der Kaffeesatzbehälter, -	coffee grounds container / контейнер для кавової гущі
+die Mechanik (Sg.)	mechanics / механіка
+das Menü, -s	menu / меню
+etw. nachfüllen	to refill / поповнювати, доливати
+die Programmierung, -en	programming / програмування
+etw. reinigen	to clean / чистити
+die Reinigungstablette, -n	cleaning tablet / таблетка для чищення
+etw. säubern	to clean / очищати
+sowohl ... als auch ...	both ... and ... / як ..., так і ...
+etw. starten	to start, to boot / запускати
+der Stillstand (Sg.)	standstill, downtime / простій, зупинка
+die Störung, -en	fault, malfunction, disturbance / збій, несправність
+umgehend	immediately, promptly / негайно, терміново
+etw. verwenden	to use, to apply / використовувати
+etw. warten (z. B. eine Maschine)	to maintain / обслуговувати (технічно)
+zwar ..., aber ...	indeed ..., but ... / хоча й ..., але ...
+der (Drehmoment-)Schlüssel, -	(torque) wrench / (динамометричний) гайковий ключ
+etw. abmontieren	to dismantle, to remove / демонтувати, знімати
+der Aktionstag, -e	promotional day, action day / день акції / кампанії
+etw. anheben (hebt an, hob an, hat angehoben)	to lift, to raise / піднімати
+der Auszubildende, -n / die Auszubildende, -n	trainee, apprentice / стажер, учень
+die Autobatterie, -n	car battery / автомобільний акумулятор
+der Azubi, -s / die Azubi, -s	trainee, apprentice (short form) / стажер, учень (скорочено)
+die Bremsflüssigkeit (Sg.)	brake fluid / гальмівна рідина
+die Drahtbürste, -n	wire brush / дротяна щітка
+etw. eindrehen	to screw in / вкручувати
+etw. einfetten	to grease, to lubricate / змащувати (жиром/мастилом)
+etw. einfüllen	to fill in, to pour in / наливати, наповнювати
+etw. einlagern	to store / здавати на зберігання
+etw. erledigen	to complete, to get done / виконувати, залагоджувати
+etw. festdrehen	to tighten / закручувати, затягувати
+die Fettkreide, -n	wax crayon / воскова крейда
+das Frostschutzmittel, -	antifreeze / антифриз
+der Kratzer, -	scratch / подряпина
+Kunden aufrufen	to call customers / викликати клієнтів
+etw. lösen	to loosen, to solve / відкручувати (болт) / вирішувати (проблему)
+die Mutter, -n	nut (hardware) / гайка
+etw. nachfüllen	to refill / поповнювати, доливати
+der Ölstand (Sg.)	oil level / рівень масла
+etw. platzieren	to place, to position / розміщувати, розташовувати
+die Probefahrt, -en	test drive / тестова поїздка
+das Profil, -e	profile, tread / профіль, протектор шини
+die Rabattaktion, -en	discount campaign / акція зі знижками
+das Radkreuz, -e	wheel brace, lug wrench / балонний ключ
+die Radnabe, -n	wheel hub / маточина колеса
+der Reifendruck (Sg.)	tire pressure / тиск у шинах
+das Reifenprofil, -e	tire tread / протектор шини
+der Reifenwechsel, -	tire change / заміна шин
+der Schlagschrauber, -	impact wrench / ударний гайковерт
+die Schraube, -n	screw / гвинт, шуруп
+der Wagenheber, -	car jack / домкрат
+die Abgase (Pl.)	exhaust gases, emissions / вихлопні гази
+autonomes Fahren	autonomous driving / автономне водіння
+etw. befürworten	to support, to advocate / підтримувати, схвалювати
+das Carsharing (Sg.)	car sharing / каршерінг
+das Elektroauto, -s	electric car / електромобіль
+energieintensiv	energy-intensive / енергоємний
+etw. erschweren	to make difficult, to complicate / ускладнювати
+der Individualverkehr (Sg.)	private transport / приватний транспорт
+der Klimawandel (Sg.)	climate change / зміна клімату
+die Lärmbelästigung (Sg.)	noise pollution / шумове забруднення
+die Luftverschmutzung (Sg.)	air pollution / забруднення повітря
+die Mobilität (Sg.)	mobility / мобільність
+das Park-and-Ride-System (Sg.)	park and ride system / перехоплююча парковка
+die Selbstverständlichkeit (Sg.)	matter of course, given / само собою зрозуміле
+etw. sperren	to block, to lock / блокувати
+überflüssig	superfluous, unnecessary / зайвий, непотрібний
+etw. überlasten	to overload / перевантажувати
+umsteigen auf (+ Akk.) (steigt um, stieg um, ist umgestiegen)	to switch to, to change / пересідати, переходити (на інше)
+umweltfreundlich	environmentally friendly / екологічний
+der Verbrennungsmotor, -en	internal combustion engine / двигун внутрішнього згоряння
+das Verkehrsnetz, -e	transport network / транспортна мережа
+verzichten auf (+ Akk.)	to do without, to abstain from / відмовлятися від
+Vorrang haben	to have priority / мати пріоритет
+jdn. zwingen (zwingt, zwang, hat gezwungen)	to force, to compel / змушувати
+die Bedienbarkeit (Sg.)	usability, operability / зручність використання, юзабіліті
+etw./jdn. bedienen	to operate, to serve / обслуговувати, керувати
+benutzerfreundlich	user-friendly / зручний для користувача
+die Beseitigung (Sg.)	removal, elimination / усунення, ліквідація
+etw. betreiben	to operate, to run / експлуатувати, керувати
+die Checkliste, -n	checklist / чек-лист, контрольний список
+das Design, -s	design / дизайн
+effizient	efficient / ефективний
+etw. einstellen	to set, to adjust, to stop / налаштовувати, припиняти
+haltbar	durable, stable / міцний, довговічний
+die Haltbarkeit (Sg.)	durability, shelf life / довговічність, термін придатності
+das Image (Sg.)	image, reputation / імідж, репутація
+die Kundenbewertung, -en	customer review / відгук клієнта
+langlebig	long-lasting, durable / довговічний
+der Mangel, "-	defect, lack, shortage / недолік, дефект, нестача
+die Nachhaltigkeit (Sg.)	sustainability / стійкість, екологічність
+das Preis-Leistungs-Verhältnis, -se	price-performance ratio / співвідношення ціни та якості
+das Qualitätsmanagement (Sg.)	quality management / управління якістю
+das Qualitätsmerkmal, -e	quality feature / ознака якості
+die Qualitätssicherung (Sg.)	quality assurance (QA) / забезпечення якості
+die Pauschalreise, -n	package holiday / туристична путівка, пакетний тур
+das Regalbrett, -er	shelf board / полиця
+die Sägemaschine, -n	sawing machine / пиляльний верстат
+die Umweltfreundlichkeit (Sg.)	environmental friendliness / екологічність
+etw. vermeiden	to avoid / уникати
+wettbewerbsfähig	competitive / конкурентоспроможний
+der Zusammenbau (Sg.)	assembly / складання, монтаж
+etw. zusammenbauen	to assemble / збирати, монтувати
+die Zuverlässigkeit (Sg.)	reliability / надійність
+die Arbeitsfläche, -n	workspace, work surface / робоча поверхня
+etw. auslösen (z. B. Krankheiten)	to trigger (e.g. diseases) / викликати, провокувати
+die Bakterie, -n	bacterium / бактерія
+das Desinfektionsmittel, -	disinfectant / дезінфікуючий засіб
+etw. desinfizieren	to disinfect / дезінфікувати
+die Dienstkleidung, -en	workwear, uniform / робочий одяг, уніформа
+der Einmalhandschuh, -e	disposable glove / одноразова рукавичка
+etw./jdn. einseifen	to soap, to lather / намилювати
+das Fieberthermometer, -	clinical thermometer / медичний термометр
+der Fingernagel, "-	fingernail / ніготь
+fließendes Wasser	running water / проточна вода
+der Funktionsraum, "-e	utility room, functional room / технічне приміщення
+etw./jdn. gefährden	to endanger / наражати на небезпеку
+die Hygiene (Sg.)	hygiene / гігієна
+der Hygienebeauftragte, -n / die Hygienebeauftragte, -n	hygiene officer / відповідальний за гігієну
+der Hygieneplan, "-e	hygiene plan / план санітарних заходів
+die Infektion, -en	infection / інфекція
+etw. kontaminieren	to contaminate / забруднювати, заражати
+der Krankheitserreger, -	pathogen, germ / збудник хвороби
+die Pandemie, -n	pandemic / пандемія
+der Pflegebereich, -e	care sector / сфера догляду
+die Pflegekraft, "-e	nurse, caregiver / медпрацівник, доглядальник
+die Sanitäreinrichtung, -en	sanitary facility / санітарний вузол
+etw./jdn. schützen vor (+ Dat.)	to protect from / захищати від
+der Stuhl (Sg.)	stool (medical) / chair / випорожнення (мед.) / стілець
+die Übertragung, -en	transmission, transfer / передача (даних/інфекції)
+der Urin, -e	urine / сеча
+die Verbreitung, -en	spread, distribution / поширення
+etw. verhindern	to prevent / запобігати, перешкоджати
+das Virus, Viren	virus / вірус (комп'ютерний або біологічний)
+der Zwischenraum, "-e	gap, space between / проміжок, зазор
+angespannt	tense / напружений
+anregend	stimulating, inspiring / надихаючий, стимулюючий
+das Arbeitsklima (Sg.)	working atmosphere / робочий клімат
+die Atmosphäre (Sg.)	atmosphere / атмосфера
+Aufgaben erfüllen	to fulfill tasks / виконувати завдання
+ausführlich	detailed, extensive / детальний, докладний
+befreiend	liberating / визвольний, такий, що приносить полегшення
+etw./jdn. beurteilen	to assess, to judge / оцінювати, судити
+etw. bewerten	to evaluate, to rate / оцінювати
+ehrlich	honest(ly) / чесний
+einfühlsam	empathetic, sensitive / чуйний
+emotional	emotional / емоційний
+ernst	serious(ly) / серйозний
+etw. erreichen	to achieve, to reach / досягати
+etw. zur Diskussion stellen	to put up for discussion / винести на обговорення
+Feedback geben	to give feedback / давати зворотний зв'язок
+das Feedback, -s	feedback / зворотний зв'язок
+Fragen stellen	to ask questions / ставити запитання
+die Führungskraft, "-e	manager, executive / керівник
+die Gelegenheit ergreifen	to seize the opportunity / скористатися нагодою
+harmonisch	harmonious / гармонійний
+hitzig	heated (argument) / палкий, гарячий
+in Wut geraten	to fly into a rage, to get angry / розлютитися
+klärend	clarifying / прояснюючий
+kollegial	cooperative, collegial / товариський, колегіальний
+die Kooperationsfähigkeit (Sg.)	ability to cooperate / здатність до співпраці
+Kritik üben	to criticize / критикувати
+die Kundenorientierung (Sg.)	customer orientation / клієнтоорієнтованість
+locker	relaxed, casual / розслаблений, невимушений
+offen	open / відкритий
+Protokoll führen	to take minutes/notes / вести протокол
+die Rückmeldung, -en	feedback, response / відповідь, відгук
+Vereinbarungen treffen	to make agreements / укладати угоди, домовлятися
+das Verhalten (Sg.)	behavior / поведінка
+vertraulich	confidential / конфіденційний
+das Zielvereinbarungsgespräch, -e	target agreement discussion / розмова про встановлення цілей
+zur Sprache kommen	to come up for discussion / бути обговореним, підніматися (про питання)
+die (stationäre) Altenpflege (Sg.)	inpatient elder care / догляд за літніми людьми
+die Arbeitsbelastung, -en	workload / робоче навантаження
+etw. ausgleichen	to balance out, to compensate / урівноважувати, компенсувати
+etw. aushandeln	to negotiate / вести переговори, домовлятися
+belastend	burdensome, stressful / обтяжливий, стресовий
+berechtigt	justified, authorized / обґрунтований, виправданий
+die Betriebsvereinbarung, -en	company agreement / корпоративна угода
+etw. bewilligen	to approve, to grant / схвалювати, давати дозвіл
+destruktiv	destructive / деструктивний
+die Einschätzung, -en	assessment, evaluation / оцінка, думка
+sich einschleichen (z. B. ein Fehler hat sich eingeschlichen)	to creep in / закрадатися (напр., помилка)
+die Entlastung, -en	relief / розвантаження, полегшення
+die Fachkraft, "-e	skilled worker, professional / кваліфікований спеціаліст
+jdm. sind die Hände gebunden	one's hands are tied / руки зв'язані
+gehetzt	rushed, harried / загнаний, поспішний
+der Gesundheitsschutz (Sg.)	health protection / охорона здоров'я
+der Heimleiter, - / die Heimleiterin, -nen	care home manager / керівник інтернату
+die Leistungsgrenze (Sg.)	performance limit / межа продуктивності
+machtlos	powerless / безсилий
+die Mehrarbeit (Sg.)	extra work, overtime / наднормова робота
+peinlich	embarrassing / незручний, соромно
+der Personalmangel (Sg.)	staff shortage / нестача персоналу
+sachlich	objective, factual / об'єктивний
+der Tadel, -	reprimand, blame / догана, осуд
+jdm. etw. übel nehmen	to take offense at, to resent / ображатися на когось
+unangenehm	unpleasant / неприємний
+etw. verbergen (verbirgt, verbarg, hat verborgen)	to hide, to conceal / приховувати
+versehentlich	accidentally, by mistake / випадково
+etw./jdn. zurückweisen (weist zurück, wies zurück, hat zurückgewiesen)	to reject / відхиляти
+sich etw. abgewöhnen	to break the habit of / відвикати
+sich bemühen um (+ Akk.)	to strive for, to make an effort / намагатися, докладати зусиль
+die Beziehung, -en	relationship / відносини, зв'язок
+etw. erforschen	to research, to explore / досліджувати
+halten von (+ Dat.) (hält, hielt, hat gehalten)	to think of (an opinion) / бути якоїсь думки про щось
+die Ich-Botschaft, -en	"I" message / "я-повідомлення"
+klingen (klingt, klang, hat geklungen)	to sound / звучати
+nachgiebig	yielding, compliant / поступливий
+rotsehen (sieht rot, sah rot, hat rotgesehen)	to see red, to lose one's temper / розлютитися (побачити червоне)
+sanft	gentle, soft / м'який, ніжний
+schädlich für (+ Akk.)	harmful to / шкідливий для
+das Tabu, -s	taboo / табу
+ungewohnt	unusual, unfamiliar / незвичний
+verständnisvoll	understanding, sympathetic / тямущий, з розумінням
+wahnsinnig	crazy, insane(ly) / божевільний, неймовірно
+sich zurückziehen von (+ Dat.) (zieht zurück, zog zurück, hat zurückgezogen)	to withdraw from / відсторонятися, відступати
+der Ablauf, "-e	process, sequence / процес, хід
+etw. abwägen	to weigh up, to consider / зважувати, обмірковувати
+die Arbeitsbedingung, -en	working condition / умова праці
+der Aspekt, -e	aspect / аспект
+die Auftragsabwicklung, -en	order processing / обробка замовлення
+der Baustoff, -e	building material / будівельний матеріал
+etw./jdm. Beachtung schenken	to pay attention to / приділяти увагу
+etw. benötigen	to need, to require / потребувати
+etw. berücksichtigen	to consider, to take into account / враховувати
+etw. beschaffen	to procure, to obtain / діставати, закуповувати
+die Beschaffung (Sg.)	procurement / закупівля, придбання
+der Beschaffungsmarkt, "-e	procurement market / ринок закупівель
+die Bestandsaufnahme, -n	inventory, taking stock / інвентаризація, оцінка стану
+das CAD-Programm, -e	CAD program / САПР (система автоматизованого проектування)
+der Einfluss, "-e	influence / вплив
+Einfluss haben auf (+ Akk.)	to have an influence on / мати вплив на
+etw. einkalkulieren	to factor in, to take into account / враховувати (у розрахунках)
+erforderlich	required, necessary / необхідний
+die Fachmesse, -n	trade fair / спеціалізована виставка
+das Fertighaus, "-er	prefabricated house / збірний будинок
+die Fertighausfirma, -firmen	prefabricated house company / компанія-виробник збірних будинків
+das Gartengerät, -e	garden tool / садовий інструмент
+geeignet	suitable / підходящий, придатний
+global	global / глобальний
+die Globalisierung (Sg.)	globalization / глобалізація
+das Gut, "-er	good, commodity, asset / товар, майно
+der Konkurrenzdruck (Sg.)	competitive pressure / конкурентний тиск
+die Lagerkapazität, -en	storage capacity / місткість складу, ємність сховища
+die Liefersicherheit (Sg.)	delivery reliability, security of supply / надійність постачання
+massiv	massive(ly) / масивний, масштабний
+das Material, -ien	material / матеріал
+die Menge, -n	amount, quantity / кількість, обсяг
+die Produktionsunterbrechung, -en	production interruption, downtime / переривання виробництва, простій
+das Rohmaterial, -ien	raw material / сировина
+sorgen für (+ Akk.)	to ensure, to take care of / піклуватися про, забезпечувати
+das Steuerbüro, -s	tax consultancy/office / податкове бюро
+die Umweltpolitik (Sg.)	environmental policy / екологічна політика
+vertraut sein mit (+ Dat.)	to be familiar with / бути обізнаним з
+der Zeichentisch, -e	drawing board, drafting table / креслярський стіл
+die Zollbestimmung, -en	customs regulation / митне правило
+Angebote einholen	to get/obtain quotes / отримувати пропозиції (цінові)
+der Ansprechpartner, - / die Ansprechpartnerin, -nen	contact person / контактна особа
+jdn. auffordern	to request, to ask / закликати, вимагати
+aufmerksam machen auf (+ Akk.)	to draw attention to / звертати увагу на
+die Auftragsvergabe, -n	award of contract, order placement / розміщення замовлення, укладання контракту
+etw. ausrichten	to pass on (a message) / передавати (повідомлення)
+etw. entgegennehmen (nimmt entgegen, nahm entgegen, hat entgegengenommen)	to receive, to accept / приймати (замовлення, дзвінок)
+entscheidend	crucial, decisive / вирішальний
+jdn. hinweisen auf (+ Akk.)	to point out to / вказувати комусь на щось
+das Kriterium, Kriterien	criterion / критерій
+die Lieferfrist, -en	delivery deadline, time for delivery / термін доставки
+maßgeblich	significant, decisive / визначальний, істотний
+die Prokura (Sg.)	commercial power of attorney / довіреність (на право підпису)
+das Türschloss, "-er	door lock / дверний замок
+verbinden mit (+ Dat.)	to connect with / з'єднувати з
+verbindlich	binding, obligatory / обов'язковий (до виконання), зобов'язуючий
+jdn. verweisen auf (+ Akk.) (verweist, verwies, hat verwiesen)	to refer to / відсилати до (когось/чогось)
+der Wettbewerber, -	competitor / конкурент
+die Zusicherung, -en	assurance, guarantee / запевнення, гарантія
+der Abzug, "-e	deduction / відрахування, знижка
+der Akku, -s	battery / акумулятор
+ein Angebot unterbreiten	to submit an offer/quote / робити/надавати пропозицію
+etw. anlegen (z. B. einen Garten)	to create, to set up / створювати (напр. базу даних, обліковий запис)
+enthalten (enthält, enthielt, hat enthalten)	to contain, to include / містити в собі
+der Ersatzakku, -s	spare battery / запасний акумулятор
+der Erstauftrag, "-e	initial order / перше замовлення
+sich erweisen als (erweist sich, erwies sich, hat sich erwiesen)	to turn out to be, to prove to be / виявлятися (кимось/чимось)
+der Folgeauftrag, "-e	follow-up order / наступне/повторне замовлення
+die Funktionsfähigkeit (Sg.)	functionality, operability / функціональність, працездатність
+die Gebrauchsweise (Sg.)	method of use, instructions for use / спосіб використання
+die Gesamtbestellung (Sg.)	total order / загальне замовлення
+der Gesamtpreis, -e	total price / загальна вартість
+kostengünstig	cost-effective, cheap / вигідний за ціною, недорогий
+die Marktchancen (Pl.)	market opportunities / ринкові можливості
+nachteilig	disadvantageous, detrimental / невигідний, шкідливий
+optional	optional / опціональний, необов'язковий
+der Rabatt, -e	discount / знижка
+der Skonto (Sg.)	cash discount / сконто (знижка за швидку оплату)
+der Sonderpreis, -e	special price / спеціальна ціна
+standardmäßig	standard, by default / за замовчуванням, стандартно
+der Stückpreis, -e	unit price / ціна за штуку
+einen Termin einhalten (hält ein, hielt ein, hat eingehalten)	to meet a deadline / дотримуватися терміну
+üblicherweise	usually, typically / зазвичай
+die Versandkosten (Pl.)	shipping costs / вартість доставки
+vorteilig	advantageous, beneficial / вигідний, сприятливий
+die Zahlungsbedingungen (Pl.)	terms of payment / умови оплати
+die Zahlungsfrist, -en	payment deadline/period / строк оплати
+die Abnahme, -n	acceptance, approval / приймання (робіт), узгодження
+das Abnahmeprotokoll, -e	acceptance report/protocol / акт приймання-передачі
+etw. anschauen	to look at, to examine / дивитися, розглядати
+der Auftraggeber, - / die Auftraggeberin, -nen	client, principal, customer / замовник, клієнт
+etw. ausführen	to execute, to perform / виконувати
+die Bauabnahme, -n	building inspection/acceptance / приймання будівельного об'єкта
+der Bauherr, -en / die Bauherrin, -nen	building owner/client / забудовник, власник будівлі
+die Bauleistung, -en	construction work / будівельні роботи
+das Bauunternehmen, -	construction company / будівельна компанія
+bedauerlicherweise	unfortunately, regrettably / на жаль
+etw. beseitigen	to eliminate, to fix / усувати
+die Beseitigung (Sg.)	removal, resolution / усунення
+der Eigentümer, - / die Eigentümerin, -nen	owner / власник
+die Einweisung, -en	instruction, briefing / інструктаж
+etw. fertigstellen	to complete, to finish / завершувати
+die Fußleiste, -n	baseboard, skirting board / плінтус
+die Gewährleistungsfrist, -en	warranty period / гарантійний термін
+die Kleinigkeit, -en	small detail, minor matter / дрібниця
+lediglich	merely, only / лише, тільки
+machbar	feasible, doable / здійсненний, можливий
+der Mangel, "-	defect, flaw / недолік, дефект
+die Nacharbeiten (Pl.)	rework, touch-ups / доопрацювання
+die Nachbesserung, -en	rectification of defects, improvement / виправлення (помилок), доопрацювання
+der Personalengpass, "-e	staff shortage / нестача персоналу
+die Pflicht, -en	duty, obligation / обов'язок
+das Prüfstück, -e	test piece, sample / дослідний зразок, тестовий екземпляр
+in der Regel	usually, as a rule / зазвичай, як правило
+das Übergabeprotokoll, -e	handover protocol / акт передачі
+unverzüglich	immediately, without delay / негайно, без зволікань
+die Verzögerung, -en	delay / затримка
+zeitnah	promptly, in a timely manner / своєчасно, найближчим часом
+zufriedenstellend	satisfactory / задовільний
+die Abmahnung, -en	warning, reprimand (written) / попередження, догана
+akzeptabel	acceptable / прийнятний
+die Bewertung, -en	evaluation, review, rating / оцінка, відгук
+eine Dienstleistung erbringen (erbringt, erbrachte, hat erbracht)	to provide a service / надавати послугу
+erwünscht	desired, welcome / бажаний
+fällig werden	to become due (for payment) / підлягати сплаті, настати (про термін)
+permanent	permanent(ly) / постійний, перманентний
+eine Rolle spielen	to play a role/part / відігравати роль
+der Schadenersatz (Sg.)	compensation for damages / відшкодування збитків
+tolerant	tolerant / толерантний
+zum guten Ton gehören	to be good manners/etiquette / бути правилом хорошого тону
+etw. abschalten	to switch off, to shut down / вимикати, відключати
+anfallen (fällt an, fiel an, ist angefallen)	to arise, to be incurred / виникати (про витрати або роботу)
+die Aufnahme, -n	recording, picture, admission / знімок, запис, прийом
+begeistert	enthusiastic, excited / у захваті, натхненний
+etw. beheben (z. B. einen Fehler)	to fix, to resolve / усувати, виправляти (напр., помилку)
+etw. beschädigen	to damage / пошкоджувати
+der Dienstleister, - / die Dienstleisterin, -nen	service provider / постачальник послуг, підрядник
+das Display, -s	display, screen / дисплей, екран
+etw. einstellen	to stop, to adjust / припиняти, налаштовувати
+das Elektronikmodul, -e	electronic module / електронний модуль
+etw. erkennen (erkennt, erkannte, hat erkannt)	to recognize, to detect / розпізнавати, виявляти
+erscheinen (erscheint, erschien, ist erschienen)	to appear / з'являтися
+das Fachgeschäft, -e	specialist shop / спеціалізований магазин
+fehlerhaft	faulty, defective, buggy / помилковий, дефектний
+den Geist aufgeben	to give up the ghost, to break down / наказати довго жити, зламатися
+glücklicherweise	fortunately, luckily / на щастя
+die Großwäscherei, -en	large-scale laundry / велика пральня
+die Herstellerfirma, -firmen	manufacturing company / компанія-виробник
+jdn. konfrontieren mit (+ Dat.)	to confront someone with / зіштовхувати когось із, пред'являти
+lieferbar	available, deliverable / доступний для доставки, в наявності
+der Mangel, "-	defect, flaw, shortage / дефект, недолік, нестача
+das Modul, -e	module / модуль
+der Monteur, -e / die Monteurin, -nen	mechanic, fitter, installer / монтажник, механік
+etw. nachbestellen	to reorder / дозамовляти
+ein Problem beheben	to fix/resolve a problem / вирішити проблему
+der Retourenschein, -e	return slip / бланк повернення
+die Serviceleistung, -en	service / сервісна послуга
+die Textilie, -n	textile / текстиль, тканина
+umsonst	free of charge, in vain / безкоштовно, даремно
+etw. verfärben	to discolor / змінювати колір, забарвлювати
+etw. versalzen	to oversalt / пересолити
+sich verspäten	to be late, to be delayed / запізнюватися, затримуватися
+jdm. etw. versprechen (verspricht, versprach, hat versprochen)	to promise someone something / обіцяти комусь щось
+etw. zerbrechen (zerbricht, zerbrach, hat zerbrochen)	to break, to shatter / розбивати
+etw. zerkratzen	to scratch / подряпати
+etw. zerreißen (zerreißt, zerriss, hat zerrissen)	to tear, to rip / розривати
+Abhilfe schaffen	to remedy, to fix a problem / зарадити, усунути проблему
+allerdings	however, indeed / однак, щоправда
+etw. bedauern	to regret / шкодувати про щось
+zu unserem Bedauern	to our regret / на наш жаль
+etw. bestätigen	to confirm / підтверджувати
+die Dunstabzugshaube, -n	extractor hood / витяжка (кухонна)
+eintreffen (trifft ein, traf ein, ist eingetroffen)	to arrive / прибувати, надходити
+der Eingang, "-e	receipt, arrival, entrance / надходження, вхід
+den Eingang bestätigen	to confirm receipt / підтвердити отримання
+die Flamme, -n	flame / полум'я
+der Gefrierschrank, "-e	freezer / морозильна камера
+sich herausstellen	to turn out / з'ясовуватися, виявлятися
+der Lieferschein, -e	delivery note / накладна (на доставку)
+etw. nachliefern	to deliver later, to supply subsequently / допоставити, доставити пізніше
+umgehend	immediately, promptly / негайно, терміново
+verfügbar	available / доступний
+das Versehen, -	mistake, oversight, accident / помилка, недогляд
+die Warenkontrolle, -n	goods inspection / перевірка товару
+die Anfahrt, -en	journey, approach (driving) / проїзд, дорога (до місця)
+die Anschaffung, -en	purchase, acquisition / придбання, покупка
+der Aufpreis, -e	surcharge, extra charge / доплата
+ausgehen von (+ Dat.) (geht aus, ging aus, ist ausgegangen)	to assume, to proceed from / виходити з (припущення)
+etw. beinhalten	to contain, to include / містити, охоплювати
+etw. beseitigen	to eliminate, to fix / усувати, ліквідувати
+die Beteiligung, -en	participation, share / участь, частка
+defekt	defective, broken / несправний, дефектний
+erfolgen	to take place, to occur / відбуватися, здійснюватися
+der Fehlercode, -s	error code / код помилки
+die Frachtkosten (Pl.)	freight costs, shipping costs / витрати на перевезення
+freiwillig	voluntary / добровільно
+die Garantie, -n	guarantee, warranty / гарантія
+die Garantieverlängerung, -en	warranty extension / продовження гарантії
+gesetzlich	legal, statutory / законний, законодавчий
+die Gesprächsnotiz, -en	memo, discussion note / запис бесіди, нотатка
+gewährleisten	to guarantee, to ensure / гарантувати, забезпечувати
+die Gewährleistung, -en	warranty, guarantee (statutory) / гарантійне зобов'язання (за законом)
+der Händler, - / die Händlerin, -nen	dealer, retailer, trader / продавець, дилер
+die Herstellergarantie, -n	manufacturer's warranty / гарантія від виробника
+der Kaufzeitpunkt, -e	time of purchase / момент покупки
+Kosten übernehmen (übernimmt, übernahm, hat übernommen)	to bear the costs / брати на себе витрати
+kulant	accommodating, fair, obliging / поступливий, такий, що йде назустріч
+der Kundenservice, -s	customer service / служба підтримки клієнтів
+die Mängelbeseitigung, -en	rectification of defects / усунення недоліків
+das Missverständnis, -se	misunderstanding / непорозуміння
+etw. nachweisen (weist nach, wies nach, hat nachgewiesen)	to prove, to demonstrate / доводити, підтверджувати
+der Nachweis, -e	proof, evidence / доказ, підтвердження
+ordnungsgemäß	proper, correct(ly) / належним чином, правильно
+etw. reklamieren	to complain, to claim / рекламувати, пред'являти претензію
+verantwortlich für (+ Akk.)	responsible for / відповідальний за
+die Verlängerung, -en	extension / продовження, подовження
+jdm. etw. versichern	to assure someone of something / запевняти когось у чомусь
+der Zustand (Sg.)	state, condition / стан
+die Abrechnungssoftware, -s	billing software, accounting software / програмне забезпечення для розрахунків / бухгалтерії
+der Ansprechpartner, - / die Ansprechpartnerin, -nen	contact person / контактна особа
+der Außendienst (Sg.)	field service, sales force / служба зовнішніх продажів / роботи з клієнтами
+der Außendienstmitarbeiter, - / die Außendienstmitarbeiterin, -nen	field representative / співробітник, що працює на виїзді
+der Betriebsarzt, "-e / die Betriebsärztin, -nen	company doctor / лікар на підприємстві
+dazwischenkommen (kommt dazwischen, kam dazwischen, ist dazwischengekommen)	to intervene, to come up unexpectedly / втрутитися, виникнути непередбачено
+firmenintern	internal to the company, in-house / всередині компанії, внутрішньокорпоративний
+das Firmenjubiläum, -jubiläen	company anniversary / ювілей компанії
+die Grippeimpfung, -en	flu vaccination / щеплення від грипу
+hundertjährig	hundred-year-old, centennial / столітній
+das Intranet (Sg.)	intranet / інтранет, внутрішня мережа
+etw. wahrnehmen (z. B. einen Termin) (nimmt wahr, nahm wahr, hat wahrgenommen)	to attend (an appointment) / використовувати, з'явитися (на зустріч)
+amüsant	amusing, entertaining / кумедний, розважальний
+berechtigt	justified, legitimate / обґрунтований, виправданий
+die Entschädigung, -en	compensation / компенсація, відшкодування
+die Enttäuschung, -en	disappointment / розчарування
+die Erstattung, -en	refund, reimbursement / відшкодування, повернення грошей
+etw. einhalten (hält ein, hielt ein, hat eingehalten)	to comply with, to keep (e.g. deadlines) / дотримуватися (правил, термінів)
+in jedem Fall	in any case, definitely / у будь-якому випадку
+generell	general(ly), in general / загалом, як правило
+klagen über (+ Akk.)	to complain about / скаржитися на
+die Meckerei (Sg.)	complaining, grumbling / постійні скарги, бурчання
+offensichtlich	obvious(ly), apparent(ly) / очевидний, явний
+der Pauschalurlaub, -e	package holiday / пакетний тур
+der Reiseveranstalter, -	tour operator / туроператор
+der Schadenersatz (Sg.)	damages, compensation / відшкодування збитків
+Schadenersatz leisten	to pay compensation for damages / відшкодовувати збитки
+jdn. verklagen	to sue / подавати в суд на когось
+etw. verlangen	to demand, to require / вимагати
+das Anliegen, -	request, concern, matter / прохання, справа, питання
+der Arbeitsspeicher, -	RAM, main memory / оперативна пам'ять (RAM)
+etw. ausstatten	to equip, to furnish / обладнувати, оснащувати
+etw. ausstellen	to exhibit, to display / виставляти (на виставці)
+die Automobilausstellung, -en	motor show, car exhibition / автомобільна виставка
+die Bildungsmesse, -n	education fair / освітня виставка
+die Buchmesse, -n	book fair / книжковий ярмарок
+die Einrichtungsmesse, -n	interior design fair, furniture fair / виставка інтер'єру / меблів
+die Fachmesse, -n	trade fair, specialized exhibition / спеціалізована виставка
+die Fachveranstaltung, -en	professional event, symposium / фаховий захід
+die Festplattengröße, -n	hard drive size/capacity / об'єм жорсткого диска
+der Gesprächsinhalt, -e	content of conversation / зміст розмови
+informativ	informative / інформативний
+die Innovation, -en	innovation / інновація
+etw. konfigurieren	to configure, to set up / налаштовувати, конфігурувати
+leistungsfähig	powerful, efficient / потужний, продуктивний
+leistungsstark	high-performance, powerful / високопродуктивний
+die Messegesprächsnotiz, -en	trade fair discussion note / нотатка про розмову на виставці
+die Messeteilnahme (Sg.)	participation in a trade fair / участь у виставці
+mittelständisch	medium-sized / середній (про бізнес)
+die Publikumsmesse, -n	public fair, consumer exhibition / виставка для широкої публіки
+die Tourismusbörse, -n	tourism exchange/fair / туристична біржа/виставка
+der Umsatz, "-e	revenue, sales, turnover / оборот, виручка, обсяг продажів
+variabel	variable, adjustable / змінний, варіативний
+etw. abrufen	to fetch, to retrieve, to call up / робити запит, викликати, отримувати (дані)
+abwechslungsreich	varied, diverse / різноманітний
+angeblich	allegedly, supposedly / нібито, ймовірно
+ansprechbar	responsive, approachable / доступний для спілкування, чуйний
+etw. auszeichnen	to award, to distinguish / відзначати, нагороджувати
+der Band, "-e	volume (book) / том (книги)
+die Bedienbarkeit (Sg.)	usability, operability / зручність використання, юзабіліті
+das Begleitprogramm, -e	supporting program / супровідна програма
+etw. behaupten	to claim, to assert / стверджувати
+dynamisch	dynamic / динамічний
+etw. einbeziehen	to include, to integrate / залучати, включати
+etw. einsetzen	to deploy, to use, to employ / застосовувати, впроваджувати
+etw. erweitern	to expand, to extend / розширювати
+das Experiment, -e	experiment / експеримент
+der Fachberater, - / die Fachberaterin, -nen	specialist consultant / фахівець-консультант, експерт
+das Fachwissen (Sg.)	expertise, expert knowledge / професійні знання, експертиза
+fundiert	profound, well-founded, sound / ґрунтовний, глибокий
+das Gerücht, -e	rumor / чутка
+individuell	individual, custom / індивідуальний, кастомний
+die Jugendsozialarbeit (Sg.)	youth social work / молодіжна соціальна робота
+die Komponente, -n	component / компонент
+das Lehrwerk, -e	textbook, coursebook / підручник, навчальний посібник
+die Lernhilfe, -n	study aid / навчальний посібник
+die Lernplattform, -en	learning platform / навчальна платформа
+die Messepräsentation, -en	trade fair presentation / презентація на виставці
+Multimedia-Inhalte (Pl.)	multimedia content / мультимедійний контент
+die Neuerscheinung, -en	new release, new publication / новинка, нове видання
+sich orientieren an (+ Dat.)	to orient oneself by, to follow / орієнтуватися на
+die Schulform, -en	type of school / тип школи
+der Überblick, -e	overview / огляд, уявлення, загальна картина
+überwiegend	predominantly, mostly / переважно
+sich verbessern	to improve / покращуватися, вдосконалюватися
+der Verlag, -e	publisher / видавництво
+der Vortrag, "-e	lecture, presentation, talk / доповідь, лекція
+das Wissen (Sg.)	knowledge / знання
+der Workshop, -s	workshop / воркшоп, майстер-клас
+die Anforderung, -en	requirement, demand / вимога
+die Arbeitsbelastung (Sg.)	workload / робоче навантаження
+die Beschreibung, -en	description / опис
+der Bildungsbereich, -e	education sector / сфера освіти
+die Digitalisierung (Sg.)	digitalization / цифровізація
+etw. erfüllen (z. B. Anforderungen)	to meet, to fulfill (e.g. requirements) / виконувати, задовольняти (напр., вимоги)
+die Geschäftsidee, -n	business idea / бізнес-ідея
+gut tun	to do good, to be beneficial / робити добро, йти на користь
+etw. investieren	to invest / інвестувати, вкладати
+die Revolution, -en	revolution / революція
+die Weisung, -en	instruction, directive / вказівка, інструкція
+die Anwendung, -en	application / застосунок, додаток (IT)
+ausgeprägt	distinct, pronounced, strong / виражений, характерний, сильний
+das Bankdarlehen, -	bank loan / банківська позика
+das Bedürfnis, -se	need, requirement / потреба
+Bedürfnisse erfüllen	to fulfill needs / задовольняти потреби
+benutzerfreundlich	user-friendly / зручний для користувача, зрозумілий
+der Bildungsverlag, -e	educational publisher / навчальне видавництво
+die Branchenkenntnis, -se	industry knowledge / знання галузі
+der Businessplan, "-e	business plan / бізнес-план
+das Darlehen, -	loan / позика, кредит
+das Eigenkapital (Sg.)	equity, own capital / власний капітал
+erfolgsversprechend	promising / багатообіцяючий, перспективний
+der Finanzplan, "-e	financial plan / фінансовий план
+die Fixkosten (Pl.)	fixed costs / постійні витрати
+geschäftsführend	managing, executive / керуючий
+das Geschäftsprofil, -e	business profile / бізнес-профіль
+der Gesellschafter, - / die Gesellschafterin, -nen	partner, shareholder / засновник, партнер, акціонер
+die GmbH, -s	LLC (Limited Liability Company) / ТОВ (товариство з обмеженою відповідальністю)
+die Investitionskosten (Pl.)	investment costs / інвестиційні витрати
+etw. integrieren	to integrate / інтегрувати, впроваджувати
+das Know-how (Sg.)	know-how, expertise / ноу-хау, практичні знання
+kompetent	competent, capable / компетентний
+das Konkurrenzunternehmen, -	competing company / компанія-конкурент
+die Kredithöhe, -n	loan amount / сума кредиту
+die Laufzeit, -en	runtime, duration, term / час виконання (IT), термін дії (контракту)
+die Ratenzahlung, -en	installment payment / оплата частинами
+etw. realisieren	to realize, to implement / реалізувати, впроваджувати
+die Rechtsform, -en	legal form / правова форма (підприємства)
+die Schufa-Auskunft, "-e	credit report (Schufa) / кредитна історія (Schufa в Німеччині)
+das Sprachtraining, -s	language training / мовний тренінг
+der Support, -s	support / підтримка, сапорт (IT)
+die Tilgung, -en	repayment, amortization / погашення (боргу/кредиту)
+umfassend	comprehensive, extensive / комплексний, всеосяжний
+die Umsetzung, -en	implementation, execution / реалізація, впровадження
+sich verschärfen	to intensify, to worsen / загострюватися
+vielfältig	diverse, varied / різноманітний
+der Wettbewerb (Sg.)	competition / конкуренція
+die Zielgruppe, -n	target audience/group / цільова аудиторія
+belanglos	irrelevant, trivial / незначний, неважливий
+Beziehungen pflegen	to cultivate relationships / підтримувати стосунки
+der Einstieg (Sg.)	entry, start / вступ, початок, старт
+der Eisbrecher (Sg.)	icebreaker / криголам (тема для початку розмови)
+geeignet sein für (+ Akk.)	to be suitable for / бути придатним для
+(miteinander) ins Gespräch kommen	to strike up a conversation / розговоритися, зав'язати розмову
+Kontakte knüpfen	to establish contacts, to network / встановлювати контакти (нетворкінг)
+oberflächlich	superficial / поверхневий
+offene Fragen	open questions / відкриті питання
+plaudern	to chat / базікати, спілкуватися
+das Plaudern (Sg.)	chatting / балаканина
+das Tabuthema, -themen	taboo subject / тема-табу, заборонена тема
+das Umfeld (Sg.)	environment / середовище, оточення
+etw. vermeiden	to avoid / уникати
+etw. vertiefen	to deepen / поглиблювати
+zwanglos	casual, informal, relaxed / невимушений, розслаблений
+ablaufen (läuft ab, lief ab, ist abgelaufen)	to expire, to run out / закінчуватися, закінчувати термін дії
+angesichts (+ Gen.)	in view of, given / зважаючи на, з огляду на
+die Arbeitsleistung, -en	work performance / результативність праці, виконана робота
+aufgrund (+ Gen.)	due to, because of / через, на підставі
+der Ausbildungsvertrag, "-e	training contract / договір на професійне навчання
+befristet	fixed-term, temporary / строковий (договір), тимчасовий
+der Berufsalltag (Sg.)	everyday working life / професійні будні
+dank (+ Gen.)	thanks to / завдяки
+der Einblick, -e	insight, glimpse / уявлення, ознайомлення
+etw. erbringen (erbringt, erbrachte, hat erbracht)	to provide, to perform / надавати, виконувати
+gültig	valid / дійсний
+infolge (+ Gen.)	as a result of, due to / внаслідок, через
+die Institution, -en	institution / установа, інституція
+der Mindestlohn, "-e	minimum wage / мінімальна зарплата
+der Minijob, -s	marginal employment, mini-job / мініджоб (робота на неповний день до певної суми)
+der Praktikumsvertrag, "-e	internship contract / договір на проходження практики
+der Renteneintritt (Sg.)	retirement / вихід на пенсію
+der Teilzeitarbeitsvertrag, "-e	part-time employment contract / договір про неповний робочий час
+etw. übersteigen (übersteigt, überstieg, hat überstiegen)	to exceed / перевищувати
+unbefristet	permanent, unlimited / безстроковий
+sich verpflichten zu (+ Dat.)	to commit oneself to / зобов'язуватися
+wegen (+ Gen.)	because of / через
+der Werkvertrag, "-e	contract for work/services / договір підряду
+der Zeitaufwand (Sg.)	expenditure of time / витрати часу
+die Abmahnung, -en	warning, reprimand / попередження, догана
+der Arbeitskampf, "-e	labor dispute, strike / трудовий конфлікт, страйк
+die Belegschaft, -en	workforce, staff / колектив, персонал
+die Berufsgruppe, -n	occupational group / професійна група
+bestehen aus (+ Dat.) (besteht, bestand, hat bestanden)	to consist of / складатися з
+das Betriebsratsmitglied, -er	works council member / член виробничої ради
+die Betriebsratswahl, -en	works council election / вибори виробничої ради
+die Betriebsverlegung, -en	relocation of the company / перенесення підприємства (в інше місце)
+die Betriebsversammlung, -en	works meeting, staff meeting / загальні збори працівників
+die Elternzeit, -en	parental leave / декретна відпустка (для обох батьків)
+das Erscheinen (Sg.)	appearance, attendance / присутність, явка
+fair	fair / справедливий
+die Geschäftsführung, -en	management, executive board / керівництво компанії, дирекція
+die Gewerkschaft, -en	trade union / профспілка
+das Gremium, Gremien	committee, board / комітет, комісія
+die Interessenvertretung, -en	representation of interests / представництво інтересів
+mitbestimmen	to have a say, to co-determine / мати право голосу, брати участь у вирішенні
+die Mitbestimmung, -en	co-determination, worker participation / участь працівників в управлінні
+nachvollziehbar	comprehensible, understandable / зрозумілий, логічний
+der Schritt, -e	step / крок
+der Sozialplan, "-e	social compensation plan / соціальний план (при скороченнях)
+der Tätigkeitsbericht, -e	activity report / звіт про діяльність
+die Teilzeitkraft, "-e	part-time employee / працівник на неповний робочий день
+etw. vergüten	to remunerate, to pay / оплачувати, винагороджувати
+verhandeln	to negotiate / вести переговори
+etw. verhindern	to prevent / запобігати, перешкоджати
+etw. verlegen	to relocate, to misplace / переносити (в інше місце)
+verständlich	understandable / зрозумілий
+etw./jdn. vertreten (vertritt, vertrat, hat vertreten)	to represent, to replace / представляти, заміняти (когось)
+die Werkhalle, -n	factory hall, workshop / цех, виробниче приміщення
+die Abfindung, -en	severance pay / вихідна допомога
+der Abfindungsanspruch, "-e	entitlement to severance pay / право на вихідну допомогу
+die Alternative, -n	alternative / альтернатива
+etw./jdn. anhören	to listen to, to hear / вислухати
+die Anstellung, -en	employment / працевлаштування, посада
+die Arbeitsagentur, -en	employment agency / центр зайнятості
+das Arbeitsgericht, -e	labor court / суд у трудових справах
+das Arbeitslosengeld, -er (ALG)	unemployment benefit / допомога по безробіттю
+der Arbeitsplatzverlust (Sg.)	loss of job / втрата робочого місця
+arbeitssuchend	looking for work, job-seeking / який шукає роботу
+das Arbeitsverhältnis, -se	employment relationship / трудові відносини
+ausgehen von (+ Dat.) (geht aus, ging aus, ist ausgegangen)	to assume, to expect / виходити з (припущення)
+etw. auslagern	to outsource / віддавати на аутсорс
+etw. beanspruchen	to claim, to require / претендувати на, потребувати
+die Berechnung, -en	calculation / розрахунок, обчислення
+betriebsbedingt	for operational reasons / зумовлений виробничою необхідністю
+etw. einbringen (z. B. Kenntnisse)	to bring in, to contribute / робити внесок, привносити (напр., знання)
+die Eingliederung, -en	integration, inclusion / інтеграція, включення (в колектив)
+die Einhaltung (Sg.)	compliance, observance / дотримання
+endgültig	final(ly), definitive(ly) / остаточний, остаточно
+führen zu (+ Dat.)	to lead to, to result in / призводити до
+die Klage, -n	lawsuit, complaint / судовий позов, скарга
+die Klagefrist, -en	deadline for filing a suit / термін подання позову
+eine Klage einreichen	to file a lawsuit / подати позов
+eine Klage erheben	to file a lawsuit, to sue / подати в суд, пред'явити позов
+die Kündigungsfrist, -en	notice period / строк попередження про звільнення
+das Kündigungsschreiben, -	notice of termination / лист про звільнення
+möglicherweise	possibly / можливо
+die Schließung, -en	closure / закриття
+die Sperrzeit, -en	blocking period (for benefits) / період блокування (виплат)
+der Umbruch, "-e	upheaval, radical change / перелом, радикальна зміна
+sich verbessern	to improve / покращуватися
+vermutlich	probably, presumably / ймовірно
+der Verstoß, "-e	violation, breach / порушення
+verstreichen (verstreicht, verstrich, ist verstrichen)	to elapse, to pass (time) / минати, спливати (про час)
+wahrscheinlich	probably, likely / ймовірно, швидше за все
+wegfallen (fällt weg, fiel weg, ist weggefallen)	to be dropped, to cease to exist / відпадати, скасовуватися
+sich wehren gegen (+ Akk.)	to defend oneself against / захищатися від
+weiterhin	still, furthermore / і надалі, як і раніше
+jdn. zwingen (zwingt, zwang, hat gezwungen)	to force, to compel / змушувати
+die Abwesenheit, -en	absence / відсутність
+die Altersgrenze, -n	age limit / вікове обмеження
+die Arbeitsunfähigkeit (Sg.)	inability to work, incapacity for work / непрацездатність
+die Arbeitsunfähigkeitsbescheinigung, -en	sick note, medical certificate / довідка про непрацездатність (лікарняний)
+die Arbeitsvergütung, -en	remuneration, pay / оплата праці
+das Arbeitsverhältnis, -se	employment relationship / трудові відносини
+etw. beeinträchtigen	to affect, to impair / шкодити, негативно впливати
+die Bruttovergütung, -en	gross remuneration / оплата брутто (до відрахування податків)
+jdn. einstellen	to hire, to employ / наймати на роботу
+die Einwilligung erteilen	to give consent / давати згоду
+die Entgeltfortzahlung, -en	continued payment of wages (during illness) / збереження заробітної плати (під час хвороби)
+etw. erreichen	to achieve, to reach / досягати
+das Geheimnis, -se	secret / таємниця, секрет
+das Geschäftsgeheimnis, -se	trade secret / комерційна таємниця
+gesetzlich	legal, statutory / встановлений законом
+gesondert	separate(ly) / окремо
+jdm. etw. gewähren	to grant sb. sth. / надавати (дозвіл, доступ)
+die Kernarbeitszeit, -en	core working hours / основний робочий час (обов'язкова присутність)
+der Mindesturlaub (Sg.)	minimum vacation / мінімальна відпустка
+die Nebentätigkeit, -en	secondary employment, side job / додаткова робота, підробіток
+der Paragraf, -en	paragraph, section / параграф, пункт (договору)
+die Probezeit, -en	probationary period / випробувальний термін
+das Stillschweigen (Sg.)	silence, confidentiality / мовчання, конфіденційність
+Stillschweigen bewahren	to maintain silence/confidentiality / зберігати мовчання / таємницю
+etw. verlangen	to demand, to require / вимагати
+die Verschwiegenheitspflicht (Sg.)	duty of confidentiality (NDA) / обов'язок зберігати конфіденційність (NDA)
+verstoßen gegen (+ Akk.) (verstößt, verstieß, hat verstoßen)	to violate / порушувати
+das Weihnachtsgeld (Sg.)	Christmas bonus / різдвяна премія
+der Anlass, "-e	occasion, reason / привід, нагода
+ausdrücklich	explicit(ly) / явно, категорично
+die Ausnahme, -n	exception / виняток
+der Bürgersteig, -e	pavement, sidewalk / тротуар
+etw. entfernen	to remove / видаляти, усувати
+etw. erhalten (erhält, erhielt, hat erhalten)	to preserve, to maintain, to receive / зберігати, підтримувати, отримувати
+etw. erlauben	to allow, to permit / дозволяти
+der Gemeinschaftsraum, "-e	common room, lounge / кімната відпочинку (для всіх)
+etw. gestatten	to permit, to allow / дозволяти
+grundsätzlich	fundamentally, in principle / в принципі, принципово
+die Hausordnung, -en	house rules / правила внутрішнього розпорядку
+herumlaufen (läuft herum, lief herum, ist herumgelaufen)	to walk around / бігати/ходити навколо
+die Holzkohle, -n	charcoal / деревне вугілля
+die Pflicht, -en	duty, obligation / обов'язок
+Rechte und Pflichten (Pl.)	rights and duties / права та обов'язки
+die Rücksicht (Sg.)	consideration, thoughtfulness / повага, увага (до інших)
+Rücksicht nehmen auf (+ Akk.)	to be considerate of / зважати на, з повагою ставитися до
+rücksichtsvoll	considerate, thoughtful / уважний, тактовний
+sich wohlfühlen	to feel comfortable / почуватися добре / комфортно
+die Tierhaltung (Sg.)	keeping of animals / утримання тварин
+umgehend	immediately, promptly / негайно
+jdm. etw. untersagen	to prohibit, to forbid / забороняти
+die Verunreinigung, -en	contamination, pollution / забруднення
+der Zugangsweg, -e	access path, entrance / шлях доступу
+der Zustand, "-e	condition, state / стан
+die Zustimmung (Sg.)	approval, consent / згода, схвалення
+etw./jdn. absichern	to secure, to insure / забезпечувати, страхувати
+die Absicherung, -en	security, safeguard, insurance / забезпечення, гарантія
+angewiesen auf (+ Akk.)	dependent on / залежний від
+der Anspruch, "-e	claim, right / претензія, право
+das Arbeitslosengeld (Sg.)	unemployment benefit / допомога по безробіттю
+die Arbeitslosenversicherung, -en	unemployment insurance / страхування на випадок безробіття
+der Ausgleich (Sg.)	balance, compensation / баланс, компенсація
+der Beamte, -n / die Beamtin, -nen	civil servant / державний службовець
+etw. beantragen	to apply for / подавати заяву на
+sich begeben (begibt sich, begab sich, hat sich begeben)	to go, to proceed / відправлятися, йти
+die Beihilfe, -n	aid, subsidy / допомога, субсидія
+die Betriebsrente, -n	company pension / корпоративна пенсія
+etw. bewilligen	to approve, to grant / затверджувати, давати дозвіл
+der Bürger, - / die Bürgerin, -nen	citizen / громадянин
+das Elterngeld (Sg.)	parental allowance / допомога на дитину (для батьків у декреті)
+das Existenzminimum (Sg.)	subsistence level / прожитковий мінімум
+die Grundsicherung (Sg.)	basic social security / базове соціальне забезпечення
+der Jahresverdienst, -e	annual earnings / річний дохід
+das Kindergeld (Sg.)	child benefit / допомога на дитину
+das Krankengeld (Sg.)	sick pay / допомога по хворобі
+die Krankenversicherung, -en	health insurance / медичне страхування
+die Leistung, -en	performance, benefit / продуктивність, виплата
+das Nettoeinkommen, -	net income / чистий дохід (нетто)
+oberhalb (+ Gen.)	above / вище, над
+die Pension, -en	pension (for civil servants) / пенсія (для держслужбовців)
+das Pflegegeld (Sg.)	long-term care allowance / допомога по догляду
+die Pflegeversicherung, -en	long-term care insurance / страхування на випадок потреби в догляді
+die Pflichtversicherung, -en	compulsory insurance / обов'язкове страхування
+die Rente, -n	pension / пенсія
+das Rentenalter (Sg.)	retirement age / пенсійний вік
+die Rentenversicherung, -en	pension insurance / пенсійне страхування
+der Sonderstatus (Sg.)	special status / особливий статус
+sozial	social / соціальний
+die Sozialhilfe (Sg.)	social assistance, welfare / соціальна допомога
+der Sozialstaat, -en	welfare state / соціальна держава
+die Sozialversicherung, -en	social security / соціальне страхування
+unterhalb (+ Gen.)	below / нижче, під
+etw. vorlegen	to submit, to present / надавати, пред'являти
+das Wohngeld (Sg.)	housing allowance / допомога на оплату житла
+die Abgabe, -n	tax, duty, submission / податок, збір, здача
+alleinerziehend	single parent / який виховує дитину сам
+der Arbeitgeberanteil (Sg.)	employer's contribution / частка роботодавця (у страхуванні)
+ausmachen	to amount to, to turn off / складати (суму), вимикати
+der Auszahlungsbetrag, "-e	payout amount, net amount / сума до виплати
+der Beitrag, "-e	contribution, post / внесок, стаття
+die Einkommensteuer, -n	income tax / прибутковий податок
+die Erwerbstätigkeit, -en	employment, gainful occupation / трудова діяльність, зайнятість
+evangelisch	Protestant, Evangelical / євангельський, протестантський
+die Gehaltsabrechnung, -en	payslip / розрахунковий листок
+die Gemeinde, -n	municipality, community / громада, муніципалітет
+gleichgeschlechtlich	same-sex / одностатевий
+jüdisch	Jewish / єврейський
+katholisch	Catholic / католицький
+die Kirchensteuer, -n	church tax / церковний податок
+etw. kombinieren	to combine / комбінувати, поєднувати
+die Lebensgemeinschaft, -en	partnership, cohabitation / спільне проживання, партнерство
+die Lohnsteuer, -n	wage tax, income tax (on wages) / податок із заробітної плати
+die Sozialabgaben (Pl.)	social security contributions / соціальні відрахування
+die Sozialversicherungsnummer, -n	social security number / номер соціального страхування
+die Steuer, -n	tax / податок
+die Steueridentifikationsnummer, -n	tax identification number / ідентифікаційний податковий номер (ІПН)
+die Steuerklasse, -n	tax bracket, tax class / податковий клас
+etw. variieren	to vary / варіювати, змінювати
+vermögenswirksame Leistungen (Pl.)	capital-forming benefits / накопичувальні пільги (від роботодавця)
+der Zweitjob, -s	second job / друга робота, підробіток
+absehbar	foreseeable / передбачуваний
+die Abwesenheit (Sg.)	absence / відсутність
+ansteckend	contagious / заразний, інфекційний
+arbeitsfähig	fit for work, able to work / працездатний
+erkranken	to fall ill / захворіти
+die Erkrankung, -en	illness, disease / хвороба, захворювання
+der Herzinfarkt, -e	heart attack / інфаркт
+die Impfung, -en	vaccination / щеплення
+die Infektionskrankheit, -en	infectious disease / інфекційна хвороба
+jdn. krankschreiben (schreibt krank, schrieb krank, hat krankgeschrieben)	to put someone on sick leave / виписати лікарняний
+die Krankmeldung, -en	sick note, notification of illness / повідомлення про хворобу, лікарняний
+der Kündigungsgrund, "-e	reason for termination / причина звільнення
+etw. nachholen	to catch up on, to make up for / надолужувати
+der Notfall, "-e	emergency / екстрений випадок, надзвичайна ситуація
+der Orthopäde, -n / die Orthopädin, -nen	orthopedist / ортопед
+etw. rechtfertigen	to justify / виправдовувати, обґрунтовувати
+soeben	just now / щойно, тільки-но
+die Vertretung, -en	representation, substitute / заміна, представництво
+voraussichtlich	expected, probable / ймовірно, очікується
+die Vorsorgeuntersuchung, -en	preventive medical checkup / профілактичний огляд
+etw. weiterleiten	to forward / пересилати, перенаправляти
+etw. abmildern	to soften, to mitigate / пом'якшувати, зменшувати
+der Angehörige, -n / die Angehörige, -n	relative / родич
+Anspruch haben auf (+ Akk.)	to be entitled to, to have a right to / мати право на
+ausschließlich	exclusively, only / виключно
+etw./jdn. bedenken (bedenkt, bedachte, hat bedacht)	to consider, to think about / враховувати, обмірковувати
+der Berufswiedereinstieg (Sg.)	return to work (after a break) / повернення до професійної діяльності
+die Betreuungsmöglichkeit, -en	childcare option / можливість догляду (за дітьми)
+die Elternzeit (Sg.)	parental leave / відпустка по догляду за дитиною
+jdn. freistellen	to exempt, to release (from work) / звільнити (від роботи)
+die Freistellung, -en	exemption, release from duty / звільнення від виконання обов'язків
+das Homeoffice (Sg.)	home office, working from home / робота з дому
+der Kündigungsschutz (Sg.)	protection against dismissal / захист від звільнення
+die Lohnersatzleistung, -en	wage replacement benefit / допомога, що замінює заробітну плату
+pflegebedürftig	in need of care / такий, що потребує догляду
+die Pflegekasse (Sg.)	long-term care insurance fund / каса страхування по догляду
+die Pflegezeit, -en	care leave / відпустка для догляду за родичем
+rechnen mit (+ Dat.)	to expect, to count on / очікувати, розраховувати на
+der Rechtsanspruch, "-e	legal right, legal claim / юридичне право
+die Tagesmutter, "-	childminder, nanny / няня (яка доглядає вдень)
+die Wechselschicht, -en	rotating shift / позмінна робота
+zinslos	interest-free / безвідсотковий
+sich zurechtfinden	to find one's way around / орієнтуватися, розбиратися
+der Zusammenhang, "-e	connection, context / зв'язок, контекст
+der Arbeitgeberverband, "-e	employers' association / спілка роботодавців
+etw. auflisten	to list / перераховувати, складати список
+etw. aushandeln	to negotiate / домовлятися, вести переговори
+das Einkommensniveau, -s	income level / рівень доходів
+die Einkünfte (Pl.)	income, earnings / доходи
+das Gefühl, -e	feeling / почуття, відчуття
+der Gehaltsvergleich, -e	salary comparison / порівняння зарплат
+die Geldanlage, -n	financial investment / грошовий вклад, інвестиція
+generell	general(ly), in general / загалом, в основному
+etw. herausfinden (findet heraus, fand heraus, hat herausgefunden)	to find out / з'ясувати, дізнатися
+luxuriös	luxurious / розкішний
+peinlich	embarrassing / соромно, незручно
+etw. preisgeben (gibt preis, gab preis, hat preisgegeben)	to reveal, to disclose / розголошувати, видавати
+stammen aus (+ Dat.)	to come from, to originate from / походити з
+das Statussymbol, -e	status symbol / символ статусу
+die Steuererklärung, -en	tax return / податкова декларація
+der Tarifvertrag, "-e	collective labor agreement / тарифний договір
+die Übersicht, -en	overview / огляд, загальна картина
+üblich	usual, common / звичайний, прийнятий
+umgehen mit (+ Dat.) (geht um, ging um, ist umgegangen)	to deal with, to handle / поводитися з, обходитися
+ungeeignet	unsuitable / непридатний
+ungerechtfertigt	unjustified / необґрунтований
+vorherrschen	to prevail, to predominate / переважати, панувати

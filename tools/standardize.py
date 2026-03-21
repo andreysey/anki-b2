@@ -43,8 +43,10 @@ def standardize_file(filepath):
     print(f"Standardized: {os.path.basename(filepath)}")
 
 if __name__ == "__main__":
-    files = glob.glob('*.txt')
-    # Don't standardize the generated master decks
-    targets = [f for f in files if 'Thema' in f]
-    for f in targets:
+    # Change to root if running from tools/
+    if os.path.basename(os.getcwd()) == 'tools':
+        os.chdir('..')
+    
+    files = glob.glob('source/*.txt')
+    for f in files:
         standardize_file(f)

@@ -8,7 +8,7 @@ def get_num(s):
     match = re.search(r'Thema(\d+)', s)
     return int(match.group(1)) if match else 0
 
-def generate_decks(files, base_name, format_type='anki'):
+def generate_decks(files, base_name, format_type='anki', quizlet_minimal=False):
     all_entries = []
     unique_entries = []
     seen = set()
@@ -22,15 +22,16 @@ def generate_decks(files, base_name, format_type='anki'):
                     word = l.split(';')[0].strip()
                     
                     if format_type == 'quizlet':
-                        # Quizlet usually works best with 2 fields: Term and Definition
-                        # We combine English, Ukrainian and Example into one definition
                         parts = [p.strip() for p in l.split(';')]
                         if len(parts) >= 3:
                             term = parts[0]
-                            # Combine: English / Ukrainian | Example
-                            definition = f"{parts[1]} / {parts[2]}"
-                            if len(parts) > 3 and parts[3]:
-                                definition += f" | {parts[3]}"
+                            # Minimal usually means no example
+                            if quizlet_minimal:
+                                definition = f"{parts[1]} / {parts[2]}"
+                            else:
+                                definition = f"{parts[1]} / {parts[2]}"
+                                if len(parts) > 3 and parts[3]:
+                                    definition += f" | {parts[3]}"
                             l = f"{term}\t{definition}\n"
                     
                     all_entries.append(l)
@@ -48,27 +49,33 @@ def generate_decks(files, base_name, format_type='anki'):
             f.writelines(data)
         return len(data)
 
-    n_full = write_deck(all_entries, f'Quizlet_{base_name}_Full.txt' if format_type == 'quizlet' else f'Anki_{base_name}_Full.txt')
-    n_clean = write_deck(unique_entries, f'Quizlet_{base_name}_Clean.txt' if format_type == 'quizlet' else f'Anki_{base_name}_Clean.txt')
-    return n_full, n_clean
+    suffix = "_Minimal.txt" if quizlet_minimal else "_Full.txt"
+    n_full = write_deck(all_entries, f'quizlet/Quizlet_{base_name}{suffix}' if format_type == 'quizlet' else f'anki/Anki_{base_name}_Full.txt')
+    
+    if not quizlet_minimal:
+        n_clean = write_deck(unique_entries, f'quizlet/Quizlet_{base_name}_Clean.txt' if format_type == 'quizlet' else f'anki/Anki_{base_name}_Clean.txt')
+        return n_full, n_clean
+    return n_full, 0
 
 if __name__ == "__main__":
-    # Change to parent directory if running from tools/
+    # Change to root if running from tools/
     if os.path.basename(os.getcwd()) == 'tools':
         os.chdir('..')
 
-    b1_files = sorted(glob.glob('B1_plus_Thema*.txt'), key=get_num)
-    b2_files = sorted(glob.glob('B2_Thema*.txt'), key=get_num)
+    b1_files = sorted(glob.glob('source/B1_plus_Thema*.txt'), key=get_num)
+    b2_files = sorted(glob.glob('source/B2_Thema*.txt'), key=get_num)
 
-    for ft in ['anki', 'quizlet']:
-        if b1_files:
-            f, c = generate_decks(b1_files, 'B1plus', ft)
-            print(f'B1+ ({ft}): Created Full ({f}) and Clean ({c})')
+    # Anki
+    for ft in ['anki']:
+        generate_decks(b1_files, 'B1plus', ft)
+        generate_decks(b2_files, 'B2', ft)
+        generate_decks(b1_files + b2_files, 'B1plus_B2', ft)
+        print(f"Generated Anki decks.")
 
-        if b2_files:
-            f, c = generate_decks(b2_files, 'B2', ft)
-            print(f'B2 ({ft}): Created Full ({f}) and Clean ({c})')
-
-        if b1_files and b2_files:
-            f, c = generate_decks(b1_files + b2_files, 'B1plus_B2', ft)
-            print(f'Combined ({ft}): Created Full ({f}) and Clean ({c})')
+    # Quizlet (Normal and Minimal)
+    for qm in [False, True]:
+        generate_decks(b1_files, 'B1plus', 'quizlet', qm)
+        generate_decks(b2_files, 'B2', 'quizlet', qm)
+        generate_decks(b1_files + b2_files, 'B1plus_B2', 'quizlet', qm)
+        mode = "Minimal" if qm else "Full/Clean"
+        print(f"Generated Quizlet decks ({mode}).")
