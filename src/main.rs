@@ -8,6 +8,7 @@ use std::sync::LazyLock;
 static RE_PARENS: LazyLock<Regex> = LazyLock::new(|| Regex::new(r"(?x)\s*\(.*?\)").unwrap());
 static RE_PREFIX: LazyLock<Regex> = LazyLock::new(|| Regex::new(r"^(jdn\.|etw\.)\s+").unwrap());
 static RE_THEMA: LazyLock<Regex> = LazyLock::new(|| Regex::new(r"Thema(\d+)").unwrap());
+static RE_CYRILLIC: LazyLock<Regex> = LazyLock::new(|| Regex::new(r"\p{Cyrillic}").unwrap());
 
 #[derive(Serialize, Clone)]
 struct EntryData {
@@ -55,6 +56,18 @@ fn standardize_file(f_path: &PathBuf) -> (bool, usize) {
                 parts.push("");
             }
         }
+
+        // Validate that German, English, and Example columns don't contain Cyrillic characters
+        if RE_CYRILLIC.is_match(parts[0]) {
+            println!("  ⚠️ WARNING: Cyrillic characters found in German column: {}:{} -> '{}'", f_path.display(), count + 1, parts[0]);
+        }
+        if RE_CYRILLIC.is_match(parts[1]) {
+            println!("  ⚠️ WARNING: Cyrillic characters found in English column: {}:{} -> '{}'", f_path.display(), count + 1, parts[1]);
+        }
+        if RE_CYRILLIC.is_match(parts[3]) {
+            println!("  ⚠️ WARNING: Cyrillic characters found in Example column: {}:{} -> '{}'", f_path.display(), count + 1, parts[3]);
+        }
+
         cleaned_data.push_str(&format!("{};{};{};{}\n", parts[0], parts[1], parts[2], parts[3]));
         count += 1;
     }

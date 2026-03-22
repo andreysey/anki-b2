@@ -182,7 +182,7 @@ der Erfolg, -e;der Erfolg;success;успіх;Die Migration zur Cloud war ein gro
 nützlich;nützlich;useful;корисний;Diese neue Bibliothek ist sehr nützlich für die Bildverarbeitung.
 der Berufsverkehr (Sg.);der Berufsverkehr;professional traffic;робочий дорожній рух (години пік);Dank Homeoffice vermeide ich den stressigen Berufsverkehr am Morgen.
 üblich;üblich;common;звичайний;In der IT-Branche ist das Duzen unter Kollegen absolut üblich.
-lächeln (lächeлт, lächelte, hat gelächelt);lächeln;to smile;усміхатися;Der Support-Mitarbeiter lächelt, als er das Problem endlich gelöst hat.
+lächeln (lächelt, lächelte, hat gelächelt);lächeln;to smile;усміхатися;Der Support-Mitarbeiter lächelt, als er das Problem endlich gelöst hat.
 erwünscht;erwünscht;desired;бажаний;Erfahrung mit agilen Methoden wie Scrum ist bei uns ausdrücklich erwünscht.
 beliebt;beliebt;popular;популярний;Python ist derzeit eine der beliebtesten Sprachen für Data Science.
 im Allgemeinen;im Allgemeinen;in general;взагалі;Im Allgemeinen sind unsere Kunden mit der Performance der Software zufrieden.

@@ -130,7 +130,7 @@ die Luftverschmutzung (Sg.);air pollution;забруднення повітря;
 die Mobilität (Sg.);mobility;мобільність;Apps für E-Scooter verändern die urbane Mobilität.
 das Park-and-Ride-System (Sg.);park and ride system;перехоплююча парковка;Dank des Park-and-Ride-Systems fahre ich mit der Bahn ins Büro.
 die Selbstverständlichkeit (Sg.);matter of course, given;само собою зрозуміле;Dass Code versioniert wird (z. B. mit Git), ist heute eine Selbstverständlichkeit.
-etw. sperren (sperrt, sperrte, hat gesперрт);to block, to lock;блокувати;Nach drei falschen Passworteingaben wird der Account automatisch gesperrt.
+etw. sperren (sperrt, sperrte, hat gesperrt);to block, to lock;блокувати;Nach drei falschen Passworteingaben wird der Account automatisch gesperrt.
 überflüssig;superfluous, unnecessary;зайвий, непотрібний;Dank KI-Generatoren wird viel manueller Code langsam überflüssig.
 etw. überlasten (überlastet, überlastete, hat überlastet);to overload;перевантажувати;Eine DDoS-Attacke kann das Netzwerk des Unternehmens überlasten.
 umsteigen auf (+ Akk.) (steigt um, stieg um, ist umgestiegen);to switch to, to change;пересідати, переходити (на інше);Wir werden im Backend bald von Java auf Golang umsteigen.

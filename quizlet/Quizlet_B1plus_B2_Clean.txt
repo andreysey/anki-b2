@@ -179,7 +179,7 @@ der Erfolg, -e	success / успіх | Die Migration zur Cloud war ein großer Er
 nützlich	useful / корисний | Diese neue Bibliothek ist sehr nützlich für die Bildverarbeitung.
 der Berufsverkehr (Sg.)	professional traffic / робочий дорожній рух (години пік) | Dank Homeoffice vermeide ich den stressigen Berufsverkehr am Morgen.
 üblich	common / звичайний | In der IT-Branche ist das Duzen unter Kollegen absolut üblich.
-lächeln (lächeлт, lächelte, hat gelächelt)	to smile / усміхатися | Der Support-Mitarbeiter lächelt, als er das Problem endlich gelöst hat.
+lächeln (lächelt, lächelte, hat gelächelt)	to smile / усміхатися | Der Support-Mitarbeiter lächelt, als er das Problem endlich gelöst hat.
 erwünscht	desired / бажаний | Erfahrung mit agilen Methoden wie Scrum ist bei uns ausdrücklich erwünscht.
 beliebt	popular / популярний | Python ist derzeit eine der beliebtesten Sprachen für Data Science.
 im Allgemeinen	in general / взагалі | Im Allgemeinen sind unsere Kunden mit der Performance der Software zufrieden.
@@ -1133,7 +1133,6 @@ die Luftverschmutzung (Sg.)	air pollution / забруднення повітр�
 die Mobilität (Sg.)	mobility / мобільність | Apps für E-Scooter verändern die urbane Mobilität.
 das Park-and-Ride-System (Sg.)	park and ride system / перехоплююча парковка | Dank des Park-and-Ride-Systems fahre ich mit der Bahn ins Büro.
 die Selbstverständlichkeit (Sg.)	matter of course, given / само собою зрозуміле | Dass Code versioniert wird (z. B. mit Git), ist heute eine Selbstverständlichkeit.
-etw. sperren (sperrt, sperrte, hat gesперрт)	to block, to lock / блокувати | Nach drei falschen Passworteingaben wird der Account automatisch gesperrt.
 überflüssig	superfluous, unnecessary / зайвий, непотрібний | Dank KI-Generatoren wird viel manueller Code langsam überflüssig.
 etw. überlasten (überlastet, überlastete, hat überlastet)	to overload / перевантажувати | Eine DDoS-Attacke kann das Netzwerk des Unternehmens überlasten.
 umsteigen auf (+ Akk.) (steigt um, stieg um, ist umgestiegen)	to switch to, to change / пересідати, переходити (на інше) | Wir werden im Backend bald von Java auf Golang umsteigen.

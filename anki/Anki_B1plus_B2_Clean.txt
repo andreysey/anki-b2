@@ -182,7 +182,7 @@ der Erfolg, -e;der Erfolg;success;успіх;Die Migration zur Cloud war ein gro
 nützlich;nützlich;useful;корисний;Diese neue Bibliothek ist sehr nützlich für die Bildverarbeitung.
 der Berufsverkehr (Sg.);der Berufsverkehr;professional traffic;робочий дорожній рух (години пік);Dank Homeoffice vermeide ich den stressigen Berufsverkehr am Morgen.
 üblich;üblich;common;звичайний;In der IT-Branche ist das Duzen unter Kollegen absolut üblich.
-lächeln (lächeлт, lächelte, hat gelächelt);lächeln;to smile;усміхатися;Der Support-Mitarbeiter lächelt, als er das Problem endlich gelöst hat.
+lächeln (lächelt, lächelte, hat gelächelt);lächeln;to smile;усміхатися;Der Support-Mitarbeiter lächelt, als er das Problem endlich gelöst hat.
 erwünscht;erwünscht;desired;бажаний;Erfahrung mit agilen Methoden wie Scrum ist bei uns ausdrücklich erwünscht.
 beliebt;beliebt;popular;популярний;Python ist derzeit eine der beliebtesten Sprachen für Data Science.
 im Allgemeinen;im Allgemeinen;in general;взагалі;Im Allgemeinen sind unsere Kunden mit der Performance der Software zufrieden.
@@ -1136,7 +1136,6 @@ die Luftverschmutzung (Sg.);die Luftverschmutzung;air pollution;забрудне
 die Mobilität (Sg.);die Mobilität;mobility;мобільність;Apps für E-Scooter verändern die urbane Mobilität.
 das Park-and-Ride-System (Sg.);das Park-and-Ride-System;park and ride system;перехоплююча парковка;Dank des Park-and-Ride-Systems fahre ich mit der Bahn ins Büro.
 die Selbstverständlichkeit (Sg.);die Selbstverständlichkeit;matter of course, given;само собою зрозуміле;Dass Code versioniert wird (z. B. mit Git), ist heute eine Selbstverständlichkeit.
-etw. sperren (sperrt, sperrte, hat gesперрт);sperren;to block, to lock;блокувати;Nach drei falschen Passworteingaben wird der Account automatisch gesperrt.
 überflüssig;überflüssig;superfluous, unnecessary;зайвий, непотрібний;Dank KI-Generatoren wird viel manueller Code langsam überflüssig.
 etw. überlasten (überlastet, überlastete, hat überlastet);überlasten;to overload;перевантажувати;Eine DDoS-Attacke kann das Netzwerk des Unternehmens überlasten.
 umsteigen auf (+ Akk.) (steigt um, stieg um, ist umgestiegen);umsteigen auf;to switch to, to change;пересідати, переходити (на інше);Wir werden im Backend bald von Java auf Golang umsteigen.

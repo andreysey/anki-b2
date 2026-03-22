@@ -186,7 +186,7 @@ der Erfolg, -e	success / успіх
 nützlich	useful / корисний
 der Berufsverkehr (Sg.)	professional traffic / робочий дорожній рух (години пік)
 üblich	common / звичайний
-lächeln (lächeлт, lächelte, hat gelächelt)	to smile / усміхатися
+lächeln (lächelt, lächelte, hat gelächelt)	to smile / усміхатися
 erwünscht	desired / бажаний
 beliebt	popular / популярний
 im Allgemeinen	in general / взагалі

@@ -1631,7 +1631,7 @@
   {
     "level": "B1+",
     "thema": 3,
-    "german": "lächeln (lächeлт, lächelte, hat gelächelt)",
+    "german": "lächeln (lächelt, lächelte, hat gelächelt)",
     "german_audio": "lächeln",
     "english": "to smile",
     "ukrainian": "усміхатися",
@@ -10213,15 +10213,6 @@
     "english": "matter of course, given",
     "ukrainian": "само собою зрозуміле",
     "example": "Dass Code versioniert wird (z. B. mit Git), ist heute eine Selbstverständlichkeit."
-  },
-  {
-    "level": "B2",
-    "thema": 6,
-    "german": "etw. sperren (sperrt, sperrte, hat gesперрт)",
-    "german_audio": "sperren",
-    "english": "to block, to lock",
-    "ukrainian": "блокувати",
-    "example": "Nach drei falschen Passworteingaben wird der Account automatisch gesperrt."
   },
   {
     "level": "B2",
