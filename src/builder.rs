@@ -43,7 +43,6 @@ pub fn generate_decks(
             .qfmt("<div style='font-family: \"Outfit\", sans-serif; text-align: center; color: #f8fafc; background-color: #0f172a; padding: 40px; border-radius: 20px;'>\
                     <div style='font-size: 32px; font-weight: 600; margin-bottom: 20px;'>{{German}}</div>\
                     <div style='display: none;'>{{tts de_DE:German_Audio}}</div>\
-                    <div style='color: #64748b; font-size: 16px; opacity: 0.6;'>[ listening... ]</div>\
                    </div>")
             .afmt("{{FrontSide}}<hr id='answer'>\
                    <div style='font-family: \"Outfit\", sans-serif; text-align: center; color: #f8fafc; background-color: #1e293b; padding: 40px; border-radius: 20px;'>\
