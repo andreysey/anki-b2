@@ -58,7 +58,10 @@ function render() {
                 <span class="badge badge-level">${item.level}</span>
                 <span class="badge badge-thema">Thema ${item.thema}</span>
             </div>
-            <div class="german-word">${item.german}</div>
+            <div class="german-word-container">
+                <div class="german-word">${item.german}</div>
+                <button class="tts-btn" onclick="playAudio('${item.german_audio.replace(/'/g, "\\'")}')" title="Play pronunciation">🔊</button>
+            </div>
             <div class="translations">
                 <div class="trans-en">${item.english}</div>
                 <div class="trans-uk">${item.ukrainian}</div>
@@ -69,3 +72,15 @@ function render() {
 }
 
 init();
+
+window.playAudio = function(text) {
+    if ('speechSynthesis' in window) {
+        window.speechSynthesis.cancel();
+        const utterance = new SpeechSynthesisUtterance(text);
+        utterance.lang = 'de-DE';
+        utterance.rate = 0.85; // slightly slower for language learning
+        window.speechSynthesis.speak(utterance);
+    } else {
+        alert("Your browser does not support text-to-speech.");
+    }
+};

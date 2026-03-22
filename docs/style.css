@@ -234,11 +234,44 @@ option {
 .badge-level { background: rgba(0, 210, 255, 0.15); color: var(--primary); }
 .badge-thema { background: rgba(255, 255, 255, 0.1); color: var(--text-muted); }
 
+.german-word-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 0.5rem;
+    gap: 1rem;
+}
+
 .german-word {
     font-size: 1.4rem;
     font-weight: 600;
-    margin-bottom: 0.5rem;
     color: var(--primary);
+}
+
+.tts-btn {
+    background: rgba(0, 210, 255, 0.1);
+    border: 1px solid rgba(0, 210, 255, 0.2);
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: var(--transition);
+    color: white;
+}
+
+.tts-btn:hover {
+    background: var(--primary);
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 210, 255, 0.5);
+}
+
+.tts-btn:active {
+    transform: scale(0.95);
 }
 
 .translations {
