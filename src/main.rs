@@ -31,6 +31,42 @@ fn clean_german_for_audio(text: &str) -> String {
     t.trim().to_string()
 }
 
+fn standardize_file(f_path: &PathBuf) -> (bool, usize) {
+    if !f_path.exists() {
+        return (false, 0);
+    }
+    let content = fs::read_to_string(f_path).unwrap_or_default();
+    let mut cleaned_data = String::new();
+    let mut count = 0;
+
+    for line in content.lines() {
+        let l = line.trim();
+        if l.starts_with('#') || l.is_empty() {
+            continue;
+        }
+        let mut parts: Vec<&str> = l.split(';').map(|s| s.trim()).collect();
+        if parts.len() < 3 {
+            println!("  {}: Skipped (Less than 3 columns)", f_path.display());
+            continue;
+        }
+        if parts.len() < 4 {
+            println!("  {}: Added missing example column for '{}'", f_path.display(), parts[0]);
+            while parts.len() < 4 {
+                parts.push("");
+            }
+        }
+        cleaned_data.push_str(&format!("{};{};{};{}\n", parts[0], parts[1], parts[2], parts[3]));
+        count += 1;
+    }
+
+    let header = "#separator:;\n#html:true\n#columns:German;English;Ukrainian;Example\n";
+    let mut out_content = String::from(header);
+    out_content.push_str(&cleaned_data);
+    fs::write(f_path, out_content).unwrap();
+
+    (true, count)
+}
+
 fn get_num(s: &str) -> i32 {
     RE_THEMA
 
@@ -189,6 +225,17 @@ fn main() {
 
     let mut combined = b1_files.clone();
     combined.extend(b2_files.clone());
+
+    println!("🧹 Starting standardization process...");
+    let mut total_standardized = 0;
+    for f in &combined {
+        let (success, count) = standardize_file(f);
+        if success {
+            total_standardized += count;
+            println!("✅ {} processed ({} cards)", f.display(), count);
+        }
+    }
+    println!("✨ Finished! Standardized {} files with {} total cards.\n", combined.len(), total_standardized);
 
     println!("🚀 Starting build process...");
 

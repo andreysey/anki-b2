@@ -7,7 +7,6 @@ on:
       - 'source/**'
       - 'src/**'
       - 'Cargo.toml'
-      - 'standardize.py'
       - '.github/workflows/deploy.yml'
   workflow_dispatch:
 

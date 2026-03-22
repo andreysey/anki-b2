@@ -7,17 +7,12 @@ This repository contains professional thematic vocabulary files for Anki and Qui
 - `source/`: Original thematic vocabulary files (`B1_plus_Thema*.txt`, `B2_Thema*.txt`).
 - `anki/`: Generated import files for Anki decks.
 - `quizlet/`: Generated import files for Quizlet sets.
-- `standardize.py`: Script to ensure standard Anki format in source files.
 - `Cargo.toml` & `src/`: High-performance Rust application for building decks.
 
 ## Automation Tools
 
-### 1. `standardize.py`
-Ensures all files in `source/` strictly adhere to the expected Anki format.
-- **Usage**: `python3 standardize.py`
-
-### 2. Rust Build Tool (`rs_build`)
-Scans the `source/` directory and regenerates all files in `anki/`, `quizlet/`, and `docs/`.
+### 1. Rust Build Tool (`rs_build`)
+Standardizes the `source/` directory and regenerates all files in `anki/`, `quizlet/`, and `docs/`.
 - **Usage**: `cargo run --release`
 
 ## Deck Versions & Generation
