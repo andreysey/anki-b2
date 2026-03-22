@@ -1,5 +1,5 @@
 die Abteilung, -en	department / відділ | Unsere IT-Abteilung kümmert sich um die gesamte Cloud-Infrastruktur.
-der Arbeitgeber, - / die Arbeitgeberin, -nen	employer / роботодавець/-иця | Mein новий Arbeitgeber bietet viele Remote-Work-Optionen для Softwareentwickler an.
+der Arbeitgeber, - / die Arbeitgeberin, -nen	employer / роботодавець/-иця | Mein neuer Arbeitgeber bietet viele Remote-Work-Optionen für Softwareentwickler an.
 das Asylverfahren, -	asylum procedure / процедура надання притулку | Wir unterstützen geflüchtete IT-Spezialisten während ihres Asylverfahrens bei der Jobsuche.
 die Ausbildung, -en	apprenticeship, vocational training / професійне навчання | Ich mache eine Ausbildung zum Fachinformatiker für Systemintegration.
 auf|fallen (fällt auf, fiel auf, ist aufgefallen)	to stand out, to be noticeable / впадати в око | Im Code-Review ist mir sofort aufgefallen, dass eine Sicherheitslücke besteht.
@@ -20,7 +20,7 @@ der Mitarbeiter, - / die Mitarbeiterin, -nen	employee / співробітник
 jdm. etw. raten (rät, riet, hat geraten)	to advise someone / радити комусь щось | Der Senior-Entwickler riet mir, Python als erste Programmiersprache zu lernen.
 der Schulabschluss, "-e	school-leaving certificate / шкільний атестат | Nach meinem Schulabschluss möchte ich Informatik an einer Technischen Universität studieren.
 steigen (stieg, ist gestiegen)	to rise, to climb / підніматися, зростати | Die Nachfrage nach Sicherheitsexperten ist in den letzten Jahren stark gestiegen.
-teil|nehmen an (+ Dat.) (nimmt teil, nahm teil, hat teilgenommen)	to participate in / брати участь | Nächсте Woche nehme ich an einem Hackathon in Berlin teil.
+teil|nehmen an (+ Dat.) (nimmt teil, nahm teil, hat teilgenommen)	to participate in / брати участь | Nächste Woche nehme ich an einem Hackathon in Berlin teil.
 der Umsatz, "-e	revenue, turnover / оборот, виручка | Der Umsatz unseres Software-as-a-Service-Produkts hat sich dieses Jahr verdofft.
 die Umschulung, -en	retraining / перекваліфікація | Nach meiner Karriere im Marketing mache ich eine Umschulung zum Webentwickler.
 wahrscheinlich	probably / ймовірно | Die Migration zur neuen Datenbank wird wahrscheinlich das ganze Wochenende dauern.
@@ -40,7 +40,7 @@ die Fortbildung, -en	advanced training / підвищення кваліфіка
 eine Fortbildung machen (macht, machte, hat gemacht)	to do a training / проходити курс підвищення кваліфікації | Ich möchte eine Fortbildung machen, um mich auf IT-Sicherheit zu spezialisieren.
 (ein Unternehmen) gründen (gründet, gründete, hat gegründet)	to found (a company) / засновувати (компанію) | Sie möchten ein Startup gründen, das Blockchain-Technologie für Lieferketten nutzt.
 einen Kredit bewilligen (bewilligt, bewilligte, hat bewilligt)	to approve a loan / надавати кредит | Die Bank hat den Kredit für die neue Hardware-Ausstattung bewilligt.
-der Küchenhelfer, - / die Küchenhelferin, -nen	kitchen assistant / кухонний помічник/-ниця | У нашій їдальні кухонний помічник використовує планшет, щоб керувати замовленнями.
+der Küchenhelfer, - / die Küchenhelferin, -nen	kitchen assistant / кухонний помічник/-ниця | In unserer Kantine nutzt der Küchenhelfer ein Tablet, um Bestellungen zu verwalten.
 sich selbstständig machen	to go self-employed / почати власну справу | Nach zehn Jahren Festanstellung möchte ich mich als IT-Consultant selbstständig machen.
 die Selbstständigkeit (Sg.)	self-employment / самостійність, самозайнятість | Die Selbstständigkeit erfordert gute Kenntnisse in Projektmanagement und Buchhaltung.
 überlegen (überlegt, überlegte, hat überlegt)	to consider, to think about / обмірковувати | Wir überlegen, ob wir die gesamte Backend-Infrastruktur auf Serverless umstellen.
@@ -48,7 +48,7 @@ Verantwortung tragen for (+ Akk.)	to bear responsibility / нести відпо
 etw. anerkennen lassen	to have something recognized / визнавати (напр. диплом) | Ich muss meine ausländischen IT-Zertifikate in Deutschland anerkennen lassen.
 der Berufsabschluss, "-e	vocational qualification / професійна освіта | Ein staatlich anerkannter Berufsabschluss ist oft Voraussetzung für eine Anstellung im öffentlichen Dienst.
 die Berufsausbildung, -en	vocational training / професійна освіта | Während meiner Berufsausbildung habe ich verschiedene Programmiersprachen gelernt.
-etw. beschließen (beschließt, beschloss, hat beschlossen)	to decide on, to resolve / вирішувати, постановити | Wir haben beschlossen, das nächste Projekt mit der agilen Scrum-Methode umзвести.
+etw. beschließen (beschließt, beschloss, hat beschlossen)	to decide on, to resolve / вирішувати, постановити | Wir haben beschlossen, das nächste Projekt mit der agilen Scrum-Methode umzusetzen.
 das Zeugnis, -se	report card, certificate / свідоцтво, атестат | Ich habe mein Arbeitszeugnis als PDF für die Bewerbung hochgeladen.
 die Anerkennung, -en	recognition / визнання | Die Anerkennung meiner Masterurkunde war für das Visum als Fachkraft notwendig.
 das Anerkennungsverfahren, -	recognition process / процедура визнання | Das Anerkennungsverfahren kann online über das Portal der IHK verfolgt werden.
@@ -62,7 +62,7 @@ die Qualifikation, -en	qualification / кваліфікація | Welche zusätz
 reglementiert	regulated / регламентований | Der Beruf des Softwareentwicklers ist in Deutschland glücklicherweise nicht reglementiert.
 die Unterlage, -n	document / документ | Bitte laden Sie alle relevanten Unterlagen in das Bewerberportal hoch.
 etw. vergleichen mit (+ Dat.)	to compare with / порівнювати | Wir müssen die Performance der verschiedenen Datenbanken miteinander vergleichen.
-der Ansprechpartner, - / die Ansprechpartnerin, -nen	contact person / контактна особа | Unser Ansprechpartner для das API-Gateway сьогодні, на жаль, не доступний.
+der Ansprechpartner, - / die Ansprechpartnerin, -nen	contact person / контактна особа | Unser Ansprechpartner für das API-Gateway ist heute leider nicht verfügbar.
 der Aushang, "-e	notice, posting / оголошення | Ich habe den digitalen Aushang im Firmen-Intranet über das neue Slack-Update gesehen.
 das Bewerbungsschreiben, -	letter of application / заява про прийняття на роботу | In Ihrem Bewerbungsschreiben sollten Sie Ihre Erfahrung mit Cloud-Technologien hervorheben.
 das Bewerbungsverfahren, -	application process / процес подання заявки | Das Bewerbungsverfahren für die Stelle als DevOps-Engineer umfasst drei technische Interviews.
@@ -74,7 +74,7 @@ fehlerfrei	error-free / без помилок | Ein fehlerfreier Code ist die Vo
 die Initiativbewerbung, -en	unsolicited application / ініціативна заявка | Ich habe eine Initiativbewerbung an das IT-Sicherheitszentrum geschickt.
 die Installateurfirma, -firmen	plumbing company / сантехнічна фірма | Die Installateurfirma wartet das Kühlsystem für unsere Hochleistungsserver.
 die Konkurrenz (Sg.)	competition / конкуренція | In der Tech-Branche ist die Konkurrenz um die besten Talente extrem hoch.
-der Leiharbeiter, - / die Leiharbeiterin, -nen	temporary worker / тимчасовий працівник/-ця | Ми найняли тимчасового працівника для короткострокового проекту з міграції даних.
+der Leiharbeiter, - / die Leiharbeiterin, -nen	temporary worker / тимчасовий працівник/-ця | Wir haben einen Leiharbeiter für das kurzfristige Datenmigrationsprojekt eingestellt.
 das Leitbild, -er	mission statement / місія, девіз компанії | Das Leitbild unseres Startups ist die Demokratisierung von Daten durch Open Source.
 der Stand der Dinge	state of affairs / стан справ | Können Sie mir beim nächsten Daily Stand-up den aktuellen Stand der Dinge zum Bug-Fixing geben?
 einen Termin bestätigen (bestätigt, bestätigte, hat bestätigt)	to confirm an appointment / підтверджувати зустріч | Bitte bestätigen Sie den Termin for die Produktdemo über den Kalender-Link.
@@ -83,7 +83,7 @@ die Zeitarbeitsfirma, -en	temporary employment agency / агентство з п
 zukünftig	future / майбутній | In der zukünftigen Version der Software wird eine Zwei-Faktor-Authentifizierung standardmäßig aktiviert sein.
 die Arbeitskraft, "-e	worker, manpower / робоча сила | Automatisierung reduziert den Bedarf an manueller Arbeitskraft bei Routineaufgaben.
 das Arbeitsverhältnis, -se	employment relationship / трудові відносини | Das unbefristete Arbeitsverhältnis bietet dem Softwareentwickler eine hohe Sicherheit.
-ausleihen (leiht aus, lieh aus, hat ausgeliehen)	to lend, to borrow / позичати, віддавати в оренду | Man kann sich moderne VR-Brillen in der IT-Abteilung для Testzwecke ausleihen.
+ausleihen (leiht aus, lieh aus, hat ausgeliehen)	to lend, to borrow / позичати, віддавати в оренду | Man kann sich moderne VR-Brillen in der IT-Abteilung für Testzwecke ausleihen.
 die Berufsberatung, -en	vocational guidance / професійна консультація | Die Berufsberatung empfiehlt jungen Leuten oft ein Studium der Informatik.
 die Berufserfahrung, -en	professional experience / професійний досвід | Er bringt über zehn Jahre Berufserfahrung im Bereich Full-Stack-Entwicklung mit.
 beschäftigen (beschäftigt, beschäftigte, hat beschäftigt)	to employ / займати, працевлаштовувати | Das System beschäftigt sich derzeit mit der Indizierung der großen Datenbank.
@@ -122,7 +122,7 @@ zuständig	responsible / відповідальний | Wer ist in eurem Team f�
 das Bauvorhaben, -	construction project / будівельний проект | Beim neuen Bauvorhaben wird auch ein modernes Glasfasernetz für das gesamte Bürogebäude verlegt.
 der Einsatz, "-e	assignment, mission / виконання завдання | Der weltweite Einsatz unserer Software zeigt ihre hohe Skalierbarkeit.
 das Einverständnis, -se	consent, agreement / згода | Wir benötigen das Einverständnis des Nutzers für die Verarbeitung seiner personenbezogenen Daten.
-der Fachinformatiker, - / die Fachinformatikerin, -nen	IT specialist / фахівець/-чиня з інформатики | Als Fachinformatiker für Anwendungsentwicklung schreibe я щодня код на C#.
+der Fachinformatiker, - / die Fachinformatikerin, -nen	IT specialist / фахівець/-чиня з інформатики | Als Fachinformatiker für Anwendungsentwicklung schreibe ich täglich Code in C#.
 die Krankheitsvertretung, -en	sick leave cover / заміна на час хвороби | Er übernimmt kurzfristig die Krankheitsvertretung für den Lead-Architekten.
 der Realschulabschluss, "-e	secondary school certificate / атестат про закінчення реальної школи | Mit einem guten Realschulabschluss kann man eine Ausbildung zum IT-Systemkaufmann beginnen.
 die Urlaubsvertretung, -en	holiday replacement / заміна на час відпустки | Könntest du während meiner Abwesenheit meine Urlaubsvertretung für die Serverwartung machen?
@@ -167,7 +167,7 @@ etw. protokollieren (protokolliert, protokollierte, hat protokolliert)	to record
 die Regel, -n	rule / правило | In diesem Netzwerk gelten strenge Regeln für den Passwortschutz.
 in der Regel	as a rule / як правило | In der Regel erfolgt das Deployment der neuen Version am Dienstagabend.
 der Teilnehmer, - / die Teilnehmerin, -nen	participant / учасник/-ця | An dem Web-Seminar nehmen über 100 Teilnehmer aus aller Welt teil.
-etw. vor|schlagen (schlägt vor, schlug vor, hat vorgeschlagen)	to suggest / пропонувати | Ich schlage vor, wir nutzen Docker для dieses Projekt.
+etw. vor|schlagen (schlägt vor, schlug vor, hat vorgeschlagen)	to suggest / пропонувати | Ich schlage vor, wir nutzen Docker für dieses Projekt.
 der Zweifel, -	doubt / сумнів | Ich habe keine Zweifel, dass wir die Deadline für die App einhalten.
 etw. schaffen (schafft, schaffte, hat geschafft)	to manage / впоратися | Wir werden es schaffen, alle Fehler bis zum Wochenende zu beheben.
 sich etw. merken (merkt sich, merkte sich, hat sich gemerkt)	to remember / запам'ятовувати | Bitte merken Sie sich das neue Administratoren-Passwort gut.
@@ -183,7 +183,7 @@ lächeln (lächeлт, lächelte, hat gelächelt)	to smile / усміхатися
 erwünscht	desired / бажаний | Erfahrung mit agilen Methoden wie Scrum ist bei uns ausdrücklich erwünscht.
 beliebt	popular / популярний | Python ist derzeit eine der beliebtesten Sprachen für Data Science.
 im Allgemeinen	in general / взагалі | Im Allgemeinen sind unsere Kunden mit der Performance der Software zufrieden.
-der/die Vorgesetzte, -n	supervisor / керівник/-ця | Mein Vorgesetzter hat мені дав цінний фідбек щодо мого коду.
+der/die Vorgesetzte, -n	supervisor / керівник/-ця | Mein Vorgesetzter hat mir wertvolles Feedback zu meinem Code gegeben.
 sich verabschieden (von + Dat.) (verabschiedet sich, verabschiedete sich, hat sich verabschiedet)	to say goodbye / прощатися | Ich verabschiede mich aus dem Slack-Channel, da ich das Projekt wechsle.
 sich etw. an|schauen (schaut an, schaute an, hat angeschaut)	to look at something / подивитися на щось | Ich schaue mir die neue Dokumentation für das Framework an.
 der Arbeitsalltag (Sg.)	everyday work life / робочі будні | Der Arbeitsalltag eines DevOps-Engineers wird stark von Automatisierung geprägt.
@@ -194,11 +194,11 @@ sich aus|wirken (auf + Akk.) (wirkt aus, wirkte aus, hat ausgewirkt)	to affect, 
 die Baustelle, -n	construction site / будівельний майданчик | Die Migration der Legacy-Daten ist derzeit unsere größte Baustelle im Projekt.
 sich beeilen (beeilt sich, beeilte sich, hat sich beeilt)	to hurry / поспішати | Wir müssen uns beeilen, den Hotfix vor dem nächsten Kunden-Meeting zu mergen.
 die Berufssparte, -n	professional sector / професійна галузь | Die IT-Sicherheit ist eine Berufssparte mit hervorragenden Zukunftsaussichten.
-der/die Beschäftigte, -n	employee / співробітник/-ця | Кожен співробітник в ІТ-відділі має доступ до внутрішнього Вікі.
+der/die Beschäftigte, -n	employee / співробітник/-ця | Jeder Beschäftigte in der IT-Abteilung hat Zugriff auf das interne Wiki.
 die Beschleunigung, -en	acceleration / прискорення | Gute Indizes führen zur Beschleunigung komplexer SQL-Abfragen.
 etw. bewältigen (bewältigt, bewältigte, hat bewältigt)	to manage, to cope with / долати, справлятися | Dank agiler Methoden konnten wir die hohen Anforderungen des Kunden bewältigen.
 die Herausforderung, -en	challenge / виклик | Die Skalierung der Datenbank für Millionen von Nutzern ist eine technische Herausforderung.
-der Maurer, - / die Maurerin, -nen	mason / муляр/-ка | Ми розробляємо програму, яка допомагає мулярам у розрахунку витрат матеріалів.
+der Maurer, - / die Maurerin, -nen	mason / муляр/-ка | Wir entwickeln eine App, die Maurern bei der Materialberechnung hilft.
 die Strecke, -n	distance, route / дистанція, шлях | Die Strecke für die Glasfaserverbindung zum neuen Rechenzentrum wurde bereits vermessen.
 auf der Strecke bleiben	to fall by the wayside / відстати, бути занедбаним | Ohne kontinuierliche Updates der Skills kann man in der IT schnell auf der Strecke bleiben.
 einen Termin ab|sagen	to cancel an appointment / скасувати зустріч | Ich muss den Termin für das Code-Review leider auf morgen verschieben.
@@ -240,7 +240,7 @@ die Kampagne, -n	campaign / кампанія | Unsere Marketing-Abteilung plant 
 die Kosmetikserie, -n	cosmetics line / серія косметики | Wir entwickeln einen intelligenten Onlineshop für eine neue Kosmetikserie.
 das Printmedium, -medien	print medium / друковане видання | In diesem Printmedium wurde ein Artikel über unsere innovative App veröffentlicht.
 relevant	relevant / важливий, релевантний | Diese Bibliotheken sind für unser aktuelles Projekt nicht relevant.
-der Senior Manager, - / die Senior Managerin, -nen	senior manager / старший менеджер/-ка | Старший менеджер з Cloud-Operations затвердив нову концепцію безпеки.
+der Senior Manager, - / die Senior Managerin, -nen	senior manager / старший менеджер/-ка | Der Senior Manager für Cloud-Operations hat das neue Sicherheitskonzept genehmigt.
 der Werbefilm, -e	commercial / рекламний ролик | Der Werbefilm für unsere mobile Anwendung wird auf YouTube geschaltet.
 die Werbekampagne, -n	advertising campaign / рекламна кампанія | Unsere neue Werbekampagne konzentriert sich auf die Vorteile von Open-Source-Software.
 die Abmahnung, -en	written warning / попередження (догана) | Eine Abmahnung wegen Verletzung der IT-Sicherheitsrichtlinien ist sehr ernst zu nehmen.
@@ -268,7 +268,7 @@ die (technische) Anlage, -n	technical system / equipment / технічна ус
 eine Anlage warten (wartet, wartete, hat gewartet)	to maintain a system / обслуговувати установку | Einmal im Monat muss ein Techniker die Klimaanlage im Serverraum warten.
 jdn./etw. beobachten (beobachtet, beobachtete, hat beobachtet)	to observe / спостерігати | Wir beobachten die Server-Last genau, um Engpässe frühzeitig zu erkennen.
 der Einzelhandel (Sg.)	retail / роздрібна торгівля | Der Einzelhandel nutzt immer mehr IT-Lösungen für das Bestandsmanagement.
-der Endkunde, -n / die Endkundin, -nen	end customer / кінцевий споживач/-ка | Наш додаток завантажується безпосередньо кінцевим споживачем в App Store.
+der Endkunde, -n / die Endkundin, -nen	end customer / кінцевий споживач/-ка | Unsere App wird vom Endkunden direkt im App Store heruntergeladen.
 etw. entwickeln (entwickelt, entwickelte, hat entwickelt)	to develop / розробляти | Wir entwickeln ein neues Framework for performante Webanwendungen.
 die Forschung und Entwicklung (Sg.)	research and development (R&D) / дослідження та розробка | Die Abteilung für Forschung und Entwicklung arbeitet an Quantencomputer-Algorithmen.
 der Großhandel (Sg.)	wholesale / гуртова торгівля | Unser ERP-System optimiert die Lieferketten für den internationalen Großhandel.
@@ -304,10 +304,10 @@ die IT-Branche (Sg.)	IT industry / ІТ-галузь | Die IT-Branche ist einer 
 etw. konstruieren (konstruiert, konstruierte, hat konstruiert)	to construct, to design / конструювати | Wir konstruieren ein neues Gehäuse for unsere IoT-Geräte.
 etw. kontrollieren (kontrolliert, kontrollierte, hat kontrolliert)	to control, to check / контролювати | Der Administrator muss die Zugriffsrechte der Benutzer regelmäßig kontrollieren.
 Kunden bedienen (bedient, bediente, hat bedient)	to serve customers / обслуговувати клієнтів | Unsere Web-Server bedienen gleichzeitig Tausende von Anfragen pro Sekunde.
-der Kundenberater, - / die Kundenberaterin, -nen	customer advisor / консультант/-ка клієнтів | Технічний консультант пояснює переваги нашого API.
+der Kundenberater, - / die Kundenberaterin, -nen	customer advisor / консультант/-ка клієнтів | Der technische Kundenberater erklärt die Vorteile unserer API.
 das Labor, -e	laboratory / лабораторія | Im Hardware-Labor werden neue Prozessoren unter Extrembedingungen getestet.
-der Lagerist, -en / die Lageristin, -nen	warehouse clerk / працівник/-ця складу | Працівник складу використовує ручний сканер, який напряму з’єднаний з базою даних.
-der Tierpfleger, - / die Tierpflegerin, -nen	animal keeper / доглядач/-ка за тваринами | Доглядач за тваринами використовує планшет, щоб фіксувати показники здоров'я тварин.
+der Lagerist, -en / die Lageristin, -nen	warehouse clerk / працівник/-ця складу | Der Lagerist nutzt einen Handscanner, der direkt mit der Datenbank verbunden ist.
+der Tierpfleger, - / die Tierpflegerin, -nen	animal keeper / доглядач/-ка за тваринами | Der Tierpfleger nutzt ein Tablet, um die Gesundheitsdaten der Tiere zu erfassen.
 Transport und Logistik (Sg.)	transport and logistics / транспорт і логістика | In den Bereichen Transport und Logistik spielt die Routenoptimierung durch KI eine große Rolle.
 der Vertriebsweg, -e	distribution channel / канал збуту | Der direkte Download über unsere Website ist unser effektivster Vertriebsweg.
 Waren bestellen (bestellt, bestellte, hat bestellt)	to order goods / замовляти товари | Wir müssen neue RAM-Riegel for das Server-Upgrade bestellen.
@@ -316,12 +316,12 @@ etw. zu|bereiten (bereitet zu, bereitete zu, hat zubereitet)	to prepare (food) /
 etw. zu|stellen (stellt zu, stellte zu, hat zugestellt)	to deliver, to serve / доставляти | Die E-Mail mit dem Bestätigungs-Code konnte leider nicht zugestellt werden.
 die Bequemlichkeit, -en	convenience / зручність | Viele Nutzer schätzen die Bequemlichkeit von Single-Sign-On-Verfahren.
 der CO2-Ausstoß (Sg.)	CO2 emission / викид CO2 | Der CO2-Ausstoß von großen Rechenzentren ist ein wichtiges Thema in der Green-IT.
-der Händler, - / die Händlerin, -nen	dealer, vendor / торговець/-ка | Авторизований торговець пропонує спеціальну підтримку для наших корпоративних ноутбуків.
+der Händler, - / die Händlerin, -nen	dealer, vendor / торговець/-ка | Ein autorisierter Händler bietet speziellen Support für unsere Firmen-Laptops an.
 die Lagerhalle, -n	warehouse / складська будівля | In der neuen Lagerhalle werden die Server-Racks für den Versand vorbereitet.
 die Online-Plattform, -en	online platform / онлайн-платформа | Wir entwickeln eine neue Online-Plattform für das Projektmanagement.
 der Sonderwunsch, "-e	special request / особливе побажання | Haben Sie bezüglich der Konfiguration Ihres neuen PCs noch einen Sonderwunsch?
 etw. aktivieren (aktiviert, aktivierte, hat aktiviert)	to activate / активувати | Nach der Installation müssen Sie das Plugin im WordPress-Backend noch aktivieren.
-der Anbieter, - / die Anbieterin, -nen	provider / провайдер/-ка | Який провайдер зараз має найкращу продуктивність для Cloud-Hosting?
+der Anbieter, - / die Anbieterin, -nen	provider / провайдер/-ка | Welcher Anbieter hat aktuell die beste Performance für Cloud-Hosting?
 etw. auf|laden (lädt auf, lud auf, hat aufgeladen)	to top up, to charge / заряджати, поповнювати (рахунок) | Ich muss den Akku meines Firmen-Laptops aufladen, bevor das Meeting beginnt.
 sich beraten lassen (lässt sich beraten, ließ sich beraten, hat sich beraten lassen)	to get advice / отримати консультацію | Wir lassen uns von einem Experten bezüglich der DSGVO-Konformität unserer App beraten.
 sich beschweren (beschwert sich, beschwerte sich, hat sich beschwert)	to complain / скаржитися | Der Nutzer hat sich im Support-Forum über die langsame Ladezeit der Webseite beschwert.
@@ -330,7 +330,7 @@ das Datenvolumen, -	data volume / обсяг даних | Durch die Bildkompress
 etw. ein|geben (gibt ein, gab ein, hat eingegeben)	to enter (data) / вводити (дані) | Bitte geben Sie Ihren API-Key in das Konfigurationsfeld ein.
 etw. ein|legen (legt ein, legte ein, hat eingelegt)	to insert / вставляти | Um den Server zu booten, müssen Sie zuerst den bootfähigen USB-Stick einlegen.
 einmalig	one-time / одноразовий | Die Kosten für die Software-Lizenz fallen nur einmalig an.
-der Einsteiger, - / die Einsteigerin, -nen	beginner / початківець/-иця | Ця мова програмування легко вивчається навіть початківцями без попередніх знань.
+der Einsteiger, - / die Einsteigerin, -nen	beginner / початківець/-иця | Diese Programmiersprache ist auch für Einsteiger ohne Vorkenntnisse leicht zu erlernen.
 etw. entgegen|nehmen (nimmt entgegen, nahm entgegen, hat entgegengenommen)	to receive, to accept / приймати | Der Webserver kann gleichzeitig Tausende von HTTP-Anfragen entgegennehmen.
 das Festnetz (Sg.)	landline / стаціонарна мережа | In unserem Büro nutzen wir Voice-over-IP anstelle des klassischen Festnetzes.
 etw. frei|schalten (schaltet frei, schaltete frei, hat freigeschaltet)	to unlock, to activate / активувати, розблокувати | Der Administrator kann deinen Zugang zum VPN-Server erst morgen freischalten.
@@ -338,7 +338,7 @@ die Grundgebühr, -en	basic fee / абонентська плата | In der mon
 gültig	valid / дійсний | Das SSL-Zertifikat für unsere Domain ist nur noch zwei Wochen gültig.
 günstig	cheap, favorable / вигідний, недешевий | Open-Source-Lösungen sind oft eine günstige Alternative zu teurer kommerzieller Software.
 das Guthaben, -	credit / баланс (грошовий) | Ihr Guthaben für die Cloud-Ressourcen reicht noch für etwa drei Monate.
-der Handwerker, - / die Handwerkerin, -nen	craftsman / майстер/-иня | У розробці ПЗ часто говорять про "Software-Craftsmanship", подібно до класичних майстрів.
+der Handwerker, - / die Handwerkerin, -nen	craftsman / майстер/-иня | In der Softwareentwicklung spricht man oft von "Software-Craftsmanship", ähnlich wie bei klassischen Handwerkern.
 inklusive	inclusive / включно | Das neue Update ist inklusive aller Sicherheits-Patches ab sofort verfügbar.
 die Kontrolle, -n	control / контроль | Die Versionskontrolle mit Git ist für professionelle Softwareentwicklung unerlässlich.
 der Lieferservice, -s	delivery service / служба доставки | Wir entwickeln eine API für einen internationalen Lieferservice.
@@ -433,7 +433,7 @@ Erfolg haben	to have success / мати успіх | Wenn wir die User-Experienc
 fächerübergreifend	interdisciplinary / міждисциплінарний | Wir planen ein fächerübergreifendes Projekt zwischen der Design-Abteilung und der IT.
 die Gesprächs- und Verhandlungsführung (Sg.)	conversation and negotiation management / ведення переговорів | In dem Kurs man lernt, wie man die Gesprächs- und Verhandlungsführung mit IT-Dienstleistern verbessert.
 interkulturell	intercultural / міжкультурний | In globalen IT-Teams ist interkulturelle Kompetenz für eine reibungslose Zusammenarbeit entscheidend.
-der IT-Systemkaufmann, -leute / die IT-Systemkauffrau, -en	IT systems management assistant / фахівець/-чиня з продажів ІТ-систем | Фахівці з продажів ІТ-систем розраховують витрати на ліцензії для нового корпоративного ПЗ.
+der IT-Systemkaufmann, -leute / die IT-Systemkauffrau, -en	IT systems management assistant / фахівець/-чиня з продажів ІТ-систем | IT-Systemkaufleute berechnen die Lizenzkosten für neue Unternehmenssoftware.
 die Soft Skills (Pl.)	soft skills / гнучкі навички | Neben technischem Fachwissen sind Soft Skills wie Kommunikationsfähigkeit für Entwickler unverzichtbar.
 teamfähig	able to work in a team / здатний працювати в команді | Wir suchen neue Senior-Entwickler, die nicht nur technisch brillant, sondern auch teamfähig sind.
 die Teamfähigkeit (Sg.)	ability to work in a team / вміння працювати в команді | Teamfähigkeit ist in agilen Scrum-Teams eine absolute Grundvoraussetzung.
@@ -966,7 +966,7 @@ die Du-Botschaft, -en	"you" message (blaming) / "ти-повідомлення" 
 fehlender Respekt	lack of respect / відсутність поваги | Fehlender Respekt bei Code-Reviews zerstört das Vertrauen im Team.
 die Gemeinsamkeit, -en	similarity, common ground / спільна риса, спільність | Wir haben viele Gemeinsamkeiten, zum Beispiel programmieren wir beide in Go.
 die Ich-Botschaft, -en	"I" message / "я-повідомлення" | Mit einer Ich-Botschaft ("Ich habe Schwierigkeiten, den Code zu lesen") kritisiert man konstruktiver.
-Kompromisse eingehen (geht ein, ging ein, ist eingegangen)	to make compromises / йти на компроміси | Manchmal muss man bei der Performance kleine Komпроміссе eingehen.
+Kompromisse eingehen (geht ein, ging ein, ist eingegangen)	to make compromises / йти на компроміси | Manchmal muss man bei der Performance kleine Kompromisse eingehen.
 der Konflikt, -e	conflict / конфлікт | Es gab einen kleinen Konflikt wegen des abgelehnten Pull-Requests.
 das Konfliktgespräch, -e	conflict resolution discussion / розмова для вирішення конфлікту | Der Scrum Master führt ein Konfliktgespräch mit den zwei Entwicklern.
 kooperativ	cooperative / схильний до співпраці, кооперативний | Unser Team arbeitet sehr kooperativ und teilt das Wissen gerne.

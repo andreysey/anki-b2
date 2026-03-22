@@ -1,7 +1,7 @@
 #separator:;
 #html:true
 #columns:German;English;Ukrainian;Example
-der Ansprechpartner, - / die Ansprechpartnerin, -nen;contact person;контактна особа;Unser Ansprechpartner для das API-Gateway сьогодні, на жаль, не доступний.
+der Ansprechpartner, - / die Ansprechpartnerin, -nen;contact person;контактна особа;Unser Ansprechpartner für das API-Gateway ist heute leider nicht verfügbar.
 der Aushang, "-e;notice, posting;оголошення;Ich habe den digitalen Aushang im Firmen-Intranet über das neue Slack-Update gesehen.
 das Bewerbungsschreiben, -;letter of application;заява про прийняття на роботу;In Ihrem Bewerbungsschreiben sollten Sie Ihre Erfahrung mit Cloud-Technologien hervorheben.
 das Bewerbungsverfahren, -;application process;процес подання заявки;Das Bewerbungsverfahren für die Stelle als DevOps-Engineer umfasst drei technische Interviews.
@@ -13,7 +13,7 @@ fehlerfrei;error-free;без помилок;Ein fehlerfreier Code ist die Voraus
 die Initiativbewerbung, -en;unsolicited application;ініціативна заявка;Ich habe eine Initiativbewerbung an das IT-Sicherheitszentrum geschickt.
 die Installateurfirma, -firmen;plumbing company;сантехнічна фірма;Die Installateurfirma wartet das Kühlsystem für unsere Hochleistungsserver.
 die Konkurrenz (Sg.);competition;конкуренція;In der Tech-Branche ist die Konkurrenz um die besten Talente extrem hoch.
-der Leiharbeiter, - / die Leiharbeiterin, -nen;temporary worker;тимчасовий працівник/-ця;Ми найняли тимчасового працівника для короткострокового проекту з міграції даних.
+der Leiharbeiter, - / die Leiharbeiterin, -nen;temporary worker;тимчасовий працівник/-ця;Wir haben einen Leiharbeiter für das kurzfristige Datenmigrationsprojekt eingestellt.
 das Leitbild, -er;mission statement;місія, девіз компанії;Das Leitbild unseres Startups ist die Demokratisierung von Daten durch Open Source.
 der Stand der Dinge;state of affairs;стан справ;Können Sie mir beim nächsten Daily Stand-up den aktuellen Stand der Dinge zum Bug-Fixing geben?
 einen Termin bestätigen (bestätigt, bestätigte, hat bestätigt);to confirm an appointment;підтверджувати зустріч;Bitte bestätigen Sie den Termin for die Produktdemo über den Kalender-Link.
@@ -23,7 +23,7 @@ die Zeitarbeitsfirma, -en;temporary employment agency;агентство з пр
 zukünftig;future;майбутній;In der zukünftigen Version der Software wird eine Zwei-Faktor-Authentifizierung standardmäßig aktiviert sein.
 die Arbeitskraft, "-e;worker, manpower;робоча сила;Automatisierung reduziert den Bedarf an manueller Arbeitskraft bei Routineaufgaben.
 das Arbeitsverhältnis, -se;employment relationship;трудові відносини;Das unbefristete Arbeitsverhältnis bietet dem Softwareentwickler eine hohe Sicherheit.
-ausleihen (leiht aus, lieh aus, hat ausgeliehen);to lend, to borrow;позичати, віддавати в оренду;Man kann sich moderne VR-Brillen in der IT-Abteilung для Testzwecke ausleihen.
+ausleihen (leiht aus, lieh aus, hat ausgeliehen);to lend, to borrow;позичати, віддавати в оренду;Man kann sich moderne VR-Brillen in der IT-Abteilung für Testzwecke ausleihen.
 die Berufsberatung, -en;vocational guidance;професійна консультація;Die Berufsberatung empfiehlt jungen Leuten oft ein Studium der Informatik.
 die Berufserfahrung, -en;professional experience;професійний досвід;Er bringt über zehn Jahre Berufserfahrung im Bereich Full-Stack-Entwicklung mit.
 beschäftigen (beschäftigt, beschäftigte, hat beschäftigt);to employ;займати, працевлаштовувати;Das System beschäftigt sich derzeit mit der Indizierung der großen Datenbank.
@@ -64,7 +64,7 @@ das Bauvorhaben, -;construction project;будівельний проект;Beim
 die Berufsausbildung, -en;vocational training;професійна освіта;Ich habe meine Berufsausbildung zum mathematisch-technischen Softwareentwickler abgeschlossen.
 der Einsatz, "-e;assignment, mission;виконання завдання;Der weltweite Einsatz unserer Software zeigt ihre hohe Skalierbarkeit.
 das Einverständnis, -se;consent, agreement;згода;Wir benötigen das Einverständnis des Nutzers für die Verarbeitung seiner personenbezogenen Daten.
-der Fachinformatiker, - / die Fachinformatikerin, -nen;IT specialist;фахівець/-чиня з інформатики;Als Fachinformatiker für Anwendungsentwicklung schreibe я щодня код на C#.
+der Fachinformatiker, - / die Fachinformatikerin, -nen;IT specialist;фахівець/-чиня з інформатики;Als Fachinformatiker für Anwendungsentwicklung schreibe ich täglich Code in C#.
 die Krankheitsvertretung, -en;sick leave cover;заміна на час хвороби;Er übernimmt kurzfristig die Krankheitsvertretung für den Lead-Architekten.
 der Realschulabschluss, "-e;secondary school certificate;атестат про закінчення реальної школи;Mit einem guten Realschulabschluss kann man eine Ausbildung zum IT-Systemkaufmann beginnen.
 die Urlaubsvertretung, -en;holiday replacement;заміна на час відпустки;Könntest du während meiner Abwesenheit meine Urlaubsvertretung für die Serverwartung machen?

@@ -2,7 +2,7 @@
 #html:true
 #columns:German;English;Ukrainian;Example
 die Abteilung, -en;department;відділ;Unsere IT-Abteilung kümmert sich um die gesamte Cloud-Infrastruktur.
-der Arbeitgeber, - / die Arbeitgeberin, -nen;employer;роботодавець/-иця;Mein новий Arbeitgeber bietet viele Remote-Work-Optionen для Softwareentwickler an.
+der Arbeitgeber, - / die Arbeitgeberin, -nen;employer;роботодавець/-иця;Mein neuer Arbeitgeber bietet viele Remote-Work-Optionen für Softwareentwickler an.
 das Asylverfahren, -;asylum procedure;процедура надання притулку;Wir unterstützen geflüchtete IT-Spezialisten während ihres Asylverfahrens bei der Jobsuche.
 die Ausbildung, -en;apprenticeship, vocational training;професійне навчання;Ich mache eine Ausbildung zum Fachinformatiker für Systemintegration.
 auf|fallen (fällt auf, fiel auf, ist aufgefallen);to stand out, to be noticeable;впадати в око;Im Code-Review ist mir sofort aufgefallen, dass eine Sicherheitslücke besteht.
@@ -23,7 +23,7 @@ der Mitarbeiter, - / die Mitarbeiterin, -nen;employee;співробітник/-
 jdm. etw. raten (rät, riet, hat geraten);to advise someone;радити комусь щось;Der Senior-Entwickler riet mir, Python als erste Programmiersprache zu lernen.
 der Schulabschluss, "-e;school-leaving certificate;шкільний атестат;Nach meinem Schulabschluss möchte ich Informatik an einer Technischen Universität studieren.
 steigen (stieg, ist gestiegen);to rise, to climb;підніматися, зростати;Die Nachfrage nach Sicherheitsexperten ist in den letzten Jahren stark gestiegen.
-teil|nehmen an (+ Dat.) (nimmt teil, nahm teil, hat teilgenommen);to participate in;брати участь;Nächсте Woche nehme ich an einem Hackathon in Berlin teil.
+teil|nehmen an (+ Dat.) (nimmt teil, nahm teil, hat teilgenommen);to participate in;брати участь;Nächste Woche nehme ich an einem Hackathon in Berlin teil.
 der Umsatz, "-e;revenue, turnover;оборот, виручка;Der Umsatz unseres Software-as-a-Service-Produkts hat sich dieses Jahr verdofft.
 die Umschulung, -en;retraining;перекваліфікація;Nach meiner Karriere im Marketing mache ich eine Umschulung zum Webentwickler.
 wahrscheinlich;probably;ймовірно;Die Migration zur neuen Datenbank wird wahrscheinlich das ganze Wochenende dauern.
@@ -43,7 +43,7 @@ die Fortbildung, -en;advanced training;підвищення кваліфікац
 eine Fortbildung machen (macht, machte, hat gemacht);to do a training;проходити курс підвищення кваліфікації;Ich möchte eine Fortbildung machen, um mich auf IT-Sicherheit zu spezialisieren.
 (ein Unternehmen) gründen (gründet, gründete, hat gegründet);to found (a company);засновувати (компанію);Sie möchten ein Startup gründen, das Blockchain-Technologie für Lieferketten nutzt.
 einen Kredit bewilligen (bewilligt, bewilligte, hat bewilligt);to approve a loan;надавати кредит;Die Bank hat den Kredit für die neue Hardware-Ausstattung bewilligt.
-der Küchenhelfer, - / die Küchenhelferin, -nen;kitchen assistant;кухонний помічник/-ниця;У нашій їдальні кухонний помічник використовує планшет, щоб керувати замовленнями.
+der Küchenhelfer, - / die Küchenhelferin, -nen;kitchen assistant;кухонний помічник/-ниця;In unserer Kantine nutzt der Küchenhelfer ein Tablet, um Bestellungen zu verwalten.
 sich selbstständig machen;to go self-employed;почати власну справу;Nach zehn Jahren Festanstellung möchte ich mich als IT-Consultant selbstständig machen.
 die Selbstständigkeit (Sg.);self-employment;самостійність, самозайнятість;Die Selbstständigkeit erfordert gute Kenntnisse in Projektmanagement und Buchhaltung.
 überlegen (überlegt, überlegte, hat überlegt);to consider, to think about;обмірковувати;Wir überlegen, ob wir die gesamte Backend-Infrastruktur auf Serverless umstellen.
@@ -51,7 +51,7 @@ Verantwortung tragen for (+ Akk.);to bear responsibility;нести відпов
 etw. anerkennen lassen;to have something recognized;визнавати (напр. диплом);Ich muss meine ausländischen IT-Zertifikate in Deutschland anerkennen lassen.
 der Berufsabschluss, "-e;vocational qualification;професійна освіта;Ein staatlich anerkannter Berufsabschluss ist oft Voraussetzung für eine Anstellung im öffentlichen Dienst.
 die Berufsausbildung, -en;vocational training;професійна освіта;Während meiner Berufsausbildung habe ich verschiedene Programmiersprachen gelernt.
-etw. beschließen (beschließt, beschloss, hat beschlossen);to decide on, to resolve;вирішувати, постановити;Wir haben beschlossen, das nächste Projekt mit der agilen Scrum-Methode umзвести.
+etw. beschließen (beschließt, beschloss, hat beschlossen);to decide on, to resolve;вирішувати, постановити;Wir haben beschlossen, das nächste Projekt mit der agilen Scrum-Methode umzusetzen.
 das Zeugnis, -se;report card, certificate;свідоцтво, атестат;Ich habe mein Arbeitszeugnis als PDF für die Bewerbung hochgeladen.
 die Anerkennung, -en;recognition;визнання;Die Anerkennung meiner Masterurkunde war für das Visum als Fachkraft notwendig.
 das Anerkennungsverfahren, -;recognition process;процедура визнання;Das Anerkennungsverfahren kann online über das Portal der IHK verfolgt werden.

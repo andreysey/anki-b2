@@ -3,6 +3,12 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: ["main"]
+    paths:
+      - 'source/**'
+      - 'src/**'
+      - 'Cargo.toml'
+      - 'standardize.py'
+      - '.github/workflows/deploy.yml'
   workflow_dispatch:
 
 permissions:
@@ -16,23 +22,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.x'
-
-      - name: Run Build Scripts
-        run: |
-          python3 tools/standardize.py
-          python3 tools/build_decks.py
-
-      - name: Commit Updated Decks and Logs
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add anki/ quizlet/ docs/data.json *.log
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update decks and website data [skip ci]" && git push)
 
       - name: Setup Pages
         uses: actions/configure-pages@v4

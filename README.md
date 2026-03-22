@@ -7,21 +7,22 @@ This repository contains professional thematic vocabulary files for Anki and Qui
 - `source/`: Original thematic vocabulary files (`B1_plus_Thema*.txt`, `B2_Thema*.txt`).
 - `anki/`: Generated import files for Anki decks.
 - `quizlet/`: Generated import files for Quizlet sets.
-- `tools/`: Automation scripts for maintaining the repository.
+- `standardize.py`: Script to ensure standard Anki format in source files.
+- `Cargo.toml` & `src/`: High-performance Rust application for building decks.
 
 ## Automation Tools
 
 ### 1. `standardize.py`
 Ensures all files in `source/` strictly adhere to the expected Anki format.
-- **Usage**: `python3 tools/standardize.py`
+- **Usage**: `python3 standardize.py`
 
-### 2. `build_decks.py`
-Scans the `source/` directory and regenerates all files in `anki/` and `quizlet/`.
-- **Usage**: `python3 tools/build_decks.py`
+### 2. Rust Build Tool (`rs_build`)
+Scans the `source/` directory and regenerates all files in `anki/`, `quizlet/`, and `docs/`.
+- **Usage**: `cargo run --release`
 
 ## Deck Versions & Generation
 
-The `build_decks.py` tool generates multiple versions of each deck to suit different learning styles:
+The Rust build tool (`cargo run --release`) generates multiple versions of each deck to suit different learning styles:
 
 ```mermaid
 graph TD
@@ -32,7 +33,7 @@ graph TD
     classDef logic fill:#f1f8e9,stroke:#33691e,stroke-dasharray: 5 5,color:#000;
 
     %% Workflow
-    S[source/*.txt] --> B(build_decks.py)
+    S[source/*.txt] --> B(cargo run)
     B --> L{"De-duplication<br/>& Formatting"}
     L --> A[anki/*.txt]
     L --> Q[quizlet/*.txt]

@@ -1,1 +1,14 @@
 .DS_Store
+
+# Rust build artifacts
+target/
+Cargo.lock
+
+
+# Rust
+/target
+
+# Generated
+/anki
+/quizlet
+/docs/data.json

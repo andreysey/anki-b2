@@ -43,7 +43,7 @@ Erfolg haben;to have success;мати успіх;Wenn wir die User-Experience ve
 fächerübergreifend;interdisciplinary;міждисциплінарний;Wir planen ein fächerübergreifendes Projekt zwischen der Design-Abteilung und der IT.
 die Gesprächs- und Verhandlungsführung (Sg.);conversation and negotiation management;ведення переговорів;In dem Kurs man lernt, wie man die Gesprächs- und Verhandlungsführung mit IT-Dienstleistern verbessert.
 interkulturell;intercultural;міжкультурний;In globalen IT-Teams ist interkulturelle Kompetenz für eine reibungslose Zusammenarbeit entscheidend.
-der IT-Systemkaufmann, -leute / die IT-Systemkauffrau, -en;IT systems management assistant;фахівець/-чиня з продажів ІТ-систем;Фахівці з продажів ІТ-систем розраховують витрати на ліцензії для нового корпоративного ПЗ.
+der IT-Systemkaufmann, -leute / die IT-Systemkauffrau, -en;IT systems management assistant;фахівець/-чиня з продажів ІТ-систем;IT-Systemkaufleute berechnen die Lizenzkosten für neue Unternehmenssoftware.
 die Soft Skills (Pl.);soft skills;гнучкі навички;Neben technischem Fachwissen sind Soft Skills wie Kommunikationsfähigkeit für Entwickler unverzichtbar.
 teamfähig;able to work in a team;здатний працювати в команді;Wir suchen neue Senior-Entwickler, die nicht nur technisch brillant, sondern auch teamfähig sind.
 die Teamfähigkeit (Sg.);ability to work in a team;вміння працювати в команді;Teamfähigkeit ist in agilen Scrum-Teams eine absolute Grundvoraussetzung.

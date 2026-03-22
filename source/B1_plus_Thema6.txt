@@ -2,7 +2,7 @@
 #html:true
 #columns:German;English;Ukrainian;Example
 etw. aktivieren (aktiviert, aktivierte, hat aktiviert);to activate;активувати;Nach der Installation müssen Sie das Plugin im WordPress-Backend noch aktivieren.
-der Anbieter, - / die Anbieterin, -nen;provider;провайдер/-ка;Який провайдер зараз має найкращу продуктивність для Cloud-Hosting?
+der Anbieter, - / die Anbieterin, -nen;provider;провайдер/-ка;Welcher Anbieter hat aktuell die beste Performance für Cloud-Hosting?
 etw. auf|laden (lädt auf, lud auf, hat aufgeladen);to top up, to charge;заряджати, поповнювати (рахунок);Ich muss den Akku meines Firmen-Laptops aufladen, bevor das Meeting beginnt.
 sich beraten lassen (lässt sich beraten, ließ sich beraten, hat sich beraten lassen);to get advice;отримати консультацію;Wir lassen uns von einem Experten bezüglich der DSGVO-Konformität unserer App beraten.
 sich beschweren (beschwert sich, beschwerte sich, hat sich beschwert);to complain;скаржитися;Der Nutzer hat sich im Support-Forum über die langsame Ladezeit der Webseite beschwert.
@@ -11,7 +11,7 @@ das Datenvolumen, -;data volume;обсяг даних;Durch die Bildkompression 
 etw. ein|geben (gibt ein, gab ein, hat eingegeben);to enter (data);вводити (дані);Bitte geben Sie Ihren API-Key in das Konfigurationsfeld ein.
 etw. ein|legen (legt ein, legte ein, hat eingelegt);to insert;вставляти;Um den Server zu booten, müssen Sie zuerst den bootfähigen USB-Stick einlegen.
 einmalig;one-time;одноразовий;Die Kosten für die Software-Lizenz fallen nur einmalig an.
-der Einsteiger, - / die Einsteigerin, -nen;beginner;початківець/-иця;Ця мова програмування легко вивчається навіть початківцями без попередніх знань.
+der Einsteiger, - / die Einsteigerin, -nen;beginner;початківець/-иця;Diese Programmiersprache ist auch für Einsteiger ohne Vorkenntnisse leicht zu erlernen.
 etw. entgegen|nehmen (nimmt entgegen, nahm entgegen, hat entgegengenommen);to receive, to accept;приймати;Der Webserver kann gleichzeitig Tausende von HTTP-Anfragen entgegennehmen.
 das Festnetz (Sg.);landline;стаціонарна мережа;In unserem Büro nutzen wir Voice-over-IP anstelle des klassischen Festnetzes.
 etw. frei|schalten (schaltet frei, schaltete frei, hat freigeschaltet);to unlock, to activate;активувати, розблокувати;Der Administrator kann deinen Zugang zum VPN-Server erst morgen freischalten.
@@ -19,7 +19,7 @@ die Grundgebühr, -en;basic fee;абонентська плата;In der monatli
 gültig;valid;дійсний;Das SSL-Zertifikat für unsere Domain ist nur noch zwei Wochen gültig.
 günstig;cheap, favorable;вигідний, недешевий;Open-Source-Lösungen sind oft eine günstige Alternative zu teurer kommerzieller Software.
 das Guthaben, -;credit;баланс (грошовий);Ihr Guthaben für die Cloud-Ressourcen reicht noch für etwa drei Monate.
-der Handwerker, - / die Handwerkerin, -nen;craftsman;майстер/-иня;У розробці ПЗ часто говорять про "Software-Craftsmanship", подібно до класичних майстрів.
+der Handwerker, - / die Handwerkerin, -nen;craftsman;майстер/-иня;In der Softwareentwicklung spricht man oft von "Software-Craftsmanship", ähnlich wie bei klassischen Handwerkern.
 inklusive;inclusive;включно;Das neue Update ist inklusive aller Sicherheits-Patches ab sofort verfügbar.
 die Kontrolle, -n;control;контроль;Die Versionskontrolle mit Git ist für professionelle Softwareentwicklung unerlässlich.
 der Lieferservice, -s;delivery service;служба доставки;Wir entwickeln eine API für einen internationalen Lieferservice.

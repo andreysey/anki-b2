@@ -73,7 +73,7 @@ fehlender Respekt;lack of respect;відсутність поваги;Fehlender 
 die Gemeinsamkeit, -en;similarity, common ground;спільна риса, спільність;Wir haben viele Gemeinsamkeiten, zum Beispiel programmieren wir beide in Go.
 die Ich-Botschaft, -en;"I" message;"я-повідомлення";Mit einer Ich-Botschaft ("Ich habe Schwierigkeiten, den Code zu lesen") kritisiert man konstruktiver.
 der Kompromiss, -e;compromise;компроміс;Wir haben einen technischen Kompromiss für das API-Design gefunden.
-Kompromisse eingehen (geht ein, ging ein, ist eingegangen);to make compromises;йти на компроміси;Manchmal muss man bei der Performance kleine Komпроміссе eingehen.
+Kompromisse eingehen (geht ein, ging ein, ist eingegangen);to make compromises;йти на компроміси;Manchmal muss man bei der Performance kleine Kompromisse eingehen.
 der Konflikt, -e;conflict;конфлікт;Es gab einen kleinen Konflikt wegen des abgelehnten Pull-Requests.
 das Konfliktgespräch, -e;conflict resolution discussion;розмова для вирішення конфлікту;Der Scrum Master führt ein Konfliktgespräch mit den zwei Entwicklern.
 kooperativ;cooperative;схильний до співпраці, кооперативний;Unser Team arbeitet sehr kooperativ und teilt das Wissen gerne.
