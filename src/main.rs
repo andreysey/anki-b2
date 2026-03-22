@@ -82,7 +82,8 @@ fn standardize_file(f_path: &PathBuf) -> (bool, usize) {
         }
 
         // 4. Punctuation checks
-        if parts[1].ends_with('.') || parts[2].ends_with('.') {
+        if (parts[1].ends_with('.') && !parts[1].ends_with("sb.") && !parts[1].ends_with("sth.") && !parts[1].ends_with("...")) || 
+           (parts[2].ends_with('.') && !parts[2].ends_with("...")) {
             println!("  ⚠️ WARNING: Translation ends with a period (.), might be a typo: {}:{}", f_path.display(), line_idx + 1);
         }
         if !parts[3].is_empty() && !parts[3].ends_with('.') && !parts[3].ends_with('?') && !parts[3].ends_with('!') && !parts[3].ends_with(".\"") && !parts[3].ends_with(".\'") {
@@ -110,6 +111,45 @@ fn standardize_file(f_path: &PathBuf) -> (bool, usize) {
     fs::write(f_path, out_content).unwrap();
 
     (true, count)
+}
+
+fn colorize_gender(german: &str) -> String {
+    if german.starts_with("der ") {
+        format!("<span style=\"color: #00d2ff; font-weight: bold;\">der</span>{}", &german[3..])
+    } else if german.starts_with("die ") {
+        format!("<span style=\"color: #ef4444; font-weight: bold;\">die</span>{}", &german[3..])
+    } else if german.starts_with("das ") {
+        format!("<span style=\"color: #22c55e; font-weight: bold;\">das</span>{}", &german[3..])
+    } else {
+        german.to_string()
+    }
+}
+
+fn highlight_word_in_example(clean_german: &str, example: &str) -> String {
+    if example.is_empty() { return String::new(); }
+    
+    let main_word = clean_german.split_whitespace().last().unwrap_or("").replace('|', "");
+    
+    if main_word.len() > 3 {
+        // 1. Try case-insensitive matching for the word or its derivative
+        let pattern = format!(r"(?i)\b{}\w*", regex::escape(&main_word));
+        if let Ok(re) = Regex::new(&pattern) {
+            if re.is_match(example) {
+                return re.replace(example, "<b style=\"color: #eab308;\">$0</b>").to_string();
+            }
+        }
+        
+        // 2. Fallback: try a 4-char prefix match to catch plural/conjugated forms
+        let prefix: String = main_word.chars().take(4).collect();
+        if prefix.len() >= 4 {
+            let pattern_p = format!(r"(?i)\b{}\w*", regex::escape(&prefix));
+            if let Ok(re_p) = Regex::new(&pattern_p) {
+                return re_p.replace(example, "<b style=\"color: #eab308;\">$0</b>").to_string();
+            }
+        }
+    }
+    
+    example.to_string()
 }
 
 fn get_num(s: &str) -> i32 {
@@ -152,29 +192,29 @@ fn generate_decks(
             let word_audio = clean_german_for_audio(&word_display);
             let english = parts[1].to_string();
             let ukrainian = parts[2].to_string();
-            let example = if parts.len() > 3 { parts[3].to_string() } else { String::new() };
+            let example_raw = if parts.len() > 3 { parts[3].to_string() } else { String::new() };
 
             let level = if fname.contains("B1_plus") { "B1+".to_string() } else { "B2".to_string() };
             let thema = get_num(&fname);
 
             let entry_data = EntryData {
-                level,
+                level: level.clone(),
                 thema,
-                german: word_display.clone(),
+                german: colorize_gender(&word_display),
                 german_audio: word_audio.clone(),
                 english: english.clone(),
                 ukrainian: ukrainian.clone(),
-                example: example.clone(),
+                example: highlight_word_in_example(&word_audio, &example_raw),
             };
 
             let output_line = if format_type == "anki" {
                 let entry_tag = format!("{} Thema{}", level, thema).replace("+", "plus");
-                format!("{};{};{};{};{};{}\n", word_display, word_audio, english, ukrainian, example, entry_tag)
+                format!("{};{};{};{};{};{}\n", colorize_gender(&word_display), word_audio, english, ukrainian, highlight_word_in_example(&word_audio, &example_raw), entry_tag)
             } else {
-                let definition = if quizlet_minimal || example.is_empty() {
+                let definition = if quizlet_minimal || example_raw.is_empty() {
                     format!("{} / {}", english, ukrainian)
                 } else {
-                    format!("{} / {} | {}", english, ukrainian, example)
+                    format!("{} / {} | {}", english, ukrainian, example_raw)
                 };
                 format!("{}\t{}\n", word_display, definition)
             };

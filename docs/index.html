@@ -29,6 +29,7 @@
                 <span class="search-icon">🔍</span>
             </div>
             <div class="filters">
+                <button id="mode-toggle" class="mode-btn">🎓 Study Mode</button>
                 <select id="level-filter">
                     <option value="all">All Levels</option>
                     <option value="B1+">B1+</option>
@@ -41,8 +42,31 @@
             </div>
         </section>
 
-        <main id="vocabulary-grid" class="grid">
-            <!-- Cards will be injected by JS -->
+        <main id="vocabulary-main">
+            <div id="vocabulary-grid" class="grid">
+                <!-- Cards will be injected by JS -->
+            </div>
+
+            <div id="study-container" class="hidden">
+                <div class="study-progress">
+                    <span id="study-stats"></span>
+                </div>
+                <div class="scene">
+                    <div id="study-card" class="study-card">
+                        <div class="study-card-face study-card-front glass">
+                            <!-- front content injected -->
+                        </div>
+                        <div class="study-card-face study-card-back glass">
+                            <!-- back content injected -->
+                        </div>
+                    </div>
+                </div>
+                <div class="study-controls">
+                    <button id="prev-btn" class="nav-btn">⬅️ Prev</button>
+                    <button id="flip-btn" class="nav-btn">Flip (Space)</button>
+                    <button id="next-btn" class="nav-btn">Next ➡️</button>
+                </div>
+            </div>
         </main>
 
         <footer>

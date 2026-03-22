@@ -1854,7 +1854,6 @@ die Altersgrenze, -n	age limit / вікове обмеження
 die Arbeitsunfähigkeit (Sg.)	inability to work, incapacity for work / непрацездатність
 die Arbeitsunfähigkeitsbescheinigung, -en	sick note, medical certificate / довідка про непрацездатність (лікарняний)
 die Arbeitsvergütung, -en	remuneration, pay / оплата праці
-das Arbeitsverhältnis, -se	employment relationship / трудові відносини
 etw. beeinträchtigen (beeinträchtigt, beeinträchtigte, hat beeinträchtigt)	to affect, to impair / шкодити, негативно впливати
 die Bruttovergütung, -en	gross remuneration / оплата брутто (до відрахування податків)
 jdn. einstellen (stellt ein, stellte ein, hat eingestellt)	to hire, to employ / наймати на роботу

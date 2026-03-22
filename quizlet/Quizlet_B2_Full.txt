@@ -1388,7 +1388,6 @@ die Altersgrenze, -n	age limit / вікове обмеження | Es gibt defin
 die Arbeitsunfähigkeit (Sg.)	inability to work, incapacity for work / непрацездатність | Bei Arbeitsunfähigkeit durch Krankheit muss man sofort das HR-Team informieren.
 die Arbeitsunfähigkeitsbescheinigung, -en	sick note, medical certificate / довідка про непрацездатність (лікарняний) | Die elektronische Arbeitsunfähigkeitsbescheinigung (eAU) geht nun direkt an die Kasse.
 die Arbeitsvergütung, -en	remuneration, pay / оплата праці | Die vertragliche Arbeitsvergütung für IT-Spezialisten ist in Deutschland sehr attraktiv.
-das Arbeitsverhältnis, -se	employment relationship / трудові відносини | Ihr neues Arbeitsverhältnis als Lead Developer beginnt am 1. September.
 etw. beeinträchtigen (beeinträchtigt, beeinträchtigte, hat beeinträchtigt)	to affect, to impair / шкодити, негативно впливати | Die hohe Server-Latenz darf die User-Experience (UX) nicht beeinträchtigen.
 die Bruttovergütung, -en	gross remuneration / оплата брутто (до відрахування податків) | Seine jährliche Bruttovergütung im Startup beträgt 75.000 Euro.
 jdn. einstellen (stellt ein, stellte ein, hat eingestellt)	to hire, to employ / наймати на роботу | Wir wollen in diesem Quartal drei neue Entwickler einstellen.

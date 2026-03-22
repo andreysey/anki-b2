@@ -1,457 +1,457 @@
 #separator:;
 #html:true
-#columns:German;German_Audio;English;Ukrainian;Example
-die Abteilung, -en;die Abteilung;department;відділ;Unsere IT-Abteilung kümmert sich um die gesamte Cloud-Infrastruktur.
-der Arbeitgeber, - / die Arbeitgeberin, -nen;der Arbeitgeber;employer;роботодавець/-иця;Mein neuer Arbeitgeber bietet viele Remote-Work-Optionen für Softwareentwickler an.
-das Asylverfahren, -;das Asylverfahren;asylum procedure;процедура надання притулку;Wir unterstützen geflüchtete IT-Spezialisten während ihres Asylverfahrens bei der Jobsuche.
-die Ausbildung, -en;die Ausbildung;apprenticeship, vocational training;професійне навчання;Ich mache eine Ausbildung zum Fachinformatiker für Systemintegration.
-auf|fallen (fällt auf, fiel auf, ist aufgefallen);auf|fallen;to stand out, to be noticeable;впадати в око;Im Code-Review ist mir sofort aufgefallen, dass eine Sicherheitslücke besteht.
-(eine Prüfung) bestehen (besteht, bestand, hat bestanden);bestehen;to pass (an exam);скласти (іспит);Er hat die Zertifizierungsprüfung zum AWS Certified Solutions Architect bestanden.
-das Berufsinformationszentrum (BIZ);das Berufsinformationszentrum;career information center;центр профорієнтації;Im BIZ gibt es spezielle Beratungen für Quereinsteiger in die IT-Branche.
-der Betrieb, -e;der Betrieb;company, business;підприємство;Unser Betrieb hat vor kurzem auf eine Microservices-Architektur umgestellt.
-sich bewerben (bewirbt sich, bewarb sich, hat sich beworben);sich bewerben;to apply;подавати заявку (на роботу);Ich bewerbe mich um die Stelle als Senior Java Developer bei diesem Startup.
-jdn. ein|stellen (stellt ein, stellte ein, hat eingestellt);ein|stellen;to hire someone;наймати когось;Wir möchten diesen Monat drei neue Backend-Entwickler einstellen.
-das E-Learning (Sg.);das E-Learning;e-learning;електронне навчання;E-Learning-Plattformen wie Coursera sind ideal, um neue Programmiersprachen zu lernen.
-der E-Learning-Kurs, -e;der E-Learning-Kurs;e-learning course;курс дистанційного навчання;Ich belege einen E-Learning-Kurs zum Thema "Deep Learning mit Python".
-der Facharbeiter, - / die Facharbeiterin, -nen;der Facharbeiter;skilled worker;кваліфікований робітник/-ця;In der Halbleiterfertigung werden hochqualifizierte Facharbeiter benötigt.
-der Gabelstapler, -;der Gabelstapler;forklift;навантажувач;Wir programmieren die Software für die automatische Steuerung der Gabelstapler im Logistikzentrum.
-die Geschäftsführung, -en;die Geschäftsführung;management;керівництво;Die Geschäftsführung hat das Budget für die Cybersicherheit verdoppelt.
-sich informieren über (+ Akk.) (informiert sich, informierte sich, hat sich informiert);sich informieren über;to inform oneself;інформуватися;Ich informiere mich täglich über die neuesten Frameworks und Bibliotheken.
-das Lager, -;das Lager;warehouse, storage;склад;Das digitale Lager verwaltet Tausende von Hardware-Komponenten für unser Rechenzentrum.
-die Lagerlogistik (Sg.);die Lagerlogistik;warehouse logistics;складська логістика;Ein effizientes ERP-System optimiert die gesamte Lagerlogistik des Hardware-Händlers.
-der Mitarbeiter, - / die Mitarbeiterin, -nen;der Mitarbeiter;employee;співробітник/-ця;Jeder Mitarbeiter erhält einen leistungsstarken Laptop für die Softwareentwicklung.
-jdm. etw. raten (rät, riet, hat geraten);jdm. etw. raten;to advise someone;радити комусь щось;Der Senior-Entwickler riet mir, Python als erste Programmiersprache zu lernen.
-der Schulabschluss, "-e;der Schulabschluss;school-leaving certificate;шкільний атестат;Nach meinem Schulabschluss möchte ich Informatik an einer Technischen Universität studieren.
-steigen (stieg, ist gestiegen);steigen;to rise, to climb;підніматися, зростати;Die Nachfrage nach Sicherheitsexperten ist in den letzten Jahren stark gestiegen.
-teil|nehmen an (+ Dat.) (nimmt teil, nahm teil, hat teilgenommen);teil|nehmen an;to participate in;брати участь;Nächste Woche nehme ich an einem Hackathon in Berlin teil.
-der Umsatz, "-e;der Umsatz;revenue, turnover;оборот, виручка;Der Umsatz unseres Software-as-a-Service-Produkts hat sich dieses Jahr verdofft.
-die Umschulung, -en;die Umschulung;retraining;перекваліфікація;Nach meiner Karriere im Marketing mache ich eine Umschulung zum Webentwickler.
-wahrscheinlich;wahrscheinlich;probably;ймовірно;Die Migration zur neuen Datenbank wird wahrscheinlich das ganze Wochenende dauern.
-die Weiterbildung, -en;die Weiterbildung;further education;підвищення кваліфікації;In der IT-Welt ist kontinuierliche Weiterbildung die Basis für beruflichen Erfolg.
-der Antrag, "-e;der Antrag;application, request;заява;Ich habe einen Antrag auf Zugriffsberechtigung für den Produktionsserver gestellt.
-einen Antrag stellen (stellt, stellte, hat gestellt);einen Antrag stellen;to submit an application;падавати заяву;Sie müssen einen Antrag stellen, um das neue Grafiktablett aus dem IT-Bestand zu erhalten.
-die Aufenthaltsgenehmigung, -en;die Aufenthaltsgenehmigung;residence permit;посвідка на проживання;Für das Visum als Blue-Card-Inhaber benötige ich eine gültige Aufenthaltsgenehmigung.
-auf|wachsen (wächst auf, wuchs auf, ist aufgewachsen);auf|wachsen;to grow up;виростати;Er ist im Silicon Valley aufgewachsen und hat schon früh mit dem Programmieren begonnen.
-der Berater, - / die Beraterin, -nen;der Berater;advisor, counselor;консультант/-ка;Der externe IT-Berater analysiert unsere aktuelle Netzwerkstruktur.
-jdn. beschäftigen (beschäftigt, beschäftigte, hat beschäftigt);beschäftigen;to employ someone;мати у штаті, займати когось;Unser Unternehmen beschäftigt weltweit über 500 Softwarearchitekten.
-der Businessplan, "-e;der Businessplan;business plan;бізнес-план;Bevor wir Investoren für unsere App suchen, brauchen wir einen soliden Businessplan.
-das Einkommen, -;das Einkommen;income;дохід;Das Einkommen als Freelancer in der Softwareentwicklung variiert je nach Projektlage.
-die Entscheidung, -en;die Entscheidung;decision;рішення;Die Entscheidung, auf Rust umzusteigen, war für die Performance der App entscheidend.
-eine Entscheidung treffen (trifft, traf, hat getroffen);eine Entscheidung treffen;to make a decision;прийти до рішення;Das Management muss endlich eine Entscheidung bezüglich des Cloud-Providers treffen.
-die Existenzgründung, -en;die Existenzgründung;founding of a business;заснування власної справи;Er plant eine Existenzgründung mit einer innovativen KI-Lösung für den E-Commerce.
-die Fortbildung, -en;die Fortbildung;advanced training;підвищення кваліфікації;Nächsten Monat besuche ich eine Fortbildung zum Thema Containerisierung mit Docker.
-eine Fortbildung machen (macht, machte, hat gemacht);eine Fortbildung machen;to do a training;проходити курс підвищення кваліфікації;Ich möchte eine Fortbildung machen, um mich auf IT-Sicherheit zu spezialisieren.
-(ein Unternehmen) gründen (gründet, gründete, hat gegründet);gründen;to found (a company);засновувати (компанію);Sie möchten ein Startup gründen, das Blockchain-Technologie für Lieferketten nutzt.
-einen Kredit bewilligen (bewilligt, bewilligte, hat bewilligt);einen Kredit bewilligen;to approve a loan;надавати кредит;Die Bank hat den Kredit für die neue Hardware-Ausstattung bewilligt.
-der Küchenhelfer, - / die Küchenhelferin, -nen;der Küchenhelfer;kitchen assistant;кухонний помічник/-ниця;In unserer Kantine nutzt der Küchenhelfer ein Tablet, um Bestellungen zu verwalten.
-sich selbstständig machen;sich selbstständig machen;to go self-employed;почати власну справу;Nach zehn Jahren Festanstellung möchte ich mich als IT-Consultant selbstständig machen.
-die Selbstständigkeit (Sg.);die Selbstständigkeit;self-employment;самостійність, самозайнятість;Die Selbstständigkeit erfordert gute Kenntnisse in Projektmanagement und Buchhaltung.
-überlegen (überlegt, überlegte, hat überlegt);überlegen;to consider, to think about;обмірковувати;Wir überlegen, ob wir die gesamte Backend-Infrastruktur auf Serverless umstellen.
-Verantwortung tragen for (+ Akk.);Verantwortung tragen for;to bear responsibility;нести відповідальність;Als CTO trage ich die Verantwortung für alle technischen Entscheidungen im Unternehmen.
-etw. anerkennen lassen;anerkennen lassen;to have something recognized;визнавати (напр. диплом);Ich muss meine ausländischen IT-Zertifikate in Deutschland anerkennen lassen.
-der Berufsabschluss, "-e;der Berufsabschluss;vocational qualification;професійна освіта;Ein staatlich anerkannter Berufsabschluss ist oft Voraussetzung für eine Anstellung im öffentlichen Dienst.
-die Berufsausbildung, -en;die Berufsausbildung;vocational training;професійна освіта;Während meiner Berufsausbildung habe ich verschiedene Programmiersprachen gelernt.
-etw. beschließen (beschließt, beschloss, hat beschlossen);beschließen;to decide on, to resolve;вирішувати, постановити;Wir haben beschlossen, das nächste Projekt mit der agilen Scrum-Methode umzusetzen.
-das Zeugnis, -se;das Zeugnis;report card, certificate;свідоцтво, атестат;Ich habe mein Arbeitszeugnis als PDF für die Bewerbung hochgeladen.
-die Anerkennung, -en;die Anerkennung;recognition;визнання;Die Anerkennung meiner Masterurkunde war für das Visum als Fachkraft notwendig.
-das Anerkennungsverfahren, -;das Anerkennungsverfahren;recognition process;процедура визнання;Das Anerkennungsverfahren kann online über das Portal der IHK verfolgt werden.
-die Arbeitserlaubnis, -se;die Arbeitserlaubnis;work permit;дозвіл на роботу;Ohne eine gültige Arbeitserlaubnis darf man in Deutschland nicht als Entwickler arbeiten.
-die Fachkraft, "-e;die Fachkraft;specialist;спеціаліст;In Deutschland herrscht ein großer Mangel an Fachkräften im Bereich Cybersicherheit.
-die Kompetenz, -en;die Kompetenz;competence, skill;компетенція, навичка;Problemlösungskompetenz ist eine der wichtigsten Eigenschaften eines Programmierers.
-Kosten übernehmen (übernimmt, übernahm, hat übernommen);Kosten übernehmen;to cover costs;брати на себе витрати;Mein Arbeitgeber wird die Kosten für die Microsoft-Zertifizierung übernehmen.
-der Nachweis, -e;der Nachweis;proof, evidence;доказ, підтвердження;Als Nachweis meiner Erfahrung habe ich mein GitHub-Portfolio im Lebenslauf verlinkt.
-das Praktikum, Praktika;das Praktikum;internship;практика;Ich mache ein dreimonatiges Praktikum in der Qualitätssicherung eines Softwarehauses.
-die Qualifikation, -en;die Qualifikation;qualification;кваліфікація;Welche zusätzlichen Qualifikationen werden für die Stelle als Cloud-Engineer gefordert?
-reglementiert;reglementiert;regulated;регламентований;Der Beruf des Softwareentwicklers ist in Deutschland glücklicherweise nicht reglementiert.
-die Unterlage, -n;die Unterlage;document;документ;Bitte laden Sie alle relevanten Unterlagen in das Bewerberportal hoch.
-etw. vergleichen mit (+ Dat.);vergleichen mit;to compare with;порівнювати;Wir müssen die Performance der verschiedenen Datenbanken miteinander vergleichen.
-der Ansprechpartner, - / die Ansprechpartnerin, -nen;der Ansprechpartner;contact person;контактна особа;Unser Ansprechpartner für das API-Gateway ist heute leider nicht verfügbar.
-der Aushang, "-e;der Aushang;notice, posting;оголошення;Ich habe den digitalen Aushang im Firmen-Intranet über das neue Slack-Update gesehen.
-das Bewerbungsschreiben, -;das Bewerbungsschreiben;letter of application;заява про прийняття на роботу;In Ihrem Bewerbungsschreiben sollten Sie Ihre Erfahrung mit Cloud-Technologien hervorheben.
-das Bewerbungsverfahren, -;das Bewerbungsverfahren;application process;процес подання заявки;Das Bewerbungsverfahren für die Stelle als DevOps-Engineer umfasst drei technische Interviews.
-der Eindruck, "-e;der Eindruck;impression;враження;Die neue Architektur der mobilen App macht einen sehr modernen Eindruck.
-die Elektrofirma, -firmen;die Elektrofirma;electrical company;електротехнічна фірма;Die Elektrofirma installiert die neue unterbrechungsfreie Stromversorgung (USV) in unserem Rechenzentrum.
-erwarten (erwartet, erwartete, hat erwartet);erwarten;to expect;очікувати;Von einem Senior-Entwickler erwarten wir fundierte Kenntnisse in Design Patterns.
-das Fachpersonal (Sg.);das Fachpersonal;skilled personnel;кваліфікований персонал;Unser Unternehmen investiert stark in Fachpersonal für künstliche Intelligenz.
-fehlerfrei;fehlerfrei;error-free;без помилок;Ein fehlerfreier Code ist die Voraussetzung für eine erfolgreiche CI/CD-Pipeline.
-die Initiativbewerbung, -en;die Initiativbewerbung;unsolicited application;ініціативна заявка;Ich habe eine Initiativbewerbung an das IT-Sicherheitszentrum geschickt.
-die Installateurfirma, -firmen;die Installateurfirma;plumbing company;сантехнічна фірма;Die Installateurfirma wartet das Kühlsystem für unsere Hochleistungsserver.
-die Konkurrenz (Sg.);die Konkurrenz;competition;конкуренція;In der Tech-Branche ist die Konkurrenz um die besten Talente extrem hoch.
-der Leiharbeiter, - / die Leiharbeiterin, -nen;der Leiharbeiter;temporary worker;тимчасовий працівник/-ця;Wir haben einen Leiharbeiter für das kurzfristige Datenmigrationsprojekt eingestellt.
-das Leitbild, -er;das Leitbild;mission statement;місія, девіз компанії;Das Leitbild unseres Startups ist die Demokratisierung von Daten durch Open Source.
-der Stand der Dinge;der Stand der Dinge;state of affairs;стан справ;Können Sie mir beim nächsten Daily Stand-up den aktuellen Stand der Dinge zum Bug-Fixing geben?
-einen Termin bestätigen (bestätigt, bestätigte, hat bestätigt);einen Termin bestätigen;to confirm an appointment;підтверджувати зустріч;Bitte bestätigen Sie den Termin for die Produktdemo über den Kalender-Link.
-die Wartezeit, -en;die Wartezeit;waiting time;час очікування;Die Wartezeit für das Rendern des 4K-Videos beträgt etwa zwei Stunden.
-die Zeitarbeitsfirma, -en;die Zeitarbeitsfirma;temporary employment agency;агентство з працевлаштування;Die Zeitarbeitsfirma hat uns kurzfristig einen Spezialisten für Datenbanken vermittelt.
-zukünftig;zukünftig;future;майбутній;In der zukünftigen Version der Software wird eine Zwei-Faktor-Authentifizierung standardmäßig aktiviert sein.
-die Arbeitskraft, "-e;die Arbeitskraft;worker, manpower;робоча сила;Automatisierung reduziert den Bedarf an manueller Arbeitskraft bei Routineaufgaben.
-das Arbeitsverhältnis, -se;das Arbeitsverhältnis;employment relationship;трудові відносини;Das unbefristete Arbeitsverhältnis bietet dem Softwareentwickler eine hohe Sicherheit.
-ausleihen (leiht aus, lieh aus, hat ausgeliehen);ausleihen;to lend, to borrow;позичати, віддавати в оренду;Man kann sich moderne VR-Brillen in der IT-Abteilung für Testzwecke ausleihen.
-die Berufsberatung, -en;die Berufsberatung;vocational guidance;професійна консультація;Die Berufsberatung empfiehlt jungen Leuten oft ein Studium der Informatik.
-die Berufserfahrung, -en;die Berufserfahrung;professional experience;професійний досвід;Er bringt über zehn Jahre Berufserfahrung im Bereich Full-Stack-Entwicklung mit.
-beschäftigen (beschäftigt, beschäftigte, hat beschäftigt);beschäftigen;to employ;займати, працевлаштовувати;Das System beschäftigt sich derzeit mit der Indizierung der großen Datenbank.
-die Beschäftigung (Sg.);die Beschäftigung;employment;зайнятість;Die Beschäftigung mit dem Thema Machine Learning erfordert viel mathematisches Verständnis.
-die Genehmigung, -en;die Genehmigung;permission, permit;дозвіл;Wir warten noch auf die offizielle Genehmigung der IT-Leitung für den Kauf der neuen Lizenzen.
-die Leiharbeit (Sg.);die Leiharbeit;temporary work;тимчасова праця;Leiharbeit kann für IT-Freelancer eine gute Möglichkeit sein, verschiedene Unternehmen kennenzulernen.
-staatlich;staatlich;state, public;державний;Das staatliche Amt für Cybersicherheit hat eine Warnung vor einem neuen Computervirus herausgegeben.
-die Tätigkeit, -en;die Tätigkeit;activity, task;діяльність;Zu meinen täglichen Tätigkeiten gehört das Schreiben von Unit-Tests und das Bugtracking.
-einen Termin vereinbaren (vereinbart, vereinbarte, hat vereinbart);einen Termin vereinbaren;to make an appointment;домовлятися про зустріч;Ich möchte einen Termin mit dem Product Owner vereinbaren, um die User Stories zu besprechen.
-verleihen (verleiht, verlieh, hat verliehen);verleihen;to lend;позичати, надавати;Das Rechenzentrum verleiht Rechenleistung an kleinere Startups.
-die Vermittlung, -en;die Vermittlung;placement, mediation;працевлаштування, посередництво;Die Vermittlung von IT-Fachkräften erfolgt oft über spezialisierte Headhunter-Agenturen.
-die Vermittlungsgebühr, -en;die Vermittlungsgebühr;placement fee;комісія за працевлаштування;Die Firma zahlt eine hohe Vermittlungsgebühr für einen erfahrenen Softwarearchitekten.
-der Agraringenieur, -e / die Agraringenieurin, -nen;der Agraringenieur;agricultural engineer;агроном-інженер/-ка;Der Agraringenieur nutzt Drohnen und IoT-Sensoren zur Optimierung der Bewässerung.
-der Arbeitseinsatz, "-e;der Arbeitseinsatz;work assignment;використання робочої сили;Der Arbeitseinsatz der Entwickler wird über ein agiles Jira-Board gesteuert.
-der Bereich, -e;der Bereich;area, field;сфера, галузь;In welchem Bereich der Informatik möchtest du dich spezialisieren?
-die Bereitschaft (Sg.);die Bereitschaft;readiness, willingness;готовність;Die Bereitschaft zur Wochenendarbeit ist bei kritischen Systemumstellungen notwendig.
-der Einsatzort, -e;der Einsatzort;place of assignment;місце роботи (відрядження);Mein aktueller Einsatzort ist das Headquarter der IT-Firma in San Francisco.
-examiniert;examiniert;qualified, examined;дипломований;Wir suchen examiniertes Fachpersonal für die Wartung medizinischer IT-Systeme.
-das Familienunternehmen, -;das Familienunternehmen;family business;сімейне підприємство;Das mittelständische Familienunternehmen plant die Digitalisierung seiner gesamten Produktion.
-der Informatiker, - / die Informatikerin, -nen;der Informatiker;IT specialist;інформатик/-иця;Der Informatiker optimiert den Algorithmus für eine schnellere Datenverarbeitung.
-der Ingenieur, -e / die Ingenieurin, -nen;der Ingenieur;engineer;інженер/-ка;Der Ingenieur entwickelt neue Hardwarekomponenten für Quantencomputer.
-innovativ;innovativ;innovative;інноваційний;Unsere Firma bietet innovative Cloud-Lösungen für kleine und mittlere Unternehmen an.
-die Karrierechance, -n;die Karrierechance;career opportunity;шанс на кар'єру;Internationale Tech-Konzerne bieten hervorragende Karrierechancen für ehrgeizige Entwickler.
-die Kommunikationsfähigkeit, -en;die Kommunikationsfähigkeit;communication skills;комунікабельність;Gute Kommunikationsfähigkeit ist bei der Zusammenarbeit in verteilten Teams unerlässlich.
-der Kundenservice (Sg.);der Kundenservice;customer service;служба підтримки клієнтів;Der Kundenservice wird durch einen KI-basierten Chatbot unterstützt.
-die Pflegekraft, "-e;die Pflegekraft;caregiver, nurse;медпрацівник (з догляду);Die moderne Klinik verwendet digitale Tools, um die Pflegekraft bei der Dokumentation zu entlasten.
-der Pflegeservice (Sg.);der Pflegeservice;care service;служба догляду;Ein digitaler Pflegeservice ermöglicht die Fernüberwachung von Patientendaten.
-der Sicherheitsmitarbeiter, - / die Sicherheitsmitarbeiterin, -nen;der Sicherheitsmitarbeiter;security officer;співробітник/-ця безпеки;Der Sicherheitsmitarbeiter überwacht den physischen Zugang zum Serverraum.
-der Teamgeist (Sg.);der Teamgeist;team spirit;командний дух;Ein starker Teamgeist führt oft zu kreativeren Ansätzen in der Softwareentwicklung.
-die Verantwortung (Sg.);die Verantwortung;responsibility;відповідальність;Ein Chief Information Security Officer trägt eine enorme Verantwortung für den Datenschutz.
-der Verkäufer, - / die Verkäuferin, -nen;der Verkäufer;salesperson;продавець/-чиня;Der Verkäufer erklärt dem Kunden die technischen Spezifikationen des neuen High-End-PCs.
-die Verstärkung, -en;die Verstärkung;reinforcement, addition to the team;підкріплення, новий співробітник;Wir suchen dringend Verstärkung für unser Frontend-Team im Bereich React.
-die Zukunftsperspektive, -n;die Zukunftsperspektive;future prospect;перспектива на майнє;Die Arbeit im Bereich Cybersicherheit bietet eine exzellente Zukunftsperspektive.
-die Zusammenarbeit (Sg.);die Zusammenarbeit;cooperation;співпраця;Die erfolgreiche Zusammenarbeit zwischen Designer und Entwickler ist entscheidend für das UI/UX Design.
-zuständig;zuständig;responsible;відповідальний;Wer ist in eurem Team für die Code-Qualität zuständig?
-das Bauvorhaben, -;das Bauvorhaben;construction project;будівельний проект;Beim neuen Bauvorhaben wird auch ein modernes Glasfasernetz für das gesamte Bürogebäude verlegt.
-der Einsatz, "-e;der Einsatz;assignment, mission;виконання завдання;Der weltweite Einsatz unserer Software zeigt ihre hohe Skalierbarkeit.
-das Einverständnis, -se;das Einverständnis;consent, agreement;згода;Wir benötigen das Einverständnis des Nutzers für die Verarbeitung seiner personenbezogenen Daten.
-der Fachinformatiker, - / die Fachinformatikerin, -nen;der Fachinformatiker;IT specialist;фахівець/-чиня з інформатики;Als Fachinformatiker für Anwendungsentwicklung schreibe ich täglich Code in C#.
-die Krankheitsvertretung, -en;die Krankheitsvertretung;sick leave cover;заміна на час хвороби;Er übernimmt kurzfristig die Krankheitsvertretung für den Lead-Architekten.
-der Realschulabschluss, "-e;der Realschulabschluss;secondary school certificate;атестат про закінчення реальної школи;Mit einem guten Realschulabschluss kann man eine Ausbildung zum IT-Systemkaufmann beginnen.
-die Urlaubsvertretung, -en;die Urlaubsvertretung;holiday replacement;заміна на час відпустки;Könntest du während meiner Abwesenheit meine Urlaubsvertretung für die Serverwartung machen?
-der Zeitraum, "-e;der Zeitraum;period of time;період часу;In dem Zeitraum zwischen 2:00 und 4:00 Uhr morgens finden Wartungsarbeiten am Netzwerk statt.
-der Empfang, "-e;der Empfang;reception;прийом, рецепція;Alle externen Dienstleister müssen sich am Empfang anmelden, um einen Besucherausweis zu erhalten.
-die Personalabteilung, -en;die Personalabteilung;HR department;відділ кадрів;Die Personalabteilung nutzt eine Web-App zur Verwaltung der Urlaubstage.
-die Kantine, -n;die Kantine;canteen;їдальня;In unserer Kantine gibt es kostenloses WLAN für alle Mitarbeiter.
-die Produktion (Sg.);die Produktion;production;виробництво;Die gesamte Produktion wird jetzt durch ein KI-gesteuertes System überwacht.
-die Forschung, -en;die Forschung;research;дослідження;Unser Team in der Forschung arbeitet an neuen Algorithmen für die Datenkompression.
-die Entwicklung, -en;die Entwicklung;development;розробка;Die Entwicklung der neuen API-Schnittstelle ist fast abgeschlossen.
-der Betriebsrat, "-e / die Betriebsrätin, -nen;der Betriebsrat;works council (member);виробнича рада / членкиня ради;Der Betriebsrat prüft die neue Software zur Überwachung der Homeoffice-Zeiten.
-die Finanzbuchhaltung, -en;die Finanzbuchhaltung;financial accounting;бухгалтерія;Die Finanzbuchhaltung benötigt die Rechnung für die neuen Serverlizenzen.
-die Einarbeitung, -en;die Einarbeitung;induction, orientation;введення в курс справи (стажування);Während der Einarbeitung lernst du unsere internen Coding-Standards kennen.
-die Pausenregelung, -en;die Pausenregelung;break policy;правило перерв;Die digitale Zeiterfassung sorgt dafür, dass die Pausenregelung automatisch eingehalten wird.
-der Rundgang, "-e;der Rundgang;tour (of a building);обхід, екскурсія;Nach dem Rundgang durch das Rechenzentrum haben wir die Kühlsysteme besprochen.
-sich weiter|bilden (bildet sich weiter, bildete sich weiter, hat sich weitergebildet);sich weiter|bilden;to continue education;підвищувати кваліфікацію;In der IT-Branche muss man sich ständig weiterbilden, um auf dem neuesten Stand zu bleiben.
-sich ärgern über (+ Akk.) (ärgert sich, ärgerte sich, hat sich geärgert);sich ärgern über;to be annoyed about;сердитися через;Ich ärgere mich über den langsamen Datenbank-Server.
-der Berufsalltag (Sg.);der Berufsalltag;professional life;професійні будні;Der Berufsalltag eines Programmierers besteht oft aus Coding und Bugfixing.
-die Erfahrung, -en;die Erfahrung;experience;досвід;Wir suchen jemanden mit viel Erfahrung in der Cloud-Architektur.
-Erfahrung haben mit (+ Dat.);Erfahrung haben mit;to have experience with;мати досвід у;Hast du bereits Erfahrung mit der Containerisierung von Anwendungen?
-sich freuen auf (+ Akk.) (freut sich, freute sich, hat sich gefreut);sich freuen auf;to look forward to;чекати з нетерпінням (на щось у майбутньому);Ich freue mich auf den Release der neuen Software-Version.
-sich freuen über (+ Akk.);sich freuen über;to be happy about;радіти (чомусь, що вже є);Das Team freut sich über das positive Feedback der Beta-Tester.
-gehören zu (+ Dat.) (gehört, gehörte, hat gehört);gehören zu;to belong to;належати до;Das Schreiben technischer Dokumentation gehört zu den Aufgaben eines Entwicklers.
-es geht um (+ Akk.);es geht um;it's about;йдеться про;In diesem Meeting geht es um die Behebung kritischer Sicherheitslücken.
-ein Gespräch führen (führt, führte, hat geführt);ein Gespräch führen;to lead a conversation;вести розмову;Wir müssen ein Gespräch über die Performance-Probleme der Website führen.
-sich interessieren für (+ Akk.) (interessiert sich, interessierte sich, hat sich interessiert);sich interessieren für;to be interested in;цікавитися;Interessierst du dich for die Entwicklung mobiler Apps?
-investieren in (+ Akk.) (investiert, investierte, hat investiert);investieren in;to invest in;інвестувати в;Unternehmen müssen mehr in die Cybersicherheit investieren.
-statt|finden (fand statt, hat stattgefunden);statt|finden;to take place;відбуватися;Der tägliche Scrum-Call findet jeden Morgen um 9 Uhr statt.
-etw. vermitteln (vermittelt, vermittelte, hat vermittelt);vermitteln;to convey, to mediate;передавати (знання), посередничати;Der Workshop vermittelt grundlegende Kenntnisse in der Python-Programmierung.
-die Voraussetzung, -en;die Voraussetzung;requirement;умова, передумова;Gute SQL-Kenntnisse sind eine Voraussetzung für diesen Job.
-die Webseite, -n;die Webseite;website;веб-сторінка;Die Webseite unseres Unternehmens wurde für mobile Endgeräte optimiert.
-das Ergebnisprotokoll, -e;das Ergebnisprotokoll;minutes of a meeting;протокол результатів зустрічі;Ich habe das Ergebnisprotokoll des Sprints per E-Mail an das Team geschickt.
-die Besprechung, -en;die Besprechung;meeting;нарада;In der Besprechung wurde die neue Cloud-Strategie vorgestellt.
-die Teamsitzung, -en;die Teamsitzung;team meeting;командна нарада;Während der Teamsitzung haben wir die Aufgaben für die nächste Woche verteilt.
-etw. zusammen|fassen (fasst zusammen, fasste zusammen, hat zusammengefasst);zusammen|fassen;to summarize;підсумовувати;Können Sie die wichtigsten Punkte der Anforderungsanalyse zusammenfassen?
-der Beschluss, "-e;der Beschluss;decision;рішення, постанова;Der Beschluss, die Legacy-Software zu ersetzen, wurde gestern gefasst.
-die Vereinbarung, -en;die Vereinbarung;agreement;угода, домовленість;Wir haben eine Vereinbarung über die Nutzung der Open-Source-Bibliotheken getroffen.
-die Tagesordnung, -en;die Tagesordnung;agenda;порядок денний;Der Punkt "System-Sicherheit" steht heute ganz oben auf der Tagesordnung.
-das Stichwort, -e;das Stichwort;keyword;ключове слово;Ich habe mir während des Vortrags nur ein paar Stichworte zum Thema Blockchain notiert.
-etw. dokumentieren (dokumentiert, dokumentierte, hat dokumentiert);dokumentieren;to document;документувати;Bitte dokumentieren Sie alle Änderungen am Datenbank-Schema im Wiki.
-etw. protokollieren (protokolliert, protokollierte, hat protokolliert);protokollieren;to record;протоколювати;Alle API-Aufrufe werden zu Analysezwecken protokolliert.
-die Regel, -n;die Regel;rule;правило;In diesem Netzwerk gelten strenge Regeln für den Passwortschutz.
-in der Regel;in der Regel;as a rule;як правило;In der Regel erfolgt das Deployment der neuen Version am Dienstagabend.
-der Teilnehmer, - / die Teilnehmerin, -nen;der Teilnehmer;participant;учасник/-ця;An dem Web-Seminar nehmen über 100 Teilnehmer aus aller Welt teil.
-etw. vor|schlagen (schlägt vor, schlug vor, hat vorgeschlagen);vor|schlagen;to suggest;пропонувати;Ich schlage vor, wir nutzen Docker für dieses Projekt.
-der Zweifel, -;der Zweifel;doubt;сумнів;Ich habe keine Zweifel, dass wir die Deadline für die App einhalten.
-etw. schaffen (schafft, schaffte, hat geschafft);schaffen;to manage;впоратися;Wir werden es schaffen, alle Fehler bis zum Wochenende zu beheben.
-sich etw. merken (merkt sich, merkte sich, hat sich gemerkt);sich etw. merken;to remember;запам'ятовувати;Bitte merken Sie sich das neue Administratoren-Passwort gut.
-die Pünktlichkeit (Sg.);die Pünktlichkeit;punctuality;пунктуальність;Pünktlichkeit ist auch bei virtuellen Meetings sehr wichtig.
-die Begrüßung, -en;die Begrüßung;greeting;привітання;Die Begrüßung des neuen Programmierers erfolgte über einen Video-Call.
-der Feierabend, -e;der Feierabend;closing time, finish work;кінець робочого дня;Nach dem Feierabend programmiere ich oft an meinen privaten Projekten weiter.
-aufregend;aufregend;exciting;захоплюючий;Die Arbeit mit der neuen KI-Technologie ist extrem aufregend.
-der Erfolg, -e;der Erfolg;success;успіх;Die Migration zur Cloud war ein großer Erfolg für das ganze Team.
-nützlich;nützlich;useful;корисний;Diese neue Bibliothek ist sehr nützlich für die Bildverarbeitung.
-der Berufsverkehr (Sg.);der Berufsverkehr;professional traffic;робочий дорожній рух (години пік);Dank Homeoffice vermeide ich den stressigen Berufsverkehr am Morgen.
-üblich;üblich;common;звичайний;In der IT-Branche ist das Duzen unter Kollegen absolut üblich.
-lächeln (lächelt, lächelte, hat gelächelt);lächeln;to smile;усміхатися;Der Support-Mitarbeiter lächelt, als er das Problem endlich gelöst hat.
-erwünscht;erwünscht;desired;бажаний;Erfahrung mit agilen Methoden wie Scrum ist bei uns ausdrücklich erwünscht.
-beliebt;beliebt;popular;популярний;Python ist derzeit eine der beliebtesten Sprachen für Data Science.
-im Allgemeinen;im Allgemeinen;in general;взагалі;Im Allgemeinen sind unsere Kunden mit der Performance der Software zufrieden.
-der/die Vorgesetzte, -n;der;supervisor;керівник/-ця;Mein Vorgesetzter hat mir wertvolles Feedback zu meinem Code gegeben.
-sich verabschieden (von + Dat.) (verabschiedet sich, verabschiedete sich, hat sich verabschiedet);sich verabschieden;to say goodbye;прощатися;Ich verabschiede mich aus dem Slack-Channel, da ich das Projekt wechsle.
-sich etw. an|schauen (schaut an, schaute an, hat angeschaut);sich etw. an|schauen;to look at something;подивитися на щось;Ich schaue mir die neue Dokumentation für das Framework an.
-der Arbeitsalltag (Sg.);der Arbeitsalltag;everyday work life;робочі будні;Der Arbeitsalltag eines DevOps-Engineers wird stark von Automatisierung geprägt.
-die Arbeitsdichte (Sg.);die Arbeitsdichte;work density;щільність роботи (навантаження);Die Arbeitsdichte ist während der Crunch-Phase vor dem Produkt-Launch extrem hoch.
-das Arbeitsleben (Sg.);das Arbeitsleben;professional life;трудове життя;Das Arbeitsleben in einem Tech-Startup unterscheidet sich stark von dem in einem Großkonzern.
-die Arbeitswelt (Sg.);die Arbeitswelt;working world;світ праці;Die moderne Arbeitswelt erfordert ständige Anpassung an neue Software-Tools.
-sich aus|wirken (auf + Akk.) (wirkt aus, wirkte aus, hat ausgewirkt);sich aus|wirken;to affect, to impact;впливати;Ein fehlerhaftes Update kann sich negativ auf die Systemstabilität auswirken.
-die Baustelle, -n;die Baustelle;construction site;будівельний майданчик;Die Migration der Legacy-Daten ist derzeit unsere größte Baustelle im Projekt.
-sich beeilen (beeilt sich, beeilte sich, hat sich beeilt);sich beeilen;to hurry;поспішати;Wir müssen uns beeilen, den Hotfix vor dem nächsten Kunden-Meeting zu mergen.
-die Berufssparte, -n;die Berufssparte;professional sector;професійна галузь;Die IT-Sicherheit ist eine Berufssparte mit hervorragenden Zukunftsaussichten.
-der/die Beschäftigte, -n;der;employee;співробітник/-ця;Jeder Beschäftigte in der IT-Abteilung hat Zugriff auf das interne Wiki.
-die Beschleunigung, -en;die Beschleunigung;acceleration;прискорення;Gute Indizes führen zur Beschleunigung komplexer SQL-Abfragen.
-etw. bewältigen (bewältigt, bewältigte, hat bewältigt);bewältigen;to manage, to cope with;долати, справлятися;Dank agiler Methoden konnten wir die hohen Anforderungen des Kunden bewältigen.
-die Herausforderung, -en;die Herausforderung;challenge;виклик;Die Skalierung der Datenbank für Millionen von Nutzern ist eine technische Herausforderung.
-der Maurer, - / die Maurerin, -nen;der Maurer;mason;муляр/-ка;Wir entwickeln eine App, die Maurern bei der Materialberechnung hilft.
-die Strecke, -n;die Strecke;distance, route;дистанція, шлях;Die Strecke für die Glasfaserverbindung zum neuen Rechenzentrum wurde bereits vermessen.
-auf der Strecke bleiben;auf der Strecke bleiben;to fall by the wayside;відстати, бути занедбаним;Ohne kontinuierliche Updates der Skills kann man in der IT schnell auf der Strecke bleiben.
-einen Termin ab|sagen;einen Termin ab|sagen;to cancel an appointment;скасувати зустріч;Ich muss den Termin für das Code-Review leider auf morgen verschieben.
-das Treffen, -;das Treffen;meeting;зустріч;Das Treffen mit den Stakeholdern war für die Priorisierung des Backlogs sehr wichtig.
-sich verspäten (verspätet sich, verspätete sich, hat sich verspätet);sich verspäten;to be late;запізнюватися;Das Deployment der neuen Version wird sich aufgrund technischer Probleme leider verspäten.
-das Wohlbefinden (Sg.);das Wohlbefinden;well-being;самопочуття;Ergonomische Stühle im Büro tragen wesentlich zum Wohlbefinden der Programmierer bei.
-der Zeitdruck (Sg.);der Zeitdruck;time pressure;дефіцит часу;Unter großem Zeitdruck passieren beim Programmieren leider oft Flüchtigkeitsfehler.
-die Abteilungskonferenz, -en;die Abteilungskonferenz;department conference;конференція відділу;In der monatlichen Abteilungskonferenz stellt der CTO die neue Technik-Roadmap vor.
-sich ab|sprechen (mit + Dat.) (spricht sich ab, sprach sich ab, hat sich abgesprochen);sich ab|sprechen;to coordinate (with someone);домовлятися;Ich muss mich kurz mit dem Backend-Team bezüglich der API-Schnittstelle absprechen.
-der Anspruch, "-e;der Anspruch;claim, demand;претензія, вимога;Der Anspruch an die Datensicherheit ist bei dieser Anwendung extrem hoch.
-Anspruch haben auf (+ Akk.);Anspruch haben auf;to have a right to;мати право на;Alle Mitarbeiter haben Anspruch auf eine moderne Hardware-Ausstattung mitsamt zwei Monitoren.
-der Arbeitsweg, -e;der Arbeitsweg;commute;шлях на роботу;Mein Arbeitsweg dauert eine halbe Stunde.
-die Arbeitszeit, -en;die Arbeitszeit;working time;робочий час;In unserer IT-Firma gibt es flexible Arbeitszeit-Modelle und Vertrauensarbeitszeit.
-das Arbeitszeitgesetz, -e;das Arbeitszeitgesetz;working time act;закон про робочий час;Das Arbeitszeitgesetz schreibt zwingend eine Pause nach sechs Stunden Arbeit vor.
-die Betriebsruhe (Sg.);die Betriebsruhe;company holidays;канікули auf підприємстві;Während der Betriebsruhe werden wichtige Wartungsarbeiten am zentralen Server-Cluster durchgeführt.
-das EDV-System, -e;das EDV-System;IT system;ІТ-система;Unser EDV-System wurde auf die neueste Version von SAP umgestellt.
-jdn. ein|weisen in (+ Akk.) (weist ein, wies ein, hat eingewiesen);ein|weisen in;to instruct, to brief;інструктувати;Der Senior-Admin wird dich heute in das Monitoring-System einweisen.
-der Ersatzruhetag, -e;der Ersatzruhetag;compensatory rest day;компенсаційний вихідний;Wenn wir am Releasetag am Sonntag arbeiten, erhalten wir einen Ersatzruhetag in der Woche.
-etw. vor|schreiben (schreibt vor, schrieb vor, hat vorgeschrieben);vor|schreiben;to prescribe, to mandate;приписувати, зобов'язувати;Die DSGVO schreibt vor, wie personenbezogene Daten in unserer SQL-Datenbank gespeichert werden müssen.
-der Fall, "-e;der Fall;case;випадок;Im Falle eines Systemabsturzes ist sofort das On-Call-Team zu benachrichtigen.
-auf keinen Fall;auf keinen Fall;in no case;ні в якому разі;Man sollte auf keinen Fall ungetesteten Code direkt in den Main-Branch mergen.
-der Freizeitausgleich (Sg.);der Freizeitausgleich;compensatory time off;компенсація вільного часу;Für die Überstunden während der Migration bekomme ich nächste Woche Freizeitausgleich.
-der Mindesturlaub (Sg.);der Mindesturlaub;minimum leave;мінімальна відпустка;Der gesetzliche Mindesturlaub beträgt in Deutschland 20 Tage bei einer Fünf-Tage-Woche.
-die Pflicht, -en;die Pflicht;duty;обов'язок;Es ist die Pflicht jedes Entwicklers, regelmäßig Backups seiner lokalen Repositorys zu machen.
-das Recht, -e;das Recht;right, law;право;Der Administrator hat das Recht, Benutzerkonten bei Sicherheitsverstößen zu sperren.
-Recht haben;Recht haben;to be right;мати рацію;Du hast Recht, wir sollten für das neue Projekt lieber Python anstatt Java verwenden.
-die (gesetzliche) Regel, -n;die Regel;legal rule;законне правило;Wir müssen die gesetzlichen Regeln zum Datenschutz strikt befolgen.
-die Schichtarbeit (Sg.);die Schichtarbeit;shift work;позмінна робота;Im 24/7-Support ist Schichtarbeit leider unvermeidlich.
-die Teilzeitarbeit (Sg.);die Teilzeitarbeit;part-time work;неповна зайнятість;Teilzeitarbeit ist auch für erfahrene Softwarearchitekten eine gute Option.
-die Überstunde, -n;die Überstunde;overtime;понаднормова година;Wegen des kritischen Bugs mussten wir gestern drei Überstunden machen.
-der Urlaubstag, -e;der Urlaubstag;vacation day;день відпустки;Ich habe für die Gamescom-Messe extra zwei Urlaubstage genommen.
-die Urlaubszeit, -en;die Urlaubszeit;vacation time;час відпустки;In der Urlaubszeit ist die Besetzung im Support-Team oft etwas dünner.
-die Vollzeitarbeit (Sg.);die Vollzeitarbeit;full-time work;повна зайнятість;Nach dem Studium fange ich direkt eine Vollzeitarbeit als Frontend-Entwickler an.
-die Wochenendarbeit, -en;die Wochenendarbeit;weekend work;робота у вихідні;Große Datenbank-Upgrades werden oft als Wochenendarbeit durchgeführt, um den Betrieb nicht zu stören.
-die Deadline, -s;die Deadline;deadline;дедлайн;Wir müssen hart arbeiten, um die Deadline für den nächsten Sprint einzuhalten.
-das Drehbuch, "-er;das Drehbuch;script;сценарій;Das Drehbuch für das neue Erklärvideo zur Software-Installation ist fertig.
-der Entwurf, "-e;der Entwurf;draft;чернетка, проект;Der erste Entwurf des Datenbank-Schemas muss noch vom Senior-Developer geprüft werden.
-die Kampagne, -n;die Kampagne;campaign;кампанія;Unsere Marketing-Abteilung plant eine große Kampagne für das neue SaaS-Produkt.
-die Kosmetikserie, -n;die Kosmetikserie;cosmetics line;серія косметики;Wir entwickeln einen intelligenten Onlineshop für eine neue Kosmetikserie.
-das Printmedium, -medien;das Printmedium;print medium;друковане видання;In diesem Printmedium wurde ein Artikel über unsere innovative App veröffentlicht.
-relevant;relevant;relevant;важливий, релевантний;Diese Bibliotheken sind für unser aktuelles Projekt nicht relevant.
-der Senior Manager, - / die Senior Managerin, -nen;der Senior Manager;senior manager;старший менеджер/-ка;Der Senior Manager für Cloud-Operations hat das neue Sicherheitskonzept genehmigt.
-der Werbefilm, -e;der Werbefilm;commercial;рекламний ролик;Der Werbefilm für unsere mobile Anwendung wird auf YouTube geschaltet.
-die Werbekampagne, -n;die Werbekampagne;advertising campaign;рекламна кампанія;Unsere neue Werbekampagne konzentriert sich auf die Vorteile von Open-Source-Software.
-die Abmahnung, -en;die Abmahnung;written warning;попередження (догана);Eine Abmahnung wegen Verletzung der IT-Sicherheitsrichtlinien ist sehr ernst zu nehmen.
-das Arbeitsgericht, -e;das Arbeitsgericht;labor court;трудовий суд;Der Streit um die Überstundenvergütung wird nun vor dem Arbeitsgericht geklärt.
-der Betriebsrat, "-e;der Betriebsrat;works council;виробнича рада (профспілка);Der Betriebsrat hat der Einführung der neuen Remote-Monitoring-Software zugestimmt.
-die Betriebsfeier, -n;die Betriebsfeier;company party;корпоратив;Auf der Betriebsfeier haben wir den erfolgreichen Release unserer Plattform gefeiert.
-dokumentieren (dokumentiert, dokumentierte, hat dokumentiert);dokumentieren;to document;документувати;Gute Entwickler dokumentieren ihren Code immer sorgfältig in Javadoc oder Swagger.
-der Heizungstechniker, - / die Heizungstechnikerin, -nen;der Heizungstechniker;heating technician;майстер/-иня з опалення;Heizungstechniker wartet auch die Klimaanlage in unserem Serverraum.
-die Hilfe, -n;die Hilfe;help;допомога;Ich benötige Hilfe beim Konfigurieren des lokalen Kubernetes-Clusters.
-um Hilfe bitten;um Hilfe bitten;to ask for help;просити про допомогу;Bei komplexen Architekturfragen sollte man immer das Core-Team um Hilfe bitten.
-das Zuspätkommen (Sg.);das Zuspätkommen;being late;запізнення;Sein häufiges Zuspätkommen zu den Daily Scrums sorgt für Ärger im Team.
-das Verständnis (Sg.);das Verständnis;understanding;розуміння;Danke für Ihr Verständnis bezüglich der kurzen Downtime heute Morgen.
-verärgert sein über (+ Akk.);verärgert sein über;to be annoyed about;бути роздратованим через;Der Product Owner ist verärgert über die mangelnde Code-Qualität.
-abhängig sein von (+ Dat.);abhängig sein von;to be dependent on;бути залежним від;Der Erfolg des Deployments ist von der Stabilität der Datenbank abhängig.
-die Beratung, -en;die Beratung;advice, consulting;консультація;Wir bieten eine technische Beratung zur Migration auf eine Microservices-Architektur an.
-Geld ausgeben für (+ Akk.) (gibt aus, gab aus, hat ausgegeben);Geld ausgeben für;to spend money on;витрачати гроші на;Unternehmen sollten mehr Geld für moderne IT-Sicherheit ausgeben.
-die Lieferzeit, -en;die Lieferzeit;delivery time;час доставки;Die Lieferzeit für die neuen High-End-Grafikkarten beträgt momentan drei Wochen.
-die Öffnungszeit, -en;die Öffnungszeit;opening time;години роботи;Der IT-Support hat feste Öffnungszeiten, ist aber für Notfälle rund um die Uhr erreichbar.
-der Online-Einkauf, "-e;der Online-Einkauf;online shopping;онлайн-покупки;Wir haben das Backend für einen großen Online-Einkauf-Marktplatz entwickelt.
-die Qualität, -en;die Qualität;quality;якість;Die Qualität der Software wird durch kontinuierliche Code-Reviews sichergestellt.
-vorsichtig;vorsichtig;careful;обережний;Sei vorsichtig, wenn du Änderungen direkt an der Produktions-Datenbank vornimmst!
-die Ware, -n;die Ware;goods, merchandise;товар;Unsere Software verfolgt jede einzelne Ware im Lager in Echtzeit.
-der Absatz, "-e;der Absatz;sales, turnover;збут, продажі;Der Absatz unserer neuen Software-Lizenzen ist im letzten Quartal stark gestiegen.
-die (technische) Anlage, -n;die Anlage;technical system / equipment;технічна установка;Die gesamte technische Anlage des Rechenzentrums wird zentral überwacht.
-eine Anlage warten (wartet, wartete, hat gewartet);eine Anlage warten;to maintain a system;обслуговувати установку;Einmal im Monat muss ein Techniker die Klimaanlage im Serverraum warten.
-jdn./etw. beobachten (beobachtet, beobachtete, hat beobachtet);jdn.;to observe;спостерігати;Wir beobachten die Server-Last genau, um Engpässe frühzeitig zu erkennen.
-der Einzelhandel (Sg.);der Einzelhandel;retail;роздрібна торгівля;Der Einzelhandel nutzt immer mehr IT-Lösungen für das Bestandsmanagement.
-der Endkunde, -n / die Endkundin, -nen;der Endkunde;end customer;кінцевий споживач/-ка;Unsere App wird vom Endkunden direkt im App Store heruntergeladen.
-etw. entwickeln (entwickelt, entwickelte, hat entwickelt);entwickeln;to develop;розробляти;Wir entwickeln ein neues Framework for performante Webanwendungen.
-die Forschung und Entwicklung (Sg.);die Forschung und Entwicklung;research and development (R&D);дослідження та розробка;Die Abteilung für Forschung und Entwicklung arbeitet an Quantencomputer-Algorithmen.
-der Großhandel (Sg.);der Großhandel;wholesale;гуртова торгівля;Unser ERP-System optimiert die Lieferketten für den internationalen Großhandel.
-der Handel (Sg.);der Handel;trade, commerce;торгівля;Der elektronische Handel erfordert eine sichere Zahlungsabwicklung.
-her|stellen (stellt her, stellte her, hat hergestellt);her|stellen;to produce, to manufacture;виробляти;Die Firma plant, ihre eigenen ARM-basierten Prozessoren herzustellen.
-die Herstellung (Sg.);die Herstellung;manufacturing;виробництво;Die Herstellung von Halbleitern erfordert extrem saubere Umgebungen.
-etw. liefern (liefert, lieferte, hat geliefert);liefern;to deliver;доставляти;Der Paketbote wird die neuen Laptops heute Nachmittag liefern.
-der Lieferschein, -e;der Lieferschein;delivery note;накладна;Bitte scannen Sie den Lieferschein für die neue Hardware direkt ein.
-Lieferscheine aus|stellen (stellt aus, stellte aus, hat ausgestellt);Lieferscheine aus|stellen;to issue delivery notes;виписувати накладні;Das System kann automatisch Lieferscheine als PDF-Datei ausstellen.
-die Lieferung, -en;die Lieferung;delivery;доставка;Die Lieferung der neuen Server-Racks wurde für morgen bestätigt.
-der Markt, "-e;der Markt;market;ринок;Wir müssen den Markt für Cloud-Computing-Dienste genau beobachten.
-das Maß, -e;das Maß;measure, dimension;міра, розмір;Wir brauchen die genauen Maße der Switch-Gehäuse für den Einbau im Rack.
-die Menge, -n;die Menge;quantity, amount;кількість;Eine riesige Menge an Daten wird täglich durch unsere KI verarbeitet.
-etw. montieren (montiert, montierte, hat montiert);montieren;to assemble, to install;монтувати;Wir müssen heute noch die neuen Access-Points im Büro montieren.
-die Produktion, -en;die Produktion;production;виробництво;Ein Softwarefehler führte zum kompletten Stillstand der Produktion.
-die Rechnung, -en;die Rechnung;invoice, bill;рахунок;Die Rechnung für das Azure-Abonnement wird automatisch per Lastschrift bezahlt.
-die Spedition, -en;die Spedition;shipping company;експедиторська компанія;Die Spedition hat die Paletten mit der neuen Hardware am Hafen abgeholt.
-der Transport, -e;der Transport;transport;транспорт;Der Transport verschlüsselter Daten muss über eine sichere Verbindung erfolgen.
-die Verpackung, -en;die Verpackung;packaging;упаковка;Die Verpackung des neuen Macs ist sehr hochwertig und umweltfreundlich gestaltet.
-der Versand (Sg.);der Versand;shipping, dispatch;відправка;Nach dem QA-Check erfolgt der Versand der Hardware an den Kunden.
-der Vertrieb (Sg.);der Vertrieb;sales, distribution;відділ збуту;Unser Vertrieb nutzt ein CRM-System zur Verwaltung der Kundenkontakte.
-der Zwischenhändler, -;der Zwischenhändler;middleman, reseller;посередник;Händler kaufen die Laptops oft bei einem spezialisierten IT-Zwischenhändler.
-etw. analysieren;analysieren;to analyze;аналізувати;Wir müssen den Netzwerk-Traffic analysieren, um das Problem zu finden.
-etw. bearbeiten (bearbeitet, bearbeitete, hat bearbeitet);bearbeiten;to process, to edit;обробляти;Ich muss den Pull-Request meines Kollegen heute noch bearbeiten.
-jdn./etw. befördern (befördert, beförderte, hat befördert);jdn.;to promote, to transport;підвищувати (на посаді), перевозити;Er wurde zum Leiter der Softwareentwicklung befördert.
-jdn./etw. betreuen (betreut, betreute, hat betreut);jdn.;to support, to manage;обслуговувати, супроводжувати;Unser Support-Team betreut Kunden bei technischen Problemen mit der App.
-die Branche, -n;die Branche;industry, sector;галузь;In der Tech-Branche ist lebenslanges Lernen absolut notwendig.
-etw. entwickeln;entwickeln;to develop;розробляти;Wir entwickeln eine innovative Lösung zur automatischen Code-Generierung.
-die Gastronomie (Sg.);die Gastronomie;gastronomy, catering;гастрономія;Die Gastronomie nutzt immer häufiger digitale Kassensysteme mit Cloud-Anbindung.
-etw. gestalten (gestaltet, gestaltete, hat gestaltet);gestalten;to design, to shape;оформляти, організовувати;Ein UX-Designer hilft uns dabei, die Website benutzerfreundlich zu gestalten.
-das Handwerk (Sg.);das Handwerk;craft, trade;ремесло;Gutes Software-Engineering wird oft als modernes digitales Handwerk bezeichnet.
-die IT-Branche (Sg.);die IT-Branche;IT industry;ІТ-галузь;Die IT-Branche ist einer der wichtigsten Arbeitgeber in Deutschland.
-etw. konstruieren (konstruiert, konstruierte, hat konstruiert);konstruieren;to construct, to design;конструювати;Wir konstruieren ein neues Gehäuse for unsere IoT-Geräte.
-etw. kontrollieren (kontrolliert, kontrollierte, hat kontrolliert);kontrollieren;to control, to check;контролювати;Der Administrator muss die Zugriffsrechte der Benutzer regelmäßig kontrollieren.
-Kunden bedienen (bedient, bediente, hat bedient);Kunden bedienen;to serve customers;обслуговувати клієнтів;Unsere Web-Server bedienen gleichzeitig Tausende von Anfragen pro Sekunde.
-der Kundenberater, - / die Kundenberaterin, -nen;der Kundenberater;customer advisor;консультант/-ка клієнтів;Der technische Kundenberater erklärt die Vorteile unserer API.
-das Labor, -e;das Labor;laboratory;лабораторія;Im Hardware-Labor werden neue Prozessoren unter Extrembedingungen getestet.
-der Lagerist, -en / die Lageristin, -nen;der Lagerist;warehouse clerk;працівник/-ця складу;Der Lagerist nutzt einen Handscanner, der direkt mit der Datenbank verbunden ist.
-der Tierpfleger, - / die Tierpflegerin, -nen;der Tierpfleger;animal keeper;доглядач/-ка за тваринами;Der Tierpfleger nutzt ein Tablet, um die Gesundheitsdaten der Tiere zu erfassen.
-Transport und Logistik (Sg.);Transport und Logistik;transport and logistics;транспорт і логістика;In den Bereichen Transport und Logistik spielt die Routenoptimierung durch KI eine große Rolle.
-der Vertriebsweg, -e;der Vertriebsweg;distribution channel;канал збуту;Der direkte Download über unsere Website ist unser effektivster Vertriebsweg.
-Waren bestellen (bestellt, bestellte, hat bestellt);Waren bestellen;to order goods;замовляти товари;Wir müssen neue RAM-Riegel for das Server-Upgrade bestellen.
-Wissenschaft und Forschung (Sg.);Wissenschaft und Forschung;science and research;наука та дослідження;Viel Geld aus der Tech-Branche fließt in moderne Wissenschaft und Forschung.
-etw. zu|bereiten (bereitet zu, bereitete zu, hat zubereitet);zu|bereiten;to prepare (food);готувати (їжу);Dank Smart-Home-Technik kann ich meinen Kaffee schon vom Computer aus zubereiten.
-etw. zu|stellen (stellt zu, stellte zu, hat zugestellt);zu|stellen;to deliver, to serve;доставляти;Die E-Mail mit dem Bestätigungs-Code konnte leider nicht zugestellt werden.
-die Bequemlichkeit, -en;die Bequemlichkeit;convenience;зручність;Viele Nutzer schätzen die Bequemlichkeit von Single-Sign-On-Verfahren.
-der CO2-Ausstoß (Sg.);der CO2-Ausstoß;CO2 emission;викид CO2;Der CO2-Ausstoß von großen Rechenzentren ist ein wichtiges Thema in der Green-IT.
-der Händler, - / die Händlerin, -nen;der Händler;dealer, vendor;торговець/-ка;Ein autorisierter Händler bietet speziellen Support für unsere Firmen-Laptops an.
-die Lagerhalle, -n;die Lagerhalle;warehouse;складська будівля;In der neuen Lagerhalle werden die Server-Racks für den Versand vorbereitet.
-die Online-Plattform, -en;die Online-Plattform;online platform;онлайн-платформа;Wir entwickeln eine neue Online-Plattform für das Projektmanagement.
-der Sonderwunsch, "-e;der Sonderwunsch;special request;особливе побажання;Haben Sie bezüglich der Konfiguration Ihres neuen PCs noch einen Sonderwunsch?
-etw. aktivieren (aktiviert, aktivierte, hat aktiviert);aktivieren;to activate;активувати;Nach der Installation müssen Sie das Plugin im WordPress-Backend noch aktivieren.
-der Anbieter, - / die Anbieterin, -nen;der Anbieter;provider;провайдер/-ка;Welcher Anbieter hat aktuell die beste Performance für Cloud-Hosting?
-etw. auf|laden (lädt auf, lud auf, hat aufgeladen);auf|laden;to top up, to charge;заряджати, поповнювати (рахунок);Ich muss den Akku meines Firmen-Laptops aufladen, bevor das Meeting beginnt.
-sich beraten lassen (lässt sich beraten, ließ sich beraten, hat sich beraten lassen);sich beraten lassen;to get advice;отримати консультацію;Wir lassen uns von einem Experten bezüglich der DSGVO-Konformität unserer App beraten.
-sich beschweren (beschwert sich, beschwerte sich, hat sich beschwert);sich beschweren;to complain;скаржитися;Der Nutzer hat sich im Support-Forum über die langsame Ladezeit der Webseite beschwert.
-die Bestellung, -en;die Bestellung;order;замовлення;Wir haben eine Bestellung für drei neue Workstations beim IT-Händler aufgegeben.
-das Datenvolumen, -;das Datenvolumen;data volume;обсяг даних;Durch die Bildkompression konnten wir das übertragene Datenvolumen deutlich reduzieren.
-etw. ein|geben (gibt ein, gab ein, hat eingegeben);ein|geben;to enter (data);вводити (дані);Bitte geben Sie Ihren API-Key in das Konfigurationsfeld ein.
-etw. ein|legen (legt ein, legte ein, hat eingelegt);ein|legen;to insert;вставляти;Um den Server zu booten, müssen Sie zuerst den bootfähigen USB-Stick einlegen.
-einmalig;einmalig;one-time;одноразовий;Die Kosten für die Software-Lizenz fallen nur einmalig an.
-der Einsteiger, - / die Einsteigerin, -nen;der Einsteiger;beginner;початківець/-иця;Diese Programmiersprache ist auch für Einsteiger ohne Vorkenntnisse leicht zu erlernen.
-etw. entgegen|nehmen (nimmt entgegen, nahm entgegen, hat entgegengenommen);entgegen|nehmen;to receive, to accept;приймати;Der Webserver kann gleichzeitig Tausende von HTTP-Anfragen entgegennehmen.
-das Festnetz (Sg.);das Festnetz;landline;стаціонарна мережа;In unserem Büro nutzen wir Voice-over-IP anstelle des klassischen Festnetzes.
-etw. frei|schalten (schaltet frei, schaltete frei, hat freigeschaltet);frei|schalten;to unlock, to activate;активувати, розблокувати;Der Administrator kann deinen Zugang zum VPN-Server erst morgen freischalten.
-die Grundgebühr, -en;die Grundgebühr;basic fee;абонентська плата;In der monatlichen Grundgebühr für unser CRM-System ist der E-Mail-Support bereits enthalten.
-gültig;gültig;valid;дійсний;Das SSL-Zertifikat für unsere Domain ist nur noch zwei Wochen gültig.
-günstig;günstig;cheap, favorable;вигідний, недешевий;Open-Source-Lösungen sind oft eine günstige Alternative zu teurer kommerzieller Software.
-das Guthaben, -;das Guthaben;credit;баланс (грошовий);Ihr Guthaben für die Cloud-Ressourcen reicht noch für etwa drei Monate.
-der Handwerker, - / die Handwerkerin, -nen;der Handwerker;craftsman;майстер/-иня;In der Softwareentwicklung spricht man oft von "Software-Craftsmanship", ähnlich wie bei klassischen Handwerkern.
-inklusive;inklusive;inclusive;включно;Das neue Update ist inklusive aller Sicherheits-Patches ab sofort verfügbar.
-die Kontrolle, -n;die Kontrolle;control;контроль;Die Versionskontrolle mit Git ist für professionelle Softwareentwicklung unerlässlich.
-der Lieferservice, -s;der Lieferservice;delivery service;служба доставки;Wir entwickeln eine API für einen internationalen Lieferservice.
-das Netz, -e;das Netz;network;мережа;In unserem internen Netz sind alle Datenbanken durch eine dedizierte Firewall geschützt.
-optimal;optimal;optimal;оптимальний;Diese Datenbank-Struktur ist optimal für schnelle Lesezugriffe geeignet.
-profitieren von (+ Dat.) (profitiert, profitierte, hat profitiert);profitieren von;to profit from;отримувати вигоду;Unsere Anwendung profitiert stark von den neuen Funktionen des Frameworks.
-etw. sperren (sperrt, sperrte, hat gesperrt);sperren;to block, to lock;блокувати;Nach drei falschen Passworteingaben wird das Benutzerkonto automatisch für eine Stunde gesperrt.
-der Tarif, -e;der Tarif;tariff;тариф;Wir haben uns für den Enterprise-Tarif entschieden, um Zugriff auf alle Features zu erhalten.
-etw. verschicken (verschickt, verschickte, hat verschickt);verschicken;to send;відправляти;Das System kann automatisch Benachrichtigungen per Webhook verschicken.
-der Vertrag, "-e;der Vertrag;contract;контракт, договір;Wir haben einen Wartungsvertrag mit dem Server-Anbieter abgeschlossen.
-die Vertragslaufzeit, -en;die Vertragslaufzeit;contract duration;термін дії договору;Die Vertragslaufzeit für unsere Cloud-Infrastruktur beträgt mindestens zwölf Monate.
-das Angebot, -e;das Angebot;offer;пропозиція;Das Angebot für das Redesign unserer Website war sehr überzeugend.
-der Auftrag, "-e;der Auftrag;order, assignment;замовлення, доручення;Unser Team hat den Auftrag erhalten, eine neue E-Commerce-Plattform zu bauen.
-der Ausdruck, -e;der Ausdruck;printout;роздруківка;Ich benötige einen Ausdruck der API-Dokumentation für das Meeting.
-sich binden an (+ Akk.) (bindet sich, band sich, hat sich gebunden);sich binden an;to commit oneself to;зв'язувати себе зобов'язаннями;Durch den Lizenzvertrag binden wir uns langfristig an diesen Software-Anbieter.
-brutto;brutto;gross;брутто (без вирахування податків);Das Bruttogehalt für diese Senior-Entwickler-Stelle ist sehr attraktiv.
-einverstanden;einverstanden;agreed;згодний;Ich bin mit den vorgeschlagenen Änderungen am Code einverstanden.
-etw. empfehlen (empfiehlt, empfahl, hat empfohlen);empfehlen;to recommend;рекомендувати;Können Sie eine gute Bibliothek für die Einbindung von Diagrammen empfehlen?
-die Erledigung, -en;die Erledigung;completion;виконання;Vielen Dank für die schnelle Erledigung des Bug-Reports.
-etw. erteilen (z.B. einen Auftrag) (erteilt, erteilte, hat erteilt);erteilen;to grant, to give;надавати, видавати (доручення);Die Geschäftsführung wird heute die Freigabe for das Projekt erteilen.
-der Grund, "-e;der Grund;reason;причина;Der Grund für den Systemausfall war eine Fehlkonfiguration des Load-Balancers.
-die Mehrwertsteuer (Sg.);die Mehrwertsteuer;value added tax (VAT);ПДВ (податок на додану вартість);Die Cloud-Gebühren werden monatlich zuzüglich der gesetzlichen Mehrwertsteuer abgerechnet.
-netto;netto;net;нетто (після податків);In der Preisliste sind alle Beträge als Netto-Preise angegeben.
-sorgfältig;sorgfältig;carefully;ретельно;Bitte prüfen Sie den Code sorgfältig auf mögliche Sicherheitslücken.
-die Summe, -n;die Summe;sum, total;сума;Die Gesamtsumme der Lizenzen übersteigt leider unser geplantes Budget.
-die Unterschrift, -en;die Unterschrift;signature;підпис;Für die digitale Signatur wird keine physische Unterschrift mehr benötigt.
-zahlbar;zahlbar;payable;до оплати;Der Rechnungsbetrag für das Hosting ist sofort nach Rechnungsstellung zahlbar.
-zuverlässig;zuverlässig;reliable;надійний;Dieser Backup-Dienst arbeitet sehr zuverlässig im Hintergrund.
-der Ärger (Sg.);der Ärger;anger, trouble;неприємність, гнів;Wir hatten viel Ärger mit dem instabilen WLAN-Router im Büro.
-der Artikel, -;der Artikel;article;стаття, товар;Ich habe einen interessanten Artikel über Microservices auf Medium gelesen.
-beschädigt;beschädigt;damaged;пошкоджений;Die Festplatte war beim Transport leider so stark beschädigt, dass kein Datenzugriff mehr möglich war.
-die Beschwerde, -n;die Beschwerde;complaint;скарга;Nach dem fehlerhaften Update gab es zahlreiche Beschwerden von unseren Nutzern.
-defekt;defekt;defective;несправний;Der Controller ist defekt und muss ausgetauscht werden.
-dreckig;dreckig;dirty;брудний;Der Sensor der optischen Maus ist dreckig und muss gereinigt werden.
-der Fleck, -en;der Fleck;stain;пляма;Auf dem Gehäuse des neuen Servers ist ein kleiner Fleck, was aber die Funktion nicht beeinträchtigt.
-der Mangel, -;der Mangel;defect, lack;недолік;Die Dokumentation weist leider erhebliche Mängel auf.
-peinlich;peinlich;embarrassing;соромно;Es war mir peinlich, dass ich den falschen Link in der E-Mail verschickt habe.
-die Reklamation, -en;die Reklamation;reclamation, claim;рекламація, претензія;Die Reklamation der fehlerhaften Hardware wurde vom Support-Team sofort bearbeitet.
-unvollständig;unvollständig;incomplete;неповний;Die API-Antwort ist unvollständig, da das Timeout-Limit erreicht wurde.
-der Vorschlag, "-e;der Vorschlag;suggestion;пропозиція;Mein Vorschlag ist, die Datenbank-Abfragen mithilfe von Caching zu optimieren.
-etw. zerbrechen (zerbricht, zerbrach, hat zerbrochen);zerbrechen;to break;розбивати;Vorsicht, das Glaspanel des Computergehäuses kann leicht zerbrechen.
-etw. zerkratzen (zerkratzt, zerkratzte, hat zerkratzt);zerkratzen;to scratch;подряпати;Verwenden Sie nur weiche Tücher, um das Display nicht zu zerkratzen.
-etw. zerreißen (zerriss, hat zerrissen);zerreißen;to tear;розривати;Der Systemadministrator hat das alte Fehlerprotokoll zerrissen.
-jdn. ausreden lassen;ausreden lassen;to let someone finish speaking;давати комусь договорити;Lass den Product Owner bitte ausreden, bevor du deine technischen Bedenken äußerst.
-die Bedeutung, -en;die Bedeutung;meaning;значення;Diese Fehlermeldung hat in diesem Kontext eine völlig neue Bedeutung.
-die Erwartung, -en;die Erwartung;expectation;очікування;Die Performance der neuen Grafikkarte hat unsere Erwartungen weit übertroffen.
-etw. klären (klärt, klärte, hat geklärt);klären;to clarify;з'ясовувати;Wir müssen im nächsten Meeting klären, welches Framework wir for das Backend nutzen wollen.
-konkurrenzfähig;konkurrenzfähig;competitive;конкурентоспроможний;Um konkurrenzfähig zu bleiben, müssen wir die Ladezeit unserer App halbieren.
-sich etw. leisten können (kann sich leisten, konnte sich leisten, hat sich leisten können);sich etw. leisten können;to be able to afford;могти собі дозволити;Dank der neuen Finanzierung können wir uns zwei zusätzliche Senior-Entwickler leisten.
-einen Preisnachlass gewähren (gewährt, gewährte, hat gewährt);einen Preisnachlass gewähren;to grant a discount;надавати знижку;Da wir eine große Menge an Lizenzen kaufen, gewährt uns der Anbieter einen Preisnachlass.
-treu bleiben (bleibt treu, blieb treu, ist treu geblieben);treu bleiben;to stay loyal;залишатися вірним;Unsere Kunden bleiben unserem Service treu, weil wir regelmäßig neue Features liefern.
-unzufrieden;unzufrieden;dissatisfied;незадоволений;Das Team ist unzufrieden mit der Qualität der aktuellen Dokumentation.
-vereinbart;vereinbart;agreed;узгоджений;Die API liefert die Daten nun im vereinbarten JSON-Format zurück.
-sich etw. vor|stellen (stellt sich vor, stellte sich vor, hat sich vorgestellt);sich etw. vor|stellen;to imagine;уявляти;Können Sie sich vorstellen, das gesamte System auf eine Serverless-Architektur umzustellen?
-der Alltag (Sg.);der Alltag;everyday life;будні, повсякденне життя;Der technische Wandel prägt unseren IT-Berufsalltag durch immer neue Frameworks.
-der Anschluss, "-e;der Anschluss;connection;підключення;Der neue Glasfaser-Anschluss im Rechenzentrum ermöglicht deutlich höhere Upload-Raten.
-die Anwendungsmöglichkeit, -en;die Anwendungsmöglichkeit;application possibility;можливість застосування;Die Docker-Technologie bietet vielfältige Anwendungsmöglichkeiten für die Microservices-Bereitstellung.
-das Display, -s;das Display;display, screen;дисплей, екран;Das 4K-Display des neuen Laptops ist ideal für Grafikdesign und Coding geeignet.
-einsatzbereit;einsatzbereit;ready for use;готовий до роботи;Die neue Staging-Umgebung ist ab sofort einsatzbereit für die finalen Tests.
-das Gerät, -e;das Gerät;device;пристрій;Jedes Gerät im Netzwerk muss eine eindeutige IP-Adresse zugewiesen bekommen.
-herunter|laden (lädt herunter, lud herunter, hat heruntergeladen);herunter|laden;to download;завантажувати;Bitte laden Sie sich die neueste Version von Git von der offiziellen Webseite herunter.
-etw. installieren (installiert, installierte, hat installiert);installieren;to install;інсталювати;Der Systemadministrator muss den Sicherheitspatch auf allen Servern gleichzeitig installieren.
-das Kommunikationsmittel, -;das Kommunikationsmittel;means of communication;засіб зв'язку;Slack ist in unserem Team das wichtigste Kommunikationsmittel für den schnellen Austausch.
-leistungsfähig;leistungsfähig;powerful, efficient;потужний, продуктивний;Dieser neue M3-Chip ist extrem leistungsfähig für rechenintensive Kompiliervorgänge.
-der Mobilfunk (Sg.);der Mobilfunk;mobile communications;мобільний зв'язок;Dank 5G-Mobilfunk können wir auch unterwegs problemlos an Video-Konferenzen teilnehmen.
-multifunktional;multifunktional;multifunctional;багатофункціональний;Moderne IDEs sind multifunktional und bieten neben dem Code-Editor auch Debugging-Tools.
-das Navi, -s;das Navi;sat nav, navigation system;навігатор;Das Navi nutzt Echtzeit-Daten aus der Cloud, um die beste Route zu berechnen.
-das Navigationsgerät, -e;das Navigationsgerät;navigation device;навігатор;Die Firmware des Navigationsgeräts muss regelmäßig über das Internet aktualisiert werden.
-problemlos;problemlos;problem-free;без проблем;Die Migration der Datenbank von MySQL zu PostgreSQL verlief dank guter Vorbereitung problemlos.
-das Risiko, Risiken;das Risiko;risk;ризик;Das größte Risiko bei diesem Projekt ist die Abhängigkeit von einer veralteten API.
-sinken (sinkt, sank, ist gesunken);sinken;to sink, to decrease;падати, знижуватися;Die Kosten für Cloud-Speicherplatz sind im letzten Jahr kontinuierlich gesunken.
-die Tastatur, -en;die Tastatur;keyboard;клавіатура;Mechanische Tastaturen sind bei vielen Softwareentwicklern wegen des besseren Schreibgefühls sehr beliebt.
-verfügbar;verfügbar;available;доступний;Der neue Endpunkt unserer REST-API ist ab sofort in der Dokumentation verfügbar.
-etw. weiterentwickeln (entwickelt weiter, entwickelte weiter, hat weiterentwickelt);weiterentwickeln;to develop further;розвивати далі;Wir müssen den Algorithmus zur Bilderkennung mithilfe von Machine Learning ständig weiterentwickeln.
-die Zukunft (Sg.);die Zukunft;future;майбутнє;Die Zukunft der Webentwicklung liegt vermutlich in der Nutzung von WebAssembly.
-in Zukunft;in Zukunft;in the future;у майбутньому;In Zukunft wollen wir unsere Infrastruktur komplett auf "Infrastructure as Code" umstellen.
-die Arbeit erleichtern (erleichtert, erleichterte, hat erleichtert);die Arbeit erleichtern;to make work easier;полегшувати роботу;Künstliche Intelligenz kann Entwicklern die Arbeit erleichtern, indem sie Boilerplate-Code generiert.
-die Daten (Pl.);die Daten;data;дані;Wir nutzen eine verschlüsselte SQL-Datenbank, um die persönlichen Daten unserer Nutzer zu schützen.
-Daten missbrauchen (missbraucht, missbrauchte, hat missbraucht);Daten missbrauchen;to misuse data;зловживати даними;Durch unzureichende Verschlüsselung könnten Cyberkriminelle sensible Kundendaten missbrauchen.
-nachteilig;nachteilig;disadvantageous;невигідний;Die Nutzung veralteter Bibliotheken kann sich nachteilig auf die Sicherheit der gesamten App auswirken.
-papierlos;papierlos;paperless;безпеперовий;Wir nutzen digitale Tools wie Jira und Confluence, um ein komplett papierloses Projektmanagement zu ermöglichen.
-die sozialen Netzwerke;die sozialen Netzwerke;social networks;соціальні мережі;Viele Unternehmen nutzen soziale Netzwerke wie LinkedIn, um neue IT-Talente zu finden.
-speichern (speichert, speicherte, hat gespeichert);speichern;to save;зберігати;Die Anwendung muss die Benutzereinstellungen lokal im LocalStorage des Browsers speichern.
-verzichten auf (+ Akk.) (verzichtet, verzichtete, hat verzichtet);verzichten auf;to do without;відмовлятися від;Kein modernes Unternehmen kann heute mehr auf eine eigene Webseite verzichten.
-die Anforderung, -en;die Anforderung;requirement, demand;вимога;Die funktionalen Anforderungen an das System wurden in einem Lastenheft genau dokumentiert.
-der Ausbildungsberuf, -e;der Ausbildungsberuf;recognized vocational profession;професія, що потребує спеціальної освіти;Fachinformatiker für Anwendungsentwicklung ist ein sehr gefragter Ausbildungsberuf.
-beeinflussen (beeinflusst, beeinflusste, hat beeinflusst);beeinflussen;to influence;впливати;Die Wahl des Betriebssystems beeinflusst die Performance unserer Docker-Container massiv.
-die Berufsaussicht, -en;die Berufsaussicht;career prospect;перспектива працевлаштування;Die Berufsaussichten für Experten im Bereich Cyber-Security sind derzeit exzellent.
-die Digitalisierung (Sg.);die Digitalisierung;digitization;цифровізація;Die Digitalisierung interner Prozesse spart Unternehmen langfristig enorme Kosten.
-die Eigenschaft, -en;die Eigenschaft;property, characteristic;властивість, якість;Die wichtigste Eigenschaft eines guten Programmierers ist logisches Denkvermögen.
-Erfolg haben;Erfolg haben;to have success;мати успіх;Wenn wir die User-Experience verbessern, werden wir mit unserer App sicher großen Erfolg haben.
-fächerübergreifend;fächerübergreifend;interdisciplinary;міждисциплінарний;Wir planen ein fächerübergreifendes Projekt zwischen der Design-Abteilung und der IT.
-die Gesprächs- und Verhandlungsführung (Sg.);die Gesprächs- und Verhandlungsführung;conversation and negotiation management;ведення переговорів;In dem Kurs man lernt, wie man die Gesprächs- und Verhandlungsführung mit IT-Dienstleistern verbessert.
-interkulturell;interkulturell;intercultural;міжкультурний;In globalen IT-Teams ist interkulturelle Kompetenz für eine reibungslose Zusammenarbeit entscheidend.
-der IT-Systemkaufmann, -leute / die IT-Systemkauffrau, -en;der IT-Systemkaufmann;IT systems management assistant;фахівець/-чиня з продажів ІТ-систем;IT-Systemkaufleute berechnen die Lizenzkosten für neue Unternehmenssoftware.
-die Soft Skills (Pl.);die Soft Skills;soft skills;гнучкі навички;Neben technischem Fachwissen sind Soft Skills wie Kommunikationsfähigkeit für Entwickler unverzichtbar.
-teamfähig;teamfähig;able to work in a team;здатний працювати в команді;Wir suchen neue Senior-Entwickler, die nicht nur technisch brillant, sondern auch teamfähig sind.
-die Teamfähigkeit (Sg.);die Teamfähigkeit;ability to work in a team;вміння працювати в команді;Teamfähigkeit ist in agilen Scrum-Teams eine absolute Grundvoraussetzung.
-die Umfrage, -n;die Umfrage;survey, poll;опитування;Die Ergebnisse der Umfrage unter den Beta-Testern zeigen eine hohe Zufriedenheit mit dem neuen Design.
-Wert legen auf (+ Akk.) (legt, legte, hat gelegt);Wert legen auf;to attach importance to;надавати значення;Wir legen großen Wert auf eine saubere Code-Struktur und ausführliche Kommentare.
-das Wissensmanagement (Sg.);das Wissensmanagement;knowledge management;управління знаннями;Ein gutes Wissensmanagement im Wiki hilft neuen Kollegen bei der Einarbeitung.
-die Zuverlässigkeit (Pl. selten);die Zuverlässigkeit;reliability;надійність;Die Zuverlässigkeit der Backup-Systeme ist für den Schutz unserer Geschäftsdaten essenziell.
-der Arbeitsablauf, "-e;der Arbeitsablauf;workflow;робочий процес;Durch die Nutzung von CI/CD-Pipelines konnten wir den gesamten Arbeitsablauf automatisieren.
-die Automatisierung (Sg.);die Automatisierung;automation;автоматизація;Die Automatisierung von Standardaufgaben spart dem DevOps-Team viel Zeit und reduziert Fehler.
-etw. ein|führen (führt ein, führte ein, hat eingeführt);ein|führen;to introduce;запроваджувати;Wir wollen im nächsten Monat eine neue Software zur automatischen Fehlersuche einführen.
-die Einführung, -en;die Einführung;introduction;запровадження;Die Einführung der neuen Cloud-Plattform verlief reibungsloser als ursprünglich geplant.
-etw. fern|steuern (steuert fern, steuerte fern, hat ferngesteuert);fern|steuern;to remote control;керувати дистанційно;Mithilfe von SSH kann man Linux-Server sicher von jedem Ort der Welt aus fernsteuern.
-das Fließband, "-er;das Fließband;conveyor belt;конвеєр;In der modernen Software-Entwicklung ähnelt die Build-Pipeline einem digitalen Fließband.
-die Informationstechnologie, -n;die Informationstechnologie;information technology (IT);інформаційні технології;Er leitet die Abteilung für Informationstechnologie bei einem mittelständischen Unternehmen.
-das Internet der Dinge (Sg.);das Internet der Dinge;Internet of Things (IoT);інтернет речей;Das Internet der Dinge ermöglicht die Vernetzung von Sensoren direkt mit der Cloud.
-der Sprachassistent, -en;der Sprachassistent;voice assistant;голосовий помічник;Unser neuer Sprachassistent nutzt Deep Learning, um Befehle besser zu verstehen.
-die Vernetzung, -en;die Vernetzung;networking;мережування, поєднання;Die intelligente Vernetzung von IT-Systemen schafft völlig neue Möglichkeiten der Zusammenarbeit.
-vielfältig;vielfältig;diverse, manifold;різноманітний;Die Einsatzmöglichkeiten von Python sind äußerst vielfältig, von Data Science bis Webentwicklung.
+#columns:German;German_Audio;English;Ukrainian;Example;Tags
+<span style="color: #ef4444; font-weight: bold;">die</span> Abteilung, -en;die Abteilung;department;відділ;Unsere IT-<b style="color: #eab308;">Abteilung</b> kümmert sich um die gesamte Cloud-Infrastruktur.;B1plus Thema1
+<span style="color: #00d2ff; font-weight: bold;">der</span> Arbeitgeber, - / die Arbeitgeberin, -nen;der Arbeitgeber;employer;роботодавець/-иця;Mein neuer <b style="color: #eab308;">Arbeitgeber</b> bietet viele Remote-Work-Optionen für Softwareentwickler an.;B1plus Thema1
+<span style="color: #22c55e; font-weight: bold;">das</span> Asylverfahren, -;das Asylverfahren;asylum procedure;процедура надання притулку;Wir unterstützen geflüchtete IT-Spezialisten während ihres <b style="color: #eab308;">Asylverfahrens</b> bei der Jobsuche.;B1plus Thema1
+<span style="color: #ef4444; font-weight: bold;">die</span> Ausbildung, -en;die Ausbildung;apprenticeship, vocational training;професійне навчання;Ich mache eine <b style="color: #eab308;">Ausbildung</b> zum Fachinformatiker für Systemintegration.;B1plus Thema1
+auf|fallen (fällt auf, fiel auf, ist aufgefallen);auf|fallen;to stand out, to be noticeable;впадати в око;Im Code-Review ist mir sofort aufgefallen, dass eine Sicherheitslücke besteht.;B1plus Thema1
+(eine Prüfung) bestehen (besteht, bestand, hat bestanden);bestehen;to pass (an exam);скласти (іспит);Er hat die Zertifizierungsprüfung zum AWS Certified Solutions Architect <b style="color: #eab308;">bestanden</b>.;B1plus Thema1
+<span style="color: #22c55e; font-weight: bold;">das</span> Berufsinformationszentrum (BIZ);das Berufsinformationszentrum;career information center;центр профорієнтації;Im BIZ gibt es spezielle Beratungen für Quereinsteiger in die IT-Branche.;B1plus Thema1
+<span style="color: #00d2ff; font-weight: bold;">der</span> Betrieb, -e;der Betrieb;company, business;підприємство;Unser <b style="color: #eab308;">Betrieb</b> hat vor kurzem auf eine Microservices-Architektur umgestellt.;B1plus Thema1
+sich bewerben (bewirbt sich, bewarb sich, hat sich beworben);sich bewerben;to apply;подавати заявку (на роботу);Ich <b style="color: #eab308;">bewerbe</b> mich um die Stelle als Senior Java Developer bei diesem Startup.;B1plus Thema1
+jdn. ein|stellen (stellt ein, stellte ein, hat eingestellt);ein|stellen;to hire someone;наймати когось;Wir möchten diesen Monat drei neue Backend-Entwickler <b style="color: #eab308;">einstellen</b>.;B1plus Thema1
+<span style="color: #22c55e; font-weight: bold;">das</span> E-Learning (Sg.);das E-Learning;e-learning;електронне навчання;<b style="color: #eab308;">E-Learning</b>-Plattformen wie Coursera sind ideal, um neue Programmiersprachen zu lernen.;B1plus Thema1
+<span style="color: #00d2ff; font-weight: bold;">der</span> E-Learning-Kurs, -e;der E-Learning-Kurs;e-learning course;курс дистанційного навчання;Ich belege einen <b style="color: #eab308;">E-Learning-Kurs</b> zum Thema "Deep Learning mit Python".;B1plus Thema1
+<span style="color: #00d2ff; font-weight: bold;">der</span> Facharbeiter, - / die Facharbeiterin, -nen;der Facharbeiter;skilled worker;кваліфікований робітник/-ця;In der Halbleiterfertigung werden hochqualifizierte <b style="color: #eab308;">Facharbeiter</b> benötigt.;B1plus Thema1
+<span style="color: #00d2ff; font-weight: bold;">der</span> Gabelstapler, -;der Gabelstapler;forklift;навантажувач;Wir programmieren die Software für die automatische Steuerung der <b style="color: #eab308;">Gabelstapler</b> im Logistikzentrum.;B1plus Thema1
+<span style="color: #ef4444; font-weight: bold;">die</span> Geschäftsführung, -en;die Geschäftsführung;management;керівництво;Die <b style="color: #eab308;">Geschäftsführung</b> hat das Budget für die Cybersicherheit verdoppelt.;B1plus Thema1
+sich informieren über (+ Akk.) (informiert sich, informierte sich, hat sich informiert);sich informieren über;to inform oneself;інформуватися;Ich informiere mich täglich <b style="color: #eab308;">über</b> die neuesten Frameworks und Bibliotheken.;B1plus Thema1
+<span style="color: #22c55e; font-weight: bold;">das</span> Lager, -;das Lager;warehouse, storage;склад;Das digitale <b style="color: #eab308;">Lager</b> verwaltet Tausende von Hardware-Komponenten für unser Rechenzentrum.;B1plus Thema1
+<span style="color: #ef4444; font-weight: bold;">die</span> Lagerlogistik (Sg.);die Lagerlogistik;warehouse logistics;складська логістика;Ein effizientes ERP-System optimiert die gesamte <b style="color: #eab308;">Lagerlogistik</b> des Hardware-Händlers.;B1plus Thema1
+<span style="color: #00d2ff; font-weight: bold;">der</span> Mitarbeiter, - / die Mitarbeiterin, -nen;der Mitarbeiter;employee;співробітник/-ця;Jeder <b style="color: #eab308;">Mitarbeiter</b> erhält einen leistungsstarken Laptop für die Softwareentwicklung.;B1plus Thema1
+jdm. etw. raten (rät, riet, hat geraten);jdm. etw. raten;to advise someone;радити комусь щось;Der Senior-Entwickler riet mir, Python als erste Programmiersprache zu lernen.;B1plus Thema1
+<span style="color: #00d2ff; font-weight: bold;">der</span> Schulabschluss, "-e;der Schulabschluss;school-leaving certificate;шкільний атестат;Nach meinem <b style="color: #eab308;">Schulabschluss</b> möchte ich Informatik an einer Technischen Universität studieren.;B1plus Thema1
+steigen (stieg, ist gestiegen);steigen;to rise, to climb;підніматися, зростати;Die Nachfrage nach Sicherheitsexperten ist in den letzten Jahren stark gestiegen.;B1plus Thema1
+teil|nehmen an (+ Dat.) (nimmt teil, nahm teil, hat teilgenommen);teil|nehmen an;to participate in;брати участь;Nächste Woche nehme ich an einem Hackathon in Berlin teil.;B1plus Thema1
+<span style="color: #00d2ff; font-weight: bold;">der</span> Umsatz, "-e;der Umsatz;revenue, turnover;оборот, виручка;Der <b style="color: #eab308;">Umsatz</b> unseres Software-as-a-Service-Produkts hat sich dieses Jahr verdofft.;B1plus Thema1
+<span style="color: #ef4444; font-weight: bold;">die</span> Umschulung, -en;die Umschulung;retraining;перекваліфікація;Nach meiner Karriere im Marketing mache ich eine <b style="color: #eab308;">Umschulung</b> zum Webentwickler.;B1plus Thema1
+wahrscheinlich;wahrscheinlich;probably;ймовірно;Die Migration zur neuen Datenbank wird <b style="color: #eab308;">wahrscheinlich</b> das ganze Wochenende dauern.;B1plus Thema1
+<span style="color: #ef4444; font-weight: bold;">die</span> Weiterbildung, -en;die Weiterbildung;further education;підвищення кваліфікації;In der IT-Welt ist kontinuierliche <b style="color: #eab308;">Weiterbildung</b> die Basis für beruflichen Erfolg.;B1plus Thema1
+<span style="color: #00d2ff; font-weight: bold;">der</span> Antrag, "-e;der Antrag;application, request;заява;Ich habe einen <b style="color: #eab308;">Antrag</b> auf Zugriffsberechtigung für den Produktionsserver gestellt.;B1plus Thema1
+einen Antrag stellen (stellt, stellte, hat gestellt);einen Antrag stellen;to submit an application;падавати заяву;Sie müssen einen Antrag <b style="color: #eab308;">stellen</b>, um das neue Grafiktablett aus dem IT-Bestand zu erhalten.;B1plus Thema1
+<span style="color: #ef4444; font-weight: bold;">die</span> Aufenthaltsgenehmigung, -en;die Aufenthaltsgenehmigung;residence permit;посвідка на проживання;Für das Visum als Blue-Card-Inhaber benötige ich eine gültige <b style="color: #eab308;">Aufenthaltsgenehmigung</b>.;B1plus Thema1
+auf|wachsen (wächst auf, wuchs auf, ist aufgewachsen);auf|wachsen;to grow up;виростати;Er ist im Silicon Valley aufgewachsen und hat schon früh mit dem Programmieren begonnen.;B1plus Thema1
+<span style="color: #00d2ff; font-weight: bold;">der</span> Berater, - / die Beraterin, -nen;der Berater;advisor, counselor;консультант/-ка;Der externe IT-<b style="color: #eab308;">Berater</b> analysiert unsere aktuelle Netzwerkstruktur.;B1plus Thema1
+jdn. beschäftigen (beschäftigt, beschäftigte, hat beschäftigt);beschäftigen;to employ someone;мати у штаті, займати когось;Unser Unternehmen <b style="color: #eab308;">beschäftigt</b> weltweit über 500 Softwarearchitekten.;B1plus Thema1
+<span style="color: #00d2ff; font-weight: bold;">der</span> Businessplan, "-e;der Businessplan;business plan;бізнес-план;Bevor wir Investoren für unsere App suchen, brauchen wir einen soliden <b style="color: #eab308;">Businessplan</b>.;B1plus Thema1
+<span style="color: #22c55e; font-weight: bold;">das</span> Einkommen, -;das Einkommen;income;дохід;Das <b style="color: #eab308;">Einkommen</b> als Freelancer in der Softwareentwicklung variiert je nach Projektlage.;B1plus Thema1
+<span style="color: #ef4444; font-weight: bold;">die</span> Entscheidung, -en;die Entscheidung;decision;рішення;Die <b style="color: #eab308;">Entscheidung</b>, auf Rust umzusteigen, war für die Performance der App entscheidend.;B1plus Thema1
+eine Entscheidung treffen (trifft, traf, hat getroffen);eine Entscheidung treffen;to make a decision;прийти до рішення;Das Management muss endlich eine Entscheidung bezüglich des Cloud-Providers <b style="color: #eab308;">treffen</b>.;B1plus Thema1
+<span style="color: #ef4444; font-weight: bold;">die</span> Existenzgründung, -en;die Existenzgründung;founding of a business;заснування власної справи;Er plant eine <b style="color: #eab308;">Existenzgründung</b> mit einer innovativen KI-Lösung für den E-Commerce.;B1plus Thema1
+<span style="color: #ef4444; font-weight: bold;">die</span> Fortbildung, -en;die Fortbildung;advanced training;підвищення кваліфікації;Nächsten Monat besuche ich eine <b style="color: #eab308;">Fortbildung</b> zum Thema Containerisierung mit Docker.;B1plus Thema1
+eine Fortbildung machen (macht, machte, hat gemacht);eine Fortbildung machen;to do a training;проходити курс підвищення кваліфікації;Ich möchte eine Fortbildung <b style="color: #eab308;">machen</b>, um mich auf IT-Sicherheit zu spezialisieren.;B1plus Thema1
+(ein Unternehmen) gründen (gründet, gründete, hat gegründet);gründen;to found (a company);засновувати (компанію);Sie möchten ein Startup <b style="color: #eab308;">gründen</b>, das Blockchain-Technologie für Lieferketten nutzt.;B1plus Thema1
+einen Kredit bewilligen (bewilligt, bewilligte, hat bewilligt);einen Kredit bewilligen;to approve a loan;надавати кредит;Die Bank hat den Kredit für die neue Hardware-Ausstattung <b style="color: #eab308;">bewilligt</b>.;B1plus Thema1
+<span style="color: #00d2ff; font-weight: bold;">der</span> Küchenhelfer, - / die Küchenhelferin, -nen;der Küchenhelfer;kitchen assistant;кухонний помічник/-ниця;In unserer Kantine nutzt der <b style="color: #eab308;">Küchenhelfer</b> ein Tablet, um Bestellungen zu verwalten.;B1plus Thema1
+sich selbstständig machen;sich selbstständig machen;to go self-employed;почати власну справу;Nach zehn Jahren Festanstellung möchte ich mich als IT-Consultant selbstständig <b style="color: #eab308;">machen</b>.;B1plus Thema1
+<span style="color: #ef4444; font-weight: bold;">die</span> Selbstständigkeit (Sg.);die Selbstständigkeit;self-employment;самостійність, самозайнятість;Die <b style="color: #eab308;">Selbstständigkeit</b> erfordert gute Kenntnisse in Projektmanagement und Buchhaltung.;B1plus Thema1
+überlegen (überlegt, überlegte, hat überlegt);überlegen;to consider, to think about;обмірковувати;Wir <b style="color: #eab308;">überlegen</b>, ob wir die gesamte Backend-Infrastruktur auf Serverless umstellen.;B1plus Thema1
+Verantwortung tragen for (+ Akk.);Verantwortung tragen for;to bear responsibility;нести відповідальність;Als CTO trage ich die Verantwortung für alle technischen Entscheidungen im Unternehmen.;B1plus Thema1
+etw. anerkennen lassen;anerkennen lassen;to have something recognized;визнавати (напр. диплом);Ich muss meine ausländischen IT-Zertifikate in Deutschland anerkennen <b style="color: #eab308;">lassen</b>.;B1plus Thema1
+<span style="color: #00d2ff; font-weight: bold;">der</span> Berufsabschluss, "-e;der Berufsabschluss;vocational qualification;професійна освіта;Ein staatlich anerkannter <b style="color: #eab308;">Berufsabschluss</b> ist oft Voraussetzung für eine Anstellung im öffentlichen Dienst.;B1plus Thema1
+<span style="color: #ef4444; font-weight: bold;">die</span> Berufsausbildung, -en;die Berufsausbildung;vocational training;професійна освіта;Während meiner <b style="color: #eab308;">Berufsausbildung</b> habe ich verschiedene Programmiersprachen gelernt.;B1plus Thema1
+etw. beschließen (beschließt, beschloss, hat beschlossen);beschließen;to decide on, to resolve;вирішувати, постановити;Wir haben <b style="color: #eab308;">beschlossen</b>, das nächste Projekt mit der agilen Scrum-Methode umzusetzen.;B1plus Thema1
+<span style="color: #22c55e; font-weight: bold;">das</span> Zeugnis, -se;das Zeugnis;report card, certificate;свідоцтво, атестат;Ich habe mein Arbeitszeugnis als PDF für die Bewerbung hochgeladen.;B1plus Thema1
+<span style="color: #ef4444; font-weight: bold;">die</span> Anerkennung, -en;die Anerkennung;recognition;визнання;Die <b style="color: #eab308;">Anerkennung</b> meiner Masterurkunde war für das Visum als Fachkraft notwendig.;B1plus Thema1
+<span style="color: #22c55e; font-weight: bold;">das</span> Anerkennungsverfahren, -;das Anerkennungsverfahren;recognition process;процедура визнання;Das <b style="color: #eab308;">Anerkennungsverfahren</b> kann online über das Portal der IHK verfolgt werden.;B1plus Thema1
+<span style="color: #ef4444; font-weight: bold;">die</span> Arbeitserlaubnis, -se;die Arbeitserlaubnis;work permit;дозвіл на роботу;Ohne eine gültige <b style="color: #eab308;">Arbeitserlaubnis</b> darf man in Deutschland nicht als Entwickler arbeiten.;B1plus Thema1
+<span style="color: #ef4444; font-weight: bold;">die</span> Fachkraft, "-e;die Fachkraft;specialist;спеціаліст;In Deutschland herrscht ein großer Mangel an <b style="color: #eab308;">Fachkräften</b> im Bereich Cybersicherheit.;B1plus Thema1
+<span style="color: #ef4444; font-weight: bold;">die</span> Kompetenz, -en;die Kompetenz;competence, skill;компетенція, навичка;Problemlösungskompetenz ist eine der wichtigsten Eigenschaften eines Programmierers.;B1plus Thema1
+Kosten übernehmen (übernimmt, übernahm, hat übernommen);Kosten übernehmen;to cover costs;брати на себе витрати;Mein Arbeitgeber wird die Kosten für die Microsoft-Zertifizierung <b style="color: #eab308;">übernehmen</b>.;B1plus Thema1
+<span style="color: #00d2ff; font-weight: bold;">der</span> Nachweis, -e;der Nachweis;proof, evidence;доказ, підтвердження;Als <b style="color: #eab308;">Nachweis</b> meiner Erfahrung habe ich mein GitHub-Portfolio im Lebenslauf verlinkt.;B1plus Thema1
+<span style="color: #22c55e; font-weight: bold;">das</span> Praktikum, Praktika;das Praktikum;internship;практика;Ich mache ein dreimonatiges <b style="color: #eab308;">Praktikum</b> in der Qualitätssicherung eines Softwarehauses.;B1plus Thema1
+<span style="color: #ef4444; font-weight: bold;">die</span> Qualifikation, -en;die Qualifikation;qualification;кваліфікація;Welche zusätzlichen <b style="color: #eab308;">Qualifikationen</b> werden für die Stelle als Cloud-Engineer gefordert?;B1plus Thema1
+reglementiert;reglementiert;regulated;регламентований;Der Beruf des Softwareentwicklers ist in Deutschland glücklicherweise nicht <b style="color: #eab308;">reglementiert</b>.;B1plus Thema1
+<span style="color: #ef4444; font-weight: bold;">die</span> Unterlage, -n;die Unterlage;document;документ;Bitte laden Sie alle relevanten <b style="color: #eab308;">Unterlagen</b> in das Bewerberportal hoch.;B1plus Thema1
+etw. vergleichen mit (+ Dat.);vergleichen mit;to compare with;порівнювати;Wir müssen die Performance der verschiedenen Datenbanken miteinander vergleichen.;B1plus Thema1
+<span style="color: #00d2ff; font-weight: bold;">der</span> Ansprechpartner, - / die Ansprechpartnerin, -nen;der Ansprechpartner;contact person;контактна особа;Unser <b style="color: #eab308;">Ansprechpartner</b> für das API-Gateway ist heute leider nicht verfügbar.;B1plus Thema2
+<span style="color: #00d2ff; font-weight: bold;">der</span> Aushang, "-e;der Aushang;notice, posting;оголошення;Ich habe den digitalen <b style="color: #eab308;">Aushang</b> im Firmen-Intranet über das neue Slack-Update gesehen.;B1plus Thema2
+<span style="color: #22c55e; font-weight: bold;">das</span> Bewerbungsschreiben, -;das Bewerbungsschreiben;letter of application;заява про прийняття на роботу;In Ihrem <b style="color: #eab308;">Bewerbungsschreiben</b> sollten Sie Ihre Erfahrung mit Cloud-Technologien hervorheben.;B1plus Thema2
+<span style="color: #22c55e; font-weight: bold;">das</span> Bewerbungsverfahren, -;das Bewerbungsverfahren;application process;процес подання заявки;Das <b style="color: #eab308;">Bewerbungsverfahren</b> für die Stelle als DevOps-Engineer umfasst drei technische Interviews.;B1plus Thema2
+<span style="color: #00d2ff; font-weight: bold;">der</span> Eindruck, "-e;der Eindruck;impression;враження;Die neue Architektur der mobilen App macht einen sehr modernen <b style="color: #eab308;">Eindruck</b>.;B1plus Thema2
+<span style="color: #ef4444; font-weight: bold;">die</span> Elektrofirma, -firmen;die Elektrofirma;electrical company;електротехнічна фірма;Die <b style="color: #eab308;">Elektrofirma</b> installiert die neue unterbrechungsfreie Stromversorgung (USV) in unserem Rechenzentrum.;B1plus Thema2
+erwarten (erwartet, erwartete, hat erwartet);erwarten;to expect;очікувати;Von einem Senior-Entwickler <b style="color: #eab308;">erwarten</b> wir fundierte Kenntnisse in Design Patterns.;B1plus Thema2
+<span style="color: #22c55e; font-weight: bold;">das</span> Fachpersonal (Sg.);das Fachpersonal;skilled personnel;кваліфікований персонал;Unser Unternehmen investiert stark in <b style="color: #eab308;">Fachpersonal</b> für künstliche Intelligenz.;B1plus Thema2
+fehlerfrei;fehlerfrei;error-free;без помилок;Ein <b style="color: #eab308;">fehlerfreier</b> Code ist die Voraussetzung für eine erfolgreiche CI/CD-Pipeline.;B1plus Thema2
+<span style="color: #ef4444; font-weight: bold;">die</span> Initiativbewerbung, -en;die Initiativbewerbung;unsolicited application;ініціативна заявка;Ich habe eine <b style="color: #eab308;">Initiativbewerbung</b> an das IT-Sicherheitszentrum geschickt.;B1plus Thema2
+<span style="color: #ef4444; font-weight: bold;">die</span> Installateurfirma, -firmen;die Installateurfirma;plumbing company;сантехнічна фірма;Die <b style="color: #eab308;">Installateurfirma</b> wartet das Kühlsystem für unsere Hochleistungsserver.;B1plus Thema2
+<span style="color: #ef4444; font-weight: bold;">die</span> Konkurrenz (Sg.);die Konkurrenz;competition;конкуренція;In der Tech-Branche ist die <b style="color: #eab308;">Konkurrenz</b> um die besten Talente extrem hoch.;B1plus Thema2
+<span style="color: #00d2ff; font-weight: bold;">der</span> Leiharbeiter, - / die Leiharbeiterin, -nen;der Leiharbeiter;temporary worker;тимчасовий працівник/-ця;Wir haben einen <b style="color: #eab308;">Leiharbeiter</b> für das kurzfristige Datenmigrationsprojekt eingestellt.;B1plus Thema2
+<span style="color: #22c55e; font-weight: bold;">das</span> Leitbild, -er;das Leitbild;mission statement;місія, девіз компанії;Das <b style="color: #eab308;">Leitbild</b> unseres Startups ist die Demokratisierung von Daten durch Open Source.;B1plus Thema2
+<span style="color: #00d2ff; font-weight: bold;">der</span> Stand der Dinge;der Stand der Dinge;state of affairs;стан справ;Können Sie mir beim nächsten Daily Stand-up den aktuellen Stand der <b style="color: #eab308;">Dinge</b> zum Bug-Fixing geben?;B1plus Thema2
+einen Termin bestätigen (bestätigt, bestätigte, hat bestätigt);einen Termin bestätigen;to confirm an appointment;підтверджувати зустріч;Bitte <b style="color: #eab308;">bestätigen</b> Sie den Termin for die Produktdemo über den Kalender-Link.;B1plus Thema2
+<span style="color: #ef4444; font-weight: bold;">die</span> Wartezeit, -en;die Wartezeit;waiting time;час очікування;Die <b style="color: #eab308;">Wartezeit</b> für das Rendern des 4K-Videos beträgt etwa zwei Stunden.;B1plus Thema2
+<span style="color: #ef4444; font-weight: bold;">die</span> Zeitarbeitsfirma, -en;die Zeitarbeitsfirma;temporary employment agency;агентство з працевлаштування;Die <b style="color: #eab308;">Zeitarbeitsfirma</b> hat uns kurzfristig einen Spezialisten für Datenbanken vermittelt.;B1plus Thema2
+zukünftig;zukünftig;future;майбутній;In der <b style="color: #eab308;">zukünftigen</b> Version der Software wird eine Zwei-Faktor-Authentifizierung standardmäßig aktiviert sein.;B1plus Thema2
+<span style="color: #ef4444; font-weight: bold;">die</span> Arbeitskraft, "-e;die Arbeitskraft;worker, manpower;робоча сила;Automatisierung reduziert den Bedarf an manueller <b style="color: #eab308;">Arbeitskraft</b> bei Routineaufgaben.;B1plus Thema2
+<span style="color: #22c55e; font-weight: bold;">das</span> Arbeitsverhältnis, -se;das Arbeitsverhältnis;employment relationship;трудові відносини;Das unbefristete <b style="color: #eab308;">Arbeitsverhältnis</b> bietet dem Softwareentwickler eine hohe Sicherheit.;B1plus Thema2
+ausleihen (leiht aus, lieh aus, hat ausgeliehen);ausleihen;to lend, to borrow;позичати, віддавати в оренду;Man kann sich moderne VR-Brillen in der IT-Abteilung für Testzwecke <b style="color: #eab308;">ausleihen</b>.;B1plus Thema2
+<span style="color: #ef4444; font-weight: bold;">die</span> Berufsberatung, -en;die Berufsberatung;vocational guidance;професійна консультація;Die <b style="color: #eab308;">Berufsberatung</b> empfiehlt jungen Leuten oft ein Studium der Informatik.;B1plus Thema2
+<span style="color: #ef4444; font-weight: bold;">die</span> Berufserfahrung, -en;die Berufserfahrung;professional experience;професійний досвід;Er bringt über zehn Jahre <b style="color: #eab308;">Berufserfahrung</b> im Bereich Full-Stack-Entwicklung mit.;B1plus Thema2
+beschäftigen (beschäftigt, beschäftigte, hat beschäftigt);beschäftigen;to employ;займати, працевлаштовувати;Das System <b style="color: #eab308;">beschäftigt</b> sich derzeit mit der Indizierung der großen Datenbank.;B1plus Thema2
+<span style="color: #ef4444; font-weight: bold;">die</span> Beschäftigung (Sg.);die Beschäftigung;employment;зайнятість;Die <b style="color: #eab308;">Beschäftigung</b> mit dem Thema Machine Learning erfordert viel mathematisches Verständnis.;B1plus Thema2
+<span style="color: #ef4444; font-weight: bold;">die</span> Genehmigung, -en;die Genehmigung;permission, permit;дозвіл;Wir warten noch auf die offizielle <b style="color: #eab308;">Genehmigung</b> der IT-Leitung für den Kauf der neuen Lizenzen.;B1plus Thema2
+<span style="color: #ef4444; font-weight: bold;">die</span> Leiharbeit (Sg.);die Leiharbeit;temporary work;тимчасова праця;<b style="color: #eab308;">Leiharbeit</b> kann für IT-Freelancer eine gute Möglichkeit sein, verschiedene Unternehmen kennenzulernen.;B1plus Thema2
+staatlich;staatlich;state, public;державний;Das <b style="color: #eab308;">staatliche</b> Amt für Cybersicherheit hat eine Warnung vor einem neuen Computervirus herausgegeben.;B1plus Thema2
+<span style="color: #ef4444; font-weight: bold;">die</span> Tätigkeit, -en;die Tätigkeit;activity, task;діяльність;Zu meinen täglichen <b style="color: #eab308;">Tätigkeiten</b> gehört das Schreiben von Unit-Tests und das Bugtracking.;B1plus Thema2
+einen Termin vereinbaren (vereinbart, vereinbarte, hat vereinbart);einen Termin vereinbaren;to make an appointment;домовлятися про зустріч;Ich möchte einen Termin mit dem Product Owner <b style="color: #eab308;">vereinbaren</b>, um die User Stories zu besprechen.;B1plus Thema2
+verleihen (verleiht, verlieh, hat verliehen);verleihen;to lend;позичати, надавати;Das Rechenzentrum <b style="color: #eab308;">verleiht</b> Rechenleistung an kleinere Startups.;B1plus Thema2
+<span style="color: #ef4444; font-weight: bold;">die</span> Vermittlung, -en;die Vermittlung;placement, mediation;працевлаштування, посередництво;Die <b style="color: #eab308;">Vermittlung</b> von IT-Fachkräften erfolgt oft über spezialisierte Headhunter-Agenturen.;B1plus Thema2
+<span style="color: #ef4444; font-weight: bold;">die</span> Vermittlungsgebühr, -en;die Vermittlungsgebühr;placement fee;комісія за працевлаштування;Die Firma zahlt eine hohe <b style="color: #eab308;">Vermittlungsgebühr</b> für einen erfahrenen Softwarearchitekten.;B1plus Thema2
+<span style="color: #00d2ff; font-weight: bold;">der</span> Agraringenieur, -e / die Agraringenieurin, -nen;der Agraringenieur;agricultural engineer;агроном-інженер/-ка;Der <b style="color: #eab308;">Agraringenieur</b> nutzt Drohnen und IoT-Sensoren zur Optimierung der Bewässerung.;B1plus Thema2
+<span style="color: #00d2ff; font-weight: bold;">der</span> Arbeitseinsatz, "-e;der Arbeitseinsatz;work assignment;використання робочої сили;Der <b style="color: #eab308;">Arbeitseinsatz</b> der Entwickler wird über ein agiles Jira-Board gesteuert.;B1plus Thema2
+<span style="color: #00d2ff; font-weight: bold;">der</span> Bereich, -e;der Bereich;area, field;сфера, галузь;In welchem <b style="color: #eab308;">Bereich</b> der Informatik möchtest du dich spezialisieren?;B1plus Thema2
+<span style="color: #ef4444; font-weight: bold;">die</span> Bereitschaft (Sg.);die Bereitschaft;readiness, willingness;готовність;Die <b style="color: #eab308;">Bereitschaft</b> zur Wochenendarbeit ist bei kritischen Systemumstellungen notwendig.;B1plus Thema2
+<span style="color: #00d2ff; font-weight: bold;">der</span> Einsatzort, -e;der Einsatzort;place of assignment;місце роботи (відрядження);Mein aktueller <b style="color: #eab308;">Einsatzort</b> ist das Headquarter der IT-Firma in San Francisco.;B1plus Thema2
+examiniert;examiniert;qualified, examined;дипломований;Wir suchen <b style="color: #eab308;">examiniertes</b> Fachpersonal für die Wartung medizinischer IT-Systeme.;B1plus Thema2
+<span style="color: #22c55e; font-weight: bold;">das</span> Familienunternehmen, -;das Familienunternehmen;family business;сімейне підприємство;Das mittelständische <b style="color: #eab308;">Familienunternehmen</b> plant die Digitalisierung seiner gesamten Produktion.;B1plus Thema2
+<span style="color: #00d2ff; font-weight: bold;">der</span> Informatiker, - / die Informatikerin, -nen;der Informatiker;IT specialist;інформатик/-иця;Der <b style="color: #eab308;">Informatiker</b> optimiert den Algorithmus für eine schnellere Datenverarbeitung.;B1plus Thema2
+<span style="color: #00d2ff; font-weight: bold;">der</span> Ingenieur, -e / die Ingenieurin, -nen;der Ingenieur;engineer;інженер/-ка;Der <b style="color: #eab308;">Ingenieur</b> entwickelt neue Hardwarekomponenten für Quantencomputer.;B1plus Thema2
+innovativ;innovativ;innovative;інноваційний;Unsere Firma bietet <b style="color: #eab308;">innovative</b> Cloud-Lösungen für kleine und mittlere Unternehmen an.;B1plus Thema2
+<span style="color: #ef4444; font-weight: bold;">die</span> Karrierechance, -n;die Karrierechance;career opportunity;шанс на кар'єру;Internationale Tech-Konzerne bieten hervorragende <b style="color: #eab308;">Karrierechancen</b> für ehrgeizige Entwickler.;B1plus Thema2
+<span style="color: #ef4444; font-weight: bold;">die</span> Kommunikationsfähigkeit, -en;die Kommunikationsfähigkeit;communication skills;комунікабельність;Gute <b style="color: #eab308;">Kommunikationsfähigkeit</b> ist bei der Zusammenarbeit in verteilten Teams unerlässlich.;B1plus Thema2
+<span style="color: #00d2ff; font-weight: bold;">der</span> Kundenservice (Sg.);der Kundenservice;customer service;служба підтримки клієнтів;Der <b style="color: #eab308;">Kundenservice</b> wird durch einen KI-basierten Chatbot unterstützt.;B1plus Thema2
+<span style="color: #ef4444; font-weight: bold;">die</span> Pflegekraft, "-e;die Pflegekraft;caregiver, nurse;медпрацівник (з догляду);Die moderne Klinik verwendet digitale Tools, um die <b style="color: #eab308;">Pflegekraft</b> bei der Dokumentation zu entlasten.;B1plus Thema2
+<span style="color: #00d2ff; font-weight: bold;">der</span> Pflegeservice (Sg.);der Pflegeservice;care service;служба догляду;Ein digitaler <b style="color: #eab308;">Pflegeservice</b> ermöglicht die Fernüberwachung von Patientendaten.;B1plus Thema2
+<span style="color: #00d2ff; font-weight: bold;">der</span> Sicherheitsmitarbeiter, - / die Sicherheitsmitarbeiterin, -nen;der Sicherheitsmitarbeiter;security officer;співробітник/-ця безпеки;Der <b style="color: #eab308;">Sicherheitsmitarbeiter</b> überwacht den physischen Zugang zum Serverraum.;B1plus Thema2
+<span style="color: #00d2ff; font-weight: bold;">der</span> Teamgeist (Sg.);der Teamgeist;team spirit;командний дух;Ein starker <b style="color: #eab308;">Teamgeist</b> führt oft zu kreativeren Ansätzen in der Softwareentwicklung.;B1plus Thema2
+<span style="color: #ef4444; font-weight: bold;">die</span> Verantwortung (Sg.);die Verantwortung;responsibility;відповідальність;Ein Chief Information Security Officer trägt eine enorme <b style="color: #eab308;">Verantwortung</b> für den Datenschutz.;B1plus Thema2
+<span style="color: #00d2ff; font-weight: bold;">der</span> Verkäufer, - / die Verkäuferin, -nen;der Verkäufer;salesperson;продавець/-чиня;Der <b style="color: #eab308;">Verkäufer</b> erklärt dem Kunden die technischen Spezifikationen des neuen High-End-PCs.;B1plus Thema2
+<span style="color: #ef4444; font-weight: bold;">die</span> Verstärkung, -en;die Verstärkung;reinforcement, addition to the team;підкріплення, новий співробітник;Wir suchen dringend <b style="color: #eab308;">Verstärkung</b> für unser Frontend-Team im Bereich React.;B1plus Thema2
+<span style="color: #ef4444; font-weight: bold;">die</span> Zukunftsperspektive, -n;die Zukunftsperspektive;future prospect;перспектива на майнє;Die Arbeit im Bereich Cybersicherheit bietet eine exzellente <b style="color: #eab308;">Zukunftsperspektive</b>.;B1plus Thema2
+<span style="color: #ef4444; font-weight: bold;">die</span> Zusammenarbeit (Sg.);die Zusammenarbeit;cooperation;співпраця;Die erfolgreiche <b style="color: #eab308;">Zusammenarbeit</b> zwischen Designer und Entwickler ist entscheidend für das UI/UX Design.;B1plus Thema2
+zuständig;zuständig;responsible;відповідальний;Wer ist in eurem Team für die Code-Qualität <b style="color: #eab308;">zuständig</b>?;B1plus Thema2
+<span style="color: #22c55e; font-weight: bold;">das</span> Bauvorhaben, -;das Bauvorhaben;construction project;будівельний проект;Beim neuen <b style="color: #eab308;">Bauvorhaben</b> wird auch ein modernes Glasfasernetz für das gesamte Bürogebäude verlegt.;B1plus Thema2
+<span style="color: #00d2ff; font-weight: bold;">der</span> Einsatz, "-e;der Einsatz;assignment, mission;виконання завдання;Der weltweite <b style="color: #eab308;">Einsatz</b> unserer Software zeigt ihre hohe Skalierbarkeit.;B1plus Thema2
+<span style="color: #22c55e; font-weight: bold;">das</span> Einverständnis, -se;das Einverständnis;consent, agreement;згода;Wir benötigen das <b style="color: #eab308;">Einverständnis</b> des Nutzers für die Verarbeitung seiner personenbezogenen Daten.;B1plus Thema2
+<span style="color: #00d2ff; font-weight: bold;">der</span> Fachinformatiker, - / die Fachinformatikerin, -nen;der Fachinformatiker;IT specialist;фахівець/-чиня з інформатики;Als <b style="color: #eab308;">Fachinformatiker</b> für Anwendungsentwicklung schreibe ich täglich Code in C#.;B1plus Thema2
+<span style="color: #ef4444; font-weight: bold;">die</span> Krankheitsvertretung, -en;die Krankheitsvertretung;sick leave cover;заміна на час хвороби;Er übernimmt kurzfristig die <b style="color: #eab308;">Krankheitsvertretung</b> für den Lead-Architekten.;B1plus Thema2
+<span style="color: #00d2ff; font-weight: bold;">der</span> Realschulabschluss, "-e;der Realschulabschluss;secondary school certificate;атестат про закінчення реальної школи;Mit einem guten <b style="color: #eab308;">Realschulabschluss</b> kann man eine Ausbildung zum IT-Systemkaufmann beginnen.;B1plus Thema2
+<span style="color: #ef4444; font-weight: bold;">die</span> Urlaubsvertretung, -en;die Urlaubsvertretung;holiday replacement;заміна на час відпустки;Könntest du während meiner Abwesenheit meine <b style="color: #eab308;">Urlaubsvertretung</b> für die Serverwartung machen?;B1plus Thema2
+<span style="color: #00d2ff; font-weight: bold;">der</span> Zeitraum, "-e;der Zeitraum;period of time;період часу;In dem <b style="color: #eab308;">Zeitraum</b> zwischen 2:00 und 4:00 Uhr morgens finden Wartungsarbeiten am Netzwerk statt.;B1plus Thema2
+<span style="color: #00d2ff; font-weight: bold;">der</span> Empfang, "-e;der Empfang;reception;прийом, рецепція;Alle externen Dienstleister müssen sich am <b style="color: #eab308;">Empfang</b> anmelden, um einen Besucherausweis zu erhalten.;B1plus Thema3
+<span style="color: #ef4444; font-weight: bold;">die</span> Personalabteilung, -en;die Personalabteilung;HR department;відділ кадрів;Die <b style="color: #eab308;">Personalabteilung</b> nutzt eine Web-App zur Verwaltung der Urlaubstage.;B1plus Thema3
+<span style="color: #ef4444; font-weight: bold;">die</span> Kantine, -n;die Kantine;canteen;їдальня;In unserer <b style="color: #eab308;">Kantine</b> gibt es kostenloses WLAN für alle Mitarbeiter.;B1plus Thema3
+<span style="color: #ef4444; font-weight: bold;">die</span> Produktion (Sg.);die Produktion;production;виробництво;Die gesamte <b style="color: #eab308;">Produktion</b> wird jetzt durch ein KI-gesteuertes System überwacht.;B1plus Thema3
+<span style="color: #ef4444; font-weight: bold;">die</span> Forschung, -en;die Forschung;research;дослідження;Unser Team in der <b style="color: #eab308;">Forschung</b> arbeitet an neuen Algorithmen für die Datenkompression.;B1plus Thema3
+<span style="color: #ef4444; font-weight: bold;">die</span> Entwicklung, -en;die Entwicklung;development;розробка;Die <b style="color: #eab308;">Entwicklung</b> der neuen API-Schnittstelle ist fast abgeschlossen.;B1plus Thema3
+<span style="color: #00d2ff; font-weight: bold;">der</span> Betriebsrat, "-e / die Betriebsrätin, -nen;der Betriebsrat;works council (member);виробнича рада / членкиня ради;Der <b style="color: #eab308;">Betriebsrat</b> prüft die neue Software zur Überwachung der Homeoffice-Zeiten.;B1plus Thema3
+<span style="color: #ef4444; font-weight: bold;">die</span> Finanzbuchhaltung, -en;die Finanzbuchhaltung;financial accounting;бухгалтерія;Die <b style="color: #eab308;">Finanzbuchhaltung</b> benötigt die Rechnung für die neuen Serverlizenzen.;B1plus Thema3
+<span style="color: #ef4444; font-weight: bold;">die</span> Einarbeitung, -en;die Einarbeitung;induction, orientation;введення в курс справи (стажування);Während der <b style="color: #eab308;">Einarbeitung</b> lernst du unsere internen Coding-Standards kennen.;B1plus Thema3
+<span style="color: #ef4444; font-weight: bold;">die</span> Pausenregelung, -en;die Pausenregelung;break policy;правило перерв;Die digitale Zeiterfassung sorgt dafür, dass die <b style="color: #eab308;">Pausenregelung</b> automatisch eingehalten wird.;B1plus Thema3
+<span style="color: #00d2ff; font-weight: bold;">der</span> Rundgang, "-e;der Rundgang;tour (of a building);обхід, екскурсія;Nach dem <b style="color: #eab308;">Rundgang</b> durch das Rechenzentrum haben wir die Kühlsysteme besprochen.;B1plus Thema3
+sich weiter|bilden (bildet sich weiter, bildete sich weiter, hat sich weitergebildet);sich weiter|bilden;to continue education;підвищувати кваліфікацію;In der IT-Branche muss man sich ständig <b style="color: #eab308;">weiterbilden</b>, um auf dem neuesten Stand zu bleiben.;B1plus Thema3
+sich ärgern über (+ Akk.) (ärgert sich, ärgerte sich, hat sich geärgert);sich ärgern über;to be annoyed about;сердитися через;Ich ärgere mich <b style="color: #eab308;">über</b> den langsamen Datenbank-Server.;B1plus Thema3
+<span style="color: #00d2ff; font-weight: bold;">der</span> Berufsalltag (Sg.);der Berufsalltag;professional life;професійні будні;Der <b style="color: #eab308;">Berufsalltag</b> eines Programmierers besteht oft aus Coding und Bugfixing.;B1plus Thema3
+<span style="color: #ef4444; font-weight: bold;">die</span> Erfahrung, -en;die Erfahrung;experience;досвід;Wir suchen jemanden mit viel <b style="color: #eab308;">Erfahrung</b> in der Cloud-Architektur.;B1plus Thema3
+Erfahrung haben mit (+ Dat.);Erfahrung haben mit;to have experience with;мати досвід у;Hast du bereits Erfahrung mit der Containerisierung von Anwendungen?;B1plus Thema3
+sich freuen auf (+ Akk.) (freut sich, freute sich, hat sich gefreut);sich freuen auf;to look forward to;чекати з нетерпінням (на щось у майбутньому);Ich freue mich auf den Release der neuen Software-Version.;B1plus Thema3
+sich freuen über (+ Akk.);sich freuen über;to be happy about;радіти (чомусь, що вже є);Das Team freut sich <b style="color: #eab308;">über</b> das positive Feedback der Beta-Tester.;B1plus Thema3
+gehören zu (+ Dat.) (gehört, gehörte, hat gehört);gehören zu;to belong to;належати до;Das Schreiben technischer Dokumentation gehört zu den Aufgaben eines Entwicklers.;B1plus Thema3
+es geht um (+ Akk.);es geht um;it's about;йдеться про;In diesem Meeting geht es um die Behebung kritischer Sicherheitslücken.;B1plus Thema3
+ein Gespräch führen (führt, führte, hat geführt);ein Gespräch führen;to lead a conversation;вести розмову;Wir müssen ein Gespräch über die Performance-Probleme der Website <b style="color: #eab308;">führen</b>.;B1plus Thema3
+sich interessieren für (+ Akk.) (interessiert sich, interessierte sich, hat sich interessiert);sich interessieren für;to be interested in;цікавитися;Interessierst du dich for die Entwicklung mobiler Apps?;B1plus Thema3
+investieren in (+ Akk.) (investiert, investierte, hat investiert);investieren in;to invest in;інвестувати в;Unternehmen müssen mehr in die Cybersicherheit investieren.;B1plus Thema3
+statt|finden (fand statt, hat stattgefunden);statt|finden;to take place;відбуватися;Der tägliche Scrum-Call findet jeden Morgen um 9 Uhr <b style="color: #eab308;">statt</b>.;B1plus Thema3
+etw. vermitteln (vermittelt, vermittelte, hat vermittelt);vermitteln;to convey, to mediate;передавати (знання), посередничати;Der Workshop <b style="color: #eab308;">vermittelt</b> grundlegende Kenntnisse in der Python-Programmierung.;B1plus Thema3
+<span style="color: #ef4444; font-weight: bold;">die</span> Voraussetzung, -en;die Voraussetzung;requirement;умова, передумова;Gute SQL-Kenntnisse sind eine <b style="color: #eab308;">Voraussetzung</b> für diesen Job.;B1plus Thema3
+<span style="color: #ef4444; font-weight: bold;">die</span> Webseite, -n;die Webseite;website;веб-сторінка;Die <b style="color: #eab308;">Webseite</b> unseres Unternehmens wurde für mobile Endgeräte optimiert.;B1plus Thema3
+<span style="color: #22c55e; font-weight: bold;">das</span> Ergebnisprotokoll, -e;das Ergebnisprotokoll;minutes of a meeting;протокол результатів зустрічі;Ich habe das <b style="color: #eab308;">Ergebnisprotokoll</b> des Sprints per E-Mail an das Team geschickt.;B1plus Thema3
+<span style="color: #ef4444; font-weight: bold;">die</span> Besprechung, -en;die Besprechung;meeting;нарада;In der <b style="color: #eab308;">Besprechung</b> wurde die neue Cloud-Strategie vorgestellt.;B1plus Thema3
+<span style="color: #ef4444; font-weight: bold;">die</span> Teamsitzung, -en;die Teamsitzung;team meeting;командна нарада;Während der <b style="color: #eab308;">Teamsitzung</b> haben wir die Aufgaben für die nächste Woche verteilt.;B1plus Thema3
+etw. zusammen|fassen (fasst zusammen, fasste zusammen, hat zusammengefasst);zusammen|fassen;to summarize;підсумовувати;Können Sie die wichtigsten Punkte der Anforderungsanalyse <b style="color: #eab308;">zusammenfassen</b>?;B1plus Thema3
+<span style="color: #00d2ff; font-weight: bold;">der</span> Beschluss, "-e;der Beschluss;decision;рішення, постанова;Der <b style="color: #eab308;">Beschluss</b>, die Legacy-Software zu ersetzen, wurde gestern gefasst.;B1plus Thema3
+<span style="color: #ef4444; font-weight: bold;">die</span> Vereinbarung, -en;die Vereinbarung;agreement;угода, домовленість;Wir haben eine <b style="color: #eab308;">Vereinbarung</b> über die Nutzung der Open-Source-Bibliotheken getroffen.;B1plus Thema3
+<span style="color: #ef4444; font-weight: bold;">die</span> Tagesordnung, -en;die Tagesordnung;agenda;порядок денний;Der Punkt "System-Sicherheit" steht heute ganz oben auf der <b style="color: #eab308;">Tagesordnung</b>.;B1plus Thema3
+<span style="color: #22c55e; font-weight: bold;">das</span> Stichwort, -e;das Stichwort;keyword;ключове слово;Ich habe mir während des Vortrags nur ein paar <b style="color: #eab308;">Stichworte</b> zum Thema Blockchain notiert.;B1plus Thema3
+etw. dokumentieren (dokumentiert, dokumentierte, hat dokumentiert);dokumentieren;to document;документувати;Bitte <b style="color: #eab308;">dokumentieren</b> Sie alle Änderungen am Datenbank-Schema im Wiki.;B1plus Thema3
+etw. protokollieren (protokolliert, protokollierte, hat protokolliert);protokollieren;to record;протоколювати;Alle API-Aufrufe werden zu Analysezwecken <b style="color: #eab308;">protokolliert</b>.;B1plus Thema3
+<span style="color: #ef4444; font-weight: bold;">die</span> Regel, -n;die Regel;rule;правило;In diesem Netzwerk gelten strenge <b style="color: #eab308;">Regeln</b> für den Passwortschutz.;B1plus Thema3
+in der Regel;in der Regel;as a rule;як правило;In der <b style="color: #eab308;">Regel</b> erfolgt das Deployment der neuen Version am Dienstagabend.;B1plus Thema3
+<span style="color: #00d2ff; font-weight: bold;">der</span> Teilnehmer, - / die Teilnehmerin, -nen;der Teilnehmer;participant;учасник/-ця;An dem Web-Seminar nehmen über 100 <b style="color: #eab308;">Teilnehmer</b> aus aller Welt teil.;B1plus Thema3
+etw. vor|schlagen (schlägt vor, schlug vor, hat vorgeschlagen);vor|schlagen;to suggest;пропонувати;Ich schlage vor, wir nutzen Docker für dieses Projekt.;B1plus Thema3
+<span style="color: #00d2ff; font-weight: bold;">der</span> Zweifel, -;der Zweifel;doubt;сумнів;Ich habe keine <b style="color: #eab308;">Zweifel</b>, dass wir die Deadline für die App einhalten.;B1plus Thema3
+etw. schaffen (schafft, schaffte, hat geschafft);schaffen;to manage;впоратися;Wir werden es <b style="color: #eab308;">schaffen</b>, alle Fehler bis zum Wochenende zu beheben.;B1plus Thema3
+sich etw. merken (merkt sich, merkte sich, hat sich gemerkt);sich etw. merken;to remember;запам'ятовувати;Bitte <b style="color: #eab308;">merken</b> Sie sich das neue Administratoren-Passwort gut.;B1plus Thema3
+<span style="color: #ef4444; font-weight: bold;">die</span> Pünktlichkeit (Sg.);die Pünktlichkeit;punctuality;пунктуальність;<b style="color: #eab308;">Pünktlichkeit</b> ist auch bei virtuellen Meetings sehr wichtig.;B1plus Thema3
+<span style="color: #ef4444; font-weight: bold;">die</span> Begrüßung, -en;die Begrüßung;greeting;привітання;Die <b style="color: #eab308;">Begrüßung</b> des neuen Programmierers erfolgte über einen Video-Call.;B1plus Thema3
+<span style="color: #00d2ff; font-weight: bold;">der</span> Feierabend, -e;der Feierabend;closing time, finish work;кінець робочого дня;Nach dem <b style="color: #eab308;">Feierabend</b> programmiere ich oft an meinen privaten Projekten weiter.;B1plus Thema3
+aufregend;aufregend;exciting;захоплюючий;Die Arbeit mit der neuen KI-Technologie ist extrem <b style="color: #eab308;">aufregend</b>.;B1plus Thema3
+<span style="color: #00d2ff; font-weight: bold;">der</span> Erfolg, -e;der Erfolg;success;успіх;Die Migration zur Cloud war ein großer <b style="color: #eab308;">Erfolg</b> für das ganze Team.;B1plus Thema3
+nützlich;nützlich;useful;корисний;Diese neue Bibliothek ist sehr <b style="color: #eab308;">nützlich</b> für die Bildverarbeitung.;B1plus Thema3
+<span style="color: #00d2ff; font-weight: bold;">der</span> Berufsverkehr (Sg.);der Berufsverkehr;professional traffic;робочий дорожній рух (години пік);Dank Homeoffice vermeide ich den stressigen <b style="color: #eab308;">Berufsverkehr</b> am Morgen.;B1plus Thema3
+üblich;üblich;common;звичайний;In der IT-Branche ist das Duzen unter Kollegen absolut <b style="color: #eab308;">üblich</b>.;B1plus Thema3
+lächeln (lächelt, lächelte, hat gelächelt);lächeln;to smile;усміхатися;Der Support-Mitarbeiter <b style="color: #eab308;">lächelt</b>, als er das Problem endlich gelöst hat.;B1plus Thema3
+erwünscht;erwünscht;desired;бажаний;Erfahrung mit agilen Methoden wie Scrum ist bei uns ausdrücklich <b style="color: #eab308;">erwünscht</b>.;B1plus Thema3
+beliebt;beliebt;popular;популярний;Python ist derzeit eine der <b style="color: #eab308;">beliebtesten</b> Sprachen für Data Science.;B1plus Thema3
+im Allgemeinen;im Allgemeinen;in general;взагалі;Im <b style="color: #eab308;">Allgemeinen</b> sind unsere Kunden mit der Performance der Software zufrieden.;B1plus Thema3
+der/die Vorgesetzte, -n;der;supervisor;керівник/-ця;Mein Vorgesetzter hat mir wertvolles Feedback zu meinem Code gegeben.;B1plus Thema3
+sich verabschieden (von + Dat.) (verabschiedet sich, verabschiedete sich, hat sich verabschiedet);sich verabschieden;to say goodbye;прощатися;Ich <b style="color: #eab308;">verabschiede</b> mich aus dem Slack-Channel, da ich das Projekt wechsle.;B1plus Thema3
+sich etw. an|schauen (schaut an, schaute an, hat angeschaut);sich etw. an|schauen;to look at something;подивитися на щось;Ich schaue mir die neue Dokumentation für das Framework an.;B1plus Thema4
+<span style="color: #00d2ff; font-weight: bold;">der</span> Arbeitsalltag (Sg.);der Arbeitsalltag;everyday work life;робочі будні;Der <b style="color: #eab308;">Arbeitsalltag</b> eines DevOps-Engineers wird stark von Automatisierung geprägt.;B1plus Thema4
+<span style="color: #ef4444; font-weight: bold;">die</span> Arbeitsdichte (Sg.);die Arbeitsdichte;work density;щільність роботи (навантаження);Die <b style="color: #eab308;">Arbeitsdichte</b> ist während der Crunch-Phase vor dem Produkt-Launch extrem hoch.;B1plus Thema4
+<span style="color: #22c55e; font-weight: bold;">das</span> Arbeitsleben (Sg.);das Arbeitsleben;professional life;трудове життя;Das <b style="color: #eab308;">Arbeitsleben</b> in einem Tech-Startup unterscheidet sich stark von dem in einem Großkonzern.;B1plus Thema4
+<span style="color: #ef4444; font-weight: bold;">die</span> Arbeitswelt (Sg.);die Arbeitswelt;working world;світ праці;Die moderne <b style="color: #eab308;">Arbeitswelt</b> erfordert ständige Anpassung an neue Software-Tools.;B1plus Thema4
+sich aus|wirken (auf + Akk.) (wirkt aus, wirkte aus, hat ausgewirkt);sich aus|wirken;to affect, to impact;впливати;Ein fehlerhaftes Update kann sich negativ auf die Systemstabilität <b style="color: #eab308;">auswirken</b>.;B1plus Thema4
+<span style="color: #ef4444; font-weight: bold;">die</span> Baustelle, -n;die Baustelle;construction site;будівельний майданчик;Die Migration der Legacy-Daten ist derzeit unsere größte <b style="color: #eab308;">Baustelle</b> im Projekt.;B1plus Thema4
+sich beeilen (beeilt sich, beeilte sich, hat sich beeilt);sich beeilen;to hurry;поспішати;Wir müssen uns <b style="color: #eab308;">beeilen</b>, den Hotfix vor dem nächsten Kunden-Meeting zu mergen.;B1plus Thema4
+<span style="color: #ef4444; font-weight: bold;">die</span> Berufssparte, -n;die Berufssparte;professional sector;професійна галузь;Die IT-Sicherheit ist eine <b style="color: #eab308;">Berufssparte</b> mit hervorragenden Zukunftsaussichten.;B1plus Thema4
+der/die Beschäftigte, -n;der;employee;співробітник/-ця;Jeder Beschäftigte in der IT-Abteilung hat Zugriff auf das interne Wiki.;B1plus Thema4
+<span style="color: #ef4444; font-weight: bold;">die</span> Beschleunigung, -en;die Beschleunigung;acceleration;прискорення;Gute Indizes führen zur <b style="color: #eab308;">Beschleunigung</b> komplexer SQL-Abfragen.;B1plus Thema4
+etw. bewältigen (bewältigt, bewältigte, hat bewältigt);bewältigen;to manage, to cope with;долати, справлятися;Dank agiler Methoden konnten wir die hohen Anforderungen des Kunden <b style="color: #eab308;">bewältigen</b>.;B1plus Thema4
+<span style="color: #ef4444; font-weight: bold;">die</span> Herausforderung, -en;die Herausforderung;challenge;виклик;Die Skalierung der Datenbank für Millionen von Nutzern ist eine technische <b style="color: #eab308;">Herausforderung</b>.;B1plus Thema4
+<span style="color: #00d2ff; font-weight: bold;">der</span> Maurer, - / die Maurerin, -nen;der Maurer;mason;муляр/-ка;Wir entwickeln eine App, die <b style="color: #eab308;">Maurern</b> bei der Materialberechnung hilft.;B1plus Thema4
+<span style="color: #ef4444; font-weight: bold;">die</span> Strecke, -n;die Strecke;distance, route;дистанція, шлях;Die <b style="color: #eab308;">Strecke</b> für die Glasfaserverbindung zum neuen Rechenzentrum wurde bereits vermessen.;B1plus Thema4
+auf der Strecke bleiben;auf der Strecke bleiben;to fall by the wayside;відстати, бути занедбаним;Ohne kontinuierliche Updates der Skills kann man in der IT schnell auf der Strecke <b style="color: #eab308;">bleiben</b>.;B1plus Thema4
+einen Termin ab|sagen;einen Termin ab|sagen;to cancel an appointment;скасувати зустріч;Ich muss den Termin für das Code-Review leider auf morgen verschieben.;B1plus Thema4
+<span style="color: #22c55e; font-weight: bold;">das</span> Treffen, -;das Treffen;meeting;зустріч;Das <b style="color: #eab308;">Treffen</b> mit den Stakeholdern war für die Priorisierung des Backlogs sehr wichtig.;B1plus Thema4
+sich verspäten (verspätet sich, verspätete sich, hat sich verspätet);sich verspäten;to be late;запізнюватися;Das Deployment der neuen Version wird sich aufgrund technischer Probleme leider <b style="color: #eab308;">verspäten</b>.;B1plus Thema4
+<span style="color: #22c55e; font-weight: bold;">das</span> Wohlbefinden (Sg.);das Wohlbefinden;well-being;самопочуття;Ergonomische Stühle im Büro tragen wesentlich zum <b style="color: #eab308;">Wohlbefinden</b> der Programmierer bei.;B1plus Thema4
+<span style="color: #00d2ff; font-weight: bold;">der</span> Zeitdruck (Sg.);der Zeitdruck;time pressure;дефіцит часу;Unter großem <b style="color: #eab308;">Zeitdruck</b> passieren beim Programmieren leider oft Flüchtigkeitsfehler.;B1plus Thema4
+<span style="color: #ef4444; font-weight: bold;">die</span> Abteilungskonferenz, -en;die Abteilungskonferenz;department conference;конференція відділу;In der monatlichen <b style="color: #eab308;">Abteilungskonferenz</b> stellt der CTO die neue Technik-Roadmap vor.;B1plus Thema4
+sich ab|sprechen (mit + Dat.) (spricht sich ab, sprach sich ab, hat sich abgesprochen);sich ab|sprechen;to coordinate (with someone);домовлятися;Ich muss mich kurz mit dem Backend-Team bezüglich der API-Schnittstelle <b style="color: #eab308;">absprechen</b>.;B1plus Thema4
+<span style="color: #00d2ff; font-weight: bold;">der</span> Anspruch, "-e;der Anspruch;claim, demand;претензія, вимога;Der <b style="color: #eab308;">Anspruch</b> an die Datensicherheit ist bei dieser Anwendung extrem hoch.;B1plus Thema4
+Anspruch haben auf (+ Akk.);Anspruch haben auf;to have a right to;мати право на;Alle Mitarbeiter haben Anspruch auf eine moderne Hardware-Ausstattung mitsamt zwei Monitoren.;B1plus Thema4
+<span style="color: #00d2ff; font-weight: bold;">der</span> Arbeitsweg, -e;der Arbeitsweg;commute;шлях на роботу;Mein <b style="color: #eab308;">Arbeitsweg</b> dauert eine halbe Stunde.;B1plus Thema4
+<span style="color: #ef4444; font-weight: bold;">die</span> Arbeitszeit, -en;die Arbeitszeit;working time;робочий час;In unserer IT-Firma gibt es flexible <b style="color: #eab308;">Arbeitszeit</b>-Modelle und Vertrauensarbeitszeit.;B1plus Thema4
+<span style="color: #22c55e; font-weight: bold;">das</span> Arbeitszeitgesetz, -e;das Arbeitszeitgesetz;working time act;закон про робочий час;Das <b style="color: #eab308;">Arbeitszeitgesetz</b> schreibt zwingend eine Pause nach sechs Stunden Arbeit vor.;B1plus Thema4
+<span style="color: #ef4444; font-weight: bold;">die</span> Betriebsruhe (Sg.);die Betriebsruhe;company holidays;канікули auf підприємстві;Während der <b style="color: #eab308;">Betriebsruhe</b> werden wichtige Wartungsarbeiten am zentralen Server-Cluster durchgeführt.;B1plus Thema4
+<span style="color: #22c55e; font-weight: bold;">das</span> EDV-System, -e;das EDV-System;IT system;ІТ-система;Unser <b style="color: #eab308;">EDV-System</b> wurde auf die neueste Version von SAP umgestellt.;B1plus Thema4
+jdn. ein|weisen in (+ Akk.) (weist ein, wies ein, hat eingewiesen);ein|weisen in;to instruct, to brief;інструктувати;Der Senior-Admin wird dich heute in das Monitoring-System einweisen.;B1plus Thema4
+<span style="color: #00d2ff; font-weight: bold;">der</span> Ersatzruhetag, -e;der Ersatzruhetag;compensatory rest day;компенсаційний вихідний;Wenn wir am Releasetag am Sonntag arbeiten, erhalten wir einen <b style="color: #eab308;">Ersatzruhetag</b> in der Woche.;B1plus Thema4
+etw. vor|schreiben (schreibt vor, schrieb vor, hat vorgeschrieben);vor|schreiben;to prescribe, to mandate;приписувати, зобов'язувати;Die DSGVO schreibt vor, wie personenbezogene Daten in unserer SQL-Datenbank gespeichert werden müssen.;B1plus Thema4
+<span style="color: #00d2ff; font-weight: bold;">der</span> Fall, "-e;der Fall;case;випадок;Im <b style="color: #eab308;">Falle</b> eines Systemabsturzes ist sofort das On-Call-Team zu benachrichtigen.;B1plus Thema4
+auf keinen Fall;auf keinen Fall;in no case;ні в якому разі;Man sollte auf keinen <b style="color: #eab308;">Fall</b> ungetesteten Code direkt in den Main-Branch mergen.;B1plus Thema4
+<span style="color: #00d2ff; font-weight: bold;">der</span> Freizeitausgleich (Sg.);der Freizeitausgleich;compensatory time off;компенсація вільного часу;Für die Überstunden während der Migration bekomme ich nächste Woche <b style="color: #eab308;">Freizeitausgleich</b>.;B1plus Thema4
+<span style="color: #00d2ff; font-weight: bold;">der</span> Mindesturlaub (Sg.);der Mindesturlaub;minimum leave;мінімальна відпустка;Der gesetzliche <b style="color: #eab308;">Mindesturlaub</b> beträgt in Deutschland 20 Tage bei einer Fünf-Tage-Woche.;B1plus Thema4
+<span style="color: #ef4444; font-weight: bold;">die</span> Pflicht, -en;die Pflicht;duty;обов'язок;Es ist die <b style="color: #eab308;">Pflicht</b> jedes Entwicklers, regelmäßig Backups seiner lokalen Repositorys zu machen.;B1plus Thema4
+<span style="color: #22c55e; font-weight: bold;">das</span> Recht, -e;das Recht;right, law;право;Der Administrator hat das <b style="color: #eab308;">Recht</b>, Benutzerkonten bei Sicherheitsverstößen zu sperren.;B1plus Thema4
+Recht haben;Recht haben;to be right;мати рацію;Du hast Recht, wir sollten für das neue Projekt lieber Python anstatt Java verwenden.;B1plus Thema4
+<span style="color: #ef4444; font-weight: bold;">die</span> (gesetzliche) Regel, -n;die Regel;legal rule;законне правило;Wir müssen die gesetzlichen <b style="color: #eab308;">Regeln</b> zum Datenschutz strikt befolgen.;B1plus Thema4
+<span style="color: #ef4444; font-weight: bold;">die</span> Schichtarbeit (Sg.);die Schichtarbeit;shift work;позмінна робота;Im 24/7-Support ist <b style="color: #eab308;">Schichtarbeit</b> leider unvermeidlich.;B1plus Thema4
+<span style="color: #ef4444; font-weight: bold;">die</span> Teilzeitarbeit (Sg.);die Teilzeitarbeit;part-time work;неповна зайнятість;<b style="color: #eab308;">Teilzeitarbeit</b> ist auch für erfahrene Softwarearchitekten eine gute Option.;B1plus Thema4
+<span style="color: #ef4444; font-weight: bold;">die</span> Überstunde, -n;die Überstunde;overtime;понаднормова година;Wegen des kritischen Bugs mussten wir gestern drei <b style="color: #eab308;">Überstunden</b> machen.;B1plus Thema4
+<span style="color: #00d2ff; font-weight: bold;">der</span> Urlaubstag, -e;der Urlaubstag;vacation day;день відпустки;Ich habe für die Gamescom-Messe extra zwei <b style="color: #eab308;">Urlaubstage</b> genommen.;B1plus Thema4
+<span style="color: #ef4444; font-weight: bold;">die</span> Urlaubszeit, -en;die Urlaubszeit;vacation time;час відпустки;In der <b style="color: #eab308;">Urlaubszeit</b> ist die Besetzung im Support-Team oft etwas dünner.;B1plus Thema4
+<span style="color: #ef4444; font-weight: bold;">die</span> Vollzeitarbeit (Sg.);die Vollzeitarbeit;full-time work;повна зайнятість;Nach dem Studium fange ich direkt eine <b style="color: #eab308;">Vollzeitarbeit</b> als Frontend-Entwickler an.;B1plus Thema4
+<span style="color: #ef4444; font-weight: bold;">die</span> Wochenendarbeit, -en;die Wochenendarbeit;weekend work;робота у вихідні;Große Datenbank-Upgrades werden oft als <b style="color: #eab308;">Wochenendarbeit</b> durchgeführt, um den Betrieb nicht zu stören.;B1plus Thema4
+<span style="color: #ef4444; font-weight: bold;">die</span> Deadline, -s;die Deadline;deadline;дедлайн;Wir müssen hart arbeiten, um die <b style="color: #eab308;">Deadline</b> für den nächsten Sprint einzuhalten.;B1plus Thema4
+<span style="color: #22c55e; font-weight: bold;">das</span> Drehbuch, "-er;das Drehbuch;script;сценарій;Das <b style="color: #eab308;">Drehbuch</b> für das neue Erklärvideo zur Software-Installation ist fertig.;B1plus Thema4
+<span style="color: #00d2ff; font-weight: bold;">der</span> Entwurf, "-e;der Entwurf;draft;чернетка, проект;Der erste <b style="color: #eab308;">Entwurf</b> des Datenbank-Schemas muss noch vom Senior-Developer geprüft werden.;B1plus Thema4
+<span style="color: #ef4444; font-weight: bold;">die</span> Kampagne, -n;die Kampagne;campaign;кампанія;Unsere Marketing-Abteilung plant eine große <b style="color: #eab308;">Kampagne</b> für das neue SaaS-Produkt.;B1plus Thema4
+<span style="color: #ef4444; font-weight: bold;">die</span> Kosmetikserie, -n;die Kosmetikserie;cosmetics line;серія косметики;Wir entwickeln einen intelligenten Onlineshop für eine neue <b style="color: #eab308;">Kosmetikserie</b>.;B1plus Thema4
+<span style="color: #22c55e; font-weight: bold;">das</span> Printmedium, -medien;das Printmedium;print medium;друковане видання;In diesem <b style="color: #eab308;">Printmedium</b> wurde ein Artikel über unsere innovative App veröffentlicht.;B1plus Thema4
+relevant;relevant;relevant;важливий, релевантний;Diese Bibliotheken sind für unser aktuelles Projekt nicht <b style="color: #eab308;">relevant</b>.;B1plus Thema4
+<span style="color: #00d2ff; font-weight: bold;">der</span> Senior Manager, - / die Senior Managerin, -nen;der Senior Manager;senior manager;старший менеджер/-ка;Der Senior <b style="color: #eab308;">Manager</b> für Cloud-Operations hat das neue Sicherheitskonzept genehmigt.;B1plus Thema4
+<span style="color: #00d2ff; font-weight: bold;">der</span> Werbefilm, -e;der Werbefilm;commercial;рекламний ролик;Der <b style="color: #eab308;">Werbefilm</b> für unsere mobile Anwendung wird auf YouTube geschaltet.;B1plus Thema4
+<span style="color: #ef4444; font-weight: bold;">die</span> Werbekampagne, -n;die Werbekampagne;advertising campaign;рекламна кампанія;Unsere neue <b style="color: #eab308;">Werbekampagne</b> konzentriert sich auf die Vorteile von Open-Source-Software.;B1plus Thema4
+<span style="color: #ef4444; font-weight: bold;">die</span> Abmahnung, -en;die Abmahnung;written warning;попередження (догана);Eine <b style="color: #eab308;">Abmahnung</b> wegen Verletzung der IT-Sicherheitsrichtlinien ist sehr ernst zu nehmen.;B1plus Thema4
+<span style="color: #22c55e; font-weight: bold;">das</span> Arbeitsgericht, -e;das Arbeitsgericht;labor court;трудовий суд;Der Streit um die Überstundenvergütung wird nun vor dem <b style="color: #eab308;">Arbeitsgericht</b> geklärt.;B1plus Thema4
+<span style="color: #00d2ff; font-weight: bold;">der</span> Betriebsrat, "-e;der Betriebsrat;works council;виробнича рада (профспілка);Der <b style="color: #eab308;">Betriebsrat</b> hat der Einführung der neuen Remote-Monitoring-Software zugestimmt.;B1plus Thema4
+<span style="color: #ef4444; font-weight: bold;">die</span> Betriebsfeier, -n;die Betriebsfeier;company party;корпоратив;Auf der <b style="color: #eab308;">Betriebsfeier</b> haben wir den erfolgreichen Release unserer Plattform gefeiert.;B1plus Thema4
+dokumentieren (dokumentiert, dokumentierte, hat dokumentiert);dokumentieren;to document;документувати;Gute Entwickler <b style="color: #eab308;">dokumentieren</b> ihren Code immer sorgfältig in Javadoc oder Swagger.;B1plus Thema4
+<span style="color: #00d2ff; font-weight: bold;">der</span> Heizungstechniker, - / die Heizungstechnikerin, -nen;der Heizungstechniker;heating technician;майстер/-иня з опалення;<b style="color: #eab308;">Heizungstechniker</b> wartet auch die Klimaanlage in unserem Serverraum.;B1plus Thema4
+<span style="color: #ef4444; font-weight: bold;">die</span> Hilfe, -n;die Hilfe;help;допомога;Ich benötige <b style="color: #eab308;">Hilfe</b> beim Konfigurieren des lokalen Kubernetes-Clusters.;B1plus Thema4
+um Hilfe bitten;um Hilfe bitten;to ask for help;просити про допомогу;Bei komplexen Architekturfragen sollte man immer das Core-Team um Hilfe <b style="color: #eab308;">bitten</b>.;B1plus Thema4
+<span style="color: #22c55e; font-weight: bold;">das</span> Zuspätkommen (Sg.);das Zuspätkommen;being late;запізнення;Sein häufiges <b style="color: #eab308;">Zuspätkommen</b> zu den Daily Scrums sorgt für Ärger im Team.;B1plus Thema4
+<span style="color: #22c55e; font-weight: bold;">das</span> Verständnis (Sg.);das Verständnis;understanding;розуміння;Danke für Ihr <b style="color: #eab308;">Verständnis</b> bezüglich der kurzen Downtime heute Morgen.;B1plus Thema4
+verärgert sein über (+ Akk.);verärgert sein über;to be annoyed about;бути роздратованим через;Der Product Owner ist verärgert <b style="color: #eab308;">über</b> die mangelnde Code-Qualität.;B1plus Thema4
+abhängig sein von (+ Dat.);abhängig sein von;to be dependent on;бути залежним від;Der Erfolg des Deployments ist von der Stabilität der Datenbank abhängig.;B1plus Thema5
+<span style="color: #ef4444; font-weight: bold;">die</span> Beratung, -en;die Beratung;advice, consulting;консультація;Wir bieten eine technische <b style="color: #eab308;">Beratung</b> zur Migration auf eine Microservices-Architektur an.;B1plus Thema5
+Geld ausgeben für (+ Akk.) (gibt aus, gab aus, hat ausgegeben);Geld ausgeben für;to spend money on;витрачати гроші на;Unternehmen sollten mehr Geld <b style="color: #eab308;">für</b> moderne IT-Sicherheit ausgeben.;B1plus Thema5
+<span style="color: #ef4444; font-weight: bold;">die</span> Lieferzeit, -en;die Lieferzeit;delivery time;час доставки;Die <b style="color: #eab308;">Lieferzeit</b> für die neuen High-End-Grafikkarten beträgt momentan drei Wochen.;B1plus Thema5
+<span style="color: #ef4444; font-weight: bold;">die</span> Öffnungszeit, -en;die Öffnungszeit;opening time;години роботи;Der IT-Support hat feste <b style="color: #eab308;">Öffnungszeiten</b>, ist aber für Notfälle rund um die Uhr erreichbar.;B1plus Thema5
+<span style="color: #00d2ff; font-weight: bold;">der</span> Online-Einkauf, "-e;der Online-Einkauf;online shopping;онлайн-покупки;Wir haben das Backend für einen großen <b style="color: #eab308;">Online-Einkauf</b>-Marktplatz entwickelt.;B1plus Thema5
+<span style="color: #ef4444; font-weight: bold;">die</span> Qualität, -en;die Qualität;quality;якість;Die <b style="color: #eab308;">Qualität</b> der Software wird durch kontinuierliche Code-Reviews sichergestellt.;B1plus Thema5
+vorsichtig;vorsichtig;careful;обережний;Sei <b style="color: #eab308;">vorsichtig</b>, wenn du Änderungen direkt an der Produktions-Datenbank vornimmst!;B1plus Thema5
+<span style="color: #ef4444; font-weight: bold;">die</span> Ware, -n;die Ware;goods, merchandise;товар;Unsere Software verfolgt jede einzelne <b style="color: #eab308;">Ware</b> im Lager in Echtzeit.;B1plus Thema5
+<span style="color: #00d2ff; font-weight: bold;">der</span> Absatz, "-e;der Absatz;sales, turnover;збут, продажі;Der <b style="color: #eab308;">Absatz</b> unserer neuen Software-Lizenzen ist im letzten Quartal stark gestiegen.;B1plus Thema5
+<span style="color: #ef4444; font-weight: bold;">die</span> (technische) Anlage, -n;die Anlage;technical system / equipment;технічна установка;Die gesamte technische <b style="color: #eab308;">Anlage</b> des Rechenzentrums wird zentral überwacht.;B1plus Thema5
+eine Anlage warten (wartet, wartete, hat gewartet);eine Anlage warten;to maintain a system;обслуговувати установку;Einmal im Monat muss ein Techniker die Klimaanlage im Serverraum <b style="color: #eab308;">warten</b>.;B1plus Thema5
+jdn./etw. beobachten (beobachtet, beobachtete, hat beobachtet);jdn.;to observe;спостерігати;Wir beobachten die Server-Last genau, um Engpässe frühzeitig zu erkennen.;B1plus Thema5
+<span style="color: #00d2ff; font-weight: bold;">der</span> Einzelhandel (Sg.);der Einzelhandel;retail;роздрібна торгівля;Der <b style="color: #eab308;">Einzelhandel</b> nutzt immer mehr IT-Lösungen für das Bestandsmanagement.;B1plus Thema5
+<span style="color: #00d2ff; font-weight: bold;">der</span> Endkunde, -n / die Endkundin, -nen;der Endkunde;end customer;кінцевий споживач/-ка;Unsere App wird vom <b style="color: #eab308;">Endkunden</b> direkt im App Store heruntergeladen.;B1plus Thema5
+etw. entwickeln (entwickelt, entwickelte, hat entwickelt);entwickeln;to develop;розробляти;Wir <b style="color: #eab308;">entwickeln</b> ein neues Framework for performante Webanwendungen.;B1plus Thema5
+<span style="color: #ef4444; font-weight: bold;">die</span> Forschung und Entwicklung (Sg.);die Forschung und Entwicklung;research and development (R&D);дослідження та розробка;Die Abteilung für Forschung und <b style="color: #eab308;">Entwicklung</b> arbeitet an Quantencomputer-Algorithmen.;B1plus Thema5
+<span style="color: #00d2ff; font-weight: bold;">der</span> Großhandel (Sg.);der Großhandel;wholesale;гуртова торгівля;Unser ERP-System optimiert die Lieferketten für den internationalen <b style="color: #eab308;">Großhandel</b>.;B1plus Thema5
+<span style="color: #00d2ff; font-weight: bold;">der</span> Handel (Sg.);der Handel;trade, commerce;торгівля;Der elektronische <b style="color: #eab308;">Handel</b> erfordert eine sichere Zahlungsabwicklung.;B1plus Thema5
+her|stellen (stellt her, stellte her, hat hergestellt);her|stellen;to produce, to manufacture;виробляти;Die Firma plant, ihre eigenen ARM-basierten Prozessoren herzustellen.;B1plus Thema5
+<span style="color: #ef4444; font-weight: bold;">die</span> Herstellung (Sg.);die Herstellung;manufacturing;виробництво;Die <b style="color: #eab308;">Herstellung</b> von Halbleitern erfordert extrem saubere Umgebungen.;B1plus Thema5
+etw. liefern (liefert, lieferte, hat geliefert);liefern;to deliver;доставляти;Der Paketbote wird die neuen Laptops heute Nachmittag <b style="color: #eab308;">liefern</b>.;B1plus Thema5
+<span style="color: #00d2ff; font-weight: bold;">der</span> Lieferschein, -e;der Lieferschein;delivery note;накладна;Bitte scannen Sie den <b style="color: #eab308;">Lieferschein</b> für die neue Hardware direkt ein.;B1plus Thema5
+Lieferscheine aus|stellen (stellt aus, stellte aus, hat ausgestellt);Lieferscheine aus|stellen;to issue delivery notes;виписувати накладні;Das System kann automatisch Lieferscheine als PDF-Datei <b style="color: #eab308;">ausstellen</b>.;B1plus Thema5
+<span style="color: #ef4444; font-weight: bold;">die</span> Lieferung, -en;die Lieferung;delivery;доставка;Die <b style="color: #eab308;">Lieferung</b> der neuen Server-Racks wurde für morgen bestätigt.;B1plus Thema5
+<span style="color: #00d2ff; font-weight: bold;">der</span> Markt, "-e;der Markt;market;ринок;Wir müssen den <b style="color: #eab308;">Markt</b> für Cloud-Computing-Dienste genau beobachten.;B1plus Thema5
+<span style="color: #22c55e; font-weight: bold;">das</span> Maß, -e;das Maß;measure, dimension;міра, розмір;Wir brauchen die genauen <b style="color: #eab308;">Maße</b> der Switch-Gehäuse für den Einbau im Rack.;B1plus Thema5
+<span style="color: #ef4444; font-weight: bold;">die</span> Menge, -n;die Menge;quantity, amount;кількість;Eine riesige <b style="color: #eab308;">Menge</b> an Daten wird täglich durch unsere KI verarbeitet.;B1plus Thema5
+etw. montieren (montiert, montierte, hat montiert);montieren;to assemble, to install;монтувати;Wir müssen heute noch die neuen Access-Points im Büro <b style="color: #eab308;">montieren</b>.;B1plus Thema5
+<span style="color: #ef4444; font-weight: bold;">die</span> Produktion, -en;die Produktion;production;виробництво;Ein Softwarefehler führte zum kompletten Stillstand der <b style="color: #eab308;">Produktion</b>.;B1plus Thema5
+<span style="color: #ef4444; font-weight: bold;">die</span> Rechnung, -en;die Rechnung;invoice, bill;рахунок;Die <b style="color: #eab308;">Rechnung</b> für das Azure-Abonnement wird automatisch per Lastschrift bezahlt.;B1plus Thema5
+<span style="color: #ef4444; font-weight: bold;">die</span> Spedition, -en;die Spedition;shipping company;експедиторська компанія;Die <b style="color: #eab308;">Spedition</b> hat die Paletten mit der neuen Hardware am Hafen abgeholt.;B1plus Thema5
+<span style="color: #00d2ff; font-weight: bold;">der</span> Transport, -e;der Transport;transport;транспорт;Der <b style="color: #eab308;">Transport</b> verschlüsselter Daten muss über eine sichere Verbindung erfolgen.;B1plus Thema5
+<span style="color: #ef4444; font-weight: bold;">die</span> Verpackung, -en;die Verpackung;packaging;упаковка;Die <b style="color: #eab308;">Verpackung</b> des neuen Macs ist sehr hochwertig und umweltfreundlich gestaltet.;B1plus Thema5
+<span style="color: #00d2ff; font-weight: bold;">der</span> Versand (Sg.);der Versand;shipping, dispatch;відправка;Nach dem QA-Check erfolgt der <b style="color: #eab308;">Versand</b> der Hardware an den Kunden.;B1plus Thema5
+<span style="color: #00d2ff; font-weight: bold;">der</span> Vertrieb (Sg.);der Vertrieb;sales, distribution;відділ збуту;Unser <b style="color: #eab308;">Vertrieb</b> nutzt ein CRM-System zur Verwaltung der Kundenkontakte.;B1plus Thema5
+<span style="color: #00d2ff; font-weight: bold;">der</span> Zwischenhändler, -;der Zwischenhändler;middleman, reseller;посередник;Händler kaufen die Laptops oft bei einem spezialisierten IT-<b style="color: #eab308;">Zwischenhändler</b>.;B1plus Thema5
+etw. analysieren;analysieren;to analyze;аналізувати;Wir müssen den Netzwerk-Traffic <b style="color: #eab308;">analysieren</b>, um das Problem zu finden.;B1plus Thema5
+etw. bearbeiten (bearbeitet, bearbeitete, hat bearbeitet);bearbeiten;to process, to edit;обробляти;Ich muss den Pull-Request meines Kollegen heute noch <b style="color: #eab308;">bearbeiten</b>.;B1plus Thema5
+jdn./etw. befördern (befördert, beförderte, hat befördert);jdn.;to promote, to transport;підвищувати (на посаді), перевозити;Er wurde zum Leiter der Softwareentwicklung befördert.;B1plus Thema5
+jdn./etw. betreuen (betreut, betreute, hat betreut);jdn.;to support, to manage;обслуговувати, супроводжувати;Unser Support-Team betreut Kunden bei technischen Problemen mit der App.;B1plus Thema5
+<span style="color: #ef4444; font-weight: bold;">die</span> Branche, -n;die Branche;industry, sector;галузь;In der Tech-<b style="color: #eab308;">Branche</b> ist lebenslanges Lernen absolut notwendig.;B1plus Thema5
+etw. entwickeln;entwickeln;to develop;розробляти;Wir <b style="color: #eab308;">entwickeln</b> eine innovative Lösung zur automatischen Code-Generierung.;B1plus Thema5
+<span style="color: #ef4444; font-weight: bold;">die</span> Gastronomie (Sg.);die Gastronomie;gastronomy, catering;гастрономія;Die <b style="color: #eab308;">Gastronomie</b> nutzt immer häufiger digitale Kassensysteme mit Cloud-Anbindung.;B1plus Thema5
+etw. gestalten (gestaltet, gestaltete, hat gestaltet);gestalten;to design, to shape;оформляти, організовувати;Ein UX-Designer hilft uns dabei, die Website benutzerfreundlich zu <b style="color: #eab308;">gestalten</b>.;B1plus Thema5
+<span style="color: #22c55e; font-weight: bold;">das</span> Handwerk (Sg.);das Handwerk;craft, trade;ремесло;Gutes Software-Engineering wird oft als modernes digitales <b style="color: #eab308;">Handwerk</b> bezeichnet.;B1plus Thema5
+<span style="color: #ef4444; font-weight: bold;">die</span> IT-Branche (Sg.);die IT-Branche;IT industry;ІТ-галузь;Die <b style="color: #eab308;">IT-Branche</b> ist einer der wichtigsten Arbeitgeber in Deutschland.;B1plus Thema5
+etw. konstruieren (konstruiert, konstruierte, hat konstruiert);konstruieren;to construct, to design;конструювати;Wir <b style="color: #eab308;">konstruieren</b> ein neues Gehäuse for unsere IoT-Geräte.;B1plus Thema5
+etw. kontrollieren (kontrolliert, kontrollierte, hat kontrolliert);kontrollieren;to control, to check;контролювати;Der Administrator muss die Zugriffsrechte der Benutzer regelmäßig <b style="color: #eab308;">kontrollieren</b>.;B1plus Thema5
+Kunden bedienen (bedient, bediente, hat bedient);Kunden bedienen;to serve customers;обслуговувати клієнтів;Unsere Web-Server <b style="color: #eab308;">bedienen</b> gleichzeitig Tausende von Anfragen pro Sekunde.;B1plus Thema5
+<span style="color: #00d2ff; font-weight: bold;">der</span> Kundenberater, - / die Kundenberaterin, -nen;der Kundenberater;customer advisor;консультант/-ка клієнтів;Der technische <b style="color: #eab308;">Kundenberater</b> erklärt die Vorteile unserer API.;B1plus Thema5
+<span style="color: #22c55e; font-weight: bold;">das</span> Labor, -e;das Labor;laboratory;лабораторія;Im Hardware-<b style="color: #eab308;">Labor</b> werden neue Prozessoren unter Extrembedingungen getestet.;B1plus Thema5
+<span style="color: #00d2ff; font-weight: bold;">der</span> Lagerist, -en / die Lageristin, -nen;der Lagerist;warehouse clerk;працівник/-ця складу;Der <b style="color: #eab308;">Lagerist</b> nutzt einen Handscanner, der direkt mit der Datenbank verbunden ist.;B1plus Thema5
+<span style="color: #00d2ff; font-weight: bold;">der</span> Tierpfleger, - / die Tierpflegerin, -nen;der Tierpfleger;animal keeper;доглядач/-ка за тваринами;Der <b style="color: #eab308;">Tierpfleger</b> nutzt ein Tablet, um die Gesundheitsdaten der Tiere zu erfassen.;B1plus Thema5
+Transport und Logistik (Sg.);Transport und Logistik;transport and logistics;транспорт і логістика;In den Bereichen Transport und <b style="color: #eab308;">Logistik</b> spielt die Routenoptimierung durch KI eine große Rolle.;B1plus Thema5
+<span style="color: #00d2ff; font-weight: bold;">der</span> Vertriebsweg, -e;der Vertriebsweg;distribution channel;канал збуту;Der direkte Download über unsere Website ist unser effektivster <b style="color: #eab308;">Vertriebsweg</b>.;B1plus Thema5
+Waren bestellen (bestellt, bestellte, hat bestellt);Waren bestellen;to order goods;замовляти товари;Wir müssen neue RAM-Riegel for das Server-Upgrade <b style="color: #eab308;">bestellen</b>.;B1plus Thema5
+Wissenschaft und Forschung (Sg.);Wissenschaft und Forschung;science and research;наука та дослідження;Viel Geld aus der Tech-Branche fließt in moderne Wissenschaft und <b style="color: #eab308;">Forschung</b>.;B1plus Thema5
+etw. zu|bereiten (bereitet zu, bereitete zu, hat zubereitet);zu|bereiten;to prepare (food);готувати (їжу);Dank Smart-Home-Technik kann ich meinen Kaffee schon vom Computer aus <b style="color: #eab308;">zubereiten</b>.;B1plus Thema5
+etw. zu|stellen (stellt zu, stellte zu, hat zugestellt);zu|stellen;to deliver, to serve;доставляти;Die E-Mail mit dem Bestätigungs-Code konnte leider nicht zugestellt werden.;B1plus Thema5
+<span style="color: #ef4444; font-weight: bold;">die</span> Bequemlichkeit, -en;die Bequemlichkeit;convenience;зручність;Viele Nutzer schätzen die <b style="color: #eab308;">Bequemlichkeit</b> von Single-Sign-On-Verfahren.;B1plus Thema5
+<span style="color: #00d2ff; font-weight: bold;">der</span> CO2-Ausstoß (Sg.);der CO2-Ausstoß;CO2 emission;викид CO2;Der <b style="color: #eab308;">CO2-Ausstoß</b> von großen Rechenzentren ist ein wichtiges Thema in der Green-IT.;B1plus Thema5
+<span style="color: #00d2ff; font-weight: bold;">der</span> Händler, - / die Händlerin, -nen;der Händler;dealer, vendor;торговець/-ка;Ein autorisierter <b style="color: #eab308;">Händler</b> bietet speziellen Support für unsere Firmen-Laptops an.;B1plus Thema5
+<span style="color: #ef4444; font-weight: bold;">die</span> Lagerhalle, -n;die Lagerhalle;warehouse;складська будівля;In der neuen <b style="color: #eab308;">Lagerhalle</b> werden die Server-Racks für den Versand vorbereitet.;B1plus Thema5
+<span style="color: #ef4444; font-weight: bold;">die</span> Online-Plattform, -en;die Online-Plattform;online platform;онлайн-платформа;Wir entwickeln eine neue <b style="color: #eab308;">Online-Plattform</b> für das Projektmanagement.;B1plus Thema5
+<span style="color: #00d2ff; font-weight: bold;">der</span> Sonderwunsch, "-e;der Sonderwunsch;special request;особливе побажання;Haben Sie bezüglich der Konfiguration Ihres neuen PCs noch einen <b style="color: #eab308;">Sonderwunsch</b>?;B1plus Thema5
+etw. aktivieren (aktiviert, aktivierte, hat aktiviert);aktivieren;to activate;активувати;Nach der Installation müssen Sie das Plugin im WordPress-Backend noch <b style="color: #eab308;">aktivieren</b>.;B1plus Thema6
+<span style="color: #00d2ff; font-weight: bold;">der</span> Anbieter, - / die Anbieterin, -nen;der Anbieter;provider;провайдер/-ка;Welcher <b style="color: #eab308;">Anbieter</b> hat aktuell die beste Performance für Cloud-Hosting?;B1plus Thema6
+etw. auf|laden (lädt auf, lud auf, hat aufgeladen);auf|laden;to top up, to charge;заряджати, поповнювати (рахунок);Ich muss den Akku meines Firmen-Laptops <b style="color: #eab308;">aufladen</b>, bevor das Meeting beginnt.;B1plus Thema6
+sich beraten lassen (lässt sich beraten, ließ sich beraten, hat sich beraten lassen);sich beraten lassen;to get advice;отримати консультацію;Wir <b style="color: #eab308;">lassen</b> uns von einem Experten bezüglich der DSGVO-Konformität unserer App beraten.;B1plus Thema6
+sich beschweren (beschwert sich, beschwerte sich, hat sich beschwert);sich beschweren;to complain;скаржитися;Der Nutzer hat sich im Support-Forum über die langsame Ladezeit der Webseite <b style="color: #eab308;">beschwert</b>.;B1plus Thema6
+<span style="color: #ef4444; font-weight: bold;">die</span> Bestellung, -en;die Bestellung;order;замовлення;Wir haben eine <b style="color: #eab308;">Bestellung</b> für drei neue Workstations beim IT-Händler aufgegeben.;B1plus Thema6
+<span style="color: #22c55e; font-weight: bold;">das</span> Datenvolumen, -;das Datenvolumen;data volume;обсяг даних;Durch die Bildkompression konnten wir das übertragene <b style="color: #eab308;">Datenvolumen</b> deutlich reduzieren.;B1plus Thema6
+etw. ein|geben (gibt ein, gab ein, hat eingegeben);ein|geben;to enter (data);вводити (дані);Bitte geben Sie Ihren API-Key in das Konfigurationsfeld ein.;B1plus Thema6
+etw. ein|legen (legt ein, legte ein, hat eingelegt);ein|legen;to insert;вставляти;Um den Server zu booten, müssen Sie zuerst den bootfähigen USB-Stick <b style="color: #eab308;">einlegen</b>.;B1plus Thema6
+einmalig;einmalig;one-time;одноразовий;Die Kosten für die Software-Lizenz fallen nur <b style="color: #eab308;">einmalig</b> an.;B1plus Thema6
+<span style="color: #00d2ff; font-weight: bold;">der</span> Einsteiger, - / die Einsteigerin, -nen;der Einsteiger;beginner;початківець/-иця;Diese Programmiersprache ist auch für <b style="color: #eab308;">Einsteiger</b> ohne Vorkenntnisse leicht zu erlernen.;B1plus Thema6
+etw. entgegen|nehmen (nimmt entgegen, nahm entgegen, hat entgegengenommen);entgegen|nehmen;to receive, to accept;приймати;Der Webserver kann gleichzeitig Tausende von HTTP-Anfragen <b style="color: #eab308;">entgegennehmen</b>.;B1plus Thema6
+<span style="color: #22c55e; font-weight: bold;">das</span> Festnetz (Sg.);das Festnetz;landline;стаціонарна мережа;In unserem Büro nutzen wir Voice-over-IP anstelle des klassischen <b style="color: #eab308;">Festnetzes</b>.;B1plus Thema6
+etw. frei|schalten (schaltet frei, schaltete frei, hat freigeschaltet);frei|schalten;to unlock, to activate;активувати, розблокувати;Der Administrator kann deinen Zugang zum VPN-Server erst morgen <b style="color: #eab308;">freischalten</b>.;B1plus Thema6
+<span style="color: #ef4444; font-weight: bold;">die</span> Grundgebühr, -en;die Grundgebühr;basic fee;абонентська плата;In der monatlichen <b style="color: #eab308;">Grundgebühr</b> für unser CRM-System ist der E-Mail-Support bereits enthalten.;B1plus Thema6
+gültig;gültig;valid;дійсний;Das SSL-Zertifikat für unsere Domain ist nur noch zwei Wochen <b style="color: #eab308;">gültig</b>.;B1plus Thema6
+günstig;günstig;cheap, favorable;вигідний, недешевий;Open-Source-Lösungen sind oft eine <b style="color: #eab308;">günstige</b> Alternative zu teurer kommerzieller Software.;B1plus Thema6
+<span style="color: #22c55e; font-weight: bold;">das</span> Guthaben, -;das Guthaben;credit;баланс (грошовий);Ihr <b style="color: #eab308;">Guthaben</b> für die Cloud-Ressourcen reicht noch für etwa drei Monate.;B1plus Thema6
+<span style="color: #00d2ff; font-weight: bold;">der</span> Handwerker, - / die Handwerkerin, -nen;der Handwerker;craftsman;майстер/-иня;In der Softwareentwicklung spricht man oft von "Software-Craftsmanship", ähnlich wie bei klassischen <b style="color: #eab308;">Handwerkern</b>.;B1plus Thema6
+inklusive;inklusive;inclusive;включно;Das neue Update ist <b style="color: #eab308;">inklusive</b> aller Sicherheits-Patches ab sofort verfügbar.;B1plus Thema6
+<span style="color: #ef4444; font-weight: bold;">die</span> Kontrolle, -n;die Kontrolle;control;контроль;Die Versionskontrolle mit Git ist für professionelle Softwareentwicklung unerlässlich.;B1plus Thema6
+<span style="color: #00d2ff; font-weight: bold;">der</span> Lieferservice, -s;der Lieferservice;delivery service;служба доставки;Wir entwickeln eine API für einen internationalen <b style="color: #eab308;">Lieferservice</b>.;B1plus Thema6
+<span style="color: #22c55e; font-weight: bold;">das</span> Netz, -e;das Netz;network;мережа;In unserem internen <b style="color: #eab308;">Netz</b> sind alle Datenbanken durch eine dedizierte Firewall geschützt.;B1plus Thema6
+optimal;optimal;optimal;оптимальний;Diese Datenbank-Struktur ist <b style="color: #eab308;">optimal</b> für schnelle Lesezugriffe geeignet.;B1plus Thema6
+profitieren von (+ Dat.) (profitiert, profitierte, hat profitiert);profitieren von;to profit from;отримувати вигоду;Unsere Anwendung profitiert stark von den neuen Funktionen des Frameworks.;B1plus Thema6
+etw. sperren (sperrt, sperrte, hat gesperrt);sperren;to block, to lock;блокувати;Nach drei falschen Passworteingaben wird das Benutzerkonto automatisch für eine Stunde gesperrt.;B1plus Thema6
+<span style="color: #00d2ff; font-weight: bold;">der</span> Tarif, -e;der Tarif;tariff;тариф;Wir haben uns für den Enterprise-<b style="color: #eab308;">Tarif</b> entschieden, um Zugriff auf alle Features zu erhalten.;B1plus Thema6
+etw. verschicken (verschickt, verschickte, hat verschickt);verschicken;to send;відправляти;Das System kann automatisch Benachrichtigungen per Webhook <b style="color: #eab308;">verschicken</b>.;B1plus Thema6
+<span style="color: #00d2ff; font-weight: bold;">der</span> Vertrag, "-e;der Vertrag;contract;контракт, договір;Wir haben einen Wartungsvertrag mit dem Server-Anbieter abgeschlossen.;B1plus Thema6
+<span style="color: #ef4444; font-weight: bold;">die</span> Vertragslaufzeit, -en;die Vertragslaufzeit;contract duration;термін дії договору;Die <b style="color: #eab308;">Vertragslaufzeit</b> für unsere Cloud-Infrastruktur beträgt mindestens zwölf Monate.;B1plus Thema6
+<span style="color: #22c55e; font-weight: bold;">das</span> Angebot, -e;das Angebot;offer;пропозиція;Das <b style="color: #eab308;">Angebot</b> für das Redesign unserer Website war sehr überzeugend.;B1plus Thema6
+<span style="color: #00d2ff; font-weight: bold;">der</span> Auftrag, "-e;der Auftrag;order, assignment;замовлення, доручення;Unser Team hat den <b style="color: #eab308;">Auftrag</b> erhalten, eine neue E-Commerce-Plattform zu bauen.;B1plus Thema6
+<span style="color: #00d2ff; font-weight: bold;">der</span> Ausdruck, -e;der Ausdruck;printout;роздруківка;Ich benötige einen <b style="color: #eab308;">Ausdruck</b> der API-Dokumentation für das Meeting.;B1plus Thema6
+sich binden an (+ Akk.) (bindet sich, band sich, hat sich gebunden);sich binden an;to commit oneself to;зв'язувати себе зобов'язаннями;Durch den Lizenzvertrag binden wir uns langfristig an diesen Software-Anbieter.;B1plus Thema6
+brutto;brutto;gross;брутто (без вирахування податків);Das <b style="color: #eab308;">Bruttogehalt</b> für diese Senior-Entwickler-Stelle ist sehr attraktiv.;B1plus Thema6
+einverstanden;einverstanden;agreed;згодний;Ich bin mit den vorgeschlagenen Änderungen am Code <b style="color: #eab308;">einverstanden</b>.;B1plus Thema6
+etw. empfehlen (empfiehlt, empfahl, hat empfohlen);empfehlen;to recommend;рекомендувати;Können Sie eine gute Bibliothek für die Einbindung von Diagrammen <b style="color: #eab308;">empfehlen</b>?;B1plus Thema6
+<span style="color: #ef4444; font-weight: bold;">die</span> Erledigung, -en;die Erledigung;completion;виконання;Vielen Dank für die schnelle <b style="color: #eab308;">Erledigung</b> des Bug-Reports.;B1plus Thema6
+etw. erteilen (z.B. einen Auftrag) (erteilt, erteilte, hat erteilt);erteilen;to grant, to give;надавати, видавати (доручення);Die Geschäftsführung wird heute die Freigabe for das Projekt <b style="color: #eab308;">erteilen</b>.;B1plus Thema6
+<span style="color: #00d2ff; font-weight: bold;">der</span> Grund, "-e;der Grund;reason;причина;Der <b style="color: #eab308;">Grund</b> für den Systemausfall war eine Fehlkonfiguration des Load-Balancers.;B1plus Thema6
+<span style="color: #ef4444; font-weight: bold;">die</span> Mehrwertsteuer (Sg.);die Mehrwertsteuer;value added tax (VAT);ПДВ (податок на додану вартість);Die Cloud-Gebühren werden monatlich zuzüglich der gesetzlichen <b style="color: #eab308;">Mehrwertsteuer</b> abgerechnet.;B1plus Thema6
+netto;netto;net;нетто (після податків);In der Preisliste sind alle Beträge als <b style="color: #eab308;">Netto</b>-Preise angegeben.;B1plus Thema6
+sorgfältig;sorgfältig;carefully;ретельно;Bitte prüfen Sie den Code <b style="color: #eab308;">sorgfältig</b> auf mögliche Sicherheitslücken.;B1plus Thema6
+<span style="color: #ef4444; font-weight: bold;">die</span> Summe, -n;die Summe;sum, total;сума;Die Gesamtsumme der Lizenzen übersteigt leider unser geplantes Budget.;B1plus Thema6
+<span style="color: #ef4444; font-weight: bold;">die</span> Unterschrift, -en;die Unterschrift;signature;підпис;Für die digitale Signatur wird keine physische <b style="color: #eab308;">Unterschrift</b> mehr benötigt.;B1plus Thema6
+zahlbar;zahlbar;payable;до оплати;Der Rechnungsbetrag für das Hosting ist sofort nach Rechnungsstellung <b style="color: #eab308;">zahlbar</b>.;B1plus Thema6
+zuverlässig;zuverlässig;reliable;надійний;Dieser Backup-Dienst arbeitet sehr <b style="color: #eab308;">zuverlässig</b> im Hintergrund.;B1plus Thema6
+<span style="color: #00d2ff; font-weight: bold;">der</span> Ärger (Sg.);der Ärger;anger, trouble;неприємність, гнів;Wir hatten viel <b style="color: #eab308;">Ärger</b> mit dem instabilen WLAN-Router im Büro.;B1plus Thema6
+<span style="color: #00d2ff; font-weight: bold;">der</span> Artikel, -;der Artikel;article;стаття, товар;Ich habe einen interessanten <b style="color: #eab308;">Artikel</b> über Microservices auf Medium gelesen.;B1plus Thema6
+beschädigt;beschädigt;damaged;пошкоджений;Die Festplatte war beim Transport leider so stark <b style="color: #eab308;">beschädigt</b>, dass kein Datenzugriff mehr möglich war.;B1plus Thema6
+<span style="color: #ef4444; font-weight: bold;">die</span> Beschwerde, -n;die Beschwerde;complaint;скарга;Nach dem fehlerhaften Update gab es zahlreiche <b style="color: #eab308;">Beschwerden</b> von unseren Nutzern.;B1plus Thema6
+defekt;defekt;defective;несправний;Der Controller ist <b style="color: #eab308;">defekt</b> und muss ausgetauscht werden.;B1plus Thema6
+dreckig;dreckig;dirty;брудний;Der Sensor der optischen Maus ist <b style="color: #eab308;">dreckig</b> und muss gereinigt werden.;B1plus Thema6
+<span style="color: #00d2ff; font-weight: bold;">der</span> Fleck, -en;der Fleck;stain;пляма;Auf dem Gehäuse des neuen Servers ist ein kleiner <b style="color: #eab308;">Fleck</b>, was aber die Funktion nicht beeinträchtigt.;B1plus Thema6
+<span style="color: #00d2ff; font-weight: bold;">der</span> Mangel, -;der Mangel;defect, lack;недолік;Die Dokumentation weist leider erhebliche Mängel auf.;B1plus Thema6
+peinlich;peinlich;embarrassing;соромно;Es war mir <b style="color: #eab308;">peinlich</b>, dass ich den falschen Link in der E-Mail verschickt habe.;B1plus Thema6
+<span style="color: #ef4444; font-weight: bold;">die</span> Reklamation, -en;die Reklamation;reclamation, claim;рекламація, претензія;Die <b style="color: #eab308;">Reklamation</b> der fehlerhaften Hardware wurde vom Support-Team sofort bearbeitet.;B1plus Thema6
+unvollständig;unvollständig;incomplete;неповний;Die API-Antwort ist <b style="color: #eab308;">unvollständig</b>, da das Timeout-Limit erreicht wurde.;B1plus Thema6
+<span style="color: #00d2ff; font-weight: bold;">der</span> Vorschlag, "-e;der Vorschlag;suggestion;пропозиція;Mein <b style="color: #eab308;">Vorschlag</b> ist, die Datenbank-Abfragen mithilfe von Caching zu optimieren.;B1plus Thema6
+etw. zerbrechen (zerbricht, zerbrach, hat zerbrochen);zerbrechen;to break;розбивати;Vorsicht, das Glaspanel des Computergehäuses kann leicht <b style="color: #eab308;">zerbrechen</b>.;B1plus Thema6
+etw. zerkratzen (zerkratzt, zerkratzte, hat zerkratzt);zerkratzen;to scratch;подряпати;Verwenden Sie nur weiche Tücher, um das Display nicht zu <b style="color: #eab308;">zerkratzen</b>.;B1plus Thema6
+etw. zerreißen (zerriss, hat zerrissen);zerreißen;to tear;розривати;Der Systemadministrator hat das alte Fehlerprotokoll <b style="color: #eab308;">zerrissen</b>.;B1plus Thema6
+jdn. ausreden lassen;ausreden lassen;to let someone finish speaking;давати комусь договорити;<b style="color: #eab308;">Lass</b> den Product Owner bitte ausreden, bevor du deine technischen Bedenken äußerst.;B1plus Thema6
+<span style="color: #ef4444; font-weight: bold;">die</span> Bedeutung, -en;die Bedeutung;meaning;значення;Diese Fehlermeldung hat in diesem Kontext eine völlig neue <b style="color: #eab308;">Bedeutung</b>.;B1plus Thema6
+<span style="color: #ef4444; font-weight: bold;">die</span> Erwartung, -en;die Erwartung;expectation;очікування;Die Performance der neuen Grafikkarte hat unsere <b style="color: #eab308;">Erwartungen</b> weit übertroffen.;B1plus Thema6
+etw. klären (klärt, klärte, hat geklärt);klären;to clarify;з'ясовувати;Wir müssen im nächsten Meeting <b style="color: #eab308;">klären</b>, welches Framework wir for das Backend nutzen wollen.;B1plus Thema6
+konkurrenzfähig;konkurrenzfähig;competitive;конкурентоспроможний;Um <b style="color: #eab308;">konkurrenzfähig</b> zu bleiben, müssen wir die Ladezeit unserer App halbieren.;B1plus Thema6
+sich etw. leisten können (kann sich leisten, konnte sich leisten, hat sich leisten können);sich etw. leisten können;to be able to afford;могти собі дозволити;Dank der neuen Finanzierung <b style="color: #eab308;">können</b> wir uns zwei zusätzliche Senior-Entwickler leisten.;B1plus Thema6
+einen Preisnachlass gewähren (gewährt, gewährte, hat gewährt);einen Preisnachlass gewähren;to grant a discount;надавати знижку;Da wir eine große Menge an Lizenzen kaufen, <b style="color: #eab308;">gewährt</b> uns der Anbieter einen Preisnachlass.;B1plus Thema6
+treu bleiben (bleibt treu, blieb treu, ist treu geblieben);treu bleiben;to stay loyal;залишатися вірним;Unsere Kunden <b style="color: #eab308;">bleiben</b> unserem Service treu, weil wir regelmäßig neue Features liefern.;B1plus Thema6
+unzufrieden;unzufrieden;dissatisfied;незадоволений;Das Team ist <b style="color: #eab308;">unzufrieden</b> mit der Qualität der aktuellen Dokumentation.;B1plus Thema6
+vereinbart;vereinbart;agreed;узгоджений;Die API liefert die Daten nun im <b style="color: #eab308;">vereinbarten</b> JSON-Format zurück.;B1plus Thema6
+sich etw. vor|stellen (stellt sich vor, stellte sich vor, hat sich vorgestellt);sich etw. vor|stellen;to imagine;уявляти;Können Sie sich <b style="color: #eab308;">vorstellen</b>, das gesamte System auf eine Serverless-Architektur umzustellen?;B1plus Thema6
+<span style="color: #00d2ff; font-weight: bold;">der</span> Alltag (Sg.);der Alltag;everyday life;будні, повсякденне життя;Der technische Wandel prägt unseren IT-Berufsalltag durch immer neue Frameworks.;B1plus Thema7
+<span style="color: #00d2ff; font-weight: bold;">der</span> Anschluss, "-e;der Anschluss;connection;підключення;Der neue Glasfaser-<b style="color: #eab308;">Anschluss</b> im Rechenzentrum ermöglicht deutlich höhere Upload-Raten.;B1plus Thema7
+<span style="color: #ef4444; font-weight: bold;">die</span> Anwendungsmöglichkeit, -en;die Anwendungsmöglichkeit;application possibility;можливість застосування;Die Docker-Technologie bietet vielfältige <b style="color: #eab308;">Anwendungsmöglichkeiten</b> für die Microservices-Bereitstellung.;B1plus Thema7
+<span style="color: #22c55e; font-weight: bold;">das</span> Display, -s;das Display;display, screen;дисплей, екран;Das 4K-<b style="color: #eab308;">Display</b> des neuen Laptops ist ideal für Grafikdesign und Coding geeignet.;B1plus Thema7
+einsatzbereit;einsatzbereit;ready for use;готовий до роботи;Die neue Staging-Umgebung ist ab sofort <b style="color: #eab308;">einsatzbereit</b> für die finalen Tests.;B1plus Thema7
+<span style="color: #22c55e; font-weight: bold;">das</span> Gerät, -e;das Gerät;device;пристрій;Jedes <b style="color: #eab308;">Gerät</b> im Netzwerk muss eine eindeutige IP-Adresse zugewiesen bekommen.;B1plus Thema7
+herunter|laden (lädt herunter, lud herunter, hat heruntergeladen);herunter|laden;to download;завантажувати;Bitte laden Sie sich die neueste Version von Git von der offiziellen Webseite <b style="color: #eab308;">herunter</b>.;B1plus Thema7
+etw. installieren (installiert, installierte, hat installiert);installieren;to install;інсталювати;Der Systemadministrator muss den Sicherheitspatch auf allen Servern gleichzeitig <b style="color: #eab308;">installieren</b>.;B1plus Thema7
+<span style="color: #22c55e; font-weight: bold;">das</span> Kommunikationsmittel, -;das Kommunikationsmittel;means of communication;засіб зв'язку;Slack ist in unserem Team das wichtigste <b style="color: #eab308;">Kommunikationsmittel</b> für den schnellen Austausch.;B1plus Thema7
+leistungsfähig;leistungsfähig;powerful, efficient;потужний, продуктивний;Dieser neue M3-Chip ist extrem <b style="color: #eab308;">leistungsfähig</b> für rechenintensive Kompiliervorgänge.;B1plus Thema7
+<span style="color: #00d2ff; font-weight: bold;">der</span> Mobilfunk (Sg.);der Mobilfunk;mobile communications;мобільний зв'язок;Dank 5G-<b style="color: #eab308;">Mobilfunk</b> können wir auch unterwegs problemlos an Video-Konferenzen teilnehmen.;B1plus Thema7
+multifunktional;multifunktional;multifunctional;багатофункціональний;Moderne IDEs sind <b style="color: #eab308;">multifunktional</b> und bieten neben dem Code-Editor auch Debugging-Tools.;B1plus Thema7
+<span style="color: #22c55e; font-weight: bold;">das</span> Navi, -s;das Navi;sat nav, navigation system;навігатор;Das <b style="color: #eab308;">Navi</b> nutzt Echtzeit-Daten aus der Cloud, um die beste Route zu berechnen.;B1plus Thema7
+<span style="color: #22c55e; font-weight: bold;">das</span> Navigationsgerät, -e;das Navigationsgerät;navigation device;навігатор;Die Firmware des <b style="color: #eab308;">Navigationsgeräts</b> muss regelmäßig über das Internet aktualisiert werden.;B1plus Thema7
+problemlos;problemlos;problem-free;без проблем;Die Migration der Datenbank von MySQL zu PostgreSQL verlief dank guter Vorbereitung <b style="color: #eab308;">problemlos</b>.;B1plus Thema7
+<span style="color: #22c55e; font-weight: bold;">das</span> Risiko, Risiken;das Risiko;risk;ризик;Das größte <b style="color: #eab308;">Risiko</b> bei diesem Projekt ist die Abhängigkeit von einer veralteten API.;B1plus Thema7
+sinken (sinkt, sank, ist gesunken);sinken;to sink, to decrease;падати, знижуватися;Die Kosten für Cloud-Speicherplatz sind im letzten Jahr kontinuierlich gesunken.;B1plus Thema7
+<span style="color: #ef4444; font-weight: bold;">die</span> Tastatur, -en;die Tastatur;keyboard;клавіатура;Mechanische <b style="color: #eab308;">Tastaturen</b> sind bei vielen Softwareentwicklern wegen des besseren Schreibgefühls sehr beliebt.;B1plus Thema7
+verfügbar;verfügbar;available;доступний;Der neue Endpunkt unserer REST-API ist ab sofort in der Dokumentation <b style="color: #eab308;">verfügbar</b>.;B1plus Thema7
+etw. weiterentwickeln (entwickelt weiter, entwickelte weiter, hat weiterentwickelt);weiterentwickeln;to develop further;розвивати далі;Wir müssen den Algorithmus zur Bilderkennung mithilfe von Machine Learning ständig <b style="color: #eab308;">weiterentwickeln</b>.;B1plus Thema7
+<span style="color: #ef4444; font-weight: bold;">die</span> Zukunft (Sg.);die Zukunft;future;майбутнє;Die <b style="color: #eab308;">Zukunft</b> der Webentwicklung liegt vermutlich in der Nutzung von WebAssembly.;B1plus Thema7
+in Zukunft;in Zukunft;in the future;у майбутньому;In <b style="color: #eab308;">Zukunft</b> wollen wir unsere Infrastruktur komplett auf "Infrastructure as Code" umstellen.;B1plus Thema7
+<span style="color: #ef4444; font-weight: bold;">die</span> Arbeit erleichtern (erleichtert, erleichterte, hat erleichtert);die Arbeit erleichtern;to make work easier;полегшувати роботу;Künstliche Intelligenz kann Entwicklern die Arbeit <b style="color: #eab308;">erleichtern</b>, indem sie Boilerplate-Code generiert.;B1plus Thema7
+<span style="color: #ef4444; font-weight: bold;">die</span> Daten (Pl.);die Daten;data;дані;Wir nutzen eine verschlüsselte SQL-<b style="color: #eab308;">Datenbank</b>, um die persönlichen Daten unserer Nutzer zu schützen.;B1plus Thema7
+Daten missbrauchen (missbraucht, missbrauchte, hat missbraucht);Daten missbrauchen;to misuse data;зловживати даними;Durch unzureichende Verschlüsselung könnten Cyberkriminelle sensible Kundendaten <b style="color: #eab308;">missbrauchen</b>.;B1plus Thema7
+nachteilig;nachteilig;disadvantageous;невигідний;Die Nutzung veralteter Bibliotheken kann sich <b style="color: #eab308;">nachteilig</b> auf die Sicherheit der gesamten App auswirken.;B1plus Thema7
+papierlos;papierlos;paperless;безпеперовий;Wir nutzen digitale Tools wie Jira und Confluence, um ein komplett <b style="color: #eab308;">papierloses</b> Projektmanagement zu ermöglichen.;B1plus Thema7
+<span style="color: #ef4444; font-weight: bold;">die</span> sozialen Netzwerke;die sozialen Netzwerke;social networks;соціальні мережі;Viele Unternehmen nutzen soziale <b style="color: #eab308;">Netzwerke</b> wie LinkedIn, um neue IT-Talente zu finden.;B1plus Thema7
+speichern (speichert, speicherte, hat gespeichert);speichern;to save;зберігати;Die Anwendung muss die Benutzereinstellungen lokal im LocalStorage des Browsers <b style="color: #eab308;">speichern</b>.;B1plus Thema7
+verzichten auf (+ Akk.) (verzichtet, verzichtete, hat verzichtet);verzichten auf;to do without;відмовлятися від;Kein modernes Unternehmen kann heute mehr auf eine eigene Webseite verzichten.;B1plus Thema7
+<span style="color: #ef4444; font-weight: bold;">die</span> Anforderung, -en;die Anforderung;requirement, demand;вимога;Die funktionalen <b style="color: #eab308;">Anforderungen</b> an das System wurden in einem Lastenheft genau dokumentiert.;B1plus Thema7
+<span style="color: #00d2ff; font-weight: bold;">der</span> Ausbildungsberuf, -e;der Ausbildungsberuf;recognized vocational profession;професія, що потребує спеціальної освіти;Fachinformatiker für Anwendungsentwicklung ist ein sehr gefragter <b style="color: #eab308;">Ausbildungsberuf</b>.;B1plus Thema7
+beeinflussen (beeinflusst, beeinflusste, hat beeinflusst);beeinflussen;to influence;впливати;Die Wahl des Betriebssystems <b style="color: #eab308;">beeinflusst</b> die Performance unserer Docker-Container massiv.;B1plus Thema7
+<span style="color: #ef4444; font-weight: bold;">die</span> Berufsaussicht, -en;die Berufsaussicht;career prospect;перспектива працевлаштування;Die <b style="color: #eab308;">Berufsaussichten</b> für Experten im Bereich Cyber-Security sind derzeit exzellent.;B1plus Thema7
+<span style="color: #ef4444; font-weight: bold;">die</span> Digitalisierung (Sg.);die Digitalisierung;digitization;цифровізація;Die <b style="color: #eab308;">Digitalisierung</b> interner Prozesse spart Unternehmen langfristig enorme Kosten.;B1plus Thema7
+<span style="color: #ef4444; font-weight: bold;">die</span> Eigenschaft, -en;die Eigenschaft;property, characteristic;властивість, якість;Die wichtigste <b style="color: #eab308;">Eigenschaft</b> eines guten Programmierers ist logisches Denkvermögen.;B1plus Thema7
+Erfolg haben;Erfolg haben;to have success;мати успіх;Wenn wir die User-Experience verbessern, werden wir mit unserer App sicher großen Erfolg <b style="color: #eab308;">haben</b>.;B1plus Thema7
+fächerübergreifend;fächerübergreifend;interdisciplinary;міждисциплінарний;Wir planen ein <b style="color: #eab308;">fächerübergreifendes</b> Projekt zwischen der Design-Abteilung und der IT.;B1plus Thema7
+<span style="color: #ef4444; font-weight: bold;">die</span> Gesprächs- und Verhandlungsführung (Sg.);die Gesprächs- und Verhandlungsführung;conversation and negotiation management;ведення переговорів;In dem Kurs man lernt, wie man die Gesprächs- und <b style="color: #eab308;">Verhandlungsführung</b> mit IT-Dienstleistern verbessert.;B1plus Thema7
+interkulturell;interkulturell;intercultural;міжкультурний;In globalen IT-Teams ist <b style="color: #eab308;">interkulturelle</b> Kompetenz für eine reibungslose Zusammenarbeit entscheidend.;B1plus Thema7
+<span style="color: #00d2ff; font-weight: bold;">der</span> IT-Systemkaufmann, -leute / die IT-Systemkauffrau, -en;der IT-Systemkaufmann;IT systems management assistant;фахівець/-чиня з продажів ІТ-систем;<b style="color: #eab308;">IT-Systemkaufleute</b> berechnen die Lizenzkosten für neue Unternehmenssoftware.;B1plus Thema7
+<span style="color: #ef4444; font-weight: bold;">die</span> Soft Skills (Pl.);die Soft Skills;soft skills;гнучкі навички;Neben technischem Fachwissen sind Soft <b style="color: #eab308;">Skills</b> wie Kommunikationsfähigkeit für Entwickler unverzichtbar.;B1plus Thema7
+teamfähig;teamfähig;able to work in a team;здатний працювати в команді;Wir suchen neue Senior-Entwickler, die nicht nur technisch brillant, sondern auch <b style="color: #eab308;">teamfähig</b> sind.;B1plus Thema7
+<span style="color: #ef4444; font-weight: bold;">die</span> Teamfähigkeit (Sg.);die Teamfähigkeit;ability to work in a team;вміння працювати в команді;<b style="color: #eab308;">Teamfähigkeit</b> ist in agilen Scrum-Teams eine absolute Grundvoraussetzung.;B1plus Thema7
+<span style="color: #ef4444; font-weight: bold;">die</span> Umfrage, -n;die Umfrage;survey, poll;опитування;Die Ergebnisse der <b style="color: #eab308;">Umfrage</b> unter den Beta-Testern zeigen eine hohe Zufriedenheit mit dem neuen Design.;B1plus Thema7
+Wert legen auf (+ Akk.) (legt, legte, hat gelegt);Wert legen auf;to attach importance to;надавати значення;Wir legen großen Wert auf eine saubere Code-Struktur und ausführliche Kommentare.;B1plus Thema7
+<span style="color: #22c55e; font-weight: bold;">das</span> Wissensmanagement (Sg.);das Wissensmanagement;knowledge management;управління знаннями;Ein gutes <b style="color: #eab308;">Wissensmanagement</b> im Wiki hilft neuen Kollegen bei der Einarbeitung.;B1plus Thema7
+<span style="color: #ef4444; font-weight: bold;">die</span> Zuverlässigkeit (Pl. selten);die Zuverlässigkeit;reliability;надійність;Die <b style="color: #eab308;">Zuverlässigkeit</b> der Backup-Systeme ist für den Schutz unserer Geschäftsdaten essenziell.;B1plus Thema7
+<span style="color: #00d2ff; font-weight: bold;">der</span> Arbeitsablauf, "-e;der Arbeitsablauf;workflow;робочий процес;Durch die Nutzung von CI/CD-Pipelines konnten wir den gesamten <b style="color: #eab308;">Arbeitsablauf</b> automatisieren.;B1plus Thema7
+<span style="color: #ef4444; font-weight: bold;">die</span> Automatisierung (Sg.);die Automatisierung;automation;автоматизація;Die <b style="color: #eab308;">Automatisierung</b> von Standardaufgaben spart dem DevOps-Team viel Zeit und reduziert Fehler.;B1plus Thema7
+etw. ein|führen (führt ein, führte ein, hat eingeführt);ein|führen;to introduce;запроваджувати;Wir wollen im nächsten Monat eine neue Software zur automatischen Fehlersuche <b style="color: #eab308;">einführen</b>.;B1plus Thema7
+<span style="color: #ef4444; font-weight: bold;">die</span> Einführung, -en;die Einführung;introduction;запровадження;Die <b style="color: #eab308;">Einführung</b> der neuen Cloud-Plattform verlief reibungsloser als ursprünglich geplant.;B1plus Thema7
+etw. fern|steuern (steuert fern, steuerte fern, hat ferngesteuert);fern|steuern;to remote control;керувати дистанційно;Mithilfe von SSH kann man Linux-Server sicher von jedem Ort der Welt aus <b style="color: #eab308;">fernsteuern</b>.;B1plus Thema7
+<span style="color: #22c55e; font-weight: bold;">das</span> Fließband, "-er;das Fließband;conveyor belt;конвеєр;In der modernen Software-Entwicklung ähnelt die Build-Pipeline einem digitalen <b style="color: #eab308;">Fließband</b>.;B1plus Thema7
+<span style="color: #ef4444; font-weight: bold;">die</span> Informationstechnologie, -n;die Informationstechnologie;information technology (IT);інформаційні технології;Er leitet die Abteilung für <b style="color: #eab308;">Informationstechnologie</b> bei einem mittelständischen Unternehmen.;B1plus Thema7
+<span style="color: #22c55e; font-weight: bold;">das</span> Internet der Dinge (Sg.);das Internet der Dinge;Internet of Things (IoT);інтернет речей;Das Internet der <b style="color: #eab308;">Dinge</b> ermöglicht die Vernetzung von Sensoren direkt mit der Cloud.;B1plus Thema7
+<span style="color: #00d2ff; font-weight: bold;">der</span> Sprachassistent, -en;der Sprachassistent;voice assistant;голосовий помічник;Unser neuer <b style="color: #eab308;">Sprachassistent</b> nutzt Deep Learning, um Befehle besser zu verstehen.;B1plus Thema7
+<span style="color: #ef4444; font-weight: bold;">die</span> Vernetzung, -en;die Vernetzung;networking;мережування, поєднання;Die intelligente <b style="color: #eab308;">Vernetzung</b> von IT-Systemen schafft völlig neue Möglichkeiten der Zusammenarbeit.;B1plus Thema7
+vielfältig;vielfältig;diverse, manifold;різноманітний;Die Einsatzmöglichkeiten von Python sind äußerst <b style="color: #eab308;">vielfältig</b>, von Data Science bis Webentwicklung.;B1plus Thema7
