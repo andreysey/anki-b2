@@ -50,3 +50,48 @@ pub fn highlight_word_in_example(clean_german: &str, example: &str) -> String {
     
     example.to_string()
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_clean_german_for_audio() {
+        assert_eq!(clean_german_for_audio("der Tisch, -e"), "der Tisch");
+        assert_eq!(clean_german_for_audio("die Lampe (n)"), "die Lampe");
+        assert_eq!(clean_german_for_audio("das Haus/Gebäude"), "das Haus");
+        assert_eq!(clean_german_for_audio("jdn. kontaktieren"), "kontaktieren");
+        assert_eq!(clean_german_for_audio("etw. gewähren"), "gewähren");
+        assert_eq!(clean_german_for_audio(""), "");
+    }
+
+    #[test]
+    fn test_colorize_gender() {
+        assert_eq!(colorize_gender("der Tisch"), "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Tisch");
+        assert_eq!(colorize_gender("die Lampe"), "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Lampe");
+        assert_eq!(colorize_gender("das Haus"), "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Haus");
+        assert_eq!(colorize_gender("gehen"), "gehen");
+    }
+
+    #[test]
+    fn test_highlight_word_in_example() {
+        let ex = "Ich sehe den Tisch.";
+        let res = highlight_word_in_example("Tisch", ex);
+        assert!(res.contains("style=\"color: #eab308;\""));
+        assert!(res.contains("Tisch"));
+
+        // Case insensitive
+        let res2 = highlight_word_in_example("tisch", ex);
+        assert!(res2.contains("<b "));
+
+        // Derivative (plural)
+        let ex3 = "Wir haben viele Tische.";
+        let res3 = highlight_word_in_example("Tisch", ex3);
+        assert!(res3.contains("<b "));
+        assert!(res3.contains("Tische"));
+
+        // No match
+        assert_eq!(highlight_word_in_example("Auto", ex), ex);
+    }
+}
+
