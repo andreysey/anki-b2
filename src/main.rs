@@ -168,7 +168,8 @@ fn generate_decks(
             };
 
             let output_line = if format_type == "anki" {
-                format!("{};{};{};{};{}\n", word_display, word_audio, english, ukrainian, example)
+                let entry_tag = format!("{} Thema{}", level, thema).replace("+", "plus");
+                format!("{};{};{};{};{};{}\n", word_display, word_audio, english, ukrainian, example, entry_tag)
             } else {
                 let definition = if quizlet_minimal || example.is_empty() {
                     format!("{} / {}", english, ukrainian)
@@ -201,7 +202,7 @@ fn generate_decks(
         }
         let mut content = String::new();
         if format_type == "anki" {
-            content.push_str("#separator:;\n#html:true\n#columns:German;German_Audio;English;Ukrainian;Example\n");
+            content.push_str("#separator:;\n#html:true\n#columns:German;German_Audio;English;Ukrainian;Example;Tags\n");
         }
         for line in &data {
             content.push_str(line);
