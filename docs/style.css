@@ -245,7 +245,7 @@ option {
 .german-word {
     font-size: 1.4rem;
     font-weight: 600;
-    color: var(--primary);
+    color: var(--text-main);
 }
 
 .tts-btn {
