@@ -11,6 +11,7 @@ let filteredVocabulary = [];
 let isStudyMode = false;
 let currentStudyIndex = 0;
 let isFlipped = false;
+let studyDirection = 'DE_TO_UA'; // 'UA_TO_DE' or 'DE_TO_UA'
 
 const grid = document.getElementById('vocabulary-grid');
 const searchInput = document.getElementById('search');
@@ -27,6 +28,7 @@ const studyBack = document.querySelector('.study-card-back');
 const prevBtn = document.getElementById('prev-btn');
 const nextBtn = document.getElementById('next-btn');
 const flipBtn = document.getElementById('flip-btn');
+const directionToggleBtn = document.getElementById('direction-toggle');
 const studyStats = document.getElementById('study-stats');
 
 async function init() {
@@ -145,19 +147,37 @@ function renderStudyCard() {
     const item = filteredVocabulary[currentStudyIndex];
     studyStats.textContent = `Card ${currentStudyIndex + 1} of ${filteredVocabulary.length}`;
     
-    studyFront.innerHTML = `
-        <div class="translation">${item.ukrainian}</div>
-        <div class="translation-en">${item.english}</div>
-        <div style="margin-top: 2rem; font-size: 0.95rem; color: var(--text-muted);">(Thema ${item.thema})</div>
-    `;
-    
-    studyBack.innerHTML = `
-        <h2 style="display:flex; align-items:center; justify-content:center; gap: 1rem;">
-            ${item.german}
-            <button class="tts-btn" onclick="event.stopPropagation(); playAudio('${item.german_audio.replace(/'/g, "\\'")}')" title="Play pronunciation">🔊</button>
-        </h2>
-        ${item.example ? `<div class="example">${item.example}</div>` : ''}
-    `;
+    const showGermanOnFront = studyDirection === 'DE_TO_UA';
+
+    if (showGermanOnFront) {
+        studyFront.innerHTML = `
+            <h2 style="display:flex; align-items:center; justify-content:center; gap: 1rem;">
+                ${item.german}
+                <button class="tts-btn" onclick="event.stopPropagation(); playAudio('${item.german_audio.replace(/'/g, "\\'")}')" title="Play pronunciation">🔊</button>
+            </h2>
+            <div style="margin-top: 2rem; font-size: 0.95rem; color: var(--text-muted);">(Thema ${item.thema})</div>
+        `;
+        
+        studyBack.innerHTML = `
+            <div class="translation">${item.ukrainian}</div>
+            <div class="translation-en">${item.english}</div>
+            ${item.example ? `<div class="example">${item.example}</div>` : ''}
+        `;
+    } else {
+        studyFront.innerHTML = `
+            <div class="translation">${item.ukrainian}</div>
+            <div class="translation-en">${item.english}</div>
+            <div style="margin-top: 2rem; font-size: 0.95rem; color: var(--text-muted);">(Thema ${item.thema})</div>
+        `;
+        
+        studyBack.innerHTML = `
+            <h2 style="display:flex; align-items:center; justify-content:center; gap: 1rem;">
+                ${item.german}
+                <button class="tts-btn" onclick="event.stopPropagation(); playAudio('${item.german_audio.replace(/'/g, "\\'")}')" title="Play pronunciation">🔊</button>
+            </h2>
+            ${item.example ? `<div class="example">${item.example}</div>` : ''}
+        `;
+    }
 }
 
 function flipCard() {
@@ -194,6 +214,15 @@ studyCard.addEventListener('click', flipCard);
 flipBtn.addEventListener('click', (e) => { e.stopPropagation(); flipCard(); });
 nextBtn.addEventListener('click', (e) => { e.stopPropagation(); nextCard(); });
 prevBtn.addEventListener('click', (e) => { e.stopPropagation(); prevCard(); });
+
+directionToggleBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    studyDirection = studyDirection === 'UA_TO_DE' ? 'DE_TO_UA' : 'UA_TO_DE';
+    directionToggleBtn.textContent = studyDirection === 'UA_TO_DE' ? '🔄 UA → DE' : '🔄 DE → UA';
+    isFlipped = false;
+    studyCard.classList.remove('is-flipped');
+    renderStudyCard();
+});
 
 document.addEventListener('keydown', (e) => {
     if (!isStudyMode) return;
