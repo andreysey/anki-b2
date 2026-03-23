@@ -19,7 +19,9 @@ const root = path.resolve(__dirname, '../../');
 
 async function main() {
   const sourceDir = path.join(root, 'source');
-  const outputDir = path.join(root, 'docs', 'anki');
+  const outputDir = path.join(root, 'anki');
+  fs.mkdirSync(outputDir, { recursive: true });
+  
   const dataJsonDocs    = path.join(root, 'docs', 'data.json');
   const dataJsonPublic  = path.join(root, 'frontend', 'public', 'data.json');
 

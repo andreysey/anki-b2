@@ -9,23 +9,23 @@ This repository contains professional thematic vocabulary files for Anki and Qui
 - `source/`: Original thematic vocabulary files (`B1_plus_Thema*.txt`, `B2_Thema*.txt`).
 - `anki/`: Generated import files for Anki decks.
 - `quizlet/`: Generated import files for Quizlet sets.
-- `Cargo.toml` & `src/`: High-performance Rust application for building decks.
+- `frontend/scripts/`: High-performance Node.js build scripts.
 
 ## Automation Tools
 
-### 1. Rust Build Tool (`rs_build`)
+### 1. Build Tool (`generate-all-anki.ts`)
 Standardizes the `source/` directory and regenerates all files in `anki/`, `quizlet/`, and `docs/`.
-- **Usage**: `cargo run --release`
+- **Usage**: `cd frontend && npm run generate:anki`
 
 ### 2. Git Automation (Pre-commit Hook)
 The project includes a git hook that automatically runs before every commit to ensure data consistency and site updates.
-- **Auto-Build**: Runs the Rust build tool to regenerate all decks and data.
+- **Auto-Build**: Runs the Node.js build tool to regenerate all decks and data.
 - **Auto-Versioning**: Automatically updates the Service Worker cache version in `docs/sw.js` to ensure the live site updates for all users.
 - **Validation**: Aborts the commit if any errors or warnings are found in the source files.
 
 ## Deck Versions & Generation
 
-The Rust build tool (`cargo run --release`) generates multiple versions of each deck to suit different learning styles:
+The Node.js build tool (`npm run generate:anki`) generates multiple versions of each deck to suit different learning styles:
 
 ```mermaid
 graph TD
@@ -36,7 +36,7 @@ graph TD
     classDef logic fill:#f1f8e9,stroke:#33691e,stroke-dasharray: 5 5,color:#000;
 
     %% Workflow
-    S[source/*.txt] --> B(cargo run)
+    S[source/*.txt] --> B(npm run generate:anki)
     B --> L{"De-duplication<br/>& Formatting"}
     L --> A[anki/*.txt]
     L --> Q[quizlet/*.txt]
