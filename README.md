@@ -15,7 +15,7 @@ This repository contains professional thematic vocabulary files for Anki and Qui
 
 ### 1. Build Tool (`generate-all-anki.ts`)
 Standardizes the `source/` directory and regenerates all files in `anki/`, `quizlet/`, and `docs/`.
-- **Usage**: `cd frontend && npm run generate:anki`
+- **Usage**: `npm run generate:anki`
 
 ### 2. Git Automation (Pre-commit Hook)
 The project includes a git hook that automatically runs before every commit to ensure data consistency and site updates.

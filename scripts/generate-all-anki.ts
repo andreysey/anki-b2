@@ -14,8 +14,8 @@ import { getThemaNum, getLevelFromFilename } from './utils.js';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname  = path.dirname(__filename);
 
-// Resolve repo root (same logic as Rust main.rs)
-const root = path.resolve(__dirname, '../../');
+// Resolve repo root
+const root = path.resolve(__dirname, '../');
 
 async function main() {
   const sourceDir = path.join(root, 'source');
@@ -23,7 +23,7 @@ async function main() {
   fs.mkdirSync(outputDir, { recursive: true });
   
   const dataJsonDocs    = path.join(root, 'docs', 'data.json');
-  const dataJsonPublic  = path.join(root, 'frontend', 'public', 'data.json');
+  const dataJsonPublic  = path.join(root, 'public', 'data.json');
 
   if (!fs.existsSync(sourceDir)) {
     console.error(`❌ ERROR: 'source' directory not found at ${sourceDir}`);
@@ -72,9 +72,9 @@ async function main() {
   fs.writeFileSync(dataJsonDocs, json);
   console.log(`✅ Web data written to docs/data.json (${rc.webData.length} unique entries)`);
 
-  // 5. Sync to frontend/public/data.json (so the web app uses latest data)
+  // 5. Sync to public/data.json (so the web app uses latest data)
   fs.copyFileSync(dataJsonDocs, dataJsonPublic);
-  console.log(`✅ Copied to frontend/public/data.json`);
+  console.log(`✅ Copied to public/data.json`);
 
   // Summary
   const totalWarnings = r1.warnings.length + r2.warnings.length + rc.warnings.length;
