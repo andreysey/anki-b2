@@ -483,3 +483,12 @@ footer {
     }
 }
 
+
+.version-tag {
+    text-align: center;
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    opacity: 0.6;
+}
