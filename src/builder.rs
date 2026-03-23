@@ -25,36 +25,55 @@ pub fn generate_decks(
     let mut web_data = Vec::new();
     let mut warnings = Vec::new();
 
-    // Define Anki Model (Note Type) with Multi-language TTS support
+    // Define Anki Model (Note Type) with Two Templates (Forward & Reverse)
     let model = Model::new(
         1607392319,
-        "German B2 Professional",
+        "German B2 Professional (Bi-Directional)",
         vec![
             Field::new("German"),
             Field::new("German_Audio"),
             Field::new("English"),
-            Field::new("English_Audio"), // New field for clean English TTS
+            Field::new("English_Audio"),
             Field::new("Ukrainian"),
             Field::new("Example"),
-            Field::new("Example_Audio"), // New field for clean Example TTS
+            Field::new("Example_Audio"),
             Field::new("Tags"),
         ],
-        vec![Template::new("Card 1")
-            .qfmt("<div style='font-family: \"Outfit\", sans-serif; text-align: center; color: #f8fafc; background-color: #0f172a; padding: 40px; border-radius: 20px;'>\
-                    <div style='font-size: 32px; font-weight: 600; margin-bottom: 20px;'>{{German}}</div>\
-                    <div style='display: none;'>{{tts de_DE:German_Audio}}</div>\
-                   </div>")
-            .afmt("{{FrontSide}}<hr id='answer'>\
-                   <div style='font-family: \"Outfit\", sans-serif; text-align: center; color: #f8fafc; background-color: #1e293b; padding: 40px; border-radius: 20px;'>\
-                    <div style='font-size: 24px; color: #00d2ff; margin-bottom: 15px;'>{{English}}</div>\
-                    <div style='display: none;'>{{tts en_US:English_Audio}}</div>\
-                    <div style='font-size: 24px; color: #22c55e; margin-bottom: 25px;'>{{Ukrainian}}</div>\
-                    <div style='font-style: italic; color: #cbd5e1; font-size: 18px; border-top: 1px solid #334155; padding-top: 20px;'>{{Example}}</div>\
-                    <div style='margin-top: 25px;'>\
-                        <div style='display: inline-block; margin: 0 10px;'>{{tts de_DE:German_Audio}}</div>\
-                        <div style='display: inline-block; margin: 0 10px;'>{{tts de_DE:Example_Audio}}</div>\
-                    </div>\
-                   </div>")
+        vec![
+            // Template 1: Recognition (German -> Translation)
+            Template::new("Card 1: Recognition")
+                .qfmt("<div style='font-family: \"Outfit\", sans-serif; text-align: center; color: #f8fafc; background-color: #0f172a; padding: 40px; border-radius: 20px;'>\
+                        <div style='font-size: 32px; font-weight: 600;'>{{German}}</div>\
+                        <div style='display: none;'>{{tts de_DE:German_Audio}}</div>\
+                       </div>")
+                .afmt("{{FrontSide}}<hr id='answer'>\
+                       <div style='font-family: \"Outfit\", sans-serif; text-align: center; color: #f8fafc; background-color: #1e293b; padding: 40px; border-radius: 20px;'>\
+                        <div style='font-size: 24px; color: #00d2ff; margin-bottom: 15px;'>{{English}}</div>\
+                        <div style='display: none;'>{{tts en_US:English_Audio}}</div>\
+                        <div style='font-size: 24px; color: #22c55e; margin-bottom: 25px;'>{{Ukrainian}}</div>\
+                        <div style='font-style: italic; color: #cbd5e1; font-size: 18px; border-top: 1px solid #334155; padding-top: 20px;'>{{Example}}</div>\
+                        <div style='margin-top: 25px;'>\
+                            <div style='display: inline-block; margin: 0 10px;'>{{tts de_DE:Example_Audio}}</div>\
+                        </div>\
+                       </div>"),
+
+            // Template 2: Production (Translation -> German)
+            Template::new("Card 2: Production")
+                .qfmt("<div style='font-family: \"Outfit\", sans-serif; text-align: center; color: #f8fafc; background-color: #0f172a; padding: 40px; border-radius: 20px;'>\
+                        <div style='font-size: 24px; color: #00d2ff; margin-bottom: 10px;'>{{English}}</div>\
+                        <div style='font-size: 24px; color: #22c55e;'>{{Ukrainian}}</div>\
+                        <div style='display: none;'>{{tts en_US:English_Audio}}</div>\
+                       </div>")
+                .afmt("{{FrontSide}}<hr id='answer'>\
+                       <div style='font-family: \"Outfit\", sans-serif; text-align: center; color: #f8fafc; background-color: #1e293b; padding: 40px; border-radius: 20px;'>\
+                        <div style='font-size: 32px; font-weight: 600; color: #f8fafc; margin-bottom: 20px;'>{{German}}</div>\
+                        <div style='display: none;'>{{tts de_DE:German_Audio}}</div>\
+                        <div style='font-style: italic; color: #cbd5e1; font-size: 18px; border-top: 1px solid #334155; padding-top: 20px;'>{{Example}}</div>\
+                        <div style='margin-top: 25px;'>\
+                            <div style='display: inline-block; margin: 0 10px;'>{{tts de_DE:German_Audio}}</div>\
+                            <div style='display: inline-block; margin: 0 10px;'>{{tts de_DE:Example_Audio}}</div>\
+                        </div>\
+                       </div>"),
         ],
     ).css(".card { font-family: 'Outfit', sans-serif; background-color: #0f172a; }");
 
@@ -108,10 +127,10 @@ pub fn generate_decks(
                     &german_colored,
                     &word_audio,
                     &english,
-                    &english,         // English_Audio (clean text)
+                    &english,
                     &ukrainian,
                     &example_html,
-                    &example_raw,     // Example_Audio (clean text)
+                    &example_raw,
                     &entry_tag,
                 ]).unwrap();
                 
