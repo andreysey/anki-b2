@@ -44,7 +44,11 @@ async function init() {
         render();
         
         searchInput.addEventListener('input', () => { itemsLimit = INITIAL_LIMIT; render(); });
-        levelFilter.addEventListener('change', () => { itemsLimit = INITIAL_LIMIT; render(); });
+        levelFilter.addEventListener('change', () => { 
+            itemsLimit = INITIAL_LIMIT; 
+            populateThemaFilter(); // Refresh themes based on level
+            render(); 
+        });
         themaFilter.addEventListener('change', () => { itemsLimit = INITIAL_LIMIT; render(); });
         
         loadMoreBtn.addEventListener('click', () => {
@@ -59,11 +63,25 @@ async function init() {
 }
 
 function populateThemaFilter() {
-    const themen = [...new Set(vocabulary.map(item => item.thema))].sort((a, b) => a - b);
+    const level = levelFilter.value;
+    const currentThema = themaFilter.value;
+    
+    // Filter vocabulary to find available themes for the selected level
+    const relevantVocab = level === 'all' 
+        ? vocabulary 
+        : vocabulary.filter(item => item.level === level);
+        
+    const themen = [...new Set(relevantVocab.map(item => item.thema))].sort((a, b) => a - b);
+    
+    // Keep internal consistency: clear and rebuild options
+    themaFilter.innerHTML = '<option value="all">All Themes</option>';
     themen.forEach(t => {
         const opt = document.createElement('option');
         opt.value = t;
         opt.textContent = `Theme ${t}`;
+        if (t.toString() === currentThema) {
+            opt.selected = true;
+        }
         themaFilter.appendChild(opt);
     });
 }
