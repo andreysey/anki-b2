@@ -1,22 +1,24 @@
-import { Package, Deck, Note, Model, generateUniqueGuid } from 'genankjs';
+/**
+ * generate-anki.ts — Port of Rust src/builder.rs::generate_decks()
+ *
+ * Reads source .txt files directly (not data.json) and generates .apkg files.
+ * Called from generate-all-anki.ts.
+ */
+
+import { Package, Deck, Note, Model } from 'genankjs';
 import fs from 'fs';
 import path from 'path';
-import { fileURLToPath } from 'url';
+import {
+  cleanGermanForAudio,
+  colorizeGender,
+  highlightWordInExample,
+  getThemaNum,
+  getLevelFromFilename,
+} from './utils.js';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-
-// Monkey-patch genankjs Note to ensure unique incremental IDs (fixes UNIQUE constraint failed: notes.id)
-let globalNoteId = Date.now();
-const originalToSqlValues = Note.prototype.toSqlValues;
-Note.prototype.toSqlValues = function() {
-  const values = originalToSqlValues.call(this);
-  values.id = globalNoteId++;
-  return values;
-};
-
-// Define the Model (Note Type) exactly as in Rust
+// MODEL_ID matches Rust exactly
 const MODEL_ID = 1607392319;
+
 const model = new Model({
   modelId: MODEL_ID,
   name: 'German B2 Professional (Bi-Directional)',
@@ -70,120 +72,142 @@ const model = new Model({
   css: `.card { font-family: 'Outfit', sans-serif; background-color: #0f172a; }`,
 });
 
-// 64-bit deterministic numeric hash for GUIDs (safe for SQLite 64-bit signed INTEGER)
-function hashString(str: string): string {
-  let h1 = 0x811c9dc5;
-  let h2 = 0xdeadbeef;
-  for (let i = 0; i < str.length; i++) {
-    const char = str.charCodeAt(i);
-    h1 = Math.imul(h1 ^ char, 16777619);
-    h2 = Math.imul(h2 ^ char, 0x5bd1e995);
-  }
-  // Combine two 32-bit hashes into a 64-bit equivalent numeric string
-  // Ensure it's positive and fits within signed 64-bit (max ~9e18)
-  const high = BigInt(Math.abs(h1));
-  const low = BigInt(Math.abs(h2));
-  return ((high << 32n) | low).toString().slice(0, 18); // 18 digits is safe
+// Unique sequential note IDs (avoids UNIQUE constraint in SQLite)
+let globalNoteId = Date.now();
+const originalToSqlValues = Note.prototype.toSqlValues;
+Note.prototype.toSqlValues = function () {
+  const values = originalToSqlValues.call(this);
+  values.id = globalNoteId++;
+  return values;
+};
+
+export interface EntryData {
+  level: string;
+  levels: string[];
+  thema: number;
+  german: string;
+  german_audio: string;
+  english: string;
+  ukrainian: string;
+  example: string;
 }
 
-async function main() {
-  const [,, levelArg, themaArg] = process.argv;
-  
-  if (!levelArg) {
-    console.log('Usage: tsx generate-anki.ts <level> [thema]');
-    process.exit(1);
-  }
+export interface GenerateResult {
+  totalEntries: number;
+  uniqueCards: number;
+  webData: EntryData[];
+  warnings: string[];
+}
 
-  const dataPath = path.resolve(__dirname, '../public/data.json');
-  const data = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
+/**
+ * Port of Rust builder.rs::generate_decks() for Anki output.
+ *
+ * @param files     Absolute paths to source .txt files
+ * @param baseName  "B1plus" | "B2" | "B1plus_B2"
+ * @param outputDir Absolute path to output directory for .apkg
+ */
+export async function generateAnkiDeck(
+  files: string[],
+  baseName: string,
+  outputDir: string,
+): Promise<GenerateResult> {
+  const deckId =
+    baseName === 'B1plus' ? 1607392320 :
+    baseName === 'B2'     ? 1607392321 :
+                            1607392322;
 
-  let topicData;
-  let deckName;
-  let filename;
+  const deckName = `German ${baseName.replace('plus', '+')}`;
+  const deck = new Deck({ deckId, name: deckName });
 
-  if (levelArg === 'B1plus_B2') {
-    topicData = data;
-    deckName = 'German B1+/B2 Professional';
-    filename = 'Anki_B1plus_B2.apkg';
-  } else if (themaArg) {
-    // Use levels[] array to catch cross-level words (same as Rust per-level seen map)
-    topicData = data.filter((item: any) =>
-      (item.levels ?? [item.level]).includes(levelArg) && item.thema === parseInt(themaArg)
-    );
-    deckName = `German ${levelArg} - Topic ${themaArg}`;
-    filename = `Anki_${levelArg.replace('+', 'plus')}_Thema${themaArg}.apkg`;
-  } else {
-    // Use levels[] array to catch cross-level words (same as Rust per-level seen map)
-    topicData = data.filter((item: any) =>
-      (item.levels ?? [item.level]).includes(levelArg)
-    );
-    deckName = `German ${levelArg} Professional`;
-    filename = `Anki_${levelArg.replace('+', 'plus')}.apkg`;
-  }
-
-  if (topicData.length === 0) {
-    console.log(`No data found for ${levelArg} ${themaArg ? `Topic ${themaArg}` : ''}`);
-    return;
-  }
-
-  // Use the same Deck IDs as in Rust
-  let deckId;
-  if (levelArg === 'B1+') deckId = 1607392320;
-  else if (levelArg === 'B2') deckId = 1607392321;
-  else deckId = 1607392322;
-
-  const deck = new Deck({
-    deckId: deckId + (themaArg ? parseInt(themaArg) : 0),
-    name: deckName
-  });
-
-  // Deduplicate by clean word (german_audio) — same as Rust's word_display key
-  const seenItems = new Set<string>();
+  const seen = new Map<string, boolean>();
+  // For web_data: preserve insertion order, track extra levels
+  const webDataMap = new Map<string, EntryData>();
+  const webDataOrder: string[] = [];
+  const warnings: string[] = [];
+  let totalEntries = 0;
   let noteIndex = 0;
 
-  for (const item of topicData) {
-    const itemKey = item.german_audio || item.german;
-    if (seenItems.has(itemKey)) continue;
-    seenItems.add(itemKey);
+  for (const filePath of files) {
+    const fname = path.basename(filePath);
+    const content = fs.readFileSync(filePath, 'utf8');
+    const level = getLevelFromFilename(fname);
+    const thema = getThemaNum(fname);
+    const entryTag = `${level} Thema${thema}`.replace('+', 'plus');
 
-    const entryTag = `${item.level} Thema${item.thema}`.replace('+', 'plus');
-    
-    // Use a guaranteed unique numeric GUID based on deckId and index
-    const guid = (BigInt(deckId) * 10000n + BigInt(noteIndex++)).toString();
+    for (const [lineIdx, rawLine] of content.split('\n').entries()) {
+      const line = rawLine.trim();
 
-    // Strip HTML tags from example for plain-text TTS (Example_Audio field)
-    const examplePlainText = (item.example || '').replace(/<[^>]*>/g, '');
+      // Skip header comments and empty lines (same as Rust)
+      if (!line || line.startsWith('#')) continue;
 
-    const note = new Note({
-      guid: guid,
-      modelId: MODEL_ID,
-      fields: [
-        item.german,                        // German (with <span> color)
-        item.german_audio || item.german,   // German_Audio (clean text for TTS)
-        item.english,                       // English
-        item.english,                       // English_Audio
-        item.ukrainian,                     // Ukrainian
-        item.example || '',                 // Example (with <b> highlight)
-        examplePlainText,                   // Example_Audio (plain text for TTS)
-        entryTag                            // Tags
-      ],
-      tags: [item.level, `Thema${item.thema}`]
-    });
+      const parts = line.split(';').map((s) => s.trim());
+      if (parts.length < 3) {
+        warnings.push(`${fname}:${lineIdx + 1}: Less than 3 columns`);
+        continue;
+      }
 
-    deck.addNote(note);
+      const wordDisplay = parts[0];
+      const english    = parts[1];
+      const ukrainian  = parts[2];
+      const exampleRaw = parts[3] ?? '';
+
+      const wordAudio     = cleanGermanForAudio(wordDisplay);   // German_Audio
+      const germanColored = colorizeGender(wordDisplay);        // German (with <span>)
+      const exampleHtml   = highlightWordInExample(wordAudio, exampleRaw); // Example
+
+      totalEntries++;
+
+      const note = new Note({
+        guid: (BigInt(deckId) * 10000n + BigInt(noteIndex++)).toString(),
+        modelId: MODEL_ID,
+        fields: [
+          germanColored,  // German
+          wordAudio,      // German_Audio (clean, for TTS)
+          english,        // English
+          english,        // English_Audio
+          ukrainian,      // Ukrainian
+          exampleHtml,    // Example (with <b> highlight)
+          exampleRaw,     // Example_Audio (plain text, for TTS)
+          entryTag,       // Tags
+        ],
+        tags: [level, `Thema${thema}`],
+      });
+
+      if (!seen.has(wordDisplay)) {
+        deck.addNote(note);
+        seen.set(wordDisplay, true);
+
+        if (baseName === 'B1plus_B2') {
+          webDataMap.set(wordDisplay, {
+            level,
+            levels: [level],
+            thema,
+            german: germanColored,
+            german_audio: wordAudio,
+            english,
+            ukrainian,
+            example: exampleHtml,
+          });
+          webDataOrder.push(wordDisplay);
+        }
+      } else if (baseName === 'B1plus_B2') {
+        // Word already seen in another level — append current level to levels[]
+        const existing = webDataMap.get(wordDisplay)!;
+        if (!existing.levels.includes(level)) {
+          existing.levels.push(level);
+        }
+      }
+    }
   }
 
+  fs.mkdirSync(outputDir, { recursive: true });
+  const apkgName = `Anki_${baseName}.apkg`;
   const pkg = new Package();
   pkg.addDeck(deck);
-  
-  const outputDir = path.resolve(__dirname, '../../docs/anki');
-  if (!fs.existsSync(outputDir)) {
-    fs.mkdirSync(outputDir, { recursive: true });
-  }
+  await pkg.writeToFile(path.join(outputDir, apkgName));
 
-  const buffer = await pkg.writeToFile(path.join(outputDir, filename));
-  
-  console.log(`✅ Generated: docs/anki/${filename} (${topicData.length * 2} cards)`);
+  const uniqueCards = seen.size;
+  const webData = webDataOrder.map((k) => webDataMap.get(k)!);
+
+  return { totalEntries, uniqueCards, webData, warnings };
 }
-
-main().catch(console.error);
