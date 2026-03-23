@@ -41,6 +41,7 @@ async function init() {
         vocabulary = await response.json();
         
         populateThemaFilter();
+        document.getElementById('app-version').textContent = APP_VERSION;
         render();
         
         searchInput.addEventListener('input', () => { itemsLimit = INITIAL_LIMIT; render(); });

@@ -17,6 +17,12 @@ This repository contains professional thematic vocabulary files for Anki and Qui
 Standardizes the `source/` directory and regenerates all files in `anki/`, `quizlet/`, and `docs/`.
 - **Usage**: `cargo run --release`
 
+### 2. Git Automation (Pre-commit Hook)
+The project includes a git hook that automatically runs before every commit to ensure data consistency and site updates.
+- **Auto-Build**: Runs the Rust build tool to regenerate all decks and data.
+- **Auto-Versioning**: Automatically updates the Service Worker cache version in `docs/sw.js` to ensure the live site updates for all users.
+- **Validation**: Aborts the commit if any errors or warnings are found in the source files.
+
 ## Deck Versions & Generation
 
 The Rust build tool (`cargo run --release`) generates multiple versions of each deck to suit different learning styles:
