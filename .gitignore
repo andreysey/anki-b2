@@ -1,9 +1,19 @@
-.DS_Store
-
-# Rust build artifacts
-target/
-Cargo.lock
-
-
 # Rust
-/target
+target/
+
+# Node / Vue
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+
+# Logs
+*.log
+frontend/*.log
+
+# Env
+.env*
+frontend/.env*
+
+# DS_Store
+.DS_Store

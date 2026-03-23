@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#00d2ff">
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/png" href="icon-192.png">
+    <title>German B1+/B2 Beruf - Vocabulary</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body class="dark-theme">
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <div class="container">
+        <header>
+            <h1>German B1+/B2 Beruf</h1>
+            <p class="subtitle">Interactive Vocabulary Dictionary</p>
+            <div class="stats" id="stats">Loading...</div>
+        </header>
+
+        <section class="controls glass">
+            <div class="search-box">
+                <input type="text" id="search" placeholder="Search (DE, EN, UA)..." autocomplete="off">
+                <span class="search-icon">🔍</span>
+            </div>
+            <div class="filters">
+                <button id="mode-toggle" class="mode-btn">🎓 Study Mode</button>
+                <select id="level-filter">
+                    <option value="all">All Levels</option>
+                    <option value="B1+">B1+</option>
+                    <option value="B2">B2</option>
+                </select>
+                <select id="thema-filter">
+                    <option value="all">All Themes</option>
+                    <!-- Will be populated by JS -->
+                </select>
+            </div>
+        </section>
+
+        <main id="vocabulary-main">
+            <div id="vocabulary-grid" class="grid">
+                <!-- Cards will be injected by JS -->
+            </div>
+            <div id="load-more-container" class="load-more-container">
+                <button id="load-more-btn" class="nav-btn">Load More</button>
+            </div>
+
+            <div id="study-container" class="hidden">
+                <div class="study-progress-container">
+                    <div id="progress-bar" class="progress-bar"></div>
+                    <span id="study-stats"></span>
+                </div>
+
+                <div class="study-settings-bar">
+                    <button id="direction-toggle" class="nav-btn small" title="Switch Direction">🔄 DE</button>
+                    <button id="shuffle-btn" class="nav-btn small" title="Shuffle Cards">🔀</button>
+                    <button id="autoplay-toggle" class="nav-btn small" title="Auto-play Audio">🔊 Off</button>
+                </div>
+
+                <div class="scene">
+                    <div id="study-card" class="study-card">
+                        <div class="study-card-face study-card-front glass">
+                            <!-- front content injected -->
+                        </div>
+                        <div class="study-card-face study-card-back glass">
+                            <!-- back content injected -->
+                        </div>
+                    </div>
+                </div>
+                <div id="srs-controls" class="srs-controls hidden">
+                    <button id="srs-again" class="srs-btn again">🔴 Again</button>
+                    <button id="srs-hard" class="srs-btn hard">🟡 Hard</button>
+                    <button id="srs-good" class="srs-btn good">🟢 Good</button>
+                    <button id="srs-easy" class="srs-btn easy">🔵 Easy</button>
+                </div>
+                <div class="study-controls">
+                    <button id="prev-btn" class="nav-btn">⬅️</button>
+                    <button id="mastered-btn" class="nav-btn mastered" title="Mark as Mastered">✅ Got it!</button>
+                    <button id="next-btn" class="nav-btn">➡️</button>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Created for B2 Beruf IT German Studies</p>
+            <div class="footer-links">
+                <a href="https://github.com/andreysey/anki-b2/blob/main/README.md" target="_blank">About Project</a>
+                <a href="https://github.com/andreysey/anki-b2/blob/main/AUDIO_GUIDE.md" target="_blank">Audio Guide</a>
+            </div>
+            <div class="version-tag">Version: <span id="app-version">Loading...</span></div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
