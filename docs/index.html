@@ -54,9 +54,17 @@
             </div>
 
             <div id="study-container" class="hidden">
-                <div class="study-progress">
+                <div class="study-progress-container">
+                    <div id="progress-bar" class="progress-bar"></div>
                     <span id="study-stats"></span>
                 </div>
+
+                <div class="study-settings-bar">
+                    <button id="direction-toggle" class="nav-btn small" title="Switch Direction">🔄 DE</button>
+                    <button id="shuffle-btn" class="nav-btn small" title="Shuffle Cards">🔀</button>
+                    <button id="autoplay-toggle" class="nav-btn small" title="Auto-play Audio">🔊 Off</button>
+                </div>
+
                 <div class="scene">
                     <div id="study-card" class="study-card">
                         <div class="study-card-face study-card-front glass">
@@ -68,10 +76,9 @@
                     </div>
                 </div>
                 <div class="study-controls">
-                    <button id="prev-btn" class="nav-btn">⬅️ Prev</button>
-                    <button id="direction-toggle" class="nav-btn">🔄 DE → UA</button>
-                    <button id="flip-btn" class="nav-btn">Flip (Space)</button>
-                    <button id="next-btn" class="nav-btn">Next ➡️</button>
+                    <button id="prev-btn" class="nav-btn">⬅️</button>
+                    <button id="mastered-btn" class="nav-btn mastered" title="Mark as Mastered">✅ Got it!</button>
+                    <button id="next-btn" class="nav-btn">➡️</button>
                 </div>
             </div>
         </main>
