@@ -461,13 +461,57 @@ footer {
     background: rgba(255, 255, 255, 0.03);
 }
 
-.study-controls {
-    margin-top: 2.5rem;
+.study-controls, .srs-controls {
+    margin-top: 2rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 1.2rem;
     width: 100%;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.srs-controls.hidden {
+    display: none;
+}
+
+.srs-btn {
+    flex: 1;
+    min-width: 80px;
+    padding: 0.8rem 1rem;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--text-main);
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.srs-btn:hover {
+    transform: translateY(-2px);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.srs-btn.again:hover { border-color: #ff4d4d; color: #ff4d4d; }
+.srs-btn.hard:hover { border-color: #ffcc00; color: #ffcc00; }
+.srs-btn.good:hover { border-color: #33cc33; color: #33cc33; }
+.srs-btn.easy:hover { border-color: #3399ff; color: #3399ff; }
+
+@media (max-width: 600px) {
+    .srs-controls {
+        gap: 0.5rem;
+    }
+    .srs-btn {
+        padding: 0.7rem 0.5rem;
+        font-size: 0.8rem;
+        min-width: 70px;
+    }
 }
 
 .nav-btn {

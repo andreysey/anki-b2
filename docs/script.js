@@ -6,7 +6,7 @@ if ('serviceWorker' in navigator) {
     });
 }
 
-const APP_VERSION = 'v2026.03.23.1925';
+const APP_VERSION = 'v2026.03.23.1945';
 let vocabulary = [];
 let filteredVocabulary = [];
 let isStudyMode = false;
@@ -38,7 +38,52 @@ const masteredBtn = document.getElementById('mastered-btn');
 const directionToggleBtn = document.getElementById('direction-toggle');
 const progressBar = document.getElementById('progress-bar');
 const studyStats = document.getElementById('study-stats');
+const srsControls = document.getElementById('srs-controls');
 const loadMoreBtn = document.getElementById('load-more-btn');
+
+// SRS Data
+let srsData = JSON.parse(localStorage.getItem('anki_srs_v2') || '{}');
+
+function saveSRS() {
+    localStorage.setItem('anki_srs_v2', JSON.stringify(srsData));
+}
+
+function getSRS(item) {
+    const key = item.id || `${item.german}-${item.thema}`;
+    return srsData[key] || { level: 0, lastReview: 0 };
+}
+
+function updateSRS(item, rating) {
+    const key = item.id || `${item.german}-${item.thema}`;
+    const current = getSRS(item);
+    
+    // Simple Box System (0 to 5)
+    // Again: 0
+    // Hard: same or +1 if was 0
+    // Good: +1
+    // Easy: +2
+    
+    let newLevel = current.level;
+    if (rating === 'again') newLevel = 0;
+    else if (rating === 'hard') newLevel = Math.max(0, current.level);
+    else if (rating === 'good') newLevel = Math.min(5, current.level + 1);
+    else if (rating === 'easy') newLevel = Math.min(5, current.level + 2);
+    
+    srsData[key] = {
+        level: newLevel,
+        lastReview: Date.now()
+    };
+    saveSRS();
+    
+    // If it's a "good" or "easy", move to next card
+    if (rating === 'good' || rating === 'easy') {
+        nextCard();
+    } else {
+        // Just show someone else or stay? 
+        // For "again" or "hard", we stay or flip back.
+        flipCard(); // flip back to front
+    }
+}
 const loadMoreContainer = document.getElementById('load-more-container');
 
 async function init() {
@@ -111,6 +156,18 @@ function render() {
         
         return matchesQuery && matchesLevel && matchesThema && !isMastered;
     });
+
+    // SRS Sorting in Study Mode
+    if (isStudyMode) {
+        filteredVocabulary.sort((a, b) => {
+            const srsA = getSRS(a);
+            const srsB = getSRS(b);
+            // Sort by level (lower level = higher priority)
+            if (srsA.level !== srsB.level) return srsA.level - srsB.level;
+            // Then by lastReview (older = higher priority)
+            return srsA.lastReview - srsB.lastReview;
+        });
+    }
     
     // Sort logic to keep it stable unless shuffled
     // If we wanted to ensure id-less items have a stable key:
@@ -195,6 +252,7 @@ function renderStudyCard() {
         studyBack.innerHTML = `<h2>Adjust filters.</h2>`;
         progressBar.style.width = '0%';
         studyStats.textContent = '';
+        srsControls.classList.add('hidden');
         return;
     }
     const item = filteredVocabulary[currentStudyIndex];
@@ -241,6 +299,11 @@ function renderStudyCard() {
              playAudio(item.german_audio);
         }
     }
+    
+    // Always hide SRS controls when showing a new/unflipped card
+    if (!isFlipped) {
+        srsControls.classList.add('hidden');
+    }
 }
 
 function flipCard() {
@@ -248,12 +311,14 @@ function flipCard() {
     isFlipped = !isFlipped;
     if (isFlipped) {
         studyCard.classList.add('is-flipped');
+        srsControls.classList.remove('hidden');
         const showGermanOnFront = studyDirection === 'DE_TO_UA';
         if (!showGermanOnFront || !isAutoplay) {
              playAudio(filteredVocabulary[currentStudyIndex].german_audio);
         }
     } else {
         studyCard.classList.remove('is-flipped');
+        srsControls.classList.add('hidden');
     }
 }
 
@@ -318,6 +383,11 @@ masteredBtn.addEventListener('click', (e) => {
     markAsMastered();
 });
 
+document.getElementById('srs-again').addEventListener('click', (e) => { e.stopPropagation(); updateSRS(filteredVocabulary[currentStudyIndex], 'again'); });
+document.getElementById('srs-hard').addEventListener('click', (e) => { e.stopPropagation(); updateSRS(filteredVocabulary[currentStudyIndex], 'hard'); });
+document.getElementById('srs-good').addEventListener('click', (e) => { e.stopPropagation(); updateSRS(filteredVocabulary[currentStudyIndex], 'good'); });
+document.getElementById('srs-easy').addEventListener('click', (e) => { e.stopPropagation(); updateSRS(filteredVocabulary[currentStudyIndex], 'easy'); });
+
 directionToggleBtn.addEventListener('click', (e) => {
     e.stopPropagation();
     studyDirection = studyDirection === 'UA_TO_DE' ? 'DE_TO_UA' : 'UA_TO_DE';
@@ -362,5 +432,11 @@ document.addEventListener('keydown', (e) => {
         shuffleCards();
     } else if (e.code === 'KeyM') {
         markAsMastered();
+    } else if (isFlipped) {
+        // SRS Shortcuts when card is flipped
+        if (e.key === '1') updateSRS(filteredVocabulary[currentStudyIndex], 'again');
+        else if (e.key === '2') updateSRS(filteredVocabulary[currentStudyIndex], 'hard');
+        else if (e.key === '3') updateSRS(filteredVocabulary[currentStudyIndex], 'good');
+        else if (e.key === '4') updateSRS(filteredVocabulary[currentStudyIndex], 'easy');
     }
 });
