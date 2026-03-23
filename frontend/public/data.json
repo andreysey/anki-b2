@@ -3156,7 +3156,7 @@
     "german_audio": "Geld ausgeben für",
     "english": "to spend money on",
     "ukrainian": "витрачати гроші на",
-    "example": "Unternehmen sollten mehr Geld für moderne IT-Sicherheit ausgeben."
+    "example": "Unternehmen sollten mehr Geld <b style=\"color: #eab308;\">für</b> moderne IT-Sicherheit ausgeben."
   },
   {
     "level": "B1+",
@@ -3450,7 +3450,7 @@
     "german_audio": "das Maß",
     "english": "measure, dimension",
     "ukrainian": "міра, розмір",
-    "example": "Wir brauchen die genauen Maße der Switch-Gehäuse für den Einbau im Rack."
+    "example": "Wir brauchen die genauen <b style=\"color: #eab308;\">Maße</b> der Switch-Gehäuse für den Einbau im Rack."
   },
   {
     "level": "B1+",
@@ -5941,7 +5941,7 @@
     "german_audio": "geeignet für",
     "english": "suitable for",
     "ukrainian": "придатний для, підходящий",
-    "example": "Diese Datenbank ist gut geeignet für große Datenmengen."
+    "example": "Diese Datenbank ist gut geeignet <b style=\"color: #eab308;\">für</b> große Datenmengen."
   },
   {
     "level": "B2",
@@ -12001,7 +12001,7 @@
     "german_audio": "Verständnis zeigen für",
     "english": "to show understanding for",
     "ukrainian": "виявляти розуміння",
-    "example": "Der Arbeitgeber muss Verständnis für familiäre Notfälle zeigen."
+    "example": "Der Arbeitgeber muss Verständnis <b style=\"color: #eab308;\">für</b> familiäre Notfälle zeigen."
   },
   {
     "level": "B2",
@@ -15241,7 +15241,7 @@
     "german_audio": "schädlich für",
     "english": "harmful to",
     "ukrainian": "шкідливий для",
-    "example": "Micro-Management ist sehr schädlich für die Motivation der Entwickler."
+    "example": "Micro-Management ist sehr schädlich <b style=\"color: #eab308;\">für</b> die Motivation der Entwickler."
   },
   {
     "level": "B2",
@@ -15673,7 +15673,7 @@
     "german_audio": "sorgen für",
     "english": "to ensure, to take care of",
     "ukrainian": "піклуватися про, забезпечувати",
-    "example": "Der Load Balancer sorgt für eine stabile Server-Performance."
+    "example": "Der Load Balancer sorgt <b style=\"color: #eab308;\">für</b> eine stabile Server-Performance."
   },
   {
     "level": "B2",
@@ -17425,7 +17425,7 @@
     "german_audio": "verantwortlich für",
     "english": "responsible for",
     "ukrainian": "відповідальний за",
-    "example": "Das DevOps-Team ist verantwortlich für das reibungslose Deployment."
+    "example": "Das DevOps-Team ist verantwortlich <b style=\"color: #eab308;\">für</b> das reibungslose Deployment."
   },
   {
     "level": "B2",
@@ -18961,7 +18961,7 @@
     "german_audio": "geeignet sein für",
     "english": "to be suitable for",
     "ukrainian": "бути придатним для",
-    "example": "Politik ist kein geeignetes Thema für Small Talk im Büro."
+    "example": "Politik ist kein geeignetes Thema <b style=\"color: #eab308;\">für</b> Small Talk im Büro."
   },
   {
     "level": "B2",

@@ -46,7 +46,12 @@ export function highlightWordInExample(cleanGerman: string, example: string): st
   const words = cleanGerman.split(/\s+/);
   const mainWord = words[words.length - 1]?.replace(/\|/g, '') ?? '';
 
-  if (mainWord.length > 3) {
+  // Rust's String::len() checks BYTES, not characters.
+  // "für" is 3 characters but 4 bytes (ü is 2 bytes in UTF-8), so it passed the check in Rust.
+  // To achieve 100% identical output, we check byte length here.
+  const byteLen = new TextEncoder().encode(mainWord).length;
+
+  if (byteLen > 3) {
     // Safe unicode word boundary using capturing groups instead of lookbehinds
     // This avoids catastrophic backtracking in V8 while matching Rust's unicode \b
     const wb = `(^|[^\\p{L}\\p{N}])`;
