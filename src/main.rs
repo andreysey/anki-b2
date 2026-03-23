@@ -57,6 +57,7 @@ fn main() {
     println!("✨ Finished! Standardized {} files with {} total cards.\n", combined.len(), total_standardized);
 
     println!("🚀 Starting build process...");
+    let start_build = std::time::Instant::now();
 
     let (n_f1, n_c1, w1) = generate_decks(&b1_files, "B1plus", "anki", false);
     println!("✅ Anki: B1+ deck generated ({} unique cards from {} total entries)", n_c1, n_f1);
@@ -77,10 +78,11 @@ fn main() {
     generate_decks(&combined, "B1plus_B2", "quizlet", true);
     println!("✅ Quizlet: Minimal decks generated.");
 
+    let duration = start_build.elapsed();
     let total_warnings = w1.len() + w2.len() + wc.len();
     if total_warnings > 0 {
-        println!("Build completed with {} warnings.", total_warnings);
+        println!("✨ Build completed in {:?} with {} warnings.", duration, total_warnings);
     } else {
-        println!("✨ Build completed successfully with 0 errors!");
+        println!("✨ Build completed successfully in {:?} with 0 errors!", duration);
     }
 }

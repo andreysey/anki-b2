@@ -22,7 +22,9 @@ pub fn generate_decks(
     let mut all_entries = Vec::new();
     let mut unique_entries_str = Vec::new();
     let mut seen: HashMap<String, String> = HashMap::new();
-    let mut web_data = Vec::new();
+    // For web_data: keyed by word_display to allow adding extra levels
+    let mut web_data_map: HashMap<String, EntryData> = HashMap::new();
+    let mut web_data_order: Vec<String> = Vec::new(); // preserve insertion order
     let mut warnings = Vec::new();
 
     // Define Anki Model (Note Type) with Two Templates (Forward & Reverse)
@@ -114,6 +116,7 @@ pub fn generate_decks(
 
             let entry_data = EntryData {
                 level: level.clone(),
+                levels: vec![level.clone()],
                 thema,
                 german: german_colored.clone(),
                 german_audio: word_audio.clone(),
@@ -140,7 +143,15 @@ pub fn generate_decks(
                     seen.insert(word_display.clone(), fname.clone());
                     unique_entries_str.push(german_colored.clone());
                     if base_name == "B1plus_B2" {
-                        web_data.push(entry_data);
+                        web_data_map.insert(word_display.clone(), entry_data);
+                        web_data_order.push(word_display.clone());
+                    }
+                } else if base_name == "B1plus_B2" {
+                    // Word already seen in another level — add this level to its levels array
+                    if let Some(existing) = web_data_map.get_mut(&word_display) {
+                        if !existing.levels.contains(&level) {
+                            existing.levels.push(level.clone());
+                        }
                     }
                 }
             } else {
@@ -168,6 +179,11 @@ pub fn generate_decks(
         package.write_to_file(out_path.to_str().unwrap()).unwrap();
 
         if base_name == "B1plus_B2" {
+            // Convert ordered map back to Vec preserving insertion order
+            let web_data: Vec<EntryData> = web_data_order
+                .iter()
+                .filter_map(|k| web_data_map.remove(k))
+                .collect();
             let web_dir = PathBuf::from("docs");
             fs::create_dir_all(&web_dir).unwrap();
             let json = serde_json::to_string_pretty(&web_data).unwrap();

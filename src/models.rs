@@ -10,6 +10,7 @@ pub static RE_CYRILLIC: LazyLock<Regex> = LazyLock::new(|| Regex::new(r"\p{Cyril
 #[derive(Serialize, Clone)]
 pub struct EntryData {
     pub level: String,
+    pub levels: Vec<String>,
     pub thema: i32,
     pub german: String,
     pub german_audio: String,
