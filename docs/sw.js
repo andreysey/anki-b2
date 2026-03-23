@@ -1,4 +1,4 @@
-const CACHE_NAME = 'anki-b2-v2026.03.23.1916';
+const CACHE_NAME = 'anki-b2-v2026.03.23.1923';
 const ASSETS = [
   './',
   './index.html',
