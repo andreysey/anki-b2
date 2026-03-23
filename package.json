@@ -10,9 +10,6 @@
     "generate:anki": "tsx scripts/generate-all-anki.ts"
   },
   "dependencies": {
-    "@paperclipsapp/anki-apkg-export": "^5.0.0",
-    "adm-zip": "^0.5.16",
-    "genanki-js": "^2.0.0",
     "genankjs": "^1.0.6",
     "vue": "^3.5.30"
   },
@@ -20,7 +17,6 @@
     "@types/node": "^25.5.0 ",
     "@vitejs/plugin-vue": "^6.0.5",
     "@vue/tsconfig": "^0.9.0",
-    "anki-apkg-export": "^4.0.3",
     "tsx": "^4.21.0",
     "typescript": "^5.0.0",
     "vite": "^8.0.2",
