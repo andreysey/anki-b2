@@ -6,7 +6,7 @@ if ('serviceWorker' in navigator) {
     });
 }
 
-const APP_VERSION = 'v2026.03.23.2247';
+const APP_VERSION = 'v2026.03.23.2252';
 let vocabulary = [];
 let filteredVocabulary = [];
 let isStudyMode = false;
