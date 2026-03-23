@@ -12,6 +12,8 @@ let isStudyMode = false;
 let currentStudyIndex = 0;
 let isFlipped = false;
 let studyDirection = 'DE_TO_UA'; // 'UA_TO_DE' or 'DE_TO_UA'
+let itemsLimit = 24;
+const INITIAL_LIMIT = 24;
 
 const grid = document.getElementById('vocabulary-grid');
 const searchInput = document.getElementById('search');
@@ -30,6 +32,8 @@ const nextBtn = document.getElementById('next-btn');
 const flipBtn = document.getElementById('flip-btn');
 const directionToggleBtn = document.getElementById('direction-toggle');
 const studyStats = document.getElementById('study-stats');
+const loadMoreBtn = document.getElementById('load-more-btn');
+const loadMoreContainer = document.getElementById('load-more-container');
 
 async function init() {
     try {
@@ -39,9 +43,14 @@ async function init() {
         populateThemaFilter();
         render();
         
-        searchInput.addEventListener('input', render);
-        levelFilter.addEventListener('change', render);
-        themaFilter.addEventListener('change', render);
+        searchInput.addEventListener('input', () => { itemsLimit = INITIAL_LIMIT; render(); });
+        levelFilter.addEventListener('change', () => { itemsLimit = INITIAL_LIMIT; render(); });
+        themaFilter.addEventListener('change', () => { itemsLimit = INITIAL_LIMIT; render(); });
+        
+        loadMoreBtn.addEventListener('click', () => {
+            itemsLimit += INITIAL_LIMIT;
+            render();
+        });
         
     } catch (error) {
         console.error('Error loading vocabulary:', error);
@@ -83,10 +92,19 @@ function render() {
         isFlipped = false;
         studyCard.classList.remove('is-flipped');
         renderStudyCard();
+        loadMoreContainer.classList.add('hidden');
         return;
     }
     
-    grid.innerHTML = filteredVocabulary.map(item => `
+    const visibleVocabulary = filteredVocabulary.slice(0, itemsLimit);
+    
+    if (filteredVocabulary.length > itemsLimit) {
+        loadMoreContainer.classList.remove('hidden');
+    } else {
+        loadMoreContainer.classList.add('hidden');
+    }
+    
+    grid.innerHTML = visibleVocabulary.map(item => `
         <div class="card glass">
             <div class="card-header">
                 <span class="badge badge-level">${item.level}</span>
