@@ -61,14 +61,14 @@ export function highlightWordInExample(cleanGerman: string, example: string): st
       // Try case-insensitive match with unicode word boundary
       const pattern = new RegExp(`${wb}(${escapeRegex(mainWord)}[\\p{L}]*)${we}`, 'iu');
       if (pattern.test(example)) {
-        return example.replace(pattern, (m, p1, p2, p3) => `${p1}<b style="color: #eab308;">${p2}</b>${p3}`);
+        return example.replace(pattern, (_, p1, p2, p3) => `${p1}<b style="color: #eab308;">${p2}</b>${p3}`);
       }
 
       // Fallback: 4-char prefix match for declined/conjugated forms
       const prefix = mainWord.slice(0, 4);
       if (prefix.length >= 4) {
         const prefixPattern = new RegExp(`${wb}(${escapeRegex(prefix)}[\\p{L}]*)${we}`, 'iu');
-        return example.replace(prefixPattern, (m, p1, p2, p3) => `${p1}<b style="color: #eab308;">${p2}</b>${p3}`);
+        return example.replace(prefixPattern, (_, p1, p2, p3) => `${p1}<b style="color: #eab308;">${p2}</b>${p3}`);
       }
     } catch {
       // RegEx fallback

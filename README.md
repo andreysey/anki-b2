@@ -9,7 +9,7 @@ This repository contains professional thematic vocabulary files for Anki and Qui
 - `source/`: Original thematic vocabulary files (`B1_plus_Thema*.txt`, `B2_Thema*.txt`).
 - `anki/`: Generated import files for Anki decks.
 - `quizlet/`: Generated import files for Quizlet sets.
-- `frontend/scripts/`: High-performance Node.js build scripts.
+- `scripts/`: High-performance Node.js build scripts.
 
 ## Automation Tools
 
@@ -40,11 +40,12 @@ graph TD
     B --> L{"De-duplication<br/>& Formatting"}
     L --> A[anki/*.txt]
     L --> Q[quizlet/*.txt]
+    L --> D[docs/data.json]
 
     %% Assign Classes
     class S source;
     class B tool;
-    class A,Q output;
+    class A,Q,D output;
     class L logic;
 ```
 
@@ -72,8 +73,7 @@ This project includes a modern, searchable web interface hosted via **GitHub Pag
 
 To view the site, enable GitHub Pages in your repository settings pointing to the `/docs` folder.
 
-## 🛠️ How to use
-nciation
+## 🛠️ Pronunciation
 
 To enhance your learning with audio, follow our [AwesomeTTS Guide](file:///home/kubuntu/Dev/anki-b2/AUDIO_GUIDE.md) to automatically add German pronunciation to your Anki decks.
 

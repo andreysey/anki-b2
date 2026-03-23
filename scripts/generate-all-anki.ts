@@ -2,17 +2,16 @@
  * generate-all-anki.ts — Port of Rust src/main.rs
  *
  * Discovers source .txt files, generates B1+, B2, and Combined Anki decks,
- * writes docs/data.json, and copies it to frontend/public/data.json.
+ * writes docs/data.json, and copies it to public/data.json.
  */
 
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { generateAnkiDeck } from './generate-anki.js';
-import { getThemaNum, getLevelFromFilename } from './utils.js';
+import { getThemaNum } from './utils.js';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname  = path.dirname(__filename);
+const __dirname  = path.dirname(fileURLToPath(import.meta.url));
 
 // Resolve repo root
 const root = path.resolve(__dirname, '../');

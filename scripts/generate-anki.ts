@@ -204,6 +204,7 @@ export async function generateAnkiDeck(
   const apkgName = `Anki_${baseName}.apkg`;
   const pkg = new Package();
   pkg.addDeck(deck);
+  pkg.addModel(model);
   await pkg.writeToFile(path.join(outputDir, apkgName));
 
   const uniqueCards = seen.size;
