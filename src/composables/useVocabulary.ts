@@ -21,7 +21,7 @@ export function useVocabulary() {
   // Load data
   const init = async () => {
     try {
-      const response = await fetch('/data.json');
+      const response = await fetch('data.json');
       vocabulary.value = await response.json();
     } catch (error) {
       console.error('Error fetching vocabulary:', error);
