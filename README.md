@@ -14,13 +14,13 @@ This repository contains professional thematic vocabulary files for Anki and Qui
 ## Automation Tools
 
 ### 1. Build Tool (`generate-all-anki.ts`)
-Standardizes the `source/` directory and regenerates all files in `anki/`, `quizlet/`, and `docs/`.
+Standardizes the `source/` directory and regenerates all files in `anki/`, `quizlet/`, and `dist/`.
 - **Usage**: `npm run generate:anki`
 
 ### 2. Git Automation (Pre-commit Hook)
 The project includes a git hook that automatically runs before every commit to ensure data consistency and site updates.
 - **Auto-Build**: Runs the Node.js build tool to regenerate all decks and data.
-- **Auto-Versioning**: Automatically updates the Service Worker cache version in `docs/sw.js` to ensure the live site updates for all users.
+- **Auto-Versioning**: Automatically updates the Service Worker cache version in `dist/sw.js` to ensure the live site updates for all users.
 - **Validation**: Aborts the commit if any errors or warnings are found in the source files.
 
 ## Deck Versions & Generation
@@ -40,7 +40,7 @@ graph TD
     B --> L{"De-duplication<br/>& Formatting"}
     L --> A[anki/*.txt]
     L --> Q[quizlet/*.txt]
-    L --> D[docs/data.json]
+    L --> D[dist/data.json]
 
     %% Assign Classes
     class S source;
@@ -71,7 +71,7 @@ This project includes a modern, searchable web interface hosted via **GitHub Pag
 - **Filtering**: Quickly filter by Level (B1+, B2) or specific Theme.
 - **Mobile Ready**: Study on the go with a responsive, premium design.
 
-To view the site, enable GitHub Pages in your repository settings pointing to the `/docs` folder.
+To view the site, enable GitHub Pages in your repository settings pointing to the `/dist` folder.
 
 ## 🛠️ Pronunciation
 

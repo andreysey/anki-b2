@@ -21,7 +21,7 @@ async function main() {
   const outputDir = path.join(root, 'anki');
   fs.mkdirSync(outputDir, { recursive: true });
   
-  const dataJsonDocs    = path.join(root, 'docs', 'data.json');
+  const dataJsonDocs    = path.join(root, 'dist', 'data.json');
   const dataJsonPublic  = path.join(root, 'public', 'data.json');
 
   if (!fs.existsSync(sourceDir)) {
@@ -65,11 +65,11 @@ async function main() {
   console.log(`✅ Anki: Combined deck generated (${rc.uniqueCards} unique cards from ${rc.totalEntries} total entries)`);
   if (rc.warnings.length > 0) rc.warnings.forEach(w => console.warn(`  ⚠️  ${w}`));
 
-  // 4. Write data.json (same as Rust: docs/data.json)
+  // 4. Write data.json (same as Rust: dist/data.json)
   const json = JSON.stringify(rc.webData, null, 2);
   fs.mkdirSync(path.dirname(dataJsonDocs), { recursive: true });
   fs.writeFileSync(dataJsonDocs, json);
-  console.log(`✅ Web data written to docs/data.json (${rc.webData.length} unique entries)`);
+  console.log(`✅ Web data written to dist/data.json (${rc.webData.length} unique entries)`);
 
   // 5. Sync to public/data.json (so the web app uses latest data)
   fs.copyFileSync(dataJsonDocs, dataJsonPublic);

@@ -49,7 +49,7 @@ export default defineConfig({
     })
   ],
   build: {
-    outDir: 'docs',
+    outDir: 'dist',
     emptyOutDir: true,
   }
 })
