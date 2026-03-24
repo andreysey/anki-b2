@@ -59,6 +59,8 @@ const playAudio = (text: string) => {
     window.speechSynthesis.speak(utterance);
   }
 };
+
+const appVersion = __APP_VERSION__;
 </script>
 
 <template>
@@ -138,7 +140,7 @@ const playAudio = (text: string) => {
     </main>
 
     <footer>
-      <p>Version <span id="app-version">v3.0.0 (Vue)</span></p>
+      <p>Version <span id="app-version">v{{ appVersion }}</span></p>
     </footer>
   </div>
 </template>

@@ -1,7 +1,7 @@
 {
   "name": "anki-b2-temp",
-  "private": true,
-  "version": "0.0.0",
+  "private": false,
+  "version": "1.0.0",
   "engines": {
     "node": ">=24.0.0"
   },
@@ -10,16 +10,21 @@
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
     "preview": "vite preview",
-    "generate:anki": "tsx scripts/generate-all-anki.ts"
+    "generate:anki": "tsx scripts/generate-all-anki.ts",
+    "release": "semantic-release"
   },
   "dependencies": {
     "genankjs": "^1.0.6",
     "vue": "^3.5.30"
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/npm": "^13.1.5",
     "@types/node": "^25.5.0",
     "@vitejs/plugin-vue": "^6.0.5",
     "@vue/tsconfig": "^0.9.0",
+    "semantic-release": "^25.0.3",
     "tsx": "^4.21.0",
     "typescript": "^6.0.2",
     "vite": "^8.0.2",
