@@ -8,6 +8,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predev": "git pull --rebase origin main",
     "build": "vue-tsc -b && vite build",
     "preview": "vite preview",
     "generate:anki": "tsx scripts/generate-all-anki.ts",
