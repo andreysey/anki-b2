@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/andreysey/anki-b2/compare/v1.0.0...v1.1.0) (2026-03-25)
+
+
+### Features
+
+* implement BaseSelect component and integrate it into FilterBar, adding a study mode toggle. ([d70af2b](https://github.com/andreysey/anki-b2/commit/d70af2be8e9601ca5f5b65cead5090f3b15f79ec))
+
 # 1.0.0 (2026-03-24)
 
 
