@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/andreysey/anki-b2/compare/v1.4.0...v1.5.0) (2026-03-25)
+
+
+### Features
+
+* integrate PrimeVue Toast, ProgressBar, SelectButton, Message, Tag, and Panel components for enhanced UI/UX and feedback. ([cdd293d](https://github.com/andreysey/anki-b2/commit/cdd293d0ca88004d20451b813b96b8dc237c7887))
+
 # [1.4.0](https://github.com/andreysey/anki-b2/compare/v1.3.0...v1.4.0) (2026-03-25)
 
 
