@@ -37,71 +37,87 @@ const levelOptions = [
 ];
 
 const selectPt = {
-  root: 'flex relative w-full h-11 bg-white/5 border border-white/10 rounded-xl cursor-pointer transition-all hover:border-[#00d2ff]/50',
-  label: 'flex items-center px-4 text-white text-[0.95rem]',
-  placeholder: 'flex items-center px-4 text-white/50 text-[0.95rem]',
-  dropdown: 'flex items-center justify-center w-10 text-white/50',
-  panel: 'bg-[#1e293b] border border-white/10 rounded-xl shadow-xl mt-1 overflow-hidden z-50',
-  list: 'p-1 flex flex-col gap-0.5',
+  root: 'flex relative w-full h-12 bg-white/5 border border-white/10 rounded-2xl cursor-pointer transition-all hover:border-[#00d2ff]/50 hover:bg-white/10 shadow-lg shadow-black/20 overflow-hidden',
+  label: 'flex items-center px-5 text-white text-[0.95rem] font-medium leading-[3rem] h-full',
+  placeholder: 'flex items-center px-5 text-white/40 text-[0.95rem] font-medium leading-[3rem] h-full',
+  dropdown: 'flex items-center justify-center w-12 text-white/50 h-full border-l border-white/5',
+  panel: 'bg-[#0f172a] border border-white/10 rounded-2xl shadow-2xl mt-2 overflow-hidden z-[100] backdrop-blur-xl',
+  list: 'p-2 flex flex-col gap-1',
   item: ({ context }: any) => ({
     class: [
-      'px-4 py-2 rounded-lg cursor-pointer transition-all text-[0.95rem]',
-      context.focused ? 'bg-white/10 text-white' : 'text-white/70 hover:bg-white/5'
+      'px-4 py-3 rounded-xl cursor-pointer transition-all text-[0.95rem] font-medium',
+      context.focused ? 'bg-white/15 text-[#00d2ff]' : 'text-white/70 hover:bg-white/5 hover:text-white'
     ]
   })
 };
 
 const inputPt = {
-  root: 'w-full px-4 py-2.5 bg-white/5 border border-white/10 rounded-xl text-white text-[0.95rem] focus:outline-none focus:border-[#00d2ff]/50 focus:bg-white/10 transition-all placeholder:text-white/30'
+  root: 'w-full px-5 py-0 h-12 bg-white/5 border border-white/10 rounded-2xl text-white text-[0.95rem] font-medium focus:outline-none focus:border-[#00d2ff]/50 focus:bg-white/10 transition-all placeholder:text-white/30 shadow-lg shadow-black/20 flex items-center'
 };
 
 const buttonPt = {
-  root: 'whitespace-nowrap px-4 py-2.5 text-sm font-semibold rounded-xl bg-gradient-to-br from-[#6366f1] to-[#4f46e5] text-white shadow-lg shadow-indigo-500/30 hover:-translate-y-0.5 hover:shadow-indigo-500/40 active:translate-y-0 transition-all w-full sm:w-auto flex items-center justify-center'
+  root: 'whitespace-nowrap px-6 py-0 h-12 text-[0.95rem] font-bold rounded-2xl text-white shadow-xl transition-all w-full flex items-center justify-center gap-2 hover:-translate-y-1 active:scale-95'
 };
 </script>
 
 <template>
-  <div class="filters glass p-4 mb-6 flex flex-col md:flex-row gap-4 items-center w-full">
-    <div class="w-full md:flex-1">
+  <div class="filters glass p-6 sm:p-8 mb-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1fr] gap-4 sm:gap-6 items-end shadow-2xl backdrop-blur-xl border border-white/10 rounded-[2.5rem]">
+    <!-- Search Section -->
+    <div class="w-full flex flex-col gap-2">
+      <span class="text-[0.65rem] sm:text-[0.75rem] font-black uppercase tracking-[0.2em] text-[#00d2ff] opacity-70 ml-4">Search Vocabulary</span>
       <InputText 
         :modelValue="search"
         @update:modelValue="emit('update:search', $event)"
-        placeholder="Search words..." 
+        placeholder="Type to filter..." 
         unstyled
         :pt="inputPt"
       />
     </div>
     
-    <div class="flex gap-2 w-full md:w-auto items-center flex-wrap sm:flex-nowrap">
-      <div class="flex gap-2 flex-1 sm:flex-none sm:min-w-[240px]">
-        <Select 
-          :modelValue="level" 
-          @update:modelValue="emit('update:level', $event)"
-          :options="levelOptions"
-          optionLabel="label"
-          optionValue="value"
-          placeholder="Levels"
-          unstyled
-          :pt="selectPt"
-        />
+    <!-- Level Section -->
+    <div class="w-full flex flex-col gap-2">
+      <span class="text-[0.65rem] sm:text-[0.75rem] font-black uppercase tracking-[0.2em] text-white/40 ml-4">Level</span>
+      <Select 
+        :modelValue="level" 
+        @update:modelValue="emit('update:level', $event)"
+        :options="levelOptions"
+        optionLabel="label"
+        optionValue="value"
+        placeholder="Select Level"
+        unstyled
+        :pt="selectPt"
+      />
+    </div>
 
-        <Select 
-          :modelValue="thema" 
-          @update:modelValue="emit('update:thema', $event)"
-          :options="themeOptions"
-          optionLabel="label"
-          optionValue="value"
-          placeholder="Themes"
-          unstyled
-          :pt="selectPt"
-        />
-      </div>
+    <!-- Theme Section -->
+    <div class="w-full flex flex-col gap-2">
+      <span class="text-[0.65rem] sm:text-[0.75rem] font-black uppercase tracking-[0.2em] text-white/40 ml-4">Theme</span>
+      <Select 
+        :modelValue="thema" 
+        @update:modelValue="emit('update:thema', $event)"
+        :options="themeOptions"
+        optionLabel="label"
+        optionValue="value"
+        placeholder="Select Theme"
+        unstyled
+        :pt="selectPt"
+      />
+    </div>
 
+    <!-- Mode Toggle Section -->
+    <div class="w-full flex flex-col gap-2">
+      <!-- Hidden label for alignment -->
+      <span class="hidden lg:block text-[0.75rem] invisible">&nbsp;</span>
       <Button 
-        :label="isStudyMode ? '📋 List' : '🎓 Study'"
+        :label="isStudyMode ? '📋 Back to List' : '🎓 Start Study'"
         @click="emit('update:isStudyMode', !isStudyMode)"
         unstyled
-        :pt="buttonPt"
+        :pt="{
+          root: [
+            buttonPt.root,
+            isStudyMode ? 'bg-gradient-to-br from-[#22c55e] to-[#16a34a] shadow-green-500/30' : 'bg-gradient-to-br from-[#00d2ff] to-[#3a7bd5] shadow-[#00d2ff]/30'
+          ]
+        }"
       />
     </div>
   </div>

@@ -1,8 +1,11 @@
 <script setup lang="ts">
 import { onMounted, onUnmounted } from 'vue';
 import { useVocabulary } from './composables/useVocabulary';
-import VocabularyCard from './components/VocabularyCard.vue';
 import FilterBar from './components/FilterBar.vue';
+import VocabularyCard from './components/VocabularyCard.vue';
+import Card from 'primevue/card';
+import Badge from 'primevue/badge';
+import Divider from 'primevue/divider';
 import Button from 'primevue/button';
 
 const {
@@ -76,22 +79,32 @@ const navBtnPt = {
   root: 'px-6 py-3 bg-white/5 border border-white/10 rounded-xl text-white transition-all hover:bg-white/10 active:scale-95 w-full flex items-center justify-center'
 };
 
+const cardListPt = {
+  root: 'card glass px-0 py-0 transition-all hover:-translate-y-2 hover:border-[#00d2ff] group flex flex-col h-full overflow-hidden rounded-3xl border border-white/10',
+  body: 'p-0 flex flex-col h-full',
+  content: 'px-8 py-8 pt-2 flex flex-col h-full'
+};
+
+const badgeListPt = {
+  root: 'px-2.5 py-1 rounded-md text-[0.7rem] font-bold uppercase tracking-widest shadow-sm border border-white/5'
+};
+
 const srsBtnPt = (color: string) => ({
   root: `p-3.5 rounded-xl border border-white/10 bg-white/5 text-sm font-bold tracking-wide transition-all hover:border-[${color}] hover:text-[${color}] active:scale-95 flex items-center justify-center`
 });
 </script>
 
 <template>
-  <div class="min-h-screen bg-[#0f172a] text-[#f8fafc] font-['Outfit']">
-    <div class="max-w-[1200px] mx-auto p-4 sm:p-8">
-      <header class="text-center mb-12">
-        <h1 class="text-3xl sm:text-5xl font-semibold mb-2 bg-gradient-to-r from-[#00d2ff] to-[#3a7bd5] bg-clip-text text-transparent">
+  <div class="min-h-screen bg-[#0f172a] text-[#f8fafc] font-['Outfit'] antialiased">
+    <div class="max-w-[1200px] mx-auto px-6 py-10 sm:p-16 lg:p-20">
+      <header class="text-center mb-10 sm:mb-16">
+        <h1 class="text-3xl sm:text-4xl md:text-6xl font-bold mb-3 bg-gradient-to-r from-[#00d2ff] to-[#3a7bd5] bg-clip-text text-transparent tracking-tight">
           German B1+/B2 Beruf
         </h1>
-        <p class="text-lg sm:text-xl opacity-70">Interactive Vocabulary Dictionary</p>
+        <p class="text-base sm:text-lg md:text-2xl opacity-70 font-medium">Interactive Professional Vocabulary Dictionary</p>
       </header>
 
-      <main>
+      <main class="mt-12 sm:mt-20">
         <FilterBar 
           :vocabulary="vocabulary"
           v-model:search="search"
@@ -101,14 +114,22 @@ const srsBtnPt = (color: string) => ({
         />
 
         <!-- List View -->
-        <div v-if="!isStudyMode" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          <div v-for="item in filteredVocabulary.slice(0, 50)" :key="getItemKey(item)" class="card glass px-4 py-5 sm:p-6 transition-all hover:-translate-y-1 hover:border-[#00d2ff]">
-            <div class="flex justify-between mb-4">
-                <span class="bg-[#00d2ff]/15 text-[#00d2ff] px-2 py-0.5 rounded text-[0.7rem] font-bold uppercase tracking-wider">{{ item.level }}</span>
-                <span class="bg-white/10 text-[#94a3b8] px-2 py-0.5 rounded text-[0.7rem] font-bold uppercase tracking-wider">Thema {{ item.thema }}</span>
-            </div>
-            <div class="flex justify-between items-start mb-3 gap-4">
-                <div class="text-[1.3rem] sm:text-[1.5rem] font-semibold leading-tight text-white" v-html="item.german"></div>
+        <div v-if="!isStudyMode" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-12 lg:gap-16">
+          <Card 
+            v-for="item in filteredVocabulary.slice(0, 50)" 
+            :key="getItemKey(item)" 
+            unstyled 
+            :pt="cardListPt"
+          >
+            <template #header>
+              <div class="flex justify-between p-8 pb-0">
+                <Badge :value="item.level" unstyled :pt="badgeListPt" class="!bg-[#00d2ff]/15 !text-[#00d2ff] !border-none" />
+                <Badge :value="'Thema ' + item.thema" unstyled :pt="badgeListPt" class="!bg-white/10 !text-[#94a3b8] !border-none" />
+              </div>
+            </template>
+            <template #content>
+              <div class="flex justify-between items-start mb-4 gap-4">
+                <div class="text-[1.3rem] sm:text-[1.6rem] font-bold leading-[1.2] text-white group-hover:text-[#00d2ff] transition-colors" v-html="item.german"></div>
                 <Button 
                   label="🔊" 
                   @click="playAudio(item.german_audio)" 
@@ -116,18 +137,22 @@ const srsBtnPt = (color: string) => ({
                   :pt="ttsBtnPt"
                   title="Play pronunciation"
                 />
-            </div>
-            <div class="space-y-1.5 mb-4">
-                <div class="text-[#818cf8] text-[1.05rem] font-medium leading-snug">{{ item.english }}</div>
-                <div class="text-[#facc15] text-[1.05rem] font-medium leading-snug">{{ item.ukrainian }}</div>
-            </div>
-            <div v-if="item.example" class="mt-auto pt-4 border-t border-white/10 italic text-[#94a3b8] text-[0.9rem] leading-relaxed" v-html="item.example"></div>
-          </div>
+              </div>
+              <div class="space-y-2 mb-6">
+                <div class="text-[#a5b4fc] text-[1.1rem] font-semibold leading-snug">{{ item.english }}</div>
+                <div class="text-[#fde047] text-[1.1rem] font-semibold leading-snug">{{ item.ukrainian }}</div>
+              </div>
+              <template v-if="item.example">
+                <Divider unstyled :pt="{ root: 'my-6 border-white/5' }" />
+                <div class="italic text-[#94a3b8] text-[0.95rem] leading-relaxed opacity-80" v-html="item.example"></div>
+              </template>
+            </template>
+          </Card>
         </div>
 
         <!-- Study Mode -->
-        <div v-else class="flex flex-col gap-6 max-w-[600px] mx-auto w-full">
-          <div class="flex justify-center gap-2 flex-wrap sm:flex-nowrap">
+        <div v-else class="flex flex-col gap-8 max-w-[650px] mx-auto w-full px-2 sm:px-0">
+          <div class="flex justify-center gap-3 flex-wrap sm:flex-nowrap">
             <Button 
               :label="'🔄 ' + (studyDirection === 'DE_TO_UA' ? 'DE' : 'UA')"
               unstyled
@@ -161,25 +186,25 @@ const srsBtnPt = (color: string) => ({
             @flip="isFlipped = !isFlipped"
           />
 
-          <div v-if="isFlipped" class="grid grid-cols-2 gap-3 mt-2">
+          <div v-if="isFlipped" class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-2">
             <Button label="🔴 AGAIN" unstyled :pt="srsBtnPt('#ff4d4d')" @click="updateSRS('again')" />
             <Button label="🟡 HARD" unstyled :pt="srsBtnPt('#ffcc00')" @click="updateSRS('hard')" />
             <Button label="🟢 GOOD" unstyled :pt="srsBtnPt('#33cc33')" @click="updateSRS('good')" />
             <Button label="🔵 EASY" unstyled :pt="srsBtnPt('#3399ff')" @click="updateSRS('easy')" />
           </div>
           
-          <div class="grid grid-cols-2 sm:grid-cols-[1fr,auto,1fr] items-center gap-3 mt-4">
+          <div class="grid grid-cols-2 sm:grid-cols-[1fr,auto,1fr] items-center gap-4 mt-6">
             <Button label="⬅️" unstyled :pt="navBtnPt" @click="prevCard" />
-            <div class="text-center font-bold text-lg text-white/90 whitespace-nowrap order-last sm:order-none col-span-2 sm:col-span-1 mt-1 sm:mt-0 bg-white/5 px-4 py-2 rounded-lg border border-white/10">
-              {{ currentStudyIndex + 1 }} <span class="text-white/30 mx-1">/</span> {{ filteredVocabulary.length }}
+            <div class="text-center font-black text-xl text-white tracking-widest whitespace-nowrap order-last sm:order-none col-span-2 sm:col-span-1 mt-2 sm:mt-0 bg-white/5 px-6 py-3 rounded-2xl border border-white/10 shadow-inner">
+              {{ currentStudyIndex + 1 }} <span class="text-white/20 mx-1">/</span> {{ filteredVocabulary.length }}
             </div>
             <Button label="➡️" unstyled :pt="navBtnPt" @click="nextCard" />
           </div>
         </div>
       </main>
 
-      <footer class="mt-20 pb-12 text-center text-[#94a3b8]">
-        <p>Version <span id="app-version">v{{ appVersion }}</span></p>
+      <footer class="mt-24 pb-16 text-center text-[#94a3b8] opacity-60 hover:opacity-100 transition-opacity">
+        <p class="text-sm font-medium tracking-wide">Version <span id="app-version">v{{ appVersion }}</span></p>
       </footer>
     </div>
   </div>
