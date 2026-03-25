@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/andreysey/anki-b2/compare/v1.1.0...v1.2.0) (2026-03-25)
+
+
+### Features
+
+* Implement a redesigned UI for the filter bar and vocabulary cards, enhancing styling, layout, and component usage. ([28690ca](https://github.com/andreysey/anki-b2/commit/28690ca5cb1209a22290dc5589e168297a8e0543))
+
 # [1.1.0](https://github.com/andreysey/anki-b2/compare/v1.0.0...v1.1.0) (2026-03-25)
 
 
