@@ -2,20 +2,6 @@
 
 @import "./base.css";
 
-@theme {
-  --color-primary: #00d2ff;
-  --color-secondary: #3a7bd5;
-}
-
-/* Ensure .glass is available since it's used in App.vue */
-.glass {
-  background: var(--glass-bg);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  border: 1px solid var(--glass-border);
-  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-}
-
 .custom-scrollbar::-webkit-scrollbar {
   width: 5px;
 }

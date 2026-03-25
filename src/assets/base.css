@@ -1,12 +1,6 @@
 :root {
-    --primary: #00d2ff;
-    --secondary: #3a7bd5;
-    --bg-dark: #0f172a;
-    --glass-bg: rgba(255, 255, 255, 0.05);
-    --glass-border: rgba(255, 255, 255, 0.1);
     --text-main: #f8fafc;
     --text-muted: #94a3b8;
-    --card-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -18,62 +12,9 @@
 
 body {
     font-family: 'Outfit', sans-serif;
-    background-color: var(--bg-dark);
-    color: var(--text-main);
     line-height: 1.6;
     overflow-x: hidden;
     min-height: 100vh;
 }
 
-/* Background Blobs */
-.background-blobs {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    overflow: hidden;
-    filter: blur(80px);
-}
-
-.blob {
-    position: absolute;
-    border-radius: 50%;
-    opacity: 0.15;
-}
-
-.blob-1 {
-    width: 500px;
-    height: 500px;
-    background: var(--primary);
-    top: -100px;
-    right: -100px;
-    animation: move 20s infinite alternate;
-}
-
-.blob-2 {
-    width: 400px;
-    height: 400px;
-    background: var(--secondary);
-    bottom: -100px;
-    left: -100px;
-    animation: move 25s infinite alternate-reverse;
-}
-
-.blob-3 {
-    width: 300px;
-    height: 300px;
-    background: #6366f1;
-    top: 40%;
-    left: 20%;
-    animation: move 30s infinite alternate;
-}
-
-@keyframes move {
-    from { transform: translate(0, 0) scale(1); }
-    to { transform: translate(100px, 50px) scale(1.1); }
-}
-
-/* Main application styling is now handled by Tailwind CSS v4 and PrimeVue (unstyled mode). 
-   This file only contains root variables and global resets. */
+/* Main application styling is now handled by Tailwind CSS v4 and PrimeVue. */

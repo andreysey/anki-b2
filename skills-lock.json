@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "skills": {
+    "primevue": {
+      "source": "kindy/skills",
+      "sourceType": "github",
+      "computedHash": "8c8fc1a48e793fbf149971ea2626292710e4232be7efef443c19d3b78014772d"
+    },
+    "tailwind-design-system": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "computedHash": "7ff2f4650597e98ca4cd8f01231fb432ab4d187d6b12e641485aa871a04448cc"
+    },
+    "tailwindcss-advanced-layouts": {
+      "source": "josiahsiegel/claude-plugin-marketplace",
+      "sourceType": "github",
+      "computedHash": "fa08c5757b8f24df2d412543d370bc25d8c14eadeb27be4112b2354323f5889f"
+    },
+    "vue3": {
+      "source": "teachingai/full-stack-skills",
+      "sourceType": "github",
+      "computedHash": "3aee2947043afe7e3ea8f3f3b5019c2b02e4ad0181f841ce9503628dcde04457"
+    }
+  }
+}

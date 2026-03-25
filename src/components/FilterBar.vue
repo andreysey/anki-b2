@@ -36,46 +36,24 @@ const levelOptions = [
   { label: 'B2', value: 'B2' }
 ];
 
-const selectPt = {
-  root: 'flex relative w-full h-12 bg-white/5 border border-white/10 rounded-2xl cursor-pointer transition-all hover:border-[#00d2ff]/50 hover:bg-white/10 shadow-lg shadow-black/20 overflow-hidden',
-  label: 'flex items-center px-5 text-white text-[0.95rem] font-medium leading-[3rem] h-full',
-  placeholder: 'flex items-center px-5 text-white/40 text-[0.95rem] font-medium leading-[3rem] h-full',
-  dropdown: 'flex items-center justify-center w-12 text-white/50 h-full border-l border-white/5',
-  panel: 'bg-[#0f172a] border border-white/10 rounded-2xl shadow-2xl mt-2 overflow-hidden z-[100] backdrop-blur-xl',
-  list: 'p-2 flex flex-col gap-1',
-  item: ({ context }: any) => ({
-    class: [
-      'px-4 py-3 rounded-xl cursor-pointer transition-all text-[0.95rem] font-medium',
-      context.focused ? 'bg-white/15 text-[#00d2ff]' : 'text-white/70 hover:bg-white/5 hover:text-white'
-    ]
-  })
-};
-
-const inputPt = {
-  root: 'w-full px-5 py-0 h-12 bg-white/5 border border-white/10 rounded-2xl text-white text-[0.95rem] font-medium focus:outline-none focus:border-[#00d2ff]/50 focus:bg-white/10 transition-all placeholder:text-white/30 shadow-lg shadow-black/20 flex items-center'
-};
-
-const buttonPt = {
-  root: 'whitespace-nowrap px-6 py-0 h-12 text-[0.95rem] font-bold rounded-2xl text-white shadow-xl transition-all w-full flex items-center justify-center gap-2 hover:-translate-y-1 active:scale-95'
-};
 </script>
 
 <template>
-  <div class="filters glass p-6 sm:p-8 mb-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1fr] gap-4 sm:gap-6 items-end shadow-2xl backdrop-blur-xl border border-white/10 rounded-[2.5rem]">
+  <div class="p-6 mb-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1fr] gap-6 items-end bg-surface-900 border border-surface-800 rounded-3xl shadow-xl">
     <!-- Search Section -->
     <div class="w-full flex flex-col gap-2">
-      <span class="text-[0.65rem] sm:text-[0.75rem] font-black uppercase tracking-[0.2em] text-[#00d2ff] opacity-70 ml-4">Search Vocabulary</span>
+      <span class="text-xs font-bold uppercase tracking-wider text-primary ml-2">Search Vocabulary</span>
       <InputText 
         :modelValue="search"
         @update:modelValue="emit('update:search', $event)"
         placeholder="Type to filter..." 
-        :pt="inputPt"
+        class="w-full"
       />
     </div>
     
     <!-- Level Section -->
     <div class="w-full flex flex-col gap-2">
-      <span class="text-[0.65rem] sm:text-[0.75rem] font-black uppercase tracking-[0.2em] text-white/40 ml-4">Level</span>
+      <span class="text-xs font-bold uppercase tracking-wider text-surface-400 ml-2">Level</span>
       <Select 
         :modelValue="level" 
         @update:modelValue="emit('update:level', $event)"
@@ -83,13 +61,13 @@ const buttonPt = {
         optionLabel="label"
         optionValue="value"
         placeholder="Select Level"
-        :pt="selectPt"
+        class="w-full"
       />
     </div>
 
     <!-- Theme Section -->
     <div class="w-full flex flex-col gap-2">
-      <span class="text-[0.65rem] sm:text-[0.75rem] font-black uppercase tracking-[0.2em] text-white/40 ml-4">Theme</span>
+      <span class="text-xs font-bold uppercase tracking-wider text-surface-400 ml-2">Theme</span>
       <Select 
         :modelValue="thema" 
         @update:modelValue="emit('update:thema', $event)"
@@ -97,7 +75,7 @@ const buttonPt = {
         optionLabel="label"
         optionValue="value"
         placeholder="Select Theme"
-        :pt="selectPt"
+        class="w-full"
       />
     </div>
 
@@ -106,14 +84,11 @@ const buttonPt = {
       <!-- Hidden label for alignment -->
       <span class="hidden lg:block text-[0.75rem] invisible">&nbsp;</span>
       <Button 
-        :label="isStudyMode ? '📋 Back to List' : '🎓 Start Study'"
+        :label="isStudyMode ? 'Back to List' : 'Start Study'"
+        :icon="isStudyMode ? 'pi pi-list' : 'pi pi-graduation-cap'"
         @click="emit('update:isStudyMode', !isStudyMode)"
-        :pt="{
-          root: [
-            buttonPt.root,
-            isStudyMode ? 'bg-gradient-to-br from-[#22c55e] to-[#16a34a] shadow-green-500/30' : 'bg-gradient-to-br from-[#00d2ff] to-[#3a7bd5] shadow-[#00d2ff]/30'
-          ]
-        }"
+        :severity="isStudyMode ? 'success' : 'primary'"
+        class="w-full"
       />
     </div>
   </div>
