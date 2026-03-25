@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/andreysey/anki-b2/compare/v1.2.0...v1.3.0) (2026-03-25)
+
+
+### Features
+
+* Migrate to PrimeVue Aura theme, remove custom styling, and implement infinite scrolling for vocabulary lists. ([2f69815](https://github.com/andreysey/anki-b2/commit/2f69815ab935ffe42462acbc899d259b29046c6b))
+
 # [1.2.0](https://github.com/andreysey/anki-b2/compare/v1.1.0...v1.2.0) (2026-03-25)
 
 
