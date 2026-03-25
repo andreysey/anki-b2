@@ -40,8 +40,8 @@ const levelOptions = [
 </script>
 
 <template>
-  <Panel class="mb-12 shadow-xl">
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1fr] gap-6 items-end">
+  <Panel class="shadow-xl p-fluid">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 items-end">
     <!-- Search Section -->
     <div class="w-full flex flex-col gap-2">
       <span class="text-xs font-bold uppercase tracking-wider text-primary ml-2">Search Vocabulary</span>
@@ -83,8 +83,7 @@ const levelOptions = [
 
     <!-- Mode Toggle Section -->
     <div class="w-full flex flex-col gap-2">
-      <!-- Hidden label for alignment -->
-      <span class="hidden lg:block text-[0.75rem] invisible">&nbsp;</span>
+      <span class="text-xs font-bold uppercase tracking-wider text-surface-400 ml-2 lg:invisible lg:h-4">Action</span>
       <Button 
         :label="isStudyMode ? 'Back to List' : 'Start Study'"
         :icon="isStudyMode ? 'pi pi-list' : 'pi pi-graduation-cap'"
