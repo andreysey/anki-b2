@@ -7,6 +7,13 @@ import Card from 'primevue/card';
 import Badge from 'primevue/badge';
 import Divider from 'primevue/divider';
 import Button from 'primevue/button';
+import Message from 'primevue/message';
+import ProgressBar from 'primevue/progressbar';
+import SelectButton from 'primevue/selectbutton';
+import Tag from 'primevue/tag';
+import Toast from 'primevue/toast';
+import { useToast } from 'primevue/usetoast';
+import { computed } from 'vue';
 
 const {
   vocabulary,
@@ -29,6 +36,41 @@ const {
   getItemKey
 } = useVocabulary();
 
+const toast = useToast();
+
+const studyProgress = computed(() => {
+  if (filteredVocabulary.value.length === 0) return 0;
+  return Math.round(((currentStudyIndex.value + 1) / filteredVocabulary.value.length) * 100);
+});
+
+const directionOptions = [
+  { label: 'DE', value: 'DE_TO_UA' },
+  { label: 'UA', value: 'UA_TO_DE' }
+];
+
+const audioOptions = [
+  { label: 'Audio On', value: true },
+  { label: 'Audio Off', value: false }
+];
+
+const handleSRSUpdate = (severity: 'again' | 'hard' | 'good' | 'easy') => {
+  updateSRS(severity);
+  const labels: Record<string, string> = { again: 'Again', hard: 'Hard', good: 'Good', easy: 'Easy' };
+  const toastSeverity: Record<string, 'error' | 'warn' | 'success' | 'info'> = {
+    again: 'error',
+    hard: 'warn',
+    good: 'success',
+    easy: 'info'
+  };
+  
+  toast.add({ 
+    severity: toastSeverity[severity], 
+    summary: 'Graded', 
+    detail: labels[severity], 
+    life: 2000 
+  });
+};
+
 onMounted(() => {
   init();
   window.addEventListener('keydown', handleGlobalKeydown);
@@ -49,10 +91,10 @@ const handleGlobalKeydown = (e: KeyboardEvent) => {
   } else if (e.code === 'ArrowLeft') {
     prevCard();
   } else if (isFlipped.value) {
-    if (e.key === '1') updateSRS('again');
-    else if (e.key === '2') updateSRS('hard');
-    else if (e.key === '3') updateSRS('good');
-    else if (e.key === '4') updateSRS('easy');
+    if (e.key === '1') handleSRSUpdate('again');
+    else if (e.key === '2') handleSRSUpdate('hard');
+    else if (e.key === '3') handleSRSUpdate('good');
+    else if (e.key === '4') handleSRSUpdate('easy');
   }
 };
 
@@ -89,11 +131,9 @@ const appVersion = __APP_VERSION__;
         />
 
         <!-- Empty State -->
-        <div v-if="!isStudyMode && filteredVocabulary.length === 0" class="flex flex-col items-center justify-center py-20 px-6 text-center rounded-3xl border border-surface-800 bg-surface-900 shadow-2xl animate-in fade-in zoom-in duration-500">
-            <div class="text-7xl mb-8 opacity-20">🔍</div>
-            <h3 class="text-2xl sm:text-3xl font-bold mb-4">No results found</h3>
-            <p class="text-surface-400 text-lg max-w-md mx-auto leading-relaxed">We couldn't find any vocabulary matching your current search or filter criteria. Try adjusting your filters.</p>
-        </div>
+        <Message v-if="!isStudyMode && filteredVocabulary.length === 0" severity="secondary" icon="pi pi-search" class="mb-12">
+            No results found matching your current search or filter criteria. Try adjusting your filters.
+        </Message>
 
         <!-- List View -->
         <div v-if="!isStudyMode && filteredVocabulary.length > 0" class="flex flex-col gap-16 sm:gap-24">
@@ -144,18 +184,20 @@ const appVersion = __APP_VERSION__;
 
         <!-- Study Mode -->
         <div v-else class="flex flex-col gap-8 max-w-[650px] mx-auto w-full px-2 sm:px-0">
-          <div class="flex justify-center gap-3 flex-wrap sm:flex-nowrap">
-            <Button 
-              :label="'Direction: ' + (studyDirection === 'DE_TO_UA' ? 'DE' : 'UA')"
-              icon="pi pi-refresh"
-              severity="secondary"
-              @click="studyDirection = studyDirection === 'DE_TO_UA' ? 'UA_TO_DE' : 'DE_TO_UA'"
+          <div class="flex justify-center gap-4 flex-wrap sm:flex-nowrap">
+            <SelectButton 
+              v-model="studyDirection" 
+              :options="directionOptions" 
+              optionLabel="label" 
+              optionValue="value" 
+              :allowEmpty="false"
             />
-            <Button 
-              :label="'Audio: ' + (isAutoplay ? 'On' : 'Off')"
-              icon="pi pi-volume-up"
-              :severity="isAutoplay ? 'primary' : 'secondary'"
-              @click="isAutoplay = !isAutoplay"
+            <SelectButton 
+              v-model="isAutoplay" 
+              :options="audioOptions" 
+              optionLabel="label" 
+              optionValue="value" 
+              :allowEmpty="false"
             />
             <Button 
               label="Shuffle"
@@ -164,6 +206,8 @@ const appVersion = __APP_VERSION__;
               @click="shuffleCards"
             />
           </div>
+
+          <ProgressBar :value="studyProgress" class="h-2 mb-2" />
 
           <VocabularyCard 
             v-if="filteredVocabulary.length > 0"
@@ -174,10 +218,10 @@ const appVersion = __APP_VERSION__;
           />
 
           <div v-if="isFlipped" class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-2">
-            <Button label="AGAIN" severity="danger" @click="updateSRS('again')" />
-            <Button label="HARD" severity="warning" @click="updateSRS('hard')" />
-            <Button label="GOOD" severity="success" @click="updateSRS('good')" />
-            <Button label="EASY" severity="info" @click="updateSRS('easy')" />
+            <Button label="AGAIN" severity="danger" @click="handleSRSUpdate('again')" />
+            <Button label="HARD" severity="warning" @click="handleSRSUpdate('hard')" />
+            <Button label="GOOD" severity="success" @click="handleSRSUpdate('good')" />
+            <Button label="EASY" severity="info" @click="handleSRSUpdate('easy')" />
           </div>
           
           <div class="flex items-center gap-4 mt-6">
@@ -190,10 +234,13 @@ const appVersion = __APP_VERSION__;
         </div>
       </main>
 
-      <footer class="mt-24 pb-16 text-center text-[#94a3b8] opacity-60 hover:opacity-100 transition-opacity">
-        <p class="text-sm font-medium tracking-wide">Version <span id="app-version">v{{ appVersion }}</span></p>
+      <footer class="mt-24 pb-16 text-center text-surface-500 transition-opacity">
+        <p class="text-sm font-medium tracking-wide">
+          <Tag :value="'v' + appVersion" severity="secondary" rounded />
+        </p>
       </footer>
     </div>
+    <Toast />
   </div>
 </template>
 

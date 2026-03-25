@@ -4,6 +4,7 @@ import type { Word } from '../types';
 import Select from 'primevue/select';
 import InputText from 'primevue/inputtext';
 import Button from 'primevue/button';
+import Panel from 'primevue/panel';
 
 const props = defineProps<{
   vocabulary: Word[];
@@ -39,7 +40,8 @@ const levelOptions = [
 </script>
 
 <template>
-  <div class="p-6 mb-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1fr] gap-6 items-end bg-surface-900 border border-surface-800 rounded-3xl shadow-xl">
+  <Panel class="mb-12 shadow-xl">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1fr] gap-6 items-end">
     <!-- Search Section -->
     <div class="w-full flex flex-col gap-2">
       <span class="text-xs font-bold uppercase tracking-wider text-primary ml-2">Search Vocabulary</span>
@@ -88,10 +90,10 @@ const levelOptions = [
         :icon="isStudyMode ? 'pi pi-list' : 'pi pi-graduation-cap'"
         @click="emit('update:isStudyMode', !isStudyMode)"
         :severity="isStudyMode ? 'success' : 'primary'"
-        class="w-full"
       />
     </div>
-  </div>
+    </div>
+  </Panel>
 </template>
 
 <style scoped>
