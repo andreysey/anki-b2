@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@import "./base.css";
+
+@theme {
+  --color-primary: #00d2ff;
+  --color-secondary: #3a7bd5;
+}
+
+/* Ensure .glass is available since it's used in App.vue */
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}

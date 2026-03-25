@@ -129,7 +129,6 @@ h1 {
 
 .search-box {
     flex: 1;
-    min-width: 300px;
     position: relative;
 }
 
@@ -178,7 +177,6 @@ select {
     font-size: 0.9rem;
     cursor: pointer;
     transition: var(--transition);
-    min-width: 140px;
 }
 
 select:hover {
@@ -201,7 +199,7 @@ option {
 /* Grid */
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 2rem;
 }
 

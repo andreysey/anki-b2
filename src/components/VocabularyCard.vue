@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed } from 'vue';
 import type { Word, StudyDirection } from '../types';
+import Button from 'primevue/button';
 
 const props = defineProps<{
   word: Word;
@@ -21,115 +22,62 @@ const playAudio = (text: string) => {
 };
 
 const showGermanOnFront = computed(() => props.direction === 'DE_TO_UA');
+
+const ttsButtonPt = {
+  root: 'bg-[#00d2ff]/10 border border-[#00d2ff]/20 rounded-full w-12 h-12 flex items-center justify-center cursor-pointer transition-all hover:bg-[#00d2ff] hover:text-[#0f172a] hover:scale-110 active:scale-95'
+};
 </script>
 
 <template>
-  <div class="scene" @click="emit('flip')">
-    <div class="study-card" :class="{ 'is-flipped': isFlipped }">
+  <div class="scene w-full max-w-[500px] h-[320px] sm:h-[350px] perspective-[1000px] cursor-pointer mx-auto" @click="emit('flip')">
+    <div class="study-card relative w-full h-full transition-transform duration-700 [transform-style:preserve-3d]" :class="{ '[transform:rotateY(180deg)]': isFlipped }">
       <!-- Front -->
-      <div class="study-card-face study-card-front glass">
+      <div class="study-card-face study-card-front glass absolute w-full h-full [backface-visibility:hidden] flex flex-col items-center justify-center p-6 sm:p-10 text-center rounded-[24px]">
         <template v-if="showGermanOnFront">
-          <h2 class="card-title">
-            <span v-html="word.german"></span>
-            <button class="tts-btn" @click.stop="playAudio(word.german_audio)" title="Play pronunciation">🔊</button>
-          </h2>
-          <div class="meta">(Thema {{ word.thema }})</div>
+          <div class="flex flex-col items-center gap-6">
+            <h2 class="text-2xl sm:text-4xl font-bold leading-tight text-white" v-html="word.german"></h2>
+            <Button 
+              label="🔊"
+              @click.stop="playAudio(word.german_audio)" 
+              unstyled 
+              :pt="ttsButtonPt"
+              title="Play pronunciation"
+            />
+          </div>
+          <div class="mt-8 text-sm opacity-50 font-medium tracking-wide uppercase">Thema {{ word.thema }}</div>
         </template>
         <template v-else>
-          <div class="translation">{{ word.ukrainian }}</div>
-          <div class="translation-en">{{ word.english }}</div>
-          <div class="meta">(Thema {{ word.thema }})</div>
+          <div class="flex flex-col items-center gap-2">
+            <div class="text-2xl sm:text-3xl font-bold text-white leading-tight">{{ word.ukrainian }}</div>
+            <div class="text-lg sm:text-xl text-[#94a3b8] font-medium opacity-80">{{ word.english }}</div>
+          </div>
+          <div class="mt-8 text-sm opacity-50 font-medium tracking-wide uppercase">Thema {{ word.thema }}</div>
         </template>
       </div>
 
       <!-- Back -->
-      <div class="study-card-face study-card-back glass">
+      <div class="study-card-face study-card-back glass absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)] flex flex-col items-center justify-center p-6 sm:p-10 text-center rounded-[24px]">
         <template v-if="showGermanOnFront">
-          <div class="translation">{{ word.ukrainian }}</div>
-          <div class="translation-en">{{ word.english }}</div>
-          <div v-if="word.example" class="example" v-html="word.example"></div>
+          <div class="flex flex-col items-center gap-3">
+            <div class="text-2xl sm:text-3xl font-bold text-white leading-tight">{{ word.ukrainian }}</div>
+            <div class="text-lg sm:text-xl text-[#94a3b8] font-medium">{{ word.english }}</div>
+          </div>
+          <div v-if="word.example" class="mt-8 pt-6 border-t border-white/10 italic text-[#cbd5e1] text-[1.05rem] leading-relaxed max-w-[90%]" v-html="word.example"></div>
         </template>
         <template v-else>
-          <h2 class="card-title">
-            <span v-html="word.german"></span>
-            <button class="tts-btn" @click.stop="playAudio(word.german_audio)" title="Play pronunciation">🔊</button>
-          </h2>
-          <div v-if="word.example" class="example" v-html="word.example"></div>
+          <div class="flex flex-col items-center gap-6">
+            <h2 class="text-2xl sm:text-4xl font-bold leading-tight text-white" v-html="word.german"></h2>
+            <Button 
+              label="🔊"
+              @click.stop="playAudio(word.german_audio)" 
+              unstyled 
+              :pt="ttsButtonPt"
+              title="Play pronunciation"
+            />
+          </div>
+          <div v-if="word.example" class="mt-8 pt-6 border-t border-white/10 italic text-[#cbd5e1] text-[1.05rem] leading-relaxed max-w-[90%]" v-html="word.example"></div>
         </template>
       </div>
     </div>
   </div>
 </template>
-
-<style scoped>
-.scene {
-  width: 100%;
-  max-width: 500px;
-  height: 350px;
-  perspective: 1000px;
-  cursor: pointer;
-  margin: 0 auto;
-}
-
-.study-card {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
-  transform-style: preserve-3d;
-}
-
-.study-card.is-flipped {
-  transform: rotateY(180deg);
-}
-
-.study-card-face {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 2rem;
-  text-align: center;
-  border-radius: 24px;
-}
-
-.study-card-back {
-  transform: rotateY(180deg);
-}
-
-.card-title {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
-  font-size: 2rem;
-}
-
-.translation {
-  font-size: 1.8rem;
-  font-weight: 600;
-  margin-bottom: 0.5rem;
-}
-
-.translation-en {
-  font-size: 1.2rem;
-  opacity: 0.7;
-}
-
-.meta {
-  margin-top: 2rem;
-  font-size: 0.9rem;
-  opacity: 0.5;
-}
-
-.example {
-  margin-top: 2rem;
-  font-style: italic;
-  opacity: 0.8;
-  font-size: 1.1rem;
-}
-</style>
