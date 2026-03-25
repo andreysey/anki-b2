@@ -65,14 +65,9 @@ const appVersion = __APP_VERSION__;
 
 <template>
   <div class="app-container">
-    <header>
+    <header class="app-header">
       <h1>German B1+/B2 Beruf</h1>
       <p class="subtitle">Interactive Vocabulary Dictionary</p>
-      <div class="header-controls">
-        <button class="nav-btn mode-toggle" @click="isStudyMode = !isStudyMode">
-          {{ isStudyMode ? '📋 List View' : '🎓 Study Mode' }}
-        </button>
-      </div>
     </header>
 
     <main>
@@ -81,6 +76,7 @@ const appVersion = __APP_VERSION__;
         v-model:search="search"
         v-model:level="levelFilter"
         v-model:thema="themaFilter"
+        v-model:isStudyMode="isStudyMode"
       />
 
       <!-- List View -->
