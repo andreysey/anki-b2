@@ -56,22 +56,21 @@ const ttsButtonPt = {
   <div class="w-full max-w-[550px] h-[350px] xs:h-[380px] sm:h-[420px] [perspective:1500px] cursor-pointer mx-auto group" @click="emit('flip')">
     <div class="relative w-full h-full transition-all duration-[800ms] [transform-style:preserve-3d] shadow-2xl rounded-[32px]" :class="{ '[transform:rotateY(180deg)]': isFlipped }">
       <!-- Front -->
-      <Card unstyled :pt="cardPt">
+      <Card :pt="cardPt">
         <template #header>
           <div class="absolute top-6 left-8 right-8 flex justify-between items-center z-20">
-            <Badge :value="word.level" unstyled :pt="badgePt" class="!bg-[#00d2ff]/20 !border-[#00d2ff]/30 !text-[#00d2ff]" />
-            <Badge :value="'Thema ' + word.thema" unstyled :pt="badgePt" class="!bg-white/5 !border-white/10 !text-white/50" />
+            <Badge :value="word.level" :pt="badgePt" class="!bg-[#00d2ff]/20 !border-[#00d2ff]/30 !text-[#00d2ff]" />
+            <Badge :value="'Thema ' + word.thema" :pt="badgePt" class="!bg-white/5 !border-white/10 !text-white/50" />
           </div>
         </template>
         <template #content>
-          <ScrollPanel unstyled :pt="scrollPanelPt">
+          <ScrollPanel :pt="scrollPanelPt">
             <template v-if="showGermanOnFront">
               <div class="flex flex-col items-center gap-8 sm:gap-10 w-full">
                 <h2 class="text-3xl sm:text-4xl md:text-5xl font-black leading-tight text-white break-words w-full px-2 mt-4" style="hyphens: auto;" v-html="word.german"></h2>
                 <Button 
                   label="🔊"
                   @click.stop="playAudio(word.german_audio)" 
-                  unstyled 
                   :pt="ttsButtonPt"
                   title="Play pronunciation"
                 />
@@ -88,25 +87,25 @@ const ttsButtonPt = {
       </Card>
 
       <!-- Back -->
-      <Card unstyled :pt="{ 
+      <Card :pt="{ 
         ...cardPt, 
         root: [cardPt.root, '[transform:rotateY(180deg)] !border-[#00d2ff]/20 !bg-gradient-to-br !from-[#00d2ff]/5 !to-transparent'] 
       }">
         <template #header>
           <div class="absolute top-6 left-8 right-8 flex justify-between items-center z-20">
-            <Badge :value="word.level" unstyled :pt="badgePt" class="!bg-[#00d2ff]/20 !border-[#00d2ff]/30 !text-[#00d2ff]" />
-            <Badge :value="'Thema ' + word.thema" unstyled :pt="badgePt" class="!bg-white/5 !border-white/10 !text-white/50" />
+            <Badge :value="word.level" :pt="badgePt" class="!bg-[#00d2ff]/20 !border-[#00d2ff]/30 !text-[#00d2ff]" />
+            <Badge :value="'Thema ' + word.thema" :pt="badgePt" class="!bg-white/5 !border-white/10 !text-white/50" />
           </div>
         </template>
         <template #content>
-          <ScrollPanel unstyled :pt="scrollPanelPt">
+          <ScrollPanel :pt="scrollPanelPt">
             <template v-if="showGermanOnFront">
               <div class="flex flex-col items-center gap-6 w-full">
                 <div class="text-2xl sm:text-3xl md:text-4xl font-black text-white leading-tight break-words w-full">{{ word.ukrainian }}</div>
                 <div class="text-lg sm:text-xl text-[#94a3b8] font-bold tracking-wide">{{ word.english }}</div>
               </div>
               <template v-if="word.example">
-                <Divider unstyled :pt="dividerPt" />
+                <Divider :pt="dividerPt" />
                 <div class="italic text-[#cbd5e1] text-[0.95rem] sm:text-[1.15rem] leading-relaxed max-w-[95%] opacity-90" v-html="word.example"></div>
               </template>
             </template>
@@ -116,13 +115,12 @@ const ttsButtonPt = {
                 <Button 
                   label="🔊"
                   @click.stop="playAudio(word.german_audio)" 
-                  unstyled 
                   :pt="ttsButtonPt"
                   title="Play pronunciation"
                 />
               </div>
               <template v-if="word.example">
-                <Divider unstyled :pt="dividerPt" />
+                <Divider :pt="dividerPt" />
                 <div class="italic text-[#cbd5e1] text-[0.95rem] sm:text-[1.15rem] leading-relaxed max-w-[95%] opacity-90" v-html="word.example"></div>
               </template>
             </template>

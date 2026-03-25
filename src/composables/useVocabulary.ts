@@ -1,4 +1,4 @@
-import { ref, computed } from 'vue';
+import { ref, computed, watch } from 'vue';
 import type { Word, SRSState, StudyDirection } from '../types';
 
 export function useVocabulary() {
@@ -11,12 +11,18 @@ export function useVocabulary() {
   const search = ref('');
   const levelFilter = ref('all');
   const themaFilter = ref('all');
+  const displayLimit = ref(50);
   
   const isStudyMode = ref(false);
   const currentStudyIndex = ref(0);
   const isFlipped = ref(false);
   const studyDirection = ref<StudyDirection>('DE_TO_UA');
   const isAutoplay = ref(false);
+
+  // Reset display limit when filters change
+  watch([search, levelFilter, themaFilter], () => {
+    displayLimit.value = 50;
+  });
 
   // Load data
   const init = async () => {
@@ -118,11 +124,13 @@ export function useVocabulary() {
     isFlipped,
     studyDirection,
     isAutoplay,
+    displayLimit,
     init,
     updateSRS,
     nextCard,
     prevCard,
     shuffleCards,
+    loadMore: () => { displayLimit.value += 50 },
     getItemKey
   };
 }

@@ -19,11 +19,13 @@ const {
   isFlipped,
   studyDirection,
   isAutoplay,
+  displayLimit,
   init,
   updateSRS,
   nextCard,
   prevCard,
   shuffleCards,
+  loadMore,
   getItemKey
 } = useVocabulary();
 
@@ -113,41 +115,59 @@ const srsBtnPt = (color: string) => ({
           v-model:isStudyMode="isStudyMode"
         />
 
+        <!-- Empty State -->
+        <div v-if="!isStudyMode && filteredVocabulary.length === 0" class="flex flex-col items-center justify-center py-20 px-6 text-center glass rounded-[2.5rem] border border-white/10 shadow-2xl animate-in fade-in zoom-in duration-500">
+            <div class="text-7xl mb-8 opacity-20 filter grayscale">🔍</div>
+            <h3 class="text-2xl sm:text-3xl font-bold text-white mb-4">No results found</h3>
+            <p class="text-[#94a3b8] text-lg max-w-md mx-auto leading-relaxed">We couldn't find any vocabulary matching your current search or filter criteria. Try adjusting your filters.</p>
+        </div>
+
         <!-- List View -->
-        <div v-if="!isStudyMode" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-12 lg:gap-16">
-          <Card 
-            v-for="item in filteredVocabulary.slice(0, 50)" 
-            :key="getItemKey(item)" 
-            unstyled 
-            :pt="cardListPt"
-          >
-            <template #header>
-              <div class="flex justify-between p-8 pb-0">
-                <Badge :value="item.level" unstyled :pt="badgeListPt" class="!bg-[#00d2ff]/15 !text-[#00d2ff] !border-none" />
-                <Badge :value="'Thema ' + item.thema" unstyled :pt="badgeListPt" class="!bg-white/10 !text-[#94a3b8] !border-none" />
-              </div>
-            </template>
-            <template #content>
-              <div class="flex justify-between items-start mb-4 gap-4">
-                <div class="text-[1.3rem] sm:text-[1.6rem] font-bold leading-[1.2] text-white group-hover:text-[#00d2ff] transition-colors" v-html="item.german"></div>
-                <Button 
-                  label="🔊" 
-                  @click="playAudio(item.german_audio)" 
-                  unstyled 
-                  :pt="ttsBtnPt"
-                  title="Play pronunciation"
-                />
-              </div>
-              <div class="space-y-2 mb-6">
-                <div class="text-[#a5b4fc] text-[1.1rem] font-semibold leading-snug">{{ item.english }}</div>
-                <div class="text-[#fde047] text-[1.1rem] font-semibold leading-snug">{{ item.ukrainian }}</div>
-              </div>
-              <template v-if="item.example">
-                <Divider unstyled :pt="{ root: 'my-6 border-white/5' }" />
-                <div class="italic text-[#94a3b8] text-[0.95rem] leading-relaxed opacity-80" v-html="item.example"></div>
+        <div v-if="!isStudyMode && filteredVocabulary.length > 0" class="flex flex-col gap-16 sm:gap-24">
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-12 lg:gap-16">
+            <Card 
+              v-for="item in filteredVocabulary.slice(0, displayLimit)" 
+              :key="getItemKey(item)" 
+              :pt="cardListPt"
+            >
+              <template #header>
+                <div class="flex justify-between p-8 pb-0">
+                  <Badge :value="item.level" :pt="badgeListPt" class="!bg-[#00d2ff]/15 !text-[#00d2ff] !border-none" />
+                  <Badge :value="'Thema ' + item.thema" :pt="badgeListPt" class="!bg-white/10 !text-[#94a3b8] !border-none" />
+                </div>
               </template>
-            </template>
-          </Card>
+              <template #content>
+                <div class="flex justify-between items-start mb-4 gap-4">
+                  <div class="text-[1.3rem] sm:text-[1.6rem] font-bold leading-[1.2] text-white group-hover:text-[#00d2ff] transition-colors" v-html="item.german"></div>
+                  <Button 
+                    label="🔊" 
+                    @click="playAudio(item.german_audio)" 
+                    :pt="ttsBtnPt"
+                    title="Play pronunciation"
+                  />
+                </div>
+                <div class="space-y-2 mb-6">
+                  <div class="text-[#a5b4fc] text-[1.1rem] font-semibold leading-snug">{{ item.english }}</div>
+                  <div class="text-[#fde047] text-[1.1rem] font-semibold leading-snug">{{ item.ukrainian }}</div>
+                </div>
+                <template v-if="item.example">
+                  <Divider :pt="{ root: 'my-6 border-white/5' }" />
+                  <div class="italic text-[#94a3b8] text-[0.95rem] leading-relaxed opacity-80" v-html="item.example"></div>
+                </template>
+              </template>
+            </Card>
+          </div>
+
+          <!-- Load More -->
+          <div v-if="displayLimit < filteredVocabulary.length" class="flex justify-center pb-20">
+            <Button 
+              label="Explore More Vocabulary +" 
+              @click="loadMore"
+              :pt="{
+                root: 'px-12 py-5 bg-white/5 border border-white/10 rounded-2xl text-[#00d2ff] font-black tracking-[0.2em] uppercase text-[0.7rem] hover:bg-[#00d2ff]/10 hover:border-[#00d2ff]/30 transition-all active:scale-95 shadow-2xl hover:shadow-[#00d2ff]/10'
+              }"
+            />
+          </div>
         </div>
 
         <!-- Study Mode -->
@@ -155,13 +175,11 @@ const srsBtnPt = (color: string) => ({
           <div class="flex justify-center gap-3 flex-wrap sm:flex-nowrap">
             <Button 
               :label="'🔄 ' + (studyDirection === 'DE_TO_UA' ? 'DE' : 'UA')"
-              unstyled
               :pt="settingsBtnPt"
               @click="studyDirection = studyDirection === 'DE_TO_UA' ? 'UA_TO_DE' : 'DE_TO_UA'"
             />
             <Button 
               :label="'🔊 ' + (isAutoplay ? 'On' : 'Off')"
-              unstyled
               :pt="{
                 root: [
                   settingsBtnPt.root,
@@ -187,18 +205,18 @@ const srsBtnPt = (color: string) => ({
           />
 
           <div v-if="isFlipped" class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-2">
-            <Button label="🔴 AGAIN" unstyled :pt="srsBtnPt('#ff4d4d')" @click="updateSRS('again')" />
-            <Button label="🟡 HARD" unstyled :pt="srsBtnPt('#ffcc00')" @click="updateSRS('hard')" />
-            <Button label="🟢 GOOD" unstyled :pt="srsBtnPt('#33cc33')" @click="updateSRS('good')" />
-            <Button label="🔵 EASY" unstyled :pt="srsBtnPt('#3399ff')" @click="updateSRS('easy')" />
+            <Button label="🔴 AGAIN" :pt="srsBtnPt('#ff4d4d')" @click="updateSRS('again')" />
+            <Button label="🟡 HARD" :pt="srsBtnPt('#ffcc00')" @click="updateSRS('hard')" />
+            <Button label="🟢 GOOD" :pt="srsBtnPt('#33cc33')" @click="updateSRS('good')" />
+            <Button label="🔵 EASY" :pt="srsBtnPt('#3399ff')" @click="updateSRS('easy')" />
           </div>
           
           <div class="grid grid-cols-2 sm:grid-cols-[1fr,auto,1fr] items-center gap-4 mt-6">
-            <Button label="⬅️" unstyled :pt="navBtnPt" @click="prevCard" />
+            <Button label="⬅️" :pt="navBtnPt" @click="prevCard" />
             <div class="text-center font-black text-xl text-white tracking-widest whitespace-nowrap order-last sm:order-none col-span-2 sm:col-span-1 mt-2 sm:mt-0 bg-white/5 px-6 py-3 rounded-2xl border border-white/10 shadow-inner">
               {{ currentStudyIndex + 1 }} <span class="text-white/20 mx-1">/</span> {{ filteredVocabulary.length }}
             </div>
-            <Button label="➡️" unstyled :pt="navBtnPt" @click="nextCard" />
+            <Button label="➡️" :pt="navBtnPt" @click="nextCard" />
           </div>
         </div>
       </main>

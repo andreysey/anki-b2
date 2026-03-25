@@ -69,7 +69,6 @@ const buttonPt = {
         :modelValue="search"
         @update:modelValue="emit('update:search', $event)"
         placeholder="Type to filter..." 
-        unstyled
         :pt="inputPt"
       />
     </div>
@@ -84,7 +83,6 @@ const buttonPt = {
         optionLabel="label"
         optionValue="value"
         placeholder="Select Level"
-        unstyled
         :pt="selectPt"
       />
     </div>
@@ -99,7 +97,6 @@ const buttonPt = {
         optionLabel="label"
         optionValue="value"
         placeholder="Select Theme"
-        unstyled
         :pt="selectPt"
       />
     </div>
@@ -111,7 +108,6 @@ const buttonPt = {
       <Button 
         :label="isStudyMode ? '📋 Back to List' : '🎓 Start Study'"
         @click="emit('update:isStudyMode', !isStudyMode)"
-        unstyled
         :pt="{
           root: [
             buttonPt.root,
