@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/andreysey/anki-b2/compare/v1.3.0...v1.4.0) (2026-03-25)
+
+
+### Features
+
+* Add comprehensive Vue 3, PrimeVue, and Tailwind CSS skill documentation, update core application components and styles, and refactor public assets. ([490325f](https://github.com/andreysey/anki-b2/commit/490325f992e31d8b0b92679bbcff34fcd936cee1))
+
 # [1.3.0](https://github.com/andreysey/anki-b2/compare/v1.2.0...v1.3.0) (2026-03-25)
 
 
