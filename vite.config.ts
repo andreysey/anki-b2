@@ -21,6 +21,8 @@ export default defineConfig({
         short_name: 'AnkiB2',
         description: 'Interactive Professional Vocabulary Dictionary',
         theme_color: '#0f172a',
+        background_color: '#0f172a',
+        display: 'standalone',
         icons: [
           {
             src: 'icon-192.png',
