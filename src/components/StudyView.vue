@@ -69,17 +69,18 @@ const emit = defineEmits([
 
     <!-- SRS Buttons -->
     <div v-if="isFlipped" class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-2">
-      <Button label="AGAIN" severity="danger" @click="emit('update-srs', 'again')" />
-      <Button label="HARD" severity="warning" @click="emit('update-srs', 'hard')" />
-      <Button label="GOOD" severity="success" @click="emit('update-srs', 'good')" />
-      <Button label="EASY" severity="info" @click="emit('update-srs', 'easy')" />
+      <Button label="AGAIN (1)" severity="danger" @click="emit('update-srs', 'again')" />
+      <Button label="HARD (2)" severity="warning" @click="emit('update-srs', 'hard')" />
+      <Button label="GOOD (3)" severity="success" @click="emit('update-srs', 'good')" />
+      <Button label="EASY (4)" severity="info" @click="emit('update-srs', 'easy')" />
     </div>
     
     <!-- Navigation -->
     <div class="flex items-center gap-4 mt-6">
       <Button icon="pi pi-chevron-left" severity="secondary" @click="emit('prev')" />
-      <div class="flex-1 text-center font-bold text-xl bg-surface-900 px-6 py-3 rounded-xl border border-surface-800">
-        {{ currentStudyIndex + 1 }} / {{ vocabulary.length }}
+      <div class="flex-1 text-center font-bold text-xl bg-surface-900 px-6 py-3 rounded-xl border border-surface-800 flex flex-col justify-center items-center">
+        <div>{{ currentStudyIndex + 1 }} / {{ vocabulary.length }}</div>
+        <div class="text-sm text-surface-400 font-normal mt-1 hidden sm:block">Space to flip &bull; Arrows to navigate</div>
       </div>
       <Button icon="pi pi-chevron-right" severity="secondary" @click="emit('next')" />
     </div>
