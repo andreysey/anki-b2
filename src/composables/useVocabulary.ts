@@ -1,6 +1,13 @@
 import { ref, computed, watch } from 'vue';
 import type { Word, SRSState, StudyDirection } from '../types';
 
+const LEVEL_TRANSITIONS: Record<'again' | 'hard' | 'good' | 'easy', (level: number) => number> = {
+  again: () => 0,
+  hard: (level) => Math.max(0, level),
+  good: (level) => Math.min(5, level + 1),
+  easy: (level) => Math.min(5, level + 2),
+};
+
 export function useVocabulary() {
   const vocabulary = ref<Word[]>([]);
   const masteredIds = ref<Set<string>>(new Set());
@@ -76,11 +83,7 @@ export function useVocabulary() {
     const key = getItemKey(item);
     const current = srsData.value[key] || { level: 0, lastReview: 0 };
     
-    let newLevel = current.level;
-    if (rating === 'again') newLevel = 0;
-    else if (rating === 'hard') newLevel = Math.max(0, current.level);
-    else if (rating === 'good') newLevel = Math.min(5, current.level + 1);
-    else if (rating === 'easy') newLevel = Math.min(5, current.level + 2);
+    const newLevel = LEVEL_TRANSITIONS[rating](current.level);
     
     srsData.value[key] = {
       level: newLevel,
