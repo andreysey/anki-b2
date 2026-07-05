@@ -4,7 +4,7 @@ import Badge from 'primevue/badge';
 import Button from 'primevue/button';
 import Divider from 'primevue/divider';
 import type { Word } from '../types';
-import DOMPurify from 'dompurify';
+import { sanitizeHtml } from '../utils/sanitize';
 
 defineProps<{
   vocabulary: Word[];
@@ -14,11 +14,6 @@ defineProps<{
 const emit = defineEmits(['load-more', 'play-audio']);
 
 const getItemKey = (item: Word) => `${item.german}-${item.level}-${item.thema}`;
-
-const sanitize = (html: string | undefined | null) => {
-  if (!html) return '';
-  return DOMPurify.sanitize(html);
-};
 </script>
 
 <template>
@@ -36,7 +31,7 @@ const sanitize = (html: string | undefined | null) => {
         </template>
         <template #content>
           <div class="flex justify-between items-start mb-4 gap-4">
-            <div class="text-xl font-bold leading-tight" v-html="sanitize(item.german)"></div>
+            <div class="text-xl font-bold leading-tight" v-html="sanitizeHtml(item.german)"></div>
             <Button 
               icon="pi pi-volume-up" 
               rounded 
@@ -51,7 +46,7 @@ const sanitize = (html: string | undefined | null) => {
           </div>
           <template v-if="item.example">
             <Divider />
-            <div class="italic text-surface-400 text-sm leading-relaxed" v-html="sanitize(item.example)"></div>
+            <div class="italic text-surface-400 text-sm leading-relaxed" v-html="sanitizeHtml(item.example)"></div>
           </template>
         </template>
       </Card>

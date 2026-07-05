@@ -6,7 +6,7 @@ import Badge from 'primevue/badge';
 import Divider from 'primevue/divider';
 import ScrollPanel from 'primevue/scrollpanel';
 import Button from 'primevue/button';
-import DOMPurify from 'dompurify';
+import { sanitizeHtml } from '../utils/sanitize';
 
 const props = defineProps<{
   word: Word;
@@ -28,11 +28,6 @@ const playAudio = (text: string) => {
 
 const showGermanOnFront = computed(() => props.direction === 'DE_TO_UA');
 
-const sanitize = (html: string | undefined | null) => {
-  if (!html) return '';
-  return DOMPurify.sanitize(html);
-};
-
 </script>
 
 <template>
@@ -50,7 +45,7 @@ const sanitize = (html: string | undefined | null) => {
           <ScrollPanel class="h-[200px]">
             <template v-if="showGermanOnFront">
               <div class="flex flex-col items-center gap-6 py-4">
-                <h2 class="text-3xl sm:text-4xl font-bold text-center" v-html="sanitize(word.german)"></h2>
+                <h2 class="text-3xl sm:text-4xl font-bold text-center" v-html="sanitizeHtml(word.german)"></h2>
                 <Button 
                   icon="pi pi-volume-up"
                   rounded
@@ -86,12 +81,12 @@ const sanitize = (html: string | undefined | null) => {
               </div>
               <template v-if="word.example">
                 <Divider />
-                <div class="italic text-surface-300 text-center" v-html="sanitize(word.example)"></div>
+                <div class="italic text-surface-300 text-center" v-html="sanitizeHtml(word.example)"></div>
               </template>
             </template>
             <template v-else>
               <div class="flex flex-col items-center gap-6 py-4">
-                <h2 class="text-3xl sm:text-4xl font-bold text-center" v-html="sanitize(word.german)"></h2>
+                <h2 class="text-3xl sm:text-4xl font-bold text-center" v-html="sanitizeHtml(word.german)"></h2>
                 <Button 
                   icon="pi pi-volume-up"
                   rounded
@@ -101,7 +96,7 @@ const sanitize = (html: string | undefined | null) => {
               </div>
               <template v-if="word.example">
                 <Divider />
-                <div class="italic text-surface-300 text-center" v-html="sanitize(word.example)"></div>
+                <div class="italic text-surface-300 text-center" v-html="sanitizeHtml(word.example)"></div>
               </template>
             </template>
           </ScrollPanel>
