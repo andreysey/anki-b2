@@ -9,7 +9,7 @@ etw. beheben (z. B. einen Fehler) (behebt, behob, hat behoben);to fix, to resolv
 etw. beschädigen (beschädigt, beschädigte, hat beschädigt);to damage;пошкоджувати;Ein starker Stromausfall kann die Server-Hardware beschädigen.
 der Dienstleister, - / die Dienstleisterin, -nen;service provider;постачальник послуг, підрядник;Wir nutzen einen externen Dienstleister für unsere IT-Security.
 das Display, -s;display, screen;дисплей, екран;Das responsive Design muss sich an jedes Smartphone-Display anpassen.
-etw. einstellen (stellt ein, stellte ein, hat eingestellt);to stop, to adjust;припиняти, налаштовувати;Wir werden den Support for diese alte Software-Version einstellen.
+etw. einstellen (stellt ein, stellte ein, hat eingestellt);to stop, to adjust;припиняти, налаштовувати;Wir werden den Support für diese alte Software-Version einstellen.
 das Elektronikmodul, -e;electronic module;електронний модуль;Das Elektronikmodul des neuen IoT-Geräts ist leider durchgebrannt.
 etw. erkennen (erkennt, erkannte, hat erkannt);to recognize, to detect;розпізнавати, виявляти;Die Künstliche Intelligenz kann komplexe Muster in den Daten erkennen.
 erscheinen (erscheint, erschien, ist erschienen);to appear;з'являтися;Der Error-Code 500 wird auf dem Bildschirm erscheinen.

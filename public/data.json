@@ -289,7 +289,7 @@
     "german_audio": "der Umsatz",
     "english": "revenue, turnover",
     "ukrainian": "оборот, виручка",
-    "example": "Der <b style=\"color: #eab308;\">Umsatz</b> unseres Software-as-a-Service-Produkts hat sich dieses Jahr verdofft."
+    "example": "Der <b style=\"color: #eab308;\">Umsatz</b> unseres Software-as-a-Service-Produkts hat sich dieses Jahr verdoppelt."
   },
   {
     "level": "B1+",
@@ -564,11 +564,11 @@
       "B1+"
     ],
     "thema": 1,
-    "german": "Verantwortung tragen for (+ Akk.)",
-    "german_audio": "Verantwortung tragen for",
+    "german": "Verantwortung tragen für (+ Akk.)",
+    "german_audio": "Verantwortung tragen für",
     "english": "to bear responsibility",
     "ukrainian": "нести відповідальність",
-    "example": "Als CTO trage ich die Verantwortung für alle technischen Entscheidungen im Unternehmen."
+    "example": "Als CTO trage ich die Verantwortung <b style=\"color: #eab308;\">für</b> alle technischen Entscheidungen im Unternehmen."
   },
   {
     "level": "B1+",
@@ -973,7 +973,7 @@
     "german_audio": "einen Termin bestätigen",
     "english": "to confirm an appointment",
     "ukrainian": "підтверджувати зустріч",
-    "example": "Bitte <b style=\"color: #eab308;\">bestätigen</b> Sie den Termin for die Produktdemo über den Kalender-Link."
+    "example": "Bitte <b style=\"color: #eab308;\">bestätigen</b> Sie den Termin für die Produktdemo über den Kalender-Link."
   },
   {
     "level": "B1+",
@@ -1835,7 +1835,7 @@
     "german_audio": "sich interessieren für",
     "english": "to be interested in",
     "ukrainian": "цікавитися",
-    "example": "Interessierst du dich for die Entwicklung mobiler Apps?"
+    "example": "Interessierst du dich <b style=\"color: #eab308;\">für</b> die Entwicklung mobiler Apps?"
   },
   {
     "level": "B1+",
@@ -3315,7 +3315,7 @@
     "german_audio": "entwickeln",
     "english": "to develop",
     "ukrainian": "розробляти",
-    "example": "Wir <b style=\"color: #eab308;\">entwickeln</b> ein neues Framework for performante Webanwendungen."
+    "example": "Wir <b style=\"color: #eab308;\">entwickeln</b> ein neues Framework für performante Webanwendungen."
   },
   {
     "level": "B1+",
@@ -3710,7 +3710,7 @@
     "german_audio": "konstruieren",
     "english": "to construct, to design",
     "ukrainian": "конструювати",
-    "example": "Wir <b style=\"color: #eab308;\">konstruieren</b> ein neues Gehäuse for unsere IoT-Geräte."
+    "example": "Wir <b style=\"color: #eab308;\">konstruieren</b> ein neues Gehäuse für unsere IoT-Geräte."
   },
   {
     "level": "B1+",
@@ -3818,7 +3818,7 @@
     "german_audio": "Waren bestellen",
     "english": "to order goods",
     "ukrainian": "замовляти товари",
-    "example": "Wir müssen neue RAM-Riegel for das Server-Upgrade <b style=\"color: #eab308;\">bestellen</b>."
+    "example": "Wir müssen neue RAM-Riegel für das Server-Upgrade <b style=\"color: #eab308;\">bestellen</b>."
   },
   {
     "level": "B1+",
@@ -4399,7 +4399,7 @@
     "german_audio": "erteilen",
     "english": "to grant, to give",
     "ukrainian": "надавати, видавати (доручення)",
-    "example": "Die Geschäftsführung wird heute die Freigabe for das Projekt <b style=\"color: #eab308;\">erteilen</b>."
+    "example": "Die Geschäftsführung wird heute die Freigabe für das Projekt <b style=\"color: #eab308;\">erteilen</b>."
   },
   {
     "level": "B1+",
@@ -4728,7 +4728,7 @@
     "german_audio": "klären",
     "english": "to clarify",
     "ukrainian": "з'ясовувати",
-    "example": "Wir müssen im nächsten Meeting <b style=\"color: #eab308;\">klären</b>, welches Framework wir for das Backend nutzen wollen."
+    "example": "Wir müssen im nächsten Meeting <b style=\"color: #eab308;\">klären</b>, welches Framework wir für das Backend nutzen wollen."
   },
   {
     "level": "B1+",

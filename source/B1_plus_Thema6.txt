@@ -40,7 +40,7 @@ brutto;gross;брутто (без вирахування податків);Das B
 einverstanden;agreed;згодний;Ich bin mit den vorgeschlagenen Änderungen am Code einverstanden.
 etw. empfehlen (empfiehlt, empfahl, hat empfohlen);to recommend;рекомендувати;Können Sie eine gute Bibliothek für die Einbindung von Diagrammen empfehlen?
 die Erledigung, -en;completion;виконання;Vielen Dank für die schnelle Erledigung des Bug-Reports.
-etw. erteilen (z.B. einen Auftrag) (erteilt, erteilte, hat erteilt);to grant, to give;надавати, видавати (доручення);Die Geschäftsführung wird heute die Freigabe for das Projekt erteilen.
+etw. erteilen (z.B. einen Auftrag) (erteilt, erteilte, hat erteilt);to grant, to give;надавати, видавати (доручення);Die Geschäftsführung wird heute die Freigabe für das Projekt erteilen.
 der Grund, "-e;reason;причина;Der Grund für den Systemausfall war eine Fehlkonfiguration des Load-Balancers.
 die Mehrwertsteuer (Sg.);value added tax (VAT);ПДВ (податок на додану вартість);Die Cloud-Gebühren werden monatlich zuzüglich der gesetzlichen Mehrwertsteuer abgerechnet.
 netto;net;нетто (після податків);In der Preisliste sind alle Beträge als Netto-Preise angegeben.
@@ -67,7 +67,7 @@ etw. zerreißen (zerriss, hat zerrissen);to tear;розривати;Der Systemad
 jdn. ausreden lassen;to let someone finish speaking;давати комусь договорити;Lass den Product Owner bitte ausreden, bevor du deine technischen Bedenken äußerst.
 die Bedeutung, -en;meaning;значення;Diese Fehlermeldung hat in diesem Kontext eine völlig neue Bedeutung.
 die Erwartung, -en;expectation;очікування;Die Performance der neuen Grafikkarte hat unsere Erwartungen weit übertroffen.
-etw. klären (klärt, klärte, hat geklärt);to clarify;з'ясовувати;Wir müssen im nächsten Meeting klären, welches Framework wir for das Backend nutzen wollen.
+etw. klären (klärt, klärte, hat geklärt);to clarify;з'ясовувати;Wir müssen im nächsten Meeting klären, welches Framework wir für das Backend nutzen wollen.
 konkurrenzfähig;competitive;конкурентоспроможний;Um konkurrenzfähig zu bleiben, müssen wir die Ladezeit unserer App halbieren.
 sich etw. leisten können (kann sich leisten, konnte sich leisten, hat sich leisten können);to be able to afford;могти собі дозволити;Dank der neuen Finanzierung können wir uns zwei zusätzliche Senior-Entwickler leisten.
 einen Preisnachlass gewähren (gewährt, gewährte, hat gewährt);to grant a discount;надавати знижку;Da wir eine große Menge an Lizenzen kaufen, gewährt uns der Anbieter einen Preisnachlass.

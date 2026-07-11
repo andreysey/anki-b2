@@ -25,7 +25,7 @@ sich freuen über (+ Akk.);to be happy about;радіти (чомусь, що в
 gehören zu (+ Dat.) (gehört, gehörte, hat gehört);to belong to;належати до;Das Schreiben technischer Dokumentation gehört zu den Aufgaben eines Entwicklers.
 es geht um (+ Akk.);it's about;йдеться про;In diesem Meeting geht es um die Behebung kritischer Sicherheitslücken.
 ein Gespräch führen (führt, führte, hat geführt);to lead a conversation;вести розмову;Wir müssen ein Gespräch über die Performance-Probleme der Website führen.
-sich interessieren für (+ Akk.) (interessiert sich, interessierte sich, hat sich interessiert);to be interested in;цікавитися;Interessierst du dich for die Entwicklung mobiler Apps?
+sich interessieren für (+ Akk.) (interessiert sich, interessierte sich, hat sich interessiert);to be interested in;цікавитися;Interessierst du dich für die Entwicklung mobiler Apps?
 investieren in (+ Akk.) (investiert, investierte, hat investiert);to invest in;інвестувати в;Unternehmen müssen mehr in die Cybersicherheit investieren.
 statt|finden (fand statt, hat stattgefunden);to take place;відбуватися;Der tägliche Scrum-Call findet jeden Morgen um 9 Uhr statt.
 etw. vermitteln (vermittelt, vermittelte, hat vermittelt);to convey, to mediate;передавати (знання), посередничати;Der Workshop vermittelt grundlegende Kenntnisse in der Python-Programmierung.

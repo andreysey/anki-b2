@@ -16,7 +16,7 @@ die Konkurrenz (Sg.);competition;конкуренція;In der Tech-Branche ist 
 der Leiharbeiter, - / die Leiharbeiterin, -nen;temporary worker;тимчасовий працівник/-ця;Wir haben einen Leiharbeiter für das kurzfristige Datenmigrationsprojekt eingestellt.
 das Leitbild, -er;mission statement;місія, девіз компанії;Das Leitbild unseres Startups ist die Demokratisierung von Daten durch Open Source.
 der Stand der Dinge;state of affairs;стан справ;Können Sie mir beim nächsten Daily Stand-up den aktuellen Stand der Dinge zum Bug-Fixing geben?
-einen Termin bestätigen (bestätigt, bestätigte, hat bestätigt);to confirm an appointment;підтверджувати зустріч;Bitte bestätigen Sie den Termin for die Produktdemo über den Kalender-Link.
+einen Termin bestätigen (bestätigt, bestätigte, hat bestätigt);to confirm an appointment;підтверджувати зустріч;Bitte bestätigen Sie den Termin für die Produktdemo über den Kalender-Link.
 die Unterlage, -n;document;документ;Bitte laden Sie alle technischen Unterlagen in den gemeinsamen Sharepoint-Ordner hoch.
 die Wartezeit, -en;waiting time;час очікування;Die Wartezeit für das Rendern des 4K-Videos beträgt etwa zwei Stunden.
 die Zeitarbeitsfirma, -en;temporary employment agency;агентство з працевлаштування;Die Zeitarbeitsfirma hat uns kurzfristig einen Spezialisten für Datenbanken vermittelt.

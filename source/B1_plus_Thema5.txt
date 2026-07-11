@@ -16,7 +16,7 @@ eine Anlage warten (wartet, wartete, hat gewartet);to maintain a system;обсл
 jdn./etw. beobachten (beobachtet, beobachtete, hat beobachtet);to observe;спостерігати;Wir beobachten die Server-Last genau, um Engpässe frühzeitig zu erkennen.
 der Einzelhandel (Sg.);retail;роздрібна торгівля;Der Einzelhandel nutzt immer mehr IT-Lösungen für das Bestandsmanagement.
 der Endkunde, -n / die Endkundin, -nen;end customer;кінцевий споживач/-ка;Unsere App wird vom Endkunden direkt im App Store heruntergeladen.
-etw. entwickeln (entwickelt, entwickelte, hat entwickelt);to develop;розробляти;Wir entwickeln ein neues Framework for performante Webanwendungen.
+etw. entwickeln (entwickelt, entwickelte, hat entwickelt);to develop;розробляти;Wir entwickeln ein neues Framework für performante Webanwendungen.
 die Forschung und Entwicklung (Sg.);research and development (R&D);дослідження та розробка;Die Abteilung für Forschung und Entwicklung arbeitet an Quantencomputer-Algorithmen.
 der Großhandel (Sg.);wholesale;гуртова торгівля;Unser ERP-System optimiert die Lieferketten für den internationalen Großhandel.
 der Handel (Sg.);trade, commerce;торгівля;Der elektronische Handel erfordert eine sichere Zahlungsabwicklung.
@@ -48,7 +48,7 @@ die Gastronomie (Sg.);gastronomy, catering;гастрономія;Die Gastronomi
 etw. gestalten (gestaltet, gestaltete, hat gestaltet);to design, to shape;оформляти, організовувати;Ein UX-Designer hilft uns dabei, die Website benutzerfreundlich zu gestalten.
 das Handwerk (Sg.);craft, trade;ремесло;Gutes Software-Engineering wird oft als modernes digitales Handwerk bezeichnet.
 die IT-Branche (Sg.);IT industry;ІТ-галузь;Die IT-Branche ist einer der wichtigsten Arbeitgeber in Deutschland.
-etw. konstruieren (konstruiert, konstruierte, hat konstruiert);to construct, to design;конструювати;Wir konstruieren ein neues Gehäuse for unsere IoT-Geräte.
+etw. konstruieren (konstruiert, konstruierte, hat konstruiert);to construct, to design;конструювати;Wir konstruieren ein neues Gehäuse für unsere IoT-Geräte.
 etw. kontrollieren (kontrolliert, kontrollierte, hat kontrolliert);to control, to check;контролювати;Der Administrator muss die Zugriffsrechte der Benutzer regelmäßig kontrollieren.
 Kunden bedienen (bedient, bediente, hat bedient);to serve customers;обслуговувати клієнтів;Unsere Web-Server bedienen gleichzeitig Tausende von Anfragen pro Sekunde.
 der Kundenberater, - / die Kundenberaterin, -nen;customer advisor;консультант/-ка клієнтів;Der technische Kundenberater erklärt die Vorteile unserer API.
@@ -57,7 +57,7 @@ der Lagerist, -en / die Lageristin, -nen;warehouse clerk;працівник/-ц�
 der Tierpfleger, - / die Tierpflegerin, -nen;animal keeper;доглядач/-ка за тваринами;Der Tierpfleger nutzt ein Tablet, um die Gesundheitsdaten der Tiere zu erfassen.
 Transport und Logistik (Sg.);transport and logistics;транспорт і логістика;In den Bereichen Transport und Logistik spielt die Routenoptimierung durch KI eine große Rolle.
 der Vertriebsweg, -e;distribution channel;канал збуту;Der direkte Download über unsere Website ist unser effektivster Vertriebsweg.
-Waren bestellen (bestellt, bestellte, hat bestellt);to order goods;замовляти товари;Wir müssen neue RAM-Riegel for das Server-Upgrade bestellen.
+Waren bestellen (bestellt, bestellte, hat bestellt);to order goods;замовляти товари;Wir müssen neue RAM-Riegel für das Server-Upgrade bestellen.
 Wissenschaft und Forschung (Sg.);science and research;наука та дослідження;Viel Geld aus der Tech-Branche fließt in moderne Wissenschaft und Forschung.
 etw. zu|bereiten (bereitet zu, bereitete zu, hat zubereitet);to prepare (food);готувати (їжу);Dank Smart-Home-Technik kann ich meinen Kaffee schon vom Computer aus zubereiten.
 etw. zu|stellen (stellt zu, stellte zu, hat zugestellt);to deliver, to serve;доставляти;Die E-Mail mit dem Bestätigungs-Code konnte leider nicht zugestellt werden.
