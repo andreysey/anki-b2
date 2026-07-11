@@ -1,3 +1,11 @@
+## [1.5.1](https://github.com/andreysey/anki-b2/compare/v1.5.0...v1.5.1) (2026-07-11)
+
+
+### Bug Fixes
+
+* correct typos in German vocabulary examples and update required Node.js version ([1cc6437](https://github.com/andreysey/anki-b2/commit/1cc6437d3908c50584b57ed866fd45144508cbb0))
+* prevent SQLite unique constraint errors by resetting and scoping note IDs per deck generation ([6c8f6b2](https://github.com/andreysey/anki-b2/commit/6c8f6b284cb5a18e87900421885796a8e0727ae6))
+
 # [1.5.0](https://github.com/andreysey/anki-b2/compare/v1.4.0...v1.5.0) (2026-03-25)
 
 
