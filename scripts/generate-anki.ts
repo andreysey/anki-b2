@@ -72,7 +72,7 @@ const model = new Model({
 });
 
 // Unique sequential note IDs (avoids UNIQUE constraint in SQLite)
-let globalNoteId = Date.now();
+let globalNoteId = 0;
 const originalToSqlValues = Note.prototype.toSqlValues;
 Note.prototype.toSqlValues = function () {
   const values = originalToSqlValues.call(this);
@@ -114,6 +114,8 @@ export async function generateAnkiDeck(
     baseName === 'B1plus' ? 1607392320 :
     baseName === 'B2'     ? 1607392321 :
                             1607392322;
+
+  globalNoteId = deckId * 1000000;
 
   const deckName = `German ${baseName.replace('plus', '+')}`;
   const deck = new Deck({ deckId, name: deckName });
