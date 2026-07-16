@@ -1,78 +1,78 @@
 #separator:;
 #html:true
 #columns:German;English;Ukrainian;Example
-beteiligt an (+ Dat.);involved in;причетний до, залучений до;Sie waren an der Umsetzung des Investitionsplans beteiligt.
-gewöhnt an (+ Akk.);used to;звиклий до;Die Sekretärin ist an das alte Betriebssystem gewöhnt.
-interessiert an (+ Dat.);interested in;зацікавлений у;Sie war an der ausgeschriebenen Stelle interessiert.
-reich an (+ Dat.);rich in;багатий на;Das Geschäftsjahr war reich an unangenehmen Überraschungen.
-schuld an (+ Dat.);to blame for;винен у;Wer war an dem Betriebsunfall schuld?
-unschuldig an (+ Dat.);innocent of;невинний у;Sie war an der Sache nicht ganz unschuldig.
-angewiesen auf (+ Akk.);dependent on;залежний від;Wir sind auf das Funktionieren der Software angewiesen.
-böse auf (+ Akk.);angry with;злий на;Wegen des vergessenen Termins war sie auf ihren Kollegen böse.
-eifersüchtig auf (+ Akk.);jealous of;ревнивий до;Das Kind war auf das Spielzeug eines anderen eifersüchtig.
-gespannt auf (+ Akk.);curious about / looking forward to;заінтригований (чимось), з нетерпінням очікуючий на;Die Mitarbeitenden waren auf die Rede des Betriebsrats gespannt.
-neidisch auf (+ Akk.);envious of;заздрісний до;Er war auf seinen Kollegen, der befördert wurde, neidisch.
-neugierig auf (+ Akk.);curious about;допитливий до, цікавий стосовно;Sie waren auf das Ergebnis der Gespräche neugierig.
-stolz auf (+ Akk.);proud of;гордий за;Sie war auf die guten Leistungen ihres Teams stolz.
-wütend auf (+ Akk.);furious with;лютий на;Nach dem Meeting war die Chefin auf das Team ziemlich wütend.
-angesehen bei (+ Dat.);respected by;шанований серед;Sie war bei ihren Geschäftspartnern hoch angesehen.
-behilflich bei (+ Dat.);helpful with;корисний у, допомагає з;Kannst du mir bei der Installation des Programms behilflich sein?
-beliebt bei (+ Dat.);popular with;популярний серед;Die Internationale Funkausstellung ist bei den Besuchern sehr beliebt.
-unbeliebt bei (+ Dat.);unpopular with;непопулярний серед;Der Chef war bei einigen Mitarbeitenden ziemlich unbeliebt.
-angenehm für (+ Akk.);pleasant for;приємний для;Das Arbeitsklima im Projekt war für die Mitarbeitenden sehr angenehm.
-bekannt für (+ Akk.);famous/known for;відомий (чимось);Sie ist in der Abteilung für ihre Genauigkeit bekannt.
-berühmt für (+ Akk.);famous for;знаменитий (чимось);Die Firma ist für ihre Hebebühnen weltweit berühmt.
-dankbar für (+ Akk.);grateful for;вдячний за;Die Chefin ist immer für Verbesserungsvorschläge dankbar.
-entscheidend für (+ Akk.);crucial for;вирішальний для;Die gute Zusammenarbeit im Projekt war für den Erfolg entscheidend.
-geeignet für (+ Akk.);suitable for;придатний для;Die Buchhaltungssoftware ist insbesondere für kleine Unternehmen geeignet.
-offen für (+ Akk.);open to;відкритий до;Wir sind für alle Verbesserungsvorschläge offen.
-schädlich für (+ Akk.);harmful to;шкідливий для;Das Produktionsverfahren ist für die Umwelt nicht schädlich.
-schwierig für (+ Akk.);difficult for;важкий для;Eine Umstrukturierung ist für die Mitarbeitenden immer schwierig.
-typisch für (+ Akk.);typical of;типовий для;Das ist mal wieder typisch für Sie.
-unangenehm für (+ Akk.);unpleasant for;неприємний для;Der Außendienstbericht war für den Verkaufsleiter sehr unangenehm.
-ungeeignet für (+ Akk.);unsuitable for;непридатний для;Er ist für diese Arbeit gänzlich ungeeignet.
-verantwortlich für (+ Akk.);responsible for;відповідальний за;Frau Dr. Blum war für die Entwicklung des neuen Produkts verantwortlich.
-wichtig für (+ Akk.);important for;важливий для;Unser Engagement ist für den Erfolg des Projekts ziemlich wichtig.
-zuständig für (+ Akk.);responsible for / in charge of;відповідальний за (сферу/завдання);Frau Duda ist für den Vertrieb zuständig.
-misstrauisch gegenüber (+ Dat.);suspicious of;недовірливий до;Sie war gegenüber den Kollegen oft misstrauisch.
-gut in (+ Dat.);good at;сильний в, хороший у;Sie war in der Analyse von komplexen Daten schon immer sehr gut.
-unerfahren in (+ Dat.);inexperienced in;недосвідчений у;Er war im Umgang mit der neuen Software unerfahren.
-verliebt in (+ Akk.);in love with;закоханий у;Sie ist in ein kleines Hotel in den Allgäuer Alpen verliebt.
-befreundet mit (+ Dat.);friendly with;товаришує з, дружить із;Er ist mit allen Kollegen gut befreundet.
-bekannt mit (+ Dat.);acquainted with;знайомий з;Sie ist mit allen Außendienstmitarbeitenden sehr gut bekannt.
-beschäftigt mit (+ Dat.);busy with;зайнятий (чимось);Frau Dr. Kurz ist noch mit dem Abschlussbericht beschäftigt.
-einverstanden mit (+ Dat.);in agreement with;згоден із;Er ist mit seiner Versetzung in eine andere Abteilung einverstanden.
-fertig mit (+ Dat.);finished with;готовий з, закінчив (щось);Sind Sie mit dem Projektbericht schon fertig?
-unzufrieden mit (+ Dat.);dissatisfied with;незадоволений (чимось);Die GF war mit der Geschäftsentwicklung unzufrieden.
-verheiratet mit (+ Dat.);married to;одружений із;Er ist eigentlich mit seiner Arbeit verheiratet.
-verwandt mit (+ Dat.);related to;родич (когось), споріднений із;Er ist mit seinem Chef verwandt.
-zufrieden mit (+ Dat.);satisfied with;задоволений (чимось);Unsere Kunden sind mit unseren Dienstleistungen sehr zufrieden.
-verrückt nach (+ Dat.);crazy about;божеволіє від;Sie ist wirklich völlig verrückt nach Fußball.
-besorgt über (+ Akk.);worried about;стурбований (чимось);Die GF ist über die sinkenden Absatzzahlen sehr besorgt.
-beunruhigt über (+ Akk.);alarmed about;занепокоєний (чимось);Die Mitarbeitenden sind über die Umstrukturierungspläne beunruhigt.
-entsetzt über (+ Akk.);horrified at;жахнутий (чимось), у шоці від;Sie war darüber, dass der Termin nicht eingehalten wird, entsetzt.
-erstaunt über (+ Akk.);astonished at;здивований (чимось);Die GF war über den Erfolg der Marketingkampagne erstaunt.
-froh über (+ Akk.);glad about;радий (чомусь);Die GF war über das positive Jahresergebnis sehr froh.
-glücklich über (+ Akk.);happy about;щасливий через;Sie war über ihre Beförderung sehr glücklich.
-unglücklich über (+ Akk.);unhappy about;нещасливий через;Sie waren über seinen Weggang unglücklich.
-verärgert über (+ Akk.);annoyed about;роздратований через, сердитий на;Er war über die Verzögerung im Projekt verärgert.
-wütend über (+ Akk.);angry about;лютий через;Viele Kunden waren über den schlechten Service wütend.
-besorgt um (+ Akk.);concerned about;турбується про;Sie sind stets um das Wohl ihrer Gäste besorgt.
-abhängig von (+ Dat.);dependent on;залежний від;Wir sind von unserem Auftraggeber abhängig.
-begeistert von (+ Dat.);excited about / thrilled by;у захваті від;Sie war von den Verkaufszahlen im letzten Quartal begeistert.
-entfernt von (+ Dat.);distant from;віддалений від;Wir sind von einer guten Bilanz noch meilenweit entfernt.
-enttäuscht von (+ Dat.);disappointed by/with;розчарований (чимось/кимось);Die GF war von der Entwicklung der Verkaufszahlen enttäuscht.
-frei von (+ Dat.);free of;вільний від;Frei von Schulden zu sein, ist das Ziel vieler Unternehmen.
-müde von (+ Dat.);tired of;втомлений від;Sie war von dem langen Meeting sehr müde.
-überzeugt von (+ Dat.);convinced of;переконаний у;Sie sind von der Qualität der neuen Anlage überzeugt.
-unabhängig von (+ Dat.);independent of;незалежний від;Das Projekt wurde unabhängig von den Kostensteigerungen weitergeführt.
-sicher vor (+ Dat.);safe from;захищений від, у безпеці від;In dieser Abteilung sind alle vor betriebsbedingten Kündigungen sicher.
-bereit zu (+ Dat.);ready to;готовий до;Sie ist zur Übernahme des Geschäftsfeldes bereit.
-entschlossen zu (+ Dat.);determined to;рішучий щодо, готовий на;Sie war zum Kauf der Immobilie entschlossen.
-fähig zu (+ Dat.);capable of;здатний до;Dieser Roboter ist zu Pflegeleistungen fähig.
-freundlich zu (+ Dat.);friendly to;дружній до;Er ist stets zu allen Menschen sehr freundlich.
-gut zu (+ Dat.);good to;добрий до;Er war zu seinen Schülern und Schülerinnen immer sehr gut.
-höflich zu (+ Dat.);polite to;ввічливий до;Sie sind zu den Gästen in ihrem Hotel immer sehr höflich.
-lieb zu (+ Dat.);nice/kind to;милий до;Seid lieb zu euren Geschwistern!
-nett zu (+ Dat.);nice to;доброзичливий до;Bitte seid nett zueinander!
-unfreundlich zu (+ Dat.);unfriendly to;непривітний до;Der Lehrer war zu seinen Schülern und Schülerinnen oft unfreundlich.
+beteiligt an (+ Dat.);involved in;причетний до, залучений до;Sie waren aktiv an der Umsetzung des neuen Arbeitsschutzkonzepts beteiligt.
+gewöhnt an (+ Akk.);used to;звиклий до;Die Belegschaft ist bereits an das neu eingeführte Zeiterfassungssystem gewöhnt.
+interessiert an (+ Dat.);interested in;зацікавлений у;Wir sind an einer langfristigen Kooperation mit Ihrem Handwerksunternehmen interessiert.
+reich an (+ Dat.);rich in;багатий на;Das Geschäftsjahr war reich an herausfordernden Tarifverhandlungen mit der Gewerkschaft.
+schuld an (+ Dat.);to blame for;винен у;Der wiederholte Pflichtverstoß war schuld an der außerordentlichen Kündigung.
+unschuldig an (+ Dat.);innocent of;невинний у;Er war an der Fehlfunktion der Kältemaschine nicht ganz unschuldig.
+angewiesen auf (+ Akk.);dependent on;залежний від;Im Gastgewerbe ist man oft auf flexible Arbeitszeiten angewiesen.
+böse auf (+ Akk.);angry with;злий на;Wegen der Dienstplanänderung war die Vertretungskraft auf den Vorgesetzten böse.
+eifersüchtig auf (+ Akk.);jealous of;ревнивий до;Einige Mitarbeiter waren eifersüchtig auf den Erfolg des Nachwuchsförderungsprogramms.
+gespannt auf (+ Akk.);curious about / looking forward to;заінтригований (чимось), з нетерпінням очікуючий на;Die Arbeitnehmervertreter sind gespannt auf den Entwurf der neuen Betriebsvereinbarung.
+neidisch auf (+ Akk.);envious of;заздрісний до;Man sollte im Team nicht neidisch auf die Beförderung eines Kollegen reagieren.
+neugierig auf (+ Akk.);curious about;допитливий до, цікавий стосовно;Wir sind neugierig auf die neuen Konzepte zur Neukundengewinnung auf der Messe.
+stolz auf (+ Akk.);proud of;гордий за;Die Geschäftsleitung ist sehr stolz auf das Erreichen des Ziels der Barrierefreiheit.
+wütend auf (+ Akk.);furious with;лютий на;Nach der Falschlieferung war der Einkaufsleiter ziemlich wütend auf den Zulieferer.
+angesehen bei (+ Dat.);respected by;шанований серед;Unsere Kältetechniker sind bei den industriellen Kunden hoch angesehen.
+behilflich bei (+ Dat.);helpful with;корисний у, допомагає з;Der Mentor war dem neuen Auszubildenden bei der Einarbeitung behilflich.
+beliebt bei (+ Dat.);popular with;популярний серед;Die Gleitzeitregelung ist bei der gesamten Belegschaft sehr beliebt.
+unbeliebt bei (+ Dat.);unpopular with;непопулярний серед;Die strenge Brandschutzordnung war bei einigen Beschäftigten zunächst unbeliebt.
+angenehm für (+ Akk.);pleasant for;приємний для;Das gute Arbeitsklima ist für das Wohlbefinden der Teammitglieder sehr angenehm.
+bekannt für (+ Akk.);famous/known for;відомий (чимось);Das Unternehmen ist für seine innovative und langlebige Produktpalette bekannt.
+berühmt für (+ Akk.);famous for;знаменитий (чимось);Die Werft ist weltweit für den Bau hocheffizienter Transportschiffe berühmt.
+dankbar für (+ Akk.);grateful for;вдячний за;Ich bin Ihnen sehr dankbar für die schnelle Zusage bezüglich des Eintrittstermins.
+entscheidend für (+ Akk.);crucial for;вирішальний для;Eine gründliche Prüfungsvorbereitung ist entscheidend für das Bestehen der IHK-Prüfung.
+geeignet für (+ Akk.);suitable for;придатний для;Dieses E-Learning-Modul ist hervorragend für die betriebliche Weiterbildung geeignet.
+offen für (+ Akk.);open to;відкритий до;Unser Arbeitssicherheitsausschuss ist immer offen für neue Vorschläge zur Unfallverhütung.
+schädlich für (+ Akk.);harmful to;шкідливий для;Die hohe Keimbelastung im Labor ist schädlich für die Gesundheit der Labormitarbeiter.
+schwierig für (+ Akk.);difficult for;важкий для;Die Umschulungsmaßnahme war schwierig für den Bewerber, aber letztlich erfolgreich.
+typisch für (+ Akk.);typical of;типовий для;Diese bürokratischen Hürden sind typisch für das offizielle Anerkennungsverfahren.
+unangenehm für (+ Akk.);unpleasant for;неприємний для;Der Vorwurf der Scheinselbstständigkeit war für den freien Mitarbeiter sehr unangenehm.
+ungeeignet für (+ Akk.);unsuitable for;непридатний для;Personen mit mangelnder Belastbarkeit sind für den Bereitschaftsdienst ungeeignet.
+verantwortlich für (+ Akk.);responsible for;відповідальний за;Die HR-Abteilung ist für die Personalsuche und den Einarbeitungsplan verantwortlich.
+wichtig für (+ Akk.);important for;важливий для;Der Vorsteuerabzug ist ein wichtiger Aspekt für die Liquidität der GmbH.
+zuständig für (+ Akk.);responsible for / in charge of;відповідальний за (сферу/завдання);Der Betriebsarzt ist für die Durchführung der gesetzlichen Vorsorgeuntersuchungen zuständig.
+misstrauisch gegenüber (+ Dat.);suspicious of;недовірливий до;Die Gläubiger waren gegenüber dem Sanierungsplan des Insolvenzverwalters misstrauisch.
+gut in (+ Dat.);good at;сильний в, хороший у;Sie war in der kaufmännischen Abwicklung von Großprojekten schon immer sehr gut.
+unerfahren in (+ Dat.);inexperienced in;недосвідчений у;Der neue Prüfling war noch unerfahren in der Durchführung komplexer Messungen.
+verliebt in (+ Akk.);in love with;закоханий у;Sie ist in das Konzept der agilen Unternehmensführung mit flachen Hierarchien verliebt.
+befreundet mit (+ Dat.);friendly with;товаришує з, дружить із;Er ist mit Vertretern des Arbeitgeberverbandes privat befreundet.
+bekannt mit (+ Dat.);acquainted with;знаемомий з;Ich bin mit den Richtlinien zur Gefahrenanalyse bestens bekannt.
+beschäftigt mit (+ Dat.);busy with;зайнятий (чимось);Die Rechtsanwältin ist mit der Ausarbeitung der Kündigungsschutzklage beschäftigt.
+einverstanden mit (+ Dat.);in agreement with;згоден із;Der Betriebsrat war mit dem Vorschlag zur Überstundenregelung einverstanden.
+fertig mit (+ Dat.);finished with;готовий з, закінчив (щось);Sobald Sie mit der Rechnungsprüfung fertig sind, reichen Sie die Belege ein.
+unzufrieden mit (+ Dat.);dissatisfied with;незадоволений (чимось);Der Kunde war mit der Qualität der Nachbesserung am Fahrzeug unzufrieden.
+verheiratet mit (+ Dat.);married to;одружений із;Als Geschäftsführer ist er praktisch rund um die Uhr mit seiner Arbeit verheiratet.
+verwandt mit (+ Dat.);related to;родич (когось), споріднений із;Er darf die Revision nicht prüfen, da er mit dem Buchhalter verwandt ist.
+zufrieden mit (+ Dat.);satisfied with;задоволений (чимось);Wir sind mit dem Ergebnis des Zielvereinbarungsgesprächs sehr zufrieden.
+verrückt nach (+ Dat.);crazy about;божеволіє від;Viele Existenzgründer sind völlig verrückt nach neuen, innovativen Geschäftsideen.
+besorgt über (+ Akk.);worried about;стурбований (чимось);Der Vorstand ist über den plötzlichen Umsatzverlust im zweiten Quartal besorgt.
+beunruhigt über (+ Akk.);alarmed about;занепокоєний (чимось);Die Belegschaft ist über die Gerüchte bezüglich eines Stellenabbaus beunruhigt.
+entsetzt über (+ Akk.);horrified at;жахнутий (чимось), у шоці від;Die Gewerkschaft war über das mangelhafte Angebot der Arbeitgeberseite entsetzt.
+erstaunt über (+ Akk.);astonished at;здивований (чимось);Wir waren über die hohe Zahl an Bewerbungen auf unsere Stellenausschreibung erstaunt.
+froh über (+ Akk.);glad about;радий (чомусь);Wir sind sehr froh über das positive Feedbackgespräch nach der Einarbeitungsphase.
+glücklich über (+ Akk.);happy about;щасливий через;Sie war über die Zusage für eine unbefristete Festanstellung überglücklich.
+unglücklich über (+ Akk.);unhappy about;нещасливий через;Die Gesellschafter sind unglücklich über den durch den Streik verursachten Produktionsausfall.
+verärgert über (+ Akk.);annoyed about;роздратований через, сердитий на;Der Betriebsleiter war über die Missachtung der Brandschutzordnung verärgert.
+wütend über (+ Akk.);angry about;лютий через;Die Kundengruppe war über das Qualitätsproblem bei den Ersatzteilen wütend.
+besorgt um (+ Akk.);concerned about;турбується про;Die Schwerbehindertenvertretung ist stets um die Einhaltung der Barrierefreiheit besorgt.
+abhängig von (+ Dat.);dependent on;залежний від;Unsere Exportquote ist stark von der konjunkturellen Entwicklung in Asien abhängig.
+begeistert von (+ Dat.);excited about / thrilled by;у захваті від;Die Fachbesucher waren von den innovativen Exponaten an unserem Messestand begeistert.
+entfernt von (+ Dat.);distant from;віддалений від;Wir sind von einer einvernehmlichen Lösung im Tarifkonflikt noch weit entfernt.
+enttäuscht von (+ Dat.);disappointed by/with;розчарований (чимось/кимось);Die Anteilseigner waren von den schwachen Zahlen im Quartalsbericht enttäuscht.
+frei von (+ Dat.);free of;вільний від;Der Reinraum in der Pharmafirma muss absolut frei von Keimen gehalten werden.
+müde von (+ Dat.);tired of;втомлений від;Er war müde von den ständigen Überstunden ohne Freizeitausgleich.
+überzeugt von (+ Dat.);convinced of;переконаний у;Ich bin fest von der Notwendigkeit dieser Lärmschutzmaßnahmen überzeugt.
+unabhängig von (+ Dat.);independent of;незалежний від;Der Rentenübergang erfolgt unabhängig von den vertraglichen Sonderkonditionen.
+sicher vor (+ Dat.);safe from;захищений від, у безпеці від;Niemand ist in einer Rezession vor einem drohenden Arbeitsplatzverlust sicher.
+bereit zu (+ Dat.);ready to;готовий до;Die Schlichtungsstelle ist zur Vermittlung zwischen den Konfliktparteien bereit.
+entschlossen zu (+ Dat.);determined to;рішучий щодо, готовий на;Der Betriebsrat ist zur Einreichung einer Kündigungsschutzklage entschlossen.
+fähig zu (+ Dat.);capable of;здатний до;Sie ist zweifellos dazu fähig, eine anspruchsvolle Leitungsposition zu übernehmen.
+freundlich zu (+ Dat.);friendly to;дружній до;Unser Servicepersonal muss zu allen Messebesuchern höflich und freundlich sein.
+gut zu (+ Dat.);good to;добрий до;Der Mentor war zu den neuen Auszubildenden während der Einarbeitungszeit immer gut.
+höflich zu (+ Dat.);polite to;ввічливий до;Als Verkaufsberater muss man stets höflich und aufmerksam zu den Kunden sein.
+lieb zu (+ Dat.);nice/kind to;милий до;Seid lieb zu euren Kollegen, um ein angenehmes Betriebsklima zu fördern!
+nett zu (+ Dat.);nice to;доброзичливий до;Es ist wichtig, nett zueinander zu sein, um Konflikte im Team zu vermeiden.
+unfreundlich zu (+ Dat.);unfriendly to;непривітний до;Ein unfreundliches Verhalten zu Kunden kann eine verhaltensbedingte Kündigung zur Folge haben.
