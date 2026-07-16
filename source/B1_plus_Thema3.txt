@@ -1,65 +1,65 @@
 #separator:;
 #html:true
 #columns:German;English;Ukrainian;Example
-der Empfang, "-e;reception;прийом, рецепція;Alle externen Dienstleister müssen sich am Empfang anmelden, um einen Besucherausweis zu erhalten.
-die Personalabteilung, -en;HR department;відділ кадрів;Die Personalabteilung nutzt eine Web-App zur Verwaltung der Urlaubstage.
-die Kantine, -n;canteen;їдальня;In unserer Kantine gibt es kostenloses WLAN für alle Mitarbeiter.
-das Lager, -;warehouse;склад;Wir müssen die neuen Grafikkarten für die Workstations im Lager inventarisieren.
-die Produktion (Sg.);production;виробництво;Die gesamte Produktion wird jetzt durch ein KI-gesteuertes System überwacht.
-die Forschung, -en;research;дослідження;Unser Team in der Forschung arbeitet an neuen Algorithmen für die Datenkompression.
-die Entwicklung, -en;development;розробка;Die Entwicklung der neuen API-Schnittstelle ist fast abgeschlossen.
-der Betriebsrat, "-e / die Betriebsrätin, -nen;works council (member);виробнича рада / членкиня ради;Der Betriebsrat prüft die neue Software zur Überwachung der Homeoffice-Zeiten.
-die Geschäftsführung, -en;management;керівництво;Die Geschäftsführung hat grünes Licht für den Umzug in die Cloud gegeben.
-die Finanzbuchhaltung, -en;financial accounting;бухгалтерія;Die Finanzbuchhaltung benötigt die Rechnung für die neuen Serverlizenzen.
-die Einarbeitung, -en;induction, orientation;введення в курс справи (стажування);Während der Einarbeitung lernst du unsere internen Coding-Standards kennen.
-der Ansprechpartner, - / die Ansprechpartnerin, -nen;contact person;контактна особа;Bei technischen Problemen ist der Systemadministrator Ihre erste Kontaktperson.
-die Pausenregelung, -en;break policy;правило перерв;Die digitale Zeiterfassung sorgt dafür, dass die Pausenregelung automatisch eingehalten wird.
-der Rundgang, "-e;tour (of a building);обхід, екскурсія;Nach dem Rundgang durch das Rechenzentrum haben wir die Kühlsysteme besprochen.
-sich weiter|bilden (bildet sich weiter, bildete sich weiter, hat sich weitergebildet);to continue education;підвищувати кваліфікацію;In der IT-Branche muss man sich ständig weiterbilden, um auf dem neuesten Stand zu bleiben.
-sich ärgern über (+ Akk.) (ärgert sich, ärgerte sich, hat sich geärgert);to be annoyed about;сердитися через;Ich ärgere mich über den langsamen Datenbank-Server.
-der Berufsalltag (Sg.);professional life;професійні будні;Der Berufsalltag eines Programmierers besteht oft aus Coding und Bugfixing.
-die Erfahrung, -en;experience;досвід;Wir suchen jemanden mit viel Erfahrung in der Cloud-Architektur.
-Erfahrung haben mit (+ Dat.);to have experience with;мати досвід у;Hast du bereits Erfahrung mit der Containerisierung von Anwendungen?
-sich freuen auf (+ Akk.) (freut sich, freute sich, hat sich gefreut);to look forward to;чекати з нетерпінням (на щось у майбутньому);Ich freue mich auf den Release der neuen Software-Version.
-sich freuen über (+ Akk.);to be happy about;радіти (чомусь, що вже є);Das Team freut sich über das positive Feedback der Beta-Tester.
-gehören zu (+ Dat.) (gehört, gehörte, hat gehört);to belong to;належати до;Das Schreiben technischer Dokumentation gehört zu den Aufgaben eines Entwicklers.
-es geht um (+ Akk.);it's about;йдеться про;In diesem Meeting geht es um die Behebung kritischer Sicherheitslücken.
-ein Gespräch führen (führt, führte, hat geführt);to lead a conversation;вести розмову;Wir müssen ein Gespräch über die Performance-Probleme der Website führen.
-sich interessieren für (+ Akk.) (interessiert sich, interessierte sich, hat sich interessiert);to be interested in;цікавитися;Interessierst du dich für die Entwicklung mobiler Apps?
-investieren in (+ Akk.) (investiert, investierte, hat investiert);to invest in;інвестувати в;Unternehmen müssen mehr in die Cybersicherheit investieren.
-statt|finden (fand statt, hat stattgefunden);to take place;відбуватися;Der tägliche Scrum-Call findet jeden Morgen um 9 Uhr statt.
-etw. vermitteln (vermittelt, vermittelte, hat vermittelt);to convey, to mediate;передавати (знання), посередничати;Der Workshop vermittelt grundlegende Kenntnisse in der Python-Programmierung.
-die Voraussetzung, -en;requirement;умова, передумова;Gute SQL-Kenntnisse sind eine Voraussetzung für diesen Job.
-die Webseite, -n;website;веб-сторінка;Die Webseite unseres Unternehmens wurde für mobile Endgeräte optimiert.
-das Ergebnisprotokoll, -e;minutes of a meeting;протокол результатів зустрічі;Ich habe das Ergebnisprotokoll des Sprints per E-Mail an das Team geschickt.
-die Besprechung, -en;meeting;нарада;In der Besprechung wurde die neue Cloud-Strategie vorgestellt.
-die Teamsitzung, -en;team meeting;командна нарада;Während der Teamsitzung haben wir die Aufgaben für die nächste Woche verteilt.
-etw. zusammen|fassen (fasst zusammen, fasste zusammen, hat zusammengefasst);to summarize;підсумовувати;Können Sie die wichtigsten Punkte der Anforderungsanalyse zusammenfassen?
-der Beschluss, "-e;decision;рішення, постанова;Der Beschluss, die Legacy-Software zu ersetzen, wurde gestern gefasst.
-die Entscheidung, -en;decision;рішення;Die Entscheidung für das React-Framework war goldrichtig.
-die Vereinbarung, -en;agreement;угода, домовленість;Wir haben eine Vereinbarung über die Nutzung der Open-Source-Bibliotheken getroffen.
-die Tagesordnung, -en;agenda;порядок денний;Der Punkt "System-Sicherheit" steht heute ganz oben auf der Tagesordnung.
-das Stichwort, -e;keyword;ключове слово;Ich habe mir während des Vortrags nur ein paar Stichworte zum Thema Blockchain notiert.
-etw. dokumentieren (dokumentiert, dokumentierte, hat dokumentiert);to document;документувати;Bitte dokumentieren Sie alle Änderungen am Datenbank-Schema im Wiki.
-etw. protokollieren (protokolliert, protokollierte, hat protokolliert);to record;протоколювати;Alle API-Aufrufe werden zu Analysezwecken protokolliert.
-die Regel, -n;rule;правило;In diesem Netzwerk gelten strenge Regeln für den Passwortschutz.
-in der Regel;as a rule;як правило;In der Regel erfolgt das Deployment der neuen Version am Dienstagabend.
-der Teilnehmer, - / die Teilnehmerin, -nen;participant;учасник/-ця;An dem Web-Seminar nehmen über 100 Teilnehmer aus aller Welt teil.
-etw. vor|schlagen (schlägt vor, schlug vor, hat vorgeschlagen);to suggest;пропонувати;Ich schlage vor, wir nutzen Docker für dieses Projekt.
-der Zweifel, -;doubt;сумнів;Ich habe keine Zweifel, dass wir die Deadline für die App einhalten.
-etw. schaffen (schafft, schaffte, hat geschafft);to manage;впоратися;Wir werden es schaffen, alle Fehler bis zum Wochenende zu beheben.
-sich etw. merken (merkt sich, merkte sich, hat sich gemerkt);to remember;запам'ятовувати;Bitte merken Sie sich das neue Administratoren-Passwort gut.
-die Pünktlichkeit (Sg.);punctuality;пунктуальність;Pünktlichkeit ist auch bei virtuellen Meetings sehr wichtig.
-die Begrüßung, -en;greeting;привітання;Die Begrüßung des neuen Programmierers erfolgte über einen Video-Call.
-der Feierabend, -e;closing time, finish work;кінець робочого дня;Nach dem Feierabend programmiere ich oft an meinen privaten Projekten weiter.
-aufregend;exciting;захоплюючий;Die Arbeit mit der neuen KI-Technologie ist extrem aufregend.
-der Erfolg, -e;success;успіх;Die Migration zur Cloud war ein großer Erfolg für das ganze Team.
-nützlich;useful;корисний;Diese neue Bibliothek ist sehr nützlich für die Bildverarbeitung.
-der Berufsverkehr (Sg.);professional traffic;робочий дорожній рух (години пік);Dank Homeoffice vermeide ich den stressigen Berufsverkehr am Morgen.
-üblich;common;звичайний;In der IT-Branche ist das Duzen unter Kollegen absolut üblich.
-lächeln (lächelt, lächelte, hat gelächelt);to smile;усміхатися;Der Support-Mitarbeiter lächelt, als er das Problem endlich gelöst hat.
-erwünscht;desired;бажаний;Erfahrung mit agilen Methoden wie Scrum ist bei uns ausdrücklich erwünscht.
-beliebt;popular;популярний;Python ist derzeit eine der beliebtesten Sprachen für Data Science.
-im Allgemeinen;in general;взагалі;Im Allgemeinen sind unsere Kunden mit der Performance der Software zufrieden.
-der/die Vorgesetzte, -n;supervisor;керівник/-ця;Mein Vorgesetzter hat mir wertvolles Feedback zu meinem Code gegeben.
-sich verabschieden (von + Dat.) (verabschiedet sich, verabschiedete sich, hat sich verabschiedet);to say goodbye;прощатися;Ich verabschiede mich aus dem Slack-Channel, da ich das Projekt wechsle.
+der Empfang, "-e;reception;прийом, рецепція;Melden Sie sich bitte direkt **am Empfang unseres Betriebsgebäudes an**.
+die Personalabteilung, -en;HR department;відділ кадрів;Die Personalabteilung **ist für die Durchführung des Bewerbungsverfahrens zuständig**.
+die Kantine, -n;canteen;їдальня;In unserer Kantine **ist das Mitbringen von eigenen Speisen nicht gestattet**.
+das Lager, -;warehouse;склад;Der Gabelstapler **wird ausschließlich für den Warentransport im Lager eingesetzt**.
+die Produktion (Sg.);production;виробництво;Die Produktion **wurde wegen eines Defekts an der Kältemaschine vorübergehend eingestellt**.
+die Forschung, -en;research;дослідження;Unser Unternehmen **investiert viel Geld in die Forschung und Entwicklung**.
+die Entwicklung, -en;development;розробка;Die Entwicklung des neuen Produkts **leistet einen wichtigen Beitrag zur Existenzsicherung**.
+der Betriebsrat, "-e / die Betriebsrätin, -nen;works council (member);виробнича рада / членкиня ради;Der Betriebsrat **kann bei einer ungerechtfertigten Kündigung Widerspruch einlegen**.
+die Geschäftsführung, -en;management;керівництво;Die Geschäftsführung **beschließt die Einführung einer betrieblichen Altersvorsorge**.
+die Finanzbuchhaltung, -en;financial accounting;бухгалтерія;Die Finanzbuchhaltung **überprüft die ordnungsgemäße Verbuchung aller Einnahmen**.
+die Einarbeitung, -en;induction, orientation;введення в курс справи (стажування);Während der Einarbeitung **wird der neue Mitarbeiter vom Sicherheitsbeauftragten unterwiesen**.
+der Ansprechpartner, - / die Ansprechpartnerin, -nen;contact person;контактна особа;Unser Sicherheitsbeauftragter **ist der zuständige Ansprechpartner für Arbeitsschutzfragen**.
+die Pausenregelung, -en;break policy;правило перерв;Die Pausenregelung **wird in der Betriebsvereinbarung verbindlich festgelegt**.
+der Rundgang, "-e;tour (of a building);обхід, екскурсія;Der Abteilungsleiter **macht einen Rundgang durch die neue Produktionshalle**.
+sich weiter|bilden (bildet sich weiter, bildete sich weiter, hat sich weitergebildet);to continue education;підвищувати кваліфікацію;Angestellte **sollten sich regelmäßig weiterbilden, um ihre Karrierechancen zu verbessern**.
+sich ärgern über (+ Akk.) (ärgert sich, ärgerte sich, hat sich geärgert);to be annoyed about;сердитися через;Wir ärgern uns über die mangelhafte Qualität der gelieferten Rohstoffe.
+der Berufsalltag (Sg.);professional life;професійні будні;Der Berufsalltag **erfordert eine ständige Anpassung an neue Sicherheitsrichtlinien**.
+die Erfahrung, -en;experience;досвід;Unsere Fachkräfte **verfügen über eine langjährige Erfahrung in der Lagerlogistik**.
+Erfahrung haben mit (+ Dat.);to have experience with;мати досвід у;Er hat viel Erfahrung **mit der Wartung von automatisierten Verpackungsanlagen**.
+sich freuen auf (+ Akk.) (freut sich, freute sich, hat sich gefreut);to look forward to;чекати з нетерпінням (на щось у майбутньому);Die Auszubildenden **freuen sich auf den Beginn ihrer praktischen Arbeit**.
+sich freuen über (+ Akk.);to be happy about;радіти (чомусь, що вже є);Die Belegschaft **freut sich über die Bewilligung des zusätzlichen Weihnachtsgelds**.
+gehören zu (+ Dat.) (gehört, gehörte, hat gehört);to belong to;належати до;Das Führen des Berichtshefts **gehört zu den Pflichten eines Auszubildenden**.
+es geht um (+ Akk.);it's about;йдеться про;In der Betriebsversammlung **geht es um die geplante Standortsicherung**.
+ein Gespräch führen (führt, führte, hat geführt);to lead a conversation;вести розмову;Der Betriebsrat **muss ein ernstes Gespräch mit dem Werkleiter führen**.
+sich interessieren für (+ Akk.) (interessiert sich, interessierte sich, hat sich interessiert);to be interested in;цікавитися;Immer mehr Fachkräfte **interessieren sich für Arbeitszeitmodelle in Teilzeit**.
+investieren in (+ Akk.) (investiert, investierte, hat investiert);to invest in;інвестувати в;Der Betrieb **muss dringend in modernere Lärmschutzmaßnahmen investieren**.
+statt|finden (fand statt, hat stattgefunden);to take place;відбуватися;Die jährliche Evakuierungsübung **findet während der regulären Arbeitszeit statt**.
+etw. vermitteln (vermittelt, vermittelte, hat vermittelt);to convey, to mediate;передавати (знання), посередничати;Die Fortbildungsmaßnahme **soll den Teilnehmern fortgeschrittene EDV-Kenntnisse vermitteln**.
+die Voraussetzung, -en;requirement;умова, передумова;Eine gültige Arbeitserlaubnis **ist Voraussetzung für die Begründung des Arbeitsverhältnisses**.
+die Webseite, -n;website;веб-сторінка;Die Webseite des Handwerksbetriebs **wurde für die Stellensuche optimiert**.
+das Ergebnisprotokoll, -e;minutes of a meeting;протокол результатів зустрічі;Das Ergebnisprotokoll **wird nach der Teamsitzung an alle Beteiligten versendet**.
+die Besprechung, -en;meeting;нарада;In der wöchentlichen Besprechung **wurden wichtige Entscheidungen zum Budget getroffen**.
+die Teamsitzung, -en;team meeting;командна нарада;Die Teamsitzung **dient der besseren Koordination des Arbeitseinsatzes**.
+etw. zusammen|fassen (fasst zusammen, fasste zusammen, hat zusammengefasst);to summarize;підсумовувати;Könnten Sie die wichtigsten Kernpunkte des Businessplans **kurz zusammenfassen**?
+der Beschluss, "-e;decision;рішення, постанова;Der Beschluss über die Einführung von Kurzarbeit **wurde einstimmig gefasst**.
+die Entscheidung, -en;decision;рішення;Die Entscheidung des Arbeitgebers **stieß bei der Belegschaft auf heftige Kritik**.
+die Vereinbarung, -en;agreement;угода, домовленість;Die Betriebsvereinbarung **enthält wichtige Regelungen zum betrieblichen Gesundheitsschutz**.
+die Tagesordnung, -en;agenda;порядок денний;Der Punkt „Unfallverhütung“ **steht heute als Erstes auf der Tagesordnung**.
+das Stichwort, -e;keyword;ключове слово;Bitte **schreiben Sie bei der Besprechung die wichtigsten Stichworte mit**.
+etw. dokumentieren (dokumentiert, dokumentierte, hat dokumentiert);to document;документувати;Wir müssen alle Vorfälle am Arbeitsplatz **ordnungsgemäß im Unfallbuch dokumentieren**.
+etw. protokollieren (protokolliert, protokollierte, hat protokolliert);to record;протоколювати;Der Schriftführer **muss den Verlauf der Betriebsratssitzung genau protokollieren**.
+die Regel, -n;rule;правило;In unserem Werk **gelten strenge Regeln zur Einhaltung der Hygienevorschriften**.
+in der Regel;as a rule;як правило;In der Regel **dauert die Probezeit im Arbeitsverhältnis sechs Monate**.
+der Teilnehmer, - / die Teilnehmerin, -nen;participant;учасник/-ця;Die Teilnehmer der Weiterbildung **erhalten nach Abschluss ein IHK-Zertifikat**.
+etw. vor|schlagen (schlägt vor, schlug vor, hat vorgeschlagen);to suggest;пропонувати;Ich möchte **einen alternativen Termin für das Vorstellungsgespräch vorschlagen**.
+der Zweifel, -;doubt;сумнів;Es besteht kein Zweifel, **dass der Arbeitsschutz Vorrang vor der Arbeitsleistung hat**.
+etw. schaffen (schafft, schaffte, hat geschafft);to manage;впоратися;Wir werden es schaffen, **das Bauvorhaben vor dem Winter abzuschließen**.
+sich etw. merken (merkt sich, merkte sich, hat sich gemerkt);to remember;запам'ятовувати;Bitte **merken Sie sich die Verhaltensregeln im Brandfall ganz genau**.
+die Pünktlichkeit (Sg.);punctuality;пунктуальність;Die Pünktlichkeit der Auszubildenden **wird im Ausbildungsbetrieb vorausgesetzt**.
+die Begrüßung, -en;greeting;привітання;Bei der Begrüßung der neuen Kollegen **wurde das Leitbild der Firma erklärt**.
+der Feierabend, -e;closing time, finish work;кінець робочого дня;Nach dem Feierabend **sollten Arbeitnehmer keine dienstlichen Telefonate mehr führen**.
+aufregend;exciting;захоплюючий;Die Existenzgründung **war für den jungen Meister ein aufregender Schritt**.
+der Erfolg, -e;success;успіх;Die Sanierungsmaßnahmen **waren ein großer Erfolg für das Familienunternehmen**.
+nützlich;useful;корисний;Diese Fortbildung **war für meine tägliche Tätigkeit im Büro sehr nützlich**.
+der Berufsverkehr (Sg.);professional traffic;робочий дорожній рух (години пік);Wegen des dichten Berufsverkehrs **kam der Mitarbeiter zu spät zum Schichtwechsel**.
+üblich;common;звичайний;In unserem Betrieb **ist das Tragen von Lärmschutz bei der Arbeit üblich**.
+lächeln (lächelt, lächelte, hat gelächelt);to smile;усміхатися;Der Personalvermittler **lächelt freundlich beim Betreten des Raumes**.
+erwünscht;desired;бажаний;Die Bereitschaft zur Schichtarbeit **ist in der Logistikbranche erwünscht**.
+beliebt;popular;популярний;Die Gleitzeitregelung **ist bei der gesamten Belegschaft sehr beliebt**.
+im Allgemeinen;in general;взагалі;Im Allgemeinen **ist die Zusammenarbeit im Team von gegenseitigem Respekt geprägt**.
+der/die Vorgesetzte, -n;supervisor;керівник/-ця;Der Vorgesetzte **ist verpflichtet, die Gefährdungsbeurteilung durchzuführen**.
+sich verabschieden (von + Dat.) (verabschiedet sich, verabschiedete sich, hat sich verabschiedet);to say goodbye;прощатися;Er hat sich gestern **offiziell von allen Kollegen in den Ruhestand verabschiedet**.
