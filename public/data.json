@@ -21971,6 +21971,1746 @@
     "levels": [
       "B2"
     ],
+    "thema": 96,
+    "german": "Abschied nehmen von (+ Dat.)",
+    "german_audio": "Abschied nehmen von",
+    "english": "to say goodbye to",
+    "ukrainian": "прощатися з",
+    "example": "Wir müssen heute Abschied von unserem alten Server nehmen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Absicht haben",
+    "german_audio": "die Absicht haben",
+    "english": "to intend / have the intention",
+    "ukrainian": "мати намір",
+    "example": "Ich <b style=\"color: #eab308;\">habe</b> die Absicht, mich morgen für den AWS-Kurs anzumelden."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "eine Absprache treffen mit (+ Dat.)",
+    "german_audio": "eine Absprache treffen mit",
+    "english": "to make an agreement with",
+    "ukrainian": "домовитися з",
+    "example": "Wir haben eine Absprache mit dem Design-Team getroffen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "eine Ahnung haben von (+ Dat.)",
+    "german_audio": "eine Ahnung haben von",
+    "english": "to have an idea of",
+    "ukrainian": "мати уявлення про",
+    "example": "Hast du eine Ahnung, warum die DB-Verbindung so langsam ist?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "eine Andeutung machen",
+    "german_audio": "eine Andeutung machen",
+    "english": "to hint at / make an allusion",
+    "ukrainian": "натякати, робити натяк",
+    "example": "Der Product Owner <b style=\"color: #eab308;\">machte</b> eine Andeutung bezüglich des neuen Features."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "Anerkennung finden bei/für",
+    "german_audio": "Anerkennung finden bei",
+    "english": "to find recognition / be appreciated",
+    "ukrainian": "отримати визнання, знайти визнання",
+    "example": "Sein Refactoring-Entwurf fand große Anerkennung beim gesamten Team."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "einen Anfang machen",
+    "german_audio": "einen Anfang machen",
+    "english": "to make a start",
+    "ukrainian": "покласти початок, зробити перший крок",
+    "example": "Wer <b style=\"color: #eab308;\">macht</b> den Anfang und fängt mit dem Schreiben der API-Tests an?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "eine Anforderung erfüllen",
+    "german_audio": "eine Anforderung erfüllen",
+    "english": "to meet a requirement",
+    "ukrainian": "відповідати вимогам, виконувати вимогу",
+    "example": "Das neue Tool muss alle Sicherheitsanforderungen des Kunden <b style=\"color: #eab308;\">erfüllen</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "ein Angebot machen",
+    "german_audio": "ein Angebot machen",
+    "english": "to make an offer",
+    "ukrainian": "робити пропозицію",
+    "example": "Wir sollten dem Kunden für die Support-Stunden ein neues Angebot <b style=\"color: #eab308;\">machen</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "ein Angebot unterbreiten",
+    "german_audio": "ein Angebot unterbreiten",
+    "english": "to submit an offer",
+    "ukrainian": "подавати пропозицію (офіційно)",
+    "example": "Der IT-Dienstleister hat uns ein attraktives Angebot <b style=\"color: #eab308;\">unterbreitet</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "etwas im Angebot haben",
+    "german_audio": "etwas im Angebot haben",
+    "english": "to have something on offer",
+    "ukrainian": "мати в асортименті, пропонувати",
+    "example": "Unser Cloud-Provider hat viele KI-Dienste im Angebot."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "etwas in Anspruch nehmen",
+    "german_audio": "etwas in Anspruch nehmen",
+    "english": "to make use of / take up",
+    "ukrainian": "скористатися (чимось), вимагати (часу/зусиль)",
+    "example": "Das Schreiben der Dokumentation wird viel Zeit in Anspruch <b style=\"color: #eab308;\">nehmen</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "einen Antrag stellen auf (+ Akk.)",
+    "german_audio": "einen Antrag stellen auf",
+    "english": "to apply for / submit an application",
+    "ukrainian": "подавати заяву на",
+    "example": "Er hat einen Antrag auf ein neues MacBook Pro gestellt."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "eine Antwort geben",
+    "german_audio": "eine Antwort geben",
+    "english": "to give an answer",
+    "ukrainian": "дати відповідь",
+    "example": "Kannst du mir bitte eine kurze Antwort auf meine Slack-Nachricht <b style=\"color: #eab308;\">geben</b>?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "eine Anweisung geben",
+    "german_audio": "eine Anweisung geben",
+    "english": "to issue an instruction",
+    "ukrainian": "давати вказівку, інструктувати",
+    "example": "Der Lead Architect hat genaue Anweisungen zur Verwendung der API gegeben."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "zur Anwendung kommen",
+    "german_audio": "zur Anwendung kommen",
+    "english": "to be applied / used",
+    "ukrainian": "знаходити застосування",
+    "example": "Das neue Pattern wird im nächsten Sprint zur Anwendung <b style=\"color: #eab308;\">kommen</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "einen Auftrag erteilen",
+    "german_audio": "einen Auftrag erteilen",
+    "english": "to place an order / assign a task",
+    "ukrainian": "давати замовлення, доручати роботу",
+    "example": "Die Geschäftsführung hat der IT-Firma den Auftrag <b style=\"color: #eab308;\">erteilt</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "in Auftrag geben",
+    "german_audio": "in Auftrag geben",
+    "english": "to commission / order",
+    "ukrainian": "замовляти (комусь виконання роботи)",
+    "example": "Wir haben das Sicherheits-Audit bei einer externen Firma in Auftrag gegeben."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "aus den Augen verlieren",
+    "german_audio": "aus den Augen verlieren",
+    "english": "to lose sight of",
+    "ukrainian": "втрачати з виду",
+    "example": "Wir dürfen das eigentliche Ziel des Refactorings nicht aus den Augen <b style=\"color: #eab308;\">verlieren</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "zum Ausdruck bringen",
+    "german_audio": "zum Ausdruck bringen",
+    "english": "to express / voice",
+    "ukrainian": "висловлювати, давати вираження",
+    "example": "Der Product Owner hat seine Zufriedenheit zum Ausdruck gebracht."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "zum Ausdruck kommen",
+    "german_audio": "zum Ausdruck kommen",
+    "english": "to be expressed",
+    "ukrainian": "виражатися, знаходити вияв",
+    "example": "Die Bedenken des DevOps-Engineers sind im Meeting deutlich zum Ausdruck gekommen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "Auskunft geben",
+    "german_audio": "Auskunft geben",
+    "english": "to provide information",
+    "ukrainian": "надавати інформацію",
+    "example": "Der Support-Mitarbeiter kann Auskunft über den Serverstatus <b style=\"color: #eab308;\">geben</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "eine Äußerung machen",
+    "german_audio": "eine Äußerung machen",
+    "english": "to make a comment",
+    "ukrainian": "висловлюватися",
+    "example": "Er wollte keine Äußerung zu den Gerüchten über das System-Update <b style=\"color: #eab308;\">machen</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "Beachtung finden bei/für",
+    "german_audio": "Beachtung finden bei",
+    "english": "to receive attention",
+    "ukrainian": "привертати увагу, користуватися увагою",
+    "example": "Die neue Open-Source-Bibliothek findet viel Beachtung bei Entwicklern."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "Beachtung schenken (+ Dat.)",
+    "german_audio": "Beachtung schenken",
+    "english": "to pay attention to",
+    "ukrainian": "приділяти увагу (чомусь)",
+    "example": "Wir müssen den Fehlermeldungen in den Logs mehr Beachtung <b style=\"color: #eab308;\">schenken</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "einen Beitrag leisten für/zu",
+    "german_audio": "einen Beitrag leisten für",
+    "english": "to make a contribution to",
+    "ukrainian": "вносити вклад у",
+    "example": "Jeder Entwickler leistet einen Beitrag zur Verbesserung der Codequalität."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "Berücksichtigung finden bei/wegen",
+    "german_audio": "Berücksichtigung finden bei",
+    "english": "to be taken into account",
+    "ukrainian": "бути врахованим",
+    "example": "Deine UI-Vorschläge werden bei der nächsten Design-Phase Berücksichtigung finden."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "Bescheid geben (+ Dat.)",
+    "german_audio": "Bescheid geben",
+    "english": "to let someone know",
+    "ukrainian": "повідомляти (когось), давати знати",
+    "example": "Gib mir bitte Bescheid, sobald der PR gemergt ist."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "eine Bestellung aufgeben",
+    "german_audio": "eine Bestellung aufgeben",
+    "english": "to place an order",
+    "ukrainian": "робити замовлення (про купівлю)",
+    "example": "Ich habe eine Bestellung für neue Serverkomponenten <b style=\"color: #eab308;\">aufgegeben</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "in Betracht kommen",
+    "german_audio": "in Betracht kommen",
+    "english": "to be considered / possible",
+    "ukrainian": "братися до уваги, бути можливим",
+    "example": "Diese alte Library <b style=\"color: #eab308;\">kommt</b> für unser modernes Projekt nicht in Betracht."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "in Betracht ziehen",
+    "german_audio": "in Betracht ziehen",
+    "english": "to consider / take into account",
+    "ukrainian": "брати до уваги, розглядати",
+    "example": "Wir sollten einen Wechsel zu Postgres in Betracht <b style=\"color: #eab308;\">ziehen</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "in Betrieb nehmen",
+    "german_audio": "in Betrieb nehmen",
+    "english": "to put into operation",
+    "ukrainian": "вводити в експлуатацію",
+    "example": "Morgen werden wir den neuen Kubernetes-Cluster in Betrieb <b style=\"color: #eab308;\">nehmen</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "Bezug nehmen auf (+ Akk.)",
+    "german_audio": "Bezug nehmen auf",
+    "english": "to refer to",
+    "ukrainian": "посилатися на, стосуватися (чогось)",
+    "example": "Ich beziehe mich auf das Jira-Ticket, das gestern erstellt wurde (Bezug nehmen)."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "im Blick haben",
+    "german_audio": "im Blick haben",
+    "english": "to keep an eye on",
+    "ukrainian": "мати на увазі, контролювати",
+    "example": "Der Projektmanager hat alle Deadlines fest im Blick."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Daumen drücken für (+ Akk.)",
+    "german_audio": "die Daumen drücken für",
+    "english": "to keep one's fingers crossed for",
+    "ukrainian": "тримати кулаки за",
+    "example": "Ich drücke dir die Daumen <b style=\"color: #eab308;\">für</b> das morgige Live-Demo beim Kunden."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "zur Debatte stehen",
+    "german_audio": "zur Debatte stehen",
+    "english": "to be up for debate",
+    "ukrainian": "стояти на порядку денному, обговорюватися",
+    "example": "Die Einführung von Vue 3 <b style=\"color: #eab308;\">steht</b> heute zur Debatte."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "eine Diskussion führen über/mit",
+    "german_audio": "eine Diskussion führen über",
+    "english": "to have a discussion about/with",
+    "ukrainian": "вести дискусію про/з",
+    "example": "Wir haben eine lange Diskussion <b style=\"color: #eab308;\">über</b> Microservices geführt."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "zur Diskussion stellen",
+    "german_audio": "zur Diskussion stellen",
+    "english": "to put up for discussion",
+    "ukrainian": "виносити на обговорення",
+    "example": "Ich möchte diesen Architektur-Entwurf im Team zur Diskussion <b style=\"color: #eab308;\">stellen</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "unter Druck setzen",
+    "german_audio": "unter Druck setzen",
+    "english": "to put under pressure",
+    "ukrainian": "чинити тиск на",
+    "example": "Der Kunde versucht, uns mit der Deadline unter Druck zu <b style=\"color: #eab308;\">setzen</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "einen Eindruck bekommen von (+ Dat.)",
+    "german_audio": "einen Eindruck bekommen von",
+    "english": "to get an impression of",
+    "ukrainian": "скласти враження про",
+    "example": "Ich konnte bereits einen guten Eindruck vom neuen Framework bekommen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "Eindruck machen auf (+ Akk.)",
+    "german_audio": "Eindruck machen auf",
+    "english": "to make an impression on",
+    "ukrainian": "справляти враження на",
+    "example": "Das neue, performante Design hat großen Eindruck auf den Kunden gemacht."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "Einfluss nehmen auf (+ Akk.)",
+    "german_audio": "Einfluss nehmen auf",
+    "english": "to influence / affect",
+    "ukrainian": "впливати на",
+    "example": "Die Ladezeit nimmt großen Einfluss auf die User-Zufriedenheit."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "eine Entscheidung treffen",
+    "german_audio": "eine Entscheidung treffen",
+    "english": "to make a decision",
+    "ukrainian": "приймати рішення",
+    "example": "Wir müssen bald eine Entscheidung bezüglich des Hostings <b style=\"color: #eab308;\">treffen</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "zur Entscheidung bringen",
+    "german_audio": "zur Entscheidung bringen",
+    "english": "to bring to a decision",
+    "ukrainian": "доводити до прийняття рішення",
+    "example": "Wir müssen diese Diskussion endlich zur Entscheidung <b style=\"color: #eab308;\">bringen</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "zur Entscheidung stellen",
+    "german_audio": "zur Entscheidung stellen",
+    "english": "to put up for decision",
+    "ukrainian": "ставити на вирішення",
+    "example": "Der Lead Developer <b style=\"color: #eab308;\">stellt</b> das UI-Konzept zur Entscheidung."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "eine Erfahrung machen mit (+ Dat.)",
+    "german_audio": "eine Erfahrung machen mit",
+    "english": "to make an experience with",
+    "ukrainian": "мати досвід роботи з",
+    "example": "Mit dieser Datenbank haben wir bisher nur gute Erfahrungen gemacht."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "in Erfahrung bringen",
+    "german_audio": "in Erfahrung bringen",
+    "english": "to find out / learn",
+    "ukrainian": "дізнатися, з'ясувати",
+    "example": "Kannst du bitte in Erfahrung <b style=\"color: #eab308;\">bringen</b>, wann die API wieder online ist?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "in Erfüllung gehen",
+    "german_audio": "in Erfüllung gehen",
+    "english": "to come true",
+    "ukrainian": "здійснюватися, справджуватися",
+    "example": "Mein Wunsch nach 100% Homeoffice ist in Erfüllung gegangen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "eine Erklärung finden für (+ Akk.)",
+    "german_audio": "eine Erklärung finden für",
+    "english": "to find an explanation for",
+    "ukrainian": "знайти пояснення для",
+    "example": "Wir konnten noch keine logische Erklärung <b style=\"color: #eab308;\">für</b> diesen Absturz finden."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "Ersatz leisten für (+ Akk.)",
+    "german_audio": "Ersatz leisten für",
+    "english": "to provide compensation/replacements for",
+    "ukrainian": "відшкодовувати збитки, замінювати",
+    "example": "Die Hardware-Firma muss Ersatz <b style=\"color: #eab308;\">für</b> den defekten Server leisten."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "Feedback bekommen",
+    "german_audio": "Feedback bekommen",
+    "english": "to get feedback",
+    "ukrainian": "отримувати зворотний зв'язок",
+    "example": "Nach der Präsentation haben wir sehr konstruktives Feedback <b style=\"color: #eab308;\">bekommen</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "Feedback geben (+ Dat.)",
+    "german_audio": "Feedback geben",
+    "english": "to give feedback",
+    "ukrainian": "давати зворотний зв'язок",
+    "example": "Wir sollten den Junior-Entwicklern regelmäßig Feedback <b style=\"color: #eab308;\">geben</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "einen Fehler beheben",
+    "german_audio": "einen Fehler beheben",
+    "english": "to fix a bug/error",
+    "ukrainian": "виправляти помилку",
+    "example": "Der Bugfix hat den schwerwiegenden Fehler behoben."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "zur Folge haben",
+    "german_audio": "zur Folge haben",
+    "english": "to result in / entail",
+    "ukrainian": "мати наслідком",
+    "example": "Das Deaktivieren der Firewall kann große Sicherheitsrisiken zur Folge <b style=\"color: #eab308;\">haben</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "eine Forderung stellen",
+    "german_audio": "eine Forderung stellen",
+    "english": "to make a demand",
+    "ukrainian": "висувати вимогу",
+    "example": "Der Betriebsrat <b style=\"color: #eab308;\">stellt</b> eine Forderung nach flexibleren Arbeitszeiten."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "eine Frage stellen",
+    "german_audio": "eine Frage stellen",
+    "english": "to ask a question",
+    "ukrainian": "ставити запитання",
+    "example": "Darf ich dazu im GitHub-Issue eine Frage <b style=\"color: #eab308;\">stellen</b>?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "eine Freude bereiten (+ Dat.)",
+    "german_audio": "eine Freude bereiten",
+    "english": "to give pleasure to / make happy",
+    "ukrainian": "приносити радість",
+    "example": "Der Release des neuen Tools hat dem Kunden eine große Freude <b style=\"color: #eab308;\">bereitet</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "ins Geschäft kommen mit (+ Dat.)",
+    "german_audio": "ins Geschäft kommen mit",
+    "english": "to do business with",
+    "ukrainian": "налагоджувати бізнес-зв'язки з, домовлятися",
+    "example": "Wir hoffen, mit dem großen E-Commerce-Konzern ins Geschäft zu kommen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "ein Gespräch führen über/mit",
+    "german_audio": "ein Gespräch führen über",
+    "english": "to carry out a conversation about/with",
+    "ukrainian": "вести розмову про/з",
+    "example": "Ich habe heute ein Gespräch mit dem IT-Leiter geführt."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "ins Gespräch bringen",
+    "german_audio": "ins Gespräch bringen",
+    "english": "to bring into discussion / suggest",
+    "ukrainian": "вводити в обговорення, пропонувати",
+    "example": "Er hat das Thema Cloud-Sicherheit erneut ins Gespräch gebracht."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "den Glauben verlieren",
+    "german_audio": "den Glauben verlieren",
+    "english": "to lose faith",
+    "ukrainian": "втрачати віру",
+    "example": "Ich <b style=\"color: #eab308;\">verliere</b> langsam den Glauben an diesen unzuverlässigen Service."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "etwas im Griff haben",
+    "german_audio": "etwas im Griff haben",
+    "english": "to have something under control",
+    "ukrainian": "тримати під контролем",
+    "example": "Keine Sorge, unser Team hat die Serverlast voll im Griff."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "etwas in den Griff bekommen",
+    "german_audio": "etwas in den Griff bekommen",
+    "english": "to get something under control",
+    "ukrainian": "взяти під контроль, упоратися з",
+    "example": "Wir müssen das Memory-Leak dringend in den Griff <b style=\"color: #eab308;\">bekommen</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "auf den Grund gehen (+ Dat.)",
+    "german_audio": "auf den Grund gehen",
+    "english": "to get to the bottom of",
+    "ukrainian": "докопатися до суті",
+    "example": "Wir müssen der Ursache dieses Netzwerkfehlers auf den Grund <b style=\"color: #eab308;\">gehen</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "jemanden vor eine Herausforderung stellen",
+    "german_audio": "jemanden vor eine Herausforderung stellen",
+    "english": "to challenge someone",
+    "ukrainian": "ставити когось перед складним завданням",
+    "example": "Das neue Datenbankschema <b style=\"color: #eab308;\">stellt</b> uns vor eine große Herausforderung."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "Hilfe leisten",
+    "german_audio": "Hilfe leisten",
+    "english": "to render assistance / help",
+    "ukrainian": "надавати допомогу",
+    "example": "Der Support konnte uns bei der Migration schnell Hilfe <b style=\"color: #eab308;\">leisten</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "zu Hilfe nehmen",
+    "german_audio": "zu Hilfe nehmen",
+    "english": "to call upon / use for help",
+    "ukrainian": "брати на допомогу",
+    "example": "Wir sollten ChatGPT für das Schreiben der Regex zu Hilfe <b style=\"color: #eab308;\">nehmen</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Hoffnung aufgeben",
+    "german_audio": "die Hoffnung aufgeben",
+    "english": "to give up hope",
+    "ukrainian": "втрачати надію, залишати надію",
+    "example": "Wir haben die Hoffnung noch nicht <b style=\"color: #eab308;\">aufgegeben</b>, den Bug heute zu fixen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "sich Hoffnung machen",
+    "german_audio": "sich Hoffnung machen",
+    "english": "to hope / have hopes",
+    "ukrainian": "сподіватися, плекати надію",
+    "example": "Er <b style=\"color: #eab308;\">macht</b> sich Hoffnung auf eine baldige Beförderung zum Senior."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "auf eine Idee kommen",
+    "german_audio": "auf eine Idee kommen",
+    "english": "to come up with an idea",
+    "ukrainian": "додуматися до ідеї, прийти в голову",
+    "example": "Wie bist du auf die Idee gekommen, GraphQL zu nutzen?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "infrage kommen",
+    "german_audio": "infrage kommen",
+    "english": "to be possible / eligible",
+    "ukrainian": "братися до уваги, підходити",
+    "example": "Diese veraltete Bibliothek <b style=\"color: #eab308;\">kommt</b> für uns nicht mehr infrage."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "infrage stellen",
+    "german_audio": "infrage stellen",
+    "english": "to question / challenge",
+    "ukrainian": "ставити під сумнів",
+    "example": "Wir sollten die aktuelle Deployment-Pipeline infrage <b style=\"color: #eab308;\">stellen</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "Interesse wecken an/für",
+    "german_audio": "Interesse wecken an",
+    "english": "to arouse interest in",
+    "ukrainian": "пробуджувати інтерес до",
+    "example": "Das neue Feature hat großes Interesse bei den Usern geweckt."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "Interesse zeigen an/für",
+    "german_audio": "Interesse zeigen an",
+    "english": "to show interest in",
+    "ukrainian": "виявляти інтерес до",
+    "example": "Viele Investoren zeigen großes Interesse an unserer SaaS-Lösung."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "in Kenntnis setzen von (+ Dat.)",
+    "german_audio": "in Kenntnis setzen von",
+    "english": "to inform of",
+    "ukrainian": "повідомляти про, ставити до відома",
+    "example": "Bitte setze das Team rechtzeitig vom Wartungstermin in Kenntnis."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "zur Kenntnis nehmen",
+    "german_audio": "zur Kenntnis nehmen",
+    "english": "to take note of",
+    "ukrainian": "приймати до відома",
+    "example": "Ich habe deine Anmerkungen im Pull Request zur Kenntnis genommen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "Kontakt aufnehmen mit (+ Dat.)",
+    "german_audio": "Kontakt aufnehmen mit",
+    "english": "to contact / get in touch with",
+    "ukrainian": "вступати в контакт з, зв'язатися з",
+    "example": "Der Support wird morgen Kontakt mit dem Kunden aufnehmen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "Klarheit gewinnen über (+ Akk.)",
+    "german_audio": "Klarheit gewinnen über",
+    "english": "to gain clarity about",
+    "ukrainian": "отримати ясність щодо, розібратися",
+    "example": "Wir müssen Klarheit <b style=\"color: #eab308;\">über</b> die genauen Systemanforderungen gewinnen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "Kontakt halten",
+    "german_audio": "Kontakt halten",
+    "english": "to keep in touch",
+    "ukrainian": "підтримувати зв'язок",
+    "example": "Wir <b style=\"color: #eab308;\">halten</b> über Slack und Teams engen Kontakt."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "Kontakt knüpfen mit/zu",
+    "german_audio": "Kontakt knüpfen mit",
+    "english": "to establish contact with",
+    "ukrainian": "налагоджувати контакти з",
+    "example": "Auf der IT-Messe konnte я neue Kontakte zu Entwicklern knüpfen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "in Kontakt stehen mit (+ Dat.)",
+    "german_audio": "in Kontakt stehen mit",
+    "english": "to be in touch with",
+    "ukrainian": "перебувати в контакті з",
+    "example": "Ich stehe diesbezüglich bereits in Kontakt mit dem Provider."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "in Kontakt treten mit (+ Dat.)",
+    "german_audio": "in Kontakt treten mit",
+    "english": "to get in touch with",
+    "ukrainian": "вступити в контакт з, зв'язатися",
+    "example": "Wir müssen dringend mit dem Systemadministrator in Kontakt treten."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Kosten tragen für (+ Akk.)",
+    "german_audio": "die Kosten tragen für",
+    "english": "to bear the costs of",
+    "ukrainian": "нести витрати за",
+    "example": "Die Firma wird die Kosten <b style=\"color: #eab308;\">für</b> deine Zertifizierung tragen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Kosten übernehmen für (+ Akk.)",
+    "german_audio": "die Kosten übernehmen für",
+    "english": "to take over the costs for",
+    "ukrainian": "брати на себе витрати за",
+    "example": "Unser Arbeitgeber übernimmt die Kosten <b style=\"color: #eab308;\">für</b> das Jobticket."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "in Kraft treten",
+    "german_audio": "in Kraft treten",
+    "english": "to come into force/effect",
+    "ukrainian": "набувати чинності",
+    "example": "Die neuen Datenschutzrichtlinien <b style=\"color: #eab308;\">treten</b> am 1. Mai in Kraft."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "Krieg führen gegen/mit/wegen",
+    "german_audio": "Krieg führen gegen",
+    "english": "to wage war against/with/because of",
+    "ukrainian": "вести війну проти/з/через",
+    "example": "Die Tech-Giganten führen seit Jahren Krieg um die Marktanteile."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "Kritik üben an/für",
+    "german_audio": "Kritik üben an",
+    "english": "to criticize",
+    "ukrainian": "критикувати",
+    "example": "Der Code-Reviewer hat berechtigte Kritik an der App-Architektur geübt."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "den Kürzeren ziehen",
+    "german_audio": "den Kürzeren ziehen",
+    "english": "to get the short end of the stick",
+    "ukrainian": "програти, опинитися в невигідному становищі",
+    "example": "Ohne Backup <b style=\"color: #eab308;\">zieht</b> man beim Ransomware-Angriff den Kürzeren."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "jemanden auf dem Laufenden halten",
+    "german_audio": "jemanden auf dem Laufenden halten",
+    "english": "to keep someone updated",
+    "ukrainian": "тримати когось в курсі справ",
+    "example": "Bitte <b style=\"color: #eab308;\">halte</b> mich über den Status des Deployments auf dem Laufenden."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "auf dem Laufenden sein",
+    "german_audio": "auf dem Laufenden sein",
+    "english": "to be up to date",
+    "ukrainian": "бути в курсі справ",
+    "example": "Ich bin bezüglich der neuesten Web-Technologien immer auf dem Laufenden."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Meinung sein",
+    "german_audio": "der Meinung sein",
+    "english": "to be of the opinion",
+    "ukrainian": "бути думки, вважати",
+    "example": "Ich bin der Meinung, dass wir mehr Tests schreiben sollten."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "in Ordnung bringen",
+    "german_audio": "in Ordnung bringen",
+    "english": "to put in order / tidy up",
+    "ukrainian": "приводити до ладу, виправляти",
+    "example": "Ich werde das Chaos in den CSS-Dateien morgen in Ordnung <b style=\"color: #eab308;\">bringen</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "ein Profil anlegen",
+    "german_audio": "ein Profil anlegen",
+    "english": "to create a profile",
+    "ukrainian": "створювати профіль",
+    "example": "Jeder neue User muss zuerst ein Profil auf der Webseite <b style=\"color: #eab308;\">anlegen</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "eine Prüfung bestehen",
+    "german_audio": "eine Prüfung bestehen",
+    "english": "to pass an exam",
+    "ukrainian": "скласти іспит",
+    "example": "Er hat die AWS-Zertifizierungsprüfung erfolgreich <b style=\"color: #eab308;\">bestanden</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "durch eine Prüfung fallen",
+    "german_audio": "durch eine Prüfung fallen",
+    "english": "to fail an exam",
+    "ukrainian": "провалити іспит",
+    "example": "Wenn man nicht lernt, kann man durch die Prüfung <b style=\"color: #eab308;\">fallen</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "eine Qualifikation mitbringen",
+    "german_audio": "eine Qualifikation mitbringen",
+    "english": "to bring qualifications / be qualified",
+    "ukrainian": "мати кваліфікацію",
+    "example": "Für diese Senior-Stelle muss man viel Erfahrung im Web-Bereich <b style=\"color: #eab308;\">mitbringen</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "einen Rat geben (+ Dat.)",
+    "german_audio": "einen Rat geben",
+    "english": "to give advice",
+    "ukrainian": "давати пораду",
+    "example": "Kannst du mir einen Rat bezüglich des DB-Designs <b style=\"color: #eab308;\">geben</b>?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "Rechenschaft ablegen über (+ Akk.)",
+    "german_audio": "Rechenschaft ablegen über",
+    "english": "to give an account of",
+    "ukrainian": "звітувати про",
+    "example": "Der Projektleiter muss Rechenschaft <b style=\"color: #eab308;\">über</b> das verbrauchte Budget ablegen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "zur Rechenschaft ziehen für (+ Akk.)",
+    "german_audio": "zur Rechenschaft ziehen für",
+    "english": "to hold accountable for",
+    "ukrainian": "притягати до відповідальності за",
+    "example": "Wir werden den Provider <b style=\"color: #eab308;\">für</b> den stundenlangen Ausfall zur Rechenschaft ziehen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "in Rechnung stellen",
+    "german_audio": "in Rechnung stellen",
+    "english": "to invoice / charge",
+    "ukrainian": "виставляти рахунок за",
+    "example": "Wir werden dem Kunden die zusätzlich geleisteten Stunden in Rechnung <b style=\"color: #eab308;\">stellen</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "eine Rede halten über (+ Akk.)",
+    "german_audio": "eine Rede halten über",
+    "english": "to give a speech about",
+    "ukrainian": "виголошувати промову про, виступати з доповіддю",
+    "example": "Der CEO wird auf der Konferenz eine Rede <b style=\"color: #eab308;\">über</b> KI halten."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "in eine Reihenfolge bringen",
+    "german_audio": "in eine Reihenfolge bringen",
+    "english": "to put in order",
+    "ukrainian": "упорядковувати, вибудовувати в послідовність",
+    "example": "Wir müssen die Tasks im Backlog in eine logische Reihenfolge <b style=\"color: #eab308;\">bringen</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "den Respekt verlieren vor (+ Dat.)",
+    "german_audio": "den Respekt verlieren vor",
+    "english": "to lose respect for",
+    "ukrainian": "втрачати повагу до",
+    "example": "Ich habe den Respekt vor seiner fachlichen Meinung verloren."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "Rückmeldung geben (+ Dat.)",
+    "german_audio": "Rückmeldung geben",
+    "english": "to give feedback",
+    "ukrainian": "давати зворотний зв'язок",
+    "example": "Gib mir bitte Rückmeldung, sobald du das neue Design getestet hast."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "Rücksicht nehmen auf (+ Akk.)",
+    "german_audio": "Rücksicht nehmen auf",
+    "english": "to show consideration for",
+    "ukrainian": "зважати на, брати до уваги (чиїсь інтереси)",
+    "example": "Wir müssen Rücksicht auf die Ladezeiten für mobile User nehmen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Ruhe bewahren",
+    "german_audio": "die Ruhe bewahren",
+    "english": "to keep calm",
+    "ukrainian": "зберігати спокій",
+    "example": "Trotz des Server-Absturzes hat das Team die Ruhe <b style=\"color: #eab308;\">bewahrt</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "Schluss machen mit (+ Dat.)",
+    "german_audio": "Schluss machen mit",
+    "english": "to put an end to",
+    "ukrainian": "покінчити з, припинити",
+    "example": "Wir müssen endlich Schluss mit diesen ineffizienten Meetings machen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "zur Sprache bringen",
+    "german_audio": "zur Sprache bringen",
+    "english": "to bring up / voice",
+    "ukrainian": "піднімати тему, заводити розмову про",
+    "example": "Ich werde das Problem mit der CI/CD-Pipeline im Daily zur Sprache <b style=\"color: #eab308;\">bringen</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "Stellung nehmen zu (+ Dat.)",
+    "german_audio": "Stellung nehmen zu",
+    "english": "to take a stand on / comment",
+    "ukrainian": "висловити свою позицію щодо",
+    "example": "Der CTO wird morgen zu den Sicherheitslücken Stellung nehmen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "unter Strafe stehen",
+    "german_audio": "unter Strafe stehen",
+    "english": "to be punishable",
+    "ukrainian": "підлягати покаранню, каратися законом",
+    "example": "Das illegale Kopieren von Software <b style=\"color: #eab308;\">steht</b> unter Strafe."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "unter Strafe stellen",
+    "german_audio": "unter Strafe stellen",
+    "english": "to make punishable",
+    "ukrainian": "карати за",
+    "example": "Der Gesetzgeber hat den Datenmissbrauch unter Strafe gestellt."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "in Streik treten",
+    "german_audio": "in Streik treten",
+    "english": "to go on strike",
+    "ukrainian": "оголошувати страйк, починати страйк",
+    "example": "Die Mitarbeiter der Support-Abteilung sind in Streik getreten."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "Stress haben mit (+ Dat.)",
+    "german_audio": "Stress haben mit",
+    "english": "to have stress with",
+    "ukrainian": "мати стрес через, проблеми з",
+    "example": "Ich habe aktuell ziemlich viel Stress mit dem neuen Release."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "unter Stress stehen",
+    "german_audio": "unter Stress stehen",
+    "english": "to be under stress",
+    "ukrainian": "перебувати під стресом",
+    "example": "Das Tech-Team <b style=\"color: #eab308;\">steht</b> vor der Deadline extrem unter Stress."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "eine Tätigkeit ausüben",
+    "german_audio": "eine Tätigkeit ausüben",
+    "english": "to practice an activity / work",
+    "ukrainian": "провадити діяльність, виконувати роботу",
+    "example": "Als Software-Entwickler übe ich eine sitzende Tätigkeit aus."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "im Trend liegen",
+    "german_audio": "im Trend liegen",
+    "english": "to be trendy",
+    "ukrainian": "бути в тренді",
+    "example": "Mobile-First-Designs und KI-Integrationen <b style=\"color: #eab308;\">liegen</b> aktuell voll im Trend."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "einen Überblick bekommen",
+    "german_audio": "einen Überblick bekommen",
+    "english": "to get an overview",
+    "ukrainian": "отримати загальне уявлення",
+    "example": "Ich muss mir erst einen Überblick über die bestehende Codebase verschaffen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "einen Überblick geben",
+    "german_audio": "einen Überblick geben",
+    "english": "to give an overview",
+    "ukrainian": "надати огляд",
+    "example": "Kannst du mir bitte einen schnellen Überblick über die neuen Features <b style=\"color: #eab308;\">geben</b>?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "einen Unterschied machen",
+    "german_audio": "einen Unterschied machen",
+    "english": "to make a difference",
+    "ukrainian": "мати значення, створювати різницю",
+    "example": "Ob wir CSS Grid або Flexbox nutzen, <b style=\"color: #eab308;\">macht</b> in diesem Fall keinen Unterschied."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "eine Verabredung treffen",
+    "german_audio": "eine Verabredung treffen",
+    "english": "to make an appointment/agreement",
+    "ukrainian": "домовлятися про зустріч/угоду",
+    "example": "Wir haben eine Verabredung mit dem Kunden für Montag getroffen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Verantwortung übernehmen für (+ Akk.)",
+    "german_audio": "die Verantwortung übernehmen für",
+    "english": "to take responsibility for",
+    "ukrainian": "брати на себе відповідальність за",
+    "example": "Der Projektleiter übernimmt die Verantwortung <b style=\"color: #eab308;\">für</b> das Deployment."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "sich in Verbindung setzen mit (+ Dat.)",
+    "german_audio": "sich in Verbindung setzen mit",
+    "english": "to get in touch with",
+    "ukrainian": "зв'язатися з",
+    "example": "Bitte setze dich morgen mit dem Support-Team in Verbindung."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "eine Vereinbarung treffen",
+    "german_audio": "eine Vereinbarung treffen",
+    "english": "to make an agreement",
+    "ukrainian": "укладати угоду, домовлятися",
+    "example": "Wir haben eine Vereinbarung über die wöchentlichen Arbeitszeiten getroffen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "zur Verfügung stellen",
+    "german_audio": "zur Verfügung stellen",
+    "english": "to provide / make available",
+    "ukrainian": "надавати, ставити в розпорядження",
+    "example": "Der Provider <b style=\"color: #eab308;\">stellt</b> uns unbegrenzten Cloud-Speicher zur Verfügung."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "in Verhandlungen stehen",
+    "german_audio": "in Verhandlungen stehen",
+    "english": "to be in negotiations",
+    "ukrainian": "вести переговори",
+    "example": "Wir <b style=\"color: #eab308;\">stehen</b> bereits в Verhandlungen mit einem neuen Cloud-Anbieter."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "in Verhandlungen treten",
+    "german_audio": "in Verhandlungen treten",
+    "english": "to enter into negotiations",
+    "ukrainian": "вступати в переговори",
+    "example": "Wir wollen nächste Woche mit dem Kunden in Verhandlungen <b style=\"color: #eab308;\">treten</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "ein Versprechen geben",
+    "german_audio": "ein Versprechen geben",
+    "english": "to make a promise",
+    "ukrainian": "давати обіцянку",
+    "example": "Wir haben dem Kunden das Versprechen gegeben, das System zu stabilisieren."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "einen Vertrag abschließen mit (+ Dat.)",
+    "german_audio": "einen Vertrag abschließen mit",
+    "english": "to sign a contract with",
+    "ukrainian": "укладати договір з",
+    "example": "Die Firma hat einen Vertrag mit AWS abgeschlossen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "Vertrauen herstellen",
+    "german_audio": "Vertrauen herstellen",
+    "english": "to build trust",
+    "ukrainian": "налагоджувати довіру",
+    "example": "Gute Kommunikation hilft, Vertrauen zum Kunden herzustellen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "Vorbereitungen treffen",
+    "german_audio": "Vorbereitungen treffen",
+    "english": "to make preparations",
+    "ukrainian": "робити приготування, готуватися",
+    "example": "Wir müssen rechtzeitig alle Vorbereitungen für das Deployment <b style=\"color: #eab308;\">treffen</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "im Vordergrund stehen",
+    "german_audio": "im Vordergrund stehen",
+    "english": "to be in the foreground / prioritized",
+    "ukrainian": "стояти на першому плані, бути пріоритетом",
+    "example": "Bei diesem Update <b style=\"color: #eab308;\">steht</b> die Systemstabilität im Vordergrund."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "einen Vorschlag machen",
+    "german_audio": "einen Vorschlag machen",
+    "english": "to make a suggestion",
+    "ukrainian": "робити пропозицію, пропонувати",
+    "example": "Ich möchte einen Vorschlag zur Optimierung der Datenbank <b style=\"color: #eab308;\">machen</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "einen Vorschlag unterbreiten",
+    "german_audio": "einen Vorschlag unterbreiten",
+    "english": "to submit a proposal",
+    "ukrainian": "подавати пропозицію (офіційно)",
+    "example": "Der Architekt hat dem Team einen neuen Vorschlag <b style=\"color: #eab308;\">unterbreitet</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "Vorsorge treffen für (+ Akk.)",
+    "german_audio": "Vorsorge treffen für",
+    "english": "to make provisions for",
+    "ukrainian": "вживати запобіжних заходів",
+    "example": "Wir müssen rechtzeitig Vorsorge <b style=\"color: #eab308;\">für</b> den Ernstfall treffen (Backup)."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "eine Wahl treffen",
+    "german_audio": "eine Wahl treffen",
+    "english": "to make a choice",
+    "ukrainian": "робити вибір",
+    "example": "Wir müssen eine Wahl zwischen React und Vue <b style=\"color: #eab308;\">treffen</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "im Wettbewerb stehen mit (+ Dat.)",
+    "german_audio": "im Wettbewerb stehen mit",
+    "english": "to compete with",
+    "ukrainian": "конкурувати з",
+    "example": "Unser E-Commerce-System steht mit großen Plattformen im Wettbewerb."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "Wert legen auf (+ Akk.)",
+    "german_audio": "Wert legen auf",
+    "english": "to attach importance to / value",
+    "ukrainian": "надавати великого значення (чомусь)",
+    "example": "Wir legen großen Wert auf sauberen und lesbaren Code."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "Wertschätzung genießen",
+    "german_audio": "Wertschätzung genießen",
+    "english": "to be appreciated",
+    "ukrainian": "користуватися повагою/визнанням",
+    "example": "Gute Entwickler <b style=\"color: #eab308;\">genießen</b> in unserer Firma hohe Wertschätzung."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "Widerstand leisten gegen (+ Akk.)",
+    "german_audio": "Widerstand leisten gegen",
+    "english": "to offer resistance to",
+    "ukrainian": "чинити опір (комусь/чомусь)",
+    "example": "Die Legacy-Software leistet hartnäckigen Widerstand <b style=\"color: #eab308;\">gegen</b> Modernisierungen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "Wirkung zeigen",
+    "german_audio": "Wirkung zeigen",
+    "english": "to show effect",
+    "ukrainian": "дати результат, мати ефект",
+    "example": "Die Performance-Optimierungen <b style=\"color: #eab308;\">zeigen</b> bereits deutliche Wirkung."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Wort ergreifen",
+    "german_audio": "das Wort ergreifen",
+    "english": "to take the floor / speak",
+    "ukrainian": "брати слово, починати говорити",
+    "example": "Der Lead Developer <b style=\"color: #eab308;\">ergriff</b> das Wort und erklärte den Bug."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "ein Ziel setzen",
+    "german_audio": "ein Ziel setzen",
+    "english": "to set a goal",
+    "ukrainian": "ставити ціль",
+    "example": "Wir haben uns das Ziel gesetzt, die Ladezeit zu halbelieren."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "ein Ziel verfolgen",
+    "german_audio": "ein Ziel verfolgen",
+    "english": "to pursue a goal",
+    "ukrainian": "переслідувати ціль, іти до мети",
+    "example": "Wir <b style=\"color: #eab308;\">verfolgen</b> das Ziel, den Code vollständig abzusichern."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "eine Zusage erhalten",
+    "german_audio": "eine Zusage erhalten",
+    "english": "to receive approval / confirmation",
+    "ukrainian": "отримати згоду, підтвердження",
+    "example": "Wir haben die Zusage für das zusätzliche Budget <b style=\"color: #eab308;\">erhalten</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 96,
+    "german": "im Zusammenhang stehen mit (+ Dat.)",
+    "german_audio": "im Zusammenhang stehen mit",
+    "english": "to be related to / associated with",
+    "ukrainian": "бути пов'язаним із",
+    "example": "Der Server-Absturz steht im Zusammenhang mit dem gestrigen Update."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
     "thema": 97,
     "german": "gewöhnt an (+ Akk.)",
     "german_audio": "gewöhnt an",

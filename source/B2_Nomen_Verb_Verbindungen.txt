@@ -1,0 +1,149 @@
+#separator:;
+#html:true
+#columns:German;English;Ukrainian;Example
+Abschied nehmen von (+ Dat.);to say goodbye to;прощатися з;Wir müssen heute Abschied von unserem alten Server nehmen.
+die Absicht haben;to intend / have the intention;мати намір;Ich habe die Absicht, mich morgen für den AWS-Kurs anzumelden.
+eine Absprache treffen mit (+ Dat.);to make an agreement with;домовитися з;Wir haben eine Absprache mit dem Design-Team getroffen.
+eine Ahnung haben von (+ Dat.);to have an idea of;мати уявлення про;Hast du eine Ahnung, warum die DB-Verbindung so langsam ist?
+eine Andeutung machen;to hint at / make an allusion;натякати, робити натяк;Der Product Owner machte eine Andeutung bezüglich des neuen Features.
+Anerkennung finden bei/für;to find recognition / be appreciated;отримати визнання, знайти визнання;Sein Refactoring-Entwurf fand große Anerkennung beim gesamten Team.
+einen Anfang machen;to make a start;покласти початок, зробити перший крок;Wer macht den Anfang und fängt mit dem Schreiben der API-Tests an?
+eine Anforderung erfüllen;to meet a requirement;відповідати вимогам, виконувати вимогу;Das neue Tool muss alle Sicherheitsanforderungen des Kunden erfüllen.
+ein Angebot machen;to make an offer;робити пропозицію;Wir sollten dem Kunden für die Support-Stunden ein neues Angebot machen.
+ein Angebot unterbreiten;to submit an offer;подавати пропозицію (офіційно);Der IT-Dienstleister hat uns ein attraktives Angebot unterbreitet.
+etwas im Angebot haben;to have something on offer;мати в асортименті, пропонувати;Unser Cloud-Provider hat viele KI-Dienste im Angebot.
+etwas in Anspruch nehmen;to make use of / take up;скористатися (чимось), вимагати (часу/зусиль);Das Schreiben der Dokumentation wird viel Zeit in Anspruch nehmen.
+einen Antrag stellen auf (+ Akk.);to apply for / submit an application;подавати заяву на;Er hat einen Antrag auf ein neues MacBook Pro gestellt.
+eine Antwort geben;to give an answer;дати відповідь;Kannst du mir bitte eine kurze Antwort auf meine Slack-Nachricht geben?
+eine Anweisung geben;to issue an instruction;давати вказівку, інструктувати;Der Lead Architect hat genaue Anweisungen zur Verwendung der API gegeben.
+zur Anwendung kommen;to be applied / used;знаходити застосування;Das neue Pattern wird im nächsten Sprint zur Anwendung kommen.
+einen Auftrag erteilen;to place an order / assign a task;давати замовлення, доручати роботу;Die Geschäftsführung hat der IT-Firma den Auftrag erteilt.
+in Auftrag geben;to commission / order;замовляти (комусь виконання роботи);Wir haben das Sicherheits-Audit bei einer externen Firma in Auftrag gegeben.
+aus den Augen verlieren;to lose sight of;втрачати з виду;Wir dürfen das eigentliche Ziel des Refactorings nicht aus den Augen verlieren.
+zum Ausdruck bringen;to express / voice;висловлювати, давати вираження;Der Product Owner hat seine Zufriedenheit zum Ausdruck gebracht.
+zum Ausdruck kommen;to be expressed;виражатися, знаходити вияв;Die Bedenken des DevOps-Engineers sind im Meeting deutlich zum Ausdruck gekommen.
+Auskunft geben;to provide information;надавати інформацію;Der Support-Mitarbeiter kann Auskunft über den Serverstatus geben.
+eine Äußerung machen;to make a comment;висловлюватися;Er wollte keine Äußerung zu den Gerüchten über das System-Update machen.
+Beachtung finden bei/für;to receive attention;привертати увагу, користуватися увагою;Die neue Open-Source-Bibliothek findet viel Beachtung bei Entwicklern.
+Beachtung schenken (+ Dat.);to pay attention to;приділяти увагу (чомусь);Wir müssen den Fehlermeldungen in den Logs mehr Beachtung schenken.
+einen Beitrag leisten für/zu;to make a contribution to;вносити вклад у;Jeder Entwickler leistet einen Beitrag zur Verbesserung der Codequalität.
+Berücksichtigung finden bei/wegen;to be taken into account;бути врахованим;Deine UI-Vorschläge werden bei der nächsten Design-Phase Berücksichtigung finden.
+Bescheid geben (+ Dat.);to let someone know;повідомляти (когось), давати знати;Gib mir bitte Bescheid, sobald der PR gemergt ist.
+eine Bestellung aufgeben;to place an order;робити замовлення (про купівлю);Ich habe eine Bestellung für neue Serverkomponenten aufgegeben.
+in Betracht kommen;to be considered / possible;братися до уваги, бути можливим;Diese alte Library kommt für unser modernes Projekt nicht in Betracht.
+in Betracht ziehen;to consider / take into account;брати до уваги, розглядати;Wir sollten einen Wechsel zu Postgres in Betracht ziehen.
+in Betrieb nehmen;to put into operation;вводити в експлуатацію;Morgen werden wir den neuen Kubernetes-Cluster in Betrieb nehmen.
+Bezug nehmen auf (+ Akk.);to refer to;посилатися на, стосуватися (чогось);Ich beziehe mich auf das Jira-Ticket, das gestern erstellt wurde (Bezug nehmen).
+im Blick haben;to keep an eye on;мати на увазі, контролювати;Der Projektmanager hat alle Deadlines fest im Blick.
+die Daumen drücken für (+ Akk.);to keep one's fingers crossed for;тримати кулаки за;Ich drücke dir die Daumen für das morgige Live-Demo beim Kunden.
+zur Debatte stehen;to be up for debate;стояти на порядку денному, обговорюватися;Die Einführung von Vue 3 steht heute zur Debatte.
+eine Diskussion führen über/mit;to have a discussion about/with;вести дискусію про/з;Wir haben eine lange Diskussion über Microservices geführt.
+zur Diskussion stellen;to put up for discussion;виносити на обговорення;Ich möchte diesen Architektur-Entwurf im Team zur Diskussion stellen.
+unter Druck setzen;to put under pressure;чинити тиск на;Der Kunde versucht, uns mit der Deadline unter Druck zu setzen.
+einen Eindruck bekommen von (+ Dat.);to get an impression of;скласти враження про;Ich konnte bereits einen guten Eindruck vom neuen Framework bekommen.
+Eindruck machen auf (+ Akk.);to make an impression on;справляти враження на;Das neue, performante Design hat großen Eindruck auf den Kunden gemacht.
+Einfluss nehmen auf (+ Akk.);to influence / affect;впливати на;Die Ladezeit nimmt großen Einfluss auf die User-Zufriedenheit.
+eine Entscheidung treffen;to make a decision;приймати рішення;Wir müssen bald eine Entscheidung bezüglich des Hostings treffen.
+zur Entscheidung bringen;to bring to a decision;доводити до прийняття рішення;Wir müssen diese Diskussion endlich zur Entscheidung bringen.
+zur Entscheidung stellen;to put up for decision;ставити на вирішення;Der Lead Developer stellt das UI-Konzept zur Entscheidung.
+eine Erfahrung machen mit (+ Dat.);to make an experience with;мати досвід роботи з;Mit dieser Datenbank haben wir bisher nur gute Erfahrungen gemacht.
+in Erfahrung bringen;to find out / learn;дізнатися, з'ясувати;Kannst du bitte in Erfahrung bringen, wann die API wieder online ist?
+in Erfüllung gehen;to come true;здійснюватися, справджуватися;Mein Wunsch nach 100% Homeoffice ist in Erfüllung gegangen.
+eine Erklärung finden für (+ Akk.);to find an explanation for;знайти пояснення для;Wir konnten noch keine logische Erklärung für diesen Absturz finden.
+Ersatz leisten für (+ Akk.);to provide compensation/replacements for;відшкодовувати збитки, замінювати;Die Hardware-Firma muss Ersatz für den defekten Server leisten.
+Feedback bekommen;to get feedback;отримувати зворотний зв'язок;Nach der Präsentation haben wir sehr konstruktives Feedback bekommen.
+Feedback geben (+ Dat.);to give feedback;давати зворотний зв'язок;Wir sollten den Junior-Entwicklern regelmäßig Feedback geben.
+einen Fehler beheben;to fix a bug/error;виправляти помилку;Der Bugfix hat den schwerwiegenden Fehler behoben.
+zur Folge haben;to result in / entail;мати наслідком;Das Deaktivieren der Firewall kann große Sicherheitsrisiken zur Folge haben.
+eine Forderung stellen;to make a demand;висувати вимогу;Der Betriebsrat stellt eine Forderung nach flexibleren Arbeitszeiten.
+eine Frage stellen;to ask a question;ставити запитання;Darf ich dazu im GitHub-Issue eine Frage stellen?
+eine Freude bereiten (+ Dat.);to give pleasure to / make happy;приносити радість;Der Release des neuen Tools hat dem Kunden eine große Freude bereitet.
+ins Geschäft kommen mit (+ Dat.);to do business with;налагоджувати бізнес-зв'язки з, домовлятися;Wir hoffen, mit dem großen E-Commerce-Konzern ins Geschäft zu kommen.
+ein Gespräch führen über/mit;to carry out a conversation about/with;вести розмову про/з;Ich habe heute ein Gespräch mit dem IT-Leiter geführt.
+ins Gespräch bringen;to bring into discussion / suggest;вводити в обговорення, пропонувати;Er hat das Thema Cloud-Sicherheit erneut ins Gespräch gebracht.
+den Glauben verlieren;to lose faith;втрачати віру;Ich verliere langsam den Glauben an diesen unzuverlässigen Service.
+etwas im Griff haben;to have something under control;тримати під контролем;Keine Sorge, unser Team hat die Serverlast voll im Griff.
+etwas in den Griff bekommen;to get something under control;взяти під контроль, упоратися з;Wir müssen das Memory-Leak dringend in den Griff bekommen.
+auf den Grund gehen (+ Dat.);to get to the bottom of;докопатися до суті;Wir müssen der Ursache dieses Netzwerkfehlers auf den Grund gehen.
+jemanden vor eine Herausforderung stellen;to challenge someone;ставити когось перед складним завданням;Das neue Datenbankschema stellt uns vor eine große Herausforderung.
+Hilfe leisten;to render assistance / help;надавати допомогу;Der Support konnte uns bei der Migration schnell Hilfe leisten.
+zu Hilfe nehmen;to call upon / use for help;брати на допомогу;Wir sollten ChatGPT für das Schreiben der Regex zu Hilfe nehmen.
+die Hoffnung aufgeben;to give up hope;втрачати надію, залишати надію;Wir haben die Hoffnung noch nicht aufgegeben, den Bug heute zu fixen.
+sich Hoffnung machen;to hope / have hopes;сподіватися, плекати надію;Er macht sich Hoffnung auf eine baldige Beförderung zum Senior.
+auf eine Idee kommen;to come up with an idea;додуматися до ідеї, прийти в голову;Wie bist du auf die Idee gekommen, GraphQL zu nutzen?
+infrage kommen;to be possible / eligible;братися до уваги, підходити;Diese veraltete Bibliothek kommt für uns nicht mehr infrage.
+infrage stellen;to question / challenge;ставити під сумнів;Wir sollten die aktuelle Deployment-Pipeline infrage stellen.
+Interesse wecken an/für;to arouse interest in;пробуджувати інтерес до;Das neue Feature hat großes Interesse bei den Usern geweckt.
+Interesse zeigen an/für;to show interest in;виявляти інтерес до;Viele Investoren zeigen großes Interesse an unserer SaaS-Lösung.
+in Kenntnis setzen von (+ Dat.);to inform of;повідомляти про, ставити до відома;Bitte setze das Team rechtzeitig vom Wartungstermin in Kenntnis.
+zur Kenntnis nehmen;to take note of;приймати до відома;Ich habe deine Anmerkungen im Pull Request zur Kenntnis genommen.
+Kontakt aufnehmen mit (+ Dat.);to contact / get in touch with;вступати в контакт з, зв'язатися з;Der Support wird morgen Kontakt mit dem Kunden aufnehmen.
+Klarheit gewinnen über (+ Akk.);to gain clarity about;отримати ясність щодо, розібратися;Wir müssen Klarheit über die genauen Systemanforderungen gewinnen.
+Kontakt halten;to keep in touch;підтримувати зв'язок;Wir halten über Slack und Teams engen Kontakt.
+Kontakt knüpfen mit/zu;to establish contact with;налагоджувати контакти з;Auf der IT-Messe konnte я neue Kontakte zu Entwicklern knüpfen.
+in Kontakt stehen mit (+ Dat.);to be in touch with;перебувати в контакті з;Ich stehe diesbezüglich bereits in Kontakt mit dem Provider.
+in Kontakt treten mit (+ Dat.);to get in touch with;вступити в контакт з, зв'язатися;Wir müssen dringend mit dem Systemadministrator in Kontakt treten.
+die Kosten tragen für (+ Akk.);to bear the costs of;нести витрати за;Die Firma wird die Kosten für deine Zertifizierung tragen.
+die Kosten übernehmen für (+ Akk.);to take over the costs for;брати на себе витрати за;Unser Arbeitgeber übernimmt die Kosten für das Jobticket.
+in Kraft treten;to come into force/effect;набувати чинності;Die neuen Datenschutzrichtlinien treten am 1. Mai in Kraft.
+Krieg führen gegen/mit/wegen;to wage war against/with/because of;вести війну проти/з/через;Die Tech-Giganten führen seit Jahren Krieg um die Marktanteile.
+Kritik üben an/für;to criticize;критикувати;Der Code-Reviewer hat berechtigte Kritik an der App-Architektur geübt.
+den Kürzeren ziehen;to get the short end of the stick;програти, опинитися в невигідному становищі;Ohne Backup zieht man beim Ransomware-Angriff den Kürzeren.
+jemanden auf dem Laufenden halten;to keep someone updated;тримати когось в курсі справ;Bitte halte mich über den Status des Deployments auf dem Laufenden.
+auf dem Laufenden sein;to be up to date;бути в курсі справ;Ich bin bezüglich der neuesten Web-Technologien immer auf dem Laufenden.
+der Meinung sein;to be of the opinion;бути думки, вважати;Ich bin der Meinung, dass wir mehr Tests schreiben sollten.
+in Ordnung bringen;to put in order / tidy up;приводити до ладу, виправляти;Ich werde das Chaos in den CSS-Dateien morgen in Ordnung bringen.
+ein Profil anlegen;to create a profile;створювати профіль;Jeder neue User muss zuerst ein Profil auf der Webseite anlegen.
+eine Prüfung bestehen;to pass an exam;скласти іспит;Er hat die AWS-Zertifizierungsprüfung erfolgreich bestanden.
+durch eine Prüfung fallen;to fail an exam;провалити іспит;Wenn man nicht lernt, kann man durch die Prüfung fallen.
+eine Qualifikation mitbringen;to bring qualifications / be qualified;мати кваліфікацію;Für diese Senior-Stelle muss man viel Erfahrung im Web-Bereich mitbringen.
+einen Rat geben (+ Dat.);to give advice;давати пораду;Kannst du mir einen Rat bezüglich des DB-Designs geben?
+Rechenschaft ablegen über (+ Akk.);to give an account of;звітувати про;Der Projektleiter muss Rechenschaft über das verbrauchte Budget ablegen.
+zur Rechenschaft ziehen für (+ Akk.);to hold accountable for;притягати до відповідальності за;Wir werden den Provider für den stundenlangen Ausfall zur Rechenschaft ziehen.
+in Rechnung stellen;to invoice / charge;виставляти рахунок за;Wir werden dem Kunden die zusätzlich geleisteten Stunden in Rechnung stellen.
+eine Rede halten über (+ Akk.);to give a speech about;виголошувати промову про, виступати з доповіддю;Der CEO wird auf der Konferenz eine Rede über KI halten.
+in eine Reihenfolge bringen;to put in order;упорядковувати, вибудовувати в послідовність;Wir müssen die Tasks im Backlog in eine logische Reihenfolge bringen.
+den Respekt verlieren vor (+ Dat.);to lose respect for;втрачати повагу до;Ich habe den Respekt vor seiner fachlichen Meinung verloren.
+Rückmeldung geben (+ Dat.);to give feedback;давати зворотний зв'язок;Gib mir bitte Rückmeldung, sobald du das neue Design getestet hast.
+Rücksicht nehmen auf (+ Akk.);to show consideration for;зважати на, брати до уваги (чиїсь інтереси);Wir müssen Rücksicht auf die Ladezeiten für mobile User nehmen.
+die Ruhe bewahren;to keep calm;зберігати спокій;Trotz des Server-Absturzes hat das Team die Ruhe bewahrt.
+Schluss machen mit (+ Dat.);to put an end to;покінчити з, припинити;Wir müssen endlich Schluss mit diesen ineffizienten Meetings machen.
+zur Sprache bringen;to bring up / voice;піднімати тему, заводити розмову про;Ich werde das Problem mit der CI/CD-Pipeline im Daily zur Sprache bringen.
+Stellung nehmen zu (+ Dat.);to take a stand on / comment;висловити свою позицію щодо;Der CTO wird morgen zu den Sicherheitslücken Stellung nehmen.
+unter Strafe stehen;to be punishable;підлягати покаранню, каратися законом;Das illegale Kopieren von Software steht unter Strafe.
+unter Strafe stellen;to make punishable;карати за;Der Gesetzgeber hat den Datenmissbrauch unter Strafe gestellt.
+in Streik treten;to go on strike;оголошувати страйк, починати страйк;Die Mitarbeiter der Support-Abteilung sind in Streik getreten.
+Stress haben mit (+ Dat.);to have stress with;мати стрес через, проблеми з;Ich habe aktuell ziemlich viel Stress mit dem neuen Release.
+unter Stress stehen;to be under stress;перебувати під стресом;Das Tech-Team steht vor der Deadline extrem unter Stress.
+eine Tätigkeit ausüben;to practice an activity / work;провадити діяльність, виконувати роботу;Als Software-Entwickler übe ich eine sitzende Tätigkeit aus.
+im Trend liegen;to be trendy;бути в тренді;Mobile-First-Designs und KI-Integrationen liegen aktuell voll im Trend.
+einen Überblick bekommen;to get an overview;отримати загальне уявлення;Ich muss mir erst einen Überblick über die bestehende Codebase verschaffen.
+einen Überblick geben;to give an overview;надати огляд;Kannst du mir bitte einen schnellen Überblick über die neuen Features geben?
+einen Unterschied machen;to make a difference;мати значення, створювати різницю;Ob wir CSS Grid або Flexbox nutzen, macht in diesem Fall keinen Unterschied.
+eine Verabredung treffen;to make an appointment/agreement;домовлятися про зустріч/угоду;Wir haben eine Verabredung mit dem Kunden für Montag getroffen.
+die Verantwortung übernehmen für (+ Akk.);to take responsibility for;брати на себе відповідальність за;Der Projektleiter übernimmt die Verantwortung für das Deployment.
+sich in Verbindung setzen mit (+ Dat.);to get in touch with;зв'язатися з;Bitte setze dich morgen mit dem Support-Team in Verbindung.
+eine Vereinbarung treffen;to make an agreement;укладати угоду, домовлятися;Wir haben eine Vereinbarung über die wöchentlichen Arbeitszeiten getroffen.
+zur Verfügung stehen;to be available;бути в розпорядженні, бути доступним;Das neue Tool steht allen Entwicklern ab sofort zur Verfügung.
+zur Verfügung stellen;to provide / make available;надавати, ставити в розпорядження;Der Provider stellt uns unbegrenzten Cloud-Speicher zur Verfügung.
+in Verhandlungen stehen;to be in negotiations;вести переговори;Wir stehen bereits в Verhandlungen mit einem neuen Cloud-Anbieter.
+in Verhandlungen treten;to enter into negotiations;вступати в переговори;Wir wollen nächste Woche mit dem Kunden in Verhandlungen treten.
+ein Versprechen geben;to make a promise;давати обіцянку;Wir haben dem Kunden das Versprechen gegeben, das System zu stabilisieren.
+einen Vertrag abschließen mit (+ Dat.);to sign a contract with;укладати договір з;Die Firma hat einen Vertrag mit AWS abgeschlossen.
+Vertrauen herstellen;to build trust;налагоджувати довіру;Gute Kommunikation hilft, Vertrauen zum Kunden herzustellen.
+Vorbereitungen treffen;to make preparations;робити приготування, готуватися;Wir müssen rechtzeitig alle Vorbereitungen für das Deployment treffen.
+im Vordergrund stehen;to be in the foreground / prioritized;стояти на першому плані, бути пріоритетом;Bei diesem Update steht die Systemstabilität im Vordergrund.
+einen Vorschlag machen;to make a suggestion;робити пропозицію, пропонувати;Ich möchte einen Vorschlag zur Optimierung der Datenbank machen.
+einen Vorschlag unterbreiten;to submit a proposal;подавати пропозицію (офіційно);Der Architekt hat dem Team einen neuen Vorschlag unterbreitet.
+Vorsorge treffen für (+ Akk.);to make provisions for;вживати запобіжних заходів;Wir müssen rechtzeitig Vorsorge für den Ernstfall treffen (Backup).
+eine Wahl treffen;to make a choice;робити вибір;Wir müssen eine Wahl zwischen React und Vue treffen.
+im Wettbewerb stehen mit (+ Dat.);to compete with;конкурувати з;Unser E-Commerce-System steht mit großen Plattformen im Wettbewerb.
+Wert legen auf (+ Akk.);to attach importance to / value;надавати великого значення (чомусь);Wir legen großen Wert auf sauberen und lesbaren Code.
+Wertschätzung genießen;to be appreciated;користуватися повагою/визнанням;Gute Entwickler genießen in unserer Firma hohe Wertschätzung.
+Widerstand leisten gegen (+ Akk.);to offer resistance to;чинити опір (комусь/чомусь);Die Legacy-Software leistet hartnäckigen Widerstand gegen Modernisierungen.
+Wirkung zeigen;to show effect;дати результат, мати ефект;Die Performance-Optimierungen zeigen bereits deutliche Wirkung.
+das Wort ergreifen;to take the floor / speak;брати слово, починати говорити;Der Lead Developer ergriff das Wort und erklärte den Bug.
+ein Ziel setzen;to set a goal;ставити ціль;Wir haben uns das Ziel gesetzt, die Ladezeit zu halbelieren.
+ein Ziel verfolgen;to pursue a goal;переслідувати ціль, іти до мети;Wir verfolgen das Ziel, den Code vollständig abzusichern.
+eine Zusage erhalten;to receive approval / confirmation;отримати згоду, підтвердження;Wir haben die Zusage für das zusätzliche Budget erhalten.
+im Zusammenhang stehen mit (+ Dat.);to be related to / associated with;бути пов'язаним із;Der Server-Absturz steht im Zusammenhang mit dem gestrigen Update.
