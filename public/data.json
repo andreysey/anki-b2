@@ -21971,6 +21971,834 @@
     "levels": [
       "B2"
     ],
+    "thema": 97,
+    "german": "gewöhnt an (+ Akk.)",
+    "german_audio": "gewöhnt an",
+    "english": "used to",
+    "ukrainian": "звиклий до",
+    "example": "Die Sekretärin ist an das alte Betriebssystem gewöhnt."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "interessiert an (+ Dat.)",
+    "german_audio": "interessiert an",
+    "english": "interested in",
+    "ukrainian": "зацікавлений у",
+    "example": "Sie war an der ausgeschriebenen Stelle interessiert."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "reich an (+ Dat.)",
+    "german_audio": "reich an",
+    "english": "rich in",
+    "ukrainian": "багатий на",
+    "example": "Das Geschäftsjahr war reich an unangenehmen Überraschungen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "schuld an (+ Dat.)",
+    "german_audio": "schuld an",
+    "english": "to blame for",
+    "ukrainian": "винен у",
+    "example": "Wer war an dem Betriebsunfall schuld?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "unschuldig an (+ Dat.)",
+    "german_audio": "unschuldig an",
+    "english": "innocent of",
+    "ukrainian": "невинний у",
+    "example": "Sie war an der Sache nicht ganz unschuldig."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "böse auf (+ Akk.)",
+    "german_audio": "böse auf",
+    "english": "angry with",
+    "ukrainian": "злий на",
+    "example": "Wegen des vergessenen Termins war sie auf ihren Kollegen böse."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "eifersüchtig auf (+ Akk.)",
+    "german_audio": "eifersüchtig auf",
+    "english": "jealous of",
+    "ukrainian": "ревнивий до",
+    "example": "Das Kind war auf das Spielzeug eines anderen eifersüchtig."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "gespannt auf (+ Akk.)",
+    "german_audio": "gespannt auf",
+    "english": "curious about / looking forward to",
+    "ukrainian": "заінтригований (чимось), з нетерпінням очікуючий на",
+    "example": "Die Mitarbeitenden waren auf die Rede des Betriebsrats gespannt."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "neidisch auf (+ Akk.)",
+    "german_audio": "neidisch auf",
+    "english": "envious of",
+    "ukrainian": "заздрісний до",
+    "example": "Er war auf seinen Kollegen, der befördert wurde, neidisch."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "neugierig auf (+ Akk.)",
+    "german_audio": "neugierig auf",
+    "english": "curious about",
+    "ukrainian": "допитливий до, цікавий стосовно",
+    "example": "Sie waren auf das Ergebnis der Gespräche neugierig."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "stolz auf (+ Akk.)",
+    "german_audio": "stolz auf",
+    "english": "proud of",
+    "ukrainian": "гордий за",
+    "example": "Sie war auf die guten Leistungen ihres Teams stolz."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "wütend auf (+ Akk.)",
+    "german_audio": "wütend auf",
+    "english": "furious with",
+    "ukrainian": "лютий на",
+    "example": "Nach dem Meeting war die Chefin auf das Team ziemlich wütend."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "angesehen bei (+ Dat.)",
+    "german_audio": "angesehen bei",
+    "english": "respected by",
+    "ukrainian": "шанований серед",
+    "example": "Sie war bei ihren Geschäftspartnern hoch angesehen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "behilflich bei (+ Dat.)",
+    "german_audio": "behilflich bei",
+    "english": "helpful with",
+    "ukrainian": "корисний у, допомагає з",
+    "example": "Kannst du mir bei der Installation des Programms behilflich sein?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "beliebt bei (+ Dat.)",
+    "german_audio": "beliebt bei",
+    "english": "popular with",
+    "ukrainian": "популярний серед",
+    "example": "Die Internationale Funkausstellung ist bei den Besuchern sehr beliebt."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "unbeliebt bei (+ Dat.)",
+    "german_audio": "unbeliebt bei",
+    "english": "unpopular with",
+    "ukrainian": "непопулярний серед",
+    "example": "Der Chef war bei einigen Mitarbeitenden ziemlich unbeliebt."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "angenehm für (+ Akk.)",
+    "german_audio": "angenehm für",
+    "english": "pleasant for",
+    "ukrainian": "приємний для",
+    "example": "Das Arbeitsklima im Projekt war <b style=\"color: #eab308;\">für</b> die Mitarbeitenden sehr angenehm."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "bekannt für (+ Akk.)",
+    "german_audio": "bekannt für",
+    "english": "famous/known for",
+    "ukrainian": "відомий (чимось)",
+    "example": "Sie ist in der Abteilung <b style=\"color: #eab308;\">für</b> ihre Genauigkeit bekannt."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "berühmt für (+ Akk.)",
+    "german_audio": "berühmt für",
+    "english": "famous for",
+    "ukrainian": "знаменитий (чимось)",
+    "example": "Die Firma ist <b style=\"color: #eab308;\">für</b> ihre Hebebühnen weltweit berühmt."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "dankbar für (+ Akk.)",
+    "german_audio": "dankbar für",
+    "english": "grateful for",
+    "ukrainian": "вдячний за",
+    "example": "Die Chefin ist immer <b style=\"color: #eab308;\">für</b> Verbesserungsvorschläge dankbar."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "entscheidend für (+ Akk.)",
+    "german_audio": "entscheidend für",
+    "english": "crucial for",
+    "ukrainian": "вирішальний для",
+    "example": "Die gute Zusammenarbeit im Projekt war <b style=\"color: #eab308;\">für</b> den Erfolg entscheidend."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "offen für (+ Akk.)",
+    "german_audio": "offen für",
+    "english": "open to",
+    "ukrainian": "відкритий до",
+    "example": "Wir sind <b style=\"color: #eab308;\">für</b> alle Verbesserungsvorschläge offen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "schwierig für (+ Akk.)",
+    "german_audio": "schwierig für",
+    "english": "difficult for",
+    "ukrainian": "важкий для",
+    "example": "Eine Umstrukturierung ist <b style=\"color: #eab308;\">für</b> die Mitarbeitenden immer schwierig."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "typisch für (+ Akk.)",
+    "german_audio": "typisch für",
+    "english": "typical of",
+    "ukrainian": "типовий для",
+    "example": "Das ist mal wieder typisch <b style=\"color: #eab308;\">für</b> Sie."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "unangenehm für (+ Akk.)",
+    "german_audio": "unangenehm für",
+    "english": "unpleasant for",
+    "ukrainian": "неприємний для",
+    "example": "Der Außendienstbericht war <b style=\"color: #eab308;\">für</b> den Verkaufsleiter sehr unangenehm."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "ungeeignet für (+ Akk.)",
+    "german_audio": "ungeeignet für",
+    "english": "unsuitable for",
+    "ukrainian": "непридатний для",
+    "example": "Er ist <b style=\"color: #eab308;\">für</b> diese Arbeit gänzlich ungeeignet."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "wichtig für (+ Akk.)",
+    "german_audio": "wichtig für",
+    "english": "important for",
+    "ukrainian": "важливий для",
+    "example": "Unser Engagement ist <b style=\"color: #eab308;\">für</b> den Erfolg des Projekts ziemlich wichtig."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "zuständig für (+ Akk.)",
+    "german_audio": "zuständig für",
+    "english": "responsible for / in charge of",
+    "ukrainian": "відповідальний за (сферу/завдання)",
+    "example": "Frau Duda ist <b style=\"color: #eab308;\">für</b> den Vertrieb zuständig."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "misstrauisch gegenüber (+ Dat.)",
+    "german_audio": "misstrauisch gegenüber",
+    "english": "suspicious of",
+    "ukrainian": "недовірливий до",
+    "example": "Sie war <b style=\"color: #eab308;\">gegenüber</b> den Kollegen oft misstrauisch."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "gut in (+ Dat.)",
+    "german_audio": "gut in",
+    "english": "good at",
+    "ukrainian": "сильний в, хороший у",
+    "example": "Sie war in der Analyse von komplexen Daten schon immer sehr gut."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "unerfahren in (+ Dat.)",
+    "german_audio": "unerfahren in",
+    "english": "inexperienced in",
+    "ukrainian": "недосвідчений у",
+    "example": "Er war im Umgang mit der neuen Software unerfahren."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "verliebt in (+ Akk.)",
+    "german_audio": "verliebt in",
+    "english": "in love with",
+    "ukrainian": "закоханий у",
+    "example": "Sie ist in ein kleines Hotel in den Allgäuer Alpen verliebt."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "befreundet mit (+ Dat.)",
+    "german_audio": "befreundet mit",
+    "english": "friendly with",
+    "ukrainian": "товаришує з, дружить із",
+    "example": "Er ist mit allen Kollegen gut befreundet."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "bekannt mit (+ Dat.)",
+    "german_audio": "bekannt mit",
+    "english": "acquainted with",
+    "ukrainian": "знайомий з",
+    "example": "Sie ist mit allen Außendienstmitarbeitenden sehr gut bekannt."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "beschäftigt mit (+ Dat.)",
+    "german_audio": "beschäftigt mit",
+    "english": "busy with",
+    "ukrainian": "зайнятий (чимось)",
+    "example": "Frau Dr. Kurz ist noch mit dem Abschlussbericht beschäftigt."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "einverstanden mit (+ Dat.)",
+    "german_audio": "einverstanden mit",
+    "english": "in agreement with",
+    "ukrainian": "згоден із",
+    "example": "Er ist mit seiner Versetzung in eine andere Abteilung einverstanden."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "fertig mit (+ Dat.)",
+    "german_audio": "fertig mit",
+    "english": "finished with",
+    "ukrainian": "готовий з, закінчив (щось)",
+    "example": "Sind Sie mit dem Projektbericht schon fertig?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "unzufrieden mit (+ Dat.)",
+    "german_audio": "unzufrieden mit",
+    "english": "dissatisfied with",
+    "ukrainian": "незадоволений (чимось)",
+    "example": "Die GF war mit der Geschäftsentwicklung unzufrieden."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "verheiratet mit (+ Dat.)",
+    "german_audio": "verheiratet mit",
+    "english": "married to",
+    "ukrainian": "одружений із",
+    "example": "Er ist eigentlich mit seiner Arbeit verheiratet."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "verwandt mit (+ Dat.)",
+    "german_audio": "verwandt mit",
+    "english": "related to",
+    "ukrainian": "родич (когось), споріднений із",
+    "example": "Er ist mit seinem Chef verwandt."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "zufrieden mit (+ Dat.)",
+    "german_audio": "zufrieden mit",
+    "english": "satisfied with",
+    "ukrainian": "задоволений (чимось)",
+    "example": "Unsere Kunden sind mit unseren Dienstleistungen sehr zufrieden."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "verrückt nach (+ Dat.)",
+    "german_audio": "verrückt nach",
+    "english": "crazy about",
+    "ukrainian": "божеволіє від",
+    "example": "Sie ist wirklich völlig verrückt <b style=\"color: #eab308;\">nach</b> Fußball."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "besorgt über (+ Akk.)",
+    "german_audio": "besorgt über",
+    "english": "worried about",
+    "ukrainian": "стурбований (чимось)",
+    "example": "Die GF ist <b style=\"color: #eab308;\">über</b> die sinkenden Absatzzahlen sehr besorgt."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "beunruhigt über (+ Akk.)",
+    "german_audio": "beunruhigt über",
+    "english": "alarmed about",
+    "ukrainian": "занепокоєний (чимось)",
+    "example": "Die Mitarbeitenden sind <b style=\"color: #eab308;\">über</b> die Umstrukturierungspläne beunruhigt."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "entsetzt über (+ Akk.)",
+    "german_audio": "entsetzt über",
+    "english": "horrified at",
+    "ukrainian": "жахнутий (чимось), у шоці від",
+    "example": "Sie war darüber, dass der Termin nicht eingehalten wird, entsetzt."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "erstaunt über (+ Akk.)",
+    "german_audio": "erstaunt über",
+    "english": "astonished at",
+    "ukrainian": "здивований (чимось)",
+    "example": "Die GF war <b style=\"color: #eab308;\">über</b> den Erfolg der Marketingkampagne erstaunt."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "froh über (+ Akk.)",
+    "german_audio": "froh über",
+    "english": "glad about",
+    "ukrainian": "радий (чомусь)",
+    "example": "Die GF war <b style=\"color: #eab308;\">über</b> das positive Jahresergebnis sehr froh."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "glücklich über (+ Akk.)",
+    "german_audio": "glücklich über",
+    "english": "happy about",
+    "ukrainian": "щасливий через",
+    "example": "Sie war <b style=\"color: #eab308;\">über</b> ihre Beförderung sehr glücklich."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "unglücklich über (+ Akk.)",
+    "german_audio": "unglücklich über",
+    "english": "unhappy about",
+    "ukrainian": "нещасливий через",
+    "example": "Sie waren <b style=\"color: #eab308;\">über</b> seinen Weggang unglücklich."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "verärgert über (+ Akk.)",
+    "german_audio": "verärgert über",
+    "english": "annoyed about",
+    "ukrainian": "роздратований через, сердитий на",
+    "example": "Er war <b style=\"color: #eab308;\">über</b> die Verzögerung im Projekt verärgert."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "wütend über (+ Akk.)",
+    "german_audio": "wütend über",
+    "english": "angry about",
+    "ukrainian": "лютий через",
+    "example": "Viele Kunden waren <b style=\"color: #eab308;\">über</b> den schlechten Service wütend."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "besorgt um (+ Akk.)",
+    "german_audio": "besorgt um",
+    "english": "concerned about",
+    "ukrainian": "турбується про",
+    "example": "Sie sind stets um das Wohl ihrer Gäste besorgt."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "abhängig von (+ Dat.)",
+    "german_audio": "abhängig von",
+    "english": "dependent on",
+    "ukrainian": "залежний від",
+    "example": "Wir sind von unserem Auftraggeber abhängig."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "entfernt von (+ Dat.)",
+    "german_audio": "entfernt von",
+    "english": "distant from",
+    "ukrainian": "віддалений від",
+    "example": "Wir sind von einer guten Bilanz noch meilenweit entfernt."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "enttäuscht von (+ Dat.)",
+    "german_audio": "enttäuscht von",
+    "english": "disappointed by/with",
+    "ukrainian": "розчарований (чимось/кимось)",
+    "example": "Die GF war von der Entwicklung der Verkaufszahlen enttäuscht."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "frei von (+ Dat.)",
+    "german_audio": "frei von",
+    "english": "free of",
+    "ukrainian": "вільний від",
+    "example": "Frei von Schulden zu sein, ist das Ziel vieler Unternehmen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "müde von (+ Dat.)",
+    "german_audio": "müde von",
+    "english": "tired of",
+    "ukrainian": "втомлений від",
+    "example": "Sie war von dem langen Meeting sehr müde."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "überzeugt von (+ Dat.)",
+    "german_audio": "überzeugt von",
+    "english": "convinced of",
+    "ukrainian": "переконаний у",
+    "example": "Sie sind von der Qualität der neuen Anlage überzeugt."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "unabhängig von (+ Dat.)",
+    "german_audio": "unabhängig von",
+    "english": "independent of",
+    "ukrainian": "незалежний від",
+    "example": "Das Projekt wurde unabhängig von den Kostensteigerungen weitergeführt."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "sicher vor (+ Dat.)",
+    "german_audio": "sicher vor",
+    "english": "safe from",
+    "ukrainian": "захищений від, у безпеці від",
+    "example": "In dieser Abteilung sind alle vor betriebsbedingten Kündigungen sicher."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "bereit zu (+ Dat.)",
+    "german_audio": "bereit zu",
+    "english": "ready to",
+    "ukrainian": "готовий до",
+    "example": "Sie ist zur Übernahme des Geschäftsfeldes bereit."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "entschlossen zu (+ Dat.)",
+    "german_audio": "entschlossen zu",
+    "english": "determined to",
+    "ukrainian": "рішучий щодо, готовий на",
+    "example": "Sie war zum Kauf der Immobilie entschlossen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "fähig zu (+ Dat.)",
+    "german_audio": "fähig zu",
+    "english": "capable of",
+    "ukrainian": "здатний до",
+    "example": "Dieser Roboter ist zu Pflegeleistungen fähig."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "freundlich zu (+ Dat.)",
+    "german_audio": "freundlich zu",
+    "english": "friendly to",
+    "ukrainian": "дружній до",
+    "example": "Er ist stets zu allen Menschen sehr freundlich."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "gut zu (+ Dat.)",
+    "german_audio": "gut zu",
+    "english": "good to",
+    "ukrainian": "добрий до",
+    "example": "Er war zu seinen Schülern und Schülerinnen immer sehr gut."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "höflich zu (+ Dat.)",
+    "german_audio": "höflich zu",
+    "english": "polite to",
+    "ukrainian": "ввічливий до",
+    "example": "Sie sind zu den Gästen in ihrem Hotel immer sehr höflich."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "lieb zu (+ Dat.)",
+    "german_audio": "lieb zu",
+    "english": "nice/kind to",
+    "ukrainian": "милий до",
+    "example": "Seid lieb zu euren Geschwistern!"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "nett zu (+ Dat.)",
+    "german_audio": "nett zu",
+    "english": "nice to",
+    "ukrainian": "доброзичливий до",
+    "example": "Bitte seid nett zueinander!"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 97,
+    "german": "unfreundlich zu (+ Dat.)",
+    "german_audio": "unfreundlich zu",
+    "english": "unfriendly to",
+    "ukrainian": "непривітний до",
+    "example": "Der Lehrer war zu seinen Schülern und Schülerinnen oft unfreundlich."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
     "thema": 98,
     "german": "ändern an (+ Dat.)",
     "german_audio": "ändern an",
