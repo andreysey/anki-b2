@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/andreysey/anki-b2/compare/v1.7.0...v1.8.0) (2026-07-16)
+
+
+### Features
+
+* add AIAssistant component for grammar and dialogue generation via Gemini Nano or Cloud API ([029fe0b](https://github.com/andreysey/anki-b2/commit/029fe0b675ebbaed7d2bf4f33fefb278b874f99f))
+
 # [1.7.0](https://github.com/andreysey/anki-b2/compare/v1.6.0...v1.7.0) (2026-07-16)
 
 
