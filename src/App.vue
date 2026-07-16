@@ -229,7 +229,7 @@ const appVersion = __APP_VERSION__;
             </option>
           </select>
         </div>
-        <div class="flex flex-col gap-2 justify-center">
+        <div class="flex flex-col gap-2 justify-center min-h-[60px]">
           <span class="text-xs font-bold uppercase tracking-wider text-surface-400">Speed ({{ ttsRate }}x)</span>
           <input 
             type="range" 
@@ -237,7 +237,8 @@ const appVersion = __APP_VERSION__;
             max="1.5" 
             step="0.05" 
             v-model.number="ttsRate"
-            class="w-full h-2 bg-surface-800 rounded-lg appearance-none cursor-pointer accent-primary-500"
+            class="w-full h-2 bg-surface-700 rounded-lg cursor-pointer accent-primary-500 block style-range-slider"
+            style="appearance: auto; -webkit-appearance: auto;"
           />
         </div>
       </div>
