@@ -14,16 +14,10 @@ const props = defineProps<{
   direction: StudyDirection;
 }>();
 
-const emit = defineEmits(['flip']);
+const emit = defineEmits(['flip', 'toggle-mastered', 'play-audio']);
 
 const playAudio = (text: string) => {
-  if ('speechSynthesis' in window) {
-    window.speechSynthesis.cancel();
-    const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = 'de-DE';
-    utterance.rate = 0.85;
-    window.speechSynthesis.speak(utterance);
-  }
+  emit('play-audio', text);
 };
 
 const showGermanOnFront = computed(() => props.direction === 'DE_TO_UA');
@@ -37,8 +31,18 @@ const showGermanOnFront = computed(() => props.direction === 'DE_TO_UA');
       <Card class="absolute w-full h-full [backface-visibility:hidden]">
         <template #header>
           <div class="flex justify-between items-center p-6 pb-0">
-            <Badge :value="word.level" severity="info" />
-            <Badge :value="'Thema ' + word.thema" severity="secondary" />
+            <div class="flex gap-2">
+              <Badge :value="word.level" severity="info" />
+              <Badge :value="'Thema ' + word.thema" severity="secondary" />
+            </div>
+            <Button 
+              icon="pi pi-check" 
+              rounded 
+              text 
+              severity="success"
+              @click.stop="emit('toggle-mastered', word)" 
+              title="Mark as Mastered"
+            />
           </div>
         </template>
         <template #content>
@@ -68,8 +72,18 @@ const showGermanOnFront = computed(() => props.direction === 'DE_TO_UA');
       <Card class="absolute w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]">
         <template #header>
           <div class="flex justify-between items-center p-6 pb-0">
-            <Badge :value="word.level" severity="info" />
-            <Badge :value="'Thema ' + word.thema" severity="secondary" />
+            <div class="flex gap-2">
+              <Badge :value="word.level" severity="info" />
+              <Badge :value="'Thema ' + word.thema" severity="secondary" />
+            </div>
+            <Button 
+              icon="pi pi-check" 
+              rounded 
+              text 
+              severity="success"
+              @click.stop="emit('toggle-mastered', word)" 
+              title="Mark as Mastered"
+            />
           </div>
         </template>
         <template #content>

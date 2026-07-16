@@ -11,7 +11,7 @@ defineProps<{
   displayLimit: number;
 }>();
 
-const emit = defineEmits(['load-more', 'play-audio']);
+const emit = defineEmits(['load-more', 'play-audio', 'toggle-mastered']);
 
 const getItemKey = (item: Word) => `${item.german}-${item.level}-${item.thema}`;
 </script>
@@ -32,13 +32,23 @@ const getItemKey = (item: Word) => `${item.german}-${item.level}-${item.thema}`;
         <template #content>
           <div class="flex justify-between items-start mb-4 gap-4">
             <div class="text-xl font-bold leading-tight" v-html="sanitizeHtml(item.german)"></div>
-            <Button 
-              icon="pi pi-volume-up" 
-              rounded 
-              text 
-              @click="emit('play-audio', item.german_audio)" 
-              title="Play pronunciation"
-            />
+            <div class="flex items-center gap-1 shrink-0">
+              <Button 
+                icon="pi pi-check" 
+                rounded 
+                text 
+                severity="success"
+                @click.stop="emit('toggle-mastered', item)" 
+                title="Mark as Mastered"
+              />
+              <Button 
+                icon="pi pi-volume-up" 
+                rounded 
+                text 
+                @click.stop="emit('play-audio', item.german_audio)" 
+                title="Play pronunciation"
+              />
+            </div>
           </div>
           <div class="space-y-2 mb-4">
             <div class="text-primary-400 font-semibold">{{ item.english }}</div>

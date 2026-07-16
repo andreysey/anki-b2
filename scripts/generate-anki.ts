@@ -35,40 +35,95 @@ const model = new Model({
   templates: [
     {
       name: 'Card 1: Recognition',
-      qfmt: `<div style='font-family: "Outfit", sans-serif; text-align: center; color: #f8fafc; background-color: #0f172a; padding: 24px; border-radius: 20px;'>
-              <div style='font-size: 32px; font-weight: 600;'>{{German}}</div>
-              <div style='display: none;'>{{tts de_DE:German_Audio}}</div>
+      qfmt: `<div class="card-container front-side">
+              <div class="card-title">{{German}}</div>
+              <div style="display: none;">{{tts de_DE:German_Audio}}</div>
              </div>`,
-      afmt: `{{FrontSide}}<hr id='answer'>
-             <div style='font-family: "Outfit", sans-serif; text-align: center; color: #f8fafc; background-color: #1e293b; padding: 24px; border-radius: 20px;'>
-              <div style='font-size: 24px; color: #00d2ff; margin-bottom: 15px;'>{{English}}</div>
-              <div style='display: none;'>{{tts en_US:English_Audio}}</div>
-              <div style='font-size: 24px; color: #22c55e; margin-bottom: 25px;'>{{Ukrainian}}</div>
-              <div style='font-style: italic; color: #cbd5e1; font-size: 18px; border-top: 1px solid #334155; padding-top: 20px;'>{{Example}}</div>
-              <div style='margin-top: 25px;'>
-                  <div style='display: inline-block; margin: 0 10px;'>{{tts de_DE:Example_Audio}}</div>
+      afmt: `{{FrontSide}}<hr id="answer">
+             <div class="card-container back-side">
+              <div class="card-subtitle-english m-15">{{English}}</div>
+              <div style="display: none;">{{tts en_US:English_Audio}}</div>
+              <div class="card-subtitle-ukrainian m-25">{{Ukrainian}}</div>
+              <div class="card-example">{{Example}}</div>
+              <div class="audio-container">
+                  <div class="audio-btn">{{tts de_DE:Example_Audio}}</div>
               </div>
              </div>`,
     },
     {
       name: 'Card 2: Production',
-      qfmt: `<div style='font-family: "Outfit", sans-serif; text-align: center; color: #f8fafc; background-color: #0f172a; padding: 24px; border-radius: 20px;'>
-              <div style='font-size: 24px; color: #00d2ff; margin-bottom: 10px;'>{{English}}</div>
-              <div style='font-size: 24px; color: #22c55e;'>{{Ukrainian}}</div>
-              <div style='display: none;'>{{tts en_US:English_Audio}}</div>
+      qfmt: `<div class="card-container front-side">
+              <div class="card-subtitle-english m-10">{{English}}</div>
+              <div class="card-subtitle-ukrainian">{{Ukrainian}}</div>
+              <div style="display: none;">{{tts en_US:English_Audio}}</div>
              </div>`,
-      afmt: `{{FrontSide}}<hr id='answer'>
-             <div style='font-family: "Outfit", sans-serif; text-align: center; color: #f8fafc; background-color: #1e293b; padding: 24px; border-radius: 20px;'>
-              <div style='font-size: 32px; font-weight: 600; color: #f8fafc; margin-bottom: 20px;'>{{German}}</div>
-              <div style='font-style: italic; color: #cbd5e1; font-size: 18px; border-top: 1px solid #334155; padding-top: 20px;'>{{Example}}</div>
-              <div style='margin-top: 25px;'>
-                  <div style='display: inline-block; margin: 0 10px;'>{{tts de_DE:German_Audio}}</div>
-                  <div style='display: inline-block; margin: 0 10px;'>{{tts de_DE:Example_Audio}}</div>
+      afmt: `{{FrontSide}}<hr id="answer">
+             <div class="card-container back-side">
+              <div class="card-title m-20">{{German}}</div>
+              <div class="card-example">{{Example}}</div>
+              <div class="audio-container">
+                  <div class="audio-btn">{{tts de_DE:German_Audio}}</div>
+                  <div class="audio-btn">{{tts de_DE:Example_Audio}}</div>
               </div>
              </div>`,
     },
   ],
-  css: `.card { font-family: 'Outfit', sans-serif; background-color: #0f172a; }`,
+  css: `
+    .card {
+      font-family: "Outfit", sans-serif;
+      background-color: #0f172a;
+    }
+    .card-container {
+      text-align: center;
+      color: #f8fafc;
+      padding: 24px;
+      border-radius: 20px;
+    }
+    .front-side {
+      background-color: #0f172a;
+    }
+    .back-side {
+      background-color: #1e293b;
+    }
+    .card-title {
+      font-size: 32px;
+      font-weight: 600;
+    }
+    .card-subtitle-english {
+      font-size: 24px;
+      color: #00d2ff;
+    }
+    .card-subtitle-ukrainian {
+      font-size: 24px;
+      color: #22c55e;
+    }
+    .card-example {
+      font-style: italic;
+      color: #cbd5e1;
+      font-size: 18px;
+      border-top: 1px solid #334155;
+      padding-top: 20px;
+    }
+    .audio-container {
+      margin-top: 25px;
+    }
+    .audio-btn {
+      display: inline-block;
+      margin: 0 10px;
+    }
+    .m-10 {
+      margin-bottom: 10px;
+    }
+    .m-15 {
+      margin-bottom: 15px;
+    }
+    .m-20 {
+      margin-bottom: 20px;
+    }
+    .m-25 {
+      margin-bottom: 25px;
+    }
+  `,
 });
 
 // Unique sequential note IDs (avoids UNIQUE constraint in SQLite)

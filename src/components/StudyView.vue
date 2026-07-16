@@ -14,6 +14,7 @@ defineProps<{
   studyProgress: number;
   directionOptions: any[];
   audioOptions: any[];
+  isShuffled?: boolean;
 }>();
 
 const emit = defineEmits([
@@ -23,7 +24,9 @@ const emit = defineEmits([
   'flip', 
   'update-srs', 
   'prev', 
-  'next'
+  'next',
+  'toggle-mastered',
+  'play-audio'
 ]);
 </script>
 
@@ -50,7 +53,7 @@ const emit = defineEmits([
       <Button 
         label="Shuffle"
         icon="pi pi-random"
-        severity="secondary"
+        :severity="isShuffled ? 'primary' : 'secondary'"
         @click="emit('shuffle')"
       />
     </div>
@@ -65,6 +68,8 @@ const emit = defineEmits([
       :isFlipped="isFlipped"
       :direction="studyDirection"
       @flip="emit('flip')"
+      @toggle-mastered="emit('toggle-mastered', $event)"
+      @play-audio="emit('play-audio', $event)"
     />
 
     <!-- SRS Buttons -->
@@ -83,6 +88,17 @@ const emit = defineEmits([
         <div class="text-sm text-surface-400 font-normal mt-1 hidden sm:block">Space to flip &bull; Arrows to navigate</div>
       </div>
       <Button icon="pi pi-chevron-right" severity="secondary" @click="emit('next')" />
+    </div>
+
+    <!-- Shortcuts Legend -->
+    <div class="bg-surface-900/50 border border-surface-800 rounded-2xl p-4 text-center mt-2">
+      <div class="text-xs font-bold uppercase tracking-wider text-surface-400 mb-3 font-semibold">Keyboard Shortcuts</div>
+      <div class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-surface-300">
+        <div><kbd class="px-2 py-1 bg-surface-800 rounded text-xs border border-surface-700 font-mono">Space</kbd> Flip</div>
+        <div><kbd class="px-2 py-1 bg-surface-800 rounded text-xs border border-surface-700 font-mono">&larr;</kbd> / <kbd class="px-2 py-1 bg-surface-800 rounded text-xs border border-surface-700 font-mono">&rarr;</kbd> Prev/Next</div>
+        <div><kbd class="px-2 py-1 bg-surface-800 rounded text-xs border border-surface-700 font-mono">M</kbd> Mastered</div>
+        <div v-if="isFlipped"><kbd class="px-2 py-1 bg-surface-800 rounded text-xs border border-surface-700 font-mono">1</kbd>-<kbd class="px-2 py-1 bg-surface-800 rounded text-xs border border-surface-700 font-mono">4</kbd> Grade</div>
+      </div>
     </div>
   </div>
 </template>
