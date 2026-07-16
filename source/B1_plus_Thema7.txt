@@ -1,66 +1,66 @@
 #separator:;
 #html:true
 #columns:German;English;Ukrainian;Example
-der Alltag (Sg.);everyday life;будні, повсякденне життя;Der technische Wandel prägt unseren IT-Berufsalltag durch immer neue Frameworks.
-der Anschluss, "-e;connection;підключення;Der neue Glasfaser-Anschluss im Rechenzentrum ermöglicht deutlich höhere Upload-Raten.
-die Anwendungsmöglichkeit, -en;application possibility;можливість застосування;Die Docker-Technologie bietet vielfältige Anwendungsmöglichkeiten für die Microservices-Bereitstellung.
-das Display, -s;display, screen;дисплей, екран;Das 4K-Display des neuen Laptops ist ideal für Grafikdesign und Coding geeignet.
-einsatzbereit;ready for use;готовий до роботи;Die neue Staging-Umgebung ist ab sofort einsatzbereit für die finalen Tests.
-das Festnetz (Sg.);landline;стаціонарна мережа;Wir nutzen eine Cloud-Telefonanlage, die komplett ohne herkömmliches Festnetz auskommt.
-das Gerät, -e;device;пристрій;Jedes Gerät im Netzwerk muss eine eindeutige IP-Adresse zugewiesen bekommen.
-herunter|laden (lädt herunter, lud herunter, hat heruntergeladen);to download;завантажувати;Bitte laden Sie sich die neueste Version von Git von der offiziellen Webseite herunter.
-etw. installieren (installiert, installierte, hat installiert);to install;інсталювати;Der Systemadministrator muss den Sicherheitspatch auf allen Servern gleichzeitig installieren.
-das Kommunikationsmittel, -;means of communication;засіб зв'язку;Slack ist in unserem Team das wichtigste Kommunikationsmittel für den schnellen Austausch.
-leistungsfähig;powerful, efficient;потужний, продуктивний;Dieser neue M3-Chip ist extrem leistungsfähig für rechenintensive Kompiliervorgänge.
-der Mobilfunk (Sg.);mobile communications;мобільний зв'язок;Dank 5G-Mobilfunk können wir auch unterwegs problemlos an Video-Konferenzen teilnehmen.
-multifunktional;multifunctional;багатофункціональний;Moderne IDEs sind multifunktional und bieten neben dem Code-Editor auch Debugging-Tools.
-das Navi, -s;sat nav, navigation system;навігатор;Das Navi nutzt Echtzeit-Daten aus der Cloud, um die beste Route zu berechnen.
-das Navigationsgerät, -e;navigation device;навігатор;Die Firmware des Navigationsgeräts muss regelmäßig über das Internet aktualisiert werden.
-problemlos;problem-free;без проблем;Die Migration der Datenbank von MySQL zu PostgreSQL verlief dank guter Vorbereitung problemlos.
-das Risiko, Risiken;risk;ризик;Das größte Risiko bei diesem Projekt ist die Abhängigkeit von einer veralteten API.
-sinken (sinkt, sank, ist gesunken);to sink, to decrease;падати, знижуватися;Die Kosten für Cloud-Speicherplatz sind im letzten Jahr kontinuierlich gesunken.
-die Tastatur, -en;keyboard;клавіатура;Mechanische Tastaturen sind bei vielen Softwareentwicklern wegen des besseren Schreibgefühls sehr beliebt.
-verfügbar;available;доступний;Der neue Endpunkt unserer REST-API ist ab sofort in der Dokumentation verfügbar.
-etw. weiterentwickeln (entwickelt weiter, entwickelte weiter, hat weiterentwickelt);to develop further;розвивати далі;Wir müssen den Algorithmus zur Bilderkennung mithilfe von Machine Learning ständig weiterentwickeln.
-die Zukunft (Sg.);future;майбутнє;Die Zukunft der Webentwicklung liegt vermutlich in der Nutzung von WebAssembly.
-in Zukunft;in the future;у майбутньому;In Zukunft wollen wir unsere Infrastruktur komplett auf "Infrastructure as Code" umstellen.
-die Arbeit erleichtern (erleichtert, erleichterte, hat erleichtert);to make work easier;полегшувати роботу;Künstliche Intelligenz kann Entwicklern die Arbeit erleichtern, indem sie Boilerplate-Code generiert.
-die Daten (Pl.);data;дані;Wir nutzen eine verschlüsselte SQL-Datenbank, um die persönlichen Daten unserer Nutzer zu schützen.
-Daten missbrauchen (missbraucht, missbrauchte, hat missbraucht);to misuse data;зловживати даними;Durch unzureichende Verschlüsselung könnten Cyberkriminelle sensible Kundendaten missbrauchen.
-nachteilig;disadvantageous;невигідний;Die Nutzung veralteter Bibliotheken kann sich nachteilig auf die Sicherheit der gesamten App auswirken.
-papierlos;paperless;безпеперовий;Wir nutzen digitale Tools wie Jira und Confluence, um ein komplett papierloses Projektmanagement zu ermöglichen.
-die sozialen Netzwerke;social networks;соціальні мережі;Viele Unternehmen nutzen soziale Netzwerke wie LinkedIn, um neue IT-Talente zu finden.
-speichern (speichert, speicherte, hat gespeichert);to save;зберігати;Die Anwendung muss die Benutzereinstellungen lokal im LocalStorage des Browsers speichern.
-verzichten auf (+ Akk.) (verzichtet, verzichtete, hat verzichtet);to do without;відмовлятися від;Kein modernes Unternehmen kann heute mehr auf eine eigene Webseite verzichten.
-die Anforderung, -en;requirement, demand;вимога;Die funktionalen Anforderungen an das System wurden in einem Lastenheft genau dokumentiert.
-der Ausbildungsberuf, -e;recognized vocational profession;професія, що потребує спеціальної освіти;Fachinformatiker für Anwendungsentwicklung ist ein sehr gefragter Ausbildungsberuf.
-beeinflussen (beeinflusst, beeinflusste, hat beeinflusst);to influence;впливати;Die Wahl des Betriebssystems beeinflusst die Performance unserer Docker-Container massiv.
-die Berufsaussicht, -en;career prospect;перспектива працевлаштування;Die Berufsaussichten für Experten im Bereich Cyber-Security sind derzeit exzellent.
-die Digitalisierung (Sg.);digitization;цифровізація;Die Digitalisierung interner Prozesse spart Unternehmen langfristig enorme Kosten.
-die Eigenschaft, -en;property, characteristic;властивість, якість;Die wichtigste Eigenschaft eines guten Programmierers ist logisches Denkvermögen.
-der Erfolg, -e;success;успіх;Der Erfolg unseres Startups hängt maßgeblich von der Skalierbarkeit unserer Plattform ab.
-Erfolg haben;to have success;мати успіх;Wenn wir die User-Experience verbessern, werden wir mit unserer App sicher großen Erfolg haben.
-fächerübergreifend;interdisciplinary;міждисциплінарний;Wir planen ein fächerübergreifendes Projekt zwischen der Design-Abteilung und der IT.
-die Gesprächs- und Verhandlungsführung (Sg.);conversation and negotiation management;ведення переговорів;In dem Kurs man lernt, wie man die Gesprächs- und Verhandlungsführung mit IT-Dienstleistern verbessert.
-interkulturell;intercultural;міжкультурний;In globalen IT-Teams ist interkulturelle Kompetenz für eine reibungslose Zusammenarbeit entscheidend.
-der IT-Systemkaufmann, -leute / die IT-Systemkauffrau, -en;IT systems management assistant;фахівець/-чиня з продажів ІТ-систем;IT-Systemkaufleute berechnen die Lizenzkosten für neue Unternehmenssoftware.
-die Soft Skills (Pl.);soft skills;гнучкі навички;Neben technischem Fachwissen sind Soft Skills wie Kommunikationsfähigkeit für Entwickler unverzichtbar.
-teamfähig;able to work in a team;здатний працювати в команді;Wir suchen neue Senior-Entwickler, die nicht nur technisch brillant, sondern auch teamfähig sind.
-die Teamfähigkeit (Sg.);ability to work in a team;вміння працювати в команді;Teamfähigkeit ist in agilen Scrum-Teams eine absolute Grundvoraussetzung.
-die Umfrage, -n;survey, poll;опитування;Die Ergebnisse der Umfrage unter den Beta-Testern zeigen eine hohe Zufriedenheit mit dem neuen Design.
-wahrscheinlich;probable, probably;ймовірно;Es ist sehr wahrscheinlich, dass wir das nächste Release-Datum aufgrund von Fehlern verschieben müssen.
-Wert legen auf (+ Akk.) (legt, legte, hat gelegt);to attach importance to;надавати значення;Wir legen großen Wert auf eine saubere Code-Struktur und ausführliche Kommentare.
-das Wissensmanagement (Sg.);knowledge management;управління знаннями;Ein gutes Wissensmanagement im Wiki hilft neuen Kollegen bei der Einarbeitung.
-zuverlässig;reliable;надійний;Unser neuer Load-Balancer arbeitet äußerst zuverlässig und verteilt die Anfragen effizient.
-die Zuverlässigkeit (Pl. selten);reliability;надійність;Die Zuverlässigkeit der Backup-Systeme ist für den Schutz unserer Geschäftsdaten essenziell.
-der Arbeitsablauf, "-e;workflow;робочий процес;Durch die Nutzung von CI/CD-Pipelines konnten wir den gesamten Arbeitsablauf automatisieren.
-die Automatisierung (Sg.);automation;автоматизація;Die Automatisierung von Standardaufgaben spart dem DevOps-Team viel Zeit und reduziert Fehler.
-etw. ein|führen (führt ein, führte ein, hat eingeführt);to introduce;запроваджувати;Wir wollen im nächsten Monat eine neue Software zur automatischen Fehlersuche einführen.
-die Einführung, -en;introduction;запровадження;Die Einführung der neuen Cloud-Plattform verlief reibungsloser als ursprünglich geplant.
-etw. fern|steuern (steuert fern, steuerte fern, hat ferngesteuert);to remote control;керувати дистанційно;Mithilfe von SSH kann man Linux-Server sicher von jedem Ort der Welt aus fernsteuern.
-das Fließband, "-er;conveyor belt;конвеєр;In der modernen Software-Entwicklung ähnelt die Build-Pipeline einem digitalen Fließband.
-die Informationstechnologie, -n;information technology (IT);інформаційні технології;Er leitet die Abteilung für Informationstechnologie bei einem mittelständischen Unternehmen.
-das Internet der Dinge (Sg.);Internet of Things (IoT);інтернет речей;Das Internet der Dinge ermöglicht die Vernetzung von Sensoren direkt mit der Cloud.
-der Sprachassistent, -en;voice assistant;голосовий помічник;Unser neuer Sprachassistent nutzt Deep Learning, um Befehle besser zu verstehen.
-die Vernetzung, -en;networking;мережування, поєднання;Die intelligente Vernetzung von IT-Systemen schafft völlig neue Möglichkeiten der Zusammenarbeit.
-vielfältig;diverse, manifold;різноманітний;Die Einsatzmöglichkeiten von Python sind äußerst vielfältig, von Data Science bis Webentwicklung.
+der Alltag (Sg.);everyday life;будні, повсякденне життя;Der Berufsalltag **erfordert ein hohes Maß an zeitlicher Flexibilität**.
+der Anschluss, "-e;connection;підключення;Die Elektrofirma **ist für den Anschluss der neuen Klimaanlage zuständig**.
+die Anwendungsmöglichkeit, -en;application possibility;можливість застосування;Die neuen Kältemaschinen **bieten vielfältige Anwendungsmöglichkeiten im industriellen Betrieb**.
+das Display, -s;display, screen;дисплей, екран;Das beschädigte Display **wurde vom Servicetechniker innerhalb kurzer Zeit ausgetauscht**.
+einsatzbereit;ready for use;готовий до роботи;Das Notstromaggregat **ist im Falle eines Stromausfalls sofort einsatzbereit**.
+das Festnetz (Sg.);landline;стаціонарна мережа;Im Büro **sind alle Abteilungen direkt über das Festnetz erreichbar**.
+das Gerät, -e;device;пристрій;Das defekte Gerät **wurde umgehend zur Reparatur an den Hersteller geschickt**.
+herunter|laden (lädt herunter, lud herunter, hat heruntergeladen);to download;завантажувати;Bitte **laden Sie die erforderlichen Bewerbungsunterlagen im PDF-Format herunter**.
+etw. installieren (installiert, installierte, hat installiert);to install;інсталювати;Wir haben den Auftrag erhalten, **neue Lärmschutzvorrichtungen im Werk zu installieren**.
+das Kommunikationsmittel, -;means of communication;засіб зв'язку;Ein digitales Zeiterfassungssystem **dient als wichtiges Kommunikationsmittel im Betrieb**.
+leistungsfähig;powerful, efficient;потужний, продуктивний;Eine leistungsfähige Spedition **garantiert eine fehlerfreie Zustellung unserer Waren**.
+der Mobilfunk (Sg.);mobile communications;мобільний зв'язок;Die Netzabdeckung **für den Mobilfunk wurde auf dem gesamten Betriebsgelände verbessert**.
+multifunktional;multifunctional;багатофункціональний;Die neue Produktionsanlage **ist multifunktional und flexibel einsetzbar**.
+das Navi, -s;sat nav, navigation system;навігатор;Der Lkw-Fahrer **nutzt das Navi zur Optimierung seiner Fahrtstrecke**.
+das Navigationsgerät, -e;navigation device;навігатор;Das Navigationsgerät **erleichtert den Fahrern der Spedition die Routenplanung**.
+problemlos;problem-free;без проблеми;Die Zusammenarbeit **mit dem neuen Lieferanten verlief von Anfang an problemlos**.
+das Risiko, Risiken;risk;ризик;Der Schritt in die Selbstständigkeit **birgt immer ein gewisses finanzielles Risiko**.
+sinken (sinkt, sank, ist gesunken);to sink, to decrease;падати, знижуватися;<b>Aus der Grafik geht hervor, dass</b> der Absatz der Produkte gesunken ist.
+die Tastatur, -en;keyboard;клавіатура;Die Reinigung der Tastatur **gehört zur Pflege der Arbeitsplatzausstattung im Büro**.
+verfügbar;available;доступний;Das neue Antragsformular **ist ab sofort auf unserer Online-Plattform verfügbar**.
+etw. weiterentwickeln (entwickelt weiter, entwickelte weiter, hat weiterentwickelt);to develop further;розвивати далі;Wir müssen unsere Logistikkonzepte **ständig weiterentwickeln, um konkurrenzfähig zu bleiben**.
+die Zukunft (Sg.);future;майбутнє;Eine fundierte Berufsausbildung **bietet beste Perspektiven für die berufliche Zukunft**.
+in Zukunft;in the future;у майбутньому;In Zukunft **wird der Arbeitgeber die Kosten für die Weiterbildung übernehmen**.
+die Arbeit erleichtern (erleichtert, erleichterte, hat erleichtert);to make work easier;полегшувати роботу;Das neue EDV-System **soll den Beschäftigten die tägliche Arbeit erleichtern**.
+die Daten (Pl.);data;дані;Wir müssen alle Daten **bezüglich des Arbeitsschutzes sorgfältig dokumentieren**.
+Daten missbrauchen (missbraucht, missbrauchte, hat missbraucht);to misuse data;зловживати даними;Es ist gesetzlich verboten, **personenbezogene Daten der Mitarbeiter zu missbrauchen**.
+nachteilig;disadvantageous;невигідний;Die neuen Arbeitszeitregelungen **wirken sich nachteilig auf das Wohlbefinden aus**.
+papierlos;paperless;безпеперовий;Die Personalabteilung **strebt eine komplett papierlose Verwaltung der Personalakten an**.
+die sozialen Netzwerke;social networks;соціальні мережі;Die Werbekampagne **sollte auch über die sozialen Netzwerke verbreitet werden**.
+speichern (speichert, speicherte, hat gespeichert);to save;зберігати;Bitte **speichern Sie das Ergebnisprotokoll im gemeinsamen Ordner ab**.
+verzichten auf (+ Akk.) (verzichtet, verzichtete, hat verzichtet);to do without;відмовлятися від;Wir können bei der Arbeit **auf keinen Fall auf das Tragen von Gehörschutz verzichten**.
+die Anforderung, -en;requirement, demand;вимога;Die neue Fachkraft **erfüllt alle fachlichen Anforderungen der Stellenausschreibung**.
+der Ausbildungsberuf, -e;recognized vocational profession;професія, що потребує спеціальної освіти;Fachinformatiker **ist ein beliebter Ausbildungsberuf in der IT-Branche**.
+beeinflussen (beeinflusst, beeinflusste, hat beeinflusst);to influence;впливати;Das Betriebsklima **kann die Leistungsbereitschaft der Mitarbeiter stark beeinflussen**.
+die Berufsaussicht, -en;career prospect;перспектива працевлаштування;Die Berufsaussichten **für Absolventen dieses Ausbildungsberufs sind hervorragend**.
+die Digitalisierung (Sg.);digitization;цифровізація;Die Digitalisierung **leistet einen wichtigen Beitrag zur Beschleunigung der Prozesse**.
+die Eigenschaft, -en;property, characteristic;властивість, якість;Zuverlässigkeit **ist eine unverzichtbare Eigenschaft im Berufsalltag**.
+der Erfolg, -e;success;успіх;Der Erfolg der Existenzgründung **hängt stark vom vorab erstellten Businessplan ab**.
+Erfolg haben;to have success;мати успіх;Wer sich regelmäßig weiterbildet, **wird mit hoher Wahrscheinlichkeit Erfolg haben**.
+fächerübergreifend;interdisciplinary;міждисциплінарний;Wir planen eine fächerübergreifende Weiterbildung **für das gesamte Fachpersonal**.
+die Gesprächs- und Verhandlungsführung (Sg.);conversation and negotiation management;ведення переговорів;Eine gute Gesprächs- und Verhandlungsführung **ist Voraussetzung für Tarifverträge**.
+interkulturell;intercultural;міжкультурний;Interkulturelle Kompetenz **ist in unserem international tätigen Betrieb erwünscht**.
+der IT-Systemkaufmann, -leute / die IT-Systemkauffrau, -en;IT systems management assistant;фахівець/-чиня з продажів ІТ-систем;Als IT-Systemkaufmann **ist man für die Beratung und Vermittlung zuständig**.
+die Soft Skills (Pl.);soft skills;гнучкі навички;Bei Bewerbungen **wird neben fachlichen Qualifikationen auch auf Soft Skills geachtet**.
+teamfähig;able to work in a team;здатний працювати в команді;Wir suchen eine Fachkraft, **die teamfähig und bereit zur Schichtarbeit ist**.
+die Teamfähigkeit (Sg.);ability to work in a team;вміння працювати в команді;Die Teamfähigkeit **wird durch gemeinsame Aktivitäten auf der Betriebsfeier gestärkt**.
+die Umfrage, -n;survey, poll;опитування;Eine Umfrage **zur Zufriedenheit der Belegschaft wurde vom Betriebsrat durchgeführt**.
+wahrscheinlich;probable, probably;ймовірно;Die Modernisierung der Produktionshalle **wird sich wahrscheinlich verzögern**.
+Wert legen auf (+ Akk.) (legt, legte, hat gelegt);to attach importance to;надавати значення;Unser Inhaber **legt großen Wert auf ein pünktliches Erscheinen am Arbeitsplatz**.
+das Wissensmanagement (Sg.);knowledge management;управління знаннями;Ein effektives Wissensmanagement **erleichtert die Einarbeitung neuer Mitarbeiter**.
+zuverlässig;reliable;надійний;Der Spediteur **gilt als sehr zuverlässig bei der Zustellung von Gefahrgut**.
+die Zuverlässigkeit (Pl. selten);reliability;надійність;Die Zuverlässigkeit der technischen Anlagen **muss täglich kontrolliert werden**.
+der Arbeitsablauf, "-e;workflow;робочий процес;Wir müssen den Arbeitsablauf **in der Lagerlogistik grundlegend optimieren**.
+die Automatisierung (Sg.);automation;автоматизація;Die Automatisierung der Fertigung **führt zu einer spürbaren Kostenersparnis**.
+etw. ein|führen (führt ein, führte ein, hat eingeführt);to introduce;запроваджувати;Die Geschäftsführung **beschließt, ein digitales Dokumentenmanagement einzuführen**.
+die Einführung, -en;introduction;запровадження;Die Einführung der Schichtarbeit **stieß bei den Beschäftigten auf Widerstand**.
+etw. fern|steuern (steuert fern, steuerte fern, hat ferngesteuert);to remote control;керувати дистанційно;Moderne Kräne in der Werkhalle **lassen sich per Funkfernbedienung fernsteuern**.
+das Fließband, "-er;conveyor belt;конвеєр;Die Arbeit am Fließband **erfordert eine hohe Konzentration über einen langen Zeitraum**.
+die Informationstechnologie, -n;information technology (IT);інформаційні технології;Die Abteilung für Informationstechnologie **ist für die IT-Sicherheit zuständig**.
+das Internet der Dinge (Sg.);Internet of Things (IoT);інтернет речей;Das Internet der Dinge **bietet neue Möglichkeiten zur Überwachung der Anlagen**.
+der Sprachassistent, -en;voice assistant;голосовий помічник;Der Sprachassistent **erteilt dem Nutzer auf Anfrage nützliche Auskünfte**.
+die Vernetzung, -en;networking;мережування, поєднання;Die Vernetzung der Betriebe **erleichtert die Zusammenarbeit in der Logistik**.
+vielfältig;diverse, manifold;різноманітний;Die Aufgaben des Betriebsrats **sind äußerst vielfältig und anspruchsvoll**.
