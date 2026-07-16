@@ -196,8 +196,7 @@
   {
     "level": "B1+",
     "levels": [
-      "B1+",
-      "B2"
+      "B1+"
     ],
     "thema": 1,
     "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Lager, -",
@@ -295,7 +294,8 @@
   {
     "level": "B1+",
     "levels": [
-      "B1+"
+      "B1+",
+      "B2"
     ],
     "thema": 1,
     "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Umschulung, -en",
@@ -943,7 +943,8 @@
   {
     "level": "B1+",
     "levels": [
-      "B1+"
+      "B1+",
+      "B2"
     ],
     "thema": 2,
     "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Leitbild, -er",
@@ -1221,8 +1222,7 @@
   {
     "level": "B1+",
     "levels": [
-      "B1+",
-      "B2"
+      "B1+"
     ],
     "thema": 2,
     "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Bereich, -e",
@@ -1695,8 +1695,7 @@
   {
     "level": "B1+",
     "levels": [
-      "B1+",
-      "B2"
+      "B1+"
     ],
     "thema": 3,
     "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Rundgang, \"-e",
@@ -2603,7 +2602,8 @@
   {
     "level": "B1+",
     "levels": [
-      "B1+"
+      "B1+",
+      "B2"
     ],
     "thema": 4,
     "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Arbeitszeit, -en",
@@ -3371,8 +3371,7 @@
   {
     "level": "B1+",
     "levels": [
-      "B1+",
-      "B2"
+      "B1+"
     ],
     "thema": 5,
     "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Herstellung (Sg.)",
@@ -3555,8 +3554,7 @@
   {
     "level": "B1+",
     "levels": [
-      "B1+",
-      "B2"
+      "B1+"
     ],
     "thema": 5,
     "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Vertrieb (Sg.)",
@@ -5548,7 +5546,7 @@
     "german_audio": "der Absolvent",
     "english": "graduate",
     "ukrainian": "випускник",
-    "example": "Als <b style=\"color: #eab308;\">Absolvent</b> einer IT-Akademie suche ich meinen ersten Job."
+    "example": "<b>Aus der Grafik geht hervor, dass</b> viele <b style=\"color: #eab308;\">Absolventen</b> gute Chancen auf dem Arbeitsmarkt haben."
   },
   {
     "level": "B2",
@@ -5560,7 +5558,7 @@
     "german_audio": "sich anpassen an",
     "english": "to adapt to",
     "ukrainian": "пристосовуватися до, адаптуватися до",
-    "example": "Wir müssen uns schnell an die neuen Technologien anpassen."
+    "example": "Mitarbeiter müssen sich schnell <b>an die Anforderungen der digitalen Arbeitswelt anpassen</b>."
   },
   {
     "level": "B2",
@@ -5572,7 +5570,7 @@
     "german_audio": "der Arbeitsberater",
     "english": "employment counselor",
     "ukrainian": "консультант з працевлаштування",
-    "example": "Der <b style=\"color: #eab308;\">Arbeitsberater</b> hilft mir, passende IT-Stellen zu finden."
+    "example": "Der <b style=\"color: #eab308;\">Arbeitsberater</b> <b>hat mir den Rat gegeben</b>, eine Weiterbildung im IT-Bereich <b>in Betracht zu ziehen</b>."
   },
   {
     "level": "B2",
@@ -5584,7 +5582,7 @@
     "german_audio": "die Arbeitsteilung",
     "english": "division of labor",
     "ukrainian": "розподіл праці",
-    "example": "Agile Softwareentwicklung funktioniert gut durch klare <b style=\"color: #eab308;\">Arbeitsteilung</b>."
+    "example": "Eine effiziente <b style=\"color: #eab308;\">Arbeitsteilung</b> <b>trägt dazu bei</b>, dass wir die Projektziele rechtzeitig erreichen."
   },
   {
     "level": "B2",
@@ -5596,7 +5594,7 @@
     "german_audio": "aufgrund von",
     "english": "due to, based on",
     "ukrainian": "на підставі, через",
-    "example": "Aufgrund von Serverproblemen ist die Webseite offline."
+    "example": "<b>Aufgrund von</b> Umstrukturierungen im Unternehmen mussten wir einige Prozesse neu organisieren."
   },
   {
     "level": "B2",
@@ -5608,7 +5606,7 @@
     "german_audio": "sich behaupten",
     "english": "to assert oneself, to hold one's own",
     "ukrainian": "зарекомендувати себе, відстоювати свої позиції",
-    "example": "Als Junior Developer muss man sich im neuen Team erst <b style=\"color: #eab308;\">behaupten</b>."
+    "example": "Um sich im globalen Wettbewerb zu <b style=\"color: #eab308;\">behaupten</b>, müssen Firmen <b>Wert auf Qualität legen</b>."
   },
   {
     "level": "B2",
@@ -5620,7 +5618,7 @@
     "german_audio": "der Berufsweg",
     "english": "career path",
     "ukrainian": "кар'єрний шлях",
-    "example": "Mein <b style=\"color: #eab308;\">Berufsweg</b> in der IT begann als Support-Mitarbeiter."
+    "example": "<b>Ich bin der Meinung, dass</b> ein flexibler <b style=\"color: #eab308;\">Berufsweg</b> heutzutage absolut üblich und normal ist."
   },
   {
     "level": "B2",
@@ -5632,7 +5630,7 @@
     "german_audio": "sich einstellen auf",
     "english": "to prepare for, to adjust to",
     "ukrainian": "налаштовуватися на, готуватися до",
-    "example": "Wir müssen uns auf ein stressiges Release am Freitag einstellen."
+    "example": "Arbeitnehmer müssen sich heutzutage <b>auf ständige Veränderungen im Berufsleben einstellen</b>."
   },
   {
     "level": "B2",
@@ -5644,7 +5642,7 @@
     "german_audio": "erforderlich",
     "english": "required, necessary",
     "ukrainian": "необхідний",
-    "example": "Für diese Position sind gute Kenntnisse in React <b style=\"color: #eab308;\">erforderlich</b>."
+    "example": "Für die Übernahme dieser verantwortungsvollen Position sind tiefe Sachkenntnisse <b><b style=\"color: #eab308;\">erforderlich</b></b>."
   },
   {
     "level": "B2",
@@ -5656,7 +5654,7 @@
     "german_audio": "erwerben",
     "english": "to acquire",
     "ukrainian": "здобувати (напр. знання, навички)",
-    "example": "Ich möchte in diesem Projekt neue Programmierkenntnisse <b style=\"color: #eab308;\">erwerben</b>."
+    "example": "In der Ausbildung konnte ich wertvolle Kenntnisse im Bereich des Beschwerdemanagements <b><b style=\"color: #eab308;\">erwerben</b></b>."
   },
   {
     "level": "B2",
@@ -5668,7 +5666,7 @@
     "german_audio": "der Erwerbstätige",
     "english": "employed person",
     "ukrainian": "працюючий, людина, що має оплачувану роботу",
-    "example": "Viele <b style=\"color: #eab308;\">Erwerbstätige</b> in der IT arbeiten im Home-Office."
+    "example": "<b>Aus den Daten geht hervor, dass</b> die Zahl der <b style=\"color: #eab308;\">Erwerbstätigen</b> im Dienstleistungssektor steigt."
   },
   {
     "level": "B2",
@@ -5680,7 +5678,7 @@
     "german_audio": "der Freiberufler",
     "english": "freelancer",
     "ukrainian": "фрилансер",
-    "example": "Als <b style=\"color: #eab308;\">Freiberufler</b> entwickle ich Apps für verschiedene Kunden."
+    "example": "Als <b style=\"color: #eab308;\">Freiberufler</b> ist man oft <b>auf eine stabile Auftragslage angewiesen</b>."
   },
   {
     "level": "B2",
@@ -5692,7 +5690,7 @@
     "german_audio": "die Globalisierung",
     "english": "globalization",
     "ukrainian": "глобалізація",
-    "example": "Durch die <b style=\"color: #eab308;\">Globalisierung</b> arbeiten wir mit Entwicklern aus aller Welt."
+    "example": "Die <b style=\"color: #eab308;\">Globalisierung</b> <b>hat zur Folge, dass</b> Unternehmen international im Wettbewerb stehen."
   },
   {
     "level": "B2",
@@ -5704,7 +5702,7 @@
     "german_audio": "interkulturelle Kompetenz",
     "english": "intercultural competence",
     "ukrainian": "міжкультурна компетенція",
-    "example": "Im internationalen Team ist interkulturelle <b style=\"color: #eab308;\">Kompetenz</b> sehr wichtig."
+    "example": "Im internationalen Handel <b>legen Arbeitgeber großen Wert auf</b> interkulturelle <b style=\"color: #eab308;\">Kompetenz</b>."
   },
   {
     "level": "B2",
@@ -5716,7 +5714,7 @@
     "german_audio": "der Klimawandel",
     "english": "climate change",
     "ukrainian": "зміна клімату",
-    "example": "Green IT versucht, den <b style=\"color: #eab308;\">Klimawandel</b> durch energiesparende Server zu bremsen."
+    "example": "Unternehmen müssen Maßnahmen ergreifen, um die Produktion an den <b style=\"color: #eab308;\">Klimawandel</b> <b>anzupassen</b>."
   },
   {
     "level": "B2",
@@ -5728,7 +5726,7 @@
     "german_audio": "modernisieren",
     "english": "to modernize",
     "ukrainian": "модернізувати, оновлювати",
-    "example": "Wir müssen unsere alte IT-Infrastruktur <b style=\"color: #eab308;\">modernisieren</b>."
+    "example": "Wir müssen den Betrieb <b style=\"color: #eab308;\">modernisieren</b>, um <b>die Effizienz unserer Prozesse zu steigern</b>."
   },
   {
     "level": "B2",
@@ -5740,7 +5738,7 @@
     "german_audio": "die Neuorientierung",
     "english": "reorientation",
     "ukrainian": "переорієнтація",
-    "example": "Nach fünf Jahren im Frontend brauche ich eine berufliche <b style=\"color: #eab308;\">Neuorientierung</b> ins Backend."
+    "example": "Eine berufliche <b style=\"color: #eab308;\">Neuorientierung</b> kann <b>neue Perspektiven für den weiteren Berufsweg eröffnen</b>."
   },
   {
     "level": "B2",
@@ -5752,7 +5750,7 @@
     "german_audio": "sich niederlassen",
     "english": "to settle, to establish oneself",
     "ukrainian": "осісти, заснувати справу",
-    "example": "Das Startup hat sich in Berlin <b style=\"color: #eab308;\">niedergelassen</b>."
+    "example": "Nach der Meisterprüfung möchte er sich mit einem eigenen Handwerksbetrieb <b><b style=\"color: #eab308;\">niederlassen</b></b>."
   },
   {
     "level": "B2",
@@ -5764,7 +5762,7 @@
     "german_audio": "ökologisch",
     "english": "ecological",
     "ukrainian": "екологічний",
-    "example": "Unsere Rechenzentren nutzen <b style=\"color: #eab308;\">ökologischen</b> Strom."
+    "example": "<b>Ich plädiere für</b> eine <b style=\"color: #eab308;\">ökologische</b> Produktion, um Ressourcen für die Zukunft zu schonen."
   },
   {
     "level": "B2",
@@ -5776,7 +5774,7 @@
     "german_audio": "das Pausengespräch",
     "english": "break conversation",
     "ukrainian": "розмова під час перерви",
-    "example": "Im <b style=\"color: #eab308;\">Pausengespräch</b> reden wir oft über neue Frameworks."
+    "example": "Im <b style=\"color: #eab308;\">Pausengespräch</b> <b>tauschen wir uns oft über</b> organisatorische Abläufe im Büro <b>aus</b>."
   },
   {
     "level": "B2",
@@ -5788,7 +5786,7 @@
     "german_audio": "die Technologie",
     "english": "technology",
     "ukrainian": "технологія",
-    "example": "Wir nutzen die neueste <b style=\"color: #eab308;\">Technologie</b> für unsere App."
+    "example": "Die Einführung neuer <b style=\"color: #eab308;\">Technologien</b> <b>führt zu einer spürbaren Arbeitserleichterung</b>."
   },
   {
     "level": "B2",
@@ -5799,8 +5797,8 @@
     "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Unterbrechung, -en",
     "german_audio": "die Unterbrechung",
     "english": "interruption",
-    "ukrainian": "перерва, переривання",
-    "example": "Ein Deployment ohne <b style=\"color: #eab308;\">Unterbrechung</b> (Zero Downtime) ist unser Ziel."
+    "ukrainian": "перева, переривання",
+    "example": "Um den Ablauf nicht zu stören, sollten wir die Besprechung <b>ohne <b style=\"color: #eab308;\">Unterbrechung</b> durchführen</b>."
   },
   {
     "level": "B2",
@@ -5812,7 +5810,7 @@
     "german_audio": "das Unternehmen",
     "english": "company, enterprise",
     "ukrainian": "підприємство, компанія",
-    "example": "Das IT-<b style=\"color: #eab308;\">Unternehmen</b> wächst sehr schnell."
+    "example": "Unser <b style=\"color: #eab308;\">Unternehmen</b> <b>legt großen Wert auf die Zufriedenheit</b> der Belegschaft."
   },
   {
     "level": "B2",
@@ -5824,7 +5822,7 @@
     "german_audio": "veralten",
     "english": "to become obsolete / outdated",
     "ukrainian": "застарівати",
-    "example": "Dieser Code ist leider schon nach zwei Jahren <b style=\"color: #eab308;\">veraltet</b>."
+    "example": "Wenn Maschinen <b style=\"color: #eab308;\">veralten</b>, <b>müssen wir rechtzeitig Vorsorge für</b> den Ersatz <b>treffen</b>."
   },
   {
     "level": "B2",
@@ -5836,7 +5834,7 @@
     "german_audio": "vertrauen auf",
     "english": "to trust in, to rely on",
     "ukrainian": "довіряти, покладатися на",
-    "example": "Wir vertrauen auf das neue Backup-System."
+    "example": "Wir <b>vertrauen auf eine enge und ehrliche Zusammenarbeit mit</b> unseren Partnern."
   },
   {
     "level": "B2",
@@ -5848,7 +5846,7 @@
     "german_audio": "ambulant",
     "english": "outpatient, ambulatory",
     "ukrainian": "амбулаторний",
-    "example": "Wir programmieren eine Software für <b style=\"color: #eab308;\">ambulante</b> Pflegedienste."
+    "example": "Der Bedarf an <b style=\"color: #eab308;\">ambulanten</b> Pflegediensten <b>ist in den letzten Jahren stark gestiegen</b>."
   },
   {
     "level": "B2",
@@ -5860,7 +5858,7 @@
     "german_audio": "das Berufsleben",
     "english": "professional life, career",
     "ukrainian": "професійне життя",
-    "example": "Ein lebenslanges Lernen gehört zum <b style=\"color: #eab308;\">Berufsleben</b> in der IT."
+    "example": "Im Laufe des <b style=\"color: #eab308;\">Berufslebens</b> muss man sich immer wieder <b>an neue Technologien anpassen</b>."
   },
   {
     "level": "B2",
@@ -5872,7 +5870,7 @@
     "german_audio": "das Beschwerdemanagement",
     "english": "complaint management",
     "ukrainian": "управління скаргами",
-    "example": "Das <b style=\"color: #eab308;\">Beschwerdemanagement</b> nutzt unser neues Ticket-System."
+    "example": "Ein funktionierendes <b style=\"color: #eab308;\">Beschwerdemanagement</b> <b>ist entscheidend für die langfristige Kundenbindung</b>."
   },
   {
     "level": "B2",
@@ -5884,7 +5882,7 @@
     "german_audio": "der Betreuungsdienst",
     "english": "care service, support service",
     "ukrainian": "служба догляду (або підтримки)",
-    "example": "Der IT-<b style=\"color: #eab308;\">Betreuungsdienst</b> hilft den Usern bei Problemen."
+    "example": "Der <b style=\"color: #eab308;\">Betreuungsdienst</b> <b>stellt den Patienten eine Unterstützung im Alltag zur Verfügung</b>."
   },
   {
     "level": "B2",
@@ -5896,7 +5894,7 @@
     "german_audio": "der Bildungsgutschein",
     "english": "education voucher",
     "ukrainian": "ваучер на навчання",
-    "example": "Mit dem <b style=\"color: #eab308;\">Bildungsgutschein</b> vom Jobcenter mache ich einen IT-Kurs."
+    "example": "Die Agentur für Arbeit <b>hat mir einen <b style=\"color: #eab308;\">Bildungsgutschein</b> für eine Fortbildung bewilligt</b>."
   },
   {
     "level": "B2",
@@ -5908,7 +5906,7 @@
     "german_audio": "bisherig",
     "english": "previous",
     "ukrainian": "попередній, нинішній (до цього моменту)",
-    "example": "Mein <b style=\"color: #eab308;\">bisheriger</b> Arbeitgeber hat keine Cloud genutzt."
+    "example": "Mit meinen <b style=\"color: #eab308;\">bisherigen</b> Leistungen <b>ist der Vorgesetzte sehr zufrieden gewesen</b>."
   },
   {
     "level": "B2",
@@ -5920,7 +5918,7 @@
     "german_audio": "eingehende Post",
     "english": "incoming mail",
     "ukrainian": "вхідна пошта",
-    "example": "Das Skript sortiert automatisch alle eingehende <b style=\"color: #eab308;\">Post</b>."
+    "example": "Die eingehende <b style=\"color: #eab308;\">Post</b> <b>wird vom Sekretariat gesichtet und in eine Reihenfolge gebracht</b>."
   },
   {
     "level": "B2",
@@ -5932,7 +5930,7 @@
     "german_audio": "die Fördermöglichkeit",
     "english": "funding opportunity",
     "ukrainian": "можливість фінансування",
-    "example": "Startups suchen oft nach staatlichen <b style=\"color: #eab308;\">Fördermöglichkeiten</b>."
+    "example": "Der Arbeitsberater informierte mich <b>über staatliche <b style=\"color: #eab308;\">Fördermöglichkeiten</b> für die Weiterbildung</b>."
   },
   {
     "level": "B2",
@@ -5944,7 +5942,7 @@
     "german_audio": "geeignet für",
     "english": "suitable for",
     "ukrainian": "придатний для, підходящий",
-    "example": "Diese Datenbank ist gut geeignet <b style=\"color: #eab308;\">für</b> große Datenmengen."
+    "example": "Dieses Seminar ist hervorragend <b>geeignet <b style=\"color: #eab308;\">für</b> Mitarbeiter im Vertrieb</b>."
   },
   {
     "level": "B2",
@@ -5956,7 +5954,7 @@
     "german_audio": "die Haushaltsführung",
     "english": "household management",
     "ukrainian": "ведення домашнього господарства",
-    "example": "Unsere Smart-Home-App hilft bei der <b style=\"color: #eab308;\">Haushaltsführung</b>."
+    "example": "Der Betreuungsdienst unterstützt ältere Menschen bei der <b style=\"color: #eab308;\">Haushaltsführung</b>."
   },
   {
     "level": "B2",
@@ -5968,7 +5966,7 @@
     "german_audio": "die Hilfskraft",
     "english": "assistant, helper",
     "ukrainian": "помічник, допоміжний персонал",
-    "example": "Wir suchen eine studentische <b style=\"color: #eab308;\">Hilfskraft</b> für den IT-Support."
+    "example": "Wir suchen eine engagierte <b style=\"color: #eab308;\">Hilfskraft</b> <b>für die Unterstützung bei administrativen Aufgaben</b>."
   },
   {
     "level": "B2",
@@ -5980,7 +5978,7 @@
     "german_audio": "die Kenntnis",
     "english": "knowledge",
     "ukrainian": "знання",
-    "example": "Gute <b style=\"color: #eab308;\">Kenntnisse</b> in JavaScript sind für diesen Job Pflicht."
+    "example": "Praktische <b style=\"color: #eab308;\">Kenntnisse</b> im Bereich Marketing <b>sind von großem Vorteil für diese Stelle</b>."
   },
   {
     "level": "B2",
@@ -5992,7 +5990,7 @@
     "german_audio": "Kenntnisse erwerben",
     "english": "to acquire knowledge",
     "ukrainian": "здобувати знання",
-    "example": "Im Praktikum möchte ich praktische Kenntnisse <b style=\"color: #eab308;\">erwerben</b>."
+    "example": "In der Berufsschule werden die Auszubildenden theoretische Kenntnisse <b><b style=\"color: #eab308;\">erwerben</b></b>."
   },
   {
     "level": "B2",
@@ -6004,7 +6002,7 @@
     "german_audio": "die Lagerliste",
     "english": "inventory list, stock list",
     "ukrainian": "складський список",
-    "example": "Die Datenbank aktualisiert die <b style=\"color: #eab308;\">Lagerliste</b> in Echtzeit."
+    "example": "Der Logistiker hat die Aufgabe, die <b style=\"color: #eab308;\">Lagerliste</b> <b>in Ordnung zu bringen</b>."
   },
   {
     "level": "B2",
@@ -6016,7 +6014,7 @@
     "german_audio": "der Lagerlogistiker",
     "english": "warehouse logistician",
     "ukrainian": "спеціаліст зі складської логістики",
-    "example": "Der <b style=\"color: #eab308;\">Lagerlogistiker</b> nutzt unser neues Barcode-System."
+    "example": "Als <b style=\"color: #eab308;\">Lagerlogistiker</b> ist er <b>für die fachgerechte Einlagerung der Waren zuständig</b>."
   },
   {
     "level": "B2",
@@ -6028,7 +6026,7 @@
     "german_audio": "der Lehrplan",
     "english": "curriculum",
     "ukrainian": "навчальний план",
-    "example": "Docker steht im <b style=\"color: #eab308;\">Lehrplan</b> meines Coding-Bootcamps."
+    "example": "Die neuen gesetzlichen Vorschriften wurden bereits <b>in den <b style=\"color: #eab308;\">Lehrplan</b> aufgenommen</b>."
   },
   {
     "level": "B2",
@@ -6040,7 +6038,7 @@
     "german_audio": "der Pflegedienst",
     "english": "nursing service",
     "ukrainian": "служба догляду",
-    "example": "Wir digitalisieren die Akten für einen <b style=\"color: #eab308;\">Pflegedienst</b>."
+    "example": "Der ambulante <b style=\"color: #eab308;\">Pflegedienst</b> **leistet einen wichtigen Beitrag zur Versorgung** der älteren Bürger."
   },
   {
     "level": "B2",
@@ -6052,7 +6050,7 @@
     "german_audio": "die Pflegeeinrichtung",
     "english": "care facility",
     "ukrainian": "заклад догляду",
-    "example": "Die <b style=\"color: #eab308;\">Pflegeeinrichtung</b> braucht ein neues Netzwerk."
+    "example": "Die Leitung der <b style=\"color: #eab308;\">Pflegeeinrichtung</b> <b>übernimmt die Verantwortung für die Qualität der Pflege</b>."
   },
   {
     "level": "B2",
@@ -6064,7 +6062,7 @@
     "german_audio": "das Pflegezertifikat",
     "english": "care certificate",
     "ukrainian": "сертифікат з догляду",
-    "example": "Für medizinische Software brauchen wir spezielle <b style=\"color: #eab308;\">Pflegezertifikate</b>."
+    "example": "Nach bestandener Prüfung <b>erhalten die Absolventen ein offizielles <b style=\"color: #eab308;\">Pflegezertifikat</b></b>."
   },
   {
     "level": "B2",
@@ -6076,7 +6074,7 @@
     "german_audio": "das Präsenzseminar",
     "english": "in-person seminar",
     "ukrainian": "очний семінар",
-    "example": "Ich lerne lieber online als in einem <b style=\"color: #eab308;\">Präsenzseminar</b>."
+    "example": "<b>Ich ziehe das Onlinelernen einem</b> klassischen <b style=\"color: #eab308;\">Präsenzseminar</b> <b>vor</b>."
   },
   {
     "level": "B2",
@@ -6088,7 +6086,7 @@
     "german_audio": "der Produktionshelfer",
     "english": "production assistant",
     "ukrainian": "помічник на виробництві",
-    "example": "Der <b style=\"color: #eab308;\">Produktionshelfer</b> bedient die Maschinen."
+    "example": "Der <b style=\"color: #eab308;\">Produktionshelfer</b> ist <b>mit der Verpackung der fertigen Erzeugnisse beschäftigt</b>."
   },
   {
     "level": "B2",
@@ -6100,7 +6098,7 @@
     "german_audio": "sich qualifizieren",
     "english": "to qualify oneself",
     "ukrainian": "кваліфікуватися, підвищувати кваліфікацію",
-    "example": "Ich möchte mich für die Position als Senior Developer <b style=\"color: #eab308;\">qualifizieren</b>."
+    "example": "Er möchte sich <b>für Führungsaufgaben im Unternehmen <b style=\"color: #eab308;\">qualifizieren</b></b>."
   },
   {
     "level": "B2",
@@ -6112,7 +6110,7 @@
     "german_audio": "die Sachkenntnis",
     "english": "expertise, factual knowledge",
     "ukrainian": "експертність, професійні знання",
-    "example": "Für dieses Architektur-Muster braucht man viel <b style=\"color: #eab308;\">Sachkenntnis</b>."
+    "example": "<b>Wir legen großen Wert auf</b> die <b style=\"color: #eab308;\">Sachkenntnis</b> unserer Berater."
   },
   {
     "level": "B2",
@@ -6124,7 +6122,7 @@
     "german_audio": "zur Verfügung stehen",
     "english": "to be available",
     "ukrainian": "бути в розпорядженні, бути доступним",
-    "example": "Der neue Server wird ab morgen zur Verfügung <b style=\"color: #eab308;\">stehen</b>."
+    "example": "Die Schulungsunterlagen <b><b style=\"color: #eab308;\">stehen</b> den Teilnehmenden im Intranet zur Verfügung</b>."
   },
   {
     "level": "B2",
@@ -6136,7 +6134,19 @@
     "german_audio": "die Abfallvermeidung",
     "english": "waste prevention",
     "ukrainian": "уникнення відходів",
-    "example": "Unser Büro legt großen Wert auf digitale <b style=\"color: #eab308;\">Abfallvermeidung</b>."
+    "example": "<b>Umweltschutz steht im Vordergrund</b>, weshalb wir Maßnahmen zur <b style=\"color: #eab308;\">Abfallvermeidung</b> treffen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 1,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Bereich, -e",
+    "german_audio": "die Bereich",
+    "english": "area, field, department",
+    "ukrainian": "відділ, сфера",
+    "example": "Frau Duda ist für den <b style=\"color: #eab308;\">Bereich</b> Kundenservice **zuständig**."
   },
   {
     "level": "B2",
@@ -6148,7 +6158,7 @@
     "german_audio": "die Betriebsbesichtigung",
     "english": "company tour",
     "ukrainian": "екскурсія підприємством",
-    "example": "Am ersten Tag gibt es eine <b style=\"color: #eab308;\">Betriebsbesichtigung</b> für neue Mitarbeiter."
+    "example": "Die <b style=\"color: #eab308;\">Betriebsbesichtigung</b> **gab uns einen guten Überblick über** die Produktionsabläufe."
   },
   {
     "level": "B2",
@@ -6160,7 +6170,7 @@
     "german_audio": "das Betriebsgelände",
     "english": "company grounds",
     "ukrainian": "територія підприємства",
-    "example": "Auf dem <b style=\"color: #eab308;\">Betriebsgelände</b> gibt es kostenloses WLAN."
+    "example": "Das Rauchen ist auf dem gesamten <b style=\"color: #eab308;\">Betriebsgelände</b> **unter Strafe gestellt**."
   },
   {
     "level": "B2",
@@ -6172,7 +6182,7 @@
     "german_audio": "einführen",
     "english": "to introduce, to implement",
     "ukrainian": "впроваджувати, запроваджувати",
-    "example": "Wir werden nächste Woche ein neues CRM-System <b style=\"color: #eab308;\">einführen</b>."
+    "example": "Wir wollen im nächsten Quartal ein neues Zeiterfassungssystem <b><b style=\"color: #eab308;\">einführen</b></b>."
   },
   {
     "level": "B2",
@@ -6184,7 +6194,7 @@
     "german_audio": "die Energieeinsparung",
     "english": "energy saving",
     "ukrainian": "енергозбереження",
-    "example": "Die <b style=\"color: #eab308;\">Energieeinsparung</b> bei den neuen Servern ist enorm."
+    "example": "Die Modernisierung der Heizungsanlage **führte zu einer spürbaren <b style=\"color: #eab308;\">Energieeinsparung</b>**."
   },
   {
     "level": "B2",
@@ -6196,7 +6206,7 @@
     "german_audio": "der Entscheidungsspielraum",
     "english": "scope for decision-making",
     "ukrainian": "свобода прийняття рішень",
-    "example": "In unserem Startup haben Entwickler viel <b style=\"color: #eab308;\">Entscheidungsspielraum</b>."
+    "example": "Flache Hierarchien **bieten den Mitarbeitern einen größeren <b style=\"color: #eab308;\">Entscheidungsspielraum</b>**."
   },
   {
     "level": "B2",
@@ -6208,7 +6218,7 @@
     "german_audio": "eröffnen",
     "english": "to open",
     "ukrainian": "відкривати",
-    "example": "Die Firma wird einen neuen Standort in Berlin <b style=\"color: #eab308;\">eröffnen</b>."
+    "example": "Das Unternehmen plant, eine weitere Filiale im Ausland zu <b><b style=\"color: #eab308;\">eröffnen</b></b>."
   },
   {
     "level": "B2",
@@ -6220,7 +6230,7 @@
     "german_audio": "die Eröffnung",
     "english": "opening",
     "ukrainian": "відкриття",
-    "example": "Die <b style=\"color: #eab308;\">Eröffnung</b> des neuen Büros feiern wir am Freitag."
+    "example": "Die <b style=\"color: #eab308;\">Eröffnung</b> der neuen Niederlassung **fand großen Anklang bei den Kunden**."
   },
   {
     "level": "B2",
@@ -6232,7 +6242,7 @@
     "german_audio": "die Erschließung",
     "english": "development, opening up",
     "ukrainian": "освоєння (наприклад, нових ринків)",
-    "example": "Die <b style=\"color: #eab308;\">Erschließung</b> des europäischen Marktes ist unser Ziel."
+    "example": "Die <b style=\"color: #eab308;\">Erschließung</b> neuer Märkte **ist entscheidend für das Wachstum des Betriebs**."
   },
   {
     "level": "B2",
@@ -6244,7 +6254,7 @@
     "german_audio": "erweitern",
     "english": "to expand",
     "ukrainian": "розширювати",
-    "example": "Wir müssen die Kapazität der Datenbank <b style=\"color: #eab308;\">erweitern</b>."
+    "example": "Wir müssen unser Sortiment <b style=\"color: #eab308;\">erweitern</b>, um **neue Kundengruppen anzusprechen**."
   },
   {
     "level": "B2",
@@ -6256,7 +6266,7 @@
     "german_audio": "die Fertigstellung",
     "english": "completion",
     "ukrainian": "завершення, готовність",
-    "example": "Die <b style=\"color: #eab308;\">Fertigstellung</b> des Projekts ist für Mai geplant."
+    "example": "Wir müssen alle Anstrengungen unternehmen, um **die <b style=\"color: #eab308;\">Fertigstellung</b> des Projekts abzusichern**."
   },
   {
     "level": "B2",
@@ -6268,7 +6278,7 @@
     "german_audio": "die Filiale",
     "english": "branch, subsidiary",
     "ukrainian": "філія, відділення",
-    "example": "Die Firma eröffnet eine neue <b style=\"color: #eab308;\">Filiale</b> in München."
+    "example": "Die Leitung der <b style=\"color: #eab308;\">Filiale</b> **übernimmt die Verantwortung für die Verkaufszahlen**."
   },
   {
     "level": "B2",
@@ -6280,7 +6290,7 @@
     "german_audio": "eine flache Hierarchie",
     "english": "a flat hierarchy",
     "ukrainian": "плоска ієрархія (мало рівнів керівництва)",
-    "example": "Startups haben meistens eine flache <b style=\"color: #eab308;\">Hierarchie</b>."
+    "example": "In Betrieben mit flachen <b style=\"color: #eab308;\">Hierarchien</b> <b>kann man eigene Vorschläge leichter zur Sprache bringen</b>."
   },
   {
     "level": "B2",
@@ -6288,11 +6298,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Geschäftsjahr, -e",
-    "german_audio": "das Geschäftsjahr",
-    "english": "financial year",
-    "ukrainian": "фінансовий рік",
-    "example": "Im letzten <b style=\"color: #eab308;\">Geschäftsjahr</b> hat das Unternehmen den Gewinn verdoppelt."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Handwerkskammer, -n",
+    "german_audio": "die Handwerkskammer",
+    "english": "Chamber of Crafts",
+    "ukrainian": "реміснича палата",
+    "example": "Die <b style=\"color: #eab308;\">Handwerkskammer</b> **erteilt Auskünfte über** anerkannte Ausbildungsberufe."
   },
   {
     "level": "B2",
@@ -6300,11 +6310,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Gründungsdatum, -daten",
-    "german_audio": "das Gründungsdatum",
-    "english": "founding date",
-    "ukrainian": "дата заснування",
-    "example": "Das <b style=\"color: #eab308;\">Gründungsdatum</b> unseres IT-Startups war im Jahr 2020."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Industrie- und Handelskammer (IHK), -en",
+    "german_audio": "die Industrie- und Handelskammer",
+    "english": "Chamber of Industry and Commerce",
+    "ukrainian": "Торгово-промислова палата (ТПП)",
+    "example": "Die Prüfung wird vor der Industrie- und <b style=\"color: #eab308;\">Handelskammer</b> (IHK) abgelegt."
   },
   {
     "level": "B2",
@@ -6312,11 +6322,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Hierarchie, -n",
-    "german_audio": "die Hierarchie",
-    "english": "hierarchy",
-    "ukrainian": "ієрархія",
-    "example": "In traditionellen Konzernen gibt es oft eine strenge <b style=\"color: #eab308;\">Hierarchie</b>."
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Kernbereich, -e",
+    "german_audio": "der Kernbereich",
+    "english": "core area",
+    "ukrainian": "основна сфера, ядро",
+    "example": "Die Entwicklung neuer Produkte gehört zum <b style=\"color: #eab308;\">Kernbereich</b> unserer Tätigkeit."
   },
   {
     "level": "B2",
@@ -6324,11 +6334,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "im Anschluss an (+ Akk.)",
-    "german_audio": "im Anschluss an",
-    "english": "following, subsequent to",
-    "ukrainian": "після, услід за (чимось)",
-    "example": "Im Anschluss an das Meeting schreiben wir das Protokoll."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Kooperation, -en",
+    "german_audio": "die Kooperation",
+    "english": "cooperation, collaboration",
+    "ukrainian": "кооперація, співпраця",
+    "example": "Die enge <b style=\"color: #eab308;\">Kooperation</b> mit der Universität **zeigt bereits erste Wirkungen**."
   },
   {
     "level": "B2",
@@ -6336,11 +6346,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Mitspracherecht, -e",
-    "german_audio": "das Mitspracherecht",
-    "english": "right to have a say",
-    "ukrainian": "право голосу",
-    "example": "Die Entwickler haben ein <b style=\"color: #eab308;\">Mitspracherecht</b> bei der Technologiewahl."
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Schritt, -e",
+    "german_audio": "der Schritt",
+    "english": "step",
+    "ukrainian": "крок",
+    "example": "Wir müssen den nächsten <b style=\"color: #eab308;\">Schritt</b> **gemeinsam besprechen**."
   },
   {
     "level": "B2",
@@ -6348,11 +6358,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "nachhaltig",
-    "german_audio": "nachhaltig",
-    "english": "sustainable",
-    "ukrainian": "сталий, екологічний",
-    "example": "Wir wollen unsere Server-Infrastruktur <b style=\"color: #eab308;\">nachhaltig</b> gestalten."
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Wirtschaftszweig, -e",
+    "german_audio": "der Wirtschaftszweig",
+    "english": "branch of industry / economic sector",
+    "ukrainian": "галузь економіки",
+    "example": "Der IT-Sektor ist ein schnell wachsender <b style=\"color: #eab308;\">Wirtschaftszweig</b>."
   },
   {
     "level": "B2",
@@ -6360,11 +6370,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "etw. präsentieren (präsentiert, präsentierte, hat präsentiert)",
-    "german_audio": "präsentieren",
-    "english": "to present",
-    "ukrainian": "презентувати",
-    "example": "Heute muss ich dem Kunden die neue App <b style=\"color: #eab308;\">präsentieren</b>."
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Zuschuss, \"-e",
+    "german_audio": "der Zuschuss",
+    "english": "grant, subsidy",
+    "ukrainian": "субсидія, доплата",
+    "example": "Der Staat zahlt einen <b style=\"color: #eab308;\">Zuschuss</b> für die energetische Sanierung des Betriebs."
   },
   {
     "level": "B2",
@@ -6372,11 +6382,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Pressesprecher, - / die Pressesprecherin, -nen",
-    "german_audio": "der Pressesprecher",
-    "english": "press spokesperson",
-    "ukrainian": "прес-секретар",
-    "example": "Der <b style=\"color: #eab308;\">Pressesprecher</b> kündigt das neue Software-Release an."
+    "german": "etw. absprechen (spricht ab, sprach ab, hat abgesprochen)",
+    "german_audio": "absprechen",
+    "english": "to agree on / coordinate",
+    "ukrainian": "узгоджувати, домовлятися",
+    "example": "Wir müssen den Urlaubsplan **vorher mit den Kollegen <b style=\"color: #eab308;\">absprechen</b>**."
   },
   {
     "level": "B2",
@@ -6384,11 +6394,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "Produkte einführen",
-    "german_audio": "Produkte einführen",
-    "english": "to introduce products",
-    "ukrainian": "впроваджувати / випускати продукти",
-    "example": "Wir wollen dieses Jahr drei neue digitale Produkte <b style=\"color: #eab308;\">einführen</b>."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Arbeitsbedingung, -en",
+    "german_audio": "die Arbeitsbedingung",
+    "english": "working condition",
+    "ukrainian": "умова праці",
+    "example": "Gute <b style=\"color: #eab308;\">Arbeitsbedingungen</b> **tragen zur Motivation der Mitarbeiter bei**."
   },
   {
     "level": "B2",
@@ -6396,11 +6406,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Produktionsstätte, -n",
-    "german_audio": "die Produktionsstätte",
-    "english": "production facility",
-    "ukrainian": "виробниче приміщення, фабрика",
-    "example": "Die Server-Hardware wird in einer <b style=\"color: #eab308;\">Produktionsstätte</b> in Asien gebaut."
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Arbeitsschutz (Sg.)",
+    "german_audio": "der Arbeitsschutz",
+    "english": "occupational safety",
+    "ukrainian": "охорона праці",
+    "example": "Die Einhaltung der Regeln zum <b style=\"color: #eab308;\">Arbeitsschutz</b> **steht im Vordergrund**."
   },
   {
     "level": "B2",
@@ -6408,11 +6418,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Sortiment, -e",
-    "german_audio": "das Sortiment",
-    "english": "assortment, range of products",
-    "ukrainian": "асортимент",
-    "example": "Unser <b style=\"color: #eab308;\">Sortiment</b> umfasst verschiedene Cloud-Lösungen."
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Aspekt, -e",
+    "german_audio": "der Aspekt",
+    "english": "aspect",
+    "ukrainian": "аспект",
+    "example": "Wir müssen alle finanziellen <b style=\"color: #eab308;\">Aspekte</b> der Modernisierung **bedenken**."
   },
   {
     "level": "B2",
@@ -6420,11 +6430,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Standort, -e",
-    "german_audio": "der Standort",
-    "english": "location, site",
-    "ukrainian": "місцезнаходження, локація",
-    "example": "Das Unternehmen sucht einen neuen <b style=\"color: #eab308;\">Standort</b> für das Rechenzentrum."
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Auftritt, -e",
+    "german_audio": "der Auftritt",
+    "english": "appearance, presentation",
+    "ukrainian": "виступ, поява",
+    "example": "Ein professioneller <b style=\"color: #eab308;\">Auftritt</b> beim Kunden **ist wichtig für den Erfolg**."
   },
   {
     "level": "B2",
@@ -6432,11 +6442,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Terminbestätigung, -en",
-    "german_audio": "die Terminbestätigung",
-    "english": "appointment confirmation",
-    "ukrainian": "підтвердження зустрічі",
-    "example": "Ich habe die <b style=\"color: #eab308;\">Terminbestätigung</b> für das Vorstellungsgespräch erhalten."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Auswirkung, -en",
+    "german_audio": "die Auswirkung",
+    "english": "effect, impact",
+    "ukrainian": "вплив, наслідок",
+    "example": "Die Wirtschaftskrise hat negative <b style=\"color: #eab308;\">Auswirkungen</b> **auf die Auftragslage**."
   },
   {
     "level": "B2",
@@ -6444,11 +6454,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "etw. übernehmen (übernimmt, übernahm, hat übernommen)",
-    "german_audio": "übernehmen",
-    "english": "to take over, to assume",
-    "ukrainian": "переймати, брати на себе",
-    "example": "Ich werde die Betreuung der Datenbank <b style=\"color: #eab308;\">übernehmen</b>."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Barrierefreiheit (Sg.)",
+    "german_audio": "die Barrierefreiheit",
+    "english": "accessibility",
+    "ukrainian": "безбар'єрність, доступність",
+    "example": "Bei der Gestaltung des Neubaus wurde auf vollständige <b style=\"color: #eab308;\">Barrierefreiheit</b> geachtet."
   },
   {
     "level": "B2",
@@ -6456,11 +6466,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Unternehmensgeschichte, -n",
-    "german_audio": "die Unternehmensgeschichte",
-    "english": "company history",
-    "ukrainian": "історія компанії",
-    "example": "Die <b style=\"color: #eab308;\">Unternehmensgeschichte</b> begann in einer kleinen Garage."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Belastung, -en",
+    "german_audio": "die Belastung",
+    "english": "burden, strain, load",
+    "ukrainian": "навантаження, напруга",
+    "example": "Die psychische <b style=\"color: #eab308;\">Belastung</b> am Arbeitsplatz **ist in letzter Zeit gestiegen**."
   },
   {
     "level": "B2",
@@ -6468,11 +6478,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Verkaufsfläche, -n",
-    "german_audio": "die Verkaufsfläche",
-    "english": "sales area",
-    "ukrainian": "торгова площа",
-    "example": "Ein Online-Shop braucht keine physische <b style=\"color: #eab308;\">Verkaufsfläche</b>."
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Betriebsklima (Sg.)",
+    "german_audio": "das Betriebsklima",
+    "english": "work climate",
+    "ukrainian": "атмосфера в колективі",
+    "example": "Ein gutes <b style=\"color: #eab308;\">Betriebsklima</b> **wirkt sich positiv auf die Leistung aus**."
   },
   {
     "level": "B2",
@@ -6480,11 +6490,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Verkaufsgespräch, -e",
-    "german_audio": "das Verkaufsgespräch",
-    "english": "sales talk, sales pitch",
-    "ukrainian": "комерційна бесіда, переговори про продаж",
-    "example": "Der IT-Berater führt ein <b style=\"color: #eab308;\">Verkaufsgespräch</b> mit dem neuen Kunden."
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Corporate Design (Sg.)",
+    "german_audio": "das Corporate Design",
+    "english": "corporate design",
+    "ukrainian": "корпоративний дизайн",
+    "example": "Unsere Präsentationsfolien müssen **dem Corporate <b style=\"color: #eab308;\">Design</b> entsprechen**."
   },
   {
     "level": "B2",
@@ -6492,11 +6502,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Zentrallager, -",
-    "german_audio": "das Zentrallager",
-    "english": "central warehouse",
-    "ukrainian": "центральний склад",
-    "example": "Die Hardware wird vom <b style=\"color: #eab308;\">Zentrallager</b> aus verschickt."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Ergonomie (Sg.)",
+    "german_audio": "die Ergonomie",
+    "english": "ergonomics",
+    "ukrainian": "ергономіка",
+    "example": "Bei der Büroeinrichtung **legen wir großen Wert auf** <b style=\"color: #eab308;\">Ergonomie</b>."
   },
   {
     "level": "B2",
@@ -6504,11 +6514,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Zweigwerk, -e",
-    "german_audio": "das Zweigwerk",
-    "english": "branch factory",
-    "ukrainian": "філія заводу",
-    "example": "Das IT-Unternehmen hat ein <b style=\"color: #eab308;\">Zweigwerk</b> in Osteuropa."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Gefahrenquelle, -n",
+    "german_audio": "die Gefahrenquelle",
+    "english": "source of danger",
+    "ukrainian": "джерело небезпеки",
+    "example": "Regelmäßige Kontrollen helfen, <b style=\"color: #eab308;\">Gefahrenquellen</b> im Betrieb **zu beseitigen**."
   },
   {
     "level": "B2",
@@ -6516,11 +6526,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "etw. anordnen (ordnet an, ordnete an, hat angeordnet)",
-    "german_audio": "anordnen",
-    "english": "to order, to arrange, to instruct",
-    "ukrainian": "наказувати, розпоряджатися, впорядковувати",
-    "example": "Der Vorgesetzte kann Überstunden <b style=\"color: #eab308;\">anordnen</b>."
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Lärm (Sg.)",
+    "german_audio": "der Lärm",
+    "english": "noise",
+    "ukrainian": "шум",
+    "example": "Ständiger <b style=\"color: #eab308;\">Lärm</b> am Arbeitsplatz **führt zu Konzentrationsproblemen**."
   },
   {
     "level": "B2",
@@ -6528,11 +6538,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Controlling (Sg.)",
-    "german_audio": "das Controlling",
-    "english": "controlling, management accounting",
-    "ukrainian": "контролінг, фінансове управління",
-    "example": "Das <b style=\"color: #eab308;\">Controlling</b> überprüft das Budget für die neue Software."
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Leitsatz, \"-e",
+    "german_audio": "das Leitsatz",
+    "english": "guiding principle",
+    "ukrainian": "керівний принцип, гасло",
+    "example": "Unser wichtigster <b style=\"color: #eab308;\">Leitsatz</b> ist die Zufriedenheit unserer Kunden."
   },
   {
     "level": "B2",
@@ -6540,11 +6550,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Finanzabteilung, -en",
-    "german_audio": "die Finanzabteilung",
-    "english": "finance department",
-    "ukrainian": "фінансовий відділ, бухгалтерія",
-    "example": "Die <b style=\"color: #eab308;\">Finanzabteilung</b> überweist das Gehalt pünktlich."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Maßnahme, -n",
+    "german_audio": "die Maßnahme",
+    "english": "measure, action",
+    "ukrainian": "захід",
+    "example": "Wir müssen <b style=\"color: #eab308;\">Maßnahmen</b> **zur Senkung der Betriebskosten ergreifen**."
   },
   {
     "level": "B2",
@@ -6552,11 +6562,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Fläche, -n",
-    "german_audio": "die Fläche",
-    "english": "area, surface",
-    "ukrainian": "площа",
-    "example": "Wir mieten eine größere Bürofläche für die Entwickler."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Nachhaltigkeit (Sg.)",
+    "german_audio": "die Nachhaltigkeit",
+    "english": "sustainability",
+    "ukrainian": "сталий розвиток, екологічність",
+    "example": "Das Thema <b style=\"color: #eab308;\">Nachhaltigkeit</b> **gewinnt in vielen Unternehmen an Bedeutung**."
   },
   {
     "level": "B2",
@@ -6564,11 +6574,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Forschung & Entwicklung (Sg.)",
-    "german_audio": "die Forschung & Entwicklung",
-    "english": "research & development (R&D)",
-    "ukrainian": "дослідження та розробка",
-    "example": "Unser Team arbeitet in der Forschung & <b style=\"color: #eab308;\">Entwicklung</b> für KI."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Öffentlichkeit (Sg.)",
+    "german_audio": "die Öffentlichkeit",
+    "english": "public",
+    "ukrainian": "громадськість, публіка",
+    "example": "Wir müssen unser neues Projekt **in der <b style=\"color: #eab308;\">Öffentlichkeit</b> bekannter machen**."
   },
   {
     "level": "B2",
@@ -6576,11 +6586,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Geschäftsleitung, -en",
-    "german_audio": "die Geschäftsleitung",
-    "english": "management, executive board",
-    "ukrainian": "керівництво (компанії)",
-    "example": "Die <b style=\"color: #eab308;\">Geschäftsleitung</b> hat die neuen Ziele präsentiert."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Richtlinie, -n",
+    "german_audio": "die Richtlinie",
+    "english": "guideline, directive",
+    "ukrainian": "директива, вказівка",
+    "example": "Wir halten uns streng **an die <b style=\"color: #eab308;\">Richtlinien</b> zum Datenschutz**."
   },
   {
     "level": "B2",
@@ -6588,11 +6598,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Hauptbereich, -e",
-    "german_audio": "der Hauptbereich",
-    "english": "main area, core department",
-    "ukrainian": "головний напрямок, основний відділ",
-    "example": "Der <b style=\"color: #eab308;\">Hauptbereich</b> unseres Unternehmens ist die Webentwicklung."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Sicherheit, -en",
+    "german_audio": "die Sicherheit",
+    "english": "safety, security",
+    "ukrainian": "безпека",
+    "example": "Die <b style=\"color: #eab308;\">Sicherheit</b> der Mitarbeiter **hat im Betrieb oberste Priorität**."
   },
   {
     "level": "B2",
@@ -6600,11 +6610,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Haustechnik (Sg.)",
-    "german_audio": "die Haustechnik",
-    "english": "building services, technical facilities",
-    "ukrainian": "технічне обслуговування будівлі",
-    "example": "Die <b style=\"color: #eab308;\">Haustechnik</b> muss die Klimaanlage im Serverraum reparieren."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Sicherheitsvorschrift, -en",
+    "german_audio": "die Sicherheitsvorschrift",
+    "english": "safety regulation",
+    "ukrainian": "правила техніки безпеки",
+    "example": "Wer **gegen die <b style=\"color: #eab308;\">Sicherheitsvorschriften</b> verstößt**, muss mit Konsequenzen rechnen."
   },
   {
     "level": "B2",
@@ -6612,11 +6622,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Hierarchieebene, -n",
-    "german_audio": "die Hierarchieebene",
-    "english": "hierarchical level",
-    "ukrainian": "рівень ієрархії",
-    "example": "Es gibt nur drei <b style=\"color: #eab308;\">Hierarchieebenen</b> in unserem Startup."
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Corporate Identity (Sg.)",
+    "german_audio": "das Corporate Identity",
+    "english": "corporate identity",
+    "ukrainian": "корпоративна ідентичність",
+    "example": "Unsere Werte und das Logo sind Teil unserer Corporate <b style=\"color: #eab308;\">Identity</b>."
   },
   {
     "level": "B2",
@@ -6624,11 +6634,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "etw. leiten (leitet, leitete, hat geleitet)",
-    "german_audio": "leiten",
-    "english": "to lead, to manage, to head",
-    "ukrainian": "керувати, очолювати",
-    "example": "Sie wird das neue IT-Projekt <b style=\"color: #eab308;\">leiten</b>."
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Image (Sg.)",
+    "german_audio": "das Image",
+    "english": "image, reputation",
+    "ukrainian": "імідж, репутація",
+    "example": "Ein Skandal kann **dem <b style=\"color: #eab308;\">Image</b> des Unternehmens schweren Schaden zufügen**."
   },
   {
     "level": "B2",
@@ -6636,11 +6646,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Marketing (Sg.)",
-    "german_audio": "das Marketing",
-    "english": "marketing",
-    "ukrainian": "маркетинг",
-    "example": "Das <b style=\"color: #eab308;\">Marketing</b> bewirbt unser neues Software-Produkt."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Marktposition, -en",
+    "german_audio": "die Marktposition",
+    "english": "market position",
+    "ukrainian": "ринкова позиція",
+    "example": "Wir müssen unsere <b style=\"color: #eab308;\">Marktposition</b> **durch Innovationen absichern**."
   },
   {
     "level": "B2",
@@ -6648,11 +6658,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Marktuntersuchung, -en",
-    "german_audio": "die Marktuntersuchung",
-    "english": "market research",
-    "ukrainian": "дослідження ринку",
-    "example": "Die <b style=\"color: #eab308;\">Marktuntersuchung</b> zeigt, dass User eine Dark-Mode-Option wollen."
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Corporate Social Responsibility (CSR) (Sg.)",
+    "german_audio": "das Corporate Social Responsibility",
+    "english": "corporate social responsibility",
+    "ukrainian": "корпоративна соціальна відповідальність",
+    "example": "Unser CSR-Engagement **findet große Beachtung in den Medien**."
   },
   {
     "level": "B2",
@@ -6660,11 +6670,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Mitarbeiterzahl, -en",
-    "german_audio": "die Mitarbeiterzahl",
-    "english": "number of employees",
-    "ukrainian": "кількість співробітників",
-    "example": "Die <b style=\"color: #eab308;\">Mitarbeiterzahl</b> ist in diesem Jahr auf 50 Entwickler gestiegen."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Unternehmenskultur, -en",
+    "german_audio": "die Unternehmenskultur",
+    "english": "corporate culture",
+    "ukrainian": "корпоративна культура",
+    "example": "Eine offene Feedback-Kultur **prägt unsere <b style=\"color: #eab308;\">Unternehmenskultur</b>**."
   },
   {
     "level": "B2",
@@ -6672,11 +6682,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Öffentlichkeitsarbeit (Sg.)",
-    "german_audio": "die Öffentlichkeitsarbeit",
-    "english": "public relations (PR)",
-    "ukrainian": "зв'язки з громадськістю, PR",
-    "example": "Die <b style=\"color: #eab308;\">Öffentlichkeitsarbeit</b> kümmert sich um unseren Tech-Blog."
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Unternehmensziel, -e",
+    "german_audio": "das Unternehmensziel",
+    "english": "company goal",
+    "ukrainian": "ціль компанії",
+    "example": "Das wichtigste <b style=\"color: #eab308;\">Unternehmensziel</b> **ist die Steigerung der Energieeffizienz**."
   },
   {
     "level": "B2",
@@ -6684,11 +6694,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Organigramm, -e",
-    "german_audio": "das Organigramm",
-    "english": "organizational chart",
-    "ukrainian": "організаційна схема (структура компанії)",
-    "example": "Das <b style=\"color: #eab308;\">Organigramm</b> zeigt, wer wem im Team berichtet."
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Wert, -e",
+    "german_audio": "der Wert",
+    "english": "value",
+    "ukrainian": "цінність",
+    "example": "Zu unseren wichtigsten <b style=\"color: #eab308;\">Werten</b> **gehören Ehrlichkeit und Transparenz**."
   },
   {
     "level": "B2",
@@ -6696,11 +6706,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Produktionsverfahren, -",
-    "german_audio": "das Produktionsverfahren",
-    "english": "production process",
-    "ukrainian": "виробничий процес",
-    "example": "Wir haben ein automatisiertes <b style=\"color: #eab308;\">Produktionsverfahren</b> für Code-Releases."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Arbeitssicherheit (Sg.)",
+    "german_audio": "die Arbeitssicherheit",
+    "english": "occupational safety",
+    "ukrainian": "безпека праці",
+    "example": "Die Fachkraft für <b style=\"color: #eab308;\">Arbeitssicherheit</b> **ist für die Einhaltung der Gesetze zuständig**."
   },
   {
     "level": "B2",
@@ -6708,11 +6718,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Qualitätssicherung (Sg.)",
-    "german_audio": "die Qualitätssicherung",
-    "english": "quality assurance (QA)",
-    "ukrainian": "забезпечення якості (QA)",
-    "example": "Die <b style=\"color: #eab308;\">Qualitätssicherung</b> testet die App vor dem Launch."
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Arbeitsunfall, \"-e",
+    "german_audio": "der Arbeitsunfall",
+    "english": "work accident",
+    "ukrainian": "нещасний випадок на виробництві",
+    "example": "Nach dem <b style=\"color: #eab308;\">Arbeitsunfall</b> **musste der Mitarbeiter ins Krankenhaus gebracht werden**."
   },
   {
     "level": "B2",
@@ -6720,11 +6730,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Rechtsabteilung, -en",
-    "german_audio": "die Rechtsabteilung",
-    "english": "legal department",
-    "ukrainian": "юридичний відділ",
-    "example": "Die <b style=\"color: #eab308;\">Rechtsabteilung</b> prüft die Software-Lizenzen."
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Brandschutz (Sg.)",
+    "german_audio": "der Brandschutz",
+    "english": "fire protection",
+    "ukrainian": "пожежна безпека",
+    "example": "Wir führen jährlich eine Schulung zum Thema <b style=\"color: #eab308;\">Brandschutz</b> durch."
   },
   {
     "level": "B2",
@@ -6732,11 +6742,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Spitze, -n",
-    "german_audio": "die Spitze",
-    "english": "top, peak",
-    "ukrainian": "верхівка, керівництво",
-    "example": "Er steht an der <b style=\"color: #eab308;\">Spitze</b> der IT-Abteilung."
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Erste-Hilfe-Kurs, -e",
+    "german_audio": "der Erste-Hilfe-Kurs",
+    "english": "first aid course",
+    "ukrainian": "курс першої медичної допомоги",
+    "example": "Die Teilnahme an einem <b style=\"color: #eab308;\">Erste-Hilfe-Kurs</b> **ist für alle Mitarbeiter Pflicht**."
   },
   {
     "level": "B2",
@@ -6744,11 +6754,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "an der Spitze von (+ Dat.)",
-    "german_audio": "an der Spitze von",
-    "english": "at the top of, heading",
-    "ukrainian": "на чолі",
-    "example": "An der Spitze von unserem Team steht ein erfahrener Scrum Master."
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Ersthelfer, - / die Ersthelferin, -nen",
+    "german_audio": "der Ersthelfer",
+    "english": "first aider",
+    "ukrainian": "особа, що надає першу допомогу",
+    "example": "Im Notfall **leisten die <b style=\"color: #eab308;\">Ersthelfer</b> im Betrieb erste Hilfe**."
   },
   {
     "level": "B2",
@@ -6756,11 +6766,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "untergeordnet",
-    "german_audio": "untergeordnet",
-    "english": "subordinate",
-    "ukrainian": "підлеглий",
-    "example": "Das QA-Team ist der Entwicklungsabteilung nicht <b style=\"color: #eab308;\">untergeordnet</b>."
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Fluchtweg, -e",
+    "german_audio": "der Fluchtweg",
+    "english": "escape route",
+    "ukrainian": "шлях евакуації",
+    "example": "Die <b style=\"color: #eab308;\">Fluchtwege</b> **müssen immer frei von Hindernissen gehalten werden**."
   },
   {
     "level": "B2",
@@ -6768,11 +6778,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "untergliedert",
-    "german_audio": "untergliedert",
-    "english": "subdivided",
-    "ukrainian": "підрозділений",
-    "example": "Das IT-Department ist in Frontend und Backend <b style=\"color: #eab308;\">untergliedert</b>."
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Gehörschutz (Sg.)",
+    "german_audio": "das Gehörschutz",
+    "english": "ear protection",
+    "ukrainian": "засоби захисту слуху",
+    "example": "Bei Arbeiten mit lauten Maschinen **ist das Tragen von <b style=\"color: #eab308;\">Gehörschutz</b> vorgeschrieben**."
   },
   {
     "level": "B2",
@@ -6780,11 +6790,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "unterteilt",
-    "german_audio": "unterteilt",
-    "english": "divided",
-    "ukrainian": "поділений",
-    "example": "Das Projekt ist in mehrere Sprints <b style=\"color: #eab308;\">unterteilt</b>."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Notrufnummer, -n",
+    "german_audio": "die Notrufnummer",
+    "english": "emergency number",
+    "ukrainian": "номер екстреного виклику",
+    "example": "Die <b style=\"color: #eab308;\">Notrufnummern</b> **müssen im Betrieb gut sichtbar aushängen**."
   },
   {
     "level": "B2",
@@ -6792,11 +6802,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Verkaufsförderung (Sg.)",
-    "german_audio": "die Verkaufsförderung",
-    "english": "sales promotion",
-    "ukrainian": "стимулювання збуту",
-    "example": "Die <b style=\"color: #eab308;\">Verkaufsförderung</b> plant Rabatte für unsere Software."
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Schutzhelm, -e",
+    "german_audio": "der Schutzhelm",
+    "english": "safety helmet",
+    "ukrainian": "захисна каска",
+    "example": "Auf der Baustelle **ist das Tragen eines <b style=\"color: #eab308;\">Schutzhelms</b> Pflicht**."
   },
   {
     "level": "B2",
@@ -6804,11 +6814,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Verwaltung, -en",
-    "german_audio": "die Verwaltung",
-    "english": "administration",
-    "ukrainian": "адміністрація, управління",
-    "example": "Die System-<b style=\"color: #eab308;\">Verwaltung</b> kümmert sich um die Server-Rechte."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Sicherheitsunterweisung, -en",
+    "german_audio": "die Sicherheitsunterweisung",
+    "english": "safety instruction/briefing",
+    "ukrainian": "інструктаж з техніки безпеки",
+    "example": "Neue Mitarbeiter **erhalten am ersten Tag eine <b style=\"color: #eab308;\">Sicherheitsunterweisung</b>**."
   },
   {
     "level": "B2",
@@ -6816,11 +6826,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "etw. zuordnen zu (+ Dat.) (ordnet zu, ordnete zu, hat zugeordnet)",
-    "german_audio": "zuordnen zu",
-    "english": "to assign to, to allocate to",
-    "ukrainian": "призначати, відносити, класифікувати",
-    "example": "Dieses Ticket müssen wir dem Backend-Team zuordnen."
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Sicherheitsbeauftragte, -n / die Sicherheitsbeauftragte, -n",
+    "german_audio": "der Sicherheitsbeauftragte",
+    "english": "safety officer",
+    "ukrainian": "уповноважений з техніки безпеки",
+    "example": "Der <b style=\"color: #eab308;\">Sicherheitsbeauftragte</b> **kontrolliert die Einhaltung der Schutzmaßnahmen**."
   },
   {
     "level": "B2",
@@ -6828,11 +6838,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Zuständigkeit, -en",
-    "german_audio": "die Zuständigkeit",
-    "english": "responsibility, competence",
-    "ukrainian": "компетенція, сфера відповідальності",
-    "example": "Das Deployment fällt in die <b style=\"color: #eab308;\">Zuständigkeit</b> der DevOps-Engineers."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Sicherheitsschuh, -e",
+    "german_audio": "die Sicherheitsschuh",
+    "english": "safety shoe",
+    "ukrainian": "захисне взуття",
+    "example": "<b style=\"color: #eab308;\">Sicherheitsschuhe</b> **schützen vor Verletzungen durch herabfallende Gegenstände**."
   },
   {
     "level": "B2",
@@ -6840,11 +6850,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Anrede, -n",
-    "german_audio": "die Anrede",
-    "english": "form of address",
-    "ukrainian": "звертання (на початку листа/розмови)",
-    "example": "In formellen E-Mails nutzen wir die <b style=\"color: #eab308;\">Anrede</b> \"Sehr geehrte Damen und Herren\"."
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Unfallbericht, -e",
+    "german_audio": "der Unfallbericht",
+    "english": "accident report",
+    "ukrainian": "звіт про нещасний випадок",
+    "example": "Der Sicherheitsbeauftragte **muss einen <b style=\"color: #eab308;\">Unfallbericht</b> erstellen**."
   },
   {
     "level": "B2",
@@ -6852,11 +6862,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "distanzlos",
-    "german_audio": "distanzlos",
-    "english": "overfamiliar, lack of distance",
-    "ukrainian": "без дотримання дистанції, фамільярний",
-    "example": "Es wirkt unprofessionell und <b style=\"color: #eab308;\">distanzlos</b>, wenn man den Kunden sofort duzt."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Verletzung, -en",
+    "german_audio": "die Verletzung",
+    "english": "injury",
+    "ukrainian": "травма, поранення",
+    "example": "Er hat sich bei der Arbeit eine schwere <b style=\"color: #eab308;\">Verletzung</b> zugezogen."
   },
   {
     "level": "B2",
@@ -6864,11 +6874,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Du (Sg.)",
-    "german_audio": "das Du",
-    "english": "informal \"you\"",
-    "ukrainian": "звертання на \"ти\"",
-    "example": "In vielen Tech-Firmen ist das \"Du\" der Standard."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Warnweste, -n",
+    "german_audio": "die Warnweste",
+    "english": "safety vest, high-visibility vest",
+    "ukrainian": "сигнальний жилет",
+    "example": "Beim Betreten des Lagers **ist das Tragen einer <b style=\"color: #eab308;\">Warnweste</b> Pflicht**."
   },
   {
     "level": "B2",
@@ -6876,11 +6886,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "sich duzen (duzt sich, duzte sich, hat sich geduzt)",
-    "german_audio": "sich duzen",
-    "english": "to be on first-name terms",
-    "ukrainian": "звертатися на \"ти\"",
-    "example": "In unserem Entwickler-Team <b style=\"color: #eab308;\">duzen</b> sich alle."
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Notausgang, \"-e",
+    "german_audio": "der Notausgang",
+    "english": "emergency exit",
+    "ukrainian": "аварійний вихід",
+    "example": "Die <b style=\"color: #eab308;\">Notausgänge</b> **sind grün gekennzeichnet und leicht zu öffnen**."
   },
   {
     "level": "B2",
@@ -6888,11 +6898,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Kompromiss, -e",
-    "german_audio": "der Kompromiss",
-    "english": "compromise",
-    "ukrainian": "компроміс",
-    "example": "Wir haben einen guten <b style=\"color: #eab308;\">Kompromiss</b> für das API-Design gefunden."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Augenspülflasche, -n",
+    "german_audio": "die Augenspülflasche",
+    "english": "eye wash bottle",
+    "ukrainian": "пляшка для промивання очей",
+    "example": "Die <b style=\"color: #eab308;\">Augenspülflaschen</b> befinden sich direkt neben der Gefahrenquelle."
   },
   {
     "level": "B2",
@@ -6900,11 +6910,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "einen Kompromiss finden",
-    "german_audio": "einen Kompromiss finden",
-    "english": "to find a compromise",
-    "ukrainian": "знайти компроміс",
-    "example": "Bei der Technologiewahl mussten wir einen Kompromiss <b style=\"color: #eab308;\">finden</b>."
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Defibrillator, -en",
+    "german_audio": "der Defibrillator",
+    "english": "defibrillator",
+    "ukrainian": "дефібрилятор",
+    "example": "Im Notfall **kann der <b style=\"color: #eab308;\">Defibrillator</b> Leben retten**."
   },
   {
     "level": "B2",
@@ -6912,11 +6922,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "etw./jdn. respektieren (respektiert, respektierte, hat respektiert)",
-    "german_audio": "etw.",
-    "english": "to respect",
-    "ukrainian": "поважати",
-    "example": "Im Code Review müssen wir die Arbeit der Kollegen respektieren."
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Sicherheitsdatenblatt, \"-er",
+    "german_audio": "das Sicherheitsdatenblatt",
+    "english": "safety data sheet",
+    "ukrainian": "паспорт безпеки речовини",
+    "example": "Die <b style=\"color: #eab308;\">Sicherheitsdatenblätter</b> der Chemikalien **liegen im Lager aus**."
   },
   {
     "level": "B2",
@@ -6924,11 +6934,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Sie (Sg.)",
-    "german_audio": "das Sie",
-    "english": "formal \"you\"",
-    "ukrainian": "звертання на \"Ви\"",
-    "example": "Bei offiziellen Behörden benutzt man immer das \"Sie\"."
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Verbandkasten, \"-",
+    "german_audio": "der Verbandkasten",
+    "english": "first aid kit",
+    "ukrainian": "аптечка першої допомоги",
+    "example": "Der <b style=\"color: #eab308;\">Verbandkasten</b> **muss regelmäßig auf Vollständigkeit überprüft werden**."
   },
   {
     "level": "B2",
@@ -6936,11 +6946,11 @@
       "B2"
     ],
     "thema": 1,
-    "german": "sich siezen (siezt sich, siezte sich, hat sich gesiezt)",
-    "german_audio": "sich siezen",
-    "english": "to be on formal terms",
-    "ukrainian": "звертатися на \"Ви\"",
-    "example": "Mit den Bankkunden müssen wir uns noch <b style=\"color: #eab308;\">siezen</b>."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Betriebssicherheitsverordnung, -en",
+    "german_audio": "die Betriebssicherheitsverordnung",
+    "english": "industrial safety regulation",
+    "ukrainian": "положення про безпеку на виробництві",
+    "example": "Wir arbeiten streng **nach den Richtlinien der <b style=\"color: #eab308;\">Betriebssicherheitsverordnung</b>**."
   },
   {
     "level": "B2",
@@ -6948,11 +6958,47 @@
       "B2"
     ],
     "thema": 1,
-    "german": "jdm. das Du anbieten (bietet an, bot an, hat angeboten)",
-    "german_audio": "jdm. das Du anbieten",
-    "english": "to offer to use \"du\" (first-name terms)",
-    "ukrainian": "запропонувати перейти на \"ти\"",
-    "example": "Der Chef hat mir nach der Probezeit das Du angeboten."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Gefährdungsbeurteilung, -en",
+    "german_audio": "die Gefährdungsbeurteilung",
+    "english": "risk assessment",
+    "ukrainian": "оцінка ризиків",
+    "example": "Der Arbeitgeber **muss für jeden Arbeitsplatz eine <b style=\"color: #eab308;\">Gefährdungsbeurteilung</b> erstellen**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 1,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Arbeitsmedizin (Sg.)",
+    "german_audio": "die Arbeitsmedizin",
+    "english": "occupational medicine",
+    "ukrainian": "гігієна праці, професійна медицина",
+    "example": "Die <b style=\"color: #eab308;\">Arbeitsmedizin</b> **bietet regelmäßige Vorsorgeuntersuchungen an**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 1,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> persönliche Schutzausrüstung (PSA)",
+    "german_audio": "die persönliche Schutzausrüstung",
+    "english": "personal protective equipment (PPE)",
+    "ukrainian": "засоби індивідуального захисту (ЗІЗ)",
+    "example": "Der Arbeitgeber stellt die persönliche <b style=\"color: #eab308;\">Schutzausrüstung</b> zur Verfügung."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 1,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Betriebsanweisung, -en",
+    "german_audio": "die Betriebsanweisung",
+    "english": "operating instruction",
+    "ukrainian": "інструкція з експлуатації / безпеки",
+    "example": "Die <b style=\"color: #eab308;\">Betriebsanweisung</b> **hängt direkt an der jeweiligen Maschine aus**."
   },
   {
     "level": "B2",
@@ -7656,18 +7702,6 @@
       "B2"
     ],
     "thema": 2,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Arbeitsschutz (Sg.)",
-    "german_audio": "der Arbeitsschutz",
-    "english": "occupational safety, health and safety",
-    "ukrainian": "охорона праці",
-    "example": "Die strengen Regeln zum <b style=\"color: #eab308;\">Arbeitsschutz</b> gelten auch im Serverraum."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 2,
     "german": "etw. befolgen (befolgt, befolgte, hat befolgt)",
     "german_audio": "befolgen",
     "english": "to follow, to obey",
@@ -7709,18 +7743,6 @@
     "english": "fire alarm, smoke detector",
     "ukrainian": "пожежний сповіщувач",
     "example": "Der <b style=\"color: #eab308;\">Brandmelder</b> im Rechenzentrum hat wegen Überhitzung Alarm geschlagen."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 2,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Brandschutz (Sg.)",
-    "german_audio": "der Brandschutz",
-    "english": "fire protection",
-    "ukrainian": "пожежна безпека",
-    "example": "Die neuen Server-Racks entsprechen den strengsten Vorgaben für den <b style=\"color: #eab308;\">Brandschutz</b>."
   },
   {
     "level": "B2",
@@ -7884,18 +7906,6 @@
       "B2"
     ],
     "thema": 2,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Notausgang, \"-e",
-    "german_audio": "der Notausgang",
-    "english": "emergency exit",
-    "ukrainian": "аварійний вихід",
-    "example": "Der <b style=\"color: #eab308;\">Notausgang</b> ist durch ein leuchtend grünes Schild markiert."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 2,
     "german": "quadratisch",
     "german_audio": "quadratisch",
     "english": "square",
@@ -7956,18 +7966,6 @@
       "B2"
     ],
     "thema": 2,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Schutzhelm, -e",
-    "german_audio": "der Schutzhelm",
-    "english": "safety helmet, hard hat",
-    "ukrainian": "захисний шолом, каска",
-    "example": "Auf der Baustelle für das neue Rechenzentrum ist ein <b style=\"color: #eab308;\">Schutzhelm</b> absolute Pflicht."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 2,
     "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Sicherheitshinweis, -e",
     "german_audio": "der Sicherheitshinweis",
     "english": "safety instruction/warning",
@@ -7985,18 +7983,6 @@
     "english": "safety shoe",
     "ukrainian": "захисне взуття",
     "example": "Techniker tragen im Data Center oft <b style=\"color: #eab308;\">Sicherheitsschuhe</b>, falls Hardware herunterfällt."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 2,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Sicherheitsvorschrift, -en",
-    "german_audio": "die Sicherheitsvorschrift",
-    "english": "safety regulation",
-    "ukrainian": "правило техніки безпеки",
-    "example": "Das Mitbringen von privaten USB-Sticks verstößt gegen unsere <b style=\"color: #eab308;\">Sicherheitsvorschriften</b>."
   },
   {
     "level": "B2",
@@ -9077,6 +9063,18 @@
     "english": "attachment, enclosure",
     "ukrainian": "додаток (до листа)",
     "example": "Mein detaillierter Lebenslauf befindet sich in der <b style=\"color: #eab308;\">Anlage</b> dieser E-Mail."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 3,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Anrede, -n",
+    "german_audio": "die Anrede",
+    "english": "salutation",
+    "ukrainian": "звертання (в листі)",
+    "example": "In der Bewerbung habe ich eine formelle <b style=\"color: #eab308;\">Anrede</b> benutzt."
   },
   {
     "level": "B2",
@@ -10224,18 +10222,6 @@
       "B2"
     ],
     "thema": 4,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Zuschuss, \"-e",
-    "german_audio": "der Zuschuss",
-    "english": "subsidy, grant, allowance",
-    "ukrainian": "доплата, субсидія, допомога",
-    "example": "Die Firma zahlt einen <b style=\"color: #eab308;\">Zuschuss</b> für das Ticket des ÖPNV."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 4,
     "german": "etw. antreten (z. B. eine Stelle) (tritt an, trat an, hat angetreten)",
     "german_audio": "antreten",
     "english": "to take up, to start (e.g., a job)",
@@ -10956,6 +10942,18 @@
       "B2"
     ],
     "thema": 4,
+    "german": "etw./jdn. respektieren (respektiert, respektierte, hat respektiert)",
+    "german_audio": "etw.",
+    "english": "to respect",
+    "ukrainian": "поважати",
+    "example": "Wir respektieren die verschiedenen Meinungen beim Code-Review."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 4,
     "german": "unangenehm",
     "german_audio": "unangenehm",
     "english": "unpleasant, uncomfortable",
@@ -11628,18 +11626,6 @@
       "B2"
     ],
     "thema": 5,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Auswirkung, -en",
-    "german_audio": "die Auswirkung",
-    "english": "effect, impact",
-    "ukrainian": "наслідок, вплив",
-    "example": "Die <b style=\"color: #eab308;\">Auswirkung</b> des Updates auf die Ladezeit der Seite ist sehr positiv."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 5,
     "german": "etw. beilegen (z. B. einen Streit) (legt bei, legte bei, hat beigelegt)",
     "german_audio": "beilegen",
     "english": "to settle (e.g. a dispute)",
@@ -11705,6 +11691,18 @@
     "english": "\"I\" message",
     "ukrainian": "\"я-повідомлення\"",
     "example": "Mit einer <b style=\"color: #eab308;\">Ich-Botschaft</b> (\"Ich habe Schwierigkeiten, den Code zu lesen\") kritisiert man konstruktiver."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 5,
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Kompromiss, -e",
+    "german_audio": "der Kompromiss",
+    "english": "compromise",
+    "ukrainian": "компроміс",
+    "example": "Wir haben einen technischen <b style=\"color: #eab308;\">Kompromiss</b> für das API-Design gefunden."
   },
   {
     "level": "B2",
@@ -13932,18 +13930,6 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Image (Sg.)",
-    "german_audio": "das Image",
-    "english": "image, reputation",
-    "ukrainian": "імідж, репутація",
-    "example": "Ein Datenleck würde das <b style=\"color: #eab308;\">Image</b> unserer IT-Firma zerstören."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 7,
     "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Kundenbewertung, -en",
     "german_audio": "die Kundenbewertung",
     "english": "customer review",
@@ -13980,18 +13966,6 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Nachhaltigkeit (Sg.)",
-    "german_audio": "die Nachhaltigkeit",
-    "english": "sustainability",
-    "ukrainian": "стійкість, екологічність",
-    "example": "<b style=\"color: #eab308;\">Nachhaltigkeit</b> in der IT (Green IT) wird immer wichtiger."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 7,
     "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Preis-Leistungs-Verhältnis, -se",
     "german_audio": "das Preis-Leistungs-Verhältnis",
     "english": "price-performance ratio",
@@ -14021,6 +13995,18 @@
     "english": "quality feature",
     "ukrainian": "ознака якості",
     "example": "Sauberer Code ist ein wichtiges <b style=\"color: #eab308;\">Qualitätsmerkmal</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 7,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Qualitätssicherung (Sg.)",
+    "german_audio": "die Qualitätssicherung",
+    "english": "quality assurance (QA)",
+    "ukrainian": "забезпечення якості",
+    "example": "Die <b style=\"color: #eab308;\">Qualitätssicherung</b> (QA) hat den Bug noch rechtzeitig gefunden."
   },
   {
     "level": "B2",
@@ -15317,30 +15303,6 @@
     "english": "to weigh up, to consider",
     "ukrainian": "зважувати, обмірковувати",
     "example": "Wir müssen die Vor- und Nachteile der neuen API <b style=\"color: #eab308;\">abwägen</b>."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Arbeitsbedingung, -en",
-    "german_audio": "die Arbeitsbedingung",
-    "english": "working condition",
-    "ukrainian": "умова праці",
-    "example": "Flexible <b style=\"color: #eab308;\">Arbeitsbedingungen</b> sind sehr wichtig für Entwickler."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 8,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Aspekt, -e",
-    "german_audio": "der Aspekt",
-    "english": "aspect",
-    "ukrainian": "аспект",
-    "example": "Datensicherheit ist ein wichtiger <b style=\"color: #eab308;\">Aspekt</b> beim Cloud-Computing."
   },
   {
     "level": "B2",
@@ -19493,18 +19455,6 @@
     "english": "comprehensible, understandable",
     "ukrainian": "зрозумілий, логічний",
     "example": "Dein Quellcode ist dank der guten Kommentare sehr leicht <b style=\"color: #eab308;\">nachvollziehbar</b>."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 11,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Schritt, -e",
-    "german_audio": "der Schritt",
-    "english": "step",
-    "ukrainian": "крок",
-    "example": "Der Wechsel zu Microservices war ein großer, aber wichtiger <b style=\"color: #eab308;\">Schritt</b> für uns."
   },
   {
     "level": "B2",
