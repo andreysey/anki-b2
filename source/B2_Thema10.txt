@@ -1,128 +1,227 @@
 #separator:;
 #html:true
 #columns:German;English;Ukrainian;Example
-das Anliegen, -;request, concern, matter;прохання, справа, питання;Was ist Ihr genaues Anliegen bezüglich der neuen Software?
-der Arbeitsspeicher, -;RAM, main memory;оперативна пам'ять (RAM);Der Server braucht dringend mehr Arbeitsspeicher für die Datenbank.
-etw. ausstatten (stattet aus, stattete aus, hat ausgestattet);to equip, to furnish;обладнувати, оснащувати;Wir müssen das neue Büro mit schnellem WLAN ausstatten.
-etw. ausstellen (stellt aus, stellte aus, hat ausgestellt);to exhibit, to display;виставляти (на виставці);Wir werden unser neues VR-Headset auf der Messe ausstellen.
-die Automobilausstellung, -en;motor show, car exhibition;автомобільна виставка;Auf der Automobilausstellung sieht man viel Software für autonomes Fahren.
-die Bildungsmesse, -n;education fair;освітня виставка;Das E-Learning-Startup präsentiert seine App auf der Bildungsmesse.
-die Buchmesse, -n;book fair;книжковий ярмарок;Auch auf der Buchmesse geht es heute viel um Digitalisierung und E-Books.
-die Einrichtungsmesse, -n;interior design fair, furniture fair;виставка інтер'єру / меблів;Unsere 3D-Planungssoftware war ein Hit auf der Einrichtungsmesse.
-die Fachmesse, -n;trade fair, specialized exhibition;спеціалізована виставка;Die CeBIT war früher die wichtigste IT-Fachmesse in Deutschland.
-die Fachveranstaltung, -en;professional event, symposium;фаховий захід;Ich halte einen Vortrag über Cloud-Security auf einer Fachveranstaltung.
-die Festplattengröße, -n;hard drive size/capacity;об'єм жорсткого диска;Die Festplattengröße der neuen Server reicht für unsere Big Data nicht aus.
-der Gesprächsinhalt, -e;content of conversation;зміст розмови;Wir müssen den Gesprächsinhalt des Meetings kurz im Protokoll festhalten.
-informativ;informative;інформативний;Die Präsentation über die neue Microservice-Architektur war sehr informativ.
-die Innovation, -en;innovation;інновація;Künstliche Intelligenz ist aktuell die wichtigste Innovation in der Tech-Branche.
-etw. konfigurieren (konfiguriert, konfigurierte, hat konfiguriert);to configure, to set up;налаштовувати, конфігурувати;Der DevOps-Engineer muss die Firewall des Netzwerks neu konfigurieren.
-leistungsfähig;powerful, efficient;потужний, продуктивний;Dieses Framework ist extrem leistungsfähig bei der Datenverarbeitung.
-leistungsstark;high-performance, powerful;високопродуктивний;Wir brauchen einen leistungsstarken Prozessor für das Rendering.
-die Messegesprächsnotiz, -en;trade fair discussion note;нотатка про розмову на виставці;Bitte trage die Kontaktdaten des Kunden in die Messegesprächsnotiz ein.
-die Messeteilnahme (Sg.);participation in a trade fair;участь у виставці;Die Messeteilnahme am Web Summit war ein großer Erfolg für unser Startup.
-mittelständisch;medium-sized;середній (про бізнес);Unsere Software richtet sich an mittelständische Unternehmen im B2B-Bereich.
-die Publikumsmesse, -n;public fair, consumer exhibition;виставка для широкої публіки;Die Gamescom ist eine riesige Publikumsmesse für Videospiele.
-die Tourismusbörse, -n;tourism exchange/fair;туристична біржа/виставка;Unsere Buchungs-API wird auf der großen Tourismusbörse in Berlin vorgestellt.
-der Umsatz, "-e;revenue, sales, turnover;оборот, виручка, обсяг продажів;Der Umsatz unseres E-Commerce-Shops hat sich dieses Jahr verdoppelt.
-variabel;variable, adjustable;змінний, варіативний;Die Kosten für Cloud-Hosting sind meistens variabel und hängen vom Traffic ab.
-etw. abrufen (ruft ab, rief ab, hat abgerufen);to fetch, to retrieve, to call up;робити запит, викликати, отримувати (дані);Die Frontend-App kann die aktuellen Wetterdaten über eine API abrufen.
-abwechslungsreich;varied, diverse;різноманітний;Der Job als Fullstack-Entwickler in einem Startup ist extrem abwechslungsreich.
-angeblich;allegedly, supposedly;нібито, ймовірно;Der Bug ist angeblich schon gefixt, aber bei mir stürzt die App immer noch ab.
-ansprechbar;responsive, approachable;доступний для спілкування, чуйний;Ein guter Teamlead ist bei Problemen immer für seine Entwickler ansprechbar.
-etw. auszeichnen (zeichnet aus, zeichnete aus, hat ausgezeichnet);to award, to distinguish;відзначати, нагороджувати;Unsere App wurde auf der Messe für das beste UX-Design ausgezeichnet.
-der Band, "-e;volume (book);том (книги);Das Handbuch für das alte System füllt einen ganzen Band.
-die Bedienbarkeit (Sg.);usability, operability;зручність використання, юзабіліті;Wir haben die Bedienbarkeit (Usability) des Admin-Dashboards stark verbessert.
-das Begleitprogramm, -e;supporting program;супровідна програма;Neben den Tech-Talks gibt es auf der Messe ein tolles Begleitprogramm (z.B. Hackathons).
-etw. behaupten (behauptet, behauptete, hat behauptet);to claim, to assert;стверджувати;Der Anbieter behauptet, dass sein System absolut sicher vor Hackern ist.
-dynamisch;dynamic;динамічний;Wir haben eine dynamische Webseite entwickelt, die sich an User-Präferenzen anpasst.
-etw. einbeziehen (bezieht ein, bezog ein, hat einbezogen);to include, to integrate;залучати, включати;Wir müssen das Feedback der Beta-Tester in das nächste Release einbeziehen.
-etw. einsetzen (setzt ein, setzte ein, hat eingesetzt);to deploy, to use, to employ;застосовувати, впроваджувати;Welche Technologien setzt ihr in eurem aktuellen Projekt ein?
-etw. erweitern (erweitert, erweiterte, hat erweitert);to expand, to extend;розширювати;Wir wollen die Funktionalität unserer API noch in diesem Quartal erweitern.
-das Experiment, -e;experiment;експеримент;Dieses A/B-Testing ist ein Experiment, um die Conversion Rate zu erhöhen.
-der Fachberater, - / die Fachberaterin, -nen;specialist consultant;фахівець-консультант, експерт;Unser IT-Fachberater hilft Kunden bei der Umstellung auf die Cloud.
-das Fachwissen (Sg.);expertise, expert knowledge;професійні знання, експертиза;Für diese Position wird tiefes Fachwissen im Bereich Cybersecurity erwartet.
-fundiert;profound, well-founded, sound;ґрунтовний, глибокий;Der Senior Developer hat sehr fundierte Kenntnisse in Softwarearchitektur.
-das Gerücht, -e;rumor;чутка;Es gibt das Gerücht, dass Apple bald eine neue VR-Brille vorstellt.
-individuell;individual, custom;індивідуальний, кастомний;Wir programmieren eine individuell angepasste Software-Lösung für den Kunden.
-die Jugendsozialarbeit (Sg.);youth social work;молодіжна соціальна робота;Es gibt eine App, die Organisationen in der Jugendsozialarbeit vernetzt.
-die Komponente, -n;component;компонент;Wir entwickeln das User-Interface mit wiederverwendbaren React-Komponenten.
-das Lehrwerk, -e;textbook, coursebook;підручник, навчальний посібник;Dies ist das beste Lehrwerk, um die Programmiersprache C++ zu lernen.
-die Lernhilfe, -n;study aid;навчальний посібник;Flashcard-Apps wie Anki sind eine großartige digitale Lernhilfe.
-die Lernplattform, -en;learning platform;навчальна платформа;Wir hosten unsere Coding-Kurse auf einer eigenen Lernplattform.
-die Messepräsentation, -en;trade fair presentation;презентація на виставці;Die Messepräsentation unseres neuen KI-Features lief perfekt.
-Multimedia-Inhalte (Pl.);multimedia content;мультимедійний контент;Die App muss große Mengen an Multimedia-Inhalten schnell laden können.
-die Neuerscheinung, -en;new release, new publication;новинка, нове видання;Diese Bibliothek ist eine Neuerscheinung auf GitHub und trendet gerade.
-sich orientieren an (+ Dat.) (orientiert sich, orientierte sich, hat sich orientiert);to orient oneself by, to follow;орієнтуватися на;Beim Design orientieren wir uns stark an den Material Design Guidelines von Google.
-die Schulform, -en;type of school;тип школи;Unsere Bildungs-Software ist für jede Schulform (Gymnasium, Realschule) geeignet.
-der Überblick, -e;overview;огляд, уявлення, загальна картина;Das Dashboard gibt dem Admin einen schnellen Überblick über die Server-Last.
-überwiegend;predominantly, mostly;переважно;Unser Entwickler-Team arbeitet überwiegend remote aus dem Homeoffice.
-sich verbessern (verbessert sich, verbesserte sich, hat sich verbessert);to improve;покращуватися, вдосконалюватися;Dank des Refactorings hat sich die Code-Qualität deutlich verbessert.
-der Verlag, -e;publisher;видавництво;Der IT-Verlag bringt ein neues Buch über Kubernetes heraus.
-der Vortrag, "-e;lecture, presentation, talk;доповідь, лекція;Ich habe auf der Konferenz einen interessanten Vortrag über DevOps gehört.
-das Wissen (Sg.);knowledge;знання;Das Wissen im IT-Bereich veraltet extrem schnell, man muss ständig lernen.
-der Workshop, -s;workshop;воркшоп, майстер-клас;Wir machen am Freitag einen internen Workshop zum Thema Clean Code.
-die Anforderung, -en;requirement, demand;вимога;Die technischen Anforderungen an dieses Projekt sind sehr hoch.
-die Arbeitsbelastung (Sg.);workload;робоче навантаження;Die Arbeitsbelastung ist in der Woche vor dem Release oft enorm.
-die Beschreibung, -en;description;опис;Bitte füge dem Pull Request eine kurze Beschreibung deiner Änderungen hinzu.
-der Bildungsbereich, -e;education sector;сфера освіти;EdTech-Startups bringen Innovationen in den klassischen Bildungsbereich.
-die Digitalisierung (Sg.);digitalization;цифровізація;Die Digitalisierung von analogen Prozessen spart Unternehmen viel Zeit und Geld.
-etw. erfüllen (z. B. Anforderungen) (erfüllt, erfüllte, hat erfüllt);to meet, to fulfill (e.g. requirements);виконувати, задовольняти (напр., вимоги);Diese Software-Lösung erfüllt alle Anforderungen des Kunden.
-die Geschäftsidee, -n;business idea;бізнес-ідея;Er hat eine geniale Geschäftsidee für eine neue Social-Media-App.
-gut tun (tut gut, tat gut, hat gutgetan);to do good, to be beneficial;робити добро, йти на користь;Ein paar Tage Urlaub ohne Laptop werden dir nach diesem Projekt gut tun.
-etw. investieren (investiert, investierte, hat investiert);to invest;інвестувати, вкладати;Die Firma will eine Million Euro in die Entwicklung der neuen Plattform investieren.
-die Revolution, -en;revolution;революція;ChatGPT hat eine echte Revolution in der Softwareentwicklung ausgelöst.
-die Weisung, -en;instruction, directive;вказівка, інструкція;Der Entwickler arbeitete auf direkte Weisung des CTO an diesem Feature.
-die Anwendung, -en;application;застосунок, додаток (IT);Die mobile Anwendung wurde nativ in Swift für iOS programmiert.
-ausgeprägt;distinct, pronounced, strong;виражений, характерний, сильний;Er hat ein stark ausgeprägtes logisches Denken – perfekt fürs Programmieren.
-das Bankdarlehen, -;bank loan;банківська позика;Das Startup musste ein Bankdarlehen aufnehmen, um die neuen Server zu bezahlen.
-das Bedürfnis, -se;need, requirement;потреба;Unsere Software ist exakt auf die Bedürfnisse der Logistik-Branche zugeschnitten.
-Bedürfnisse erfüllen;to fulfill needs;задовольняти потреби;Eine gute App muss die Bedürfnisse der User schnell und einfach erfüllen.
-benutzerfreundlich;user-friendly;зручний для користувача, зрозумілий;Das neue Interface ist deutlich benutzerfreundlicher als die alte Version.
-der Bildungsverlag, -e;educational publisher;навчальне видавництво;Der Bildungsverlag digitalisiert seine Lerninhalte für die neue Schul-Cloud.
-die Branchenkenntnis, -se;industry knowledge;знання галузі;Für den Job als IT-Berater ist tiefe Branchenkenntnis im Finanzsektor wichtig.
-der Businessplan, "-e;business plan;бізнес-план;Im Businessplan für unser Tech-Startup ist auch das Budget für AWS kalkuliert.
-das Darlehen, -;loan;позика, кредит;Wir zahlen das Darlehen für das neue Büro in monatlichen Raten zurück.
-das Eigenkapital (Sg.);equity, own capital;власний капітал;Die Gründer haben viel Eigenkapital in die Software-Firma gesteckt.
-erfolgsversprechend;promising;багатообіцяючий, перспективний;Die neue KI-Technologie sieht sehr erfolgsversprechend aus.
-der Finanzplan, "-e;financial plan;фінансовий план;Der CFO (Finanzchef) hat den Finanzplan für das nächste Jahr vorgestellt.
-die Fixkosten (Pl.);fixed costs;постійні витрати;Server-Miete und Gehälter gehören zu den monatlichen Fixkosten der IT-Firma.
-geschäftsführend;managing, executive;керуючий;Als geschäftsführender Gesellschafter leitet er das Startup.
-das Geschäftsprofil, -e;business profile;бізнес-профіль;Unser Geschäftsprofil auf LinkedIn zieht viele Recruiter an.
-der Gesellschafter, - / die Gesellschafterin, -nen;partner, shareholder;засновник, партнер, акціонер;Die Gesellschafter haben entschieden, den Code als Open Source freizugeben.
-die GmbH, -s;LLC (Limited Liability Company);ТОВ (товариство з обмеженою відповідальністю);Unser IT-Startup wurde letztes Jahr offiziell als GmbH in Berlin registriert.
-die Investitionskosten (Pl.);investment costs;інвестиційні витрати;Die Investitionskosten für den Aufbau eines eigenen Rechenzentrums sind gigantisch.
-etw. integrieren (integriert, integrierte, hat integriert);to integrate;інтегрувати, впроваджувати;Wir wollen den Payment-Provider Stripe in unseren Shop integrieren.
-das Know-how (Sg.);know-how, expertise;ноу-хау, практичні знання;Wir suchen jemanden mit tiefem Know-how im Bereich Cloud-Architektur.
-kompetent;competent, capable;компетентний;Unser Support-Team ist sehr kompetent und löst Tickets in Rekordzeit.
-das Konkurrenzunternehmen, -;competing company;компанія-конкурент;Das Konkurrenzunternehmen hat leider ein ähnliches Feature vor uns gelauncht.
-die Kredithöhe, -n;loan amount;сума кредиту;Die Kredithöhe reicht genau für die Entwicklung des Prototyps (MVP).
-die Laufzeit, -en;runtime, duration, term;час виконання (IT), термін дії (контракту);Die Laufzeit (Runtime) dieses Algorithmus muss dringend optimiert werden.
-die Ratenzahlung, -en;installment payment;оплата частинами;Für teure Software-Lizenzen bieten wir Kunden auch Ratenzahlung an.
-etw. realisieren (realisiert, realisierte, hat realisiert);to realize, to implement;реалізувати, впроваджувати;Wir wollen dieses komplexe Feature noch im aktuellen Sprint realisieren.
-die Rechtsform, -en;legal form;правова форма (підприємства);Die GmbH ist die beliebteste Rechtsform für IT-Startups in Deutschland.
-die Schufa-Auskunft, "-e;credit report (Schufa);кредитна історія (Schufa в Німеччині);Der Vermieter des neuen IT-Büros verlangt eine positive Schufa-Auskunft.
-das Sprachtraining, -s;language training;мовний тренінг;Die Firma bezahlt mir ein Deutsch-Sprachtraining (B2) für den Job.
-der Support, -s;support;підтримка, сапорт (IT);Wenn die App abstürzt, musst du ein Ticket beim Support eröffnen.
-die Tilgung, -en;repayment, amortization;погашення (боргу/кредиту);Die monatliche Tilgung für den Bankkredit ist im Businessplan vermerkt.
-umfassend;comprehensive, extensive;комплексний, всеосяжний;Dieses Framework bietet eine umfassende Lösung für das Frontend-Routing.
-die Umsetzung, -en;implementation, execution;реалізація, впровадження;Die Umsetzung des Designs in echten Code dauert etwa zwei Wochen.
-sich verschärfen (verschärft sich, verschärfte sich, hat sich verschärft);to intensify, to worsen;загострюватися;Der Fachkräftemangel in der IT-Branche wird sich in Zukunft noch verschärfen.
-vielfältig;diverse, varied;різноманітний;Die Aufgaben in einem agilen Entwicklungsteam sind sehr vielfältig.
-der Wettbewerb (Sg.);competition;конкуренція;Im Cloud-Markt gibt es einen harten Wettbewerb zwischen AWS, Azure und Google.
-die Zielgruppe, -n;target audience/group;цільова аудиторія;Unsere Haupt-Zielgruppe sind junge Unternehmen, die ihre IT modernisieren wollen.
-belanglos;irrelevant, trivial;незначний, неважливий;Beim Small Talk in der Kaffeepause reden wir oft über belanglose Dinge.
-Beziehungen pflegen (pflegt, pflegte, hat gepflegt);to cultivate relationships;підтримувати стосунки;Auf Konferenzen ist es wichtig, berufliche Beziehungen zu pflegen (Networking).
-der Einstieg (Sg.);entry, start;вступ, початок, старт;Ein kurzes Gespräch über das Wetter ist ein klassischer Einstieg beim Small Talk.
-der Eisbrecher (Sg.);icebreaker;криголам (тема для початку розмови);Ein Witz über fehlerhaften Code ist ein guter Eisbrecher unter Entwicklern.
-geeignet sein für (+ Akk.);to be suitable for;бути придатним для;Politik ist kein geeignetes Thema für Small Talk im Büro.
-(miteinander) ins Gespräch kommen (kommt, kam, ist gekommen);to strike up a conversation;розговоритися, зав'язати розмову;Beim Hackathon kommt man schnell mit anderen Codern ins Gespräch.
-Kontakte knüpfen (knüpft, knüpfte, hat geknüpft);to establish contacts, to network;встановлювати контакти (нетворкінг);Ein Meetup ist der perfekte Ort, um neue Kontakte in der Tech-Szene zu knüpfen.
-oberflächlich;superficial;поверхневий;Small Talk ist meistens oberflächlich und geht nicht tief ins Detail.
-offene Fragen;open questions;відкриті питання;Stellen Sie offene Fragen, um das Gespräch auf der Messe am Laufen zu halten.
-plaudern (plaudert, plauderte, hat geplaudert);to chat;базікати, спілкуватися;Die Entwickler plaudern im Slack-Kanal über neue Features in React.
-das Plaudern (Sg.);chatting;балаканина;Langes Plaudern im Daily Standup ist nicht erlaubt, wir müssen effizient sein.
-das Tabuthema, -themen;taboo subject;тема-табу, заборонена тема;Gehalt ist in vielen deutschen Unternehmen leider immer noch ein Tabuthema.
-das Umfeld (Sg.);environment;середовище, оточення;Ein motivierendes Umfeld ist extrem wichtig für kreative Softwareentwicklung.
-etw. vermeiden (vermeidet, vermied, hat vermieden);to avoid;уникати;Wir sollten kontroverse Themen beim Mittagessen mit Kunden vermeiden.
-etw. vertiefen (vertieft, vertiefte, hat vertieft);to deepen;поглиблювати;Wenn das Gespräch gut läuft, kann man das technische Thema weiter vertiefen.
-zwanglos;casual, informal, relaxed;невимушений, розслаблений;Nach dem Release gab es ein zwangloses Pizza-Essen mit dem ganzen Team.
+das Anliegen, -;request, concern, matter;прохання, справа, питання;Wir müssen uns um das Anliegen des Betriebsrats **bezüglich der Arbeitsbedingungen kümmern**.
+der Arbeitsspeicher, -;RAM, main memory;оперативна пам'ять (RAM);Der Techniker **war mit der Erweiterung des Arbeitsspeichers der Server beschäftigt**.
+etw. ausstatten (stattet aus, stattete aus, hat ausgestattet);to equip, to furnish;обладнувати, оснащувати;Wir müssen alle Arbeitsplätze **mit einer ergonomischen Ausstattung ausstatten**.
+etw. ausstellen (stellt aus, stellte aus, hat ausgestellt);to exhibit, to display;виставляти (на виставці);Unser Unternehmen wird auf der Messe **neue umweltfreundliche Exponate ausstellen**.
+die Automobilausstellung, -en;motor show, car exhibition;автомобільна виставка;Auf der Automobilausstellung **standen innovative Fahrzeugmodelle im Vordergrund**.
+die Bildungsmesse, -n;education fair;освітня виставка;Die Bildungsmesse **bietet Berufseinsteigern eine hervorragende Orientierung auf dem Markt**.
+die Buchmesse, -n;book fair;книжковий ярмарок;Der Verlag **präsentiert seine neuesten Neuerscheinungen auf der Buchmesse**.
+die Einrichtungsmesse, -n;interior design fair, furniture fair;виставка інтер'єру / меблів;Die Einrichtungsmesse **verzeichnete in diesem Jahr eine sehr hohe Beteiligung**.
+die Fachmesse, -n;trade fair, specialized exhibition;спеціалізована виставка;Die Fachmesse **bietet gute Chancen für Neukundengewinnung und Netzwerkpflege**.
+die Fachveranstaltung, -en;professional event, symposium;фаховий захід;Ich freue mich auf die Teilnahme an der **Fachveranstaltung zum Thema Gewässerschutz**.
+die Festplattengröße, -n;hard drive size/capacity;об'єм жорсткого диска;<b>Ich bitte Sie, uns die technischen Daten bezüglich</b> der Festplattengröße **zuzuschicken**.
+der Gesprächsinhalt, -e;content of conversation;зміст розмови;Wir müssen den Gesprächsinhalt des Vorstellungsgesprächs **im Protokoll festhalten**.
+informativ;informative;інформативний;Die Infoveranstaltung über die Umschulungsmaßnahmen **war äußerst informativ**.
+die Innovation, -en;innovation;інновація;Innovative Technologien **leisten einen wichtigen Beitrag zur Energieeinsparung**.
+etw. konfigurieren (konfiguriert, konfigurierte, hat konfiguriert);to configure, to set up;налаштовувати, конфігурувати;Der IT-Spezialist muss den neuen Cloud-Server **sorgfältig konfigurieren**.
+leistungsfähig;powerful, efficient;потужний, продуктивний;Eine leistungsfähige Energieversorgung **ist Voraussetzung für den reibungslosen Betrieb**.
+leistungsstark;high-performance, powerful;високопродуктивний;Wir haben uns für die Anschaffung **eines leistungsstarken Notstromaggregats entschieden**.
+die Messegesprächsnotiz, -en;trade fair discussion note;нотатка про розмову на виставці;Bitte tragen Sie die Kundenwünsche **sorgfältig in die Messegesprächsnotiz ein**.
+die Messeteilnahme (Sg.);participation in a trade fair;участь у виставці;Unsere Messeteilnahme **hat das Image des Unternehmens in der Öffentlichkeit verbessert**.
+mittelständisch;medium-sized;середній (про бізнес);Mittelständische Betriebe **leiden oft stark unter hohen bürokratischen Hürden**.
+die Publikumsmesse, -n;public fair, consumer exhibition;виставка для широкої публіки;Die Publikumsmesse **bietet dem Handwerksunternehmen einen direkten Kundenkontakt**.
+die Tourismusbörse, -n;tourism exchange/fair;туристична біржа/виставка;Die Tourismusbörse **dient als wichtige Plattform zur Markterschließung**.
+der Umsatz, "-e;revenue, sales, turnover;оборот, виручка, обсяг продажів;<b>Aus der Grafik geht hervor, dass sich der Umsatz verdoppelt hat</b>.
+variabel;variable, adjustable;змінний, варіативний;Die Arbeitszeiten in unserem Betrieb **sind sehr variabel gestaltet**.
+etw. abrufen (ruft ab, rief ab, hat abgerufen);to fetch, to retrieve, to call up;робити запит, викликати, отримувати (дані);Die Mitarbeiter können ihre Gehaltsabrechnungen **direkt im Portal abrufen**.
+abwechlungsreich;varied, diverse;різноманітний;Die Ausbildung zum Kältetechniker **gestaltet sich äußerst abwechslungsreich**.
+angeblich;allegedly, supposedly;нібито, ймовірно;Die Mängel wurden angeblich behoben, **dennoch fordern wir eine Nachbesserung**.
+ansprechbar;responsive, approachable;доступний для спілкування, чуйний;Der Mentor **steht den Auszubildenden bei Fragen immer als ansprechbarer Partner zur Verfügung**.
+etw. auszeichnen (zeichnet aus, zeichnete aus, hat ausgezeichnet);to award, to distinguish;відзначати, нагороджувати;Das System wurde für seine hohe Zuverlässigkeit **mit einem Zertifikat ausgezeichnet**.
+der Band, "-e;volume (book);том (книги);Die Gesetzessammlung **umfasst einen dicken Band aller arbeitsrechtlichen Vorschriften**.
+die Bedienbarkeit (Sg.);usability, operability;зручність використання, юзабіліті;Die einfache Bedienbarkeit **ist ein wichtiges Qualitätsmerkmal der Kältemaschine**.
+das Begleitprogramm, -e;supporting program;супровідна програма;Das Begleitprogramm der Messe **beinhaltet Vorträge über die Nachhaltigkeit**.
+etw. behaupten (behauptet, behauptete, hat behauptet);to claim, to assert;стверджувати;Der Mitbewerber behauptet, **sich als Marktführer etablieren zu können**.
+dynamisch;dynamic;динамічний;Der IT-Sektor gilt als ein **sehr dynamischer Wirtschaftszweig**.
+etw. einbeziehen (bezieht ein, bezog ein, hat einbezogen);to include, to integrate;залучати, включати;Wir müssen die Schwerbehindertenvertretung **in den Einarbeitungsplan einbeziehen**.
+etw. einsetzen (setzt ein, setzte ein, hat eingesetzt);to deploy, to use, to employ;застосовувати, впроваджувати;Wir wollen diese umweltfreundlichen Maßnahmen **im gesamten Werk einsetzen**.
+etw. erweitern (erweitert, erweiterte, hat erweitert);to expand, to extend;розширювати;Wir müssen unsere Produktpalette erweitern, um **wettbewerbsfähig zu bleiben**.
+das Experiment, -e;experiment;експеримент;Die Gefahrenanalyse **beinhaltet auch Experimente zur Knallgasentwicklung**.
+der Fachberater, - / die Fachberaterin, -nen;specialist consultant;фахівець-консультант, експерт;Der Fachberater **erteilt den Kunden detaillierte Auskünfte über das Produkt**.
+das Fachwissen (Sg.);expertise, expert knowledge;професійні знання, експертиза;Für die Übernahme einer Führungsposition **wird tiefes Fachwissen verlangt**.
+fundiert;profound, well-founded, sound;ґрунтовний, глибокий;Sie verfügt über **eine fundierte Praxis- und Berufserfahrung im Einzelhandel**.
+das Gerücht, -e;rumor;чутка;Es gibt das Gerücht, dass **dem Betrieb eine existenzbedrohende Insolvenz droht**.
+individuell;individual, custom;індивідуальний, кастомний;Die HR-Abteilung **erstellt für den Mitarbeiter einen individuell angepassten Einarbeitungsplan**.
+die Jugendsozialarbeit (Sg.);youth social work;молодіжна соціальна робота;Das Jobcenter **unterstützt Projekte der Jugendsozialarbeit finanziell**.
+die Komponente, -n;component;компонент;Die Qualitätssicherung **prüft alle Komponenten auf funktionale Korrektheit**.
+das Lehrwerk, -e;textbook, coursebook;підручник, навчальний посібник;Das neue Lehrwerk **beinhaltet alle Themen der anstehenden IHK-Prüfung**.
+die Lernhilfe, -n;study aid;навчальний посібник;Die Lernplattform **bietet den Schülern eine nützliche digitale Lernhilfe**.
+die Lernplattform, -en;learning platform;навчальна платформа;Das E-Learning-Modul **steht den Beschäftigten auf der Lernplattform zur Verfügung**.
+die Messepräsentation, -en;trade fair presentation;презентація на виставці;Die Messepräsentation **hat großes Interesse bei potenziellen Kunden geweckt**.
+Multimedia-Inhalte (Pl.);multimedia content;мультимедійний контент;Die Lernplattform **bietet eine Vielzahl an interaktiven Multimedia-Inhalten**.
+die Neuerscheinung, -en;new release, new publication;новинка, нове видання;Wir präsentieren unsere neuesten **technischen Neuerscheinungen auf der Messe**.
+sich orientieren an (+ Dat.) (orientiert sich, orientierte sich, hat sich orientiert);to orient oneself by, to follow;орієнтуватися на;Wir müssen uns **an den rechtlichen Vorgaben des Arbeitsschutzes orientieren**.
+die Schulform, -en;type of school;тип школи;Der Bildungsweg **hängt in Deutschland stark von der gewählten Schulform ab**.
+der Überblick, -e;overview;огляд, уявлення, загальна картина;Das Handbuch **bietet einen schnellen Überblick über die Kündigungsregelungen**.
+überwiegend;predominantly, mostly;переважно;Unsere Belegschaft **arbeitet überwiegend im Homeoffice**.
+sich verbessern (verbessert sich, verbesserte sich, hat sich verbessert);to improve;покращуватися, вдосконалюватися;Dank des Feedbacks **hat sich die Qualität unserer Arbeit spürbar verbessert**.
+der Verlag, -e;publisher;видавництво;Der Verlag **ist für die Veröffentlichung der neuen Brandschutzordnung zuständig**.
+die Weiterbildungsmaßnahme, -n;further training measure;захід з підвищення кваліфікації;Die Teilnahme an der Weiterbildungsmaßnahme **wird im Zertifikat bestätigt**.
+wünschenswert;desirable;бажаний;Gute Kenntnisse in Excel **sind für diese kaufmännische Stelle wünschenswert**.
+das Zitat, -e;quotation, quote;цитата;Der Gesetzestext **beinhaltet ein Zitat aus der entsprechenden EU-Richtlinie**.
+die Zulassung, -en;admission, licensing, approval;дозвіл, допуск (напр., до іспиту або експлуатації);Die ordnungsgemäße Führung des Berichtshefts **ist Voraussetzung für die Zulassung**.
+die Zusammenfassung, -en;summary;резюме, короткий зміст;Der Bericht **beinhaltet eine kurze Zusammenfassung der Versuchsergebnisse**.
+die Anschaffungskosten (Pl.);acquisition costs;витрати на придбання;Die Anschaffungskosten **können im Rahmen der Steuererklärung abgesetzt werden**.
+etw. beanspruchen (beansprucht, beanspruchte, hat beansprucht);to claim, to demand;вимагати, потребувати;Die Einarbeitung der Vertretungskraft **wird einige Zeit beanspruchen**.
+die Berufsgenossenschaft (BG), -en;employers' liability insurance association;галузеве страхування;Die BG **entscheidet über die Gewährleistung von Renten nach Arbeitsunfällen**.
+der Dauerbetrieb (Sg.);continuous operation;безперервний режим роботи;Die Sensoren **sind für den dauerhaften Dauerbetrieb im Werk ausgelegt**.
+die Einsparung, -en;saving;економія;Die Modernisierung der Beleuchtung **führte zu einer spürbaren Stromeinsparung**.
+die E-Mail-Adresse, -n;email address;адреса електронної пошти;Bitte senden Sie Ihre Bewerbungsverlagen **an die angegebene E-Mail-Adresse**.
+die Energieeinsparung, -en;energy saving;енергозбереження;Die Verbesserung der Energieeffizienz **trägt maßgeblich zur Energieeinsparung bei**.
+die Ergonomie (Sg.);ergonomics;ергономіка;Die Ergonomie am Arbeitsplatz **wird vom Betriebsarzt beurteilt**.
+die Gasleitung, -en;gas pipe/pipeline;газопровід;Die Wartung der Gasleitung **wird streng nach den Vorschriften durchgeführt**.
+die Kälteleistung, -en;cooling capacity;потужність охолодження;Die Kälteleistung des Systems **muss für die gesamte Messehalle ausreichen**.
+die Lärmminderung (Sg.);noise reduction;зниження шуму;<b>Wir haben uns zum Ziel gesetzt, die Lärmminderung im Werk voranzutreiben</b>.
+die Lärmschutzmaßnahme, -n;noise protection measure;заходи захисту від шуму;Der Arbeitssicherheitsausschuss **beschließt neue Lärmschutzmaßnahmen**.
+die Luftleitung, -en;air duct/pipe;повітропровід;Die Luftleitung der Klimaanlage **muss regelmäßig desinfiziert werden**.
+das Qualitätssicherungs-Zertifikat, -e;quality assurance certificate;сертифікат забезпечення якості;Das Qualitätssicherungs-Zertifikat **bestätigt die Korrektheit unserer Prozesse**.
+der Stromverbrauch (Sg.);electricity consumption;споживання електроенергії;Wir müssen den Stromverbrauch senken, **um die Umweltauflagen einzuhalten**.
+die Umweltentlastung (Sg.);environmental relief / reducing environmental impact;зниження навантаження на довкілля;Die Nutzung von Ökostrom **leistet einen Beitrag zur Umweltentlastung**.
+die Umweltrichtlinie, -n;environmental directive/guideline;екологічна директива;Die Einhaltung der Umweltrichtlinien **wird beim Öko-Audit streng kontrolliert**.
+der Wasserverbrauch (Sg.);water consumption;споживання води;Der Wasserverbrauch **wird wöchentlich über das Zeiterfassungssystem dokumentiert**.
+die Zusatzausstattung, -en;additional equipment / optional extras;додаткове обладнання (оснащення);Die Kältemaschine **wurde mit einer speziellen Zusatzausstattung geliefert**.
+die Zusatzkosten (Pl.);additional costs;додаткові витрати;Für die Entsorgung des Sondermülls **können hohe Zusatzkosten anfallen**.
+die Abschreibung, -en;depreciation, amortization;амортизація, зношення;Die Abschreibung der Neuanschaffungen **wirkt sich mindernd auf die Steuerlast aus**.
+das Anlagevermögen (Sg.);fixed assets;основні засоби (активи підприємства);Die Hebebühne und der Fuhrpark **gehören zum Anlagevermögen der GmbH**.
+das Betriebsergebnis, -se;operating result / profit;виробничий результат (прибуток від основної діяльності);Das positive Betriebsergebnis **ist auf die gestiegene Kundenzufriedenheit zurückzuführen**.
+das Umlaufvermögen (Sg.);current assets;оборотні активи;Der Lagerbestand an Rohstoffen **wird im Umlaufvermögen bilanziert**.
+die Wertminderung, -en;depreciation, reduction in value;знецінення, зменшення вартості;Der Transportschaden **verursachte eine erhebliche Wertminderung der Ware**.
+der Buchwert, -e;book value;балансова вартість;Der Buchwert der Maschinen **wird jährlich in der Bilanz angepasst**.
+die Anschaffungswert, -e;acquisition value;первісна вартість (придбання);Der Anschaffungswert **ist die Grundlage für die steuerliche Abschreibung**.
+der Abschreibungssatz, "-e;depreciation rate;норма амортизації;Der Abschreibungssatz **wird durch die gesetzliche Nutzungsdauer bestimmt**.
+die Nutzungsdauer (Sg.);useful life / service life;термін корисного використання;Die Nutzungsdauer der Server **ist laut Abschreibungstabelle auf drei Jahre festgelegt**.
+die Abschreibungstabelle, -n;depreciation table (AfA-Tabelle in Germany);таблиця амортизації (AfA);Die amtliche Abschreibungstabelle **gibt Auskunft über die Abschreibungssätze**.
+die linear Abschreibung;linear depreciation / straight-line depreciation;лінійна амортизація;Die lineare Abschreibung **führt zu gleichbleibenden jährlichen Belastungen**.
+die degressiv Abschreibung;degressive depreciation / declining-balance depreciation;дегресивна амортизація;Die degressive Abschreibung **wurde durch eine Gesetzesreform wieder zugelassen**.
+die Sonderabschreibung, -en;special depreciation;спеціальна (прискорена) амортизація;Für Investitionen in Solaranlagen **kann eine Sonderabschreibung beansprucht werden**.
+die Steuerersparnis, -se;tax saving;економія на податках;Die Steuerersparnis **erhöht die Liquidität unseres Handwerksunternehmens**.
+die Steuerrecht (Sg.);tax law;податкове право;Das Steuerrecht **verlangt das lückenlose Aufbewahren aller Buchungsbelege**.
+die Steuerberaterkammer, -n;chamber of tax advisors;палата податкових консультантів;Die Steuerberaterkammer **überwacht die Eignung der Prüfungsbewerber**.
+die Wirtschaftsprüferkammer, -n;chamber of public auditors;палата аудиторів;Die Wirtschaftsprüferkammer **ist für die Zulassung zur Kammerprüfung zuständig**.
+die Bundessteuerberaterkammer (BStBK) (Sg.);Federal Chamber of Tax Advisors;Федеральна палата податкових консультантів (BStBK);Die BStBK **vertritt die Interessen der Steuerberater auf Bundesebene**.
+die Wirtschaftsprüfungsgesellschaft, -en;auditing firm;аудиторська компанія;Die Wirtschaftsprüfungsgesellschaft **führt die Betriebsprüfung im Konzern durch**.
+die Steuerprüfer, - / die Steuerprüferin, -nen;tax auditor;податковий інспектор (аудитор);Der Steuerprüfer **forderte die Vorlage der Umsatzsteuervoranmeldungen**.
+die Steuerprüfung, -en;tax audit;податкова перевірка;Die Steuerprüfung **verlief ohne nennenswerte Beanstandungen durch das Amt**.
+die Steuerhinterziehungsbekämpfungsgrundsatz (Sg.);principle of combating tax evasion;принцип боротьби з ухиленням від сплати податків;Цей закон **dient dem Steuerhinterziehungsbekämpfungsgrundsatz в ЄС**.
+die Steuerordnungswidrigkeit, -en;tax administrative offense;податкове правопорушення (адміністративне);Eine verspätete Abgabe der Steuererklärung **stellt eine Steuerordnungswidrigkeit dar**.
+die Steuerstraftat, -en;tax offense (criminal);податковий злочин;Steuerhinterziehung **wird als schwere Steuerstraftat gerichtlich verfolgt**.
+die Steuerstrafverfahren, -;tax criminal proceedings;кримінальне провадження у податкових справах;Das Steuerstrafverfahren **kann durch eine Selbstanzeige abgewendet werden**.
+die Selbstanzeige, -n;voluntary disclosure (to tax authorities);добровільне зізнання (явка з повинною в податкову);Eine wirksame Selbstanzeige **garantiert Straffreiheit bei Steuerhinterziehung**.
+die Nacherklärung, -en;subsequent declaration;додаткове декларування (виправлення помилок у декларації);Die Nacherklärung der Einnahmen **muss vollständig und fehlerfrei erfolgen**.
+die Steuerschuld, -en;tax liability / debt;податковий борг;Die Steuerschuld **muss bis zum Fälligkeitstag an das Finanzamt überwiesen werden**.
+die Steuerschuldner, - / die Steuerschuldnerin, -nen;tax debtor;платник податку (боржник);Der Steuerschuldner **kann eine Stundung der Steuerschuld beantragen**.
+die Steuergläubiger, -;tax creditor (e.g., state or municipality);отримувач податку (держава/громада);Das Finanzamt tritt als Steuergläubiger **im Insolvenzverfahren auf**.
+die Steuerbescheid, -e;tax assessment notice;повідомлення про нарахування податку;Der Steuerbescheid **wurde dem Steuerbüro elektronisch übermittelt**.
+die Vorauszahlung, -en;advance payment;авансовий платіж (попередній внесок);Die vierteljährlichen Vorauszahlungen **wurden auf Basis des Vorjahres festgesetzt**.
+die Steuervorauszahlung, -en;advance tax payment;авансовий податковий платіж;Die Steuervorauszahlung **dient der gleichmäßigen Verteilung der Steuerlast**.
+die Steuerklasse, -n;tax class / bracket;податковий клас;Die Steuerklasse **beeinflusst die Höhe der Lohnsteuer auf der Gehaltsabrechnung**.
+die Lohnsteuer, -n;wage tax / income tax on salaries;податок на заробітну плату (частина ПДФО);Die Lohnsteuer **wird vom Arbeitgeber direkt an den Steuergläubiger abgeführt**.
+die Kirchensteuer, -n;church tax;церковний податок;Die Kirchensteuer **wird zusammen mit der Einkommensteuer erhoben**.
+die Solidaritätszuschlag (Sg.);solidarity surcharge (Soli);надбавка за солідарність (Soli);Der Solidaritätszuschlag **wurde für die meisten Steuerpflichtigen abgeschafft**.
+die Solidaritätszuschlagsgesetz (Sg.);Solidarity Surcharge Act;закон про надбавку за солідарність;Das Solidaritätszuschlagsgesetz **wurde vom Bundesverfassungsgericht geprüft**.
+die Steuerpflicht, -en;tax liability / obligation;податковий обов'язок;Die Steuerpflicht **erlischt bei Aufgabe des Wohnsitzes im Inland**.
+die unbeschränkt Steuerpflicht;unlimited tax liability;необмежена податкова обов'язковість (оподаткування всіх світових доходів);Personen mit Wohnsitz in Deutschland **unterliegen der unbeschränkten Steuerpflicht**.
+die beschränkt Steuerpflicht;limited tax liability;обмежена податкова обов'язковість (оподаткування лише доходів з джерел у Німеччині);Ausländische Dienstleister **unterliegen oft der beschränkten Steuerpflicht**.
+die Doppelbesteuerung, -en;double taxation;подвійне оподаткування;Die Doppelbesteuerung **wird durch internationale Abkommen vermieden**.
+die Doppelbesteuerungsabkommen (DBA), -;double taxation treaty;угода про уникнення подвійного оподаткування (DBA);Das DBA **regelt die Aufteilung des Besteuerungsrechts zwischen den Staaten**.
+die Besteuerungsrecht, -e;right of taxation / taxing power;право на оподаткування;Das Besteuerungsrecht **liegt in diesem Fall beim Wohnsitzstaat**.
+die Wohnsitzstaat, -en;state of residence;держава проживання;Der Wohnsitzstaat **übernimmt die Besteuerung des weltweiten Einkommens**.
+die Quellenstaat, -en;state of source;держава походження доходу;Der Quellenstaat **darf eine Quellensteuer auf Dividenden erheben**.
+die Quellensteuer, -n;withholding tax;податок біля джерела (утримуваний податок);Die Quellensteuer **wird direkt vom auszahlenden Unternehmen einbehalten**.
+die Dividende, -n;dividend;дивіденди;Die Dividenden **werden nach dem Beschluss der Hauptversammlung ausgezahlt**.
+die Dividendenausschüttung, -en;dividend distribution;виплата дивідендів;Die Dividendenausschüttung **wirkt sich positiv auf das Interesse der Investoren aus**.
+die Aktie, -n;share, stock;акція;Der Wert der Aktie **ist aufgrund des guten Betriebsergebnisses gestiegen**.
+die Aktionär, -e / die Aktionärin, -nen;shareholder;акціонер;Die Aktionäre **haben ein Stimmrecht auf der Hauptversammlung**.
+die Stimmrecht, -e;voting right;право голосу;Das Stimmrecht **kann per Vollmacht auf eine Bank übertragen werden**.
+die Stimmrechtsvertretung, -en;proxy voting;представництво за довіреністю (на зборах акціонерів);Die Stimmrechtsvertretung **erleichtert die Willensbildung auf der Versammlung**.
+die Willensbildung (Sg.);decision-making process / formation of intent;вироблення спільного рішення (волевиявлення);Eine offene Feedbackkultur **unterstützt die demokratische Willensbildung**.
+die Beschlussfassung, -en;passing of resolutions / decision-making;прийняття рішень (постанов);Die Beschlussfassung **erfolgt mit der einfachen Mehrheit der Stimmen**.
+die einfache Mehrheit;simple majority;проста більшість;Für die einfache Mehrheit **ist mehr als die Hälfte der abgegebenen Stimmen erforderlich**.
+die qualifizierte Mehrheit;qualified majority;кваліфікована більшість;Die Änderung der Satzung **bedarf einer qualifizierten Mehrheit von 75 Prozent**.
+die Satzungsänderung, -en;amendment to the statutes;зміна статуту;Die Satzungsänderung **muss im Handelsregister eingetragen werden**.
+die Hauptversammlungsbeschluss, "-e;resolution of the general meeting;рішення загальних зборів акціонерів;Der Hauptversammlungsbeschluss **wurde im Bundesanzeiger veröffentlicht**.
+die Bundesanzeiger (Sg.);federal gazette;федеральний вісник (офіційне видання для публікацій фірм);Im Bundesanzeiger **müssen alle GmbHs ihren Jahresabschluss offenlegen**.
+die Offenlegungspflicht, -en;disclosure obligation;обов'язок оприлюднення (фінансової звітності);Die Offenlegungspflicht **dient dem Gläubigerschutz und der Transparenz**.
+die Transparenz (Sg.);transparency;прозорість;Die Transparenz der Prozesse **ist Voraussetzung für das Vertrauen der Investoren**.
+die Transparenzregister, -;transparency register;реєстр прозорості (реєстр бенефіціарів);Im Transparenzregister **müssen die wirtschaftlich Berechtigten eingetragen sein**.
+die wirtschaftlich Berechtigte, -n / die wirtschaftlich Berechtigte, -n;beneficial owner;бенефіціарний власник;Als wirtschaftlich Berechtigter **gilt jede natürliche Person mit mehr als 25% der Anteile**.
+die Gesellschaftsanteil, -e;share in a company;частка в товаристві;Der Verkauf von Gesellschaftsanteilen **bedarf der notariellen Beurkundung**.
+die Anteilseigner, - / die Anteilseignerin, -nen;shareholder / co-owner;акціонер, власник частки;Die Anteilseigner **haben Anspruch auf einen Anteil am Gewinn**.
+die Gewinnbeteiligung, -en;profit sharing;участь у прибутках (бонус від прибутку);Die Vereinbarung über eine Gewinnbeteiligung **erhöht die Arbeitsmotivation**.
+die Leistungszulage, -n;performance bonus;надбавка за продуктивність праці;Die Leistungszulage **wird als freiwillige Leistungsbeurteilung gezahlt**.
+die Erfolgsbeteiligung, -en;profit sharing / bonus scheme;участь у фінансовому успіху компанії;Die Erfolgsbeteiligung **wurde in der Betriebsvereinbarung festgelegt**.
+die Tarifvertragsparteien (Pl.);parties to a collective agreement;сторони тарифного договору (профспілка та об'єднання роботодавців);Die Tarifvertragsparteien **haben sich nach langen Verhandlungen geeinigt**.
+die Tarifpartner, -;social partners / tariff partners;партнери з тарифних переговорів;Die Tarifpartner **tragen die Verantwortung für den sozialen Frieden**.
+die Arbeitsfrieden (Sg.);industrial peace;мир у трудових відносинах (утримання від страйків);Der Arbeitsfrieden **wird durch die Friedenspflicht des Tarifvertrags gesichert**.
+die Friedenspflicht (Sg.);peace obligation;зобов'язання утримуватися від конфліктів;Während der Friedenspflicht **sind Streiks gesetzlich verboten**.
+die Streikrecht, -e;right to strike;право на страйк;Das Streikrecht **ist ein geschütztes Grundrecht im Grundgesetz**.
+die Koalitionsfreiheit (Sg.);freedom of association;свобода коаліцій (профспілок);Die Koalitionsfreiheit **erlaubt die Gründung von Gewerkschaften**.
+die Gewerkschaftsfunktionär, -e / die Gewerkschaftsfunktionärin, -nen;trade union official;профспілковий діяч;Der Gewerkschaftsfunktionär **leitete die Urabstimmung über den Streik**.
+die Urabstimmung, -en;strike ballot;голосування членів профспілки за страйк;Die Urabstimmung **ergab eine breite Zustimmung der Mitglieder für den Ausstand**.
+die Ausstand, "-e;strike / walkout;страйк, припинення роботи;Der Ausstand **führte zu erheblichen Ausfallzeiten im Transportbereich**.
+die Arbeitsniederlegung, -en;work stoppage / wildcat strike;припинення роботи (страйк);Die Arbeitsniederlegung **wurde vom Betriebsrat als Warnstreik koordiniert**.
+die Streikbeteiligung, -en;strike participation;участь у страйку;Die hohe Streikbeteiligung **verlieh den Tarifforderungen Nachdruck**.
+die Tarifforderung, -en;tariff demand;вимоги щодо тарифної угоди (зарплата, графік);Die Tarifforderungen **beinhalteten eine Gehaltserhöhung um 8 Prozent**.
+die Arbeitgeberseite (Sg.);employers' side;сторона роботодавців;Die Arbeitgeberseite **wies die Tarifforderungen als unrealistisch zurück**.
+die Arbeitnehmerseite (Sg.);employees' side;сторона працівників;Die Arbeitnehmerseite **wird bei den Verhandlungen durch die Gewerkschaft vertreten**.
+die Verhandlungskommission, -en;negotiating commission;комісія з ведення переговорів;Die Verhandlungskommission **traf sich zu einer ersten Gesprächsrunde**.
+die Gesprächsrunde, -n;round of talks;раунд переговорів;Die erste Gesprächsrunde **verlief ohne nennenswerte Ergebnisse**.
+die Verhandlungsführer, - / die Verhandlungsführerin, -nen;chief negotiator;керівник переговорів (лідер делегації);Die Verhandlungsführer **bemühen sich um eine einvernehmliche Lösung**.
+die einvernehmliche Lösung;amicable solution / agreed solution;узгоджене (мирне) рішення;Eine einvernehmliche Lösung **konnte im Schlichtungsverfahren erzielt werden**.
+die Schlichtungsverfahren, -;arbitration procedure;процедура примирення;Das Schlichtungsverfahren **wurde durch den Schlichter erfolgreich beendet**.
+die Schiedsspruch, "-e;arbitration award;арбітражне рішення (рішення примирювача);Der Schiedsspruch **konnte den langwierigen Tarifkonflikt beilegen**.
+die Tarifkonflikt, -e;tariff dispute;тарифна суперечка (конфлікт);Der Tarifkonflikt **belastete die gesamte Wirtschaftsbranche über Wochen**.
+die Einigung, -en;agreement / settlement;компроміс, угода;Die Einigung **sieht eine stufenweise Gehaltserhöhung vor**.
+die Stufenplan, "-e;phased plan / step-by-step plan;поетапний план;Der Stufenplan **regelt die Einführung der Gleitzeitregelung**.
+die Laufzeit, -en;term / duration;термін дії (договору);Die Laufzeit des neuen Tarifvertrags **beträgt 24 Monate**.
+die Kündigung (des Tarifvertrags), -en;termination (of the collective agreement);розірвання (тарифного договору);Die Kündigung des Tarifvertrags **erfolgte fristgerecht zum Jahresende**.
+die Nachwirkung (Sg.) (des Tarifvertrags);continuing effect (of a expired collective agreement);післядія (збереження чинності умов тарифного договору після закінчення терміну);Die Nachwirkung **sichert den Beschäftigten die Weitergeltung der Tarife bis zum neuen Abschluss**.
+die Weitergeltung (Sg.);continued validity;збереження чинності;Die Weitergeltung der Arbeitsbedingungen **wurde im Übertragungsvertrag geregelt**.
+die Übertragungsvertrag, "-e;transfer contract;договір про передачу (бізнесу або прав);Der Übertragungsvertrag **bedarf der Zustimmung des Aufsichtsrats**.
+die Betriebsübergang, "-e;transfer of undertaking / business transfer (under § 613a BGB);перехід підприємства (зміна власника із збереженням прав працівників за § 613a BGB);Beim Betriebsübergang **gehen alle Arbeitsverhältnisse auf den neuen Inhaber über**.
+die Betriebsübernahme, -n;business takeover;перехід права власності на бізнес;Die Betriebsübernahme **erfolgte im Wege der Sanierung**.
+die Inhaber, - / die Inhaberin, -nen;owner / proprietor;власник, володілець;Der neue Inhaber **bestätigte die Weiterbeschäftigung aller Fachkräfte**.
+die Weiterbeschäftigung (Sg.);continued employment;продовження трудової діяльності;Die Weiterbeschäftigung **wurde durch eine Gesamtbetriebsvereinbarung abgesichert**.
+die Weiterbeschäftigungsanspruch, "-e;right to continued employment;право на збереження робочого місця (продовження роботи);Bei unwirksamer Kündigung **besteht ein gerichtlich durchsetzbarer Weiterbeschäftigungsanspruch**.
+die gerichtlich durchsetzbar;judicially enforceable;такий, що може бути захищений (примусово виконаний) у судовому порядку;Der Urlaubsanspruch **ist ein gesetzlich und gerichtlich durchsetzbares Recht**.
+die Rechtsanspruch, "-e;legal claim / right;правова претензія (законне право);Der Arbeitnehmer **hat einen Rechtsanspruch auf Lohnfortzahlung im Krankheitsfall**.
+die Lohnfortzahlung, -en;continued payment of wages;продовження виплати заробітної плати (під час хвороби);Die Lohnfortzahlung **ist im Entgeltfortzahlungsgesetz geregelt**.
+die Entgeltfortzahlungsgesetz (EntgFG) (Sg.);Continued Remuneration Act;закон про збереження заробітної плати (EntgFG);Das EntgFG **schützt den Arbeitnehmer vor Verdienstausfall bei Krankheit**.
+die Verdienstausfall, "-e;loss of earnings;втрата заробітку (доходу);Der Verdienstausfall **wird bei Arbeitsunfällen durch das Verletztengeld ausgeglichen**.
+die Verletztengeld (Sg.);injury benefit (paid by accident insurance);допомога по травмі (від каси страхування нещасних випадків);Das Verletztengeld **wird von der Berufsgenossenschaft ausgezahlt**.
+die Verletztengeldbezug, "-e;receipt of injury benefit;період отримання допомоги по травмі;Während des Verletztengeldbezugs **ruht der Anspruch auf Lohnfortzahlung**.
+die Ruhen (z. B. des Anspruchs) (Sg.);suspension (e.g. of a claim);призупинення дії (права/вимоги);Das Ruhen des Arbeitsverhältnisses **wurde während der Elternzeit vereinbart**.
+die Elternzeit, -en;parental leave;відпустка по догляду за дитиною (декрет);Während der Elternzeit **ist die Kündigung des Arbeitsverhältnisses ausgeschlossen**.
+die Kündigungsverbot, -e;ban on dismissal;заборона звільнення;Das gesetzliche Kündigungsverbot **schützt Frauen im Mutterschutz**.
+die Mutterschutz, -e;maternity protection;декретна відпустка (охорона материнства перед і після пологів);Der Mutterschutz **beginnt sechs Wochen vor dem voraussichtlichen Entbindungstermin**.
+die Entbindungstermin, -e;delivery date / due date (birth);очікувана дата пологів;Der Entbindungstermin **muss dem Personalbüro durch ein ärztliches Zeugnis nachgewiesen werden**.
+die Mutterschaftsgeld (Sg.);maternity benefit;допомога по вагітності та пологах;Das Mutterschaftsgeld **wird von der Krankenkasse und dem Arbeitgeber gezahlt**.
+die Arbeitgeberzuschuss, "-e;employer's subsidy / supplement;доплата від роботодавця (допомога);Der Arbeitgeberzuschuss **gleicht die Differenz zum Nettogehalt aus**.
+die Nettogehalt, "-er;net salary;чиста заробітна плата;Das Nettogehalt **ist für die Berechnung des Elterngeldes maßgeblich**.
+die Elterngeld (Sg.);parental allowance;допомога по догляду за дитиною (державна виплата батькам);Das Elterngeld **wird bei der Elterngeldstelle beantragt**.
+die Elterngeldstelle, -n;parental allowance office;відомство з виплати батьківської допомоги;Die Elterngeldstelle **fordert die Vorlage der Gehaltsabrechnungen der letzten 12 Monate**.
+die Gehaltsnachweis, -e;proof of salary / income;довідка про доходи (зарплату);Der Gehaltsnachweis **ist für den Abschluss des Mietvertrags erforderlich**.
+die Einkommensnachweis, -e;proof of income;підтвердження доходів;Als Einkommensnachweis **kann der Steuerbescheid des Vorjahres vorgelegt werden**.
+die Steuerbescheid, -e;tax assessment notice;повідомлення про нарахування податку;Der Steuerbescheid **dient dem Vermieter als Nachweis der Bonität**.
+die Bonitätsnachweis, -e;proof of creditworthiness;підтвердження платоспроможності;Die Schufa-Auskunft gilt als **anerkannter Bonitätsnachweis in Deutschland**.
+die Schufa (Schutzgemeinschaft für allgemeine Kreditsicherung) (Sg.);Schufa (German credit investigation agency);Шуфа (асоціація захисту кредитних ризиків);Die Schufa **erstellt Bonitätsauskünfte für Verbraucher und Unternehmen**.
+die Bonitätsindex, -e;credit index / score;індекс платоспроможності (скоринговий бал);Ein niedriger Bonitätsindex **weist auf ein hohes Ausfallrisiko hin**.
+die Ausfallwahrscheinlichkeit, -en;probability of default;ймовірність дефолту (неплатежу);Die Ausfallwahrscheinlichkeit **wird durch mathematische Scoring-Verfahren berechnet**.
+die Scoring-Wert, -e;scoring value / credit score;скоринговий бал;Der Scoring-Wert **entscheidet über die Genehmigung von Ratenzahlungen**.
+die Ratenzahlungsvereinbarung, -en;installment agreement;угода про оплату частинами;Die Ratenzahlungsvereinbarung **bedarf der Schriftform, um wirksam zu sein**.
+die Schriftform (Sg.);written form;письмова форма (обов'язкова письмова форма за законом);Für Kündigungen **schreibt das Gesetz zwingend die Schriftform vor**.
+die Textform (Sg.);text form (e.g., email, SMS - no signature required);текстова форма (без підпису - напр. email);Für den Urlaubsantrag **ist die Textform im Betrieb ausreichend**.
+die E-Mail, -s;email;електронна пошта;Die Krankmeldung **kann vorab per E-Mail an das Personalbüro gesendet werden**.
+die Fax, -e;fax;факс;Der Frachtbrief **wurde vorab per Fax an die Spedition übermittelt**.
+die Briefpost (Sg.);postal mail;паперова пошта;Die Klageschrift **muss per Briefpost beim Arbeitsgericht eingehen**.
+die Einschreiben, -;registered mail / letter;рекомендований лист;Das Kündigungsschreiben **sollte per Einschreiben mit Rückschein zugestellt werden**.
+die Rückschein, -e;advice of receipt / return receipt;повідомлення про вручення (рекомендованого листа);Der Rückschein **weist den Zugang des Schreibens beim Empfänger nach**.
+die Zugang (z. B. des Schreibens) (Sg.);receipt / arrival (of the letter);надходження (отримання листа адресатом);Der Zugang der Kündigung **ist der Stichtag für den Beginn der Klagefrist**.
+die Klagefrist, -en;limitation period for filing a lawsuit / deadline;термін подання позову;Die Klagefrist **beträgt im Kündigungsschutzrecht drei Wochen**.
+die Kündigungsschutzgesetz (KSchG) (Sg.);Dismissal Protection Act;Закон про захист від звільнення (KSchG);Das KSchG **gilt in Betrieben mit mehr als zehn Beschäftigten**.
+die Kleinbetrieb, -e;small business;мале підприємство (до 10 працівників);Im Kleinbetrieb **findet das Kündigungsschutzgesetz keine Anwendung**.
+die Anwendung (Sg.);application;застосування;Die Anwendung der neuen Vorschriften **wird von der Arbeitsschutzbehörde kontrolliert**.
+die Geltungsbereich, -e;scope / area of application;сфера дії (закону або договору);Der Geltungsbereich des Tarifvertrags **erstreckt sich auf alle Beschäftigten**.
+die Tarifvertrag, "-e;collective agreement;тарифний договір;Der Tarifvertrag **wurde von der Gewerkschaft gekündigt**.
