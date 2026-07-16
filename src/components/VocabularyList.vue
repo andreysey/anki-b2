@@ -26,7 +26,7 @@ const getItemKey = (item: Word) => `${item.german}-${item.level}-${item.thema}`;
         <template #header>
           <div class="flex justify-between p-6 pb-0">
             <Badge :value="item.level" severity="info" />
-            <Badge :value="'Thema ' + item.thema" severity="secondary" />
+            <Badge :value="item.thema === 99 ? 'Unregelmäßige Verben' : 'Theme ' + item.thema" severity="secondary" />
           </div>
         </template>
         <template #content>

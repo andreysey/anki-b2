@@ -27,7 +27,10 @@ const themes = computed(() => {
 const themeOptions = computed(() => {
   return [
     { label: 'Themes', value: 'all' },
-    ...themes.value.map(t => ({ label: `Theme ${t}`, value: t.toString() }))
+    ...themes.value.map(t => ({ 
+      label: t === 99 ? 'Unregelmäßige Verben' : `Theme ${t}`, 
+      value: t.toString() 
+    }))
   ];
 });
 

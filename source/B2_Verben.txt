@@ -1,0 +1,163 @@
+#separator:;
+#html:true
+#columns:German;English;Ukrainian;Example
+backen (bäckt/backt, backte/buk, hat gebacken);to bake;випікати, пекти;Die Smart-Küche kann Brot vollautomatisch backen.
+befehlen (befiehlt, befahl, hat befohlen);to command, to order;наказувати;Der Kernel hat befohlen, den Prozess zu stoppen.
+beginnen (beginnt, begann, hat begonnen);to begin, to start;починати;Wir haben soeben begonnen, das new Framework zu testen.
+beißen (beißt, biss, hat gebissen);to bite;кусати;Der Bürohund hat glücklicherweise niemanden gebissen.
+bergen (birgt, barg, hat geborgen);to salvage, to rescue, to hide;рятувати, переховувати, таїти в собі;Diese Legacy-Codebase birgt viele versteckte Risiken.
+betrügen (betrügt, betrog, hat betrogen);to cheat, to deceive;обманювати, ошукувати;Ein Phishing-Angriff versucht, die User zu betrügen.
+beweisen (beweist, bewies, hat bewiesen);to prove;доводити;Wir haben bewiesen, dass der Bug in der Cloud liegt.
+bewegen (bewegt, bewegte/bewog, hat bewegt);to move, to induce;рухати, спонукати;Die neuen Features haben den Kunden dazu bewogen, das Abo zu verlängern.
+sich bewerben (bewirbt sich, bewarb sich, hat sich beworben);to apply for (a job);подавати заявку (на роботу);Er hat sich um die stelle als Senior Developer beworben.
+bewerfen (bewirbt, bewarf, hat beworfen);to pelt, to throw at;закидати, обкидати;Wir sollten uns im Meeting nicht gegenseitig mit Vorwürfen bewerfen.
+biegen (biegt, bog, hat gebogen);to bend;гнути, згинати;Wir müssen diese Metallklammer vorsichtig biegen.
+bieten (bietet, bot, hat geboten);to offer;пропонувати;Die neue API-Version bietet viele verbesserte Funktionen.
+binden (bindet, band, hat gebunden);to bind, to tie;зв'язувати, прив'язувати;Wir binden die API an ein sicheres Token.
+bitten (bittet, bat, hat gebeten);to ask, to request;просити;Ich habe den Kollegen um ein schnelles Review gebeten.
+blasen (bläst, blies, hat geblasen);to blow;дути;Der Lüfter bläst kalte Luft in das Server-Rack.
+bleiben (bleibt, blieb, ist geblieben);to stay, to remain;залишатися;Der Server ist trotz der DDoS-Attacke online geblieben.
+brechen (bricht, brach, hat/ist gebrochen);to break;ламати, розривати;Ein kritischer Fehler hat die Transaktion abgebrochen.
+brennen (brennt, brannte, hat gebrannt);to burn;горіти;Die Kontrollleuchte am Router hat rot gebrannt.
+bringen (bringt, brachte, hat gebracht);to bring;приносити;Das Refactoring hat uns eine enorme Performance-Steigerung gebracht.
+durchdringen (dringt durch, drang durch, ist durchgedrungen / hat durchdrungen);to penetrate, to permeate;проникати, пронизувати;Die neue Sicherheitsrichtlinie hat das gesamte Unternehmen durchdrungen.
+denken (denkt, dachte, hat gedacht);to think;думати;Ich habe an eine einfachere Lösung für die API gedacht.
+dürfen (darf, durfte, hat gedurft / hat dürfen);to be allowed to;мати дозвіл;Der Praktikant darf den Produktionscode nicht direkt ändern.
+empfangen (empfängt, empfing, hat empfangen);to receive;приймати, отримувати;Der Webhook hat die Payload erfolgreich empfangen.
+empfehlen (empfiehlt, empfahl, hat empfohlen);to recommend;рекомендувати;Wir empfehlen, Passwörter регулярно змінювати.
+empfinden (empfindet, empfand, hat empfunden);to feel, to perceive;відчувати, сприймати;Ich habe die Kritik im Review als sehr konstruktiv empfunden.
+entscheiden (entscheidet, entschied, hat entschieden);to decide;вирішувати;Der Product Owner hat entschieden, das Feature zu verschieben.
+erheben (erhebt, erhob, hat erhoben);to raise, to levy, to collect;піднімати, збирати (дані);Die App erhebt anonyme Nutzungsstatistiken.
+erklingen (erklingt, erklang, ist erklungen);to sound, to ring out;звучати;Beim Eintreffen einer Fehlermeldung ist ein Warnton erklungen.
+erlöschen (erlischt, erlosch, ist erloschen);to go out, to expire;згасати, закінчуватися (про термін);Die Gültigkeit des API-Tokens ist erloschen.
+erschrecken (erschrickt, erschrak, ist erschrocken);to be frightened;лякатися;Ich bin erschrocken, als der Server plötzlich offline ging.
+essen (isst, aß, hat gegessen);to eat;їсти;Wir haben in der Mittagspause Pizza gegessen.
+fahren (fährt, fuhr, ist/hat gefahren);to drive, to run;їхати, керувати;Das autonome Auto ist absolut sicher gefahren.
+fallen (fällt, fiel, ist gefallen);to fall;падати;Die Server-Latenz ist nach dem Update deutlich gefallen.
+fangen (fängt, fing, hat gefangen);to catch;ловити;Der Try-Catch-Block hat die Exception erfolgreich gefangen.
+finden (findet, fand, hat gefunden);to find;знаходити;Ich habe den Fehler in der SQL-Abfrage endlich gefunden.
+fliegen (fliegt, flog, ist/hat geflogen);to fly;літати;Ich bin zur IT-Konferenz nach Berlin geflogen.
+fliehen (flieht, floh, ist geflohen);to flee, to escape;утікати, уникати;Viele User sind von der alten Plattform geflohen.
+fließen (fließt, floss, ist geflossen);to flow;текти;Die Daten fließen in Echtzeit durch das Websocket.
+fressen (frisst, fraß, hat gefressen);to eat (animals), to consume;жерти, споживати (у великій кількості);Das Skript frisst leider extrem viel Arbeitsspeicher.
+frieren (friert, fror, hat/ist gefroren);to freeze;мерзнути, замерзати;Der Server ist wegen Überlastung eingefroren.
+gebären (gebärt/gebiert, gebar, hat geboren);to give birth to;народжувати;Eine gute Idee wird oft in einer Kaffeepause geboren.
+geben (gibt, gab, hat gegeben);to give;давати;Bitte gib mir bis morgen Bescheid.
+gedeihen (gedeiht, gedieh, ist gediehen);to thrive, to prosper;розвиватися, процвітати;Das neue IT-Projekt ist sehr gut gediehen.
+gefallen (gefällt, gefiel, hat gefallen);to please, to like;подобатися;Das neue UI-Design gefällt dem Kunden sehr gut.
+gehen (geht, ging, ist gegangen);to go;йти, працювати (про прилад);Der Docker-Container geht momentan leider nicht.
+gelingen (gelingt, gelang, ist gelungen);to succeed;вдаватися;Es ist uns gelungen, die Performance zu verdoppeln.
+gelten (gilt, galt, hat gegolten);to apply, to be valid;діяти, мати силу;Die neuen Sicherheitsregeln gelten ab sofort für alle.
+genießen (genießt, genoss, hat genossen);to enjoy;насолоджуватися;Wir haben das freie Wochenende nach dem Release genossen.
+geschehen (geschieht, geschah, ist geschehen);to happen;відбуватися;Was ist gestern auf dem Server geschehen?
+gewinnen (gewinnt, gewann, hat gewonnen);to win, to gain;вигравати, здобувати;Wir haben einen großen Kunden aus der Automobilbranche gewonnen.
+gießen (gießt, goss, hat gegossen);to pour, to water;лити, поливати;Der Kollege hat die Büropflanzen gegossen.
+gleichen (gleicht, glich, hat geglichen);to resemble, to equal;дорівнювати, бути схожим;Das neue Layout gleicht dem alten Entwurf fast vollständig.
+gleiten (gleitet, glitt, ist geglitten);to slide, to glide;ковзати;Die Animation gleitet sanft über den Bildschirm.
+graben (gräbt, grub, hat gegraben);to dig;копати;Wir müssen tief in den Logfiles graben, um den Bug zu finden.
+greifen (greift, griff, hat gegriffen);to grasp, to grab, to take effect;хапати, вживати заходів;Die neue Sicherheits-Firewall hat sofort gegriffen.
+haben (hat, hatte, hat gehabt);to have;мати;Wir haben ein großes Problem mit der Datenbank.
+halten (hält, hielt, hat gehalten);to hold, to keep;тримати, дотримуватися;Bitte halte dich an die vereinbarten Deadlines.
+hängen (hängt, hing, hat/ist gehangen);to hang;висіти;Der Monitor hängt sicher an der Wandhalterung.
+heben (hebt, hob, hat gehoben);to lift, to raise;піднімати;Der Support-Mitarbeiter hat das Ticket-Prioritätslevel gehoben.
+heißen (heißt, hieß, hat geheißen);to be called, to mean;називатися, означати;Das neue Repository heißt "anki-b2".
+helfen (hilft, half, hat geholfen);to help;допомагати;Die automatische Code-Vervollständigung hilft mir sehr beim Coden.
+kennen (kennt, kannte, hat gekannt);to know (people/places);знати (бути знайомим з);Ich kenne diese Bibliothek aus einem früheren Projekt.
+klingen (klingt, klingt, klang, hat geklungen);to sound;звучати;Deine Idee für das Datenbank-Design klingt hervorragend.
+kneifen (kneift, kniff, hat gekniffen);to pinch, to chicken out;щипати, ухилятися;Wir dürfen vor dieser schwierigen Aufgabe nicht kneifen.
+kommen (kommt, kam, ist gekommen);to come;приходити;Die Fehlermeldung ist corridors (völlig unerwartet) gekommen.
+können (kann, konnte, hat gekonnt / hat können);to be able to;вміти, могти;Ich kann diesen Algorithmus leicht optimieren.
+kriechen (kriecht, kroch, ist gekrochen);to crawl, to creep;повзати;Das System kriecht heute extrem langsam dahin.
+laden (lädt, lud, hat geladen);to load, to charge;завантажувати, заряджати;Die Webseite lädt in weniger als einer Sekunde.
+lassen (lässt, ließ, hat gelassen / hat lassen);to let, to leave;дозволяти, залишати;Wir lassen den Cronjob jede Nacht laufen.
+laufen (läuft, lief, ist gelaufen);to run;бігти, працювати (про програму);Die App läuft stabil auf dem Linux-Server.
+leiden (leidet, litt, hat gelitten);to suffer;страждати;Die Performance hat unter dem neuen Update stark gelitten.
+leihen (leiht, lieh, hat geliehen);to lend, to borrow;позичати;Er hat mir sein Ladekabel geliehen.
+lese (liest, las, hat gelesen);to read;читати;Ich habe die API-Dokumentation gründlich gelesen.
+liegen (liegt, lag, hat/ist gelegen);to lie, to be located;лежати, знаходитися;Der Fehler liegt vermutlich in der Routing-Konfiguration.
+lügen (lügt, log, hat gelogen);to lie, to tell a falsehood;брехати;Das System-Log lügt nicht, da steht der Fehler klar drin.
+meiden (meidet, mied, hat gemieden);to avoid;уникати;Wir sollten globale Variablen im Code möglichst meiden.
+melken (melkt/milkt, molk/melkte, hat gemolken/gemelkt);to milk;доїти;Das System versucht, alle Daten aus der API zu melken.
+messen (misst, maß, hat gemessen);to measure;вимірювати;Wir haben die Performance vor und nach dem Update gemessen.
+misslingen (misslingt, misslang, ist misslungen);to fail;не вдаватися;Der Versuch, den Server live zu migrieren, ist misslungen.
+mögen (mag, mochte, hat gemocht / hat mögen);to like;любити, хотіти;Ich mag dieses new, minimalistische UI-Design sehr.
+müssen (muss, musste, hat gemusst / hat müssen);to must, to have to;мусити;Wir müssen diese Sicherheitslücke sofort schließen.
+nehmen (nimmt, nimmt, nahm, hat genommen);to take;брати;Wir nehmen PostgreSQL als primäre Datenbank.
+nennen (nennt, nannte, hat genannt);to name, to call;називати;Er hat mir drei gute Gründe für das Refactoring genannt.
+pfeifen (pfeift, pfiff, hat gepfiffen);to whistle;свистіти;Der Lüfter des Laptops pfeift unter Volllast sehr laut.
+preisen (preist, pries, hat gepriesen);to praise;хвалити, прославляти;Das Marketing preist die neue App als revolutionär an.
+raten (rät, riet, hat geraten);to advise, to guess;радити, відгадувати;Ich rate dir, die Commits öfter zu pushen.
+reiben (reibt, rieb, hat gerieben);to rub;терти;Er reibt sich nach stundenlangem Coden müde die Augen.
+reißen (reißt, riss, hat/ist gerissen);to tear, to rip;рвати, лопатися;Das Netzwekkabel ist leider mitten im Betrieb gerissen.
+reiten (reitet, ritt, ist/hat geritten);to ride (a horse);їхати верхи;In der Freizeit reitet der Kollege gerne.
+rennen (rennt, rannte, ist gerannt);to run, to race;бігти, мчати;Der Parser rennt extrem schnell durch die Textdateien.
+riechen (riecht, roch, hat gerochen);to smell;пахнути, чути запах;Es riecht nach verbranntem Plastik im Serverraum.
+ringen (ringt, rang, hat gerungen);to wrestle, to struggle;боротися;Wir haben lange um die beste Systemarchitektur gerungen.
+rufen (ruft, rief, hat gerufen);to call;кликати, викликати;Wir rufen die Funktion asynchron auf.
+saugen (saugt, sog/saugte, hat gesogen/gesaugt);to suck, to vacuum;всмоктувати, пилососити;Das Skript saugt alle new Daten aus dem Netz.
+schaffen (schafft, schuf, hat geschaffen);to create;створювати;Der Designer hat ein völlig neues Icon-Set geschaffen.
+scheiden (scheidet, schied, hat/ist geschieden);to separate, to divide;розділяти;Die Meinungen im Team scheiden sich bei diesem Thema.
+scheinen (scheint, schien, hat geschienen);to shine, to seem;світити, здаватися;Das Update scheint stabil zu laufen.
+schieben (schiebt, schob, hat geschoben);to push, to shove;штовхати, зсувати;Wir haben den Release-Termin auf nächste week geschoben.
+schießen (schießt, schoss, hat/ist geschossen);to shoot;стріляти, швидко розвиватися;Die Serverauslastung ist plötzlich in die Höhe geschossen.
+schlafen (schläft, schlief, hat geschlafen);to sleep;спати;Nach dem anstrengenden Release-Wochenende habe ich lange geschlafen.
+schlagen (schlägt, schlug, hat geschlagen);to hit, to beat;бити, перемагати;Das Monitoring-System hat Alarm geschlagen.
+schleichen (schleicht, schlich, ist geschlichen);to sneak, to creep;крастися;Ein Memory Leak hat sich heimlich in den Code geschlichen.
+schleifen (schleift, schliff, hat geschliffen);to grind, to polish;точити, шліфувати;Wir müssen die Kanten des Gehäuses sauber schleifen.
+schließen (schließt, schloss, hat geschlossen);to close;закривати;Der Admin hat alle nicht genutzten Ports geschlossen.
+schlingen (schlingt, schlang, hat geschlungen);to wind, to loop, to gulp;обвивати, петляти;Wir schlingen das Kabel ordentlich um das Server-Rack.
+schmeißen (schmeißt, schmiss, hat geschmissen);to throw, to chuck;кидати, викидати;Wir haben den veralteten Code komplett weggeschmissen.
+schmelzen (schmelzt/schmilzt, schmolz, ist/hat geschmolzen);to melt;танути, плавитися;Wegen Überhitzung ist das Plastikgehäuse geschmolzen.
+schneiden (schneidet, schnitt, hat geschnitten);to cut;різати;Das Skript schneidet den String nach dem ersten Komma ab.
+schreiben (schreibt, schrieb, hat geschrieben);to write;писати;Ich schreibe eine ausführliche Dokumentation für die API.
+schreien (schreit, schrie, hat geschrien);to scream, to shout;кричати;Der Kollege hat vor Freude geschrien, als der Code funktionierte.
+schreiten (schreitet, schritt, ist geschritten);to stride, to step;крокувати;Wir schreiten zügig mit der Entwicklung des Projekts voran.
+schweigen (schweigt, schwieg, hat geschwiegen);to be silent;мовчати;Wir haben über das new Produkt vertraglich geschwiegen.
+schwimmen (schwimmt, schwamm, ist/hat geschwommen);to swim;плавати;Die Elemente im flexiblen Layout schwimmen dynamisch mit.
+schwinden (schwindet, schwand, ist geschwunden);to disappear, to shrink;зникати, зменшуватися;Unsere Server-Ressourcen schwinden zusehends.
+schwören (schwört, schwor, hat geschworen);to swear, to vow;клястися;Ich schwöre auf die Zuverlässigkeit dieser Datenbank.
+sehen (sieht, sah, hat gesehen);to see;бачити;Ich sehe die Fehlermeldung direkt in der Konsole.
+sein (ist, war, ist gewesen);to be;бути;Die Anwendung ist jetzt endlich live.
+senden (sendet, sandte/sendete, hat gesandt/gesendet);to send;надсилати;Der Server hat die E-Mail erfolgreich gesendet.
+singen (singt, sang, hat gesungen);to sing;співати;Der Lüfter singt ein monotones Lied im Serverraum.
+sinken (sinkt, sank, ist gesunken);to sink, to decrease;падати, знижуватися;Die Ladezeit der Webseite ist deutlich gesunken.
+sitzen (sitzt, saß, hat/ist gesessen);to sit;сидіти;Er sitzt den ganzen Tag konzentriert vor dem Bildschirm.
+sollen (soll, sollte, hat gesollt / hat sollen);to should, to ought to;мусити, мати обов'язок;Wir sollen den Code vor dem Push gründlich reviewen.
+spinnen (spinnt, spann, hat gesponnen);to spin, to be crazy;прясти, плести, вередувати (про техніку);Das Netzwerk spinnt heute leider wieder komplett.
+sprechen (spricht, sprach, hat gesprochen);to speak;говорити;Wir haben im Daily kurz über das DB-Problem gesprochen.
+springen (springt, sprang, ist gesprungen);to jump;стрибати;Die CPU-Auslastung ist schlagartig auf 100% gesprungen.
+stechen (sticht, stach, hat gestochen);to sting, to prick;колоти;Ein spitzes Kabelende hat mich in den Finger gestochen.
+stehen (steht, stand, hat/ist gestanden);to stand;стояти;Der Test-Server steht direkt unter meinem Schreibtisch.
+stehlen (stiehlt, stahl, hat gestohlen);to steal;красти;Jemand hat die Zugangsdaten aus der Datenbank gestohlen.
+steigen (steigt, stieg, ist gestiegen);to rise, to climb;підніматися, зростати;Die Besucherzahlen der Webseite sind stark gestiegen.
+sterben (stirbt, starb, ist gestorben);to die;помирати;Der Prozess ist wegen Speichermangels (OOM) gestorben.
+stinken (stinkt, stank, hat gestunken);to stink;смердіти;Der Code stinkt gewaltig (Code Smell), den müssen wir refactoren.
+stoßen (stößt, stieß, hat/ist gestoßen);to push, to bump;штовхати, наштовхуватися;Wir sind auf ein unerwartetes Problem gestoßen.
+streichen (streicht, strich, hat gestrichen);to paint, to cancel, to delete;фарбувати, викреслювати;Der Product Owner hat das Feature von der Roadmap gestrichen.
+streiten (streitet, stritt, hat gestritten);to argue, to fight;сперечатися;Wir streiten uns oft über das beste CSS-Framework.
+tragen (trägt, trug, hat getragen);to carry, to wear;носить;Der neue Prozessor trägt maßgeblich zur Performance bei.
+treffen (trifft, traf, hat getroffen);to meet, to hit, to make (a decision);зустрічати, приймати (рішення);Wir müssen heute eine Entscheidung über die Cloud-Migration treffen.
+treiben (treibt, trieb, hat/ist getrieben);to drive, to push;гнати, спонукати;Der ehrgeizige Teamlead treibt das Projekt schnell voran.
+treten (tritt, trat, hat/ist getreten);to step, to kick;ступати, наступати;Ein neuer Fehler ist in der Testumgebung aufgetreten.
+trinken (trinkt, trank, hat getrunken);to drink;пити;Entwickler trinken bekanntlich sehr viel Kaffee.
+tun (tut, tat, hat getan);to do;робити;Das Skript tut genau das, was es tun soll.
+verbergen (verbirgt, verborg/verbarg, hat verborgen);to hide;приховувати;Das UI soll komplexe Systemdaten vor dem User verbergen.
+vergessen (vergisst, vergaß, hat vergessen);to forget;забувати;Ich habe vergessen, den neuen API-Key in der Config zu speichern.
+vergleichen (vergleicht, verglich, hat vergleichen);to compare;порівнювати;Wir vergleichen die Performance der verschiedenen Datenbanken.
+verlieren (verliert, verlor, hat verloren);to lose;втрачати;Wir haben beim Server-Crash zum Glück keine Daten verloren.
+verraten (verrät, verriet, hat verraten);to betray, to reveal;зраджувати, розголошувати;Bitte verrate dem Kunden noch nicht das genaue Release-Datum.
+verzeihen (verzeiht, verzieh, hat verziehen);to forgive;вибачати;Der Compiler verzeiht keine fehlenden Semikolons.
+wachsen (wächst, wuchs, ist gewachsen);to grow;рости;Die Datenbank wächst jeden Tag um mehrere Gigabyte.
+waschen (wäscht, wusch, hat gewaschen);to wash;мити, прати;Ich habe meine Hände gründlich gewaschen.
+weichen (weicht, wich, ist gewichen);to yield, to give way;відступати, поступатися;Die alte Legacy-Software muss nun der neuen Cloud-Lösung weichen.
+weisen (weist, wies, hat gewiesen);to point, to show;показувати, вказувати;Die Logs weisen eindeutig auf einen Netzwerkfehler hin.
+wenden (wenden, wendete/wandte, hat gewendet/gewandt);to turn;повертати, звертатися;Bei technischen Fragen wende dich bitte an den Sysadmin.
+werben (wirbt, warb, hat geworben);to advertise, to recruit;рекламувати, вербувати;Die IT-Firma wirbt auf LinkedIn um neue Entwickler.
+werden (wird, wurde, ist geworden);to become;ставати;Die App wird mit jedem neuen Update besser.
+werfen (wirft, warf, hat geworben);to throw;кидати;Der Code wirft bei falscher Eingabe eine Exception.
+wiegen (wiegt, wog, hat gewogen);to weigh;важити;Der neue Gaming-Laptop wiegt fast drei Kilogramm.
+winden (windet, wand, hat gewunden);to wind, to twist;витися, плести;Die Kabel winden sich chaotisch hinter dem Server-Schrank.
+wissen (weiß, wusste, hat gewusst);to know (facts);знати (факти);Weißt du, wo die Config-Datei liegt?
+wollen (will, wollte, hat gewollt / hat wollen);to want;хотіти;Wir wollen das Projekt noch diese Woche fertigstellen.
+ziehen (zieht, zog, hat/ist gezogen);to pull, to drag;тягнути;Bitte ziehe dir den neuesten Stand vom GitHub-Repository (pull).
+zwingen (zwingt, zwang, hat gezwungen);to force;Der knappe Zeitplan zwingt uns, Prioritäten zu setzen.
