@@ -4234,8 +4234,7 @@
   {
     "level": "B1+",
     "levels": [
-      "B1+",
-      "B2"
+      "B1+"
     ],
     "thema": 6,
     "german": "etw. sperren (sperrt, sperrte, hat gesperrt)",
@@ -4611,7 +4610,8 @@
   {
     "level": "B1+",
     "levels": [
-      "B1+"
+      "B1+",
+      "B2"
     ],
     "thema": 6,
     "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Reklamation, -en",
@@ -5172,8 +5172,7 @@
   {
     "level": "B1+",
     "levels": [
-      "B1+",
-      "B2"
+      "B1+"
     ],
     "thema": 7,
     "german": "verzichten auf (+ Akk.) (verzichtet, verzichtete, hat verzichtet)",
@@ -14604,7 +14603,7 @@
     "german_audio": "die Anweisung",
     "english": "instruction, directive",
     "ukrainian": "інструкція, вказівка",
-    "example": "Bitte folgen Sie der <b style=\"color: #eab308;\">Anweisung</b> im Readme-File für die Installation."
+    "example": "Wir müssen sicherstellen, dass die Mitarbeiter <b>den <b style=\"color: #eab308;\">Anweisungen</b> zum Arbeitsschutz Folge leisten</b>."
   },
   {
     "level": "B2",
@@ -14616,7 +14615,7 @@
     "german_audio": "das Ersatzfahrzeug",
     "english": "replacement vehicle",
     "ukrainian": "підмінний автомобіль",
-    "example": "Während mein Firmenwagen in der Werkstatt ist, nutze ich ein <b style=\"color: #eab308;\">Ersatzfahrzeug</b>."
+    "example": "Während der Reparatur des Dienstwagens **stellt das Autohaus dem Kunden ein <b style=\"color: #eab308;\">Ersatzfahrzeug</b> zur Verfügung**."
   },
   {
     "level": "B2",
@@ -14628,7 +14627,7 @@
     "german_audio": "das Ersatzteil",
     "english": "spare part",
     "ukrainian": "запасна частина",
-    "example": "Wir brauchen dringend ein <b style=\"color: #eab308;\">Ersatzteil</b> für den defekten Server im Rack."
+    "example": "<b>Wir bitten Sie, uns die benötigten <b style=\"color: #eab308;\">Ersatzteile</b> innerhalb einer Woche zuzuschicken</b>."
   },
   {
     "level": "B2",
@@ -14640,7 +14639,7 @@
     "german_audio": "das Fahrzeug",
     "english": "vehicle",
     "ukrainian": "транспортний засіб",
-    "example": "Ein autonomes <b style=\"color: #eab308;\">Fahrzeug</b> wird durch komplexe KI-Algorithmen gesteuert."
+    "example": "Die regelmäßige Wartung aller <b style=\"color: #eab308;\">Fahrzeuge</b> **dient der Unfallverhütung im Betrieb**."
   },
   {
     "level": "B2",
@@ -14652,7 +14651,7 @@
     "german_audio": "der Gebrauchtwagen",
     "english": "used car",
     "ukrainian": "вживаний автомобіль",
-    "example": "Der IT-Consultant kauft sich einen <b style=\"color: #eab308;\">Gebrauchtwagen</b> für die Fahrten zum Kunden."
+    "example": "Der Außendienstmitarbeiter **hat sich nach gründlicher Beratung für einen <b style=\"color: #eab308;\">Gebrauchtwagen</b> entschieden**."
   },
   {
     "level": "B2",
@@ -14664,7 +14663,7 @@
     "german_audio": "die Gehaltsabrechnung",
     "english": "payslip, salary statement",
     "ukrainian": "розрахунковий листок (по зарплаті)",
-    "example": "Die HR-Abteilung schickt mir jeden Monat meine <b style=\"color: #eab308;\">Gehaltsabrechnung</b> per E-Mail."
+    "example": "Die <b style=\"color: #eab308;\">Gehaltsabrechnung</b> **weist alle gesetzlichen Abgaben und das Nettoeinkommen fehlerfrei aus**."
   },
   {
     "level": "B2",
@@ -14676,7 +14675,7 @@
     "german_audio": "die Inspektion",
     "english": "inspection, maintenance",
     "ukrainian": "огляд, техогляд",
-    "example": "Das Backup-System muss einmal im Jahr zur technischen <b style=\"color: #eab308;\">Inspektion</b>."
+    "example": "Die jährliche <b style=\"color: #eab308;\">Inspektion</b> der Maschinen **wird vom Sicherheitsbeauftragten genau überwacht**."
   },
   {
     "level": "B2",
@@ -14688,7 +14687,7 @@
     "german_audio": "lackieren",
     "english": "to paint, to varnish",
     "ukrainian": "фарбувати, лакувати",
-    "example": "Wir lassen die Gehäuse der neuen Hardware in unseren Firmenfarben <b style=\"color: #eab308;\">lackieren</b>."
+    "example": "Das Fahrzeug muss neu <b style=\"color: #eab308;\">lackiert</b> werden, **um den Vorgaben des Corporate Designs zu entsprechen**."
   },
   {
     "level": "B2",
@@ -14700,7 +14699,7 @@
     "german_audio": "der Liefertermin",
     "english": "delivery date",
     "ukrainian": "дата доставки",
-    "example": "Der <b style=\"color: #eab308;\">Liefertermin</b> für die neuen Monitore hat sich leider verschoben."
+    "example": "Ein wichtiges Kriterium für die Vergabe des Auftrags **ist ein verbindlicher <b style=\"color: #eab308;\">Liefertermin</b>**."
   },
   {
     "level": "B2",
@@ -14712,7 +14711,7 @@
     "german_audio": "die Lieferverzögerung",
     "english": "delivery delay",
     "ukrainian": "затримка доставки",
-    "example": "Wegen einer <b style=\"color: #eab308;\">Lieferverzögerung</b> können wir das Netzwerk noch nicht aufbauen."
+    "example": "<b>Aufgrund von <b style=\"color: #eab308;\">Lieferverzögerungen</b> beim Hersteller müssen wir den Montagetermin verschieben</b>."
   },
   {
     "level": "B2",
@@ -14724,7 +14723,7 @@
     "german_audio": "der Montagetermin",
     "english": "assembly/installation appointment",
     "ukrainian": "дата монтажу / встановлення",
-    "example": "Der Techniker hat einen <b style=\"color: #eab308;\">Montagetermin</b> für den neuen Router gebucht."
+    "example": "Wir müssen den <b style=\"color: #eab308;\">Montagetermin</b> **rechtzeitig mit dem zuständigen Techniker absprechen**."
   },
   {
     "level": "B2",
@@ -14736,7 +14735,7 @@
     "german_audio": "der Neuwagen",
     "english": "new car",
     "ukrainian": "новий автомобіль",
-    "example": "Als Teamlead bekommt er einen <b style=\"color: #eab308;\">Neuwagen</b> als Firmenauto."
+    "example": "Die Geschäftsleitung **hat die Anschaffung von fünf <b style=\"color: #eab308;\">Neuwagen</b> für den Fuhrpark bewilligt**."
   },
   {
     "level": "B2",
@@ -14748,7 +14747,7 @@
     "german_audio": "preisgünstig",
     "english": "reasonably priced, cheap",
     "ukrainian": "недорогий, вигідний",
-    "example": "Wir nutzen einen <b style=\"color: #eab308;\">preisgünstigen</b> Cloud-Anbieter für unsere Test-Umgebungen."
+    "example": "Das optionale Angebot der Firma **ist sehr <b style=\"color: #eab308;\">preisgünstig</b>, aber der Kundenservice fehlt**."
   },
   {
     "level": "B2",
@@ -14760,7 +14759,7 @@
     "german_audio": "das Reifenlager",
     "english": "tire storage",
     "ukrainian": "склад шин",
-    "example": "Die Winterreifen der Firmenautos liegen im <b style=\"color: #eab308;\">Reifenlager</b>."
+    "example": "Der Logistiker ist **mit der Einlagerung der Winterreifen im <b style=\"color: #eab308;\">Reifenlager</b> beschäftigt**."
   },
   {
     "level": "B2",
@@ -14772,7 +14771,7 @@
     "german_audio": "der Reparaturauftrag",
     "english": "repair order",
     "ukrainian": "замовлення на ремонт",
-    "example": "Ich habe einen <b style=\"color: #eab308;\">Reparaturauftrag</b> für meinen defekten Firmen-Laptop erstellt."
+    "example": "Der Werkstattleiter **hat den <b style=\"color: #eab308;\">Reparaturauftrag</b> für das Kundenfahrzeug entgegengenommen**."
   },
   {
     "level": "B2",
@@ -14784,7 +14783,7 @@
     "german_audio": "der Sommerreifen",
     "english": "summer tire",
     "ukrainian": "літня шина",
-    "example": "Im April wechseln wir am Dienstwagen auf <b style=\"color: #eab308;\">Sommerreifen</b>."
+    "example": "Der Wechsel auf <b style=\"color: #eab308;\">Sommerreifen</b> **wird vom Fuhrparkleiter regelmäßig im Frühjahr eingeplant**."
   },
   {
     "level": "B2",
@@ -14796,7 +14795,7 @@
     "german_audio": "verhandeln",
     "english": "to negotiate",
     "ukrainian": "вести переговори",
-    "example": "Wir müssen mit dem Cloud-Provider über den Preis <b style=\"color: #eab308;\">verhandeln</b>."
+    "example": "Die Konfliktparteien **haben beschlossen, am Montag über den Tarifvertrag zu <b style=\"color: #eab308;\">verhandeln</b>**."
   },
   {
     "level": "B2",
@@ -14808,7 +14807,7 @@
     "german_audio": "vermitteln",
     "english": "to mediate, to convey",
     "ukrainian": "посередничати, передавати",
-    "example": "Eine REST-API <b style=\"color: #eab308;\">vermittelt</b> die Daten zwischen Frontend und Backend."
+    "example": "Die Agentur versucht, Arbeitslose **in eine sozialversicherungspflichtige Beschäftigung zu <b style=\"color: #eab308;\">vermitteln</b>**."
   },
   {
     "level": "B2",
@@ -14820,7 +14819,7 @@
     "german_audio": "der Vertriebsleiter",
     "english": "sales manager",
     "ukrainian": "керівник відділу продажів",
-    "example": "Der <b style=\"color: #eab308;\">Vertriebsleiter</b> präsentiert dem Kunden unser neues CRM-System."
+    "example": "Der <b style=\"color: #eab308;\">Vertriebsleiter</b> **ist für die Neukundengewinnung und Kundenbindung verantwortlich**."
   },
   {
     "level": "B2",
@@ -14832,7 +14831,7 @@
     "german_audio": "vorgehen",
     "english": "to proceed, to act",
     "ukrainian": "діяти, чинити",
-    "example": "Wie sollen wir bei diesem kritischen Bug im System <b style=\"color: #eab308;\">vorgehen</b>?"
+    "example": "Bitte **gehen Sie bei der Beseitigung des Fehlers wie folgt vor**: ..."
   },
   {
     "level": "B2",
@@ -14844,7 +14843,7 @@
     "german_audio": "der Wagenpark",
     "english": "vehicle fleet",
     "ukrainian": "автопарк",
-    "example": "Die Firma stellt ihren <b style=\"color: #eab308;\">Wagenpark</b> komplett auf Elektroautos um."
+    "example": "Die Modernisierung des <b style=\"color: #eab308;\">Wagenparks</b> **führte zu einer spürbaren Reduzierung der CO2-Emissionen**."
   },
   {
     "level": "B2",
@@ -14856,7 +14855,7 @@
     "german_audio": "den Wert schätzen",
     "english": "to estimate the value",
     "ukrainian": "оцінювати вартість",
-    "example": "Wir müssen den Wert der alten Hardware <b style=\"color: #eab308;\">schätzen</b>, bevor wir sie verkaufen."
+    "example": "Ein Gutachter **muss den Wert des Gebrauchtwagens vor dem Ankauf genau <b style=\"color: #eab308;\">schätzen</b>**."
   },
   {
     "level": "B2",
@@ -14868,7 +14867,7 @@
     "german_audio": "der Winterreifen",
     "english": "winter tire",
     "ukrainian": "зимова шина",
-    "example": "Ohne <b style=\"color: #eab308;\">Winterreifen</b> darf man das Firmenauto bei Schnee nicht fahren."
+    "example": "Das Fahren ohne <b style=\"color: #eab308;\">Winterreifen</b> bei Schnee **ist laut Hausordnung streng unter Strafe gestellt**."
   },
   {
     "level": "B2",
@@ -14880,7 +14879,7 @@
     "german_audio": "anschaffen",
     "english": "to acquire, to purchase",
     "ukrainian": "купувати, придбати (обладнання)",
-    "example": "Wir müssen für das ganze Entwickler-Team neue Laptops <b style=\"color: #eab308;\">anschaffen</b>."
+    "example": "Wir müssen neue Geräte <b style=\"color: #eab308;\">anschaffen</b>, um **die Anforderungen der Digitalisierung zu erfüllen**."
   },
   {
     "level": "B2",
@@ -14892,7 +14891,7 @@
     "german_audio": "auftauchen",
     "english": "to appear, to pop up",
     "ukrainian": "з'являтися, виникати",
-    "example": "Nach dem Update sind leider einige neue Bugs aufgetaucht."
+    "example": "Nach dem Softwareupdate **sind unerwartete Probleme beim Zeiterfassungssystem aufgetaucht**."
   },
   {
     "level": "B2",
@@ -14904,7 +14903,7 @@
     "german_audio": "daher",
     "english": "therefore, hence",
     "ukrainian": "тому, з цієї причини",
-    "example": "Der Server war überlastet, <b style=\"color: #eab308;\">daher</b> ist die App abgestürzt."
+    "example": "Das Gerät weist einen technischen Mangel auf, **<b style=\"color: #eab308;\">daher</b> müssen wir den Service kontaktieren**."
   },
   {
     "level": "B2",
@@ -14916,7 +14915,7 @@
     "german_audio": "darum",
     "english": "therefore, for that reason",
     "ukrainian": "тому, через це",
-    "example": "Ich kenne das Framework nicht gut, <b style=\"color: #eab308;\">darum</b> lerne ich es am Wochenende."
+    "example": "Es gab Probleme bei der Montage, **<b style=\"color: #eab308;\">darum</b> müssen wir den Fertigstellungstermin verschieben**."
   },
   {
     "level": "B2",
@@ -14928,7 +14927,7 @@
     "german_audio": "die technischen Daten",
     "english": "technical data/specifications",
     "ukrainian": "технічні характеристики / дані",
-    "example": "In den technischen <b style=\"color: #eab308;\">Daten</b> steht, dass der Prozessor 8 Kerne hat."
+    "example": "<b>Ich bitte Sie, uns die technischen <b style=\"color: #eab308;\">Daten</b> des Modells umgehend zuzuschicken</b>."
   },
   {
     "level": "B2",
@@ -14940,7 +14939,7 @@
     "german_audio": "dennoch",
     "english": "nevertheless, yet",
     "ukrainian": "тим не менш, проте",
-    "example": "Der Code war unsauber, <b style=\"color: #eab308;\">dennoch</b> hat das Programm funktioniert."
+    "example": "Es gab Lieferverzögerungen, **<b style=\"color: #eab308;\">dennoch</b> konnte das Projekt rechtzeitig abgeschlossen werden**."
   },
   {
     "level": "B2",
@@ -14952,7 +14951,7 @@
     "german_audio": "deshalb",
     "english": "therefore, that's why",
     "ukrainian": "тому, ось чому",
-    "example": "Wir nutzen Microservices, <b style=\"color: #eab308;\">deshalb</b> ist unsere Architektur sehr flexibel."
+    "example": "Die Hebebühne ist defekt, **<b style=\"color: #eab308;\">deshalb</b> müssen wir den Reparaturauftrag sofort erteilen**."
   },
   {
     "level": "B2",
@@ -14964,7 +14963,7 @@
     "german_audio": "deswegen",
     "english": "therefore, because of that",
     "ukrainian": "тому, через це",
-    "example": "Das Passwort war zu schwach, <b style=\"color: #eab308;\">deswegen</b> wurde der Account gehackt."
+    "example": "Er hat gegen die Sicherheitsvorschriften verstoßen, **<b style=\"color: #eab308;\">deswegen</b> hat er eine Abmahnung erhalten**."
   },
   {
     "level": "B2",
@@ -14976,7 +14975,7 @@
     "german_audio": "das Eigengewicht",
     "english": "dead weight, own weight",
     "ukrainian": "власна вага",
-    "example": "Das <b style=\"color: #eab308;\">Eigengewicht</b> des großen Server-Racks beträgt über 100 Kilogramm."
+    "example": "Das <b style=\"color: #eab308;\">Eigengewicht</b> der Maschine **spielt eine wichtige Rolle bei der Montageplanung**."
   },
   {
     "level": "B2",
@@ -14988,7 +14987,7 @@
     "german_audio": "folglich",
     "english": "consequently, as a result",
     "ukrainian": "отже, внаслідок цього",
-    "example": "Das Budget wurde gekürzt, <b style=\"color: #eab308;\">folglich</b> können wir keine neuen Tools kaufen."
+    "example": "Der Bewerber verfügt über keine Praxis- und Berufserfahrung, **<b style=\"color: #eab308;\">folglich</b> erhielt er eine Absage**."
   },
   {
     "level": "B2",
@@ -15000,7 +14999,7 @@
     "german_audio": "die Gewährleistung",
     "english": "warranty, guarantee",
     "ukrainian": "гарантія (за законом)",
-    "example": "Auf diese Hardware haben wir noch zwei Jahre <b style=\"color: #eab308;\">Gewährleistung</b>."
+    "example": "Auf das neu angeschaffte Gerät **haben wir eine gesetzliche <b style=\"color: #eab308;\">Gewährleistung</b> von zwei Jahren**."
   },
   {
     "level": "B2",
@@ -15012,7 +15011,7 @@
     "german_audio": "die Geschwindigkeit",
     "english": "speed",
     "ukrainian": "швидкість",
-    "example": "Die Lade-<b style=\"color: #eab308;\">Geschwindigkeit</b> der Webseite wurde durch das Caching verdoppelt."
+    "example": "Die hohe <b style=\"color: #eab308;\">Geschwindigkeit</b> des Zeiterfassungssystems **stieß auf positive Rückmeldungen**."
   },
   {
     "level": "B2",
@@ -15024,7 +15023,7 @@
     "german_audio": "die Hebebühne",
     "english": "lifting platform, hoist",
     "ukrainian": "підйомник",
-    "example": "Das Auto wird in der Werkstatt auf der <b style=\"color: #eab308;\">Hebebühne</b> repariert."
+    "example": "Das Fahrzeug muss auf die <b style=\"color: #eab308;\">Hebebühne</b>, **um den Mangel am Unterboden zu beheben**."
   },
   {
     "level": "B2",
@@ -15036,7 +15035,7 @@
     "german_audio": "die Hubhöhe",
     "english": "lifting height",
     "ukrainian": "висота підйому",
-    "example": "Die <b style=\"color: #eab308;\">Hubhöhe</b> des Gabelstaplers reicht für die obersten Regale im Server-Lager."
+    "example": "Die <b style=\"color: #eab308;\">Hubhöhe</b> des Gabelstaplers **ist für das Einlagern der Paletten völlig ausreichend**."
   },
   {
     "level": "B2",
@@ -15048,7 +15047,7 @@
     "german_audio": "die Kaufentscheidung",
     "english": "purchase decision",
     "ukrainian": "рішення про покупку",
-    "example": "Gute Reviews im Internet beeinflussen die <b style=\"color: #eab308;\">Kaufentscheidung</b> für Software."
+    "example": "Der Preis und die Qualität **sind ausschlaggebende Kriterien für die <b style=\"color: #eab308;\">Kaufentscheidung</b>**."
   },
   {
     "level": "B2",
@@ -15060,7 +15059,7 @@
     "german_audio": "lagern",
     "english": "to store",
     "ukrainian": "зберігати",
-    "example": "Wir <b style=\"color: #eab308;\">lagern</b> die Backups verschlüsselt in einem externen Rechenzentrum."
+    "example": "Die Werkzeuge **müssen sicher im dafür vorgesehenen Bereich gelagert werden**."
   },
   {
     "level": "B2",
@@ -15072,7 +15071,7 @@
     "german_audio": "die Neuanschaffung",
     "english": "new acquisition, purchase",
     "ukrainian": "нове придбання",
-    "example": "Die <b style=\"color: #eab308;\">Neuanschaffung</b> von 3D-Druckern hat unsere Prototypen-Entwicklung beschleunigt."
+    "example": "Die <b style=\"color: #eab308;\">Neuanschaffung</b> der IT-Ausrüstung **wurde durch einen staatlichen Zuschuss gefördert**."
   },
   {
     "level": "B2",
@@ -15084,7 +15083,7 @@
     "german_audio": "das Qualitätsproblem",
     "english": "quality problem",
     "ukrainian": "проблема з якістю",
-    "example": "Dieses Framework hat ein bekanntes <b style=\"color: #eab308;\">Qualitätsproblem</b> beim Speichermanagement."
+    "example": "Wegen eines <b style=\"color: #eab308;\">Qualitätsproblems</b> **hat der Kunde eine offizielle Reklamation eingereicht**."
   },
   {
     "level": "B2",
@@ -15096,7 +15095,7 @@
     "german_audio": "der Rabatt",
     "english": "discount",
     "ukrainian": "знижка",
-    "example": "Wir bekommen als Startup einen großen <b style=\"color: #eab308;\">Rabatt</b> auf die Cloud-Kosten."
+    "example": "Bei der Bestellung größerer Mengen **gewährt uns der Lieferant einen attraktiven <b style=\"color: #eab308;\">Rabatt</b>**."
   },
   {
     "level": "B2",
@@ -15108,7 +15107,7 @@
     "german_audio": "die Raumhöhe",
     "english": "room height",
     "ukrainian": "висота приміщення",
-    "example": "Die <b style=\"color: #eab308;\">Raumhöhe</b> im Serverraum muss für die Kühlungsanlagen ausreichen."
+    "example": "Die <b style=\"color: #eab308;\">Raumhöhe</b> im neuen Lager **erlaubt die Installation einer höheren Regalanlage**."
   },
   {
     "level": "B2",
@@ -15120,7 +15119,7 @@
     "german_audio": "die Tragfähigkeit",
     "english": "load capacity",
     "ukrainian": "вантажопідйомність, несуча здатність",
-    "example": "Die <b style=\"color: #eab308;\">Tragfähigkeit</b> des Bodens im Data Center muss sehr hoch sein."
+    "example": "Die <b style=\"color: #eab308;\">Tragfähigkeit</b> der Hebebühne **wird beim Sicherheits-Audit genau kontrolliert**."
   },
   {
     "level": "B2",
@@ -15132,7 +15131,7 @@
     "german_audio": "trotzdem",
     "english": "nevertheless, anyway",
     "ukrainian": "незважаючи на це, все ж",
-    "example": "Das Projekt war extrem stressig, <b style=\"color: #eab308;\">trotzdem</b> haben wir die Deadline geschafft."
+    "example": "Das Angebot war teuer, **<b style=\"color: #eab308;\">trotzdem</b> haben wir uns für diese innovative Lösung entschieden**."
   },
   {
     "level": "B2",
@@ -15144,7 +15143,7 @@
     "german_audio": "überzeugend",
     "english": "convincing",
     "ukrainian": "переконливий",
-    "example": "Das Konzept für die neue Software-Architektur war sehr <b style=\"color: #eab308;\">überzeugend</b>."
+    "example": "Die Präsentation des Projekts war **äußerst <b style=\"color: #eab308;\">überzeugend</b> für das Fachpublikum**."
   },
   {
     "level": "B2",
@@ -15156,7 +15155,7 @@
     "german_audio": "die Wartung",
     "english": "maintenance",
     "ukrainian": "технічне обслуговування",
-    "example": "Die monatliche <b style=\"color: #eab308;\">Wartung</b> der Datenbank findet am Wochenende statt."
+    "example": "Die regelmäßige <b style=\"color: #eab308;\">Wartung</b> der Server **beugt unerwarteten Betriebsausfällen vor**."
   },
   {
     "level": "B2",
@@ -15168,7 +15167,7 @@
     "german_audio": "das Bedienungsproblem",
     "english": "operating problem, user error",
     "ukrainian": "проблема з експлуатацією / використанням",
-    "example": "Ein gutes UX-Design verhindert ein <b style=\"color: #eab308;\">Bedienungsproblem</b> durch den User."
+    "example": "Ein häufiges <b style=\"color: #eab308;\">Bedienungsproblem</b> **weist auf eine mangelhafte Einweisung der Mitarbeiter hin**."
   },
   {
     "level": "B2",
@@ -15180,7 +15179,7 @@
     "german_audio": "beheben",
     "english": "to fix, to resolve (an error)",
     "ukrainian": "усувати, виправляти (напр., помилку)",
-    "example": "Wir konnten den kritischen Bug im Code schnell <b style=\"color: #eab308;\">beheben</b>."
+    "example": "Der Techniker konnte den Mangel am Gerät **schnell und fehlerfrei <b style=\"color: #eab308;\">beheben</b>**."
   },
   {
     "level": "B2",
@@ -15192,7 +15191,7 @@
     "german_audio": "beseitigen",
     "english": "to eliminate, to remove",
     "ukrainian": "усувати, ліквідувати",
-    "example": "Das Skript soll alte Cache-Dateien automatisch <b style=\"color: #eab308;\">beseitigen</b>."
+    "example": "Wir müssen alle Gefahrenquellen am Arbeitsplatz **systematisch <b style=\"color: #eab308;\">beseitigen</b>**."
   },
   {
     "level": "B2",
@@ -15204,7 +15203,7 @@
     "german_audio": "der Defekt",
     "english": "defect, fault",
     "ukrainian": "дефект, несправність",
-    "example": "Wegen eines Hardware-<b style=\"color: #eab308;\">Defekts</b> auf dem Mainboard startet der PC nicht mehr."
+    "example": "<b>Aufgrund eines technischen <b style=\"color: #eab308;\">Defekts</b> ist die gesamte Produktion unterbrochen</b>."
   },
   {
     "level": "B2",
@@ -15212,11 +15211,11 @@
       "B2"
     ],
     "thema": 6,
-    "german": "einerseits ..., andererseits ...",
-    "german_audio": "einerseits ...",
-    "english": "on the one hand ..., on the other hand ...",
-    "ukrainian": "з одного боку ..., з іншого боку ...",
-    "example": "Einerseits ist die Cloud flexibel, andererseits kostet sie viel Geld."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Fehlfunktion, -en",
+    "german_audio": "die Fehlfunktion",
+    "english": "malfunction",
+    "ukrainian": "збій, порушення функції",
+    "example": "Eine <b style=\"color: #eab308;\">Fehlfunktion</b> der Elektronik **muss umgehend dem Sicherheitsbeauftragten gemeldet werden**."
   },
   {
     "level": "B2",
@@ -15224,11 +15223,11 @@
       "B2"
     ],
     "thema": 6,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Einstellung, -en",
-    "german_audio": "die Einstellung",
-    "english": "setting",
-    "ukrainian": "налаштування",
-    "example": "Du kannst den Dark Mode in den Account-<b style=\"color: #eab308;\">Einstellungen</b> aktivieren."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Garantie, -n",
+    "german_audio": "die Garantie",
+    "english": "guarantee",
+    "ukrainian": "гарантія (від виробника)",
+    "example": "Der Hersteller **gewährt eine freiwillige <b style=\"color: #eab308;\">Garantie</b> von drei Jahren auf das Modell**."
   },
   {
     "level": "B2",
@@ -15236,11 +15235,11 @@
       "B2"
     ],
     "thema": 6,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Elektronik (Sg.)",
-    "german_audio": "die Elektronik",
-    "english": "electronics",
-    "ukrainian": "електроніка",
-    "example": "Die feine <b style=\"color: #eab308;\">Elektronik</b> auf der Platine ist sehr empfindlich gegen Wasser."
+    "german": "etw. reklamieren (reklamiert, reklamierte, hat reklamiert)",
+    "german_audio": "reklamieren",
+    "english": "to complain about / return",
+    "ukrainian": "пред'являти претензію, повертати (через брак)",
+    "example": "Wir müssen die mangelhafte Lieferung **beim Hersteller schriftlich <b style=\"color: #eab308;\">reklamieren</b>**."
   },
   {
     "level": "B2",
@@ -15248,11 +15247,11 @@
       "B2"
     ],
     "thema": 6,
-    "german": "etw. entkalken (entkalkt, entkalkte, hat entkalkt)",
-    "german_audio": "entkalken",
-    "english": "to descale",
-    "ukrainian": "очищати від накипу",
-    "example": "Der Praktikant muss die Kaffeemaschine im IT-Büro <b style=\"color: #eab308;\">entkalken</b>."
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Schadensfall, \"-e",
+    "german_audio": "der Schadensfall",
+    "english": "case of damage",
+    "ukrainian": "страховий випадок (пошкодження)",
+    "example": "Im <b style=\"color: #eab308;\">Schadensfall</b> **übernimmt die Versicherung die Kosten für die Wiederbeschaffung**."
   },
   {
     "level": "B2",
@@ -15260,11 +15259,11 @@
       "B2"
     ],
     "thema": 6,
-    "german": "etw. erhitzen (erhitzt, erhitzte, hat erhitzt)",
-    "german_audio": "erhitzen",
-    "english": "to heat up",
-    "ukrainian": "нагрівати",
-    "example": "Wenn der Algorithmus läuft, kann sich die CPU stark <b style=\"color: #eab308;\">erhitzen</b>."
+    "german": "etw. umtauschen (tauscht um, tauschte um, hat umgetauscht)",
+    "german_audio": "umtauschen",
+    "english": "to exchange / replace",
+    "ukrainian": "обмінювати",
+    "example": "Der Kunde möchte das beschädigte Gerät **gegen ein fehlerfreies Modell <b style=\"color: #eab308;\">umtauschen</b>**."
   },
   {
     "level": "B2",
@@ -15272,11 +15271,11 @@
       "B2"
     ],
     "thema": 6,
-    "german": "etw. herunterladen (lädt herunter, lud herunter, hat heruntergeladen)",
-    "german_audio": "herunterladen",
-    "english": "to download",
-    "ukrainian": "завантажувати",
-    "example": "Bitte lade die neueste Version von Docker <b style=\"color: #eab308;\">herunter</b>."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Mangelrüge, -n",
+    "german_audio": "die Mangelrüge",
+    "english": "notice of defects",
+    "ukrainian": "повідомлення про недоліки товару (офіційне)",
+    "example": "Die <b style=\"color: #eab308;\">Mangelrüge</b> **wurde unter Einhaltung der gesetzlichen Frist eingereicht**."
   },
   {
     "level": "B2",
@@ -15284,11 +15283,11 @@
       "B2"
     ],
     "thema": 6,
-    "german": "je ..., desto ...",
-    "german_audio": "je ...",
-    "english": "the ..., the ...",
-    "ukrainian": "чим ..., тим ...",
-    "example": "Je sauberer der Code ist, desto weniger Bugs entstehen."
+    "german": "mangelhaft",
+    "german_audio": "mangelhaft",
+    "english": "defective, deficient",
+    "ukrainian": "неякісний, з дефектами",
+    "example": "Die gelieferten Ersatzteile waren <b style=\"color: #eab308;\">mangelhaft</b>, **folglich müssen wir sie reklamieren**."
   },
   {
     "level": "B2",
@@ -15296,11 +15295,11 @@
       "B2"
     ],
     "thema": 6,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Kaffeesatzbehälter, -",
-    "german_audio": "der Kaffeesatzbehälter",
-    "english": "coffee grounds container",
-    "ukrainian": "контейнер для кавової гущі",
-    "example": "Bitte leeren Sie den <b style=\"color: #eab308;\">Kaffeesatzbehälter</b> nach der Benutzung aus."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Nachbesserung, -en",
+    "german_audio": "die Nachbesserung",
+    "english": "rectification / rework",
+    "ukrainian": "усунення недоліків (доробка)",
+    "example": "Wir verlangen eine <b style=\"color: #eab308;\">Nachbesserung</b>, **um die Funktionstüchtigkeit des Geräts abzusichern**."
   },
   {
     "level": "B2",
@@ -15308,11 +15307,11 @@
       "B2"
     ],
     "thema": 6,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Mechanik (Sg.)",
-    "german_audio": "die Mechanik",
-    "english": "mechanics",
-    "ukrainian": "механіка",
-    "example": "Neben Elektronik ist auch <b style=\"color: #eab308;\">Mechanik</b> wichtig für den Bau von Robotern."
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Ersatzgerät, -e",
+    "german_audio": "das Ersatzgerät",
+    "english": "replacement device",
+    "ukrainian": "підмінний пристрій",
+    "example": "Während der Reparatur **stellt uns der Kundenservice ein kostenloses <b style=\"color: #eab308;\">Ersatzgerät</b> zur Verfügung**."
   },
   {
     "level": "B2",
@@ -15320,11 +15319,11 @@
       "B2"
     ],
     "thema": 6,
-    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Menü, -s",
-    "german_audio": "das Menü",
-    "english": "menu",
-    "ukrainian": "меню",
-    "example": "Das Navigations-<b style=\"color: #eab308;\">Menü</b> auf unserer Webseite muss intuitiver werden."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Preisminderung, -en",
+    "german_audio": "die Preisminderung",
+    "english": "price reduction",
+    "ukrainian": "зниження ціни (через дефекти)",
+    "example": "Wegen der Mängel **haben wir uns mit dem Lieferanten auf eine <b style=\"color: #eab308;\">Preisminderung</b> geeinigt**."
   },
   {
     "level": "B2",
@@ -15332,11 +15331,11 @@
       "B2"
     ],
     "thema": 6,
-    "german": "etw. nachfüllen (füllt nach, füllte nach, hat nachgefüllt)",
-    "german_audio": "nachfüllen",
-    "english": "to refill",
-    "ukrainian": "поповнювати, доливати",
-    "example": "Der Drucker im Büro zeigt an, dass wir Tinte <b style=\"color: #eab308;\">nachfüllen</b> müssen."
+    "german": "vom Vertrag zurücktreten (tritt zurück, trat zurück, ist zurückgetreten)",
+    "german_audio": "vom Vertrag zurücktreten",
+    "english": "to withdraw from the contract",
+    "ukrainian": "розірвати договір (відмовитися від виконання)",
+    "example": "Bei wiederholten Fehlern **haben wir das Recht, vom Vertrag <b style=\"color: #eab308;\">zurückzutreten</b>**."
   },
   {
     "level": "B2",
@@ -15344,11 +15343,11 @@
       "B2"
     ],
     "thema": 6,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Programmierung, -en",
-    "german_audio": "die Programmierung",
-    "english": "programming",
-    "ukrainian": "програмування",
-    "example": "Die <b style=\"color: #eab308;\">Programmierung</b> von Künstlicher Intelligenz erfordert viel Mathe-Wissen."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Nacherfüllung (Sg.)",
+    "german_audio": "die Nacherfüllung",
+    "english": "subsequent performance",
+    "ukrainian": "додаткове виконання (усунення недоліків або заміна)",
+    "example": "Der Käufer **hat einen gesetzlichen Anspruch auf <b style=\"color: #eab308;\">Nacherfüllung</b>** bei Mängeln."
   },
   {
     "level": "B2",
@@ -15356,11 +15355,11 @@
       "B2"
     ],
     "thema": 6,
-    "german": "etw. reinigen (reinigt, reinigte, hat gereinigt)",
-    "german_audio": "reinigen",
-    "english": "to clean",
-    "ukrainian": "чистити",
-    "example": "Es ist wichtig, die Tastatur und den Monitor regelmäßig zu <b style=\"color: #eab308;\">reinigen</b>."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Schadenersatz, -e",
+    "german_audio": "die Schadenersatz",
+    "english": "compensation for damages",
+    "ukrainian": "відшкодування збитків",
+    "example": "Wir werden <b style=\"color: #eab308;\">Schadenersatz</b> **für den erlittenen Produktionsausfall in Rechnung stellen**."
   },
   {
     "level": "B2",
@@ -15368,11 +15367,11 @@
       "B2"
     ],
     "thema": 6,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Reinigungstablette, -n",
-    "german_audio": "die Reinigungstablette",
-    "english": "cleaning tablet",
-    "ukrainian": "таблетка для чищення",
-    "example": "Die Kaffeemaschine verlangt nach einer <b style=\"color: #eab308;\">Reinigungstablette</b>."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Beweislast (Sg.)",
+    "german_audio": "die Beweislast",
+    "english": "burden of proof",
+    "ukrainian": "тягар доведення (провини/браку)",
+    "example": "Nach sechs Monaten **liegt die <b style=\"color: #eab308;\">Beweislast</b> beim Käufer, dass der Mangel von Anfang an bestand**."
   },
   {
     "level": "B2",
@@ -15380,11 +15379,11 @@
       "B2"
     ],
     "thema": 6,
-    "german": "etw. säubern (säubert, säuberte, hat gesäubert)",
-    "german_audio": "säubern",
-    "english": "to clean",
-    "ukrainian": "очищати",
-    "example": "Ich nutze ein Skript, um die alte Datenbank zu <b style=\"color: #eab308;\">säubern</b>."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Mängelhaftung (Sg.)",
+    "german_audio": "die Mängelhaftung",
+    "english": "liability for defects",
+    "ukrainian": "відповідальність за дефекти",
+    "example": "Die gesetzliche <b style=\"color: #eab308;\">Mängelhaftung</b> **schützt den Käufer vor finanziellen Schäden**."
   },
   {
     "level": "B2",
@@ -15392,11 +15391,11 @@
       "B2"
     ],
     "thema": 6,
-    "german": "sowohl ... als auch ...",
-    "german_audio": "sowohl ... als auch ...",
-    "english": "both ... and ...",
-    "ukrainian": "як ..., так і ...",
-    "example": "Die App ist sowohl für iOS als auch für Android verfügbar."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Gewährleistungsfrist, -en",
+    "german_audio": "die Gewährleistungsfrist",
+    "english": "warranty period",
+    "ukrainian": "гарантійний термін",
+    "example": "Die <b style=\"color: #eab308;\">Gewährleistungsfrist</b> **beträgt für Neuanschaffungen in der Regel 24 Monate**."
   },
   {
     "level": "B2",
@@ -15404,11 +15403,11 @@
       "B2"
     ],
     "thema": 6,
-    "german": "etw. starten (startet, startete, hat gestartet)",
-    "german_audio": "starten",
-    "english": "to start, to boot",
-    "ukrainian": "запускати",
-    "example": "Nach der Installation musst du den lokalen Server neu <b style=\"color: #eab308;\">starten</b>."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Reparatur, -en",
+    "german_audio": "die Reparatur",
+    "english": "repair",
+    "ukrainian": "ремонт",
+    "example": "Die <b style=\"color: #eab308;\">Reparatur</b> der Hebebühne **wurde vom Werkstattmeister erfolgreich durchgeführt**."
   },
   {
     "level": "B2",
@@ -15416,11 +15415,83 @@
       "B2"
     ],
     "thema": 6,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Stillstand (Sg.)",
-    "german_audio": "der Stillstand",
-    "english": "standstill, downtime",
-    "ukrainian": "простій, зупинка",
-    "example": "Ein Server-<b style=\"color: #eab308;\">Stillstand</b> von nur fünf Minuten kostet das Unternehmen viel Geld."
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Kostenvoranschlag, \"-e",
+    "german_audio": "der Kostenvoranschlag",
+    "english": "cost estimate",
+    "ukrainian": "кошторис (оцінка витрат)",
+    "example": "Bitte **erstellen Sie uns einen <b style=\"color: #eab308;\">Kostenvoranschlag</b> für die anstehende Wartung**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 6,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Kulanz (Sg.)",
+    "german_audio": "die Kulanz",
+    "english": "goodwill",
+    "ukrainian": "добровільна поступка (куланс — лояльність без юр. зобов'язань)",
+    "example": "Der Hersteller hat das Display **auf <b style=\"color: #eab308;\">Kulanz</b> und ohne zusätzliche Kosten ausgetauscht**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 6,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Kundendienst, -e",
+    "german_audio": "die Kundendienst",
+    "english": "customer service",
+    "ukrainian": "сервісна служба",
+    "example": "Der <b style=\"color: #eab308;\">Kundenservice</b> **reagierte schnell und freundlich auf unsere Mangelrüge**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 6,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Service-Hotline, -s",
+    "german_audio": "die Service-Hotline",
+    "english": "service hotline",
+    "ukrainian": "гаряча лінія підтримки",
+    "example": "Bei Bedienungsproblemen **können Sie sich an die <b style=\"color: #eab308;\">Service-Hotline</b> wenden**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 6,
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Techniker, - / die Technikerin, -nen",
+    "german_audio": "der Techniker",
+    "english": "technician",
+    "ukrainian": "технік",
+    "example": "Der <b style=\"color: #eab308;\">Techniker</b> **war mit der Beseitigung der Fehlfunktion beschäftigt**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 6,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Fehlerquelle, -n",
+    "german_audio": "die Fehlerquelle",
+    "english": "source of error",
+    "ukrainian": "джерело помилки",
+    "example": "Eine systematische Analyse **hilft, die <b style=\"color: #eab308;\">Fehlerquelle</b> in der Elektronik zu finden**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 6,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Fehlerbehebung (Sg.)",
+    "german_audio": "die Fehlerbehebung",
+    "english": "debugging / error resolution",
+    "ukrainian": "усунення помилок",
+    "example": "Die <b style=\"color: #eab308;\">Fehlerbehebung</b> **erfolgte ohne nennenswerte Unterbrechung der Produktion**."
   },
   {
     "level": "B2",
@@ -15430,9 +15501,9 @@
     "thema": 6,
     "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Störung, -en",
     "german_audio": "die Störung",
-    "english": "fault, malfunction, disturbance",
-    "ukrainian": "збій, несправність",
-    "example": "Wir haben aktuell eine große <b style=\"color: #eab308;\">Störung</b> im Netzwerk."
+    "english": "disturbance, malfunction",
+    "ukrainian": "несправність, збій, перешкода",
+    "example": "Eine <b style=\"color: #eab308;\">Störung</b> am Server **führte zu Problemen beim Zeiterfassungssystem**."
   },
   {
     "level": "B2",
@@ -15440,11 +15511,11 @@
       "B2"
     ],
     "thema": 6,
-    "german": "umgehend",
-    "german_audio": "umgehend",
-    "english": "immediately, promptly",
-    "ukrainian": "негайно, терміново",
-    "example": "Bitte kümmern Sie sich <b style=\"color: #eab308;\">umgehend</b> um das Support-Ticket des Kunden."
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Ausfall, \"-e",
+    "german_audio": "der Ausfall",
+    "english": "failure, breakdown",
+    "ukrainian": "вихід з ладу, простій",
+    "example": "Der <b style=\"color: #eab308;\">Ausfall</b> der Maschine **hatte erhebliche finanzielle Auswirkungen auf den Betrieb**."
   },
   {
     "level": "B2",
@@ -15452,11 +15523,11 @@
       "B2"
     ],
     "thema": 6,
-    "german": "etw. verwenden (verwendet, verwendete, hat verwendet)",
-    "german_audio": "verwenden",
-    "english": "to use, to apply",
-    "ukrainian": "використовувати",
-    "example": "Für das Backend <b style=\"color: #eab308;\">verwenden</b> wir momentan Node.js."
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Produktionsausfall, \"-e",
+    "german_audio": "der Produktionsausfall",
+    "english": "production loss/stoppage",
+    "ukrainian": "зупинка виробництва, втрата продукції",
+    "example": "Wir verlangen Schadenersatz **für den durch die Störung verursachten <b style=\"color: #eab308;\">Produktionsausfall</b>**."
   },
   {
     "level": "B2",
@@ -15464,11 +15535,11 @@
       "B2"
     ],
     "thema": 6,
-    "german": "zwar ..., aber ...",
-    "german_audio": "zwar ...",
-    "english": "indeed ..., but ...",
-    "ukrainian": "хоча й ..., але ...",
-    "example": "Der Code ist zwar sehr kurz, aber schwer zu verstehen."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Ausfallzeit, -en",
+    "german_audio": "die Ausfallzeit",
+    "english": "downtime",
+    "ukrainian": "час простою (коли техніка не працює)",
+    "example": "Die Minimierung der <b style=\"color: #eab308;\">Ausfallzeiten</b> **steht bei der Wartung im Vordergrund**."
   },
   {
     "level": "B2",
@@ -15476,11 +15547,11 @@
       "B2"
     ],
     "thema": 6,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> (Drehmoment-)Schlüssel, -",
-    "german_audio": "derSchlüssel",
-    "english": "(torque) wrench",
-    "ukrainian": "(динамометричний) гайковий ключ",
-    "example": "Der Mechaniker zieht die Schraube am Auto mit dem Drehmoment-Schlüssel fest."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Wartungsarbeiten (Pl.)",
+    "german_audio": "die Wartungsarbeiten",
+    "english": "maintenance work",
+    "ukrainian": "профілактичні роботи",
+    "example": "Die <b style=\"color: #eab308;\">Wartungsarbeiten</b> **werden am Wochenende durchgeführt, um Störungen zu vermeiden**."
   },
   {
     "level": "B2",
@@ -15488,11 +15559,11 @@
       "B2"
     ],
     "thema": 6,
-    "german": "etw. abmontieren (montiert ab, montierte ab, hat abmontiert)",
-    "german_audio": "abmontieren",
-    "english": "to dismantle, to remove",
-    "ukrainian": "демонтувати, знімати",
-    "example": "Ich muss die Abdeckung des Servers <b style=\"color: #eab308;\">abmontieren</b>, um den RAM zu tauschen."
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Wartungsplan, \"-e",
+    "german_audio": "der Wartungsplan",
+    "english": "maintenance plan",
+    "ukrainian": "план технічного обслуговування",
+    "example": "Der <b style=\"color: #eab308;\">Wartungsplan</b> **muss die gesetzlichen Richtlinien zur Unfallverhütung beachten**."
   },
   {
     "level": "B2",
@@ -15500,11 +15571,11 @@
       "B2"
     ],
     "thema": 6,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Aktionstag, -e",
-    "german_audio": "der Aktionstag",
-    "english": "promotional day, action day",
-    "ukrainian": "день акції / кампанії",
-    "example": "Am Black Friday gibt es einen <b style=\"color: #eab308;\">Aktionstag</b> mit großen Software-Rabatten."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Instandsetzung, -en",
+    "german_audio": "die Instandsetzung",
+    "english": "repair / reconditioning",
+    "ukrainian": "ремонт, приведення в робочий стан",
+    "example": "Die <b style=\"color: #eab308;\">Instandsetzung</b> der Hebebühne **erfordert die Sachkenntnis eines Facharbeiters**."
   },
   {
     "level": "B2",
@@ -15512,11 +15583,11 @@
       "B2"
     ],
     "thema": 6,
-    "german": "etw. anheben (hebt an, hob an, hat angehoben)",
-    "german_audio": "anheben",
-    "english": "to lift, to raise",
-    "ukrainian": "піднімати",
-    "example": "Der Wagenheber wird benutzt, um das Auto anzuheben."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Instandhaltung (Sg.)",
+    "german_audio": "die Instandhaltung",
+    "english": "maintenance",
+    "ukrainian": "утримання в справності, обслуговування",
+    "example": "Die regelmäßige <b style=\"color: #eab308;\">Instandhaltung</b> **sichert die Tragfähigkeit der Lagerregale ab**."
   },
   {
     "level": "B2",
@@ -15524,11 +15595,11 @@
       "B2"
     ],
     "thema": 6,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Auszubildende, -n / die Auszubildende, -n",
-    "german_audio": "der Auszubildende",
-    "english": "trainee, apprentice",
-    "ukrainian": "стажер, учень",
-    "example": "Der <b style=\"color: #eab308;\">Auszubildende</b> (Azubi) lernt heute, wie man Netzwerkkabel crimpt."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Ersatzteilbestellung, -en",
+    "german_audio": "die Ersatzteilbestellung",
+    "english": "spare parts order",
+    "ukrainian": "замовлення запасних частин",
+    "example": "Die <b style=\"color: #eab308;\">Ersatzteilbestellung</b> **wurde online an die Vertriebsabteilung gesendet**."
   },
   {
     "level": "B2",
@@ -15536,11 +15607,11 @@
       "B2"
     ],
     "thema": 6,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Autobatterie, -n",
-    "german_audio": "die Autobatterie",
-    "english": "car battery",
-    "ukrainian": "автомобільний акумулятор",
-    "example": "Im Winter streikt oft die <b style=\"color: #eab308;\">Autobatterie</b> des Firmenwagens."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Lieferbarkeit (Sg.)",
+    "german_audio": "die Lieferbarkeit",
+    "english": "availability (for delivery)",
+    "ukrainian": "наявність для поставки",
+    "example": "Bitte überprüfen Sie **die <b style=\"color: #eab308;\">Lieferbarkeit</b> der Ersatzteile im System**."
   },
   {
     "level": "B2",
@@ -15548,11 +15619,11 @@
       "B2"
     ],
     "thema": 6,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Azubi, -s / die Azubi, -s",
-    "german_audio": "der Azubi",
-    "english": "trainee, apprentice (short form)",
-    "ukrainian": "стажер, учень (скорочено)",
-    "example": "Unser neuer IT-<b style=\"color: #eab308;\">Azubi</b> richtet gerade seinen Arbeitsplatz ein."
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Lagerbestand, \"-e",
+    "german_audio": "der Lagerbestand",
+    "english": "stock, inventory",
+    "ukrainian": "запас на складі",
+    "example": "Der <b style=\"color: #eab308;\">Lagerbestand</b> **wird kontinuierlich durch das ERP-System überwacht**."
   },
   {
     "level": "B2",
@@ -15560,11 +15631,11 @@
       "B2"
     ],
     "thema": 6,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Bremsflüssigkeit (Sg.)",
-    "german_audio": "die Bremsflüssigkeit",
-    "english": "brake fluid",
-    "ukrainian": "гальмівна рідина",
-    "example": "Bei der Inspektion wurde die <b style=\"color: #eab308;\">Bremsflüssigkeit</b> des Leasing-Autos gewechselt."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Nachlieferung, -en",
+    "german_audio": "die Nachlieferung",
+    "english": "subsequent delivery",
+    "ukrainian": "допоставка (того, чого не вистачало)",
+    "example": "Wir bitten um eine schnelle <b style=\"color: #eab308;\">Nachlieferung</b> **der fehlenden Montageschrauben**."
   },
   {
     "level": "B2",
@@ -15572,11 +15643,11 @@
       "B2"
     ],
     "thema": 6,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Drahtbürste, -n",
-    "german_audio": "die Drahtbürste",
-    "english": "wire brush",
-    "ukrainian": "дротяна щітка",
-    "example": "Rostige Teile werden in der Werkstatt mit der <b style=\"color: #eab308;\">Drahtbürste</b> gereinigt."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Fehllieferung, -en",
+    "german_audio": "die Fehllieferung",
+    "english": "wrong delivery",
+    "ukrainian": "помилкова поставка",
+    "example": "Die <b style=\"color: #eab308;\">Fehllieferung</b> **wurde vom Wareneingang schriftlich reklamiert**."
   },
   {
     "level": "B2",
@@ -15584,11 +15655,11 @@
       "B2"
     ],
     "thema": 6,
-    "german": "etw. eindrehen (dreht ein, drehte ein, hat eingedreht)",
-    "german_audio": "eindrehen",
-    "english": "to screw in",
-    "ukrainian": "вкручувати",
-    "example": "Du musst die Schraube für das Motherboard vorsichtig <b style=\"color: #eab308;\">eindrehen</b>."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Falschlieferung, -en",
+    "german_audio": "die Falschlieferung",
+    "english": "incorrect delivery",
+    "ukrainian": "поставка не того товару",
+    "example": "Bei der <b style=\"color: #eab308;\">Falschlieferung</b> **handelt es sich um ein Qualitätsproblem beim Absender**."
   },
   {
     "level": "B2",
@@ -15596,11 +15667,11 @@
       "B2"
     ],
     "thema": 6,
-    "german": "etw. einfetten (fettet ein, fettete ein, hat eingefettet)",
-    "german_audio": "einfetten",
-    "english": "to grease, to lubricate",
-    "ukrainian": "змащувати (жиром/мастилом)",
-    "example": "Der Mechaniker muss die quietschende Tür des Firmenwagens <b style=\"color: #eab308;\">einfetten</b>."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Minderlieferung, -en",
+    "german_audio": "die Minderlieferung",
+    "english": "short delivery",
+    "ukrainian": "недопоставка",
+    "example": "Eine <b style=\"color: #eab308;\">Minderlieferung</b> **muss sofort im Übergabeprotokoll dokumentiert werden**."
   },
   {
     "level": "B2",
@@ -15608,11 +15679,11 @@
       "B2"
     ],
     "thema": 6,
-    "german": "etw. einfüllen (füllt ein, füllte ein, hat eingefüllt)",
-    "german_audio": "einfüllen",
-    "english": "to fill in, to pour in",
-    "ukrainian": "наливати, наповнювати",
-    "example": "Wir müssen Wasser in das Kühlsystem des Gaming-PCs <b style=\"color: #eab308;\">einfüllen</b>."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Mehrlieferung, -en",
+    "german_audio": "die Mehrlieferung",
+    "english": "excess delivery",
+    "ukrainian": "надлишкова поставка",
+    "example": "Die <b style=\"color: #eab308;\">Mehrlieferung</b> **wurde dem Lieferanten zur Abholung gemeldet**."
   },
   {
     "level": "B2",
@@ -15620,11 +15691,11 @@
       "B2"
     ],
     "thema": 6,
-    "german": "etw. einlagern (lagert ein, lagerte ein, hat eingelagert)",
-    "german_audio": "einlagern",
-    "english": "to store",
-    "ukrainian": "здавати на зберігання",
-    "example": "Die Sommerreifen werden über den Winter in der Werkstatt eingelagert."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Rücksendung, -en",
+    "german_audio": "die Rücksendung",
+    "english": "return shipment",
+    "ukrainian": "повернення товару (відправка назад)",
+    "example": "Die <b style=\"color: #eab308;\">Rücksendung</b> der defekten Ware **erfolgt auf Kosten des Herstellers**."
   },
   {
     "level": "B2",
@@ -15632,11 +15703,11 @@
       "B2"
     ],
     "thema": 6,
-    "german": "etw. festdrehen (dreht fest, drehte fest, hat festgedreht)",
-    "german_audio": "festdrehen",
-    "english": "to tighten",
-    "ukrainian": "закручувати, затягувати",
-    "example": "Vergiss nicht, die Schrauben an der <b style=\"color: #eab308;\">Festplatte</b> richtig festzudrehen."
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Rücksendeetikett, -en",
+    "german_audio": "das Rücksendeetikett",
+    "english": "return label",
+    "ukrainian": "етикетка для повернення",
+    "example": "Das <b style=\"color: #eab308;\">Rücksendeetikett</b> **steht dem Kunden im Service-Portal zum Download bereit**."
   },
   {
     "level": "B2",
@@ -15644,11 +15715,11 @@
       "B2"
     ],
     "thema": 6,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Fettkreide, -n",
-    "german_audio": "die Fettkreide",
-    "english": "wax crayon",
-    "ukrainian": "воскова крейда",
-    "example": "Mit <b style=\"color: #eab308;\">Fettkreide</b> markiert der Mechaniker die Position der Reifen."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Retoure, -n",
+    "german_audio": "die Retoure",
+    "english": "return, returned goods",
+    "ukrainian": "повернення (товар, який повернули)",
+    "example": "Das Beschwerdemanagement **bearbeitet die <b style=\"color: #eab308;\">Retouren</b> innerhalb von drei Werktagen**."
   },
   {
     "level": "B2",
@@ -15656,11 +15727,11 @@
       "B2"
     ],
     "thema": 6,
-    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Frostschutzmittel, -",
-    "german_audio": "das Frostschutzmittel",
-    "english": "antifreeze",
-    "ukrainian": "антифриз",
-    "example": "Im Dezember füllen wir <b style=\"color: #eab308;\">Frostschutzmittel</b> in das Wischwasser des Autos."
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Retourenschein, -e",
+    "german_audio": "der Retourenschein",
+    "english": "return slip",
+    "ukrainian": "бланк повернення",
+    "example": "Bitte **legen Sie den ausgefüllten <b style=\"color: #eab308;\">Retourenschein</b> dem Paket bei**."
   },
   {
     "level": "B2",
@@ -15668,11 +15739,11 @@
       "B2"
     ],
     "thema": 6,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Kratzer, -",
-    "german_audio": "der Kratzer",
-    "english": "scratch",
-    "ukrainian": "подряпина",
-    "example": "Leider hat der Bildschirm des neuen Laptops einen tiefen <b style=\"color: #eab308;\">Kratzer</b>."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Gutschrift, -en",
+    "german_audio": "die Gutschrift",
+    "english": "credit note / credit",
+    "ukrainian": "кредит-нота (документ про зарахування грошей на рахунок)",
+    "example": "Die <b style=\"color: #eab308;\">Gutschrift</b> für die Retoure **wird auf Ihr Bankkonto überwiesen**."
   },
   {
     "level": "B2",
@@ -15680,11 +15751,11 @@
       "B2"
     ],
     "thema": 6,
-    "german": "Kunden aufrufen (ruft auf, rief auf, hat aufgerufen)",
-    "german_audio": "Kunden aufrufen",
-    "english": "to call customers",
-    "ukrainian": "викликати клієнтів",
-    "example": "Das System kann Kunden nach ihrer Ticket-Nummer <b style=\"color: #eab308;\">aufrufen</b>."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Rückerstattung, -en",
+    "german_audio": "die Rückerstattung",
+    "english": "refund",
+    "ukrainian": "повернення грошей",
+    "example": "Nach der Stornierung **erfolgt die <b style=\"color: #eab308;\">Rückerstattung</b> der Anzahlung auf Kulanz**."
   },
   {
     "level": "B2",
@@ -15692,11 +15763,11 @@
       "B2"
     ],
     "thema": 6,
-    "german": "etw. lösen (löst, löste, hat gelöst)",
-    "german_audio": "lösen",
-    "english": "to loosen, to solve",
-    "ukrainian": "відкручувати (болт) / вирішувати (проблему)",
-    "example": "Er muss die verrostete Schraube mit etwas Öl <b style=\"color: #eab308;\">lösen</b>."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Preiserstattung, -en",
+    "german_audio": "die Preiserstattung",
+    "english": "refund of price",
+    "ukrainian": "повернення вартості",
+    "example": "Der Kunde **hat Anspruch auf eine vollständige <b style=\"color: #eab308;\">Preiserstattung</b>** bei Fehllieferung."
   },
   {
     "level": "B2",
@@ -15704,11 +15775,11 @@
       "B2"
     ],
     "thema": 6,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Mutter, -n",
-    "german_audio": "die Mutter",
-    "english": "nut (hardware)",
-    "ukrainian": "гайка",
-    "example": "Um das Bauteil zu befestigen, brauchst du eine passende Schraube und <b style=\"color: #eab308;\">Mutter</b>."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Kaufpreisrückzahlung, -en",
+    "german_audio": "die Kaufpreisrückzahlung",
+    "english": "refund of purchase price",
+    "ukrainian": "повернення купівельної ціни",
+    "example": "Die <b style=\"color: #eab308;\">Kaufpreisrückzahlung</b> **wurde vom Buchhaltungs-System veranlasst**."
   },
   {
     "level": "B2",
@@ -15716,11 +15787,11 @@
       "B2"
     ],
     "thema": 6,
-    "german": "etw. nachfüllen",
-    "german_audio": "nachfüllen",
-    "english": "to refill",
-    "ukrainian": "поповнювати, доливати",
-    "example": "Ich muss das Motoröl am Firmenwagen <b style=\"color: #eab308;\">nachfüllen</b>."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Geldrückgabe (Sg.)",
+    "german_audio": "die Geldrückgabe",
+    "english": "money back / refund",
+    "ukrainian": "повернення грошей",
+    "example": "Die <b style=\"color: #eab308;\">Geldrückgabe</b> **erfolgt nach Überprüfung des Schadensfalls**."
   },
   {
     "level": "B2",
@@ -15728,11 +15799,11 @@
       "B2"
     ],
     "thema": 6,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Ölstand (Sg.)",
-    "german_audio": "der Ölstand",
-    "english": "oil level",
-    "ukrainian": "рівень масла",
-    "example": "Ein moderner Bordcomputer misst den <b style=\"color: #eab308;\">Ölstand</b> elektronisch."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Rückgaberecht, -e",
+    "german_audio": "die Rückgaberecht",
+    "english": "right of return",
+    "ukrainian": "право на повернення",
+    "example": "Laut AGB **besteht ein 14-tägiges <b style=\"color: #eab308;\">Rückgaberecht</b> für alle Bestellungen**."
   },
   {
     "level": "B2",
@@ -15740,11 +15811,11 @@
       "B2"
     ],
     "thema": 6,
-    "german": "etw. platzieren (platziert, platzierte, hat platziert)",
-    "german_audio": "platzieren",
-    "english": "to place, to position",
-    "ukrainian": "розміщувати, розташовувати",
-    "example": "Wir <b style=\"color: #eab308;\">platzieren</b> den WLAN-Router zentral im Büro für besseren Empfang."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Widerrufsrecht, -e",
+    "german_audio": "die Widerrufsrecht",
+    "english": "right of withdrawal",
+    "ukrainian": "право на відкликання (скасування замовлення)",
+    "example": "Das gesetzliche <b style=\"color: #eab308;\">Widerrufsrecht</b> **gilt bei Online-Verträgen für Verbraucher**."
   },
   {
     "level": "B2",
@@ -15752,11 +15823,11 @@
       "B2"
     ],
     "thema": 6,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Probefahrt, -en",
-    "german_audio": "die Probefahrt",
-    "english": "test drive",
-    "ukrainian": "тестова поїздка",
-    "example": "Nach dem Update der Auto-Software machen wir eine <b style=\"color: #eab308;\">Probefahrt</b>."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Widerrufsfrist, -en",
+    "german_audio": "die Widerrufsfrist",
+    "english": "withdrawal period",
+    "ukrainian": "термін відкликання",
+    "example": "Die <b style=\"color: #eab308;\">Widerrufsfrist</b> **erstreckt sich über 14 Tage ab Erhalt der Ware**."
   },
   {
     "level": "B2",
@@ -15764,11 +15835,11 @@
       "B2"
     ],
     "thema": 6,
-    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Profil, -e",
-    "german_audio": "das Profil",
-    "english": "profile, tread",
-    "ukrainian": "профіль, протектор шини",
-    "example": "Das <b style=\"color: #eab308;\">Profil</b> der Reifen ist schon sehr abgenutzt."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Widerrufserklärung, -en",
+    "german_audio": "die Widerrufserklärung",
+    "english": "notice of withdrawal",
+    "ukrainian": "заява про скасування (угоди)",
+    "example": "Die <b style=\"color: #eab308;\">Widerrufserklärung</b> **muss schriftlich per E-Mail oder Post erfolgen**."
   },
   {
     "level": "B2",
@@ -15776,11 +15847,11 @@
       "B2"
     ],
     "thema": 6,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Rabattaktion, -en",
-    "german_audio": "die Rabattaktion",
-    "english": "discount campaign",
-    "ukrainian": "акція зі знижками",
-    "example": "Durch eine <b style=\"color: #eab308;\">Rabattaktion</b> haben wir 50% beim Kauf der Software gespart."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Rückgabefrist, -en",
+    "german_audio": "die Rückgabefrist",
+    "english": "return period",
+    "ukrainian": "термін повернення",
+    "example": "Die <b style=\"color: #eab308;\">Rückgabefrist</b> **wurde in den Verkaufsbedingungen genau festgelegt**."
   },
   {
     "level": "B2",
@@ -15788,11 +15859,11 @@
       "B2"
     ],
     "thema": 6,
-    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Radkreuz, -e",
-    "german_audio": "das Radkreuz",
-    "english": "wheel brace, lug wrench",
-    "ukrainian": "балонний ключ",
-    "example": "Mit dem <b style=\"color: #eab308;\">Radkreuz</b> lassen sich die Radmuttern am Auto lösen."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Kulanzregelung, -en",
+    "german_audio": "die Kulanzregelung",
+    "english": "goodwill policy",
+    "ukrainian": "правила надання пільг на добровільній основі",
+    "example": "Die <b style=\"color: #eab308;\">Kulanzregelung</b> **sieht einen kostenlosen Austausch des Displays vor**."
   },
   {
     "level": "B2",
@@ -15800,11 +15871,11 @@
       "B2"
     ],
     "thema": 6,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Radnabe, -n",
-    "german_audio": "die Radnabe",
-    "english": "wheel hub",
-    "ukrainian": "маточина колеса",
-    "example": "Die Felge wird auf die <b style=\"color: #eab308;\">Radnabe</b> des Autos geschraubt."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Kulanzentscheidung, -en",
+    "german_audio": "die Kulanzentscheidung",
+    "english": "goodwill decision",
+    "ukrainian": "рішення про добровільну поступку",
+    "example": "Die <b style=\"color: #eab308;\">Kulanzentscheidung</b> **wurde von der Vertriebsleitung getroffen**."
   },
   {
     "level": "B2",
@@ -15812,11 +15883,11 @@
       "B2"
     ],
     "thema": 6,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Reifendruck (Sg.)",
-    "german_audio": "der Reifendruck",
-    "english": "tire pressure",
-    "ukrainian": "тиск у шинах",
-    "example": "Sensoren senden den aktuellen <b style=\"color: #eab308;\">Reifendruck</b> an das Display."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Kulanzantrag, \"-e",
+    "german_audio": "die Kulanzantrag",
+    "english": "goodwill request",
+    "ukrainian": "запит про добровільне врегулювання (без юр. зобов'язань)",
+    "example": "Der Kundendienst **reichte einen <b style=\"color: #eab308;\">Kulanzantrag</b> beim Hersteller ein**."
   },
   {
     "level": "B2",
@@ -15824,11 +15895,11 @@
       "B2"
     ],
     "thema": 6,
-    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Reifenprofil, -e",
-    "german_audio": "das Reifenprofil",
-    "english": "tire tread",
-    "ukrainian": "протектор шини",
-    "example": "Ein tiefes <b style=\"color: #eab308;\">Reifenprofil</b> ist wichtig für die Sicherheit bei Regen."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Kulanzweg, -e",
+    "german_audio": "die Kulanzweg",
+    "english": "goodwill path/route",
+    "ukrainian": "шлях добровільного врегулювання (на основі лояльності)",
+    "example": "Das Gerät **wurde auf <b style=\"color: #eab308;\">Kulanzweg</b> und ohne Gewährleistung repariert**."
   },
   {
     "level": "B2",
@@ -15836,299 +15907,11 @@
       "B2"
     ],
     "thema": 6,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Reifenwechsel, -",
-    "german_audio": "der Reifenwechsel",
-    "english": "tire change",
-    "ukrainian": "заміна шин",
-    "example": "Den Termin für den <b style=\"color: #eab308;\">Reifenwechsel</b> mache ich immer online."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 6,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Schlagschrauber, -",
-    "german_audio": "der Schlagschrauber",
-    "english": "impact wrench",
-    "ukrainian": "ударний гайковерт",
-    "example": "Die Werkstatt nutzt einen <b style=\"color: #eab308;\">Schlagschrauber</b>, um Reifen schneller zu wechseln."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 6,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Schraube, -n",
-    "german_audio": "die Schraube",
-    "english": "screw",
-    "ukrainian": "гвинт, шуруп",
-    "example": "Mir fehlt eine kleine <b style=\"color: #eab308;\">Schraube</b>, um den Laptop wieder zusammenzubauen."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 6,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Wagenheber, -",
-    "german_audio": "der Wagenheber",
-    "english": "car jack",
-    "ukrainian": "домкрат",
-    "example": "Mit einem <b style=\"color: #eab308;\">Wagenheber</b> kannst du den Reifenwechsel auch selbst machen."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 6,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Abgase (Pl.)",
-    "german_audio": "die Abgase",
-    "english": "exhaust gases, emissions",
-    "ukrainian": "вихлопні гази",
-    "example": "Elektroautos stoßen keine schädlichen <b style=\"color: #eab308;\">Abgase</b> aus."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 6,
-    "german": "autonomes Fahren",
-    "german_audio": "autonomes Fahren",
-    "english": "autonomous driving",
-    "ukrainian": "автономне водіння",
-    "example": "Künstliche Intelligenz ist die Grundlage für autonomes <b style=\"color: #eab308;\">Fahren</b>."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 6,
-    "german": "etw. befürworten (befürwortet, befürwortete, hat befürwortet)",
-    "german_audio": "befürworten",
-    "english": "to support, to advocate",
-    "ukrainian": "підтримувати, схвалювати",
-    "example": "Ich <b style=\"color: #eab308;\">befürworte</b> den Vorschlag, unsere Server auf grüne Energie umzustellen."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 6,
-    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Carsharing (Sg.)",
-    "german_audio": "das Carsharing",
-    "english": "car sharing",
-    "ukrainian": "каршерінг",
-    "example": "Viele Entwickler in Berlin nutzen <b style=\"color: #eab308;\">Carsharing</b> statt eines eigenen Autos."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 6,
-    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Elektroauto, -s",
-    "german_audio": "das Elektroauto",
-    "english": "electric car",
-    "ukrainian": "електромобіль",
-    "example": "Unser Chef fährt ein modernes <b style=\"color: #eab308;\">Elektroauto</b> von Tesla."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 6,
-    "german": "energieintensiv",
-    "german_audio": "energieintensiv",
-    "english": "energy-intensive",
-    "ukrainian": "енергоємний",
-    "example": "Das Training von KI-Modellen ist extrem <b style=\"color: #eab308;\">energieintensiv</b>."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 6,
-    "german": "etw. erschweren (erschwert, erschwerte, hat erschwert)",
-    "german_audio": "erschweren",
-    "english": "to make difficult, to complicate",
-    "ukrainian": "ускладнювати",
-    "example": "Schlecht geschriebener Code wird die zukünftige Wartung stark <b style=\"color: #eab308;\">erschweren</b>."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 6,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Individualverkehr (Sg.)",
-    "german_audio": "der Individualverkehr",
-    "english": "private transport",
-    "ukrainian": "приватний транспорт",
-    "example": "Der <b style=\"color: #eab308;\">Individualverkehr</b> in Großstädten führt oft zu Staus."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 6,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Lärmbelästigung (Sg.)",
-    "german_audio": "die Lärmbelästigung",
-    "english": "noise pollution",
-    "ukrainian": "шумове забруднення",
-    "example": "Elektromotoren verringern die <b style=\"color: #eab308;\">Lärmbelästigung</b> in der Stadt enorm."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 6,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Luftverschmutzung (Sg.)",
-    "german_audio": "die Luftverschmutzung",
-    "english": "air pollution",
-    "ukrainian": "забруднення повітря",
-    "example": "Smog und Abgase verursachen in vielen Metropolen große <b style=\"color: #eab308;\">Luftverschmutzung</b>."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 6,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Mobilität (Sg.)",
-    "german_audio": "die Mobilität",
-    "english": "mobility",
-    "ukrainian": "мобільність",
-    "example": "Apps für E-Scooter verändern die urbane <b style=\"color: #eab308;\">Mobilität</b>."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 6,
-    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Park-and-Ride-System (Sg.)",
-    "german_audio": "das Park-and-Ride-System",
-    "english": "park and ride system",
-    "ukrainian": "перехоплююча парковка",
-    "example": "Dank des <b style=\"color: #eab308;\">Park-and-Ride-Systems</b> fahre ich mit der Bahn ins Büro."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 6,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Selbstverständlichkeit (Sg.)",
-    "german_audio": "die Selbstverständlichkeit",
-    "english": "matter of course, given",
-    "ukrainian": "само собою зрозуміле",
-    "example": "Dass Code versioniert wird (z. B. mit Git), ist heute eine <b style=\"color: #eab308;\">Selbstverständlichkeit</b>."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 6,
-    "german": "überflüssig",
-    "german_audio": "überflüssig",
-    "english": "superfluous, unnecessary",
-    "ukrainian": "зайвий, непотрібний",
-    "example": "Dank KI-Generatoren wird viel manueller Code langsam <b style=\"color: #eab308;\">überflüssig</b>."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 6,
-    "german": "etw. überlasten (überlastet, überlastete, hat überlastet)",
-    "german_audio": "überlasten",
-    "english": "to overload",
-    "ukrainian": "перевантажувати",
-    "example": "Eine DDoS-Attacke kann das Netzwerk des Unternehmens <b style=\"color: #eab308;\">überlasten</b>."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 6,
-    "german": "umsteigen auf (+ Akk.) (steigt um, stieg um, ist umgestiegen)",
-    "german_audio": "umsteigen auf",
-    "english": "to switch to, to change",
-    "ukrainian": "пересідати, переходити (на інше)",
-    "example": "Wir werden im Backend bald von Java auf Golang umsteigen."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 6,
-    "german": "umweltfreundlich",
-    "german_audio": "umweltfreundlich",
-    "english": "environmentally friendly",
-    "ukrainian": "екологічний",
-    "example": "Green IT fördert <b style=\"color: #eab308;\">umweltfreundliche</b> Technologien und Server."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 6,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Verbrennungsmotor, -en",
-    "german_audio": "der Verbrennungsmotor",
-    "english": "internal combustion engine",
-    "ukrainian": "двигун внутрішнього згоряння",
-    "example": "Das Startup entwickelt Software für Autos ohne <b style=\"color: #eab308;\">Verbrennungsmotor</b>."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 6,
-    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Verkehrsnetz, -e",
-    "german_audio": "das Verkehrsnetz",
-    "english": "transport network",
-    "ukrainian": "транспортна мережа",
-    "example": "Das digitale <b style=\"color: #eab308;\">Verkehrsnetz</b> steuert die Ampeln in Echtzeit."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 6,
-    "german": "Vorrang haben (hat, hatte, hat gehabt)",
-    "german_audio": "Vorrang haben",
-    "english": "to have priority",
-    "ukrainian": "мати пріоритет",
-    "example": "Die Behebung von Sicherheitslücken muss immer Vorrang <b style=\"color: #eab308;\">haben</b>."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 6,
-    "german": "jdn. zwingen (zwingt, zwang, hat gezwungen)",
-    "german_audio": "zwingen",
-    "english": "to force, to compel",
-    "ukrainian": "змушувати",
-    "example": "Der neue Chief Security Officer wird uns <b style=\"color: #eab308;\">zwingen</b>, 2FA zu nutzen."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Kulanzleistung, -en",
+    "german_audio": "die Kulanzleistung",
+    "english": "goodwill gesture / ex gratia payment",
+    "ukrainian": "послуга, надана на добровільній основі (куланс)",
+    "example": "Die <b style=\"color: #eab308;\">Kulanzleistung</b> **hat das Image des Unternehmens beim Kunden gerettet**."
   },
   {
     "level": "B2",
@@ -18680,18 +18463,6 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Gewährleistungsfrist, -en",
-    "german_audio": "die Gewährleistungsfrist",
-    "english": "warranty period",
-    "ukrainian": "гарантійний термін",
-    "example": "Die <b style=\"color: #eab308;\">Gewährleistungsfrist</b> für die neuen Firmen-Monitore beträgt zwei Jahre."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 8,
     "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Kleinigkeit, -en",
     "german_audio": "die Kleinigkeit",
     "english": "small detail, minor matter",
@@ -18733,18 +18504,6 @@
     "english": "rework, touch-ups",
     "ukrainian": "доопрацювання",
     "example": "Nach dem Code Review müssen wir noch kleine <b style=\"color: #eab308;\">Nacharbeiten</b> erledigen."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Nachbesserung, -en",
-    "german_audio": "die Nachbesserung",
-    "english": "rectification of defects, improvement",
-    "ukrainian": "виправлення (помилок), доопрацювання",
-    "example": "Der Kunde fordert eine <b style=\"color: #eab308;\">Nachbesserung</b> beim UI-Design."
   },
   {
     "level": "B2",
@@ -19196,18 +18955,6 @@
       "B2"
     ],
     "thema": 9,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Retourenschein, -e",
-    "german_audio": "der Retourenschein",
-    "english": "return slip",
-    "ukrainian": "бланк повернення",
-    "example": "Dem defekten Firmen-Laptop lag bereits ein <b style=\"color: #eab308;\">Retourenschein</b> bei."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 9,
     "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Serviceleistung, -en",
     "german_audio": "die Serviceleistung",
     "english": "service",
@@ -19460,6 +19207,18 @@
       "B2"
     ],
     "thema": 9,
+    "german": "umgehend",
+    "german_audio": "umgehend",
+    "english": "immediately, promptly",
+    "ukrainian": "негайно, терміново",
+    "example": "Bitte beheben Sie diesen kritischen Bug auf dem Produktionsserver <b style=\"color: #eab308;\">umgehend</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 9,
     "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Versehen, -",
     "german_audio": "das Versehen",
     "english": "mistake, oversight, accident",
@@ -19573,18 +19332,6 @@
     "english": "voluntary",
     "ukrainian": "добровільно",
     "example": "Die Teilnahme an dem Programmierwettbewerb (Hackathon) ist komplett <b style=\"color: #eab308;\">freiwillig</b>."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 9,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Garantie, -n",
-    "german_audio": "die Garantie",
-    "english": "guarantee, warranty",
-    "ukrainian": "гарантія",
-    "example": "Wir haben auf alle Firmen-Laptops eine <b style=\"color: #eab308;\">Garantie</b> von drei Jahren."
   },
   {
     "level": "B2",
@@ -19717,18 +19464,6 @@
     "english": "proper, correct(ly)",
     "ukrainian": "належним чином, правильно",
     "example": "Die Datenbank wurde vor dem Update <b style=\"color: #eab308;\">ordnungsgemäß</b> gesichert (Backup)."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 9,
-    "german": "etw. reklamieren (reklamiert, reklamierte, hat reklamiert)",
-    "german_audio": "reklamieren",
-    "english": "to complain, to claim",
-    "ukrainian": "рекламувати, пред'являти претензію",
-    "example": "Der Kunde möchte die fehlerhafte Software-Lizenz <b style=\"color: #eab308;\">reklamieren</b> und sein Geld zurück."
   },
   {
     "level": "B2",
@@ -22309,6 +22044,18 @@
     "english": "still, furthermore",
     "ukrainian": "і надалі, як і раніше",
     "example": "Wir werden für unsere Projekte <b style=\"color: #eab308;\">weiterhin</b> auf Open-Source-Software setzen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 11,
+    "german": "jdn. zwingen (zwingt, zwang, hat gezwungen)",
+    "german_audio": "zwingen",
+    "english": "to force, to compel",
+    "ukrainian": "змушувати",
+    "example": "Der Zeitmangel <b style=\"color: #eab308;\">zwingt</b> uns dazu, das Feature auf den nächsten Sprint zu verschieben."
   },
   {
     "level": "B2",
