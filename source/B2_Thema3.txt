@@ -1,129 +1,262 @@
 #separator:;
 #html:true
 #columns:German;English;Ukrainian;Example
-der Arbeitsvertrag, "-e;employment contract;трудовий договір;Ich habe meinen neuen Arbeitsvertrag als Entwickler unterschrieben.
-der Aushang, "-e;notice, poster;оголошення, афіша;Ich habe das Jobangebot für Software-Tester durch einen Aushang gefunden.
-aussagekräftig;meaningful, expressive;змістовний, переконливий;Dein GitHub-Profil ist sehr aussagekräftig für deine Coding-Skills.
-etw. beinhalten (beinhaltet, beinhaltete, hat beinhaltet);to contain, to include;містити в собі, охоплювати;Das neue Software-Update wird viele Bugfixes beinhalten.
-das BIZ (Berufsinformationszentrum) (Sg.);career information center;центр профорієнтації;Das BIZ hilft auch Quereinsteigern beim Start in die IT.
-die Chancengleichheit, -en;equal opportunity;рівні можливості;Chancengleichheit im Tech-Team ist unserem Unternehmen sehr wichtig.
-etw. entwickeln (entwickelt, entwickelte, hat entwickelt);to develop;розробляти;Wir entwickeln eine neue Cloud-Lösung für B2B-Kunden.
-der (medizinische) Fortschritt (Sg.);(medical) progress;(медичний) прогрес;Künstliche Intelligenz beschleunigt den medizinischen Fortschritt enorm.
-ein inklusiver Arbeitsplatz;inclusive workplace;інклюзивне робоче місце;Unsere Tech-Firma fördert einen modernen und inklusiven Arbeitsplatz.
-innovativ;innovative;інноваційний;Wir arbeiten an einer innovativen App-Architektur.
-die Jobmesse, -n;job fair;ярмарок вакансій;Auf der IT-Jobmesse habe ich viele nützliche Kontakte geknüpft.
-der Labormitarbeiter, - / die Labormitarbeiterin, -nen;laboratory worker;співробітник лабораторії;Der Labormitarbeiter testet die neue Hardware-Komponente.
-die Messmethode, -n;measurement method;метод вимірювання;Wir nutzen eine neue Messmethode für die Server-Performance.
-das Netzwerk, -e;network;мережа;Ein gutes Netzwerk auf LinkedIn ist wichtig für die Jobsuche.
-die Online-Jobbörse, -n;online job board;онлайн-біржа праці;Ich suche auf einer Online-Jobbörse nach Remote-Jobs.
-das Online-Stellenportal, -e;online job portal;онлайн-портал вакансій;StepStone ist ein bekanntes Online-Stellenportal in Deutschland.
-das Pharmaunternehmen, -;pharmaceutical company;фармацевтична компанія;Das Pharmaunternehmen sucht IT-Experten für die Datenanalyse (Big Data).
-die Qualitätskontrolle, -n;quality control;контроль якості;Die QA (Qualitätskontrolle) prüft den Code vor dem Release.
-etw. recherchieren (recherchiert, recherchierte, hat recherchiert);to research;досліджувати, шукати інформацію;Ich muss die beste API-Lösung für unser Projekt recherchieren.
-sorgfältig;careful(ly), diligent(ly);ретельний, акуратний;Programmierer müssen beim Unit-Testing sehr sorgfältig sein.
-soziale Netzwerke (Pl.);social networks;соціальні мережі;Wir teilen das Jobangebot für Entwickler auch über soziale Netzwerke.
-die Sozialleistung, -en;social benefit;соціальна виплата, пільга від компанії;Dieses IT-Startup bietet sehr gute Sozialleistungen für Mitarbeiter.
-die Stellenbörse, -n;job market, job exchange;біржа праці, ринок вакансій;Stack Overflow hatte früher eine eigene Stellenbörse für Coder.
-das Stellengesuch, -e;job request, job application;заява про пошук роботи;Ich habe mein Stellengesuch als DevOps-Engineer online gestellt.
-die Stellensuche (Sg.);job search;пошук роботи;Meine Stellensuche in der Tech-Branche war nach zwei Wochen erfolgreich.
-umfangreich;extensive, comprehensive;об'ємний, великий, розлогий;Diese API hat eine sehr umfangreiche Dokumentation.
-unbefristet;unlimited, permanent;безстроковий;Ich suche einen unbefristeten Arbeitsvertrag als Fullstack-Developer.
-die Vergütung, -en;compensation, remuneration;оплата праці, винагорода;Die finanzielle Vergütung für Senior Entwickler ist sehr attraktiv.
-etw. verlangen (verlangt, verlangte, hat verlangt);to demand, to require;вимагати;Der Job verlangt sehr gute Kenntnisse in React und Node.js.
-die Voraussetzung, -en;prerequisite, requirement;передумова, вимога;Gute Englischkenntnisse sind eine absolute Voraussetzung für das IT-Team.
-die Webseite, -n;website;вебсайт;Wir müssen das Design unserer Webseite dringend aktualisieren.
-zur Verfügung stehen;to be available;бути в розпорядженні, бути доступним;Der neue Test-Server wird ab morgen zur Verfügung stehen.
-der Abschluss, "-e;degree, graduation;закінчення (навчального закладу), диплом;Mein Abschluss in Informatik hilft mir bei der Jobsuche.
-etw. auswerten (wertet aus, wertete aus, hat ausgewertet);to evaluate, to analyze;оцінювати, аналізувати;Wir müssen die Log-Dateien des Servers auswerten, um den Fehler zu finden.
-begeistert von (+ Dat.);enthusiastic about;у захваті від;Ich bin sehr begeistert von den neuen Features in TypeScript 5.
-der Bildungsweg, -e;educational path;освітній шлях, шлях отримання освіти;Mein Bildungsweg umfasst ein Coding Bootcamp und ein Studium.
-die Daten (Pl.);data;дані;Wir müssen die persönlichen Daten unserer User sicher verschlüsseln.
-etw. dokumentieren (dokumentiert, dokumentierte, hat dokumentiert);to document;документувати;Als Entwickler müssen wir unseren Quellcode sauber dokumentieren.
-eigenverantwortlich;independent(ly), responsible;під власну відповідальність, самостійний;Im Homeoffice arbeite ich sehr eigenverantwortlich.
-die Fähigkeit, -en;ability, skill;навичка, здатність;Schnelle Problemlösung ist eine wichtige Fähigkeit für IT-Spezialisten.
-fehlerfrei;flawless, error-free;безпомилковий;Mein Ziel ist es, skalierbaren und fehlerfreien Code zu schreiben.
-jdn. hinweisen auf (+ Akk.) (weist hin, wies hin, hat hingewiesen);to point out to;вказувати комусь на щось;Der Compiler weist den Entwickler auf Syntax-Fehler hin.
-etw. hinzufügen zu (+ Dat.) (fügt hinzu, fügte hinzu, hat hinzugefügt);to add to;додавати до;Ich möchte dieses Projekt-Repository zu meinem GitHub-Profil hinzufügen.
-die Kenntnis, -se;knowledge, skill;знання, навичка;Ich habe fundierte Kenntnisse in Python und SQL-Datenbanken.
-die Korrektheit (Sg.);correctness;правильність, коректність;Die QA testet die funktionale Korrektheit der Software.
-persönliche Daten (Pl.);personal data;персональні дані;Die DSGVO schützt persönliche Daten im Internet.
-die Praxis- und Berufserfahrung, -en;practical and professional experience;практичний та професійний досвід;Ich habe fünf Jahre Praxis- und Berufserfahrung als Sysadmin.
-selbstständig;independent, autonomous;самостійний, незалежний;Ich kann dieses Jira-Ticket komplett selbstständig bearbeiten.
-die Stellenausschreibung, -en;job advertisement;оголошення про вакансію;Die Stellenausschreibung passt perfekt zu meinem technischen Profil.
-verfügen über (+ Akk.) (verfügt, verfügte, hat verfügt);to possess, to have at one's disposal;володіти, мати в розпорядженні;Sie verfügen über exzellente Kenntnisse im Bereich Cloud-Computing.
-vertraut mit (+ Dat.);familiar with;обізнаний з, знайомий з;Ich bin sehr vertraut mit agilen Methoden wie Scrum und Kanban.
-die Vollständigkeit (Sg.);completeness;повнота, цілісність;Wir prüfen die Vollständigkeit der Datenbank nach der Migration.
-die Weiterbildung, -en;further education, training;підвищення кваліфікації;Ich mache eine Weiterbildung zum AWS Certified Solutions Architect.
-die Messung, -en;measurement;вимірювання;Die Messung der Ladezeiten (Performance) erfolgt automatisch durch Scripts.
-reizen (reizt, reizte, hat gereizt);to appeal to, to tempt;приваблювати, манити;Die Arbeit an Künstlicher Intelligenz reizt mich beruflich sehr.
-die Rückmeldung, -en;feedback, reply;зворотний зв'язок, відповідь;Ich warte noch auf eine Rückmeldung vom HR nach dem Vorstellungsgespräch.
-die Soft Skills (Pl.);soft skills;м'які навички;Gute Kommunikation ist einer der wichtigsten Soft Skills in der IT.
-die Stärke, -n;strength;сильна сторона;Meine größte Stärke ist das Debugging von komplexem Legacy-Code.
-der Versuchsablauf, "-e;test procedure, experimental procedure;хід тестування, експерименту;Der Versuchsablauf beim A/B-Testing für das neue Design ist dokumentiert.
-etw. vertiefen (vertieft, vertiefte, hat vertieft);to deepen;поглиблювати (напр. знання);Ich möchte meine Kenntnisse in Docker und Kubernetes weiter vertiefen.
-vielfältig;diverse, varied;різноманітний, багатогранний;Die Aufgaben eines Fullstack-Entwicklers in einem Startup sind sehr vielfältig.
-vollständig;complete(ly);повний;Der Quellcode des Projekts ist vollständig auf GitHub verfügbar.
-sich weiterentwickeln (entwickelt sich weiter, entwickelte sich weiter, hat sich weiterentwickelt);to develop further;розвиватися далі, вдосконалюватися;In der IT-Branche muss man sich ständig weiterentwickeln.
-Wert legen auf (+ Akk.) (legt, legte, hat gelegt);to attach importance to, to value;надавати значення, цінувати;Wir legen großen Wert auf sauberen Code und gute Testabdeckung.
-der Absender, -;sender;відправник;Der Absender der E-Mail war der IT-Recruiter des Unternehmens.
-die Anlage, -n;attachment, enclosure;додаток (до листа);Mein detaillierter Lebenslauf befindet sich in der Anlage dieser E-Mail.
-die Anrede, -n;salutation;звертання (в листі);In der Bewerbung habe ich eine formelle Anrede benutzt.
-der Ansprechpartner, - / die Ansprechpartnerin, -nen;contact person;контактна особа;Wer ist mein technischer Ansprechpartner für das neue Projekt?
-der Aufgabenbereich, -e;area of responsibility;сфера завдань, обов'язків;Die Frontend-Entwicklung gehört zu meinem neuen Aufgabenbereich.
-das Aufgabengebiet, -e;field of activity, scope of duties;сфера діяльності;Cloud-Administration ist mein primäres Aufgabengebiet.
-etw. beantworten (beantwortet, beantwortete, hat beantwortet);to answer;відповідати на щось;Ich muss noch ein paar Fragen des Kunden im Ticket beantworten.
-etw. beweisen (beweist, bewies, hat bewiesen);to prove;доводити;Er konnte seine Coding-Skills im technischen Interview (Live-Coding) beweisen.
-die Bewerbungsunterlagen (Pl.);application documents;документи для працевлаштування;Ich habe meine Bewerbungsunterlagen als PDF per E-Mail geschickt.
-die Durchführung, -en;execution, implementation;виконання, проведення;Ich bin für die Durchführung der automatisierten Software-Tests verantwortlich.
-sich einarbeiten in (+ Akk.);to familiarize oneself with;вникати, освоювати, опановувати;Ich muss mich in der ersten Woche in das neue Framework einarbeiten.
-die Einleitung, -en;introduction;вступ;Die Einleitung im Anschreiben sollte direkt und spannend formuliert sein.
-der Empfänger, - / die Empfängerin, -nen;recipient;одержувач;Der Empfänger der Nachricht bekommt sofort eine Push-Benachrichtigung.
-engagiert;committed, dedicated;відданий справі, активний;Wir suchen engagierte Junior-Entwickler für unser wachsendes Team.
-das Fachwissen (Sg.);expertise, expert knowledge;професійні знання;Er hat ein unglaubliches Fachwissen im Bereich Cybersecurity.
-das Fähigkeitsprofil, -e;skill profile;профіль навичок;Mein technisches Fähigkeitsprofil passt sehr gut zu den Anforderungen.
-etw. fordern (fordert, forderte, hat gefordert);to demand, to require;вимагати;Die neue Software fordert leider viel mehr Rechenleistung (CPU).
-herausfordernd;challenging;складний, такий, що кидає виклик;Die Migration der Backend-Architektur ist sehr herausfordernd.
-leichtfallen (fällt leicht, fiel leicht, ist leichtgefallen);to be easy (for someone);даватися легко;Das Erlernen von neuen Programmiersprachen fällt mir sehr leicht.
-einen Termin bestätigen;to confirm an appointment;підтвердити зустріч;Ich möchte hiermit den Termin für das IT-Interview nächste Woche bestätigen.
-überzeugend;convincing;переконливий;Seine Lösung für den Algorithmus beim Live-Coding war sehr überzeugend.
-unbedingt;absolutely, necessarily;обов'язково, неодмінно;Wir müssen diesen kritischen Bug unbedingt noch vor dem Wochenende fixen.
-etw. variieren (variiert, variierte, hat variiert);to vary;варіювати, змінювати;Die Server-Auslastung kann je nach Tageszeit stark variieren.
-verständlich;understandable, comprehensible;зрозумілий;Die API-Dokumentation muss für alle externen Entwickler verständlich sein.
-die Vorlage, -n;template;шаблон, макет, зразок;Ich nutze eine fertige CSS-Vorlage für das neue Webdesign.
-etw./jdn. wahrnehmen (nimmt wahr, nahm wahr, hat wahrgenommen);to perceive, to notice;сприймати, помічати;User nehmen langsame Ladezeiten der App sehr negativ wahr.
-die Zuverlässigkeit (Sg.);reliability;надійність;Die Zuverlässigkeit unseres Cloud-Providers ist für das Business entscheidend.
-etw. anpacken (packt an, packte an, hat angepackt);to tackle, to take hold of;братися за щось;Wir müssen dieses komplexe Architektur-Problem gemeinsam anpacken.
-die Auflistung, -en;list, listing;перелік, список;Hier ist eine Auflistung aller Bugs, die wir im nächsten Sprint fixen müssen.
-etw. bestätigen (bestätigt, bestätigte, hat bestätigt);to confirm;підтверджувати;Bitte bestätigen Sie den Empfang der neuen Server-Hardware.
-der Dienstleister, - / die Dienstleisterin, -nen;service provider;постачальник послуг;Wir nutzen AWS als Dienstleister für unsere IT-Infrastruktur.
-ehrgeizig;ambitious;амбітний;Er ist ein sehr ehrgeiziger Junior-Entwickler und lernt unglaublich schnell.
-erforderlich;required, necessary;необхідний;Administratorrechte sind für die Installation dieser Software erforderlich.
-etw./jdn. erkennen (erkennt, erkannte, hat erkannt);to recognize;розпізнавати, усвідомлювати;Die KI kann komplexe Muster in diesen großen Datenmengen erkennen.
-etw. erledigen (erledigt, erledigte, hat erledigt);to complete, to get done;виконувати, залагоджувати;Ich werde dieses Jira-Ticket bis morgen Abend erledigen.
-etw. erstatten (erstattet, erstattete, hat erstattet);to refund, to reimburse;відшкодовувати (кошти);Die Firma wird mir die Kosten für das IT-Zertifikat erstatten.
-die Fahrkosten (Pl.);travel expenses;транспортні витрати;Werden die Fahrkosten zum Vorstellungsgespräch vom Arbeitgeber übernommen?
-die Flexibilität (Sg.);flexibility;гнучкість;Agile Softwareentwicklung erfordert viel Flexibilität vom gesamten Team.
-der Gesprächspartner, - / die Gesprächspartnerin, -nen;conversation partner, interviewer;співрозмовник, інтерв'юер;Mein Gesprächspartner beim Interview war der Lead Developer.
-gründlich;thorough(ly);ретельний;Der Code muss vor dem Commit in den Main-Branch gründlich getestet werden.
-die Kommunikationskompetenz (Sg.);communication skills;комунікативні навички;Kommunikationskompetenz ist besonders wichtig bei der agilen Arbeit im Team.
-die Kosten (Pl.);costs, expenses;витрати, вартість;Wir müssen die Kosten für unsere Cloud-Datenbanken reduzieren.
-Kosten erstatten;to reimburse costs;відшкодовувати витрати;Das Unternehmen wird die Kosten für das Homeoffice-Equipment erstatten.
-die Kritikfähigkeit (Sg.);ability to accept criticism;здатність сприймати критику;Bei Code-Reviews ist eine hohe Kritikfähigkeit extrem wichtig für Entwickler.
-etw./jdn. kritisieren (kritisiert, kritisierte, hat kritisiert);to criticize;критикувати;Wir kritisieren im Review immer nur den Code, niemals den Entwickler.
-der Laborleiter, - / die Laborleiterin, -nen;laboratory manager;керівник лабораторії;Der Laborleiter überwacht die Qualität der neuen Hardware-Tests.
-die Leistungsbereitschaft (Sg.);motivation, willingness to perform;готовність до роботи, мотивація;Die Leistungsbereitschaft unseres IT-Teams vor einem Release ist sehr hoch.
-der Personalverantwortliche, -n / die Personalverantwortliche, -n;HR manager;HR-менеджер, відповідальний за персонал;Das Erstgespräch findet mit dem Personalverantwortlichen statt.
-die Quittung, -en;receipt;квитанція, чек;Ich brauche die Quittung für den Kauf der Software-Lizenz für die Buchhaltung.
-die Teamfähigkeit (Sg.);teamwork skills;здатність працювати в команді;Für Pair-Programming ist absolute Teamfähigkeit erforderlich.
-angespannt;tense, tight;напружений;Der Wohnungsmarkt in IT-Hubs wie München oder Berlin ist sehr angespannt.
-die Bescheinigung, -en;certificate, attestation;довідка, свідоцтво;Ich brauche eine Bescheinigung meines Arbeitgebers für den neuen Vermieter.
-der Besichtigungstermin, -e;viewing appointment;час огляду (квартири);Ich habe heute Nachmittag einen Besichtigungstermin für eine schöne Wohnung.
-betragen (beträgt, betrug, hat betragen);to amount to, to be;становити, дорівнювати;Die Miete darf laut Experten maximal 30% des Netto-Gehalts betragen.
-deprimierend;depressing;пригнічуючий, депресивний;Die lange Wohnungssuche in Deutschland kann für Expats manchmal deprimierend sein.
-das Familieneinkommen, -;family income;дохід сім'ї;Als Softwareentwickler trägt er den größten Teil zum Familieneinkommen bei.
-der Gehaltsnachweis, -e;proof of salary/income;довідка про доходи;Der Vermieter verlangt die Gehaltsnachweise der letzten drei Monate.
-gemeinsam;together, common;разом, спільний;Wir suchen gemeinsam mit meiner Frau nach einer größeren Wohnung.
-die Immobilie, -n;real estate, property;нерухомість;Als Senior Developer möchte er später in eine eigene Immobilie investieren.
-der Makler, - / die Maklerin, -nen;real estate agent, broker;маклер, брокер, рієлтор;Der Makler hat mir eine tolle Wohnung in der Nähe des IT-Büros gezeigt.
-die Mietschulden (Pl.);rent arrears, rent debts;борги з оренди;Zum Glück habe ich ein gutes IT-Gehalt und absolut keine Mietschulden.
-mühsam;arduous, laborious;важкий, виснажливий;Die Suche nach einer bezahlbaren Wohnung ist in Großstädten oft sehr mühsam.
+der Arbeitsvertrag, "-e;employment contract;трудовий договір;Bevor wir den Arbeitsvertrag unterschreiben, müssen wir <b>alle Arbeitsbedingungen genau absprechen</b>.
+der Aushang, "-e;notice, poster;оголошення, афіша;Am Aushang der Handwerkskammer **stehen Informationen über freie Lehrstellen zur Verfügung**.
+aussagekräftig;meaningful, expressive;змістовний, переконливий;Für eine erfolgreiche Bewerbung ist ein aussagekräftiges Anschreiben <b>erforderlich</b>.
+etw. beinhalten (beinhaltet, beinhaltete, hat beinhaltet);to contain, to include;містити в собі, охоплювати;Der Arbeitsvertrag <b>beinhaltet klare Vereinbarungen bezüglich der Überstundenregelung</b>.
+das BIZ (Berufsinformationszentrum) (Sg.);career information center;центр профорієнтації;Der Arbeitsberater im BIZ **gibt den Jugendlichen Auskunft über** verschiedene Berufswege.
+die Chancengleichheit, -en;equal opportunity;рівні можливості;In unserem Betrieb **steht das Ziel der Chancengleichheit für alle Mitarbeiter im Vordergrund**.
+etw. entwickeln (entwickelt, entwickelte, hat entwickelt);to develop;розробляти;Die Abteilung hat die Aufgabe, neue Konzepte für die Personalsuche <b>zu entwickeln</b>.
+der (medizinische) Fortschritt (Sg.);(medical) progress;(медичний) прогрес;<b>Aus den Berichten geht hervor, dass</b> der medizinische Fortschritt viele neue Heilungsmethoden ermöglicht.
+ein inklusiver Arbeitsplatz;inclusive workplace;інклюзивне робоче місце;Die Geschäftsführung **legt großen Wert auf einen inklusiven Arbeitsplatz** für Menschen mit Behinderungen.
+innovativ;innovative;інноваційний;Unser Unternehmen **beteiligt sich an innovativen Projekten im Bereich** der Energieeinsparung.
+die Jobmesse, -n;job fair;ярмарок вакансій;Auf der Jobmesse konnte ich **erste Kontakte zu potenziellen Arbeitgebern knüpfen**.
+der Labormitarbeiter, - / die Labormitarbeiterin, -nen;laboratory worker;співробітник лабораторії;Der Labormitarbeiter ist **mit der Durchführung der chemischen Messungen beschäftigt**.
+die Messmethode, -n;measurement method;метод вимірювання;<b>Aus den Daten geht hervor, dass</b> die neue Messmethode viel präzisere Werte liefert.
+das Netzwerk, -e;network;мережа;Ein stabiles berufliches Netzwerk **kann den weiteren Berufsweg positiv beeinflussen**.
+die Online-Jobbörse, -n;online job board;онлайн-біржа праці;Ich nutze eine Online-Jobbörse, um **nach geeigneten Angeboten für eine Umschulung zu suchen**.
+das Online-Stellenportal, -e;online job portal;онлайн-портал вакансій;Die Personalabteilung **schaltet regelmäßig Anzeigen in verschiedenen Online-Stellenportalen**.
+die Pharmaunternehmen, -;pharmaceutical company;фармацевтична компанія;Das Pharmaunternehmen **stellt den Ärzten detaillierte Informationen über** neue Medikamente **zur Verfügung**.
+die Qualitätskontrolle, -n;quality control;контроль якості;Die Qualitätskontrolle **weist die Produktion auf technische Mängel hin**, um Fehler zu vermeiden.
+etw. recherchieren (recherchiert, recherchierte, hat recherchiert);to research;досліджувати, шукати інформацію;Wir müssen die rechtlichen Bedingungen für die Umschulung sorgfältig <b>recherchieren</b>.
+sorgfältig;careful(ly), diligent(ly);ретельний, акуратний;Bei der Wareneingangskontrolle ist eine äußerst sorgfältige Arbeit **erforderlich**.
+soziale Netzwerke (Pl.);social networks;соціальні мережі;Die Nutzung sozialer Netzwerke für die Personalsuche **gewinnt in unserer Branche an Bedeutung**.
+die Sozialleistung, -en;social benefit;соціальна виплата, пільга від компанії;Neben der Vergütung **bietet unser Betrieb sehr attraktive Sozialleistungen an**.
+die Stellenbörse, -n;job market, job exchange;біржа праці, ринок вакансій;In der Stellenbörse der Arbeitsagentur **stehen viele sozialversicherungspflichtige Stellen bereit**.
+das Stellengesuch, -e;job request, job application;заява про пошук роботи;Er hat ein Stellengesuch veröffentlicht, um **Kontakt mit Betrieben im Baugewerbe aufzunehmen**.
+die Stellensuche (Sg.);job search;пошук роботи;<b>Aufgrund des Fachkräftemangels war seine Stellensuche</b> im Handwerk schnell erfolgreich.
+umfangreich;extensive, comprehensive;об'ємний, великий, розлогий;Der Abschlussbericht **beinhaltet umfangreiche Informationen über** das Betriebsverhalten.
+unbefristet;unlimited, permanent;безстроковий;Sie hat einen unbefristeten Arbeitsvertrag erhalten und **ist sehr glücklich über diese Entscheidung**.
+die Vergütung, -en;compensation, remuneration;оплата праці, винагорода;Die Vergütung im öffentlichen Dienst **wird durch den Tarifvertrag genau geregelt**.
+etw. verlangen (verlangt, verlangte, hat verlangt);to demand, to require;вимагати;Der Arbeitgeber verlangt, dass wir **die Richtlinien zum Arbeitsschutz streng einhalten**.
+die Voraussetzung, -en;prerequisite, requirement;передумова, вимога;Fachliche Kompetenzen sind eine wichtige Voraussetzung, um **sich auf dem Markt zu behaupten**.
+die Webseite, -n;website;вебсайт;Auf unserer Webseite **stellen wir Informationen über das Corporate Design zur Verfügung**.
+zur Verfügung stehen;to be available;бути в розпорядженні, бути доступним;Für das Gespräch <b>stehen den Verhandlungspartnern alle Unterlagen zur Verfügung</b>.
+der Abschluss, "-e;degree, graduation;закінчення (навчального закладу), диплом;Nach dem erfolgreichen Abschluss der Ausbildung **strebt er eine Weiterbildung an**.
+etw. auswerten (wertet aus, wertete aus, hat ausgewertet);to evaluate, to analyze;оцінювати, аналізувати;Wir müssen die Ergebnisse der Mitarbeiterbefragung <b>auswerten, um das Betriebsklima zu verbessern</b>.
+begeistert von (+ Dat.);enthusiastic about;у захваті від;Die Geschäftsführung war **begeistert von den Vorschlägen zur Abfallvermeidung**.
+der Bildungsweg, -e;educational path;освітній шлях, шлях отримання освіти;<b>Ich bin der Meinung, dass</b> jeder Bildungsweg wertvolle Praxis- und Berufserfahrung beinhaltet.
+die Daten (Pl.);data;дані;Wir müssen sicherstellen, dass **persönliche Daten vor unbefugtem Zugriff geschützt sind**.
+etw. dokumentieren (dokumentiert, dokumentierte, hat dokumentiert);to document;документувати;Wir sind verpflichtet, alle Arbeitsunfälle **im Unfallbericht genau zu dokumentieren**.
+eigenverantwortlich;independent(ly), responsible;під власну ответственность, самостійний;In unserem Bereich arbeiten die Beschäftigten sehr selbstständig und <b>eigenverantwortlich</b>.
+die Fähigkeit, -en;ability, skill;навичка, здатність;Die Fähigkeit, **unter Stress ruhig und sachlich zu bleiben**, ist für Führungskräfte wichtig.
+fehlerfrei;flawless, error-free;безпомилковий;Um Mängel zu vermeiden, müssen alle Werkstücke **vollkommen fehlerfrei produziert werden**.
+jdn. hinweisen auf (+ Akk.) (weist hin, wies hin, hat hingewiesen);to point out to;вказувати комусь на щось;Der Sicherheitsbeauftragte **weist die Belegschaft auf die Einhaltung der Vorschriften hin**.
+etw. hinzufügen zu (+ Dat.) (fügt hinzu, fügte hinzu, hat hinzugefügt);to add to;додавати до;Wir möchten dem Schulungsprogramm ein weiteres Seminar **hinzufügen**.
+die Kenntnis, -se;knowledge, skill;знання, навичка;Er **verfügt über tiefe Kenntnisse** im Bereich des betrieblichen Arbeitsschutzes.
+die Korrektheit (Sg.);correctness;правильність, коректність;Die Abteilung für Qualitätskontrolle **prüft die Korrektheit der Abrechnungen**.
+persönliche Daten (Pl.);personal data;персональні дані;Der Missbrauch persönlicher Daten **ist laut Gesetz streng unter Strafe gestellt**.
+die Praxis- und Berufserfahrung, -en;practical and professional experience;практичний та професійний досвід;Für die Stelle als Filialleiter wird eine mehrjährige Praxis- und Berufserfahrung <b>verlangt</b>.
+selbstständig;independent, autonomous;самостійний, незалежний;In Betrieben mit flachen Hierarchien können Mitarbeiter oft sehr <b>selbstständig</b> arbeiten.
+die Stellenausschreibung, -en;job advertisement;оголошення про вакансію;Die Stellenausschreibung **hat mein Interesse für die ausgeschriebene Position geweckt**.
+verfügen über (+ Akk.) (verfügt, verfügte, hat verfügt);to possess, to have at one's disposal;володіти, мати в розпорядженні;Die neue Bewerberin **verfügt über alle erforderlichen Qualifikationen**.
+vertraut mit (+ Dat.);familiar with;обізнаний з, знайомий з;Als Ersthelfer bin ich **mit allen Maßnahmen zur Ersten Hilfe vertraut**.
+die Vollständigkeit (Sg.);completeness;повнота, цілісність;Bitte überprüfen Sie das Übergabeprotokoll **vor der Unterschrift auf Vollständigkeit**.
+die Weiterbildung, -en;further education, training;підвищення кваліфікації;<b>Die Firma übernimmt die vollen Kosten für</b> meine berufliche Weiterbildung.
+die Messung, -en;measurement;вимірювання;<b>Aus der Grafik geht hervor, dass</b> die Messungen der Emissionen wöchentlich stattfinden.
+reizen (reizt, reizte, hat gereizt);to appeal to, to tempt;приваблювати, манити;Die Möglichkeit, im Ausland zu arbeiten, **reizt viele junge Fachkräfte beruflich**.
+die Rückmeldung, -en;feedback, reply;зворотний зв'язок, відповідь;<b>Ich bitte Sie um eine kurze Rückmeldung, ob</b> Sie mit dem Vorschlag einverstanden sind.
+die Soft Skills (Pl.);soft skills;м'які навички;Im Kundenservice **spielt interkulturelle Kompetenz als Soft Skill eine entscheidende Rolle**.
+die Stärke, -n;strength;сильна сторона;Zu meinen Stärken gehört die Fähigkeit, **auch unter Druck ruhig zu bleiben**.
+die Schwäche, -n;weakness;слабка сторона;Im Vorstellungsgespräch sollte man ehrlich **über eigene Schwächen sprechen können**.
+das Vorstellungsgespräch, -e;job interview;співбесіда;Sie bereitet sich intensiv auf ihr morgiges Vorstellungsgespräch **vor**.
+die Vermittlungsagentur, -en;recruitment agency;агентство з працевлаштування;Die Vermittlungsagentur **unterstützt Unternehmen bei der zeitnahen Personalsuche**.
+etw. zuschicken (schickt zu, schickte zu, hat zugeschickt);to send to;надсилати;<b>Wir bitten Sie, uns die Unterlagen bis zum Ende der Woche zuzuschicken</b>.
+die Ausbildungszeit, -en;training period / apprenticeship duration;тривалість навчання (на виробництві);Die Ausbildungszeit **kann bei guten Leistungen im Betrieb verkürzt werden**.
+die Berufsschule, -n;vocational school;професійна школа, ПТУ;Die Auszubildenden lernen die Theorie in der Berufsschule und die Praxis im Betrieb.
+das Berichtsheft, -e;report book / training log;щоденник виробничого навчання;Die regelmäßige Führung des Berichtshefts **ist Voraussetzung für die Prüfungszulassung**.
+der Geselle, -n / die Gesellin, -nen;journeyman, skilled craftsperson;підмайстер, дипломований ремісник;Nach bestandener Gesellenprüfung **erhält der Lehrling den Gesellenbrief**.
+die Gesellenprüfung, -en;journeyman's exam;іспит на звання підмайстра;Er bereitet sich intensiv auf die praktische Gesellenprüfung **vor**.
+der Meister, - / die Meisterin, -nen;master (craftsperson);майстер;Der Meister **übernimmt die Betreuung der neuen Auszubildenden im Handwerk**.
+die Meisterprüfung, -en;master craftsperson's exam;іспит на звання майстра;Die Meisterprüfung **stellt eine große intellektuelle und praktische Herausforderung dar**.
+die Probezeit, -en;probationary period;випробувальний термін;Während der Probezeit **kann der Arbeitsvertrag ohne Angabe von Gründen gekündigt werden**.
+die Abschlussprüfung, -en;final exam;випускний іспит;Nach dem Bestehen der Abschlussprüfung **strebt er den Berufswiedereinstieg an**.
+die Zwischenprüfung, -en;intermediate exam;проміжний іспит;Die Zwischenprüfung **dient der Kontrolle des bisherigen Ausbildungsstandes**.
+die Eignung (Sg.);suitability, aptitude;придатність, відповідність вимогам;Im Test wurde die Eignung der Bewerber **für die Arbeit im Bereich IT überprüft**.
+das Bewerbungsverfahren, -;application process;процес відбору кандидатів;Das Bewerbungsverfahren **beinhaltet mehrere Vorstellungsgespräche und Tests**.
+die Bewerbungsunterlagen (Pl.);application documents;документи для подання заяви на роботу;Bitte senden Sie Ihre Bewerbungsunterlagen **an unsere HR-Abteilung**.
+das Anschreiben, -;cover letter;супровідний лист;Das Anschreiben sollte aussagekräftig sein und **Bezug auf die Stellenausschreibung nehmen**.
+der Lebenslauf, "-e;CV, resume;автобіографія, резюме;Der Lebenslauf **gibt einen lückenlosen Überblick über den bisherigen Bildungsweg**.
+das Zeugnis, -se;certificate, report card;свідоцтво, атестат, рекомендаційний лист;<b>Sie müssen Ihre Zeugnisse vorlegen</b>, um die Qualifikationen nachzuweisen.
+das Arbeitszeugnis, -se;reference letter;характеристика з місця роботи;Der Arbeitnehmer **hat einen gesetzlichen Rechtsanspruch auf ein qualifiziertes Arbeitszeugnis**.
+das Zertifikat, -e;certificate;сертифікат;Er hat ein offizielles Zertifikat **für seine Teilnahme am Erste-Hilfe-Kurs erhalten**.
+die Referenz, -en;reference;рекомендація;Gute Referenzen von früheren Arbeitgebern **wirken sich positiv auf die Jobsuche aus**.
+die Initiativbewerbung, -en;unsolicited application;ініціативне резюме (без відкритої вакансії);Eine Initiativbewerbung **kann neue Beschäftigungsmöglichkeiten im Betrieb eröffnen**.
+das Bewerbungsfoto, -s;application photo;фотографія для резюме;Ein professionelles Bewerbungsfoto **trägt zu einem guten ersten Eindruck bei**.
+die Gehaltsvorstellung, -en;salary expectation;побажання щодо зарплати;Im Anschreiben sollten Sie Ihre Gehaltsvorstellungen **zum Ausdruck bringen**.
+der Eintrittstermin, -e;start date;дата початку роботи;Bitte nennen Sie in der Bewerbung Ihren frühestmöglichen Eintrittstermin.
+das Bewerberportal, -e;applicant portal;портал для кандидатів;Bitte laden Sie Ihre Dokumente direkt **im Bewerberportal der Firma hoch**.
+die Online-Bewerbung, -en;online application;онлайн-резюме;Eine Online-Bewerbung **erleichtert der HR-Abteilung die schnelle Personalsuche**.
+das Jobangebot, -e;job offer;пропозиція роботи;Nach dem Gespräch **hat das Unternehmen mir ein attraktives Jobangebot unterbreitet**.
+die Zusage, -n;acceptance, approval;позитивна відповідь, згода;Ich habe heute die Zusage **für die gewünschte Ausbildungsstelle erhalten**.
+die Absage, -n;rejection, refusal;відмова;Nach der Absage **sollte man die Hoffnung nicht aufgeben und weiter suchen**.
+das Assessment-Center, -;assessment center;асесмент-центр (груповий відбір кандидатів);Das Assessment-Center **stellt die Bewerber vor verschiedene praktische Herausforderungen**.
+der Einstellungstest, -s;employment test;тест при прийнятті на роботу;Der Einstellungstest **dient der Überprüfung der Eignung für kaufmännische Berufe**.
+das Vorstellungsgespräch, -e;job interview;співбесіда;Im Vorstellungsgespräch **sollte man aufmerksam auf die Fragen des Vorgesetzten reagieren**.
+die Selbstdarstellung (Sg.);self-presentation;самопрезентація;Die Selbstdarstellung **spielt eine entscheidende Rolle beim Vorstellungsgespräch**.
+die Rückfrage, -n;inquiry, query;уточнююче питання;Haben Sie noch Rückfragen **bezüglich der vertraglichen Arbeitsbedingungen**?
+die Fahrtkosten (Pl.);travel expenses;витрати на проїзд;Die Fahrtkosten zum Vorstellungsgespräch **werden vom Arbeitgeber übernommen**.
+die Reisekostenrückerstattung (Sg.);travel expense reimbursement;відшкодування витрат на поїздку;Der Bewerber beantragt die Reisekostenrückerstattung beim Unternehmen.
+das Feedbackgespräch, -e;feedback talk;розмова-відгук, розмова за результатами;Das Feedbackgespräch **hilft, die eigenen Stärken und Schwächen besser einzuschätzen**.
+die Einarbeitung (Sg.);induction, onboarding;введення в курс справи, адаптація на роботі;Eine strukturierte Einarbeitung **hilft den neuen Fachkräften bei der Orientierung**.
+der Mentor, -en / die Mentorin, -nen;mentor;наставник;Der Mentor steht dem neuen Kollegen **während der Einarbeitungszeit zur Verfügung**.
+der Einarbeitungsplan, "-e;induction plan;план введення в курс справи;Der Einarbeitungsplan **beinhaltet eine detaillierte Betriebsbesichtigung**.
+die Feedbackkultur, -en;feedback culture;культура зворотного зв'язку;Eine offene Feedbackkultur **wirkt sich sehr positiv auf das Betriebsklima aus**.
+das Feedback, -s;feedback;відгук, фідбек;Die Auszubildenden **bitten regelmäßig um Feedback zu ihren Leistungen**.
+die Einarbeitungsphase, -n;induction phase;фаза введення в курс справи;Die Einarbeitungsphase **dient dem schnellen Berufswiedereinstieg**.
+der Ansprechpartner, - / die Ansprechpartnerin, -nen;contact person;контактна особа;Für fachliche Fragen **steht Ihnen die Abteilungsleiterin als Ansprechpartnerin zur Verfügung**.
+das Teammitglied, -er;team member;член команди;Als neues Teammitglied **muss man sich an die bestehende Arbeitsteilung anpassen**.
+die Integration (Sg.);integration;інтеграція;Die erfolgreiche Integration neuer Mitarbeiter **ist eine wichtige Aufgabe der Führungskraft**.
+der Teambuilding-Event, -s;team building event;тімбілдінг;Der Teambuilding-Event **sollte zur Verbesserung des Betriebsklimas beitragen**.
+die Probezeitbeurteilung, -en;probationary period assessment;оцінка результатів випробувального терміну;Die Probezeitbeurteilung **entscheidet über den Verbleib des Mitarbeiters im Betrieb**.
+das Probezeitgespräch, -e;probationary interview;розмова за результатами випробувального терміну;Im Probezeitgespräch **nehmen wir Bezug auf Ihre bisherigen Leistungen**.
+die Festanstellung, -en;permanent employment;постійне місце роботи;Nach der Probezeit **hoffe ich auf die Zusage für eine Festanstellung**.
+die Entfristung, -en;transition to a permanent contract;переведення на безстроковий контракт;Die Entfristung des Arbeitsvertrags **gibt dem Arbeitnehmer finanzielle Sicherheit**.
+der unbefristete Arbeitsvertrag;permanent employment contract;безстроковий трудовий договір;Ein unbefristeter Arbeitsvertrag **schützt vor plötzlicher Arbeitslosigkeit**.
+der befristete Arbeitsvertrag;fixed-term contract;строковий трудовий договір;Ein befristeter Arbeitsvertrag **kann bei guten Leistungen verlängert werden**.
+die Vertragsverlängerung, -en;contract extension;продовження контракту;Die Vertragsverlängerung **wurde im gegenseitigen Einvernehmen beschlossen**.
+die Übernahme, -n;takeover / permanent hiring (after apprenticeship);прийняття в штат (після навчання або тимчасового договору);Die Übernahme nach der Ausbildung **ist das Ziel der meisten Auszubildenden**.
+die Weiterbeschäftigung (Sg.);continued employment;продовження трудових відносин;Der Betriebsrat **stimmt der Weiterbeschäftigung des Mitarbeiters zu**.
+die Aufhebungsvereinbarung, -en;termination agreement;угода про розірвання трудового договору;Die Aufhebungsvereinbarung **beinhaltet Vereinbarungen über eine Abfindung**.
+das Arbeitsverhältnis, -se;employment relationship;трудові відносини;Das Arbeitsverhältnis **kann ordentlich unter Einhaltung der Kündigungsfrist beendet werden**.
+die Kündigung, -en;termination, dismissal;звільнення;Die Kündigung **wurde dem Arbeitnehmer schriftlich zugestellt**.
+die Kündigungsfrist, -en;notice period;строк попередження про звільнення;Laut Arbeitsvertrag **beträgt die Kündigungsfrist drei Monate zum Monatsende**.
+der Kündigungsschutz (Sg.);protection against dismissal;захист від звільнення;Der gesetzliche Kündigungsschutz **schützt schwangere Mitarbeiterinnen vor Entlassung**.
+die Abfindung, -en;severance pay;вихідна допомога, компенсація при звільненні;Bei einer Kündigung aus betrieblichen Gründen **besteht oft Anspruch auf eine Abfindung**.
+das Arbeitsgericht, -e;labor court;трудовий суд;Das Arbeitsgericht **entscheidet über die Rechtmäßigkeit der Kündigung**.
+die Kündigungsschutzklage, -n;action against wrongful dismissal;позов про захист від звільнення;Der gekündigte Arbeitnehmer **reicht eine Kündigungsschutzklage beim Arbeitsgericht ein**.
+die Kündigungserklärung, -en;notice of termination;заява про звільнення;Die Kündigungserklärung **muss schriftlich erfolgen, um wirksam zu sein**.
+die ordentliche Kündigung;ordinary termination;звільнення в загальному порядку (з дотриманням термінів);Eine ordentliche Kündigung **muss die gesetzlichen Kündigungsfristen beachten**.
+die außerordentliche Kündigung;extraordinary termination;термінове (екстраординарне) звільнення (без дотримання термінів);Eine außerordentliche Kündigung **ist nur bei einem schwerwiegenden Kündigungsgrund zulässig**.
+die fristlose Kündigung;dismissal without notice;звільнення без попередження;Die fristlose Kündigung **stellt eine extreme Maßnahme des Arbeitgebers dar**.
+die betriebsbedingte Kündigung;redundancy / termination for operational reasons;звільнення через скорочення штату (виробнича необхідність);Aufgrund der schlechten Konjunktur **kam es zu betriebsbedingten Kündigungen**.
+die personenbedingte Kündigung;termination for personal reasons;звільнення через особисті причини (напр. тривала хвороба);Eine personenbedingte Kündigung **wird oft wegen langanhaltender Krankheit ausgesprochen**.
+die verhaltensbedingte Kündigung;termination for conduct/behavioral reasons;звільнення через поведінку (порушення дисципліни);Die verhaltensbedingte Kündigung **setzt in der Regel eine vorherige Abmahnung voraus**.
+die Abmahnung, -en;warning letter;письмове попередження (догана за порушення дисципліни);Die Abmahnung **weist den Mitarbeiter auf ein Fehlverhalten hin**.
+das Fehlverhalten (Sg.);misconduct;неналежна поведінка, порушення дисципліни;Ein grobes Fehlverhalten am Arbeitsplatz **kann eine fristlose Kündigung zur Folge haben**.
+der Pflichtverstoß, "-e;breach of duty;порушення обов'язків;Der wiederholte Pflichtverstoß **wurde vom Arbeitgeber schriftlich abgemahnt**.
+die Pflichtverletzung, -en;breach of duty;порушення службових обов'язків;Eine schwere Pflichtverletzung **berechtigt den Arbeitgeber zur Kündigung**.
+die Abmahnungserklärung, -en;written warning statement;заява про попередження;Die Abmahnungserklärung **muss den Pflichtverstoß genau beschreiben**.
+die Gegendarstellung, -en;counterstatement;зустрічна заява (спростування);Der Mitarbeiter **hat das Recht, eine Gegendarstellung zur Personalakte zu reichen**.
+die Personalakte, -n;personal file / personnel file;особова справа;Die Abmahnung **wird in der Personalakte des Beschäftigten hinterlegt**.
+die Ermahnung, -en;admonition, warning;зауваження (усне або легке попередження);Eine Ermahnung **ist milder als eine Abmahnung und hat keine direkten rechtlichen Folgen**.
+das Kündigungsschreiben, -;letter of termination;лист про звільнення;Das Kündigungsschreiben **muss eigenhändig vom Arbeitgeber unterschrieben sein**.
+der Kündigungsempfänger, - / die Kündigungsempfängerin, -nen;recipient of termination notice;отримувач повідомлення про звільнення;Die Kündigung wird wirksam, sobald sie **dem Kündigungsempfänger zugestellt wurde**.
+die Freistellung, -en;release from work / exemption;звільнення від роботи (напр. на період відпрацювання);Der gekündigte Mitarbeiter **erhielt eine Freistellung unter Fortzahlung der Bezüge**.
+der Urlaubsabbau (Sg.);reduction of remaining leave;відпрацювання невикористаної відпустки;Während der Freistellung **erfolgt der Urlaubsabbau des Resturlaubs**.
+die Urlaubsanspruchsabgeltung, -en;compensation for unused holiday;компенсація за невикористану відпустку;Die Urlaubsanspruchsabgeltung **wird mit der letzten Gehaltsabrechnung ausgezahlt**.
+die Restarbeitszeit (Sg.);remaining working time;залишок робочого часу (до звільнення);Die Restarbeitszeit **muss für die geordnete Übergabe der Aufgaben genutzt werden**.
+die Aufgabenübergabe, -n;handover of tasks;передача обов'язків (справ);Eine strukturierte Aufgabenübergabe **vermeidet Probleme bei der Nachfolge**.
+die Übergabeprotokoll, -e;handover protocol;протокол передачі справ;Die Übergabe der Dokumente **wurde im Übergabeprotokoll festgehalten**.
+der Nachfolger, - / die Nachfolgerin, -nen;successor;наступник;Ich bin gerade **mit der Einarbeitung meines Nachfolgers beschäftigt**.
+die Nachfolge, -n;succession;наступництво;Die Regelung der Nachfolge **wurde rechtzeitig in Angriff genommen**.
+die Nachfolgeregelung, -en;succession plan;регулювання наступництва;Eine fehlende Nachfolgeregelung **kann den Betrieb vor große Probleme stellen**.
+der Austritt, -e;departure, exit;вихід, звільнення з компанії;Vor seinem Austritt **bedankt sich der Mitarbeiter beim Team für die Kooperation**.
+das Austrittsgespräch, -e;exit interview;вихрадна розмова;Im Austrittsgespräch **kann der Mitarbeiter offenes Feedback zur Unternehmenskultur geben**.
+die Austrittsphase, -n;exit phase;фаза виходу (звільнення);Die Austrittsphase **sollte für beide Seiten professionell gestaltet werden**.
+die Betriebsrente, -n;company pension;корпоративна пенсія;Der Anspruch auf eine Betriebsrente **bleibt auch nach dem Austritt bestehen**.
+die Altersvorsorge (Sg.);retirement pension scheme;пенсійне забезпечення (турбота про старість);Die betriebliche Altersvorsorge **stellt eine wichtige finanzielle Absicherung dar**.
+der Rentenübergang, "-e;transition to retirement;перехід на пенсію;Der Rentenübergang **sollte gut vorbereitet sein, um finanzielle Lücken zu vermeiden**.
+der Ruhestand (Sg.);retirement;пенсія, заслужений відпочинок;Er freut sich auf den Ruhestand, um **mehr Zeit für seine Hobbys zu haben**.
+die Pensionierung, -en;retirement;вихід на пенсію;Zur Pensionierung **haben die Kollegen ein gemeinsames Geschenk überreicht**.
+die Verabschiedung, -en;farewell party / send-off;проводи (на пенсію або при звільненні);Die Verabschiedung des langjährigen Mitarbeiters **fand im Konferenzraum statt**.
+das Abschiedsgeschenk, -e;farewell gift;прощальний подарунок;Das Abschiedsgeschenk **bereitete dem scheidenden Kollegen eine große Freude**.
+der Ex-Mitarbeiter, - / die Ex-Mitarbeiterin, -nen;former employee;колишній співробітник;Wir halten weiterhin guten Kontakt zu unseren Ex-Mitarbeitern.
+die Ehemaligen (Pl.);alumni / former employees;колишні працівники;Die Firma lädt die Ehemaligen einmal im Jahr zum Sommerfest ein.
+das Ehemaligentreffen, -;alumni reunion / reunion of former staff;зустріч колишніх працівників;Das Ehemaligentreffen **dient dem Erhalt des Netzwerks**.
+die Netzwerkpflege (Sg.);networking, maintaining network;підтримка бізнес-зв'язків;Die Netzwerkpflege auf Xing und LinkedIn **ist wichtig für die Karriere**.
+der Karriereweg, -e;career path;кар'єрний шлях;Sein Karriereweg **führte ihn vom Auszubildenden bis zum Geschäftsführer**.
+die Berufslaufbahn, -en;professional career;професійна кар'єра;Eine erfolgreiche Berufslaufbahn **setzt ständige Weiterbildung voraus**.
+der berufliche Erfolg;professional success;професійний успіх;Für den beruflichen Erfolg **sind Soft Skills genauso wichtig wie Fachkenntnisse**.
+die Karriereplanung (Sg.);career planning;планування кар'єри;Eine systematische Karriereplanung **hilft bei der Verwirklichung der beruflichen Ziele**.
+der Karriereschritt, -e;career step;крок у кар'єрі;Der Wechsel in eine größere Filiale **war ein wichtiger Karriereschritt für sie**.
+die Aufstiegsmöglichkeit, -en;career advancement opportunity;можливість кар'єрного зростання;<b>Aus der Präsentation geht hervor, dass</b> das Unternehmen gute Aufstiegsmöglichkeiten bietet.
+die Führungsposition, -en;leadership/management position;керівна посада;Um eine Führungsposition **zu übernehmen, muss man Verantwortung tragen können**.
+der Führungsnachwuchs (Sg.);junior managers / prospective leaders;молоді керівні кадри;Das Nachwuchsprogramm **bereitet den Führungsnachwuchs auf spätere Aufgaben vor**.
+das Nachwuchsförderungsprogramm, -e;talent promotion program;програма підтримки молодих талантів;Das Nachwuchsförderungsprogramm **hilft bei der Gewinnung junger Fachkräfte**.
+die Talentförderung (Sg.);talent promotion;розвиток талантів;Die Talentförderung **steht bei unserer Personalentwicklung im Vordergrund**.
+die Personalentwicklung (Sg.);human resources development;розвиток персоналу;Die Personalentwicklung **ist für die Organisation von Fortbildungen zuständig**.
+die Weiterbildungsmaßnahme, -n;further training measure;захід з підвищення кваліфікації;Die Teilnahme an der Weiterbildungsmaßnahme **wird vom Vorgesetzten empfohlen**.
+der Kompetenzaufbau (Sg.);competence building;нарощування компетенцій (розвиток навичок);Der systematische Kompetenzaufbau **sichert die Wettbewerbsfähigkeit des Betriebs**.
+die Wissensvermittlung (Sg.);knowledge transfer;передача знань;Eine strukturierte Wissensvermittlung **erleichtert die Einarbeitung neuer Kräfte**.
+der Wissenstransfer (Sg.);knowledge transfer;трансфер знань;Der Wissenstransfer zwischen Alt und Jung **ist wichtig bei der Nachfolgeregelung**.
+die Wissensdatenbank, -en;knowledge database;база знань;Alle Anleitungen **stehen den Mitarbeitern in der Wissensdatenbank zur Verfügung**.
+die Lernplattform, -en;learning platform;навчальна платформа;Das Unternehmen **stellt den Beschäftigten eine moderne Lernplattform zur Verfügung**.
+das E-Learning-Modul, -e;e-learning module;модуль електронного навчання;Das E-Learning-Modul **beinhaltet Tests zur Arbeitssicherheit**.
+die Fortbildungsakademie, -n;training academy;академія підвищення кваліфікації;Die firmeninterne Fortbildungsakademie **bietet praxisnahe Seminare an**.
+der Bildungsträger, -;educational institution;провайдер освітніх послуг;Der Bildungsträger **ist für die Durchführung des IHK-Kurses verantwortlich**.
+die IHK-Prüfung, -en;IHK exam (Chamber of Commerce exam);іспит торгово-промислової палати;Nach der Vorbereitung **legte er die IHK-Prüfung mit Erfolg ab**.
+das IHK-Zertifikat, -e;IHK certificate;сертифікат торгово-промислової палати;Das IHK-Zertifikat **genießt in der deutschen Wirtschaft eine hohe Wertschätzung**.
+die Kammerprüfung, -en;chamber exam;іспит у ремісничій або торгово-промисловій палаті;Die Kammerprüfung **stellt hohe Anforderungen an die theoretischen Kenntnisse**.
+der Prüfungsstoff (Sg.);exam material;екзаменаційний матеріал;Der Prüfungsstoff **beinhaltet alle gesetzlichen Richtlinien zum Arbeitsschutz**.
+die Prüfungsvorbereitung, -en;exam preparation;підготовка до іспиту;Eine gründliche Prüfungsvorbereitung **schützt vor dem Durchfallen**.
+der Prüfungsangst (Sg.);exam anxiety;страх перед іспитом;Eine gute Vorbereitung **hilft, die Prüfungsangst erfolgreich zu bekämpfen**.
+das Bestehen (Sg.) (z. B. der Prüfung);passing (e.g. of the exam);здача, успішне проходження (напр. іспиту);Das Bestehen der Prüfung **ist Voraussetzung für die Beförderung**.
+das Durchfallen (Sg.);failing (an exam);провал (на іспиті);Gründliches Lernen **minimiert das Risiko für ein Durchfallen bei der IHK-Prüfung**.
+der Zweitversuch, -e;second attempt;друга спроба;Nach dem Durchfallen im Erstversuch **ist ein Zweitversuch zulässig**.
+die Wiederholungsprüfung, -en;repeat exam;повторний іспит;Die Wiederholungsprüfung **findet in der Regel nach sechs Monaten statt**.
+die Prüfungsgebühr, -en;exam fee;екзаменаційний збір;Die Prüfungsgebühr **wird in voller Höhe vom Arbeitgeber getragen**.
+die Prüfungskommission, -en;exam board / examination committee;екзаменаційна комісія;Die Prüfungskommission **überwacht den ordnungsgemäßen Ablauf der Prüfung**.
+der Prüfer, - / die Prüferin, -nen;examiner;екзаменатор;Die Prüfer **legten großen Wert auf praxisnahe Lösungen** bei der Präsentation.
+der Prüfling, -e;examinee;екзаменований;Der Prüfling **musste im mündlichen Teil Fragen zum Arbeitsschutz beantworten**.
+das Prüfungszeugnis, -se;examination certificate;екзаменаційне свідоцтво;Das Prüfungszeugnis **wird dem Absolventen per Post zugeschickt**.
+die Qualifikationsstufe, -n;qualification level;рівень кваліфікації;Der Abschluss **entspricht der Qualifikationsstufe 6 des Nationalen Qualifikationsrahmens**.
+der Qualifikationsnachweis, -e;proof of qualification;підтвердження кваліфікації;Das Zertifikat **dient als offizieller Qualifikationsnachweis beim Arbeitgeber**.
+die Berufseignung (Sg.);professional aptitude;професійна придатність;Die Berufseignung **wurde im Bewerbungsverfahren gründlich überprüft**.
+der Eignungsnachweis, -e;proof of aptitude;підтвердження придатності;Für bestimmte Tätigkeiten **ist ein ärztlicher Eignungsnachweis erforderlich**.
+das Eignungsprofil, -e;aptitude profile;профіль придатності (відповідності вимогам);Das Eignungsprofil **gibt Aufschluss über die Stärken des Bewerbers**.
+die Potenzialanalyse, -n;potential analysis;аналіз потенціалу;Die Potenzialanalyse **hilft bei der gezielten Karriereplanung**.
+das Mitarbeitergespräch, -e;appraisal interview / employee-boss talk;розмова співробітника з керівником;Im jährlichen Mitarbeitergespräch **nehmen wir Bezug auf Ihre Leistungen**.
+das Beurteilungsgespräch, -e;performance appraisal interview;розмова за результатами оцінювання роботи;Das Beurteilungsgespräch **dient der Rückmeldung über die Arbeitsqualität**.
+die Leistungsbeurteilung, -en;performance evaluation;оцінка продуктивності праці;Die Leistungsbeurteilung **wird in der Personalakte des Beschäftigten hinterlegt**.
+das Zielvereinbarungsgespräch, -e;target agreement interview;розмова щодо встановлення цілей;Im Zielvereinbarungsgespräch **einigen wir uns auf die Meilensteine des Projekts**.
+die Zielvereinbarung, -en;target agreement;угода про цілі;Die Zielvereinbarung **beinhaltet messbare Kriterien für den Erfolg**.
+das Entwicklungsgespräch, -e;development discussion;розмова про розвиток (кар'єру);Das Entwicklungsgespräch **eröffnet neue Perspektiven für die Weiterbildung**.
+die Laufbahnberatung (Sg.);career counseling;консультування щодо кар'єри;Eine professionelle Laufbahnberatung **unterstützt bei der Neuorientierung**.
+der Karrierecoach, -es / die Karrierecoachin, -nen;career coach;кар'єрний коуч;Der Karrierecoach **gibt wertvolle Ratschläge für die Jobsuche**.
+die Potenzialförderung (Sg.);potential promotion;розвиток потенціалу;Die Potenzialförderung **ist Teil der modernen Unternehmenskultur**.
+der Aufstieg, -e;promotion / advancement;підйом, кар'єрне зростання;Der Aufstieg in die Führungsebene **war das Ergebnis harter Arbeit**.
+die Beförderung, -en;promotion;підвищення по службі;<b>Ich freue mich über</b> meine Beförderung zum Abteilungsleiter.
+das Beförderungsschreiben, -;promotion letter;лист про підвищення;Das Beförderungsschreiben **wurde dem Mitarbeiter feierlich überreicht**.
+die Gehaltserhöhung, -en;salary increase;підвищення зарплати;Nach erfolgreichen Verhandlungen **erhielt er eine Gehaltserhöhung um 5 Prozent**.
+die Gehaltsanpassung, -en;salary adjustment;коригування зарплати;Die jährliche Gehaltsanpassung **ist im Tarifvertrag festgeschrieben**.
+das Beförderungsgespräch, -e;promotion interview;розмова про підвищення;Im Beförderungsgespräch **wurden die neuen Aufgabenbereiche besprochen**.
+die Aufstiegschance, -n;chance of promotion;шанс на підвищення;In Betrieben mit flachen Hierarchien **sind die Aufstiegschancen oft sehr gut**.
+der Karrieresprung, "-e;career jump;стрибок у кар'єрі;Der Wechsel zur Konkurrenz **stellte einen großen Karrieresprung dar**.
+die Führungsverantwortung (Sg.);leadership responsibility;керівна відповідальність;Mit der Beförderung **übernimmt er auch die Führungsverantwortung für zehn Mitarbeiter**.
+die Leitungsfunktion, -en;managerial function / leadership role;керівна функція;Die Übernahme einer Leitungsfunktion **stellt eine neue Herausforderung dar**.
+der Führungsstil, -e;leadership style;стиль керівництва;Ein kooperativer Führungsstil **wirkt sich positiv auf das Betriebsklima aus**.
+die Mitarbeiterführung (Sg.);personnel management / leadership;керівництво співробітниками;Eine erfolgreiche Mitarbeiterführung **setzt Empathie und klare Kommunikation voraus**.
+die Führungsaufgabe, -n;leadership task;керівне завдання;Die Koordination des Budgets gehört zu seinen wichtigsten Führungsaufgaben.
+die Führungskompetenz, -en;leadership competence/skill;керівна компетенція;Durch das Coaching konnte sie ihre Führungskompetenzen **erweitern**.
+das Führungskräftetraining, -s;leadership training;тренінг для керівників;Das Führungskräftetraining **beinhaltet Übungen zur Konfliktlösung**.
+das Führungskräfte-Coaching, -s;leadership coaching;коучинг для керівників;Das Führungskräfte-Coaching **unterstützt die Leiter bei der Teamführung**.
+die Managementmethode, -n;management method;метод управління;Agile Managementmethoden **liegen in unserer Wirtschaftsbranche voll im Trend**.
+die Unternehmungsführung, -en;corporate management;керівництво підприємством;Die Unternehmensführung **trägt die Verantwortung für die strategische Ausrichtung**.
+die Geschäftsleitung, -en;management / executive board;дирекція, керівництво фірми;Die Geschäftsleitung **hat die Umschulungsmaßnahmen bewilligt**.
+der Vorstand, "-e;board of directors;правління (акціонерного товариства);Der Vorstand **entscheidet über die Vergabe großer Aufträge**.
+der Aufsichtsrat, "-e;supervisory board;наглядова рада;Der Aufsichtsrat **überwacht die Geschäftsführung des Unternehmens**.
+die Hauptversammlung, -en;general meeting / shareholder meeting;загальні збори (акціонерів);Auf der Hauptversammlung **wurde ein Bericht über das Geschäftsjahr vorgelegt**.
+der Gesellschafter, - / die Gesellschafterin, -nen;partner, shareholder;учасник товариства, компаньйон;Die Gesellschafter **haben sich auf eine Erweiterung des Betriebs geeinigt**.
+die Gesellschafterversammlung, -en;shareholders' meeting;збори учасників товариства;Die Gesellschafterversammlung **entscheidet über die Gewinnverteilung**.
+der Geschäftsführer, - / die Geschäftsführerin, -nen;managing director;комерційний директор, керуючий;Der Geschäftsführer **unterzeichnete die Aufhebungsvereinbarung**.
+der Prokurist, -en / die Prokuristin, -nen;authorized signatory;прокурист (довірена особа з широкими повноваженнями);Der Prokurist **ist zur kaufmännischen Vertretung des Unternehmens berechtigt**.
+die Handlungsvollmacht, -en;power of attorney;торговельне доручення (повноваження на вчинення правочинів);Mit der Handlungsvollmacht **darf er Verträge im Namen der Firma abschließen**.
+die Vertretungsmacht, "-e;authority of representation;повноваження на представництво;Die Vertretungsmacht des Geschäftsführers **ist im Handelsregister eingetragen**.
+die Prokura (Sg.);prokura (special commercial power of attorney);прокура (особливе торговельне доручення);Die Erteilung der Prokura **muss notariell beglaubigt werden**.
+der Vertretungsberechtigte, -n / die Vertretungsberechtigte, -n;authorized representative;уповноважений представник;Die Vertretungsberechtigten **haben das Recht, Verträge abzuschließen**.
+die Unterschriftsberechtigung, -en;signing authority;право підпису;Nur Mitarbeiter mit Unterschriftsberechtigung **dürfen Angebote freigeben**.
+die Zeichnungsberechtigung, -en;signing authority;право підпису (документів);Die Zeichnungsberechtigung **wird im Anstellungsvertrag genau geregelt**.
+der Firmenzeichner, - / die Firmenzeichnerin, -nen;company signatory;особа, що має право підпису від імені фірми;Als Firmenzeichner darf er offizielle Dokumente unterschreiben.
+die Vertretungsregelung, -en;substitution policy;регулювання заміщення;Die Vertretungsregelung **sichert den reibungslosen Ablauf bei Abwesenheit**.
+der Vertretungsfall, "-e;case of substitution;випадок заміщення;Im Vertretungsfall **wenden Sie sich bitte an Herrn Müller**.
+die Vertretungskraft, "-e;substitute worker;замісник, тимчасовий працівник;Die Vertretungskraft **wurde schnell in das bestehende Team integriert**.
+der Vertretungsdienst, -e;substitution service;служба заміщення;Der Vertretungsdienst **wird über ein digitales Portal koordiniert**.
+die Urlaubsvertretung, -en;holiday substitute;заміщення на час відпустки;Ich übernehme die Urlaubsvertretung **für die Kollegen im Kundenservice**.
+die Krankheitsvertretung, -en;sickness substitute;заміщення на час хвороби;Die Krankheitsvertretung **stellt eine zusätzliche Belastung für das Team dar**.
+der Vertretungsplan, "-e;substitution plan;план заміщення;Der Vertretungsplan **steht allen Beschäftigten im Intranet zur Verfügung**.
+die Vertretungskosten (Pl.);substitution costs;витрати на заміщення;Die Vertretungskosten **werden in der Jahresabrechnung separat aufgelistet**.
+die Vertretungszeit, -en;period of substitution;період заміщення;Während der Vertretungszeit **trägt er die Verantwortung für das Projekt**.
+der Vertretungsvertrag, "-e;substitution contract;договір про заміщення;Der Vertretungsvertrag **war auf die Dauer der Elternzeit befristet**.
+die Vertretungsvereinbarung, -en;substitution agreement;угода про заміщення;Die Vertretungsvereinbarung **wurde schriftlich im Arbeitsvertrag festgehalten**.
