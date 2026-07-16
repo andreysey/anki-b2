@@ -2297,8 +2297,7 @@
   {
     "level": "B1+",
     "levels": [
-      "B1+",
-      "B2"
+      "B1+"
     ],
     "thema": 4,
     "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Arbeitsalltag (Sg.)",
@@ -2529,8 +2528,7 @@
   {
     "level": "B1+",
     "levels": [
-      "B1+",
-      "B2"
+      "B1+"
     ],
     "thema": 4,
     "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Zeitdruck (Sg.)",
@@ -13382,7 +13380,7 @@
     "german_audio": "das Arbeitsklima",
     "english": "working atmosphere",
     "ukrainian": "робоча атмосфера",
-    "example": "Ein gutes <b style=\"color: #eab308;\">Arbeitsklima</b> ist für die Motivation der Entwickler extrem wichtig."
+    "example": "Ein gutes <b style=\"color: #eab308;\">Arbeitsklima</b> **wirkt sich positiv auf das Wohlbefinden und die Leistung aus**."
   },
   {
     "level": "B2",
@@ -13394,7 +13392,7 @@
     "german_audio": "die Atmosphäre",
     "english": "atmosphere",
     "ukrainian": "атмосфера",
-    "example": "Die <b style=\"color: #eab308;\">Atmosphäre</b> im Team ist nach dem erfolgreichen Release sehr entspannt."
+    "example": "Eine freundliche <b style=\"color: #eab308;\">Atmosphäre</b> **trägt entscheidend zur Konfliktlösung im Team bei**."
   },
   {
     "level": "B2",
@@ -13406,7 +13404,7 @@
     "german_audio": "ausreden",
     "english": "to finish speaking",
     "ukrainian": "договорити (до кінця)",
-    "example": "Bitte lass mich im Daily Standup kurz <b style=\"color: #eab308;\">ausreden</b>."
+    "example": "Bei Teambesprechungen **ist es eine wichtige Gesprächsregel, den Redner <b style=\"color: #eab308;\">ausreden</b> zu lassen**."
   },
   {
     "level": "B2",
@@ -13418,7 +13416,7 @@
     "german_audio": "die Ausstattung",
     "english": "equipment, facilities",
     "ukrainian": "обладнання, оснащення",
-    "example": "Die technische <b style=\"color: #eab308;\">Ausstattung</b> in unserem Büro (Monitore, Stühle) ist top."
+    "example": "Eine ergonomische <b style=\"color: #eab308;\">Ausstattung</b> des Arbeitsplatzes **beugt gesundheitlichen Belastungen vor**."
   },
   {
     "level": "B2",
@@ -13430,7 +13428,7 @@
     "german_audio": "das Beratungsgespräch",
     "english": "consultation, advisory discussion",
     "ukrainian": "консультація",
-    "example": "Das <b style=\"color: #eab308;\">Beratungsgespräch</b> mit dem IT-Consultant hat uns sehr geholfen."
+    "example": "Das <b style=\"color: #eab308;\">Beratungsgespräch</b> **gab dem Kunden einen guten Überblick über unsere Dienstleistungen**."
   },
   {
     "level": "B2",
@@ -13442,7 +13440,7 @@
     "german_audio": "der Besprechungspunkt",
     "english": "agenda item, point of discussion",
     "ukrainian": "пункт обговорення",
-    "example": "Der wichtigste <b style=\"color: #eab308;\">Besprechungspunkt</b> heute ist die neue Server-Architektur."
+    "example": "Wir müssen den wichtigsten <b style=\"color: #eab308;\">Besprechungspunkt</b> **heute unbedingt noch zur Sprache bringen**."
   },
   {
     "level": "B2",
@@ -13454,7 +13452,7 @@
     "german_audio": "der Bestseller",
     "english": "bestseller",
     "ukrainian": "бестселер",
-    "example": "Dieses Buch über Clean Code ist ein absoluter <b style=\"color: #eab308;\">Bestseller</b>."
+    "example": "Dieses neue Handbuch zur Qualitätskontrolle ist ein echter <b style=\"color: #eab308;\">Bestseller</b> **in unserer Branche**."
   },
   {
     "level": "B2",
@@ -13466,7 +13464,7 @@
     "german_audio": "die Beteiligung",
     "english": "participation",
     "ukrainian": "участь",
-    "example": "Die <b style=\"color: #eab308;\">Beteiligung</b> aller Entwickler am Code-Review ist Pflicht."
+    "example": "Die <b style=\"color: #eab308;\">Beteiligung</b> aller Teammitglieder **an der Sicherheitsunterweisung ist zwingend erforderlich**."
   },
   {
     "level": "B2",
@@ -13478,7 +13476,7 @@
     "german_audio": "dadurch",
     "english": "due to the fact that, because",
     "ukrainian": "через те, що",
-    "example": "<b style=\"color: #eab308;\">Dadurch</b>, dass wir agil arbeiten, können wir Fehler schneller fixen."
+    "example": "<b><b style=\"color: #eab308;\">Dadurch</b>, dass wir die Prozesse modernisiert haben, konnten wir die Effizienz steigern</b>."
   },
   {
     "level": "B2",
@@ -13490,7 +13488,7 @@
     "german_audio": "effektiv",
     "english": "effective(ly)",
     "ukrainian": "ефективний",
-    "example": "Wir müssen unsere Meetings kürzer und <b style=\"color: #eab308;\">effektiver</b> gestalten."
+    "example": "Um <b style=\"color: #eab308;\">effektiv</b> zu arbeiten, müssen wir **regelmäßig Absprachen mit den Kollegen treffen**."
   },
   {
     "level": "B2",
@@ -13502,7 +13500,7 @@
     "german_audio": "die Ergänzung",
     "english": "addition, supplement",
     "ukrainian": "доповнення",
-    "example": "Ich habe noch eine kurze <b style=\"color: #eab308;\">Ergänzung</b> zum Protokoll von gestern."
+    "example": "Ich habe noch eine kurze <b style=\"color: #eab308;\">Ergänzung</b> **zu dem gestern vorgelegten Schlichtungsvorschlag**."
   },
   {
     "level": "B2",
@@ -13514,7 +13512,7 @@
     "german_audio": "erledigen",
     "english": "to complete, to get done",
     "ukrainian": "виконувати",
-    "example": "Ich muss heute unbedingt noch dieses Jira-Ticket <b style=\"color: #eab308;\">erledigen</b>."
+    "example": "Als Vertretungskraft muss ich die dringenden Aufgaben des Kollegen <b><b style=\"color: #eab308;\">erledigen</b></b>."
   },
   {
     "level": "B2",
@@ -13526,7 +13524,7 @@
     "german_audio": "festlegen",
     "english": "to determine, to set",
     "ukrainian": "визначати, встановлювати",
-    "example": "Wir müssen die genaue Deadline für das nächste Release <b style=\"color: #eab308;\">festlegen</b>."
+    "example": "Wir müssen den genauen Ablauf der Betriebsferien **in der Betriebsvereinbarung <b style=\"color: #eab308;\">festlegen</b>**."
   },
   {
     "level": "B2",
@@ -13538,7 +13536,7 @@
     "german_audio": "die Gelegenheit bieten",
     "english": "to offer an opportunity",
     "ukrainian": "надавати можливість",
-    "example": "Das Projekt <b style=\"color: #eab308;\">bietet</b> die Gelegenheit, neue Cloud-Technologien zu lernen."
+    "example": "Die Jobmesse **<b style=\"color: #eab308;\">bietet</b> eine gute Gelegenheit, Kontakt mit potenziellen Arbeitgebern aufzunehmen**."
   },
   {
     "level": "B2",
@@ -13550,7 +13548,7 @@
     "german_audio": "die Gesprächsregel",
     "english": "rule of conversation",
     "ukrainian": "правило спілкування",
-    "example": "Eine wichtige <b style=\"color: #eab308;\">Gesprächsregel</b> im Team ist, einander ausreden zu lassen."
+    "example": "Die Einhaltung der <b style=\"color: #eab308;\">Gesprächsregeln</b> **ist wichtig für ein konstruktives Mitarbeitergespräch**."
   },
   {
     "level": "B2",
@@ -13562,7 +13560,7 @@
     "german_audio": "sich halten an",
     "english": "to stick to, to abide by",
     "ukrainian": "дотримуватися (чогось)",
-    "example": "Wir müssen uns strikt an die Coding-Guidelines halten."
+    "example": "Die Mitarbeiter müssen sich strikt **an die Richtlinien zur Unfallverhütung halten**."
   },
   {
     "level": "B2",
@@ -13574,7 +13572,7 @@
     "german_audio": "indem",
     "english": "by (doing something)",
     "ukrainian": "тим, що / шляхом",
-    "example": "Wir optimieren den Code, <b style=\"color: #eab308;\">indem</b> wir redundante Schleifen entfernen."
+    "example": "Wir verbessern die Arbeitsbedingungen, **<b style=\"color: #eab308;\">indem</b> wir Maßnahmen zur Lärmminderung ergreifen**."
   },
   {
     "level": "B2",
@@ -13586,7 +13584,7 @@
     "german_audio": "die Klarheit",
     "english": "clarity",
     "ukrainian": "ясність, чіткість",
-    "example": "Bei der API-Dokumentation brauchen wir absolute <b style=\"color: #eab308;\">Klarheit</b> für die User."
+    "example": "Wir müssen <b style=\"color: #eab308;\">Klarheit</b> **über die zukünftige Aufgabenteilung im Betrieb gewinnen**."
   },
   {
     "level": "B2",
@@ -13598,7 +13596,7 @@
     "german_audio": "Kritik üben",
     "english": "to criticize",
     "ukrainian": "критикувати",
-    "example": "Im Pull Request <b style=\"color: #eab308;\">üben</b> wir oft konstruktive Kritik am Code."
+    "example": "Es ist unprofessionell, im Beisein von Kunden **Kritik an Kollegen zu <b style=\"color: #eab308;\">üben</b>**."
   },
   {
     "level": "B2",
@@ -13610,7 +13608,7 @@
     "german_audio": "leiten",
     "english": "to lead, to manage",
     "ukrainian": "керувати",
-    "example": "Der Scrum Master wird das heutige Meeting <b style=\"color: #eab308;\">leiten</b>."
+    "example": "Die Personalchefin wird die Verhandlungen über den Haustarifvertrag <b><b style=\"color: #eab308;\">leiten</b></b>."
   },
   {
     "level": "B2",
@@ -13622,7 +13620,7 @@
     "german_audio": "das Meeting",
     "english": "meeting",
     "ukrainian": "мітинг, зустріч",
-    "example": "Das wöchentliche Entwickler-<b style=\"color: #eab308;\">Meeting</b> beginnt um 10 Uhr."
+    "example": "Im <b style=\"color: #eab308;\">Meeting</b> **haben wir über die behindertengerechte Anpassung der Arbeitsplätze gesprochen**."
   },
   {
     "level": "B2",
@@ -13634,7 +13632,7 @@
     "german_audio": "das Prospektmaterial",
     "english": "brochures, promotional material",
     "ukrainian": "рекламні матеріали",
-    "example": "Das Marketing erstellt neues <b style=\"color: #eab308;\">Prospektmaterial</b> für unsere Software."
+    "example": "Unser Verkaufsberater **stellt dem Kunden umfangreiches <b style=\"color: #eab308;\">Prospektmaterial</b> zur Verfügung**."
   },
   {
     "level": "B2",
@@ -13646,7 +13644,7 @@
     "german_audio": "das Protokoll",
     "english": "protocol, minutes",
     "ukrainian": "протокол, лог",
-    "example": "Wer schreibt heute das <b style=\"color: #eab308;\">Protokoll</b> für die Teambesprechung?"
+    "example": "Die getroffenen Absprachen **müssen im <b style=\"color: #eab308;\">Protokoll</b> schriftlich dokumentiert werden**."
   },
   {
     "level": "B2",
@@ -13658,7 +13656,7 @@
     "german_audio": "der Stand",
     "english": "status, state",
     "ukrainian": "стан",
-    "example": "Können Sie mir bitte den aktuellen <b style=\"color: #eab308;\">Stand</b> der Entwicklung mitteilen?"
+    "example": "Bitte halten Sie mich **über den aktuellen <b style=\"color: #eab308;\">Stand</b> der Personalsuche auf dem Laufenden**."
   },
   {
     "level": "B2",
@@ -13670,7 +13668,7 @@
     "german_audio": "der Tagesordnungspunkt",
     "english": "agenda item",
     "ukrainian": "пункт порядку денного",
-    "example": "Welcher <b style=\"color: #eab308;\">Tagesordnungspunkt</b> im Sprint Planning ist am wichtigsten?"
+    "example": "Der nächste <b style=\"color: #eab308;\">Tagesordnungspunkt</b> **befasst sich mit der Regelung der Vertrauensarbeitszeit**."
   },
   {
     "level": "B2",
@@ -13682,7 +13680,7 @@
     "german_audio": "verfassen",
     "english": "to write, to draft",
     "ukrainian": "складати, писати",
-    "example": "Ich muss noch die Release Notes für das neue Update <b style=\"color: #eab308;\">verfassen</b>."
+    "example": "Der Sicherheitsbeauftragte muss nach dem Unfall **einen genauen Bericht <b style=\"color: #eab308;\">verfassen</b>**."
   },
   {
     "level": "B2",
@@ -13694,7 +13692,7 @@
     "german_audio": "der Verkaufsberater",
     "english": "sales consultant",
     "ukrainian": "продавець-консультант",
-    "example": "Der <b style=\"color: #eab308;\">Verkaufsberater</b> präsentiert dem Kunden unser CRM-System."
+    "example": "Der <b style=\"color: #eab308;\">Verkaufsberater</b> **unterbreitete dem Kunden ein sehr attraktives Angebot**."
   },
   {
     "level": "B2",
@@ -13706,7 +13704,7 @@
     "german_audio": "abraten von",
     "english": "to advise against",
     "ukrainian": "відмовляти від",
-    "example": "Ich rate dringend davon ab, diese veraltete Bibliothek zu nutzen."
+    "example": "Aus Sicherheitsgründen **müssen wir dringend von einer eigenmächtigen Reparatur abraten**."
   },
   {
     "level": "B2",
@@ -13718,7 +13716,7 @@
     "german_audio": "abwesend",
     "english": "absent",
     "ukrainian": "відсутній",
-    "example": "Zwei Entwickler sind heute leider wegen Krankheit <b style=\"color: #eab308;\">abwesend</b>."
+    "example": "Da der Teamleiter heute <b style=\"color: #eab308;\">abwesend</b> ist, **übernehme ich die Vertretung für das Projekt**."
   },
   {
     "level": "B2",
@@ -13730,7 +13728,7 @@
     "german_audio": "anwesend",
     "english": "present",
     "ukrainian": "присутній",
-    "example": "Glücklicherweise sind alle Projektleiter beim Meeting <b style=\"color: #eab308;\">anwesend</b>."
+    "example": "Alle Mitglieder der Prüfungskommission **müssen bei der Kammerprüfung <b style=\"color: #eab308;\">anwesend</b> sein**."
   },
   {
     "level": "B2",
@@ -13742,7 +13740,7 @@
     "german_audio": "die Anzeigenkampagne",
     "english": "advertising campaign",
     "ukrainian": "рекламна кампанія",
-    "example": "Die <b style=\"color: #eab308;\">Anzeigenkampagne</b> für die neue App startet nächste Woche auf LinkedIn."
+    "example": "Die <b style=\"color: #eab308;\">Anzeigenkampagne</b> **hat das Image unseres Unternehmens in der Öffentlichkeit verbessert**."
   },
   {
     "level": "B2",
@@ -13754,7 +13752,7 @@
     "german_audio": "der Aufbau",
     "english": "structure, setup",
     "ukrainian": "структура, побудова",
-    "example": "Der <b style=\"color: #eab308;\">Aufbau</b> der Datenbank muss für mehr Performance optimiert werden."
+    "example": "Der <b style=\"color: #eab308;\">Aufbau</b> der Ausbildung **wird im bundesweiten Lehrplan genau vorgeschrieben**."
   },
   {
     "level": "B2",
@@ -13766,7 +13764,7 @@
     "german_audio": "die Ausstellung",
     "english": "exhibition",
     "ukrainian": "виставка",
-    "example": "Wir präsentieren unsere VR-Brille auf einer großen Tech-<b style=\"color: #eab308;\">Ausstellung</b>."
+    "example": "Die <b style=\"color: #eab308;\">Ausstellung</b> **gibt den Besuchern einen guten Überblick über innovative Technologien**."
   },
   {
     "level": "B2",
@@ -13778,7 +13776,7 @@
     "german_audio": "beauftragen",
     "english": "to assign, to commission",
     "ukrainian": "доручати",
-    "example": "Wir <b style=\"color: #eab308;\">beauftragen</b> eine externe Agentur mit dem Penetration-Test."
+    "example": "Wir haben den BBD **mit der psychosozialen Betreuung der Mitarbeiter <b style=\"color: #eab308;\">beauftragt</b>**."
   },
   {
     "level": "B2",
@@ -13790,7 +13788,7 @@
     "german_audio": "das Beratungsprotokoll",
     "english": "consultation protocol",
     "ukrainian": "протокол консультації",
-    "example": "Das <b style=\"color: #eab308;\">Beratungsprotokoll</b> fasst die Wünsche des Kunden detailliert zusammen."
+    "example": "Das <b style=\"color: #eab308;\">Beratungsprotokoll</b> **muss vor der Unterschrift auf Vollständigkeit überprüft werden**."
   },
   {
     "level": "B2",
@@ -13802,7 +13800,7 @@
     "german_audio": "Druck machen",
     "english": "to put pressure on",
     "ukrainian": "тиснути",
-    "example": "Der Kunde <b style=\"color: #eab308;\">macht</b> Druck, weil das Projekt nicht pünktlich fertig wird."
+    "example": "Der Vorgesetzte <b style=\"color: #eab308;\">macht</b> Druck, um **die Einhaltung des Fertigstellungstermins abzusichern**."
   },
   {
     "level": "B2",
@@ -13814,7 +13812,7 @@
     "german_audio": "das Gesprächsprotokoll",
     "english": "minutes of a meeting",
     "ukrainian": "протокол бесіди",
-    "example": "Ich sende euch das <b style=\"color: #eab308;\">Gesprächsprotokoll</b> nach dem Meeting per E-Mail."
+    "example": "Bitte **erstellen Sie ein <b style=\"color: #eab308;\">Gesprächsprotokoll</b> zur Vorlage bei der Geschäftsleitung**."
   },
   {
     "level": "B2",
@@ -13826,7 +13824,7 @@
     "german_audio": "der Gesprächstermin",
     "english": "appointment for a discussion",
     "ukrainian": "час бесіди, зустріч",
-    "example": "Wir brauchen einen neuen <b style=\"color: #eab308;\">Gesprächstermin</b> mit dem Product Owner."
+    "example": "Ich möchte einen <b style=\"color: #eab308;\">Gesprächstermin</b> **vereinbaren, um über meine Aufstiegsmöglichkeiten zu reden**."
   },
   {
     "level": "B2",
@@ -13838,7 +13836,7 @@
     "german_audio": "hilfsbereit",
     "english": "helpful",
     "ukrainian": "готовий допомогти",
-    "example": "Mein IT-Team ist immer sehr <b style=\"color: #eab308;\">hilfsbereit</b>, wenn ich einen Bug nicht finde."
+    "example": "Die Kollegen im Support **sind stets sehr <b style=\"color: #eab308;\">hilfsbereit</b> und freundlich zu allen Kunden**."
   },
   {
     "level": "B2",
@@ -13850,7 +13848,7 @@
     "german_audio": "das Messegespräch",
     "english": "trade fair discussion",
     "ukrainian": "розмова на виставці",
-    "example": "Das <b style=\"color: #eab308;\">Messegespräch</b> mit dem potenziellen Investor war sehr erfolgreich."
+    "example": "Das <b style=\"color: #eab308;\">Messegespräch</b> **hat großes Interesse an unserer Produktpalette geweckt**."
   },
   {
     "level": "B2",
@@ -13862,7 +13860,7 @@
     "german_audio": "der Messestand",
     "english": "exhibition stand",
     "ukrainian": "виставковий стенд",
-    "example": "Unser Startup hat einen kleinen <b style=\"color: #eab308;\">Messestand</b> auf der Web Summit."
+    "example": "Am <b style=\"color: #eab308;\">Messestand</b> **stehen unsere Fachkräfte für Auskünfte gerne zur Verfügung**."
   },
   {
     "level": "B2",
@@ -13874,7 +13872,7 @@
     "german_audio": "die Möbelmesse",
     "english": "furniture fair",
     "ukrainian": "меблева виставка",
-    "example": "Wir haben unsere 3D-Design-Software auf der <b style=\"color: #eab308;\">Möbelmesse</b> vorgestellt."
+    "example": "Wir haben auf der <b style=\"color: #eab308;\">Möbelmesse</b> **erfolgreich Kontakt zu neuen Großkunden geknüpft**."
   },
   {
     "level": "B2",
@@ -13886,7 +13884,7 @@
     "german_audio": "die Protokollführung",
     "english": "taking of minutes",
     "ukrainian": "ведення протоколу",
-    "example": "Die <b style=\"color: #eab308;\">Protokollführung</b> übernimmt heute ausnahmsweise der Praktikant."
+    "example": "Die <b style=\"color: #eab308;\">Protokollführung</b> **wurde von der Assistentin des Geschäftsführers übernommen**."
   },
   {
     "level": "B2",
@@ -13898,7 +13896,7 @@
     "german_audio": "der Schwerpunkt",
     "english": "focus, main emphasis",
     "ukrainian": "головна увага, акцент",
-    "example": "Der <b style=\"color: #eab308;\">Schwerpunkt</b> dieses Sprints liegt ganz klar auf Bugfixes."
+    "example": "Der <b style=\"color: #eab308;\">Schwerpunkt</b> der Fortbildung **liegt auf der Qualitätssicherung im Betrieb**."
   },
   {
     "level": "B2",
@@ -13910,7 +13908,7 @@
     "german_audio": "der Standaufbau",
     "english": "stand construction",
     "ukrainian": "монтаж стенду",
-    "example": "Der <b style=\"color: #eab308;\">Standaufbau</b> auf der IT-Messe dauert meistens zwei Tage."
+    "example": "Der <b style=\"color: #eab308;\">Standaufbau</b> auf der Messe **erfolgte ohne nennenswerte Unterbrechungen**."
   },
   {
     "level": "B2",
@@ -13922,7 +13920,7 @@
     "german_audio": "der Teamleiter",
     "english": "team leader",
     "ukrainian": "керівник команди",
-    "example": "Mein <b style=\"color: #eab308;\">Teamleiter</b> unterstützt mich bei schwierigen Architektur-Entscheidungen."
+    "example": "Der <b style=\"color: #eab308;\">Teamleiter</b> **übernimmt die Verantwortung für das Erreichen der Abteilungsziele**."
   },
   {
     "level": "B2",
@@ -13934,7 +13932,7 @@
     "german_audio": "der Thermosbecher",
     "english": "thermos mug",
     "ukrainian": "термокружка",
-    "example": "Ich habe immer einen <b style=\"color: #eab308;\">Thermosbecher</b> mit Kaffee neben der Tastatur."
+    "example": "Das Mitbringen offener Getränke **ist laut Sicherheitsvorschriften am PC verboten**, nutzen Sie einen <b style=\"color: #eab308;\">Thermosbecher</b>."
   },
   {
     "level": "B2",
@@ -13946,7 +13944,7 @@
     "german_audio": "verschenken",
     "english": "to give away",
     "ukrainian": "дарувати",
-    "example": "Wir <b style=\"color: #eab308;\">verschenken</b> Firmen-Laptops an die Mitarbeiter im Homeoffice."
+    "example": "Auf der Messe **<b style=\"color: #eab308;\">verschenken</b> wir kleine Werbegeschenke an interessierte Besucher**."
   },
   {
     "level": "B2",
@@ -13958,7 +13956,7 @@
     "german_audio": "das Versuchsprotokoll",
     "english": "test protocol/log",
     "ukrainian": "протокол випробування",
-    "example": "Das <b style=\"color: #eab308;\">Versuchsprotokoll</b> der QA-Abteilung zeigt, dass der Fehler behoben ist."
+    "example": "Die Ergebnisse der Messungen **müssen im <b style=\"color: #eab308;\">Versuchsprotokoll</b> fehlerfrei dokumentiert werden**."
   },
   {
     "level": "B2",
@@ -13970,7 +13968,7 @@
     "german_audio": "die Vertriebsabteilung",
     "english": "sales department",
     "ukrainian": "відділ збуту",
-    "example": "Die <b style=\"color: #eab308;\">Vertriebsabteilung</b> kümmert sich um den Verkauf der Software-Lizenzen."
+    "example": "Die <b style=\"color: #eab308;\">Vertriebsabteilung</b> **arbeitet eng mit dem Marketing für den Erfolg zusammen**."
   },
   {
     "level": "B2",
@@ -13982,7 +13980,7 @@
     "german_audio": "das Werbegeschenk",
     "english": "promotional gift",
     "ukrainian": "рекламний подарунок",
-    "example": "USB-Sticks mit Firmenlogo sind ein sehr beliebtes <b style=\"color: #eab308;\">Werbegeschenk</b>."
+    "example": "Das <b style=\"color: #eab308;\">Werbegeschenk</b> **bereitete den potenziellen Geschäftspartnern eine Freude**."
   },
   {
     "level": "B2",
@@ -13990,11 +13988,287 @@
       "B2"
     ],
     "thema": 5,
-    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Werbevideo, -s",
-    "german_audio": "das Werbevideo",
-    "english": "promotional video",
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Zettelbox, -en",
+    "german_audio": "die Zettelbox",
+    "english": "memo box, note box",
+    "ukrainian": "коробка для нотаток",
+    "example": "Die <b style=\"color: #eab308;\">Zettelbox</b> **steht auf dem Schreibtisch direkt neben dem Telefon bereit**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 5,
+    "german": "jdm. absagen (sagt ab, sagte ab, hat abgesagt)",
+    "german_audio": "jdm. absagen",
+    "english": "to cancel to someone",
+    "ukrainian": "відмовляти (комусь)",
+    "example": "Er musste den Gesprächstermin **wegen einer dringenden Schichtplanänderung <b style=\"color: #eab308;\">absagen</b>**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 5,
+    "german": "jdm. zusagen (sagt zu, sagte zu, hat zugesagt)",
+    "german_audio": "jdm. zusagen",
+    "english": "to accept / confirm to someone",
+    "ukrainian": "давати згоду (комусь)",
+    "example": "Wir haben dem Bewerber **die gewünschte Einstiegsposition fest zugesagt**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 5,
+    "german": "etw. bestätigen (bestätigt, bestätigte, hat bestätigt)",
+    "german_audio": "bestätigen",
+    "english": "to confirm",
+    "ukrainian": "підтверджувати",
+    "example": "Wir bitten Sie, den vereinbarten Termin **schriftlich zu <b style=\"color: #eab308;\">bestätigen</b>**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 5,
+    "german": "etw. verschieben (verschiebt, verschob, hat verschoben)",
+    "german_audio": "verschieben",
+    "english": "to postpone, to shift",
+    "ukrainian": "переносити, відкладати",
+    "example": "Wir müssen die Teamsitzung **auf den nächsten Donnerstag <b style=\"color: #eab308;\">verschieben</b>**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 5,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Auskunft, \"-e",
+    "german_audio": "die Auskunft",
+    "english": "information",
+    "ukrainian": "інформація, довідка",
+    "example": "Die Informationstheke **erteilt <b style=\"color: #eab308;\">Auskünfte</b> über alle Belange der Jobmesse**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 5,
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Aussteller, - / die Ausstellerin, -nen",
+    "german_audio": "der Aussteller",
+    "english": "exhibitor",
+    "ukrainian": "експонент, учасник виставки",
+    "example": "Der <b style=\"color: #eab308;\">Aussteller</b> **unterbreitete den Besuchern ein detailliertes Angebot**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 5,
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Exponat, -e",
+    "german_audio": "das Exponat",
+    "english": "exhibit",
+    "ukrainian": "експонат",
+    "example": "Die innovativen <b style=\"color: #eab308;\">Exponate</b> **haben großen Eindruck auf die Fachbesucher gemacht**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 5,
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Fachbesucher, - / die Fachbesucherin, -nen",
+    "german_audio": "der Fachbesucher",
+    "english": "trade visitor, professional visitor",
+    "ukrainian": "професійний відвідувач, спеціаліст",
+    "example": "Die Messe **zieht jedes Jahr Tausende <b style=\"color: #eab308;\">Fachbesucher</b> aus aller Welt an經濟**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 5,
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Fachpublikum (Sg.)",
+    "german_audio": "das Fachpublikum",
+    "english": "professional audience",
+    "ukrainian": "професійна аудиторія, спеціалісти",
+    "example": "Die Präsentation **richtete sich ausschließlich an ein versiertes <b style=\"color: #eab308;\">Fachpublikum</b>**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 5,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Leitmesse, -n",
+    "german_audio": "die Leitmesse",
+    "english": "leading trade fair",
+    "ukrainian": "провідна виставка",
+    "example": "Die IFA gilt als die <b style=\"color: #eab308;\">Leitmesse</b> für Unterhaltungselektronik **in unserer Branche**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 5,
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Marketing (Sg.)",
+    "german_audio": "das Marketing",
+    "english": "marketing",
+    "ukrainian": "маркетинг",
+    "example": "Das <b style=\"color: #eab308;\">Marketing</b> **legt großen Wert auf die Einhaltung des Corporate Designs**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 5,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Messehalle, -n",
+    "german_audio": "die Messehalle",
+    "english": "exhibition hall",
+    "ukrainian": "виставковий павільйон",
+    "example": "In der großen <b style=\"color: #eab308;\">Messehalle</b> **stehen den Besuchern verschiedene Info-Stände zur Verfügung**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 5,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Neuheit, -en",
+    "german_audio": "die Neuheit",
+    "english": "novelty, new product",
+    "ukrainian": "новинка",
+    "example": "Wir präsentieren auf der Messe **unsere neuesten technologischen <b style=\"color: #eab308;\">Neuheiten</b>**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 5,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Produktneuheit, -en",
+    "german_audio": "die Produktneuheit",
+    "english": "product novelty / new product",
+    "ukrainian": "новий продукт, новинка продукції",
+    "example": "Die <b style=\"color: #eab308;\">Produktneuheit</b> **ist auf großes Interesse beim Fachpublikum gestoßen**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 5,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Public Relations (PR) (Pl.)",
+    "german_audio": "die Public Relations",
+    "english": "public relations",
+    "ukrainian": "зв'язки з громадськістю (піар)",
+    "example": "Gute PR **trägt entscheidend zur Verbesserung des Images in der Öffentlichkeit bei**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 5,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Publikumswelt, -en",
+    "german_audio": "die Publikumswelt",
+    "english": "public section / consumer fair section",
+    "ukrainian": "публічна частина виставки",
+    "example": "Die <b style=\"color: #eab308;\">Publikumswelt</b> der Messe **ist am Wochenende auch für Privatbesucher geöffnet**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 5,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Publikumstag, -e",
+    "german_audio": "die Publikumstag",
+    "english": "public day (at a trade fair)",
+    "ukrainian": "день для загального відвідування",
+    "example": "Am <b style=\"color: #eab308;\">Publikumstag</b> **kam es am Messestand zu einem enormen Besucheransturm**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 5,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Standbetreuung (Sg.)",
+    "german_audio": "die Standbetreuung",
+    "english": "stand staff / booth support",
+    "ukrainian": "обслуговування стенду",
+    "example": "Die <b style=\"color: #eab308;\">Standbetreuung</b> **muss den Besuchern kompetente Auskünfte erteilen können**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 5,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Standgebühr, -en",
+    "german_audio": "die Standgebühr",
+    "english": "stand fee / booth fee",
+    "ukrainian": "плата за оренду стенду",
+    "example": "Die <b style=\"color: #eab308;\">Standgebühren</b> **werden in der Budgetplanung der Marketingabteilung eingeplant**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 5,
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Standpersonal (Sg.)",
+    "german_audio": "das Standpersonal",
+    "english": "booth staff",
+    "ukrainian": "персонал стенду",
+    "example": "Das <b style=\"color: #eab308;\">Standpersonal</b> **ist mit der Vorbereitung der Kundenkontakte beschäftigt**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 5,
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Standplatz, \"-e",
+    "german_audio": "der Standplatz",
+    "english": "booth space",
+    "ukrainian": "місце під стенд",
+    "example": "Wir haben uns einen attraktiven <b style=\"color: #eab308;\">Standplatz</b> **direkt am Haupteingang gesichert**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 5,
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Werbemittel, -",
+    "german_audio": "das Werbemittel",
+    "english": "advertising medium / promotional item",
+    "ukrainian": "рекламний засіб",
+    "example": "Kataloge und Flyer **sind wichtige <b style=\"color: #eab308;\">Werbemittel</b> zur Verkaufsförderung**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 5,
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Werbespot, -s",
+    "german_audio": "der Werbespot",
+    "english": "commercial / ad clip",
     "ukrainian": "рекламний ролик",
-    "example": "Das Marketing hat ein cooles <b style=\"color: #eab308;\">Werbevideo</b> für das neue Feature gemacht."
+    "example": "Der neue <b style=\"color: #eab308;\">Werbespot</b> **weist auf die Vorteile unserer Dienstleistungen hin**."
   },
   {
     "level": "B2",
@@ -14002,11 +14276,11 @@
       "B2"
     ],
     "thema": 5,
-    "german": "aggressiv",
-    "german_audio": "aggressiv",
-    "english": "aggressive",
-    "ukrainian": "агресивний",
-    "example": "<b style=\"color: #eab308;\">Aggressives</b> Verhalten wird in unserem agilen Team nicht toleriert."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Fachmesse, -n",
+    "german_audio": "die Fachmesse",
+    "english": "trade fair",
+    "ukrainian": "спеціалізована виставка",
+    "example": "Die <b style=\"color: #eab308;\">Fachmesse</b> **bietet gute Möglichkeiten zur Kooperation mit Partnern**."
   },
   {
     "level": "B2",
@@ -14014,11 +14288,11 @@
       "B2"
     ],
     "thema": 5,
-    "german": "etw. ansprechen (spricht an, sprach an, hat angesprochen)",
-    "german_audio": "ansprechen",
-    "english": "to address, to bring up",
-    "ukrainian": "піднімати питання, заговорювати про",
-    "example": "Wir müssen dieses technische Problem dringend im Meeting <b style=\"color: #eab308;\">ansprechen</b>."
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Geschäftspartner, - / die Geschäftspartnerin, -nen",
+    "german_audio": "der Geschäftspartner",
+    "english": "business partner",
+    "ukrainian": "діловий партнер",
+    "example": "Wir haben uns **mit unseren <b style=\"color: #eab308;\">Geschäftspartnern</b> auf ein gemeinsames Vorgehen geeinigt**."
   },
   {
     "level": "B2",
@@ -14026,11 +14300,11 @@
       "B2"
     ],
     "thema": 5,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Arbeitsatmosphäre (Sg.)",
-    "german_audio": "die Arbeitsatmosphäre",
-    "english": "working atmosphere",
-    "ukrainian": "робоча атмосфера",
-    "example": "Eine toxische <b style=\"color: #eab308;\">Arbeitsatmosphäre</b> schadet der Motivation und der Produktivität."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Neukundengewinnung (Sg.)",
+    "german_audio": "die Neukundengewinnung",
+    "english": "acquisition of new customers",
+    "ukrainian": "залучення нових клієнтів",
+    "example": "Die <b style=\"color: #eab308;\">Neukundengewinnung</b> **steht im Mittelpunkt unserer Vertriebsaktivitäten**."
   },
   {
     "level": "B2",
@@ -14038,11 +14312,11 @@
       "B2"
     ],
     "thema": 5,
-    "german": "auswirken (wirkt sich aus, wirkte sich aus, hat sich ausgewirkt)",
-    "german_audio": "auswirken",
-    "english": "to affect, to have an impact",
-    "ukrainian": "впливати, позначатися",
-    "example": "Dieser Speicher-Bug wird sich extrem negativ auf den Server <b style=\"color: #eab308;\">auswirken</b>."
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Kundenkontakt, -e",
+    "german_audio": "der Kundenkontakt",
+    "english": "customer contact",
+    "ukrainian": "контакт із клієнтом",
+    "example": "Ein freundlicher <b style=\"color: #eab308;\">Kundenkontakt</b> **ist die Voraussetzung für eine gute Beziehung**."
   },
   {
     "level": "B2",
@@ -14050,11 +14324,11 @@
       "B2"
     ],
     "thema": 5,
-    "german": "etw. beilegen (z. B. einen Streit) (legt bei, legte bei, hat beigelegt)",
-    "german_audio": "beilegen",
-    "english": "to settle (e.g. a dispute)",
-    "ukrainian": "владнати (напр., суперечку)",
-    "example": "Wir konnten den Konflikt über das Code-Design schnell <b style=\"color: #eab308;\">beilegen</b>."
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Kundengespräch, -e",
+    "german_audio": "das Kundengespräch",
+    "english": "customer conversation",
+    "ukrainian": "бесіда з клієнтом",
+    "example": "Im <b style=\"color: #eab308;\">Kundengespräch</b> **müssen wir aufmerksam auf die Wünsche des Partners eingehen**."
   },
   {
     "level": "B2",
@@ -14062,11 +14336,11 @@
       "B2"
     ],
     "thema": 5,
-    "german": "den Eindruck haben (hat, hatte, hat gehabt)",
-    "german_audio": "den Eindruck haben",
-    "english": "to have the impression",
-    "ukrainian": "мати враження",
-    "example": "Ich <b style=\"color: #eab308;\">habe</b> den Eindruck, dass die Datenbankanfragen zu langsam sind."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Kundenkarte, -n",
+    "german_audio": "die Kundenkarte",
+    "english": "customer card",
+    "ukrainian": "картка клієнта",
+    "example": "Die <b style=\"color: #eab308;\">Kundenkarte</b> **bietet den Inhabern attraktive Rabatte beim Einkauf**."
   },
   {
     "level": "B2",
@@ -14074,11 +14348,11 @@
       "B2"
     ],
     "thema": 5,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Du-Botschaft, -en",
-    "german_audio": "die Du-Botschaft",
-    "english": "\"you\" message (blaming)",
-    "ukrainian": "\"ти-повідомлення\" (звинувачення)",
-    "example": "<b style=\"color: #eab308;\">Du-Botschaften</b> (\"Du hast das kaputt gemacht\") führen im Team zu Konflikten."
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Kundenfeedback (Sg.)",
+    "german_audio": "das Kundenfeedback",
+    "english": "customer feedback",
+    "ukrainian": "відгук клієнта",
+    "example": "Das <b style=\"color: #eab308;\">Kundenfeedback</b> **gibt Aufschluss über Mängel an unseren Produkten**."
   },
   {
     "level": "B2",
@@ -14086,11 +14360,11 @@
       "B2"
     ],
     "thema": 5,
-    "german": "fehlender Respekt",
-    "german_audio": "fehlender Respekt",
-    "english": "lack of respect",
-    "ukrainian": "відсутність поваги",
-    "example": "Fehlender <b style=\"color: #eab308;\">Respekt</b> bei Code-Reviews zerstört das Vertrauen im Team."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Kundenzufriedenheit (Sg.)",
+    "german_audio": "die Kundenzufriedenheit",
+    "english": "customer satisfaction",
+    "ukrainian": "задоволеність клієнтів",
+    "example": "Die <b style=\"color: #eab308;\">Kundenzufriedenheit</b> **hat für unser Unternehmen höchste Priorität**."
   },
   {
     "level": "B2",
@@ -14098,11 +14372,11 @@
       "B2"
     ],
     "thema": 5,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Gemeinsamkeit, -en",
-    "german_audio": "die Gemeinsamkeit",
-    "english": "similarity, common ground",
-    "ukrainian": "спільна риса, спільність",
-    "example": "Wir haben viele <b style=\"color: #eab308;\">Gemeinsamkeiten</b>, zum Beispiel programmieren wir beide in Go."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Kundenbindung (Sg.)",
+    "german_audio": "die Kundenbindung",
+    "english": "customer retention/loyalty",
+    "ukrainian": "утримання клієнтів, лояльність клієнтів",
+    "example": "Guter Service **leistet einen wichtigen Beitrag zur langfristigen <b style=\"color: #eab308;\">Kundenbindung</b>**."
   },
   {
     "level": "B2",
@@ -14110,11 +14384,11 @@
       "B2"
     ],
     "thema": 5,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Ich-Botschaft, -en",
-    "german_audio": "die Ich-Botschaft",
-    "english": "\"I\" message",
-    "ukrainian": "\"я-повідомлення\"",
-    "example": "Mit einer <b style=\"color: #eab308;\">Ich-Botschaft</b> (\"Ich habe Schwierigkeiten, den Code zu lesen\") kritisiert man konstruktiver."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Kundenakquise (Sg.)",
+    "german_audio": "die Kundenakquise",
+    "english": "customer acquisition",
+    "ukrainian": "пошук та залучення клієнтів",
+    "example": "Die <b style=\"color: #eab308;\">Kundenakquise</b> **erfordert viel Geduld und gute Soft Skills**."
   },
   {
     "level": "B2",
@@ -14122,11 +14396,11 @@
       "B2"
     ],
     "thema": 5,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Kompromiss, -e",
-    "german_audio": "der Kompromiss",
-    "english": "compromise",
-    "ukrainian": "компроміс",
-    "example": "Wir haben einen technischen <b style=\"color: #eab308;\">Kompromiss</b> für das API-Design gefunden."
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Stammkunde, -n / die Stammkundin, -nen",
+    "german_audio": "der Stammkunde",
+    "english": "regular customer",
+    "ukrainian": "постійний клієнт",
+    "example": "<b style=\"color: #eab308;\">Stammkunden</b> **genießen bei uns besondere Konditionen und Rabatte**."
   },
   {
     "level": "B2",
@@ -14134,11 +14408,11 @@
       "B2"
     ],
     "thema": 5,
-    "german": "Kompromisse eingehen (geht ein, ging ein, ist eingegangen)",
-    "german_audio": "Kompromisse eingehen",
-    "english": "to make compromises",
-    "ukrainian": "йти на компроміси",
-    "example": "Manchmal muss man bei der Performance kleine Kompromisse <b style=\"color: #eab308;\">eingehen</b>."
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Neukunde, -n / die Neukundin, -nen",
+    "german_audio": "der Neukunde",
+    "english": "new customer",
+    "ukrainian": "новий клієнт",
+    "example": "Wir konnten auf der Messe **viele <b style=\"color: #eab308;\">Neukunden</b> für unsere Produkte begeistern**."
   },
   {
     "level": "B2",
@@ -14146,11 +14420,11 @@
       "B2"
     ],
     "thema": 5,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Konflikt, -e",
-    "german_audio": "der Konflikt",
-    "english": "conflict",
-    "ukrainian": "конфлікт",
-    "example": "Es gab einen kleinen <b style=\"color: #eab308;\">Konflikt</b> wegen des abgelehnten Pull-Requests."
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> potenzieller Kunde",
+    "german_audio": "der potenzieller Kunde",
+    "english": "potential customer",
+    "ukrainian": "потенційний клієнт",
+    "example": "Wir müssen potenzielle <b style=\"color: #eab308;\">Kunden</b> **durch gezielte Werbung ansprechen**."
   },
   {
     "level": "B2",
@@ -14158,11 +14432,11 @@
       "B2"
     ],
     "thema": 5,
-    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Konfliktgespräch, -e",
-    "german_audio": "das Konfliktgespräch",
-    "english": "conflict resolution discussion",
-    "ukrainian": "розмова для вирішення конфлікту",
-    "example": "Der Scrum Master führt ein <b style=\"color: #eab308;\">Konfliktgespräch</b> mit den zwei Entwicklern."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Kundenkartei, -en",
+    "german_audio": "die Kundenkartei",
+    "english": "customer register/file",
+    "ukrainian": "картотека клієнтів",
+    "example": "Die Daten der Neukunden **werden direkt in der <b style=\"color: #eab308;\">Kundenkartei</b> erfasst**."
   },
   {
     "level": "B2",
@@ -14170,11 +14444,11 @@
       "B2"
     ],
     "thema": 5,
-    "german": "kooperativ",
-    "german_audio": "kooperativ",
-    "english": "cooperative",
-    "ukrainian": "схильний до співпраці, кооперативний",
-    "example": "Unser Team arbeitet sehr <b style=\"color: #eab308;\">kooperativ</b> und teilt das Wissen gerne."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Kundenbetreuung (Sg.)",
+    "german_audio": "die Kundenbetreuung",
+    "english": "customer care / customer support",
+    "ukrainian": "обслуговування клієнтів",
+    "example": "Die <b style=\"color: #eab308;\">Kundenbetreuung</b> **ist rund um die Uhr telefonisch erreichbar**."
   },
   {
     "level": "B2",
@@ -14182,11 +14456,11 @@
       "B2"
     ],
     "thema": 5,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Leistungsdruck (Sg.)",
-    "german_audio": "der Leistungsdruck",
-    "english": "pressure to perform",
-    "ukrainian": "тиск щодо продуктивності (стрес)",
-    "example": "Kurz vor dem App-Release ist der <b style=\"color: #eab308;\">Leistungsdruck</b> extrem hoch."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Kundenreklamation, -en",
+    "german_audio": "die Kundenreklamation",
+    "english": "customer complaint",
+    "ukrainian": "рекламація від клієнта",
+    "example": "Die <b style=\"color: #eab308;\">Kundenreklamation</b> **wurde vom Beschwerdemanagement zügig bearbeitet**."
   },
   {
     "level": "B2",
@@ -14194,11 +14468,11 @@
       "B2"
     ],
     "thema": 5,
-    "german": "Lösungen erarbeiten (erarbeitet, erarbeitete, hat erarbeitet)",
-    "german_audio": "Lösungen erarbeiten",
-    "english": "to develop solutions",
-    "ukrainian": "розробляти рішення",
-    "example": "Wir müssen gemeinsam neue Lösungen für dieses Server-Problem <b style=\"color: #eab308;\">erarbeiten</b>."
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Kundenwunsch, \"-e",
+    "german_audio": "der Kundenwunsch",
+    "english": "customer wish",
+    "ukrainian": "бажання клієнта",
+    "example": "Wir bemühen uns, jeden <b style=\"color: #eab308;\">Kundenwunsch</b> **bestmöglich zu erfüllen**."
   },
   {
     "level": "B2",
@@ -14206,11 +14480,11 @@
       "B2"
     ],
     "thema": 5,
-    "german": "lüften (lüftet, lüftete, hat gelüftet)",
-    "german_audio": "lüften",
-    "english": "to air, to ventilate",
-    "ukrainian": "провітрювати",
-    "example": "Nach zwei Stunden Meeting müssen wir den Raum unbedingt <b style=\"color: #eab308;\">lüften</b>."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Kundennähe (Sg.)",
+    "german_audio": "die Kundennähe",
+    "english": "customer proximity",
+    "ukrainian": "близькість до клієнта (орієнтація на клієнта)",
+    "example": "<b style=\"color: #eab308;\">Kundennähe</b> **ist ein zentraler Leitsatz unserer Firmenphilosophie**."
   },
   {
     "level": "B2",
@@ -14218,11 +14492,11 @@
       "B2"
     ],
     "thema": 5,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Meinungsverschiedenheit, -en",
-    "german_audio": "die Meinungsverschiedenheit",
-    "english": "difference of opinion",
-    "ukrainian": "розбіжність у поглядах",
-    "example": "Es gab eine <b style=\"color: #eab308;\">Meinungsverschiedenheit</b> über die Wahl der richtigen Datenbank."
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Kundenstamm, \"-e",
+    "german_audio": "der Kundenstamm",
+    "english": "customer base",
+    "ukrainian": "клієнтська база",
+    "example": "Unser <b style=\"color: #eab308;\">Kundenstamm</b> **ist in den letzten Jahren kontinuierlich gewachsen**."
   },
   {
     "level": "B2",
@@ -14230,11 +14504,11 @@
       "B2"
     ],
     "thema": 5,
-    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Missverständnis, -se",
-    "german_audio": "das Missverständnis",
-    "english": "misunderstanding",
-    "ukrainian": "непорозуміння",
-    "example": "Ein unklarer Variablenname im Code führt oft zu einem <b style=\"color: #eab308;\">Missverständnis</b>."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Kundenanfrage, -n",
+    "german_audio": "die Kundenanfrage",
+    "english": "customer inquiry",
+    "ukrainian": "запит від клієнта",
+    "example": "Wir bemühen uns, jede <b style=\"color: #eab308;\">Kundenanfrage</b> **innerhalb von 24 Stunden zu beantworten**."
   },
   {
     "level": "B2",
@@ -14242,11 +14516,11 @@
       "B2"
     ],
     "thema": 5,
-    "german": "etw. nachvollziehen (vollzieht nach, vollzog nach, hat nachvollzogen)",
-    "german_audio": "nachvollziehen",
-    "english": "to comprehend, to understand",
-    "ukrainian": "розуміти, осягати",
-    "example": "Ich kann deinen Lösungsansatz für den Algorithmus absolut <b style=\"color: #eab308;\">nachvollziehen</b>."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Kundenberatung, -en",
+    "german_audio": "die Kundenberatung",
+    "english": "customer consultation",
+    "ukrainian": "консультування клієнтів",
+    "example": "Die <b style=\"color: #eab308;\">Kundenberatung</b> **erfolgt durch qualifizierte Fachkräfte**."
   },
   {
     "level": "B2",
@@ -14254,11 +14528,11 @@
       "B2"
     ],
     "thema": 5,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Neid (Sg.)",
-    "german_audio": "der Neid",
-    "english": "envy",
-    "ukrainian": "заздрість",
-    "example": "<b style=\"color: #eab308;\">Neid</b> auf das höhere Gehalt der Kollegen ist unprofessionell."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Kundenorientierung (Sg.)",
+    "german_audio": "die Kundenorientierung",
+    "english": "customer orientation",
+    "ukrainian": "клієнтоорієнтованість",
+    "example": "<b style=\"color: #eab308;\">Kundenorientierung</b> **wird in der Ausbildung der Kaufleute großgeschrieben**."
   },
   {
     "level": "B2",
@@ -14266,11 +14540,11 @@
       "B2"
     ],
     "thema": 5,
-    "german": "nervig",
-    "german_audio": "nervig",
-    "english": "annoying",
-    "ukrainian": "дратівливий, набридливий",
-    "example": "Dieser wiederkehrende Bug im Frontend ist wirklich sehr <b style=\"color: #eab308;\">nervig</b>."
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Kundenbeziehungsmanagement (CRM) (Sg.)",
+    "german_audio": "das Kundenbeziehungsmanagement",
+    "english": "customer relationship management (CRM)",
+    "ukrainian": "управління відносинами з клієнтами (CRM)",
+    "example": "Das neue CRM-System **erleichtert die Pflege der <b style=\"color: #eab308;\">Kundenkontakte</b>**."
   },
   {
     "level": "B2",
@@ -14278,11 +14552,11 @@
       "B2"
     ],
     "thema": 5,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Respekt (Sg.)",
-    "german_audio": "der Respekt",
-    "english": "respect",
-    "ukrainian": "повага",
-    "example": "Gegenseitiger <b style=\"color: #eab308;\">Respekt</b> ist die absolute Basis für erfolgreiches Pair-Programming."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Kundendaten (Pl.)",
+    "german_audio": "die Kundendaten",
+    "english": "customer data",
+    "ukrainian": "дані клієнтів",
+    "example": "Die <b style=\"color: #eab308;\">Kundendaten</b> **werden vertraulich behandelt und streng geschützt**."
   },
   {
     "level": "B2",
@@ -14290,11 +14564,11 @@
       "B2"
     ],
     "thema": 5,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Rivalität, -en",
-    "german_audio": "die Rivalität",
-    "english": "rivalry",
-    "ukrainian": "суперництво",
-    "example": "Eine gesunde <b style=\"color: #eab308;\">Rivalität</b> zwischen Entwicklern kann das Projekt beschleunigen."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Kundenakzeptanz (Sg.)",
+    "german_audio": "die Kundenakzeptanz",
+    "english": "customer acceptance",
+    "ukrainian": "прийняття клієнтами (сприйняття продукту ринком)",
+    "example": "Die <b style=\"color: #eab308;\">Kundenakzeptanz</b> für die neue App **war erfreulich hoch**."
   },
   {
     "level": "B2",
@@ -14302,11 +14576,11 @@
       "B2"
     ],
     "thema": 5,
-    "german": "sachlich",
-    "german_audio": "sachlich",
-    "english": "objective, factual",
-    "ukrainian": "об'єктивний, по суті",
-    "example": "Bitte bleib bei der Code-Kritik immer <b style=\"color: #eab308;\">sachlich</b> und nicht emotional."
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Kundennutzen (Sg.)",
+    "german_audio": "der Kundennutzen",
+    "english": "customer benefit",
+    "ukrainian": "користь для клієнта",
+    "example": "Das Produkt **bietet dem Anwender einen hohen praktischen <b style=\"color: #eab308;\">Kundennutzen</b>**."
   },
   {
     "level": "B2",
@@ -14314,395 +14588,11 @@
       "B2"
     ],
     "thema": 5,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Spannung, -en",
-    "german_audio": "die Spannung",
-    "english": "tension",
-    "ukrainian": "напруга",
-    "example": "Kurz vor der wichtigen Deadline gibt es oft <b style=\"color: #eab308;\">Spannungen</b> im Team."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 5,
-    "german": "stickig",
-    "german_audio": "stickig",
-    "english": "stuffy",
-    "ukrainian": "задушливий",
-    "example": "Die Luft im kleinen Serverraum ohne Klimaanlage ist sehr <b style=\"color: #eab308;\">stickig</b>."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 5,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Strategie, -n",
-    "german_audio": "die Strategie",
-    "english": "strategy",
-    "ukrainian": "стратегія",
-    "example": "Unsere Deployment-<b style=\"color: #eab308;\">Strategie</b> muss überarbeitet werden."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 5,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Streit, -igkeiten",
-    "german_audio": "der Streit",
-    "english": "argument, dispute",
-    "ukrainian": "суперечка",
-    "example": "Der <b style=\"color: #eab308;\">Streit</b> um die \"beste\" Programmiersprache im Büro ist völlig sinnlos."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 5,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Umgangsform, -en",
-    "german_audio": "die Umgangsform",
-    "english": "manner, etiquette",
-    "ukrainian": "манера поведінки",
-    "example": "Gute <b style=\"color: #eab308;\">Umgangsformen</b> sind auch bei Remote-Arbeit im Slack-Chat wichtig."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 5,
-    "german": "unerträglich",
-    "german_audio": "unerträglich",
-    "english": "unbearable",
-    "ukrainian": "нестерпний",
-    "example": "Die Hitze im unklimatisierten IT-Büro war im Sommer <b style=\"color: #eab308;\">unerträglich</b>."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 5,
-    "german": "unpünktlich",
-    "german_audio": "unpünktlich",
-    "english": "unpunctual, late",
-    "ukrainian": "непунктуальний",
-    "example": "Es stört das Team, wenn jemand beim Daily Meeting <b style=\"color: #eab308;\">unpünktlich</b> ist."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 5,
-    "german": "unsachlich",
-    "german_audio": "unsachlich",
-    "english": "unobjective, biased",
-    "ukrainian": "необ'єктивний",
-    "example": "<b style=\"color: #eab308;\">Unsachliche</b> Kommentare haben in einem professionellen Code-Review nichts zu suchen."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 5,
-    "german": "unter vier Augen",
-    "german_audio": "unter vier Augen",
-    "english": "face-to-face, privately",
-    "ukrainian": "віч-на-віч",
-    "example": "Kritik an der Leistung besprechen wir besser privat unter vier <b style=\"color: #eab308;\">Augen</b>."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 5,
-    "german": "etw./jdn. vergiften (z. B. die Atmosphäre) (vergiftet, vergiftete, hat vergiftet)",
-    "german_audio": "etw.",
-    "english": "to poison (e.g. the atmosphere)",
-    "ukrainian": "отруювати (напр., атмосферу)",
-    "example": "Ständiges Meckern kann die Arbeitsatmosphäre im Team vergiften."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 5,
-    "german": "etw. vermeiden (vermeidet, vermied, hat vermieden)",
-    "german_audio": "vermeiden",
-    "english": "to avoid",
-    "ukrainian": "уникати",
-    "example": "Wir müssen Fehler und Redundanzen im Code unbedingt <b style=\"color: #eab308;\">vermeiden</b> (DRY)."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 5,
-    "german": "Verständnis zeigen für (+ Akk.) (zeigt, zeigte, hat gezeigt)",
-    "german_audio": "Verständnis zeigen für",
-    "english": "to show understanding for",
-    "ukrainian": "виявляти розуміння",
-    "example": "Der Arbeitgeber muss Verständnis <b style=\"color: #eab308;\">für</b> familiäre Notfälle zeigen."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 5,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Aufnahme, -n",
-    "german_audio": "die Aufnahme",
-    "english": "recording, photo, admission",
-    "ukrainian": "знімок, запис, прийом",
-    "example": "Wir machen eine <b style=\"color: #eab308;\">Aufnahme</b> der Fehlermeldung (Screenshot) für das Ticket."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 5,
-    "german": "einen Berg besteigen (besteigt, bestieg, hat bestiegen)",
-    "german_audio": "einen Berg besteigen",
-    "english": "to climb a mountain",
-    "ukrainian": "підніматися на гору",
-    "example": "Im Urlaub möchte der Chef in den Alpen einen Berg <b style=\"color: #eab308;\">besteigen</b>."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 5,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Butterbrezel, -n",
-    "german_audio": "die Butterbrezel",
-    "english": "butter pretzel",
-    "ukrainian": "брецель з маслом",
-    "example": "Zum gemeinsamen Frühstück im Büro gibt es heute frische <b style=\"color: #eab308;\">Butterbrezeln</b>."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 5,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Einstand (Sg.)",
-    "german_audio": "der Einstand",
-    "english": "debut, starting a new job",
-    "ukrainian": "початок роботи, вступ на посаду",
-    "example": "Zur Feier seines <b style=\"color: #eab308;\">Einstands</b> bringt der neue Entwickler Kuchen mit."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 5,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Einstandsfeier, -n",
-    "german_audio": "die Einstandsfeier",
-    "english": "welcome party (for a new employee)",
-    "ukrainian": "вечірка на честь нового співробітника",
-    "example": "Die <b style=\"color: #eab308;\">Einstandsfeier</b> für das neue Teammitglied findet Freitag nach Feierabend statt."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 5,
-    "german": "sich erholen (erholt sich, erholte sich, hat sich erholt)",
-    "german_audio": "sich erholen",
-    "english": "to recover, to rest",
-    "ukrainian": "відпочивати, відновлюватися",
-    "example": "Am Wochenende muss ich mich vom stressigen Programmieren <b style=\"color: #eab308;\">erholen</b>."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 5,
-    "german": "etw. genehmigen (genehmigt, genehmigte, hat genehmigt)",
-    "german_audio": "genehmigen",
-    "english": "to approve",
-    "ukrainian": "схвалювати, затверджувати",
-    "example": "Der IT-Leiter muss meinen Urlaubsantrag erst <b style=\"color: #eab308;\">genehmigen</b>."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 5,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Kreuzfahrt, -en",
-    "german_audio": "die Kreuzfahrt",
-    "english": "cruise",
-    "ukrainian": "круїз",
-    "example": "Mein Teamlead macht im Sommer eine <b style=\"color: #eab308;\">Kreuzfahrt</b> im Mittelmeer."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 5,
-    "german": "etw. stückeln (z.B. den Urlaub) (stückelt, stückelte, hat gestückelt)",
-    "german_audio": "stückeln",
-    "english": "to split up, to piece together",
-    "ukrainian": "розбивати на частини (напр., відпустку)",
-    "example": "Wegen des großen Projekts muss ich meinen Jahresurlaub leider <b style=\"color: #eab308;\">stückeln</b>."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 5,
-    "german": "sich aufhalten (hält sich auf, hielt sich auf, hat sich aufgehalten)",
-    "german_audio": "sich aufhalten",
-    "english": "to stay, to linger",
-    "ukrainian": "перебувати, затримуватися",
-    "example": "In der Mittagspause halte ich mich gerne in der gemütlichen Büro-Küche auf."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 5,
-    "german": "etw. beklagen (beklagt, beklagte, hat beklagt)",
-    "german_audio": "beklagen",
-    "english": "to complain about, to lament",
-    "ukrainian": "скаржитися на",
-    "example": "Viele Entwickler <b style=\"color: #eab308;\">beklagen</b> die schlechte Dokumentation der alten API."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 5,
-    "german": "zu einem Ergebnis kommen (kommt, kam, ist gekommen)",
-    "german_audio": "zu einem Ergebnis kommen",
-    "english": "to come to a conclusion/result",
-    "ukrainian": "дійти висновку / результату",
-    "example": "Wir müssen in diesem Meeting zu einem Ergebnis beim Datenbank-Design <b style=\"color: #eab308;\">kommen</b>."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 5,
-    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Freizeitverhalten (Sg.)",
-    "german_audio": "das Freizeitverhalten",
-    "english": "leisure behavior",
-    "ukrainian": "проведення вільного часу",
-    "example": "Das <b style=\"color: #eab308;\">Freizeitverhalten</b> vieler Entwickler schließt Videospiele (Gaming) ein."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 5,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Freizeitbeschäftigung, -en",
-    "german_audio": "die Freizeitbeschäftigung",
-    "english": "leisure activity",
-    "ukrainian": "заняття у вільний час",
-    "example": "Programmieren ist für manche nicht nur Beruf, sondern auch <b style=\"color: #eab308;\">Freizeitbeschäftigung</b>."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 5,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Mittagsschlaf (Sg.)",
-    "german_audio": "der Mittagsschlaf",
-    "english": "afternoon nap",
-    "ukrainian": "післяобідній сон",
-    "example": "Im Homeoffice mache ich manchmal einen kurzen <b style=\"color: #eab308;\">Mittagsschlaf</b> (Powernap)."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 5,
-    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Multitasking (Sg.)",
-    "german_audio": "das Multitasking",
-    "english": "multitasking",
-    "ukrainian": "багатозадачність",
-    "example": "<b style=\"color: #eab308;\">Multitasking</b> beim Coden führt nachweislich zu mehr Fehlern im System."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 5,
-    "german": "repräsentativ",
-    "german_audio": "repräsentativ",
-    "english": "representative",
-    "ukrainian": "репрезентативний",
-    "example": "Die Umfrage unter den Usern der neuen App ist sehr <b style=\"color: #eab308;\">repräsentativ</b>."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 5,
-    "german": "eine repräsentative Studie",
-    "german_audio": "eine repräsentative Studie",
-    "english": "a representative study",
-    "ukrainian": "репрезентативне дослідження",
-    "example": "Eine repräsentative <b style=\"color: #eab308;\">Studie</b> zeigt, dass IT-Fachkräfte viel Kaffee trinken."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 5,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Stiftung, -en",
-    "german_audio": "die Stiftung",
-    "english": "foundation, charity",
-    "ukrainian": "фонд",
-    "example": "Die Firma spendet an eine <b style=\"color: #eab308;\">Stiftung</b>, die IT-Bildung für Kinder fördert."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 5,
-    "german": "etw. unternehmen (unternimmt, unternahm, hat unternommen)",
-    "german_audio": "unternehmen",
-    "english": "to undertake, to do (an activity)",
-    "ukrainian": "робити, здійснювати (часто разом)",
-    "example": "Am Wochenende möchte ich etwas mit meinen IT-Kollegen <b style=\"color: #eab308;\">unternehmen</b>."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 5,
-    "german": "sich etw. vornehmen (nimmt sich vor, nahm sich vor, hat sich vorgenommen)",
-    "german_audio": "sich etw. vornehmen",
-    "english": "to plan to do sth., to resolve",
-    "ukrainian": "планувати, задумувати",
-    "example": "Ich habe mir vorgenommen, dieses Jahr die Programmiersprache Rust zu lernen."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Kundenbewertung, -en",
+    "german_audio": "die Kundenbewertung",
+    "english": "customer rating/review",
+    "ukrainian": "оцінка клієнта, відгук",
+    "example": "Positive <b style=\"color: #eab308;\">Kundenbewertungen</b> **wirken sich sehr vorteilhaft auf das Image aus**."
   },
   {
     "level": "B2",
@@ -16366,18 +16256,6 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Kundenbewertung, -en",
-    "german_audio": "die Kundenbewertung",
-    "english": "customer review",
-    "ukrainian": "відгук клієнта",
-    "example": "Die App hat eine 5-Sterne-<b style=\"color: #eab308;\">Kundenbewertung</b> im Play Store."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 7,
     "german": "langlebig",
     "german_audio": "langlebig",
     "english": "long-lasting, durable",
@@ -16491,6 +16369,18 @@
     "english": "environmental friendliness",
     "ukrainian": "екологічність",
     "example": "<b style=\"color: #eab308;\">Umweltfreundlichkeit</b> ist ein Ziel unseres neuen Rechenzentrums."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 7,
+    "german": "etw. vermeiden (vermeidet, vermied, hat vermieden)",
+    "german_audio": "vermeiden",
+    "english": "to avoid",
+    "ukrainian": "уникати",
+    "example": "Redundanzen in der Datenbank müssen wir unbedingt <b style=\"color: #eab308;\">vermeiden</b>."
   },
   {
     "level": "B2",
@@ -17182,18 +17072,6 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Kundenorientierung (Sg.)",
-    "german_audio": "die Kundenorientierung",
-    "english": "customer orientation",
-    "ukrainian": "клієнтоорієнтованість",
-    "example": "Die <b style=\"color: #eab308;\">Kundenorientierung</b> steht bei der Entwicklung unseres UIs im Fokus."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 7,
     "german": "locker",
     "german_audio": "locker",
     "english": "relaxed, casual",
@@ -17458,6 +17336,18 @@
       "B2"
     ],
     "thema": 7,
+    "german": "sachlich",
+    "german_audio": "sachlich",
+    "english": "objective, factual",
+    "ukrainian": "об'єктивний",
+    "example": "Lass uns das Architektur-Problem ganz <b style=\"color: #eab308;\">sachlich</b> analysieren."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 7,
     "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Tadel, -",
     "german_audio": "der Tadel",
     "english": "reprimand, blame",
@@ -17583,6 +17473,18 @@
     "english": "to think of (an opinion)",
     "ukrainian": "бути якоїсь думки про щось",
     "example": "Was hältst du von dem neuen JavaScript-Framework?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 7,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Ich-Botschaft, -en",
+    "german_audio": "die Ich-Botschaft",
+    "english": "\"I\" message",
+    "ukrainian": "\"я-повідомлення\"",
+    "example": "Kommuniziere Kritik besser als <b style=\"color: #eab308;\">Ich-Botschaft</b> (\"Ich finde das schwer lesbar\")."
   },
   {
     "level": "B2",
@@ -17883,18 +17785,6 @@
     "english": "to factor in, to take into account",
     "ukrainian": "враховувати (у розрахунках)",
     "example": "Wir müssen Pufferzeit für Bugfixes <b style=\"color: #eab308;\">einkalkulieren</b>."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Fachmesse, -n",
-    "german_audio": "die Fachmesse",
-    "english": "trade fair",
-    "ukrainian": "спеціалізована виставка",
-    "example": "Wir stellen unser Produkt auf der IT-<b style=\"color: #eab308;\">Fachmesse</b> vor."
   },
   {
     "level": "B2",
@@ -19078,6 +18968,18 @@
       "B2"
     ],
     "thema": 9,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Aufnahme, -n",
+    "german_audio": "die Aufnahme",
+    "english": "recording, picture, admission",
+    "ukrainian": "знімок, запис, прийом",
+    "example": "Bitte schicken Sie eine <b style=\"color: #eab308;\">Aufnahme</b> (Screenshot) der Fehlermeldung im Browser."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 9,
     "german": "begeistert",
     "german_audio": "begeistert",
     "english": "enthusiastic, excited",
@@ -19462,18 +19364,6 @@
       "B2"
     ],
     "thema": 9,
-    "german": "etw. bestätigen (bestätigt, bestätigte, hat bestätigt)",
-    "german_audio": "bestätigen",
-    "english": "to confirm",
-    "ukrainian": "підтверджувати",
-    "example": "Bitte <b style=\"color: #eab308;\">bestätigen</b> Sie den Empfang der neuen Zugangsdaten per E-Mail."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 9,
     "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Dunstabzugshaube, -n",
     "german_audio": "die Dunstabzugshaube",
     "english": "extractor hood",
@@ -19791,6 +19681,18 @@
     "english": "rectification of defects",
     "ukrainian": "усунення недоліків",
     "example": "Die <b style=\"color: #eab308;\">Mängelbeseitigung</b> in der Produktionsumgebung hat höchste Priorität."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 9,
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Missverständnis, -se",
+    "german_audio": "das Missverständnis",
+    "english": "misunderstanding",
+    "ukrainian": "непорозуміння",
+    "example": "Eine unklare API-Dokumentation führt oft zu einem <b style=\"color: #eab308;\">Missverständnis</b> bei den Entwicklern."
   },
   {
     "level": "B2",
