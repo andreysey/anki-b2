@@ -1,120 +1,174 @@
 #separator:;
 #html:true
 #columns:German;English;Ukrainian;Example
-etw. abschalten (schaltet ab, schaltete ab, hat abgeschaltet);to switch off, to shut down;вимикати, відключати;Wir müssen den veralteten Datenbank-Server endgültig abschalten.
-anfallen (fällt an, fiel an, ist angefallen);to arise, to be incurred;виникати (про витрати або роботу);Beim AWS-Cloud-Hosting können sehr hohe Kosten anfallen.
-die Aufnahme, -n;recording, picture, admission;знімок, запис, прийом;Bitte schicken Sie eine Aufnahme (Screenshot) der Fehlermeldung im Browser.
-begeistert;enthusiastic, excited;у захваті, натхненний;Der Kunde war total begeistert von dem neuen UI-Design.
-etw. beheben (z. B. einen Fehler) (behebt, behob, hat behoben);to fix, to resolve;усувати, виправляти (напр., помилку);Wir müssen diesen kritischen Bug noch vor dem Release beheben.
-etw. beschädigen (beschädigt, beschädigte, hat beschädigt);to damage;пошкоджувати;Ein starker Stromausfall kann die Server-Hardware beschädigen.
-der Dienstleister, - / die Dienstleisterin, -nen;service provider;постачальник послуг, підрядник;Wir nutzen einen externen Dienstleister für unsere IT-Security.
-das Display, -s;display, screen;дисплей, екран;Das responsive Design muss sich an jedes Smartphone-Display anpassen.
-etw. einstellen (stellt ein, stellte ein, hat eingestellt);to stop, to adjust;припиняти, налаштовувати;Wir werden den Support für diese alte Software-Version einstellen.
-das Elektronikmodul, -e;electronic module;електронний модуль;Das Elektronikmodul des neuen IoT-Geräts ist leider durchgebrannt.
-etw. erkennen (erkennt, erkannte, hat erkannt);to recognize, to detect;розпізнавати, виявляти;Die Künstliche Intelligenz kann komplexe Muster in den Daten erkennen.
-erscheinen (erscheint, erschien, ist erschienen);to appear;з'являтися;Der Error-Code 500 wird auf dem Bildschirm erscheinen.
-das Fachgeschäft, -e;specialist shop;спеціалізований магазин;Wir kaufen spezielle Netzwerkkabel im IT-Fachgeschäft.
-fehlerhaft;faulty, defective, buggy;помилковий, дефектний;Der fehlerhafte Code führte gestern zu einem Server-Absturz.
-den Geist aufgeben (gibt auf, gab auf, hat aufgegeben);to give up the ghost, to break down;наказати довго жити, зламатися;Meine alte SSD-Festplatte hat gestern leider den Geist aufgegeben.
-glücklicherweise;fortunately, luckily;на щастя;Glücklicherweise hatten wir ein aktuelles Backup der gesamten Datenbank.
-die Großwäscherei, -en;large-scale laundry;велика пральня;Wir programmieren eine Logistik-Software für eine Großwäscherei.
-die Herstellerfirma, -firmen;manufacturing company;компанія-виробник;Die Herstellerfirma bietet keine Sicherheits-Updates mehr für diesen Router an.
-jdn. konfrontieren mit (+ Dat.) (konfrontiert, konfrontierte, hat konfrontiert);to confront someone with;зіштовхувати когось із, пред'являти;Wir mussten den Cloud-Provider mit den ständigen Ausfallzeiten konfrontieren.
-lieferbar;available, deliverable;доступний для доставки, в наявності;Die neuen M3-MacBooks für das Entwicklerteam sind aktuell nicht lieferbar.
-der Mangel, "-;defect, flaw, shortage;дефект, недолік, нестача;Das QA-Team hat einen schweren Mangel in der App-Sicherheit gefunden.
-das Modul, -e;module;модуль;Ich habe das Login-Modul in React komplett neu geschrieben.
-der Monteur, -e / die Monteurin, -nen;mechanic, fitter, installer;монтажник, механік;Der Monteur installiert heute das neue Server-Rack im Data Center.
-etw. nachbestellen (bestellt nach, bestellte nach, hat nachbestellt);to reorder;дозамовляти;Wir müssen dringend neue Software-Lizenzen beim Anbieter nachbestellen.
-ein Problem beheben (behebt, behob, hat behoben);to fix/resolve a problem;вирішити проблему;Der IT-Support konnte das Login-Problem des Kunden schnell beheben.
-der Retourenschein, -e;return slip;бланк повернення;Dem defekten Firmen-Laptop lag bereits ein Retourenschein bei.
-die Serviceleistung, -en;service;сервісна послуга;Die monatliche Server-Wartung ist eine wichtige Serviceleistung.
-die Textilie, -n;textile;текстиль, тканина;Unser E-Commerce-Kunde verkauft nachhaltige Textilien im Internet.
-umsonst;free of charge, in vain;безкоштовно, даремно;Mein ganzes Refactoring war umsonst, weil der Kunde das Feature gestrichen hat.
-etw. verfärben (verfärbt, verfärbte, hat verfärbt);to discolor;змінювати колір, забарвлювати;Durch die extreme Hitze im Serverraum hat sich das Plastik verfärbt.
-etw. versalzen (versalzt, versalzte, hat versalzen);to oversalt;пересолити;Der Koch in der Betriebskantine hat das Mittagessen leider versalzen.
-sich verspäten (verspätet sich, verspätete sich, ist verspätet);to be late, to be delayed;запізнюватися, затримуватися;Das Release-Datum der neuen Software wird sich um eine Woche verspäten.
-jdm. etw. versprechen (verspricht, versprach, hat versprochen);to promise someone something;обіцяти комусь щось;Der Provider hat uns vertraglich eine Uptime von 99,9% versprochen.
-etw. zerbrechen (zerbricht, zerbrach, hat zerbrochen);to break, to shatter;розбивати;Das Display des Firmen-Smartphones ist leider zerbrochen.
-etw. zerkratzen;to scratch;подряпати;Das Gehäuse meines Arbeitslaptops ist durch den Transport zerkratzt.
-etw. zerreißen (zerreißt, zerriss, hat zerrissen);to tear, to rip;розривати;Ich habe das ausgedruckte Passwort aus Sicherheitsgründen zerrissen.
-Abhilfe schaffen (schafft, schaffte, hat geschaffen);to remedy, to fix a problem;зарадити, усунути проблему;Ein neues Caching-System wird bei den langsamen Ladezeiten Abhilfe schaffen.
-allerdings;however, indeed;однак, щоправда;Der Code funktioniert einwandfrei, allerdings ist er sehr schwer zu lesen.
-etw. bedauern (bedauert, bedauerte, hat bedauert);to regret;шкодувати про щось;Wir bedauern den gestrigen Server-Ausfall und bitten um Entschuldigung.
-zu unserem Bedauern;to our regret;на наш жаль;Zu unserem Bedauern müssen wir die Entwicklung dieses Features stoppen.
-etw. bestätigen (bestätigt, bestätigte, hat bestätigt);to confirm;підтверджувати;Bitte bestätigen Sie den Empfang der neuen Zugangsdaten per E-Mail.
-die Dunstabzugshaube, -n;extractor hood;витяжка (кухонна);Wir haben Smart-Home-Technik für eine WLAN-Dunstabzugshaube entwickelt.
-eintreffen (trifft ein, traf ein, ist eingetroffen);to arrive;прибувати, надходити;Die neue Server-Hardware wird voraussichtlich morgen im Büro eintreffen.
-der Eingang, "-e;receipt, arrival, entrance;надходження, вхід;Der Eingang der Zahlung wurde im CRM-System automatisch registriert.
-den Eingang bestätigen (bestätigt, bestätigte, hat bestätigt);to confirm receipt;підтвердити отримання;Die API wird den Eingang der JSON-Daten mit einem Status 200 bestätigen.
-die Flamme, -n;flame;полум'я;Eine defekte Lithium-Ionen-Batterie kann plötzlich in Flammen aufgehen.
-der Gefrierschrank, "-e;freezer;морозильна камера;Der smarte IoT-Gefrierschrank bestellt automatisch Lebensmittel nach.
-sich herausstellen (stellt sich heraus, stellte sich heraus, hat sich herausgestellt);to turn out;з'ясовуватися, виявлятися;Es hat sich herausgestellt, dass das alte Framework enorme Sicherheitslücken hat.
-der Lieferschein, -e;delivery note;накладна (на доставку);Der Lieferschein für die neuen Monitore liegt beim Office-Manager.
-etw. nachliefern (liefert nach, lieferte nach, hat nachgeliefert);to deliver later, to supply subsequently;допоставити, доставити пізніше;Wir müssen das fehlende Netzwerkkabel für den Kunden umgehend nachliefern.
-umgehend;immediately, promptly;негайно, терміново;Bitte beheben Sie diesen kritischen Bug auf dem Produktionsserver umgehend.
-verfügbar;available;доступний;Der neue Cloud-Service von AWS ist nun weltweit verfügbar.
-das Versehen, -;mistake, oversight, accident;помилка, недогляд;Das Löschen der Produktions-Datenbank war ein schreckliches Versehen.
-die Warenkontrolle, -n;goods inspection;перевірка товару;Die gelieferten Laptops müssen zuerst durch die interne Warenkontrolle.
-die Anfahrt, -en;journey, approach (driving);проїзд, дорога (до місця);Die Anfahrt zum externen Rechenzentrum dauert etwa eine Stunde.
-die Anschaffung, -en;purchase, acquisition;придбання, покупка;Die Anschaffung der neuen Server-Infrastruktur war eine große Investition.
-der Aufpreis, -e;surcharge, extra charge;доплата;Premium-Support mit 24/7 Hotline kostet bei dieser Software einen Aufpreis.
-ausgehen von (+ Dat.) (geht aus, ging aus, ist ausgegangen);to assume, to proceed from;виходити з (припущення);Wir gehen von einem erfolgreichen und fehlerfreien Deployment aus.
-etw. beinhalten (beinhaltet, beinhaltete, hat beinhaltet);to contain, to include;містити, охоплювати;Der IT-Support-Vertrag beinhaltet regelmäßige automatisierte Backups.
-etw. beseitigen (beseitigt, beseitigte, hat beseitigt);to eliminate, to fix;усувати, ліквідувати;Die gefundene Sicherheitslücke (Vulnerability) wurde sofort beseitigt.
-die Beteiligung, -en;participation, share;участь, частка;Wir danken dem Team für die aktive Beteiligung am Beta-Test der App.
-defekt;defective, broken;несправний, дефектний;Der defekte RAM-Riegel im Server führte zu ständigen Abstürzen.
-erfolgen (erfolgt, erfolgte, ist erfolgt);to take place, to occur;відбуватися, здійснюватися;Das nächste große Software-Update wird in der Nacht von Samstag auf Sonntag erfolgen.
-der Fehlercode, -s;error code;код помилки;Der Fehlercode 404 bedeutet, dass die angeforderte Webseite nicht gefunden wurde.
-die Frachtkosten (Pl.);freight costs, shipping costs;витрати на перевезення;Die Frachtkosten für den Transport der schweren Server-Racks sind hoch.
-freiwillig;voluntary;добровільно;Die Teilnahme an dem Programmierwettbewerb (Hackathon) ist komplett freiwillig.
-die Garantie, -n;guarantee, warranty;гарантія;Wir haben auf alle Firmen-Laptops eine Garantie von drei Jahren.
-die Garantieverlängerung, -en;warranty extension;продовження гарантії;Die Firma hat eine Garantieverlängerung für die teuren Server gekauft.
-gesetzlich;legal, statutory;законний, законодавчий;Wir müssen die gesetzlichen Datenschutz-Richtlinien (DSGVO) strikt einhalten.
-die Gesprächsnotiz, -en;memo, discussion note;запис бесіди, нотатка;Ich erstelle eine Gesprächsnotiz nach dem Meeting mit dem Product Owner.
-gewährleisten (gewährleistet, gewährleistete, hat gewährleistet);to guarantee, to ensure;гарантувати, забезпечувати;Die neue Architektur soll gewährleisten, dass die App auch bei hoher Last nicht abstürzt.
-die Gewährleistung, -en;warranty, guarantee (statutory);гарантійне зобов'язання (за законом);Bei Hardware-Fehlern greift in Deutschland die gesetzliche Gewährleistung von zwei Jahren.
-der Händler, - / die Händlerin, -nen;dealer, retailer, trader;продавець, дилер;Der Händler nimmt das defekte Netzwerk-Equipment problemlos zurück.
-die Herstellergarantie, -n;manufacturer's warranty;гарантія від виробника;Wasserschäden am Laptop sind von der Herstellergarantie leider ausgeschlossen.
-der Kaufzeitpunkt, -e;time of purchase;момент покупки;Bitte geben Sie bei der Reklamation der Software den genauen Kaufzeitpunkt an.
-Kosten übernehmen (übernimmt, übernahm, hat übernommen);to bear the costs;брати на себе витрати;Der Arbeitgeber wird die Kosten für das AWS-Zertifikat komplett übernehmen.
-kulant;accommodating, fair, obliging;поступливий, такий, що йде назустріч;Der Cloud-Anbieter war sehr kulant und hat uns die Ausfallzeit erstattet.
-der Kundenservice, -s;customer service;служба підтримки клієнтів;Der IT-Kundenservice hat mir sehr schnell bei dem Software-Problem geholfen.
-die Mängelbeseitigung, -en;rectification of defects;усунення недоліків;Die Mängelbeseitigung in der Produktionsumgebung hat höchste Priorität.
-das Missverständnis, -se;misunderstanding;непорозуміння;Eine unklare API-Dokumentation führt oft zu einem Missverständnis bei den Entwicklern.
-etw. nachweisen (weist nach, wies nach, hat nachgewiesen);to prove, to demonstrate;доводити, підтверджувати;Wir müssen dem Support den Fehler im Log-File eindeutig nachweisen.
-der Nachweis, -e;proof, evidence;доказ, підтвердження;Ein Screenshot der Fehlermeldung dient als Nachweis für den Bug.
-ordnungsgemäß;proper, correct(ly);належним чином, правильно;Die Datenbank wurde vor dem Update ordnungsgemäß gesichert (Backup).
-etw. reklamieren (reklamiert, reklamierte, hat reklamiert);to complain, to claim;рекламувати, пред'являти претензію;Der Kunde möchte die fehlerhafte Software-Lizenz reklamieren und sein Geld zurück.
-verantwortlich für (+ Akk.);responsible for;відповідальний за;Das DevOps-Team ist verantwortlich für das reibungslose Deployment.
-die Verlängerung, -en;extension;продовження, подовження;Die Verlängerung des SSL-Zertifikats muss heute manuell durchgeführt werden.
-jdm. etw. versichern (versichert, versicherte, hat versichert);to assure someone of something;запевняти когось у чомусь;Ich kann Ihnen versichern, dass die Kundendaten absolut sicher verschlüsselt sind.
-der Zustand (Sg.);state, condition;стан;Nach dem Crash befand sich die Datenbank in einem inkonsistenten Zustand.
-die Abrechnungssoftware, -s;billing software, accounting software;програмне забезпечення для розрахунків / бухгалтерії;Wir programmieren eine neue, cloudbasierte Abrechnungssoftware für B2B-Kunden.
-der Ansprechpartner, - / die Ansprechpartnerin, -nen;contact person;контактна особа;Unser Tech-Lead ist der richtige Ansprechpartner für Fragen zur Architektur.
-der Außendienst (Sg.);field service, sales force;служба зовнішніх продажів / роботи з клієнтами;Unsere CRM-App wird hauptsächlich von Mitarbeitern im Außendienst genutzt.
-der Außendienstmitarbeiter, - / die Außendienstmitarbeiterin, -nen;field representative;співробітник, що працює на виїзді;Der Außendienstmitarbeiter installiert die Software direkt beim Kunden vor Ort.
-der Betriebsarzt, "-e / die Betriebsärztin, -nen;company doctor;лікар на підприємстві;Der Betriebsarzt berät uns Entwickler zum Thema Ergonomie am Arbeitsplatz.
-dazwischenkommen (kommt dazwischen, kam dazwischen, ist dazwischengekommen);to intervene, to come up unexpectedly;втрутитися, виникнути непередбачено;Mir ist leider ein dringender Hotfix für die Produktion dazwischengekommen.
-firmenintern;internal to the company, in-house;всередині компанії, внутрішньокорпоративний;Wir nutzen für die Kommunikation ein sicheres, firmeninternes Chat-Tool.
-das Firmenjubiläum, -jubiläen;company anniversary;ювілей компанії;Nächsten Monat feiern wir das fünfjährige Firmenjubiläum unseres Startups.
-die Grippeimpfung, -en;flu vaccination;щеплення від грипу;Das IT-Unternehmen bietet im Herbst eine kostenlose Grippeimpfung im Büro an.
-hundertjährig;hundred-year-old, centennial;столітній;Ein hundertjähriger Code? So fühlt sich schlecht dokumentierter Legacy-Code oft an.
-das Intranet (Sg.);intranet;інтранет, внутрішня мережа;Die neuen Coding-Guidelines (Richtlinien) findest du im Intranet.
-etw. wahrnehmen (z. B. einen Termin) (nimmt wahr, nahm wahr, hat wahrgenommen);to attend (an appointment);використовувати, з'явитися (на зустріч);Wegen eines Serverausfalls kann ich den Meeting-Termin heute leider nicht wahrnehmen.
-amüsant;amusing, entertaining;кумедний, розважальний;Der kleine Bug im Frontend, der das Logo drehte, war eher amüsant als kritisch.
-berechtigt;justified, legitimate;обґрунтований, виправданий;Die Beschwerde des Kunden über die extrem lange Ladezeit war völlig berechtigt.
-die Entschädigung, -en;compensation;компенсація, відшкодування;Als Entschädigung für die Server-Downtime bieten wir den Usern einen Gratismonat an.
-die Enttäuschung, -en;disappointment;розчарування;Die Enttäuschung im Team über das gescheiterte Release war sehr groß.
-die Erstattung, -en;refund, reimbursement;відшкодування, повернення грошей;Sie erhalten eine automatische Erstattung für die stornierte Software-Lizenz.
-etw. einhalten (hält ein, hielt ein, hat eingehalten);to comply with, to keep (e.g. deadlines);дотримуватися (правил, термінів);Wir müssen die Deadlines (Termine) für den aktuellen Sprint unbedingt einhalten.
-in jedem Fall;in any case, definitely;у будь-якому випадку;Wir müssen in jedem Fall ein Backup der Datenbank machen, bevor wir updaten.
-generell;general(ly), in general;загалом, як правило;Generell deployen wir bei uns keine neuen Features am Freitagnachmittag.
-klagen über (+ Akk.) (klagt, klagte, hat geklagt);to complain about;скаржитися на;Viele Nutzer klagen über die verwirrende Navigation in der neuen App.
-die Meckerei (Sg.);complaining, grumbling;постійні скарги, бурчання;Ständige Meckerei über den alten Legacy-Code bringt das Team nicht weiter.
-offensichtlich;obvious(ly), apparent(ly);очевидний, явний;Der Memory Leak (Speicherfehler) im Skript war bei genauerem Hinsehen offensichtlich.
-der Pauschalurlaub, -e;package holiday;пакетний тур;Unsere Web-Plattform vermittelt Pauschalurlaube komplett digital.
-der Reiseveranstalter, -;tour operator;туроператор;Der Reiseveranstalter nutzt unsere API, um die Flugdaten live abzurufen.
-der Schadenersatz (Sg.);damages, compensation;відшкодування збитків;Der Kunde verlangt Schadenersatz wegen des massiven Datenverlusts.
-Schadenersatz leisten (leistet, leistete, hat geleistet);to pay compensation for damages;відшкодовувати збитки;Die IT-Firma muss für den entstandenen Systemausfall Schadenersatz leisten.
-jdn. verklagen (verklagt, verklagte, hat verklagt);to sue;подавати в суд на когось;Der Konkurrent will unser Startup wegen einer angeblichen Patentrechtsverletzung verklagen.
-etw. verlangen (verlangt, verlangte, hat verlangt);to demand, to require;вимагати;Der Product Owner verlangt eine sofortige Behebung des kritischen Bugs.
+etw. abschalten (schaltet ab, schaltete ab, hat abgeschaltet);to switch off, to shut down;вимикати, відключати;Wir müssen die alten Industrieanlagen aus Sicherheitsgründen **sofort abschalten**.
+anfallen (fällt an, fiel an, ist angefallen);to arise, to be incurred;виникати (про витрати або роботу);Bei den Entsorgungsmaßnahmen **können erhebliche zusätzliche Kosten anfallen**.
+die Aufnahme, -n;recording, picture, admission;знімок, запис, прийом;Die Aufnahme des Schadensfalls **wurde direkt an die Versicherung weitergeleitet**.
+begeistert;enthusiastic, excited;у захваті, натхненний;Die Geschäftsleitung war **begeistert von den neuen Vorschlägen zur Lärmminderung**.
+etw. beheben (z. B. einen Fehler) (behebt, behob, hat behoben);to fix, to resolve;усувати, виправляти (напр., помилку);Der Techniker konnte den Mangel an der Kältemaschine **schnell und fehlerfrei beheben**.
+etw. beschädigt;damaged;пошкоджений;Die Ware wurde beim Transport beschädigt, **daher fordern wir eine Nachlieferung**.
+der Dienstleister, - / die Dienstleisterin, -nen;service provider;постачальник послуг, підрядник;Der externe Dienstleister **ist für die Einhaltung der Brandschutzordnung verantwortlich**.
+das Display, -s;display, screen;дисплей, екран;Das Display zeigt eine Fehlfunktion, **die auf eine Störung im Kühlsystem hinweist**.
+etw. einstellen (stellt ein, stellte ein, hat eingestellt);to stop, to adjust;припиняти, налаштовувати;Wir müssen den Betrieb der Maschine **zur Vermeidung von Gefahrenquellen einstellen**.
+das Elektronikmodul, -e;electronic module;електронний модуль;Das Elektronikmodul **muss im Rahmen der Instandsetzung komplett ausgetauscht werden**.
+etw. erkennen (erkennt, erkannte, hat erkannt);to recognize, to detect;розпізнавати, виявляти;Die Qualitätskontrolle konnte die Mängel an der Charge **rechtzeitig erkennen**.
+erscheinen (erscheint, erschien, ist erschienen);to appear;з'являтися;<b>Aus der Grafik geht hervor, dass</b> immer mehr Mängelberichte im System **erscheinen**.
+das Fachgeschäft, -e;specialist shop;спеціалізований магазин;Für die kaufmännische Abwicklung **müssen wir spezielle Software im Fachgeschäft erwerben**.
+fehlerhaft;faulty, defective, buggy;помилковий, дефектний;Die gelieferten Messgeräte waren fehlerhaft, **folglich reichen wir eine Mangelrüge ein**.
+den Geist aufgeben (gibt auf, gab auf, hat aufgegeben);to give up the ghost, to break down;наказати довго жити, зламатися;Die Notstromaggregate **dürfen im Ernstfall unter keinen Umständen den Geist aufgeben**.
+glücklicherweise;fortunately, luckily;на щастя;Glücklicherweise **übernimmt die BG die Kosten für die medizinische Wiedereingliederung**.
+die Großwäscherei, -en;large-scale laundry;велика пральня;Die Großwäscherei **muss strenge Richtlinien zur Hygiene und zum Gewässerschutz einhalten**.
+die Herstellerfirma, -firmen;manufacturing company;компанія-виробник;Die Herstellerfirma **ist im Rahmen der Produkthaftung für den Schaden verantwortlich**.
+jdn. konfrontieren mit (+ Dat.) (konfrontiert, konfrontierte, hat konfrontiert);to confront someone with;зіштовхувати когось із, пред'являти;Die Arbeitsschutzbehörde **konfrontiert den Betrieb mit den schweren Pflichtverstößen**.
+lieferbar;available, deliverable;доступний для доставки, в наявності;Die benötigten Ersatzteile **sind laut System innerhalb von zwei Werktagen lieferbar**.
+der Mangel, "-;defect, flaw, shortage;дефект, недолік, нестача;Es liegt ein Mangel vor, **daher verlangen wir eine Nachbesserung vom Verkäufer**.
+das Modul, -e;module;модуль;Das defekte Modul der Photovoltaikanlage **wurde auf Kulanz ausgetauscht**.
+der Monteur, -e / die Monteurin, -nen;mechanic, fitter, installer;монтажник, механік;Der Monteur **ist mit dem Zusammenbau der neuen Regalanlagen beschäftigt**.
+etw. nachbestellen (bestellt nach, bestellte nach, hat nachbestellt);to reorder;дозамовляти;Wir müssen Verpackungsmaterial nachbestellen, **um die Lieferfähigkeit abzusichern**.
+ein Problem beheben (behebt, behob, hat behoben);to fix/resolve a problem;вирішити проблему;<b>Um das Problem zu beheben, müssen wir eng mit dem Techniker zusammenarbeiten</b>.
+der Retourenschein, -e;return slip;бланк повернення;Bitte **legen Sie den ausgefüllten Retourenschein der Rücksendung bei**.
+die Serviceleistung, -en;service;сервісна послуга;Der Kundendienst **bietet diese Serviceleistung im Rahmen der Gewährleistung an**.
+die Textilie, -n;textile;текстиль, тканина;Bei der Herstellung von Textilien **müssen Umweltauflagen streng beachtet werden**.
+umsonst;free of charge, in vain;безкоштовно, даремно;Alle Bemühungen waren umsonst, **da der Vertrag wegen Nichtigkeitt ungültig war**.
+etw. verfärben (verfärbt, verfärbte, hat verfärbt);to discolor;змінювати колір, забарвлювати;Das Gehäuse hat sich verfärbt, **was auf ein Qualitätsproblem beim Material hinweist**.
+etw. versalzen (versalzt, versalzte, hat versalzen);to oversalt;пересолити;Der Koch in der Betriebskantine hat das Gericht versalzen, **folglich gab es Reklamationen**.
+sich verspäten (verspätet sich, verspätete sich, ist verspätet);to be late, to be delayed;запізнюватися, затримуватися;Der Eintrittstermin der neuen Fachkraft **wird sich wegen der Visumsverzögerung verspäten**.
+jdm. etw. versprechen (verspricht, versprach, hat versprochen);to promise someone something;обіцяти комусь щось;Der Lieferant **hat uns eine schnelle Nachlieferung der Ersatzteile versprochen**.
+etw. zerbrechen (zerbricht, zerbrach, hat zerbrochen);to break, to shatter;розбивати;Das Display ist zerbrochen, **daher müssen wir ein Ersatzgerät anfordern**.
+etw. zerkratzen;to scratch;подряпати;Die Oberfläche des Tischs ist zerkratzt, **weshalb wir eine Preisminderung forlangen**.
+etw. zerreißen (zerreißt, zerriss, hat zerrissen);to tear, to rip;розривати;Der Lehrling hat den Lieferschein zerrissen, **was zu Problemen beim Wareneingang führte**.
+Abhilfe schaffen (schafft, schaffte, hat geschaffen);to remedy, to fix a problem;зарадити, усунути проблему;Eine bessere Belüftung **wird bei der Knallgasentwicklung Abhilfe schaffen**.
+allerdings;however, indeed;однак, щоправда;Das System läuft stabil, **allerdings müssen wir regelmäßig Wartungsarbeiten durchführen**.
+etw. bedauern (bedauert, bedauerte, hat bedauert);to regret;шкодувати про щось;Wir bedauern die Störung im Betriebsablauf **und bitten Sie um Entschuldigung**.
+zu unserem Bedauern;to our regret;на наш жаль;<b>Zu unserem Bedauern müssen wir Ihnen mitteilen, dass das Angebot abgelaufen ist</b>.
+etw. bestätigen (bestätigt, bestätigte, hat bestätigt);to confirm;Bitte **bestätigen Sie uns den Erhalt der Kündigungserklärung schriftlich**.
+die Dunstabzugshaube, -n;extractor hood;витяжка (кухонна);Die neue Dunstabzugshaube in der Kantine **sorgt für einen guten Luftwechsel**.
+eintreffen (trifft ein, traf ein, ist eingetroffen);to arrive;прибувати, надходити;Die Lieferung mit den Schutzvisieren **wird voraussichtlich am Dienstag eintreffen**.
+der Eingang, "-e;receipt, arrival, entrance;надходження, вхід;Nach dem Eingang der Zahlung **erfolgt die Eigentumsübertragung der Ware**.
+den Eingang bestätigen (bestätigt, bestätigte, hat bestätigt);to confirm receipt;підтвердити отримання;Der Kundendienst **wird den Eingang der Mangelrüge umgehend bestätigen**.
+die Flamme, -n;flame;полум'я;Bei Rauchentwicklung und Flammen **muss sofort der Feueralarm ausgelöst werden**.
+der Gefrierschrank, "-e;freezer;морозильна камера;Der Gefrierschrank **muss keimfrei gehalten werden, um Bakterien zu vermeiden**.
+sich herausstellen (stellt sich heraus, stellte sich heraus, hat sich herausgestellt);to turn out;з'ясовуватися, виявлятися;<b>Es stellte sich heraus, dass</b> der Wegeunfall durch Fahrlässigkeit verursacht wurde.
+die Lieferschein, -e;delivery note;накладна (на доставку);Bitte **vergleichen Sie die gelieferte Menge mit den Angaben auf dem Lieferschein**.
+etw. nachliefern (liefert nach, lieferte nach, hat nachgeliefert);to deliver later, to supply subsequently;допоставити, доставити пізніше;Die Spedition hat versprochen, **die fehlenden Frachtbriefe umgehend nachzuliefern**.
+umgehend;immediately, promptly;негайно, терміново;Bei einer Störung der USV **müssen wir den Bereitschaftsdienst umgehend kontaktieren**.
+verfügbar;available;доступний;Das GS-Zeichen zeigt, dass **die Sicherheitsunterlagen online verfügbar stehen**.
+das Versehen, -;mistake, oversight, accident;помилка, недогляд;Das Versenden der Falschlieferung **war ein Versehen der Logistikabteilung**.
+die Warenkontrolle, -n;goods inspection;перевірка товару;Die Warenkontrolle **ist Voraussetzung für den Vorsteuerabzug beim Finanzamt**.
+die Anfahrt, -en;journey, approach (driving);проїзд, дорога (до місця);<b>Aufgrund einer Sperrung auf dem Arbeitsweg hat sich die Anfahrt verzögert</b>.
+die Anschaffung, -en;purchase, acquisition;придбання, покупка;Die Anschaffung der Photovoltaikanlage **wird durch staatliche Subventionen gefördert**.
+der Aufpreis, -e;surcharge, extra charge;доплата;Für eine Expresslieferung **müssen wir dem Lieferanten einen Aufpreis zahlen**.
+die Austausch (Sg.);exchange / replacement;заміна;Der Austausch des Akkumulators **wurde vom Kältetechniker durchgeführt**.
+etw. austauschen (tauscht aus, tauschte aus, hat ausgetauscht);to exchange, to replace;обмінювати, замінювати;Wir müssen den defekten Wärmetauscher **nach den Wartungsrichtlinien austauschen**.
+etw. bereitstellen (stellt bereit, stellte bereit, hat bereitgestellt);to provide, to make available;надавати, підготувати;Der Arbeitgeber **muss den Mitarbeitern persönliche Schutzausrüstung bereitstellen**.
+der Ersatz (Sg.);replacement, compensation;заміна, компенсація;Der Schadenersatz **dient als finanzieller Ersatz für den Produktionsausfall**.
+etw. erstatten (erstattet, erstattete, hat erstattet);to refund, to reimburse;повертати (гроші), відшкодовувати;Die Versicherung **wird die Anwaltskosten der Kündigungsschutzklage erstatten**.
+die Erstattung, -en;refund, reimbursement;повернення (грошей), відшкодування;Die Erstattung der Reisekosten **kann im Personalbüro beantragt werden**.
+der Kostenvoranschlag, "-e;cost estimate;кошторис (оцінка витрат);Der Kostenvoranschlag für die Instandsetzung **wurde vom Meister bewilligt**.
+portofrei;postage free / postpaid;без поштових витрат (безкоштовна доставка);Die Rücksendung der Retoure **ist für den Kunden vollkommen portofrei**.
+die Portokosten (Pl.);postage costs;поштові витрати;Die Portokosten für die Klageschrift **werden als Prozesskosten festgesetzt**.
+die Reklamationsabteilung, -en;complaint department;відділ рекламацій;Die Reklamationsabteilung **steht den Kunden für Rückfragen zur Verfügung**.
+das Reklamationsformular, -e;complaint form;бланк рекламації;Bitte **füllen Sie das Reklamationsformular vollständig und fehlerfrei aus**.
+der Reparaturservice (Sg.);repair service;служба ремонту;Der Reparaturservice **garantiert eine schnelle Beseitigung der Störung**.
+die Rücksendung, -en;return shipment;повернення товару (відправка назад);Für die Rücksendung **müssen wir das offizielle Rücksendeetikett nutzen**.
+das Rücksendeetikett, -en;return label;етикетка для повернення;Das Rücksendeetikett **muss gut sichtbar auf dem Paket angebracht werden**.
+der Schaden, "-;damage;збиток, шкода;Der Schaden **wurde durch eine Fehlfunktion der Klimaanlage ausgelöst**.
+der Schadensersatz (Sg.);compensation for damages;відшкодування збитків;Wir fordern Schadensersatz, **da der Verzug existenzbedrohende Folgen hat**.
+die Schadensmeldung, -en;damage report;повідомлення про збитки;Die Schadensmeldung **muss innerhalb der Frist bei der Versicherung eingehen**.
+die Transportschaden, "-;transit damage;пошкодження при транспортуванні;Der Transportschaden **wurde im Übergabeprotokoll schriftlich dokumentiert**.
+etw. umtauschen (tauscht um, tauschte um, hat umgetauscht);to exchange / replace;обмінювати;Der Käufer **hat das Recht, die mangelhafte Ware umzutauschen**.
+der Umtausch (Sg.);exchange, replacement;обмін;Ein Umtausch auf Kulanzweg **setzt das Vorlegen des Kaufbelegs voraus**.
+die Verpackung, -en;packaging;упаковка;Die Verpackung **muss eine ausreichende Ladungssicherung der Güter garantieren**.
+die Gutschrift, -en;credit note;кредит-нота (документ про зарахування грошей);Die Gutschrift für die Preisminderung **wurde auf dem Kundenkonto verbucht**.
+der Kaufbeleg, -e;proof of purchase;чек (підтвердження покупки);Der Kaufbeleg **dient als offizieller Qualifikationsnachweis für die Garantie**.
+die Quittung, -en;receipt;квитанція;Bitte **reichen Sie die Quittung für die Fahrtkosten beim Arbeitgeber ein**.
+die Rechnung, -en;invoice, bill;рахунок;Die Rechnung **weist den Nettobetrag und die Mehrwertsteuer separat aus**.
+der Rechnungsbetrag, "-e;invoice amount;сума рахунку;Der Rechnungsbetrag **ist innerhalb des Zahlungsziels auf unser Gehaltskonto zu überweisen**.
+der Bon, -s;receipt (cash register receipt);касовий чек;Der Bon **muss für die Steuererklärung als Buchungsbeleg aufbewahrt werden**.
+der Kassenbon, -s;cash register receipt;касовий чек;Ohne Kassenbon **besteht kein Anspruch auf eine Barerstattung auf Kulanz**.
+die Barzahlung, -en;cash payment;оплата готівкою;In unserer Betriebskantine **ist eine Barzahlung nicht mehr möglich**.
+die Kartenzahlung, -en;card payment;оплата карткою;Die Kartenzahlung **wird am Zeiterfassungsgerät per Chipkarte abgewickelt**.
+die Kreditkarte, -n;credit card;кредитна картка;Die Gebühren für die Kreditkarte **werden als Nebenkosten verbucht**.
+die EC-Karte, -n;EC card / debit card;дебетова картка (EC);Mit der EC-Karte **kann man den Rechnungsbetrag am Terminal bezahlen**.
+die Quittungsnummer, -n;receipt number;номер квитанції;Die Quittungsnummer **ist im Stundenzettel für die Abrechnung anzugeben**.
+die Rechnungsnummer, -n;invoice number;номер рахунку;Bitte geben Sie die Rechnungsnummer **bei der Überweisung des Geldes an**.
+das Rechnungsdatum, -daten;invoice date;дата рахунку;Das Rechnungsdatum **entscheidet über den Beginn der Skontofrist**.
+der Rechnungssteller, - / die Rechnungsstellerin, -nen;issuer of the invoice;особа, що виставила рахунок;Der Rechnungssteller **unterliegt den Dokumentationspflichten der AO**.
+der Rechnungsempfänger, - / die Rechnungsempfängerin, -nen;recipient of the invoice;отримувач рахунку;Der Rechnungsempfänger **muss den Rechnungsbetrag zum Fälligkeitstag überweisen**.
+die Rechnungsprüfung, -en;invoice verification;перевірка рахунків;Die Rechnungsprüfung **erfolgt durch das System zur Qualitätssicherung**.
+die Zahlungsweise, -n;method of payment;спосіб оплати;Die gewünschte Zahlungsweise **wurde im Mietvertrag schriftlich vereinbart**.
+die Zahlungsfrist, -en;payment period / deadline;термін оплати;Nach Ablauf der Zahlungsfrist **befindet sich der Käufer automatisch im Verzug**.
+das Skonto, -s;cash discount;скидка сконто (за швидку оплату);Bei Einhaltung der Skontofrist **gewähren wir einen Skontoabzug von 2%**.
+der Verzugszins, -en;default interest;відсоток за прострочення;Der Verzugszins **richtet sich nach dem Basiszinssatz der Bundesbank**.
+die Verzugszinsberechnung, -en;calculation of default interest;розрахунок відсотків за прострочення;Die Verzugszinsberechnung **wird im Mahnbescheid detailliert dargestellt**.
+der Mahnbescheid, -e;dunning notice (court order for payment);судовий наказ про сплату боргу;Der Mahnbescheid **wurde vom Insolvenzgericht an den Schuldner zugestellt**.
+das Mahnverfahren, -;dunning procedure (legal);судове провадження про стягнення боргу;Das gerichtliche Mahnverfahren **dient der schnellen Zwangsvollstreckung**.
+der Vollstreckungsbescheid, -e;enforcement order;судовий наказ про примусове виконання;Der Vollstreckungsbescheid **ist der letzte Schritt vor der Zwangsvollstreckung**.
+der Gerichtsvollzieher, - / die Gerichtsvollzieherin, -nen;bailiff;судовий виконавець;Der Gerichtsvollzieher **vollstreckt den Titel per Pfändung beim Schuldner**.
+die Pfändung, -en;attachment / seizure (of property);арешт майна, стягнення;Die Pfändung des Bankkontos **verursachte einen akuten Liquiditätsengpass**.
+die Pfändungsgrenze, -n;seizure limit / exemption limit;недоторканний ліміт (сума, яка не підлягає вилученню при арешті майна);Die Pfändungsgrenze **sichert die Existenzsicherung des Schuldners ab**.
+die pfändbare Betrag;seizable amount;сума, яка підлягає стягненню (вилученню);Der pfändbare Betrag **wird monatlich an den Gläubiger überwiesen**.
+die Lohnpfändung, -en;wage garnishment / attachment of earnings;арешт заробітної плати (стягнення з зарплати);Die Lohnpfändung **muss vom Personalbüro bei der Abrechnung beachtet werden**.
+die Gehaltspfändung, -en;garnishment of salary;арешт (вилучення) зарплати;Die Gehaltspfändung **schränkt die finanzielle Bewegungsfreiheit stark ein**.
+der Pfändungsbeschluss, "-e;attachment order / garnishment order;постанова про накладення арешту (судове рішення);Der Pfändungsbeschluss **wurde dem Arbeitgeber als Drittschuldner zugestellt**.
+der Drittschuldner, - / die Drittschuldnerin, -nen;third-party debtor (e.g., employer in wage garnishment);третя особа-боржник (напр., роботодавець при арешті зарплати працівника);Als Drittschuldner **muss die Firma das pfändbare Einkommen berechnen**.
+die Drittschuldnererklärung, -en;third-party debtor's declaration;заява третьої особи-боржника (підтвердження арешту роботодавцем);Die Drittschuldnererklärung **muss innerhalb von zwei Wochen abgegeben werden**.
+die Pfändungsschutzkonto (P-Konto), -en;seizure protection account;банківський рахунок із захистом від арешту (P-Konto);Das P-Konto **schützt das pfändungsfreie Einkommen vor dem Zugriff der Gläubiger**.
+die pfändungsfreie Einkommen;seizure-free income;дохід, який не підлягає арешту (прожитковий мінімум);Das pfändungsfreie Einkommen **richtet sich після der Pfändungstabelle**.
+die Pfändungstabelle, -n;seizure table (exemptions table);таблиця лімітів арешту (залежно від кількості утриманців);Die aktuelle Pfändungstabelle **weist die freizulassenden Beträge aus**.
+die Unterhaltspflicht, -en;obligation to pay maintenance;обов'язок виплати аліментів (утримання);Eine Unterhaltspflicht **erhöht den pfändungsfreien Betrag des Schuldners**.
+die Unterhaltszahlung, -en;maintenance payment / alimony;виплата аліментів (утримання);Die Unterhaltszahlungen **werden direkt vom Gehaltskonto abgebucht**.
+die Kindesunterhalt (Sg.);child support;аліменти на дитину;Der Kindesunterhalt **ist eine gesetzliche Pflicht der Eltern**.
+die Ehegattenunterhalt (Sg.);spousal support / alimony;утримання (аліменти) на подружжя;Der Anspruch auf Ehegattenunterhalt **wird im Scheidungsurteil geregelt**.
+die Scheidungsurteil, -e;divorce decree;судове рішення про розірвання шлюбу;Das Scheidungsurteil **erlangte mit der Zustellung die Rechtskraft**.
+die Familiengericht, -e;family court;сімейний суд;Das Familiengericht **entscheidet über Fragen des Kindesunterhalts**.
+die Amtsgericht (AG), -e;district court;дільничний (районний) суд (Amtsgericht);Das AG **ist für zivilrechtliche Streitigkeiten mit geringem Streitwert zuständig**.
+die Zivilgericht, -e;civil court;цивільний суд;Das Zivilgericht **entscheidet über Schadensersatzforderungen aus Verträgen**.
+die Zivilprozessordnung (ZPO) (Sg.);Code of Civil Procedure;Цивільний процесуальний кодекс (ZPO);Die ZPO **regelt den Ablauf der Zwangsvollstreckung**.
+die Zivilrecht (Sg.);civil law;цивільне право;Das Zivilrecht **basiert im Wesentlichen auf dem Bürgerlichen Gesetzbuch (BGB)**.
+die Bürgerliche Gesetzbuch (BGB) (Sg.);Civil Code;Цивільний кодекс Німеччини (BGB);Das BGB **regelt das Sonderurlaubsrecht та die gesetzliche Mängelhaftung**.
+die Gesetzbuch, "-er;code / body of laws;кодекс законів;Das Gesetzbuch **liegt auf dem Schreibtisch der Rechtsanwältin bereit**.
+die Gesetzessammlung, -en;collection of laws;збірник законів;Die Gesetzessammlung **steht den Richtern in der Gerichtsbibliothek zur Verfügung**.
+die Gesetzesblatt, "-er;official law gazette;відомості законів (офіційне видання);Die Gesetzesblätter **müssen archiviert und zugänglich gehalten werden**.
+die Bundesgesetzblatt (BGBl.) (Sg.);Federal Law Gazette;Федеральний вісник законів (BGBl.);Im BGBl. **werden alle Gesetzesänderungen offiziell verkündet**.
+die Verkündung, -en;promulgation / announcement (of a law);проголошення, офіційне оприлюднення;Die Verkündung des Gesetzes **ist Voraussetzung für sein Inkrafttreten**.
+die Gesetzgebungsperiode, -n;legislative period;законодавчий період (каденція парламенту);In dieser Gesetzgebungsperiode **wurden viele Umweltauflagen verschärft**.
+die Legislaturperiode, -n;legislative period;законодавчий період;Die Reform der Rentenversicherung **ist das wichtigste Ziel dieser Legislaturperiode**.
+die Regierungszeit, -en;term of office / reign;період перебування при владі;Während seiner Regierungszeit **konnte die Staatsverschuldung gesenkt werden**.
+die Regierungsentwurf, "-e;government draft;урядовий законопроект;Der Regierungsentwurf **wurde zur Stellungnahme an den Betriebsrat übermittelt**.
+die Stellungnahme, -n;comment / statement;висновок, відгук, позиція (офіційна);Der Personalrat **gibt eine schriftliche Stellungnahme zur geplanten Kündigung ab**.
+die Anhörung, -en;hearing / consultation;слухання (заслуховування сторін);Vor der verhaltensbedingten Kündigung **muss eine Anhörung des Mitarbeiters stattfinden**.
+die rechtliche Gehör;right to be heard / fair hearing;право бути заслуханим (судовий принцип);Das rechtliche Gehör **ist ein geschütztes Grundrecht vor Gericht**.
+die Gehörsverletzung, -en;violation of the right to be heard;порушення права на захист (заслуховування);Eine Gehörsverletzung **kann die Aufhebung des Gerichtsurteils zur Folge haben**.
+die Berufungsverfahren, -;appeal proceedings;апеляційне провадження;Das Berufungsverfahren **wird vor dem Landesarbeitsgericht verhandelt**.
+die Berufungsgericht, -e;court of appeal;апеляційний суд;Das Berufungsgericht **überprüft das erstinstanzliche Urteil auf Rechtsfehler**.
+die Rechtsfehler, -;error of law;юридична помилка (помилка в застосуванні права);Ein Rechtsfehler des Richters **berechtigt zur Einlegung der Revision**.
+die Revisionsverfahren, -;appeal on points of law proceedings;касаційне провадження;Das Revisionsverfahren **wird schriftlich ohne erneute Beweisaufnahme geführt**.
+die Beweisaufnahme, -n;taking of evidence;судове дослідження доказів;Die Beweisaufnahme **beinhaltet das Vernehmen von Zeugen und Sachverständigen**.
+die Zeugenvernehmung, -en;examination of witnesses;допит свідків;Bei der Zeugenvernehmung **mussten die Kollegen zum Pflichtverstoß aussagen**.
+die Zeuge, -n / die Zeugin, -nen;witness;свідок;Der Zeuge **ist zur wahrheitsgemäßen Aussage vor Gericht verpflichtet**.
+die Zeugenaussage, -n;testimony / witness statement;показання свідка;Die Zeugenaussage **wurde im Sitzungsprotokoll genau dokumentiert**.
+die Sitzungsprotokoll, -e;minutes of the meeting/hearing;протокол судового засідання (або засідання ради);Das Sitzungsprotokoll **wird von der Geschäftsstelle des Gerichts verfasst**.
+die Sitzungssaal, -säle;courtroom / meeting room;зал засідань;Der Sitzungssaal **darf erst nach Aufforderung durch den Richter betreten werden**.
+die Öffentlichkeit, -en;public;громадськість, публіка;Die Gerichtsverhandlung **ist für die Öffentlichkeit frei zugänglich**.
+die Ausschluss der Öffentlichkeit;exclusion of the public;слухання в закритому режимі (без публіки);Bei Gefährdung von Betriebsgeheimnissen **kann der Ausschluss der Öffentlichkeit beantragt werden**.
+die Geheimhaltungsinteresse, -n;interest in secrecy;інтерес у збереженні таємниці;Das Geheimhaltungsinteresse des Betriebs **überwiegt in diesem Fall**.
+die Abwägung, -en;balancing / weighing up;зважування (інтересів/ризиків);Eine sorgfältige Abwägung **der Vor- und Nachteile ist erforderlich**.
+die Güterabwägung, -en;balancing of interests/goods;зважування благ (юридичне зважування цінностей);Bei der Güterabwägung **steht der Gesundheitsschutz über den wirtschaftlichen Interessen**.
+die Verhältnismäßigkeit (Sg.);proportionality;пропорційність, сомірність;Die Verhältnismäßigkeit der Kündigung **wird im Einzelfall geprüft**.
+die Verhältnismäßigkeitsprüfung, -en;proportionality test;перевірка на сомірність (пропорційність);Die Verhältnismäßigkeitsprüfung **ist ein wichtiger Schritt vor dem Erlass von Vorschriften**.
+die Erlass, -e;decree / issuance;указ, видання (закону);Der Erlass der neuen Brandschutzordnung **erfolgt durch die Geschäftsleitung**.
+die Bekanntmachung, -en;announcement / publication;оголошення, оприлюднення;Die Bekanntmachung der Betriebsvereinbarung **erfolgt durch Aushang**.
+die Aushangtafel, -n;notice board;дошка оголошень;Die Brandschutzordnung **hängt gut sichtbar an der Aushangtafel im Flur**.
+die schwarze Brett;notice board / bulletin board;дошка оголошень (чорна дошка);Wichtige Informationen des Betriebsrats **stehen am schwarzen Brett bereit**.
+die Intranet (Sg.);intranet;внутрішня мережа (інтранет);Alle Vertretungspläne **stehen den Mitarbeitern im Intranet zur Verfügung**.
+die Informationsfluss, "-e;flow of information;інформаційний потік;Ein reibungsloser Informationsfluss **ist Voraussetzung für ein gutes Arbeitsklima**.
+die Kommunikationsweg, -e;communication path/channel;шлях (канал) комунікації;Die Kommunikationswege **sollten in Betrieben mit flachen Hierarchien kurz sein**.
+die Hierarchieebene, -n;hierarchical level;рівень ієрархії;Die Reduzierung der Hierarchieebenen **fördert die Eigenverantwortung**.
+die Flache Hierarchie;flat hierarchy;пласка ієрархія;Flache Hierarchien **zeichnen sich durch kurze Entscheidungswege aus**.
+die Entscheidungsweg, -e;decision-making path;шлях прийняття рішень;Kurze Entscheidungswege **verbessern die Reaktionszeit bei Störungen**.
+die Reaktionszeit, -en;reaction time / response time;час реакції;Die schnelle Reaktionszeit des Kundenservice **stieß auf positive Kundenbewertungen**.
+die Reaktionsgeschwindigkeit, -en;reaction speed;швидкість реакції;Die Reaktionsgeschwindigkeit bei Systemausfällen **ist ein wichtiges Qualitätsmerkmal**.
+die Servicequalität (Sg.);service quality;якість обслуговування;Die Servicequalität **ist entscheidend für die langfristige Kundenbindung**.
+die Kundenpflege (Sg.);customer care / customer relationship management;турбота про клієнтів (клієнт-менеджмент);Eine kontinuierliche Kundenpflege **leistet einen Beitrag zur Sicherung des Umsatzes**.
+die Kundenstamm, "-e;customer base;клієнтська база;Unser treuer Kundenstamm **sichert die Existenz des Handwerksunternehmens ab**.
