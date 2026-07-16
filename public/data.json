@@ -980,7 +980,8 @@
   {
     "level": "B1+",
     "levels": [
-      "B1+"
+      "B1+",
+      "B2"
     ],
     "thema": 2,
     "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Wartezeit, -en",
@@ -2196,8 +2197,7 @@
   {
     "level": "B1+",
     "levels": [
-      "B1+",
-      "B2"
+      "B1+"
     ],
     "thema": 3,
     "german": "üblich",
@@ -2573,8 +2573,7 @@
   {
     "level": "B1+",
     "levels": [
-      "B1+",
-      "B2"
+      "B1+"
     ],
     "thema": 4,
     "german": "Anspruch haben auf (+ Akk.)",
@@ -4593,8 +4592,7 @@
   {
     "level": "B1+",
     "levels": [
-      "B1+",
-      "B2"
+      "B1+"
     ],
     "thema": 6,
     "german": "peinlich",
@@ -32141,7 +32139,7 @@
     "german_audio": "etw.",
     "english": "to secure, to insure",
     "ukrainian": "забезпечувати, страхувати",
-    "example": "Als IT-Freelancer muss man sich selbst finanziell für das Alter absichern."
+    "example": "Eine betriebliche Altersvorsorge **dient dazu, die Mitarbeiter im Alter finanziell abzusichern**."
   },
   {
     "level": "B2",
@@ -32153,7 +32151,7 @@
     "german_audio": "die Absicherung",
     "english": "security, safeguard, insurance",
     "ukrainian": "забезпечення, гарантія",
-    "example": "Eine gute IT-Infrastruktur braucht eine starke <b style=\"color: #eab308;\">Absicherung</b> gegen Hacker."
+    "example": "Die <b style=\"color: #eab308;\">Absicherung</b> des Lebensunterhalts **steht bei der Sozialhilfe im Vordergrund**."
   },
   {
     "level": "B2",
@@ -32165,7 +32163,7 @@
     "german_audio": "angewiesen auf",
     "english": "dependent on",
     "ukrainian": "залежний від",
-    "example": "Unser System ist auf eine stabile und schnelle Datenbank-Verbindung angewiesen."
+    "example": "Im Gastgewerbe **ist man auf flexible Arbeitszeiten angewiesen**."
   },
   {
     "level": "B2",
@@ -32177,7 +32175,7 @@
     "german_audio": "das Arbeitslosengeld",
     "english": "unemployment benefit",
     "ukrainian": "допомога по безробіттю",
-    "example": "Nach der Startup-Pleite musste ich vorübergehend <b style=\"color: #eab308;\">Arbeitslosengeld</b> (ALG I) beantragen."
+    "example": "Nach dem Arbeitsplatzverlust **kann man bei der Bundesagentur für Arbeit <b style=\"color: #eab308;\">Arbeitslosengeld</b> beantragen**."
   },
   {
     "level": "B2",
@@ -32189,7 +32187,7 @@
     "german_audio": "der Ausgleich",
     "english": "balance, compensation",
     "ukrainian": "баланс, компенсація",
-    "example": "Sport ist ein extrem wichtiger <b style=\"color: #eab308;\">Ausgleich</b> zum ständigen Sitzen am PC."
+    "example": "Der Freizeitausgleich **dient als <b style=\"color: #eab308;\">Ausgleich</b> für die geleisteten Überstunden**."
   },
   {
     "level": "B2",
@@ -32201,7 +32199,7 @@
     "german_audio": "der Beamte",
     "english": "civil servant",
     "ukrainian": "державний службовець",
-    "example": "Viele IT-Experten im Ministerium arbeiten sicher als <b style=\"color: #eab308;\">Beamte</b>."
+    "example": "<b style=\"color: #eab308;\">Beamte</b> **unterliegen nicht der Versicherungspflicht in der gesetzlichen Rentenversicherung**."
   },
   {
     "level": "B2",
@@ -32213,7 +32211,7 @@
     "german_audio": "beantragen",
     "english": "to apply for",
     "ukrainian": "подавати заяву на",
-    "example": "Ich möchte nächste Woche Urlaub für die Tech-Konferenz <b style=\"color: #eab308;\">beantragen</b>."
+    "example": "Für die stufenweise Wiedereingliederung **müssen wir einen Zuschuss <b style=\"color: #eab308;\">beantragen</b>**."
   },
   {
     "level": "B2",
@@ -32225,7 +32223,7 @@
     "german_audio": "sich begeben",
     "english": "to go, to proceed",
     "ukrainian": "відправлятися, йти",
-    "example": "Der Techniker muss sich in den Serverraum <b style=\"color: #eab308;\">begeben</b>, um das Kabel zu tauschen."
+    "example": "Bei einem Feueralarm **müssen sich alle Mitarbeiter umgehend zum Sammelplatz <b style=\"color: #eab308;\">begeben</b>**."
   },
   {
     "level": "B2",
@@ -32237,7 +32235,7 @@
     "german_audio": "die Beihilfe",
     "english": "aid, subsidy",
     "ukrainian": "допомога, субсидія",
-    "example": "Das Tech-Startup erhält eine staatliche <b style=\"color: #eab308;\">Beihilfe</b> für Forschung an KI."
+    "example": "Der Arbeitgeber **zahlt den Beschäftigten unter bestimmten Bedingungen eine <b style=\"color: #eab308;\">Beihilfe</b>**."
   },
   {
     "level": "B2",
@@ -32249,7 +32247,7 @@
     "german_audio": "bewilligen",
     "english": "to approve, to grant",
     "ukrainian": "затверджувати, давати дозвіл",
-    "example": "Der Chef hat mein Budget für die AWS-Serverzertifizierung <b style=\"color: #eab308;\">bewilligt</b>."
+    "example": "Die Geschäftsleitung **hat die Kosten für die Weiterbildungsmaßnahme <b style=\"color: #eab308;\">bewilligt</b>**."
   },
   {
     "level": "B2",
@@ -32261,7 +32259,7 @@
     "german_audio": "der Bürger",
     "english": "citizen",
     "ukrainian": "громадянин",
-    "example": "Wir entwickeln eine digitale Service-App für alle <b style=\"color: #eab308;\">Bürger</b> der Stadt."
+    "example": "Die Kommunalverwaltung **ist für die Anliegen der <b style=\"color: #eab308;\">Bürger</b> zuständig**."
   },
   {
     "level": "B2",
@@ -32273,7 +32271,7 @@
     "german_audio": "das Elterngeld",
     "english": "parental allowance",
     "ukrainian": "допомога на дитину (для батьків у декреті)",
-    "example": "Während meiner Elternzeit erhalte ich staatliches <b style=\"color: #eab308;\">Elterngeld</b>."
+    "example": "Während der Elternzeit **kann man <b style=\"color: #eab308;\">Elterngeld</b> bei der zuständigen Stelle beantragen**."
   },
   {
     "level": "B2",
@@ -32285,7 +32283,7 @@
     "german_audio": "das Existenzminimum",
     "english": "subsistence level",
     "ukrainian": "прожитковий мінімум",
-    "example": "Ein Junior-Gehalt in der IT liegt zum Glück weit über dem <b style=\"color: #eab308;\">Existenzminimum</b>."
+    "example": "Die Pfändungsfreigrenze **soll das verfassungsrechtliche <b style=\"color: #eab308;\">Existenzminimum</b> des Schuldners absichern**."
   },
   {
     "level": "B2",
@@ -32297,7 +32295,7 @@
     "german_audio": "die Grundsicherung",
     "english": "basic social security",
     "ukrainian": "базове соціальне забезпечення",
-    "example": "Die Software der Arbeitsagentur berechnet automatisch die <b style=\"color: #eab308;\">Grundsicherung</b>."
+    "example": "Personen ohne ausreichendes Einkommen **haben Anspruch auf die staatliche <b style=\"color: #eab308;\">Grundsicherung</b>**."
   },
   {
     "level": "B2",
@@ -32309,7 +32307,7 @@
     "german_audio": "der Jahresverdienst",
     "english": "annual earnings",
     "ukrainian": "річний дохід",
-    "example": "Mein <b style=\"color: #eab308;\">Jahresverdienst</b> als Senior Developer ist im Arbeitsvertrag klar geregelt."
+    "example": "<b>Aus der Grafik geht hervor, dass sich der durchschnittliche <b style=\"color: #eab308;\">Jahresverdienst</b> erhöht hat</b>."
   },
   {
     "level": "B2",
@@ -32321,7 +32319,7 @@
     "german_audio": "das Kindergeld",
     "english": "child benefit",
     "ukrainian": "допомога на дитину",
-    "example": "Die HR-Abteilung hilft mir bei den Formularen für das <b style=\"color: #eab308;\">Kindergeld</b>."
+    "example": "Das <b style=\"color: #eab308;\">Kindergeld</b> **wird unabhängig vom Einkommen der Eltern ausgezahlt**."
   },
   {
     "level": "B2",
@@ -32333,7 +32331,7 @@
     "german_audio": "die Leistung",
     "english": "performance, benefit",
     "ukrainian": "продуктивність, виплата",
-    "example": "Die Rechenleistung des neuen M3-Prozessors ist beeindruckend."
+    "example": "Die <b style=\"color: #eab308;\">Leistungsbeurteilung</b> **wird in der Personalakte des Beschäftigten hinterlegt**."
   },
   {
     "level": "B2",
@@ -32345,7 +32343,7 @@
     "german_audio": "das Nettoeinkommen",
     "english": "net income",
     "ukrainian": "чистий дохід (нетто)",
-    "example": "Nach Abzug aller Steuern bleibt dir dein monatliches <b style=\"color: #eab308;\">Nettoeinkommen</b>."
+    "example": "Das <b style=\"color: #eab308;\">Nettoeinkommen</b> **bleibt nach dem Abzug von Steuern und Sozialabgaben übrig**."
   },
   {
     "level": "B2",
@@ -32357,7 +32355,7 @@
     "german_audio": "oberhalb",
     "english": "above",
     "ukrainian": "вище, над",
-    "example": "Dein Gehaltswunsch liegt leider etwas <b style=\"color: #eab308;\">oberhalb</b> unseres Budgets."
+    "example": "Bei einem Einkommen **<b style=\"color: #eab308;\">oberhalb</b> der Versicherungspflichtgrenze kann man sich privat versichern**."
   },
   {
     "level": "B2",
@@ -32369,7 +32367,7 @@
     "german_audio": "die Pension",
     "english": "pension (for civil servants)",
     "ukrainian": "пенсія (для держслужбовців)",
-    "example": "Beamte in der staatlichen IT erhalten im Alter eine sehr gute <b style=\"color: #eab308;\">Pension</b>."
+    "example": "Im Gegensatz zur Rente **erhalten Beamte im Ruhestand eine <b style=\"color: #eab308;\">Pension</b>**."
   },
   {
     "level": "B2",
@@ -32381,7 +32379,7 @@
     "german_audio": "das Pflegegeld",
     "english": "long-term care allowance",
     "ukrainian": "допомога по догляду",
-    "example": "Die Health-Software berechnet automatisch das <b style=\"color: #eab308;\">Pflegegeld</b> für die Patienten."
+    "example": "Das <b style=\"color: #eab308;\">Pflegegeld</b> **unterstützt Pflegebedürftige bei der häuslichen Pflege**."
   },
   {
     "level": "B2",
@@ -32393,7 +32391,7 @@
     "german_audio": "die Pflichtversicherung",
     "english": "compulsory insurance",
     "ukrainian": "обов'язкове страхування",
-    "example": "Die gesetzliche Krankenversicherung ist eine <b style=\"color: #eab308;\">Pflichtversicherung</b>."
+    "example": "Die Rentenversicherung **ist für die meisten Arbeitnehmer eine gesetzliche <b style=\"color: #eab308;\">Pflichtversicherung</b>**."
   },
   {
     "level": "B2",
@@ -32405,7 +32403,7 @@
     "german_audio": "die Rente",
     "english": "pension",
     "ukrainian": "пенсія",
-    "example": "Er plant, mit 65 Jahren in <b style=\"color: #eab308;\">Rente</b> zu gehen und nur noch private Code-Projekte zu machen."
+    "example": "Das Umlageverfahren **sichert die Finanzierung der gesetzlichen <b style=\"color: #eab308;\">Rente</b> ab**."
   },
   {
     "level": "B2",
@@ -32417,7 +32415,7 @@
     "german_audio": "das Rentenalter",
     "english": "retirement age",
     "ukrainian": "пенсійний вік",
-    "example": "Das gesetzliche <b style=\"color: #eab308;\">Rentenalter</b> in Deutschland wird vermutlich bald angehoben."
+    "example": "Das gesetzliche <b style=\"color: #eab308;\">Rentenalter</b> **wurde stufenweise auf 67 Jahre angehoben**."
   },
   {
     "level": "B2",
@@ -32429,7 +32427,7 @@
     "german_audio": "der Sonderstatus",
     "english": "special status",
     "ukrainian": "особливий статус",
-    "example": "IT-Security-Experten haben oft einen <b style=\"color: #eab308;\">Sonderstatus</b> im Unternehmen."
+    "example": "Schwangere Mitarbeiterinnen **genießen einen gesetzlichen <b style=\"color: #eab308;\">Sonderstatus</b> beim Kündigungsschutz**."
   },
   {
     "level": "B2",
@@ -32441,7 +32439,7 @@
     "german_audio": "sozial",
     "english": "social",
     "ukrainian": "соціальний",
-    "example": "Unsere Firma engagiert sich stark für <b style=\"color: #eab308;\">soziale</b> Tech-Projekte."
+    "example": "Die <b style=\"color: #eab308;\">soziale</b> Partnerschaft **ist die Grundlage für faire Tarifverträge**."
   },
   {
     "level": "B2",
@@ -32453,7 +32451,7 @@
     "german_audio": "die Sozialhilfe",
     "english": "social assistance, welfare",
     "ukrainian": "соціальна допомога",
-    "example": "Ein neuer Algorithmus soll die Auszahlung der <b style=\"color: #eab308;\">Sozialhilfe</b> beschleunigen."
+    "example": "Die <b style=\"color: #eab308;\">Sozialhilfe</b> **sichert die Existenz von hilfsbedürftigen Personen ab**."
   },
   {
     "level": "B2",
@@ -32465,7 +32463,7 @@
     "german_audio": "der Sozialstaat",
     "english": "welfare state",
     "ukrainian": "соціальна держава",
-    "example": "Deutschland ist ein starker <b style=\"color: #eab308;\">Sozialstaat</b> mit vielen verpflichtenden Versicherungen."
+    "example": "Das Grundgesetz **verankert das Prinzip Deutschlands als <b style=\"color: #eab308;\">Sozialstaat</b>**."
   },
   {
     "level": "B2",
@@ -32477,7 +32475,7 @@
     "german_audio": "die Sozialversicherung",
     "english": "social security",
     "ukrainian": "соціальне страхування",
-    "example": "Als Festangestellter bist du automatisch in der <b style=\"color: #eab308;\">Sozialversicherung</b>."
+    "example": "Der Arbeitgeber **ist verpflichtet, die Mitarbeiter bei der <b style=\"color: #eab308;\">Sozialversicherung</b> anzumelden**."
   },
   {
     "level": "B2",
@@ -32489,7 +32487,7 @@
     "german_audio": "unterhalb",
     "english": "below",
     "ukrainian": "нижче, під",
-    "example": "Die Serverlast liegt zum Glück weit <b style=\"color: #eab308;\">unterhalb</b> des kritischen Limits."
+    "example": "Liegt das Einkommen **<b style=\"color: #eab308;\">unterhalb</b> der Pfändungsgrenze, ist eine Pfändung ausgeschlossen**."
   },
   {
     "level": "B2",
@@ -32501,7 +32499,7 @@
     "german_audio": "vorlegen",
     "english": "to submit, to present",
     "ukrainian": "надавати, пред'являти",
-    "example": "Du musst dem HR-Team deine Steuer-ID und das Zeugnis <b style=\"color: #eab308;\">vorlegen</b>."
+    "example": "Sie müssen dem Personalverantwortlichen **ein ärztliches Attest <b style=\"color: #eab308;\">vorlegen</b>**."
   },
   {
     "level": "B2",
@@ -32513,7 +32511,7 @@
     "german_audio": "das Wohngeld",
     "english": "housing allowance",
     "ukrainian": "допомога на оплату житла",
-    "example": "Mit einem guten IT-Gehalt hat man normalerweise keinen Anspruch auf <b style=\"color: #eab308;\">Wohngeld</b>."
+    "example": "Bei geringem Einkommen **kann man einen Zuschuss in Form von <b style=\"color: #eab308;\">Wohngeld</b> beantragen**."
   },
   {
     "level": "B2",
@@ -32525,7 +32523,7 @@
     "german_audio": "die Abgabe",
     "english": "tax, duty, submission",
     "ukrainian": "податок, збір, здача",
-    "example": "Auf dem Gehaltszettel siehst du alle Steuern und staatlichen <b style=\"color: #eab308;\">Abgaben</b>."
+    "example": "Die Lohnsteuer **ist eine gesetzliche <b style=\"color: #eab308;\">Abgabe</b>, die direkt vom Lohn abgezogen wird**."
   },
   {
     "level": "B2",
@@ -32537,7 +32535,7 @@
     "german_audio": "alleinerziehend",
     "english": "single parent",
     "ukrainian": "який виховує дитину сам",
-    "example": "Als <b style=\"color: #eab308;\">alleinerziehender</b> Vater im IT-Support habe ich sehr flexible Arbeitszeiten."
+    "example": "<b style=\"color: #eab308;\">Alleinerziehende</b> Mütter **haben oft Anspruch на besondere Steuererleichterungen**."
   },
   {
     "level": "B2",
@@ -32549,7 +32547,7 @@
     "german_audio": "der Arbeitgeberanteil",
     "english": "employer's contribution",
     "ukrainian": "частка роботодавця (у страхуванні)",
-    "example": "Die Firma zahlt 50% deiner Krankenversicherung als <b style=\"color: #eab308;\">Arbeitgeberanteil</b>."
+    "example": "Der <b style=\"color: #eab308;\">Arbeitgeberanteil</b> **an den Sozialabgaben beträgt ungefähr die Hälfte**."
   },
   {
     "level": "B2",
@@ -32561,7 +32559,7 @@
     "german_audio": "ausmachen",
     "english": "to amount to, to turn off",
     "ukrainian": "складати (суму), вимикати",
-    "example": "Die Steuern machen einen großen Teil meines Bruttogehalts aus."
+    "example": "Die Lohnnebenkosten **machen einen erheblichen Teil der Gesamtkosten aus**."
   },
   {
     "level": "B2",
@@ -32573,7 +32571,7 @@
     "german_audio": "der Auszahlungsbetrag",
     "english": "payout amount, net amount",
     "ukrainian": "сума до виплати",
-    "example": "Der <b style=\"color: #eab308;\">Auszahlungsbetrag</b> auf deinem Bankkonto ist dein endgültiges Nettogehalt."
+    "example": "Der tatsächliche <b style=\"color: #eab308;\">Auszahlungsbetrag</b> **wird am Monatsende auf Ihr Gehaltskonto überwiesen**."
   },
   {
     "level": "B2",
@@ -32585,7 +32583,7 @@
     "german_audio": "der Beitrag",
     "english": "contribution, post",
     "ukrainian": "внесок, стаття",
-    "example": "Mein <b style=\"color: #eab308;\">Beitrag</b> zur gesetzlichen Krankenversicherung steigt nächstes Jahr."
+    "example": "Die Höhe der <b style=\"color: #eab308;\">Beiträge</b> **richtet sich nach dem Bruttogehalt des Versicherten**."
   },
   {
     "level": "B2",
@@ -32597,7 +32595,7 @@
     "german_audio": "die Erwerbstätigkeit",
     "english": "employment, gainful occupation",
     "ukrainian": "трудова діяльність, зайнятість",
-    "example": "Die Aufnahme einer <b style=\"color: #eab308;\">Erwerbstätigkeit</b> muss der Krankenversicherung gemeldet werden."
+    "example": "Die Aufnahme einer <b style=\"color: #eab308;\">Erwerbstätigkeit</b> **ist dem Jobcenter unverzüglich zu melden**."
   },
   {
     "level": "B2",
@@ -32609,7 +32607,7 @@
     "german_audio": "evangelisch",
     "english": "Protestant, Evangelical",
     "ukrainian": "євангельський, протестантський",
-    "example": "Wenn man in Deutschland offiziell <b style=\"color: #eab308;\">evangelisch</b> ist, zahlt man Kirchensteuer."
+    "example": "Wenn der Mitarbeiter <b style=\"color: #eab308;\">evangelisch</b> ist, **wird Kirchensteuer auf der Gehaltsabrechnung ausgewiesen**."
   },
   {
     "level": "B2",
@@ -32621,7 +32619,7 @@
     "german_audio": "gleichgeschlechtlich",
     "english": "same-sex",
     "ukrainian": "одностатевий",
-    "example": "Das HR-System hat jetzt auch Felder für <b style=\"color: #eab308;\">gleichgeschlechtliche</b> Lebenspartner."
+    "example": "Das Gesetz **garantiert <b style=\"color: #eab308;\">gleichgeschlechtlichen</b> Lebensgemeinschaften dieselben Rechte**."
   },
   {
     "level": "B2",
@@ -32633,7 +32631,7 @@
     "german_audio": "jüdisch",
     "english": "Jewish",
     "ukrainian": "єврейський",
-    "example": "Die <b style=\"color: #eab308;\">jüdische</b> Gemeinde nutzt unsere Cloud-Lösung für ihre Verwaltung."
+    "example": "Mitglieder der <b style=\"color: #eab308;\">jüdischen</b> Gemeinde **zahlen eine entsprechende Kultussteuer**."
   },
   {
     "level": "B2",
@@ -32645,7 +32643,7 @@
     "german_audio": "katholisch",
     "english": "Catholic",
     "ukrainian": "католицький",
-    "example": "Wer <b style=\"color: #eab308;\">katholisch</b> ist, sieht den Abzug der Kirchensteuer auf dem Gehaltszettel."
+    "example": "Für <b style=\"color: #eab308;\">katholische</b> Arbeitnehmer **wird die Kirchensteuer vom Arbeitgeber abgeführt**."
   },
   {
     "level": "B2",
@@ -32657,7 +32655,7 @@
     "german_audio": "kombinieren",
     "english": "to combine",
     "ukrainian": "комбінувати, поєднувати",
-    "example": "Wir müssen das neue Frontend-Framework mit unserer alten Datenbank <b style=\"color: #eab308;\">kombinieren</b>."
+    "example": "Wir müssen theoretisches Wissen **mit praktischer Berufserfahrung <b style=\"color: #eab308;\">kombinieren</b>**."
   },
   {
     "level": "B2",
@@ -32669,7 +32667,7 @@
     "german_audio": "die Lebensgemeinschaft",
     "english": "partnership, cohabitation",
     "ukrainian": "спільне проживання, партнерство",
-    "example": "Die Steuerklasse hängt auch von einer eingetragenen <b style=\"color: #eab308;\">Lebensgemeinschaft</b> ab."
+    "example": "Die eingetragene <b style=\"color: #eab308;\">Lebensgemeinschaft</b> **beeinflusst die Wahl der Steuerklasse**."
   },
   {
     "level": "B2",
@@ -32677,11 +32675,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Steuer, -n",
-    "german_audio": "die Steuer",
-    "english": "tax",
-    "ukrainian": "податок",
-    "example": "Das <b style=\"color: #eab308;\">Steuersystem</b> in Deutschland ist sehr komplex, weshalb viele Steuersoftware nutzen."
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Solidaritätszuschlag (Sg.)",
+    "german_audio": "der Solidaritätszuschlag",
+    "english": "solidarity surcharge (Soli)",
+    "ukrainian": "надбавка за солідарність (Soli)",
+    "example": "Der <b style=\"color: #eab308;\">Solidaritätszuschlag</b> **wurde durch eine Gesetzesreform für viele abgeschafft**."
   },
   {
     "level": "B2",
@@ -32689,11 +32687,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Steueridentifikationsnummer, -n",
-    "german_audio": "die Steueridentifikationsnummer",
-    "english": "tax identification number",
-    "ukrainian": "ідентифікаційний податковий номер (ІПН)",
-    "example": "Gib deine 11-stellige <b style=\"color: #eab308;\">Steueridentifikationsnummer</b> (Steuer-ID) im HR-Portal ein."
+    "german": "sonstig",
+    "german_audio": "sonstig",
+    "english": "other, miscellaneous",
+    "ukrainian": "інший, інше",
+    "example": "<b style=\"color: #eab308;\">Sonstige</b> Bezüge **müssen auf der Gehaltsabrechnung separat ausgewiesen werden**."
   },
   {
     "level": "B2",
@@ -32701,11 +32699,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "etw. variieren (variiert, variierte, hat variiert)",
-    "german_audio": "variieren",
-    "english": "to vary",
-    "ukrainian": "варіювати, змінювати",
-    "example": "Die Hosting-Kosten können je nach Server-Traffic stark <b style=\"color: #eab308;\">variieren</b>."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Steuerklasse I",
+    "german_audio": "die Steuerklasse I",
+    "english": "tax class 1 (single, divorced)",
+    "ukrainian": "податковий клас 1 (одинокі)",
+    "example": "Ledige Arbeitnehmer **werden in der Regel in die Steuerklasse I eingestuft**."
   },
   {
     "level": "B2",
@@ -32713,11 +32711,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "vermögenswirksame Leistungen (Pl.)",
-    "german_audio": "vermögenswirksame Leistungen",
-    "english": "capital-forming benefits",
-    "ukrainian": "накопичувальні пільги (від роботодавця)",
-    "example": "Die Firma zahlt monatlich 40 Euro vermögenswirksame <b style=\"color: #eab308;\">Leistungen</b> in meinen ETF-Sparplan."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Steuerklasse II",
+    "german_audio": "die Steuerklasse II",
+    "english": "tax class 2 (single parent)",
+    "ukrainian": "податковий клас 2 (одинокі батьки)",
+    "example": "<b>Für alleinerziehende Mütter ist die Steuerklasse II vorgesehen</b>."
   },
   {
     "level": "B2",
@@ -32725,11 +32723,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Zweitjob, -s",
-    "german_audio": "der Zweitjob",
-    "english": "second job",
-    "ukrainian": "друга робота, підробіток",
-    "example": "Nebenbei programmiert er Webseiten für kleine Firmen als <b style=\"color: #eab308;\">Zweitjob</b>."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Steuerklasse III",
+    "german_audio": "die Steuerklasse III",
+    "english": "tax class 3 (married, higher income)",
+    "ukrainian": "податковий клас 3 (одружені, більший дохід)",
+    "example": "Die Steuerklasse III **bietet verheirateten Paaren steuerliche Vorteile**."
   },
   {
     "level": "B2",
@@ -32737,11 +32735,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "absehbar",
-    "german_audio": "absehbar",
-    "english": "foreseeable",
-    "ukrainian": "передбачуваний",
-    "example": "Ein Ende des großen Refactoring-Projekts ist aktuell noch nicht <b style=\"color: #eab308;\">absehbar</b>."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Steuerklasse IV",
+    "german_audio": "die Steuerklasse IV",
+    "english": "tax class 4 (married, equal income)",
+    "ukrainian": "податковий клас 4 (одружені, рівні доходи)",
+    "example": "Eheleute mit gleichem Einkommen **wählen meist die Steuerklasse IV**."
   },
   {
     "level": "B2",
@@ -32749,11 +32747,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Abwesenheit (Sg.)",
-    "german_audio": "die Abwesenheit",
-    "english": "absence",
-    "ukrainian": "відсутність",
-    "example": "In meiner <b style=\"color: #eab308;\">Abwesenheit</b> übernimmt der Junior-Dev meine Jira-Tickets."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Steuerklasse V",
+    "german_audio": "die Steuerklasse V",
+    "english": "tax class 5 (married, lower income)",
+    "ukrainian": "податковий клас 5 (одружені, менший дохід)",
+    "example": "Die Steuerklasse V **führt zu einer höheren Steuerlast auf das Bruttogehalt**."
   },
   {
     "level": "B2",
@@ -32761,11 +32759,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "ansteckend",
-    "german_audio": "ansteckend",
-    "english": "contagious",
-    "ukrainian": "заразний, інфекційний",
-    "example": "Komm nicht ins Büro, wenn du eine <b style=\"color: #eab308;\">ansteckende</b> Krankheit hast!"
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Steuerklasse VI",
+    "german_audio": "die Steuerklasse VI",
+    "english": "tax class 6 (second job)",
+    "ukrainian": "податковий клас 6 (друга робота)",
+    "example": "Für einen Zweitjob **wird automatisch die Steuerklasse VI angewendet**."
   },
   {
     "level": "B2",
@@ -32773,11 +32771,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "arbeitsfähig",
-    "german_audio": "arbeitsfähig",
-    "english": "fit for work, able to work",
-    "ukrainian": "працездатний",
-    "example": "Nach einer Woche Grippe bin ich endlich wieder <b style=\"color: #eab308;\">arbeitsfähig</b> und online."
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Anstellungsverhältnis, -se",
+    "german_audio": "das Anstellungsverhältnis",
+    "english": "employment relationship",
+    "ukrainian": "трудові відносини (найм)",
+    "example": "Das <b style=\"color: #eab308;\">Anstellungsverhältnis</b> **wird im Arbeitsvertrag schriftlich vereinbart**."
   },
   {
     "level": "B2",
@@ -32785,11 +32783,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "erkranken (erkrankt, erkrankte, ist erkrankt)",
-    "german_audio": "erkranken",
-    "english": "to fall ill",
-    "ukrainian": "захворіти",
-    "example": "Wenn Sie schwer <b style=\"color: #eab308;\">erkranken</b>, müssen Sie dem Team sofort Bescheid geben."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> gesetzliche Krankenkasse, -n",
+    "german_audio": "die gesetzliche Krankenkasse",
+    "english": "statutory health insurance fund",
+    "ukrainian": "державна каса медичного страхування",
+    "example": "Die gesetzliche <b style=\"color: #eab308;\">Krankenkasse</b> **ist für die Auszahlung des Krankengeldes zuständig**."
   },
   {
     "level": "B2",
@@ -32797,11 +32795,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Erkrankung, -en",
-    "german_audio": "die Erkrankung",
-    "english": "illness, disease",
-    "ukrainian": "хвороба, захворювання",
-    "example": "Wegen einer schweren <b style=\"color: #eab308;\">Erkrankung</b> fiel der Lead Developer wochenlang aus."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> private Krankenkasse, -n",
+    "german_audio": "die private Krankenkasse",
+    "english": "private health insurance fund",
+    "ukrainian": "приватна каса медичного страхування",
+    "example": "Bei einer privaten <b style=\"color: #eab308;\">Krankenkasse</b> **hängen die Beiträge vom individuellen Risiko ab**."
   },
   {
     "level": "B2",
@@ -32809,11 +32807,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Herzinfarkt, -e",
-    "german_audio": "der Herzinfarkt",
-    "english": "heart attack",
-    "ukrainian": "інфаркт",
-    "example": "Zu viel Stress vor dem Code-Release ist ungesund und kann zu einem <b style=\"color: #eab308;\">Herzinfarkt</b> führen."
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Kindergeldbezieher, - / die Kindergeldbezieherin, -nen",
+    "german_audio": "das Kindergeldbezieher",
+    "english": "recipient of child benefit",
+    "ukrainian": "отримувач допомоги на дитину",
+    "example": "Die <b style=\"color: #eab308;\">Kindergeldbezieher</b> **müssen jede Änderung der Lebensumstände melden**."
   },
   {
     "level": "B2",
@@ -32821,11 +32819,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Impfung, -en",
-    "german_audio": "die Impfung",
-    "english": "vaccination",
-    "ukrainian": "щеплення",
-    "example": "Die Firma bietet im Herbst eine kostenlose Grippeimpfung für alle Entwickler an."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Familienkasse, -n",
+    "german_audio": "die Familienkasse",
+    "english": "family benefits office",
+    "ukrainian": "сімейна каса (видає Kindergeld)",
+    "example": "Die <b style=\"color: #eab308;\">Familienkasse</b> **ist für die Bewilligung und Auszahlung des Kindergelds zuständig**."
   },
   {
     "level": "B2",
@@ -32833,11 +32831,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Infektionskrankheit, -en",
-    "german_audio": "die Infektionskrankheit",
-    "english": "infectious disease",
-    "ukrainian": "інфекційна хвороба",
-    "example": "Bei einer <b style=\"color: #eab308;\">Infektionskrankheit</b> ist Homeoffice gesetzlich oft Pflicht."
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Kindergeldantrag, \"-e",
+    "german_audio": "der Kindergeldantrag",
+    "english": "child benefit application",
+    "ukrainian": "заява на допомогу на дитину",
+    "example": "Der <b style=\"color: #eab308;\">Kindergeldantrag</b> **wurde bei der Familienkasse eingereicht**."
   },
   {
     "level": "B2",
@@ -32845,11 +32843,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "jdn. krankschreiben (schreibt krank, schrieb krank, hat krankgeschrieben)",
-    "german_audio": "krankschreiben",
-    "english": "to put someone on sick leave",
-    "ukrainian": "виписати лікарняний",
-    "example": "Der Arzt wird mich wegen Fiebers für drei Tage <b style=\"color: #eab308;\">krankschreiben</b>."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Kindergeldauszahlung, -en",
+    "german_audio": "die Kindergeldauszahlung",
+    "english": "child benefit payment",
+    "ukrainian": "виплата допомоги на дитину",
+    "example": "Die <b style=\"color: #eab308;\">Kindergeldauszahlung</b> **erfolgt monatlich auf das angegebene Bankkonto**."
   },
   {
     "level": "B2",
@@ -32857,11 +32855,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "etw. nachholen (holt nach, holte nach, hat nachgeholt)",
-    "german_audio": "nachholen",
-    "english": "to catch up on, to make up for",
-    "ukrainian": "надолужувати",
-    "example": "Ich war krank und muss das verpasste Daily-Meeting heute Nachmittag <b style=\"color: #eab308;\">nachholen</b>."
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Elterngeldantrag, \"-e",
+    "german_audio": "der Elterngeldantrag",
+    "english": "parental allowance application",
+    "ukrainian": "заява на отримання батьківської допомоги",
+    "example": "Bitte **reichen Sie den <b style=\"color: #eab308;\">Elterngeldantrag</b> innerhalb der gesetzlichen Frist ein**."
   },
   {
     "level": "B2",
@@ -32869,11 +32867,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Notfall, \"-e",
-    "german_audio": "der Notfall",
-    "english": "emergency",
-    "ukrainian": "екстрений випадок, надзвичайна ситуація",
-    "example": "Im <b style=\"color: #eab308;\">Notfall</b> kann uns der externe IT-Support auch am Wochenende helfen."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Elterngeldbezug, \"-e",
+    "german_audio": "die Elterngeldbezug",
+    "english": "receipt of parental allowance",
+    "ukrainian": "період отримання батьківської допомоги",
+    "example": "Während des <b style=\"color: #eab308;\">Elterngeldbezugs</b> **darf man in Teilzeit weiterarbeiten**."
   },
   {
     "level": "B2",
@@ -32881,11 +32879,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Orthopäde, -n / die Orthopädin, -nen",
-    "german_audio": "der Orthopäde",
-    "english": "orthopedist",
-    "ukrainian": "ортопед",
-    "example": "Wegen meiner Rückenschmerzen vom ständigen Sitzen gehe ich zum <b style=\"color: #eab308;\">Orthopäden</b>."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Agentur für Arbeit (Sg.)",
+    "german_audio": "die Agentur für Arbeit",
+    "english": "Employment Agency",
+    "ukrainian": "Агентство праці (локальне)",
+    "example": "Die Agentur für <b style=\"color: #eab308;\">Arbeit</b> **erteilt Auskünfte über Weiterbildungsmaßnahmen**."
   },
   {
     "level": "B2",
@@ -32893,11 +32891,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "etw. rechtfertigen (rechtfertigt, rechtfertigte, hat gerechtfertigt)",
-    "german_audio": "rechtfertigen",
-    "english": "to justify",
-    "ukrainian": "виправдовувати, обґрунтовувати",
-    "example": "Du musst deinen Code-Ansatz im Pull Request technisch <b style=\"color: #eab308;\">rechtfertigen</b>."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Bürgergeld (Sg.)",
+    "german_audio": "die Bürgergeld",
+    "english": "citizen's income (basic social welfare in Germany)",
+    "ukrainian": "громадянська допомога (Bürgergeld)",
+    "example": "Das <b style=\"color: #eab308;\">Bürgergeld</b> **sichert das verfassungsrechtliche Existenzminimum ab**."
   },
   {
     "level": "B2",
@@ -32905,11 +32903,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "soeben",
-    "german_audio": "soeben",
-    "english": "just now",
-    "ukrainian": "щойно, тільки-но",
-    "example": "Der Produktions-Server ist <b style=\"color: #eab308;\">soeben</b> abgestürzt, wir müssen das fixen!"
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Bürgergeldempfänger, - / die Bürgergeldempfängerin, -nen",
+    "german_audio": "die Bürgergeldempfänger",
+    "english": "recipient of citizen's income",
+    "ukrainian": "отримувач громадянської допомоги",
+    "example": "Die <b style=\"color: #eab308;\">Bürgergeldempfänger</b> **haben eine Mitwirkungspflicht bei der Arbeitssuche**."
   },
   {
     "level": "B2",
@@ -32917,11 +32915,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "voraussichtlich",
-    "german_audio": "voraussichtlich",
-    "english": "expected, probable",
-    "ukrainian": "ймовірно, очікується",
-    "example": "Das neue Feature ist <b style=\"color: #eab308;\">voraussichtlich</b> am Freitagnachmittag fertig."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Mitwirkungspflicht, -en",
+    "german_audio": "die Mitwirkungspflicht",
+    "english": "duty to cooperate / obligation to assist",
+    "ukrainian": "обов'язок співпраці (надання інформації державним органам)",
+    "example": "Eine Verletzung der <b style=\"color: #eab308;\">Mitwirkungspflicht</b> **kann zu einer Leistungskürzung führen**."
   },
   {
     "level": "B2",
@@ -32929,11 +32927,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "etw. weiterleiten (leitet weiter, leitete weiter, hat weitergeleitet)",
-    "german_audio": "weiterleiten",
-    "english": "to forward",
-    "ukrainian": "пересилати, перенаправляти",
-    "example": "Ich werde die E-Mail des Kunden an den 2nd-Level-Support <b style=\"color: #eab308;\">weiterleiten</b>."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Leistungskürzung, -en",
+    "german_audio": "die Leistungskürzung",
+    "english": "reduction of benefits / sanction",
+    "ukrainian": "скорочення (зменшення) виплат (санкція)",
+    "example": "Die <b style=\"color: #eab308;\">Leistungskürzung</b> **wurde im schriftlichen Bescheid genau begründet**."
   },
   {
     "level": "B2",
@@ -32941,11 +32939,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "etw. abmildern (mildert ab, milderte ab, hat abgemildert)",
-    "german_audio": "abmildern",
-    "english": "to soften, to mitigate",
-    "ukrainian": "пом'якшувати, зменшувати",
-    "example": "Wir nutzen Load Balancer, um den extremen Traffic-Peak abzumildern."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Eingliederungsvereinbarung, -en",
+    "german_audio": "die Eingliederungsvereinbarung",
+    "english": "integration agreement (between jobseeker and jobcenter)",
+    "ukrainian": "угода про інтеграцію (працевлаштування)",
+    "example": "Die <b style=\"color: #eab308;\">Eingliederungsvereinbarung</b> **beinhaltet konkrete Schritte zur Stellensuche**."
   },
   {
     "level": "B2",
@@ -32953,11 +32951,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Angehörige, -n / die Angehörige, -n",
-    "german_audio": "der Angehörige",
-    "english": "relative",
-    "ukrainian": "родич",
-    "example": "Wir haben eine spezielle Software für pflegende <b style=\"color: #eab308;\">Angehörige</b> entwickelt."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Kooperationsplan, \"-e",
+    "german_audio": "die Kooperationsplan",
+    "english": "cooperation plan",
+    "ukrainian": "план співпраці (між безробітним та центром)",
+    "example": "Der <b style=\"color: #eab308;\">Kooperationsplan</b> **ersetzt die bisherige Eingliederungsvereinbarung**."
   },
   {
     "level": "B2",
@@ -32965,11 +32963,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "ausschließlich",
-    "german_audio": "ausschließlich",
-    "english": "exclusively, only",
-    "ukrainian": "виключно",
-    "example": "Dieses AWS-Konto wird <b style=\"color: #eab308;\">ausschließlich</b> für die Produktion genutzt."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> zumutbare Arbeit",
+    "german_audio": "die zumutbare Arbeit",
+    "english": "acceptable work / reasonable employment",
+    "ukrainian": "прийнятна (підходяща) робота",
+    "example": "Ein Bürgergeldempfänger **muss jede zumutbare <b style=\"color: #eab308;\">Arbeit</b> annehmen**."
   },
   {
     "level": "B2",
@@ -32977,11 +32975,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "etw./jdn. bedenken (bedenkt, bedachte, hat bedacht)",
-    "german_audio": "etw.",
-    "english": "to consider, to think about",
-    "ukrainian": "враховувати, обмірковувати",
-    "example": "Wir müssen bei der App-Architektur auch die spätere Skalierbarkeit bedenken."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Zumutbarkeit (Sg.)",
+    "german_audio": "die Zumutbarkeit",
+    "english": "reasonableness / acceptability",
+    "ukrainian": "прийнятність (відповідність вимогам закону щодо роботи)",
+    "example": "Die <b style=\"color: #eab308;\">Zumutbarkeit</b> der angebotenen Stelle **wird im Einzelfall geprüft**."
   },
   {
     "level": "B2",
@@ -32989,11 +32987,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Berufswiedereinstieg (Sg.)",
-    "german_audio": "der Berufswiedereinstieg",
-    "english": "return to work (after a break)",
-    "ukrainian": "повернення до професійної діяльності",
-    "example": "Nach der Elternzeit plant sie ihren <b style=\"color: #eab308;\">Berufswiedereinstieg</b> als Scrum Master."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Arbeitsvermittlung (Sg.)",
+    "german_audio": "die Arbeitsvermittlung",
+    "english": "job placement / employment service",
+    "ukrainian": "працевлаштування, посередництво в роботі",
+    "example": "Die <b style=\"color: #eab308;\">Arbeitsvermittlung</b> **erfolgt durch die Berater der Agentur für Arbeit**."
   },
   {
     "level": "B2",
@@ -33001,11 +32999,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Betreuungsmöglichkeit, -en",
-    "german_audio": "die Betreuungsmöglichkeit",
-    "english": "childcare option",
-    "ukrainian": "можливість догляду (за дітьми)",
-    "example": "Unser IT-Konzern bietet eine eigene Kita als <b style=\"color: #eab308;\">Betreuungsmöglichkeit</b> an."
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Arbeitsvermittler, - / die Arbeitsvermittlerin, -nen",
+    "german_audio": "der Arbeitsvermittler",
+    "english": "employment agent / job placement officer",
+    "ukrainian": "консультант з працевлаштування",
+    "example": "Der <b style=\"color: #eab308;\">Arbeitsvermittler</b> **hat dem Bewerber ein Jobangebot unterbreitet**."
   },
   {
     "level": "B2",
@@ -33013,11 +33011,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Elternzeit (Sg.)",
-    "german_audio": "die Elternzeit",
-    "english": "parental leave",
-    "ukrainian": "відпустка по догляду за дитиною",
-    "example": "Der Lead Developer ist für drei Monate in <b style=\"color: #eab308;\">Elternzeit</b> und offline."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Vermittlungsvorschlag, \"-e",
+    "german_audio": "die Vermittlungsvorschlag",
+    "english": "job placement proposal / referral",
+    "ukrainian": "пропозиція щодо працевлаштування (від центру зайнятості)",
+    "example": "Auf den <b style=\"color: #eab308;\">Vermittlungsvorschlag</b> **muss man sich innerhalb von drei Tagen bewerben**."
   },
   {
     "level": "B2",
@@ -33025,11 +33023,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "jdn. freistellen (stellt frei, stellte frei, hat freigestellt)",
-    "german_audio": "freistellen",
-    "english": "to exempt, to release (from work)",
-    "ukrainian": "звільнити (від роботи)",
-    "example": "Die Firma musste ihn nach der fristlosen Kündigung sofort <b style=\"color: #eab308;\">freistellen</b>."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Bewerbungsbemühungen (Pl.)",
+    "german_audio": "die Bewerbungsbemühungen",
+    "english": "job application efforts",
+    "ukrainian": "зусилля щодо пошуку роботи (подача резюме)",
+    "example": "Der Arbeitslose **muss seine <b style=\"color: #eab308;\">Bewerbungsbemühungen</b> monatlich nachweisen**."
   },
   {
     "level": "B2",
@@ -33037,11 +33035,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Lohnersatzleistung, -en",
-    "german_audio": "die Lohnersatzleistung",
-    "english": "wage replacement benefit",
-    "ukrainian": "допомога, що замінює заробітну плату",
-    "example": "Das Krankengeld ist eine klassische staatliche <b style=\"color: #eab308;\">Lohnersatzleistung</b> in Deutschland."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Eigenbemühungen (Pl.)",
+    "german_audio": "die Eigenbemühungen",
+    "english": "own efforts (in job search)",
+    "ukrainian": "власні зусилля (щодо пошуку роботи)",
+    "example": "Die <b style=\"color: #eab308;\">Eigenbemühungen</b> **sind Voraussetzung für den Erhalt von Leistungen**."
   },
   {
     "level": "B2",
@@ -33049,11 +33047,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "pflegebedürftig",
-    "german_audio": "pflegebedürftig",
-    "english": "in need of care",
-    "ukrainian": "такий, що потребує догляду",
-    "example": "Er arbeitet in Teilzeit, weil sein Vater leider <b style=\"color: #eab308;\">pflegebedürftig</b> ist."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Bewerbungskosten (Pl.)",
+    "german_audio": "die Bewerbungskosten",
+    "english": "application costs",
+    "ukrainian": "витрати на подачу резюме (пошук роботи)",
+    "example": "Die <b style=\"color: #eab308;\">Bewerbungskosten</b> **werden unter bestimmten Bedingungen vom Jobcenter erstattet**."
   },
   {
     "level": "B2",
@@ -33061,11 +33059,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Pflegekasse (Sg.)",
-    "german_audio": "die Pflegekasse",
-    "english": "long-term care insurance fund",
-    "ukrainian": "каса страхування по догляду",
-    "example": "Wir digitalisieren die Antragsformulare für die gesetzliche <b style=\"color: #eab308;\">Pflegekasse</b>."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Mobilitätshilfe, -n",
+    "german_audio": "die Mobilitätshilfe",
+    "english": "mobility aid / subsidy",
+    "ukrainian": "допомога на мобільність (напр., витрати на переїзд до місця роботи)",
+    "example": "Die <b style=\"color: #eab308;\">Mobilitätshilfe</b> **unterstützt die Aufnahme einer auswärtigen Erwerbstätigkeit**."
   },
   {
     "level": "B2",
@@ -33073,11 +33071,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Pflegezeit, -en",
-    "german_audio": "die Pflegezeit",
-    "english": "care leave",
-    "ukrainian": "відпустка для догляду за родичем",
-    "example": "Man kann <b style=\"color: #eab308;\">Pflegezeit</b> beantragen, um schwerkranke Angehörige zu pflegen."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Umzugskosten (Pl.)",
+    "german_audio": "die Umzugskosten",
+    "english": "moving costs",
+    "ukrainian": "витрати на переїзд",
+    "example": "Die <b style=\"color: #eab308;\">Umzugskosten</b> **werden bei einer berufsbedingten Umschulung übernommen**."
   },
   {
     "level": "B2",
@@ -33085,11 +33083,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "rechnen mit (+ Dat.) (rechnet, rechnete, hat gerechnet)",
-    "german_audio": "rechnen mit",
-    "english": "to expect, to count on",
-    "ukrainian": "очікувати, розраховувати на",
-    "example": "Wir rechnen mit einem massiven Anstieg der Serverlast am Black Friday."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Einstiegsgeld (Sg.)",
+    "german_audio": "die Einstiegsgeld",
+    "english": "starting grant / introductory subsidy (for taking a job)",
+    "ukrainian": "допомога на первинне працевлаштування (Einstiegsgeld)",
+    "example": "Das <b style=\"color: #eab308;\">Einstiegsgeld</b> **wird als Anreiz für die Aufnahme einer Beschäftigung gezahlt**."
   },
   {
     "level": "B2",
@@ -33097,11 +33095,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Rechtsanspruch, \"-e",
-    "german_audio": "der Rechtsanspruch",
-    "english": "legal right, legal claim",
-    "ukrainian": "юридичне право",
-    "example": "Du hast einen gesetzlichen <b style=\"color: #eab308;\">Rechtsanspruch</b> auf ein qualifiziertes Arbeitszeugnis."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Lohnkostenzuschuss, \"-e",
+    "german_audio": "die Lohnkostenzuschuss",
+    "english": "wage subsidy",
+    "ukrainian": "субсидія на заробітну плату (роботодавцю)",
+    "example": "Für die Einstellung von Langzeitarbeitslosen **gibt es einen <b style=\"color: #eab308;\">Lohnkostenzuschuss</b>**."
   },
   {
     "level": "B2",
@@ -33109,11 +33107,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Tagesmutter, \"-",
-    "german_audio": "die Tagesmutter",
-    "english": "childminder, nanny",
-    "ukrainian": "няня (яка доглядає вдень)",
-    "example": "Die <b style=\"color: #eab308;\">Tagesmutter</b> passt auf mein Kind auf, während ich im Homeoffice programmiere."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Eingliederungszuschuss, \"-e",
+    "german_audio": "die Eingliederungszuschuss",
+    "english": "integration subsidy",
+    "ukrainian": "інтеграційна субсидія (доплата роботодавцю)",
+    "example": "Der <b style=\"color: #eab308;\">Eingliederungszuschuss</b> **wird für die Dauer der Einarbeitungsphase gezahlt**."
   },
   {
     "level": "B2",
@@ -33121,11 +33119,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Wechselschicht, -en",
-    "german_audio": "die Wechselschicht",
-    "english": "rotating shift",
-    "ukrainian": "позмінна робота",
-    "example": "Im 24/7 IT-Support gibt es oft eine anstrengende <b style=\"color: #eab308;\">Wechselschicht</b>."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Beschäftigungszuschuss, \"-e",
+    "german_audio": "die Beschäftigungszuschuss",
+    "english": "employment subsidy",
+    "ukrainian": "доплата на працевлаштування (субсидія)",
+    "example": "Der <b style=\"color: #eab308;\">Beschäftigungszuschuss</b> **dient der Integration schwer vermittelbarer Personen**."
   },
   {
     "level": "B2",
@@ -33133,11 +33131,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "zinslos",
-    "german_audio": "zinslos",
-    "english": "interest-free",
-    "ukrainian": "безвідсотковий",
-    "example": "Die Firma hat dem Startup ein komplett <b style=\"color: #eab308;\">zinsloses</b> Darlehen gewährt."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Aktivierungs- und Vermittlungsgutschein (AVGS), -e",
+    "german_audio": "die Aktivierungs- und Vermittlungsgutschein",
+    "english": "activation and placement voucher (AVGS)",
+    "ukrainian": "ваучер на активацію та працевлаштування (AVGS)",
+    "example": "Mit dem AVGS **kann man die Dienste einer privaten <b style=\"color: #eab308;\">Vermittlungsagentur</b> nutzen**."
   },
   {
     "level": "B2",
@@ -33145,11 +33143,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "sich zurechtfinden (findet sich zurecht, fand sich zurecht, hat sich zurechtgefunden)",
-    "german_audio": "sich zurechtfinden",
-    "english": "to find one's way around",
-    "ukrainian": "орієнтуватися, розбиратися",
-    "example": "Es dauert ein paar Wochen, bis man sich in der riesigen Codebase <b style=\"color: #eab308;\">zurechtfindet</b>."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Bildungsgutschein, -e",
+    "german_audio": "die Bildungsgutschein",
+    "english": "training voucher",
+    "ukrainian": "освітній ваучер (на навчання/курси)",
+    "example": "Ich habe einen <b style=\"color: #eab308;\">Bildungsgutschein</b> **für eine berufliche Weiterbildung erhalten**."
   },
   {
     "level": "B2",
@@ -33157,11 +33155,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Zusammenhang, \"-e",
-    "german_audio": "der Zusammenhang",
-    "english": "connection, context",
-    "ukrainian": "зв'язок, контекст",
-    "example": "Ich sehe keinen <b style=\"color: #eab308;\">Zusammenhang</b> zwischen dem Frontend-Update und dem Datenbankfehler."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Rentenberater, - / die Rentenberaterin, -nen",
+    "german_audio": "die Rentenberater",
+    "english": "pension consultant",
+    "ukrainian": "пенсійний консультант",
+    "example": "Der <b style=\"color: #eab308;\">Rentenberater</b> **hilft bei der Berechnung der zukünftigen Rente**."
   },
   {
     "level": "B2",
@@ -33169,11 +33167,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "etw. auflisten (listet auf, listete auf, hat aufgelistet)",
-    "german_audio": "auflisten",
-    "english": "to list",
-    "ukrainian": "перераховувати, складати список",
-    "example": "Kannst du bitte alle gefundenen Bugs ordentlich in einem Jira-Ticket <b style=\"color: #eab308;\">auflisten</b>?"
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Rentenauskunft, \"-e",
+    "german_audio": "die Rentenauskunft",
+    "english": "pension statement / information",
+    "ukrainian": "довідка про стан пенсійного рахунку (накопичення)",
+    "example": "Die <b style=\"color: #eab308;\">Rentenauskunft</b> **gibt Aufschluss über die Höhe des Rentenanspruchs**."
   },
   {
     "level": "B2",
@@ -33181,11 +33179,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Einkommensniveau, -s",
-    "german_audio": "das Einkommensniveau",
-    "english": "income level",
-    "ukrainian": "рівень доходів",
-    "example": "Das <b style=\"color: #eab308;\">Einkommensniveau</b> für Softwarearchitekten in München ist extrem hoch."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Renteninformation, -en",
+    "german_audio": "die Renteninformation",
+    "english": "annual pension information",
+    "ukrainian": "щорічна інформація про пенсію (лист від DRV)",
+    "example": "Die <b style=\"color: #eab308;\">Renteninformation</b> **wird jedem Versicherten einmal jährlich zugeschickt**."
   },
   {
     "level": "B2",
@@ -33193,11 +33191,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Einkünfte (Pl.)",
-    "german_audio": "die Einkünfte",
-    "english": "income, earnings",
-    "ukrainian": "доходи",
-    "example": "Meine zusätzlichen <b style=\"color: #eab308;\">Einkünfte</b> als Freelancer muss ich dem Finanzamt melden."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Pflichtbeitragszeit, -en",
+    "german_audio": "die Pflichtbeitragszeit",
+    "english": "period of compulsory contributions",
+    "ukrainian": "період обов'язкових внесків",
+    "example": "Die <b style=\"color: #eab308;\">Pflichtbeitragszeiten</b> **wirken sich maßgeblich auf die Rentenhöhe aus**."
   },
   {
     "level": "B2",
@@ -33205,11 +33203,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Gefühl, -e",
-    "german_audio": "das Gefühl",
-    "english": "feeling",
-    "ukrainian": "почуття, відчуття",
-    "example": "Ich habe das schlechte <b style=\"color: #eab308;\">Gefühl</b>, dass wir diese Deadline nicht schaffen werden."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Anrechnungszeit, -en",
+    "german_audio": "die Anrechnungszeit",
+    "english": "credited period (for pension - e.g. sickness, study)",
+    "ukrainian": "період, що зараховується до стажу (напр., навчання, хвороба)",
+    "example": "Die Ausbildungszeit **wird als <b style=\"color: #eab308;\">Anrechnungszeit</b> in der Rentenformel berücksichtigt**."
   },
   {
     "level": "B2",
@@ -33217,11 +33215,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Gehaltsvergleich, -e",
-    "german_audio": "der Gehaltsvergleich",
-    "english": "salary comparison",
-    "ukrainian": "порівняння зарплат",
-    "example": "Ein <b style=\"color: #eab308;\">Gehaltsvergleich</b> auf Portalen wie Glassdoor hilft bei der Gehaltsverhandlung."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Kindererziehungszeit, -en",
+    "german_audio": "die Kindererziehungszeit",
+    "english": "child-raising period (credited for pension)",
+    "ukrainian": "період виховання дітей (зараховується до стажу)",
+    "example": "Die <b style=\"color: #eab308;\">Kindererziehungszeiten</b> **führen zu einer Steigerung der Rentenanwartschaft**."
   },
   {
     "level": "B2",
@@ -33229,11 +33227,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Geldanlage, -n",
-    "german_audio": "die Geldanlage",
-    "english": "financial investment",
-    "ukrainian": "грошовий вклад, інвестиція",
-    "example": "Aktien und ETFs sind eine sehr beliebte <b style=\"color: #eab308;\">Geldanlage</b> bei gut bezahlten IT-Profis."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Rentenanwartschaft, -en",
+    "german_audio": "die Rentenanwartschaft",
+    "english": "pension entitlement / accrued rights",
+    "ukrainian": "накопичені пенсійні права (очікування пенсії)",
+    "example": "Die <b style=\"color: #eab308;\">Rentenanwartschaft</b> **kann bei einer Scheidung aufgeteilt werden**."
   },
   {
     "level": "B2",
@@ -33241,11 +33239,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "generell",
-    "german_audio": "generell",
-    "english": "general(ly), in general",
-    "ukrainian": "загалом, в основному",
-    "example": "<b style=\"color: #eab308;\">Generell</b> gibt es bei uns im Tech-Team absolut keine Dresscode-Regeln."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Versorgungsausgleich (Sg.)",
+    "german_audio": "die Versorgungsausgleich",
+    "english": "equalization of pension points (in divorce)",
+    "ukrainian": "вирівнювання пенсійних прав (при розлученні)",
+    "example": "Der <b style=\"color: #eab308;\">Versorgungsausgleich</b> **wird vom Familiengericht von Amts wegen durchgeführt**."
   },
   {
     "level": "B2",
@@ -33253,11 +33251,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "etw. herausfinden (findet heraus, fand heraus, hat herausgefunden)",
-    "german_audio": "herausfinden",
-    "english": "to find out",
-    "ukrainian": "з'ясувати, дізнатися",
-    "example": "Wir müssen dringend <b style=\"color: #eab308;\">herausfinden</b>, warum die Datenbank-Anfragen so lange dauern."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Versorgungsausgleichskasse, -n",
+    "german_audio": "die Versorgungsausgleichskasse",
+    "english": "pension equalization fund",
+    "ukrainian": "каса пенсійного вирівнювання",
+    "example": "Die <b style=\"color: #eab308;\">Versorgungsausgleichskasse</b> **verwaltet die übertragenen Rentenpunkte**."
   },
   {
     "level": "B2",
@@ -33265,11 +33263,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "luxuriös",
-    "german_audio": "luxuriös",
-    "english": "luxurious",
-    "ukrainian": "розкішний",
-    "example": "Die neuen IT-Büros in Berlin sind sehr modern und fast schon <b style=\"color: #eab308;\">luxuriös</b> ausgestattet."
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Rentenpunkt, -e",
+    "german_audio": "der Rentenpunkt",
+    "english": "pension point / earning point",
+    "ukrainian": "пенсійний бал",
+    "example": "Die Höhe der Rente **basiert auf der Anzahl der gesammelten <b style=\"color: #eab308;\">Rentenpunkte</b>**."
   },
   {
     "level": "B2",
@@ -33277,11 +33275,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "etw. preisgeben (gibt preis, gab preis, hat preisgegeben)",
-    "german_audio": "preisgeben",
-    "english": "to reveal, to disclose",
-    "ukrainian": "розголошувати, видавати",
-    "example": "Wir dürfen den Quellcode auf keinen Fall an die Konkurrenz <b style=\"color: #eab308;\">preisgeben</b>."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Entgeltpunkt, -e",
+    "german_audio": "die Entgeltpunkt",
+    "english": "earning point (pension point)",
+    "ukrainian": "бал заробітку (пенсійний бал)",
+    "example": "Ein <b style=\"color: #eab308;\">Entgeltpunkt</b> **entspricht dem Durchschnittseinkommen eines Kalenderjahres**."
   },
   {
     "level": "B2",
@@ -33289,11 +33287,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "stammen aus (+ Dat.) (stammt, stammte, hat gestammt)",
-    "german_audio": "stammen aus",
-    "english": "to come from, to originate from",
-    "ukrainian": "походити з",
-    "example": "Dieses alte Code-Snippet (Legacy) stammt noch aus dem Jahr 2015."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> aktuelle Rentenwert (Sg.)",
+    "german_audio": "die aktuelle Rentenwert",
+    "english": "current pension value",
+    "ukrainian": "поточна вартість пенсійного бала",
+    "example": "Der aktuelle <b style=\"color: #eab308;\">Rentenwert</b> **wird jährlich zum 1. Juli gesetzlich angepasst**."
   },
   {
     "level": "B2",
@@ -33301,11 +33299,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Statussymbol, -e",
-    "german_audio": "das Statussymbol",
-    "english": "status symbol",
-    "ukrainian": "символ статусу",
-    "example": "Ein teures Firmenauto ist für manche Manager ein wichtiges <b style=\"color: #eab308;\">Statussymbol</b>."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Rentenanpassung, -en",
+    "german_audio": "die Rentenanpassung",
+    "english": "pension adjustment / increase",
+    "ukrainian": "коригування (індексація) пенсії",
+    "example": "Die <b style=\"color: #eab308;\">Rentenanpassung</b> **folgt der allgemeinen Lohnentwicklung im Land**."
   },
   {
     "level": "B2",
@@ -33313,11 +33311,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Übersicht, -en",
-    "german_audio": "die Übersicht",
-    "english": "overview",
-    "ukrainian": "огляд, загальна картина",
-    "example": "Das Monitoring-Dashboard bietet eine gute <b style=\"color: #eab308;\">Übersicht</b> über alle laufenden Server."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Rentenerhöhung, -en",
+    "german_audio": "die Rentenerhöhung",
+    "english": "pension increase",
+    "ukrainian": "підвищення пенсій",
+    "example": "Die <b style=\"color: #eab308;\">Rentenerhöhung</b> **stieß auf positive Rückmeldungen bei den Senioren**."
   },
   {
     "level": "B2",
@@ -33325,11 +33323,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "umgehen mit (+ Dat.) (geht um, ging um, ist umgegangen)",
-    "german_audio": "umgehen mit",
-    "english": "to deal with, to handle",
-    "ukrainian": "поводитися з, обходитися",
-    "example": "Als DevOps-Engineer musst du gut mit Druck und Stress umgehen können."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Altersrente, -n",
+    "german_audio": "die Altersrente",
+    "english": "old-age pension",
+    "ukrainian": "пенсія за віком",
+    "example": "Die <b style=\"color: #eab308;\">Altersrente</b> **sichert den Lebensunterhalt nach dem Ausscheiden aus dem Beruf**."
   },
   {
     "level": "B2",
@@ -33337,11 +33335,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "ungeeignet",
-    "german_audio": "ungeeignet",
-    "english": "unsuitable",
-    "ukrainian": "непридатний",
-    "example": "Dieses alte Framework ist für moderne Web-Apps völlig <b style=\"color: #eab308;\">ungeeignet</b>."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Regelaltersrente, -n",
+    "german_audio": "die Regelaltersrente",
+    "english": "standard old-age pension",
+    "ukrainian": "стандартна пенсія за віком",
+    "example": "Der Anspruch auf <b style=\"color: #eab308;\">Regelaltersrente</b> **erfordert das Erreichen des Regelalters**."
   },
   {
     "level": "B2",
@@ -33349,11 +33347,11 @@
       "B2"
     ],
     "thema": 12,
-    "german": "ungerechtfertigt",
-    "german_audio": "ungerechtfertigt",
-    "english": "unjustified",
-    "ukrainian": "необґрунтований",
-    "example": "Die fristlose Kündigung des Entwicklers war laut Gericht rechtlich <b style=\"color: #eab308;\">ungerechtfertigt</b>."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Regelaltersgrenze (Sg.)",
+    "german_audio": "die Regelaltersgrenze",
+    "english": "standard retirement age",
+    "ukrainian": "стандартний пенсійний вік (межа)",
+    "example": "Die <b style=\"color: #eab308;\">Regelaltersgrenze</b> **hängt vom Geburtsjahrgang des Versicherten ab**."
   },
   {
     "level": "B2",
@@ -33361,11 +33359,299 @@
       "B2"
     ],
     "thema": 12,
-    "german": "vorherrschen (herrscht vor, herrschte vor, hat vorgeherrscht)",
-    "german_audio": "vorherrschen",
-    "english": "to prevail, to predominate",
-    "ukrainian": "переважати, панувати",
-    "example": "In unserem Startup soll eine Kultur der offenen Fehler-Kommunikation <b style=\"color: #eab308;\">vorherrschen</b>."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> vorzeitige Rente",
+    "german_audio": "die vorzeitige Rente",
+    "english": "early retirement pension",
+    "ukrainian": "дострокова пенсія",
+    "example": "Eine vorzeitige <b style=\"color: #eab308;\">Rente</b> **ist mit dauerhaften Abschlägen verbunden**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 12,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Rentenabschlag, \"-e",
+    "german_audio": "die Rentenabschlag",
+    "english": "pension reduction / deduction (for early retirement)",
+    "ukrainian": "зменшення (вирахування з) пенсії (за достроковий вихід)",
+    "example": "Die <b style=\"color: #eab308;\">Rentenabschläge</b> **betragen 0,3 Prozent pro Monat des vorzeitigen Eintritts**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 12,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> abschlagsfreie Rente",
+    "german_audio": "die abschlagsfreie Rente",
+    "english": "deduction-free pension",
+    "ukrainian": "пенсія без вирахувань",
+    "example": "Eine abschlagsfreie <b style=\"color: #eab308;\">Rente</b> **ist nach 45 Beitragsjahren gesetzlich möglich**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 12,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Rente für besonders langjährig Versicherte",
+    "german_audio": "die Rente für besonders langjährig Versicherte",
+    "english": "pension for long-term contributors",
+    "ukrainian": "пенсія для осіб з дуже тривалим стажем (45 років)",
+    "example": "Die Rente für besonders langjährig <b style=\"color: #eab308;\">Versicherte</b> **wird oft als „Rente mit 63“ bezeichnet**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 12,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Rente mit 63",
+    "german_audio": "die Rente mit 63",
+    "english": "retirement at 63",
+    "ukrainian": "вихід на пенсію в 63 роки",
+    "example": "Die Rente mit 63 **setzt eine 45-jährige Pflichtbeitragszeit voraus**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 12,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Altersteilzeit (Sg.)",
+    "german_audio": "die Altersteilzeit",
+    "english": "partial retirement",
+    "ukrainian": "неповна зайнятість для літніх працівників перед пенсією (альтерстайльцайт)",
+    "example": "Die <b style=\"color: #eab308;\">Altersteilzeit</b> **ermöglicht einen gleitenden Übergang in den Ruhestand**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 12,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Blockmodell (Sg.)",
+    "german_audio": "die Blockmodell",
+    "english": "block model (in partial retirement)",
+    "ukrainian": "блочна модель (працюєш повний час, потім взагалі не працюєш)",
+    "example": "Beim <b style=\"color: #eab308;\">Blockmodell</b> **wird die Altersteilzeit in eine Arbeits- und eine Freistellungsphase unterteilt**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 12,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Arbeitsphase, -n",
+    "german_audio": "die Arbeitsphase",
+    "english": "active phase (working phase)",
+    "ukrainian": "активна фаза (фаза роботи)",
+    "example": "In der <b style=\"color: #eab308;\">Arbeitsphase</b> **arbeitet der Beschäftigte trotz halbiertem Gehalt voll**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 12,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Freistellungsphase, -n",
+    "german_audio": "die Freistellungsphase",
+    "english": "passive phase (release phase)",
+    "ukrainian": "пасивна фаза (фаза звільнення від роботи перед пенсією)",
+    "example": "In der <b style=\"color: #eab308;\">Freistellungsphase</b> **erfolgt der Rentenübergang ohne weitere Arbeitsleistung**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 12,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Aufstockungsbetrag, \"-e",
+    "german_audio": "die Aufstockungsbetrag",
+    "english": "top-up amount (in partial retirement)",
+    "ukrainian": "доплата (нарахування) до зарплати/внесків",
+    "example": "Der Arbeitgeber **zahlt einen <b style=\"color: #eab308;\">Aufstockungsbetrag</b> zum Gehalt in der Altersteilzeit**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 12,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Altersteilzeitvereinbarung, -en",
+    "german_audio": "die Altersteilzeitvereinbarung",
+    "english": "partial retirement agreement",
+    "ukrainian": "угода про передпенсійну часткову зайнятість",
+    "example": "Die <b style=\"color: #eab308;\">Altersteilzeitvereinbarung</b> **muss schriftlich abgeschlossen werden**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 12,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Vorruhestand, \"-e",
+    "german_audio": "die Vorruhestand",
+    "english": "early retirement",
+    "ukrainian": "достроковий вихід на пенсію (передпенсійний статус)",
+    "example": "Der <b style=\"color: #eab308;\">Vorruhestand</b> **kann im Sozialplan als Abfindungsersatz vereinbart sein**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 12,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Vorruhestandsregelung, -en",
+    "german_audio": "die Vorruhestandsregelung",
+    "english": "early retirement scheme",
+    "ukrainian": "регулювання дострокового виходу на пенсію",
+    "example": "Eine attraktive <b style=\"color: #eab308;\">Vorruhestandsregelung</b> **soll den Personalabbau sozialverträglich gestalten**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 12,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> sozialverträglich",
+    "german_audio": "die sozialverträglich",
+    "english": "socially acceptable",
+    "ukrainian": "соціально прийнятний (гуманний)",
+    "example": "Der Stellenabbau **wurde durch Abfindungen <b style=\"color: #eab308;\">sozialverträglich</b> gestaltet**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 12,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Personalabbau (Sg.)",
+    "german_audio": "die Personalabbau",
+    "english": "reduction of staff / downsizing",
+    "ukrainian": "скорочення штату (персоналу)",
+    "example": "Infolge der schlechten Konjunktur **ist ein <b style=\"color: #eab308;\">Personalabbau</b> unumgänglich**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 12,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Stellenabbau (Sg.)",
+    "german_audio": "die Stellenabbau",
+    "english": "job cuts",
+    "ukrainian": "скорочення робочих місць",
+    "example": "Der <b style=\"color: #eab308;\">Stellenabbau</b> **betrifft überwiegend kaufmännische Positionen**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 12,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Betriebsschließung, -en",
+    "german_audio": "die Betriebsschließung",
+    "english": "company closure / shutdown",
+    "ukrainian": "закриття підприємства",
+    "example": "Die <b style=\"color: #eab308;\">Betriebsschließung</b> **stellte die Belegschaft vor eine existenzbedrohende Situation**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 12,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Stilllegung, -en",
+    "german_audio": "die Stilllegung",
+    "english": "closure / decommissioning",
+    "ukrainian": "припинення експлуатації, закриття",
+    "example": "Die <b style=\"color: #eab308;\">Stilllegung</b> der Werkhalle **wurde im gegenseitigen Einvernehmen beschlossen**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 12,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Massenentlassung, -en",
+    "german_audio": "die Massenentlassung",
+    "english": "mass dismissal / layoff",
+    "ukrainian": "масове звільнення",
+    "example": "Eine <b style=\"color: #eab308;\">Massenentlassung</b> **muss vorab bei der Agentur für Arbeit angezeigt werden**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 12,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Massenentlassungsanzeige, -n",
+    "german_audio": "die Massenentlassungsanzeige",
+    "english": "notification of mass layoffs",
+    "ukrainian": "повідомлення про масове звільнення",
+    "example": "Die <b style=\"color: #eab308;\">Massenentlassungsanzeige</b> **ist Voraussetzung für die Wirksamkeit der Kündigungen**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 12,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Entlassungswelle, -n",
+    "german_audio": "die Entlassungswelle",
+    "english": "wave of layoffs",
+    "ukrainian": "хвиля звільнень",
+    "example": "Eine neue <b style=\"color: #eab308;\">Entlassungswelle</b> **verursacht große Aufregung im Betrieb**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 12,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Fluktuation, -en",
+    "german_audio": "die Fluktuation",
+    "english": "staff turnover / fluctuation",
+    "ukrainian": "текучість кадрів (флуктуація)",
+    "example": "Eine hohe <b style=\"color: #eab308;\">Fluktuation</b> **weist auf ein schlechtes Arbeitsklima hin**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 12,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Fluktuationsquote, -n",
+    "german_audio": "die Fluktuationsquote",
+    "english": "fluctuation rate / turnover rate",
+    "ukrainian": "показник текучості кадрів",
+    "example": "Die Reduzierung der <b style=\"color: #eab308;\">Fluktuationsquote</b> **ist ein Ziel der Personalentwicklung**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 12,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Mitarbeiterbindung (Sg.)",
+    "german_audio": "die Mitarbeiterbindung",
+    "english": "employee retention / loyalty",
+    "ukrainian": "утримання співробітників (лояльність)",
+    "example": "<b style=\"color: #eab308;\">Mitarbeiterbindung</b> **wird durch gute Sozialleistungen and Vertrauensarbeitszeit gefördert**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 12,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Betriebsklima (Sg.)",
+    "german_audio": "die Betriebsklima",
+    "english": "working climate / company climate",
+    "ukrainian": "робочий клімат (атмосфера)",
+    "example": "Ein gutes <b style=\"color: #eab308;\">Betriebsklima</b> **steht im Zusammenhang mit flachen Hierarchien**."
   },
   {
     "level": "B2",
