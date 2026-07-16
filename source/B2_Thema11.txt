@@ -1,150 +1,184 @@
 #separator:;
 #html:true
 #columns:German;English;Ukrainian;Example
-ablaufen (läuft ab, lief ab, ist abgelaufen);to expire, to run out;закінчуватися, закінчувати термін дії;Mein befristeter IT-Arbeitsvertrag wird bald ablaufen.
-angesichts (+ Gen.);in view of, given;зважаючи на, з огляду на;Angesichts des Fachkräftemangels zahlen Firmen höhere Gehälter für Entwickler.
-die Arbeitsleistung, -en;work performance;результативність праці, виконана робота;Seine Arbeitsleistung als Junior-Entwickler ist wirklich hervorragend.
-aufgrund (+ Gen.);due to, because of;через, на підставі;Aufgrund eines Serverausfalls arbeiten wir heute komplett offline.
-der Ausbildungsvertrag, "-e;training contract;договір на професійне навчання;Er hat seinen Ausbildungsvertrag zum Fachinformatiker unterschrieben.
-befristet;fixed-term, temporary;строковий (договір), тимчасовий;Der erste Vertrag im Tech-Startup ist oft auf ein Jahr befristet.
-der Berufsalltag (Sg.);everyday working life;професійні будні;Im IT-Berufsalltag nutzt man häufig agile Methoden wie Scrum.
-dank (+ Gen.);thanks to;завдяки;Dank des neuen React-Frameworks laden die Seiten viel schneller.
-der Einblick, -e;insight, glimpse;уявлення, ознайомлення;Das Praktikum gab mir einen guten Einblick in die Softwarearchitektur.
-etw. erbringen (erbringt, erbrachte, hat erbracht);to provide, to perform;надавати, виконувати;Der Freelancer muss die vertraglich vereinbarte Leistung erbringen.
-gültig;valid;дійсний;Das SSL-Zertifikat für unsere Webseite ist leider nicht mehr gültig.
-infolge (+ Gen.);as a result of, due to;внаслідок, через;Infolge des fehlerhaften Updates gab es einige Bugs im System.
-die Institution, -en;institution;установа, інституція;Das BSI ist eine wichtige Institution für IT-Sicherheit in Deutschland.
-der Mindestlohn, "-e;minimum wage;мінімальна зарплата;Der Mindestlohn ist für Senior-Entwickler in der Regel nicht relevant.
-der Minijob, -s;marginal employment, mini-job;мініджоб (робота на неповний день до певної суми);Neben dem Informatik-Studium mache ich einen Minijob als IT-Support.
-der Praktikumsvertrag, "-e;internship contract;договір на проходження практики;Mein Praktikumsvertrag als Frontend-Dev läuft über sechs Monate.
-der Renteneintritt (Sg.);retirement;вихід на пенсію;Unser Senior-Architekt plant seinen Renteneintritt für nächstes Jahr.
-der Teilzeitarbeitsvertrag, "-e;part-time employment contract;договір про неповний робочий час;Sie hat einen Teilzeitarbeitsvertrag über 20 Stunden pro Woche.
-etw. übersteigen (übersteigt, überstieg, hat überstiegen);to exceed;перевищувати;Die Ladezeit der App darf 2 Sekunden nicht übersteigen.
-unbefristet;permanent, unlimited;безстроковий;Ich habe endlich einen unbefristeten Arbeitsvertrag als Entwickler bekommen!
-sich verpflichten zu (+ Dat.) (verpflichtet sich, verpflichtete sich, hat sich verpflichtet);to commit oneself to;зобов'язуватися;Wir verpflichten uns vertraglich zu strengster Datensicherheit.
-wegen (+ Gen.);because of;через;Wegen des Fehlers im Code musste das geplante Release verschoben werden.
-der Werkvertrag, "-e;contract for work/services;договір підряду;Der externe Designer arbeitet bei uns auf Basis eines Werkvertrags.
-der Zeitaufwand (Sg.);expenditure of time;витрати часу;Der Zeitaufwand für das Refactoring des alten Codes war enorm.
-die Abmahnung, -en;warning, reprimand;попередження, догана;Wegen unautorisierter Software-Nutzung bekam er eine Abmahnung.
-der Arbeitskampf, "-e;labor dispute, strike;трудовий конфлікт, страйк;Die IT-Gewerkschaft ruft bei gescheiterten Verhandlungen zum Arbeitskampf auf.
-die Belegschaft, -en;workforce, staff;колектив, персонал;Die gesamte Belegschaft wurde über die neuen IT-Sicherheitsrichtlinien informiert.
-die Berufsgruppe, -n;occupational group;професійна група;Softwareentwickler sind momentan eine stark gefragte Berufsgruppe.
-bestehen aus (+ Dat.) (besteht, bestand, hat bestanden);to consist of;складатися з;Unser agiles Team besteht aus drei Frontendlern und zwei Backend-Entwicklern.
-das Betriebsratsmitglied, -er;works council member;член виробничої ради;Das Betriebsratsmitglied berät uns bei Fragen zum neuen Arbeitsvertrag.
-die Betriebsratswahl, -en;works council election;вибори виробничої ради;Die Betriebsratswahl findet dieses Jahr komplett online im Intranet statt.
-die Betriebsverlegung, -en;relocation of the company;перенесення підприємства (в інше місце);Wegen der Betriebsverlegung nach Berlin arbeiten nun viele Entwickler remote.
-die Betriebsversammlung, -en;works meeting, staff meeting;загальні збори працівників;Auf der Betriebsversammlung präsentierte der CEO die neuen Quartalsziele.
-die Elternzeit, -en;parental leave;декретна відпустка (для обох батьків);Unser Scrum Master geht für sechs Monate in Elternzeit.
-das Erscheinen (Sg.);appearance, attendance;присутність, явка;Pünktliches Erscheinen zum Daily Standup ist für alle Teammitglieder Pflicht.
-fair;fair;справедливий;Wir haben einen sehr fairen und transparenten Onboarding-Prozess.
-die Geschäftsführung, -en;management, executive board;керівництво компанії, дирекція;Die Geschäftsführung hat das Budget für unsere Cloud-Server erhöht.
-die Gewerkschaft, -en;trade union;профспілка;Die Gewerkschaft verhandelt einen neuen Tarifvertrag für die IT-Branche.
-das Gremium, Gremien;committee, board;комітет, комісія;Das IT-Sicherheitsgremium prüft die neuen Firewall-Richtlinien.
-die Interessenvertretung, -en;representation of interests;представництво інтересів;Der Betriebsrat ist die offizielle Interessenvertretung der Arbeitnehmer.
-mitbestimmen (bestimmt mit, bestimmte mit, hat mitbestimmt);to have a say, to co-determine;мати право голосу, брати участь у вирішенні;Entwickler sollten bei der Wahl des Tech-Stacks immer mitbestimmen dürfen.
-die Mitbestimmung, -en;co-determination, worker participation;участь працівників в управлінні;Die Mitbestimmung des Betriebsrats bei Software-Tools ist gesetzlich geregelt.
-nachvollziehbar;comprehensible, understandable;зрозумілий, логічний;Dein Quellcode ist dank der guten Kommentare sehr leicht nachvollziehbar.
-der Schritt, -e;step;крок;Der Wechsel zu Microservices war ein großer, aber wichtiger Schritt für uns.
-der Sozialplan, "-e;social compensation plan;соціальний план (при скороченнях);Der Sozialplan federt die finanziellen Folgen der Kündigungen im Startup ab.
-der Tätigkeitsbericht, -e;activity report;звіт про діяльність;Im Jira-System generieren wir automatisch unseren wöchentlichen Tätigkeitsbericht.
-die Teilzeitkraft, "-e;part-time employee;працівник на неповний робочий день;Wir suchen eine Teilzeitkraft für die Systemadministration.
-etw. vergüten (vergütet, vergütete, hat vergütet);to remunerate, to pay;оплачувати, винагороджувати;Die Überstunden vor dem Release werden extra vergütet.
-verhandeln (verhandelt, verhandelte, hat verhandelt);to negotiate;вести переговори;Ich muss nächste Woche mit HR über mein neues Senior-Gehalt verhandeln.
-etw. verhindern (verhindert, verhinderte, hat verhindert);to prevent;запобігати, перешкоджати;Ein gutes, automatisiertes Backup-System kann Datenverlust verhindern.
-etw. verlegen (verlegt, verlegte, hat verlegt);to relocate, to misplace;переносити (в інше місце);Wir verlegen den gesamten Serverraum in das neue, sicherere Gebäude.
-verständlich;understandable;зрозумілий;Die API-Dokumentation muss für alle externen Entwickler verständlich sein.
-etw./jdn. vertreten (vertritt, vertrat, hat vertreten);to represent, to replace;представляти, заміняти (когось);Ich muss heute den kranken Product Owner im Kunden-Meeting vertreten.
-die Werkhalle, -n;factory hall, workshop;цех, виробниче приміщення;Die WLAN-Abdeckung in der großen Werkhalle wurde durch neue Router verbessert.
-die Abfindung, -en;severance pay;вихідна допомога;Nach der überraschenden Kündigung erhielt der Entwickler eine gute Abfindung.
-der Abfindungsanspruch, "-e;entitlement to severance pay;право на вихідну допомогу;Der Anwalt prüft meinen Abfindungsanspruch aus dem alten Arbeitsvertrag.
-die Alternative, -n;alternative;альтернатива;Die Datenbank PostgreSQL ist oft eine sehr gute Alternative zu MySQL.
-etw./jdn. anhören (hört an, hörte an, hat angehört);to listen to, to hear;вислухати;Wir müssen uns die Sicherheitsbedenken der QA-Abteilung genau anhören.
-die Anstellung, -en;employment;працевлаштування, посада;Ich suche nach dem Kurs eine Festanstellung als Fullstack-Developer.
-die Arbeitsagentur, -en;employment agency;центр зайнятості;Die Arbeitsagentur finanziert oft IT-Weiterbildungen für Quereinsteiger.
-das Arbeitsgericht, -e;labor court;суд у трудових справах;Der Streit um die fristlose Kündigung endete vor dem Arbeitsgericht.
-das Arbeitslosengeld, -er (ALG);unemployment benefit;допомога по безробіттю;Während meiner Jobsuche in der IT beziehe ich Arbeitslosengeld (ALG I).
-der Arbeitsplatzverlust (Sg.);loss of job;втрата робочого місця;Durch Künstliche Intelligenz fürchten einige Berufsgruppen einen Arbeitsplatzverlust.
-arbeitssuchend;looking for work, job-seeking;який шукає роботу;Aktuell bin ich arbeitssuchend und lerne neue Frontend-Frameworks.
-das Arbeitsverhältnis, -se;employment relationship;трудові відносини;Wir beenden das Arbeitsverhältnis im gegenseitigen Einvernehmen.
-ausgehen von (+ Dat.) (geht aus, ging aus, ist ausgegangen);to assume, to expect;виходити з (припущення);Wir gehen von einem fehlerfreien und schnellen Deployment am Freitag aus.
-etw. auslagern (lagert aus, lagerte aus, hat ausgelagert);to outsource;віддавати на аутсорс;Die firma möchte den First-Level-Support an einen Dienstleister auslagern.
-etw. beanspruchen (beansprucht, beanspruchte, hat beansprucht);to claim, to require;претендувати на, потребувати;Das Rendering-Skript wird sehr viel CPU-Leistung beanspruchen.
-die Berechnung, -en;calculation;розрахунок, обчислення;Die komplexe Berechnung des Algorithmus geschieht sicher im Backend.
-betriebsbedingt;for operational reasons;зумовлений виробничою необхідністю;Wegen der Krise gab es leider drei betriebsbedingte Kündigungen im Team.
-etw. einbringen (z. B. Kenntnisse) (bringt ein, brachte ein, hat eingebracht);to bring in, to contribute;робити внесок, привносити (напр., знання);Er wird sein Expertenwissen im Bereich Cloud-Security in das Projekt einbringen.
-die Eingliederung, -en;integration, inclusion;інтеграція, включення (в колектив);Die Eingliederung der neuen Remote-Entwickler in das Team lief reibungslos.
-die Einhaltung (Sg.);compliance, observance;дотримання;Die strikte Einhaltung der Clean-Code-Regeln ist bei uns Pflicht.
-endgültig;final(ly), definitive(ly);остаточний, остаточно;Wir haben den fehlerhaften Legacy-Code nun endgültig vom Server gelöscht.
-führen zu (+ Dat.) (führt, führte, hat geführt);to lead to, to result in;призводити до;Memory Leaks im Code führen auf Dauer oft zu Server-Abstürzen.
-die Klage, -n;lawsuit, complaint;судовий позов, скарга;Gegen die unfaire Kündigung hat er sofort eine Klage eingereicht.
-die Klagefrist, -en;deadline for filing a suit;термін подання позову;Man muss die Klagefrist von drei Wochen nach der Kündigung streng beachten.
-eine Klage einreichen (reicht ein, reichte ein, hat eingereicht);to file a lawsuit;подати позов;Er wird beim zuständigen Arbeitsgericht eine Klage einreichen.
-eine Klage erheben (erhebt, erhob, hat erhoben);to file a lawsuit, to sue;подати в суд, пред'явити позов;Wir erheben Klage gegen den Diebstahl unserer Software-Patente.
-die Kündigungsfrist, -en;notice period;строк попередження про звільнення;Meine Kündigungsfrist beträgt drei Monate zum Monatsende.
-das Kündigungsschreiben, -;notice of termination;лист про звільнення;Ein gültiges Kündigungsschreiben muss in Deutschland schriftlich per Post erfolgen.
-möglicherweise;possibly;можливо;Der Bug liegt möglicherweise nicht im Frontend, sondern in der Datenbankverbindung.
-die Schließung, -en;closure;закриття;Die Schließung des Standorts in Berlin betrifft leider auch viele Entwickler.
-die Sperrzeit, -en;blocking period (for benefits);період блокування (виплат);Bei eigener Kündigung ohne neuen Job droht eine Sperrzeit beim Arbeitslosengeld.
-der Umbruch, "-e;upheaval, radical change;перелом, радикальна зміна;Die KI-Revolution ist ein gewaltiger Umbruch für die gesamte IT-Branche.
-sich verbessern;to improve;покращуватися;Die Code-Qualität hat sich dank regelmäßiger Code-Reviews stark verbessert.
-vermutlich;probably, presumably;ймовірно;Der Fehler beim Login liegt vermutlich im Backend.
-der Verstoß, "-e;violation, breach;порушення;Das heimliche Teilen von Admin-Passwörtern ist ein schwerer Verstoß.
-verstreichen (verstreicht, verstrich, ist verstrichen);to elapse, to pass (time);минати, спливати (про час);Wir ließen die wichtige Deadline für das Update ungenutzt verstreichen.
-wahrscheinlich;probably, likely;ймовірно, швидше за все;Das Server-Update wird wahrscheinlich etwa zwei Stunden dauern.
-wegfallen (fällt weg, fiel weg, ist weggefallen);to be dropped, to cease to exist;відпадати, скасовуватися;Durch die Automatisierung (CI/CD) werden einige manuelle QA-Aufgaben wegfallen.
-sich wehren gegen (+ Akk.) (wehrt sich, wehrte sich, hat sich gewehrt);to defend oneself against;захищатися від;Man kann sich rechtlich gegen eine ungerechtfertigte Kündigung wehren.
-weiterhin;still, furthermore;і надалі, як і раніше;Wir werden für unsere Projekte weiterhin auf Open-Source-Software setzen.
-jdn. zwingen (zwingt, zwang, hat gezwungen);to force, to compel;змушувати;Der Zeitmangel zwingt uns dazu, das Feature auf den nächsten Sprint zu verschieben.
-die Abwesenheit, -en;absence;відсутність;In meiner Abwesenheit übernimmt mein Kollege die Code-Reviews.
-die Altersgrenze, -n;age limit;вікове обмеження;Es gibt definitiv keine Altersgrenze für gute und erfahrene Programmierer.
-die Arbeitsunfähigkeit (Sg.);inability to work, incapacity for work;непрацездатність;Bei Arbeitsunfähigkeit durch Krankheit muss man sofort das HR-Team informieren.
-die Arbeitsunfähigkeitsbescheinigung, -en;sick note, medical certificate;довідка про непрацездатність (лікарняний);Die elektronische Arbeitsunfähigkeitsbescheinigung (eAU) geht nun direkt an die Kasse.
-die Arbeitsvergütung, -en;remuneration, pay;оплата праці;Die vertragliche Arbeitsvergütung für IT-Spezialisten ist in Deutschland sehr attraktiv.
-etw. beeinträchtigen (beeinträchtigt, beeinträchtigte, hat beeinträchtigt);to affect, to impair;шкодити, негативно впливати;Die hohe Server-Latenz darf die User-Experience (UX) nicht beeinträchtigen.
-die Bruttovergütung, -en;gross remuneration;оплата брутто (до відрахування податків);Seine jährliche Bruttovergütung im Startup beträgt 75.000 Euro.
-jdn. einstellen (stellt ein, stellte ein, hat eingestellt);to hire, to employ;наймати на роботу;Wir wollen in diesem Quartal drei neue Entwickler einstellen.
-die Einwilligung erteilen (erteilt, erteilte, hat erteilt);to give consent;давати згоду;Der User muss die Einwilligung erteilen, bevor Tracking-Cookies gespeichert werden.
-die Entgeltfortzahlung, -en;continued payment of wages (during illness);збереження заробітної плати (під час хвороби);Bei Krankheit gibt es in Deutschland eine Entgeltfortzahlung für bis zu sechs Wochen.
-etw. erreichen (erreicht, erreichte, hat erreicht);to achieve, to reach;досягати;Wir wollen im Projekt eine Code-Testabdeckung (Coverage) von over 80% erreichen.
-das Geheimnis, -se;secret;таємниця, секрет;Die API-Keys für das Zahlungs-Gateway sind ein streng gehütetes Geheimnis.
-das Geschäftsgeheimnis, -se;trade secret;комерційна таємниця;Der Algorithmus unserer KI-Engine ist ein absolutes Geschäftsgeheimnis.
-gesetzlich;legal, statutory;встановлений законом;Der gesetzliche Urlaubsanspruch in Deutschland beträgt 20 Tage bei einer 5-Tage-Woche.
-gesondert;separate(ly);окремо;Die finanziellen Boni für den erfolgreichen Launch werden gesondert abgerechnet.
-jdm. etw. gewähren (gewährt, gewährte, hat gewährt);to grant sb. sth.;надавати (дозвіл, доступ);Der Admin muss dir erst Lesezugriff auf das Git-Repository gewähren.
-die Kernarbeitszeit, -en;core working hours;основний робочий час (обов'язкова присутність);Unsere Kernarbeitszeit im Büro ist von 10:00 bis 15:00 Uhr.
-der Mindesturlaub (Sg.);minimum vacation;мінімальна відпустка;Der vertragliche Urlaub bei Tech-Firmen übersteigt oft den gesetzlichen Mindesturlaub.
-die Nebentätigkeit, -en;secondary employment, side job;додаткова робота, підробіток;Eine Nebentätigkeit als Freelancer muss der Hauptarbeitgeber meistens genehmigen.
-der Paragraf, -en;paragraph, section;параграф, пункт (договору);In Paragraf 4 meines Arbeitsvertrags ist die Remote-Work (Homeoffice) geregelt.
-die Probezeit, -en;probationary period;випробувальний термін;Während der Probezeit von sechs Monaten lerne ich die große Codebase kennen.
-das Stillschweigen (Sg.);silence, confidentiality;мовчання, конфіденційність;Über das neue Apple-Projekt haben wir vertraglich striktes Stillschweigen vereinbart.
-Stillschweigen bewahren (bewahrt, bewahrte, hat bewahrt);to maintain silence/confidentiality;зберігати мовчання / таємницю;Wir müssen über die sensiblen Kundendaten absolutes Stillschweigen bewahren.
-etw. verlangen;to demand, to require;вимагати;Der neue API-Endpoint wird einen gültigen Authentifizierungs-Token verlangen.
-die Verschwiegenheitspflicht (Sg.);duty of confidentiality (NDA);обов'язок зберігати конфіденційність (NDA);Jeder Entwickler unterschreibt eine Verschwiegenheitspflicht (NDA) vor Projektstart.
-verstoßen gegen (+ Akk.) (verstößt, verstieß, hat verstoßen);to violate;порушувати;Wer geheimen Code stiehlt, verstößt massiv gegen den Arbeitsvertrag.
-das Weihnachtsgeld (Sg.);Christmas bonus;різдвяна премія;Viele große Konzerne zahlen im November als Bonus ein Weihnachtsgeld (13. Gehalt).
-der Anlass, "-e;occasion, reason;привід, нагода;Das erfolgreiche Release der App ist ein guter Anlass für eine kleine Party im Büro.
-ausdrücklich;explicit(ly);явно, категорично;Es ist ausdrücklich verboten, Kundendaten auf privaten USB-Sticks zu speichern.
-die Ausnahme, -n;exception;виняток;Das Ignorieren von Linter-Warnungen ist im Code nur in absoluten Ausnahmen erlaubt.
-der Bürgersteig, -e;pavement, sidewalk;тротуар;Die E-Scooter der Mitarbeiter dürfen den Fußgängern auf dem Bürgersteig nicht im Weg stehen.
-etw. entfernen (entfernt, entfernte, hat entfernt);to remove;видаляти, усувати;Ich muss die Test-Logs unbedingt aus dem Code entfernen, bevor wir pushen.
-etw. erhalten (erhält, erhielt, hat erhalten);to preserve, to maintain, to receive;зберігати, підтримувати, отримувати;Um die Server-Performance zu erhalten, löschen wir regelmäßig alte Cache-Daten.
-etw. erlauben (erlaubt, erlaubte, hat erlaubt);to allow, to permit;дозволяти;Die strenge Firmen-Firewall wird diese eingehende Verbindung niemals erlauben.
-der Gemeinschaftsraum, "-e;common room, lounge;кімната відпочинку (для всіх);Wir haben eine Tischtennisplatte und eine Kaffeemaschine im Gemeinschaftsraum.
-etw. gestatten (gestattet, gestattete, hat gestattet);to permit, to allow;дозволяти;Es ist aus Sicherheitsgründen nicht gestattet, externe Festplatten anzuschließen.
-grundsätzlich;fundamentally, in principle;в принципі, принципово;Wir programmieren hier grundsätzlich immer nach den strengen Regeln von Clean Code.
-die Hausordnung, -en;house rules;правила внутрішнього розпорядку;Laut Hausordnung ist das Essen im Serverraum logischerweise streng verboten.
-herumlaufen (läuft herum, lief herum, ist herumgelaufen);to walk around;бігати/ходити навколо;Die Bürohunde dürfen im Startup-Büro frei herumlaufen.
-die Holzkohle, -n;charcoal;деревне вугілля;Beim Firmen-Grillen auf der Dachterrasse nutzen wir echte Holzkohle.
-die Pflicht, -en;duty, obligation;обов'язок;Es ist die absolute Pflicht des Sysadmins, funktionierende Backups zu erstellen.
-Rechte und Pflichten (Pl.);rights and duties;права та обов'язки;Im Arbeitsvertrag stehen alle deine Rechte und Pflichten als Mitarbeiter.
-die Rücksicht (Sg.);consideration, thoughtfulness;повага, увага (до інших);Im Großraumbüro müssen wir besonders viel Rücksicht auf die Kollegen nehmen.
-Rücksicht nehmen auf (+ Akk.) (nimmt, nahm, hat genommen);to be considerate of;зважати на, з повагою ставитися до;Beim Telefonieren müssen wir Rücksicht auf die konzentrierten Programmierer nehmen.
-rücksichtsvoll;considerate, thoughtful;уважний, тактовний;Ein rücksichtsvolles Team achtet auf den Code-Style und die Kommentare der anderen.
-sich wohlfühlen (fühlt sich wohl, fühlte sich wohl, hat sich wohlgefühlt);to feel comfortable;почуватися добре / комфортно;Wir möchten, dass sich alle Entwickler im neuen, hellen IT-Büro wohlfühlen.
-die Tierhaltung (Sg.);keeping of animals;утримання тварин;Die Tierhaltung in Form von kleinen Bürohunden ist bei uns im Startup erlaubt.
-umgehend;immediately, promptly;негайно;Kritische Bugs in der Produktion müssen dem Team umgehend gemeldet werden.
-jdm. etw. untersagen (untersagt, untersagte, hat untersagt);to prohibit, to forbid;забороняти;Der Admin kann Nutzern den Zugriff auf bestimmte Webseiten im Netzwerk untersagen.
-die Verunreinigung, -en;contamination, pollution;забруднення;Eine Verunreinigung der Server-Racks durch Staub muss unbedingt verhindert werden.
-der Zugangsweg, -e;access path, entrance;шлях доступу;Der Zugangsweg zum Rechenzentrum ist durch mehrere Kameras gesichert.
-der Zustand, "-e;condition, state;стан;Das Git-Repository befindet sich nach dem Merge in einem sauberen Zustand.
-die Zustimmung (Sg.);approval, consent;згода, схвалення;Ohne die Zustimmung (Approve) des Tech Leads darfst du diesen Code nicht mergen.
+ablaufen (läuft ab, lief ab, ist abgelaufen);to expire, to run out;закінчуватися, закінчувати термін дії;Mein befristeter Arbeitsvertrag wird **mit Ablauf dieses Monats ablaufen**.
+angesichts (+ Gen.);in view of, given;зважаючи на, з огляду на;<b>Angesichts der schwachen Konjunktur müssen wir die Investitionen stoppen</b>.
+die Arbeitsleistung, -en;work performance;результативність праці, виконана робота;Eine mangelhafte Arbeitsleistung **kann ein Grund für eine verhaltensbedingte Kündigung sein**.
+aufgrund (+ Gen.);due to, because of;через, на підставі;<b>Aufgrund von Dürreperioden</b> leidet die Land- und Forstwirtschaft unter Ernteausfällen.
+der Ausbildungsvertrag, "-e;training contract;договір на професійне навчання;Die Probezeit **wurde im Ausbildungsvertrag schriftlich festgehalten**.
+befristet;fixed-term, temporary;строковий (договір), тимчасовий;<b>Ich bin der Meinung, dass</b> ein befristeter Vertrag den Beschäftigten wenig Sicherheit bietet.
+der Berufsalltag (Sg.);everyday working life;професійні будні;Im Berufsalltag **müssen wir die Richtlinien zum Arbeitsschutz genau beachten**.
+dank (+ Gen.);thanks to;завдяки;Dank flexibler Arbeitszeiten **konnte die Work-Life-Balance im Betrieb verbessert werden**.
+der Einblick, -e;insight, glimpse;уявлення, ознайомлення;Das Praktikum **bietet Berufseinsteigern einen guten Einblick in den Berufsalltag**.
+etw. erbringen (erbringt, erbrachte, hat erbracht);to provide, to perform;надавати, виконувати;Der Arbeitnehmer ist verpflichtet, **die vertraglich vereinbarte Arbeitsleistung zu erbringen**.
+gültig;valid;дійсний;Die Brandschutzordnung **ist auf dem gesamten Betriebsgelände gültig**.
+infolge (+ Gen.);as a result of, due to;внаслідок, через;Infolge einer Störung des Betriebsfriedens **wurde dem Mitarbeiter fristlos gekündigt**.
+die Institution, -en;institution;установа, інституція;Die IHK **ist eine wichtige Institution für die Durchführung der Kammerprüfungen**.
+der Mindestlohn, "-e;minimum wage;мінімальна зарплата;<b>Aus der Grafik geht hervor, dass</b> der gesetzliche Mindestlohn angehoben wurde.
+der Minijob, -s;marginal employment, mini-job;мініджоб (робота на неповний день до певної суми);Er arbeitet im Minijob, **um sich während des Studiums den Lebensunterhalt zu sichern**.
+der Praktikumsvertrag, "-e;internship contract;договір на проходження практики;Bitte **überprüfen Sie die Kündigungsregelungen im Praktikumsvertrag**.
+der Renteneintritt (Sg.);retirement;вихід на пенсію;Vor dem Renteneintritt **muss eine geordnete Aufgabenübergabe stattfinden**.
+die Teilzeitarbeitsvertrag, "-e;part-time employment contract;договір про неповний робочий час;Die Teilzeitarbeitskraft **hat einen Teilzeitarbeitsvertrag unterzeichnet**.
+etw. übersteigen (übersteigt, überstieg, hat überstiegen);to exceed;перевищувати;Die Schadstoffbelastung **darf die gesetzlich zulässigen Grenzwerte nicht übersteigen**.
+unbefristet;permanent, unlimited;безстроковий;Sie hat einen unbefristeten Arbeitsvertrag erhalten and **ist sehr stolz auf diesen Erfolg**.
+sich verpflichten zu (+ Dat.) (verpflichtet sich, verpflichtete sich, hat sich verpflichtet);to commit oneself to;зобов'язуватися;Die Vertragsparteien **verpflichten sich zur Einhaltung der getroffenen Absprachen**.
+wegen (+ Gen.);because of;через;Wegen eines Wegeunfalls **musste eine Krankmeldung eingereicht werden**.
+der Werkvertrag, "-e;contract for work/services;договір підряду;Bei einem Werkvertrag **wird die Bezahlung nach Abnahme des Werks fällig**.
+der Zeitaufwand (Sg.);expenditure of time;витрати часу;Der Zeitaufwand für die Einarbeitung **ist im Einarbeitungsplan eingeplant**.
+die Abmahnung, -en;warning, reprimand;попередження, догана;Die verhaltensbedingte Kündigung **setzt in der Regel eine vorherige Abmahnung voraus**.
+der Arbeitskampf, "-e;labor dispute, strike;трудовий конфлікт, страйк;Der Arbeitskampf **kann negative Auswirkungen auf das Betriebsergebnis haben**.
+die Belegschaft, -en;workforce, staff;колектив, персонал;Die gesamte Belegschaft **wurde über die neuen Arbeitsschutzmaßnahmen informiert**.
+die Berufsgruppe, -n;occupational group;професійна група;Für diese Berufsgruppe **ist das Tragen von Dienstkleidung vorgeschrieben**.
+bestehen aus (+ Dat.) (besteht, bestand, hat bestanden);to consist of;складатися з;Die Prüfungskommission **besteht aus Vertretern der Arbeitgeber und Arbeitnehmer**.
+das Betriebsratsmitglied, -er;works council member;член виробничої ради;Als Betriebsratsmitglied **unterliegt er einem besonderen Kündigungsschutz**.
+die Betriebsratswahl, -en;works council election;вибори виробничої ради;Die Betriebsratswahl **wird vom Wahlvorstand ordnungsgemäß vorbereitet**.
+die Betriebsverlegung, -en;relocation of the company;перенесення підприємства (в інше місце);Infolge der Betriebsverlegung **musste ein neuer Sozialplan verhandelt werden**.
+die Betriebsversammlung, -en;works meeting, staff meeting;загальні збори працівників;Auf der Betriebsversammlung **wurde Kritik an der neuen Gleitzeitregelung geübt**.
+die Elternzeit, -en;parental leave;декретна відпустка (для обох батьків);Während der Elternzeit **ruht der Anspruch des Mitarbeiters auf Lohnfortzahlung**.
+das Erscheinen (Sg.);appearance, attendance;присутність, явка;Das persönliche Erscheinen **beim Einstellungsgespräch ist zwingend erforderlich**.
+fair;fair;справедливий;Wir streben eine faire Einigung **im Rahmen der Tarifverhandlungen an**.
+die Geschäftsführung, -en;management, executive board;керівництво компанії, дирекція;Die Geschäftsführung **hat der Umschulung der Beschäftigten zugestimmt**.
+die Gewerkschaft, -en;trade union;профспілка;Die Gewerkschaft **hat einen offiziellen Streikaufruf veröffentlicht**.
+das Gremium, Gremien;committee, board;комітет, комісія;Das Gremium **entscheidet über die behindertengerechte Gestaltung des Arbeitsplatzes**.
+die Interessenvertretung, -en;representation of interests;представництво інтересів;Der Personalrat **ist die Interessenvertretung der Mitarbeiter im öffentlichen Dienst**.
+mitbestimmen (bestimmt mit, bestimmte mit, hat mitbestimmt);to have a say, to co-determine;мати право голосу, брати участь у вирішенні;Der Betriebsrat darf **bei Fragen der Arbeitszeitregelung aktiv mitbestimmen**.
+die Mitbestimmung, -en;co-determination, worker participation;участь працівників в управлінні;Die Mitbestimmung **ist in der Betriebsverfassung gesetzlich verankert**.
+nachvollziehbar;comprehensible, understandable;зрозумілий, логічний;Das Urteil des Arbeitsgerichts **ist für beide Seiten gut nachvollziehbar**.
+der Schritt, -e;step;крок;Der Schritt in die Selbstständigkeit **erfordert eine gründliche Marktanalyse**.
+der Sozialplan, "-e;social compensation plan;соціальний план (при скороченнях);Der Sozialplan **beinhaltet Abfindungen zur Sicherung des Lebensunterhalts**.
+der Tätigkeitsbericht, -e;activity report;звіт про діяльність;Der Auszubildende muss wöchentlich einen Tätigkeitsbericht <b>verfassen</b>.
+die Teilzeitkraft, "-e;part-time employee;працівник на неповний робочий день;Wir haben eine Teilzeitkraft **für die Urlaubsvertretung eingestellt**.
+etw. vergüten (vergütet, vergütete, hat vergütet);to remunerate, to pay;оплачувати, винагороджувати;Geleistete Überstunden **müssen vertragsgemäß vergütet werden**.
+verhandeln (verhandelt, verhandelte, hat verhandelt);to negotiate;вести переговори;Die Tarifpartner **verhandeln über eine angemessene Gehaltserhöhung**.
+etw. verhindern (verhindert, verhinderte, hat verhindert);to prevent;запобігати, перешкоджати;Eine Evakuierungsübung soll Panik **im Ernstfall verhindern**.
+etw. verlegen (verlegt, verlegte, hat verlegt);to relocate, to misplace;переносити (в інше місце);Wir mussten die Teamsitzung **wegen eines Terminkonflikts verlegen**.
+verständlich;understandable;зрозумілий;Die Sicherheitsanweisungen **müssen für alle verständlich formuliert sein**.
+etw./jdn. vertreten (vertritt, vertrat, hat vertreten);to represent, to replace;представляти, заміняти (когось);Die Rechtsanwältin **wird den gekündigten Arbeitnehmer vor Gericht vertreten**.
+die Werkhalle, -n;factory hall, workshop;цех, виробниче приміщення;Das Tragen von Gehörschutz **ist in der Werkhalle vorgeschrieben**.
+die Abfindung, -en;severance pay;вихідна допомога;Bei einer betriebsbedingten Kündigung **besteht oft Anspruch auf eine Abfindung**.
+der Abfindungsanspruch, "-e;entitlement to severance pay;право на вихідну допомогу;Der Abfindungsanspruch **wurde im Aufhebungsvertrag schriftlich vereinbart**.
+die Alternative, -n;alternative;альтернатива;<b>Ich bin der Meinung, dass</b> die Umschulung eine gute Alternative zur Kündigung darstellt.
+die Arbeitgeberseite (Sg.);employers' side;сторона роботодавців;Die Arbeitgeberseite **weckt große Erwartungen bei den Tarifverhandlungen**.
+die Arbeitnehmerseite (Sg.);employees' side;сторона працівників;Die Arbeitnehmerseite **fordert eine deutliche Anhebung des Mindestlohns**.
+die Arbeitsgerichtsbarkeit (Sg.);labor jurisdiction;система трудових судів;Die Arbeitsgerichtsbarkeit **ist in Deutschland dreistufig aufgebaut**.
+der Arbeitsplatzverlust, -e;job loss;втрата робочого місця;Der Arbeitsplatzverlust **bedeutet eine hohe psychische Belastung für den Betroffenen**.
+die Arbeitsrecht (Sg.);labor law;трудове право;Das Arbeitsrecht **regelt das Verhältnis zwischen Arbeitgeber und Arbeitnehmer**.
+die Arbeitsverhältnis, -se;employment relationship;трудові відносини;Das Arbeitsverhältnis **kann im gegenseitigen Einvernehmen beendet werden**.
+die Aufhebungsvereinbarung, -en;termination agreement;угода про розірвання трудового договору;Die Aufhebungsvereinbarung **bedarf zu ihrer Wirksamkeit der Schriftform**.
+die Ausnahmefall, "-e;exceptional case;винятковий випадок;<b>Eine Kündigung ohne Abmahnung ist nur im Ausnahmefall zulässig</b>.
+die Ausnehmung, -en;exception;виняток;Für Kleinbetriebe **gilt eine gesetzliche Ausnehmung beim Kündigungsschutz**.
+der Ausweg, -e;way out, escape;вихід (з ситуації);Eine außergerichtliche Einigung **wäre ein guter Ausweg für beide Parteien**.
+der Dienstwagen, -;company car;службовий автомобіль;Der Dienstwagen **darf laut Betriebsvereinbarung privat genutzt werden**.
+einvernehmlich;mutual, amicable;за взаємною згодою;Das Arbeitsverhältnis **wurde einvernehmlich durch einen Aufhebungsvertrag beendet**.
+die Entlassung, -en;dismissal, layoff;звільнення;Die Entlassung der Mitarbeiter **löste große Aufregung in der Belegschaft aus**.
+der Erstversuch, -e;first attempt;перша спроба;Er hat die IHK-Prüfung **bereits im Erstversuch mit Erfolg bestanden**.
+die Fortzahlung, -en;continued payment;продовження виплати;Die Fortzahlung der Vergütung **im Krankheitsfall ist gesetzlich garantiert**.
+fristgerecht;in due time, on schedule;своєчасний (з дотриманням термінів);Die Kündigung **muss fristgerecht unter Einhaltung der Frist erfolgen**.
+die Gegenleistung, -en;quid pro quo / consideration;зустрічна послуга, взаємна послуга;Die Erbringung der Arbeitsleistung **ist die Gegenleistung für den Lohn**.
+die Härte (z. B. eine soziale Härte) (Sg.);hardship (e.g. social hardship);соціальна скрута (важкість);Eine Kündigung **würde für die Familie eine extreme soziale Härte bedeuten**.
+die Härtefallregelung, -en;hardship regulation;регулювання особливих випадків (скрути);Bei der Sozialauswahl **kann eine Härtefallregelung angewendet werden**.
+die Insolvenz, -en;insolvency, bankruptcy;банкрутство;Infolge der Insolvenz **befindet sich der Betrieb in der Sanierung**.
+der Insolvenzfall, "-e;case of insolvency;випадок банкрутства;Im Insolvenzfall **haben die Forderungen der Arbeitnehmer hohe Priorität**.
+die Kündigungsfrist, -en;notice period;строк попередження про звільнення;Während der Probezeit **beträgt die Kündigungsfrist zwei Wochen**.
+das Kündigungsschutzgesetz (KSchG) (Sg.);Dismissal Protection Act;Закон про захист від звільнення (KSchG);Das KSchG **schützt Arbeitnehmer vor sozial ungerechtfertigten Kündigungen**.
+die Kündigungsschutzklage, -n;action against wrongful dismissal;позов про захист від звільнення;Er hat **beim Arbeitsgericht eine Kündigungsschutzklage eingereicht**.
+die Lebensumstände (Pl.);life circumstances;життєві обставини;Bei der Sozialauswahl **müssen die familiären Lebensumstände berücksichtigt werden**.
+ordnungsgemäß;properly, in due order;належний, правильний;Die Aufgabenübergabe **wurde ordnungsgemäß im Übergabeprotokoll festgehalten**.
+die Pflichtverletzung, -en;breach of duty;порушення обов'язків;Eine schwere Pflichtverletzung **kann eine außerordentliche Kündigung rechtfertigen**.
+die Rechtmäßigkeit (Sg.);legality, lawfulness;законність, правомірність;Das Arbeitsgericht **überprüft die Rechtmäßigkeit der verhaltensbedingten Kündigung**.
+die Rechtsgrundlage, -n;legal basis;правова підстава;Das Bundesurlaubsgesetz **ist die Rechtsgrundlage für den Mindesturlaub**.
+die Rechtsstreitigkeit, -en;legal dispute;судовий спір;Die Rechtsstreitigkeit **konnte durch einen Vergleich beigelegt werden**.
+der Regelfall, "-e;normal case, rule;звичайний випадок, правило;Im Regelfall **beträgt die Kündigungsfrist vier Wochen zum Monatsende**.
+schwerwiegend;serious, grave;важкий, серйозний;Ein schwerwiegender Pflichtverstoß **berechtigt zur fristlosen Kündigung**.
+das Sonderkündigungsrecht, -e;special right of termination;особливе право на звільнення;Schwangere Mitarbeiterinnen **genießen ein gesetzliches Sonderkündigungsrecht**.
+die Sozialauswahl, -en;social selection (in redundancies);соціальний відбір (при скороченні штату);Bei betriebsbedingten Kündigungen **ist eine Sozialauswahl zwingend vorgeschrieben**.
+sozial ungerechtfertigt;socially unjustified;соціально невиправданий (про звільнення);Eine Kündigung **ist sozial ungerechtfertigt, wenn keine Kündigungsgründe vorliegen**.
+die Sperrzeit, -en;blocking period / suspension period (for unemployment benefits);період блокування виплати допомоги по безробіттю (штрафний час);Bei Abschluss einer Aufhebungsvereinbarung **droht eine Sperrzeit beim Arbeitslosengeld**.
+der Tarifabschluss, "-e;collective agreement conclusion;завершення тарифних переговорів (угода);Der neue Tarifabschluss **sieht eine stufenweise Gehaltserhöhung vor**.
+der Tarifvertrag, "-e;collective agreement;тарифний договір;Die Bestimmungen des Tarifvertrags **sind für beide Seiten bindend**.
+unwirksam;ineffective, invalid;недійсний;Eine mündlich ausgesprochene Kündigung **ist laut Gesetz unwirksam**.
+die Unwirksamkeit (Sg.);invalidity, ineffectiveness;недійсність;Das Arbeitsgericht **stellte die Unwirksamkeit der verhaltensbedingten Kündigung fest**.
+die Urabstimmung, -en;strike ballot;голосування членів профспілки за страйк;Nach der Urabstimmung **kann die Gewerkschaft den unbefristeten Streik ausrufen**.
+die Verhandlung, -en;negotiation, hearing;переговори, судове слухання;Die Verhandlung **führte zu einer einvernehmlichen Lösung des Konflikts**.
+der Vergleich, -e;settlement, compromise;мирова угода, компроміс;Die Parteien **haben sich vor Gericht auf einen Vergleich geeinigt**.
+das Verschulden (Sg.);fault, culpability;вина;Eine verhaltensbedingte Kündigung **setzt ein Verschulden des Arbeitnehmers voraus**.
+die Weiterbeschäftigung (Sg.);continued employment;продовження трудових відносин;Der Betriebsrat **forderte die Weiterbeschäftigung der gekündigten Mitarbeiter**.
+wirksam;effective, valid;дійсний, чинний;Die Kündigung **wird erst mit dem Zugang des Kündigungsschreibens wirksam**.
+zustehen (+ Dat.) (steht zu, stand zu, hat zugestanden);to be entitled to;мати право на (щось);Dem gekündigten Mitarbeiter **steht unter Umständen eine Abfindung zu**.
+der Zweitversuch, -e;second attempt;друга спроба;Bei Nichtbestehen der Abschlussprüfung **ist ein Zweitversuch zulässig**.
+die Abteilungsleiter, - / die Abteilungsleiterin, -nen;head of department;начальник відділу;Die Abteilungsleiterin **ist für die Einarbeitung der neuen Kräfte zuständig**.
+der Betriebsrat, "-e;works council;виробнича рада (представник працівників);Der Betriebsrat **stimmt der Eingliederung der Auszubildenden zu**.
+der Abteilungsleiter, - / die Abteilungsleiterin, -nen;head of department;начальник відділу;Der Abteilungsleiter **führt das jährliche Mitarbeitergespräch durch**.
+der Gruppenleiter, - / die Gruppenleiterin, -nen;group leader / team leader;керівник групи;Die Gruppenleiterin **koordiniert die wöchentlichen Teambesprechungen**.
+der Teamleiter, - / die Teamleiterin, -nen;team leader;керівник команди;Der Teamleiter **ist der direkte Ansprechpartner bei Konflikten im Team**.
+die Teamleitung, -en;team management;керівництво команди;Die Teamleitung **legt großen Wert auf eine offene Feedbackkultur**.
+der Bereichsleiter, - / die Bereichsleiterin, -nen;division manager;керівник напрямку / департаменту;Der Bereichsleiter **trägt die Verantwortung für das Erreichen der Quartalsziele**.
+die Bereichsleitung, -en;division management;керівництво напрямку;Die Bereichsleitung **entscheidet über die Zuweisung des Projektbudgets**.
+die Hauptabteilungsleiter, - / die Hauptabteilungsleiterin, -nen;head of main department;керівник головного відділу;Die Hauptabteilungsleiterin **berichtete direkt an die Geschäftsführung**.
+die Hauptabteilungsleitung, -en;main department management;керівництво головного відділу;Die Hauptabteilungsleitung **koordiniert die strategische Ausrichtung**.
+der Werkleiter, - / die Werkleiterin, -nen;plant manager / factory manager;директор заводу;Der Werkleiter **überwacht die Einhaltung aller Umweltauflagen im Werk**.
+die Werkleitung, -en;plant management;керівництво заводу (дирекція);Die Werkleitung **hat die Installation der neuen Solaranlage bewilligt**.
+der Betriebsleiter, - / die Betriebsleiterin, -nen;operations manager;керівник виробництва / підприємства;Der Betriebsleiter **ist für die Einhaltung der Unfallverhütungsvorschriften verantwortlich**.
+die Betriebsleitung, -en;operations management;керівництво виробництвом;Die Betriebsleitung **hat eine neue Betriebsvereinbarung zur Gleitzeit unterzeichnet**.
+der Niederlassungsleiter, - / die Niederlassungsleiterin, -nen;branch manager;керівник філії;Der Niederlassungsleiter **begrüßte die neuen Auszubildenden am Eintrittstermin**.
+die Niederlassungsleitung, -en;branch management;керівництво філії;Die Niederlassungsleitung **ist für die regionale Kundenpflege zuständig**.
+der Filialleiter, - / die Filialleiterin, -nen;branch manager / store manager;директор філії / магазину;Die Filialleiterin **entscheidet über die Personalsuche vor Ort**.
+die Filialleitung, -en;branch management / store management;керівництво філії / магазину;Die Filialleitung **legt großen Wert auf die Einhaltung des Corporate Designs**.
+der Geschäftsführer, - / die Geschäftsführerin, -nen;managing director;керівник фірми, комерційний директор;Der Geschäftsführer **unterzeichnete die Aufhebungsvereinbarung**.
+die Geschäftsführung, -en;management;керівництво підприємства;Die Geschäftsführung **trägt die Verantwortung für die Existenzsicherung des Betriebs**.
+der Vorstand, "-e;board of directors / executive board;правління (дирекція акціонерного товариства);Der Vorstand **ist für die Zukunftssicherung des Konzerns verantwortlich**.
+die Vorstandsmitglied, -er;board member;член правління;Die Vorstandsmitglieder **wurden vom Aufsichtsrat ernannt**.
+der Vorstandsvorsitzende, -n / die Vorstandsvorsitzende, -n;chairman of the board / CEO;голова правління (CEO);Der Vorstandsvorsitzende **präsentierte den Jahresabschluss auf der Hauptversammlung**.
+der CEO, -s;CEO;генеральний директор (CEO);Der CEO **betonte die Bedeutung der Innovationskraft für das Unternehmen**.
+der CFO, -s;CFO;фінансовий директор (CFO);Der CFO **berichtete über die Liquidität und die Steuerlast des Betriebs**.
+der COO, -s;COO;операційний директор (COO);Der COO **ist für die Optimierung der Produktionsabläufe zuständig**.
+der CTO, -s;CTO;технічний директор (CTO);Der CTO **entscheidet über Investitionen in innovative Software-Lösungen**.
+der Aufsichtsrat, "-e;supervisory board;наглядова рада;Der Aufsichtsrat **überwacht die Geschäftsführung des Vorstands**.
+der Aufsichtsratsmitglied, -er;supervisory board member;член наглядової ради;Als Aufsichtsratsmitglied **verfügt er über umfangreiche Kontrollrechte**.
+der Aufsichtsratsvorsitzende, -n / die Aufsichtsratsvorsitzende, -n;chairman of the supervisory board;голова наглядової ради;Der Aufsichtsratsvorsitzende **leitete die Sitzung zur Fusionskontrolle**.
+die Aufsichtsratsmandat, -e;supervisory board mandate;мандат (місце) у наглядовій раді;Er hat ein weiteres Aufsichtsratsmandat **in der Finanzbranche übernommen**.
+der Gesellschafter, - / die Gesellschafterin, -nen;shareholder / partner;учасник товариства, компаньйон;Die Gesellschafter **haben die Erhöhung des Stammkapitals beschlossen**.
+die Gesellschafterversammlung, -en;shareholders' meeting;збори учасників товариства;Die Gesellschafterversammlung **ist das oberste Entscheidungsorgan der GmbH**.
+der Inhaber, - / die Inhaberin, -nen;owner / proprietor;власник, володілець;Der Inhaber **bedankt sich bei der Belegschaft für den Einsatz**.
+die Inhaberschaft (Sg.);ownership;володіння, власність (статус власника);Die Inhaberschaft **ging nach dem Betriebsübergang auf die Nachfolgerin über**.
+der Eigentümer, - / die Eigentümerin, -nen;owner;власник;Die Eigentümer **haben eine hohe Summe in den Klimaschutz investiert**.
+die Eigentümerschaft (Sg.);ownership;власність (статус власника);Die Eigentümerschaft **wurde im Handelsregister offiziell eingetragen**.
+der Hauptaktionär, -e / die Hauptaktionärin, -nen;major shareholder;головний акціонер;Der Hauptaktionär **verfügt über die qualifizierte Mehrheit der Stimmen**.
+die Kleinaktionär, -e / die Kleinaktionärin, -nen;minority shareholder;міноритарний (дрібний) акціонер;Die Kleinaktionäre **forderten auf der Versammlung mehr Transparenz**.
+die Arbeitnehmervertreter, - / die Arbeitnehmervertreterin, -nen;employee representative;представник працівників;Die Arbeitnehmervertreter **sind im Aufsichtsrat stimmberechtigt**.
+die Arbeitgebervertreter, - / die Arbeitgebervertreterin, -nen;employer representative;представник роботодавців;Die Arbeitgebervertreter **verhandeln mit der Gewerkschaft über die Lohnpolitik**.
+die Tarifkommission, -en;tariff commission;тарифна комісія;Die Tarifkommission **bereitet die kommenden Tarifverhandlungen vor**.
+die Verhandlungspartner, -;negotiating partner;партнер по переговорах;Die Verhandlungspartner **haben sich auf einen Kompromiss geeinigt**.
+die Sozialpartner (Pl.);social partners (unions and employer associations);соціальні партнери (профспілки та роботодавці);Die Sozialpartner **sichern die Stabilität der sozialen Partnerschaft**.
+die Tarifvertragspartei, -en;party to a collective agreement;сторона тарифного договору;Jede Tarifvertragspartei **muss die Friedenspflicht einhalten**.
+die Gewerkschaftsfunktionär, -e / die Gewerkschaftsfunktionärin, -nen;union official;профспілковий діяч;Der Gewerkschaftsfunktionär **führte die Verhandlungen für die Arbeitnehmer**.
+der Betriebsrat, "-e;works council;виробнича рада (представницький орган);Der Betriebsrat **ist für die Einhaltung der Betriebsvereinbarungen zuständig**.
+der Betriebsratsvorsitzende, -n / die Betriebsratsvorsitzende, -n;chairman of the works council;голова виробничої ради;Der Betriebsratsvorsitzende **gibt dem Personalrat eine Stellungnahme ab**.
+die Personalrat, "-e;staff council (public sector);рада трудового колективу (у держсекторі);Der Personalrat **wirkt bei der Gestaltung der Arbeitsplätze mit**.
+die Personalratsvorsitzende, -n / die Personalratsvorsitzende, -n;chairman of the staff council;голова ради трудового колективу;Die Personalratsvorsitzende **überwacht die Einhaltung der Arbeitsgesetze**.
+die Jugend- und Auszubildendenvertretung (JAV), -en;youth and apprentice representative body (JAV);представництво молоді та учнів на виробництві (JAV);Die JAV **arbeitet eng mit dem Betriebsrat zusammen**.
+die JAV-Mitglied, -er;JAV member;член JAV;Als JAV-Mitglied **setzt er sich für eine qualitativ hochwertige Ausbildung ein**.
+die JAV-Vorsitzende, -n / die JAV-Vorsitzende, -n;chairman of the JAV;Die JAV-Vorsitzende **nimmt an den Sitzungen des Betriebsrats teil**.
+die Schwerbehindertenvertretung (SBV), -en;representative body for severely disabled employees;представництво інвалідинків на виробництві (SBV);Die SBV **wurde bei der Arbeitsplatzanpassung einbezogen**.
+die SBV-Mitglied, -er;SBV member;член SBV;Als SBV-Mitglied **fordert er die vollständige Barrierefreiheit im Betrieb**.
+die SBV-Vorsitzende, -n / die SBV-Vorsitzende, -n;chairman of the SBV;Die SBV-Vorsitzende **berät Arbeitgeber beim Gesundheitsschutz**.
+der Gleichstellungsbeauftragte, -n / die Gleichstellungsbeauftragte, -n;equal opportunities officer;уповноважений з питань гендерної рівності;Die Gleichstellungsbeauftragte **achtet auf die Chancengleichheit bei Beförderungen**.
+der Frauenbeauftragte, -n / die Frauenbeauftragte, -n;women's representative;уповноважена у справах жінок;Die Frauenbeauftragte **unterstützt Frauen beim beruflichen Aufstieg**.
+der Datenschutzbeauftragte, -n / die Datenschutzbeauftragte, -n;data protection officer;уповноважений з питань захисту даних;Der Datenschutzbeauftragte **prüft das System auf Einhaltung der DSGVO**.
+der Sicherheitsbeauftragte, -n / die Sicherheitsbeauftragte, -n;safety officer;уповноважений з техніки безпеки;Der Sicherheitsbeauftragte **weist das Personal auf Gefahrenquellen hin**.
+der Abfallbeauftragte, -n / die Abfallbeauftragte, -n;waste management officer;уповноважений з питань відходів;Der Abfallbeauftragte **überwacht die Einhaltung der Abfalltrennung**.
+der Gewässerschutzbeauftragte, -n / die Gewässerschutzbeauftragte, -n;water protection officer;уповноважений з охорони водних ресурсів;Der Gewässerschutzbeauftragte **prüft die Einleitungen der Kläranlage**.
+der Immissionsschutzbeauftragte, -n / die Immissionsschutzbeauftragte, -n;emission control officer;уповноважений з контролю за викидами/шумом;Der Immissionsschutzbeauftragte **misst den Schallpegel der Sägemaschine**.
+der Betriebsbeauftragte, -n / die Betriebsbeauftragte, -n;company officer / compliance officer;уповноважена особа підприємства (комплаєнс);Der Betriebsbeauftragte **sichert die Einhaltung aller Rechtsnormen ab**.
+der Compliance-Officer, -s;compliance officer;офіцер з комплаєнсу (контроль відповідності законам);Der Compliance-Officer **führt regelmäßige Schulungen zur Korruptionsprävention durch**.
+der Ombudsmann, "-er / die Ombudsfrau, -en;ombudsperson;омбудсмен (незалежний посередник);Die Ombudsfrau **steht den Beschäftigten bei internen Missständen zur Verfügung**.
+die Ombudsstelle, -n;ombuds office;служба омбудсмена;Die Ombudsstelle **garantiert eine absolut vertrauliche Bearbeitung aller Hinweise**.
+der Whistleblower, - / die Whistleblowerin, -nen;whistleblower;інформатор, викривач;Das Hinweisgeberschutzgesetz **schützt den Whistleblower vor Kündigung**.
+die Hinweisgeber, - / die Hinweisgeberin, -nen;informer / whistleblower;інформатор (викривач);Der Hinweisgeber **meldete einen schweren Pflichtverstoß in der Chefetage**.
+die Hinweisgebersystem, -e;whistleblowing system;система подачі скарг (викриття порушень);Das neue Hinweisgebersystem **beugt kriminellem Fehlverhalten im Betrieb vor**.
+die Meldestelle, -n;reporting office;пункт (орган) реєстрації порушень;Die interne Meldestelle **nimmt Hinweise auf Steuerhinterziehung entgegen**.
+die Beschwerdestelle, -n;complaint office / grievance committee;відділ скарг;Laut KSchG **kann sich der Arbeitnehmer bei der Beschwerdestelle beschweren**.
+die Beschwerde, -n;complaint / grievance;скарга;Die Beschwerde **wurde vom Betriebsrat als berechtigt anerkannt**.
+die Beschwerdeverfahren, -;complaint procedure;процедура розгляду скарг;Das Beschwerdeverfahren **ist in einer Betriebsvereinbarung genau geregelt**.
+die Abhilfemaßnahme, -n;remedial measure;заходи з усунення недоліків (допомога);Der Arbeitgeber **ist verpflichtet, wirksame Abhilfemaßnahmen zu ergreifen**.
+die Abhilfe (Sg.);remedy / redress;допомога, зарада, усунення порушення;Bei berechtigten Beschwerden **muss die Geschäftsführung Abhilfe schaffen**.
