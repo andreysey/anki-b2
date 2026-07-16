@@ -1,133 +1,388 @@
 #separator:;
 #html:true
 #columns:German;English;Ukrainian;Example
-der Ablauf, "-e;process, sequence;процес, хід;Wir müssen den Ablauf des Software-Deployments optimieren.
-etw. abwägen (wägt ab, wog ab, hat abgewogen);to weigh up, to consider;зважувати, обмірковувати;Wir müssen die Vor- und Nachteile der neuen API abwägen.
-die Arbeitsbedingung, -en;working condition;умова праці;Flexible Arbeitsbedingungen sind sehr wichtig für Entwickler.
-der Aspekt, -e;aspect;аспект;Datensicherheit ist ein wichtiger Aspekt beim Cloud-Computing.
-die Auftragsabwicklung, -en;order processing;обробка замовлення;Die App automatisiert die komplette Auftragsabwicklung für den Shop.
-der Baustoff, -e;building material;будівельний матеріал;Wir programmieren eine Logistik-Software für Baustoffe.
-etw./jdm. Beachtung schenken;to pay attention to;приділяти увагу;Wir müssen dem Feedback der User mehr Beachtung schenken.
-etw. benötigen (benötigt, benötigte, hat benötigt);to need, to require;потребувати;Wir benötigen mehr RAM für diesen Datenbank-Server.
-etw. berücksichtigen (berücksichtigt, berücksichtigte, hat berücksichtigt);to consider, to take into account;враховувати;Bitte berücksichtigen Sie die Ladezeiten beim mobilen Webdesign.
-etw. beschaffen (beschafft, beschaffte, hat beschafft);to procure, to obtain;діставати, закуповувати;Die IT-Abteilung muss dringend neue Monitore beschaffen.
-die Beschaffung (Sg.);procurement;закупівля, придбання;Die Beschaffung der neuen Server-Hardware dauert drei Wochen.
-der Beschaffungsmarkt, "-e;procurement market;ринок закупівель;Der Beschaffungsmarkt für Mikrochips ist aktuell sehr angespannt.
-die Bestandsaufnahme, -n;inventory, taking stock;інвентаризація, оцінка стану;Wir machen eine Bestandsaufnahme unserer Software-Lizenzen.
-das CAD-Programm, -e;CAD program;САПР (система автоматизованого проектування);Der Ingenieur nutzt ein CAD-Programm für das 3D-Modell.
-der Einfluss, "-e;influence;вплив;Der Lead Developer hat großen Einfluss auf die IT-Architektur.
-Einfluss haben auf (+ Akk.);to have an influence on;мати вплив на;Die Server-Auslastung hat direkten Einfluss auf die Ladezeit der App.
-etw. einkalkulieren (kalkuliert ein, kalkulierte ein, hat einkalkuliert);to factor in, to take into account;враховувати (у розрахунках);Wir müssen Pufferzeit für Bugfixes einkalkulieren.
-erforderlich;required, necessary;необхідний;Zwei-Faktor-Authentifizierung (2FA) ist für Admins erforderlich.
-die Fachmesse, -n;trade fair;спеціалізована виставка;Wir stellen unser Produkt auf der IT-Fachmesse vor.
-das Fertighaus, "-er;prefabricated house;збірний будинок;Unser Kunde baut Smart-Home-Systeme für Fertighäuser.
-die Fertighausfirma, -firmen;prefabricated house company;компанія-виробник збірних будинків;Die Fertighausfirma nutzt unsere VR-Software für ihre Kunden.
-das Gartengerät, -e;garden tool;садовий інструмент;Die App steuert smarte Gartengeräte wie Mähroboter.
-geeignet;suitable;підходящий, придатний;Python ist sehr geeignet für Data Science und Machine Learning.
-global;global;глобальний;Wir arbeiten in einem globalen Entwickler-Team.
-die Globalisierung (Sg.);globalization;глобалізація;Durch die Globalisierung können wir Tech-Talente weltweit einstellen.
-das Gut, "-er;good, commodity, asset;товар, майно;Daten sind das wertvollste Gut in der modernen Wirtschaft.
-der Konkurrenzdruck (Sg.);competitive pressure;конкурентний тиск;Der Konkurrenzdruck im E-Commerce-Bereich ist enorm hoch.
-die Lagerkapazität, -en;storage capacity;місткість складу, ємність сховища;Wir müssen die Lagerkapazität unserer Cloud-Datenbank erweitern.
-die Liefersicherheit (Sg.);delivery reliability, security of supply;надійність постачання;Liefersicherheit bei Hardware-Komponenten ist wichtig für das Rechenzentrum.
-massiv;massive(ly);масивний, масштабний;Wir haben massive Probleme mit dem neuen Server-Deployment.
-das Material, -ien;material;матеріал;Wir bestellen neues Material für den 3D-Drucker.
-die Menge, -n;amount, quantity;кількість, обсяг;Das Python-Skript muss eine riesige Menge an Daten verarbeiten.
-die Produktionsunterbrechung, -en;production interruption, downtime;переривання виробництва, простій;Ein Serverausfall führt zu einer teuren Produktionsunterbrechung.
-das Rohmaterial, -ien;raw material;сировина;Unstrukturierte Daten sind das Rohmaterial für KI-Modelle.
-sorgen für (+ Akk.) (sorgt, sorgte, hat gesorgt);to ensure, to take care of;піклуватися про, забезпечувати;Der Load Balancer sorgt für eine stabile Server-Performance.
-das Steuerbüro, -s;tax consultancy/office;податкове бюро;Unsere Buchhaltungs-Software wird von vielen Steuerbüros genutzt.
-die Umweltpolitik (Sg.);environmental policy;екологічна політика;Green IT ist ein wichtiger Teil unserer Unternehmens-Umweltpolitik.
-vertraut sein mit (+ Dat.) (ist, war, ist gewesen);to be familiar with;бути обізнаним з;Bist du mit der Architektur der AWS-Cloud vertraut?
-der Zeichentisch, -e;drawing board, drafting table;креслярський стіл;Das Architektur-Startup ersetzt den analogen Zeichentisch durch VR.
-die Zollbestimmung, -en;customs regulation;митне правило;Beim Import der Server aus den USA müssen wir Zollbestimmungen beachten.
-Angebote einholen (holt ein, holte ein, hat eingeholt);to get/obtain quotes;отримувати пропозиції (цінові);Wir müssen Angebote von drei verschiedenen Cloud-Providern einholen.
-der Ansprechpartner, - / die Ansprechpartnerin, -nen;contact person;контактна особа;Er ist mein technischer Ansprechpartner für die API-Integration.
-jdn. auffordern (fordert auf, forderte auf, hat aufgefordert);to request, to ask;закликати, вимагати;Das System wird den User auffordern, sein Passwort zu ändern.
-aufmerksam machen auf (+ Akk.) (macht, machte, hat gemacht);to draw attention to;звертати увагу на;Ich möchte das Team auf einen kritischen Bug im Code aufmerksam machen.
-die Auftragsvergabe, -n;award of contract, order placement;розміщення замовлення, укладання контракту;Die Auftragsvergabe für das neue CRM-System erfolgt nächste Woche.
-etw. ausrichten (richtet aus, richtete aus, hat ausgerichtet);to pass on (a message);передавати (повідомлення);Können Sie dem IT-Leiter bitte ausrichten, dass ich das Ticket gelöst habe?
-etw. entgegennehmen (nimmt entgegen, nahm entgegen, hat entgegengenommen);to receive, to accept;приймати (замовлення, дзвінок);Unser Support-Team wird die Fehlermeldungen der User entgegennehmen.
-entscheidend;crucial, decisive;вирішальний;Skalierbarkeit ist ein entscheidender Faktor für unsere neue App.
-jdn. hinweisen auf (+ Akk.) (weist hin, wies hin, hat hingewiesen);to point out to;вказувати комусь на щось;Der Linter wird den Entwickler automatisch auf Syntaxfehler hinweisen.
-das Kriterium, Kriterien;criterion;критерій;Server-Performance ist das wichtigste Kriterium bei der Provider-Wahl.
-die Lieferfrist, -en;delivery deadline, time for delivery;термін доставки;Die Lieferfrist für die neuen Firmen-Laptops beträgt zwei Wochen.
-maßgeblich;significant, decisive;визначальний, істотний;Ihre Architektur-Entscheidung war maßgeblich für den Projekterfolg.
-die Prokura (Sg.);commercial power of attorney;довіреність (на право підпису);Der CTO hat Prokura und darf Software-Lizenzen selbstständig kaufen.
-das Türschloss, "-er;door lock;дверний замок;Wir entwickeln eine Smartphone-App für ein smartes Türschloss.
-verbinden mit (+ Dat.) (verbindet, verband, hat verbunden);to connect with;з'єднувати з;Bitte verbinden Sie mich telefonisch mit dem IT-Support.
-verbindlich;binding, obligatory;обов'язковий (до виконання), зобов'язуючий;Das Kostenangebot für das Software-Projekt ist rechtlich verbindlich.
-jdn. verweisen auf (+ Akk.) (verweist, verwies, hat verwiesen);to refer to;відсилати до (когось/чогось);Bei Login-Problemen verweisen wir die User auf unsere FAQ-Seite.
-der Wettbewerber, -;competitor;конкурент;Unser größter Wettbewerber hat gestern ein ähnliches Feature gelauncht.
-die Zusicherung, -en;assurance, guarantee;запевнення, гарантія;Wir brauchen eine schriftliche Zusicherung für die Datensicherheit (DSGVO).
-der Abzug, "-e;deduction;відрахування, знижка;Nach Abzug der Steuern bleibt ein gutes Netto-Gehalt für Entwickler.
-der Akku, -s;battery;акумулятор;Der Akku meines neuen MacBooks hält beim Coden fast 10 Stunden.
-ein Angebot unterbreiten (unterbreitet, unterbreitete, hat unterbreitet);to submit an offer/quote;робити/надавати пропозицію;Wir werden dem Kunden heute ein Angebot für die Webentwicklung unterbreiten.
-etw. anlegen (z. B. einen Garten) (legt an, legte an, hat angelegt);to create, to set up;створювати (напр. базу даних, обліковий запис);Ich muss einen neuen User-Account in der Datenbank anlegen.
-enthalten (enthält, enthielt, hat enthalten);to contain, to include;містити в собі;Das neue Software-Update wird viele wichtige Sicherheits-Patches enthalten.
-der Ersatzakku, -s;spare battery;запасний акумулятор;Ich nehme einen Ersatzakku für den Laptop auf die Dienstreise mit.
-der Erstauftrag, "-e;initial order;перше замовлення;Für unseren Erstauftrag haben wir eine kleine Landingpage entwickelt.
-sich erweisen als (erweist sich, erwies sich, hat sich erwiesen);to turn out to be, to prove to be;виявлятися (кимось/чимось);Das neue React-Framework hat sich als sehr performant erwiesen.
-der Folgeauftrag, "-e;follow-up order;наступне/повторне замовлення;Nach dem guten MVP-Release haben wir direkt einen Folgeauftrag bekommen.
-die Funktionsfähigkeit (Sg.);functionality, operability;функціональність, працездатність;Die QA testet die Funktionsfähigkeit der neuen App intensiv.
-die Gebrauchsweise (Sg.);method of use, instructions for use;спосіб використання;Die Gebrauchsweise unserer API ist in der Dokumentation beschrieben.
-die Gesamtbestellung (Sg.);total order;загальне замовлення;Die Gesamtbestellung für die Server-Hardware kostet 50.000 Euro.
-der Gesamtpreis, -e;total price;загальна вартість;Der Gesamtpreis für das Software-Projekt liegt genau im Budget.
-kostengünstig;cost-effective, cheap;вигідний за ціною, недорогий;AWS bietet auch sehr kostengünstige Speicherlösungen (S3) an.
-die Marktchancen (Pl.);market opportunities;ринкові можливості;Die Marktchancen für KI-basierte Tools sind aktuell riesig.
-nachteilig;disadvantageous, detrimental;невигідний, шкідливий;Schlechter Code wirkt sich nachteilig auf die Server-Performance aus.
-optional;optional;опціональний, необов'язковий;Die Angabe der Telefonnummer im Registrierungsformular ist optional.
-der Rabatt, -e;discount;знижка;Wir gewähren Neukunden einen Rabatt von 10% auf die SaaS-Lizenzen.
-der Skonto (Sg.);cash discount;сконто (знижка за швидку оплату);Wenn wir die Server sofort bezahlen, bekommen wir 2% Skonto.
-der Sonderpreis, -e;special price;спеціальна ціна;Zum Black Friday bieten wir unsere Software zum Sonderpreis an.
-standardmäßig;standard, by default;за замовчуванням, стандартно;Die Verschlüsselung der Passwörter ist im System standardmäßig aktiviert.
-der Stückpreis, -e;unit price;ціна за штуку;Der Stückpreis für Firmen-Laptops sinkt bei einer Großbestellung.
-einen Termin einhalten (hält ein, hielt ein, hat eingehalten);to meet a deadline;дотримуватися терміну;Wir müssen den Termin für das Produktions-Release unbedingt einhalten.
-üblicherweise;usually, typically;зазвичай;Üblicherweise deployen wir am Freitag keinen neuen Code.
-die Versandkosten (Pl.);shipping costs;вартість доставки;Beim Kauf von Hardware für über 50 Euro entfallen die Versandkosten.
-vorteilig;advantageous, beneficial;вигідний, сприятливий;Eine Microservice-Architektur ist sehr vorteilig für die Skalierbarkeit.
-die Zahlungsbedingungen (Pl.);terms of payment;умови оплати;Die Zahlungsbedingungen für die Freelancer-Rechnung stehen unten.
-die Zahlungsfrist, -en;payment deadline/period;строк оплати;Die Zahlungsfrist für die Server-Miete beträgt 14 Tage.
-die Abnahme, -n;acceptance, approval;приймання (робіт), узгодження;Die Abnahme der neuen Software durch den Kunden erfolgt morgen.
-das Abnahmeprotokoll, -e;acceptance report/protocol;акт приймання-передачі;Der Kunde muss das Abnahmeprotokoll nach dem erfolgreichen Test unterschreiben.
-etw. anschauen (schaut an, schaute an, hat angeschaut);to look at, to examine;дивитися, розглядати;Lass uns den fehlerhaften Quellcode gemeinsam anschauen (Code Review).
-der Auftraggeber, - / die Auftraggeberin, -nen;client, principal, customer;замовник, клієнт;Unser Auftraggeber wünscht sich noch eine Dark-Mode-Funktion.
-etw. ausführen (führt aus, führte aus, hat ausgeführt);to execute, to perform;виконувати;Das System wird den Code sicher in einem Docker-Container ausführen.
-die Bauabnahme, -n;building inspection/acceptance;приймання будівельного об'єкта;Nach der Installation der Server-Racks erfolgt die Bauabnahme im Rechenzentrum.
-der Bauherr, -en / die Bauherrin, -nen;building owner/client;забудовник, власник будівлі;Der Bauherr möchte Smart-Home-Technik im ganzen Haus integrieren.
-die Bauleistung, -en;construction work;будівельні роботи;Die Installation der IT-Infrastruktur gehört zur Bauleistung.
-das Bauunternehmen, -;construction company;будівельна компанія;Das Bauunternehmen nutzt unsere Projektmanagement-Software.
-bedauerlicherweise;unfortunately, regrettably;на жаль;Bedauerlicherweise hat der Server-Ausfall gestern einige Daten gelöscht.
-etw. beseitigen (beseitigt, beseitigte, hat beseitigt);to eliminate, to fix;усувати;Wir müssen diesen Speicher-Bug im Code sehr schnell beseitigen.
-die Beseitigung (Sg.);removal, resolution;усунення;Die Beseitigung der Sicherheitslücke hat für uns oberste Priorität.
-der Eigentümer, - / die Eigentümerin, -nen;owner;власник;Wer ist der Eigentümer dieses GitHub-Repositories?
-die Einweisung, -en;instruction, briefing;інструктаж;Neue Entwickler bekommen eine kurze Einweisung in unsere Git-Flows.
-etw. fertigstellen (stellt fertig, stellte fertig, hat fertiggestellt);to complete, to finish;завершувати;Wir werden das MVP (Minimum Viable Product) nächsten Monat fertigstellen.
-die Fußleiste, -n;baseboard, skirting board;плінтус;Wir verlegen die Netzwerkkabel im IT-Büro sicher hinter der Fußleiste.
-die Gewährleistungsfrist, -en;warranty period;гарантійний термін;Die Gewährleistungsfrist für die neuen Firmen-Monitore beträgt zwei Jahre.
-die Kleinigkeit, -en;small detail, minor matter;дрібниця;Das kleine CSS-Problem ist nur eine Kleinigkeit und schnell gefixt.
-lediglich;merely, only;лише, тільки;Der Bug tritt lediglich im Safari-Browser auf.
-machbar;feasible, doable;здійсненний, можливий;Dieses Feature ist technisch machbar, dauert aber zwei Sprints.
-der Mangel, "-;defect, flaw;недолік, дефект;Beim automatisierten Software-Test haben wir einen kritischen Mangel gefunden.
-die Nacharbeiten (Pl.);rework, touch-ups;доопрацювання;Nach dem Code Review müssen wir noch kleine Nacharbeiten erledigen.
-die Nachbesserung, -en;rectification of defects, improvement;виправлення (помилок), доопрацювання;Der Kunde fordert eine Nachbesserung beim UI-Design.
-der Personalengpass, "-e;staff shortage;нестача персоналу;Wegen Krankheit haben wir aktuell einen Personalengpass im Support-Team.
-die Pflicht, -en;duty, obligation;обов'язок;Es ist meine Pflicht als Admin, regelmäßige Backups zu erstellen.
-das Prüfstück, -e;test piece, sample;дослідний зразок, тестовий екземпляр;Wir nutzen einen Prototyp der Hardware als Prüfstück.
-in der Regel;usually, as a rule;зазвичай, як правило;In der Regel schreiben wir Unit-Tests für jede neue Funktion.
-das Übergabeprotokoll, -e;handover protocol;акт передачі;Beim Wechsel des Laptops unterschreibt der Mitarbeiter ein Übergabeprotokoll.
-unverzüglich;immediately, without delay;негайно, без зволікань;Kritische Server-Ausfälle müssen unverzüglich gemeldet werden.
-die Verzögerung, -en;delay;затримка;Aufgrund eines Bugs gab es eine Verzögerung beim App-Release.
-zeitnah;promptly, in a timely manner;своєчасно, найближчим часом;Bitte beantworten Sie die Support-Tickets möglichst zeitnah.
-zufriedenstellend;satisfactory;задовільний;Die Performance der App ist nach dem Datenbank-Update sehr zufriedenstellend.
-die Abmahnung, -en;warning, reprimand (written);попередження, догана;Ständiges Zuspätkommen zum Daily Scrum kann zu einer Abmahnung führen.
-akzeptabel;acceptable;прийнятний;Eine Ladezeit von über 5 Sekunden ist für die User nicht akzeptabel.
-die Bewertung, -en;evaluation, review, rating;оцінка, відгук;Unsere neue App hat eine sehr gute Bewertung im App Store erhalten.
-eine Dienstleistung erbringen (erbringt, erbrachte, hat erbracht);to provide a service;надавати послугу;Unser Cloud-Provider muss die vertraglich vereinbarte Dienstleistung erbringen.
-erwünscht;desired, welcome;бажаний;Konstruktives Feedback im Code Review ist immer erwünscht.
-fällig werden;to become due (for payment);підлягати сплаті, настати (про термін);Die Rechnung für das Software-Abo wird am Monatsende fällig.
-permanent;permanent(ly);постійний, перманентний;Wir brauchen eine permanente und sichere Verbindung zur Datenbank.
-eine Rolle spielen;to play a role/part;відігравати роль;Clean Code spielt eine große Rolle für die Wartbarkeit unseres IT-Projekts.
-der Schadenersatz (Sg.);compensation for damages;відшкодування збитків;Bei einem großen Datenverlust kann der Kunde Schadenersatz fordern.
-tolerant;tolerant;толерантний;Unser Team ist sehr tolerant gegenüber Fehlern, wenn wir daraus lernen.
-zum guten Ton gehören;to be good manners/etiquette;бути правилом хорошого тону;Pünktlichkeit beim Zoom-Meeting gehört in unserem Team zum guten Ton.
+der Ablauf, "-e;process, sequence;процес, хід;Wir müssen den Ablauf der Flugzeugabfertigung **im Übergabeprotokoll genau beschreiben**.
+etw. abwägen (wägt ab, wog ab, hat abgewogen);to weigh up, to consider;зважувати, обмірковувати;Wir müssen alle Risiken und Chancen sorgfältig abwägen, bevor wir **eine Entscheidung treffen**.
+die Arbeitsbedingung, -en;working condition;умова праці;Die Gewerkschaft **führt Tarifverhandlungen mit dem Ziel, die Arbeitsbedingungen zu verbessern**.
+der Aspekt, -e;aspect;аспект;Ein wichtiger Aspekt des Brandschutzes **ist das Freihalten aller Rettungswege**.
+die Auftragsabwicklung, -en;order processing;обробка замовлення;Eine effiziente Auftragsabwicklung **ist Voraussetzung für eine hohe Kundenzufriedenheit**.
+der Baustoff, -e;building material;будівельний матеріал;Das Handwerksunternehmen **stellt eine Liste der benötigten Baustoffe zur Verfügung**.
+etw./jdm. Beachtung schenken;to pay attention to;приділяти увагу;Bei der Qualitätskontrolle **müssen wir jedem kleinsten Fehler große Beachtung schenken**.
+etw. benötigen (benötigt, benötigte, hat benötigt);to need, to require;потребувати;Für die stufenweise Wiedereingliederung **benötigen wir ein ärztliches Attest**.
+etw. berücksichtigen (berücksichtigt, berücksichtigte, hat berücksichtigt);to consider, to take into account;враховувати;Bei der Schichtplanung **müssen wir die gesetzlichen Ruhezeiten der Beschäftigten berücksichtigen**.
+etw. beschaffen (beschafft, beschaffte, hat beschafft);to procure, to obtain;діставати, закуповувати;Es ist schwierig, die erforderlichen Rohstoffe **unter Einhaltung der Umweltauflagen zu beschaffen**.
+die Beschaffung (Sg.);procurement;закупівля, придбання;Die Beschaffung neuer Sicherheitsbekleidung **dient dem Gesundheitsschutz am Arbeitsplatz**.
+der Beschaffungsmarkt, "-e;procurement market;ринок закупівель;Aufgrund der Globalisierung **müssen wir den Beschaffungsmarkt weltweit beobachten**.
+die Bestandsaufnahme, -n;inventory, taking stock;інвентаризація, оцінка стану;Der Wirtschaftsprüfer **führt eine gründliche Bestandsaufnahme des Lagers durch**.
+das CAD-Programm, -e;CAD program;САПР (система автоматизованого проектування);Der Technische Zeichner **verfügt über exzellente Kenntnisse im Umgang mit** CAD-Programmen.
+der Einfluss, "-e;influence;вплив;Der demografische Wandel **hat einen spürbaren Einfluss auf den Fachkräftemangel**.
+Einfluss haben auf (+ Akk.);to have an influence on;мати вплив на;Die Lärmbelästigung **hat einen negativen Einfluss auf das Wohlbefinden** der Anwohner.
+etw. einkalkulieren (kalkuliert ein, kalkulierte ein, hat einkalkuliert);to factor in, to take into account;враховувати (у розрахунках);In der Budgetplanung **müssen wir die steigenden Lohnnebenkosten einkalkulieren**.
+erforderlich;required, necessary;необхідний;Für die Auszahlung der Abfindung **ist das Einreichen des Auflösungsvertrags erforderlich**.
+die Fachmesse, -n;trade fair;спеціалізована виставка;Die Fachmesse **bietet gute Möglichkeiten zur Kundengewinnung und Netzwerkpflege**.
+das Fertighaus, "-er;prefabricated house;збірний будинок;<b>Aus der Präsentation geht hervor, dass</b> die Nachfrage nach Fertighäusern gestiegen ist.
+die Fertighausfirma, -firmen;prefabricated house company;компанія-виробник збірних будинків;Die Fertighausfirma **ist für die Einhaltung aller baurechtlichen Rechtsnormen zuständig**.
+das Gartengerät, -e;garden tool;садовий інструмент;Das Handwerksunternehmen **stellt den Mitarbeitern die erforderlichen Gartengeräte bereit**.
+geeignet;suitable;підходящий, придатний;Er ist sehr geeignet, **die Leitung der neuen Inklusionsabteilung zu übernehmen**.
+global;global;глобальний;Die veränderte Wettbewerbssituation **erfordert ein globales Denken der Geschäftsführung**.
+die Globalisierung (Sg.);globalization;глобалізація;Die Globalisierung **beeinflusst die Absatzchancen auf dem internationalen Markt maßgeblich**.
+das Gut, "-er;good, commodity, asset;товар, майно;Der Transport empfindlicher Güter **erfordert die Beachtung strenger Sicherheitsvorschriften**.
+der Konkurrenzdruck (Sg.);competitive pressure;конкурентний тиск;Der starke Konkurrenzdruck **zwingt den Betrieb zu Maßnahmen zur Kostensenkung**.
+die Lagerkapazität, -en;storage capacity;місткість складу, ємність сховища;Wir müssen unsere Lagerkapazitäten erweitern, um **die Liefersicherheit abzusichern**.
+die Liefersicherheit (Sg.);delivery reliability, security of supply;надійність постачання;Eine hohe Liefersicherheit **leistet einen wichtigen Beitrag zur Kundenbindung**.
+massiv;massive(ly);масивний, масштабний;Die Störung im Stromnetz **verursachte massive Produktionsausfälle im Werk**.
+das Material, -ien;material;матеріал;Die Qualitätskontrolle **prüft das gelieferte Material auf eventuelle Mängel**.
+die Menge, -n;amount, quantity;кількість, обсяг;Wir müssen eine große Menge an Ersatzteilen bestellen, um **die Wartung abzusichern**.
+die Produktionsunterbrechung, -en;production interruption, downtime;переривання виробництва, простій;Eine ungeplante Produktionsunterbrechung **kann erhebliche finanzielle Schäden auslösen**.
+das Rohmaterial, -ien;raw material;сировина;Die Preise für Rohmaterialien **hängen eng mit der weltweiten Konjunktur zusammen**.
+sorgen für (+ Akk.) (sorgt, sorgte, hat gesorgt);to ensure, to take care of;піклуватися про, забезпечувати;Eine ergonomische Arbeitsplatzausstattung **sorgt für den Erhalt der Leistungsfähigkeit**.
+das Steuerbüro, -s;tax consultancy/office;податкове бюро;Das Steuerbüro **ist für die Einreichung unserer jährlichen Steuererklärung zuständig**.
+die Umweltpolitik (Sg.);environmental policy;екологічна політика;Die betriebliche Umweltpolitik **strebt eine Reduzierung der CO2-Emissionen an**.
+vertraut sein mit (+ Dat.) (ist, war, ist gewesen);to be familiar with;бути обізнаним з;Als Kältetechniker **bin ich bestens mit der F-Gase-Verordnung vertraut**.
+der Zeichentisch, -e;drawing board, drafting table;креслярський стіл;Der Entwurf wurde am Zeichentisch erstellt, **musste jedoch verworfen werden**.
+die Zollbestimmung, -en;customs regulation;митне правило;Die Spedition **übernimmt die Haftung für die Einhaltung aller Zollbestimmungen**.
+Angebote einholen (holt ein, holte ein, hat eingeholt);to get/obtain quotes;отримувати пропозиції (цінові);Wir müssen Angebote von mehreren Dienstleistungsfirmen <b>einholen, um Preise zu vergleichen</b>.
+der Ansprechpartner, - / die Ansprechpartnerin, -nen;contact person;контактна особа;<b>Frau Becker steht Ihnen als Ansprechpartnerin für Kundenreklamationen zur Verfügung</b>.
+jdn. auffordern (fordert auf, forderte auf, hat aufgefordert);to request, to ask;закликати, вимагати;Der Abteilungsleiter **fordert die Mitarbeiter auf, die Stundenzettel einzureichen**.
+aufmerksam machen auf (+ Akk.) (macht, machte, hat gemacht);to draw attention to;звертати увагу на;Der Sicherheitsbeauftragte **macht uns auf eine potenzielle Gefahrenquelle aufmerksam**.
+die Auftragsvergabe, -n;award of contract, order placement;розміщення замовлення, укладання контракту;Bei der Auftragsvergabe **müssen wir Rücksicht auf die Umweltzertifikate der Partner nehmen**.
+etw. ausrichten (richtet aus, richtete aus, hat ausgerichtet);to pass on (a message);передавати (повідомлення);Könnten Sie dem Meister bitte ausrichten, dass **die Hebebühne wieder einsatzbereit ist**?
+etw. entgegennehmen (nimmt entgegen, nahm entgegen, hat entgegengenommen);to receive, to accept;приймати (замовлення, дзвінок);Wir können die Ware nur unter dem Vorbehalt einer Qualitätsprüfung <b>entgegennehmen</b>.
+entscheidend;crucial, decisive;вирішальний;Eine offene Feedbackkultur **ist ein entscheidender Faktor für ein gutes Betriebsklima**.
+jdn. hinweisen auf (+ Akk.) (weist hin, wies hin, hat hingewiesen);to point out to;вказувати комусь на щось;Darf ich Sie **auf die gesetzlichen Regelungen zum Kündigungsschutz hinweisen**?
+das Kriterium, Kriterien;criterion;критерій;Die Einhaltung der Hygiene-Richtlinien **ist ein wichtiges Kriterium beim Audit**.
+die Lieferfrist, -en;delivery deadline, time for delivery;термін доставки;Wir bitten Sie, **die vertraglich vereinbarte Lieferfrist streng einzuhalten**.
+maßgeblich;significant, decisive;визначальний, істотний;Die Entscheidung des Betriebsrats **hat den Ablauf des Projekts maßgeblich beeinflusst**.
+die Prokura (Sg.);commercial power of attorney;довіреність (на право підпису);Der kaufmännische Leiter **verfügt über Prokura und darf Verträge unterzeichnen**.
+das Türschloss, "-er;door lock;дверний замок;Wir müssen das defekte Türschloss am Erste-Hilfe-Raum **umgehend austauschen**.
+verbinden mit (+ Dat.) (verbindet, verband, hat verbunden);to connect with;з'єднувати з;Könnten Sie mich bitte **mit dem zuständigen Personalverantwortlichen verbinden**?
+verbindlich;binding, obligatory;обов'язковий (до виконання), зобов'язуючий;<b>Ich bitte Sie, uns ein verbindliches Angebot bis zum Stichtag zuzuschicken</b>.
+jdn. verweisen auf (+ Akk.) (verweist, verwies, hat verwiesen);to refer to;відсилати до (когось/чогось);Bei rechtlichen Fragen **verweisen wir die Beschäftigten auf die Rechtsberatung**.
+die Lieferbereitschaft (Sg.);readiness to deliver / service level;готовність до поставки (рівень сервісу);Eine kontinuierliche Lieferbereitschaft **sichert unsere Wettbewerbsfähigkeit ab**.
+die Lieferfähigkeit (Sg.);ability to deliver / delivery capability;здатність поставляти (товари);Die Gewährleistung der Lieferfähigkeit **steht im Mittelpunkt unserer Logistikplanung**.
+die Liefertreue (Sg.);delivery reliability / adherence to delivery dates;дотримання термінів поставки (пунктуальність постачальника);Wir legen großen Wert auf die Liefertreue, **um Ausfallzeiten im Werk zu vermeiden**.
+die Lieferkonditionen (Pl.);delivery terms;умови поставки;Die Lieferkonditionen **wurden schriftlich im Kaufvertrag vereinbart**.
+die Liefermenge, -n;delivery quantity;обсяг поставки;Eine Abweichung der Liefermenge **muss sofort im Übergabeprotokoll vermerkt werden**.
+die Lieferschein, -e;delivery note;накладна на поставку (документ);Bitte überprüfen Sie die Lieferung **und zeichnen Sie den Lieferschein ab**.
+die Wareneingang (Sg.);goods receipt;приймання товару (відділ або процес);Die Qualitätskontrolle **prüft alle Sendungen direkt am Wareneingang**.
+die Warenausgang (Sg.);goods issue / dispatch;відпуск товару (відділ або процес);Die Spedition **übernimmt die Ware direkt am Warenausgang des Lagers**.
+die Verpackungsmaterial, -ien;packaging material;пакувальний матеріал;Wir nutzen umweltfreundliches Verpackungsmaterial, **um Abfall zu vermeiden**.
+die Ladungssicherung (Sg.);cargo securing / load securing;кріплення вантажу (безпека при транспортуванні);Eine mangelhafte Ladungssicherung **stellt ein hohes Sicherheitsrisiko dar**.
+die Transportmittel, -;means of transport;транспортний засіб (для перевезення вантажів);Die Wahl der Transportmittel **hängt eng mit den Transportkosten zusammen**.
+die Transportversicherung, -en;transit insurance / transport insurance;страхування вантажу (при транспортуванні);Die Transportversicherung **übernimmt die Haftung bei Schäden während des Transports**.
+die Gefahrengut, "-er;hazardous goods / dangerous goods;небезпечний вантаж;Der Transport von Gefahrengut **unterliegt strengen gesetzlichen Rechtsnormen**.
+die Gefahrgutverordnung (Sg.);dangerous goods regulation;правила перевезення небезпечних вантажів;Die Gefahrgutverordnung **schreibt das Tragen spezieller Schutzkleidung vor**.
+die Sicherheitsdatenblatt, "-er;safety data sheet;паспорт безпеки речовини;Das Sicherheitsdatenblatt **muss bei der Lieferung von Gefahrengut beiliegen**.
+die Gefahrstoff, -e;hazardous substance;небезпечна речовина;Der Umgang mit Gefahrstoffen **erfordert eine jährliche Sicherheitsunterweisung**.
+die Gefahrstofflager, -;hazardous materials storage;склад небезпечних речовин;Der Zutritt zum Gefahrstofflager **ist nur befugten Fachkräften gestattet**.
+die Auffangwanne, -n;drip tray / retention basin;піддон (для збору витоків хімікатів);Die Auffangwannen **müssen regelmäßig auf Dichtheit geprüft werden**.
+die Löschwasserrückhaltung (Sg.);firewater retention;утримання води для гасіння пожежі (екологічний захист);Die Löschwasserrückhaltung **verhindert das Kontaminieren des Grundwassers**.
+die Gewässerschutz (Sg.);water protection;охорона водних ресурсів;Die Einhaltung der Vorschriften zum Gewässerschutz **wird streng kontrolliert**.
+die Bodenschutz (Sg.);soil protection;охорона ґрунтів;Der Bodenschutz **ist ein wichtiger Aspekt bei der Gefahrenanalyse im Werk**.
+die Altlasten (Pl.);contaminated sites / legacy waste;минуле екологічне засмічення (забруднені ділянки ґрунту);Die Beseitigung der Altlasten **verursachte erhebliche Instandsetzungskosten**.
+die Sanierungsmaßnahme, -n;remediation measure / cleanup;заходи з екологічної санації (очищення);Die Sanierungsmaßnahmen **wurden mit der Umweltbehörde abgesprochen**.
+die Sanierungsplan, "-e;remediation plan;план санації (очищення або фінансового оздоровлення);Der Sanierungsplan **wurde vom Gutachter auf Plausibilität geprüft**.
+die Sanierungsvereinbarung, -en;remediation agreement;угода про санацію;Die Sanierungsvereinbarung **beinhaltet finanzielle Zuschüsse des Landes**.
+die Umweltbehörde, -n;environmental authority;екологічне відомство;Die Umweltbehörde **überwacht die Einhaltung der Emissionswerte**.
+die Immissionsschutzbehörde, -n;emission control authority;орган з контролю за шкідливими впливами (шум, викиди);Die Immissionsschutzbehörde **führt unangemeldete Kontrollen im Werk durch**.
+die Gewerbeaufsichtsamt, "-er;trade supervisory office;управління з нагляду за промисловістю (охорона праці/техніка безпеки);Das Gewerbeaufsichtsamt **überprüft die Einhaltung der Arbeitszeitregelungen**.
+die Arbeitsschutzbehörde, -n;occupational safety authority;орган з охорони праці;Die Arbeitsschutzbehörde **kann bei Pflichtverstößen Bußgelder verhängen**.
+die Bußgeld, -er;fine;штраф (адміністративний);Ein Verstoß gegen die Brandschutzordnung **kann ein hohes Bußgeld zur Folge haben**.
+die Bußgeldbescheid, -e;notice of fine;повідомлення про штраф;Der Bußgeldbescheid **wurde dem Geschäftsführer persönlich zugestellt**.
+die Ordnungswidrigkeit, -en;administrative offense;адміністративне правопорушення;Das Parken auf den Rettungswegen **stellt eine Ordnungswidrigkeit dar**.
+die Straftat, -en;criminal offense;кримінальний злочин;Der Diebstahl von Betriebsgeheimnissen **wurde als Straftat zur Anzeige gebracht**.
+die Strafverfahren, -;criminal proceedings;кримінальне провадження;Das Strafverfahren **wird von der Staatsanwaltschaft eingeleitet**.
+die Staatsanwaltschaft, -en;public prosecutor's office;прокуратура;Die Staatsanwaltschaft **ermittelt wegen des Verdachts auf Pflichtverletzung**.
+die Ermittlungsverfahren, -;preliminary investigation / inquiry;слідство (процедура розслідування);Das Ermittlungsverfahren **führte zur Aufklärung der Brandursache**.
+die Brandursache, -n;cause of fire;причина пожежі;Die Brandursache **wurde vom Sachverständigen im Gutachten dokumentiert**.
+die Brandstiftung, -en;arson;підпал;Es besteht der Verdacht auf Brandstiftung, **daher ermittelt die Polizei**.
+die Fahrlässigkeit (Sg.);negligence;необережність, халатність;Grobe Fahrlässigkeit **kann zum Verlust des Versicherungsschutzes führen**.
+die Vorsatz (Sg.);intent, intention;умисел;Bei Vorsatz **übernimmt die Arbeitsunfallversicherung keine Haftung**.
+die Haftungsausschluss, "-e;exclusion of liability / disclaimer;виключення відповідальності;Der Haftungsausschluss **wurde schriftlich im Vertrag festgehalten**.
+die Haftungsbeschränkung, -en;limitation of liability;обмеження відповідальності;Die Haftungsbeschränkung **ist in den AGB des Dienstleisters geregelt**.
+die Allgemeine Geschäftsbedingungen (AGB) (Pl.);general terms and conditions (AGB);загальні умови угоди (AGB);Mit der Unterschrift **bestätigen Sie das Einverständnis mit unseren AGB**.
+die Vertragsklausel, -n;contract clause;пункт (положення) договору;Die Vertragsklausel **regelt die Kündigungsfrist im Krankheitsfall**.
+die Wirksamkeit (Sg.);effectiveness / validity;дійсність, чинність (юридична);Die Wirksamkeit der Kündigung **wird vom Arbeitsgericht überprüft**.
+die Unwirksamkeit (Sg.);invalidity;недійсність;Die Unwirksamkeit der Klausel **führte zur Ungültigkeit des gesamten Absatzes**.
+die Sittenwidrigkeit (Sg.);immorality / contrariety to public policy;аморальність (невідповідність добрим звичаям — юридична підстава нікчемності угоди);Die Sittenwidrigkeit des Vertrages **wurde vom Richter festgestellt**.
+die Nichtigkeit (Sg.);nullity / invalidity;нікчемність, недійсність (угоди);Die Nichtigkeit der Vereinbarung **tritt bei Verstößen gegen das Gesetz ein**.
+die Anfechtbarkeit (Sg.);voidability / contestability;оскаржуваність (можливість оскарження правочину);Die Anfechtbarkeit des Vertrages **ergibt sich aus einer arglistigen Täuschung**.
+die Täuschung, -en;deception, fraud;обман, введення в оману;Eine arglistige Täuschung **berechtigt den Arbeitgeber zur fristlosen Kündigung**.
+die Irrtum, "-er;error, mistake;помилка (юридична помилка в розумінні умов);Ein Irrtum bei der Preisangabe **kann zur Anfechtung des Vertrages führen**.
+die Anfechtungserklärung, -en;notice of avoidance / declaration of contestation;заява про оскарження (скасування правочину через помилку або обман);Die Anfechtungserklärung **muss unverzüglich nach Entdeckung des Irrtums erfolgen**.
+die Anfechtungsfrist, -en;period for avoidance;термін оскарження;Die Anfechtungsfrist **ist gesetzlich genau geregelt**.
+die Schadensersatzpflicht, -en;liability for damages;обов'язок відшкодування збитків;Die Schadensersatzpflicht **entsteht bei schuldhafter Pflichtverletzung**.
+die Verschulden (Sg.);fault, culpability;вина;Ohne Verschulden des Arbeitnehmers **besteht keine Pflicht zum Schadenersatz**.
+die Schuldhaftigkeit (Sg.);culpability;винуватість;Die Schuldhaftigkeit des Verhaltens **wurde im Gerichtsurteil begründet**.
+die Fahrlässigkeitshaftung, -en;liability for negligence;відповідальність за необережність;Die Fahrlässigkeitshaftung **kann vertraglich nicht völlig ausgeschlossen werden**.
+die Gefährdungshaftung, -en;strict liability (liability without fault);відповідальність за створення небезпеки (незалежно від вини — напр. власника авто або заводу);Die Gefährdungshaftung **gilt für Betreiber von kerntechnischen Anlagen**.
+die Produkthaftung (Sg.);product liability;відповідальність за якість продукції;Die Produkthaftung **regelt die Haftung des Herstellers für fehlerhafte Produkte**.
+die Produktsicherheitsgesetz (ProdSG) (Sg.);product safety act;закон про безпеку продукції;Das ProdSG **schreibt strenge Sicherheitsprüfungen vor dem Verkauf vor**.
+die GS-Zeichen (geprüfte Sicherheit), -;GS mark (tested safety);знак сертифікації «безпека перевірена» (GS);Das GS-Zeichen **dient dem Verbraucher als Nachweis der geprüften Sicherheit**.
+die Konformitätsbewertung, -en;conformity assessment;оцінка відповідності;Die Konformitätsbewertung **wurde durch eine akkreditierte Prüfstelle durchgeführt**.
+die Akkreditierung, -en;accreditation;акредитація;Die Akkreditierung **bestätigt die Kompetenz des Labors zur Durchführung der Messungen**.
+die Prüfstelle, -n;testing body / inspection authority;орган сертифікації (випробувальний центр);Die Prüfstelle **ist für die Zulassung der Kältemaschinen zuständig**.
+die Sachverständigenrat, "-e;council of experts / advisory board;рада експертів;Der Sachverständigenrat **berät die Bundesregierung bei Wirtschaftsfragen**.
+die Monopolkommission, -en;monopolies commission;монопольна комісія;Die Monopolkommission **überwacht die Wettbewerbssituation auf dem Markt**.
+die Kartellamt (Bundeskartellamt) (Sg.);Federal Cartel Office;Федеральне відомство з картелів (антимонопольний комітет);Das Bundeskartellamt **prüft Fusionen von großen Unternehmen**.
+die Fusionskontrolle, -n;merger control;контроль за злиттям підприємств;Die Fusionskontrolle **verhindert die Entstehung marktbeherrschender Stellungen**.
+die marktbeherrschende Stellung;dominant market position;домінуюче становище на ринку;Eine marktbeherrschende Stellung **unterliegt der Missbrauchsaufsicht**.
+die Missbrauchsaufsicht (Sg.);abuse control / supervision of abuse;нагляд за зловживанням (домінуючим становищем);Die Missbrauchsaufsicht **wird vom Bundeskartellamt durchgeführt**.
+die Preismissbrauch, "-e;price abuse;зловживання цінами (завищення монополістом);Preismissbrauch **ist gesetzlich verboten und wird streng geahndet**.
+die Kartellverbot, -e;ban on cartels;заборона картельних угод;Das Kartellverbot **schützt den fairen Wettbewerb auf dem Markt**.
+die Preisabsprache, -n;price fixing / price agreement;цінова змова;Illegale Preisabsprachen **führten zu Millionenstrafen für die Beteiligten**.
+die Bußgeldverfahren, -;fine proceedings;провадження у справі про накладення штрафу;Das Bußgeldverfahren **wurde nach der Zahlung des Geldes eingestellt**.
+die Kronzeugenregelung, -en;leniency program / state's witness rule;програма пом'якшення покарання для тих, хто співпрацює зі слідством (кронцойге);Die Kronzeugenregelung **hilft bei der Aufdeckung geheimer Kartelle**.
+die Kronzeuge, -n / die Kronzeugin, -nen;state's witness / chief witness;головний свідок (той, хто співпрацює зі слідством);Der Kronzeuge **erhielt Straffreiheit für seine Kooperation**.
+die Straffreiheit (Sg.);immunity from prosecution;звільнення від покарання (імунітет);Die Straffreiheit **wurde im Rahmen der Kronzeugenregelung gewährt**.
+die Geldbuße, -n;administrative fine;грошовий штраф;Die Geldbuße **wurde wegen Verstoßes gegen das Immissionsschutzgesetz verhängt**.
+die Umsatzbezogene Geldbuße;turnover-related fine;штраф, що розраховується від обороту компанії;Eine umsatzbezogene Geldbuße **kann existenzbedrohend für den Betrieb sein**.
+die existenzbedrohend;existential threat / life-threatening (for a business);такий, що загрожує існуванню бізнесу;Der Liquiditätsengpass **entwickelte sich zu einer existenzbedrohenden Krise**.
+die Existenzsicherung (Sg.);securing existence / livelihood;забезпечення прожиткового мінімуму / існування;Die Existenzsicherung der Mitarbeiter **ist das oberste Ziel des Sozialplans**.
+die Insolvenzgeld, -er;insolvency payments (wages paid by labor agency during insolvency);допомога по банкрутству (виплата зарплати агентством праці);Das Insolvenzgeld **sichert die Lohnfortzahlung für drei Monate ab**.
+die Bundesagentur für Arbeit (BA) (Sg.);Federal Employment Agency;Федеральне агентство праці (BA);Die BA **zahlt das Insolvenzgeld im Falle einer Firmenpleite aus**.
+die Firmenpleite, -n;company bankruptcy;банкрутство фірми;Die Firmenpleite **verursachte eine hohe Arbeitslosenquote in der Region**.
+die Pleite, -n;bankruptcy / bust;банкрутство, крах;Nach der Pleite **musste das Handwerksunternehmen geschlossen werden**.
+die Konkurs, -e;bankruptcy;банкрутство (застарілий термін, зараз Insolvenz);Der Konkurs **wurde mangels Masse nicht eröffnet**.
+die Konkursverfahren, -;bankruptcy proceedings;процедура конкурсного провадження (банкрутства);Das Konkursverfahren **wurde nach dem alten Recht abgewickelt**.
+die Konkursmasse, -n;bankruptcy estate;банкрутське майно;Die Konkursmasse **wurde unter den Gläubigern aufgeteilt**.
+die Konkursverwalter, - / die Konkursverwalterin, -nen;receiver in bankruptcy;конкурсний керуючий;Der Konkursverwalter **versteigerte die verbliebene Ausstattung des Büros**.
+die Versteigerung, -en;auction;аукціон, примусовий продаж;Die Versteigerung der Maschinen **brachte einen Erlös für die Insolvenzmasse**.
+die Erlös, -e;revenue / proceeds;виручка (від продажу майна);Der Erlös aus dem Verkauf **diente der Befriedigung der Gläubiger**.
+die Befriedigung (z. B. der Gläubiger) (Sg.);satisfaction (e.g. of creditors);задоволення вимог (кредиторів);Die Befriedigung der Gläubiger **erfolgt nach einer gesetzlich festgelegten Quote**.
+die Insolvenzquote, -n;insolvency quota;відсоток задоволення вимог кредиторів (квота банкрутства);Die durchschnittliche Insolvenzquote **liegt in Deutschland bei unter 10 Prozent**.
+die Restschuldbefreiung, -en;discharge of residual debt;звільнення від залишку боргів;Die Restschuldbefreiung **ermöglicht dem Schuldner einen wirtschaftlichen Neustart**.
+die Wohlverhaltensphase, -n;good behavior period (in consumer insolvency);період належної поведінки (при банкрутстві фізичної особи);Während der Wohlverhaltensphase **muss der Schuldner seine Erwerbsobliegenheit erfüllen**.
+die Erwerbsobliegenheit, -en;obligation to seek employment;обов'язок працювати (шукати роботу при банкрутстві);Die Erwerbsobliegenheit **verpflichtet den Schuldner zur aktiven Stellensuche**.
+die pfändbare Einkommen;seizable income;дохід, який підлягає арешту (може бути вилучений за борги);Das pfändbare Einkommen **wird direkt an den Treuhänder abgeführt**.
+die Treuhänder, - / die Treuhänderin, -nen;trustee;довірчий керуючий (ліквідатор у спрощеному провадженні);Der Treuhänder **verteilt das pfändbare Einkommen an die Gläubiger**.
+die Privatinsolvenz, -en;consumer insolvency / personal bankruptcy;банкрутство фізичної особи;Eine Privatinsolvenz **bietet überschuldeten Personen einen Ausweg**.
+die Überschuldung, -en;over-indebtedness;надмірна заборгованість;Die Überschuldung **war die Folge von unüberlegten Ratenzahlungen**.
+die Schuldnerberatung, -en;debt counseling;консультація для боржників;Die Schuldnerberatung **unterstützt bei der Erstellung eines Schuldensanierungsplans**.
+die Schuldensanierungsplan, "-e;debt restructuring plan;план реструктуризації боргів;Der Schuldensanierungsplan **bedarf der Zustimmung aller Gläubiger**.
+die außergerichtliche Einigung;out-of-court settlement;позасудове врегулювання (компроміс);Eine außergerichtliche Einigung **verhindert das Einleiten des Insolvenzverfahrens**.
+die Insolvenzgericht, -e;insolvency court;суд у справах про банкрутство;Das Insolvenzgericht **eröffnet das Verfahren bei Vorliegen eines Eröffnungsgrundes**.
+die Eröffnungsgrund, "-e;ground for opening (insolvency);підстава для відкриття провадження (напр. неплатоспроможність);Der wichtigste Eröffnungsgrund **ist die drohende Zahlungsunfähigkeit**.
+die drohende Zahlungsunfähigkeit;imminent insolvency / threatening illiquidity;загроза неплатоспроможності;Bei drohender Zahlungsunfähigkeit **kann ein Insolvenzplan vorgelegt werden**.
+die Überschuldung (Sg.) (Insolvenzeröffnungsgrund für juristische Personen);over-indebtedness;надмірна заборгованість (підстава для банкрутства юр. осіб);Для акціонерних товариств **ist die Überschuldung ein zwingender Eröffnungsgrund**.
+die Juristische Person, -en;legal entity / corporate body;юридична особа;Eine GmbH gilt als juristische Person **und haftet nur mit dem Gesellschaftsvermögen**.
+die Gesellschaftsvermögen, -;corporate assets / company assets;майно товариства (активи компанії);Das Gesellschaftsvermögen **wird im Insolvenzfall zur Insolvenzmasse**.
+die GmbH (Gesellschaft mit beschränkter Haftung), -s;limited liability company;товариство з обмеженою відповідальністю (ТОВ);Die Gründung einer GmbH **erfordert ein Mindeststammkapital von 25.000 Euro**.
+die Stammkapital, -ien;share capital;статутний капітал;Das Stammkapital **muss auf das Bankkonto der Gesellschaft eingezahlt werden**.
+die Mindeststammkapital (Sg.);minimum share capital;мінімальний статутний капітал;Das Mindeststammkapital **dient dem Gläubigerschutz**.
+die Gläubigerschutz (Sg.);protection of creditors;захист прав кредиторів;Der Gläubigerschutz **ist ein zentrales Prinzip des deutschen Gesellschaftsrechts**.
+die Gesellschaftsrecht (Sg.);corporate law / company law;корпоративне право;Das Gesellschaftsrecht **regelt die Rechte und Pflichten der Gesellschafter**.
+die Gesellschaftervertrag, "-e;articles of association / partnership agreement;засновницький договір (статут);Der Gesellschaftervertrag **regelt die Vertretungsmacht der Geschäftsführer**.
+die Satzung, -en;statutes / bylaws;статут (акціонерного товариства або товариства);Die Satzung **muss notariell beurkundet und im Handelsregister eingetragen werden**.
+die Notarielle Beurkundung;notarial certification;нотаріальне посвідчення;Die notarielle Beurkundung **ist Voraussetzung für die Wirksamkeit der Satzung**.
+die Notar, -en / die Notarin, -nen;notary;нотаріус;Der Notar **bestätigt die Identität der Gründer bei der Existenzgründung**.
+die Handelsregister, -;commercial register;торговий реєстр;Der Eintrag im Handelsregister **macht die GmbH als juristische Person rechtsfähig**.
+die Rechtsfähigkeit (Sg.);legal capacity;правоздатність;Die Rechtsfähigkeit **erlaubt es dem Unternehmen, Verträge unter eigenem Namen abzuschließen**.
+die Geschäftsfähigkeit (Sg.);legal capacity to contract / active capacity;дієздатність;Die Geschäftsfähigkeit **tritt bei natürlichen Personen mit der Volljährigkeit ein**.
+die Natürliche Person, -en;natural person / individual;фізична особа;Jeder Mensch gilt als natürliche Person **und besitzt die Rechtsfähigkeit**.
+die Volljährigkeit (Sg.);majority / age of majority;повноліття;Mit dem Erreichen der Volljährigkeit **wird die unbeschränkte Geschäftsfähigkeit erworben**.
+die Erwerbsfähigkeit (Sg.);earning capacity / capacity to work;працездатність;Die Erwerbsfähigkeit **kann durch Krankheiten oder Unfälle eingeschränkt werden**.
+die Erwerbsminderung, -en;reduction in earning capacity;втрата (зниження) працездатності;Bei dauerhafter Erwerbsminderung **besteht Anspruch auf eine staatliche Rente**.
+die Invalidität (Sg.);invalidity / disability;інвалідність;Die Invalidität **muss durch ein medizinisches Gutachten nachgewiesen werden**.
+die Berufsunfähigkeit (Sg.);occupational disability;професійна непрацездатність (неможливість працювати за фахом);Eine Berufsunfähigkeit **liegt vor, wenn der erlernte Beruf nicht mehr ausgeübt werden kann**.
+die Berufsunfähigkeitsversicherung, -en;occupational disability insurance;страхування від професійної непрацездатності;Die Berufsunfähigkeitsversicherung **zahlt im Schadensfall eine monatliche Rente**.
+die Rentenhöhe, -n;pension amount;розмір пенсії;Die Rentenhöhe **richtet sich nach den eingezahlten Beiträgen zur Rentenversicherung**.
+die Beitragszahler, -;taxpayer / contributor;платник внесків;Die Zahl der Beitragszahler **sinkt aufgrund des demografischen Wandels**.
+die Leistungsempfänger, -;beneficiary / recipient of benefits;отримувач послуг / допомоги;Die Zahl der Leistungsempfänger **steigt kontinuierlich an**.
+die Sozialleistungssystem, -e;social benefit system;система соціального забезпечення;Das Sozialleistungssystem **muss zukunftssicher reformiert werden**.
+die Generationengerechtigkeit (Sg.);intergenerational justice;справедливість між поколіннями;Generationengerechtigkeit **erfordert eine nachhaltige Finanzpolitik**.
+die Nachhaltigkeitsfaktor, -en;sustainability factor;коефіцієнт стійкості (у розрахунку пенсій);Der Nachhaltigkeitsfaktor **dämpft den Anstieg der Renten bei demografischen Problemen**.
+die Rentenformel, -n;pension formula;пенсійна формула (розрахунок пенсії);Die Rentenformel **wird gesetzlich im Sozialgesetzbuch festgelegt**.
+die Sozialgesetzbuch (SGB) (Sg.);Social Code;Соціальний кодекс (SGB);Das SGB **beinhaltet alle Rechtsnormen zur Sozialversicherung**.
+die Sozialgesetzgebung (Sg.);social legislation;соціальне законодавство;Die Sozialgesetzgebung **dient der sozialen Absicherung der Bevölkerung**.
+die Soziale Sicherheit;social security;соціальна безпека (захищеність);Soziale Sicherheit **ist ein Grundprinzip des deutschen Sozialstaates**.
+die Sozialstaat (Sg.);welfare state;соціальна держава;Deutschland versteht sich als Sozialstaat **im Sinne des Grundgesetzes**.
+die Sozialstaatsprinzip (Sg.);welfare state principle;принцип соціальної держави;Das Sozialstaatsprinzip **verpflichtet den Gesetzgeber zur sozialen Gerechtigkeit**.
+die Soziale Gerechtigkeit;social justice;соціальна справедливість;Soziale Gerechtigkeit **erfordert eine gerechte Verteilung der Steuern**.
+die Steuergerechtigkeit (Sg.);tax fairness / tax justice;податкова справедливість;Steuergerechtigkeit **soll durch eine progressive Einkommensteuer erreicht werden**.
+die Einkommensteuer, -n;income tax;податок на доходи фізичних осіб (ПДФО);Die Einkommensteuer **wird vom Bruttogehalt des Arbeitnehmers abgezogen**.
+die Bruttogehalt, "-er;gross salary;валова заробітна плата (брутто);Das Bruttogehalt **ist die Basis für die Berechnung der Sozialabgaben**.
+die Nettogehalt, "-er;net salary;чиста заробітна плата (нетто);Das Nettogehalt **wird jeden Monat auf das Bankkonto überwiesen**.
+die Gehaltskonto, -en;salary account;зарплатний рахунок;Bitte geben Sie Ihre IBAN **für das Gehaltskonto im Personalbüro an**.
+die IBAN (International Bank Account Number), -s;IBAN;номер банківського рахунку IBAN;Die IBAN **ist für die Überweisung des Gehalts zwingend erforderlich**.
+die Bankverbindung, -en;bank details;банківські реквізити;Bitte teilen Sie uns Ihre Bankverbindung **im Personaldatenblatt mit**.
+die Einzugsermächtigung, -en;direct debit authorization;дозвіл на списання коштів з рахунку;Die Einzugsermächtigung **erleichtert das Bezahlen der monatlichen Miete**.
+die SEPA-Lastschriftmandat, -e;SEPA direct debit mandate;мандат прямого дебету SEPA;Das SEPA-Lastschriftmandat **muss dem Vermieter schriftlich erteilt werden**.
+die Lastschrift, -en;direct debit;пряме дебетування (списання з рахунку);Die Abbuchung **erfolgt per Lastschrift zum Fälligkeitstag**.
+die Abbuchung, -en;debit / withdrawal;списання коштів;Die Abbuchung der Stromkosten **erfolgt monatlich durch den Energieversorger**.
+die Dauerauftrag, "-e;standing order;регулярний платіж (автоплатіж);Ich habe einen Dauerauftrag **für die Mietzahlung bei meiner Bank eingerichtet**.
+die Online-Banking, -s;online banking;онлайн-банкінг;Online-Banking **ermöglicht die schnelle Abwicklung von Inlands- та Auslandsüberweisungen**.
+die Überweisung, -en;bank transfer;банківський переказ;Die Überweisung der Kaution **muss vor der Wohnungsübergabe erfolgen**.
+die Zahlungsempfänger, - / die Zahlungsempfängerin, -nen;payee / recipient of payment;отримувач платежу;Der Name des Zahlungsempfängers **muss auf dem Beleg angegeben sein**.
+die Beleg, -e;receipt / voucher;квитанція, чек, виправдний документ;Bewahren Sie den Beleg gut auf, **um das Rückgaberecht in Anspruch zu nehmen**.
+die Buchungsbeleg, -e;accounting voucher;бухгалтерський документ (ордер/проводка);Jede Buchung **erfordert einen entsprechenden Buchungsbeleg**.
+die Buchführung, -en;bookkeeping / accounting;бухгалтерія, ведення обліку;Eine ordnungsgemäße Buchführung **ist gesetzliche Pflicht für Kaufleute**.
+die Buchhalter, - / die Buchhalterin, -nen;bookkeeper / accountant;бухгалтер;Die Buchhalterin **ist mit der Kontierung der Rechnungen beschäftigt**.
+die Kontierung, -en;account assignment / coding;кодування (визначення рахунків бухгалтерської проводки);Die Kontierung der Belege **erfolgt nach dem Kontenrahmen**.
+die Kontenrahmen, -;chart of accounts;план рахунків;Der Kontenrahmen **sichert eine einheitliche Strukturierung der Buchhaltung**.
+die Buchung, -en;entry / posting (accounting);бухгалтерська проводка;Die Buchung der Abschreibungen **erfolgt am Ende des Geschäftsjahres**.
+die Abschreibung, -en;depreciation / amortization;амортизація (зношення активів);Die Abschreibungen auf Neuanschaffungen **mindern den steuerlichen Gewinn**.
+die Gewinnminderung, -en;reduction of profit;зниження прибутку;Die Gewinnminderung **führt zu einer Reduzierung der Steuerlast**.
+die Steuerlast, -en;tax burden;податкове навантаження;Die Steuerlast **kann durch legale Abschreibungen spürbar gesenkt werden**.
+die Steuererleichterung, -en;tax relief / tax break;податкова пільга;Die Steuererleichterungen **sollen Investitionen in Solaranlagen fördern**.
+die Subvention, -en;subsidy;субсидія;Die Subventionen für fossile Energieträger **wurden gesetzlich gestrichen**.
+die Subventionsabbau (Sg.);reduction of subsidies;скорочення субсидій;Der Subventionsabbau **ist Teil des staatlichen Programms zur Haushaltskonsolidierung**.
+die Haushaltskonsolidierung (Sg.);fiscal consolidation / budget consolidation;консолідація бюджету (скорочення дефіциту);Die Haushaltskonsolidierung **erfordert Einsparungen in allen Ressorts**.
+die Staatsverschuldung (Sg.);national debt / public debt;державний борг;Eine hohe Staatsverschuldung **kann das Zinsniveau langfristig beeinflussen**.
+die Schuldenbremse (Sg.);debt brake (constitutional limit on budget deficits in Germany);боргове гальмо (обмеження держборгу в конституції Німеччини);Die Schuldenbremse **ist im Grundgesetz verankert und begrenzt das Haushaltsdefizit**.
+die Haushaltsdefizit, -e;budget deficit;дефіцит бюджету;Das Haushaltsdefizit **konnte durch höhere Steuereinnahmen gesenkt werden**.
+die Steuereinnahmen (Pl.);tax revenues;податкові надходження;Die Steuereinnahmen des Bundes **haben einen neuen Höchststand erreicht**.
+die Fiskalpolitik (Sg.);fiscal policy;фіскальна політика;Die Fiskalpolitik **strebt eine Stabilisierung der konjunkturellen Entwicklung an**.
+die Konjunkturzyklus, -zyklen;business cycle / economic cycle;економічний цикл (кон'юнктурний);Der Konjunkturzyklus **durchläuft die Phasen Aufschwung, Boom, Rezession und Depression**.
+die Aufschwung, "-e;economic upswing / recovery;економічне піднесення;Ein konjunktureller Aufschwung **führt zu einer sinkenden Arbeitslosenquote**.
+die Rezession, -en;recession;рецесія, спад;In einer Rezession **leidet das produzierende Gewerbe unter Auftragsmangel**.
+die Konjunkturprogramm, -e;economic stimulus program;програма стимулювання економіки;Das Konjunkturprogramm **soll die Wirtschaft aus der Rezession führen**.
+die Wirtschaftswachstum (Sg.);economic growth;економічне зростання;Das Wirtschaftswachstum **wird am Bruttoinlandsprodukt (BIP) gemessen**.
+die Bruttoinlandsprodukt (BIP) (Sg.);gross domestic product (GDP);валовий внутрішній продукт (ВВП);Das BIP **ist der wichtigste Indikator für die wirtschaftliche Leistungsfähigkeit**.
+die Wirtschaftskraft (Sg.);economic strength;економічна сила (потенціал країни/регіону);Die Wirtschaftskraft Bayerns **beruht auf einem starken Mittelstand**.
+die Strukturwandel, -;structural change;структурні зміни (в економіці);Der Strukturwandel **erfordert die Umschulung von Arbeitnehmern**.
+die Strukturförderung (Sg.);structural promotion / regional aid;структурна підтримка (допомога відсталим регіонам);Die Strukturförderung **soll die Lebensbedingungen in strukturschwachen Regionen angleichen**.
+die strukturschwach;economically weak / underdeveloped;економічно слабкий, відсталий;In strukturschwachen Gebieten **ist die Stellensuche oft sehr schwierig**.
+die Strukturstärke, -n;structural strength;економічна розвиненість (структурна сила);Die Strukturstärke des Ballungsraums **zieht viele Fachkräfte an**.
+die Standortpolitik (Sg.);location policy;політика сприяння розміщенню бізнесу (локальна політика залучення інвестицій);Eine aktive Standortpolitik **verbessert die Infrastruktur vor Ort**.
+die Ansiedlung, -en;settlement / establishment (of companies);оселення, розміщення (підприємства);Die Ansiedlung des Automobilwerks **schuf 1000 neue Arbeitsplätze**.
+die Arbeitsplatzbeschaffung (Sg.);job creation;створення робочих місць;Die Arbeitsplatzbeschaffung **wird durch staatliche Investitionszuschüsse gefördert**.
+die Beschäftigungsförderung (Sg.);employment promotion;сприяння зайнятості;Die Beschäftigungsförderung **ist eine Hauptaufgabe der Bundesagentur für Arbeit**.
+die Arbeitsförderung (Sg.);employment promotion (under social law SGB III);сприяння працевлаштуванню (за законом SGB III);Die gesetzliche Arbeitsförderung **beinhaltet Bildungs- та Vermittlungsgutscheine**.
+die Weiterbildungsförderung (Sg.);promotion of further training;підтримка підвищення кваліфікації;Die Weiterbildungsförderung **kann über das Aufstiegs-BAföG erfolgen**.
+die Aufstiegs-BAföG (Sg.);financial support for career advancement (under AFBG);фінансова підтримка кар'єрного зростання (Aufstiegs-BAföG);Mit dem Aufstiegs-BAföG **wird die Meisterprüfung finanziell gefördert**.
+die Aufstiegsfortbildung, -en;advancement training / career training;підвищення кваліфікації для кар'єрного просування;Die Aufstiegsfortbildung **bereitet auf die Übernahme von Führungsverantwortung vor**.
+die Fachfortbildung, -en;specialized training;спеціалізоване підвищення кваліфікації;Die Fachfortbildung **dient dem Erwerb spezieller Sachkunde**.
+die Sachkundenachweis, -e;proof of competence;підтвердження компетентності;Der Sachkundenachweis **ist nach bestandener Fachprüfung beim Amt einzureichen**.
+die Fachprüfung, -en;specialized exam;професійний (фаховий) іспит;Die Fachprüfung **wurde vor einer staatlich anerkannten Prüfstelle abgelegt**.
+die Prüfungsordnung, -en;examination regulations;положення про іспити;Die Prüfungsordnung **regelt den genauen Ablauf und die Notenvergabe**.
+die Benotung, -en;grading / marking;оцінювання (виставлення оцінок);Die Benotung **muss nach transparenten und sachlichen Kriterien erfolgen**.
+die Bewertungsmaßstab, "-e;evaluation standard / grading scale;шкала (критерій) оцінювання;Der Bewertungsmaßstab **ist in der Prüfungsordnung festgeschrieben**.
+die Bestehensgrenze, -n;passing limit / pass mark;прохідний бал (поріг здачі);Die Bestehensgrenze **liegt in der Regel bei 50 Prozent der Punkte**.
+die Punktzahl, -en;number of points / score;кількість балів;Die erreichte Punktzahl **wird im Prüfungszeugnis ausgewiesen**.
+die Prüfungsleistung, -en;exam performance;екзаменаційна робота (результат іспиту);Die Prüfungsleistung **wurde von zwei Prüfern unabhängig beurteilt**.
+die Zweitkorrektur, -en;second marking / double marking;друга перевірка (екзаменаційної роботи);Die Zweitkorrektur **sichert die Fairness und Korrektheit der Benotung**.
+die Erstkorrektur, -en;first marking;перша перевірка;Die Erstkorrektur **wurde vom Fachlehrer durchgeführt**.
+die Korrektor, -en / die Korrektorin, -nen;marker / proofreader;екзаменатор, який перевіряє роботи;Die Korrektorin **bemängelte die ungenaue Formulierung im Gesetzestext**.
+die Formulierung, -en;formulation / wording;формулювання;Eine präzise Formulierung **ist für die Wirksamkeit von Vertragsklauseln entscheidend**.
+die Auslegung, -en;interpretation;тлумачення (закону або договору);Die Auslegung des Gesetzes **erfolgt im Zweifel durch die Rechtsprechung**.
+die Auslegungsspielraum, "-e;room for interpretation;простір для тлумачення;Der Vertragstext **lässt dem Richter einen gewissen Auslegungsspielraum**.
+die Zweifelsfall, "-e;case of doubt;сумнівний випадок (у разі сумніву);Im Zweifelsfall **ist die verbraucherfreundliche Auslegung anzuwenden**.
+die Verbraucherschutz (Sg.);consumer protection;захист прав споживачів;Der Verbraucherschutz **wird durch strenge gesetzliche Verordnungen geregelt**.
+die Verbraucherschutzorganisation, -en;consumer protection organization;організація захисту споживачів;Die Verbraucherschutzorganisation **warnt vor irreführenden AGB im Internet**.
+die Verbraucherzentrale, -n;consumer advice center;центр захисту споживачів;Die Verbraucherzentrale **bietet rechtliche Rechtsberatung bei Reklamationen**.
+die Musterklage, -n;model case / representative action;зразковий позов (колективний позов);Die Musterklage **soll Schadensersatz für Tausende Kunden erstreiten**.
+die Kläger, - / die Klägerin, -nen;plaintiff / claimant;позивач;Der Kläger **reichte die Klageschrift über seinen Rechtsanwalt ein**.
+die Beklagte, -n / die Beklagte, -n;defendant;відповідач;Die Beklagte **wies die Forderungen der Gegenseite als unbegründet zurück**.
+die Gegenseite (Sg.);opposing party / other side;протилежна сторона;Die Gegenseite **hat den Schlichtungsvorschlag abgelehnt**.
+die Schriftsatz, "-e;pleading / written brief;судова заява (письмове пояснення по справі);Die Anwälte **haben die Schriftsätze fristgerecht beim Gericht eingereicht**.
+die Gerichtsakte, -n;court file / record;судова справа (матеріали справи);Die Schriftsätze **werden in der Gerichtsakte abgeheftet**.
+die Akteneinsicht (Sg.);inspection of files;ознайомлення з матеріалами справи;Der Rechtsanwalt **hat Akteneinsicht beim Arbeitsgericht beantragt**.
+die Aktenzeichen, -;file reference / case number;номер судової справи (акту);Bitte geben Sie das Aktenzeichen **bei jedem Schriftwechsel mit dem Gericht an**.
+die Geschäftsstelle, -n;office / registry (of the court);канцелярія суду;Die Klageschrift **muss bei der Geschäftsstelle eingereicht werden**.
+die Rechtspfleger, - / die Rechtspflegerin, -nen;court registrar / judicial officer;судовий виконавець (референт суду);Der Rechtspfleger **ist für die Festsetzung der Prozesskosten zuständig**.
+die Prozesskosten (Pl.);legal costs / litigation costs;судові витрати;Die Prozesskosten **bestehen aus Gerichtsgebühren und Anwaltskosten**.
+die Prozesskostenhilfe (PKH) (Sg.);legal aid;допомога на оплату судових витрат (PKH);Personen mit geringem Einkommen **können Prozesskostenhilfe beantragen**.
+die Bedürftigkeitsprüfung, -en;means test;перевірка матеріального стану (потреби);Die PKH **erfordert eine gründliche Bedürftigkeitsprüfung der Kläger**.
+die Vermögensverzeichnis, -se;statement of assets / inventory of property;декларація про майно (активи);Das Vermögensverzeichnis **muss unter Eid beim Gerichtsvollzieher abgegeben werden**.
+die Offenbarungseid (Sg.);statutory declaration / oath of disclosure (now Vermögensauskunft);присяга про розкриття майнового стану;Die Abgabe des Offenbarungseids **wird im Melderegister vermerkt**.
+die Gerichtsvollzieher, - / die Gerichtsvollzieherin, -nen;bailiff;судовий виконавець;Der Gerichtsvollzieher **vollstreckt das rechtskräftige Gerichtsurteil**.
+die Zwangsvollstreckung, -en;foreclosure / enforcement of judgment;примусове виконання (стягнення);Die Zwangsvollstreckung **wurde wegen Zahlungsverzugs eingeleitet**.
+die Vollstreckungstitel, -;writ of execution / enforceable title;виконавчий документ;Das Urteil **dient nach der Zustellung als Vollstreckungstitel**.
+die Zustellung, -en;service / delivery (legal);вручення (офіційне повідомлення);Die Zustellung der Klageschrift **erfolgt per Post mit Zustellungsurkunde**.
+die Zustellungsurkunde, -n;certificate of service;повідомлення про вручення (судової пошти);Die Zustellungsurkunde **weist das genaue Datum der Zustellung nach**.
+die Fristablauf, "-e;expiration of deadline;закінчення терміну;Nach Fristablauf **kann gegen den Bußgeldbescheid kein Einspruch mehr eingelegt werden**.
+die Einspruch, "-e;objection / appeal;заперечення, апеляція (проти рішень відомств);Der Einspruch **muss innerhalb von zwei Wochen schriftlich erfolgen**.
+die Einspruchsfrist, -en;period for filing an objection;термін подання заперечення;Die Einspruchsfrist **ist eine gesetzliche Ausschlussfrist**.
+die Ausschlussfrist, -en;exclusion period / forfeiture period;преклюзивний термін (строк втрати права);Laut Tarifvertrag **gilt für Gehaltsforderungen eine dreimonatige Ausschlussfrist**.
+die Verjährung, -en;statute of limitations / limitation;позовна давність;Die Verjährung der Forderung **tritt nach der gesetzlichen Regelfrist von drei Jahren ein**.
+die Verjährungsfrist, -en;limitation period;термін позовної давності;Die Verjährungsfrist **kann durch Verhandlungen gehemmt werden**.
+die Hemmung (z. B. der Verjährung) (Sg.);suspension (e.g. of limitation);зупинення (перебігу позовної давності);Der Beginn von Verhandlungen **führt zur Hemmung der Verjährungsfrist**.
+die Neubeginn (z. B. der Verjährung) (Sg.);restart (e.g. of limitation);початок перебігу позовної давності заново;Ein Anerkenntnis der Schuld **löst den Neubeginn der Verjährung aus**.
+die Anerkenntnis, -se;acknowledgment / admission;визнання (боргу/провини);Die schriftliche Anerkenntnis **verhindert das Eintreten der Verjährung**.
+die Schuldanerkenntnis, -se;acknowledgment of debt;визнання боргу (документ);Das Schuldanerkenntnis **wurde vom Schuldner unterzeichnet**.
+die Schuldner, - / die Schuldnerin, -nen;debtor;боржник;Der Schuldner **befindet sich in Zahlungsverzug, folglich muss er Verzugszinsen zahlen**.
+die Gläubiger, - / die Gläubigerin, -nen;creditor;кредитор;Der Gläubiger **hat das Recht, die Zwangsvollstreckung zu betreiben**.
+die Gläubigerverzeichnis, -se;list of creditors;список кредиторів;Das Gläubigerverzeichnis **ist dem Insolvenzantrag beizulegen**.
+die Schuldenverzeichnis, -se;debt register;список боргів (реєстр боржників);Der Eintrag im Schuldenverzeichnis **schadet der Bonität des Unternehmens**.
+die Bonitätsauskunft, "-e;credit report;довідка про платоспроможність;Eine Bonitätsauskunft **gibt Aufschluss über die Kreditwürdigkeit**.
+die Auskunftsdatei, -en;credit reference agency / database;довідкова база даних (кредитне бюро);Die Schufa ist die bekannteste Auskunftsdatei **in Deutschland**.
+die Scoring-Verfahren, -;scoring method;метод скорингу (оцінки ризиків);Das Scoring-Verfahren **berechnet die Wahrscheinlichkeit eines Zahlungsausfalls**.
+die Zahlungsausfall, "-e;default in payment;неплатіж (втрата платежу);Ein hoher Zahlungsausfall **kann einen Liquiditätsengpass verursachen**.
+die Ausfallrisiko, -en;default risk;ризик невиплати (дефолту);Das Ausfallrisiko **wird durch die Bonitätsprüfung minimiert**.
+die Risikomanagement (Sg.);risk management;управління ризиками;Das Risikomanagement **ist Teil der strategischen Unternehmensführung**.
+die Risikobewertung, -en;risk assessment;оцінка ризиків;Die Risikobewertung **muss vor der Vergabe großer Kredite erfolgen**.
+die Risikoanalyse, -n;risk analysis;аналіз ризиків;Die Risikoanalyse **weist auf potenzielle Gefahrenquellen beim Export hin**.
+die Exportrisiko, -en;export risk;експортний ризик;Um das Exportrisiko abzusichern, **nutzen wir staatliche Hermesdeckungen**.
+die Hermesdeckung, -en;Hermes cover (state export credit guarantee in Germany);експортна гарантія Гермес (державне страхування експортних кредитів);Die Hermesdeckung **schützt den Exporteur vor Zahlungsausfällen**.
+die Exporteur, -e / die Exporteurin, -nen;exporter;експортер;Der Exporteur **muss alle Zollbestimmungen des Empfängerlandes beachten**.
+die Importeur, -e / die Importeurin, -nen;importer;імпортер;Der Importeur **ist für die Entrichtung des Einfuhrzolls zuständig**.
+die Einfuhrumsatzsteuer (EUSt) (Sg.);import turnover tax;імпортний ПДВ (EUSt);Die EUSt **wird von der Zollbehörde bei der Einfuhr erhoben**.
+die Zollanmeldung, -en;customs declaration;митна декларація;Die Zollanmeldung **muss elektronisch über das ATLAS-System abgegeben werden**.
+die ATLAS-System (Sg.);ATLAS system (German automated customs system);система ATLAS (автоматизована митна система);Das ATLAS-System **erleichtert die schnelle Zollabwicklung**.
+die Zolltarif, -e;customs tariff;митний тариф;Der anwendbare Zolltarif **richtet sich nach der Codenummer der Ware**.
+die Codenummer, -n;code number / tariff code;код товару (митна кодифікація);Die korrekte Codenummer **ist im Frachtbrief anzugeben**.
+die Zolltarifnummer, -n;customs tariff number;код митного тарифу;Die Zolltarifnummer **dient der Klassifizierung der Güter beim Import**.
+die Tarifierung, -en;classification / tariffing;тарифікація (класифікація товарів для мита);Die korrekte Tarifierung **verhindert Probleme bei der Zollprüfung**.
+die Zollprüfung, -en;customs audit / inspection;митна перевірка;Die Zollprüfung **kann auch nachträglich im Betrieb durchgeführt werden**.
+die Außenprüfung, -en;field audit / tax audit;зовнішня (виїзна) податкова перевірка;Die Außenprüfung **wurde vom Finanzamt schriftlich angekündigt**.
+die Prüfungsanordnung, -en;audit order;розпорядження про проведення перевірки;Die Prüfungsanordnung **muss den Prüfungszeitraum genau definieren**.
+die Prüfungszeitraum, "-e;audit period;період перевірки;Der Prüfungszeitraum **umfasst die letzten drei Geschäftsjahre**.
+die Prüfungsbericht, -e;audit report;аудиторський звіт;Der Prüfungsbericht **enthält Feststellungen über steuerliche Pflichtverletzungen**.
+die Steuernachzahlung, -en;tax back-payment;доплата податку;Die Betriebsprüfung **führte zu einer erheblichen Steuernachzahlung**.
+die Nachzahlungszins, -en;interest on back-payments;відсотки за прострочення податкових платежів;Die Nachzahlungszinsen **erhöhen die finanzielle Belastung des Betriebs**.
+die Zinsberechnung, -en;interest calculation;розрахунок відсотків;Die Zinsberechnung **erfolgt nach den gesetzlichen Vorschriften der Abgabenordnung**.
+die Abgabenordnung (AO) (Sg.);Fiscal Code;Податковий кодекс (AO - процесуальний регламент податків);Die AO **regelt das steuerliche Ermittlungsverfahren des Finanzamts**.
+die Steuerbehörde, -n;tax authority;податковий орган;Die Steuerbehörde **kann bei begründetem Verdacht Kontrollen durchführen**.
+die Steuerfahndung, -en;tax investigation unit;податкова поліція (розслідування податкових злочинів);Die Steuerfahndung **durchsuchte die Geschäftsräume des Unternehmens**.
+die Hausdurchsuchung, -en;search of the premises;обшук приміщення (дому/офісу);Die Hausdurchsuchung **wurde vom Richter wegen Verdachts auf Steuerhinterziehung angeordnet**.
+die Steuerhinterziehung, -en;tax evasion;ухилення від сплати податків;Steuerhinterziehung **ist eine schwere Straftat und wird mit Gefängnis bestraft**.
+die Gefängnisstrafe, -n;prison sentence / jail term;тюремне ув'язнення;Dem Geschäftsführer **droht wegen Steuerhinterziehung eine Gefängnisstrafe**.
+die Bewährungsstrafe, -n;suspended sentence / probation;умовний термін;Richter können bei Ersttätern **eine Gefängnisstrafe zur Bewährung aussetzen**.
+die Bewährungsauflage, -n;probation condition;умови випробувального терміну (при умовному звільненні);Die Einhaltung der Bewährungsauflagen **wird vom Bewährungshelfer überwacht**.
+die Bewährungshelfer, - / die Bewährungshelferin, -nen;probation officer;інспектор з питань пробації (наглядач);Der Bewährungshelfer **unterstützt den Verurteilten bei der Wiedereingliederung**.
+die Wiedereingliederung (Sg.) (gesellschaftlich/sozial);social reintegration;суспільна (соціальна) реінтеграція;Die Resozialisierung **strebt die erfolgreiche Wiedereingliederung in die Gesellschaft an**.
+die Resozialisierung (Sg.);rehabilitation / resocialization;ресоціалізація;Resozialisierung **ist das oberste Ziel des deutschen Strafvollzugs**.
+die Strafvollzug (Sg.);execution of sentences / prison system;виконання покарань (пенітенціарна система);Der Strafvollzug **unterliegt der Aufsicht des Justizministeriums**.
+die Justizministerium (Sg.);Ministry of Justice;Міністерство юстиції;Das Justizministerium **erarbeitet Gesetzesentwürfe zur Reform des Strafrechts**.
+die Strafrecht (Sg.);criminal law;кримінальне право;Das Strafrecht **definiert die Voraussetzungen für eine Bestrafung**.
+die Bestrafung, -en;punishment;покарання;Die Bestrafung **soll der Abschreckung und der Gerechtigkeit dienen**.
+die Abschreckung (Sg.);deterrence;залякування, запобігання (превенція);Die Abschreckung **ist ein wichtiges Ziel der gesetzlichen Strafen**.
+die Prävention (Sg.);prevention;профілактика, запобігання;Maßnahmen zur Prävention **stehen auch beim Arbeitsschutz im Vordergrund**.
+die Kriminalprävention (Sg.);crime prevention;профілактика злочинності;Die Kriminalprävention **wird durch polizeiliche Beratung gefördert**.
+die Opferberatung, -en;victim counseling;консультація потерпілих;Die Opferberatung **bietet psychosoziale Betreuung für Betroffene von Straftaten**.
+die Opferhilfe (Sg.);victim support;допомога потерпілим;Die Opferhilfe **wird durch gemeinnützige Vereine organisiert**.
+die Gemeinnützigkeit (Sg.);charitable status / public utility;суспільна корисність, благодійність (статус некомерційної організації);Die Gemeinnützigkeit **befreit den Verein von der Körperschaftsteuer**.
+die Körperschaftsteuer, -n;corporate income tax;корпоративний податок (податок на прибуток підприємств);Die Körperschaftsteuer **wird auf den Gewinn von juristischen Personen erhoben**.
+die Gewerbesteuer, -n;trade tax (local business tax in Germany);промисловий податок (муніципальний податок на бізнес);Die Gewerbesteuer **fließt direkt an die Kommunen**.
+die Hebesatz, "-e;multiplier / assessment rate (for local taxes);ставка оподаткування (коефіцієнт Hebesatz для місцевих податків);Der Hebesatz **wird von der Gemeinde selbstständig festgelegt**.
+die Gemeinde, -n;municipality / local community;громада, муніципалітет;Die Gemeinde **ist für die Bereitstellung der Infrastruktur zuständig**.
+die Kommunalverwaltung, -en;local government / municipal administration;комунальне управління, місцева адміністрація;Die Kommunalverwaltung **bearbeitet Anträge auf Gewerbeanmeldung**.
+die Gewerbeanmeldung, -en;business registration;реєстрація підприємницької діяльності;Die Gewerbeanmeldung **ist vor dem Arbeitsbeginn des Betriebs vorzunehmen**.
+die Gewerbeamt, "-er;trade office / licensing office;відділ реєстрації підприємництва;Das Gewerbeamt **stellt den Gewerbeschein nach der Anmeldung aus**.
+die Gewerbeschein, -e;trade license / business registration certificate;дозвіл на промисел (свідоцтво про реєстрацію бізнесу);Der Gewerbeschein **dient als offizieller Nachweis der selbstständigen Tätigkeit**.
+die Selbstständigkeit (Sg.);self-employment / independence;самостійність, підприємницька діяльність;Der Schritt in die Selbstständigkeit **erfordert Mut und kaufmännische Kenntnisse**.
+die Scheinselbstständigkeit (Sg.);false self-employment;фіктивна самостійність (коли фрілансер фактично є найманим працівником);Scheinselbstständigkeit **ist illegal und führt zu Nachzahlungen von Sozialabgaben**.
+die Statusfeststellungsverfahren, -;status determination procedure (to check for false self-employment);процедура визначення статусу зайнятості (для виявлення фіктивної самостійності);Das Statusfeststellungsverfahren **wird von der Deutschen Rentenversicherung durchgeführt**.
+die Deutsche Rentenversicherung (DRV) (Sg.);German Pension Insurance;Німецьке пенсійне страхування (DRV);Die DRV **prüft den sozialversicherungsrechtlichen Status der Mitarbeiter**.
+die Sozialversicherungsprüfung, -en;social security audit;перевірка сплати внесків на соцстрахування;Eine Sozialversicherungsprüfung **findet alle vier Jahre in jedem Betrieb statt**.
+die Beitragsnachzahlung, -en;back-payment of contributions;доплата соціальних внесків;Die Beitragsnachzahlung **kann den Arbeitgeber finanziell schwer belasten**.
+die Säumniszuschlag, "-e;late payment penalty;пеня за несвоєчасну сплату внесків/податків;Bei verspäteter Zahlung **wird ein gesetzlicher Säumniszuschlag berechnet**.
+die Verzug, "-e;delay / default;прострочення, затримка;Der Verzug **berechtigt den Gläubiger zur Erhebung von Mahngebühren**.
+die Verzugsgebühr, -en;late fee;плата за прострочення;Die Verzugsgebühr **wurde in der Betriebskostenabrechnung ausgewiesen**.
+die Rückstand, "-e;arrears / backlog;заборгованість, відставання;Der Mietrückstand **ist ein gesetzlicher Kündigungsgrund für den Vermieter**.
+die Mietrückstand, "-e;rent arrears;заборгованість по орендній платі;Bei einem Mietrückstand von zwei Monatsmieten **droht die fristlose Kündigung**.
+die Räumungsklage, -n;eviction lawsuit;позов про виселення;Der Vermieter **reichte eine Räumungsklage beim Amtsgericht ein**.
+die Räumungsurteil, -e;eviction order / judgment;судове рішення про виселення;Das Räumungsurteil **ist dem Gerichtsvollzieher zur Vollstreckung vorzulegen**.
+die Zwangsräumung, -en;forced eviction;примусове виселення;Die Zwangsräumung **wurde durch den Gerichtsvollzieher durchgeführt**.
+die Räumungsfrist, -en;period for evacuation / eviction period;термін виселення (звільнення приміщення);Der Richter **kann dem Mieter eine angemessene Räumungsfrist gewähren**.
+die Härtefall, "-e;case of hardship;важкий випадок (особлива скрута);Bei Vorliegen eines Härtefalls **kann die Kündigung der Wohnung unwirksam sein**.
+die Härtefallregelung, -en;hardship clause / regulation;правила врегулювання особливих випадків (скрути);Die Härtefallregelung **sieht Ausnahmen von den gesetzlichen Vorschriften vor**.
+die Ausnahmeregelung, -en;exceptional regulation / exemption;виняток (особливі правила);Für kleine Handwerksbetriebe **gilt eine Ausnahmeregelung beim Kündigungsschutz**.
+die Sonderregelung, -en;special regulation;спеціальне регулювання;Die Sonderregelung **wurde mit dem Personalrat schriftlich vereinbart**.
+die Personalrat, "-e;staff council (public sector equivalent of works council);рада трудового колективу (у держсекторі);Der Personalrat **vertritt die Interessen der Beschäftigten im öffentlichen Dienst**.
+die Personalvertretungsgesetz (PersVG) (Sg.);Staff Representation Act;закон про представництво інтересів персоналу (PersVG);Das PersVG **regelt die Mitbestimmungsrechte des Personalrats**.
+die Mitbestimmungsrecht, -e;right of co-determination;право на співучасть у прийнятті рішень (участь у керівництві);Das Mitbestimmungsrecht **ist ein zentraler Pfeiler der sozialen Partnerschaft**.
+die Soziale Partnerschaft;social partnership;соціальне партнерство;Die soziale Partnerschaft **sichert den inneren Frieden in der Wirtschaft**.
+die Betriebsfriede (Sg.);industrial peace / peace within the company;внутрішній мир на підприємстві (доброзичлива атмосфера);Die Störung des Betriebsfriedens **kann eine verhaltensbedingte Kündigung rechtfertigen**.
+die Arbeitsklima (Sg.);working atmosphere;робоча атмосфера;Ein gutes Arbeitsklima **wirkt sich positiv auf die Gesundheit der Belegschaft aus**.

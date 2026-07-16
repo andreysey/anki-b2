@@ -539,7 +539,8 @@
   {
     "level": "B1+",
     "levels": [
-      "B1+"
+      "B1+",
+      "B2"
     ],
     "thema": 1,
     "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Selbstständigkeit (Sg.)",
@@ -2043,8 +2044,7 @@
   {
     "level": "B1+",
     "levels": [
-      "B1+",
-      "B2"
+      "B1+"
     ],
     "thema": 3,
     "german": "in der Regel",
@@ -2225,8 +2225,7 @@
   {
     "level": "B1+",
     "levels": [
-      "B1+",
-      "B2"
+      "B1+"
     ],
     "thema": 3,
     "german": "erwünscht",
@@ -5125,8 +5124,7 @@
   {
     "level": "B1+",
     "levels": [
-      "B1+",
-      "B2"
+      "B1+"
     ],
     "thema": 7,
     "german": "nachteilig",
@@ -21769,7 +21767,7 @@
     "german_audio": "der Ablauf",
     "english": "process, sequence",
     "ukrainian": "процес, хід",
-    "example": "Wir müssen den <b style=\"color: #eab308;\">Ablauf</b> des Software-Deployments optimieren."
+    "example": "Wir müssen den <b style=\"color: #eab308;\">Ablauf</b> der Flugzeugabfertigung **im Übergabeprotokoll genau beschreiben**."
   },
   {
     "level": "B2",
@@ -21781,7 +21779,7 @@
     "german_audio": "abwägen",
     "english": "to weigh up, to consider",
     "ukrainian": "зважувати, обмірковувати",
-    "example": "Wir müssen die Vor- und Nachteile der neuen API <b style=\"color: #eab308;\">abwägen</b>."
+    "example": "Wir müssen alle Risiken und Chancen sorgfältig <b style=\"color: #eab308;\">abwägen</b>, bevor wir **eine Entscheidung treffen**."
   },
   {
     "level": "B2",
@@ -21793,7 +21791,7 @@
     "german_audio": "die Auftragsabwicklung",
     "english": "order processing",
     "ukrainian": "обробка замовлення",
-    "example": "Die App automatisiert die komplette <b style=\"color: #eab308;\">Auftragsabwicklung</b> für den Shop."
+    "example": "Eine effiziente <b style=\"color: #eab308;\">Auftragsabwicklung</b> **ist Voraussetzung für eine hohe Kundenzufriedenheit**."
   },
   {
     "level": "B2",
@@ -21805,7 +21803,7 @@
     "german_audio": "der Baustoff",
     "english": "building material",
     "ukrainian": "будівельний матеріал",
-    "example": "Wir programmieren eine Logistik-Software für <b style=\"color: #eab308;\">Baustoffe</b>."
+    "example": "Das Handwerksunternehmen **stellt eine Liste der benötigten <b style=\"color: #eab308;\">Baustoffe</b> zur Verfügung**."
   },
   {
     "level": "B2",
@@ -21817,7 +21815,7 @@
     "german_audio": "etw.",
     "english": "to pay attention to",
     "ukrainian": "приділяти увагу",
-    "example": "Wir müssen dem Feedback der User mehr Beachtung schenken."
+    "example": "Bei der Qualitätskontrolle **müssen wir jedem kleinsten Fehler große Beachtung schenken**."
   },
   {
     "level": "B2",
@@ -21829,7 +21827,7 @@
     "german_audio": "benötigen",
     "english": "to need, to require",
     "ukrainian": "потребувати",
-    "example": "Wir <b style=\"color: #eab308;\">benötigen</b> mehr RAM für diesen Datenbank-Server."
+    "example": "Für die stufenweise Wiedereingliederung **<b style=\"color: #eab308;\">benötigen</b> wir ein ärztliches Attest**."
   },
   {
     "level": "B2",
@@ -21841,7 +21839,7 @@
     "german_audio": "berücksichtigen",
     "english": "to consider, to take into account",
     "ukrainian": "враховувати",
-    "example": "Bitte <b style=\"color: #eab308;\">berücksichtigen</b> Sie die Ladezeiten beim mobilen Webdesign."
+    "example": "Bei der Schichtplanung **müssen wir die gesetzlichen Ruhezeiten der Beschäftigten <b style=\"color: #eab308;\">berücksichtigen</b>**."
   },
   {
     "level": "B2",
@@ -21853,7 +21851,7 @@
     "german_audio": "beschaffen",
     "english": "to procure, to obtain",
     "ukrainian": "діставати, закуповувати",
-    "example": "Die IT-Abteilung muss dringend neue Monitore <b style=\"color: #eab308;\">beschaffen</b>."
+    "example": "Es ist schwierig, die erforderlichen Rohstoffe **unter Einhaltung der Umweltauflagen zu <b style=\"color: #eab308;\">beschaffen</b>**."
   },
   {
     "level": "B2",
@@ -21865,7 +21863,7 @@
     "german_audio": "die Beschaffung",
     "english": "procurement",
     "ukrainian": "закупівля, придбання",
-    "example": "Die <b style=\"color: #eab308;\">Beschaffung</b> der neuen Server-Hardware dauert drei Wochen."
+    "example": "Die <b style=\"color: #eab308;\">Beschaffung</b> neuer Sicherheitsbekleidung **dient dem Gesundheitsschutz am Arbeitsplatz**."
   },
   {
     "level": "B2",
@@ -21877,7 +21875,7 @@
     "german_audio": "der Beschaffungsmarkt",
     "english": "procurement market",
     "ukrainian": "ринок закупівель",
-    "example": "Der <b style=\"color: #eab308;\">Beschaffungsmarkt</b> für Mikrochips ist aktuell sehr angespannt."
+    "example": "Aufgrund der Globalisierung **müssen wir den <b style=\"color: #eab308;\">Beschaffungsmarkt</b> weltweit beobachten**."
   },
   {
     "level": "B2",
@@ -21889,7 +21887,7 @@
     "german_audio": "die Bestandsaufnahme",
     "english": "inventory, taking stock",
     "ukrainian": "інвентаризація, оцінка стану",
-    "example": "Wir machen eine <b style=\"color: #eab308;\">Bestandsaufnahme</b> unserer Software-Lizenzen."
+    "example": "Der Wirtschaftsprüfer **führt eine gründliche <b style=\"color: #eab308;\">Bestandsaufnahme</b> des Lagers durch**."
   },
   {
     "level": "B2",
@@ -21901,7 +21899,7 @@
     "german_audio": "das CAD-Programm",
     "english": "CAD program",
     "ukrainian": "САПР (система автоматизованого проектування)",
-    "example": "Der Ingenieur nutzt ein <b style=\"color: #eab308;\">CAD-Programm</b> für das 3D-Modell."
+    "example": "Der Technische Zeichner **verfügt über exzellente Kenntnisse im Umgang mit** <b style=\"color: #eab308;\">CAD-Programmen</b>."
   },
   {
     "level": "B2",
@@ -21913,7 +21911,7 @@
     "german_audio": "der Einfluss",
     "english": "influence",
     "ukrainian": "вплив",
-    "example": "Der Lead Developer hat großen <b style=\"color: #eab308;\">Einfluss</b> auf die IT-Architektur."
+    "example": "Der demografische Wandel **hat einen spürbaren <b style=\"color: #eab308;\">Einfluss</b> auf den Fachkräftemangel**."
   },
   {
     "level": "B2",
@@ -21925,7 +21923,7 @@
     "german_audio": "Einfluss haben auf",
     "english": "to have an influence on",
     "ukrainian": "мати вплив на",
-    "example": "Die Server-Auslastung hat direkten Einfluss auf die Ladezeit der App."
+    "example": "Die Lärmbelästigung **hat einen negativen Einfluss auf das Wohlbefinden** der Anwohner."
   },
   {
     "level": "B2",
@@ -21937,7 +21935,7 @@
     "german_audio": "einkalkulieren",
     "english": "to factor in, to take into account",
     "ukrainian": "враховувати (у розрахунках)",
-    "example": "Wir müssen Pufferzeit für Bugfixes <b style=\"color: #eab308;\">einkalkulieren</b>."
+    "example": "In der Budgetplanung **müssen wir die steigenden Lohnnebenkosten <b style=\"color: #eab308;\">einkalkulieren</b>**."
   },
   {
     "level": "B2",
@@ -21949,7 +21947,7 @@
     "german_audio": "das Fertighaus",
     "english": "prefabricated house",
     "ukrainian": "збірний будинок",
-    "example": "Unser Kunde baut Smart-Home-Systeme für <b style=\"color: #eab308;\">Fertighäuser</b>."
+    "example": "<b>Aus der Präsentation geht hervor, dass</b> die Nachfrage nach <b style=\"color: #eab308;\">Fertighäusern</b> gestiegen ist."
   },
   {
     "level": "B2",
@@ -21961,7 +21959,7 @@
     "german_audio": "die Fertighausfirma",
     "english": "prefabricated house company",
     "ukrainian": "компанія-виробник збірних будинків",
-    "example": "Die <b style=\"color: #eab308;\">Fertighausfirma</b> nutzt unsere VR-Software für ihre Kunden."
+    "example": "Die <b style=\"color: #eab308;\">Fertighausfirma</b> **ist für die Einhaltung aller baurechtlichen Rechtsnormen zuständig**."
   },
   {
     "level": "B2",
@@ -21973,7 +21971,7 @@
     "german_audio": "das Gartengerät",
     "english": "garden tool",
     "ukrainian": "садовий інструмент",
-    "example": "Die App steuert smarte <b style=\"color: #eab308;\">Gartengeräte</b> wie Mähroboter."
+    "example": "Das Handwerksunternehmen **stellt den Mitarbeitern die erforderlichen <b style=\"color: #eab308;\">Gartengeräte</b> bereit**."
   },
   {
     "level": "B2",
@@ -21985,7 +21983,7 @@
     "german_audio": "geeignet",
     "english": "suitable",
     "ukrainian": "підходящий, придатний",
-    "example": "Python ist sehr <b style=\"color: #eab308;\">geeignet</b> für Data Science und Machine Learning."
+    "example": "Er ist sehr <b style=\"color: #eab308;\">geeignet</b>, **die Leitung der neuen Inklusionsabteilung zu übernehmen**."
   },
   {
     "level": "B2",
@@ -21997,7 +21995,7 @@
     "german_audio": "global",
     "english": "global",
     "ukrainian": "глобальний",
-    "example": "Wir arbeiten in einem <b style=\"color: #eab308;\">globalen</b> Entwickler-Team."
+    "example": "Die veränderte Wettbewerbssituation **erfordert ein <b style=\"color: #eab308;\">globales</b> Denken der Geschäftsführung**."
   },
   {
     "level": "B2",
@@ -22009,7 +22007,7 @@
     "german_audio": "das Gut",
     "english": "good, commodity, asset",
     "ukrainian": "товар, майно",
-    "example": "Daten sind das wertvollste Gut in der modernen Wirtschaft."
+    "example": "Der Transport empfindlicher Güter **erfordert die Beachtung strenger Sicherheitsvorschriften**."
   },
   {
     "level": "B2",
@@ -22021,7 +22019,7 @@
     "german_audio": "der Konkurrenzdruck",
     "english": "competitive pressure",
     "ukrainian": "конкурентний тиск",
-    "example": "Der <b style=\"color: #eab308;\">Konkurrenzdruck</b> im E-Commerce-Bereich ist enorm hoch."
+    "example": "Der starke <b style=\"color: #eab308;\">Konkurrenzdruck</b> **zwingt den Betrieb zu Maßnahmen zur Kostensenkung**."
   },
   {
     "level": "B2",
@@ -22033,7 +22031,7 @@
     "german_audio": "die Lagerkapazität",
     "english": "storage capacity",
     "ukrainian": "місткість складу, ємність сховища",
-    "example": "Wir müssen die <b style=\"color: #eab308;\">Lagerkapazität</b> unserer Cloud-Datenbank erweitern."
+    "example": "Wir müssen unsere <b style=\"color: #eab308;\">Lagerkapazitäten</b> erweitern, um **die Liefersicherheit abzusichern**."
   },
   {
     "level": "B2",
@@ -22045,7 +22043,7 @@
     "german_audio": "die Liefersicherheit",
     "english": "delivery reliability, security of supply",
     "ukrainian": "надійність постачання",
-    "example": "<b style=\"color: #eab308;\">Liefersicherheit</b> bei Hardware-Komponenten ist wichtig für das Rechenzentrum."
+    "example": "Eine hohe <b style=\"color: #eab308;\">Liefersicherheit</b> **leistet einen wichtigen Beitrag zur Kundenbindung**."
   },
   {
     "level": "B2",
@@ -22057,7 +22055,7 @@
     "german_audio": "massiv",
     "english": "massive(ly)",
     "ukrainian": "масивний, масштабний",
-    "example": "Wir haben <b style=\"color: #eab308;\">massive</b> Probleme mit dem neuen Server-Deployment."
+    "example": "Die Störung im Stromnetz **verursachte <b style=\"color: #eab308;\">massive</b> Produktionsausfälle im Werk**."
   },
   {
     "level": "B2",
@@ -22069,7 +22067,7 @@
     "german_audio": "das Material",
     "english": "material",
     "ukrainian": "матеріал",
-    "example": "Wir bestellen neues <b style=\"color: #eab308;\">Material</b> für den 3D-Drucker."
+    "example": "Die Qualitätskontrolle **prüft das gelieferte <b style=\"color: #eab308;\">Material</b> auf eventuelle Mängel**."
   },
   {
     "level": "B2",
@@ -22081,7 +22079,7 @@
     "german_audio": "die Produktionsunterbrechung",
     "english": "production interruption, downtime",
     "ukrainian": "переривання виробництва, простій",
-    "example": "Ein Serverausfall führt zu einer teuren <b style=\"color: #eab308;\">Produktionsunterbrechung</b>."
+    "example": "Eine ungeplante <b style=\"color: #eab308;\">Produktionsunterbrechung</b> **kann erhebliche finanzielle Schäden auslösen**."
   },
   {
     "level": "B2",
@@ -22093,7 +22091,7 @@
     "german_audio": "das Rohmaterial",
     "english": "raw material",
     "ukrainian": "сировина",
-    "example": "Unstrukturierte Daten sind das <b style=\"color: #eab308;\">Rohmaterial</b> für KI-Modelle."
+    "example": "Die Preise für <b style=\"color: #eab308;\">Rohmaterialien</b> **hängen eng mit der weltweiten Konjunktur zusammen**."
   },
   {
     "level": "B2",
@@ -22105,7 +22103,7 @@
     "german_audio": "sorgen für",
     "english": "to ensure, to take care of",
     "ukrainian": "піклуватися про, забезпечувати",
-    "example": "Der Load Balancer sorgt <b style=\"color: #eab308;\">für</b> eine stabile Server-Performance."
+    "example": "Eine ergonomische Arbeitsplatzausstattung **sorgt <b style=\"color: #eab308;\">für</b> den Erhalt der Leistungsfähigkeit**."
   },
   {
     "level": "B2",
@@ -22117,7 +22115,7 @@
     "german_audio": "das Steuerbüro",
     "english": "tax consultancy/office",
     "ukrainian": "податкове бюро",
-    "example": "Unsere Buchhaltungs-Software wird von vielen <b style=\"color: #eab308;\">Steuerbüros</b> genutzt."
+    "example": "Das <b style=\"color: #eab308;\">Steuerbüro</b> **ist für die Einreichung unserer jährlichen Steuererklärung zuständig**."
   },
   {
     "level": "B2",
@@ -22129,7 +22127,7 @@
     "german_audio": "die Umweltpolitik",
     "english": "environmental policy",
     "ukrainian": "екологічна політика",
-    "example": "Green IT ist ein wichtiger Teil unserer Unternehmens-<b style=\"color: #eab308;\">Umweltpolitik</b>."
+    "example": "Die betriebliche <b style=\"color: #eab308;\">Umweltpolitik</b> **strebt eine Reduzierung der CO2-Emissionen an**."
   },
   {
     "level": "B2",
@@ -22141,7 +22139,7 @@
     "german_audio": "vertraut sein mit",
     "english": "to be familiar with",
     "ukrainian": "бути обізнаним з",
-    "example": "Bist du mit der Architektur der AWS-Cloud vertraut?"
+    "example": "Als Kältetechniker **bin ich bestens mit der F-Gase-Verordnung vertraut**."
   },
   {
     "level": "B2",
@@ -22153,7 +22151,7 @@
     "german_audio": "der Zeichentisch",
     "english": "drawing board, drafting table",
     "ukrainian": "креслярський стіл",
-    "example": "Das Architektur-Startup ersetzt den analogen <b style=\"color: #eab308;\">Zeichentisch</b> durch VR."
+    "example": "Der Entwurf wurde am <b style=\"color: #eab308;\">Zeichentisch</b> erstellt, **musste jedoch verworfen werden**."
   },
   {
     "level": "B2",
@@ -22165,7 +22163,7 @@
     "german_audio": "die Zollbestimmung",
     "english": "customs regulation",
     "ukrainian": "митне правило",
-    "example": "Beim Import der Server aus den USA müssen wir <b style=\"color: #eab308;\">Zollbestimmungen</b> beachten."
+    "example": "Die Spedition **übernimmt die Haftung für die Einhaltung aller <b style=\"color: #eab308;\">Zollbestimmungen</b>**."
   },
   {
     "level": "B2",
@@ -22177,7 +22175,7 @@
     "german_audio": "Angebote einholen",
     "english": "to get/obtain quotes",
     "ukrainian": "отримувати пропозиції (цінові)",
-    "example": "Wir müssen Angebote von drei verschiedenen Cloud-Providern <b style=\"color: #eab308;\">einholen</b>."
+    "example": "Wir müssen Angebote von mehreren Dienstleistungsfirmen <b><b style=\"color: #eab308;\">einholen</b>, um Preise zu vergleichen</b>."
   },
   {
     "level": "B2",
@@ -22189,7 +22187,7 @@
     "german_audio": "auffordern",
     "english": "to request, to ask",
     "ukrainian": "закликати, вимагати",
-    "example": "Das System wird den User <b style=\"color: #eab308;\">auffordern</b>, sein Passwort zu ändern."
+    "example": "Der Abteilungsleiter **fordert die Mitarbeiter auf, die Stundenzettel einzureichen**."
   },
   {
     "level": "B2",
@@ -22201,7 +22199,7 @@
     "german_audio": "aufmerksam machen auf",
     "english": "to draw attention to",
     "ukrainian": "звертати увагу на",
-    "example": "Ich möchte das Team auf einen kritischen Bug im Code aufmerksam machen."
+    "example": "Der Sicherheitsbeauftragte **macht uns auf eine potenzielle Gefahrenquelle aufmerksam**."
   },
   {
     "level": "B2",
@@ -22213,7 +22211,7 @@
     "german_audio": "die Auftragsvergabe",
     "english": "award of contract, order placement",
     "ukrainian": "розміщення замовлення, укладання контракту",
-    "example": "Die <b style=\"color: #eab308;\">Auftragsvergabe</b> für das neue CRM-System erfolgt nächste Woche."
+    "example": "Bei der <b style=\"color: #eab308;\">Auftragsvergabe</b> **müssen wir Rücksicht auf die Umweltzertifikate der Partner nehmen**."
   },
   {
     "level": "B2",
@@ -22225,7 +22223,7 @@
     "german_audio": "ausrichten",
     "english": "to pass on (a message)",
     "ukrainian": "передавати (повідомлення)",
-    "example": "Können Sie dem IT-Leiter bitte <b style=\"color: #eab308;\">ausrichten</b>, dass ich das Ticket gelöst habe?"
+    "example": "Könnten Sie dem Meister bitte <b style=\"color: #eab308;\">ausrichten</b>, dass **die Hebebühne wieder einsatzbereit ist**?"
   },
   {
     "level": "B2",
@@ -22237,7 +22235,7 @@
     "german_audio": "entgegennehmen",
     "english": "to receive, to accept",
     "ukrainian": "приймати (замовлення, дзвінок)",
-    "example": "Unser Support-Team wird die Fehlermeldungen der User <b style=\"color: #eab308;\">entgegennehmen</b>."
+    "example": "Wir können die Ware nur unter dem Vorbehalt einer Qualitätsprüfung <b><b style=\"color: #eab308;\">entgegennehmen</b></b>."
   },
   {
     "level": "B2",
@@ -22249,7 +22247,7 @@
     "german_audio": "entscheidend",
     "english": "crucial, decisive",
     "ukrainian": "вирішальний",
-    "example": "Skalierbarkeit ist ein <b style=\"color: #eab308;\">entscheidender</b> Faktor für unsere neue App."
+    "example": "Eine offene Feedbackkultur **ist ein <b style=\"color: #eab308;\">entscheidender</b> Faktor für ein gutes Betriebsklima**."
   },
   {
     "level": "B2",
@@ -22261,7 +22259,7 @@
     "german_audio": "das Kriterium",
     "english": "criterion",
     "ukrainian": "критерій",
-    "example": "Server-Performance ist das wichtigste <b style=\"color: #eab308;\">Kriterium</b> bei der Provider-Wahl."
+    "example": "Die Einhaltung der Hygiene-Richtlinien **ist ein wichtiges <b style=\"color: #eab308;\">Kriterium</b> beim Audit**."
   },
   {
     "level": "B2",
@@ -22273,7 +22271,7 @@
     "german_audio": "die Lieferfrist",
     "english": "delivery deadline, time for delivery",
     "ukrainian": "термін доставки",
-    "example": "Die <b style=\"color: #eab308;\">Lieferfrist</b> für die neuen Firmen-Laptops beträgt zwei Wochen."
+    "example": "Wir bitten Sie, **die vertraglich vereinbarte <b style=\"color: #eab308;\">Lieferfrist</b> streng einzuhalten**."
   },
   {
     "level": "B2",
@@ -22285,7 +22283,7 @@
     "german_audio": "maßgeblich",
     "english": "significant, decisive",
     "ukrainian": "визначальний, істотний",
-    "example": "Ihre Architektur-Entscheidung war <b style=\"color: #eab308;\">maßgeblich</b> für den Projekterfolg."
+    "example": "Die Entscheidung des Betriebsrats **hat den Ablauf des Projekts <b style=\"color: #eab308;\">maßgeblich</b> beeinflusst**."
   },
   {
     "level": "B2",
@@ -22297,7 +22295,7 @@
     "german_audio": "das Türschloss",
     "english": "door lock",
     "ukrainian": "дверний замок",
-    "example": "Wir entwickeln eine Smartphone-App für ein smartes <b style=\"color: #eab308;\">Türschloss</b>."
+    "example": "Wir müssen das defekte <b style=\"color: #eab308;\">Türschloss</b> am Erste-Hilfe-Raum **umgehend austauschen**."
   },
   {
     "level": "B2",
@@ -22309,7 +22307,7 @@
     "german_audio": "verbinden mit",
     "english": "to connect with",
     "ukrainian": "з'єднувати з",
-    "example": "Bitte verbinden Sie mich telefonisch mit dem IT-Support."
+    "example": "Könnten Sie mich bitte **mit dem zuständigen Personalverantwortlichen verbinden**?"
   },
   {
     "level": "B2",
@@ -22321,7 +22319,7 @@
     "german_audio": "verbindlich",
     "english": "binding, obligatory",
     "ukrainian": "обов'язковий (до виконання), зобов'язуючий",
-    "example": "Das Kostenangebot für das Software-Projekt ist rechtlich <b style=\"color: #eab308;\">verbindlich</b>."
+    "example": "<b>Ich bitte Sie, uns ein <b style=\"color: #eab308;\">verbindliches</b> Angebot bis zum Stichtag zuzuschicken</b>."
   },
   {
     "level": "B2",
@@ -22333,7 +22331,7 @@
     "german_audio": "verweisen auf",
     "english": "to refer to",
     "ukrainian": "відсилати до (когось/чогось)",
-    "example": "Bei Login-Problemen verweisen wir die User auf unsere FAQ-Seite."
+    "example": "Bei rechtlichen Fragen **verweisen wir die Beschäftigten auf die Rechtsberatung**."
   },
   {
     "level": "B2",
@@ -22341,11 +22339,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Wettbewerber, -",
-    "german_audio": "der Wettbewerber",
-    "english": "competitor",
-    "ukrainian": "конкурент",
-    "example": "Unser größter <b style=\"color: #eab308;\">Wettbewerber</b> hat gestern ein ähnliches Feature gelauncht."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Lieferbereitschaft (Sg.)",
+    "german_audio": "die Lieferbereitschaft",
+    "english": "readiness to deliver / service level",
+    "ukrainian": "готовність до поставки (рівень сервісу)",
+    "example": "Eine kontinuierliche <b style=\"color: #eab308;\">Lieferbereitschaft</b> **sichert unsere Wettbewerbsfähigkeit ab**."
   },
   {
     "level": "B2",
@@ -22353,11 +22351,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Zusicherung, -en",
-    "german_audio": "die Zusicherung",
-    "english": "assurance, guarantee",
-    "ukrainian": "запевнення, гарантія",
-    "example": "Wir brauchen eine schriftliche <b style=\"color: #eab308;\">Zusicherung</b> für die Datensicherheit (DSGVO)."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Lieferfähigkeit (Sg.)",
+    "german_audio": "die Lieferfähigkeit",
+    "english": "ability to deliver / delivery capability",
+    "ukrainian": "здатність поставляти (товари)",
+    "example": "Die Gewährleistung der <b style=\"color: #eab308;\">Lieferfähigkeit</b> **steht im Mittelpunkt unserer Logistikplanung**."
   },
   {
     "level": "B2",
@@ -22365,11 +22363,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Abzug, \"-e",
-    "german_audio": "der Abzug",
-    "english": "deduction",
-    "ukrainian": "відрахування, знижка",
-    "example": "Nach <b style=\"color: #eab308;\">Abzug</b> der Steuern bleibt ein gutes Netto-Gehalt für Entwickler."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Liefertreue (Sg.)",
+    "german_audio": "die Liefertreue",
+    "english": "delivery reliability / adherence to delivery dates",
+    "ukrainian": "дотримання термінів поставки (пунктуальність постачальника)",
+    "example": "Wir legen großen Wert auf die <b style=\"color: #eab308;\">Liefertreue</b>, **um Ausfallzeiten im Werk zu vermeiden**."
   },
   {
     "level": "B2",
@@ -22377,11 +22375,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Akku, -s",
-    "german_audio": "der Akku",
-    "english": "battery",
-    "ukrainian": "акумулятор",
-    "example": "Der <b style=\"color: #eab308;\">Akku</b> meines neuen MacBooks hält beim Coden fast 10 Stunden."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Lieferkonditionen (Pl.)",
+    "german_audio": "die Lieferkonditionen",
+    "english": "delivery terms",
+    "ukrainian": "умови поставки",
+    "example": "Die <b style=\"color: #eab308;\">Lieferkonditionen</b> **wurden schriftlich im Kaufvertrag vereinbart**."
   },
   {
     "level": "B2",
@@ -22389,11 +22387,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "ein Angebot unterbreiten (unterbreitet, unterbreitete, hat unterbreitet)",
-    "german_audio": "ein Angebot unterbreiten",
-    "english": "to submit an offer/quote",
-    "ukrainian": "робити/надавати пропозицію",
-    "example": "Wir werden dem Kunden heute ein Angebot für die Webentwicklung <b style=\"color: #eab308;\">unterbreiten</b>."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Liefermenge, -n",
+    "german_audio": "die Liefermenge",
+    "english": "delivery quantity",
+    "ukrainian": "обсяг поставки",
+    "example": "Eine Abweichung der <b style=\"color: #eab308;\">Liefermenge</b> **muss sofort im Übergabeprotokoll vermerkt werden**."
   },
   {
     "level": "B2",
@@ -22401,11 +22399,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "etw. anlegen (z. B. einen Garten) (legt an, legte an, hat angelegt)",
-    "german_audio": "anlegen",
-    "english": "to create, to set up",
-    "ukrainian": "створювати (напр. базу даних, обліковий запис)",
-    "example": "Ich muss einen neuen User-Account in der Datenbank <b style=\"color: #eab308;\">anlegen</b>."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Lieferschein, -e",
+    "german_audio": "die Lieferschein",
+    "english": "delivery note",
+    "ukrainian": "накладна на поставку (документ)",
+    "example": "Bitte überprüfen Sie die Lieferung **und zeichnen Sie den <b style=\"color: #eab308;\">Lieferschein</b> ab**."
   },
   {
     "level": "B2",
@@ -22413,11 +22411,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "enthalten (enthält, enthielt, hat enthalten)",
-    "german_audio": "enthalten",
-    "english": "to contain, to include",
-    "ukrainian": "містити в собі",
-    "example": "Das neue Software-Update wird viele wichtige Sicherheits-Patches <b style=\"color: #eab308;\">enthalten</b>."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Wareneingang (Sg.)",
+    "german_audio": "die Wareneingang",
+    "english": "goods receipt",
+    "ukrainian": "приймання товару (відділ або процес)",
+    "example": "Die Qualitätskontrolle **prüft alle Sendungen direkt am <b style=\"color: #eab308;\">Wareneingang</b>**."
   },
   {
     "level": "B2",
@@ -22425,11 +22423,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Ersatzakku, -s",
-    "german_audio": "der Ersatzakku",
-    "english": "spare battery",
-    "ukrainian": "запасний акумулятор",
-    "example": "Ich nehme einen <b style=\"color: #eab308;\">Ersatzakku</b> für den Laptop auf die Dienstreise mit."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Warenausgang (Sg.)",
+    "german_audio": "die Warenausgang",
+    "english": "goods issue / dispatch",
+    "ukrainian": "відпуск товару (відділ або процес)",
+    "example": "Die Spedition **übernimmt die Ware direkt am <b style=\"color: #eab308;\">Warenausgang</b> des Lagers**."
   },
   {
     "level": "B2",
@@ -22437,11 +22435,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Erstauftrag, \"-e",
-    "german_audio": "der Erstauftrag",
-    "english": "initial order",
-    "ukrainian": "перше замовлення",
-    "example": "Für unseren <b style=\"color: #eab308;\">Erstauftrag</b> haben wir eine kleine Landingpage entwickelt."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Verpackungsmaterial, -ien",
+    "german_audio": "die Verpackungsmaterial",
+    "english": "packaging material",
+    "ukrainian": "пакувальний матеріал",
+    "example": "Wir nutzen umweltfreundliches <b style=\"color: #eab308;\">Verpackungsmaterial</b>, **um Abfall zu vermeiden**."
   },
   {
     "level": "B2",
@@ -22449,11 +22447,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "sich erweisen als (erweist sich, erwies sich, hat sich erwiesen)",
-    "german_audio": "sich erweisen als",
-    "english": "to turn out to be, to prove to be",
-    "ukrainian": "виявлятися (кимось/чимось)",
-    "example": "Das neue React-Framework hat sich als sehr performant erwiesen."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Ladungssicherung (Sg.)",
+    "german_audio": "die Ladungssicherung",
+    "english": "cargo securing / load securing",
+    "ukrainian": "кріплення вантажу (безпека при транспортуванні)",
+    "example": "Eine mangelhafte <b style=\"color: #eab308;\">Ladungssicherung</b> **stellt ein hohes Sicherheitsrisiko dar**."
   },
   {
     "level": "B2",
@@ -22461,11 +22459,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Folgeauftrag, \"-e",
-    "german_audio": "der Folgeauftrag",
-    "english": "follow-up order",
-    "ukrainian": "наступне/повторне замовлення",
-    "example": "Nach dem guten MVP-Release haben wir direkt einen <b style=\"color: #eab308;\">Folgeauftrag</b> bekommen."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Transportmittel, -",
+    "german_audio": "die Transportmittel",
+    "english": "means of transport",
+    "ukrainian": "транспортний засіб (для перевезення вантажів)",
+    "example": "Die Wahl der <b style=\"color: #eab308;\">Transportmittel</b> **hängt eng mit den Transportkosten zusammen**."
   },
   {
     "level": "B2",
@@ -22473,11 +22471,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Funktionsfähigkeit (Sg.)",
-    "german_audio": "die Funktionsfähigkeit",
-    "english": "functionality, operability",
-    "ukrainian": "функціональність, працездатність",
-    "example": "Die QA testet die <b style=\"color: #eab308;\">Funktionsfähigkeit</b> der neuen App intensiv."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Transportversicherung, -en",
+    "german_audio": "die Transportversicherung",
+    "english": "transit insurance / transport insurance",
+    "ukrainian": "страхування вантажу (при транспортуванні)",
+    "example": "Die <b style=\"color: #eab308;\">Transportversicherung</b> **übernimmt die Haftung bei Schäden während des Transports**."
   },
   {
     "level": "B2",
@@ -22485,11 +22483,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Gebrauchsweise (Sg.)",
-    "german_audio": "die Gebrauchsweise",
-    "english": "method of use, instructions for use",
-    "ukrainian": "спосіб використання",
-    "example": "Die <b style=\"color: #eab308;\">Gebrauchsweise</b> unserer API ist in der Dokumentation beschrieben."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Gefahrengut, \"-er",
+    "german_audio": "die Gefahrengut",
+    "english": "hazardous goods / dangerous goods",
+    "ukrainian": "небезпечний вантаж",
+    "example": "Der Transport von <b style=\"color: #eab308;\">Gefahrengut</b> **unterliegt strengen gesetzlichen Rechtsnormen**."
   },
   {
     "level": "B2",
@@ -22497,11 +22495,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Gesamtbestellung (Sg.)",
-    "german_audio": "die Gesamtbestellung",
-    "english": "total order",
-    "ukrainian": "загальне замовлення",
-    "example": "Die <b style=\"color: #eab308;\">Gesamtbestellung</b> für die Server-Hardware kostet 50.000 Euro."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Gefahrgutverordnung (Sg.)",
+    "german_audio": "die Gefahrgutverordnung",
+    "english": "dangerous goods regulation",
+    "ukrainian": "правила перевезення небезпечних вантажів",
+    "example": "Die <b style=\"color: #eab308;\">Gefahrgutverordnung</b> **schreibt das Tragen spezieller Schutzkleidung vor**."
   },
   {
     "level": "B2",
@@ -22509,11 +22507,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Gesamtpreis, -e",
-    "german_audio": "der Gesamtpreis",
-    "english": "total price",
-    "ukrainian": "загальна вартість",
-    "example": "Der <b style=\"color: #eab308;\">Gesamtpreis</b> für das Software-Projekt liegt genau im Budget."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Sicherheitsdatenblatt, \"-er",
+    "german_audio": "die Sicherheitsdatenblatt",
+    "english": "safety data sheet",
+    "ukrainian": "паспорт безпеки речовини",
+    "example": "Das <b style=\"color: #eab308;\">Sicherheitsdatenblatt</b> **muss bei der Lieferung von Gefahrengut beiliegen**."
   },
   {
     "level": "B2",
@@ -22521,11 +22519,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "kostengünstig",
-    "german_audio": "kostengünstig",
-    "english": "cost-effective, cheap",
-    "ukrainian": "вигідний за ціною, недорогий",
-    "example": "AWS bietet auch sehr <b style=\"color: #eab308;\">kostengünstige</b> Speicherlösungen (S3) an."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Gefahrstoff, -e",
+    "german_audio": "die Gefahrstoff",
+    "english": "hazardous substance",
+    "ukrainian": "небезпечна речовина",
+    "example": "Der Umgang mit <b style=\"color: #eab308;\">Gefahrstoffen</b> **erfordert eine jährliche Sicherheitsunterweisung**."
   },
   {
     "level": "B2",
@@ -22533,11 +22531,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Marktchancen (Pl.)",
-    "german_audio": "die Marktchancen",
-    "english": "market opportunities",
-    "ukrainian": "ринкові можливості",
-    "example": "Die <b style=\"color: #eab308;\">Marktchancen</b> für KI-basierte Tools sind aktuell riesig."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Gefahrstofflager, -",
+    "german_audio": "die Gefahrstofflager",
+    "english": "hazardous materials storage",
+    "ukrainian": "склад небезпечних речовин",
+    "example": "Der Zutritt zum <b style=\"color: #eab308;\">Gefahrstofflager</b> **ist nur befugten Fachkräften gestattet**."
   },
   {
     "level": "B2",
@@ -22545,11 +22543,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "optional",
-    "german_audio": "optional",
-    "english": "optional",
-    "ukrainian": "опціональний, необов'язковий",
-    "example": "Die Angabe der Telefonnummer im Registrierungsformular ist <b style=\"color: #eab308;\">optional</b>."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Auffangwanne, -n",
+    "german_audio": "die Auffangwanne",
+    "english": "drip tray / retention basin",
+    "ukrainian": "піддон (для збору витоків хімікатів)",
+    "example": "Die <b style=\"color: #eab308;\">Auffangwannen</b> **müssen regelmäßig auf Dichtheit geprüft werden**."
   },
   {
     "level": "B2",
@@ -22557,11 +22555,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Skonto (Sg.)",
-    "german_audio": "der Skonto",
-    "english": "cash discount",
-    "ukrainian": "сконто (знижка за швидку оплату)",
-    "example": "Wenn wir die Server sofort bezahlen, bekommen wir 2% <b style=\"color: #eab308;\">Skonto</b>."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Löschwasserrückhaltung (Sg.)",
+    "german_audio": "die Löschwasserrückhaltung",
+    "english": "firewater retention",
+    "ukrainian": "утримання води для гасіння пожежі (екологічний захист)",
+    "example": "Die <b style=\"color: #eab308;\">Löschwasserrückhaltung</b> **verhindert das Kontaminieren des Grundwassers**."
   },
   {
     "level": "B2",
@@ -22569,11 +22567,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Sonderpreis, -e",
-    "german_audio": "der Sonderpreis",
-    "english": "special price",
-    "ukrainian": "спеціальна ціна",
-    "example": "Zum Black Friday bieten wir unsere Software zum <b style=\"color: #eab308;\">Sonderpreis</b> an."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Gewässerschutz (Sg.)",
+    "german_audio": "die Gewässerschutz",
+    "english": "water protection",
+    "ukrainian": "охорона водних ресурсів",
+    "example": "Die Einhaltung der Vorschriften zum <b style=\"color: #eab308;\">Gewässerschutz</b> **wird streng kontrolliert**."
   },
   {
     "level": "B2",
@@ -22581,11 +22579,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "standardmäßig",
-    "german_audio": "standardmäßig",
-    "english": "standard, by default",
-    "ukrainian": "за замовчуванням, стандартно",
-    "example": "Die Verschlüsselung der Passwörter ist im System <b style=\"color: #eab308;\">standardmäßig</b> aktiviert."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Bodenschutz (Sg.)",
+    "german_audio": "die Bodenschutz",
+    "english": "soil protection",
+    "ukrainian": "охорона ґрунтів",
+    "example": "Der <b style=\"color: #eab308;\">Bodenschutz</b> **ist ein wichtiger Aspekt bei der Gefahrenanalyse im Werk**."
   },
   {
     "level": "B2",
@@ -22593,11 +22591,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Stückpreis, -e",
-    "german_audio": "der Stückpreis",
-    "english": "unit price",
-    "ukrainian": "ціна за штуку",
-    "example": "Der <b style=\"color: #eab308;\">Stückpreis</b> für Firmen-Laptops sinkt bei einer Großbestellung."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Altlasten (Pl.)",
+    "german_audio": "die Altlasten",
+    "english": "contaminated sites / legacy waste",
+    "ukrainian": "минуле екологічне засмічення (забруднені ділянки ґрунту)",
+    "example": "Die Beseitigung der <b style=\"color: #eab308;\">Altlasten</b> **verursachte erhebliche Instandsetzungskosten**."
   },
   {
     "level": "B2",
@@ -22605,11 +22603,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "einen Termin einhalten (hält ein, hielt ein, hat eingehalten)",
-    "german_audio": "einen Termin einhalten",
-    "english": "to meet a deadline",
-    "ukrainian": "дотримуватися терміну",
-    "example": "Wir müssen den Termin für das Produktions-Release unbedingt <b style=\"color: #eab308;\">einhalten</b>."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Sanierungsmaßnahme, -n",
+    "german_audio": "die Sanierungsmaßnahme",
+    "english": "remediation measure / cleanup",
+    "ukrainian": "заходи з екологічної санації (очищення)",
+    "example": "Die <b style=\"color: #eab308;\">Sanierungsmaßnahmen</b> **wurden mit der Umweltbehörde abgesprochen**."
   },
   {
     "level": "B2",
@@ -22617,11 +22615,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "üblicherweise",
-    "german_audio": "üblicherweise",
-    "english": "usually, typically",
-    "ukrainian": "зазвичай",
-    "example": "<b style=\"color: #eab308;\">Üblicherweise</b> deployen wir am Freitag keinen neuen Code."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Sanierungsplan, \"-e",
+    "german_audio": "die Sanierungsplan",
+    "english": "remediation plan",
+    "ukrainian": "план санації (очищення або фінансового оздоровлення)",
+    "example": "Der <b style=\"color: #eab308;\">Sanierungsplan</b> **wurde vom Gutachter auf Plausibilität geprüft**."
   },
   {
     "level": "B2",
@@ -22629,11 +22627,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Versandkosten (Pl.)",
-    "german_audio": "die Versandkosten",
-    "english": "shipping costs",
-    "ukrainian": "вартість доставки",
-    "example": "Beim Kauf von Hardware für über 50 Euro entfallen die <b style=\"color: #eab308;\">Versandkosten</b>."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Sanierungsvereinbarung, -en",
+    "german_audio": "die Sanierungsvereinbarung",
+    "english": "remediation agreement",
+    "ukrainian": "угода про санацію",
+    "example": "Die <b style=\"color: #eab308;\">Sanierungsvereinbarung</b> **beinhaltet finanzielle Zuschüsse des Landes**."
   },
   {
     "level": "B2",
@@ -22641,11 +22639,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "vorteilig",
-    "german_audio": "vorteilig",
-    "english": "advantageous, beneficial",
-    "ukrainian": "вигідний, сприятливий",
-    "example": "Eine Microservice-Architektur ist sehr <b style=\"color: #eab308;\">vorteilig</b> für die Skalierbarkeit."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Umweltbehörde, -n",
+    "german_audio": "die Umweltbehörde",
+    "english": "environmental authority",
+    "ukrainian": "екологічне відомство",
+    "example": "Die <b style=\"color: #eab308;\">Umweltbehörde</b> **überwacht die Einhaltung der Emissionswerte**."
   },
   {
     "level": "B2",
@@ -22653,11 +22651,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Zahlungsbedingungen (Pl.)",
-    "german_audio": "die Zahlungsbedingungen",
-    "english": "terms of payment",
-    "ukrainian": "умови оплати",
-    "example": "Die <b style=\"color: #eab308;\">Zahlungsbedingungen</b> für die Freelancer-Rechnung stehen unten."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Immissionsschutzbehörde, -n",
+    "german_audio": "die Immissionsschutzbehörde",
+    "english": "emission control authority",
+    "ukrainian": "орган з контролю за шкідливими впливами (шум, викиди)",
+    "example": "Die <b style=\"color: #eab308;\">Immissionsschutzbehörde</b> **führt unangemeldete Kontrollen im Werk durch**."
   },
   {
     "level": "B2",
@@ -22665,11 +22663,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Zahlungsfrist, -en",
-    "german_audio": "die Zahlungsfrist",
-    "english": "payment deadline/period",
-    "ukrainian": "строк оплати",
-    "example": "Die <b style=\"color: #eab308;\">Zahlungsfrist</b> für die Server-Miete beträgt 14 Tage."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Gewerbeaufsichtsamt, \"-er",
+    "german_audio": "die Gewerbeaufsichtsamt",
+    "english": "trade supervisory office",
+    "ukrainian": "управління з нагляду за промисловістю (охорона праці/техніка безпеки)",
+    "example": "Das <b style=\"color: #eab308;\">Gewerbeaufsichtsamt</b> **überprüft die Einhaltung der Arbeitszeitregelungen**."
   },
   {
     "level": "B2",
@@ -22677,11 +22675,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Abnahme, -n",
-    "german_audio": "die Abnahme",
-    "english": "acceptance, approval",
-    "ukrainian": "приймання (робіт), узгодження",
-    "example": "Die <b style=\"color: #eab308;\">Abnahme</b> der neuen Software durch den Kunden erfolgt morgen."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Arbeitsschutzbehörde, -n",
+    "german_audio": "die Arbeitsschutzbehörde",
+    "english": "occupational safety authority",
+    "ukrainian": "орган з охорони праці",
+    "example": "Die <b style=\"color: #eab308;\">Arbeitsschutzbehörde</b> **kann bei Pflichtverstößen Bußgelder verhängen**."
   },
   {
     "level": "B2",
@@ -22689,11 +22687,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Abnahmeprotokoll, -e",
-    "german_audio": "das Abnahmeprotokoll",
-    "english": "acceptance report/protocol",
-    "ukrainian": "акт приймання-передачі",
-    "example": "Der Kunde muss das <b style=\"color: #eab308;\">Abnahmeprotokoll</b> nach dem erfolgreichen Test unterschreiben."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Bußgeld, -er",
+    "german_audio": "die Bußgeld",
+    "english": "fine",
+    "ukrainian": "штраф (адміністративний)",
+    "example": "Ein Verstoß gegen die Brandschutzordnung **kann ein hohes <b style=\"color: #eab308;\">Bußgeld</b> zur Folge haben**."
   },
   {
     "level": "B2",
@@ -22701,11 +22699,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "etw. anschauen (schaut an, schaute an, hat angeschaut)",
-    "german_audio": "anschauen",
-    "english": "to look at, to examine",
-    "ukrainian": "дивитися, розглядати",
-    "example": "Lass uns den fehlerhaften Quellcode gemeinsam <b style=\"color: #eab308;\">anschauen</b> (Code Review)."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Bußgeldbescheid, -e",
+    "german_audio": "die Bußgeldbescheid",
+    "english": "notice of fine",
+    "ukrainian": "повідомлення про штраф",
+    "example": "Der <b style=\"color: #eab308;\">Bußgeldbescheid</b> **wurde dem Geschäftsführer persönlich zugestellt**."
   },
   {
     "level": "B2",
@@ -22713,11 +22711,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Auftraggeber, - / die Auftraggeberin, -nen",
-    "german_audio": "der Auftraggeber",
-    "english": "client, principal, customer",
-    "ukrainian": "замовник, клієнт",
-    "example": "Unser <b style=\"color: #eab308;\">Auftraggeber</b> wünscht sich noch eine Dark-Mode-Funktion."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Ordnungswidrigkeit, -en",
+    "german_audio": "die Ordnungswidrigkeit",
+    "english": "administrative offense",
+    "ukrainian": "адміністративне правопорушення",
+    "example": "Das Parken auf den Rettungswegen **stellt eine <b style=\"color: #eab308;\">Ordnungswidrigkeit</b> dar**."
   },
   {
     "level": "B2",
@@ -22725,11 +22723,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "etw. ausführen (führt aus, führte aus, hat ausgeführt)",
-    "german_audio": "ausführen",
-    "english": "to execute, to perform",
-    "ukrainian": "виконувати",
-    "example": "Das System wird den Code sicher in einem Docker-Container <b style=\"color: #eab308;\">ausführen</b>."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Straftat, -en",
+    "german_audio": "die Straftat",
+    "english": "criminal offense",
+    "ukrainian": "кримінальний злочин",
+    "example": "Der Diebstahl von Betriebsgeheimnissen **wurde als <b style=\"color: #eab308;\">Straftat</b> zur Anzeige gebracht**."
   },
   {
     "level": "B2",
@@ -22737,11 +22735,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Bauabnahme, -n",
-    "german_audio": "die Bauabnahme",
-    "english": "building inspection/acceptance",
-    "ukrainian": "приймання будівельного об'єкта",
-    "example": "Nach der Installation der Server-Racks erfolgt die <b style=\"color: #eab308;\">Bauabnahme</b> im Rechenzentrum."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Strafverfahren, -",
+    "german_audio": "die Strafverfahren",
+    "english": "criminal proceedings",
+    "ukrainian": "кримінальне провадження",
+    "example": "Das <b style=\"color: #eab308;\">Strafverfahren</b> **wird von der Staatsanwaltschaft eingeleitet**."
   },
   {
     "level": "B2",
@@ -22749,11 +22747,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Bauherr, -en / die Bauherrin, -nen",
-    "german_audio": "der Bauherr",
-    "english": "building owner/client",
-    "ukrainian": "забудовник, власник будівлі",
-    "example": "Der <b style=\"color: #eab308;\">Bauherr</b> möchte Smart-Home-Technik im ganzen Haus integrieren."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Staatsanwaltschaft, -en",
+    "german_audio": "die Staatsanwaltschaft",
+    "english": "public prosecutor's office",
+    "ukrainian": "прокуратура",
+    "example": "Die <b style=\"color: #eab308;\">Staatsanwaltschaft</b> **ermittelt wegen des Verdachts auf Pflichtverletzung**."
   },
   {
     "level": "B2",
@@ -22761,11 +22759,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Bauleistung, -en",
-    "german_audio": "die Bauleistung",
-    "english": "construction work",
-    "ukrainian": "будівельні роботи",
-    "example": "Die Installation der IT-Infrastruktur gehört zur <b style=\"color: #eab308;\">Bauleistung</b>."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Ermittlungsverfahren, -",
+    "german_audio": "die Ermittlungsverfahren",
+    "english": "preliminary investigation / inquiry",
+    "ukrainian": "слідство (процедура розслідування)",
+    "example": "Das <b style=\"color: #eab308;\">Ermittlungsverfahren</b> **führte zur Aufklärung der Brandursache**."
   },
   {
     "level": "B2",
@@ -22773,11 +22771,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Bauunternehmen, -",
-    "german_audio": "das Bauunternehmen",
-    "english": "construction company",
-    "ukrainian": "будівельна компанія",
-    "example": "Das <b style=\"color: #eab308;\">Bauunternehmen</b> nutzt unsere Projektmanagement-Software."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Brandursache, -n",
+    "german_audio": "die Brandursache",
+    "english": "cause of fire",
+    "ukrainian": "причина пожежі",
+    "example": "Die <b style=\"color: #eab308;\">Brandursache</b> **wurde vom Sachverständigen im Gutachten dokumentiert**."
   },
   {
     "level": "B2",
@@ -22785,11 +22783,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "bedauerlicherweise",
-    "german_audio": "bedauerlicherweise",
-    "english": "unfortunately, regrettably",
-    "ukrainian": "на жаль",
-    "example": "<b style=\"color: #eab308;\">Bedauerlicherweise</b> hat der Server-Ausfall gestern einige Daten gelöscht."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Brandstiftung, -en",
+    "german_audio": "die Brandstiftung",
+    "english": "arson",
+    "ukrainian": "підпал",
+    "example": "Es besteht der Verdacht auf <b style=\"color: #eab308;\">Brandstiftung</b>, **daher ermittelt die Polizei**."
   },
   {
     "level": "B2",
@@ -22797,11 +22795,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Eigentümer, - / die Eigentümerin, -nen",
-    "german_audio": "der Eigentümer",
-    "english": "owner",
-    "ukrainian": "власник",
-    "example": "Wer ist der <b style=\"color: #eab308;\">Eigentümer</b> dieses GitHub-Repositories?"
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Fahrlässigkeit (Sg.)",
+    "german_audio": "die Fahrlässigkeit",
+    "english": "negligence",
+    "ukrainian": "необережність, халатність",
+    "example": "Grobe <b style=\"color: #eab308;\">Fahrlässigkeit</b> **kann zum Verlust des Versicherungsschutzes führen**."
   },
   {
     "level": "B2",
@@ -22809,11 +22807,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "etw. fertigstellen (stellt fertig, stellte fertig, hat fertiggestellt)",
-    "german_audio": "fertigstellen",
-    "english": "to complete, to finish",
-    "ukrainian": "завершувати",
-    "example": "Wir werden das MVP (Minimum Viable Product) nächsten Monat <b style=\"color: #eab308;\">fertigstellen</b>."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Vorsatz (Sg.)",
+    "german_audio": "die Vorsatz",
+    "english": "intent, intention",
+    "ukrainian": "умисел",
+    "example": "Bei <b style=\"color: #eab308;\">Vorsatz</b> **übernimmt die Arbeitsunfallversicherung keine Haftung**."
   },
   {
     "level": "B2",
@@ -22821,11 +22819,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Fußleiste, -n",
-    "german_audio": "die Fußleiste",
-    "english": "baseboard, skirting board",
-    "ukrainian": "плінтус",
-    "example": "Wir verlegen die Netzwerkkabel im IT-Büro sicher hinter der <b style=\"color: #eab308;\">Fußleiste</b>."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Haftungsausschluss, \"-e",
+    "german_audio": "die Haftungsausschluss",
+    "english": "exclusion of liability / disclaimer",
+    "ukrainian": "виключення відповідальності",
+    "example": "Der <b style=\"color: #eab308;\">Haftungsausschluss</b> **wurde schriftlich im Vertrag festgehalten**."
   },
   {
     "level": "B2",
@@ -22833,11 +22831,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Kleinigkeit, -en",
-    "german_audio": "die Kleinigkeit",
-    "english": "small detail, minor matter",
-    "ukrainian": "дрібниця",
-    "example": "Das kleine CSS-Problem ist nur eine <b style=\"color: #eab308;\">Kleinigkeit</b> und schnell gefixt."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Haftungsbeschränkung, -en",
+    "german_audio": "die Haftungsbeschränkung",
+    "english": "limitation of liability",
+    "ukrainian": "обмеження відповідальності",
+    "example": "Die <b style=\"color: #eab308;\">Haftungsbeschränkung</b> **ist in den AGB des Dienstleisters geregelt**."
   },
   {
     "level": "B2",
@@ -22845,11 +22843,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "lediglich",
-    "german_audio": "lediglich",
-    "english": "merely, only",
-    "ukrainian": "лише, тільки",
-    "example": "Der Bug tritt <b style=\"color: #eab308;\">lediglich</b> im Safari-Browser auf."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Allgemeine Geschäftsbedingungen (AGB) (Pl.)",
+    "german_audio": "die Allgemeine Geschäftsbedingungen",
+    "english": "general terms and conditions (AGB)",
+    "ukrainian": "загальні умови угоди (AGB)",
+    "example": "Mit der Unterschrift **bestätigen Sie das Einverständnis mit unseren AGB**."
   },
   {
     "level": "B2",
@@ -22857,11 +22855,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "machbar",
-    "german_audio": "machbar",
-    "english": "feasible, doable",
-    "ukrainian": "здійсненний, можливий",
-    "example": "Dieses Feature ist technisch <b style=\"color: #eab308;\">machbar</b>, dauert aber zwei Sprints."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Vertragsklausel, -n",
+    "german_audio": "die Vertragsklausel",
+    "english": "contract clause",
+    "ukrainian": "пункт (положення) договору",
+    "example": "Die <b style=\"color: #eab308;\">Vertragsklausel</b> **regelt die Kündigungsfrist im Krankheitsfall**."
   },
   {
     "level": "B2",
@@ -22869,11 +22867,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Nacharbeiten (Pl.)",
-    "german_audio": "die Nacharbeiten",
-    "english": "rework, touch-ups",
-    "ukrainian": "доопрацювання",
-    "example": "Nach dem Code Review müssen wir noch kleine <b style=\"color: #eab308;\">Nacharbeiten</b> erledigen."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Wirksamkeit (Sg.)",
+    "german_audio": "die Wirksamkeit",
+    "english": "effectiveness / validity",
+    "ukrainian": "дійсність, чинність (юридична)",
+    "example": "Die <b style=\"color: #eab308;\">Wirksamkeit</b> der Kündigung **wird vom Arbeitsgericht überprüft**."
   },
   {
     "level": "B2",
@@ -22881,11 +22879,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Personalengpass, \"-e",
-    "german_audio": "der Personalengpass",
-    "english": "staff shortage",
-    "ukrainian": "нестача персоналу",
-    "example": "Wegen Krankheit haben wir aktuell einen <b style=\"color: #eab308;\">Personalengpass</b> im Support-Team."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Unwirksamkeit (Sg.)",
+    "german_audio": "die Unwirksamkeit",
+    "english": "invalidity",
+    "ukrainian": "недійсність",
+    "example": "Die <b style=\"color: #eab308;\">Unwirksamkeit</b> der Klausel **führte zur Ungültigkeit des gesamten Absatzes**."
   },
   {
     "level": "B2",
@@ -22893,11 +22891,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Prüfstück, -e",
-    "german_audio": "das Prüfstück",
-    "english": "test piece, sample",
-    "ukrainian": "дослідний зразок, тестовий екземпляр",
-    "example": "Wir nutzen einen Prototyp der Hardware als <b style=\"color: #eab308;\">Prüfstück</b>."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Sittenwidrigkeit (Sg.)",
+    "german_audio": "die Sittenwidrigkeit",
+    "english": "immorality / contrariety to public policy",
+    "ukrainian": "аморальність (невідповідність добрим звичаям — юридична підстава нікчемності угоди)",
+    "example": "Die <b style=\"color: #eab308;\">Sittenwidrigkeit</b> des Vertrages **wurde vom Richter festgestellt**."
   },
   {
     "level": "B2",
@@ -22905,11 +22903,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Übergabeprotokoll, -e",
-    "german_audio": "das Übergabeprotokoll",
-    "english": "handover protocol",
-    "ukrainian": "акт передачі",
-    "example": "Beim Wechsel des Laptops unterschreibt der Mitarbeiter ein <b style=\"color: #eab308;\">Übergabeprotokoll</b>."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Nichtigkeit (Sg.)",
+    "german_audio": "die Nichtigkeit",
+    "english": "nullity / invalidity",
+    "ukrainian": "нікчемність, недійсність (угоди)",
+    "example": "Die <b style=\"color: #eab308;\">Nichtigkeit</b> der Vereinbarung **tritt bei Verstößen gegen das Gesetz ein**."
   },
   {
     "level": "B2",
@@ -22917,11 +22915,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "unverzüglich",
-    "german_audio": "unverzüglich",
-    "english": "immediately, without delay",
-    "ukrainian": "негайно, без зволікань",
-    "example": "Kritische Server-Ausfälle müssen <b style=\"color: #eab308;\">unverzüglich</b> gemeldet werden."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Anfechtbarkeit (Sg.)",
+    "german_audio": "die Anfechtbarkeit",
+    "english": "voidability / contestability",
+    "ukrainian": "оскаржуваність (можливість оскарження правочину)",
+    "example": "Die <b style=\"color: #eab308;\">Anfechtbarkeit</b> des Vertrages **ergibt sich aus einer arglistigen Täuschung**."
   },
   {
     "level": "B2",
@@ -22929,11 +22927,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Verzögerung, -en",
-    "german_audio": "die Verzögerung",
-    "english": "delay",
-    "ukrainian": "затримка",
-    "example": "Aufgrund eines Bugs gab es eine <b style=\"color: #eab308;\">Verzögerung</b> beim App-Release."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Täuschung, -en",
+    "german_audio": "die Täuschung",
+    "english": "deception, fraud",
+    "ukrainian": "обман, введення в оману",
+    "example": "Eine arglistige <b style=\"color: #eab308;\">Täuschung</b> **berechtigt den Arbeitgeber zur fristlosen Kündigung**."
   },
   {
     "level": "B2",
@@ -22941,11 +22939,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "zeitnah",
-    "german_audio": "zeitnah",
-    "english": "promptly, in a timely manner",
-    "ukrainian": "своєчасно, найближчим часом",
-    "example": "Bitte beantworten Sie die Support-Tickets möglichst <b style=\"color: #eab308;\">zeitnah</b>."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Irrtum, \"-er",
+    "german_audio": "die Irrtum",
+    "english": "error, mistake",
+    "ukrainian": "помилка (юридична помилка в розумінні умов)",
+    "example": "Ein <b style=\"color: #eab308;\">Irrtum</b> bei der Preisangabe **kann zur Anfechtung des Vertrages führen**."
   },
   {
     "level": "B2",
@@ -22953,11 +22951,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "zufriedenstellend",
-    "german_audio": "zufriedenstellend",
-    "english": "satisfactory",
-    "ukrainian": "задовільний",
-    "example": "Die Performance der App ist nach dem Datenbank-Update sehr <b style=\"color: #eab308;\">zufriedenstellend</b>."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Anfechtungserklärung, -en",
+    "german_audio": "die Anfechtungserklärung",
+    "english": "notice of avoidance / declaration of contestation",
+    "ukrainian": "заява про оскарження (скасування правочину через помилку або обман)",
+    "example": "Die <b style=\"color: #eab308;\">Anfechtungserklärung</b> **muss unverzüglich nach Entdeckung des Irrtums erfolgen**."
   },
   {
     "level": "B2",
@@ -22965,11 +22963,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "akzeptabel",
-    "german_audio": "akzeptabel",
-    "english": "acceptable",
-    "ukrainian": "прийнятний",
-    "example": "Eine Ladezeit von über 5 Sekunden ist für die User nicht <b style=\"color: #eab308;\">akzeptabel</b>."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Anfechtungsfrist, -en",
+    "german_audio": "die Anfechtungsfrist",
+    "english": "period for avoidance",
+    "ukrainian": "термін оскарження",
+    "example": "Die <b style=\"color: #eab308;\">Anfechtungsfrist</b> **ist gesetzlich genau geregelt**."
   },
   {
     "level": "B2",
@@ -22977,11 +22975,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Bewertung, -en",
-    "german_audio": "die Bewertung",
-    "english": "evaluation, review, rating",
-    "ukrainian": "оцінка, відгук",
-    "example": "Unsere neue App hat eine sehr gute <b style=\"color: #eab308;\">Bewertung</b> im App Store erhalten."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Schadensersatzpflicht, -en",
+    "german_audio": "die Schadensersatzpflicht",
+    "english": "liability for damages",
+    "ukrainian": "обов'язок відшкодування збитків",
+    "example": "Die <b style=\"color: #eab308;\">Schadensersatzpflicht</b> **entsteht bei schuldhafter Pflichtverletzung**."
   },
   {
     "level": "B2",
@@ -22989,11 +22987,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "eine Dienstleistung erbringen (erbringt, erbrachte, hat erbracht)",
-    "german_audio": "eine Dienstleistung erbringen",
-    "english": "to provide a service",
-    "ukrainian": "надавати послугу",
-    "example": "Unser Cloud-Provider muss die vertraglich vereinbarte Dienstleistung <b style=\"color: #eab308;\">erbringen</b>."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Verschulden (Sg.)",
+    "german_audio": "die Verschulden",
+    "english": "fault, culpability",
+    "ukrainian": "вина",
+    "example": "Ohne <b style=\"color: #eab308;\">Verschulden</b> des Arbeitnehmers **besteht keine Pflicht zum Schadenersatz**."
   },
   {
     "level": "B2",
@@ -23001,11 +22999,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "fällig werden",
-    "german_audio": "fällig werden",
-    "english": "to become due (for payment)",
-    "ukrainian": "підлягати сплаті, настати (про термін)",
-    "example": "Die Rechnung für das Software-Abo wird am Monatsende fällig."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Schuldhaftigkeit (Sg.)",
+    "german_audio": "die Schuldhaftigkeit",
+    "english": "culpability",
+    "ukrainian": "винуватість",
+    "example": "Die <b style=\"color: #eab308;\">Schuldhaftigkeit</b> des Verhaltens **wurde im Gerichtsurteil begründet**."
   },
   {
     "level": "B2",
@@ -23013,11 +23011,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "permanent",
-    "german_audio": "permanent",
-    "english": "permanent(ly)",
-    "ukrainian": "постійний, перманентний",
-    "example": "Wir brauchen eine <b style=\"color: #eab308;\">permanente</b> und sichere Verbindung zur Datenbank."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Fahrlässigkeitshaftung, -en",
+    "german_audio": "die Fahrlässigkeitshaftung",
+    "english": "liability for negligence",
+    "ukrainian": "відповідальність за необережність",
+    "example": "Die <b style=\"color: #eab308;\">Fahrlässigkeitshaftung</b> **kann vertraglich nicht völlig ausgeschlossen werden**."
   },
   {
     "level": "B2",
@@ -23025,11 +23023,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "eine Rolle spielen",
-    "german_audio": "eine Rolle spielen",
-    "english": "to play a role/part",
-    "ukrainian": "відігравати роль",
-    "example": "Clean Code <b style=\"color: #eab308;\">spielt</b> eine große Rolle für die Wartbarkeit unseres IT-Projekts."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Gefährdungshaftung, -en",
+    "german_audio": "die Gefährdungshaftung",
+    "english": "strict liability (liability without fault)",
+    "ukrainian": "відповідальність за створення небезпеки (незалежно від вини — напр. власника авто або заводу)",
+    "example": "Die <b style=\"color: #eab308;\">Gefährdungshaftung</b> **gilt für Betreiber von kerntechnischen Anlagen**."
   },
   {
     "level": "B2",
@@ -23037,11 +23035,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Schadenersatz (Sg.)",
-    "german_audio": "der Schadenersatz",
-    "english": "compensation for damages",
-    "ukrainian": "відшкодування збитків",
-    "example": "Bei einem großen Datenverlust kann der Kunde <b style=\"color: #eab308;\">Schadenersatz</b> fordern."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Produkthaftung (Sg.)",
+    "german_audio": "die Produkthaftung",
+    "english": "product liability",
+    "ukrainian": "відповідальність за якість продукції",
+    "example": "Die <b style=\"color: #eab308;\">Produkthaftung</b> **regelt die Haftung des Herstellers für fehlerhafte Produkte**."
   },
   {
     "level": "B2",
@@ -23049,11 +23047,11 @@
       "B2"
     ],
     "thema": 8,
-    "german": "tolerant",
-    "german_audio": "tolerant",
-    "english": "tolerant",
-    "ukrainian": "толерантний",
-    "example": "Unser Team ist sehr <b style=\"color: #eab308;\">tolerant</b> gegenüber Fehlern, wenn wir daraus lernen."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Produktsicherheitsgesetz (ProdSG) (Sg.)",
+    "german_audio": "die Produktsicherheitsgesetz",
+    "english": "product safety act",
+    "ukrainian": "закон про безпеку продукції",
+    "example": "Das <b style=\"color: #eab308;\">ProdSG</b> **schreibt strenge Sicherheitsprüfungen vor dem Verkauf vor**."
   },
   {
     "level": "B2",
@@ -23061,11 +23059,3179 @@
       "B2"
     ],
     "thema": 8,
-    "german": "zum guten Ton gehören",
-    "german_audio": "zum guten Ton gehören",
-    "english": "to be good manners/etiquette",
-    "ukrainian": "бути правилом хорошого тону",
-    "example": "Pünktlichkeit beim Zoom-Meeting <b style=\"color: #eab308;\">gehört</b> in unserem Team zum guten Ton."
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> GS-Zeichen (geprüfte Sicherheit), -",
+    "german_audio": "die GS-Zeichen",
+    "english": "GS mark (tested safety)",
+    "ukrainian": "знак сертифікації «безпека перевірена» (GS)",
+    "example": "Das <b style=\"color: #eab308;\">GS-Zeichen</b> **dient dem Verbraucher als Nachweis der geprüften Sicherheit**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Konformitätsbewertung, -en",
+    "german_audio": "die Konformitätsbewertung",
+    "english": "conformity assessment",
+    "ukrainian": "оцінка відповідності",
+    "example": "Die <b style=\"color: #eab308;\">Konformitätsbewertung</b> **wurde durch eine akkreditierte Prüfstelle durchgeführt**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Akkreditierung, -en",
+    "german_audio": "die Akkreditierung",
+    "english": "accreditation",
+    "ukrainian": "акредитація",
+    "example": "Die <b style=\"color: #eab308;\">Akkreditierung</b> **bestätigt die Kompetenz des Labors zur Durchführung der Messungen**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Prüfstelle, -n",
+    "german_audio": "die Prüfstelle",
+    "english": "testing body / inspection authority",
+    "ukrainian": "орган сертифікації (випробувальний центр)",
+    "example": "Die <b style=\"color: #eab308;\">Prüfstelle</b> **ist für die Zulassung der Kältemaschinen zuständig**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Sachverständigenrat, \"-e",
+    "german_audio": "die Sachverständigenrat",
+    "english": "council of experts / advisory board",
+    "ukrainian": "рада експертів",
+    "example": "Der <b style=\"color: #eab308;\">Sachverständigenrat</b> **berät die Bundesregierung bei Wirtschaftsfragen**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Monopolkommission, -en",
+    "german_audio": "die Monopolkommission",
+    "english": "monopolies commission",
+    "ukrainian": "монопольна комісія",
+    "example": "Die <b style=\"color: #eab308;\">Monopolkommission</b> **überwacht die Wettbewerbssituation auf dem Markt**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Kartellamt (Bundeskartellamt) (Sg.)",
+    "german_audio": "die Kartellamt",
+    "english": "Federal Cartel Office",
+    "ukrainian": "Федеральне відомство з картелів (антимонопольний комітет)",
+    "example": "Das Bundeskartellamt **prüft Fusionen von großen Unternehmen**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Fusionskontrolle, -n",
+    "german_audio": "die Fusionskontrolle",
+    "english": "merger control",
+    "ukrainian": "контроль за злиттям підприємств",
+    "example": "Die <b style=\"color: #eab308;\">Fusionskontrolle</b> **verhindert die Entstehung marktbeherrschender Stellungen**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> marktbeherrschende Stellung",
+    "german_audio": "die marktbeherrschende Stellung",
+    "english": "dominant market position",
+    "ukrainian": "домінуюче становище на ринку",
+    "example": "Eine marktbeherrschende <b style=\"color: #eab308;\">Stellung</b> **unterliegt der Missbrauchsaufsicht**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Missbrauchsaufsicht (Sg.)",
+    "german_audio": "die Missbrauchsaufsicht",
+    "english": "abuse control / supervision of abuse",
+    "ukrainian": "нагляд за зловживанням (домінуючим становищем)",
+    "example": "Die <b style=\"color: #eab308;\">Missbrauchsaufsicht</b> **wird vom Bundeskartellamt durchgeführt**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Preismissbrauch, \"-e",
+    "german_audio": "die Preismissbrauch",
+    "english": "price abuse",
+    "ukrainian": "зловживання цінами (завищення монополістом)",
+    "example": "<b style=\"color: #eab308;\">Preismissbrauch</b> **ist gesetzlich verboten und wird streng geahndet**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Kartellverbot, -e",
+    "german_audio": "die Kartellverbot",
+    "english": "ban on cartels",
+    "ukrainian": "заборона картельних угод",
+    "example": "Das <b style=\"color: #eab308;\">Kartellverbot</b> **schützt den fairen Wettbewerb auf dem Markt**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Preisabsprache, -n",
+    "german_audio": "die Preisabsprache",
+    "english": "price fixing / price agreement",
+    "ukrainian": "цінова змова",
+    "example": "Illegale <b style=\"color: #eab308;\">Preisabsprachen</b> **führten zu Millionenstrafen für die Beteiligten**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Bußgeldverfahren, -",
+    "german_audio": "die Bußgeldverfahren",
+    "english": "fine proceedings",
+    "ukrainian": "провадження у справі про накладення штрафу",
+    "example": "Das <b style=\"color: #eab308;\">Bußgeldverfahren</b> **wurde nach der Zahlung des Geldes eingestellt**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Kronzeugenregelung, -en",
+    "german_audio": "die Kronzeugenregelung",
+    "english": "leniency program / state's witness rule",
+    "ukrainian": "програма пом'якшення покарання для тих, хто співпрацює зі слідством (кронцойге)",
+    "example": "Die <b style=\"color: #eab308;\">Kronzeugenregelung</b> **hilft bei der Aufdeckung geheimer Kartelle**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Kronzeuge, -n / die Kronzeugin, -nen",
+    "german_audio": "die Kronzeuge",
+    "english": "state's witness / chief witness",
+    "ukrainian": "головний свідок (той, хто співпрацює зі слідством)",
+    "example": "Der <b style=\"color: #eab308;\">Kronzeuge</b> **erhielt Straffreiheit für seine Kooperation**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Straffreiheit (Sg.)",
+    "german_audio": "die Straffreiheit",
+    "english": "immunity from prosecution",
+    "ukrainian": "звільнення від покарання (імунітет)",
+    "example": "Die <b style=\"color: #eab308;\">Straffreiheit</b> **wurde im Rahmen der Kronzeugenregelung gewährt**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Geldbuße, -n",
+    "german_audio": "die Geldbuße",
+    "english": "administrative fine",
+    "ukrainian": "грошовий штраф",
+    "example": "Die <b style=\"color: #eab308;\">Geldbuße</b> **wurde wegen Verstoßes gegen das Immissionsschutzgesetz verhängt**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Umsatzbezogene Geldbuße",
+    "german_audio": "die Umsatzbezogene Geldbuße",
+    "english": "turnover-related fine",
+    "ukrainian": "штраф, що розраховується від обороту компанії",
+    "example": "Eine umsatzbezogene <b style=\"color: #eab308;\">Geldbuße</b> **kann existenzbedrohend für den Betrieb sein**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> existenzbedrohend",
+    "german_audio": "die existenzbedrohend",
+    "english": "existential threat / life-threatening (for a business)",
+    "ukrainian": "такий, що загрожує існуванню бізнесу",
+    "example": "Der Liquiditätsengpass **entwickelte sich zu einer <b style=\"color: #eab308;\">existenzbedrohenden</b> Krise**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Existenzsicherung (Sg.)",
+    "german_audio": "die Existenzsicherung",
+    "english": "securing existence / livelihood",
+    "ukrainian": "забезпечення прожиткового мінімуму / існування",
+    "example": "Die <b style=\"color: #eab308;\">Existenzsicherung</b> der Mitarbeiter **ist das oberste Ziel des Sozialplans**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Insolvenzgeld, -er",
+    "german_audio": "die Insolvenzgeld",
+    "english": "insolvency payments (wages paid by labor agency during insolvency)",
+    "ukrainian": "допомога по банкрутству (виплата зарплати агентством праці)",
+    "example": "Das <b style=\"color: #eab308;\">Insolvenzgeld</b> **sichert die Lohnfortzahlung für drei Monate ab**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Bundesagentur für Arbeit (BA) (Sg.)",
+    "german_audio": "die Bundesagentur für Arbeit",
+    "english": "Federal Employment Agency",
+    "ukrainian": "Федеральне агентство праці (BA)",
+    "example": "Die BA **zahlt das Insolvenzgeld im Falle einer Firmenpleite aus**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Firmenpleite, -n",
+    "german_audio": "die Firmenpleite",
+    "english": "company bankruptcy",
+    "ukrainian": "банкрутство фірми",
+    "example": "Die <b style=\"color: #eab308;\">Firmenpleite</b> **verursachte eine hohe Arbeitslosenquote in der Region**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Pleite, -n",
+    "german_audio": "die Pleite",
+    "english": "bankruptcy / bust",
+    "ukrainian": "банкрутство, крах",
+    "example": "Nach der <b style=\"color: #eab308;\">Pleite</b> **musste das Handwerksunternehmen geschlossen werden**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Konkurs, -e",
+    "german_audio": "die Konkurs",
+    "english": "bankruptcy",
+    "ukrainian": "банкрутство (застарілий термін, зараз Insolvenz)",
+    "example": "Der <b style=\"color: #eab308;\">Konkurs</b> **wurde mangels Masse nicht eröffnet**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Konkursverfahren, -",
+    "german_audio": "die Konkursverfahren",
+    "english": "bankruptcy proceedings",
+    "ukrainian": "процедура конкурсного провадження (банкрутства)",
+    "example": "Das <b style=\"color: #eab308;\">Konkursverfahren</b> **wurde nach dem alten Recht abgewickelt**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Konkursmasse, -n",
+    "german_audio": "die Konkursmasse",
+    "english": "bankruptcy estate",
+    "ukrainian": "банкрутське майно",
+    "example": "Die <b style=\"color: #eab308;\">Konkursmasse</b> **wurde unter den Gläubigern aufgeteilt**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Konkursverwalter, - / die Konkursverwalterin, -nen",
+    "german_audio": "die Konkursverwalter",
+    "english": "receiver in bankruptcy",
+    "ukrainian": "конкурсний керуючий",
+    "example": "Der <b style=\"color: #eab308;\">Konkursverwalter</b> **versteigerte die verbliebene Ausstattung des Büros**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Versteigerung, -en",
+    "german_audio": "die Versteigerung",
+    "english": "auction",
+    "ukrainian": "аукціон, примусовий продаж",
+    "example": "Die <b style=\"color: #eab308;\">Versteigerung</b> der Maschinen **brachte einen Erlös für die Insolvenzmasse**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Erlös, -e",
+    "german_audio": "die Erlös",
+    "english": "revenue / proceeds",
+    "ukrainian": "виручка (від продажу майна)",
+    "example": "Der <b style=\"color: #eab308;\">Erlös</b> aus dem Verkauf **diente der Befriedigung der Gläubiger**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Befriedigung (z. B. der Gläubiger) (Sg.)",
+    "german_audio": "die Befriedigung",
+    "english": "satisfaction (e.g. of creditors)",
+    "ukrainian": "задоволення вимог (кредиторів)",
+    "example": "Die <b style=\"color: #eab308;\">Befriedigung</b> der Gläubiger **erfolgt nach einer gesetzlich festgelegten Quote**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Insolvenzquote, -n",
+    "german_audio": "die Insolvenzquote",
+    "english": "insolvency quota",
+    "ukrainian": "відсоток задоволення вимог кредиторів (квота банкрутства)",
+    "example": "Die durchschnittliche <b style=\"color: #eab308;\">Insolvenzquote</b> **liegt in Deutschland bei unter 10 Prozent**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Restschuldbefreiung, -en",
+    "german_audio": "die Restschuldbefreiung",
+    "english": "discharge of residual debt",
+    "ukrainian": "звільнення від залишку боргів",
+    "example": "Die <b style=\"color: #eab308;\">Restschuldbefreiung</b> **ermöglicht dem Schuldner einen wirtschaftlichen Neustart**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Wohlverhaltensphase, -n",
+    "german_audio": "die Wohlverhaltensphase",
+    "english": "good behavior period (in consumer insolvency)",
+    "ukrainian": "період належної поведінки (при банкрутстві фізичної особи)",
+    "example": "Während der <b style=\"color: #eab308;\">Wohlverhaltensphase</b> **muss der Schuldner seine Erwerbsobliegenheit erfüllen**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Erwerbsobliegenheit, -en",
+    "german_audio": "die Erwerbsobliegenheit",
+    "english": "obligation to seek employment",
+    "ukrainian": "обов'язок працювати (шукати роботу при банкрутстві)",
+    "example": "Die <b style=\"color: #eab308;\">Erwerbsobliegenheit</b> **verpflichtet den Schuldner zur aktiven Stellensuche**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> pfändbare Einkommen",
+    "german_audio": "die pfändbare Einkommen",
+    "english": "seizable income",
+    "ukrainian": "дохід, який підлягає арешту (може бути вилучений за борги)",
+    "example": "Das pfändbare <b style=\"color: #eab308;\">Einkommen</b> **wird direkt an den Treuhänder abgeführt**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Treuhänder, - / die Treuhänderin, -nen",
+    "german_audio": "die Treuhänder",
+    "english": "trustee",
+    "ukrainian": "довірчий керуючий (ліквідатор у спрощеному провадженні)",
+    "example": "Der <b style=\"color: #eab308;\">Treuhänder</b> **verteilt das pfändbare Einkommen an die Gläubiger**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Privatinsolvenz, -en",
+    "german_audio": "die Privatinsolvenz",
+    "english": "consumer insolvency / personal bankruptcy",
+    "ukrainian": "банкрутство фізичної особи",
+    "example": "Eine <b style=\"color: #eab308;\">Privatinsolvenz</b> **bietet überschuldeten Personen einen Ausweg**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Überschuldung, -en",
+    "german_audio": "die Überschuldung",
+    "english": "over-indebtedness",
+    "ukrainian": "надмірна заборгованість",
+    "example": "Die <b style=\"color: #eab308;\">Überschuldung</b> **war die Folge von unüberlegten Ratenzahlungen**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Schuldnerberatung, -en",
+    "german_audio": "die Schuldnerberatung",
+    "english": "debt counseling",
+    "ukrainian": "консультація для боржників",
+    "example": "Die <b style=\"color: #eab308;\">Schuldnerberatung</b> **unterstützt bei der Erstellung eines Schuldensanierungsplans**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Schuldensanierungsplan, \"-e",
+    "german_audio": "die Schuldensanierungsplan",
+    "english": "debt restructuring plan",
+    "ukrainian": "план реструктуризації боргів",
+    "example": "Der <b style=\"color: #eab308;\">Schuldensanierungsplan</b> **bedarf der Zustimmung aller Gläubiger**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> außergerichtliche Einigung",
+    "german_audio": "die außergerichtliche Einigung",
+    "english": "out-of-court settlement",
+    "ukrainian": "позасудове врегулювання (компроміс)",
+    "example": "Eine außergerichtliche <b style=\"color: #eab308;\">Einigung</b> **verhindert das Einleiten des Insolvenzverfahrens**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Insolvenzgericht, -e",
+    "german_audio": "die Insolvenzgericht",
+    "english": "insolvency court",
+    "ukrainian": "суд у справах про банкрутство",
+    "example": "Das <b style=\"color: #eab308;\">Insolvenzgericht</b> **eröffnet das Verfahren bei Vorliegen eines Eröffnungsgrundes**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Eröffnungsgrund, \"-e",
+    "german_audio": "die Eröffnungsgrund",
+    "english": "ground for opening (insolvency)",
+    "ukrainian": "підстава для відкриття провадження (напр. неплатоспроможність)",
+    "example": "Der wichtigste <b style=\"color: #eab308;\">Eröffnungsgrund</b> **ist die drohende Zahlungsunfähigkeit**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> drohende Zahlungsunfähigkeit",
+    "german_audio": "die drohende Zahlungsunfähigkeit",
+    "english": "imminent insolvency / threatening illiquidity",
+    "ukrainian": "загроза неплатоспроможності",
+    "example": "Bei drohender <b style=\"color: #eab308;\">Zahlungsunfähigkeit</b> **kann ein Insolvenzplan vorgelegt werden**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Überschuldung (Sg.) (Insolvenzeröffnungsgrund für juristische Personen)",
+    "german_audio": "die Überschuldung",
+    "english": "over-indebtedness",
+    "ukrainian": "надмірна заборгованість (підстава для банкрутства юр. осіб)",
+    "example": "Для акціонерних товариств **ist die <b style=\"color: #eab308;\">Überschuldung</b> ein zwingender Eröffnungsgrund**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Juristische Person, -en",
+    "german_audio": "die Juristische Person",
+    "english": "legal entity / corporate body",
+    "ukrainian": "юридична особа",
+    "example": "Eine GmbH gilt als juristische <b style=\"color: #eab308;\">Person</b> **und haftet nur mit dem Gesellschaftsvermögen**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Gesellschaftsvermögen, -",
+    "german_audio": "die Gesellschaftsvermögen",
+    "english": "corporate assets / company assets",
+    "ukrainian": "майно товариства (активи компанії)",
+    "example": "Das <b style=\"color: #eab308;\">Gesellschaftsvermögen</b> **wird im Insolvenzfall zur Insolvenzmasse**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> GmbH (Gesellschaft mit beschränkter Haftung), -s",
+    "german_audio": "die GmbH",
+    "english": "limited liability company",
+    "ukrainian": "товариство з обмеженою відповідальністю (ТОВ)",
+    "example": "Die Gründung einer <b style=\"color: #eab308;\">GmbH</b> **erfordert ein Mindeststammkapital von 25.000 Euro**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Stammkapital, -ien",
+    "german_audio": "die Stammkapital",
+    "english": "share capital",
+    "ukrainian": "статутний капітал",
+    "example": "Das <b style=\"color: #eab308;\">Stammkapital</b> **muss auf das Bankkonto der Gesellschaft eingezahlt werden**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Mindeststammkapital (Sg.)",
+    "german_audio": "die Mindeststammkapital",
+    "english": "minimum share capital",
+    "ukrainian": "мінімальний статутний капітал",
+    "example": "Das <b style=\"color: #eab308;\">Mindeststammkapital</b> **dient dem Gläubigerschutz**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Gläubigerschutz (Sg.)",
+    "german_audio": "die Gläubigerschutz",
+    "english": "protection of creditors",
+    "ukrainian": "захист прав кредиторів",
+    "example": "Der <b style=\"color: #eab308;\">Gläubigerschutz</b> **ist ein zentrales Prinzip des deutschen Gesellschaftsrechts**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Gesellschaftsrecht (Sg.)",
+    "german_audio": "die Gesellschaftsrecht",
+    "english": "corporate law / company law",
+    "ukrainian": "корпоративне право",
+    "example": "Das <b style=\"color: #eab308;\">Gesellschaftsrecht</b> **regelt die Rechte und Pflichten der Gesellschafter**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Gesellschaftervertrag, \"-e",
+    "german_audio": "die Gesellschaftervertrag",
+    "english": "articles of association / partnership agreement",
+    "ukrainian": "засновницький договір (статут)",
+    "example": "Der <b style=\"color: #eab308;\">Gesellschaftervertrag</b> **regelt die Vertretungsmacht der Geschäftsführer**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Satzung, -en",
+    "german_audio": "die Satzung",
+    "english": "statutes / bylaws",
+    "ukrainian": "статут (акціонерного товариства або товариства)",
+    "example": "Die <b style=\"color: #eab308;\">Satzung</b> **muss notariell beurkundet und im Handelsregister eingetragen werden**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Notarielle Beurkundung",
+    "german_audio": "die Notarielle Beurkundung",
+    "english": "notarial certification",
+    "ukrainian": "нотаріальне посвідчення",
+    "example": "Die notarielle <b style=\"color: #eab308;\">Beurkundung</b> **ist Voraussetzung für die Wirksamkeit der Satzung**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Notar, -en / die Notarin, -nen",
+    "german_audio": "die Notar",
+    "english": "notary",
+    "ukrainian": "нотаріус",
+    "example": "Der <b style=\"color: #eab308;\">Notar</b> **bestätigt die Identität der Gründer bei der Existenzgründung**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Handelsregister, -",
+    "german_audio": "die Handelsregister",
+    "english": "commercial register",
+    "ukrainian": "торговий реєстр",
+    "example": "Der Eintrag im <b style=\"color: #eab308;\">Handelsregister</b> **macht die GmbH als juristische Person rechtsfähig**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Rechtsfähigkeit (Sg.)",
+    "german_audio": "die Rechtsfähigkeit",
+    "english": "legal capacity",
+    "ukrainian": "правоздатність",
+    "example": "Die <b style=\"color: #eab308;\">Rechtsfähigkeit</b> **erlaubt es dem Unternehmen, Verträge unter eigenem Namen abzuschließen**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Geschäftsfähigkeit (Sg.)",
+    "german_audio": "die Geschäftsfähigkeit",
+    "english": "legal capacity to contract / active capacity",
+    "ukrainian": "дієздатність",
+    "example": "Die <b style=\"color: #eab308;\">Geschäftsfähigkeit</b> **tritt bei natürlichen Personen mit der Volljährigkeit ein**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Natürliche Person, -en",
+    "german_audio": "die Natürliche Person",
+    "english": "natural person / individual",
+    "ukrainian": "фізична особа",
+    "example": "Jeder Mensch gilt als natürliche <b style=\"color: #eab308;\">Person</b> **und besitzt die Rechtsfähigkeit**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Volljährigkeit (Sg.)",
+    "german_audio": "die Volljährigkeit",
+    "english": "majority / age of majority",
+    "ukrainian": "повноліття",
+    "example": "Mit dem Erreichen der <b style=\"color: #eab308;\">Volljährigkeit</b> **wird die unbeschränkte Geschäftsfähigkeit erworben**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Erwerbsfähigkeit (Sg.)",
+    "german_audio": "die Erwerbsfähigkeit",
+    "english": "earning capacity / capacity to work",
+    "ukrainian": "працездатність",
+    "example": "Die <b style=\"color: #eab308;\">Erwerbsfähigkeit</b> **kann durch Krankheiten oder Unfälle eingeschränkt werden**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Erwerbsminderung, -en",
+    "german_audio": "die Erwerbsminderung",
+    "english": "reduction in earning capacity",
+    "ukrainian": "втрата (зниження) працездатності",
+    "example": "Bei dauerhafter <b style=\"color: #eab308;\">Erwerbsminderung</b> **besteht Anspruch auf eine staatliche Rente**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Invalidität (Sg.)",
+    "german_audio": "die Invalidität",
+    "english": "invalidity / disability",
+    "ukrainian": "інвалідність",
+    "example": "Die <b style=\"color: #eab308;\">Invalidität</b> **muss durch ein medizinisches Gutachten nachgewiesen werden**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Berufsunfähigkeit (Sg.)",
+    "german_audio": "die Berufsunfähigkeit",
+    "english": "occupational disability",
+    "ukrainian": "професійна непрацездатність (неможливість працювати за фахом)",
+    "example": "Eine <b style=\"color: #eab308;\">Berufsunfähigkeit</b> **liegt vor, wenn der erlernte Beruf nicht mehr ausgeübt werden kann**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Berufsunfähigkeitsversicherung, -en",
+    "german_audio": "die Berufsunfähigkeitsversicherung",
+    "english": "occupational disability insurance",
+    "ukrainian": "страхування від професійної непрацездатності",
+    "example": "Die <b style=\"color: #eab308;\">Berufsunfähigkeitsversicherung</b> **zahlt im Schadensfall eine monatliche Rente**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Rentenhöhe, -n",
+    "german_audio": "die Rentenhöhe",
+    "english": "pension amount",
+    "ukrainian": "розмір пенсії",
+    "example": "Die <b style=\"color: #eab308;\">Rentenhöhe</b> **richtet sich nach den eingezahlten Beiträgen zur Rentenversicherung**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Beitragszahler, -",
+    "german_audio": "die Beitragszahler",
+    "english": "taxpayer / contributor",
+    "ukrainian": "платник внесків",
+    "example": "Die Zahl der <b style=\"color: #eab308;\">Beitragszahler</b> **sinkt aufgrund des demografischen Wandels**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Leistungsempfänger, -",
+    "german_audio": "die Leistungsempfänger",
+    "english": "beneficiary / recipient of benefits",
+    "ukrainian": "отримувач послуг / допомоги",
+    "example": "Die Zahl der <b style=\"color: #eab308;\">Leistungsempfänger</b> **steigt kontinuierlich an**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Sozialleistungssystem, -e",
+    "german_audio": "die Sozialleistungssystem",
+    "english": "social benefit system",
+    "ukrainian": "система соціального забезпечення",
+    "example": "Das <b style=\"color: #eab308;\">Sozialleistungssystem</b> **muss zukunftssicher reformiert werden**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Generationengerechtigkeit (Sg.)",
+    "german_audio": "die Generationengerechtigkeit",
+    "english": "intergenerational justice",
+    "ukrainian": "справедливість між поколіннями",
+    "example": "<b style=\"color: #eab308;\">Generationengerechtigkeit</b> **erfordert eine nachhaltige Finanzpolitik**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Nachhaltigkeitsfaktor, -en",
+    "german_audio": "die Nachhaltigkeitsfaktor",
+    "english": "sustainability factor",
+    "ukrainian": "коефіцієнт стійкості (у розрахунку пенсій)",
+    "example": "Der <b style=\"color: #eab308;\">Nachhaltigkeitsfaktor</b> **dämpft den Anstieg der Renten bei demografischen Problemen**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Rentenformel, -n",
+    "german_audio": "die Rentenformel",
+    "english": "pension formula",
+    "ukrainian": "пенсійна формула (розрахунок пенсії)",
+    "example": "Die <b style=\"color: #eab308;\">Rentenformel</b> **wird gesetzlich im Sozialgesetzbuch festgelegt**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Sozialgesetzbuch (SGB) (Sg.)",
+    "german_audio": "die Sozialgesetzbuch",
+    "english": "Social Code",
+    "ukrainian": "Соціальний кодекс (SGB)",
+    "example": "Das SGB **beinhaltet alle Rechtsnormen zur <b style=\"color: #eab308;\">Sozialversicherung</b>**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Sozialgesetzgebung (Sg.)",
+    "german_audio": "die Sozialgesetzgebung",
+    "english": "social legislation",
+    "ukrainian": "соціальне законодавство",
+    "example": "Die <b style=\"color: #eab308;\">Sozialgesetzgebung</b> **dient der sozialen Absicherung der Bevölkerung**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Soziale Sicherheit",
+    "german_audio": "die Soziale Sicherheit",
+    "english": "social security",
+    "ukrainian": "соціальна безпека (захищеність)",
+    "example": "Soziale <b style=\"color: #eab308;\">Sicherheit</b> **ist ein Grundprinzip des deutschen Sozialstaates**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Sozialstaat (Sg.)",
+    "german_audio": "die Sozialstaat",
+    "english": "welfare state",
+    "ukrainian": "соціальна держава",
+    "example": "Deutschland versteht sich als <b style=\"color: #eab308;\">Sozialstaat</b> **im Sinne des Grundgesetzes**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Sozialstaatsprinzip (Sg.)",
+    "german_audio": "die Sozialstaatsprinzip",
+    "english": "welfare state principle",
+    "ukrainian": "принцип соціальної держави",
+    "example": "Das <b style=\"color: #eab308;\">Sozialstaatsprinzip</b> **verpflichtet den Gesetzgeber zur sozialen Gerechtigkeit**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Soziale Gerechtigkeit",
+    "german_audio": "die Soziale Gerechtigkeit",
+    "english": "social justice",
+    "ukrainian": "соціальна справедливість",
+    "example": "Soziale <b style=\"color: #eab308;\">Gerechtigkeit</b> **erfordert eine gerechte Verteilung der Steuern**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Steuergerechtigkeit (Sg.)",
+    "german_audio": "die Steuergerechtigkeit",
+    "english": "tax fairness / tax justice",
+    "ukrainian": "податкова справедливість",
+    "example": "<b style=\"color: #eab308;\">Steuergerechtigkeit</b> **soll durch eine progressive Einkommensteuer erreicht werden**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Einkommensteuer, -n",
+    "german_audio": "die Einkommensteuer",
+    "english": "income tax",
+    "ukrainian": "податок на доходи фізичних осіб (ПДФО)",
+    "example": "Die <b style=\"color: #eab308;\">Einkommensteuer</b> **wird vom Bruttogehalt des Arbeitnehmers abgezogen**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Bruttogehalt, \"-er",
+    "german_audio": "die Bruttogehalt",
+    "english": "gross salary",
+    "ukrainian": "валова заробітна плата (брутто)",
+    "example": "Das <b style=\"color: #eab308;\">Bruttogehalt</b> **ist die Basis für die Berechnung der Sozialabgaben**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Nettogehalt, \"-er",
+    "german_audio": "die Nettogehalt",
+    "english": "net salary",
+    "ukrainian": "чиста заробітна плата (нетто)",
+    "example": "Das <b style=\"color: #eab308;\">Nettogehalt</b> **wird jeden Monat auf das Bankkonto überwiesen**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Gehaltskonto, -en",
+    "german_audio": "die Gehaltskonto",
+    "english": "salary account",
+    "ukrainian": "зарплатний рахунок",
+    "example": "Bitte geben Sie Ihre IBAN **für das <b style=\"color: #eab308;\">Gehaltskonto</b> im Personalbüro an**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> IBAN (International Bank Account Number), -s",
+    "german_audio": "die IBAN",
+    "english": "IBAN",
+    "ukrainian": "номер банківського рахунку IBAN",
+    "example": "Die <b style=\"color: #eab308;\">IBAN</b> **ist für die Überweisung des Gehalts zwingend erforderlich**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Bankverbindung, -en",
+    "german_audio": "die Bankverbindung",
+    "english": "bank details",
+    "ukrainian": "банківські реквізити",
+    "example": "Bitte teilen Sie uns Ihre <b style=\"color: #eab308;\">Bankverbindung</b> **im Personaldatenblatt mit**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Einzugsermächtigung, -en",
+    "german_audio": "die Einzugsermächtigung",
+    "english": "direct debit authorization",
+    "ukrainian": "дозвіл на списання коштів з рахунку",
+    "example": "Die <b style=\"color: #eab308;\">Einzugsermächtigung</b> **erleichtert das Bezahlen der monatlichen Miete**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> SEPA-Lastschriftmandat, -e",
+    "german_audio": "die SEPA-Lastschriftmandat",
+    "english": "SEPA direct debit mandate",
+    "ukrainian": "мандат прямого дебету SEPA",
+    "example": "Das <b style=\"color: #eab308;\">SEPA-Lastschriftmandat</b> **muss dem Vermieter schriftlich erteilt werden**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Lastschrift, -en",
+    "german_audio": "die Lastschrift",
+    "english": "direct debit",
+    "ukrainian": "пряме дебетування (списання з рахунку)",
+    "example": "Die Abbuchung **erfolgt per <b style=\"color: #eab308;\">Lastschrift</b> zum Fälligkeitstag**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Abbuchung, -en",
+    "german_audio": "die Abbuchung",
+    "english": "debit / withdrawal",
+    "ukrainian": "списання коштів",
+    "example": "Die <b style=\"color: #eab308;\">Abbuchung</b> der Stromkosten **erfolgt monatlich durch den Energieversorger**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Dauerauftrag, \"-e",
+    "german_audio": "die Dauerauftrag",
+    "english": "standing order",
+    "ukrainian": "регулярний платіж (автоплатіж)",
+    "example": "Ich habe einen <b style=\"color: #eab308;\">Dauerauftrag</b> **für die Mietzahlung bei meiner Bank eingerichtet**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Online-Banking, -s",
+    "german_audio": "die Online-Banking",
+    "english": "online banking",
+    "ukrainian": "онлайн-банкінг",
+    "example": "<b style=\"color: #eab308;\">Online-Banking</b> **ermöglicht die schnelle Abwicklung von Inlands- та Auslandsüberweisungen**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Überweisung, -en",
+    "german_audio": "die Überweisung",
+    "english": "bank transfer",
+    "ukrainian": "банківський переказ",
+    "example": "Die <b style=\"color: #eab308;\">Überweisung</b> der Kaution **muss vor der Wohnungsübergabe erfolgen**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Zahlungsempfänger, - / die Zahlungsempfängerin, -nen",
+    "german_audio": "die Zahlungsempfänger",
+    "english": "payee / recipient of payment",
+    "ukrainian": "отримувач платежу",
+    "example": "Der Name des <b style=\"color: #eab308;\">Zahlungsempfängers</b> **muss auf dem Beleg angegeben sein**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Beleg, -e",
+    "german_audio": "die Beleg",
+    "english": "receipt / voucher",
+    "ukrainian": "квитанція, чек, виправдний документ",
+    "example": "Bewahren Sie den <b style=\"color: #eab308;\">Beleg</b> gut auf, **um das Rückgaberecht in Anspruch zu nehmen**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Buchungsbeleg, -e",
+    "german_audio": "die Buchungsbeleg",
+    "english": "accounting voucher",
+    "ukrainian": "бухгалтерський документ (ордер/проводка)",
+    "example": "Jede Buchung **erfordert einen entsprechenden <b style=\"color: #eab308;\">Buchungsbeleg</b>**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Buchführung, -en",
+    "german_audio": "die Buchführung",
+    "english": "bookkeeping / accounting",
+    "ukrainian": "бухгалтерія, ведення обліку",
+    "example": "Eine ordnungsgemäße <b style=\"color: #eab308;\">Buchführung</b> **ist gesetzliche Pflicht für Kaufleute**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Buchhalter, - / die Buchhalterin, -nen",
+    "german_audio": "die Buchhalter",
+    "english": "bookkeeper / accountant",
+    "ukrainian": "бухгалтер",
+    "example": "Die <b style=\"color: #eab308;\">Buchhalterin</b> **ist mit der Kontierung der Rechnungen beschäftigt**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Kontierung, -en",
+    "german_audio": "die Kontierung",
+    "english": "account assignment / coding",
+    "ukrainian": "кодування (визначення рахунків бухгалтерської проводки)",
+    "example": "Die <b style=\"color: #eab308;\">Kontierung</b> der Belege **erfolgt nach dem Kontenrahmen**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Kontenrahmen, -",
+    "german_audio": "die Kontenrahmen",
+    "english": "chart of accounts",
+    "ukrainian": "план рахунків",
+    "example": "Der <b style=\"color: #eab308;\">Kontenrahmen</b> **sichert eine einheitliche Strukturierung der Buchhaltung**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Buchung, -en",
+    "german_audio": "die Buchung",
+    "english": "entry / posting (accounting)",
+    "ukrainian": "бухгалтерська проводка",
+    "example": "Die <b style=\"color: #eab308;\">Buchung</b> der Abschreibungen **erfolgt am Ende des Geschäftsjahres**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Abschreibung, -en",
+    "german_audio": "die Abschreibung",
+    "english": "depreciation / amortization",
+    "ukrainian": "амортизація (зношення активів)",
+    "example": "Die <b style=\"color: #eab308;\">Abschreibungen</b> auf Neuanschaffungen **mindern den steuerlichen Gewinn**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Gewinnminderung, -en",
+    "german_audio": "die Gewinnminderung",
+    "english": "reduction of profit",
+    "ukrainian": "зниження прибутку",
+    "example": "Die <b style=\"color: #eab308;\">Gewinnminderung</b> **führt zu einer Reduzierung der Steuerlast**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Steuerlast, -en",
+    "german_audio": "die Steuerlast",
+    "english": "tax burden",
+    "ukrainian": "податкове навантаження",
+    "example": "Die <b style=\"color: #eab308;\">Steuerlast</b> **kann durch legale Abschreibungen spürbar gesenkt werden**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Steuererleichterung, -en",
+    "german_audio": "die Steuererleichterung",
+    "english": "tax relief / tax break",
+    "ukrainian": "податкова пільга",
+    "example": "Die <b style=\"color: #eab308;\">Steuererleichterungen</b> **sollen Investitionen in Solaranlagen fördern**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Subvention, -en",
+    "german_audio": "die Subvention",
+    "english": "subsidy",
+    "ukrainian": "субсидія",
+    "example": "Die <b style=\"color: #eab308;\">Subventionen</b> für fossile Energieträger **wurden gesetzlich gestrichen**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Subventionsabbau (Sg.)",
+    "german_audio": "die Subventionsabbau",
+    "english": "reduction of subsidies",
+    "ukrainian": "скорочення субсидій",
+    "example": "Der <b style=\"color: #eab308;\">Subventionsabbau</b> **ist Teil des staatlichen Programms zur Haushaltskonsolidierung**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Haushaltskonsolidierung (Sg.)",
+    "german_audio": "die Haushaltskonsolidierung",
+    "english": "fiscal consolidation / budget consolidation",
+    "ukrainian": "консолідація бюджету (скорочення дефіциту)",
+    "example": "Die <b style=\"color: #eab308;\">Haushaltskonsolidierung</b> **erfordert Einsparungen in allen Ressorts**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Staatsverschuldung (Sg.)",
+    "german_audio": "die Staatsverschuldung",
+    "english": "national debt / public debt",
+    "ukrainian": "державний борг",
+    "example": "Eine hohe <b style=\"color: #eab308;\">Staatsverschuldung</b> **kann das Zinsniveau langfristig beeinflussen**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Schuldenbremse (Sg.)",
+    "german_audio": "die Schuldenbremse",
+    "english": "debt brake (constitutional limit on budget deficits in Germany)",
+    "ukrainian": "боргове гальмо (обмеження держборгу в конституції Німеччини)",
+    "example": "Die <b style=\"color: #eab308;\">Schuldenbremse</b> **ist im Grundgesetz verankert und begrenzt das Haushaltsdefizit**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Haushaltsdefizit, -e",
+    "german_audio": "die Haushaltsdefizit",
+    "english": "budget deficit",
+    "ukrainian": "дефіцит бюджету",
+    "example": "Das <b style=\"color: #eab308;\">Haushaltsdefizit</b> **konnte durch höhere Steuereinnahmen gesenkt werden**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Steuereinnahmen (Pl.)",
+    "german_audio": "die Steuereinnahmen",
+    "english": "tax revenues",
+    "ukrainian": "податкові надходження",
+    "example": "Die <b style=\"color: #eab308;\">Steuereinnahmen</b> des Bundes **haben einen neuen Höchststand erreicht**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Fiskalpolitik (Sg.)",
+    "german_audio": "die Fiskalpolitik",
+    "english": "fiscal policy",
+    "ukrainian": "фіскальна політика",
+    "example": "Die <b style=\"color: #eab308;\">Fiskalpolitik</b> **strebt eine Stabilisierung der konjunkturellen Entwicklung an**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Konjunkturzyklus, -zyklen",
+    "german_audio": "die Konjunkturzyklus",
+    "english": "business cycle / economic cycle",
+    "ukrainian": "економічний цикл (кон'юнктурний)",
+    "example": "Der <b style=\"color: #eab308;\">Konjunkturzyklus</b> **durchläuft die Phasen Aufschwung, Boom, Rezession und Depression**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Aufschwung, \"-e",
+    "german_audio": "die Aufschwung",
+    "english": "economic upswing / recovery",
+    "ukrainian": "економічне піднесення",
+    "example": "Ein konjunktureller <b style=\"color: #eab308;\">Aufschwung</b> **führt zu einer sinkenden Arbeitslosenquote**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Rezession, -en",
+    "german_audio": "die Rezession",
+    "english": "recession",
+    "ukrainian": "рецесія, спад",
+    "example": "In einer <b style=\"color: #eab308;\">Rezession</b> **leidet das produzierende Gewerbe unter Auftragsmangel**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Konjunkturprogramm, -e",
+    "german_audio": "die Konjunkturprogramm",
+    "english": "economic stimulus program",
+    "ukrainian": "програма стимулювання економіки",
+    "example": "Das <b style=\"color: #eab308;\">Konjunkturprogramm</b> **soll die Wirtschaft aus der Rezession führen**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Wirtschaftswachstum (Sg.)",
+    "german_audio": "die Wirtschaftswachstum",
+    "english": "economic growth",
+    "ukrainian": "економічне зростання",
+    "example": "Das <b style=\"color: #eab308;\">Wirtschaftswachstum</b> **wird am Bruttoinlandsprodukt (BIP) gemessen**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Bruttoinlandsprodukt (BIP) (Sg.)",
+    "german_audio": "die Bruttoinlandsprodukt",
+    "english": "gross domestic product (GDP)",
+    "ukrainian": "валовий внутрішній продукт (ВВП)",
+    "example": "Das BIP **ist der wichtigste Indikator für die wirtschaftliche Leistungsfähigkeit**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Wirtschaftskraft (Sg.)",
+    "german_audio": "die Wirtschaftskraft",
+    "english": "economic strength",
+    "ukrainian": "економічна сила (потенціал країни/регіону)",
+    "example": "Die <b style=\"color: #eab308;\">Wirtschaftskraft</b> Bayerns **beruht auf einem starken Mittelstand**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Strukturwandel, -",
+    "german_audio": "die Strukturwandel",
+    "english": "structural change",
+    "ukrainian": "структурні зміни (в економіці)",
+    "example": "Der <b style=\"color: #eab308;\">Strukturwandel</b> **erfordert die Umschulung von Arbeitnehmern**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Strukturförderung (Sg.)",
+    "german_audio": "die Strukturförderung",
+    "english": "structural promotion / regional aid",
+    "ukrainian": "структурна підтримка (допомога відсталим регіонам)",
+    "example": "Die <b style=\"color: #eab308;\">Strukturförderung</b> **soll die Lebensbedingungen in strukturschwachen Regionen angleichen**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> strukturschwach",
+    "german_audio": "die strukturschwach",
+    "english": "economically weak / underdeveloped",
+    "ukrainian": "економічно слабкий, відсталий",
+    "example": "In <b style=\"color: #eab308;\">strukturschwachen</b> Gebieten **ist die Stellensuche oft sehr schwierig**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Strukturstärke, -n",
+    "german_audio": "die Strukturstärke",
+    "english": "structural strength",
+    "ukrainian": "економічна розвиненість (структурна сила)",
+    "example": "Die <b style=\"color: #eab308;\">Strukturstärke</b> des Ballungsraums **zieht viele Fachkräfte an**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Standortpolitik (Sg.)",
+    "german_audio": "die Standortpolitik",
+    "english": "location policy",
+    "ukrainian": "політика сприяння розміщенню бізнесу (локальна політика залучення інвестицій)",
+    "example": "Eine aktive <b style=\"color: #eab308;\">Standortpolitik</b> **verbessert die Infrastruktur vor Ort**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Ansiedlung, -en",
+    "german_audio": "die Ansiedlung",
+    "english": "settlement / establishment (of companies)",
+    "ukrainian": "оселення, розміщення (підприємства)",
+    "example": "Die <b style=\"color: #eab308;\">Ansiedlung</b> des Automobilwerks **schuf 1000 neue Arbeitsplätze**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Arbeitsplatzbeschaffung (Sg.)",
+    "german_audio": "die Arbeitsplatzbeschaffung",
+    "english": "job creation",
+    "ukrainian": "створення робочих місць",
+    "example": "Die <b style=\"color: #eab308;\">Arbeitsplatzbeschaffung</b> **wird durch staatliche Investitionszuschüsse gefördert**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Beschäftigungsförderung (Sg.)",
+    "german_audio": "die Beschäftigungsförderung",
+    "english": "employment promotion",
+    "ukrainian": "сприяння зайнятості",
+    "example": "Die <b style=\"color: #eab308;\">Beschäftigungsförderung</b> **ist eine Hauptaufgabe der Bundesagentur für Arbeit**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Arbeitsförderung (Sg.)",
+    "german_audio": "die Arbeitsförderung",
+    "english": "employment promotion (under social law SGB III)",
+    "ukrainian": "сприяння працевлаштуванню (за законом SGB III)",
+    "example": "Die gesetzliche <b style=\"color: #eab308;\">Arbeitsförderung</b> **beinhaltet Bildungs- та Vermittlungsgutscheine**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Weiterbildungsförderung (Sg.)",
+    "german_audio": "die Weiterbildungsförderung",
+    "english": "promotion of further training",
+    "ukrainian": "підтримка підвищення кваліфікації",
+    "example": "Die <b style=\"color: #eab308;\">Weiterbildungsförderung</b> **kann über das Aufstiegs-BAföG erfolgen**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Aufstiegs-BAföG (Sg.)",
+    "german_audio": "die Aufstiegs-BAföG",
+    "english": "financial support for career advancement (under AFBG)",
+    "ukrainian": "фінансова підтримка кар'єрного зростання (Aufstiegs-BAföG)",
+    "example": "Mit dem <b style=\"color: #eab308;\">Aufstiegs-BAföG</b> **wird die Meisterprüfung finanziell gefördert**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Aufstiegsfortbildung, -en",
+    "german_audio": "die Aufstiegsfortbildung",
+    "english": "advancement training / career training",
+    "ukrainian": "підвищення кваліфікації для кар'єрного просування",
+    "example": "Die <b style=\"color: #eab308;\">Aufstiegsfortbildung</b> **bereitet auf die Übernahme von Führungsverantwortung vor**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Fachfortbildung, -en",
+    "german_audio": "die Fachfortbildung",
+    "english": "specialized training",
+    "ukrainian": "спеціалізоване підвищення кваліфікації",
+    "example": "Die <b style=\"color: #eab308;\">Fachfortbildung</b> **dient dem Erwerb spezieller Sachkunde**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Fachprüfung, -en",
+    "german_audio": "die Fachprüfung",
+    "english": "specialized exam",
+    "ukrainian": "професійний (фаховий) іспит",
+    "example": "Die <b style=\"color: #eab308;\">Fachprüfung</b> **wurde vor einer staatlich anerkannten Prüfstelle abgelegt**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Prüfungsordnung, -en",
+    "german_audio": "die Prüfungsordnung",
+    "english": "examination regulations",
+    "ukrainian": "положення про іспити",
+    "example": "Die <b style=\"color: #eab308;\">Prüfungsordnung</b> **regelt den genauen Ablauf und die Notenvergabe**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Benotung, -en",
+    "german_audio": "die Benotung",
+    "english": "grading / marking",
+    "ukrainian": "оцінювання (виставлення оцінок)",
+    "example": "Die <b style=\"color: #eab308;\">Benotung</b> **muss nach transparenten und sachlichen Kriterien erfolgen**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Bewertungsmaßstab, \"-e",
+    "german_audio": "die Bewertungsmaßstab",
+    "english": "evaluation standard / grading scale",
+    "ukrainian": "шкала (критерій) оцінювання",
+    "example": "Der <b style=\"color: #eab308;\">Bewertungsmaßstab</b> **ist in der Prüfungsordnung festgeschrieben**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Bestehensgrenze, -n",
+    "german_audio": "die Bestehensgrenze",
+    "english": "passing limit / pass mark",
+    "ukrainian": "прохідний бал (поріг здачі)",
+    "example": "Die <b style=\"color: #eab308;\">Bestehensgrenze</b> **liegt in der Regel bei 50 Prozent der Punkte**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Punktzahl, -en",
+    "german_audio": "die Punktzahl",
+    "english": "number of points / score",
+    "ukrainian": "кількість балів",
+    "example": "Die erreichte <b style=\"color: #eab308;\">Punktzahl</b> **wird im Prüfungszeugnis ausgewiesen**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Prüfungsleistung, -en",
+    "german_audio": "die Prüfungsleistung",
+    "english": "exam performance",
+    "ukrainian": "екзаменаційна робота (результат іспиту)",
+    "example": "Die <b style=\"color: #eab308;\">Prüfungsleistung</b> **wurde von zwei Prüfern unabhängig beurteilt**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Zweitkorrektur, -en",
+    "german_audio": "die Zweitkorrektur",
+    "english": "second marking / double marking",
+    "ukrainian": "друга перевірка (екзаменаційної роботи)",
+    "example": "Die <b style=\"color: #eab308;\">Zweitkorrektur</b> **sichert die Fairness und Korrektheit der Benotung**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Erstkorrektur, -en",
+    "german_audio": "die Erstkorrektur",
+    "english": "first marking",
+    "ukrainian": "перша перевірка",
+    "example": "Die <b style=\"color: #eab308;\">Erstkorrektur</b> **wurde vom Fachlehrer durchgeführt**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Korrektor, -en / die Korrektorin, -nen",
+    "german_audio": "die Korrektor",
+    "english": "marker / proofreader",
+    "ukrainian": "екзаменатор, який перевіряє роботи",
+    "example": "Die <b style=\"color: #eab308;\">Korrektorin</b> **bemängelte die ungenaue Formulierung im Gesetzestext**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Formulierung, -en",
+    "german_audio": "die Formulierung",
+    "english": "formulation / wording",
+    "ukrainian": "формулювання",
+    "example": "Eine präzise <b style=\"color: #eab308;\">Formulierung</b> **ist für die Wirksamkeit von Vertragsklauseln entscheidend**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Auslegung, -en",
+    "german_audio": "die Auslegung",
+    "english": "interpretation",
+    "ukrainian": "тлумачення (закону або договору)",
+    "example": "Die <b style=\"color: #eab308;\">Auslegung</b> des Gesetzes **erfolgt im Zweifel durch die Rechtsprechung**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Auslegungsspielraum, \"-e",
+    "german_audio": "die Auslegungsspielraum",
+    "english": "room for interpretation",
+    "ukrainian": "простір для тлумачення",
+    "example": "Der Vertragstext **lässt dem Richter einen gewissen <b style=\"color: #eab308;\">Auslegungsspielraum</b>**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Zweifelsfall, \"-e",
+    "german_audio": "die Zweifelsfall",
+    "english": "case of doubt",
+    "ukrainian": "сумнівний випадок (у разі сумніву)",
+    "example": "Im <b style=\"color: #eab308;\">Zweifelsfall</b> **ist die verbraucherfreundliche Auslegung anzuwenden**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Verbraucherschutz (Sg.)",
+    "german_audio": "die Verbraucherschutz",
+    "english": "consumer protection",
+    "ukrainian": "захист прав споживачів",
+    "example": "Der <b style=\"color: #eab308;\">Verbraucherschutz</b> **wird durch strenge gesetzliche Verordnungen geregelt**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Verbraucherschutzorganisation, -en",
+    "german_audio": "die Verbraucherschutzorganisation",
+    "english": "consumer protection organization",
+    "ukrainian": "організація захисту споживачів",
+    "example": "Die <b style=\"color: #eab308;\">Verbraucherschutzorganisation</b> **warnt vor irreführenden AGB im Internet**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Verbraucherzentrale, -n",
+    "german_audio": "die Verbraucherzentrale",
+    "english": "consumer advice center",
+    "ukrainian": "центр захисту споживачів",
+    "example": "Die <b style=\"color: #eab308;\">Verbraucherzentrale</b> **bietet rechtliche Rechtsberatung bei Reklamationen**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Musterklage, -n",
+    "german_audio": "die Musterklage",
+    "english": "model case / representative action",
+    "ukrainian": "зразковий позов (колективний позов)",
+    "example": "Die <b style=\"color: #eab308;\">Musterklage</b> **soll Schadensersatz für Tausende Kunden erstreiten**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Kläger, - / die Klägerin, -nen",
+    "german_audio": "die Kläger",
+    "english": "plaintiff / claimant",
+    "ukrainian": "позивач",
+    "example": "Der <b style=\"color: #eab308;\">Kläger</b> **reichte die Klageschrift über seinen Rechtsanwalt ein**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Beklagte, -n / die Beklagte, -n",
+    "german_audio": "die Beklagte",
+    "english": "defendant",
+    "ukrainian": "відповідач",
+    "example": "Die <b style=\"color: #eab308;\">Beklagte</b> **wies die Forderungen der Gegenseite als unbegründet zurück**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Gegenseite (Sg.)",
+    "german_audio": "die Gegenseite",
+    "english": "opposing party / other side",
+    "ukrainian": "протилежна сторона",
+    "example": "Die <b style=\"color: #eab308;\">Gegenseite</b> **hat den Schlichtungsvorschlag abgelehnt**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Schriftsatz, \"-e",
+    "german_audio": "die Schriftsatz",
+    "english": "pleading / written brief",
+    "ukrainian": "судова заява (письмове пояснення по справі)",
+    "example": "Die Anwälte **haben die <b style=\"color: #eab308;\">Schriftsätze</b> fristgerecht beim Gericht eingereicht**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Gerichtsakte, -n",
+    "german_audio": "die Gerichtsakte",
+    "english": "court file / record",
+    "ukrainian": "судова справа (матеріали справи)",
+    "example": "Die Schriftsätze **werden in der <b style=\"color: #eab308;\">Gerichtsakte</b> abgeheftet**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Akteneinsicht (Sg.)",
+    "german_audio": "die Akteneinsicht",
+    "english": "inspection of files",
+    "ukrainian": "ознайомлення з матеріалами справи",
+    "example": "Der Rechtsanwalt **hat <b style=\"color: #eab308;\">Akteneinsicht</b> beim Arbeitsgericht beantragt**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Aktenzeichen, -",
+    "german_audio": "die Aktenzeichen",
+    "english": "file reference / case number",
+    "ukrainian": "номер судової справи (акту)",
+    "example": "Bitte geben Sie das <b style=\"color: #eab308;\">Aktenzeichen</b> **bei jedem Schriftwechsel mit dem Gericht an**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Geschäftsstelle, -n",
+    "german_audio": "die Geschäftsstelle",
+    "english": "office / registry (of the court)",
+    "ukrainian": "канцелярія суду",
+    "example": "Die Klageschrift **muss bei der <b style=\"color: #eab308;\">Geschäftsstelle</b> eingereicht werden**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Rechtspfleger, - / die Rechtspflegerin, -nen",
+    "german_audio": "die Rechtspfleger",
+    "english": "court registrar / judicial officer",
+    "ukrainian": "судовий виконавець (референт суду)",
+    "example": "Der <b style=\"color: #eab308;\">Rechtspfleger</b> **ist für die Festsetzung der Prozesskosten zuständig**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Prozesskosten (Pl.)",
+    "german_audio": "die Prozesskosten",
+    "english": "legal costs / litigation costs",
+    "ukrainian": "судові витрати",
+    "example": "Die <b style=\"color: #eab308;\">Prozesskosten</b> **bestehen aus Gerichtsgebühren und Anwaltskosten**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Prozesskostenhilfe (PKH) (Sg.)",
+    "german_audio": "die Prozesskostenhilfe",
+    "english": "legal aid",
+    "ukrainian": "допомога на оплату судових витрат (PKH)",
+    "example": "Personen mit geringem Einkommen **können <b style=\"color: #eab308;\">Prozesskostenhilfe</b> beantragen**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Bedürftigkeitsprüfung, -en",
+    "german_audio": "die Bedürftigkeitsprüfung",
+    "english": "means test",
+    "ukrainian": "перевірка матеріального стану (потреби)",
+    "example": "Die PKH **erfordert eine gründliche <b style=\"color: #eab308;\">Bedürftigkeitsprüfung</b> der Kläger**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Vermögensverzeichnis, -se",
+    "german_audio": "die Vermögensverzeichnis",
+    "english": "statement of assets / inventory of property",
+    "ukrainian": "декларація про майно (активи)",
+    "example": "Das <b style=\"color: #eab308;\">Vermögensverzeichnis</b> **muss unter Eid beim Gerichtsvollzieher abgegeben werden**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Offenbarungseid (Sg.)",
+    "german_audio": "die Offenbarungseid",
+    "english": "statutory declaration / oath of disclosure (now Vermögensauskunft)",
+    "ukrainian": "присяга про розкриття майнового стану",
+    "example": "Die Abgabe des <b style=\"color: #eab308;\">Offenbarungseids</b> **wird im Melderegister vermerkt**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Gerichtsvollzieher, - / die Gerichtsvollzieherin, -nen",
+    "german_audio": "die Gerichtsvollzieher",
+    "english": "bailiff",
+    "ukrainian": "судовий виконавець",
+    "example": "Der <b style=\"color: #eab308;\">Gerichtsvollzieher</b> **vollstreckt das rechtskräftige Gerichtsurteil**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Zwangsvollstreckung, -en",
+    "german_audio": "die Zwangsvollstreckung",
+    "english": "foreclosure / enforcement of judgment",
+    "ukrainian": "примусове виконання (стягнення)",
+    "example": "Die <b style=\"color: #eab308;\">Zwangsvollstreckung</b> **wurde wegen Zahlungsverzugs eingeleitet**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Vollstreckungstitel, -",
+    "german_audio": "die Vollstreckungstitel",
+    "english": "writ of execution / enforceable title",
+    "ukrainian": "виконавчий документ",
+    "example": "Das Urteil **dient nach der Zustellung als <b style=\"color: #eab308;\">Vollstreckungstitel</b>**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Zustellung, -en",
+    "german_audio": "die Zustellung",
+    "english": "service / delivery (legal)",
+    "ukrainian": "вручення (офіційне повідомлення)",
+    "example": "Die <b style=\"color: #eab308;\">Zustellung</b> der Klageschrift **erfolgt per Post mit Zustellungsurkunde**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Zustellungsurkunde, -n",
+    "german_audio": "die Zustellungsurkunde",
+    "english": "certificate of service",
+    "ukrainian": "повідомлення про вручення (судової пошти)",
+    "example": "Die <b style=\"color: #eab308;\">Zustellungsurkunde</b> **weist das genaue Datum der Zustellung nach**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Fristablauf, \"-e",
+    "german_audio": "die Fristablauf",
+    "english": "expiration of deadline",
+    "ukrainian": "закінчення терміну",
+    "example": "Nach <b style=\"color: #eab308;\">Fristablauf</b> **kann gegen den Bußgeldbescheid kein Einspruch mehr eingelegt werden**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Einspruch, \"-e",
+    "german_audio": "die Einspruch",
+    "english": "objection / appeal",
+    "ukrainian": "заперечення, апеляція (проти рішень відомств)",
+    "example": "Der <b style=\"color: #eab308;\">Einspruch</b> **muss innerhalb von zwei Wochen schriftlich erfolgen**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Einspruchsfrist, -en",
+    "german_audio": "die Einspruchsfrist",
+    "english": "period for filing an objection",
+    "ukrainian": "термін подання заперечення",
+    "example": "Die <b style=\"color: #eab308;\">Einspruchsfrist</b> **ist eine gesetzliche Ausschlussfrist**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Ausschlussfrist, -en",
+    "german_audio": "die Ausschlussfrist",
+    "english": "exclusion period / forfeiture period",
+    "ukrainian": "преклюзивний термін (строк втрати права)",
+    "example": "Laut Tarifvertrag **gilt für Gehaltsforderungen eine dreimonatige <b style=\"color: #eab308;\">Ausschlussfrist</b>**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Verjährung, -en",
+    "german_audio": "die Verjährung",
+    "english": "statute of limitations / limitation",
+    "ukrainian": "позовна давність",
+    "example": "Die <b style=\"color: #eab308;\">Verjährung</b> der Forderung **tritt nach der gesetzlichen Regelfrist von drei Jahren ein**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Verjährungsfrist, -en",
+    "german_audio": "die Verjährungsfrist",
+    "english": "limitation period",
+    "ukrainian": "термін позовної давності",
+    "example": "Die <b style=\"color: #eab308;\">Verjährungsfrist</b> **kann durch Verhandlungen gehemmt werden**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Hemmung (z. B. der Verjährung) (Sg.)",
+    "german_audio": "die Hemmung",
+    "english": "suspension (e.g. of limitation)",
+    "ukrainian": "зупинення (перебігу позовної давності)",
+    "example": "Der Beginn von Verhandlungen **führt zur <b style=\"color: #eab308;\">Hemmung</b> der Verjährungsfrist**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Neubeginn (z. B. der Verjährung) (Sg.)",
+    "german_audio": "die Neubeginn",
+    "english": "restart (e.g. of limitation)",
+    "ukrainian": "початок перебігу позовної давності заново",
+    "example": "Ein Anerkenntnis der Schuld **löst den <b style=\"color: #eab308;\">Neubeginn</b> der Verjährung aus**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Anerkenntnis, -se",
+    "german_audio": "die Anerkenntnis",
+    "english": "acknowledgment / admission",
+    "ukrainian": "визнання (боргу/провини)",
+    "example": "Die schriftliche <b style=\"color: #eab308;\">Anerkenntnis</b> **verhindert das Eintreten der Verjährung**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Schuldanerkenntnis, -se",
+    "german_audio": "die Schuldanerkenntnis",
+    "english": "acknowledgment of debt",
+    "ukrainian": "визнання боргу (документ)",
+    "example": "Das <b style=\"color: #eab308;\">Schuldanerkenntnis</b> **wurde vom Schuldner unterzeichnet**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Schuldner, - / die Schuldnerin, -nen",
+    "german_audio": "die Schuldner",
+    "english": "debtor",
+    "ukrainian": "боржник",
+    "example": "Der <b style=\"color: #eab308;\">Schuldner</b> **befindet sich in Zahlungsverzug, folglich muss er Verzugszinsen zahlen**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Gläubigerverzeichnis, -se",
+    "german_audio": "die Gläubigerverzeichnis",
+    "english": "list of creditors",
+    "ukrainian": "список кредиторів",
+    "example": "Das <b style=\"color: #eab308;\">Gläubigerverzeichnis</b> **ist dem Insolvenzantrag beizulegen**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Schuldenverzeichnis, -se",
+    "german_audio": "die Schuldenverzeichnis",
+    "english": "debt register",
+    "ukrainian": "список боргів (реєстр боржників)",
+    "example": "Der Eintrag im <b style=\"color: #eab308;\">Schuldenverzeichnis</b> **schadet der Bonität des Unternehmens**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Bonitätsauskunft, \"-e",
+    "german_audio": "die Bonitätsauskunft",
+    "english": "credit report",
+    "ukrainian": "довідка про платоспроможність",
+    "example": "Eine <b style=\"color: #eab308;\">Bonitätsauskunft</b> **gibt Aufschluss über die Kreditwürdigkeit**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Auskunftsdatei, -en",
+    "german_audio": "die Auskunftsdatei",
+    "english": "credit reference agency / database",
+    "ukrainian": "довідкова база даних (кредитне бюро)",
+    "example": "Die Schufa ist die bekannteste <b style=\"color: #eab308;\">Auskunftsdatei</b> **in Deutschland**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Scoring-Verfahren, -",
+    "german_audio": "die Scoring-Verfahren",
+    "english": "scoring method",
+    "ukrainian": "метод скорингу (оцінки ризиків)",
+    "example": "Das <b style=\"color: #eab308;\">Scoring-Verfahren</b> **berechnet die Wahrscheinlichkeit eines Zahlungsausfalls**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Zahlungsausfall, \"-e",
+    "german_audio": "die Zahlungsausfall",
+    "english": "default in payment",
+    "ukrainian": "неплатіж (втрата платежу)",
+    "example": "Ein hoher <b style=\"color: #eab308;\">Zahlungsausfall</b> **kann einen Liquiditätsengpass verursachen**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Ausfallrisiko, -en",
+    "german_audio": "die Ausfallrisiko",
+    "english": "default risk",
+    "ukrainian": "ризик невиплати (дефолту)",
+    "example": "Das <b style=\"color: #eab308;\">Ausfallrisiko</b> **wird durch die Bonitätsprüfung minimiert**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Risikomanagement (Sg.)",
+    "german_audio": "die Risikomanagement",
+    "english": "risk management",
+    "ukrainian": "управління ризиками",
+    "example": "Das <b style=\"color: #eab308;\">Risikomanagement</b> **ist Teil der strategischen Unternehmensführung**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Risikobewertung, -en",
+    "german_audio": "die Risikobewertung",
+    "english": "risk assessment",
+    "ukrainian": "оцінка ризиків",
+    "example": "Die <b style=\"color: #eab308;\">Risikobewertung</b> **muss vor der Vergabe großer Kredite erfolgen**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Risikoanalyse, -n",
+    "german_audio": "die Risikoanalyse",
+    "english": "risk analysis",
+    "ukrainian": "аналіз ризиків",
+    "example": "Die <b style=\"color: #eab308;\">Risikoanalyse</b> **weist auf potenzielle Gefahrenquellen beim Export hin**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Exportrisiko, -en",
+    "german_audio": "die Exportrisiko",
+    "english": "export risk",
+    "ukrainian": "експортний ризик",
+    "example": "Um das <b style=\"color: #eab308;\">Exportrisiko</b> abzusichern, **nutzen wir staatliche Hermesdeckungen**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Hermesdeckung, -en",
+    "german_audio": "die Hermesdeckung",
+    "english": "Hermes cover (state export credit guarantee in Germany)",
+    "ukrainian": "експортна гарантія Гермес (державне страхування експортних кредитів)",
+    "example": "Die <b style=\"color: #eab308;\">Hermesdeckung</b> **schützt den Exporteur vor Zahlungsausfällen**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Exporteur, -e / die Exporteurin, -nen",
+    "german_audio": "die Exporteur",
+    "english": "exporter",
+    "ukrainian": "експортер",
+    "example": "Der <b style=\"color: #eab308;\">Exporteur</b> **muss alle Zollbestimmungen des Empfängerlandes beachten**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Importeur, -e / die Importeurin, -nen",
+    "german_audio": "die Importeur",
+    "english": "importer",
+    "ukrainian": "імпортер",
+    "example": "Der <b style=\"color: #eab308;\">Importeur</b> **ist für die Entrichtung des Einfuhrzolls zuständig**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Einfuhrumsatzsteuer (EUSt) (Sg.)",
+    "german_audio": "die Einfuhrumsatzsteuer",
+    "english": "import turnover tax",
+    "ukrainian": "імпортний ПДВ (EUSt)",
+    "example": "Die EUSt **wird von der Zollbehörde bei der <b style=\"color: #eab308;\">Einfuhr</b> erhoben**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Zollanmeldung, -en",
+    "german_audio": "die Zollanmeldung",
+    "english": "customs declaration",
+    "ukrainian": "митна декларація",
+    "example": "Die <b style=\"color: #eab308;\">Zollanmeldung</b> **muss elektronisch über das ATLAS-System abgegeben werden**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> ATLAS-System (Sg.)",
+    "german_audio": "die ATLAS-System",
+    "english": "ATLAS system (German automated customs system)",
+    "ukrainian": "система ATLAS (автоматизована митна система)",
+    "example": "Das <b style=\"color: #eab308;\">ATLAS-System</b> **erleichtert die schnelle Zollabwicklung**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Zolltarif, -e",
+    "german_audio": "die Zolltarif",
+    "english": "customs tariff",
+    "ukrainian": "митний тариф",
+    "example": "Der anwendbare <b style=\"color: #eab308;\">Zolltarif</b> **richtet sich nach der Codenummer der Ware**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Codenummer, -n",
+    "german_audio": "die Codenummer",
+    "english": "code number / tariff code",
+    "ukrainian": "код товару (митна кодифікація)",
+    "example": "Die korrekte <b style=\"color: #eab308;\">Codenummer</b> **ist im Frachtbrief anzugeben**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Zolltarifnummer, -n",
+    "german_audio": "die Zolltarifnummer",
+    "english": "customs tariff number",
+    "ukrainian": "код митного тарифу",
+    "example": "Die <b style=\"color: #eab308;\">Zolltarifnummer</b> **dient der Klassifizierung der Güter beim Import**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Tarifierung, -en",
+    "german_audio": "die Tarifierung",
+    "english": "classification / tariffing",
+    "ukrainian": "тарифікація (класифікація товарів для мита)",
+    "example": "Die korrekte <b style=\"color: #eab308;\">Tarifierung</b> **verhindert Probleme bei der Zollprüfung**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Zollprüfung, -en",
+    "german_audio": "die Zollprüfung",
+    "english": "customs audit / inspection",
+    "ukrainian": "митна перевірка",
+    "example": "Die <b style=\"color: #eab308;\">Zollprüfung</b> **kann auch nachträglich im Betrieb durchgeführt werden**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Außenprüfung, -en",
+    "german_audio": "die Außenprüfung",
+    "english": "field audit / tax audit",
+    "ukrainian": "зовнішня (виїзна) податкова перевірка",
+    "example": "Die <b style=\"color: #eab308;\">Außenprüfung</b> **wurde vom Finanzamt schriftlich angekündigt**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Prüfungsanordnung, -en",
+    "german_audio": "die Prüfungsanordnung",
+    "english": "audit order",
+    "ukrainian": "розпорядження про проведення перевірки",
+    "example": "Die <b style=\"color: #eab308;\">Prüfungsanordnung</b> **muss den Prüfungszeitraum genau definieren**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Prüfungszeitraum, \"-e",
+    "german_audio": "die Prüfungszeitraum",
+    "english": "audit period",
+    "ukrainian": "період перевірки",
+    "example": "Der <b style=\"color: #eab308;\">Prüfungszeitraum</b> **umfasst die letzten drei Geschäftsjahre**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Prüfungsbericht, -e",
+    "german_audio": "die Prüfungsbericht",
+    "english": "audit report",
+    "ukrainian": "аудиторський звіт",
+    "example": "Der <b style=\"color: #eab308;\">Prüfungsbericht</b> **enthält Feststellungen über steuerliche Pflichtverletzungen**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Steuernachzahlung, -en",
+    "german_audio": "die Steuernachzahlung",
+    "english": "tax back-payment",
+    "ukrainian": "доплата податку",
+    "example": "Die Betriebsprüfung **führte zu einer erheblichen <b style=\"color: #eab308;\">Steuernachzahlung</b>**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Nachzahlungszins, -en",
+    "german_audio": "die Nachzahlungszins",
+    "english": "interest on back-payments",
+    "ukrainian": "відсотки за прострочення податкових платежів",
+    "example": "Die <b style=\"color: #eab308;\">Nachzahlungszinsen</b> **erhöhen die finanzielle Belastung des Betriebs**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Zinsberechnung, -en",
+    "german_audio": "die Zinsberechnung",
+    "english": "interest calculation",
+    "ukrainian": "розрахунок відсотків",
+    "example": "Die <b style=\"color: #eab308;\">Zinsberechnung</b> **erfolgt nach den gesetzlichen Vorschriften der Abgabenordnung**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Abgabenordnung (AO) (Sg.)",
+    "german_audio": "die Abgabenordnung",
+    "english": "Fiscal Code",
+    "ukrainian": "Податковий кодекс (AO - процесуальний регламент податків)",
+    "example": "Die AO **regelt das steuerliche Ermittlungsverfahren des Finanzamts**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Steuerbehörde, -n",
+    "german_audio": "die Steuerbehörde",
+    "english": "tax authority",
+    "ukrainian": "податковий орган",
+    "example": "Die <b style=\"color: #eab308;\">Steuerbehörde</b> **kann bei begründetem Verdacht Kontrollen durchführen**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Steuerfahndung, -en",
+    "german_audio": "die Steuerfahndung",
+    "english": "tax investigation unit",
+    "ukrainian": "податкова поліція (розслідування податкових злочинів)",
+    "example": "Die <b style=\"color: #eab308;\">Steuerfahndung</b> **durchsuchte die Geschäftsräume des Unternehmens**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Hausdurchsuchung, -en",
+    "german_audio": "die Hausdurchsuchung",
+    "english": "search of the premises",
+    "ukrainian": "обшук приміщення (дому/офісу)",
+    "example": "Die <b style=\"color: #eab308;\">Hausdurchsuchung</b> **wurde vom Richter wegen Verdachts auf Steuerhinterziehung angeordnet**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Steuerhinterziehung, -en",
+    "german_audio": "die Steuerhinterziehung",
+    "english": "tax evasion",
+    "ukrainian": "ухилення від сплати податків",
+    "example": "<b style=\"color: #eab308;\">Steuerhinterziehung</b> **ist eine schwere Straftat und wird mit Gefängnis bestraft**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Gefängnisstrafe, -n",
+    "german_audio": "die Gefängnisstrafe",
+    "english": "prison sentence / jail term",
+    "ukrainian": "тюремне ув'язнення",
+    "example": "Dem Geschäftsführer **droht wegen Steuerhinterziehung eine <b style=\"color: #eab308;\">Gefängnisstrafe</b>**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Bewährungsstrafe, -n",
+    "german_audio": "die Bewährungsstrafe",
+    "english": "suspended sentence / probation",
+    "ukrainian": "умовний термін",
+    "example": "Richter können bei Ersttätern **eine Gefängnisstrafe zur <b style=\"color: #eab308;\">Bewährung</b> aussetzen**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Bewährungsauflage, -n",
+    "german_audio": "die Bewährungsauflage",
+    "english": "probation condition",
+    "ukrainian": "умови випробувального терміну (при умовному звільненні)",
+    "example": "Die Einhaltung der <b style=\"color: #eab308;\">Bewährungsauflagen</b> **wird vom Bewährungshelfer überwacht**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Bewährungshelfer, - / die Bewährungshelferin, -nen",
+    "german_audio": "die Bewährungshelfer",
+    "english": "probation officer",
+    "ukrainian": "інспектор з питань пробації (наглядач)",
+    "example": "Der <b style=\"color: #eab308;\">Bewährungshelfer</b> **unterstützt den Verurteilten bei der Wiedereingliederung**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Wiedereingliederung (Sg.) (gesellschaftlich/sozial)",
+    "german_audio": "die Wiedereingliederung",
+    "english": "social reintegration",
+    "ukrainian": "суспільна (соціальна) реінтеграція",
+    "example": "Die Resozialisierung **strebt die erfolgreiche <b style=\"color: #eab308;\">Wiedereingliederung</b> in die Gesellschaft an**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Resozialisierung (Sg.)",
+    "german_audio": "die Resozialisierung",
+    "english": "rehabilitation / resocialization",
+    "ukrainian": "ресоціалізація",
+    "example": "<b style=\"color: #eab308;\">Resozialisierung</b> **ist das oberste Ziel des deutschen Strafvollzugs**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Strafvollzug (Sg.)",
+    "german_audio": "die Strafvollzug",
+    "english": "execution of sentences / prison system",
+    "ukrainian": "виконання покарань (пенітенціарна система)",
+    "example": "Der <b style=\"color: #eab308;\">Strafvollzug</b> **unterliegt der Aufsicht des Justizministeriums**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Justizministerium (Sg.)",
+    "german_audio": "die Justizministerium",
+    "english": "Ministry of Justice",
+    "ukrainian": "Міністерство юстиції",
+    "example": "Das <b style=\"color: #eab308;\">Justizministerium</b> **erarbeitet Gesetzesentwürfe zur Reform des Strafrechts**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Strafrecht (Sg.)",
+    "german_audio": "die Strafrecht",
+    "english": "criminal law",
+    "ukrainian": "кримінальне право",
+    "example": "Das <b style=\"color: #eab308;\">Strafrecht</b> **definiert die Voraussetzungen für eine Bestrafung**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Bestrafung, -en",
+    "german_audio": "die Bestrafung",
+    "english": "punishment",
+    "ukrainian": "покарання",
+    "example": "Die <b style=\"color: #eab308;\">Bestrafung</b> **soll der Abschreckung und der Gerechtigkeit dienen**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Abschreckung (Sg.)",
+    "german_audio": "die Abschreckung",
+    "english": "deterrence",
+    "ukrainian": "залякування, запобігання (превенція)",
+    "example": "Die <b style=\"color: #eab308;\">Abschreckung</b> **ist ein wichtiges Ziel der gesetzlichen Strafen**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Prävention (Sg.)",
+    "german_audio": "die Prävention",
+    "english": "prevention",
+    "ukrainian": "профілактика, запобігання",
+    "example": "Maßnahmen zur <b style=\"color: #eab308;\">Prävention</b> **stehen auch beim Arbeitsschutz im Vordergrund**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Kriminalprävention (Sg.)",
+    "german_audio": "die Kriminalprävention",
+    "english": "crime prevention",
+    "ukrainian": "профілактика злочинності",
+    "example": "Die <b style=\"color: #eab308;\">Kriminalprävention</b> **wird durch polizeiliche Beratung gefördert**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Opferberatung, -en",
+    "german_audio": "die Opferberatung",
+    "english": "victim counseling",
+    "ukrainian": "консультація потерпілих",
+    "example": "Die <b style=\"color: #eab308;\">Opferberatung</b> **bietet psychosoziale Betreuung für Betroffene von Straftaten**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Opferhilfe (Sg.)",
+    "german_audio": "die Opferhilfe",
+    "english": "victim support",
+    "ukrainian": "допомога потерпілим",
+    "example": "Die <b style=\"color: #eab308;\">Opferhilfe</b> **wird durch gemeinnützige Vereine organisiert**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Gemeinnützigkeit (Sg.)",
+    "german_audio": "die Gemeinnützigkeit",
+    "english": "charitable status / public utility",
+    "ukrainian": "суспільна корисність, благодійність (статус некомерційної організації)",
+    "example": "Die <b style=\"color: #eab308;\">Gemeinnützigkeit</b> **befreit den Verein von der Körperschaftsteuer**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Körperschaftsteuer, -n",
+    "german_audio": "die Körperschaftsteuer",
+    "english": "corporate income tax",
+    "ukrainian": "корпоративний податок (податок на прибуток підприємств)",
+    "example": "Die <b style=\"color: #eab308;\">Körperschaftsteuer</b> **wird auf den Gewinn von juristischen Personen erhoben**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Gewerbesteuer, -n",
+    "german_audio": "die Gewerbesteuer",
+    "english": "trade tax (local business tax in Germany)",
+    "ukrainian": "промисловий податок (муніципальний податок на бізнес)",
+    "example": "Die <b style=\"color: #eab308;\">Gewerbesteuer</b> **fließt direkt an die Kommunen**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Hebesatz, \"-e",
+    "german_audio": "die Hebesatz",
+    "english": "multiplier / assessment rate (for local taxes)",
+    "ukrainian": "ставка оподаткування (коефіцієнт Hebesatz для місцевих податків)",
+    "example": "Der <b style=\"color: #eab308;\">Hebesatz</b> **wird von der Gemeinde selbstständig festgelegt**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Gemeinde, -n",
+    "german_audio": "die Gemeinde",
+    "english": "municipality / local community",
+    "ukrainian": "громада, муніципалітет",
+    "example": "Die <b style=\"color: #eab308;\">Gemeinde</b> **ist für die Bereitstellung der Infrastruktur zuständig**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Kommunalverwaltung, -en",
+    "german_audio": "die Kommunalverwaltung",
+    "english": "local government / municipal administration",
+    "ukrainian": "комунальне управління, місцева адміністрація",
+    "example": "Die <b style=\"color: #eab308;\">Kommunalverwaltung</b> **bearbeitet Anträge auf Gewerbeanmeldung**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Gewerbeanmeldung, -en",
+    "german_audio": "die Gewerbeanmeldung",
+    "english": "business registration",
+    "ukrainian": "реєстрація підприємницької діяльності",
+    "example": "Die <b style=\"color: #eab308;\">Gewerbeanmeldung</b> **ist vor dem Arbeitsbeginn des Betriebs vorzunehmen**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Gewerbeamt, \"-er",
+    "german_audio": "die Gewerbeamt",
+    "english": "trade office / licensing office",
+    "ukrainian": "відділ реєстрації підприємництва",
+    "example": "Das <b style=\"color: #eab308;\">Gewerbeamt</b> **stellt den Gewerbeschein nach der Anmeldung aus**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Gewerbeschein, -e",
+    "german_audio": "die Gewerbeschein",
+    "english": "trade license / business registration certificate",
+    "ukrainian": "дозвіл на промисел (свідоцтво про реєстрацію бізнесу)",
+    "example": "Der <b style=\"color: #eab308;\">Gewerbeschein</b> **dient als offizieller Nachweis der selbstständigen Tätigkeit**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Scheinselbstständigkeit (Sg.)",
+    "german_audio": "die Scheinselbstständigkeit",
+    "english": "false self-employment",
+    "ukrainian": "фіктивна самостійність (коли фрілансер фактично є найманим працівником)",
+    "example": "<b style=\"color: #eab308;\">Scheinselbstständigkeit</b> **ist illegal und führt zu Nachzahlungen von Sozialabgaben**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Statusfeststellungsverfahren, -",
+    "german_audio": "die Statusfeststellungsverfahren",
+    "english": "status determination procedure (to check for false self-employment)",
+    "ukrainian": "процедура визначення статусу зайнятості (для виявлення фіктивної самостійності)",
+    "example": "Das <b style=\"color: #eab308;\">Statusfeststellungsverfahren</b> **wird von der Deutschen Rentenversicherung durchgeführt**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Deutsche Rentenversicherung (DRV) (Sg.)",
+    "german_audio": "die Deutsche Rentenversicherung",
+    "english": "German Pension Insurance",
+    "ukrainian": "Німецьке пенсійне страхування (DRV)",
+    "example": "Die DRV **prüft den sozialversicherungsrechtlichen Status der Mitarbeiter**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Sozialversicherungsprüfung, -en",
+    "german_audio": "die Sozialversicherungsprüfung",
+    "english": "social security audit",
+    "ukrainian": "перевірка сплати внесків на соцстрахування",
+    "example": "Eine <b style=\"color: #eab308;\">Sozialversicherungsprüfung</b> **findet alle vier Jahre in jedem Betrieb statt**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Beitragsnachzahlung, -en",
+    "german_audio": "die Beitragsnachzahlung",
+    "english": "back-payment of contributions",
+    "ukrainian": "доплата соціальних внесків",
+    "example": "Die <b style=\"color: #eab308;\">Beitragsnachzahlung</b> **kann den Arbeitgeber finanziell schwer belasten**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Säumniszuschlag, \"-e",
+    "german_audio": "die Säumniszuschlag",
+    "english": "late payment penalty",
+    "ukrainian": "пеня за несвоєчасну сплату внесків/податків",
+    "example": "Bei verspäteter Zahlung **wird ein gesetzlicher <b style=\"color: #eab308;\">Säumniszuschlag</b> berechnet**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Verzug, \"-e",
+    "german_audio": "die Verzug",
+    "english": "delay / default",
+    "ukrainian": "прострочення, затримка",
+    "example": "Der <b style=\"color: #eab308;\">Verzug</b> **berechtigt den Gläubiger zur Erhebung von Mahngebühren**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Verzugsgebühr, -en",
+    "german_audio": "die Verzugsgebühr",
+    "english": "late fee",
+    "ukrainian": "плата за прострочення",
+    "example": "Die <b style=\"color: #eab308;\">Verzugsgebühr</b> **wurde in der Betriebskostenabrechnung ausgewiesen**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Rückstand, \"-e",
+    "german_audio": "die Rückstand",
+    "english": "arrears / backlog",
+    "ukrainian": "заборгованість, відставання",
+    "example": "Der Mietrückstand **ist ein gesetzlicher Kündigungsgrund für den Vermieter**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Mietrückstand, \"-e",
+    "german_audio": "die Mietrückstand",
+    "english": "rent arrears",
+    "ukrainian": "заборгованість по орендній платі",
+    "example": "Bei einem <b style=\"color: #eab308;\">Mietrückstand</b> von zwei Monatsmieten **droht die fristlose Kündigung**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Räumungsklage, -n",
+    "german_audio": "die Räumungsklage",
+    "english": "eviction lawsuit",
+    "ukrainian": "позов про виселення",
+    "example": "Der Vermieter **reichte eine <b style=\"color: #eab308;\">Räumungsklage</b> beim Amtsgericht ein**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Räumungsurteil, -e",
+    "german_audio": "die Räumungsurteil",
+    "english": "eviction order / judgment",
+    "ukrainian": "судове рішення про виселення",
+    "example": "Das <b style=\"color: #eab308;\">Räumungsurteil</b> **ist dem Gerichtsvollzieher zur Vollstreckung vorzulegen**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Zwangsräumung, -en",
+    "german_audio": "die Zwangsräumung",
+    "english": "forced eviction",
+    "ukrainian": "примусове виселення",
+    "example": "Die <b style=\"color: #eab308;\">Zwangsräumung</b> **wurde durch den Gerichtsvollzieher durchgeführt**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Räumungsfrist, -en",
+    "german_audio": "die Räumungsfrist",
+    "english": "period for evacuation / eviction period",
+    "ukrainian": "термін виселення (звільнення приміщення)",
+    "example": "Der Richter **kann dem Mieter eine angemessene <b style=\"color: #eab308;\">Räumungsfrist</b> gewähren**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Härtefall, \"-e",
+    "german_audio": "die Härtefall",
+    "english": "case of hardship",
+    "ukrainian": "важкий випадок (особлива скрута)",
+    "example": "Bei Vorliegen eines <b style=\"color: #eab308;\">Härtefalls</b> **kann die Kündigung der Wohnung unwirksam sein**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Härtefallregelung, -en",
+    "german_audio": "die Härtefallregelung",
+    "english": "hardship clause / regulation",
+    "ukrainian": "правила врегулювання особливих випадків (скрути)",
+    "example": "Die <b style=\"color: #eab308;\">Härtefallregelung</b> **sieht Ausnahmen von den gesetzlichen Vorschriften vor**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Ausnahmeregelung, -en",
+    "german_audio": "die Ausnahmeregelung",
+    "english": "exceptional regulation / exemption",
+    "ukrainian": "виняток (особливі правила)",
+    "example": "Für kleine Handwerksbetriebe **gilt eine <b style=\"color: #eab308;\">Ausnahmeregelung</b> beim Kündigungsschutz**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Sonderregelung, -en",
+    "german_audio": "die Sonderregelung",
+    "english": "special regulation",
+    "ukrainian": "спеціальне регулювання",
+    "example": "Die <b style=\"color: #eab308;\">Sonderregelung</b> **wurde mit dem Personalrat schriftlich vereinbart**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Personalrat, \"-e",
+    "german_audio": "die Personalrat",
+    "english": "staff council (public sector equivalent of works council)",
+    "ukrainian": "рада трудового колективу (у держсекторі)",
+    "example": "Der <b style=\"color: #eab308;\">Personalrat</b> **vertritt die Interessen der Beschäftigten im öffentlichen Dienst**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Personalvertretungsgesetz (PersVG) (Sg.)",
+    "german_audio": "die Personalvertretungsgesetz",
+    "english": "Staff Representation Act",
+    "ukrainian": "закон про представництво інтересів персоналу (PersVG)",
+    "example": "Das <b style=\"color: #eab308;\">PersVG</b> **regelt die Mitbestimmungsrechte des Personalrats**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Mitbestimmungsrecht, -e",
+    "german_audio": "die Mitbestimmungsrecht",
+    "english": "right of co-determination",
+    "ukrainian": "право на співучасть у прийнятті рішень (участь у керівництві)",
+    "example": "Das <b style=\"color: #eab308;\">Mitbestimmungsrecht</b> **ist ein zentraler Pfeiler der sozialen Partnerschaft**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Soziale Partnerschaft",
+    "german_audio": "die Soziale Partnerschaft",
+    "english": "social partnership",
+    "ukrainian": "соціальне партнерство",
+    "example": "Die soziale <b style=\"color: #eab308;\">Partnerschaft</b> **sichert den inneren Frieden in der Wirtschaft**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Betriebsfriede (Sg.)",
+    "german_audio": "die Betriebsfriede",
+    "english": "industrial peace / peace within the company",
+    "ukrainian": "внутрішній мир на підприємстві (доброзичлива атмосфера)",
+    "example": "Die Störung des <b style=\"color: #eab308;\">Betriebsfriedens</b> **kann eine verhaltensbedingte Kündigung rechtfertigen**."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 8,
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Arbeitsklima (Sg.)",
+    "german_audio": "die Arbeitsklima",
+    "english": "working atmosphere",
+    "ukrainian": "робоча атмосфера",
+    "example": "Ein gutes <b style=\"color: #eab308;\">Arbeitsklima</b> **wirkt sich positiv auf die Gesundheit der Belegschaft aus**."
   },
   {
     "level": "B2",
@@ -24158,6 +27324,18 @@
     "english": "tour operator",
     "ukrainian": "туроператор",
     "example": "Der <b style=\"color: #eab308;\">Reiseveranstalter</b> nutzt unsere API, um die Flugdaten live abzurufen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 9,
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Schadenersatz (Sg.)",
+    "german_audio": "der Schadenersatz",
+    "english": "damages, compensation",
+    "ukrainian": "відшкодування збитків",
+    "example": "Der Kunde verlangt <b style=\"color: #eab308;\">Schadenersatz</b> wegen des massiven Datenverlusts."
   },
   {
     "level": "B2",
@@ -27381,18 +30559,6 @@
       "B2"
     ],
     "thema": 12,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Einkommensteuer, -n",
-    "german_audio": "die Einkommensteuer",
-    "english": "income tax",
-    "ukrainian": "прибутковий податок",
-    "example": "Mit einer guten Software für die <b style=\"color: #eab308;\">Einkommensteuer</b> kann man viel Geld sparen."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 12,
     "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Erwerbstätigkeit, -en",
     "german_audio": "die Erwerbstätigkeit",
     "english": "employment, gainful occupation",
@@ -27410,18 +30576,6 @@
     "english": "Protestant, Evangelical",
     "ukrainian": "євангельський, протестантський",
     "example": "Wenn man in Deutschland offiziell <b style=\"color: #eab308;\">evangelisch</b> ist, zahlt man Kirchensteuer."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 12,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Gemeinde, -n",
-    "german_audio": "die Gemeinde",
-    "english": "municipality, community",
-    "ukrainian": "громада, муніципалітет",
-    "example": "Wir programmieren und digitalisieren die Verwaltung für eine kleine <b style=\"color: #eab308;\">Gemeinde</b>."
   },
   {
     "level": "B2",
