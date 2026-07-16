@@ -3933,7 +3933,7 @@
     "german_audio": "aktivieren",
     "english": "to activate",
     "ukrainian": "активувати",
-    "example": "Nach der Installation müssen Sie das Plugin im WordPress-Backend noch <b style=\"color: #eab308;\">aktivieren</b>."
+    "example": "Der Systemadministrator **muss die neuen Benutzerkonten in der Datenbank <b style=\"color: #eab308;\">aktivieren</b>**."
   },
   {
     "level": "B1+",
@@ -3945,7 +3945,7 @@
     "german_audio": "der Anbieter",
     "english": "provider",
     "ukrainian": "провайдер/-ка",
-    "example": "Welcher <b style=\"color: #eab308;\">Anbieter</b> hat aktuell die beste Performance für Cloud-Hosting?"
+    "example": "Der <b style=\"color: #eab308;\">Anbieter</b> **ist verpflichtet, die Kältemaschinen vereinbarungsgemäß zu warten**."
   },
   {
     "level": "B1+",
@@ -3957,7 +3957,7 @@
     "german_audio": "auf|laden",
     "english": "to top up, to charge",
     "ukrainian": "заряджати, поповнювати (рахунок)",
-    "example": "Ich muss den Akku meines Firmen-Laptops <b style=\"color: #eab308;\">aufladen</b>, bevor das Meeting beginnt."
+    "example": "Der Fahrer **muss die Batterie des Gabelstaplers rechtzeitig <b style=\"color: #eab308;\">aufladen</b>**."
   },
   {
     "level": "B1+",
@@ -3969,7 +3969,7 @@
     "german_audio": "sich beraten lassen",
     "english": "to get advice",
     "ukrainian": "отримати консультацію",
-    "example": "Wir <b style=\"color: #eab308;\">lassen</b> uns von einem Experten bezüglich der DSGVO-Konformität unserer App beraten."
+    "example": "Sie **sollten sich vor der Existenzgründung ausführlich beraten <b style=\"color: #eab308;\">lassen</b>**."
   },
   {
     "level": "B1+",
@@ -3981,7 +3981,7 @@
     "german_audio": "sich beschweren",
     "english": "to complain",
     "ukrainian": "скаржитися",
-    "example": "Der Nutzer hat sich im Support-Forum über die langsame Ladezeit der Webseite <b style=\"color: #eab308;\">beschwert</b>."
+    "example": "Der Mitarbeiter **<b style=\"color: #eab308;\">beschwert</b> sich beim Betriebsrat über die mangelhafte Arbeitsplatzausstattung**."
   },
   {
     "level": "B1+",
@@ -3993,7 +3993,7 @@
     "german_audio": "die Bestellung",
     "english": "order",
     "ukrainian": "замовлення",
-    "example": "Wir haben eine <b style=\"color: #eab308;\">Bestellung</b> für drei neue Workstations beim IT-Händler aufgegeben."
+    "example": "Die <b style=\"color: #eab308;\">Bestellung</b> **wurde von der Spedition zum vereinbarten Stichtag geliefert**."
   },
   {
     "level": "B1+",
@@ -4005,7 +4005,7 @@
     "german_audio": "das Datenvolumen",
     "english": "data volume",
     "ukrainian": "обсяг даних",
-    "example": "Durch die Bildkompression konnten wir das übertragene <b style=\"color: #eab308;\">Datenvolumen</b> deutlich reduzieren."
+    "example": "Das monatliche <b style=\"color: #eab308;\">Datenvolumen</b> **wurde in der neuen Betriebsvereinbarung genau festgelegt**."
   },
   {
     "level": "B1+",
@@ -4017,7 +4017,7 @@
     "german_audio": "ein|geben",
     "english": "to enter (data)",
     "ukrainian": "вводити (дані)",
-    "example": "Bitte geben Sie Ihren API-Key in das Konfigurationsfeld ein."
+    "example": "Bitte **geben Sie die Lieferdaten sorgfältig in das EDV-System ein**."
   },
   {
     "level": "B1+",
@@ -4029,7 +4029,7 @@
     "german_audio": "ein|legen",
     "english": "to insert",
     "ukrainian": "вставляти",
-    "example": "Um den Server zu booten, müssen Sie zuerst den bootfähigen USB-Stick <b style=\"color: #eab308;\">einlegen</b>."
+    "example": "Der Arbeitnehmer **muss bei einer Kündigung Klage beim Arbeitsgericht <b style=\"color: #eab308;\">einlegen</b>**."
   },
   {
     "level": "B1+",
@@ -4041,7 +4041,7 @@
     "german_audio": "einmalig",
     "english": "one-time",
     "ukrainian": "одноразовий",
-    "example": "Die Kosten für die Software-Lizenz fallen nur <b style=\"color: #eab308;\">einmalig</b> an."
+    "example": "Die Gebühr für das Anerkennungsverfahren **ist vom Antragsteller <b style=\"color: #eab308;\">einmalig</b> zu entrichten**."
   },
   {
     "level": "B1+",
@@ -4053,7 +4053,7 @@
     "german_audio": "der Einsteiger",
     "english": "beginner",
     "ukrainian": "початківець/-иця",
-    "example": "Diese Programmiersprache ist auch für <b style=\"color: #eab308;\">Einsteiger</b> ohne Vorkenntnisse leicht zu erlernen."
+    "example": "Dieses Handbuch **bietet für <b style=\"color: #eab308;\">Einsteiger</b> eine verständliche Einführung in den Arbeitsschutz**."
   },
   {
     "level": "B1+",
@@ -4065,7 +4065,7 @@
     "german_audio": "entgegen|nehmen",
     "english": "to receive, to accept",
     "ukrainian": "приймати",
-    "example": "Der Webserver kann gleichzeitig Tausende von HTTP-Anfragen <b style=\"color: #eab308;\">entgegennehmen</b>."
+    "example": "Der Lagerist **ist befugt, die Warenlieferung am Empfang <b style=\"color: #eab308;\">entgegenzunehmen</b>**."
   },
   {
     "level": "B1+",
@@ -4077,7 +4077,7 @@
     "german_audio": "das Festnetz",
     "english": "landline",
     "ukrainian": "стаціонарна мережа",
-    "example": "In unserem Büro nutzen wir Voice-over-IP anstelle des klassischen <b style=\"color: #eab308;\">Festnetzes</b>."
+    "example": "Im Büro **sind alle Mitarbeiter sowohl über Mobiltelefon als auch über <b style=\"color: #eab308;\">Festnetz</b> erreichbar**."
   },
   {
     "level": "B1+",
@@ -4089,7 +4089,7 @@
     "german_audio": "frei|schalten",
     "english": "to unlock, to activate",
     "ukrainian": "активувати, розблокувати",
-    "example": "Der Administrator kann deinen Zugang zum VPN-Server erst morgen <b style=\"color: #eab308;\">freischalten</b>."
+    "example": "Die Personalabteilung **muss den Zugang zum Abrechnungsportal für den Auszubildenden <b style=\"color: #eab308;\">freischalten</b>**."
   },
   {
     "level": "B1+",
@@ -4101,7 +4101,7 @@
     "german_audio": "die Grundgebühr",
     "english": "basic fee",
     "ukrainian": "абонентська плата",
-    "example": "In der monatlichen <b style=\"color: #eab308;\">Grundgebühr</b> für unser CRM-System ist der E-Mail-Support bereits enthalten."
+    "example": "Die <b style=\"color: #eab308;\">Grundgebühr</b> **für die Nutzung der Online-Plattform wird monatlich abgerechnet**."
   },
   {
     "level": "B1+",
@@ -4114,7 +4114,7 @@
     "german_audio": "gültig",
     "english": "valid",
     "ukrainian": "дійсний",
-    "example": "Das SSL-Zertifikat für unsere Domain ist nur noch zwei Wochen <b style=\"color: #eab308;\">gültig</b>."
+    "example": "Eine <b style=\"color: #eab308;\">gültige</b> Aufenthaltsgenehmigung **ist Voraussetzung für das Bestehen des Arbeitsverhältnisses**."
   },
   {
     "level": "B1+",
@@ -4126,7 +4126,7 @@
     "german_audio": "günstig",
     "english": "cheap, favorable",
     "ukrainian": "вигідний, недешевий",
-    "example": "Open-Source-Lösungen sind oft eine <b style=\"color: #eab308;\">günstige</b> Alternative zu teurer kommerzieller Software."
+    "example": "Der Handwerksbetrieb **konnte ein <b style=\"color: #eab308;\">günstiges</b> Angebot für die Sanierung der Lagerhalle unterbreiten**."
   },
   {
     "level": "B1+",
@@ -4139,7 +4139,7 @@
     "german_audio": "das Guthaben",
     "english": "credit",
     "ukrainian": "баланс (грошовий)",
-    "example": "Ihr <b style=\"color: #eab308;\">Guthaben</b> für die Cloud-Ressourcen reicht noch für etwa drei Monate."
+    "example": "Das <b style=\"color: #eab308;\">Guthaben</b> **auf dem Zeitkonto kann als Freizeitausgleich genutzt werden**."
   },
   {
     "level": "B1+",
@@ -4151,7 +4151,7 @@
     "german_audio": "der Handwerker",
     "english": "craftsman",
     "ukrainian": "майстер/-иня",
-    "example": "In der Softwareentwicklung spricht man oft von \"Software-Craftsmanship\", ähnlich wie bei klassischen <b style=\"color: #eab308;\">Handwerkern</b>."
+    "example": "Der <b style=\"color: #eab308;\">Handwerker</b> **ist für die ordnungsgemäße Installation der technischen Anlage zuständig**."
   },
   {
     "level": "B1+",
@@ -4164,7 +4164,7 @@
     "german_audio": "inklusive",
     "english": "inclusive",
     "ukrainian": "включно",
-    "example": "Das neue Update ist <b style=\"color: #eab308;\">inklusive</b> aller Sicherheits-Patches ab sofort verfügbar."
+    "example": "Der monatliche Mietpreis **versteht sich <b style=\"color: #eab308;\">inklusive</b> aller Nebenkosten und Steuern**."
   },
   {
     "level": "B1+",
@@ -4176,7 +4176,7 @@
     "german_audio": "die Kontrolle",
     "english": "control",
     "ukrainian": "контроль",
-    "example": "Die Versionskontrolle mit Git ist für professionelle Softwareentwicklung unerlässlich."
+    "example": "Die <b style=\"color: #eab308;\">Kontrolle</b> der Brandschutzordnung **erfolgt durch den zuständigen Sicherheitsbeauftragten**."
   },
   {
     "level": "B1+",
@@ -4188,7 +4188,7 @@
     "german_audio": "der Lieferservice",
     "english": "delivery service",
     "ukrainian": "служба доставки",
-    "example": "Wir entwickeln eine API für einen internationalen <b style=\"color: #eab308;\">Lieferservice</b>."
+    "example": "Der <b style=\"color: #eab308;\">Lieferservice</b> **garantiert eine Zustellung der Ersatzteile innerhalb von 24 Stunden**."
   },
   {
     "level": "B1+",
@@ -4200,7 +4200,7 @@
     "german_audio": "das Netz",
     "english": "network",
     "ukrainian": "мережа",
-    "example": "In unserem internen <b style=\"color: #eab308;\">Netz</b> sind alle Datenbanken durch eine dedizierte Firewall geschützt."
+    "example": "Im gesamten Werk **ist die <b style=\"color: #eab308;\">Netzabdeckung</b> für den Mobilfunk gewährleistet**."
   },
   {
     "level": "B1+",
@@ -4212,7 +4212,7 @@
     "german_audio": "optimal",
     "english": "optimal",
     "ukrainian": "оптимальний",
-    "example": "Diese Datenbank-Struktur ist <b style=\"color: #eab308;\">optimal</b> für schnelle Lesezugriffe geeignet."
+    "example": "Eine ergonomische Ausstattung **bietet <b style=\"color: #eab308;\">optimale</b> Bedingungen für ein gesundes Arbeiten**."
   },
   {
     "level": "B1+",
@@ -4224,7 +4224,7 @@
     "german_audio": "profitieren von",
     "english": "to profit from",
     "ukrainian": "отримувати вигоду",
-    "example": "Unsere Anwendung profitiert stark von den neuen Funktionen des Frameworks."
+    "example": "Die Beschäftigten **profitieren von den Regelungen des neuen Tarifvertrags**."
   },
   {
     "level": "B1+",
@@ -4236,7 +4236,7 @@
     "german_audio": "sperren",
     "english": "to block, to lock",
     "ukrainian": "блокувати",
-    "example": "Nach drei falschen Passworteingaben wird das Benutzerkonto automatisch für eine Stunde gesperrt."
+    "example": "Der Inhaber **musste das Konto des ehemaligen Mitarbeiters aus Sicherheitsgründen <b style=\"color: #eab308;\">sperren</b>**."
   },
   {
     "level": "B1+",
@@ -4249,7 +4249,7 @@
     "german_audio": "der Tarif",
     "english": "tariff",
     "ukrainian": "тариф",
-    "example": "Wir haben uns für den Enterprise-<b style=\"color: #eab308;\">Tarif</b> entschieden, um Zugriff auf alle Features zu erhalten."
+    "example": "Der <b style=\"color: #eab308;\">Tarif</b> **sieht eine finanzielle Besserstellung der Fachkräfte im Betrieb vor**."
   },
   {
     "level": "B1+",
@@ -4261,7 +4261,7 @@
     "german_audio": "verschicken",
     "english": "to send",
     "ukrainian": "відправляти",
-    "example": "Das System kann automatisch Benachrichtigungen per Webhook <b style=\"color: #eab308;\">verschicken</b>."
+    "example": "Die Personalabteilung **wird das Arbeitszeugnis heute per Post <b style=\"color: #eab308;\">verschicken</b>**."
   },
   {
     "level": "B1+",
@@ -4273,7 +4273,7 @@
     "german_audio": "der Vertrag",
     "english": "contract",
     "ukrainian": "контракт, договір",
-    "example": "Wir haben einen Wartungsvertrag mit dem Server-Anbieter abgeschlossen."
+    "example": "Der schriftliche Arbeitsvertrag **muss vor dem Arbeitsbeginn unterzeichnet werden**."
   },
   {
     "level": "B1+",
@@ -4285,7 +4285,7 @@
     "german_audio": "die Vertragslaufzeit",
     "english": "contract duration",
     "ukrainian": "термін дії договору",
-    "example": "Die <b style=\"color: #eab308;\">Vertragslaufzeit</b> für unsere Cloud-Infrastruktur beträgt mindestens zwölf Monate."
+    "example": "Die <b style=\"color: #eab308;\">Vertragslaufzeit</b> **für den Wartungsvertrag beträgt ein Jahr**."
   },
   {
     "level": "B1+",
@@ -4297,7 +4297,7 @@
     "german_audio": "das Angebot",
     "english": "offer",
     "ukrainian": "пропозиція",
-    "example": "Das <b style=\"color: #eab308;\">Angebot</b> für das Redesign unserer Website war sehr überzeugend."
+    "example": "Der Lieferant **hat uns ein neues <b style=\"color: #eab308;\">Angebot</b> für die Rohstoffe unterbreitet**."
   },
   {
     "level": "B1+",
@@ -4309,7 +4309,7 @@
     "german_audio": "der Auftrag",
     "english": "order, assignment",
     "ukrainian": "замовлення, доручення",
-    "example": "Unser Team hat den <b style=\"color: #eab308;\">Auftrag</b> erhalten, eine neue E-Commerce-Plattform zu bauen."
+    "example": "Der Handwerksbetrieb **hat den <b style=\"color: #eab308;\">Auftrag</b> zur Modernisierung der Werkhalle erhalten**."
   },
   {
     "level": "B1+",
@@ -4321,7 +4321,7 @@
     "german_audio": "der Ausdruck",
     "english": "printout",
     "ukrainian": "роздруківка",
-    "example": "Ich benötige einen <b style=\"color: #eab308;\">Ausdruck</b> der API-Dokumentation für das Meeting."
+    "example": "Bitte **legen Sie mir einen <b style=\"color: #eab308;\">Ausdruck</b> des Ergebnisprotokolls auf den Schreibtisch**."
   },
   {
     "level": "B1+",
@@ -4333,7 +4333,7 @@
     "german_audio": "sich binden an",
     "english": "to commit oneself to",
     "ukrainian": "зв'язувати себе зобов'язаннями",
-    "example": "Durch den Lizenzvertrag binden wir uns langfristig an diesen Software-Anbieter."
+    "example": "Durch den Vertrag **bindet sich das Familienunternehmen langfristig an den Lieferanten**."
   },
   {
     "level": "B1+",
@@ -4345,7 +4345,7 @@
     "german_audio": "brutto",
     "english": "gross",
     "ukrainian": "брутто (без вирахування податків)",
-    "example": "Das <b style=\"color: #eab308;\">Bruttogehalt</b> für diese Senior-Entwickler-Stelle ist sehr attraktiv."
+    "example": "Das <b style=\"color: #eab308;\">Bruttogehalt</b> **wurde im Arbeitsvertrag schriftlich vereinbart**."
   },
   {
     "level": "B1+",
@@ -4357,7 +4357,7 @@
     "german_audio": "einverstanden",
     "english": "agreed",
     "ukrainian": "згодний",
-    "example": "Ich bin mit den vorgeschlagenen Änderungen am Code <b style=\"color: #eab308;\">einverstanden</b>."
+    "example": "Die Geschäftsführung **ist mit den Vorschlägen des Betriebsrats <b style=\"color: #eab308;\">einverstanden</b>**."
   },
   {
     "level": "B1+",
@@ -4369,7 +4369,7 @@
     "german_audio": "empfehlen",
     "english": "to recommend",
     "ukrainian": "рекомендувати",
-    "example": "Können Sie eine gute Bibliothek für die Einbindung von Diagrammen <b style=\"color: #eab308;\">empfehlen</b>?"
+    "example": "Der Betriebsarzt **<b style=\"color: #eab308;\">empfiehlt</b> eine regelmäßige Pause bei sitzender Tätigkeit**."
   },
   {
     "level": "B1+",
@@ -4381,7 +4381,7 @@
     "german_audio": "die Erledigung",
     "english": "completion",
     "ukrainian": "виконання",
-    "example": "Vielen Dank für die schnelle <b style=\"color: #eab308;\">Erledigung</b> des Bug-Reports."
+    "example": "Der Vorarbeiter **ist für die zügige <b style=\"color: #eab308;\">Erledigung</b> des Auftrags verantwortlich**."
   },
   {
     "level": "B1+",
@@ -4393,7 +4393,7 @@
     "german_audio": "erteilen",
     "english": "to grant, to give",
     "ukrainian": "надавати, видавати (доручення)",
-    "example": "Die Geschäftsführung wird heute die Freigabe für das Projekt <b style=\"color: #eab308;\">erteilen</b>."
+    "example": "Der Werkleiter **wird der Elektrofirma den Auftrag zur Sonderprüfung <b style=\"color: #eab308;\">erteilen</b>**."
   },
   {
     "level": "B1+",
@@ -4405,7 +4405,7 @@
     "german_audio": "der Grund",
     "english": "reason",
     "ukrainian": "причина",
-    "example": "Der <b style=\"color: #eab308;\">Grund</b> für den Systemausfall war eine Fehlkonfiguration des Load-Balancers."
+    "example": "Der <b style=\"color: #eab308;\">Grund</b> **für das Zuspätkommen war der dichte Berufsverkehr am Morgen**."
   },
   {
     "level": "B1+",
@@ -4417,7 +4417,7 @@
     "german_audio": "die Mehrwertsteuer",
     "english": "value added tax (VAT)",
     "ukrainian": "ПДВ (податок на додану вартість)",
-    "example": "Die Cloud-Gebühren werden monatlich zuzüglich der gesetzlichen <b style=\"color: #eab308;\">Mehrwertsteuer</b> abgerechnet."
+    "example": "Die Rechnungsbeträge **verstehen sich zuzüglich der gesetzlichen <b style=\"color: #eab308;\">Mehrwertsteuer</b>**."
   },
   {
     "level": "B1+",
@@ -4429,7 +4429,7 @@
     "german_audio": "netto",
     "english": "net",
     "ukrainian": "нетто (після податків)",
-    "example": "In der Preisliste sind alle Beträge als <b style=\"color: #eab308;\">Netto</b>-Preise angegeben."
+    "example": "Das vereinbarte Gehalt **wird am Monatsende <b style=\"color: #eab308;\">netto</b> auf das Konto überwiesen**."
   },
   {
     "level": "B1+",
@@ -4442,7 +4442,7 @@
     "german_audio": "sorgfältig",
     "english": "carefully",
     "ukrainian": "ретельно",
-    "example": "Bitte prüfen Sie den Code <b style=\"color: #eab308;\">sorgfältig</b> auf mögliche Sicherheitslücken."
+    "example": "Die Unterlagen **müssen vor der Abgabe an das Arbeitsgericht <b style=\"color: #eab308;\">sorgfältig</b> geprüft werden**."
   },
   {
     "level": "B1+",
@@ -4454,7 +4454,7 @@
     "german_audio": "die Summe",
     "english": "sum, total",
     "ukrainian": "сума",
-    "example": "Die Gesamtsumme der Lizenzen übersteigt leider unser geplantes Budget."
+    "example": "Die <b style=\"color: #eab308;\">Summe</b> der Überstunden **muss im Berichtsheft genau dokumentiert werden**."
   },
   {
     "level": "B1+",
@@ -4466,7 +4466,7 @@
     "german_audio": "die Unterschrift",
     "english": "signature",
     "ukrainian": "підпис",
-    "example": "Für die digitale Signatur wird keine physische <b style=\"color: #eab308;\">Unterschrift</b> mehr benötigt."
+    "example": "Ohne die <b style=\"color: #eab308;\">Unterschrift</b> des Inhabers **ist der Vertrag rechtlich ungültig**."
   },
   {
     "level": "B1+",
@@ -4478,7 +4478,7 @@
     "german_audio": "zahlbar",
     "english": "payable",
     "ukrainian": "до оплати",
-    "example": "Der Rechnungsbetrag für das Hosting ist sofort nach Rechnungsstellung <b style=\"color: #eab308;\">zahlbar</b>."
+    "example": "Der Rechnungsbetrag **ist innerhalb von 14 Tagen ohne Abzug <b style=\"color: #eab308;\">zahlbar</b>**."
   },
   {
     "level": "B1+",
@@ -4490,7 +4490,7 @@
     "german_audio": "zuverlässig",
     "english": "reliable",
     "ukrainian": "надійний",
-    "example": "Dieser Backup-Dienst arbeitet sehr <b style=\"color: #eab308;\">zuverlässig</b> im Hintergrund."
+    "example": "Unser neuer Küchenhelfer **arbeitet stets sehr gewissenhaft und <b style=\"color: #eab308;\">zuverlässig</b>**."
   },
   {
     "level": "B1+",
@@ -4502,7 +4502,7 @@
     "german_audio": "der Ärger",
     "english": "anger, trouble",
     "ukrainian": "неприємність, гнів",
-    "example": "Wir hatten viel <b style=\"color: #eab308;\">Ärger</b> mit dem instabilen WLAN-Router im Büro."
+    "example": "Es gab großen <b style=\"color: #eab308;\">Ärger</b> **wegen der unzulässigen Überschreitung der Arbeitszeit**."
   },
   {
     "level": "B1+",
@@ -4514,7 +4514,7 @@
     "german_audio": "der Artikel",
     "english": "article",
     "ukrainian": "стаття, товар",
-    "example": "Ich habe einen interessanten <b style=\"color: #eab308;\">Artikel</b> über Microservices auf Medium gelesen."
+    "example": "Der <b style=\"color: #eab308;\">Artikel</b> **muss aufgrund eines Sachmangels umgehend reklamiert werden**."
   },
   {
     "level": "B1+",
@@ -4526,7 +4526,7 @@
     "german_audio": "beschädigt",
     "english": "damaged",
     "ukrainian": "пошкоджений",
-    "example": "Die Festplatte war beim Transport leider so stark <b style=\"color: #eab308;\">beschädigt</b>, dass kein Datenzugriff mehr möglich war."
+    "example": "Die Ware **wurde beim Transport durch die Spedition leicht <b style=\"color: #eab308;\">beschädigt</b>**."
   },
   {
     "level": "B1+",
@@ -4539,7 +4539,7 @@
     "german_audio": "die Beschwerde",
     "english": "complaint",
     "ukrainian": "скарга",
-    "example": "Nach dem fehlerhaften Update gab es zahlreiche <b style=\"color: #eab308;\">Beschwerden</b> von unseren Nutzern."
+    "example": "Die <b style=\"color: #eab308;\">Beschwerde</b> **wurde direkt bei der zuständigen Aufsichtsbehörde eingereicht**."
   },
   {
     "level": "B1+",
@@ -4551,7 +4551,7 @@
     "german_audio": "defekt",
     "english": "defective",
     "ukrainian": "несправний",
-    "example": "Der Controller ist <b style=\"color: #eab308;\">defekt</b> und muss ausgetauscht werden."
+    "example": "Das Notstromaggregat **ist <b style=\"color: #eab308;\">defekt</b> und muss repariert werden**."
   },
   {
     "level": "B1+",
@@ -4563,7 +4563,7 @@
     "german_audio": "dreckig",
     "english": "dirty",
     "ukrainian": "брудний",
-    "example": "Der Sensor der optischen Maus ist <b style=\"color: #eab308;\">dreckig</b> und muss gereinigt werden."
+    "example": "Die Arbeitskleidung **ist nach der Schicht in der Werkhalle stark <b style=\"color: #eab308;\">dreckig</b>**."
   },
   {
     "level": "B1+",
@@ -4575,7 +4575,7 @@
     "german_audio": "der Fleck",
     "english": "stain",
     "ukrainian": "пляма",
-    "example": "Auf dem Gehäuse des neuen Servers ist ein kleiner <b style=\"color: #eab308;\">Fleck</b>, was aber die Funktion nicht beeinträchtigt."
+    "example": "Der <b style=\"color: #eab308;\">Fleck</b> auf dem Protokoll **beeinträchtigt die Lesbarkeit des Textes nicht**."
   },
   {
     "level": "B1+",
@@ -4587,7 +4587,7 @@
     "german_audio": "der Mangel",
     "english": "defect, lack",
     "ukrainian": "недолік",
-    "example": "Die Dokumentation weist leider erhebliche Mängel auf."
+    "example": "Der <b style=\"color: #eab308;\">Mangel</b> an Fachkräften **wirkt sich negativ auf die Produktivität des Betriebs aus**."
   },
   {
     "level": "B1+",
@@ -4599,7 +4599,7 @@
     "german_audio": "peinlich",
     "english": "embarrassing",
     "ukrainian": "соромно",
-    "example": "Es war mir <b style=\"color: #eab308;\">peinlich</b>, dass ich den falschen Link in der E-Mail verschickt habe."
+    "example": "Es war dem Meister <b style=\"color: #eab308;\">peinlich</b>, **die Sicherheitsprüfung vergessen zu haben**."
   },
   {
     "level": "B1+",
@@ -4612,7 +4612,7 @@
     "german_audio": "die Reklamation",
     "english": "reclamation, claim",
     "ukrainian": "рекламація, претензія",
-    "example": "Die <b style=\"color: #eab308;\">Reklamation</b> der fehlerhaften Hardware wurde vom Support-Team sofort bearbeitet."
+    "example": "Die <b style=\"color: #eab308;\">Reklamation</b> **wird von unserer Qualitätsabteilung sorgfältig geprüft**."
   },
   {
     "level": "B1+",
@@ -4624,7 +4624,7 @@
     "german_audio": "unvollständig",
     "english": "incomplete",
     "ukrainian": "неповний",
-    "example": "Die API-Antwort ist <b style=\"color: #eab308;\">unvollständig</b>, da das Timeout-Limit erreicht wurde."
+    "example": "Die eingereichten Unterlagen **sind leider <b style=\"color: #eab308;\">unvollständig</b> und müssen ergänzt werden**."
   },
   {
     "level": "B1+",
@@ -4636,7 +4636,7 @@
     "german_audio": "der Vorschlag",
     "english": "suggestion",
     "ukrainian": "пропозиція",
-    "example": "Mein <b style=\"color: #eab308;\">Vorschlag</b> ist, die Datenbank-Abfragen mithilfe von Caching zu optimieren."
+    "example": "Der <b style=\"color: #eab308;\">Vorschlag</b> des Betriebsrats **sieht eine Erhöhung der Urlaubstage vor**."
   },
   {
     "level": "B1+",
@@ -4649,7 +4649,7 @@
     "german_audio": "zerbrechen",
     "english": "to break",
     "ukrainian": "розбивати",
-    "example": "Vorsicht, das Glaspanel des Computergehäuses kann leicht <b style=\"color: #eab308;\">zerbrechen</b>."
+    "example": "Der Transporteur **hat das empfindliche Messgerät beim Abladen <b style=\"color: #eab308;\">zerbrochen</b>**."
   },
   {
     "level": "B1+",
@@ -4661,7 +4661,7 @@
     "german_audio": "zerkratzen",
     "english": "to scratch",
     "ukrainian": "подряпати",
-    "example": "Verwenden Sie nur weiche Tücher, um das Display nicht zu <b style=\"color: #eab308;\">zerkratzen</b>."
+    "example": "Man sollte darauf achten, **die Oberfläche der Kältemaschine nicht zu <b style=\"color: #eab308;\">zerkratzen</b>**."
   },
   {
     "level": "B1+",
@@ -4673,7 +4673,7 @@
     "german_audio": "zerreißen",
     "english": "to tear",
     "ukrainian": "розривати",
-    "example": "Der Systemadministrator hat das alte Fehlerprotokoll <b style=\"color: #eab308;\">zerrissen</b>."
+    "example": "Der wütende Mitarbeiter **hat das Abmahnungsschreiben vor den Augen des Meisters <b style=\"color: #eab308;\">zerrissen</b>**."
   },
   {
     "level": "B1+",
@@ -4681,11 +4681,11 @@
       "B1+"
     ],
     "thema": 6,
-    "german": "jdn. ausreden lassen",
+    "german": "jdn. ausreden lassen (lässt ausreden, ließ ausreden, hat ausreden lassen)",
     "german_audio": "ausreden lassen",
     "english": "to let someone finish speaking",
     "ukrainian": "давати комусь договорити",
-    "example": "<b style=\"color: #eab308;\">Lass</b> den Product Owner bitte ausreden, bevor du deine technischen Bedenken äußerst."
+    "example": "Bei Besprechungen **sollte man die anderen Teilnehmer stets ausreden <b style=\"color: #eab308;\">lassen</b>**."
   },
   {
     "level": "B1+",
@@ -4698,7 +4698,7 @@
     "german_audio": "die Bedeutung",
     "english": "meaning",
     "ukrainian": "значення",
-    "example": "Diese Fehlermeldung hat in diesem Kontext eine völlig neue <b style=\"color: #eab308;\">Bedeutung</b>."
+    "example": "Arbeitsschutz **ist für das Wohlbefinden der Belegschaft von großer <b style=\"color: #eab308;\">Bedeutung</b>**."
   },
   {
     "level": "B1+",
@@ -4710,7 +4710,7 @@
     "german_audio": "die Erwartung",
     "english": "expectation",
     "ukrainian": "очікування",
-    "example": "Die Performance der neuen Grafikkarte hat unsere <b style=\"color: #eab308;\">Erwartungen</b> weit übertroffen."
+    "example": "Die Einnahmen des Familienunternehmens **haben alle <b style=\"color: #eab308;\">Erwartungen</b> übertroffen**."
   },
   {
     "level": "B1+",
@@ -4722,7 +4722,7 @@
     "german_audio": "klären",
     "english": "to clarify",
     "ukrainian": "з'ясовувати",
-    "example": "Wir müssen im nächsten Meeting <b style=\"color: #eab308;\">klären</b>, welches Framework wir für das Backend nutzen wollen."
+    "example": "Wir müssen den Vorfall **unverzüglich im gemeinsamen Gespräch <b style=\"color: #eab308;\">klären</b>**."
   },
   {
     "level": "B1+",
@@ -4734,7 +4734,7 @@
     "german_audio": "konkurrenzfähig",
     "english": "competitive",
     "ukrainian": "конкурентоспроможний",
-    "example": "Um <b style=\"color: #eab308;\">konkurrenzfähig</b> zu bleiben, müssen wir die Ladezeit unserer App halbieren."
+    "example": "Um <b style=\"color: #eab308;\">konkurrenzfähig</b> zu bleiben, **müssen wir in neue Anlagen investieren**."
   },
   {
     "level": "B1+",
@@ -4746,7 +4746,7 @@
     "german_audio": "sich etw. leisten können",
     "english": "to be able to afford",
     "ukrainian": "могти собі дозволити",
-    "example": "Dank der neuen Finanzierung <b style=\"color: #eab308;\">können</b> wir uns zwei zusätzliche Senior-Entwickler leisten."
+    "example": "Der Betrieb **kann es sich nicht leisten, qualifizierte Fachkräfte zu verlieren**."
   },
   {
     "level": "B1+",
@@ -4758,7 +4758,7 @@
     "german_audio": "einen Preisnachlass gewähren",
     "english": "to grant a discount",
     "ukrainian": "надавати знижку",
-    "example": "Da wir eine große Menge an Lizenzen kaufen, <b style=\"color: #eab308;\">gewährt</b> uns der Anbieter einen Preisnachlass."
+    "example": "Der Händler **wollte uns wegen der Mängel einen Preisnachlass <b style=\"color: #eab308;\">gewähren</b>**."
   },
   {
     "level": "B1+",
@@ -4770,7 +4770,7 @@
     "german_audio": "treu bleiben",
     "english": "to stay loyal",
     "ukrainian": "залишатися вірним",
-    "example": "Unsere Kunden <b style=\"color: #eab308;\">bleiben</b> unserem Service treu, weil wir regelmäßig neue Features liefern."
+    "example": "Unsere Kunden **<b style=\"color: #eab308;\">bleiben</b> uns treu, weil wir für fehlerfreie Qualität garantieren**."
   },
   {
     "level": "B1+",
@@ -4782,7 +4782,7 @@
     "german_audio": "unzufrieden",
     "english": "dissatisfied",
     "ukrainian": "незадоволений",
-    "example": "Das Team ist <b style=\"color: #eab308;\">unzufrieden</b> mit der Qualität der aktuellen Dokumentation."
+    "example": "Die Belegschaft **ist <b style=\"color: #eab308;\">unzufrieden</b> mit der Regelung zur Wochenendarbeit**."
   },
   {
     "level": "B1+",
@@ -4794,7 +4794,7 @@
     "german_audio": "vereinbart",
     "english": "agreed",
     "ukrainian": "узгоджений",
-    "example": "Die API liefert die Daten nun im <b style=\"color: #eab308;\">vereinbarten</b> JSON-Format zurück."
+    "example": "Die Übergabe der Dokumente **erfolgte zum <b style=\"color: #eab308;\">vereinbarten</b> Stichtag**."
   },
   {
     "level": "B1+",
@@ -4806,7 +4806,7 @@
     "german_audio": "sich etw. vor|stellen",
     "english": "to imagine",
     "ukrainian": "уявляти",
-    "example": "Können Sie sich <b style=\"color: #eab308;\">vorstellen</b>, das gesamte System auf eine Serverless-Architektur umzustellen?"
+    "example": "Ich kann mir <b style=\"color: #eab308;\">vorstellen</b>, **mich in diesem Bereich beruflich weiterzubilden**."
   },
   {
     "level": "B1+",

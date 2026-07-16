@@ -1,77 +1,77 @@
 #separator:;
 #html:true
 #columns:German;English;Ukrainian;Example
-etw. aktivieren (aktiviert, aktivierte, hat aktiviert);to activate;активувати;Nach der Installation müssen Sie das Plugin im WordPress-Backend noch aktivieren.
-der Anbieter, - / die Anbieterin, -nen;provider;провайдер/-ка;Welcher Anbieter hat aktuell die beste Performance für Cloud-Hosting?
-etw. auf|laden (lädt auf, lud auf, hat aufgeladen);to top up, to charge;заряджати, поповнювати (рахунок);Ich muss den Akku meines Firmen-Laptops aufladen, bevor das Meeting beginnt.
-sich beraten lassen (lässt sich beraten, ließ sich beraten, hat sich beraten lassen);to get advice;отримати консультацію;Wir lassen uns von einem Experten bezüglich der DSGVO-Konformität unserer App beraten.
-sich beschweren (beschwert sich, beschwerte sich, hat sich beschwert);to complain;скаржитися;Der Nutzer hat sich im Support-Forum über die langsame Ladezeit der Webseite beschwert.
-die Bestellung, -en;order;замовлення;Wir haben eine Bestellung für drei neue Workstations beim IT-Händler aufgegeben.
-das Datenvolumen, -;data volume;обсяг даних;Durch die Bildkompression konnten wir das übertragene Datenvolumen deutlich reduzieren.
-etw. ein|geben (gibt ein, gab ein, hat eingegeben);to enter (data);вводити (дані);Bitte geben Sie Ihren API-Key in das Konfigurationsfeld ein.
-etw. ein|legen (legt ein, legte ein, hat eingelegt);to insert;вставляти;Um den Server zu booten, müssen Sie zuerst den bootfähigen USB-Stick einlegen.
-einmalig;one-time;одноразовий;Die Kosten für die Software-Lizenz fallen nur einmalig an.
-der Einsteiger, - / die Einsteigerin, -nen;beginner;початківець/-иця;Diese Programmiersprache ist auch für Einsteiger ohne Vorkenntnisse leicht zu erlernen.
-etw. entgegen|nehmen (nimmt entgegen, nahm entgegen, hat entgegengenommen);to receive, to accept;приймати;Der Webserver kann gleichzeitig Tausende von HTTP-Anfragen entgegennehmen.
-das Festnetz (Sg.);landline;стаціонарна мережа;In unserem Büro nutzen wir Voice-over-IP anstelle des klassischen Festnetzes.
-etw. frei|schalten (schaltet frei, schaltete frei, hat freigeschaltet);to unlock, to activate;активувати, розблокувати;Der Administrator kann deinen Zugang zum VPN-Server erst morgen freischalten.
-die Grundgebühr, -en;basic fee;абонентська плата;In der monatlichen Grundgebühr für unser CRM-System ist der E-Mail-Support bereits enthalten.
-gültig;valid;дійсний;Das SSL-Zertifikat für unsere Domain ist nur noch zwei Wochen gültig.
-günstig;cheap, favorable;вигідний, недешевий;Open-Source-Lösungen sind oft eine günstige Alternative zu teurer kommerzieller Software.
-das Guthaben, -;credit;баланс (грошовий);Ihr Guthaben für die Cloud-Ressourcen reicht noch für etwa drei Monate.
-der Handwerker, - / die Handwerkerin, -nen;craftsman;майстер/-иня;In der Softwareentwicklung spricht man oft von "Software-Craftsmanship", ähnlich wie bei klassischen Handwerkern.
-inklusive;inclusive;включно;Das neue Update ist inklusive aller Sicherheits-Patches ab sofort verfügbar.
-die Kontrolle, -n;control;контроль;Die Versionskontrolle mit Git ist für professionelle Softwareentwicklung unerlässlich.
-der Lieferservice, -s;delivery service;служба доставки;Wir entwickeln eine API für einen internationalen Lieferservice.
-das Netz, -e;network;мережа;In unserem internen Netz sind alle Datenbanken durch eine dedizierte Firewall geschützt.
-optimal;optimal;оптимальний;Diese Datenbank-Struktur ist optimal für schnelle Lesezugriffe geeignet.
-profitieren von (+ Dat.) (profitiert, profitierte, hat profitiert);to profit from;отримувати вигоду;Unsere Anwendung profitiert stark von den neuen Funktionen des Frameworks.
-etw. sperren (sperrt, sperrte, hat gesperrt);to block, to lock;блокувати;Nach drei falschen Passworteingaben wird das Benutzerkonto automatisch für eine Stunde gesperrt.
-der Tarif, -e;tariff;тариф;Wir haben uns für den Enterprise-Tarif entschieden, um Zugriff auf alle Features zu erhalten.
-etw. verschicken (verschickt, verschickte, hat verschickt);to send;відправляти;Das System kann automatisch Benachrichtigungen per Webhook verschicken.
-der Vertrag, "-e;contract;контракт, договір;Wir haben einen Wartungsvertrag mit dem Server-Anbieter abgeschlossen.
-die Vertragslaufzeit, -en;contract duration;термін дії договору;Die Vertragslaufzeit für unsere Cloud-Infrastruktur beträgt mindestens zwölf Monate.
-etw. zu|stellen (stellt zu, stellte zu, hat zugestellt);to deliver;доставляти;Die Push-Benachrichtigung konnte nicht an das Mobilgerät zugestellt werden.
-das Angebot, -e;offer;пропозиція;Das Angebot für das Redesign unserer Website war sehr überzeugend.
-der Auftrag, "-e;order, assignment;замовлення, доручення;Unser Team hat den Auftrag erhalten, eine neue E-Commerce-Plattform zu bauen.
-der Ausdruck, -e;printout;роздруківка;Ich benötige einen Ausdruck der API-Dokumentation für das Meeting.
-sich binden an (+ Akk.) (bindet sich, band sich, hat sich gebunden);to commit oneself to;зв'язувати себе зобов'язаннями;Durch den Lizenzvertrag binden wir uns langfristig an diesen Software-Anbieter.
-brutto;gross;брутто (без вирахування податків);Das Bruttogehalt für diese Senior-Entwickler-Stelle ist sehr attraktiv.
-einverstanden;agreed;згодний;Ich bin mit den vorgeschlagenen Änderungen am Code einverstanden.
-etw. empfehlen (empfiehlt, empfahl, hat empfohlen);to recommend;рекомендувати;Können Sie eine gute Bibliothek für die Einbindung von Diagrammen empfehlen?
-die Erledigung, -en;completion;виконання;Vielen Dank für die schnelle Erledigung des Bug-Reports.
-etw. erteilen (z.B. einen Auftrag) (erteilt, erteilte, hat erteilt);to grant, to give;надавати, видавати (доручення);Die Geschäftsführung wird heute die Freigabe für das Projekt erteilen.
-der Grund, "-e;reason;причина;Der Grund für den Systemausfall war eine Fehlkonfiguration des Load-Balancers.
-die Mehrwertsteuer (Sg.);value added tax (VAT);ПДВ (податок на додану вартість);Die Cloud-Gebühren werden monatlich zuzüglich der gesetzlichen Mehrwertsteuer abgerechnet.
-netto;net;нетто (після податків);In der Preisliste sind alle Beträge als Netto-Preise angegeben.
-sorgfältig;carefully;ретельно;Bitte prüfen Sie den Code sorgfältig auf mögliche Sicherheitslücken.
-die Summe, -n;sum, total;сума;Die Gesamtsumme der Lizenzen übersteigt leider unser geplantes Budget.
-die Unterschrift, -en;signature;підпис;Für die digitale Signatur wird keine physische Unterschrift mehr benötigt.
-zahlbar;payable;до оплати;Der Rechnungsbetrag für das Hosting ist sofort nach Rechnungsstellung zahlbar.
-zuverlässig;reliable;надійний;Dieser Backup-Dienst arbeitet sehr zuverlässig im Hintergrund.
-der Ärger (Sg.);anger, trouble;неприємність, гнів;Wir hatten viel Ärger mit dem instabilen WLAN-Router im Büro.
-der Artikel, -;article;стаття, товар;Ich habe einen interessanten Artikel über Microservices auf Medium gelesen.
-beschädigt;damaged;пошкоджений;Die Festplatte war beim Transport leider so stark beschädigt, dass kein Datenzugriff mehr möglich war.
-die Beschwerde, -n;complaint;скарга;Nach dem fehlerhaften Update gab es zahlreiche Beschwerden von unseren Nutzern.
-defekt;defective;несправний;Der Controller ist defekt und muss ausgetauscht werden.
-dreckig;dirty;брудний;Der Sensor der optischen Maus ist dreckig und muss gereinigt werden.
-der Fleck, -en;stain;пляма;Auf dem Gehäuse des neuen Servers ist ein kleiner Fleck, was aber die Funktion nicht beeinträchtigt.
-der Mangel, -;defect, lack;недолік;Die Dokumentation weist leider erhebliche Mängel auf.
-peinlich;embarrassing;соромно;Es war mir peinlich, dass ich den falschen Link in der E-Mail verschickt habe.
-die Reklamation, -en;reclamation, claim;рекламація, претензія;Die Reklamation der fehlerhaften Hardware wurde vom Support-Team sofort bearbeitet.
-unvollständig;incomplete;неповний;Die API-Antwort ist unvollständig, da das Timeout-Limit erreicht wurde.
-der Vorschlag, "-e;suggestion;пропозиція;Mein Vorschlag ist, die Datenbank-Abfragen mithilfe von Caching zu optimieren.
-etw. zerbrechen (zerbricht, zerbrach, hat zerbrochen);to break;розбивати;Vorsicht, das Glaspanel des Computergehäuses kann leicht zerbrechen.
-etw. zerkratzen (zerkratzt, zerkratzte, hat zerkratzt);to scratch;подряпати;Verwenden Sie nur weiche Tücher, um das Display nicht zu zerkratzen.
-etw. zerreißen (zerriss, hat zerrissen);to tear;розривати;Der Systemadministrator hat das alte Fehlerprotokoll zerrissen.
-jdn. ausreden lassen;to let someone finish speaking;давати комусь договорити;Lass den Product Owner bitte ausreden, bevor du deine technischen Bedenken äußerst.
-die Bedeutung, -en;meaning;значення;Diese Fehlermeldung hat in diesem Kontext eine völlig neue Bedeutung.
-die Erwartung, -en;expectation;очікування;Die Performance der neuen Grafikkarte hat unsere Erwartungen weit übertroffen.
-etw. klären (klärt, klärte, hat geklärt);to clarify;з'ясовувати;Wir müssen im nächsten Meeting klären, welches Framework wir für das Backend nutzen wollen.
-konkurrenzfähig;competitive;конкурентоспроможний;Um konkurrenzfähig zu bleiben, müssen wir die Ladezeit unserer App halbieren.
-sich etw. leisten können (kann sich leisten, konnte sich leisten, hat sich leisten können);to be able to afford;могти собі дозволити;Dank der neuen Finanzierung können wir uns zwei zusätzliche Senior-Entwickler leisten.
-einen Preisnachlass gewähren (gewährt, gewährte, hat gewährt);to grant a discount;надавати знижку;Da wir eine große Menge an Lizenzen kaufen, gewährt uns der Anbieter einen Preisnachlass.
-treu bleiben (bleibt treu, blieb treu, ist treu geblieben);to stay loyal;залишатися вірним;Unsere Kunden bleiben unserem Service treu, weil wir regelmäßig neue Features liefern.
-unzufrieden;dissatisfied;незадоволений;Das Team ist unzufrieden mit der Qualität der aktuellen Dokumentation.
-vereinbart;agreed;узгоджений;Die API liefert die Daten nun im vereinbarten JSON-Format zurück.
-sich etw. vor|stellen (stellt sich vor, stellte sich vor, hat sich vorgestellt);to imagine;уявляти;Können Sie sich vorstellen, das gesamte System auf eine Serverless-Architektur umzustellen?
+etw. aktivieren (aktiviert, aktivierte, hat aktiviert);to activate;активувати;Der Systemadministrator **muss die neuen Benutzerkonten in der Datenbank aktivieren**.
+der Anbieter, - / die Anbieterin, -nen;provider;провайдер/-ка;Der Anbieter **ist verpflichtet, die Kältemaschinen vereinbarungsgemäß zu warten**.
+etw. auf|laden (lädt auf, lud auf, hat aufgeladen);to top up, to charge;заряджати, поповнювати (рахунок);Der Fahrer **muss die Batterie des Gabelstaplers rechtzeitig aufladen**.
+sich beraten lassen (lässt sich beraten, ließ sich beraten, hat sich beraten lassen);to get advice;отримати консультацію;Sie **sollten sich vor der Existenzgründung ausführlich beraten lassen**.
+sich beschweren (beschwert sich, beschwerte sich, hat sich beschwert);to complain;скаржитися;Der Mitarbeiter **beschwert sich beim Betriebsrat über die mangelhafte Arbeitsplatzausstattung**.
+die Bestellung, -en;order;замовлення;Die Bestellung **wurde von der Spedition zum vereinbarten Stichtag geliefert**.
+das Datenvolumen, -;data volume;обсяг даних;Das monatliche Datenvolumen **wurde in der neuen Betriebsvereinbarung genau festgelegt**.
+etw. ein|geben (gibt ein, gab ein, hat eingegeben);to enter (data);вводити (дані);Bitte **geben Sie die Lieferdaten sorgfältig in das EDV-System ein**.
+etw. ein|legen (legt ein, legte ein, hat eingelegt);to insert;вставляти;Der Arbeitnehmer **muss bei einer Kündigung Klage beim Arbeitsgericht einlegen**.
+einmalig;one-time;одноразовий;Die Gebühr für das Anerkennungsverfahren **ist vom Antragsteller einmalig zu entrichten**.
+der Einsteiger, - / die Einsteigerin, -nen;beginner;початківець/-иця;Dieses Handbuch **bietet für Einsteiger eine verständliche Einführung in den Arbeitsschutz**.
+etw. entgegen|nehmen (nimmt entgegen, nahm entgegen, hat entgegengenommen);to receive, to accept;приймати;Der Lagerist **ist befugt, die Warenlieferung am Empfang entgegenzunehmen**.
+das Festnetz (Sg.);landline;стаціонарна мережа;Im Büro **sind alle Mitarbeiter sowohl über Mobiltelefon als auch über Festnetz erreichbar**.
+etw. frei|schalten (schaltet frei, schaltete frei, hat freigeschaltet);to unlock, to activate;активувати, розблокувати;Die Personalabteilung **muss den Zugang zum Abrechnungsportal für den Auszubildenden freischalten**.
+die Grundgebühr, -en;basic fee;абонентська плата;Die Grundgebühr **für die Nutzung der Online-Plattform wird monatlich abgerechnet**.
+gültig;valid;дійсний;Eine gültige Aufenthaltsgenehmigung **ist Voraussetzung für das Bestehen des Arbeitsverhältnisses**.
+günstig;cheap, favorable;вигідний, недешевий;Der Handwerksbetrieb **konnte ein günstiges Angebot für die Sanierung der Lagerhalle unterbreiten**.
+das Guthaben, -;credit;баланс (грошовий);Das Guthaben **auf dem Zeitkonto kann als Freizeitausgleich genutzt werden**.
+der Handwerker, - / die Handwerkerin, -nen;craftsman;майстер/-иня;Der Handwerker **ist für die ordnungsgemäße Installation der technischen Anlage zuständig**.
+inklusive;inclusive;включно;Der monatliche Mietpreis **versteht sich inklusive aller Nebenkosten und Steuern**.
+die Kontrolle, -n;control;контроль;Die Kontrolle der Brandschutzordnung **erfolgt durch den zuständigen Sicherheitsbeauftragten**.
+der Lieferservice, -s;delivery service;служба доставки;Der Lieferservice **garantiert eine Zustellung der Ersatzteile innerhalb von 24 Stunden**.
+das Netz, -e;network;мережа;Im gesamten Werk **ist die Netzabdeckung für den Mobilfunk gewährleistet**.
+optimal;optimal;оптимальний;Eine ergonomische Ausstattung **bietet optimale Bedingungen für ein gesundes Arbeiten**.
+profitieren von (+ Dat.) (profitiert, profitierte, hat profitiert);to profit from;отримувати вигоду;Die Beschäftigten **profitieren von den Regelungen des neuen Tarifvertrags**.
+etw. sperren (sperrt, sperrte, hat gesperrt);to block, to lock;блокувати;Der Inhaber **musste das Konto des ehemaligen Mitarbeiters aus Sicherheitsgründen sperren**.
+der Tarif, -e;tariff;тариф;Der Tarif **sieht eine finanzielle Besserstellung der Fachkräfte im Betrieb vor**.
+etw. verschicken (verschickt, verschickte, hat verschickt);to send;відправляти;Die Personalabteilung **wird das Arbeitszeugnis heute per Post verschicken**.
+der Vertrag, "-e;contract;контракт, договір;Der schriftliche Arbeitsvertrag **muss vor dem Arbeitsbeginn unterzeichnet werden**.
+die Vertragslaufzeit, -en;contract duration;термін дії договору;Die Vertragslaufzeit **für den Wartungsvertrag beträgt ein Jahr**.
+etw. zu|stellen (stellt zu, stellte zu, hat zugestellt);to deliver;доставляти;Der Postbote **konnte den Brief mit dem Kündigungsschreiben nicht zustellen**.
+das Angebot, -e;offer;пропозиція;Der Lieferant **hat uns ein neues Angebot für die Rohstoffe unterbreitet**.
+der Auftrag, "-e;order, assignment;замовлення, доручення;Der Handwerksbetrieb **hat den Auftrag zur Modernisierung der Werkhalle erhalten**.
+der Ausdruck, -e;printout;роздруківка;Bitte **legen Sie mir einen Ausdruck des Ergebnisprotokolls auf den Schreibtisch**.
+sich binden an (+ Akk.) (bindet sich, band sich, hat sich gebunden);to commit oneself to;зв'язувати себе зобов'язаннями;Durch den Vertrag **bindet sich das Familienunternehmen langfristig an den Lieferanten**.
+brutto;gross;брутто (без вирахування податків);Das Bruttogehalt **wurde im Arbeitsvertrag schriftlich vereinbart**.
+einverstanden;agreed;згодний;Die Geschäftsführung **ist mit den Vorschlägen des Betriebsrats einverstanden**.
+etw. empfehlen (empfiehlt, empfahl, hat empfohlen);to recommend;рекомендувати;Der Betriebsarzt **empfiehlt eine regelmäßige Pause bei sitzender Tätigkeit**.
+die Erledigung, -en;completion;виконання;Der Vorarbeiter **ist für die zügige Erledigung des Auftrags verantwortlich**.
+etw. erteilen (z.B. einen Auftrag) (erteilt, erteilte, hat erteilt);to grant, to give;надавати, видавати (доручення);Der Werkleiter **wird der Elektrofirma den Auftrag zur Sonderprüfung erteilen**.
+der Grund, "-e;reason;причина;Der Grund **für das Zuspätkommen war der dichte Berufsverkehr am Morgen**.
+die Mehrwertsteuer (Sg.);value added tax (VAT);ПДВ (податок на додану вартість);Die Rechnungsbeträge **verstehen sich zuzüglich der gesetzlichen Mehrwertsteuer**.
+netto;net;нетто (після податків);Das vereinbarte Gehalt **wird am Monatsende netto auf das Konto überwiesen**.
+sorgfältig;carefully;ретельно;Die Unterlagen **müssen vor der Abgabe an das Arbeitsgericht sorgfältig geprüft werden**.
+die Summe, -n;sum, total;сума;Die Summe der Überstunden **muss im Berichtsheft genau dokumentiert werden**.
+die Unterschrift, -en;signature;підпис;Ohne die Unterschrift des Inhabers **ist der Vertrag rechtlich ungültig**.
+zahlbar;payable;до оплати;Der Rechnungsbetrag **ist innerhalb von 14 Tagen ohne Abzug zahlbar**.
+zuverlässig;reliable;надійний;Unser neuer Küchenhelfer **arbeitet stets sehr gewissenhaft und zuverlässig**.
+der Ärger (Sg.);anger, trouble;неприємність, гнів;Es gab großen Ärger **wegen der unzulässigen Überschreitung der Arbeitszeit**.
+der Artikel, -;article;стаття, товар;Der Artikel **muss aufgrund eines Sachmangels umgehend reklamiert werden**.
+beschädigt;damaged;пошкоджений;Die Ware **wurde beim Transport durch die Spedition leicht beschädigt**.
+die Beschwerde, -n;complaint;скарга;Die Beschwerde **wurde direkt bei der zuständigen Aufsichtsbehörde eingereicht**.
+defekt;defective;несправний;Das Notstromaggregat **ist defekt und muss repariert werden**.
+dreckig;dirty;брудний;Die Arbeitskleidung **ist nach der Schicht in der Werkhalle stark dreckig**.
+der Fleck, -en;stain;пляма;Der Fleck auf dem Protokoll **beeinträchtigt die Lesbarkeit des Textes nicht**.
+der Mangel, -;defect, lack;недолік;Der Mangel an Fachkräften **wirkt sich negativ auf die Produktivität des Betriebs aus**.
+peinlich;embarrassing;соромно;Es war dem Meister peinlich, **die Sicherheitsprüfung vergessen zu haben**.
+die Reklamation, -en;reclamation, claim;рекламація, претензія;Die Reklamation **wird von unserer Qualitätsabteilung sorgfältig geprüft**.
+unvollständig;incomplete;неповний;Die eingereichten Unterlagen **sind leider unvollständig und müssen ergänzt werden**.
+der Vorschlag, "-e;suggestion;пропозиція;Der Vorschlag des Betriebsrats **sieht eine Erhöhung der Urlaubstage vor**.
+etw. zerbrechen (zerbricht, zerbrach, hat zerbrochen);to break;розбивати;Der Transporteur **hat das empfindliche Messgerät beim Abladen zerbrochen**.
+etw. zerkratzen (zerkratzt, zerkratzte, hat zerkratzt);to scratch;подряпати;Man sollte darauf achten, **die Oberfläche der Kältemaschine nicht zu zerkratzen**.
+etw. zerreißen (zerriss, hat zerrissen);to tear;розривати;Der wütende Mitarbeiter **hat das Abmahnungsschreiben vor den Augen des Meisters zerrissen**.
+jdn. ausreden lassen (lässt ausreden, ließ ausreden, hat ausreden lassen);to let someone finish speaking;давати комусь договорити;Bei Besprechungen **sollte man die anderen Teilnehmer stets ausreden lassen**.
+die Bedeutung, -en;meaning;значення;Arbeitsschutz **ist für das Wohlbefinden der Belegschaft von großer Bedeutung**.
+die Erwartung, -en;expectation;очікування;Die Einnahmen des Familienunternehmens **haben alle Erwartungen übertroffen**.
+etw. klären (klärt, klärte, hat geklärt);to clarify;з'ясовувати;Wir müssen den Vorfall **unverzüglich im gemeinsamen Gespräch klären**.
+konkurrenzfähig;competitive;конкурентоспроможний;Um konkurrenzfähig zu bleiben, **müssen wir in neue Anlagen investieren**.
+sich etw. leisten können (kann sich leisten, konnte sich leisten, hat sich leisten können);to be able to afford;могти собі дозволити;Der Betrieb **kann es sich nicht leisten, qualifizierte Fachkräfte zu verlieren**.
+einen Preisnachlass gewähren (gewährt, gewährte, hat gewährt);to grant a discount;надавати знижку;Der Händler **wollte uns wegen der Mängel einen Preisnachlass gewähren**.
+treu bleiben (bleibt treu, blieb treu, ist treu geblieben);to stay loyal;залишатися вірним;Unsere Kunden **bleiben uns treu, weil wir für fehlerfreie Qualität garantieren**.
+unzufrieden;dissatisfied;незадоволений;Die Belegschaft **ist unzufrieden mit der Regelung zur Wochenendarbeit**.
+vereinbart;agreed;узгоджений;Die Übergabe der Dokumente **erfolgte zum vereinbarten Stichtag**.
+sich etw. vor|stellen (stellt sich vor, stellte sich vor, hat sich vorgestellt);to imagine;уявляти;Ich kann mir vorstellen, **mich in diesem Bereich beruflich weiterzubilden**.
