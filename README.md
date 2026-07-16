@@ -1,8 +1,17 @@
-# Anki & Quizlet German Vocabulary (B1+ & B2 Beruf)
+# Anki & Quizlet German Vocabulary (B1+/B2 Beruf)
 
-🌐 **[Live Interactive Vocabulary Website](https://andreysey.github.io/anki-b2/)**
+🌐 **[Live Interactive Vocabulary Website & Dashboard](https://andreysey.github.io/anki-b2/)**
 
-This repository contains professional thematic vocabulary files for Anki and Quizlet, covering German B1+ and B2 levels specifically from a **B2 Beruf** course. Each entry includes German terms, English and Ukrainian translations, and German example sentences.
+This repository contains professional thematic vocabulary files for Anki, Quizlet, and a web-based study app, specifically aligned with the **telc Deutsch-Test für den Beruf B1+ and B2** exams.
+
+## Key Objectives & Approach
+
+1. **telc Beruf B1+/B2 Exam Alignment**: All example sentences are carefully tailored to reflect corporate environments, logistics, works council codetermination (`Betriebsrat`), employment contracts (`Arbeitsvertrag`), vocational training (`Berufsausbildung`), and workplace safety (`Arbeitsschutz`).
+2. **Grammar Interleaving**: Examples for general vocabulary are actively interleaved with core grammatical structures (e.g. *Nomen-Verb-Verbindungen*, *Verben/Adjektive mit Präpositionen*, and official *Redemittel* for discussion/graph description tasks).
+3. **Advanced Web Application & Dashboard**:
+   - **Progress Dashboard**: Interactive tracking showing mastered and remaining cards per theme and grammar category.
+   - **Visual Syntax Highlighting**: Automatic CSS-based highlighting of grammar targets (e.g. bolded verbs and preposition combinations) directly on cards for intuitive learning.
+   - **TTS Audio**: Synthesized pronunciation with adjustable playback speed.
 
 ## Project Structure
 
