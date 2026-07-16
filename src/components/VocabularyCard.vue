@@ -33,7 +33,7 @@ const showGermanOnFront = computed(() => props.direction === 'DE_TO_UA');
           <div class="flex justify-between items-center p-6 pb-0">
             <div class="flex gap-2">
               <Badge :value="word.level" severity="info" />
-              <Badge :value="'Thema ' + word.thema" severity="secondary" />
+              <Badge :value="word.thema === 99 ? 'Unregelmäßige Verben' : word.thema === 98 ? 'Verben mit Präpositionen' : word.thema === 97 ? 'Adjektive mit Präpositionen' : word.thema === 96 ? 'Nomen-Verb-Verbindungen' : word.thema === 95 ? 'Redemittel' : 'Theme ' + word.thema" severity="secondary" />
             </div>
             <Button 
               icon="pi pi-check" 
@@ -74,7 +74,7 @@ const showGermanOnFront = computed(() => props.direction === 'DE_TO_UA');
           <div class="flex justify-between items-center p-6 pb-0">
             <div class="flex gap-2">
               <Badge :value="word.level" severity="info" />
-              <Badge :value="'Thema ' + word.thema" severity="secondary" />
+              <Badge :value="word.thema === 99 ? 'Unregelmäßige Verben' : word.thema === 98 ? 'Verben mit Präpositionen' : word.thema === 97 ? 'Adjektive mit Präpositionen' : word.thema === 96 ? 'Nomen-Verb-Verbindungen' : word.thema === 95 ? 'Redemittel' : 'Theme ' + word.thema" severity="secondary" />
             </div>
             <Button 
               icon="pi pi-check" 
@@ -95,7 +95,7 @@ const showGermanOnFront = computed(() => props.direction === 'DE_TO_UA');
               </div>
               <template v-if="word.example">
                 <Divider />
-                <div class="italic text-surface-300 text-center" v-html="sanitizeHtml(word.example)"></div>
+                <div class="italic text-surface-300 text-center [&_strong]:text-primary [&_b]:text-primary" v-html="sanitizeHtml(word.example)"></div>
               </template>
             </template>
             <template v-else>
@@ -110,7 +110,7 @@ const showGermanOnFront = computed(() => props.direction === 'DE_TO_UA');
               </div>
               <template v-if="word.example">
                 <Divider />
-                <div class="italic text-surface-300 text-center" v-html="sanitizeHtml(word.example)"></div>
+                <div class="italic text-surface-300 text-center [&_strong]:text-primary [&_b]:text-primary" v-html="sanitizeHtml(word.example)"></div>
               </template>
             </template>
           </ScrollPanel>

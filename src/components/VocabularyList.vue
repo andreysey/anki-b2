@@ -56,7 +56,7 @@ const getItemKey = (item: Word) => `${item.german}-${item.level}-${item.thema}`;
           </div>
           <template v-if="item.example">
             <Divider />
-            <div class="italic text-surface-400 text-sm leading-relaxed" v-html="sanitizeHtml(item.example)"></div>
+            <div class="italic text-surface-400 text-sm leading-relaxed [&_strong]:text-primary [&_b]:text-primary" v-html="sanitizeHtml(item.example)"></div>
           </template>
         </template>
       </Card>

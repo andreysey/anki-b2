@@ -10,7 +10,10 @@ import BaseLayout from './components/BaseLayout.vue';
 import AppHero from './components/AppHero.vue';
 import VocabularyList from './components/VocabularyList.vue';
 import StudyView from './components/StudyView.vue';
+import DashboardView from './components/DashboardView.vue';
 import Panel from 'primevue/panel';
+
+const activeView = ref<'list' | 'study' | 'dashboard'>('list');
 
 const {
   vocabulary,
@@ -25,6 +28,7 @@ const {
   studyDirection,
   isAutoplay,
   isShuffled,
+  masteredIds,
   displayLimit,
   init,
   updateSRS,
@@ -34,6 +38,19 @@ const {
   toggleMastered,
   loadMore
 } = useVocabulary();
+
+// Sync isStudyMode and activeView
+watch(activeView, (newView) => {
+  isStudyMode.value = newView === 'study';
+});
+
+watch(isStudyMode, (studying) => {
+  if (studying && activeView.value !== 'study') {
+    activeView.value = 'study';
+  } else if (!studying && activeView.value === 'study') {
+    activeView.value = 'list';
+  }
+});
 
 const toast = useToast();
 
@@ -166,13 +183,31 @@ const appVersion = __APP_VERSION__;
     <template #header-end>
       <div class="flex items-center gap-2">
         <Button icon="pi pi-github" text rounded severity="secondary" @click="openGitHub" />
-        <Button :icon="isStudyMode ? 'pi pi-list' : 'pi pi-graduation-cap'" :label="isStudyMode ? 'List' : 'Study'" severity="primary" @click="isStudyMode = !isStudyMode" />
+        <Button 
+          icon="pi pi-chart-bar" 
+          label="Dashboard" 
+          :severity="activeView === 'dashboard' ? 'primary' : 'secondary'" 
+          @click="activeView = 'dashboard'" 
+        />
+        <Button 
+          icon="pi pi-list" 
+          label="List" 
+          :severity="activeView === 'list' ? 'primary' : 'secondary'" 
+          @click="activeView = 'list'" 
+        />
+        <Button 
+          icon="pi pi-graduation-cap" 
+          label="Study" 
+          :severity="activeView === 'study' ? 'primary' : 'secondary'" 
+          @click="activeView = 'study'" 
+        />
       </div>
     </template>
 
     <AppHero />
 
     <FilterBar 
+      v-if="activeView !== 'dashboard'"
       :vocabulary="vocabulary"
       v-model:search="search"
       v-model:level="levelFilter"
@@ -181,7 +216,7 @@ const appVersion = __APP_VERSION__;
     />
 
     <!-- Audio Settings Panel -->
-    <Panel header="Audio Settings" toggleable collapsed class="shadow-xl">
+    <Panel v-if="activeView !== 'dashboard'" header="Audio Settings" toggleable collapsed class="shadow-xl">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6 p-4">
         <div class="flex flex-col gap-2">
           <span class="text-xs font-bold uppercase tracking-wider text-surface-400">German Voice</span>
@@ -208,14 +243,21 @@ const appVersion = __APP_VERSION__;
       </div>
     </Panel>
 
+    <!-- Dashboard View -->
+    <DashboardView 
+      v-if="activeView === 'dashboard'"
+      :vocabulary="vocabulary"
+      :masteredIds="masteredIds"
+    />
+
     <!-- Empty State -->
-    <Message v-if="filteredVocabulary.length === 0" severity="secondary" icon="pi pi-search" class="mb-12">
+    <Message v-if="activeView !== 'dashboard' && filteredVocabulary.length === 0" severity="secondary" icon="pi pi-search" class="mb-12">
         No results found matching your current search or filter criteria. Try adjusting your filters.
     </Message>
 
     <!-- List View -->
     <VocabularyList 
-      v-if="!isStudyMode && filteredVocabulary.length > 0"
+      v-if="activeView === 'list' && filteredVocabulary.length > 0"
       :vocabulary="filteredVocabulary"
       :display-limit="displayLimit"
       @load-more="loadMore"
@@ -225,7 +267,7 @@ const appVersion = __APP_VERSION__;
 
     <!-- Study Mode -->
     <StudyView 
-      v-else-if="isStudyMode && studyList.length > 0"
+      v-else-if="activeView === 'study' && studyList.length > 0"
       :vocabulary="studyList"
       :current-study-index="currentStudyIndex"
       :is-flipped="isFlipped"
