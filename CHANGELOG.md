@@ -1,3 +1,10 @@
+## [1.8.1](https://github.com/andreysey/anki-b2/compare/v1.8.0...v1.8.1) (2026-07-16)
+
+
+### Bug Fixes
+
+* improve layout stability and styling for range slider and card components ([ceb37af](https://github.com/andreysey/anki-b2/commit/ceb37af4b479d6425e04dee50cf163eb28260c1e))
+
 # [1.8.0](https://github.com/andreysey/anki-b2/compare/v1.7.0...v1.8.0) (2026-07-16)
 
 
