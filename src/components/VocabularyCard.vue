@@ -7,6 +7,7 @@ import Divider from 'primevue/divider';
 import ScrollPanel from 'primevue/scrollpanel';
 import Button from 'primevue/button';
 import { sanitizeHtml } from '../utils/sanitize';
+import AIAssistant from './AIAssistant.vue';
 
 const props = defineProps<{
   word: Word;
@@ -25,7 +26,7 @@ const showGermanOnFront = computed(() => props.direction === 'DE_TO_UA');
 </script>
 
 <template>
-  <div class="w-full max-w-[550px] h-[350px] xs:h-[380px] sm:h-[420px] [perspective:1500px] cursor-pointer mx-auto group" @click="emit('flip')">
+  <div class="w-full max-w-[550px] h-[450px] xs:h-[480px] sm:h-[520px] [perspective:1500px] cursor-pointer mx-auto group" @click="emit('flip')">
     <div class="relative w-full h-full transition-all duration-[800ms] [transform-style:preserve-3d] shadow-2xl rounded-[32px]" :class="{ '[transform:rotateY(180deg)]': isFlipped }">
       <!-- Front -->
       <Card class="absolute w-full h-full [backface-visibility:hidden]">
@@ -46,7 +47,7 @@ const showGermanOnFront = computed(() => props.direction === 'DE_TO_UA');
           </div>
         </template>
         <template #content>
-          <ScrollPanel class="h-[200px]">
+          <ScrollPanel class="h-[280px]">
             <template v-if="showGermanOnFront">
               <div class="flex flex-col items-center gap-6 py-4">
                 <h2 class="text-3xl sm:text-4xl font-bold text-center" v-html="sanitizeHtml(word.german)"></h2>
@@ -87,7 +88,7 @@ const showGermanOnFront = computed(() => props.direction === 'DE_TO_UA');
           </div>
         </template>
         <template #content>
-          <ScrollPanel class="h-[240px]">
+          <ScrollPanel class="h-[340px]">
             <template v-if="showGermanOnFront">
               <div class="flex flex-col items-center gap-4 py-4">
                 <div class="text-2xl sm:text-3xl font-bold">{{ word.ukrainian }}</div>
@@ -113,6 +114,9 @@ const showGermanOnFront = computed(() => props.direction === 'DE_TO_UA');
                 <div class="italic text-surface-300 text-center [&_strong]:text-primary [&_b]:text-primary" v-html="sanitizeHtml(word.example)"></div>
               </template>
             </template>
+
+            <!-- AI Assistant integrations -->
+            <AIAssistant :word="word" />
           </ScrollPanel>
         </template>
       </Card>
