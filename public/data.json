@@ -9,7 +9,7 @@
     "german_audio": "die Abteilung",
     "english": "department",
     "ukrainian": "відділ",
-    "example": "Unsere IT-<b style=\"color: #eab308;\">Abteilung</b> kümmert sich um die gesamte Cloud-Infrastruktur."
+    "example": "Unsere <b style=\"color: #eab308;\">Abteilung</b> **ist für die Einhaltung der neuen Sicherheitsrichtlinien zuständig**."
   },
   {
     "level": "B1+",
@@ -21,7 +21,7 @@
     "german_audio": "der Arbeitgeber",
     "english": "employer",
     "ukrainian": "роботодавець/-иця",
-    "example": "Mein neuer <b style=\"color: #eab308;\">Arbeitgeber</b> bietet viele Remote-Work-Optionen für Softwareentwickler an."
+    "example": "Der <b style=\"color: #eab308;\">Arbeitgeber</b> **ist verpflichtet, die Kosten für den Gehörschutz der Belegschaft zu übernehmen**."
   },
   {
     "level": "B1+",
@@ -33,7 +33,7 @@
     "german_audio": "das Asylverfahren",
     "english": "asylum procedure",
     "ukrainian": "процедура надання притулку",
-    "example": "Wir unterstützen geflüchtete IT-Spezialisten während ihres <b style=\"color: #eab308;\">Asylverfahrens</b> bei der Jobsuche."
+    "example": "Während des <b style=\"color: #eab308;\">Asylverfahrens</b> **ist die Aufnahme einer Erwerbstätigkeit nur im Ausnahmefall gestattet**."
   },
   {
     "level": "B1+",
@@ -45,7 +45,7 @@
     "german_audio": "die Ausbildung",
     "english": "apprenticeship, vocational training",
     "ukrainian": "професійне навчання",
-    "example": "Ich mache eine <b style=\"color: #eab308;\">Ausbildung</b> zum Fachinformatiker für Systemintegration."
+    "example": "Die ordnungsgemäße Durchführung der <b style=\"color: #eab308;\">Ausbildung</b> **wird von der zuständigen IHK überwacht**."
   },
   {
     "level": "B1+",
@@ -57,7 +57,7 @@
     "german_audio": "auf|fallen",
     "english": "to stand out, to be noticeable",
     "ukrainian": "впадати в око",
-    "example": "Im Code-Review ist mir sofort aufgefallen, dass eine Sicherheitslücke besteht."
+    "example": "Im Rahmen der Revision **ist sofort aufgefallen, dass Buchungsbelege im Jahresabschluss fehlen**."
   },
   {
     "level": "B1+",
@@ -69,7 +69,7 @@
     "german_audio": "bestehen",
     "english": "to pass (an exam)",
     "ukrainian": "скласти (іспит)",
-    "example": "Er hat die Zertifizierungsprüfung zum AWS Certified Solutions Architect <b style=\"color: #eab308;\">bestanden</b>."
+    "example": "Nach intensiver Prüfungsvorbereitung **hat der Auszubildende den Erstversuch mit Erfolg <b style=\"color: #eab308;\">bestanden</b>**."
   },
   {
     "level": "B1+",
@@ -81,7 +81,7 @@
     "german_audio": "das Berufsinformationszentrum",
     "english": "career information center",
     "ukrainian": "центр профорієнтації",
-    "example": "Im BIZ gibt es spezielle Beratungen für Quereinsteiger in die IT-Branche."
+    "example": "Im BIZ **erhalten <b style=\"color: #eab308;\">Berufseinsteiger</b> nützliche Auskünfte über Umschulungsmaßnahmen**."
   },
   {
     "level": "B1+",
@@ -89,11 +89,11 @@
       "B1+"
     ],
     "thema": 1,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Betrieb, -e",
-    "german_audio": "der Betrieb",
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Betrieb, -e",
+    "german_audio": "die Betrieb",
     "english": "company, business",
     "ukrainian": "підприємство",
-    "example": "Unser <b style=\"color: #eab308;\">Betrieb</b> hat vor kurzem auf eine Microservices-Architektur umgestellt."
+    "example": "Unser <b style=\"color: #eab308;\">Betrieb</b> **muss sich streng an die gesetzlichen Richtlinien des Arbeitsschutzes orientieren**."
   },
   {
     "level": "B1+",
@@ -106,7 +106,7 @@
     "german_audio": "sich bewerben",
     "english": "to apply",
     "ukrainian": "подавати заявку (на роботу)",
-    "example": "Ich <b style=\"color: #eab308;\">bewerbe</b> mich um die Stelle als Senior Java Developer bei diesem Startup."
+    "example": "Ich möchte mich **um die ausgeschriebene Stelle in Ihrer IT-Abteilung <b style=\"color: #eab308;\">bewerben</b>**."
   },
   {
     "level": "B1+",
@@ -118,7 +118,7 @@
     "german_audio": "ein|stellen",
     "english": "to hire someone",
     "ukrainian": "наймати когось",
-    "example": "Wir möchten diesen Monat drei neue Backend-Entwickler <b style=\"color: #eab308;\">einstellen</b>."
+    "example": "Die Geschäftsführung **beschließt, im nächsten Quartal drei neue Fachkräfte einzustellen**."
   },
   {
     "level": "B1+",
@@ -130,7 +130,7 @@
     "german_audio": "das E-Learning",
     "english": "e-learning",
     "ukrainian": "електронне навчання",
-    "example": "<b style=\"color: #eab308;\">E-Learning</b>-Plattformen wie Coursera sind ideal, um neue Programmiersprachen zu lernen."
+    "example": "<b>Ich bin der Meinung, dass</b> <b style=\"color: #eab308;\">E-Learning</b> eine hervorragende Alternative zum Präsenzunterricht darstellt."
   },
   {
     "level": "B1+",
@@ -142,7 +142,7 @@
     "german_audio": "der E-Learning-Kurs",
     "english": "e-learning course",
     "ukrainian": "курс дистанційного навчання",
-    "example": "Ich belege einen <b style=\"color: #eab308;\">E-Learning-Kurs</b> zum Thema \"Deep Learning mit Python\"."
+    "example": "Der <b style=\"color: #eab308;\">E-Learning-Kurs</b> **beinhaltet interaktive Module zur Arbeitssicherheit im Betrieb**."
   },
   {
     "level": "B1+",
@@ -154,7 +154,7 @@
     "german_audio": "der Facharbeiter",
     "english": "skilled worker",
     "ukrainian": "кваліфікований робітник/-ця",
-    "example": "In der Halbleiterfertigung werden hochqualifizierte <b style=\"color: #eab308;\">Facharbeiter</b> benötigt."
+    "example": "Die Werkhalle **beschäftigt ausschließlich hochqualifizierte <b style=\"color: #eab308;\">Facharbeiter</b>**."
   },
   {
     "level": "B1+",
@@ -166,7 +166,7 @@
     "german_audio": "der Gabelstapler",
     "english": "forklift",
     "ukrainian": "навантажувач",
-    "example": "Wir programmieren die Software für die automatische Steuerung der <b style=\"color: #eab308;\">Gabelstapler</b> im Logistikzentrum."
+    "example": "Für das Fahren des <b style=\"color: #eab308;\">Gabelstaplers</b> **ist der Nachweis einer entsprechenden Zulassung erforderlich**."
   },
   {
     "level": "B1+",
@@ -179,7 +179,7 @@
     "german_audio": "die Geschäftsführung",
     "english": "management",
     "ukrainian": "керівництво",
-    "example": "Die <b style=\"color: #eab308;\">Geschäftsführung</b> hat das Budget für die Cybersicherheit verdoppelt."
+    "example": "Die <b style=\"color: #eab308;\">Geschäftsführung</b> **trägt die Verantwortung für das positive Betriebsergebnis**."
   },
   {
     "level": "B1+",
@@ -191,7 +191,7 @@
     "german_audio": "sich informieren über",
     "english": "to inform oneself",
     "ukrainian": "інформуватися",
-    "example": "Ich informiere mich täglich <b style=\"color: #eab308;\">über</b> die neuesten Frameworks und Bibliotheken."
+    "example": "Vor Vertragsabschluss **sollte man sich genau <b style=\"color: #eab308;\">über</b> die Kündigungsfristen informieren**."
   },
   {
     "level": "B1+",
@@ -203,7 +203,7 @@
     "german_audio": "das Lager",
     "english": "warehouse, storage",
     "ukrainian": "склад",
-    "example": "Das digitale <b style=\"color: #eab308;\">Lager</b> verwaltet Tausende von Hardware-Komponenten für unser Rechenzentrum."
+    "example": "Der Transportschaden **wurde unmittelbar nach dem Eintreffen der Ware im <b style=\"color: #eab308;\">Lager</b> dokumentiert**."
   },
   {
     "level": "B1+",
@@ -216,7 +216,7 @@
     "german_audio": "die Lagerlogistik",
     "english": "warehouse logistics",
     "ukrainian": "складська логістика",
-    "example": "Ein effizientes ERP-System optimiert die gesamte <b style=\"color: #eab308;\">Lagerlogistik</b> des Hardware-Händlers."
+    "example": "Die Optimierung der <b style=\"color: #eab308;\">Lagerlogistik</b> **leistet einen wichtigen Beitrag zur Kostenersparnis**."
   },
   {
     "level": "B1+",
@@ -228,7 +228,7 @@
     "german_audio": "der Mitarbeiter",
     "english": "employee",
     "ukrainian": "співробітник/-ця",
-    "example": "Jeder <b style=\"color: #eab308;\">Mitarbeiter</b> erhält einen leistungsstarken Laptop für die Softwareentwicklung."
+    "example": "Jeder <b style=\"color: #eab308;\">Mitarbeiter</b> **ist zur Einhaltung der Brandschutzordnung auf dem Betriebsgelände verpflichtet**."
   },
   {
     "level": "B1+",
@@ -240,7 +240,7 @@
     "german_audio": "jdm. etw. raten",
     "english": "to advise someone",
     "ukrainian": "радити комусь щось",
-    "example": "Der Senior-Entwickler riet mir, Python als erste Programmiersprache zu lernen."
+    "example": "Der Sicherheitsbeauftragte **hat mir geraten, die Evakuierungsübung ernst zu nehmen**."
   },
   {
     "level": "B1+",
@@ -252,7 +252,7 @@
     "german_audio": "der Schulabschluss",
     "english": "school-leaving certificate",
     "ukrainian": "шкільний атестат",
-    "example": "Nach meinem <b style=\"color: #eab308;\">Schulabschluss</b> möchte ich Informatik an einer Technischen Universität studieren."
+    "example": "Nach dem <b style=\"color: #eab308;\">Schulabschluss</b> **kann man eine Berufsausbildung im Handwerksbereich beginnen**."
   },
   {
     "level": "B1+",
@@ -264,7 +264,7 @@
     "german_audio": "steigen",
     "english": "to rise, to climb",
     "ukrainian": "підніматися, зростати",
-    "example": "Die Nachfrage nach Sicherheitsexperten ist in den letzten Jahren stark gestiegen."
+    "example": "<b>Aus der Grafik geht hervor, dass</b> die Zahl der Arbeitsunfälle stetig gestiegen ist."
   },
   {
     "level": "B1+",
@@ -276,7 +276,7 @@
     "german_audio": "teil|nehmen an",
     "english": "to participate in",
     "ukrainian": "брати участь",
-    "example": "Nächste Woche nehme ich an einem Hackathon in Berlin teil."
+    "example": "Die Belegschaft **wird geschlossen an der kommenden Betriebsversammlung teilnehmen**."
   },
   {
     "level": "B1+",
@@ -289,7 +289,7 @@
     "german_audio": "der Umsatz",
     "english": "revenue, turnover",
     "ukrainian": "оборот, виручка",
-    "example": "Der <b style=\"color: #eab308;\">Umsatz</b> unseres Software-as-a-Service-Produkts hat sich dieses Jahr verdoppelt."
+    "example": "Der <b style=\"color: #eab308;\">Umsatz</b> des Unternehmens **ist infolge der erfolgreichen Messeteilnahme gestiegen**."
   },
   {
     "level": "B1+",
@@ -302,7 +302,7 @@
     "german_audio": "die Umschulung",
     "english": "retraining",
     "ukrainian": "перекваліфікація",
-    "example": "Nach meiner Karriere im Marketing mache ich eine <b style=\"color: #eab308;\">Umschulung</b> zum Webentwickler."
+    "example": "Das Jobcenter **hat der <b style=\"color: #eab308;\">Umschulung</b> zum Kältetechniker endlich zugestimmt**."
   },
   {
     "level": "B1+",
@@ -313,8 +313,8 @@
     "german": "wahrscheinlich",
     "german_audio": "wahrscheinlich",
     "english": "probably",
-    "ukrainian": "ймовірно",
-    "example": "Die Migration zur neuen Datenbank wird <b style=\"color: #eab308;\">wahrscheinlich</b> das ganze Wochenende dauern."
+    "ukrainian": "вірогідно, ймовірно",
+    "example": "Die Tarifverhandlungen **werden <b style=\"color: #eab308;\">wahrscheinlich</b> zu einer einvernehmlichen Lösung führen**."
   },
   {
     "level": "B1+",
@@ -327,7 +327,7 @@
     "german_audio": "die Weiterbildung",
     "english": "further education",
     "ukrainian": "підвищення кваліфікації",
-    "example": "In der IT-Welt ist kontinuierliche <b style=\"color: #eab308;\">Weiterbildung</b> die Basis für beruflichen Erfolg."
+    "example": "Der Arbeitgeber **unterstützt die Teilnahme an dieser <b style=\"color: #eab308;\">Weiterbildungsmaßnahme</b> finanziell**."
   },
   {
     "level": "B1+",
@@ -339,7 +339,7 @@
     "german_audio": "der Antrag",
     "english": "application, request",
     "ukrainian": "заява",
-    "example": "Ich habe einen <b style=\"color: #eab308;\">Antrag</b> auf Zugriffsberechtigung für den Produktionsserver gestellt."
+    "example": "Der Kindergeldantrag **muss schriftlich bei der zuständigen Familienkasse eingereicht werden**."
   },
   {
     "level": "B1+",
@@ -351,7 +351,7 @@
     "german_audio": "einen Antrag stellen",
     "english": "to submit an application",
     "ukrainian": "падавати заяву",
-    "example": "Sie müssen einen Antrag <b style=\"color: #eab308;\">stellen</b>, um das neue Grafiktablett aus dem IT-Bestand zu erhalten."
+    "example": "Der Schuldner **hat einen Antrag auf Stundung der Steuerschuld gestellt**."
   },
   {
     "level": "B1+",
@@ -363,7 +363,7 @@
     "german_audio": "die Aufenthaltsgenehmigung",
     "english": "residence permit",
     "ukrainian": "посвідка на проживання",
-    "example": "Für das Visum als Blue-Card-Inhaber benötige ich eine gültige <b style=\"color: #eab308;\">Aufenthaltsgenehmigung</b>."
+    "example": "Für die Erteilung der Arbeitserlaubnis **ist eine gültige <b style=\"color: #eab308;\">Aufenthaltsgenehmigung</b> erforderlich**."
   },
   {
     "level": "B1+",
@@ -375,7 +375,7 @@
     "german_audio": "auf|wachsen",
     "english": "to grow up",
     "ukrainian": "виростати",
-    "example": "Er ist im Silicon Valley aufgewachsen und hat schon früh mit dem Programmieren begonnen."
+    "example": "Er ist zweisprachig aufgewachsen, **was für die internationale Kundenpflege sehr vorteilhaft ist**."
   },
   {
     "level": "B1+",
@@ -387,7 +387,7 @@
     "german_audio": "der Berater",
     "english": "advisor, counselor",
     "ukrainian": "консультант/-ка",
-    "example": "Der externe IT-<b style=\"color: #eab308;\">Berater</b> analysiert unsere aktuelle Netzwerkstruktur."
+    "example": "Der Rentenberater **erteilt den Versicherten detaillierte Auskünfte über ihre Rentenanwartschaften**."
   },
   {
     "level": "B1+",
@@ -395,11 +395,11 @@
       "B1+"
     ],
     "thema": 1,
-    "german": "jdn. beschäftigen (beschäftigt, beschäftigte, hat beschäftigt)",
+    "german": "jdn. beschäftigen (beschäftigt, beschäftigt, hat beschäftigt)",
     "german_audio": "beschäftigen",
     "english": "to employ someone",
     "ukrainian": "мати у штаті, займати когось",
-    "example": "Unser Unternehmen <b style=\"color: #eab308;\">beschäftigt</b> weltweit über 500 Softwarearchitekten."
+    "example": "Unser Handwerksbetrieb **<b style=\"color: #eab308;\">beschäftigt</b> derzeit zehn Auszubildende**."
   },
   {
     "level": "B1+",
@@ -411,7 +411,7 @@
     "german_audio": "der Businessplan",
     "english": "business plan",
     "ukrainian": "бізнес-план",
-    "example": "Bevor wir Investoren für unsere App suchen, brauchen wir einen soliden <b style=\"color: #eab308;\">Businessplan</b>."
+    "example": "Für die Bewilligung des Kredits **müssen wir den <b style=\"color: #eab308;\">Businessplan</b> der Bank vorlegen**."
   },
   {
     "level": "B1+",
@@ -423,7 +423,7 @@
     "german_audio": "das Einkommen",
     "english": "income",
     "ukrainian": "дохід",
-    "example": "Das <b style=\"color: #eab308;\">Einkommen</b> als Freelancer in der Softwareentwicklung variiert je nach Projektlage."
+    "example": "Das Nettoeinkommen **ist nach dem Abzug aller Abgaben und Steuern maßgeblich**."
   },
   {
     "level": "B1+",
@@ -435,7 +435,7 @@
     "german_audio": "die Entscheidung",
     "english": "decision",
     "ukrainian": "рішення",
-    "example": "Die <b style=\"color: #eab308;\">Entscheidung</b>, auf Rust umzusteigen, war für die Performance der App entscheidend."
+    "example": "Die <b style=\"color: #eab308;\">Entscheidung</b> der Schlichtungsstelle **ist für beide Tarifpartner bindend**."
   },
   {
     "level": "B1+",
@@ -447,7 +447,7 @@
     "german_audio": "eine Entscheidung treffen",
     "english": "to make a decision",
     "ukrainian": "прийти до рішення",
-    "example": "Das Management muss endlich eine Entscheidung bezüglich des Cloud-Providers <b style=\"color: #eab308;\">treffen</b>."
+    "example": "Der Vorstand **muss eine Entscheidung bezüglich der Betriebsverlegung <b style=\"color: #eab308;\">treffen</b>**."
   },
   {
     "level": "B1+",
@@ -460,7 +460,7 @@
     "german_audio": "die Existenzgründung",
     "english": "founding of a business",
     "ukrainian": "заснування власної справи",
-    "example": "Er plant eine <b style=\"color: #eab308;\">Existenzgründung</b> mit einer innovativen KI-Lösung für den E-Commerce."
+    "example": "Bei der <b style=\"color: #eab308;\">Existenzgründung</b> **sollte man sich an den gesetzlichen Vorschriften orientieren**."
   },
   {
     "level": "B1+",
@@ -472,7 +472,7 @@
     "german_audio": "die Fortbildung",
     "english": "advanced training",
     "ukrainian": "підвищення кваліфікації",
-    "example": "Nächsten Monat besuche ich eine <b style=\"color: #eab308;\">Fortbildung</b> zum Thema Containerisierung mit Docker."
+    "example": "Die Teilnahme an der <b style=\"color: #eab308;\">Fortbildung</b> **wird durch ein anerkanntes Zertifikat nachgewiesen**."
   },
   {
     "level": "B1+",
@@ -484,7 +484,7 @@
     "german_audio": "eine Fortbildung machen",
     "english": "to do a training",
     "ukrainian": "проходити курс підвищення кваліфікації",
-    "example": "Ich möchte eine Fortbildung <b style=\"color: #eab308;\">machen</b>, um mich auf IT-Sicherheit zu spezialisieren."
+    "example": "Ich möchte eine Fortbildung <b style=\"color: #eab308;\">machen</b>, **um meine Chancen auf dem Arbeitsmarkt zu verbessern**."
   },
   {
     "level": "B1+",
@@ -496,7 +496,7 @@
     "german_audio": "gründen",
     "english": "to found (a company)",
     "ukrainian": "засновувати (компанію)",
-    "example": "Sie möchten ein Startup <b style=\"color: #eab308;\">gründen</b>, das Blockchain-Technologie für Lieferketten nutzt."
+    "example": "Sie planen, **ein mittelständisches Logistikunternehmen in der Rechtsform einer GmbH zu <b style=\"color: #eab308;\">gründen</b>**."
   },
   {
     "level": "B1+",
@@ -508,7 +508,7 @@
     "german_audio": "einen Kredit bewilligen",
     "english": "to approve a loan",
     "ukrainian": "надавати кредит",
-    "example": "Die Bank hat den Kredit für die neue Hardware-Ausstattung <b style=\"color: #eab308;\">bewilligt</b>."
+    "example": "Die Sparkasse **hat den Kredit für die Anschaffungskosten der Maschinen <b style=\"color: #eab308;\">bewilligt</b>**."
   },
   {
     "level": "B1+",
@@ -520,7 +520,7 @@
     "german_audio": "der Küchenhelfer",
     "english": "kitchen assistant",
     "ukrainian": "кухонний помічник/-ниця",
-    "example": "In unserer Kantine nutzt der <b style=\"color: #eab308;\">Küchenhelfer</b> ein Tablet, um Bestellungen zu verwalten."
+    "example": "Als <b style=\"color: #eab308;\">Küchenhelfer</b> **ist man auf das Tragen von rutschfesten Arbeitsschuhen angewiesen**."
   },
   {
     "level": "B1+",
@@ -532,7 +532,7 @@
     "german_audio": "sich selbstständig machen",
     "english": "to go self-employed",
     "ukrainian": "почати власну справу",
-    "example": "Nach zehn Jahren Festanstellung möchte ich mich als IT-Consultant selbstständig <b style=\"color: #eab308;\">machen</b>."
+    "example": "Er wollte sich selbstständig <b style=\"color: #eab308;\">machen</b>, **um unabhängig vom Weisungsrecht eines Arbeitgebers zu sein**."
   },
   {
     "level": "B1+",
@@ -545,7 +545,7 @@
     "german_audio": "die Selbstständigkeit",
     "english": "self-employment",
     "ukrainian": "самостійність, самозайнятість",
-    "example": "Die <b style=\"color: #eab308;\">Selbstständigkeit</b> erfordert gute Kenntnisse in Projektmanagement und Buchhaltung."
+    "example": "Der Schritt in die <b style=\"color: #eab308;\">Selbstständigkeit</b> **birgt sowohl Chancen als auch finanzielle Risiken**."
   },
   {
     "level": "B1+",
@@ -557,7 +557,7 @@
     "german_audio": "überlegen",
     "english": "to consider, to think about",
     "ukrainian": "обмірковувати",
-    "example": "Wir <b style=\"color: #eab308;\">überlegen</b>, ob wir die gesamte Backend-Infrastruktur auf Serverless umstellen."
+    "example": "Die Geschäftsführung **<b style=\"color: #eab308;\">überlegt</b>, eine betriebliche Altersvorsorge einzuführen**."
   },
   {
     "level": "B1+",
@@ -569,7 +569,7 @@
     "german_audio": "Verantwortung tragen für",
     "english": "to bear responsibility",
     "ukrainian": "нести відповідальність",
-    "example": "Als CTO trage ich die Verantwortung <b style=\"color: #eab308;\">für</b> alle technischen Entscheidungen im Unternehmen."
+    "example": "Der Werkleiter **muss die Verantwortung <b style=\"color: #eab308;\">für</b> die Einhaltung der Brandschutzordnung tragen**."
   },
   {
     "level": "B1+",
@@ -581,7 +581,7 @@
     "german_audio": "anerkennen lassen",
     "english": "to have something recognized",
     "ukrainian": "визнавати (напр. диплом)",
-    "example": "Ich muss meine ausländischen IT-Zertifikate in Deutschland anerkennen <b style=\"color: #eab308;\">lassen</b>."
+    "example": "Sie müssen Ihre ausländischen Berufsabschlüsse **beim zuständigen Amt anenerkennen <b style=\"color: #eab308;\">lassen</b>**."
   },
   {
     "level": "B1+",
@@ -593,7 +593,7 @@
     "german_audio": "der Berufsabschluss",
     "english": "vocational qualification",
     "ukrainian": "професійна освіта",
-    "example": "Ein staatlich anerkannter <b style=\"color: #eab308;\">Berufsabschluss</b> ist oft Voraussetzung für eine Anstellung im öffentlichen Dienst."
+    "example": "Ein anerkannter <b style=\"color: #eab308;\">Berufsabschluss</b> **ist die Grundlage für eine tarifliche Eingruppierung**."
   },
   {
     "level": "B1+",
@@ -605,7 +605,7 @@
     "german_audio": "die Berufsausbildung",
     "english": "vocational training",
     "ukrainian": "професійна освіта",
-    "example": "Während meiner <b style=\"color: #eab308;\">Berufsausbildung</b> habe ich verschiedene Programmiersprachen gelernt."
+    "example": "Während der <b style=\"color: #eab308;\">Berufsausbildung</b> **muss das Berichtsheft wöchentlich geführt werden**."
   },
   {
     "level": "B1+",
@@ -617,7 +617,7 @@
     "german_audio": "beschließen",
     "english": "to decide on, to resolve",
     "ukrainian": "вирішувати, постановити",
-    "example": "Wir haben <b style=\"color: #eab308;\">beschlossen</b>, das nächste Projekt mit der agilen Scrum-Methode umzusetzen."
+    "example": "Der Betriebsrat **<b style=\"color: #eab308;\">beschließt</b>, gegen die unzulässige Kündigung rechtliche Schritte einzuleiten**."
   },
   {
     "level": "B1+",
@@ -630,7 +630,7 @@
     "german_audio": "das Zeugnis",
     "english": "report card, certificate",
     "ukrainian": "свідоцтво, атестат",
-    "example": "Ich habe mein Arbeitszeugnis als PDF für die Bewerbung hochgeladen."
+    "example": "Bitte **legen Sie uns das <b style=\"color: #eab308;\">Zeugnis</b> Ihres vorherigen Arbeitgebers vor**."
   },
   {
     "level": "B1+",
@@ -642,7 +642,7 @@
     "german_audio": "die Anerkennung",
     "english": "recognition",
     "ukrainian": "визнання",
-    "example": "Die <b style=\"color: #eab308;\">Anerkennung</b> meiner Masterurkunde war für das Visum als Fachkraft notwendig."
+    "example": "Die <b style=\"color: #eab308;\">Anerkennung</b> ausländischer Abschlüsse **dient der Bekämpfung des Fachkräftemangels**."
   },
   {
     "level": "B1+",
@@ -654,7 +654,7 @@
     "german_audio": "das Anerkennungsverfahren",
     "english": "recognition process",
     "ukrainian": "процедура визнання",
-    "example": "Das <b style=\"color: #eab308;\">Anerkennungsverfahren</b> kann online über das Portal der IHK verfolgt werden."
+    "example": "Das <b style=\"color: #eab308;\">Anerkennungsverfahren</b> **wird in der Regel durch die zuständige IHK durchgeführt**."
   },
   {
     "level": "B1+",
@@ -666,7 +666,7 @@
     "german_audio": "die Arbeitserlaubnis",
     "english": "work permit",
     "ukrainian": "дозвіл на роботу",
-    "example": "Ohne eine gültige <b style=\"color: #eab308;\">Arbeitserlaubnis</b> darf man in Deutschland nicht als Entwickler arbeiten."
+    "example": "Ohne eine gültige <b style=\"color: #eab308;\">Arbeitserlaubnis</b> **ist die Arbeitsaufnahme in Deutschland unter Strafe gestellt**."
   },
   {
     "level": "B1+",
@@ -679,7 +679,7 @@
     "german_audio": "die Fachkraft",
     "english": "specialist",
     "ukrainian": "спеціаліст",
-    "example": "In Deutschland herrscht ein großer Mangel an <b style=\"color: #eab308;\">Fachkräften</b> im Bereich Cybersicherheit."
+    "example": "Unser Betrieb **sucht dringend eine qualifizierte <b style=\"color: #eab308;\">Fachkraft</b> für den Dauerbetrieb der Anlagen**."
   },
   {
     "level": "B1+",
@@ -692,7 +692,7 @@
     "german_audio": "die Kompetenz",
     "english": "competence, skill",
     "ukrainian": "компетенція, навичка",
-    "example": "Problemlösungskompetenz ist eine der wichtigsten Eigenschaften eines Programmierers."
+    "example": "Fachliche <b style=\"color: #eab308;\">Kompetenz</b> **ist Voraussetzung für die Übernahme von Führungsaufgaben**."
   },
   {
     "level": "B1+",
@@ -704,7 +704,7 @@
     "german_audio": "Kosten übernehmen",
     "english": "to cover costs",
     "ukrainian": "брати на себе витрати",
-    "example": "Mein Arbeitgeber wird die Kosten für die Microsoft-Zertifizierung <b style=\"color: #eab308;\">übernehmen</b>."
+    "example": "Der Arbeitgeber **wird die Kosten für Ihre berufliche Weiterbildung <b style=\"color: #eab308;\">übernehmen</b>**."
   },
   {
     "level": "B1+",
@@ -716,7 +716,7 @@
     "german_audio": "der Nachweis",
     "english": "proof, evidence",
     "ukrainian": "доказ, підтвердження",
-    "example": "Als <b style=\"color: #eab308;\">Nachweis</b> meiner Erfahrung habe ich mein GitHub-Portfolio im Lebenslauf verlinkt."
+    "example": "Die Schufa-Auskunft **gilt als anerkannter <b style=\"color: #eab308;\">Nachweis</b> Ihrer Bonität**."
   },
   {
     "level": "B1+",
@@ -728,7 +728,7 @@
     "german_audio": "das Praktikum",
     "english": "internship",
     "ukrainian": "практика",
-    "example": "Ich mache ein dreimonatiges <b style=\"color: #eab308;\">Praktikum</b> in der Qualitätssicherung eines Softwarehauses."
+    "example": "Im Rahmen des <b style=\"color: #eab308;\">Praktikums</b> **konnte ich wichtige Einblicke in den Berufsalltag gewinnen**."
   },
   {
     "level": "B1+",
@@ -740,7 +740,7 @@
     "german_audio": "die Qualifikation",
     "english": "qualification",
     "ukrainian": "кваліфікація",
-    "example": "Welche zusätzlichen <b style=\"color: #eab308;\">Qualifikationen</b> werden für die Stelle als Cloud-Engineer gefordert?"
+    "example": "Die geforderten <b style=\"color: #eab308;\">Qualifikationen</b> **sind in der Stellenausschreibung detailliert beschrieben**."
   },
   {
     "level": "B1+",
@@ -752,7 +752,7 @@
     "german_audio": "reglementiert",
     "english": "regulated",
     "ukrainian": "регламентований",
-    "example": "Der Beruf des Softwareentwicklers ist in Deutschland glücklicherweise nicht <b style=\"color: #eab308;\">reglementiert</b>."
+    "example": "Der Beruf des Arztes **ist in Deutschland gesetzlich streng <b style=\"color: #eab308;\">reglementiert</b>**."
   },
   {
     "level": "B1+",
@@ -764,7 +764,7 @@
     "german_audio": "die Unterlage",
     "english": "document",
     "ukrainian": "документ",
-    "example": "Bitte laden Sie alle relevanten <b style=\"color: #eab308;\">Unterlagen</b> in das Bewerberportal hoch."
+    "example": "Bitte **reichen Sie alle erforderlichen <b style=\"color: #eab308;\">Unterlagen</b> bis zum Stichtag ein**."
   },
   {
     "level": "B1+",
@@ -772,11 +772,11 @@
       "B1+"
     ],
     "thema": 1,
-    "german": "etw. vergleichen mit (+ Dat.)",
+    "german": "etw. vergleichen mit (+ Dat.) (vergleicht, verglich, hat verglichen)",
     "german_audio": "vergleichen mit",
     "english": "to compare with",
     "ukrainian": "порівнювати",
-    "example": "Wir müssen die Performance der verschiedenen Datenbanken miteinander vergleichen."
+    "example": "Wir müssen das Betriebsergebnis dieses Monats **mit dem des Vorjahres vergleichen**."
   },
   {
     "level": "B1+",
@@ -1098,6 +1098,18 @@
     "english": "employment",
     "ukrainian": "зайнятість",
     "example": "Die <b style=\"color: #eab308;\">Beschäftigung</b> mit dem Thema Machine Learning erfordert viel mathematisches Verständnis."
+  },
+  {
+    "level": "B1+",
+    "levels": [
+      "B1+"
+    ],
+    "thema": 2,
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Betrieb, -e",
+    "german_audio": "der Betrieb",
+    "english": "business, company",
+    "ukrainian": "підприємство",
+    "example": "Der <b style=\"color: #eab308;\">Betrieb</b> läuft nach dem Hardware-Upgrade wieder reibungslos."
   },
   {
     "level": "B1+",
