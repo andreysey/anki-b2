@@ -1,3 +1,29 @@
+# [1.6.0](https://github.com/andreysey/anki-b2/compare/v1.5.1...v1.6.0) (2026-07-16)
+
+
+### Features
+
+* add Adjektive mit Präpositionen theme and vocabulary data ([712566e](https://github.com/andreysey/anki-b2/commit/712566e4363225351fb960645fbbbc514d339773))
+* add B2 adjectives with prepositions to vocabulary data and resources ([0d4949a](https://github.com/andreysey/anki-b2/commit/0d4949a28b4109fb2febfa36288bce2e088461b4))
+* add dashboard view with progress tracking by topic and improve theme labeling in UI ([2b159a1](https://github.com/andreysey/anki-b2/commit/2b159a18c44639f6c162a129e92100cffb59ea15))
+* add Nomen-Verb-Verbindungen theme to vocabulary data and UI filters ([ad01a23](https://github.com/andreysey/anki-b2/commit/ad01a23b791630959cad197b896638da01b966f1))
+* add Redemittel vocabulary category and update Anki packages ([5c5f750](https://github.com/andreysey/anki-b2/commit/5c5f7507c21e88ddd5b8d99bbfb39d42f5faa0b8))
+* add support for irregular verbs category with dedicated UI labels and parsing logic ([646d194](https://github.com/andreysey/anki-b2/commit/646d194ca3332908e9c51e0d34caa71ba54f5220))
+* add support for Verben mit Präpositionen (Thema 98) to data, scripts, and UI ([ccaa533](https://github.com/andreysey/anki-b2/commit/ccaa53374f1e7c3ece39b664892d2cbca6afe4e8))
+* update Anki deck data and export packages with new B2 Thema 3 content ([f10c723](https://github.com/andreysey/anki-b2/commit/f10c723fba52d91fa35babf1aeb5918ccb22f988))
+* update Anki packages and data source with new B2 Thema 8 content ([7fa2703](https://github.com/andreysey/anki-b2/commit/7fa2703f1121de45aba500bc0004263d0b4b39cc))
+* update Anki packages and internal data source for B2 curriculum ([9f5e89e](https://github.com/andreysey/anki-b2/commit/9f5e89eb71958b953a5be68d498aa5539502ef03))
+* update Anki packages, data.json, and B2_Thema11 vocabulary source file ([3c0bb93](https://github.com/andreysey/anki-b2/commit/3c0bb931ff2b989314c4875ac2162652972c2354))
+* update B2 Thema 10 content and synchronize Anki packages with data.json ([a4e1ad8](https://github.com/andreysey/anki-b2/commit/a4e1ad8c1792a8abcd920ab243bff677dda8c5bb))
+* update B2 vocabulary data and Anki packages for Thema 5 ([fea4add](https://github.com/andreysey/anki-b2/commit/fea4add8f8318d2b97e7a17fb1535d97dd628705))
+* update B2 vocabulary data and synchronize Anki flashcard packages ([1fa92c9](https://github.com/andreysey/anki-b2/commit/1fa92c97217eb0f6235f3251e21a798d5f552967))
+* update B2 vocabulary sources and regenerate Anki decks ([442aaf1](https://github.com/andreysey/anki-b2/commit/442aaf1aa157ad4ab9c43abb4ebfed677b6ce35d))
+* update vocabulary and Anki decks for B2 Thema 2 content ([6bab8b0](https://github.com/andreysey/anki-b2/commit/6bab8b0b78abe7b7e33c0f2eb156e3d6faa99f61))
+* update vocabulary data and Anki packages for B2 Thema 1 content ([c736e46](https://github.com/andreysey/anki-b2/commit/c736e4625298befde2623b71b817ec57f9ac2eb1))
+* update vocabulary data and Anki packages for B2 Thema 4 ([62267ae](https://github.com/andreysey/anki-b2/commit/62267ae13831de2df5c132211b06ba59fa134c38))
+* update vocabulary data and export Anki packages for Thema 12 ([70c8409](https://github.com/andreysey/anki-b2/commit/70c8409e088f3bb7fb1a215e6bbc07068c4dedfd))
+* update vocabulary data and export updated Anki packages for Thema 7 ([88812ae](https://github.com/andreysey/anki-b2/commit/88812ae8665e8e42b9938b315026c3c9cc44bbad))
+
 ## [1.5.1](https://github.com/andreysey/anki-b2/compare/v1.5.0...v1.5.1) (2026-07-11)
 
 
