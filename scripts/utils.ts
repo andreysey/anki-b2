@@ -83,6 +83,7 @@ export function highlightWordInExample(cleanGerman: string, example: string): st
  * Extracts Thema number from filename.
  */
 export function getThemaNum(filename: string): number {
+  if (filename.includes('Praepositionen')) return 98;
   if (filename.includes('Verben')) return 99;
   const m = RE_THEMA.exec(filename);
   return m ? parseInt(m[1], 10) : 0;

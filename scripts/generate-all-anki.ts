@@ -39,7 +39,7 @@ async function main() {
     .sort((a, b) => getThemaNum(path.basename(a)) - getThemaNum(path.basename(b)));
 
   const b2Files = allFiles
-    .filter(f => path.basename(f).includes('B2_Thema'))
+    .filter(f => path.basename(f).startsWith('B2_'))
     .sort((a, b) => getThemaNum(path.basename(a)) - getThemaNum(path.basename(b)));
 
   const combined = [...b1Files, ...b2Files];

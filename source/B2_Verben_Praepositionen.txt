@@ -1,0 +1,177 @@
+#separator:;
+#html:true
+#columns:German;English;Ukrainian;Example
+ändern an (+ Dat.);to change;змінювати в;An dieser Situation kann man noch etwas ändern.
+denken an (+ Akk.);to think of/about;думати про;Ich denke oft an meine berufliche Zukunft.
+sich erinnern an (+ Akk.);to remember;пам'ятати про, згадувати;Franziska kann sich recht gut an das Projekt erinnern.
+sich gewöhnen an (+ Akk.);to get used to;звикати до;Ich habe mich an das Essen gewöhnt.
+glauben an (+ Akk.);to believe in;вірити в;Er glaubt an den Erfolg der Marketingmaßnahme.
+es liegt an (+ Dat.);it is due to / it lies in;це залежить від, причина в;Dass ich Kopfschmerzen habe, liegt am Wetter.
+richten an (+ Akk.);to address to;направляти, адресувати (комусь);Sie richtete die Bitte an ihre Kollegen.
+teilnehmen an (+ Dat.);to participate in;брати участь у;Ich nehme an dem Projekt teil.
+sich wenden an (+ Akk.);to turn to / contact;звертатися до (когось);Er hat sich an den Betriebsrat gewendet.
+zweifeln an (+ Dat.);to doubt;сумніватися в;Sie hat nie am Erfolg des Projekts gezweifelt.
+abwälzen auf (+ Akk.);to pass off onto / shift onto;перекладати (провину, роботу) на;Klaus wälzt die ganze Arbeit auf seinen Kollegen ab.
+achten auf (+ Akk.);to pay attention to / watch;звертати увагу на, стежити за;Sebastian achtet sehr auf sein Aussehen.
+ankommen auf (+ Akk.);to depend on;залежати від;Das kommt darauf an.
+antworten auf (+ Akk.);to answer;відповідати на;Antworten Sie bitte auf meine Frage.
+aufpassen auf (+ Akk.);to watch out for / look after;стежити за, доглядати;Sie sollten besser auf Ihren Schlüssel aufpassen. Hier wird oft geklaut.
+sich auswirken auf (+ Akk.);to affect / have an impact on;впливати на, позначатися на;Seine Müdigkeit hat sich auf seine Leistung ausgewirkt.
+sich beziehen auf (+ Akk.);to refer to / relate to;посилатися на, стосуватися;Ich beziehe mich auf Ihren Brief vom 23. Mai.
+sich einigen auf (+ Akk.);to agree on;домовитися про, зійтися на;Sie haben sich auf die Projektmeilensteine geeinigt.
+sich einlassen auf (+ Akk.);to get involved with / agree to;в'язуватися в, погоджуватися на;Er hat sich nicht auf das Angebot eingelassen.
+sich einstellen auf (+ Akk.);to adjust to / prepare for;налаштовуватися на, пристосовуватися до;Wir müssen uns auf die neue Situation einstellen.
+sich einstimmen auf (+ Akk.);to get in the mood for;налаштовуватися на (святковий лад/відпустку);Wir können uns jetzt auf den Urlaub einstimmen.
+sich freuen auf (+ Akk.);to look forward to;радіти (чомусь майбутньому);Wir freuen uns auf den Urlaub.
+hinweisen auf (+ Akk.);to point out;вкивати на;Sie hat ihn auf die Projektrisiken hingewiesen.
+hoffen auf (+ Akk.);to hope for;сподіватися на;Sie hofft auf eine schnelle Antwort.
+kommen auf (+ Akk.);to come up with (an idea) / think of;натрапити на (думку), додуматися до;Wie sind Sie auf diesen Vorschlag gekommen?
+sich konzentrieren auf (+ Akk.);to concentrate on;концентруватися на;Ich will mich ganz auf die Prüfung konzentrieren.
+reagieren auf (+ Akk.);to react to;реагувати на;Wir müssen schnell auf seine Frage reagieren.
+stellen auf (+ Akk.);to set to;ставити на, налаштовувати на;Stell den Schalter auf Stufe 3.
+sich verlassen auf (+ Akk.);to rely on;покладатися на;Sie können sich auf mich verlassen.
+verzichten auf (+ Akk.);to do without;відмовлятися від;Er kann auf seine Kaffeepause heute nicht verzichten.
+sich vorbereiten auf (+ Akk.);to prepare for;готуватися до;Wir müssen uns auf das Gespräch vorbereiten.
+warten auf (+ Akk.);to wait for;чекати на;Fabian wartet auf seinen Vorgesetzten.
+wirken auf (+ Akk.);to seem to / have an effect on;справляти враження на, впливати;Er wirkt auf mich sympathisch und kompetent.
+zukommen auf (+ Akk.);to approach / lie ahead of;наближатися до, очікувати на (когось);Ich sehe einige Probleme auf uns zukommen.
+bestehen aus (+ Dat.);to consist of;складатися з;Mein Vortrag besteht aus drei Teilen.
+herauskommen aus (+ Dat.);to come out of;виходити з;Die Mitarbeiter sind aus ihren Büros herausgekommen.
+sich zurückziehen aus (+ Dat.);to withdraw from;йти з, ретируватися з;Sie hat sich aus der Geschäftsführung zurückgezogen.
+sich zusammensetzen aus (+ Dat.);to be composed of;складатися з;Die Luft setzt sich aus verschiedenen Gasen zusammen.
+verweilen bei (+ Dat.);to linger at / stay with;затримуватися в, перебувати у;Er verweilte ein paar Tage bei seinen Freunden.
+sich erstrecken von/bis;to extend from/to;простягатися від/до;Die Alpen erstrecken sich von Frankreich bis (nach) Slowenien.
+sich auszeichnen durch (+ Akk.);to distinguish oneself by;відзначатися, виділятися (чимось);Sie zeichnet sich durch Genauigkeit aus.
+beeindrucken durch (+ Akk.);to impress with;вражати (чимось);Sie beeindruckte ihre Chefin durch ihr Können.
+ersetzen durch (+ Akk.);to replace with;замінювати (чимось);Alle Laptops wurden durch neue Tablets ersetzt.
+ausgeben für (+ Akk.);to spend on;витрачати на;Die Firma gibt viel Geld für Weiterbildung aus.
+sich begeistern für (+ Akk.);to be enthusiastic about;захоплюватися (чимось);Er hat sich für die neue Technik begeistert.
+sich einsetzen für (+ Akk.);to advocate for / stand up for;заступатися за, докладати зусиль для;Sie hat sich aktiv für ihren Kollegen eingesetzt.
+sich engagieren für (+ Akk.);to get involved in / commit to;активно виступати за, брати участь у;Ich engagiere mich für das Jugendtheater in unserer Stadt.
+sich entscheiden für (+ Akk.);to decide on / choose;вирішувати на користь, обирати;Sie hat sich für das billigere Angebot entschieden.
+sich entschuldigen für (+ Akk.);to apologize for;вибачатися за;Ich entschuldige mich für diesen Fehler.
+erwärmen für (+ Akk.);to warm to / get enthusiastic about;захопитися (чимось), проявити інтерес;Er konnte sich nicht für seinen neuen Chef erwärmen.
+halten für (+ Akk.);to consider to be;вважати (чимось/кимось);Wir halten Innovationen für ein wichtiges Thema.
+sich interessieren für (+ Akk.);to be interested in;цікавитися (чимось);Sie interessiert sich sehr für die Weiterbildung.
+kämpfen für (+ Akk.);to fight for;боротися за;Sie kämpft für die Anerkennung ihres Schulabschlusses.
+plädieren für (+ Akk.);to plead for / advocate;виступати за, висловлюватися на користь;Er plädierte für die Anmietung neuer Büros.
+sorgen für (+ Akk.);to take care of / provide for;піклуватися про;Ihr Auftritt sorgte für eine Überraschung.
+stimmen für (+ Akk.);to vote for;голосувати за;Viele stimmten für den neuen Plan.
+tun für (+ Akk.);to do for;робити для;Wir tun alles für die Einhaltung des Terminplans.
+votieren für (+ Akk.);to vote for;голосувати за;Sie votierte für eine Ausweitung der Produktion.
+sich durchsetzen gegen (+ Akk.);to assert oneself against;пробиватися, долати опір;Warum setzen Sie sich nicht einfach gegen Ihre Kollegen durch?
+kämpfen gegen (+ Akk.);to fight against;боротися проти;Wir müssen gegen Intoleranz kämpfen.
+protestieren gegen (+ Akk.);to protest against;протестувати проти;Die Mitarbeitenden protestierten gegen die Entlassungen.
+stimmen gegen (+ Akk.);to vote against;голосувати проти;Einige stimmten gegen den Plan.
+tun gegen (+ Akk.);to do against;робити проти (якихось заходів);Sie sollten etwas gegen Ihre Erkältung tun.
+sich verteidigen gegen (+ Akk.);to defend oneself against;захищатися від;Er hat sich gegen die Vorwürfe verteidigt.
+verstoßen gegen (+ Akk.);to violate / breach;порушувати (правила, закон);Sie haben gegen die Sicherheitsvorschriften verstoßen.
+votieren gegen (+ Akk.);to vote against;голосувати проти;Er votierte gegen die Betriebsschließung.
+sich halten in (+ Dat.);to keep in / hold;триматися в;Sie hat sich in der Prüfung sehr gut gehalten.
+sich hineinversetzen in (+ Akk.);to put oneself in someone's shoes;увійти в становище (когось);Ich kann mich gut in den Chef hineinversetzen.
+sich integrieren in (+ Akk.);to integrate into;інтегруватися в;Er hat sich gut in das neue Team integriert.
+investieren in (+ Akk.);to invest in;інвестувати в;Der Staat sollte mehr in Elektroautos investieren.
+nachlassen in (+ Dat.);to decrease in / decline;ослабнути в, здавати позиції;Er hat in seinen Leistungen leider sehr nachgelassen.
+übereinstimmen in (+ Dat.);to agree on;сходитися в (думках/деталях);Die Mitarbeitenden stimmten in diesem Punkt überein.
+umrechnen in (+ Akk.);to convert into;перераховувати в;Die Bank hat die Dollar in Euro umgerechnet.
+sich abfinden mit (+ Dat.);to come to terms with;миритися з;Wir fanden uns mit der Situation ab.
+sich abmühen mit (+ Dat.);to struggle with / toil;мучитися з, намагатися з усіх сил;Mit Informatik habe ich mich immer sehr abgemüht.
+anfangen mit (+ Dat.);to start with;починати з;Wann fangen Sie mit der Arbeit an?
+assoziieren mit (+ Dat.);to associate with;асоціювати з;Mit diesem Projekt assoziiert sie ungute Gefühle.
+aufhören mit (+ Dat.);to stop;припиняти, закінчувати з;Hör endlich mit dem Gejammer auf!
+sich auseinandersetzen mit (+ Dat.);to deal with / confront;розбиратися з, дискутувати з;Wir müssen uns mit dem Thema auseinandersetzen.
+sich auskennen mit (+ Dat.);to be familiar with;орієнтуватися в, знатися на;Sie kennt sich mit der neuen Software gut aus.
+ausstatten mit (+ Dat.);to equip with;оснащувати (чимось);Das Auto ist mit vielen Extras ausgestattet.
+sich austauschen mit (+ Dat.);to exchange ideas with;обмінюватися думками з;Sie tauschten sich mit den anderen Lernenden über ihre Erfahrungen aus.
+beauftragen mit (+ Dat.);to task with / commission;доручати (щось);Er wurde mit der Durchführung des Projekts beauftragt.
+beeindrucken mit (+ Dat.);to impress with;вражати (чимось);Sie beeindruckten ihre Kollegen mit ihrem fundierten Wissen.
+sich befassen mit (+ Dat.);to deal with / study;мати справу з, займатися (чимось);Mit diesem Problem müssen wir uns bald befassen.
+beginnen mit (+ Dat.);to start with;починати з;Wann beginnen Sie mit der Arbeit?
+(sich) belohnen mit (+ Dat.);to reward (oneself) with;винагороджувати (себе) чимось;Sie belohnt sich für die vielen Überstunden mit einer Reise.
+sich beschäftigen mit (+ Dat.);to busy oneself with / study;займатися (чимось);Sie beschäftigte sich mit dem neuen Investitionsplan.
+besprechen mit (+ Dat.);to discuss with;обговорювати з;Georg bespricht das Problem mit seiner Chefin.
+konkurrieren mit (+ Dat.);to compete with;конкурувати з;Wir konkurrieren mit Produzenten aus dem Ausland.
+rechnen mit (+ Dat.);to count on / expect;розраховувати на, очікувати;Wir haben schon nicht mehr mit Ihnen gerechnet.
+reden mit (+ Dat.);to speak with;розмовляти з;Herr Ohm redet mit der Chefin.
+schimpfen mit (+ Dat.);to scold;сваритися на (когось);Bitte schimpf nicht mit mir! Ich kann nichts dafür!
+sprechen mit (+ Dat.);to speak with;говорити з;Mit wem sprechen Sie?
+(sich) streiten mit (+ Dat.);to argue with;сперечатися з;Er streitet sich oft mit seinen Kollegen.
+telefonieren mit (+ Dat.);to talk on the phone with;розмовляти по телефону з;Fred telefoniert oft mit Marina.
+sich treffen mit (+ Dat.);to meet with;зустрічатися з;Heute treffen wir uns mit guten Freunden.
+verbinden mit (+ Dat.);to connect with;з'єднувати з;Können Sie mich bitte mit dem Sekretariat verbinden?
+vergleichen mit (+ Dat.);to compare with;порівнювати з;Vergleichen Sie Ihr Land mit Deutschland.
+sich verstehen mit (+ Dat.);to get along with;ладнати з;Sie versteht sich gut mit ihm.
+zusammenarbeiten mit (+ Dat.);to work together with;співпрацювати з;Er arbeitet mit Ärzten und Pflegern zusammen.
+fragen nach (+ Dat.);to ask for/about;запитувати про;Yvonne hat mich nach meinen Plänen für die Zukunft gefragt.
+riechen nach (+ Dat.);to smell of;пахнути (чимось);Hier riecht es nach Farbe.
+rufen nach (+ Dat.);to call for;кликати, вимагати (когось);Er rief nach dem Kellner, aber der kam nicht.
+schmecken nach (+ Dat.);to taste of;мати смак (чогось);Dieses Eis schmeckt nach Apfel.
+sehen nach (+ Dat.);to look for / check;видивлятися, перевіряти;Ich sehe mal schnell nach der noch fehlenden Kollegin.
+sich ärgern über (+ Akk.);to be annoyed about;сердитися через;Ich ärgere mich über intolerante Menschen.
+sich austauschen über (+ Akk.);to discuss / exchange views on;обмінюватися думками про;Die Kollegen tauschten sich über ihre Erfahrungen aus.
+sich beklagen über (+ Akk.);to complain about;скаржитися на;Sie hat sich über die schlechte Zusammenarbeit beklagt.
+belehren über (+ Akk.);to instruct about;повчати, інструктувати про;Er wurde über seine Pflichten belehrt.
+beraten über (+ Akk.);to advise on / discuss;радитися про, обговорювати;Wir müssen uns über den Plan noch beraten.
+berichten über (+ Akk.);to report on;доповідати про, описувати;Er hat über den Projektverlauf berichtet.
+sich beschweren über (+ Akk.);to complain about;скаржитися на;Er beschwerte sich über seine schlechte Beurteilung.
+brüten über (+ Dat.);to brood over / ponder;розмірковувати над, сушити голову над;Sie brütet seit Wochen über dem Bericht.
+diskutieren über (+ Akk.);to discuss;дискутувати про;Sie diskutieren immer über dasselbe Problem.
+sich freuen über (+ Akk.);to be pleased about;радіти (чомусь теперішньому/минулому);Fredo freut sich über jeden Sieg vom 1. FC Köln.
+hinauskommen über (+ Akk.);to exceed / go beyond;виходити за межі;Die Partei ist nicht über 20 % hinausgekommen.
+sich informieren über (+ Akk.);to inform oneself about;інформувати себе про;Ich lese Zeitung, um mich über die Politik zu informieren.
+lächeln über (+ Akk.);to smile at;посміхатися над;Über die neue Kollegin kann sie nur lächeln.
+lachen über (+ Akk.);to laugh at;сміятися з;Sie konnte über den Witz nicht lachen.
+nachdenken über (+ Akk.);to think about / ponder;розмірковувати про;Ich habe lange über den Vorschlag nachgedacht.
+reden über (+ Akk.);to talk about;говорити про;Wir haben über den Chef geredet.
+referieren über (+ Akk.);to lecture on;робити доповідь про;Sie referierte über den neuen Werbeplan.
+schimpfen über (+ Akk.);to complain about / rant;сварити (когось/щось), ремствувати;Sie schimpfte über den Lärm.
+sprechen über (+ Akk.);to speak about;розмовляти про;Ich spreche fast nie über Politik.
+(sich) streiten über (+ Akk.);to argue about;сперечатися через;Wir streiten im Team oft über Kleinigkeiten.
+verfügen über (+ Akk.);to have at one's disposal;володіти, мати в розпорядженні;Am Jahresende verfügte die Firma über 20 Mio. Euro Gewinn.
+sich wundern über (+ Akk.);to wonder at / be surprised at;дивуватися чомусь;Sie wunderten sich nicht über seine guten Leistungen.
+sich bemühen um (+ Akk.);to strive for;намагатися отримати, піклуватися про;Sie hat sich um einen neuen Job bemüht.
+sich bewerben um (+ Akk.);to apply for;подавати заявку на;Ich habe mich um einen neuen Job beworben.
+bitten um (+ Akk.);to ask for;просити про;Sophie bittet ihre Freundin um einen Tipp.
+gehen um (+ Akk.);to be about;йтися про;In dem Bericht geht es um die Marketingaktivitäten.
+handeln um/von (+ Akk./Dat.);to be about;йтися про;Ich möchte Sie sprechen. Es handelt sich um den Bericht.
+konkurrieren um (+ Akk.);to compete for;конкурувати за;Viele Firmen konkurrieren um Marktanteile.
+sich kümmern um (+ Akk.);to take care of;турбуватися про;In vielen Familien kümmern sich die Frauen um den Haushalt.
+leiden unter (+ Dat.);to suffer from;страждати від (зовнішніх факторів);Unter dem hohen Energieverbrauch leidet auch die Umwelt.
+abweichen von (+ Dat.);to deviate from;відхилятися від;Bitte weichen Sie nicht vom Thema ab.
+berichten von (+ Dat.);to report on;повідомляти про;Der Kollege berichtet von seiner letzten Dienstreise nach Wien.
+sich entfernen von (+ Dat.);to move away from;віддалятися від;Er entfernte sich vom Tatort.
+sich erholen von (+ Dat.);to recover from;відпочивати від, відновлюватися після;Sie hat sich gut von dem Unfall erholt.
+sich erstrecken von/bis;to extend from/to;простягатися від/до;Die Alpen erstrecken sich von Frankreich bis (nach) Slowenien.
+erzählen von (+ Dat.);to tell of;розповідати про;Eine Wissenschaftlerin hat mir von ihrem Beruf erzählt.
+halten von (+ Dat.);to think of (an opinion);вважати про, думати про (мати думку);Was halten Sie von der Idee?
+handeln von (+ Dat.);to be about;бути про (сюжет);Der Film handelt von einem Migranten in Deutschland.
+hören von (+ Dat.);to hear of;чути про;Ich habe schon viel von Ihnen gehört.
+sich losreißen von (+ Dat.);to tear oneself away from;вириватися від;Ich konnte mich von der Arbeit nicht losreißen.
+profitieren von (+ Dat.);to benefit from;отримувати вигоду від;Wir alle haben von ihren Ideen profitiert.
+reden von (+ Dat.);to talk of;говорити про;Alle reden nur noch von diesem Film.
+schwärmen von (+ Dat.);to rave about;захоплюватися (чимось/кимось), марити;Sie schwärmen von ihrem letzten Urlaub.
+sprechen von (+ Dat.);to speak of;говорити про;In der Mittagspause sprachen alle vom Wetter.
+träumen von (+ Dat.);to dream of;мріяти про;Ich träume von der Zukunft.
+sich trennen von (+ Dat.);to separate from;розлучатися з, відділятися від;Wir sollten uns von diesem Mitarbeiter trennen.
+sich unterscheiden von (+ Dat.);to differ from;відрізнятися від;Die neue Chefin unterscheidet sich stark von dem alten Chef.
+sich verabschieden von (+ Dat.);to say goodbye to;прощатися з;So, jetzt muss ich mich von Ihnen verabschieden.
+wissen von (+ Dat.);to know of;знати про;Wissen Sie schon von unserem neuesten Projekt?
+sich zurückziehen von (+ Dat.);to withdraw from;відступати від;Sie hat sich von dem Projekt zurückgezogen.
+sich ekeln vor (+ Dat.);to be disgusted by;відчувати огиду до;Karla ekelt sich vor Spinnen.
+flüchten vor (+ Dat.);to flee from;утікати від;Sie flüchteten vor Unterdrückung.
+sich fürchten vor (+ Dat.);to be afraid of;боятися (чогось);Viele Menschen fürchten sich vor der Klimaerwärmung.
+sich rechtfertigen vor (+ Dat.);to justify oneself to;виправдовуватися перед;Er musste sich vor seinem Chef rechtfertigen.
+schützen vor (+ Dat.);to protect from;захищати від;Diese Jacke schützt vor Regen.
+warnen vor (+ Dat.);to warn against;попереджати про;Er warnte sie vor einer Zusammenarbeit mit dieser Firma.
+sich aufraffen zu (+ Dat.);to pull oneself together to;зібратися з силами для;Er raffte sich dazu auf, etwas für das Projekt zu tun.
+beitragen zu (+ Dat.);to contribute to;сприяти, робити внесок у;Sie hat viel zum Erfolg des Teams beigetragen.
+drängen zu (+ Dat.);to push to;підштовхувати до;Sie drängte ihn zum Einverständnis.
+einladen zu (+ Dat.);to invite to;запрошувати на;Die Geschäftsführung hat Journalisten zum Pressefest eingeladen.
+sich entwickeln zu (+ Dat.);to develop into;розвиватися в;Er hat sich zu einem guten Mitarbeiter entwickelt.
+führen zu (+ Dat.);to lead to;призводити до;Diese Diskussion führt zu keinem Ergebnis.
+gehören zu (+ Dat.);to belong to;належати до;Gehören Sie auch zu dieser Firma?
+gratulieren zu (+ Dat.);to congratulate on;вітати з;Ich gratuliere dir zum Geburtstag.
+kommen zu (+ Dat.);to come to;приходити до, призводити до;Wegen des Nebels kam es zu vielen Unfällen.
+meinen zu (+ Dat.);to think of / say about;мати думку про;Was meinen Sie zu meinem Vorschlag?
+passen zu (+ Dat.);to fit / match;пасувати до, личити;Welche Fähigkeiten von Ihnen passen zu diesem Beruf?
+wählen zu (+ Dat.);to elect as;обирати (на посаду);Michaela König wurde gestern zur Betriebsrätin gewählt.

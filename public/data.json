@@ -98,7 +98,8 @@
   {
     "level": "B1+",
     "levels": [
-      "B1+"
+      "B1+",
+      "B2"
     ],
     "thema": 1,
     "german": "sich bewerben (bewirbt sich, bewarb sich, hat sich beworben)",
@@ -1780,7 +1781,8 @@
   {
     "level": "B1+",
     "levels": [
-      "B1+"
+      "B1+",
+      "B2"
     ],
     "thema": 3,
     "german": "sich freuen über (+ Akk.)",
@@ -5012,7 +5014,8 @@
   {
     "level": "B1+",
     "levels": [
-      "B1+"
+      "B1+",
+      "B2"
     ],
     "thema": 7,
     "german": "sinken (sinkt, sank, ist gesunken)",
@@ -21962,5 +21965,3965 @@
     "english": "to prevail, to predominate",
     "ukrainian": "переважати, панувати",
     "example": "In unserem Startup soll eine Kultur der offenen Fehler-Kommunikation <b style=\"color: #eab308;\">vorherrschen</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "ändern an (+ Dat.)",
+    "german_audio": "ändern an",
+    "english": "to change",
+    "ukrainian": "змінювати в",
+    "example": "An dieser Situation kann man noch etwas ändern."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "denken an (+ Akk.)",
+    "german_audio": "denken an",
+    "english": "to think of/about",
+    "ukrainian": "думати про",
+    "example": "Ich denke oft an meine berufliche Zukunft."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich erinnern an (+ Akk.)",
+    "german_audio": "sich erinnern an",
+    "english": "to remember",
+    "ukrainian": "пам'ятати про, згадувати",
+    "example": "Franziska kann sich recht gut an das Projekt erinnern."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich gewöhnen an (+ Akk.)",
+    "german_audio": "sich gewöhnen an",
+    "english": "to get used to",
+    "ukrainian": "звикати до",
+    "example": "Ich habe mich an das Essen gewöhnt."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "glauben an (+ Akk.)",
+    "german_audio": "glauben an",
+    "english": "to believe in",
+    "ukrainian": "вірити в",
+    "example": "Er glaubt an den Erfolg der Marketingmaßnahme."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "es liegt an (+ Dat.)",
+    "german_audio": "es liegt an",
+    "english": "it is due to / it lies in",
+    "ukrainian": "це залежить від, причина в",
+    "example": "Dass ich Kopfschmerzen habe, liegt am Wetter."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "richten an (+ Akk.)",
+    "german_audio": "richten an",
+    "english": "to address to",
+    "ukrainian": "направляти, адресувати (комусь)",
+    "example": "Sie richtete die Bitte an ihre Kollegen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "teilnehmen an (+ Dat.)",
+    "german_audio": "teilnehmen an",
+    "english": "to participate in",
+    "ukrainian": "брати участь у",
+    "example": "Ich nehme an dem Projekt teil."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich wenden an (+ Akk.)",
+    "german_audio": "sich wenden an",
+    "english": "to turn to / contact",
+    "ukrainian": "звертатися до (когось)",
+    "example": "Er hat sich an den Betriebsrat gewendet."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "zweifeln an (+ Dat.)",
+    "german_audio": "zweifeln an",
+    "english": "to doubt",
+    "ukrainian": "сумніватися в",
+    "example": "Sie hat nie am Erfolg des Projekts gezweifelt."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "abwälzen auf (+ Akk.)",
+    "german_audio": "abwälzen auf",
+    "english": "to pass off onto / shift onto",
+    "ukrainian": "перекладати (провину, роботу) на",
+    "example": "Klaus wälzt die ganze Arbeit auf seinen Kollegen ab."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "achten auf (+ Akk.)",
+    "german_audio": "achten auf",
+    "english": "to pay attention to / watch",
+    "ukrainian": "звертати увагу на, стежити за",
+    "example": "Sebastian achtet sehr auf sein Aussehen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "ankommen auf (+ Akk.)",
+    "german_audio": "ankommen auf",
+    "english": "to depend on",
+    "ukrainian": "залежати від",
+    "example": "Das kommt darauf an."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "antworten auf (+ Akk.)",
+    "german_audio": "antworten auf",
+    "english": "to answer",
+    "ukrainian": "відповідати на",
+    "example": "Antworten Sie bitte auf meine Frage."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "aufpassen auf (+ Akk.)",
+    "german_audio": "aufpassen auf",
+    "english": "to watch out for / look after",
+    "ukrainian": "стежити за, доглядати",
+    "example": "Sie sollten besser auf Ihren Schlüssel aufpassen. Hier wird oft geklaut."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich auswirken auf (+ Akk.)",
+    "german_audio": "sich auswirken auf",
+    "english": "to affect / have an impact on",
+    "ukrainian": "впливати на, позначатися на",
+    "example": "Seine Müdigkeit hat sich auf seine Leistung ausgewirkt."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich beziehen auf (+ Akk.)",
+    "german_audio": "sich beziehen auf",
+    "english": "to refer to / relate to",
+    "ukrainian": "посилатися на, стосуватися",
+    "example": "Ich beziehe mich auf Ihren Brief vom 23. Mai."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich einigen auf (+ Akk.)",
+    "german_audio": "sich einigen auf",
+    "english": "to agree on",
+    "ukrainian": "домовитися про, зійтися на",
+    "example": "Sie haben sich auf die Projektmeilensteine geeinigt."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich einlassen auf (+ Akk.)",
+    "german_audio": "sich einlassen auf",
+    "english": "to get involved with / agree to",
+    "ukrainian": "в'язуватися в, погоджуватися на",
+    "example": "Er hat sich nicht auf das Angebot eingelassen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich einstellen auf (+ Akk.)",
+    "german_audio": "sich einstellen auf",
+    "english": "to adjust to / prepare for",
+    "ukrainian": "налаштовуватися на, пристосовуватися до",
+    "example": "Wir müssen uns auf die neue Situation einstellen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich einstimmen auf (+ Akk.)",
+    "german_audio": "sich einstimmen auf",
+    "english": "to get in the mood for",
+    "ukrainian": "налаштовуватися на (святковий лад/відпустку)",
+    "example": "Wir können uns jetzt auf den Urlaub einstimmen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich freuen auf (+ Akk.)",
+    "german_audio": "sich freuen auf",
+    "english": "to look forward to",
+    "ukrainian": "радіти (чомусь майбутньому)",
+    "example": "Wir freuen uns auf den Urlaub."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "hinweisen auf (+ Akk.)",
+    "german_audio": "hinweisen auf",
+    "english": "to point out",
+    "ukrainian": "вкивати на",
+    "example": "Sie hat ihn auf die Projektrisiken hingewiesen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "hoffen auf (+ Akk.)",
+    "german_audio": "hoffen auf",
+    "english": "to hope for",
+    "ukrainian": "сподіватися на",
+    "example": "Sie hofft auf eine schnelle Antwort."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "kommen auf (+ Akk.)",
+    "german_audio": "kommen auf",
+    "english": "to come up with (an idea) / think of",
+    "ukrainian": "натрапити на (думку), додуматися до",
+    "example": "Wie sind Sie auf diesen Vorschlag gekommen?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich konzentrieren auf (+ Akk.)",
+    "german_audio": "sich konzentrieren auf",
+    "english": "to concentrate on",
+    "ukrainian": "концентруватися на",
+    "example": "Ich will mich ganz auf die Prüfung konzentrieren."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "reagieren auf (+ Akk.)",
+    "german_audio": "reagieren auf",
+    "english": "to react to",
+    "ukrainian": "реагувати на",
+    "example": "Wir müssen schnell auf seine Frage reagieren."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "stellen auf (+ Akk.)",
+    "german_audio": "stellen auf",
+    "english": "to set to",
+    "ukrainian": "ставити на, налаштовувати на",
+    "example": "Stell den Schalter auf Stufe 3."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich verlassen auf (+ Akk.)",
+    "german_audio": "sich verlassen auf",
+    "english": "to rely on",
+    "ukrainian": "покладатися на",
+    "example": "Sie können sich auf mich verlassen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "verzichten auf (+ Akk.)",
+    "german_audio": "verzichten auf",
+    "english": "to do without",
+    "ukrainian": "відмовлятися від",
+    "example": "Er kann auf seine Kaffeepause heute nicht verzichten."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich vorbereiten auf (+ Akk.)",
+    "german_audio": "sich vorbereiten auf",
+    "english": "to prepare for",
+    "ukrainian": "готуватися до",
+    "example": "Wir müssen uns auf das Gespräch vorbereiten."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "warten auf (+ Akk.)",
+    "german_audio": "warten auf",
+    "english": "to wait for",
+    "ukrainian": "чекати на",
+    "example": "Fabian wartet auf seinen Vorgesetzten."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "wirken auf (+ Akk.)",
+    "german_audio": "wirken auf",
+    "english": "to seem to / have an effect on",
+    "ukrainian": "справляти враження на, впливати",
+    "example": "Er wirkt auf mich sympathisch und kompetent."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "zukommen auf (+ Akk.)",
+    "german_audio": "zukommen auf",
+    "english": "to approach / lie ahead of",
+    "ukrainian": "наближатися до, очікувати на (когось)",
+    "example": "Ich sehe einige Probleme auf uns zukommen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "bestehen aus (+ Dat.)",
+    "german_audio": "bestehen aus",
+    "english": "to consist of",
+    "ukrainian": "складатися з",
+    "example": "Mein Vortrag besteht aus drei Teilen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "herauskommen aus (+ Dat.)",
+    "german_audio": "herauskommen aus",
+    "english": "to come out of",
+    "ukrainian": "виходити з",
+    "example": "Die Mitarbeiter sind aus ihren Büros herausgekommen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich zurückziehen aus (+ Dat.)",
+    "german_audio": "sich zurückziehen aus",
+    "english": "to withdraw from",
+    "ukrainian": "йти з, ретируватися з",
+    "example": "Sie hat sich aus der Geschäftsführung zurückgezogen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich zusammensetzen aus (+ Dat.)",
+    "german_audio": "sich zusammensetzen aus",
+    "english": "to be composed of",
+    "ukrainian": "складатися з",
+    "example": "Die Luft setzt sich aus verschiedenen Gasen zusammen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "verweilen bei (+ Dat.)",
+    "german_audio": "verweilen bei",
+    "english": "to linger at / stay with",
+    "ukrainian": "затримуватися в, перебувати у",
+    "example": "Er verweilte ein paar Tage bei seinen Freunden."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich erstrecken von/bis",
+    "german_audio": "sich erstrecken von",
+    "english": "to extend from/to",
+    "ukrainian": "простягатися від/до",
+    "example": "Die Alpen erstrecken sich von Frankreich bis (nach) Slowenien."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich auszeichnen durch (+ Akk.)",
+    "german_audio": "sich auszeichnen durch",
+    "english": "to distinguish oneself by",
+    "ukrainian": "відзначатися, виділятися (чимось)",
+    "example": "Sie zeichnet sich <b style=\"color: #eab308;\">durch</b> Genauigkeit aus."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "beeindrucken durch (+ Akk.)",
+    "german_audio": "beeindrucken durch",
+    "english": "to impress with",
+    "ukrainian": "вражати (чимось)",
+    "example": "Sie beeindruckte ihre Chefin <b style=\"color: #eab308;\">durch</b> ihr Können."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "ersetzen durch (+ Akk.)",
+    "german_audio": "ersetzen durch",
+    "english": "to replace with",
+    "ukrainian": "замінювати (чимось)",
+    "example": "Alle Laptops wurden <b style=\"color: #eab308;\">durch</b> neue Tablets ersetzt."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "ausgeben für (+ Akk.)",
+    "german_audio": "ausgeben für",
+    "english": "to spend on",
+    "ukrainian": "витрачати на",
+    "example": "Die Firma gibt viel Geld <b style=\"color: #eab308;\">für</b> Weiterbildung aus."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich begeistern für (+ Akk.)",
+    "german_audio": "sich begeistern für",
+    "english": "to be enthusiastic about",
+    "ukrainian": "захоплюватися (чимось)",
+    "example": "Er hat sich <b style=\"color: #eab308;\">für</b> die neue Technik begeistert."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich einsetzen für (+ Akk.)",
+    "german_audio": "sich einsetzen für",
+    "english": "to advocate for / stand up for",
+    "ukrainian": "заступатися за, докладати зусиль для",
+    "example": "Sie hat sich aktiv <b style=\"color: #eab308;\">für</b> ihren Kollegen eingesetzt."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich engagieren für (+ Akk.)",
+    "german_audio": "sich engagieren für",
+    "english": "to get involved in / commit to",
+    "ukrainian": "активно виступати за, брати участь у",
+    "example": "Ich engagiere mich <b style=\"color: #eab308;\">für</b> das Jugendtheater in unserer Stadt."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich entscheiden für (+ Akk.)",
+    "german_audio": "sich entscheiden für",
+    "english": "to decide on / choose",
+    "ukrainian": "вирішувати на користь, обирати",
+    "example": "Sie hat sich <b style=\"color: #eab308;\">für</b> das billigere Angebot entschieden."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich entschuldigen für (+ Akk.)",
+    "german_audio": "sich entschuldigen für",
+    "english": "to apologize for",
+    "ukrainian": "вибачатися за",
+    "example": "Ich entschuldige mich <b style=\"color: #eab308;\">für</b> diesen Fehler."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "erwärmen für (+ Akk.)",
+    "german_audio": "erwärmen für",
+    "english": "to warm to / get enthusiastic about",
+    "ukrainian": "захопитися (чимось), проявити інтерес",
+    "example": "Er konnte sich nicht <b style=\"color: #eab308;\">für</b> seinen neuen Chef erwärmen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "halten für (+ Akk.)",
+    "german_audio": "halten für",
+    "english": "to consider to be",
+    "ukrainian": "вважати (чимось/кимось)",
+    "example": "Wir halten Innovationen <b style=\"color: #eab308;\">für</b> ein wichtiges Thema."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich interessieren für (+ Akk.)",
+    "german_audio": "sich interessieren für",
+    "english": "to be interested in",
+    "ukrainian": "цікавитися (чимось)",
+    "example": "Sie interessiert sich sehr <b style=\"color: #eab308;\">für</b> die Weiterbildung."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "kämpfen für (+ Akk.)",
+    "german_audio": "kämpfen für",
+    "english": "to fight for",
+    "ukrainian": "боротися за",
+    "example": "Sie kämpft <b style=\"color: #eab308;\">für</b> die Anerkennung ihres Schulabschlusses."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "plädieren für (+ Akk.)",
+    "german_audio": "plädieren für",
+    "english": "to plead for / advocate",
+    "ukrainian": "виступати за, висловлюватися на користь",
+    "example": "Er plädierte <b style=\"color: #eab308;\">für</b> die Anmietung neuer Büros."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sorgen für (+ Akk.)",
+    "german_audio": "sorgen für",
+    "english": "to take care of / provide for",
+    "ukrainian": "піклуватися про",
+    "example": "Ihr Auftritt sorgte <b style=\"color: #eab308;\">für</b> eine Überraschung."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "stimmen für (+ Akk.)",
+    "german_audio": "stimmen für",
+    "english": "to vote for",
+    "ukrainian": "голосувати за",
+    "example": "Viele stimmten <b style=\"color: #eab308;\">für</b> den neuen Plan."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "tun für (+ Akk.)",
+    "german_audio": "tun für",
+    "english": "to do for",
+    "ukrainian": "робити для",
+    "example": "Wir tun alles <b style=\"color: #eab308;\">für</b> die Einhaltung des Terminplans."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "votieren für (+ Akk.)",
+    "german_audio": "votieren für",
+    "english": "to vote for",
+    "ukrainian": "голосувати за",
+    "example": "Sie votierte <b style=\"color: #eab308;\">für</b> eine Ausweitung der Produktion."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich durchsetzen gegen (+ Akk.)",
+    "german_audio": "sich durchsetzen gegen",
+    "english": "to assert oneself against",
+    "ukrainian": "пробиватися, долати опір",
+    "example": "Warum setzen Sie sich nicht einfach <b style=\"color: #eab308;\">gegen</b> Ihre Kollegen durch?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "kämpfen gegen (+ Akk.)",
+    "german_audio": "kämpfen gegen",
+    "english": "to fight against",
+    "ukrainian": "боротися проти",
+    "example": "Wir müssen <b style=\"color: #eab308;\">gegen</b> Intoleranz kämpfen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "protestieren gegen (+ Akk.)",
+    "german_audio": "protestieren gegen",
+    "english": "to protest against",
+    "ukrainian": "протестувати проти",
+    "example": "Die Mitarbeitenden protestierten <b style=\"color: #eab308;\">gegen</b> die Entlassungen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "stimmen gegen (+ Akk.)",
+    "german_audio": "stimmen gegen",
+    "english": "to vote against",
+    "ukrainian": "голосувати проти",
+    "example": "Einige stimmten <b style=\"color: #eab308;\">gegen</b> den Plan."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "tun gegen (+ Akk.)",
+    "german_audio": "tun gegen",
+    "english": "to do against",
+    "ukrainian": "робити проти (якихось заходів)",
+    "example": "Sie sollten etwas <b style=\"color: #eab308;\">gegen</b> Ihre Erkältung tun."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich verteidigen gegen (+ Akk.)",
+    "german_audio": "sich verteidigen gegen",
+    "english": "to defend oneself against",
+    "ukrainian": "захищатися від",
+    "example": "Er hat sich <b style=\"color: #eab308;\">gegen</b> die Vorwürfe verteidigt."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "verstoßen gegen (+ Akk.)",
+    "german_audio": "verstoßen gegen",
+    "english": "to violate / breach",
+    "ukrainian": "порушувати (правила, закон)",
+    "example": "Sie haben <b style=\"color: #eab308;\">gegen</b> die Sicherheitsvorschriften verstoßen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "votieren gegen (+ Akk.)",
+    "german_audio": "votieren gegen",
+    "english": "to vote against",
+    "ukrainian": "голосувати проти",
+    "example": "Er votierte <b style=\"color: #eab308;\">gegen</b> die Betriebsschließung."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich halten in (+ Dat.)",
+    "german_audio": "sich halten in",
+    "english": "to keep in / hold",
+    "ukrainian": "триматися в",
+    "example": "Sie hat sich in der Prüfung sehr gut gehalten."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich hineinversetzen in (+ Akk.)",
+    "german_audio": "sich hineinversetzen in",
+    "english": "to put oneself in someone's shoes",
+    "ukrainian": "увійти в становище (когось)",
+    "example": "Ich kann mich gut in den Chef hineinversetzen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich integrieren in (+ Akk.)",
+    "german_audio": "sich integrieren in",
+    "english": "to integrate into",
+    "ukrainian": "інтегруватися в",
+    "example": "Er hat sich gut in das neue Team integriert."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "investieren in (+ Akk.)",
+    "german_audio": "investieren in",
+    "english": "to invest in",
+    "ukrainian": "інвестувати в",
+    "example": "Der Staat sollte mehr in Elektroautos investieren."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "nachlassen in (+ Dat.)",
+    "german_audio": "nachlassen in",
+    "english": "to decrease in / decline",
+    "ukrainian": "ослабнути в, здавати позиції",
+    "example": "Er hat in seinen Leistungen leider sehr nachgelassen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "übereinstimmen in (+ Dat.)",
+    "german_audio": "übereinstimmen in",
+    "english": "to agree on",
+    "ukrainian": "сходитися в (думках/деталях)",
+    "example": "Die Mitarbeitenden stimmten in diesem Punkt überein."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "umrechnen in (+ Akk.)",
+    "german_audio": "umrechnen in",
+    "english": "to convert into",
+    "ukrainian": "перераховувати в",
+    "example": "Die Bank hat die Dollar in Euro umgerechnet."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich abfinden mit (+ Dat.)",
+    "german_audio": "sich abfinden mit",
+    "english": "to come to terms with",
+    "ukrainian": "миритися з",
+    "example": "Wir fanden uns mit der Situation ab."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich abmühen mit (+ Dat.)",
+    "german_audio": "sich abmühen mit",
+    "english": "to struggle with / toil",
+    "ukrainian": "мучитися з, намагатися з усіх сил",
+    "example": "Mit Informatik habe ich mich immer sehr abgemüht."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "anfangen mit (+ Dat.)",
+    "german_audio": "anfangen mit",
+    "english": "to start with",
+    "ukrainian": "починати з",
+    "example": "Wann fangen Sie mit der Arbeit an?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "assoziieren mit (+ Dat.)",
+    "german_audio": "assoziieren mit",
+    "english": "to associate with",
+    "ukrainian": "асоціювати з",
+    "example": "Mit diesem Projekt assoziiert sie ungute Gefühle."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "aufhören mit (+ Dat.)",
+    "german_audio": "aufhören mit",
+    "english": "to stop",
+    "ukrainian": "припиняти, закінчувати з",
+    "example": "Hör endlich mit dem Gejammer auf!"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich auseinandersetzen mit (+ Dat.)",
+    "german_audio": "sich auseinandersetzen mit",
+    "english": "to deal with / confront",
+    "ukrainian": "розбиратися з, дискутувати з",
+    "example": "Wir müssen uns mit dem Thema auseinandersetzen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich auskennen mit (+ Dat.)",
+    "german_audio": "sich auskennen mit",
+    "english": "to be familiar with",
+    "ukrainian": "орієнтуватися в, знатися на",
+    "example": "Sie kennt sich mit der neuen Software gut aus."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "ausstatten mit (+ Dat.)",
+    "german_audio": "ausstatten mit",
+    "english": "to equip with",
+    "ukrainian": "оснащувати (чимось)",
+    "example": "Das Auto ist mit vielen Extras ausgestattet."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich austauschen mit (+ Dat.)",
+    "german_audio": "sich austauschen mit",
+    "english": "to exchange ideas with",
+    "ukrainian": "обмінюватися думками з",
+    "example": "Sie tauschten sich mit den anderen Lernenden über ihre Erfahrungen aus."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "beauftragen mit (+ Dat.)",
+    "german_audio": "beauftragen mit",
+    "english": "to task with / commission",
+    "ukrainian": "доручати (щось)",
+    "example": "Er wurde mit der Durchführung des Projekts beauftragt."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "beeindrucken mit (+ Dat.)",
+    "german_audio": "beeindrucken mit",
+    "english": "to impress with",
+    "ukrainian": "вражати (чимось)",
+    "example": "Sie beeindruckten ihre Kollegen mit ihrem fundierten Wissen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich befassen mit (+ Dat.)",
+    "german_audio": "sich befassen mit",
+    "english": "to deal with / study",
+    "ukrainian": "мати справу з, займатися (чимось)",
+    "example": "Mit diesem Problem müssen wir uns bald befassen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "beginnen mit (+ Dat.)",
+    "german_audio": "beginnen mit",
+    "english": "to start with",
+    "ukrainian": "починати з",
+    "example": "Wann beginnen Sie mit der Arbeit?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "(sich) belohnen mit (+ Dat.)",
+    "german_audio": "belohnen mit",
+    "english": "to reward (oneself) with",
+    "ukrainian": "винагороджувати (себе) чимось",
+    "example": "Sie belohnt sich für die vielen Überstunden mit einer Reise."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich beschäftigen mit (+ Dat.)",
+    "german_audio": "sich beschäftigen mit",
+    "english": "to busy oneself with / study",
+    "ukrainian": "займатися (чимось)",
+    "example": "Sie beschäftigte sich mit dem neuen Investitionsplan."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "besprechen mit (+ Dat.)",
+    "german_audio": "besprechen mit",
+    "english": "to discuss with",
+    "ukrainian": "обговорювати з",
+    "example": "Georg bespricht das Problem mit seiner Chefin."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "konkurrieren mit (+ Dat.)",
+    "german_audio": "konkurrieren mit",
+    "english": "to compete with",
+    "ukrainian": "конкурувати з",
+    "example": "Wir konkurrieren mit Produzenten aus dem Ausland."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "rechnen mit (+ Dat.)",
+    "german_audio": "rechnen mit",
+    "english": "to count on / expect",
+    "ukrainian": "розраховувати на, очікувати",
+    "example": "Wir haben schon nicht mehr mit Ihnen gerechnet."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "reden mit (+ Dat.)",
+    "german_audio": "reden mit",
+    "english": "to speak with",
+    "ukrainian": "розмовляти з",
+    "example": "Herr Ohm redet mit der Chefin."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "schimpfen mit (+ Dat.)",
+    "german_audio": "schimpfen mit",
+    "english": "to scold",
+    "ukrainian": "сваритися на (когось)",
+    "example": "Bitte schimpf nicht mit mir! Ich kann nichts dafür!"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sprechen mit (+ Dat.)",
+    "german_audio": "sprechen mit",
+    "english": "to speak with",
+    "ukrainian": "говорити з",
+    "example": "Mit wem sprechen Sie?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "(sich) streiten mit (+ Dat.)",
+    "german_audio": "streiten mit",
+    "english": "to argue with",
+    "ukrainian": "сперечатися з",
+    "example": "Er streitet sich oft mit seinen Kollegen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "telefonieren mit (+ Dat.)",
+    "german_audio": "telefonieren mit",
+    "english": "to talk on the phone with",
+    "ukrainian": "розмовляти по телефону з",
+    "example": "Fred telefoniert oft mit Marina."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich treffen mit (+ Dat.)",
+    "german_audio": "sich treffen mit",
+    "english": "to meet with",
+    "ukrainian": "зустрічатися з",
+    "example": "Heute treffen wir uns mit guten Freunden."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "verbinden mit (+ Dat.)",
+    "german_audio": "verbinden mit",
+    "english": "to connect with",
+    "ukrainian": "з'єднувати з",
+    "example": "Können Sie mich bitte mit dem Sekretariat verbinden?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "vergleichen mit (+ Dat.)",
+    "german_audio": "vergleichen mit",
+    "english": "to compare with",
+    "ukrainian": "порівнювати з",
+    "example": "Vergleichen Sie Ihr Land mit Deutschland."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich verstehen mit (+ Dat.)",
+    "german_audio": "sich verstehen mit",
+    "english": "to get along with",
+    "ukrainian": "ладнати з",
+    "example": "Sie versteht sich gut mit ihm."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "zusammenarbeiten mit (+ Dat.)",
+    "german_audio": "zusammenarbeiten mit",
+    "english": "to work together with",
+    "ukrainian": "співпрацювати з",
+    "example": "Er arbeitet mit Ärzten und Pflegern zusammen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "fragen nach (+ Dat.)",
+    "german_audio": "fragen nach",
+    "english": "to ask for/about",
+    "ukrainian": "запитувати про",
+    "example": "Yvonne hat mich <b style=\"color: #eab308;\">nach</b> meinen Plänen für die Zukunft gefragt."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "riechen nach (+ Dat.)",
+    "german_audio": "riechen nach",
+    "english": "to smell of",
+    "ukrainian": "пахнути (чимось)",
+    "example": "Hier riecht es <b style=\"color: #eab308;\">nach</b> Farbe."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "rufen nach (+ Dat.)",
+    "german_audio": "rufen nach",
+    "english": "to call for",
+    "ukrainian": "кликати, вимагати (когось)",
+    "example": "Er rief <b style=\"color: #eab308;\">nach</b> dem Kellner, aber der kam nicht."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "schmecken nach (+ Dat.)",
+    "german_audio": "schmecken nach",
+    "english": "to taste of",
+    "ukrainian": "мати смак (чогось)",
+    "example": "Dieses Eis schmeckt <b style=\"color: #eab308;\">nach</b> Apfel."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sehen nach (+ Dat.)",
+    "german_audio": "sehen nach",
+    "english": "to look for / check",
+    "ukrainian": "видивлятися, перевіряти",
+    "example": "Ich sehe mal schnell <b style=\"color: #eab308;\">nach</b> der noch fehlenden Kollegin."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich ärgern über (+ Akk.)",
+    "german_audio": "sich ärgern über",
+    "english": "to be annoyed about",
+    "ukrainian": "сердитися через",
+    "example": "Ich ärgere mich <b style=\"color: #eab308;\">über</b> intolerante Menschen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich austauschen über (+ Akk.)",
+    "german_audio": "sich austauschen über",
+    "english": "to discuss / exchange views on",
+    "ukrainian": "обмінюватися думками про",
+    "example": "Die Kollegen tauschten sich <b style=\"color: #eab308;\">über</b> ihre Erfahrungen aus."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich beklagen über (+ Akk.)",
+    "german_audio": "sich beklagen über",
+    "english": "to complain about",
+    "ukrainian": "скаржитися на",
+    "example": "Sie hat sich <b style=\"color: #eab308;\">über</b> die schlechte Zusammenarbeit beklagt."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "belehren über (+ Akk.)",
+    "german_audio": "belehren über",
+    "english": "to instruct about",
+    "ukrainian": "повчати, інструктувати про",
+    "example": "Er wurde <b style=\"color: #eab308;\">über</b> seine Pflichten belehrt."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "beraten über (+ Akk.)",
+    "german_audio": "beraten über",
+    "english": "to advise on / discuss",
+    "ukrainian": "радитися про, обговорювати",
+    "example": "Wir müssen uns <b style=\"color: #eab308;\">über</b> den Plan noch beraten."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "berichten über (+ Akk.)",
+    "german_audio": "berichten über",
+    "english": "to report on",
+    "ukrainian": "доповідати про, описувати",
+    "example": "Er hat <b style=\"color: #eab308;\">über</b> den Projektverlauf berichtet."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich beschweren über (+ Akk.)",
+    "german_audio": "sich beschweren über",
+    "english": "to complain about",
+    "ukrainian": "скаржитися на",
+    "example": "Er beschwerte sich <b style=\"color: #eab308;\">über</b> seine schlechte Beurteilung."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "brüten über (+ Dat.)",
+    "german_audio": "brüten über",
+    "english": "to brood over / ponder",
+    "ukrainian": "розмірковувати над, сушити голову над",
+    "example": "Sie brütet seit Wochen <b style=\"color: #eab308;\">über</b> dem Bericht."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "diskutieren über (+ Akk.)",
+    "german_audio": "diskutieren über",
+    "english": "to discuss",
+    "ukrainian": "дискутувати про",
+    "example": "Sie diskutieren immer <b style=\"color: #eab308;\">über</b> dasselbe Problem."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "hinauskommen über (+ Akk.)",
+    "german_audio": "hinauskommen über",
+    "english": "to exceed / go beyond",
+    "ukrainian": "виходити за межі",
+    "example": "Die Partei ist nicht <b style=\"color: #eab308;\">über</b> 20 % hinausgekommen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich informieren über (+ Akk.)",
+    "german_audio": "sich informieren über",
+    "english": "to inform oneself about",
+    "ukrainian": "інформувати себе про",
+    "example": "Ich lese Zeitung, um mich <b style=\"color: #eab308;\">über</b> die Politik zu informieren."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "lächeln über (+ Akk.)",
+    "german_audio": "lächeln über",
+    "english": "to smile at",
+    "ukrainian": "посміхатися над",
+    "example": "<b style=\"color: #eab308;\">Über</b> die neue Kollegin kann sie nur lächeln."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "lachen über (+ Akk.)",
+    "german_audio": "lachen über",
+    "english": "to laugh at",
+    "ukrainian": "сміятися з",
+    "example": "Sie konnte <b style=\"color: #eab308;\">über</b> den Witz nicht lachen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "nachdenken über (+ Akk.)",
+    "german_audio": "nachdenken über",
+    "english": "to think about / ponder",
+    "ukrainian": "розмірковувати про",
+    "example": "Ich habe lange <b style=\"color: #eab308;\">über</b> den Vorschlag nachgedacht."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "reden über (+ Akk.)",
+    "german_audio": "reden über",
+    "english": "to talk about",
+    "ukrainian": "говорити про",
+    "example": "Wir haben <b style=\"color: #eab308;\">über</b> den Chef geredet."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "referieren über (+ Akk.)",
+    "german_audio": "referieren über",
+    "english": "to lecture on",
+    "ukrainian": "робити доповідь про",
+    "example": "Sie referierte <b style=\"color: #eab308;\">über</b> den neuen Werbeplan."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "schimpfen über (+ Akk.)",
+    "german_audio": "schimpfen über",
+    "english": "to complain about / rant",
+    "ukrainian": "сварити (когось/щось), ремствувати",
+    "example": "Sie schimpfte <b style=\"color: #eab308;\">über</b> den Lärm."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sprechen über (+ Akk.)",
+    "german_audio": "sprechen über",
+    "english": "to speak about",
+    "ukrainian": "розмовляти про",
+    "example": "Ich spreche fast nie <b style=\"color: #eab308;\">über</b> Politik."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "(sich) streiten über (+ Akk.)",
+    "german_audio": "streiten über",
+    "english": "to argue about",
+    "ukrainian": "сперечатися через",
+    "example": "Wir streiten im Team oft <b style=\"color: #eab308;\">über</b> Kleinigkeiten."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "verfügen über (+ Akk.)",
+    "german_audio": "verfügen über",
+    "english": "to have at one's disposal",
+    "ukrainian": "володіти, мати в розпорядженні",
+    "example": "Am Jahresende verfügte die Firma <b style=\"color: #eab308;\">über</b> 20 Mio. Euro Gewinn."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich wundern über (+ Akk.)",
+    "german_audio": "sich wundern über",
+    "english": "to wonder at / be surprised at",
+    "ukrainian": "дивуватися чомусь",
+    "example": "Sie wunderten sich nicht <b style=\"color: #eab308;\">über</b> seine guten Leistungen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich bemühen um (+ Akk.)",
+    "german_audio": "sich bemühen um",
+    "english": "to strive for",
+    "ukrainian": "намагатися отримати, піклуватися про",
+    "example": "Sie hat sich um einen neuen Job bemüht."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich bewerben um (+ Akk.)",
+    "german_audio": "sich bewerben um",
+    "english": "to apply for",
+    "ukrainian": "подавати заявку на",
+    "example": "Ich habe mich um einen neuen Job beworben."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "bitten um (+ Akk.)",
+    "german_audio": "bitten um",
+    "english": "to ask for",
+    "ukrainian": "просити про",
+    "example": "Sophie bittet ihre Freundin um einen Tipp."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "gehen um (+ Akk.)",
+    "german_audio": "gehen um",
+    "english": "to be about",
+    "ukrainian": "йтися про",
+    "example": "In dem Bericht geht es um die Marketingaktivitäten."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "handeln um/von (+ Akk./Dat.)",
+    "german_audio": "handeln um",
+    "english": "to be about",
+    "ukrainian": "йтися про",
+    "example": "Ich möchte Sie sprechen. Es handelt sich um den Bericht."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "konkurrieren um (+ Akk.)",
+    "german_audio": "konkurrieren um",
+    "english": "to compete for",
+    "ukrainian": "конкурувати за",
+    "example": "Viele Firmen konkurrieren um Marktanteile."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich kümmern um (+ Akk.)",
+    "german_audio": "sich kümmern um",
+    "english": "to take care of",
+    "ukrainian": "турбуватися про",
+    "example": "In vielen Familien kümmern sich die Frauen um den Haushalt."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "leiden unter (+ Dat.)",
+    "german_audio": "leiden unter",
+    "english": "to suffer from",
+    "ukrainian": "страждати від (зовнішніх факторів)",
+    "example": "<b style=\"color: #eab308;\">Unter</b> dem hohen Energieverbrauch leidet auch die Umwelt."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "abweichen von (+ Dat.)",
+    "german_audio": "abweichen von",
+    "english": "to deviate from",
+    "ukrainian": "відхилятися від",
+    "example": "Bitte weichen Sie nicht vom Thema ab."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "berichten von (+ Dat.)",
+    "german_audio": "berichten von",
+    "english": "to report on",
+    "ukrainian": "повідомляти про",
+    "example": "Der Kollege berichtet von seiner letzten Dienstreise nach Wien."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich entfernen von (+ Dat.)",
+    "german_audio": "sich entfernen von",
+    "english": "to move away from",
+    "ukrainian": "віддалятися від",
+    "example": "Er entfernte sich vom Tatort."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich erholen von (+ Dat.)",
+    "german_audio": "sich erholen von",
+    "english": "to recover from",
+    "ukrainian": "відпочивати від, відновлюватися після",
+    "example": "Sie hat sich gut von dem Unfall erholt."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "erzählen von (+ Dat.)",
+    "german_audio": "erzählen von",
+    "english": "to tell of",
+    "ukrainian": "розповідати про",
+    "example": "Eine Wissenschaftlerin hat mir von ihrem Beruf erzählt."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "halten von (+ Dat.)",
+    "german_audio": "halten von",
+    "english": "to think of (an opinion)",
+    "ukrainian": "вважати про, думати про (мати думку)",
+    "example": "Was halten Sie von der Idee?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "handeln von (+ Dat.)",
+    "german_audio": "handeln von",
+    "english": "to be about",
+    "ukrainian": "бути про (сюжет)",
+    "example": "Der Film handelt von einem Migranten in Deutschland."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "hören von (+ Dat.)",
+    "german_audio": "hören von",
+    "english": "to hear of",
+    "ukrainian": "чути про",
+    "example": "Ich habe schon viel von Ihnen gehört."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich losreißen von (+ Dat.)",
+    "german_audio": "sich losreißen von",
+    "english": "to tear oneself away from",
+    "ukrainian": "вириватися від",
+    "example": "Ich konnte mich von der Arbeit nicht losreißen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "profitieren von (+ Dat.)",
+    "german_audio": "profitieren von",
+    "english": "to benefit from",
+    "ukrainian": "отримувати вигоду від",
+    "example": "Wir alle haben von ihren Ideen profitiert."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "reden von (+ Dat.)",
+    "german_audio": "reden von",
+    "english": "to talk of",
+    "ukrainian": "говорити про",
+    "example": "Alle reden nur noch von diesem Film."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "schwärmen von (+ Dat.)",
+    "german_audio": "schwärmen von",
+    "english": "to rave about",
+    "ukrainian": "захоплюватися (чимось/кимось), марити",
+    "example": "Sie schwärmen von ihrem letzten Urlaub."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sprechen von (+ Dat.)",
+    "german_audio": "sprechen von",
+    "english": "to speak of",
+    "ukrainian": "говорити про",
+    "example": "In der Mittagspause sprachen alle vom Wetter."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "träumen von (+ Dat.)",
+    "german_audio": "träumen von",
+    "english": "to dream of",
+    "ukrainian": "мріяти про",
+    "example": "Ich träume von der Zukunft."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich trennen von (+ Dat.)",
+    "german_audio": "sich trennen von",
+    "english": "to separate from",
+    "ukrainian": "розлучатися з, відділятися від",
+    "example": "Wir sollten uns von diesem Mitarbeiter trennen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich unterscheiden von (+ Dat.)",
+    "german_audio": "sich unterscheiden von",
+    "english": "to differ from",
+    "ukrainian": "відрізнятися від",
+    "example": "Die neue Chefin unterscheidet sich stark von dem alten Chef."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich verabschieden von (+ Dat.)",
+    "german_audio": "sich verabschieden von",
+    "english": "to say goodbye to",
+    "ukrainian": "прощатися з",
+    "example": "So, jetzt muss ich mich von Ihnen verabschieden."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "wissen von (+ Dat.)",
+    "german_audio": "wissen von",
+    "english": "to know of",
+    "ukrainian": "знати про",
+    "example": "Wissen Sie schon von unserem neuesten Projekt?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich zurückziehen von (+ Dat.)",
+    "german_audio": "sich zurückziehen von",
+    "english": "to withdraw from",
+    "ukrainian": "відступати від",
+    "example": "Sie hat sich von dem Projekt zurückgezogen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich ekeln vor (+ Dat.)",
+    "german_audio": "sich ekeln vor",
+    "english": "to be disgusted by",
+    "ukrainian": "відчувати огиду до",
+    "example": "Karla ekelt sich vor Spinnen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "flüchten vor (+ Dat.)",
+    "german_audio": "flüchten vor",
+    "english": "to flee from",
+    "ukrainian": "утікати від",
+    "example": "Sie flüchteten vor Unterdrückung."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich fürchten vor (+ Dat.)",
+    "german_audio": "sich fürchten vor",
+    "english": "to be afraid of",
+    "ukrainian": "боятися (чогось)",
+    "example": "Viele Menschen fürchten sich vor der Klimaerwärmung."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich rechtfertigen vor (+ Dat.)",
+    "german_audio": "sich rechtfertigen vor",
+    "english": "to justify oneself to",
+    "ukrainian": "виправдовуватися перед",
+    "example": "Er musste sich vor seinem Chef rechtfertigen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "schützen vor (+ Dat.)",
+    "german_audio": "schützen vor",
+    "english": "to protect from",
+    "ukrainian": "захищати від",
+    "example": "Diese Jacke schützt vor Regen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "warnen vor (+ Dat.)",
+    "german_audio": "warnen vor",
+    "english": "to warn against",
+    "ukrainian": "попереджати про",
+    "example": "Er warnte sie vor einer Zusammenarbeit mit dieser Firma."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich aufraffen zu (+ Dat.)",
+    "german_audio": "sich aufraffen zu",
+    "english": "to pull oneself together to",
+    "ukrainian": "зібратися з силами для",
+    "example": "Er raffte sich dazu auf, etwas für das Projekt zu tun."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "beitragen zu (+ Dat.)",
+    "german_audio": "beitragen zu",
+    "english": "to contribute to",
+    "ukrainian": "сприяти, робити внесок у",
+    "example": "Sie hat viel zum Erfolg des Teams beigetragen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "drängen zu (+ Dat.)",
+    "german_audio": "drängen zu",
+    "english": "to push to",
+    "ukrainian": "підштовхувати до",
+    "example": "Sie drängte ihn zum Einverständnis."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "einladen zu (+ Dat.)",
+    "german_audio": "einladen zu",
+    "english": "to invite to",
+    "ukrainian": "запрошувати на",
+    "example": "Die Geschäftsführung hat Journalisten zum Pressefest eingeladen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "sich entwickeln zu (+ Dat.)",
+    "german_audio": "sich entwickeln zu",
+    "english": "to develop into",
+    "ukrainian": "розвиватися в",
+    "example": "Er hat sich zu einem guten Mitarbeiter entwickelt."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "führen zu (+ Dat.)",
+    "german_audio": "führen zu",
+    "english": "to lead to",
+    "ukrainian": "призводити до",
+    "example": "Diese Diskussion führt zu keinem Ergebnis."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "gehören zu (+ Dat.)",
+    "german_audio": "gehören zu",
+    "english": "to belong to",
+    "ukrainian": "належати до",
+    "example": "Gehören Sie auch zu dieser Firma?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "gratulieren zu (+ Dat.)",
+    "german_audio": "gratulieren zu",
+    "english": "to congratulate on",
+    "ukrainian": "вітати з",
+    "example": "Ich gratuliere dir zum Geburtstag."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "kommen zu (+ Dat.)",
+    "german_audio": "kommen zu",
+    "english": "to come to",
+    "ukrainian": "приходити до, призводити до",
+    "example": "Wegen des Nebels kam es zu vielen Unfällen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "meinen zu (+ Dat.)",
+    "german_audio": "meinen zu",
+    "english": "to think of / say about",
+    "ukrainian": "мати думку про",
+    "example": "Was meinen Sie zu meinem Vorschlag?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "passen zu (+ Dat.)",
+    "german_audio": "passen zu",
+    "english": "to fit / match",
+    "ukrainian": "пасувати до, личити",
+    "example": "Welche Fähigkeiten von Ihnen passen zu diesem Beruf?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 98,
+    "german": "wählen zu (+ Dat.)",
+    "german_audio": "wählen zu",
+    "english": "to elect as",
+    "ukrainian": "обирати (на посаду)",
+    "example": "Michaela König wurde gestern zur Betriebsrätin gewählt."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "backen (bäckt/backt, backte/buk, hat gebacken)",
+    "german_audio": "backen",
+    "english": "to bake",
+    "ukrainian": "випікати, пекти",
+    "example": "Die Smart-Küche kann Brot vollautomatisch <b style=\"color: #eab308;\">backen</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "befehlen (befiehlt, befahl, hat befohlen)",
+    "german_audio": "befehlen",
+    "english": "to command, to order",
+    "ukrainian": "наказувати",
+    "example": "Der Kernel hat befohlen, den Prozess zu stoppen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "beginnen (beginnt, begann, hat begonnen)",
+    "german_audio": "beginnen",
+    "english": "to begin, to start",
+    "ukrainian": "починати",
+    "example": "Wir haben soeben begonnen, das new Framework zu testen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "beißen (beißt, biss, hat gebissen)",
+    "german_audio": "beißen",
+    "english": "to bite",
+    "ukrainian": "кусати",
+    "example": "Der Bürohund hat glücklicherweise niemanden gebissen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "bergen (birgt, barg, hat geborgen)",
+    "german_audio": "bergen",
+    "english": "to salvage, to rescue, to hide",
+    "ukrainian": "рятувати, переховувати, таїти в собі",
+    "example": "Diese Legacy-Codebase birgt viele versteckte Risiken."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "betrügen (betrügt, betrog, hat betrogen)",
+    "german_audio": "betrügen",
+    "english": "to cheat, to deceive",
+    "ukrainian": "обманювати, ошукувати",
+    "example": "Ein Phishing-Angriff versucht, die User zu <b style=\"color: #eab308;\">betrügen</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "beweisen (beweist, bewies, hat bewiesen)",
+    "german_audio": "beweisen",
+    "english": "to prove",
+    "ukrainian": "доводити",
+    "example": "Wir haben bewiesen, dass der Bug in der Cloud liegt."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "bewegen (bewegt, bewegte/bewog, hat bewegt)",
+    "german_audio": "bewegen",
+    "english": "to move, to induce",
+    "ukrainian": "рухати, спонукати",
+    "example": "Die neuen Features haben den Kunden dazu bewogen, das Abo zu verlängern."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "bewerfen (bewirbt, bewarf, hat beworfen)",
+    "german_audio": "bewerfen",
+    "english": "to pelt, to throw at",
+    "ukrainian": "закидати, обкидати",
+    "example": "Wir sollten uns im Meeting nicht gegenseitig mit Vorwürfen <b style=\"color: #eab308;\">bewerfen</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "biegen (biegt, bog, hat gebogen)",
+    "german_audio": "biegen",
+    "english": "to bend",
+    "ukrainian": "гнути, згинати",
+    "example": "Wir müssen diese Metallklammer vorsichtig <b style=\"color: #eab308;\">biegen</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "bieten (bietet, bot, hat geboten)",
+    "german_audio": "bieten",
+    "english": "to offer",
+    "ukrainian": "пропонувати",
+    "example": "Die neue API-Version <b style=\"color: #eab308;\">bietet</b> viele verbesserte Funktionen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "binden (bindet, band, hat gebunden)",
+    "german_audio": "binden",
+    "english": "to bind, to tie",
+    "ukrainian": "зв'язувати, прив'язувати",
+    "example": "Wir <b style=\"color: #eab308;\">binden</b> die API an ein sicheres Token."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "bitten (bittet, bat, hat gebeten)",
+    "german_audio": "bitten",
+    "english": "to ask, to request",
+    "ukrainian": "просити",
+    "example": "Ich habe den Kollegen um ein schnelles Review gebeten."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "blasen (bläst, blies, hat geblasen)",
+    "german_audio": "blasen",
+    "english": "to blow",
+    "ukrainian": "дути",
+    "example": "Der Lüfter bläst kalte Luft in das Server-Rack."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "bleiben (bleibt, blieb, ist geblieben)",
+    "german_audio": "bleiben",
+    "english": "to stay, to remain",
+    "ukrainian": "залишатися",
+    "example": "Der Server ist trotz der DDoS-Attacke online geblieben."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "brechen (bricht, brach, hat/ist gebrochen)",
+    "german_audio": "brechen",
+    "english": "to break",
+    "ukrainian": "ламати, розривати",
+    "example": "Ein kritischer Fehler hat die Transaktion abgebrochen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "brennen (brennt, brannte, hat gebrannt)",
+    "german_audio": "brennen",
+    "english": "to burn",
+    "ukrainian": "горіти",
+    "example": "Die Kontrollleuchte am Router hat rot gebrannt."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "bringen (bringt, brachte, hat gebracht)",
+    "german_audio": "bringen",
+    "english": "to bring",
+    "ukrainian": "приносити",
+    "example": "Das Refactoring hat uns eine enorme Performance-Steigerung gebracht."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "durchdringen (dringt durch, drang durch, ist durchgedrungen / hat durchdrungen)",
+    "german_audio": "durchdringen",
+    "english": "to penetrate, to permeate",
+    "ukrainian": "проникати, пронизувати",
+    "example": "Die neue Sicherheitsrichtlinie hat das gesamte Unternehmen <b style=\"color: #eab308;\">durchdrungen</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "denken (denkt, dachte, hat gedacht)",
+    "german_audio": "denken",
+    "english": "to think",
+    "ukrainian": "думати",
+    "example": "Ich habe an eine einfachere Lösung für die API gedacht."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "dürfen (darf, durfte, hat gedurft / hat dürfen)",
+    "german_audio": "dürfen",
+    "english": "to be allowed to",
+    "ukrainian": "мати дозвіл",
+    "example": "Der Praktikant darf den Produktionscode nicht direkt ändern."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "empfangen (empfängt, empfing, hat empfangen)",
+    "german_audio": "empfangen",
+    "english": "to receive",
+    "ukrainian": "приймати, отримувати",
+    "example": "Der Webhook hat die Payload erfolgreich <b style=\"color: #eab308;\">empfangen</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "empfehlen (empfiehlt, empfahl, hat empfohlen)",
+    "german_audio": "empfehlen",
+    "english": "to recommend",
+    "ukrainian": "рекомендувати",
+    "example": "Wir <b style=\"color: #eab308;\">empfehlen</b>, Passwörter регулярно змінювати."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "empfinden (empfindet, empfand, hat empfunden)",
+    "german_audio": "empfinden",
+    "english": "to feel, to perceive",
+    "ukrainian": "відчувати, сприймати",
+    "example": "Ich habe die Kritik im Review als sehr konstruktiv <b style=\"color: #eab308;\">empfunden</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "entscheiden (entscheidet, entschied, hat entschieden)",
+    "german_audio": "entscheiden",
+    "english": "to decide",
+    "ukrainian": "вирішувати",
+    "example": "Der Product Owner hat <b style=\"color: #eab308;\">entschieden</b>, das Feature zu verschieben."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "erheben (erhebt, erhob, hat erhoben)",
+    "german_audio": "erheben",
+    "english": "to raise, to levy, to collect",
+    "ukrainian": "піднімати, збирати (дані)",
+    "example": "Die App <b style=\"color: #eab308;\">erhebt</b> anonyme Nutzungsstatistiken."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "erklingen (erklingt, erklang, ist erklungen)",
+    "german_audio": "erklingen",
+    "english": "to sound, to ring out",
+    "ukrainian": "звучати",
+    "example": "Beim Eintreffen einer Fehlermeldung ist ein Warnton <b style=\"color: #eab308;\">erklungen</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "erlöschen (erlischt, erlosch, ist erloschen)",
+    "german_audio": "erlöschen",
+    "english": "to go out, to expire",
+    "ukrainian": "згасати, закінчуватися (про термін)",
+    "example": "Die Gültigkeit des API-Tokens ist erloschen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "erschrecken (erschrickt, erschrak, ist erschrocken)",
+    "german_audio": "erschrecken",
+    "english": "to be frightened",
+    "ukrainian": "лякатися",
+    "example": "Ich bin <b style=\"color: #eab308;\">erschrocken</b>, als der Server plötzlich offline ging."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "essen (isst, aß, hat gegessen)",
+    "german_audio": "essen",
+    "english": "to eat",
+    "ukrainian": "їсти",
+    "example": "Wir haben in der Mittagspause Pizza gegessen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "fahren (fährt, fuhr, ist/hat gefahren)",
+    "german_audio": "fahren",
+    "english": "to drive, to run",
+    "ukrainian": "їхати, керувати",
+    "example": "Das autonome Auto ist absolut sicher gefahren."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "fallen (fällt, fiel, ist gefallen)",
+    "german_audio": "fallen",
+    "english": "to fall",
+    "ukrainian": "падати",
+    "example": "Die Server-Latenz ist nach dem Update deutlich gefallen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "fangen (fängt, fing, hat gefangen)",
+    "german_audio": "fangen",
+    "english": "to catch",
+    "ukrainian": "ловити",
+    "example": "Der Try-Catch-Block hat die Exception erfolgreich gefangen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "finden (findet, fand, hat gefunden)",
+    "german_audio": "finden",
+    "english": "to find",
+    "ukrainian": "знаходити",
+    "example": "Ich habe den Fehler in der SQL-Abfrage endlich gefunden."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "fliegen (fliegt, flog, ist/hat geflogen)",
+    "german_audio": "fliegen",
+    "english": "to fly",
+    "ukrainian": "літати",
+    "example": "Ich bin zur IT-Konferenz nach Berlin geflogen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "fliehen (flieht, floh, ist geflohen)",
+    "german_audio": "fliehen",
+    "english": "to flee, to escape",
+    "ukrainian": "утікати, уникати",
+    "example": "Viele User sind von der alten Plattform geflohen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "fließen (fließt, floss, ist geflossen)",
+    "german_audio": "fließen",
+    "english": "to flow",
+    "ukrainian": "текти",
+    "example": "Die Daten <b style=\"color: #eab308;\">fließen</b> in Echtzeit durch das Websocket."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "fressen (frisst, fraß, hat gefressen)",
+    "german_audio": "fressen",
+    "english": "to eat (animals), to consume",
+    "ukrainian": "жерти, споживати (у великій кількості)",
+    "example": "Das Skript frisst leider extrem viel Arbeitsspeicher."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "frieren (friert, fror, hat/ist gefroren)",
+    "german_audio": "frieren",
+    "english": "to freeze",
+    "ukrainian": "мерзнути, замерзати",
+    "example": "Der Server ist wegen Überlastung eingefroren."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "gebären (gebärt/gebiert, gebar, hat geboren)",
+    "german_audio": "gebären",
+    "english": "to give birth to",
+    "ukrainian": "народжувати",
+    "example": "Eine gute Idee wird oft in einer Kaffeepause geboren."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "geben (gibt, gab, hat gegeben)",
+    "german_audio": "geben",
+    "english": "to give",
+    "ukrainian": "давати",
+    "example": "Bitte gib mir bis morgen Bescheid."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "gedeihen (gedeiht, gedieh, ist gediehen)",
+    "german_audio": "gedeihen",
+    "english": "to thrive, to prosper",
+    "ukrainian": "розвиватися, процвітати",
+    "example": "Das neue IT-Projekt ist sehr gut gediehen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "gefallen (gefällt, gefiel, hat gefallen)",
+    "german_audio": "gefallen",
+    "english": "to please, to like",
+    "ukrainian": "подобатися",
+    "example": "Das neue UI-Design gefällt dem Kunden sehr gut."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "gehen (geht, ging, ist gegangen)",
+    "german_audio": "gehen",
+    "english": "to go",
+    "ukrainian": "йти, працювати (про прилад)",
+    "example": "Der Docker-Container geht momentan leider nicht."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "gelingen (gelingt, gelang, ist gelungen)",
+    "german_audio": "gelingen",
+    "english": "to succeed",
+    "ukrainian": "вдаватися",
+    "example": "Es ist uns gelungen, die Performance zu verdoppeln."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "gelten (gilt, galt, hat gegolten)",
+    "german_audio": "gelten",
+    "english": "to apply, to be valid",
+    "ukrainian": "діяти, мати силу",
+    "example": "Die neuen Sicherheitsregeln <b style=\"color: #eab308;\">gelten</b> ab sofort für alle."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "genießen (genießt, genoss, hat genossen)",
+    "german_audio": "genießen",
+    "english": "to enjoy",
+    "ukrainian": "насолоджуватися",
+    "example": "Wir haben das freie Wochenende nach dem Release genossen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "geschehen (geschieht, geschah, ist geschehen)",
+    "german_audio": "geschehen",
+    "english": "to happen",
+    "ukrainian": "відбуватися",
+    "example": "Was ist gestern auf dem Server <b style=\"color: #eab308;\">geschehen</b>?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "gewinnen (gewinnt, gewann, hat gewonnen)",
+    "german_audio": "gewinnen",
+    "english": "to win, to gain",
+    "ukrainian": "вигравати, здобувати",
+    "example": "Wir haben einen großen Kunden aus der Automobilbranche gewonnen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "gießen (gießt, goss, hat gegossen)",
+    "german_audio": "gießen",
+    "english": "to pour, to water",
+    "ukrainian": "лити, поливати",
+    "example": "Der Kollege hat die Büropflanzen gegossen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "gleichen (gleicht, glich, hat geglichen)",
+    "german_audio": "gleichen",
+    "english": "to resemble, to equal",
+    "ukrainian": "дорівнювати, бути схожим",
+    "example": "Das neue Layout <b style=\"color: #eab308;\">gleicht</b> dem alten Entwurf fast vollständig."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "gleiten (gleitet, glitt, ist geglitten)",
+    "german_audio": "gleiten",
+    "english": "to slide, to glide",
+    "ukrainian": "ковзати",
+    "example": "Die Animation <b style=\"color: #eab308;\">gleitet</b> sanft über den Bildschirm."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "graben (gräbt, grub, hat gegraben)",
+    "german_audio": "graben",
+    "english": "to dig",
+    "ukrainian": "копати",
+    "example": "Wir müssen tief in den Logfiles <b style=\"color: #eab308;\">graben</b>, um den Bug zu finden."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "greifen (greift, griff, hat gegriffen)",
+    "german_audio": "greifen",
+    "english": "to grasp, to grab, to take effect",
+    "ukrainian": "хапати, вживати заходів",
+    "example": "Die neue Sicherheits-Firewall hat sofort gegriffen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "haben (hat, hatte, hat gehabt)",
+    "german_audio": "haben",
+    "english": "to have",
+    "ukrainian": "мати",
+    "example": "Wir <b style=\"color: #eab308;\">haben</b> ein großes Problem mit der Datenbank."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "halten (hält, hielt, hat gehalten)",
+    "german_audio": "halten",
+    "english": "to hold, to keep",
+    "ukrainian": "тримати, дотримуватися",
+    "example": "Bitte <b style=\"color: #eab308;\">halte</b> dich an die vereinbarten Deadlines."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "hängen (hängt, hing, hat/ist gehangen)",
+    "german_audio": "hängen",
+    "english": "to hang",
+    "ukrainian": "висіти",
+    "example": "Der Monitor <b style=\"color: #eab308;\">hängt</b> sicher an der Wandhalterung."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "heben (hebt, hob, hat gehoben)",
+    "german_audio": "heben",
+    "english": "to lift, to raise",
+    "ukrainian": "піднімати",
+    "example": "Der Support-Mitarbeiter hat das Ticket-Prioritätslevel gehoben."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "heißen (heißt, hieß, hat geheißen)",
+    "german_audio": "heißen",
+    "english": "to be called, to mean",
+    "ukrainian": "називатися, означати",
+    "example": "Das neue Repository <b style=\"color: #eab308;\">heißt</b> \"anki-b2\"."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "helfen (hilft, half, hat geholfen)",
+    "german_audio": "helfen",
+    "english": "to help",
+    "ukrainian": "допомагати",
+    "example": "Die automatische Code-Vervollständigung hilft mir sehr beim Coden."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "kennen (kennt, kannte, hat gekannt)",
+    "german_audio": "kennen",
+    "english": "to know (people/places)",
+    "ukrainian": "знати (бути знайомим з)",
+    "example": "Ich <b style=\"color: #eab308;\">kenne</b> diese Bibliothek aus einem früheren Projekt."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "klingen (klingt, klingt, klang, hat geklungen)",
+    "german_audio": "klingen",
+    "english": "to sound",
+    "ukrainian": "звучати",
+    "example": "Deine Idee für das Datenbank-Design <b style=\"color: #eab308;\">klingt</b> hervorragend."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "kneifen (kneift, kniff, hat gekniffen)",
+    "german_audio": "kneifen",
+    "english": "to pinch, to chicken out",
+    "ukrainian": "щипати, ухилятися",
+    "example": "Wir dürfen vor dieser schwierigen Aufgabe nicht <b style=\"color: #eab308;\">kneifen</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "kommen (kommt, kam, ist gekommen)",
+    "german_audio": "kommen",
+    "english": "to come",
+    "ukrainian": "приходити",
+    "example": "Die Fehlermeldung ist corridors (völlig unerwartet) gekommen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "können (kann, konnte, hat gekonnt / hat können)",
+    "german_audio": "können",
+    "english": "to be able to",
+    "ukrainian": "вміти, могти",
+    "example": "Ich kann diesen Algorithmus leicht optimieren."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "kriechen (kriecht, kroch, ist gekrochen)",
+    "german_audio": "kriechen",
+    "english": "to crawl, to creep",
+    "ukrainian": "повзати",
+    "example": "Das System <b style=\"color: #eab308;\">kriecht</b> heute extrem langsam dahin."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "laden (lädt, lud, hat geladen)",
+    "german_audio": "laden",
+    "english": "to load, to charge",
+    "ukrainian": "завантажувати, заряджати",
+    "example": "Die Webseite lädt in weniger als einer Sekunde."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "lassen (lässt, ließ, hat gelassen / hat lassen)",
+    "german_audio": "lassen",
+    "english": "to let, to leave",
+    "ukrainian": "дозволяти, залишати",
+    "example": "Wir <b style=\"color: #eab308;\">lassen</b> den Cronjob jede Nacht laufen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "laufen (läuft, lief, ist gelaufen)",
+    "german_audio": "laufen",
+    "english": "to run",
+    "ukrainian": "бігти, працювати (про програму)",
+    "example": "Die App läuft stabil auf dem Linux-Server."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "leiden (leidet, litt, hat gelitten)",
+    "german_audio": "leiden",
+    "english": "to suffer",
+    "ukrainian": "страждати",
+    "example": "Die Performance hat unter dem neuen Update stark gelitten."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "leihen (leiht, lieh, hat geliehen)",
+    "german_audio": "leihen",
+    "english": "to lend, to borrow",
+    "ukrainian": "позичати",
+    "example": "Er hat mir sein Ladekabel geliehen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "lese (liest, las, hat gelesen)",
+    "german_audio": "lese",
+    "english": "to read",
+    "ukrainian": "читати",
+    "example": "Ich habe die API-Dokumentation gründlich gelesen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "liegen (liegt, lag, hat/ist gelegen)",
+    "german_audio": "liegen",
+    "english": "to lie, to be located",
+    "ukrainian": "лежати, знаходитися",
+    "example": "Der Fehler <b style=\"color: #eab308;\">liegt</b> vermutlich in der Routing-Konfiguration."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "lügen (lügt, log, hat gelogen)",
+    "german_audio": "lügen",
+    "english": "to lie, to tell a falsehood",
+    "ukrainian": "брехати",
+    "example": "Das System-Log lügt nicht, da steht der Fehler klar drin."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "meiden (meidet, mied, hat gemieden)",
+    "german_audio": "meiden",
+    "english": "to avoid",
+    "ukrainian": "уникати",
+    "example": "Wir sollten globale Variablen im Code möglichst <b style=\"color: #eab308;\">meiden</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "melken (melkt/milkt, molk/melkte, hat gemolken/gemelkt)",
+    "german_audio": "melken",
+    "english": "to milk",
+    "ukrainian": "доїти",
+    "example": "Das System versucht, alle Daten aus der API zu <b style=\"color: #eab308;\">melken</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "messen (misst, maß, hat gemessen)",
+    "german_audio": "messen",
+    "english": "to measure",
+    "ukrainian": "вимірювати",
+    "example": "Wir haben die Performance vor und nach dem Update gemessen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "misslingen (misslingt, misslang, ist misslungen)",
+    "german_audio": "misslingen",
+    "english": "to fail",
+    "ukrainian": "не вдаватися",
+    "example": "Der Versuch, den Server live zu migrieren, ist <b style=\"color: #eab308;\">misslungen</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "mögen (mag, mochte, hat gemocht / hat mögen)",
+    "german_audio": "mögen",
+    "english": "to like",
+    "ukrainian": "любити, хотіти",
+    "example": "Ich mag dieses new, minimalistische UI-Design sehr."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "müssen (muss, musste, hat gemusst / hat müssen)",
+    "german_audio": "müssen",
+    "english": "to must, to have to",
+    "ukrainian": "мусити",
+    "example": "Wir <b style=\"color: #eab308;\">müssen</b> diese Sicherheitslücke sofort schließen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "nehmen (nimmt, nimmt, nahm, hat genommen)",
+    "german_audio": "nehmen",
+    "english": "to take",
+    "ukrainian": "брати",
+    "example": "Wir <b style=\"color: #eab308;\">nehmen</b> PostgreSQL als primäre Datenbank."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "nennen (nennt, nannte, hat genannt)",
+    "german_audio": "nennen",
+    "english": "to name, to call",
+    "ukrainian": "називати",
+    "example": "Er hat mir drei gute Gründe für das Refactoring genannt."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "pfeifen (pfeift, pfiff, hat gepfiffen)",
+    "german_audio": "pfeifen",
+    "english": "to whistle",
+    "ukrainian": "свистіти",
+    "example": "Der Lüfter des Laptops <b style=\"color: #eab308;\">pfeift</b> unter Volllast sehr laut."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "preisen (preist, pries, hat gepriesen)",
+    "german_audio": "preisen",
+    "english": "to praise",
+    "ukrainian": "хвалити, прославляти",
+    "example": "Das Marketing <b style=\"color: #eab308;\">preist</b> die neue App als revolutionär an."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "raten (rät, riet, hat geraten)",
+    "german_audio": "raten",
+    "english": "to advise, to guess",
+    "ukrainian": "радити, відгадувати",
+    "example": "Ich <b style=\"color: #eab308;\">rate</b> dir, die Commits öfter zu pushen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "reiben (reibt, rieb, hat gerieben)",
+    "german_audio": "reiben",
+    "english": "to rub",
+    "ukrainian": "терти",
+    "example": "Er <b style=\"color: #eab308;\">reibt</b> sich nach stundenlangem Coden müde die Augen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "reißen (reißt, riss, hat/ist gerissen)",
+    "german_audio": "reißen",
+    "english": "to tear, to rip",
+    "ukrainian": "рвати, лопатися",
+    "example": "Das Netzwekkabel ist leider mitten im Betrieb gerissen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "reiten (reitet, ritt, ist/hat geritten)",
+    "german_audio": "reiten",
+    "english": "to ride (a horse)",
+    "ukrainian": "їхати верхи",
+    "example": "In der Freizeit <b style=\"color: #eab308;\">reitet</b> der Kollege gerne."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "rennen (rennt, rannte, ist gerannt)",
+    "german_audio": "rennen",
+    "english": "to run, to race",
+    "ukrainian": "бігти, мчати",
+    "example": "Der Parser <b style=\"color: #eab308;\">rennt</b> extrem schnell durch die Textdateien."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "riechen (riecht, roch, hat gerochen)",
+    "german_audio": "riechen",
+    "english": "to smell",
+    "ukrainian": "пахнути, чути запах",
+    "example": "Es <b style=\"color: #eab308;\">riecht</b> nach verbranntem Plastik im Serverraum."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "ringen (ringt, rang, hat gerungen)",
+    "german_audio": "ringen",
+    "english": "to wrestle, to struggle",
+    "ukrainian": "боротися",
+    "example": "Wir haben lange um die beste Systemarchitektur gerungen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "rufen (ruft, rief, hat gerufen)",
+    "german_audio": "rufen",
+    "english": "to call",
+    "ukrainian": "кликати, викликати",
+    "example": "Wir <b style=\"color: #eab308;\">rufen</b> die Funktion asynchron auf."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "saugen (saugt, sog/saugte, hat gesogen/gesaugt)",
+    "german_audio": "saugen",
+    "english": "to suck, to vacuum",
+    "ukrainian": "всмоктувати, пилососити",
+    "example": "Das Skript <b style=\"color: #eab308;\">saugt</b> alle new Daten aus dem Netz."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "schaffen (schafft, schuf, hat geschaffen)",
+    "german_audio": "schaffen",
+    "english": "to create",
+    "ukrainian": "створювати",
+    "example": "Der Designer hat ein völlig neues Icon-Set geschaffen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "scheiden (scheidet, schied, hat/ist geschieden)",
+    "german_audio": "scheiden",
+    "english": "to separate, to divide",
+    "ukrainian": "розділяти",
+    "example": "Die Meinungen im Team <b style=\"color: #eab308;\">scheiden</b> sich bei diesem Thema."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "scheinen (scheint, schien, hat geschienen)",
+    "german_audio": "scheinen",
+    "english": "to shine, to seem",
+    "ukrainian": "світити, здаватися",
+    "example": "Das Update <b style=\"color: #eab308;\">scheint</b> stabil zu laufen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "schieben (schiebt, schob, hat geschoben)",
+    "german_audio": "schieben",
+    "english": "to push, to shove",
+    "ukrainian": "штовхати, зсувати",
+    "example": "Wir haben den Release-Termin auf nächste week geschoben."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "schießen (schießt, schoss, hat/ist geschossen)",
+    "german_audio": "schießen",
+    "english": "to shoot",
+    "ukrainian": "стріляти, швидко розвиватися",
+    "example": "Die Serverauslastung ist plötzlich in die Höhe geschossen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "schlafen (schläft, schlief, hat geschlafen)",
+    "german_audio": "schlafen",
+    "english": "to sleep",
+    "ukrainian": "спати",
+    "example": "Nach dem anstrengenden Release-Wochenende habe ich lange geschlafen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "schlagen (schlägt, schlug, hat geschlagen)",
+    "german_audio": "schlagen",
+    "english": "to hit, to beat",
+    "ukrainian": "бити, перемагати",
+    "example": "Das Monitoring-System hat Alarm geschlagen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "schleichen (schleicht, schlich, ist geschlichen)",
+    "german_audio": "schleichen",
+    "english": "to sneak, to creep",
+    "ukrainian": "крастися",
+    "example": "Ein Memory Leak hat sich heimlich in den Code geschlichen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "schleifen (schleift, schliff, hat geschliffen)",
+    "german_audio": "schleifen",
+    "english": "to grind, to polish",
+    "ukrainian": "точити, шліфувати",
+    "example": "Wir müssen die Kanten des Gehäuses sauber <b style=\"color: #eab308;\">schleifen</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "schließen (schließt, schloss, hat geschlossen)",
+    "german_audio": "schließen",
+    "english": "to close",
+    "ukrainian": "закривати",
+    "example": "Der Admin hat alle nicht genutzten Ports geschlossen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "schlingen (schlingt, schlang, hat geschlungen)",
+    "german_audio": "schlingen",
+    "english": "to wind, to loop, to gulp",
+    "ukrainian": "обвивати, петляти",
+    "example": "Wir <b style=\"color: #eab308;\">schlingen</b> das Kabel ordentlich um das Server-Rack."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "schmeißen (schmeißt, schmiss, hat geschmissen)",
+    "german_audio": "schmeißen",
+    "english": "to throw, to chuck",
+    "ukrainian": "кидати, викидати",
+    "example": "Wir haben den veralteten Code komplett weggeschmissen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "schmelzen (schmelzt/schmilzt, schmolz, ist/hat geschmolzen)",
+    "german_audio": "schmelzen",
+    "english": "to melt",
+    "ukrainian": "танути, плавитися",
+    "example": "Wegen Überhitzung ist das Plastikgehäuse geschmolzen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "schneiden (schneidet, schnitt, hat geschnitten)",
+    "german_audio": "schneiden",
+    "english": "to cut",
+    "ukrainian": "різати",
+    "example": "Das Skript <b style=\"color: #eab308;\">schneidet</b> den String nach dem ersten Komma ab."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "schreiben (schreibt, schrieb, hat geschrieben)",
+    "german_audio": "schreiben",
+    "english": "to write",
+    "ukrainian": "писати",
+    "example": "Ich <b style=\"color: #eab308;\">schreibe</b> eine ausführliche Dokumentation für die API."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "schreien (schreit, schrie, hat geschrien)",
+    "german_audio": "schreien",
+    "english": "to scream, to shout",
+    "ukrainian": "кричати",
+    "example": "Der Kollege hat vor Freude geschrien, als der Code funktionierte."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "schreiten (schreitet, schritt, ist geschritten)",
+    "german_audio": "schreiten",
+    "english": "to stride, to step",
+    "ukrainian": "крокувати",
+    "example": "Wir <b style=\"color: #eab308;\">schreiten</b> zügig mit der Entwicklung des Projekts voran."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "schweigen (schweigt, schwieg, hat geschwiegen)",
+    "german_audio": "schweigen",
+    "english": "to be silent",
+    "ukrainian": "мовчати",
+    "example": "Wir haben über das new Produkt vertraglich geschwiegen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "schwimmen (schwimmt, schwamm, ist/hat geschwommen)",
+    "german_audio": "schwimmen",
+    "english": "to swim",
+    "ukrainian": "плавати",
+    "example": "Die Elemente im flexiblen Layout <b style=\"color: #eab308;\">schwimmen</b> dynamisch mit."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "schwinden (schwindet, schwand, ist geschwunden)",
+    "german_audio": "schwinden",
+    "english": "to disappear, to shrink",
+    "ukrainian": "зникати, зменшуватися",
+    "example": "Unsere Server-Ressourcen <b style=\"color: #eab308;\">schwinden</b> zusehends."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "schwören (schwört, schwor, hat geschworen)",
+    "german_audio": "schwören",
+    "english": "to swear, to vow",
+    "ukrainian": "клястися",
+    "example": "Ich <b style=\"color: #eab308;\">schwöre</b> auf die Zuverlässigkeit dieser Datenbank."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "sehen (sieht, sah, hat gesehen)",
+    "german_audio": "sehen",
+    "english": "to see",
+    "ukrainian": "бачити",
+    "example": "Ich <b style=\"color: #eab308;\">sehe</b> die Fehlermeldung direkt in der Konsole."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "sein (ist, war, ist gewesen)",
+    "german_audio": "sein",
+    "english": "to be",
+    "ukrainian": "бути",
+    "example": "Die Anwendung ist jetzt endlich live."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "senden (sendet, sandte/sendete, hat gesandt/gesendet)",
+    "german_audio": "senden",
+    "english": "to send",
+    "ukrainian": "надсилати",
+    "example": "Der Server hat die E-Mail erfolgreich gesendet."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "singen (singt, sang, hat gesungen)",
+    "german_audio": "singen",
+    "english": "to sing",
+    "ukrainian": "співати",
+    "example": "Der Lüfter <b style=\"color: #eab308;\">singt</b> ein monotones Lied im Serverraum."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "sitzen (sitzt, saß, hat/ist gesessen)",
+    "german_audio": "sitzen",
+    "english": "to sit",
+    "ukrainian": "сидіти",
+    "example": "Er <b style=\"color: #eab308;\">sitzt</b> den ganzen Tag konzentriert vor dem Bildschirm."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "sollen (soll, sollte, hat gesollt / hat sollen)",
+    "german_audio": "sollen",
+    "english": "to should, to ought to",
+    "ukrainian": "мусити, мати обов'язок",
+    "example": "Wir <b style=\"color: #eab308;\">sollen</b> den Code vor dem Push gründlich reviewen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "spinnen (spinnt, spann, hat gesponnen)",
+    "german_audio": "spinnen",
+    "english": "to spin, to be crazy",
+    "ukrainian": "прясти, плести, вередувати (про техніку)",
+    "example": "Das Netzwerk <b style=\"color: #eab308;\">spinnt</b> heute leider wieder komplett."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "sprechen (spricht, sprach, hat gesprochen)",
+    "german_audio": "sprechen",
+    "english": "to speak",
+    "ukrainian": "говорити",
+    "example": "Wir haben im Daily kurz über das DB-Problem gesprochen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "springen (springt, sprang, ist gesprungen)",
+    "german_audio": "springen",
+    "english": "to jump",
+    "ukrainian": "стрибати",
+    "example": "Die CPU-Auslastung ist schlagartig auf 100% gesprungen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "stechen (sticht, stach, hat gestochen)",
+    "german_audio": "stechen",
+    "english": "to sting, to prick",
+    "ukrainian": "колоти",
+    "example": "Ein spitzes Kabelende hat mich in den Finger gestochen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "stehen (steht, stand, hat/ist gestanden)",
+    "german_audio": "stehen",
+    "english": "to stand",
+    "ukrainian": "стояти",
+    "example": "Der Test-Server <b style=\"color: #eab308;\">steht</b> direkt unter meinem Schreibtisch."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "stehlen (stiehlt, stahl, hat gestohlen)",
+    "german_audio": "stehlen",
+    "english": "to steal",
+    "ukrainian": "красти",
+    "example": "Jemand hat die Zugangsdaten aus der Datenbank gestohlen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "steigen (steigt, stieg, ist gestiegen)",
+    "german_audio": "steigen",
+    "english": "to rise, to climb",
+    "ukrainian": "підніматися, зростати",
+    "example": "Die Besucherzahlen der Webseite sind stark gestiegen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "sterben (stirbt, starb, ist gestorben)",
+    "german_audio": "sterben",
+    "english": "to die",
+    "ukrainian": "помирати",
+    "example": "Der Prozess ist wegen Speichermangels (OOM) gestorben."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "stinken (stinkt, stank, hat gestunken)",
+    "german_audio": "stinken",
+    "english": "to stink",
+    "ukrainian": "смердіти",
+    "example": "Der Code <b style=\"color: #eab308;\">stinkt</b> gewaltig (Code Smell), den müssen wir refactoren."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "stoßen (stößt, stieß, hat/ist gestoßen)",
+    "german_audio": "stoßen",
+    "english": "to push, to bump",
+    "ukrainian": "штовхати, наштовхуватися",
+    "example": "Wir sind auf ein unerwartetes Problem gestoßen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "streichen (streicht, strich, hat gestrichen)",
+    "german_audio": "streichen",
+    "english": "to paint, to cancel, to delete",
+    "ukrainian": "фарбувати, викреслювати",
+    "example": "Der Product Owner hat das Feature von der Roadmap gestrichen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "streiten (streitet, stritt, hat gestritten)",
+    "german_audio": "streiten",
+    "english": "to argue, to fight",
+    "ukrainian": "сперечатися",
+    "example": "Wir <b style=\"color: #eab308;\">streiten</b> uns oft über das beste CSS-Framework."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "tragen (trägt, trug, hat getragen)",
+    "german_audio": "tragen",
+    "english": "to carry, to wear",
+    "ukrainian": "носить",
+    "example": "Der neue Prozessor trägt maßgeblich zur Performance bei."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "treffen (trifft, traf, hat getroffen)",
+    "german_audio": "treffen",
+    "english": "to meet, to hit, to make (a decision)",
+    "ukrainian": "зустрічати, приймати (рішення)",
+    "example": "Wir müssen heute eine Entscheidung über die Cloud-Migration <b style=\"color: #eab308;\">treffen</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "treiben (treibt, trieb, hat/ist getrieben)",
+    "german_audio": "treiben",
+    "english": "to drive, to push",
+    "ukrainian": "гнати, спонукати",
+    "example": "Der ehrgeizige Teamlead <b style=\"color: #eab308;\">treibt</b> das Projekt schnell voran."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "treten (tritt, trat, hat/ist getreten)",
+    "german_audio": "treten",
+    "english": "to step, to kick",
+    "ukrainian": "ступати, наступати",
+    "example": "Ein neuer Fehler ist in der Testumgebung aufgetreten."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "trinken (trinkt, trank, hat getrunken)",
+    "german_audio": "trinken",
+    "english": "to drink",
+    "ukrainian": "пити",
+    "example": "Entwickler <b style=\"color: #eab308;\">trinken</b> bekanntlich sehr viel Kaffee."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "tun (tut, tat, hat getan)",
+    "german_audio": "tun",
+    "english": "to do",
+    "ukrainian": "робити",
+    "example": "Das Skript tut genau das, was es tun soll."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "verbergen (verbirgt, verborg/verbarg, hat verborgen)",
+    "german_audio": "verbergen",
+    "english": "to hide",
+    "ukrainian": "приховувати",
+    "example": "Das UI soll komplexe Systemdaten vor dem User <b style=\"color: #eab308;\">verbergen</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "vergessen (vergisst, vergaß, hat vergessen)",
+    "german_audio": "vergessen",
+    "english": "to forget",
+    "ukrainian": "забувати",
+    "example": "Ich habe <b style=\"color: #eab308;\">vergessen</b>, den neuen API-Key in der Config zu speichern."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "vergleichen (vergleicht, verglich, hat vergleichen)",
+    "german_audio": "vergleichen",
+    "english": "to compare",
+    "ukrainian": "порівнювати",
+    "example": "Wir <b style=\"color: #eab308;\">vergleichen</b> die Performance der verschiedenen Datenbanken."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "verlieren (verliert, verlor, hat verloren)",
+    "german_audio": "verlieren",
+    "english": "to lose",
+    "ukrainian": "втрачати",
+    "example": "Wir haben beim Server-Crash zum Glück keine Daten <b style=\"color: #eab308;\">verloren</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "verraten (verrät, verriet, hat verraten)",
+    "german_audio": "verraten",
+    "english": "to betray, to reveal",
+    "ukrainian": "зраджувати, розголошувати",
+    "example": "Bitte <b style=\"color: #eab308;\">verrate</b> dem Kunden noch nicht das genaue Release-Datum."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "verzeihen (verzeiht, verzieh, hat verziehen)",
+    "german_audio": "verzeihen",
+    "english": "to forgive",
+    "ukrainian": "вибачати",
+    "example": "Der Compiler <b style=\"color: #eab308;\">verzeiht</b> keine fehlenden Semikolons."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "wachsen (wächst, wuchs, ist gewachsen)",
+    "german_audio": "wachsen",
+    "english": "to grow",
+    "ukrainian": "рости",
+    "example": "Die Datenbank wächst jeden Tag um mehrere Gigabyte."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "waschen (wäscht, wusch, hat gewaschen)",
+    "german_audio": "waschen",
+    "english": "to wash",
+    "ukrainian": "мити, прати",
+    "example": "Ich habe meine Hände gründlich gewaschen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "weichen (weicht, wich, ist gewichen)",
+    "german_audio": "weichen",
+    "english": "to yield, to give way",
+    "ukrainian": "відступати, поступатися",
+    "example": "Die alte Legacy-Software muss nun der neuen Cloud-Lösung <b style=\"color: #eab308;\">weichen</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "weisen (weist, wies, hat gewiesen)",
+    "german_audio": "weisen",
+    "english": "to point, to show",
+    "ukrainian": "показувати, вказувати",
+    "example": "Die Logs <b style=\"color: #eab308;\">weisen</b> eindeutig auf einen Netzwerkfehler hin."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "wenden (wenden, wendete/wandte, hat gewendet/gewandt)",
+    "german_audio": "wenden",
+    "english": "to turn",
+    "ukrainian": "повертати, звертатися",
+    "example": "Bei technischen Fragen <b style=\"color: #eab308;\">wende</b> dich bitte an den Sysadmin."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "werben (wirbt, warb, hat geworben)",
+    "german_audio": "werben",
+    "english": "to advertise, to recruit",
+    "ukrainian": "рекламувати, вербувати",
+    "example": "Die IT-Firma wirbt auf LinkedIn um neue Entwickler."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "werden (wird, wurde, ist geworden)",
+    "german_audio": "werden",
+    "english": "to become",
+    "ukrainian": "ставати",
+    "example": "Die App wird mit jedem neuen Update besser."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "werfen (wirft, warf, hat geworben)",
+    "german_audio": "werfen",
+    "english": "to throw",
+    "ukrainian": "кидати",
+    "example": "Der Code wirft bei falscher Eingabe eine Exception."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "wiegen (wiegt, wog, hat gewogen)",
+    "german_audio": "wiegen",
+    "english": "to weigh",
+    "ukrainian": "важити",
+    "example": "Der neue Gaming-Laptop <b style=\"color: #eab308;\">wiegt</b> fast drei Kilogramm."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "winden (windet, wand, hat gewunden)",
+    "german_audio": "winden",
+    "english": "to wind, to twist",
+    "ukrainian": "витися, плести",
+    "example": "Die Kabel <b style=\"color: #eab308;\">winden</b> sich chaotisch hinter dem Server-Schrank."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "wissen (weiß, wusste, hat gewusst)",
+    "german_audio": "wissen",
+    "english": "to know (facts)",
+    "ukrainian": "знати (факти)",
+    "example": "Weißt du, wo die Config-Datei liegt?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "wollen (will, wollte, hat gewollt / hat wollen)",
+    "german_audio": "wollen",
+    "english": "to want",
+    "ukrainian": "хотіти",
+    "example": "Wir <b style=\"color: #eab308;\">wollen</b> das Projekt noch diese Woche fertigstellen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "ziehen (zieht, zog, hat/ist gezogen)",
+    "german_audio": "ziehen",
+    "english": "to pull, to drag",
+    "ukrainian": "тягнути",
+    "example": "Bitte <b style=\"color: #eab308;\">ziehe</b> dir den neuesten Stand vom GitHub-Repository (pull)."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 99,
+    "german": "zwingen (zwingt, zwang, hat gezwungen)",
+    "german_audio": "zwingen",
+    "english": "to force",
+    "ukrainian": "Der knappe Zeitplan zwingt uns, Prioritäten zu setzen.",
+    "example": ""
   }
 ]
