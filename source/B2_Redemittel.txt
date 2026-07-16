@@ -1,0 +1,296 @@
+#separator:;
+#html:true
+#columns:German;English;Ukrainian;Example
+Das Thema meines Vortrags / meiner Präsentation lautet ...;The topic of my presentation is ...;Тема моєї презентації звучить як ...;Das Thema meiner Präsentation lautet "Cloud-Migration".
+Ich werde die folgenden Themen behandeln: ...;I will cover the following topics: ...;Я розгляну наступні теми: ...;Ich werde die folgenden Themen behandeln: Kosten, Sicherheit und Skalierbarkeit.
+Ich möchte Ihnen heute ... vorstellen.;I would like to present ... to you today.;Я хотів би представити вам сьогодні ...;Ich möchte Ihnen heute unser neues IT-Produkt vorstellen.
+Ich werde Ihnen einen Überblick über ... geben.;I will give you an overview of ...;Я надам вам огляд ...;Ich werde Ihnen einen Überblick über den aktuellen Projektstatus geben.
+Ich freue mich, dass ich Ihnen ... präsentieren kann.;I am pleased to present ... to you.;Я радий, що можу презентувати вам ...;Ich freue mich, dass ich Ihnen unsere neue App präsentieren kann.
+Meine Präsentation besteht aus drei/ ... Teilen.;My presentation consists of three/ ... parts.;Моя презентація складається з трьох/ ... частин.;Meine Präsentation besteht aus drei Teilen.
+Im ersten Teil spreche ich über ...;In the first part I will talk about ...;У першій частині я розповім про ...;Im ersten Teil spreche ich über die Systemarchitektur.
+Zunächst werde ich ...;First, I will ...;Спочатку я ...;Zunächst werde ich die wichtigsten Probleme erklären.
+Anschließend möchte ich auf ... eingehen.;Afterwards I would like to go into ...;Після цього я хотів би зупинитися на ...;Anschließend möchte ich auf die Kosten eingehen.
+Ich komme jetzt zum nächsten Punkt/Teil.;I am now coming to the next point/part.;Я переходжу до наступного пункту/частини.;Ich komme jetzt zum nächsten Teil meiner Präsentation.
+Im Folgenden/Abschließend möchte ich auf die folgenden Punkte zu sprechen kommen: ...;In the following/concluding part I would like to address the following points: ...;Надалі/на завершення я хотів би зупинитися на наступних пунктах: ...;Abschließend möchte ich auf die Sicherheitsrisiken zu sprechen kommen.
+Ich komme jetzt zum Schluss.;I am now coming to the end.;Я підходжу до завершення.;Ich komme jetzt zum Schluss meiner Präsentation.
+Zusammenfassend möchte ich sagen, dass ...;In summary, I would like to say that ...;Підсумовуючи, я хотів би сказати, що ...;Zusammenfassend möchte ich sagen, dass das Projekt erfolgreich läuft.
+Vielen Dank für Ihre Aufmerksamkeit.;Thank you very much for your attention.;Дуже дякую за вашу увагу!;Vielen Dank für Ihre Aufmerksamkeit und Geduld.
+Für Fragen stehe ich Ihnen gerne zur Verfügung.;I am happy to answer any questions you may have.;Я з радістю відповім на ваші запитання.;Für Fragen stehe ich Ihnen gerne zur Verfügung.
+Haben Sie Fragen?;Do you have any questions?;Маєте запитання?;Haben Sie Fragen zu den gezeigten Daten?
+Ich hoffe, ich konnte Sie für das Thema interessieren.;I hope I could get you interested in the topic.;Сподіваюся, мені вдалося зацікавити вас цією темою.;Ich hoffe, ich konnte Sie für das Thema Open Source interessieren.
+Ich hoffe, das Thema war für Sie interessant.;I hope the topic was interesting for you.;Сподіваюся, ця тема була для вас цікавою.;Ich hoffe, das Thema Server-Sicherheit war für Sie interessant.
+Die Firma ist wie folgt organisiert: ...;The company is organized as follows: ...;Компанія організована наступним чином: ...;Die Firma ist wie folgt organisiert: Es gibt drei Hauptabteilungen.
+Die Geschäftsführung ist allen Bereichen übergeordnet.;The management is superior to all areas.;Керівництво компанії стоїть над усіма підрозділами.;Die Geschäftsführung ist allen Bereichen übergeordnet.
+An der Spitze steht/stehen ...;At the top is/are ...;На чолі стоїть/стоять ...;An der Spitze steht unser CTO.
+Die Hauptbereiche sind ...;The main areas are ...;Головними сферами є ...;Die Hauptbereiche sind Entwicklung, Support und Vertrieb.
+Der Bereich ... ist in die Abteilungen ... untergliedert/unterteilt.;The area ... is subdivided into departments ...;Сфера ... підрозділяється на відділи ...;Der Bereich Entwicklung ist in drei Unterteams untergliedert.
+Zum Bereich Verwaltung/... gehören ...;The administration/... area includes ...;До сфери управління/... належать ...;Zum Bereich Support gehören fünf Mitarbeiter.
+Produktion/Lager/... sind dem ... zugeordnet/untergeordnet.;Production/Warehouse/... are assigned/subordinated to ...;Виробництво/склад/... підпорядковані ...;Die Server-Admins sind dem System-Team untergeordnet.
+Der Vertrieb hat die Aufgabe ...;Sales has the task of ...;Відділ збуту має завдання ...;Der Vertrieb hat die Aufgabe, neue Verträge abzuschließen.
+Der direkte Verkauf hat den großen/besonderen Vorteil ...;Direct sales has the great/special advantage ...;Прямі продажі мають велику перевагу ...;Der direkte Verkauf hat den Vorteil eines schnellen Feedbacks.
+Der Titel der Grafik ist ...;The title of the chart is ...;Назва графіка — ...;Der Titel der Grafik ist "Umsatzentwicklung 2026".
+Die Daten stammen von ...;The data comes from ...;Дані походять від (джерело) ...;Die Daten stammen vom Statistischen Bundesamt.
+Die Grafik zeigt ...;The chart shows ...;Графік показує ...;Die Grafik zeigt den Anstieg der Nutzerzahlen.
+Aus der Grafik geht hervor, dass ...;The chart shows that ...;З графіка випливає, що ...;Aus der Grafik geht hervor, dass die Migration Kosten spart.
+Es fällt besonders auf, dass ...;It is particularly noticeable that ...;Особливо впадає в око те, що ...;Es fällt besonders auf, dass die Latenz im Sommer stieg.
+Die Daten legen den Schluss nahe, dass ...;The data suggests that ...;Дані дозволяють зробити висновок, що ...;Die Daten legen den Schluss nahe, dass wir mehr Server brauchen.
+Sie sprechen mit ...;You are speaking with ...;Ви розмовляєте з ...;Sie sprechen mit dem IT-Support, guten Tag.
+Was kann ich für Sie tun?;What can I do for you?;Чим я можу вам допомогти?;Was kann ich für Sie tun, Herr Schmidt?
+Ich würde gerne mit ... sprechen.;I would like to speak with ...;Я хотів би поговорити з ...;Ich würde gerne mit dem Systemadministrator sprechen.
+Können Sie mich mit ... verbinden?;Could you connect me with ...?;Можете з'єднати мене з ...?;Können Sie mich mit der HR-Abteilung verbinden?
+Einen Moment bitte, ich verbinde.;One moment please, I will connect you.;Хвилинку, будь ласка, з'єдную.;Einen Moment bitte, ich verbinde Sie mit dem Chef.
+Können Sie ... bitten, mich zurückzurufen?;Could you ask ... to call me back?;Можете попросити ... мені передзвонити?;Können Sie den Entwickler bitten, mich zurückzurufen?
+Kann ich etwas ausrichten?;Can I take a message?;Можу я щось передати?;Kann ich dem Kollegen etwas ausrichten?
+Können Sie das bitte wiederholen / noch einmal sagen / buchstabieren?;Could you please repeat / say that again / spell that?;Можете це повторити / сказати ще раз / продиктувати по буквах?;Können Sie die IP-Adresse bitte buchstabieren?
+Können Sie mir bitte die Durchwahl geben?;Could you please give me the extension?;Можете дати мені додатковий номер?;Können Sie mir bitte die Durchwahl für den Support geben?
+Dafür ist Herr/Frau ... aus der ... zuständig.;Mr./Ms. ... from ... is responsible for this.;За це відповідає пан/пані ... з відділу ...;Dafür ist Herr Müller aus der IT-Sicherheit zuständig.
+Da sprechen Sie am besten mit ...;You had better speak to ...;Про це вам найкраще поговорити з ...;Da sprechen Sie am besten mit unserer Projektleiterin.
+Herzlichen Dank für die Informationen.;Thank you very much for the information.;Щиро дякую за інформацію.;Herzlichen Dank für die Informationen zum Systemupdate.
+Vielen Dank. Auf Wiederhören.;Thank you very much. Goodbye (on the phone).;Дуже дякую. До побачення (по телефону).;Vielen Dank für Ihre Hilfe. Auf Wiederhören.
+Wann würde es Ihnen passen?;When would it suit you?;Коли вам було б зручно?;Wann würde es Ihnen für das Meeting passen?
+Haben Sie einen Terminvorschlag?;Do you have a suggestion for a date/time?;Маєте пропозицію щодо дати/часу?;Haben Sie einen Terminvorschlag für unseren Call?
+Ich kann Ihnen einen Termin am ... anbieten.;I can offer you an appointment on ...;Я можу запропонувати вам зустріч (коли) ...;Ich kann Ihnen einen Termin am Freitagvormittag anbieten.
+Geht es am ...?;Does it work on ...?;Чи підходить (коли) ...?;Geht es am kommenden Montag um 10 Uhr?
+Hätten Sie am ... Zeit?;Would you have time on ...?;Чи був би у вас час (коли) ...?;Hätten Sie am Mittwochnachmittag Zeit?
+Geht es nicht früher, z. B. am ...?;Wouldn't it be possible earlier, e.g. on ...?;Чи не можна раніше, наприклад (когда) ...?;Geht es nicht früher, z. B. am Donnerstag?
+Geht es auch am ...?;Would it also work on ...?;Чи підійде також (коли) ...?;Geht es auch am späten Nachmittag?
+Passt Ihnen auch ...?;Would ... also suit you?;Вам підійде також (що/коли) ...?;Passt Ihnen auch der nächste Dienstag?
+Ja, das passt / das geht. Einverstanden.;Yes, that suits / works. Agreed.;Так, це підходить / влаштовує. Згоден.;Ja, das passt bei mir sehr gut. Einverstanden.
+Das geht/passt leider nicht.;Unfortunately that does not work / suit.;Це, на жаль, не підходить.;Das geht am Mittwoch leider nicht.
+Da ist kein Termin frei.;There is no appointment available then.;Тоді немає вільного часу.;Da ist in meinem Kalender leider kein Termin frei.
+Da habe ich leider keinen Termin mehr frei.;Unfortunately I have no more free slots then.;Тоді в мене, на жаль, немає вільного часу.;Am Freitagvormittag habe ich leider keinen Termin mehr frei.
+Gut, dann notiere ich den ... um / von ... bis ... Uhr.;Fine, I will note down ... at / from ... to ...;Добре, тоді я запишу (дату) на / з ... до ...;Gut, dann notiere ich den Termin für Montag um 14.00 Uhr.
+Den ... habe ich notiert.;I have noted down ...;Я записав (що/коли) ...;Den kommenden Dienstag habe ich für uns notiert.
+Es ist etwas dazwischengekommen, deswegen ...;Something came up, that's why ...;Щось завадило (виникли невідкладні справи), тому ...;Es ist etwas dazwischengekommen, deswegen muss ich absagen.
+An diesem Tag ...;On this day ...;Цього дня ...;An diesem Tag bin ich leider auf einer Konferenz.
+Deshalb muss ich den Termin absagen.;Therefore I have to cancel the appointment.;Тому я змушений скасувати зустріч.;Deshalb muss ich den Termin leider absagen.
+Ist es (vielleicht) möglich, den Termin auf nächsten Freitag / 16.00 Uhr / ... zu verlegen?;Is it (perhaps) possible to move the appointment to next Friday / 4 p.m.?;Чи можливо (може) перенести зустріч на наступну п'ятницю / 16:00?;Ist es möglich, den Termin auf nächste Woche zu verlegen?
+Bitte geben Sie mir Bescheid, ob ...;Please let me know if ...;Будь ласка, повідомте мені, чи ...;Bitte geben Sie mir Bescheid, ob das für Sie klappt.
+Ein Vorteil liegt (für mich) darin, dass ...;An advantage lies (for me) in the fact that ...;Перевага (для мене) полягає в тому, що ...;Ein Vorteil liegt darin, dass wir ortsunabhängig arbeiten können.
+Ich finde es einen Nachteil, dass ...;I find it a disadvantage that ...;Я вважаю недоліком те, що ...;Ich finde es einen Nachteil, dass die Kommunikation schwerer ist.
+Andererseits muss man auch bedenken, dass ...;On the other hand, one must also consider that ...;З іншого боку, слід також враховувати, що ...;Andererseits muss man auch bedenken, dass die Kosten steigen.
+Für/Gegen ... spricht, dass ...;In favor of / Against ... is the fact that ...;За/Проти ... свідчить те, що ...;Für die Cloud-Lösung spricht, dass sie flexibel ist.
+Zunächst wird der Wagen / das Gerät / ... angehoben/lackiert/gewartet/repariert/...;First the car / device / ... is lifted/painted/serviced/repaired/...;Спочатку автомобіль / пристрій / ... піднімають/фарбують/обслуговують/ремонтують/...;Zunächst wird der Server gewartet und neu gestartet.
+Danach/Anschließend / Als nächsten Schritt / Im Anschluss daran ...;Afterwards / As a next step / Following that ...;Після цього / наступним кроком / слідом за цим ...;Danach prüfen wir die Funktionalität der API.
+Abschließend / Zum Schluss ...;Finally / In conclusion ...;На завершення / наприкінці ...;Abschließend wird der Bericht an den Kunden gesendet.
+Es ist wichtig, ...;It is important to ...;Важливо ...;Es ist wichtig, Backups vor jedem Update zu machen.
+Bitte kontaktieren Sie ...;Please contact ...;Будь ласка, зв'яжіться з ...;Bitte kontaktieren Sie den Administrator bei Problemen.
+Seien Sie höflich/ruhig/...;Be polite/calm/...;Будьте ввічливими/спокійними/...;Seien Sie ruhig, wir lösen das Problem gemeinsam.
+Bitte gehen Sie wie folgt vor: ...;Please proceed as follows: ...;Будь ласка, дійте наступним чином: ...;Bitte gehen Sie wie folgt vor: Starten Sie den PC neu.
+Mich würde interessieren, ...;I would be interested to know ...;Мені було б цікаво дізнатися ...;Mich würde interessieren, wer für das Release zuständig ist.
+Was sollen wir machen, wenn ...?;What should we do if ...?;Що нам робити, якщо ...?;Was sollen wir machen, wenn die Datenbank ausfällt?
+Es ist unsere Aufgabe, ...;It is our task to ...;Це наше завдання — ...;Es ist unsere Aufgabe, den Code abzusichern.
+Wir sollen ...;We are supposed to ...;Ми повинні (за вказівкою) ...;Wir sollen die Dokumentation bis Freitag fertigstellen.
+Der Chef / Die Chefin hat gesagt, ...;The boss said ...;Шеф / шефиня сказав(ла) ...;Die Chefin hat gesagt, dass wir heute früher gehen können.
+Da bin ich mir nicht so sicher, ob ...;I'm not so sure about that, if ...;Я в цьому не дуже впевнений, чи ...;Da bin ich mir nicht so sicher, ob das die beste API ist.
+Das stimmt zwar, aber ...;That's true, but ...;Це правда, але ...;Das stimmt zwar, aber wir haben kein Budget dafür.
+Da bin ich nicht Ihrer Meinung.;I don't share your opinion.;Я не поділяю вашу думку.;Da bin ich leider überhaupt nicht Ihrer Meinung.
+Da bin ich anderer Meinung.;I'm of a different opinion.;Я іншої думки.;Da bin ich bezüglich des Designs anderer Meinung.
+Davon würde ich abraten.;I would advise against that.;Я б цього не радив.;Davon würde ich aus Sicherheitsgründen abraten.
+Das geht (leider) nicht, weil ...;That's (unfortunately) not possible because ...;Це, на жаль, неможливо, тому що ...;Das geht leider nicht, weil die API gesperrt ist.
+Das sehe ich anders.;I see it differently.;Я бачу це інакше.;Das sehe ich bezüglich der Performance anders.
+Dem kann ich nicht zustimmen.;I cannot agree with that.;З цим я не можу погодитися.;Dem kann ich leider nicht zustimmen.
+Das ist keine gute Idee.;That is not a good idea.;Це не хороша ідея.;Das ist meiner Meinung nach keine gute Idee.
+Ich bin dagegen.;I am against it.;Я проти.;Ich bin gegen den Kauf dieser teuren Software.
+Damit bin ich nicht einverstanden.;I do not agree with that.;З цим я не згоден.;Damit bin ich absolut nicht einverstanden.
+Woran arbeiten Sie zurzeit?;What are you working on at the moment?;Над чим ви зараз працюєте?;Woran arbeiten Sie zurzeit im Frontend?
+Wie bewerten Sie das vergangene Jahr?;How do you rate/evaluate the past year?;Як ви оцінюєте минулий рік?;Wie bewerten Sie das vergangene Jahr für unser Startup?
+Was ist aus Ihrer Sicht gut gelaufen und wo hat es Probleme gegeben?;What went well in your view and where were there problems?;Що, на вашу думку, пройшло добре, а де виникли проблеми?;Was ist aus Ihrer Sicht gut gelaufen und wo gab es Datenbankfehler?
+Wie ist das Arbeitsklima / die Zusammenarbeit (im Team)?;How is the working atmosphere / cooperation (in the team)?;Яка атмосфера роботи / співпраця (в команді)?;Wie ist das Arbeitsklima im neuen Scrum-Team?
+Wie zufrieden sind Sie mit Ihren derzeitigen Tätigkeiten?;How satisfied are you with your current tasks?;Наскільки ви задоволені своєю теперішньою діяльністю?;Wie zufrieden sind Sie mit Ihren Aufgaben als DevOps?
+Was wollen Sie im nächsten Jahr erreichen?;What do you want to achieve next year?;Чого ви хочете досягти наступного року?;Was wollen Sie im nächsten Jahr bezüglich Karriere erreichen?
+Bis wann können Sie diese Ziele erreichen?;By when can you achieve these goals?;До коли ви можете досягти цих цілей?;Bis wann können Sie diese Performance-Ziele erreichen?
+Welche Vorstellungen haben Sie hinsichtlich Ihrer beruflichen Weiterentwicklung?;What ideas do you have regarding your professional development?;Які ваші уявлення щодо професійного розвитку?;Welche Vorstellungen haben Sie hinsichtlich Schulungen?
+Wie kann ich Sie bei Ihrer Arbeit unterstützen?;How can I support you in your work?;Як я можу підтримати вас у вашій роботі?;Wie kann ich Sie bei der Einarbeitung unterstützen?
+Was halten Sie davon, an einer Fortbildung zum Thema ... teilzunehmen?;What do you think about participating in a training on the topic of ...?;Що ви думаєте про те, щоб взяти участь у підвищенні кваліфікації на тему ...?;Was halten Sie davon, an einer Fortbildung zum Thema AWS teilzunehmen?
+Brauchen Sie eine Fortbildung im Bereich ...?;Do you need training in the field of ...?;Вам потрібне підвищення кваліфікації у сфері ...?;Brauchen Sie eine Fortbildung im Bereich React?
+Wie stellen Sie sich Ihre Zukunft hier vor?;How do you imagine your future here?;Яким ви бачите своє майбутнє тут?;Wie stellen Sie sich Ihre Zukunft in unserer Firma vor?
+Schön, dass Sie alle zur Teamsitzung gekommen sind.;Nice that you all came to the team meeting.;Радий, що ви всі прийшли на збори команди.;Schön, dass Sie alle zur Teamsitzung gekommen sind.
+Auf der Tagesordnung stehen folgende Punkte: ...;The agenda includes the following items: ...;На порядку денному стоять наступні пункти: ...;Auf der Tagesordnung stehen folgende Punkte: Bug-Fixes und Budget.
+Gibt es noch Fragen/Ergänzungen zur Tagesordnung?;Are there any questions/additions to the agenda?;Чи є ще запитання/доповнення до порядку денного?;Gibt es noch Ergänzungen zur Tagesordnung des Meetings?
+Wer schreibt das Protokoll?;Who is writing the minutes/protocol?;Хто веде протокол?;Wer schreibt das Protokoll für das heutige Meeting?
+Wir/Sie könnten ...;We/You could ...;Ми/Ви могли б ...;Wir könnten das Datenbank-Backup automatisieren.
+Vielleicht könnten wir ...;Maybe we could ...;Можливо, ми могли б ...;Vielleicht könnten wir die Ladezeit optimieren.
+Ich schlage vor, dass ...;I suggest that ...;Я пропоную, щоб ...;Ich schlage vor, dass wir Github Actions nutzen.
+Was halten Sie davon, wenn ...?;What do you think if ...?;Що ви думаєте, якщо ...?;Was halten Sie davon, wenn wir Node.js verwenden?
+Wie wäre es, wenn ...?;How about if ...?;Як щодо того, якщо ...?;Wie wäre es, wenn wir morgen das Deployment machen?
+Das ist eine (sehr) gute Idee.;That is a (very) good idea.;Це (дуже) хороша ідея.;Das ist eine sehr gute Idee zur Systembeschleunigung.
+In Ordnung.;Alright. / Okay.;Добре. / Згоден.;In Ordnung, wir machen das so.
+Da bin ich ganz Ihrer Meinung.;I completely agree with you.;Тут я повністю з вами згоден.;Da bin ich bezüglich der Cloud-Migration ganz Ihrer Meinung.
+Ja, Sie haben recht.;Yes, you are right.;Так, ви маєте рацію.;Ja, Sie haben recht, der Server ist überlastet.
+Das hört sich gut an.;That sounds good.;Це звучить добре.;Das hört sich nach einem soliden Plan an.
+Das ist auch meine Erfahrung.;That is also my experience.;Це також мій досвід.;Das ist auch meine Erfahrung mit legacy Codebases.
+Das sehe ich genauso.;I see it exactly the same way.;Я бачу це точно так само.;Das sehe ich genauso, Flexbox ist hier besser.
+Ich bin dafür.;I am in favor of it.;Я за (це).;Ich bin absolut dafür, diese API zu nutzen.
+Ich glaube, es gibt ein Problem mit ...;I think there is a problem with ...;Я думаю, є проблема з ...;Ich glaube, es gibt ein Problem mit den Zugriffsrechten.
+Ich glaube, hier / an dieser Stelle hat sich ein Fehler/Problem eingeschlichen.;I think a mistake/problem has crept in here / at this point.;Я думаю, тут / у цьому місці закралася помилка/проблема.;Ich glaube, im SQL-Skript hat sich ein Fehler eingeschlichen.
+Ich finde es problematisch, dass ...;I find it problematic that ...;Я вважаю проблематичним те, що ...;Ich finde es problematisch, dass wir keine Backups haben.
+Mir ist (in letzter Zeit) aufgefallen, dass ...;I noticed (lately) that ...;Мені (останнім часом) впало в око те, що ...;Mir ist aufgefallen, dass der Server nachts langsamer wird.
+... stört mich (sehr), weil ...;... disturbs me (a lot) because ...;... мені (дуже) заважає / дратує, тому що ...;Das ständige Ändern der Anforderungen stört mich, weil es Zeit kostet.
+Man könnte ...;One could ...;Можна було б ...;Man könnte den Ladevorgang asynchron gestalten.
+Ich würde das anders machen/darstellen/festlegen ...;I would do/present/define it differently ...;Я зробив би / представив би / визначив би це інакше ...;Ich würde die Fehlermeldungen anders darstellen.
+Das müssten wir in Zukunft ändern/verbessern/...;We would have to change/improve that in the future ...;Це нам потрібно змінити/покращити в майбутньому ...;Das müssten wir in Zukunft beim Code-Stil verbessern.
+Oh, das tut mir leid. Da habe ich wohl einen Fehler gemacht.;Oh, I'm sorry. I must have made a mistake.;О, мені шкода. Я, мабуть, зробив помилку.;Oh, das tut mir leid. Da habe ich wohl einen Fehler gemacht.
+Das kommt nicht wieder vor.;That won't happen again.;Це більше не повториться.;Entschuldigung, das kommt bestimmt nicht wieder vor.
+Entschuldigen Sie bitte. Da habe ich etwas übersehen/vergessen/...;Please excuse me. I overlooked/forgot something there ...;Вибачте, будь ласка. Я там щось упустив/забув/...;Entschuldigen Sie bitte. Da habe ich einen Import vergessen.
+Entschuldigung, das war mein Fehler!;Sorry, that was my mistake!;Вибачте, це була моя помилка!;Entschuldigung, das war mein Fehler beim Git-Push!
+Das ist mir sehr peinlich/unangenehm.;I am very embarrassed/uncomfortable about this.;Мені дуже ніяково/неприємно через це.;Es ist mir sehr unangenehm, dass die Demo abgestürzt ist.
+Leider ist mir ein Fehler unterlaufen.;Unfortunately, I made a mistake.;На жаль, я припустився помилки.;Leider ist mir beim Setup ein Fehler unterlaufen.
+Grund dafür ist, dass ...;The reason for this is that ...;Причиною цього є те, що ...;Grund dafür ist, dass die Dokumentation veraltet war.
+Mir scheint, dass ...;It seems to me that ...;Мені здається, що ...;Mir scheint, dass das Team überarbeitet ist.
+Ich habe den Eindruck, dass ...;I have the impression that ...;У мене таке враження, що ...;Ich habe den Eindruck, dass die Serverlast stabil ist.
+Wenn ..., dann ...;If ..., then ...;Якщо ..., тоді ...;Wenn wir jetzt nicht handeln, dann stürzt das System ab.
+Für mich heißt/bedeutet das ...;For me that means ...;Для мене це означає ...;Für mich bedeutet das zwei Stunden Mehrarbeit.
+Nein, so hatte ich das nicht gemeint.;No, that's not what I meant.;Ні, я не це мав на увазі.;Nein, so hatte ich das nicht gemeint, die API ist gut.
+Wenn ich Sie richtig verstanden habe, meinen Sie ...;If I understood you correctly, you mean ...;Якщо я вас правильно зрозумів, ви маєте на увазі ...;Wenn ich Sie richtig verstanden habe, wollen Sie AWS nutzen.
+Ich kann nachvollziehen, dass ...;I can understand that ...;Я можу зрозуміти (поставити себе на місце), що ...;Ich kann nachvollziehen, dass Sie wegen des Ausfalls wütend sind.
+Ich sehe natürlich auch, dass ...;Of course I also see that ...;Я, звичайно, також бачу, що ...;Ich sehe natürlich auch, dass uns Ressourcen fehlen.
+Was würden Sie von folgender Lösung halten: ...?;What would you think of the following solution: ...?;Що ви думаєте про таке рішення: ...?;Was würden Sie von folgender Lösung halten: ein neuer Server?
+Was halten Sie von ...?;What do you think of ...?;Що ви думаєте про ...?;Was halten Sie von einem Wechsel zu Python?
+Ich streite mich oft/manchmal/... mit meinem Partner / meiner Partnerin / unseren Kindern / Nachbarn / ...;I often/sometimes/... argue with my partner / our children / neighbors / ...;Я часто/іноді/... сварюся зі своїм партнером / партнеркою / дітьми / сусідами / ...;Ich streite mich manchmal mit Kollegen über Code-Stile.
+Ich bleibe in einem Streit meistens ruhig/sachlich/verständnisvoll/...;In an argument I usually remain calm/objective/understanding/...;У суперечці я зазвичай залишаюся спокійним/діловим/розуміючим/...;Ich bleibe in einem Streit meistens ruhig und sachlich.
+Ich rege mich schnell auf und werde wütend, wenn ...;I get upset quickly and get angry when ...;Я швидко виходжу з себе і стаю злим, коли ...;Ich rege mich schnell auf, wenn Code ungeprüft gepusht wird.
+Ich habe meistens die Ruhe weg.;I am usually very calm/relaxed.;Я зазвичай абсолютно спокійний (мене важко вивести з рівноваги).;Keine Sorge, ich habe meistens die Ruhe weg.
+Mich macht es wütend/wahnsinnig, wenn ...;It makes me angry/crazy when ...;Мене злить / зводить з розуму, коли ...;Mich macht es wahnsinnig, wenn der Internetzugang abbricht.
+Ich sehe rot, wenn ...;I see red when ...;Я шаленію (бачу червоне світло), коли ...;Ich sehe rot, wenn Daten ohne Erlaubnis gelöscht werden.
+Könntest du mich am ... vertreten?;Could you substitute/represent me on ...?;Чи міг би ти мене замінити (коли) ...?;Könntest du mich am Freitagnachmittag vertreten?
+Ich könnte dann für dich ...;I could then ... for you;Я міг би тоді для тебе ...;Ich könnte dann für dich das Deployment übernehmen.
+Ich könnte den ... übernehmen.;I could take over the ...;Я міг би взяти на себе (що) ...;Ich könnte den Bereitschaftsdienst übernehmen.
+Ich würde gern ...;I would like to ...;Я хотів би ...;Ich würde gern nächste Woche zwei Tage Urlaub nehmen.
+Kannst du nicht ...? / Könntest du nicht ...?;Can't you ...? / Couldn't you ...?;Хіба ти не можеш ...? / Чи не міг би ти ...?;Könntest du nicht den Kundentermin übernehmen?
+Wäre es möglich, ...?;Would it be possible to ...?;Чи було б можливо ...?;Wäre es möglich, das wöchentliche Meeting zu verschieben?
+Das würde mir sehr helfen.;That would help me a lot.;Це б мені дуже допомогло.;Das würde mir beim Zeitmanagement sehr helfen.
+Da wir von den Schulferien abhängig sind, ...;Since we are dependent on the school holidays, ...;Оскільки ми залежимо від шкільних канікул, ...;Da wir von den Schulferien abhängig sind, brauche ich im August Urlaub.
+Vielleicht könntest du deinen Urlaub eine Woche früher nehmen / verschieben?;Maybe you could take your vacation a week earlier / postpone it?;Можливо, ти міг би взяти відпустку на тиждень раніше / перенести її?;Vielleicht könntest du deinen Urlaub verschieben?
+Ich schlage vor, dass wir uns duzen.;I suggest that we use the informal "du".;Я пропоную перейти на "ти".;Ich schlage vor, dass wir uns duzen, da wir im selben Team sind.
+Darf ich Ihnen das Du anbieten?;May I offer you the informal "du"?;Можна запропонувати вам спілкування на "ти"?;Darf ich Ihnen das Du anbieten, Herr Schmidt?
+Ich möchte Ihnen das Du anbieten.;I would like to offer you the informal "du".;Я хотів би запропонувати вам спілкування на "ти".;Ich möchte Ihnen das Du anbieten, da wir eng zusammenarbeiten.
+Bei uns duzt man sich. Ich bin ...;We use the informal "du" here. I am ...;У нас усі спілкуються на "ти". Я — ...;Bei uns duzt man sich. Ich bin Andreas, der Web-Developer.
+Wollen wir uns duzen?;Shall we use the informal "du"?;Будемо спілкуватися на "ти"?;Wollen wir uns duzen? Das macht die Arbeit einfacher.
+Wir duzen uns hier alle.;We all use "du" here.;Ми всі тут спілкуємося на "ти".;Wir duzen uns hier alle, auch mit dem Chef.
+Sehr gern. Ich heiße ...;With pleasure. My name is ...;Дуже охоче. Мене звати ...;Sehr gern. Ich heiße Marina, die Designerin.
+Warum nicht? Mein Name ist ...;Why not? My name is ...;Чому б і ні? Мене звати ...;Warum nicht? Mein Name ist Thomas.
+Bei uns / In ... duzen wir uns sowieso fast immer.;With us / In ... we use "du" almost always anyway.;У нас / В ... ми в будь-якому разі майже завжди спілкуємося на "ти".;In der IT-Branche duzen wir uns sowieso fast immer.
+Aber gern! Also, ich bin ...;Sure! So, I am ...;З радістю! Отже, я — ...;Aber gern! Also, ich bin Jan, der neue Admin.
+Wenn ich einen Laptop / eine Reise / Lebensmittel / ... kaufe/buche/miete, erwarte ich, dass er/es/sie zuverlässig/benutzerfreundlich/haltbar/langlebig/bio/umweltfreundlich/preiswert ist/sind bzw. effizient/günstig zu betreiben / ... ist/sind.;When I buy/book/rent a laptop / a trip / groceries / ..., I expect it to be reliable/user-friendly/durable/long-lasting/organic/environmentally friendly/cheap or efficient/cheap to run.;Коли я купую/бронюю/орендую ноутбук / подорож / продукти / ..., я очікую, що вони будуть надійними/зручними/довговічними/екологічними/дешевими або ефективними в експлуатації.;Wenn ich einen Laptop kaufe, erwarte ich, dass er zuverlässig ist.
+Beim Kauf von ... achte ich (besonders) auf das Design / den Preis / die Qualität / die Bedienbarkeit / das Image / gute Beratung / ...;When buying ... I pay (particular) attention to design / price / quality / usability / image / good advice / ...;При покупці ... я звертаю (особливу) увагу на дизайн / ціну / якість / зручність використання / імідж / хорошу консультацію / ...;Beim Kauf von Software achte ich besonders auf die Bedienbarkeit.
+... wurde falsch / nicht richtig bedient/eingestellt/gewartet/programmiert/zusammengebaut.;... was operated/adjusted/serviced/programmed/assembled incorrectly / not properly.;... було неправильно / невірно експлуатовано/налаштовано/обслужено/запрограмовано/зібрано.;Die Datenbank wurde leider falsch programmiert.
+Es gibt ein Problem mit ..., weil ...;There is a problem with ... because ...;Є проблема з ..., тому що ...;Es gibt ein Problem mit dem Router, weil er überhitzt ist.
+... weist einen (technischen) Mangel auf, weil ...;... has a (technical) defect because ...;... має (технічний) недолік, тому що ...;Die Festplatte weist einen Mangel auf, weil sie Lesefehler hat.
+Man muss/sollte vor/während/nach der Pflege von ... / der Produktion von ... / der Zubereitung von ... / ... (in Stichproben) überprüfen/kontrollieren/..., ob ...;One must/should check/control before/during/after the care of ... / production of ... / preparation of ... (in random samples) whether ...;Потрібно/слід перед/під час/після догляду за ... / виробництва ... / приготування ... (вибірково) перевіряти/контролювати/..., чи ...;Man sollte nach der Produktion überprüfen, ob alle Kriterien erfüllt sind.
+Wichtig ist, Fehler (regelmäßig) zu dokumentieren/analysieren, um sie in Zukunft vermeiden zu können.;It is important to document/analyze errors (regularly) in order to be able to avoid them in the future.;Важливо (регулярно) документувати/аналізувати помилки, щоб мати змогу уникати їх у майбутньому.;Wichtig ist, Serverfehler zu dokumentieren, um sie vermeiden zu können.
+Um ... zu verbessern, könnte/sollte man ...;In order to improve ... one could/should ...;Щоб покращити ..., можна було б / слід було б ...;Um die Ladezeit zu verbessern, sollte man die Bilder komprimieren.
+Um Mängel und Fehler bei ... zu vermeiden, wäre es gut, wenn ...;To avoid defects and errors in ... it would be good if ...;Щоб уникнути недоліків та помилок у ..., було б добре, якби ...;Um Fehler beim Code zu vermeiden, wäre es gut, wenn wir Code Reviews machen.
+Hier darf man nicht rauchen/ ... tragen.;Smoking / Wearing ... is not allowed here.;Тут не можна курити / носити ...;Hier muss man Sicherheitskleidung tragen.
+Hier muss man einen Schutzhelm/ ... tragen.;You have to wear a safety helmet/ ... here.;Тут обов'язково потрібно носити каску / ...;Hier muss man bei der Arbeit einen Schutzhelm tragen.
+Vorsicht, Stolpergefahr / gefährlicher Strom / ...!;Caution, tripping hazard / dangerous electricity / ...!;Обережно, небезпека перечепитися / небезпечний струм / ...!;Vorsicht, gefährlicher Strom am Servergehäuse!
+Die Mitarbeitenden sind im Betrieb verpflichtet, Gehörschutz/Sicherheitsschuhe/... zu tragen.;Employees are obliged to wear ear protection/safety shoes/... in the business.;Працівники зобов'язані носити на підприємстві навушники/захисне взуття/...;Die Mitarbeiter sind verpflichtet, Sicherheitsschuhe zu tragen.
+Wann ist der Unfall passiert?;When did the accident happen?;Коли стався нещасний випадок?;Wann ist der Unfall im Lager passiert?
+Am ... (Datum) um ... (Uhrzeit).;On ... (date) at ... (time).;... (дата) о ... (час).;Am 12. Mai um 14.30 Uhr.
+Es war ... um ... Uhr / während der Frühschicht, als ...;It was ... at ... o'clock / during the morning shift when ...;Це було ... о ... годині / під час ранкової зміни, коли ...;Es war um 10.00 Uhr, als die Maschine stoppte.
+Ich war auf dem Weg zum/zur ...;I was on the way to ...;Я був по дорозі до ...;Ich war auf dem Weg zur Werkstatt.
+Ich kam gerade von ...;I had just come from ...;Я щойно йшов з ...;Ich kam gerade von der Pause.
+Ich bin auf rutschigem/glattem/... Boden ausgerutscht / von einer Leiter gefallen.;I slipped on slippery/smooth/... ground / fell from a ladder.;Я посковзнувся на слизькій/гладкій/... підлозі / впав із драбини.;Ich bin auf nassem Boden ausgerutscht.
+Ich bin über Kabel/Schläuche/... gestolpert.;I tripped over cables/hoses/...;Я перечепився через кабелі/шланги/...;Ich bin über das Ladekabel gestolpert.
+Ich habe mir am Herd/ ... die Finger/ ... verbrannt.;I burned my fingers/ ... on the stove/ ...;Я обпік собі пальці/ ... на плиті/ ...;Ich habe mir am heißen Gehäuse die Finger verbrannt.
+Ich habe mir mit ... in den Finger / die Hand / ... geschnitten.;I cut my finger/hand/ ... with ...;Я порізав собі палець / руку / ... (чим) ...;Ich habe mir mit dem Messer in den Finger geschnitten.
+Ich habe mir das Bein / ... gebrochen.;I broke my leg/ ...;Я зламав собі ногу / ...;Ich habe mir den linken Arm gebrochen.
+Ich musste (mit dem Notfallwagen) zum Arzt / ins Krankenhaus.;I had to go to the doctor / hospital (by ambulance).;Мені довелося звернутися до лікаря / лягти в лікарню (на швидкій).;Ich musste mit dem Notfallwagen ins Krankenhaus.
+Ich wurde vom Arzt ... Wochen krankgeschrieben.;I was put on sick leave by the doctor for ... weeks.;Лікар виписав мені лікарняний на ... тижнів.;Ich wurde vom Arzt zwei Wochen krankgeschrieben.
+Das Gerät schalten Sie hier ein.;You switch the device on here.;Пристрій ви вмикаєте тут.;Das Gerät schalten Sie an diesem Schalter ein.
+Wenn Sie auf diesen Knopf drücken, ...;If you press this button ...;Якщо ви натиснете на цю кнопку, ...;Wenn Sie auf diesen Knopf drücken, startet das Backup.
+Wählen Sie ein Programm, indem Sie ...;Select a program by ...;Оберіть програму (яким чином) ...;Wählen Sie ein Programm, indem Sie das Rad drehen.
+Es gibt ein Problem mit dem Drucker/Gerät / der Elektronik/Mechanik von ...;There is a problem with the printer/device / electronics/mechanics of ...;Є проблема з принтером/пристроєм / електронікою/механікою (чого) ...;Es gibt ein Problem mit der Elektronik der Heizung.
+... funktioniert nicht (richtig) / läuft nicht.;... does not work (properly) / is not running.;... не працює (належним чином) / не запускається.;Die Software funktioniert heute nicht richtig.
+Ich habe ein Problem mit der Bedienung von ...;I have a problem with operating ...;У мене проблема з обслуговуванням / використанням ...;Ich habe ein Problem mit der Bedienung der Kaffeemaschine.
+Es gibt einen Stillstand bei der Maschine/Anlage.;There is a standstill at the machine/system.;Машина/установка зупинилася (простій).;Es gibt einen Stillstand bei der Verpackungsanlage.
+Ich kann das Gerät/ ... nicht starten.;I cannot start the device/ ...;Я не можу запустити пристрій / ...;Ich kann den Server nicht starten.
+Können Sie mir bitte helfen, den Fehler/Defekt/... zu beheben/beseitigen?;Could you please help me to fix the error/defect/...?;Можете допомогти мені виправити помилку/дефект/...?;Können Sie mir helfen, den Fehler zu beheben?
+Wären Sie so freundlich/nett und ...?;Would you be so kind/nice and ...?;Чи не були б ви так люб'язні і ...?;Wären Sie so freundlich und würden mir das zeigen?
+Könnten Sie mir erklären/zeigen, wie man ...?;Could you explain/show me how to ...?;Могли б ви мені пояснити/показати, як ...?;Könnten Sie mir zeigen, wie man das System konfiguriert?
+Ja, was gibt es?;Yes, what is it?;Так, що сталося?;Ja, was gibt es bei Ihnen für Probleme?
+Natürlich! / Kein Problem!;Of course! / No problem!;Звичайно! / Без проблем!;Natürlich helfe ich dir! Kein Problem!
+Haben Sie schon in der Bedienungsanleitung nachgeschaut?;Have you already looked in the operating instructions?;Ви вже дивилися в інструкції з експлуатації?;Haben Sie schon in der Bedienungsanleitung nachgeschaut?
+Vielleicht muss die Maschine / ... gewartet/gereinigt werden.;Maybe the machine / ... needs to be serviced/cleaned.;Можливо, машину / ... потрібно обслужити/почистити.;Vielleicht muss der Server entstaubt werden.
+Haben Sie schon ... überprüft?;Have you already checked ...?;Ви вже перевірили ...?;Haben Sie schon die Internetverbindung überprüft?
+Ein Grund könnte ... sein.;One reason could be ...;Однією з причин може бути ...;Ein Grund könnte ein defektes Kabel sein.
+Da müssen wir den Service kontaktieren.;We have to contact the service then.;Тоді нам потрібно зв'язатися з сервісною службою.;Da müssen wir wohl den IT-Support kontaktieren.
+Die Störung muss sofort/umgehend gemeldet werden.;The disturbance/malfunction must be reported immediately.;Про несправність необхідно негайно повідомити.;Die Störung muss umgehend dem Administrator gemeldet werden.
+Darf ich mich vorstellen? Mein Name ist ...;May I introduce myself? My name is ...;Дозвольте представитися. Мене звати ...;Darf ich mich vorstellen? Mein Name ist Jan.
+Ich heiße ... und bin bei der Firma ... im Bereich ... tätig.;My name is ... and I work for ... in the area of ...;Мене звати ... і я працюю в компанії ... у сфері ...;Ich heiße Lisa und bin bei der Firma Siemens in der Webentwicklung tätig.
+Freut mich, Sie kennenzulernen.;Pleased to meet you.;Радий знайомству з вами.;Guten Tag, freut mich, Sie kennenzulernen.
+Ich sehe, Sie schauen sich ... an.;I see you are looking at ...;Я бачу, ви дивитеся на ...;Ich sehe, Sie schauen sich unsere neuen Cloud-Lösungen an.
+Ach, Sie kommen von der Firma ...;Oh, you come from the company ...;О, ви з компанії ...;Ach, Sie kommen von der Firma Bosch?
+Die Messe ist wieder sehr gut besucht.;The fair is very well attended again.;Виставка знову дуже добре відвідувана.;Die Messe ist heute wieder sehr gut besucht.
+Darf ich Ihnen einen Kaffee anbieten?;May I offer you a coffee?;Можна запропонувати вам кави?;Darf ich Ihnen einen Kaffee anbieten, Herr Schmidt?
+Wir sind ein kleines/großes/mittelständisches Unternehmen mit ca. ... Mitarbeitenden im Bereich ...;We are a small/large/medium-sized company with approx. ... employees in the area of ...;Ми є малим/великим/середнім підприємством з близько ... працівниками у сфері ...;Wir sind ein mittelständisches Unternehmen mit ca. 80 Mitarbeitenden.
+Wir stellen ... her. / Wir produzieren/entwickeln ...;We produce/develop ...;Ми виготовляємо ... / Ми виробляємо/розробляємо ...;Wir entwickeln Web-Apps für die Logistikbranche.
+... bietet / verfügt über / ist ausgestattet mit ...;... offers / has / is equipped with ...;... пропонує / володіє / оснащений ...;Die Software verfügt über eine integrierte Firewall.
+Unsere Preise sind niedrig/günstig/variabel, weil ...;Our prices are low/favorable/variable because ...;Наші ціни низькі/вигідні/варіюються, тому що ...;Unsere Preise sind variabel, da wir Cloud-Modelle nutzen.
+Ich kann gerne zu Ihnen in die Firma kommen.;I am happy to come to your company.;Я можу приїхати до вас у компанію.;Ich kann nächste Woche gerne zu Ihnen in die Firma kommen.
+Wann / Welches Datum würde Ihnen passen?;When / Which date would suit you?;Коли / яка дата вам підійде?;Wann würde Ihnen unser Besuch passen?
+Vielen Dank für das informative Gespräch.;Thank you very much for the informative conversation.;Щиро дякую за інформативну розмову.;Vielen Dank für das informative Gespräch auf der Messe.
+Vielen Dank, dass Sie sich so viel Zeit für das Gespräch genommen haben.;Thank you very much for taking so much time for the conversation.;Дуже дякую, що приділили так багато часу розмові.;Vielen Dank, dass Sie sich Zeit für uns genommen haben.
+Ich wünsche Ihnen eine erfolgreiche Messe.;I wish you a successful exhibition.;Бажаю вам успішної виставки!;Ich wünsche Ihnen noch eine erfolgreiche Messe.
+Kann ich Ihnen helfen?;Can I help you?;Я можу вам допомогти?;Guten Tag, kann ich Ihnen helfen, Herr Müller?
+Was kann ich für Sie tun?;What can I do for you?;Чим я можу вам допомогти?;Was kann ich heute für Sie tun?
+Ich kann Ihnen ... empfehlen.;I can recommend ... to you.;Я можу рекомендувати вам ...;Ich kann Ihnen unser Pro-Paket empfehlen.
+Wir haben das Modell/Gerät/ ... (nicht) auf Lager.;We do (not) have the model/device/... in stock.;У нас (немає) цієї моделі/пристрою в наявності.;Wir haben diesen Server leider nicht auf Lager.
+Haben Sie einen besonderen Wunsch?;Do you have a special wish?;Маєте якесь особливе побажання?;Haben Sie einen besonderen Wunsch bezüglich der Hardware?
+An welches Modell / welche Farbe / welche Größe / ... haben Sie gedacht?;Which model / color / size / ... did you have in mind?;Про яку модель / колір / розмір / ... ви думали?;An welche Speicherkapazität haben Sie gedacht?
+Alle Informationen hierzu finden Sie in der Bedienungsanleitung.;All information on this can be found in the operating instructions.;Всю інформацію про це ви знайдете в інструкції з експлуатації.;Alle Informationen hierzu finden Sie in unserem Wiki.
+Hier ist die Nummer unseres Kundendienstes.;Here is the number of our customer service.;Ось номер нашої служби підтримки.;Hier is die Nummer unseres technischen Supports.
+Haben Sie noch weitere Fragen?;Do you have any further questions?;Маєте ще запитання?;Haben Sie noch weitere Fragen zu den Tarifen?
+Was sind die Vorteile dieses Modells/Geräts/ ...?;What are the advantages of this model/device/...?;Які переваги цієї моделі/пристрою?;Was sind die Vorteile dieser Cloud-Datenbank?
+Gibt es auch Nachteile?;Are there also disadvantages?;Чи є також недоліки?;Gibt es auch Nachteile bei der Open-Source-Version?
+Gibt es Ermäßigungen/Rabatte?;Are there discounts?;Чи є знижки/знижки?;Gibt es Ermäßigungen für Startups?
+Gibt es noch Sicherheitshinweise, die man beachten muss?;Are there still safety instructions to follow?;Чи є ще вказівки з безпеки, на які слід звернути увагу?;Gibt es noch Sicherheitshinweise für die Installation?
+Wie lange ist die Lieferzeit?;How long is the delivery time?;Який термін доставки?;Wie lange ist die Lieferzeit für die neuen Laptops?
+Ich bitte Sie, bis zum ... um ein detailliertes Angebot für ...;I ask you for a detailed offer for ... by ...;Прошу вас надати детальний прайс-лист/пропозицію на ... до ...;Ich bitte Sie, bis zum Freitag um ein Angebot für Server-Hosting.
+Wir bitten Sie, uns ... zuzuschicken.;We ask you to send us ...;Просимо вас надіслати нам ...;Wir bitten Sie, uns die Spezifikationen zuzuschicken.
+Wir erwarten Ihr Angebot bis zum ...;We expect your offer by ...;Ми очікуємо на вашу пропозицію до ...;Wir erwarten Ihr Angebot bis zum 20. Oktober.
+Die Ware soll bis zum ... zu liefern.;The goods are to be delivered by ...;Товар має бути доставлений до ...;Die Ware soll bis zum Monatsende geliefert werden.
+Das gewünschte Lieferdatum ist ...;The requested delivery date is ...;Бажана дата доставки — ...;Das gewünschte Lieferdatum ist der kommende Montag.
+Wir machen darauf aufmerksam, dass ...;We draw attention to the fact that ...;Звертаємо вашу увагу на те, що ...;Wir machen darauf aufmerksam, dass der Support kostenpflichtig ist.
+Wir möchten darauf hinweisen, dass wir bei verschiedenen Wettbewerbern Angebote einholen.;We would like to point out that we obtain offers from various competitors.;Хочемо зазначити, що ми запитуємо пропозиції у різних конкурентів.;Wir möchten darauf hinweisen, dass wir Angebote vergleichen.
+Für die Auftragsvergabe ist u. a. ... entscheidend/maßgeblich.;For the awarding of the contract, ... is decisive/relevant.;Для надання замовлення вирішальним є, серед іншого, ...;Für die Auftragsvergabe ist die Lieferzeit maßgeblich.
+Ein wichtiges Kriterium für die Auftragsvergabe ist die Zusicherung eines verbindlichen Liefertermins.;An important criterion for the contract is the guarantee of a binding delivery date.;Важливим критерієм для укладення контракту є гарантія зобов'язуючих термінів доставки.;Ein wichtiges Kriterium ist die Zusicherung eines Liefertermins.
+Herzlichen Dank für Ihre Anfrage.;Thank you very much for your inquiry.;Щиро дякуємо за ваш запит.;Herzlichen Dank für Ihre Anfrage bezüglich unserer Dienstleistungen.
+Gerne unterbreiten wir Ihnen folgendes Angebot: ...;We are pleased to submit the following offer: ...;Ми раді зробити вам наступну пропозицію: ...;Gerne unterbreiten wir Ihnen folgendes Angebot für Webdesign.
+Anbei erhalten Sie unser Angebot: ...;Enclosed you receive our offer: ...;У додатку ви знайдете нашу пропозицію: ...;Anbei erhalten Sie unser detailliertes Angebot als PDF.
+Die Preise verstehen sich inklusive Mehrwertsteuer.;Prices include VAT.;Ціни вказані з урахуванням ПДВ.;Die Preise verstehen sich inklusive der gesetzlichen Mehrwertsteuer.
+Es gelten folgende Zahlungsbedingungen: ...;The following terms of payment apply: ...;Діють наступні умови оплати: ...;Es gelten folgende Zahlungsbedingungen: Zahlung innerhalb von 14 Tagen.
+Selbstverständlich stehen wir Ihnen für weitere Auskünfte gerne zur Verfügung.;Of course we are happy to provide you with further information.;Звичайно, ми з радістю готові надати вам подальшу інформацію.;Wir stehen Ihnen für weitere Auskünfte gerne zur Verfügung.
+Das optionale Angebot der Firma ... ist interessant/kostengünstig/überzeugend/..., aber ...;The optional offer from ... is interesting/inexpensive/convincing/..., but ...;Опціональна пропозиція компанії ... цікава/вигідна/переконлива/..., але ...;Das optionale Angebot ist günstig, aber der Support fehlt.
+Das Modell ... ist ziemlich preisgünstig.;The model ... is quite inexpensive.;Модель ... є досить дешевою.;Das Modell ProBook ist ziemlich preisgünstig.
+Den Preis / Die technischen Daten finde ich sehr/nicht überzeugend.;I find the price / technical specifications very/not convincing.;Ціна / технічні характеристики здаються мені дуже/не переконливими.;Die technischen Daten finde ich nicht überzeugend.
+Es ist ein Vorteil/Nachteil, dass ...;It is an advantage/disadvantage that ...;Перевагою/недоліком є те, що ...;Es ist ein Vorteil, dass die Software Open Source ist.
+Vorteilig/Nachteilig finde ich ...;I find ... advantageous/disadvantageous;Вигідним/невигідним я вважаю ...;Nachteilig finde ich die hohen monatlichen Kosten.
+Der größte Vorteil/Nachteil ist ...;The biggest advantage/disadvantage is ...;Найбільшим плюсом/мінусом є ...;Der größte Vorteil ist die automatische Skalierung.
+Das Angebot der Firma ... überzeugt mich (nicht), denn ...;The offer from ... (does not) convince me because ...;Пропозиція компанії ... мене (не) переконує, тому що ...;Das Angebot überzeugt mich, denn es enthält 24/7 Support.
+Einerseits ist die Zahlungsfrist der Firma ... länger, andererseits ...;On the one hand, the payment term is longer, on the other hand ...;З одного боку, термін оплати довший, з іншого боку ...;Einerseits ist die Frist länger, andererseits sind die Preise höher.
+Ich bin dafür/dagegen, dieses Modell anzuschaffen.;I am in favor of / against acquiring this model.;Я за/проти того, щоб придбати цю модель.;Ich bin dafür, neue Laptops anzuschaffen.
+Ich kenne das Modell und habe damit gute/schlechte Erfahrungen gemacht.;I know the model and have made good/bad experiences with it.;Я знаю цю модель і мав із нею хороший/поганий досвід.;Ich kenne dieses Tool und habe damit gute Erfahrungen gemacht.
+... braucht viel/wenig/kaum Pflege und Wartung.;... needs a lot of/little/hardly any care and maintenance.;... потребує багато/мало/майже не потребує догляду та обслуговування.;Der Cloud-Server braucht kaum Wartung.
+... ist leicht/schwer zu bedienen.;... is easy/difficult to operate.;... є простим/важким у використанні.;Das CMS-System ist leicht zu bedienen.
+Ich denke, das Modell wird uns die Arbeit erleichtern.;I think the model will make our work easier.;Я думаю, ця модель полегшить нам роботу.;Ich denke, das neue Tool wird uns die Arbeit erleichtern.
+Ein anderes Argument für/gegen ... ist ...;Another argument for/against ... is ...;Іншим аргументом за/проти ... є ...;Ein anderes Argument gegen das Tool ist die Abhängigkeit.
+Ich ziehe das Angebot der Firma ... vor.;I prefer the offer from ...;Я віддаю перевагу пропозиції компанії ...;Ich ziehe das Angebot unseres bestehenden Providers vor.
+Meiner Meinung nach sollte die Firma ... den Auftrag bekommen.;In my opinion, ... should get the contract.;На мою думку, компанія ... повинна отримати замовлення.;Meiner Meinung nach sollte Firma AWS den Auftrag bekommen.
+Dann nehmen/bestellen wir also ...;Then we take/order ...;Тоді ми беремо/замовляємо ...;Dann bestellen wir also fünf Laptops für das Design-Team.
+Deshalb sollten wir das Modell ... anschaffen.;Therefore we should acquire the model ...;Тому нам слід придбати модель ...;Deshalb sollten wir dieses Software-Modell anschaffen.
+Sehr geehrte Damen und Herren, am 1. Juni 20.. haben wir bei Ihnen ... gekauft/bestellt/reklamiert/...;Dear Sir or Madam, on June 1st we bought/ordered/complained about ... from you;;Шановні панове, 1 червня ми купили/замовили/оскаржили у вас ...;Sehr geehrte Damen und Herren, am 1. Juni haben wir Laptops bestellt.
+Leider hat die Maschine (mit der Gerätenummer ...) (erhebliche) Mängel.;Unfortunately the machine (with device number ...) has (significant) defects.;На жаль, машина (з серійним номером ...) має (значні) недоліки.;Leider hat das Gerät erhebliche Mängel.
+Bei den Mängeln handelt es sich um ...;The defects are ...;Недоліки полягають у ...;Bei den Mängeln handelt es sich um fehlerhafte Sektoren.
+Trotz mehrmaliger Anrufe ...;Despite repeated calls ...;Незважаючи на неодноразові дзвінки ...;Trotz mehrmaliger Anrufe wurde das Problem nicht behoben.
+Bitte geben Sie uns Bescheid, wann ...;Please let us know when ...;Будь ласка, повідомте нам, коли ...;Bitte geben Sie uns Bescheid, wann der Techniker kommt.
+Ihre Lieferung ist (erst) am ... bei uns eingetroffen.;Your delivery arrived (only) on ...;Ваша доставка надійшла до нас (тільки) ...;Ihre Lieferung ist erst gestern bei uns eingetroffen.
+Die bei Ihnen bestellten Artikel haben wir ... erhalten.;We received the articles ordered from you ...;Ми отримали замовлені у вас товари ...;Die bestellten Artikel haben wir unvollständig erhalten.
+Bei der Warenkontrolle / der Überprüfung der Lieferung mussten wir feststellen, dass ...;During the goods inspection / checking the delivery we had to find that ...;При перевірці товарів / перевірці доставки ми були змушені констатувати, що ...;Bei der Warenkontrolle mussten wir feststellen, dass Kabel fehlen.
+Zu unserem Bedauern / Leider stellte sich heraus, dass Ihre Lieferung unvollständig/fehlerhaft / mit Mängeln behaftet ist.;To our regret / Unfortunately, it turned out that your delivery is incomplete/defective.;На наш жаль / на жаль виявилося, що ваша доставка є неповною/дефектною.;Leider stellte sich heraus, dass die Lieferung fehlerhaft ist.
+Leider hat sich gezeigt, dass ...;Unfortunately it turned out that ...;На жаль виявилося, що ...;Leider hat sich gezeigt, dass der Akku defekt ist.
+Wir erwarten, dass Sie die fehlerhaft gelieferten Artikel bis zum ... nachliefern/austauschen/...;We expect you to deliver/replace the incorrectly delivered articles by ...;Ми очікуємо, що ви доставите/заміните дефектні товари до ...;Wir erwarten, dass Sie die Artikel bis Freitag austauschen.
+Wir bitten Sie, die Waren innerhalb der nächsten drei Tage / Woche / ... abzuholen/auszutauschen/...;We ask you to collect/exchange the goods within the next three days / week / ...;Просимо вас забрати/замінити товари протягом наступних трьох днів / тижня ...;Wir bitten Sie, die Laptops innerhalb einer Woche abzuholen.
+Bitte holen Sie ... ab / tauschen Sie ... aus.;Please collect ... / exchange ...;Будь ласка, заберіть ... / замініть ...;Bitte tauschen Sie die defekte Festplatte aus.
+Bitte liefern Sie ... nach.;Please deliver ...;Будь ласка, доставте (чого не вистачає) ...;Bitte liefern Sie die fehlenden Netzkabel nach.
+Bitte nennen Sie uns einen verbindlichen Termin, an dem ...;Please give us a binding date/time on which ...;Будь ласка, назвіть нам точну дату/час, коли ...;Bitte nennen Sie uns einen Termin, an dem die Ware eintrifft.

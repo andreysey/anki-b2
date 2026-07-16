@@ -21971,6 +21971,3510 @@
     "levels": [
       "B2"
     ],
+    "thema": 95,
+    "german": "Das Thema meines Vortrags / meiner Präsentation lautet ...",
+    "german_audio": "Das Thema meines Vortrags",
+    "english": "The topic of my presentation is ...",
+    "ukrainian": "Тема моєї презентації звучить як ...",
+    "example": "Das Thema meiner Präsentation lautet \"Cloud-Migration\"."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ich werde die folgenden Themen behandeln: ...",
+    "german_audio": "Ich werde die folgenden Themen behandeln: ...",
+    "english": "I will cover the following topics: ...",
+    "ukrainian": "Я розгляну наступні теми: ...",
+    "example": "Ich werde die folgenden Themen behandeln: Kosten, Sicherheit und Skalierbarkeit."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ich möchte Ihnen heute ... vorstellen.",
+    "german_audio": "Ich möchte Ihnen heute ... vorstellen.",
+    "english": "I would like to present ... to you today.",
+    "ukrainian": "Я хотів би представити вам сьогодні ...",
+    "example": "Ich möchte Ihnen heute unser neues IT-Produkt <b style=\"color: #eab308;\">vorstellen.</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ich werde Ihnen einen Überblick über ... geben.",
+    "german_audio": "Ich werde Ihnen einen Überblick über ... geben.",
+    "english": "I will give you an overview of ...",
+    "ukrainian": "Я надам вам огляд ...",
+    "example": "Ich werde Ihnen einen Überblick über den aktuellen Projektstatus <b style=\"color: #eab308;\">geben.</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ich freue mich, dass ich Ihnen ... präsentieren kann.",
+    "german_audio": "Ich freue mich",
+    "english": "I am pleased to present ... to you.",
+    "ukrainian": "Я радий, що можу презентувати вам ...",
+    "example": "Ich freue <b style=\"color: #eab308;\">mich</b>, dass ich Ihnen unsere neue App präsentieren kann."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Meine Präsentation besteht aus drei/ ... Teilen.",
+    "german_audio": "Meine Präsentation besteht aus drei",
+    "english": "My presentation consists of three/ ... parts.",
+    "ukrainian": "Моя презентація складається з трьох/ ... частин.",
+    "example": "Meine Präsentation besteht aus <b style=\"color: #eab308;\">drei</b> Teilen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Im ersten Teil spreche ich über ...",
+    "german_audio": "Im ersten Teil spreche ich über ...",
+    "english": "In the first part I will talk about ...",
+    "ukrainian": "У першій частині я розповім про ...",
+    "example": "Im ersten Teil spreche ich über die Systemarchitektur."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Zunächst werde ich ...",
+    "german_audio": "Zunächst werde ich ...",
+    "english": "First, I will ...",
+    "ukrainian": "Спочатку я ...",
+    "example": "Zunächst werde ich die wichtigsten Probleme erklären."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Anschließend möchte ich auf ... eingehen.",
+    "german_audio": "Anschließend möchte ich auf ... eingehen.",
+    "english": "Afterwards I would like to go into ...",
+    "ukrainian": "Після цього я хотів би зупинитися на ...",
+    "example": "Anschließend möchte ich auf die Kosten <b style=\"color: #eab308;\">eingehen.</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ich komme jetzt zum nächsten Punkt/Teil.",
+    "german_audio": "Ich komme jetzt zum nächsten Punkt",
+    "english": "I am now coming to the next point/part.",
+    "ukrainian": "Я переходжу до наступного пункту/частини.",
+    "example": "Ich komme jetzt zum nächsten Teil meiner Präsentation."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Im Folgenden/Abschließend möchte ich auf die folgenden Punkte zu sprechen kommen: ...",
+    "german_audio": "Im Folgenden",
+    "english": "In the following/concluding part I would like to address the following points: ...",
+    "ukrainian": "Надалі/на завершення я хотів би зупинитися на наступних пунктах: ...",
+    "example": "Abschließend möchte ich auf die Sicherheitsrisiken zu sprechen kommen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ich komme jetzt zum Schluss.",
+    "german_audio": "Ich komme jetzt zum Schluss.",
+    "english": "I am now coming to the end.",
+    "ukrainian": "Я підходжу до завершення.",
+    "example": "Ich komme jetzt zum <b style=\"color: #eab308;\">Schluss</b> meiner Präsentation."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Zusammenfassend möchte ich sagen, dass ...",
+    "german_audio": "Zusammenfassend möchte ich sagen",
+    "english": "In summary, I would like to say that ...",
+    "ukrainian": "Підсумовуючи, я хотів би сказати, що ...",
+    "example": "Zusammenfassend möchte ich <b style=\"color: #eab308;\">sagen</b>, dass das Projekt erfolgreich läuft."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Vielen Dank für Ihre Aufmerksamkeit.",
+    "german_audio": "Vielen Dank für Ihre Aufmerksamkeit.",
+    "english": "Thank you very much for your attention.",
+    "ukrainian": "Дуже дякую за вашу увагу!",
+    "example": "Vielen Dank für Ihre <b style=\"color: #eab308;\">Aufmerksamkeit</b> und Geduld."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Für Fragen stehe ich Ihnen gerne zur Verfügung.",
+    "german_audio": "Für Fragen stehe ich Ihnen gerne zur Verfügung.",
+    "english": "I am happy to answer any questions you may have.",
+    "ukrainian": "Я з радістю відповім на ваші запитання.",
+    "example": "Für Fragen stehe ich Ihnen gerne zur <b style=\"color: #eab308;\">Verfügung.</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Haben Sie Fragen?",
+    "german_audio": "Haben Sie Fragen?",
+    "english": "Do you have any questions?",
+    "ukrainian": "Маєте запитання?",
+    "example": "Haben Sie <b style=\"color: #eab308;\">Fragen</b> zu den gezeigten Daten?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ich hoffe, ich konnte Sie für das Thema interessieren.",
+    "german_audio": "Ich hoffe",
+    "english": "I hope I could get you interested in the topic.",
+    "ukrainian": "Сподіваюся, мені вдалося зацікавити вас цією темою.",
+    "example": "Ich <b style=\"color: #eab308;\">hoffe</b>, ich konnte Sie für das Thema Open Source interessieren."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ich hoffe, das Thema war für Sie interessant.",
+    "german_audio": "Ich hoffe",
+    "english": "I hope the topic was interesting for you.",
+    "ukrainian": "Сподіваюся, ця тема була для вас цікавою.",
+    "example": "Ich <b style=\"color: #eab308;\">hoffe</b>, das Thema Server-Sicherheit war für Sie interessant."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Die Firma ist wie folgt organisiert: ...",
+    "german_audio": "Die Firma ist wie folgt organisiert: ...",
+    "english": "The company is organized as follows: ...",
+    "ukrainian": "Компанія організована наступним чином: ...",
+    "example": "Die Firma ist wie folgt organisiert: Es gibt drei Hauptabteilungen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Die Geschäftsführung ist allen Bereichen übergeordnet.",
+    "german_audio": "Die Geschäftsführung ist allen Bereichen übergeordnet.",
+    "english": "The management is superior to all areas.",
+    "ukrainian": "Керівництво компанії стоїть над усіма підрозділами.",
+    "example": "Die Geschäftsführung ist allen Bereichen <b style=\"color: #eab308;\">übergeordnet.</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "An der Spitze steht/stehen ...",
+    "german_audio": "An der Spitze steht",
+    "english": "At the top is/are ...",
+    "ukrainian": "На чолі стоїть/стоять ...",
+    "example": "An der Spitze <b style=\"color: #eab308;\">steht</b> unser CTO."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Die Hauptbereiche sind ...",
+    "german_audio": "Die Hauptbereiche sind ...",
+    "english": "The main areas are ...",
+    "ukrainian": "Головними сферами є ...",
+    "example": "Die Hauptbereiche sind Entwicklung, Support und Vertrieb."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Der Bereich ... ist in die Abteilungen ... untergliedert/unterteilt.",
+    "german_audio": "Der Bereich ... ist in die Abteilungen ... untergliedert",
+    "english": "The area ... is subdivided into departments ...",
+    "ukrainian": "Сфера ... підрозділяється на відділи ...",
+    "example": "Der Bereich Entwicklung ist in drei Unterteams <b style=\"color: #eab308;\">untergliedert</b>."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Zum Bereich Verwaltung/... gehören ...",
+    "german_audio": "Zum Bereich Verwaltung",
+    "english": "The administration/... area includes ...",
+    "ukrainian": "До сфери управління/... належать ...",
+    "example": "Zum Bereich Support gehören fünf Mitarbeiter."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Produktion/Lager/... sind dem ... zugeordnet/untergeordnet.",
+    "german_audio": "Produktion",
+    "english": "Production/Warehouse/... are assigned/subordinated to ...",
+    "ukrainian": "Виробництво/склад/... підпорядковані ...",
+    "example": "Die Server-Admins sind dem System-Team untergeordnet."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Der Vertrieb hat die Aufgabe ...",
+    "german_audio": "Der Vertrieb hat die Aufgabe ...",
+    "english": "Sales has the task of ...",
+    "ukrainian": "Відділ збуту має завдання ...",
+    "example": "Der Vertrieb hat die Aufgabe, neue Verträge abzuschließen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Der direkte Verkauf hat den großen/besonderen Vorteil ...",
+    "german_audio": "Der direkte Verkauf hat den großen",
+    "english": "Direct sales has the great/special advantage ...",
+    "ukrainian": "Прямі продажі мають велику перевагу ...",
+    "example": "Der direkte Verkauf hat den Vorteil eines schnellen Feedbacks."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Der Titel der Grafik ist ...",
+    "german_audio": "Der Titel der Grafik ist ...",
+    "english": "The title of the chart is ...",
+    "ukrainian": "Назва графіка — ...",
+    "example": "Der Titel der Grafik ist \"Umsatzentwicklung 2026\"."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Die Daten stammen von ...",
+    "german_audio": "Die Daten stammen von ...",
+    "english": "The data comes from ...",
+    "ukrainian": "Дані походять від (джерело) ...",
+    "example": "Die Daten stammen vom Statistischen Bundesamt."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Die Grafik zeigt ...",
+    "german_audio": "Die Grafik zeigt ...",
+    "english": "The chart shows ...",
+    "ukrainian": "Графік показує ...",
+    "example": "Die Grafik zeigt den Anstieg der Nutzerzahlen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Aus der Grafik geht hervor, dass ...",
+    "german_audio": "Aus der Grafik geht hervor",
+    "english": "The chart shows that ...",
+    "ukrainian": "З графіка випливає, що ...",
+    "example": "Aus der Grafik geht <b style=\"color: #eab308;\">hervor</b>, dass die Migration Kosten spart."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Es fällt besonders auf, dass ...",
+    "german_audio": "Es fällt besonders auf",
+    "english": "It is particularly noticeable that ...",
+    "ukrainian": "Особливо впадає в око те, що ...",
+    "example": "Es fällt besonders auf, dass die Latenz im Sommer stieg."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Die Daten legen den Schluss nahe, dass ...",
+    "german_audio": "Die Daten legen den Schluss nahe",
+    "english": "The data suggests that ...",
+    "ukrainian": "Дані дозволяють зробити висновок, що ...",
+    "example": "Die Daten legen den Schluss <b style=\"color: #eab308;\">nahe</b>, dass wir mehr Server brauchen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Sie sprechen mit ...",
+    "german_audio": "Sie sprechen mit ...",
+    "english": "You are speaking with ...",
+    "ukrainian": "Ви розмовляєте з ...",
+    "example": "Sie sprechen mit dem IT-Support, guten Tag."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Was kann ich für Sie tun?",
+    "german_audio": "Was kann ich für Sie tun?",
+    "english": "What can I do for you?",
+    "ukrainian": "Чим я можу вам допомогти?",
+    "example": "Was kann ich für Sie tun, Herr Schmidt?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ich würde gerne mit ... sprechen.",
+    "german_audio": "Ich würde gerne mit ... sprechen.",
+    "english": "I would like to speak with ...",
+    "ukrainian": "Я хотів би поговорити з ...",
+    "example": "Ich würde gerne mit dem Systemadministrator <b style=\"color: #eab308;\">sprechen.</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Können Sie mich mit ... verbinden?",
+    "german_audio": "Können Sie mich mit ... verbinden?",
+    "english": "Could you connect me with ...?",
+    "ukrainian": "Можете з'єднати мене з ...?",
+    "example": "Können Sie mich mit der HR-Abteilung <b style=\"color: #eab308;\">verbinden?</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Einen Moment bitte, ich verbinde.",
+    "german_audio": "Einen Moment bitte",
+    "english": "One moment please, I will connect you.",
+    "ukrainian": "Хвилинку, будь ласка, з'єдную.",
+    "example": "Einen Moment <b style=\"color: #eab308;\">bitte</b>, ich verbinde Sie mit dem Chef."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Können Sie ... bitten, mich zurückzurufen?",
+    "german_audio": "Können Sie ... bitten",
+    "english": "Could you ask ... to call me back?",
+    "ukrainian": "Можете попросити ... мені передзвонити?",
+    "example": "Können Sie den Entwickler <b style=\"color: #eab308;\">bitten</b>, mich zurückzurufen?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Kann ich etwas ausrichten?",
+    "german_audio": "Kann ich etwas ausrichten?",
+    "english": "Can I take a message?",
+    "ukrainian": "Можу я щось передати?",
+    "example": "Kann ich dem Kollegen etwas <b style=\"color: #eab308;\">ausrichten?</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Können Sie das bitte wiederholen / noch einmal sagen / buchstabieren?",
+    "german_audio": "Können Sie das bitte wiederholen",
+    "english": "Could you please repeat / say that again / spell that?",
+    "ukrainian": "Можете це повторити / сказати ще раз / продиктувати по буквах?",
+    "example": "Können Sie die IP-Adresse bitte buchstabieren?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Können Sie mir bitte die Durchwahl geben?",
+    "german_audio": "Können Sie mir bitte die Durchwahl geben?",
+    "english": "Could you please give me the extension?",
+    "ukrainian": "Можете дати мені додатковий номер?",
+    "example": "Können Sie mir bitte die Durchwahl für den Support <b style=\"color: #eab308;\">geben?</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Dafür ist Herr/Frau ... aus der ... zuständig.",
+    "german_audio": "Dafür ist Herr",
+    "english": "Mr./Ms. ... from ... is responsible for this.",
+    "ukrainian": "За це відповідає пан/пані ... з відділу ...",
+    "example": "Dafür ist <b style=\"color: #eab308;\">Herr</b> Müller aus der IT-Sicherheit zuständig."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Da sprechen Sie am besten mit ...",
+    "german_audio": "Da sprechen Sie am besten mit ...",
+    "english": "You had better speak to ...",
+    "ukrainian": "Про це вам найкраще поговорити з ...",
+    "example": "Da sprechen Sie am besten mit unserer Projektleiterin."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Herzlichen Dank für die Informationen.",
+    "german_audio": "Herzlichen Dank für die Informationen.",
+    "english": "Thank you very much for the information.",
+    "ukrainian": "Щиро дякую за інформацію.",
+    "example": "Herzlichen Dank für die <b style=\"color: #eab308;\">Informationen</b> zum Systemupdate."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Vielen Dank. Auf Wiederhören.",
+    "german_audio": "Vielen Dank. Auf Wiederhören.",
+    "english": "Thank you very much. Goodbye (on the phone).",
+    "ukrainian": "Дуже дякую. До побачення (по телефону).",
+    "example": "Vielen Dank für Ihre Hilfe. Auf <b style=\"color: #eab308;\">Wiederhören.</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Wann würde es Ihnen passen?",
+    "german_audio": "Wann würde es Ihnen passen?",
+    "english": "When would it suit you?",
+    "ukrainian": "Коли вам було б зручно?",
+    "example": "Wann würde es Ihnen für das Meeting <b style=\"color: #eab308;\">passen?</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Haben Sie einen Terminvorschlag?",
+    "german_audio": "Haben Sie einen Terminvorschlag?",
+    "english": "Do you have a suggestion for a date/time?",
+    "ukrainian": "Маєте пропозицію щодо дати/часу?",
+    "example": "Haben Sie einen <b style=\"color: #eab308;\">Terminvorschlag</b> für unseren Call?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ich kann Ihnen einen Termin am ... anbieten.",
+    "german_audio": "Ich kann Ihnen einen Termin am ... anbieten.",
+    "english": "I can offer you an appointment on ...",
+    "ukrainian": "Я можу запропонувати вам зустріч (коли) ...",
+    "example": "Ich kann Ihnen einen Termin am Freitagvormittag <b style=\"color: #eab308;\">anbieten.</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Geht es am ...?",
+    "german_audio": "Geht es am ...?",
+    "english": "Does it work on ...?",
+    "ukrainian": "Чи підходить (коли) ...?",
+    "example": "Geht es am kommenden Montag um 10 Uhr?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Hätten Sie am ... Zeit?",
+    "german_audio": "Hätten Sie am ... Zeit?",
+    "english": "Would you have time on ...?",
+    "ukrainian": "Чи був би у вас час (коли) ...?",
+    "example": "Hätten Sie am Mittwochnachmittag <b style=\"color: #eab308;\">Zeit?</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Geht es nicht früher, z. B. am ...?",
+    "german_audio": "Geht es nicht früher",
+    "english": "Wouldn't it be possible earlier, e.g. on ...?",
+    "ukrainian": "Чи не можна раніше, наприклад (когда) ...?",
+    "example": "Geht es nicht <b style=\"color: #eab308;\">früher</b>, z. B. am Donnerstag?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Geht es auch am ...?",
+    "german_audio": "Geht es auch am ...?",
+    "english": "Would it also work on ...?",
+    "ukrainian": "Чи підійде також (коли) ...?",
+    "example": "Geht es auch am späten Nachmittag?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Passt Ihnen auch ...?",
+    "german_audio": "Passt Ihnen auch ...?",
+    "english": "Would ... also suit you?",
+    "ukrainian": "Вам підійде також (що/коли) ...?",
+    "example": "Passt Ihnen auch der nächste Dienstag?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ja, das passt / das geht. Einverstanden.",
+    "german_audio": "Ja",
+    "english": "Yes, that suits / works. Agreed.",
+    "ukrainian": "Так, це підходить / влаштовує. Згоден.",
+    "example": "Ja, das passt bei mir sehr gut. Einverstanden."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Das geht/passt leider nicht.",
+    "german_audio": "Das geht",
+    "english": "Unfortunately that does not work / suit.",
+    "ukrainian": "Це, на жаль, не підходить.",
+    "example": "Das <b style=\"color: #eab308;\">geht</b> am Mittwoch leider nicht."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Da ist kein Termin frei.",
+    "german_audio": "Da ist kein Termin frei.",
+    "english": "There is no appointment available then.",
+    "ukrainian": "Тоді немає вільного часу.",
+    "example": "Da ist in meinem Kalender leider kein Termin <b style=\"color: #eab308;\">frei.</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Da habe ich leider keinen Termin mehr frei.",
+    "german_audio": "Da habe ich leider keinen Termin mehr frei.",
+    "english": "Unfortunately I have no more free slots then.",
+    "ukrainian": "Тоді в мене, на жаль, немає вільного часу.",
+    "example": "Am Freitagvormittag habe ich leider keinen Termin mehr <b style=\"color: #eab308;\">frei.</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Gut, dann notiere ich den ... um / von ... bis ... Uhr.",
+    "german_audio": "Gut",
+    "english": "Fine, I will note down ... at / from ... to ...",
+    "ukrainian": "Добре, тоді я запишу (дату) на / з ... до ...",
+    "example": "Gut, dann notiere ich den Termin für Montag um 14.00 Uhr."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Den ... habe ich notiert.",
+    "german_audio": "Den ... habe ich notiert.",
+    "english": "I have noted down ...",
+    "ukrainian": "Я записав (що/коли) ...",
+    "example": "Den kommenden Dienstag habe ich für uns <b style=\"color: #eab308;\">notiert.</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Es ist etwas dazwischengekommen, deswegen ...",
+    "german_audio": "Es ist etwas dazwischengekommen",
+    "english": "Something came up, that's why ...",
+    "ukrainian": "Щось завадило (виникли невідкладні справи), тому ...",
+    "example": "Es ist etwas <b style=\"color: #eab308;\">dazwischengekommen</b>, deswegen muss ich absagen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "An diesem Tag ...",
+    "german_audio": "An diesem Tag ...",
+    "english": "On this day ...",
+    "ukrainian": "Цього дня ...",
+    "example": "An diesem Tag bin ich leider auf einer Konferenz."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Deshalb muss ich den Termin absagen.",
+    "german_audio": "Deshalb muss ich den Termin absagen.",
+    "english": "Therefore I have to cancel the appointment.",
+    "ukrainian": "Тому я змушений скасувати зустріч.",
+    "example": "Deshalb muss ich den Termin leider <b style=\"color: #eab308;\">absagen.</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ist es (vielleicht) möglich, den Termin auf nächsten Freitag / 16.00 Uhr / ... zu verlegen?",
+    "german_audio": "Ist es möglich",
+    "english": "Is it (perhaps) possible to move the appointment to next Friday / 4 p.m.?",
+    "ukrainian": "Чи можливо (може) перенести зустріч на наступну п'ятницю / 16:00?",
+    "example": "Ist es <b style=\"color: #eab308;\">möglich</b>, den Termin auf nächste Woche zu verlegen?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Bitte geben Sie mir Bescheid, ob ...",
+    "german_audio": "Bitte geben Sie mir Bescheid",
+    "english": "Please let me know if ...",
+    "ukrainian": "Будь ласка, повідомте мені, чи ...",
+    "example": "Bitte geben Sie mir <b style=\"color: #eab308;\">Bescheid</b>, ob das für Sie klappt."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ein Vorteil liegt (für mich) darin, dass ...",
+    "german_audio": "Ein Vorteil liegt darin",
+    "english": "An advantage lies (for me) in the fact that ...",
+    "ukrainian": "Перевага (для мене) полягає в тому, що ...",
+    "example": "Ein Vorteil liegt <b style=\"color: #eab308;\">darin</b>, dass wir ortsunabhängig arbeiten können."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ich finde es einen Nachteil, dass ...",
+    "german_audio": "Ich finde es einen Nachteil",
+    "english": "I find it a disadvantage that ...",
+    "ukrainian": "Я вважаю недоліком те, що ...",
+    "example": "Ich finde es einen <b style=\"color: #eab308;\">Nachteil</b>, dass die Kommunikation schwerer ist."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Andererseits muss man auch bedenken, dass ...",
+    "german_audio": "Andererseits muss man auch bedenken",
+    "english": "On the other hand, one must also consider that ...",
+    "ukrainian": "З іншого боку, слід також враховувати, що ...",
+    "example": "Andererseits muss man auch <b style=\"color: #eab308;\">bedenken</b>, dass die Kosten steigen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Für/Gegen ... spricht, dass ...",
+    "german_audio": "Für",
+    "english": "In favor of / Against ... is the fact that ...",
+    "ukrainian": "За/Проти ... свідчить те, що ...",
+    "example": "<b style=\"color: #eab308;\">Für</b> die Cloud-Lösung spricht, dass sie flexibel ist."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Zunächst wird der Wagen / das Gerät / ... angehoben/lackiert/gewartet/repariert/...",
+    "german_audio": "Zunächst wird der Wagen",
+    "english": "First the car / device / ... is lifted/painted/serviced/repaired/...",
+    "ukrainian": "Спочатку автомобіль / пристрій / ... піднімають/фарбують/обслуговують/ремонтують/...",
+    "example": "Zunächst wird der Server gewartet und neu gestartet."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Danach/Anschließend / Als nächsten Schritt / Im Anschluss daran ...",
+    "german_audio": "Danach",
+    "english": "Afterwards / As a next step / Following that ...",
+    "ukrainian": "Після цього / наступним кроком / слідом за цим ...",
+    "example": "<b style=\"color: #eab308;\">Danach</b> prüfen wir die Funktionalität der API."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Abschließend / Zum Schluss ...",
+    "german_audio": "Abschließend",
+    "english": "Finally / In conclusion ...",
+    "ukrainian": "На завершення / наприкінці ...",
+    "example": "<b style=\"color: #eab308;\">Abschließend</b> wird der Bericht an den Kunden gesendet."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Es ist wichtig, ...",
+    "german_audio": "Es ist wichtig",
+    "english": "It is important to ...",
+    "ukrainian": "Важливо ...",
+    "example": "Es ist <b style=\"color: #eab308;\">wichtig</b>, Backups vor jedem Update zu machen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Bitte kontaktieren Sie ...",
+    "german_audio": "Bitte kontaktieren Sie ...",
+    "english": "Please contact ...",
+    "ukrainian": "Будь ласка, зв'яжіться з ...",
+    "example": "Bitte kontaktieren Sie den Administrator bei Problemen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Seien Sie höflich/ruhig/...",
+    "german_audio": "Seien Sie höflich",
+    "english": "Be polite/calm/...",
+    "ukrainian": "Будьте ввічливими/спокійними/...",
+    "example": "Seien Sie ruhig, wir lösen das Problem gemeinsam."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Bitte gehen Sie wie folgt vor: ...",
+    "german_audio": "Bitte gehen Sie wie folgt vor: ...",
+    "english": "Please proceed as follows: ...",
+    "ukrainian": "Будь ласка, дійте наступним чином: ...",
+    "example": "Bitte gehen Sie wie folgt vor: Starten Sie den PC neu."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Mich würde interessieren, ...",
+    "german_audio": "Mich würde interessieren",
+    "english": "I would be interested to know ...",
+    "ukrainian": "Мені було б цікаво дізнатися ...",
+    "example": "Mich würde <b style=\"color: #eab308;\">interessieren</b>, wer für das Release zuständig ist."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Was sollen wir machen, wenn ...?",
+    "german_audio": "Was sollen wir machen",
+    "english": "What should we do if ...?",
+    "ukrainian": "Що нам робити, якщо ...?",
+    "example": "Was sollen wir <b style=\"color: #eab308;\">machen</b>, wenn die Datenbank ausfällt?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Es ist unsere Aufgabe, ...",
+    "german_audio": "Es ist unsere Aufgabe",
+    "english": "It is our task to ...",
+    "ukrainian": "Це наше завдання — ...",
+    "example": "Es ist unsere <b style=\"color: #eab308;\">Aufgabe</b>, den Code abzusichern."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Wir sollen ...",
+    "german_audio": "Wir sollen ...",
+    "english": "We are supposed to ...",
+    "ukrainian": "Ми повинні (за вказівкою) ...",
+    "example": "Wir sollen die Dokumentation bis Freitag fertigstellen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Der Chef / Die Chefin hat gesagt, ...",
+    "german_audio": "Der Chef",
+    "english": "The boss said ...",
+    "ukrainian": "Шеф / шефиня сказав(ла) ...",
+    "example": "Die <b style=\"color: #eab308;\">Chefin</b> hat gesagt, dass wir heute früher gehen können."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Da bin ich mir nicht so sicher, ob ...",
+    "german_audio": "Da bin ich mir nicht so sicher",
+    "english": "I'm not so sure about that, if ...",
+    "ukrainian": "Я в цьому не дуже впевнений, чи ...",
+    "example": "Da bin ich mir nicht so <b style=\"color: #eab308;\">sicher</b>, ob das die beste API ist."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Das stimmt zwar, aber ...",
+    "german_audio": "Das stimmt zwar",
+    "english": "That's true, but ...",
+    "ukrainian": "Це правда, але ...",
+    "example": "Das stimmt <b style=\"color: #eab308;\">zwar</b>, aber wir haben kein Budget dafür."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Da bin ich nicht Ihrer Meinung.",
+    "german_audio": "Da bin ich nicht Ihrer Meinung.",
+    "english": "I don't share your opinion.",
+    "ukrainian": "Я не поділяю вашу думку.",
+    "example": "Da bin ich leider überhaupt nicht Ihrer <b style=\"color: #eab308;\">Meinung.</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Da bin ich anderer Meinung.",
+    "german_audio": "Da bin ich anderer Meinung.",
+    "english": "I'm of a different opinion.",
+    "ukrainian": "Я іншої думки.",
+    "example": "Da bin ich bezüglich des Designs anderer <b style=\"color: #eab308;\">Meinung.</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Davon würde ich abraten.",
+    "german_audio": "Davon würde ich abraten.",
+    "english": "I would advise against that.",
+    "ukrainian": "Я б цього не радив.",
+    "example": "Davon würde ich aus Sicherheitsgründen <b style=\"color: #eab308;\">abraten.</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Das geht (leider) nicht, weil ...",
+    "german_audio": "Das geht nicht",
+    "english": "That's (unfortunately) not possible because ...",
+    "ukrainian": "Це, на жаль, неможливо, тому що ...",
+    "example": "Das geht leider <b style=\"color: #eab308;\">nicht</b>, weil die API gesperrt ist."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Das sehe ich anders.",
+    "german_audio": "Das sehe ich anders.",
+    "english": "I see it differently.",
+    "ukrainian": "Я бачу це інакше.",
+    "example": "Das sehe ich bezüglich der Performance <b style=\"color: #eab308;\">anders.</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Dem kann ich nicht zustimmen.",
+    "german_audio": "Dem kann ich nicht zustimmen.",
+    "english": "I cannot agree with that.",
+    "ukrainian": "З цим я не можу погодитися.",
+    "example": "Dem kann ich leider nicht <b style=\"color: #eab308;\">zustimmen.</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Das ist keine gute Idee.",
+    "german_audio": "Das ist keine gute Idee.",
+    "english": "That is not a good idea.",
+    "ukrainian": "Це не хороша ідея.",
+    "example": "Das ist meiner Meinung nach keine gute <b style=\"color: #eab308;\">Idee.</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ich bin dagegen.",
+    "german_audio": "Ich bin dagegen.",
+    "english": "I am against it.",
+    "ukrainian": "Я проти.",
+    "example": "Ich bin gegen den Kauf dieser teuren Software."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Damit bin ich nicht einverstanden.",
+    "german_audio": "Damit bin ich nicht einverstanden.",
+    "english": "I do not agree with that.",
+    "ukrainian": "З цим я не згоден.",
+    "example": "Damit bin ich absolut nicht <b style=\"color: #eab308;\">einverstanden.</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Woran arbeiten Sie zurzeit?",
+    "german_audio": "Woran arbeiten Sie zurzeit?",
+    "english": "What are you working on at the moment?",
+    "ukrainian": "Над чим ви зараз працюєте?",
+    "example": "Woran arbeiten Sie <b style=\"color: #eab308;\">zurzeit</b> im Frontend?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Wie bewerten Sie das vergangene Jahr?",
+    "german_audio": "Wie bewerten Sie das vergangene Jahr?",
+    "english": "How do you rate/evaluate the past year?",
+    "ukrainian": "Як ви оцінюєте минулий рік?",
+    "example": "Wie bewerten Sie das vergangene <b style=\"color: #eab308;\">Jahr</b> für unser Startup?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Was ist aus Ihrer Sicht gut gelaufen und wo hat es Probleme gegeben?",
+    "german_audio": "Was ist aus Ihrer Sicht gut gelaufen und wo hat es Probleme gegeben?",
+    "english": "What went well in your view and where were there problems?",
+    "ukrainian": "Що, на вашу думку, пройшло добре, а де виникли проблеми?",
+    "example": "Was ist aus Ihrer Sicht gut gelaufen und wo gab es Datenbankfehler?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Wie ist das Arbeitsklima / die Zusammenarbeit (im Team)?",
+    "german_audio": "Wie ist das Arbeitsklima",
+    "english": "How is the working atmosphere / cooperation (in the team)?",
+    "ukrainian": "Яка атмосфера роботи / співпраця (в команді)?",
+    "example": "Wie ist das <b style=\"color: #eab308;\">Arbeitsklima</b> im neuen Scrum-Team?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Wie zufrieden sind Sie mit Ihren derzeitigen Tätigkeiten?",
+    "german_audio": "Wie zufrieden sind Sie mit Ihren derzeitigen Tätigkeiten?",
+    "english": "How satisfied are you with your current tasks?",
+    "ukrainian": "Наскільки ви задоволені своєю теперішньою діяльністю?",
+    "example": "Wie zufrieden sind Sie mit Ihren Aufgaben als DevOps?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Was wollen Sie im nächsten Jahr erreichen?",
+    "german_audio": "Was wollen Sie im nächsten Jahr erreichen?",
+    "english": "What do you want to achieve next year?",
+    "ukrainian": "Чого ви хочете досягти наступного року?",
+    "example": "Was wollen Sie im nächsten Jahr bezüglich Karriere <b style=\"color: #eab308;\">erreichen?</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Bis wann können Sie diese Ziele erreichen?",
+    "german_audio": "Bis wann können Sie diese Ziele erreichen?",
+    "english": "By when can you achieve these goals?",
+    "ukrainian": "До коли ви можете досягти цих цілей?",
+    "example": "Bis wann können Sie diese Performance-Ziele <b style=\"color: #eab308;\">erreichen?</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Welche Vorstellungen haben Sie hinsichtlich Ihrer beruflichen Weiterentwicklung?",
+    "german_audio": "Welche Vorstellungen haben Sie hinsichtlich Ihrer beruflichen Weiterentwicklung?",
+    "english": "What ideas do you have regarding your professional development?",
+    "ukrainian": "Які ваші уявлення щодо професійного розвитку?",
+    "example": "Welche Vorstellungen haben Sie hinsichtlich Schulungen?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Wie kann ich Sie bei Ihrer Arbeit unterstützen?",
+    "german_audio": "Wie kann ich Sie bei Ihrer Arbeit unterstützen?",
+    "english": "How can I support you in your work?",
+    "ukrainian": "Як я можу підтримати вас у вашій роботі?",
+    "example": "Wie kann ich Sie bei der Einarbeitung <b style=\"color: #eab308;\">unterstützen?</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Was halten Sie davon, an einer Fortbildung zum Thema ... teilzunehmen?",
+    "german_audio": "Was halten Sie davon",
+    "english": "What do you think about participating in a training on the topic of ...?",
+    "ukrainian": "Що ви думаєте про те, щоб взяти участь у підвищенні кваліфікації на тему ...?",
+    "example": "Was halten Sie <b style=\"color: #eab308;\">davon</b>, an einer Fortbildung zum Thema AWS teilzunehmen?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Brauchen Sie eine Fortbildung im Bereich ...?",
+    "german_audio": "Brauchen Sie eine Fortbildung im Bereich ...?",
+    "english": "Do you need training in the field of ...?",
+    "ukrainian": "Вам потрібне підвищення кваліфікації у сфері ...?",
+    "example": "Brauchen Sie eine Fortbildung im Bereich React?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Wie stellen Sie sich Ihre Zukunft hier vor?",
+    "german_audio": "Wie stellen Sie sich Ihre Zukunft hier vor?",
+    "english": "How do you imagine your future here?",
+    "ukrainian": "Яким ви бачите своє майбутнє тут?",
+    "example": "Wie stellen Sie sich Ihre Zukunft in unserer Firma <b style=\"color: #eab308;\">vor?</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Schön, dass Sie alle zur Teamsitzung gekommen sind.",
+    "german_audio": "Schön",
+    "english": "Nice that you all came to the team meeting.",
+    "ukrainian": "Радий, що ви всі прийшли на збори команди.",
+    "example": "<b style=\"color: #eab308;\">Schön</b>, dass Sie alle zur Teamsitzung gekommen sind."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Auf der Tagesordnung stehen folgende Punkte: ...",
+    "german_audio": "Auf der Tagesordnung stehen folgende Punkte: ...",
+    "english": "The agenda includes the following items: ...",
+    "ukrainian": "На порядку денному стоять наступні пункти: ...",
+    "example": "Auf der Tagesordnung stehen folgende Punkte: Bug-Fixes und Budget."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Gibt es noch Fragen/Ergänzungen zur Tagesordnung?",
+    "german_audio": "Gibt es noch Fragen",
+    "english": "Are there any questions/additions to the agenda?",
+    "ukrainian": "Чи є ще запитання/доповнення до порядку денного?",
+    "example": "Gibt es noch Ergänzungen zur Tagesordnung des Meetings?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Wer schreibt das Protokoll?",
+    "german_audio": "Wer schreibt das Protokoll?",
+    "english": "Who is writing the minutes/protocol?",
+    "ukrainian": "Хто веде протокол?",
+    "example": "Wer schreibt das <b style=\"color: #eab308;\">Protokoll</b> für das heutige Meeting?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Wir/Sie könnten ...",
+    "german_audio": "Wir",
+    "english": "We/You could ...",
+    "ukrainian": "Ми/Ви могли б ...",
+    "example": "Wir könnten das Datenbank-Backup automatisieren."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Vielleicht könnten wir ...",
+    "german_audio": "Vielleicht könnten wir ...",
+    "english": "Maybe we could ...",
+    "ukrainian": "Можливо, ми могли б ...",
+    "example": "Vielleicht könnten wir die Ladezeit optimieren."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ich schlage vor, dass ...",
+    "german_audio": "Ich schlage vor",
+    "english": "I suggest that ...",
+    "ukrainian": "Я пропоную, щоб ...",
+    "example": "Ich schlage vor, dass wir Github Actions nutzen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Was halten Sie davon, wenn ...?",
+    "german_audio": "Was halten Sie davon",
+    "english": "What do you think if ...?",
+    "ukrainian": "Що ви думаєте, якщо ...?",
+    "example": "Was halten Sie <b style=\"color: #eab308;\">davon</b>, wenn wir Node.js verwenden?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Wie wäre es, wenn ...?",
+    "german_audio": "Wie wäre es",
+    "english": "How about if ...?",
+    "ukrainian": "Як щодо того, якщо ...?",
+    "example": "Wie wäre es, wenn wir morgen das Deployment machen?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Das ist eine (sehr) gute Idee.",
+    "german_audio": "Das ist eine gute Idee.",
+    "english": "That is a (very) good idea.",
+    "ukrainian": "Це (дуже) хороша ідея.",
+    "example": "Das ist eine sehr gute <b style=\"color: #eab308;\">Idee</b> zur Systembeschleunigung."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "In Ordnung.",
+    "german_audio": "In Ordnung.",
+    "english": "Alright. / Okay.",
+    "ukrainian": "Добре. / Згоден.",
+    "example": "In <b style=\"color: #eab308;\">Ordnung</b>, wir machen das so."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Da bin ich ganz Ihrer Meinung.",
+    "german_audio": "Da bin ich ganz Ihrer Meinung.",
+    "english": "I completely agree with you.",
+    "ukrainian": "Тут я повністю з вами згоден.",
+    "example": "Da bin ich bezüglich der Cloud-Migration ganz Ihrer <b style=\"color: #eab308;\">Meinung.</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ja, Sie haben recht.",
+    "german_audio": "Ja",
+    "english": "Yes, you are right.",
+    "ukrainian": "Так, ви маєте рацію.",
+    "example": "Ja, Sie haben recht, der Server ist überlastet."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Das hört sich gut an.",
+    "german_audio": "Das hört sich gut an.",
+    "english": "That sounds good.",
+    "ukrainian": "Це звучить добре.",
+    "example": "Das hört sich nach einem soliden Plan an."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Das ist auch meine Erfahrung.",
+    "german_audio": "Das ist auch meine Erfahrung.",
+    "english": "That is also my experience.",
+    "ukrainian": "Це також мій досвід.",
+    "example": "Das ist auch meine <b style=\"color: #eab308;\">Erfahrung</b> mit legacy Codebases."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Das sehe ich genauso.",
+    "german_audio": "Das sehe ich genauso.",
+    "english": "I see it exactly the same way.",
+    "ukrainian": "Я бачу це точно так само.",
+    "example": "Das sehe ich <b style=\"color: #eab308;\">genauso</b>, Flexbox ist hier besser."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ich bin dafür.",
+    "german_audio": "Ich bin dafür.",
+    "english": "I am in favor of it.",
+    "ukrainian": "Я за (це).",
+    "example": "Ich bin absolut <b style=\"color: #eab308;\">dafür</b>, diese API zu nutzen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ich glaube, es gibt ein Problem mit ...",
+    "german_audio": "Ich glaube",
+    "english": "I think there is a problem with ...",
+    "ukrainian": "Я думаю, є проблема з ...",
+    "example": "Ich <b style=\"color: #eab308;\">glaube</b>, es gibt ein Problem mit den Zugriffsrechten."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ich glaube, hier / an dieser Stelle hat sich ein Fehler/Problem eingeschlichen.",
+    "german_audio": "Ich glaube",
+    "english": "I think a mistake/problem has crept in here / at this point.",
+    "ukrainian": "Я думаю, тут / у цьому місці закралася помилка/проблема.",
+    "example": "Ich <b style=\"color: #eab308;\">glaube</b>, im SQL-Skript hat sich ein Fehler eingeschlichen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ich finde es problematisch, dass ...",
+    "german_audio": "Ich finde es problematisch",
+    "english": "I find it problematic that ...",
+    "ukrainian": "Я вважаю проблематичним те, що ...",
+    "example": "Ich finde es <b style=\"color: #eab308;\">problematisch</b>, dass wir keine Backups haben."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Mir ist (in letzter Zeit) aufgefallen, dass ...",
+    "german_audio": "Mir ist aufgefallen",
+    "english": "I noticed (lately) that ...",
+    "ukrainian": "Мені (останнім часом) впало в око те, що ...",
+    "example": "Mir ist <b style=\"color: #eab308;\">aufgefallen</b>, dass der Server nachts langsamer wird."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "... stört mich (sehr), weil ...",
+    "german_audio": "... stört mich",
+    "english": "... disturbs me (a lot) because ...",
+    "ukrainian": "... мені (дуже) заважає / дратує, тому що ...",
+    "example": "Das ständige Ändern der Anforderungen stört <b style=\"color: #eab308;\">mich</b>, weil es Zeit kostet."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Man könnte ...",
+    "german_audio": "Man könnte ...",
+    "english": "One could ...",
+    "ukrainian": "Можна було б ...",
+    "example": "Man könnte den Ladevorgang asynchron gestalten."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ich würde das anders machen/darstellen/festlegen ...",
+    "german_audio": "Ich würde das anders machen",
+    "english": "I would do/present/define it differently ...",
+    "ukrainian": "Я зробив би / представив би / визначив би це інакше ...",
+    "example": "Ich würde die Fehlermeldungen anders darstellen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Das müssten wir in Zukunft ändern/verbessern/...",
+    "german_audio": "Das müssten wir in Zukunft ändern",
+    "english": "We would have to change/improve that in the future ...",
+    "ukrainian": "Це нам потрібно змінити/покращити в майбутньому ...",
+    "example": "Das müssten wir in Zukunft beim Code-Stil verbessern."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Oh, das tut mir leid. Da habe ich wohl einen Fehler gemacht.",
+    "german_audio": "Oh",
+    "english": "Oh, I'm sorry. I must have made a mistake.",
+    "ukrainian": "О, мені шкода. Я, мабуть, зробив помилку.",
+    "example": "Oh, das tut mir leid. Da habe ich wohl einen Fehler gemacht."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Das kommt nicht wieder vor.",
+    "german_audio": "Das kommt nicht wieder vor.",
+    "english": "That won't happen again.",
+    "ukrainian": "Це більше не повториться.",
+    "example": "Entschuldigung, das kommt bestimmt nicht wieder <b style=\"color: #eab308;\">vor.</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Entschuldigen Sie bitte. Da habe ich etwas übersehen/vergessen/...",
+    "german_audio": "Entschuldigen Sie bitte. Da habe ich etwas übersehen",
+    "english": "Please excuse me. I overlooked/forgot something there ...",
+    "ukrainian": "Вибачте, будь ласка. Я там щось упустив/забув/...",
+    "example": "Entschuldigen Sie bitte. Da habe ich einen Import vergessen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Entschuldigung, das war mein Fehler!",
+    "german_audio": "Entschuldigung",
+    "english": "Sorry, that was my mistake!",
+    "ukrainian": "Вибачте, це була моя помилка!",
+    "example": "<b style=\"color: #eab308;\">Entschuldigung</b>, das war mein Fehler beim Git-Push!"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Das ist mir sehr peinlich/unangenehm.",
+    "german_audio": "Das ist mir sehr peinlich",
+    "english": "I am very embarrassed/uncomfortable about this.",
+    "ukrainian": "Мені дуже ніяково/неприємно через це.",
+    "example": "Es ist mir sehr unangenehm, dass die Demo abgestürzt ist."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Leider ist mir ein Fehler unterlaufen.",
+    "german_audio": "Leider ist mir ein Fehler unterlaufen.",
+    "english": "Unfortunately, I made a mistake.",
+    "ukrainian": "На жаль, я припустився помилки.",
+    "example": "Leider ist mir beim Setup ein Fehler <b style=\"color: #eab308;\">unterlaufen.</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Grund dafür ist, dass ...",
+    "german_audio": "Grund dafür ist",
+    "english": "The reason for this is that ...",
+    "ukrainian": "Причиною цього є те, що ...",
+    "example": "Grund dafür ist, dass die Dokumentation veraltet war."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Mir scheint, dass ...",
+    "german_audio": "Mir scheint",
+    "english": "It seems to me that ...",
+    "ukrainian": "Мені здається, що ...",
+    "example": "Mir <b style=\"color: #eab308;\">scheint</b>, dass das Team überarbeitet ist."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ich habe den Eindruck, dass ...",
+    "german_audio": "Ich habe den Eindruck",
+    "english": "I have the impression that ...",
+    "ukrainian": "У мене таке враження, що ...",
+    "example": "Ich habe den <b style=\"color: #eab308;\">Eindruck</b>, dass die Serverlast stabil ist."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Wenn ..., dann ...",
+    "german_audio": "Wenn ...",
+    "english": "If ..., then ...",
+    "ukrainian": "Якщо ..., тоді ...",
+    "example": "Wenn wir jetzt nicht handeln, dann stürzt das System ab."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Für mich heißt/bedeutet das ...",
+    "german_audio": "Für mich heißt",
+    "english": "For me that means ...",
+    "ukrainian": "Для мене це означає ...",
+    "example": "Für mich bedeutet das zwei Stunden Mehrarbeit."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Nein, so hatte ich das nicht gemeint.",
+    "german_audio": "Nein",
+    "english": "No, that's not what I meant.",
+    "ukrainian": "Ні, я не це мав на увазі.",
+    "example": "<b style=\"color: #eab308;\">Nein</b>, so hatte ich das nicht gemeint, die API ist gut."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Wenn ich Sie richtig verstanden habe, meinen Sie ...",
+    "german_audio": "Wenn ich Sie richtig verstanden habe",
+    "english": "If I understood you correctly, you mean ...",
+    "ukrainian": "Якщо я вас правильно зрозумів, ви маєте на увазі ...",
+    "example": "Wenn ich Sie richtig verstanden <b style=\"color: #eab308;\">habe</b>, wollen Sie AWS nutzen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ich kann nachvollziehen, dass ...",
+    "german_audio": "Ich kann nachvollziehen",
+    "english": "I can understand that ...",
+    "ukrainian": "Я можу зрозуміти (поставити себе на місце), що ...",
+    "example": "Ich kann <b style=\"color: #eab308;\">nachvollziehen</b>, dass Sie wegen des Ausfalls wütend sind."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ich sehe natürlich auch, dass ...",
+    "german_audio": "Ich sehe natürlich auch",
+    "english": "Of course I also see that ...",
+    "ukrainian": "Я, звичайно, також бачу, що ...",
+    "example": "Ich sehe natürlich <b style=\"color: #eab308;\">auch</b>, dass uns Ressourcen fehlen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Was würden Sie von folgender Lösung halten: ...?",
+    "german_audio": "Was würden Sie von folgender Lösung halten: ...?",
+    "english": "What would you think of the following solution: ...?",
+    "ukrainian": "Що ви думаєте про таке рішення: ...?",
+    "example": "Was würden Sie von folgender Lösung halten: ein neuer Server?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Was halten Sie von ...?",
+    "german_audio": "Was halten Sie von ...?",
+    "english": "What do you think of ...?",
+    "ukrainian": "Що ви думаєте про ...?",
+    "example": "Was halten Sie von einem Wechsel zu Python?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ich streite mich oft/manchmal/... mit meinem Partner / meiner Partnerin / unseren Kindern / Nachbarn / ...",
+    "german_audio": "Ich streite mich oft",
+    "english": "I often/sometimes/... argue with my partner / our children / neighbors / ...",
+    "ukrainian": "Я часто/іноді/... сварюся зі своїм партнером / партнеркою / дітьми / сусідами / ...",
+    "example": "Ich streite mich manchmal mit Kollegen über Code-Stile."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ich bleibe in einem Streit meistens ruhig/sachlich/verständnisvoll/...",
+    "german_audio": "Ich bleibe in einem Streit meistens ruhig",
+    "english": "In an argument I usually remain calm/objective/understanding/...",
+    "ukrainian": "У суперечці я зазвичай залишаюся спокійним/діловим/розуміючим/...",
+    "example": "Ich bleibe in einem Streit meistens <b style=\"color: #eab308;\">ruhig</b> und sachlich."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ich rege mich schnell auf und werde wütend, wenn ...",
+    "german_audio": "Ich rege mich schnell auf und werde wütend",
+    "english": "I get upset quickly and get angry when ...",
+    "ukrainian": "Я швидко виходжу з себе і стаю злим, коли ...",
+    "example": "Ich rege mich schnell auf, wenn Code ungeprüft gepusht wird."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ich habe meistens die Ruhe weg.",
+    "german_audio": "Ich habe meistens die Ruhe weg.",
+    "english": "I am usually very calm/relaxed.",
+    "ukrainian": "Я зазвичай абсолютно спокійний (мене важко вивести з рівноваги).",
+    "example": "Keine Sorge, ich habe meistens die Ruhe <b style=\"color: #eab308;\">weg.</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Mich macht es wütend/wahnsinnig, wenn ...",
+    "german_audio": "Mich macht es wütend",
+    "english": "It makes me angry/crazy when ...",
+    "ukrainian": "Мене злить / зводить з розуму, коли ...",
+    "example": "Mich macht es wahnsinnig, wenn der Internetzugang abbricht."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ich sehe rot, wenn ...",
+    "german_audio": "Ich sehe rot",
+    "english": "I see red when ...",
+    "ukrainian": "Я шаленію (бачу червоне світло), коли ...",
+    "example": "Ich sehe rot, wenn Daten ohne Erlaubnis gelöscht werden."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Könntest du mich am ... vertreten?",
+    "german_audio": "Könntest du mich am ... vertreten?",
+    "english": "Could you substitute/represent me on ...?",
+    "ukrainian": "Чи міг би ти мене замінити (коли) ...?",
+    "example": "Könntest du mich am Freitagnachmittag <b style=\"color: #eab308;\">vertreten?</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ich könnte dann für dich ...",
+    "german_audio": "Ich könnte dann für dich ...",
+    "english": "I could then ... for you",
+    "ukrainian": "Я міг би тоді для тебе ...",
+    "example": "Ich könnte dann für dich das Deployment übernehmen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ich könnte den ... übernehmen.",
+    "german_audio": "Ich könnte den ... übernehmen.",
+    "english": "I could take over the ...",
+    "ukrainian": "Я міг би взяти на себе (що) ...",
+    "example": "Ich könnte den Bereitschaftsdienst <b style=\"color: #eab308;\">übernehmen.</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ich würde gern ...",
+    "german_audio": "Ich würde gern ...",
+    "english": "I would like to ...",
+    "ukrainian": "Я хотів би ...",
+    "example": "Ich würde gern nächste Woche zwei Tage Urlaub nehmen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Kannst du nicht ...? / Könntest du nicht ...?",
+    "german_audio": "Kannst du nicht ...?",
+    "english": "Can't you ...? / Couldn't you ...?",
+    "ukrainian": "Хіба ти не можеш ...? / Чи не міг би ти ...?",
+    "example": "Könntest du nicht den Kundentermin übernehmen?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Wäre es möglich, ...?",
+    "german_audio": "Wäre es möglich",
+    "english": "Would it be possible to ...?",
+    "ukrainian": "Чи було б можливо ...?",
+    "example": "Wäre es <b style=\"color: #eab308;\">möglich</b>, das wöchentliche Meeting zu verschieben?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Das würde mir sehr helfen.",
+    "german_audio": "Das würde mir sehr helfen.",
+    "english": "That would help me a lot.",
+    "ukrainian": "Це б мені дуже допомогло.",
+    "example": "Das würde mir beim Zeitmanagement sehr <b style=\"color: #eab308;\">helfen.</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Da wir von den Schulferien abhängig sind, ...",
+    "german_audio": "Da wir von den Schulferien abhängig sind",
+    "english": "Since we are dependent on the school holidays, ...",
+    "ukrainian": "Оскільки ми залежимо від шкільних канікул, ...",
+    "example": "Da wir von den Schulferien abhängig <b style=\"color: #eab308;\">sind</b>, brauche ich im August Urlaub."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Vielleicht könntest du deinen Urlaub eine Woche früher nehmen / verschieben?",
+    "german_audio": "Vielleicht könntest du deinen Urlaub eine Woche früher nehmen",
+    "english": "Maybe you could take your vacation a week earlier / postpone it?",
+    "ukrainian": "Можливо, ти міг би взяти відпустку на тиждень раніше / перенести її?",
+    "example": "Vielleicht könntest du deinen Urlaub verschieben?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ich schlage vor, dass wir uns duzen.",
+    "german_audio": "Ich schlage vor",
+    "english": "I suggest that we use the informal \"du\".",
+    "ukrainian": "Я пропоную перейти на \"ти\".",
+    "example": "Ich schlage vor, dass wir uns duzen, da wir im selben Team sind."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Darf ich Ihnen das Du anbieten?",
+    "german_audio": "Darf ich Ihnen das Du anbieten?",
+    "english": "May I offer you the informal \"du\"?",
+    "ukrainian": "Можна запропонувати вам спілкування на \"ти\"?",
+    "example": "Darf ich Ihnen das Du <b style=\"color: #eab308;\">anbieten</b>, Herr Schmidt?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ich möchte Ihnen das Du anbieten.",
+    "german_audio": "Ich möchte Ihnen das Du anbieten.",
+    "english": "I would like to offer you the informal \"du\".",
+    "ukrainian": "Я хотів би запропонувати вам спілкування на \"ти\".",
+    "example": "Ich möchte Ihnen das Du <b style=\"color: #eab308;\">anbieten</b>, da wir eng zusammenarbeiten."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Bei uns duzt man sich. Ich bin ...",
+    "german_audio": "Bei uns duzt man sich. Ich bin ...",
+    "english": "We use the informal \"du\" here. I am ...",
+    "ukrainian": "У нас усі спілкуються на \"ти\". Я — ...",
+    "example": "Bei uns duzt man sich. Ich bin Andreas, der Web-Developer."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Wollen wir uns duzen?",
+    "german_audio": "Wollen wir uns duzen?",
+    "english": "Shall we use the informal \"du\"?",
+    "ukrainian": "Будемо спілкуватися на \"ти\"?",
+    "example": "Wollen wir uns <b style=\"color: #eab308;\">duzen?</b> Das macht die Arbeit einfacher."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Wir duzen uns hier alle.",
+    "german_audio": "Wir duzen uns hier alle.",
+    "english": "We all use \"du\" here.",
+    "ukrainian": "Ми всі тут спілкуємося на \"ти\".",
+    "example": "Wir duzen uns hier <b style=\"color: #eab308;\">alle</b>, auch mit dem Chef."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Sehr gern. Ich heiße ...",
+    "german_audio": "Sehr gern. Ich heiße ...",
+    "english": "With pleasure. My name is ...",
+    "ukrainian": "Дуже охоче. Мене звати ...",
+    "example": "Sehr gern. Ich heiße Marina, die Designerin."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Warum nicht? Mein Name ist ...",
+    "german_audio": "Warum nicht? Mein Name ist ...",
+    "english": "Why not? My name is ...",
+    "ukrainian": "Чому б і ні? Мене звати ...",
+    "example": "Warum nicht? Mein Name ist Thomas."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Bei uns / In ... duzen wir uns sowieso fast immer.",
+    "german_audio": "Bei uns",
+    "english": "With us / In ... we use \"du\" almost always anyway.",
+    "ukrainian": "У нас / В ... ми в будь-якому разі майже завжди спілкуємося на \"ти\".",
+    "example": "In der IT-Branche duzen wir uns sowieso fast immer."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Aber gern! Also, ich bin ...",
+    "german_audio": "Aber gern! Also",
+    "english": "Sure! So, I am ...",
+    "ukrainian": "З радістю! Отже, я — ...",
+    "example": "Aber gern! <b style=\"color: #eab308;\">Also</b>, ich bin Jan, der neue Admin."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Wenn ich einen Laptop / eine Reise / Lebensmittel / ... kaufe/buche/miete, erwarte ich, dass er/es/sie zuverlässig/benutzerfreundlich/haltbar/langlebig/bio/umweltfreundlich/preiswert ist/sind bzw. effizient/günstig zu betreiben / ... ist/sind.",
+    "german_audio": "Wenn ich einen Laptop",
+    "english": "When I buy/book/rent a laptop / a trip / groceries / ..., I expect it to be reliable/user-friendly/durable/long-lasting/organic/environmentally friendly/cheap or efficient/cheap to run.",
+    "ukrainian": "Коли я купую/бронюю/орендую ноутбук / подорож / продукти / ..., я очікую, що вони будуть надійними/зручними/довговічними/екологічними/дешевими або ефективними в експлуатації.",
+    "example": "Wenn ich einen <b style=\"color: #eab308;\">Laptop</b> kaufe, erwarte ich, dass er zuverlässig ist."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Beim Kauf von ... achte ich (besonders) auf das Design / den Preis / die Qualität / die Bedienbarkeit / das Image / gute Beratung / ...",
+    "german_audio": "Beim Kauf von ... achte ich auf das Design",
+    "english": "When buying ... I pay (particular) attention to design / price / quality / usability / image / good advice / ...",
+    "ukrainian": "При покупці ... я звертаю (особливу) увагу на дизайн / ціну / якість / зручність використання / імідж / хорошу консультацію / ...",
+    "example": "Beim Kauf von Software achte ich besonders auf die Bedienbarkeit."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "... wurde falsch / nicht richtig bedient/eingestellt/gewartet/programmiert/zusammengebaut.",
+    "german_audio": "... wurde falsch",
+    "english": "... was operated/adjusted/serviced/programmed/assembled incorrectly / not properly.",
+    "ukrainian": "... було неправильно / невірно експлуатовано/налаштовано/обслужено/запрограмовано/зібрано.",
+    "example": "Die Datenbank wurde leider <b style=\"color: #eab308;\">falsch</b> programmiert."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Es gibt ein Problem mit ..., weil ...",
+    "german_audio": "Es gibt ein Problem mit ...",
+    "english": "There is a problem with ... because ...",
+    "ukrainian": "Є проблема з ..., тому що ...",
+    "example": "Es gibt ein Problem mit dem Router, weil er überhitzt ist."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "... weist einen (technischen) Mangel auf, weil ...",
+    "german_audio": "... weist einen Mangel auf",
+    "english": "... has a (technical) defect because ...",
+    "ukrainian": "... має (технічний) недолік, тому що ...",
+    "example": "Die Festplatte weist einen Mangel auf, weil sie Lesefehler hat."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Man muss/sollte vor/während/nach der Pflege von ... / der Produktion von ... / der Zubereitung von ... / ... (in Stichproben) überprüfen/kontrollieren/..., ob ...",
+    "german_audio": "Man muss",
+    "english": "One must/should check/control before/during/after the care of ... / production of ... / preparation of ... (in random samples) whether ...",
+    "ukrainian": "Потрібно/слід перед/під час/після догляду за ... / виробництва ... / приготування ... (вибірково) перевіряти/контролювати/..., чи ...",
+    "example": "Man sollte nach der Produktion überprüfen, ob alle Kriterien erfüllt sind."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Wichtig ist, Fehler (regelmäßig) zu dokumentieren/analysieren, um sie in Zukunft vermeiden zu können.",
+    "german_audio": "Wichtig ist",
+    "english": "It is important to document/analyze errors (regularly) in order to be able to avoid them in the future.",
+    "ukrainian": "Важливо (регулярно) документувати/аналізувати помилки, щоб мати змогу уникати їх у майбутньому.",
+    "example": "Wichtig ist, Serverfehler zu dokumentieren, um sie vermeiden zu können."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Um ... zu verbessern, könnte/sollte man ...",
+    "german_audio": "Um ... zu verbessern",
+    "english": "In order to improve ... one could/should ...",
+    "ukrainian": "Щоб покращити ..., можна було б / слід було б ...",
+    "example": "Um die Ladezeit zu <b style=\"color: #eab308;\">verbessern</b>, sollte man die Bilder komprimieren."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Um Mängel und Fehler bei ... zu vermeiden, wäre es gut, wenn ...",
+    "german_audio": "Um Mängel und Fehler bei ... zu vermeiden",
+    "english": "To avoid defects and errors in ... it would be good if ...",
+    "ukrainian": "Щоб уникнути недоліків та помилок у ..., було б добре, якби ...",
+    "example": "Um Fehler beim Code zu <b style=\"color: #eab308;\">vermeiden</b>, wäre es gut, wenn wir Code Reviews machen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Hier darf man nicht rauchen/ ... tragen.",
+    "german_audio": "Hier darf man nicht rauchen",
+    "english": "Smoking / Wearing ... is not allowed here.",
+    "ukrainian": "Тут не можна курити / носити ...",
+    "example": "Hier muss man Sicherheitskleidung tragen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Hier muss man einen Schutzhelm/ ... tragen.",
+    "german_audio": "Hier muss man einen Schutzhelm",
+    "english": "You have to wear a safety helmet/ ... here.",
+    "ukrainian": "Тут обов'язково потрібно носити каску / ...",
+    "example": "Hier muss man bei der Arbeit einen <b style=\"color: #eab308;\">Schutzhelm</b> tragen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Vorsicht, Stolpergefahr / gefährlicher Strom / ...!",
+    "german_audio": "Vorsicht",
+    "english": "Caution, tripping hazard / dangerous electricity / ...!",
+    "ukrainian": "Обережно, небезпека перечепитися / небезпечний струм / ...!",
+    "example": "<b style=\"color: #eab308;\">Vorsicht</b>, gefährlicher Strom am Servergehäuse!"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Die Mitarbeitenden sind im Betrieb verpflichtet, Gehörschutz/Sicherheitsschuhe/... zu tragen.",
+    "german_audio": "Die Mitarbeitenden sind im Betrieb verpflichtet",
+    "english": "Employees are obliged to wear ear protection/safety shoes/... in the business.",
+    "ukrainian": "Працівники зобов'язані носити на підприємстві навушники/захисне взуття/...",
+    "example": "Die Mitarbeiter sind <b style=\"color: #eab308;\">verpflichtet</b>, Sicherheitsschuhe zu tragen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Wann ist der Unfall passiert?",
+    "german_audio": "Wann ist der Unfall passiert?",
+    "english": "When did the accident happen?",
+    "ukrainian": "Коли стався нещасний випадок?",
+    "example": "Wann ist der Unfall im Lager <b style=\"color: #eab308;\">passiert?</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Am ... (Datum) um ... (Uhrzeit).",
+    "german_audio": "Am ... um ....",
+    "english": "On ... (date) at ... (time).",
+    "ukrainian": "... (дата) о ... (час).",
+    "example": "Am 12. Mai um 14.30 Uhr."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Es war ... um ... Uhr / während der Frühschicht, als ...",
+    "german_audio": "Es war ... um ... Uhr",
+    "english": "It was ... at ... o'clock / during the morning shift when ...",
+    "ukrainian": "Це було ... о ... годині / під час ранкової зміни, коли ...",
+    "example": "Es war um 10.00 Uhr, als die Maschine stoppte."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ich war auf dem Weg zum/zur ...",
+    "german_audio": "Ich war auf dem Weg zum",
+    "english": "I was on the way to ...",
+    "ukrainian": "Я був по дорозі до ...",
+    "example": "Ich war auf dem Weg zur Werkstatt."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ich kam gerade von ...",
+    "german_audio": "Ich kam gerade von ...",
+    "english": "I had just come from ...",
+    "ukrainian": "Я щойно йшов з ...",
+    "example": "Ich kam gerade von der Pause."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ich bin auf rutschigem/glattem/... Boden ausgerutscht / von einer Leiter gefallen.",
+    "german_audio": "Ich bin auf rutschigem",
+    "english": "I slipped on slippery/smooth/... ground / fell from a ladder.",
+    "ukrainian": "Я посковзнувся на слизькій/гладкій/... підлозі / впав із драбини.",
+    "example": "Ich bin auf nassem Boden ausgerutscht."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ich bin über Kabel/Schläuche/... gestolpert.",
+    "german_audio": "Ich bin über Kabel",
+    "english": "I tripped over cables/hoses/...",
+    "ukrainian": "Я перечепився через кабелі/шланги/...",
+    "example": "Ich bin über das Ladekabel gestolpert."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ich habe mir am Herd/ ... die Finger/ ... verbrannt.",
+    "german_audio": "Ich habe mir am Herd",
+    "english": "I burned my fingers/ ... on the stove/ ...",
+    "ukrainian": "Я обпік собі пальці/ ... на плиті/ ...",
+    "example": "Ich habe mir am heißen Gehäuse die Finger verbrannt."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ich habe mir mit ... in den Finger / die Hand / ... geschnitten.",
+    "german_audio": "Ich habe mir mit ... in den Finger",
+    "english": "I cut my finger/hand/ ... with ...",
+    "ukrainian": "Я порізав собі палець / руку / ... (чим) ...",
+    "example": "Ich habe mir mit dem Messer in den <b style=\"color: #eab308;\">Finger</b> geschnitten."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ich habe mir das Bein / ... gebrochen.",
+    "german_audio": "Ich habe mir das Bein",
+    "english": "I broke my leg/ ...",
+    "ukrainian": "Я зламав собі ногу / ...",
+    "example": "Ich habe mir den linken Arm gebrochen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ich musste (mit dem Notfallwagen) zum Arzt / ins Krankenhaus.",
+    "german_audio": "Ich musste zum Arzt",
+    "english": "I had to go to the doctor / hospital (by ambulance).",
+    "ukrainian": "Мені довелося звернутися до лікаря / лягти в лікарню (на швидкій).",
+    "example": "Ich musste mit dem Notfallwagen ins Krankenhaus."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ich wurde vom Arzt ... Wochen krankgeschrieben.",
+    "german_audio": "Ich wurde vom Arzt ... Wochen krankgeschrieben.",
+    "english": "I was put on sick leave by the doctor for ... weeks.",
+    "ukrainian": "Лікар виписав мені лікарняний на ... тижнів.",
+    "example": "Ich wurde vom Arzt zwei Wochen <b style=\"color: #eab308;\">krankgeschrieben.</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Das Gerät schalten Sie hier ein.",
+    "german_audio": "Das Gerät schalten Sie hier ein.",
+    "english": "You switch the device on here.",
+    "ukrainian": "Пристрій ви вмикаєте тут.",
+    "example": "Das Gerät schalten Sie an diesem Schalter <b style=\"color: #eab308;\">ein.</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Wenn Sie auf diesen Knopf drücken, ...",
+    "german_audio": "Wenn Sie auf diesen Knopf drücken",
+    "english": "If you press this button ...",
+    "ukrainian": "Якщо ви натиснете на цю кнопку, ...",
+    "example": "Wenn Sie auf diesen Knopf <b style=\"color: #eab308;\">drücken</b>, startet das Backup."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Wählen Sie ein Programm, indem Sie ...",
+    "german_audio": "Wählen Sie ein Programm",
+    "english": "Select a program by ...",
+    "ukrainian": "Оберіть програму (яким чином) ...",
+    "example": "Wählen Sie ein <b style=\"color: #eab308;\">Programm</b>, indem Sie das Rad drehen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Es gibt ein Problem mit dem Drucker/Gerät / der Elektronik/Mechanik von ...",
+    "german_audio": "Es gibt ein Problem mit dem Drucker",
+    "english": "There is a problem with the printer/device / electronics/mechanics of ...",
+    "ukrainian": "Є проблема з принтером/пристроєм / електронікою/механікою (чого) ...",
+    "example": "Es gibt ein Problem mit der Elektronik der Heizung."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "... funktioniert nicht (richtig) / läuft nicht.",
+    "german_audio": "... funktioniert nicht",
+    "english": "... does not work (properly) / is not running.",
+    "ukrainian": "... не працює (належним чином) / не запускається.",
+    "example": "Die Software funktioniert heute <b style=\"color: #eab308;\">nicht</b> richtig."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ich habe ein Problem mit der Bedienung von ...",
+    "german_audio": "Ich habe ein Problem mit der Bedienung von ...",
+    "english": "I have a problem with operating ...",
+    "ukrainian": "У мене проблема з обслуговуванням / використанням ...",
+    "example": "Ich habe ein Problem mit der Bedienung der Kaffeemaschine."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Es gibt einen Stillstand bei der Maschine/Anlage.",
+    "german_audio": "Es gibt einen Stillstand bei der Maschine",
+    "english": "There is a standstill at the machine/system.",
+    "ukrainian": "Машина/установка зупинилася (простій).",
+    "example": "Es gibt einen Stillstand bei der Verpackungsanlage."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ich kann das Gerät/ ... nicht starten.",
+    "german_audio": "Ich kann das Gerät",
+    "english": "I cannot start the device/ ...",
+    "ukrainian": "Я не можу запустити пристрій / ...",
+    "example": "Ich kann den Server nicht starten."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Können Sie mir bitte helfen, den Fehler/Defekt/... zu beheben/beseitigen?",
+    "german_audio": "Können Sie mir bitte helfen",
+    "english": "Could you please help me to fix the error/defect/...?",
+    "ukrainian": "Можете допомогти мені виправити помилку/дефект/...?",
+    "example": "Können Sie mir <b style=\"color: #eab308;\">helfen</b>, den Fehler zu beheben?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Wären Sie so freundlich/nett und ...?",
+    "german_audio": "Wären Sie so freundlich",
+    "english": "Would you be so kind/nice and ...?",
+    "ukrainian": "Чи не були б ви так люб'язні і ...?",
+    "example": "Wären Sie so <b style=\"color: #eab308;\">freundlich</b> und würden mir das zeigen?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Könnten Sie mir erklären/zeigen, wie man ...?",
+    "german_audio": "Könnten Sie mir erklären",
+    "english": "Could you explain/show me how to ...?",
+    "ukrainian": "Могли б ви мені пояснити/показати, як ...?",
+    "example": "Könnten Sie mir zeigen, wie man das System konfiguriert?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ja, was gibt es?",
+    "german_audio": "Ja",
+    "english": "Yes, what is it?",
+    "ukrainian": "Так, що сталося?",
+    "example": "Ja, was gibt es bei Ihnen für Probleme?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Natürlich! / Kein Problem!",
+    "german_audio": "Natürlich!",
+    "english": "Of course! / No problem!",
+    "ukrainian": "Звичайно! / Без проблем!",
+    "example": "<b style=\"color: #eab308;\">Natürlich</b> helfe ich dir! Kein Problem!"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Haben Sie schon in der Bedienungsanleitung nachgeschaut?",
+    "german_audio": "Haben Sie schon in der Bedienungsanleitung nachgeschaut?",
+    "english": "Have you already looked in the operating instructions?",
+    "ukrainian": "Ви вже дивилися в інструкції з експлуатації?",
+    "example": "Haben Sie schon in der Bedienungsanleitung <b style=\"color: #eab308;\">nachgeschaut?</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Vielleicht muss die Maschine / ... gewartet/gereinigt werden.",
+    "german_audio": "Vielleicht muss die Maschine",
+    "english": "Maybe the machine / ... needs to be serviced/cleaned.",
+    "ukrainian": "Можливо, машину / ... потрібно обслужити/почистити.",
+    "example": "Vielleicht muss der Server entstaubt werden."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Haben Sie schon ... überprüft?",
+    "german_audio": "Haben Sie schon ... überprüft?",
+    "english": "Have you already checked ...?",
+    "ukrainian": "Ви вже перевірили ...?",
+    "example": "Haben Sie schon die Internetverbindung <b style=\"color: #eab308;\">überprüft?</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ein Grund könnte ... sein.",
+    "german_audio": "Ein Grund könnte ... sein.",
+    "english": "One reason could be ...",
+    "ukrainian": "Однією з причин може бути ...",
+    "example": "Ein Grund könnte ein defektes Kabel <b style=\"color: #eab308;\">sein.</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Da müssen wir den Service kontaktieren.",
+    "german_audio": "Da müssen wir den Service kontaktieren.",
+    "english": "We have to contact the service then.",
+    "ukrainian": "Тоді нам потрібно зв'язатися з сервісною службою.",
+    "example": "Da müssen wir wohl den IT-Support <b style=\"color: #eab308;\">kontaktieren.</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Die Störung muss sofort/umgehend gemeldet werden.",
+    "german_audio": "Die Störung muss sofort",
+    "english": "The disturbance/malfunction must be reported immediately.",
+    "ukrainian": "Про несправність необхідно негайно повідомити.",
+    "example": "Die Störung muss umgehend dem Administrator gemeldet werden."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Darf ich mich vorstellen? Mein Name ist ...",
+    "german_audio": "Darf ich mich vorstellen? Mein Name ist ...",
+    "english": "May I introduce myself? My name is ...",
+    "ukrainian": "Дозвольте представитися. Мене звати ...",
+    "example": "Darf ich mich vorstellen? Mein Name ist Jan."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ich heiße ... und bin bei der Firma ... im Bereich ... tätig.",
+    "german_audio": "Ich heiße ... und bin bei der Firma ... im Bereich ... tätig.",
+    "english": "My name is ... and I work for ... in the area of ...",
+    "ukrainian": "Мене звати ... і я працюю в компанії ... у сфері ...",
+    "example": "Ich heiße Lisa und bin bei der Firma Siemens in der Webentwicklung <b style=\"color: #eab308;\">tätig.</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Freut mich, Sie kennenzulernen.",
+    "german_audio": "Freut mich",
+    "english": "Pleased to meet you.",
+    "ukrainian": "Радий знайомству з вами.",
+    "example": "Guten Tag, freut <b style=\"color: #eab308;\">mich</b>, Sie kennenzulernen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ich sehe, Sie schauen sich ... an.",
+    "german_audio": "Ich sehe",
+    "english": "I see you are looking at ...",
+    "ukrainian": "Я бачу, ви дивитеся на ...",
+    "example": "Ich <b style=\"color: #eab308;\">sehe</b>, Sie schauen sich unsere neuen Cloud-Lösungen an."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ach, Sie kommen von der Firma ...",
+    "german_audio": "Ach",
+    "english": "Oh, you come from the company ...",
+    "ukrainian": "О, ви з компанії ...",
+    "example": "Ach, Sie kommen von der Firma Bosch?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Die Messe ist wieder sehr gut besucht.",
+    "german_audio": "Die Messe ist wieder sehr gut besucht.",
+    "english": "The fair is very well attended again.",
+    "ukrainian": "Виставка знову дуже добре відвідувана.",
+    "example": "Die Messe ist heute wieder sehr gut <b style=\"color: #eab308;\">besucht.</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Darf ich Ihnen einen Kaffee anbieten?",
+    "german_audio": "Darf ich Ihnen einen Kaffee anbieten?",
+    "english": "May I offer you a coffee?",
+    "ukrainian": "Можна запропонувати вам кави?",
+    "example": "Darf ich Ihnen einen Kaffee <b style=\"color: #eab308;\">anbieten</b>, Herr Schmidt?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Wir sind ein kleines/großes/mittelständisches Unternehmen mit ca. ... Mitarbeitenden im Bereich ...",
+    "german_audio": "Wir sind ein kleines",
+    "english": "We are a small/large/medium-sized company with approx. ... employees in the area of ...",
+    "ukrainian": "Ми є малим/великим/середнім підприємством з близько ... працівниками у сфері ...",
+    "example": "Wir sind ein mittelständisches Unternehmen mit ca. 80 Mitarbeitenden."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Wir stellen ... her. / Wir produzieren/entwickeln ...",
+    "german_audio": "Wir stellen ... her.",
+    "english": "We produce/develop ...",
+    "ukrainian": "Ми виготовляємо ... / Ми виробляємо/розробляємо ...",
+    "example": "Wir entwickeln Web-Apps für die Logistikbranche."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "... bietet / verfügt über / ist ausgestattet mit ...",
+    "german_audio": "... bietet",
+    "english": "... offers / has / is equipped with ...",
+    "ukrainian": "... пропонує / володіє / оснащений ...",
+    "example": "Die Software verfügt über eine integrierte Firewall."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Unsere Preise sind niedrig/günstig/variabel, weil ...",
+    "german_audio": "Unsere Preise sind niedrig",
+    "english": "Our prices are low/favorable/variable because ...",
+    "ukrainian": "Наші ціни низькі/вигідні/варіюються, тому що ...",
+    "example": "Unsere Preise sind variabel, da wir Cloud-Modelle nutzen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ich kann gerne zu Ihnen in die Firma kommen.",
+    "german_audio": "Ich kann gerne zu Ihnen in die Firma kommen.",
+    "english": "I am happy to come to your company.",
+    "ukrainian": "Я можу приїхати до вас у компанію.",
+    "example": "Ich kann nächste Woche gerne zu Ihnen in die Firma <b style=\"color: #eab308;\">kommen.</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Wann / Welches Datum würde Ihnen passen?",
+    "german_audio": "Wann",
+    "english": "When / Which date would suit you?",
+    "ukrainian": "Коли / яка дата вам підійде?",
+    "example": "<b style=\"color: #eab308;\">Wann</b> würde Ihnen unser Besuch passen?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Vielen Dank für das informative Gespräch.",
+    "german_audio": "Vielen Dank für das informative Gespräch.",
+    "english": "Thank you very much for the informative conversation.",
+    "ukrainian": "Щиро дякую за інформативну розмову.",
+    "example": "Vielen Dank für das informative <b style=\"color: #eab308;\">Gespräch</b> auf der Messe."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Vielen Dank, dass Sie sich so viel Zeit für das Gespräch genommen haben.",
+    "german_audio": "Vielen Dank",
+    "english": "Thank you very much for taking so much time for the conversation.",
+    "ukrainian": "Дуже дякую, що приділили так багато часу розмові.",
+    "example": "Vielen <b style=\"color: #eab308;\">Dank</b>, dass Sie sich Zeit für uns genommen haben."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ich wünsche Ihnen eine erfolgreiche Messe.",
+    "german_audio": "Ich wünsche Ihnen eine erfolgreiche Messe.",
+    "english": "I wish you a successful exhibition.",
+    "ukrainian": "Бажаю вам успішної виставки!",
+    "example": "Ich wünsche Ihnen noch eine erfolgreiche <b style=\"color: #eab308;\">Messe.</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Kann ich Ihnen helfen?",
+    "german_audio": "Kann ich Ihnen helfen?",
+    "english": "Can I help you?",
+    "ukrainian": "Я можу вам допомогти?",
+    "example": "Guten Tag, kann ich Ihnen <b style=\"color: #eab308;\">helfen</b>, Herr Müller?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ich kann Ihnen ... empfehlen.",
+    "german_audio": "Ich kann Ihnen ... empfehlen.",
+    "english": "I can recommend ... to you.",
+    "ukrainian": "Я можу рекомендувати вам ...",
+    "example": "Ich kann Ihnen unser Pro-Paket <b style=\"color: #eab308;\">empfehlen.</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Wir haben das Modell/Gerät/ ... (nicht) auf Lager.",
+    "german_audio": "Wir haben das Modell",
+    "english": "We do (not) have the model/device/... in stock.",
+    "ukrainian": "У нас (немає) цієї моделі/пристрою в наявності.",
+    "example": "Wir haben diesen Server leider nicht auf Lager."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Haben Sie einen besonderen Wunsch?",
+    "german_audio": "Haben Sie einen besonderen Wunsch?",
+    "english": "Do you have a special wish?",
+    "ukrainian": "Маєте якесь особливе побажання?",
+    "example": "Haben Sie einen besonderen <b style=\"color: #eab308;\">Wunsch</b> bezüglich der Hardware?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "An welches Modell / welche Farbe / welche Größe / ... haben Sie gedacht?",
+    "german_audio": "An welches Modell",
+    "english": "Which model / color / size / ... did you have in mind?",
+    "ukrainian": "Про яку модель / колір / розмір / ... ви думали?",
+    "example": "An welche Speicherkapazität haben Sie gedacht?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Alle Informationen hierzu finden Sie in der Bedienungsanleitung.",
+    "german_audio": "Alle Informationen hierzu finden Sie in der Bedienungsanleitung.",
+    "english": "All information on this can be found in the operating instructions.",
+    "ukrainian": "Всю інформацію про це ви знайдете в інструкції з експлуатації.",
+    "example": "Alle Informationen hierzu finden Sie in unserem Wiki."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Hier ist die Nummer unseres Kundendienstes.",
+    "german_audio": "Hier ist die Nummer unseres Kundendienstes.",
+    "english": "Here is the number of our customer service.",
+    "ukrainian": "Ось номер нашої служби підтримки.",
+    "example": "Hier is die Nummer unseres technischen Supports."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Haben Sie noch weitere Fragen?",
+    "german_audio": "Haben Sie noch weitere Fragen?",
+    "english": "Do you have any further questions?",
+    "ukrainian": "Маєте ще запитання?",
+    "example": "Haben Sie noch weitere <b style=\"color: #eab308;\">Fragen</b> zu den Tarifen?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Was sind die Vorteile dieses Modells/Geräts/ ...?",
+    "german_audio": "Was sind die Vorteile dieses Modells",
+    "english": "What are the advantages of this model/device/...?",
+    "ukrainian": "Які переваги цієї моделі/пристрою?",
+    "example": "Was sind die Vorteile dieser Cloud-Datenbank?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Gibt es auch Nachteile?",
+    "german_audio": "Gibt es auch Nachteile?",
+    "english": "Are there also disadvantages?",
+    "ukrainian": "Чи є також недоліки?",
+    "example": "Gibt es auch <b style=\"color: #eab308;\">Nachteile</b> bei der Open-Source-Version?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Gibt es Ermäßigungen/Rabatte?",
+    "german_audio": "Gibt es Ermäßigungen",
+    "english": "Are there discounts?",
+    "ukrainian": "Чи є знижки/знижки?",
+    "example": "Gibt es <b style=\"color: #eab308;\">Ermäßigungen</b> für Startups?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Gibt es noch Sicherheitshinweise, die man beachten muss?",
+    "german_audio": "Gibt es noch Sicherheitshinweise",
+    "english": "Are there still safety instructions to follow?",
+    "ukrainian": "Чи є ще вказівки з безпеки, на які слід звернути увагу?",
+    "example": "Gibt es noch <b style=\"color: #eab308;\">Sicherheitshinweise</b> für die Installation?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Wie lange ist die Lieferzeit?",
+    "german_audio": "Wie lange ist die Lieferzeit?",
+    "english": "How long is the delivery time?",
+    "ukrainian": "Який термін доставки?",
+    "example": "Wie lange ist die <b style=\"color: #eab308;\">Lieferzeit</b> für die neuen Laptops?"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ich bitte Sie, bis zum ... um ein detailliertes Angebot für ...",
+    "german_audio": "Ich bitte Sie",
+    "english": "I ask you for a detailed offer for ... by ...",
+    "ukrainian": "Прошу вас надати детальний прайс-лист/пропозицію на ... до ...",
+    "example": "Ich bitte Sie, bis zum Freitag um ein Angebot für Server-Hosting."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Wir bitten Sie, uns ... zuzuschicken.",
+    "german_audio": "Wir bitten Sie",
+    "english": "We ask you to send us ...",
+    "ukrainian": "Просимо вас надіслати нам ...",
+    "example": "Wir bitten Sie, uns die Spezifikationen zuzuschicken."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Wir erwarten Ihr Angebot bis zum ...",
+    "german_audio": "Wir erwarten Ihr Angebot bis zum ...",
+    "english": "We expect your offer by ...",
+    "ukrainian": "Ми очікуємо на вашу пропозицію до ...",
+    "example": "Wir erwarten Ihr Angebot bis zum 20. Oktober."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Die Ware soll bis zum ... zu liefern.",
+    "german_audio": "Die Ware soll bis zum ... zu liefern.",
+    "english": "The goods are to be delivered by ...",
+    "ukrainian": "Товар має бути доставлений до ...",
+    "example": "Die Ware soll bis zum Monatsende geliefert werden."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Das gewünschte Lieferdatum ist ...",
+    "german_audio": "Das gewünschte Lieferdatum ist ...",
+    "english": "The requested delivery date is ...",
+    "ukrainian": "Бажана дата доставки — ...",
+    "example": "Das gewünschte Lieferdatum ist der kommende Montag."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Wir machen darauf aufmerksam, dass ...",
+    "german_audio": "Wir machen darauf aufmerksam",
+    "english": "We draw attention to the fact that ...",
+    "ukrainian": "Звертаємо вашу увагу на те, що ...",
+    "example": "Wir machen darauf <b style=\"color: #eab308;\">aufmerksam</b>, dass der Support kostenpflichtig ist."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Wir möchten darauf hinweisen, dass wir bei verschiedenen Wettbewerbern Angebote einholen.",
+    "german_audio": "Wir möchten darauf hinweisen",
+    "english": "We would like to point out that we obtain offers from various competitors.",
+    "ukrainian": "Хочемо зазначити, що ми запитуємо пропозиції у різних конкурентів.",
+    "example": "Wir möchten darauf <b style=\"color: #eab308;\">hinweisen</b>, dass wir Angebote vergleichen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Für die Auftragsvergabe ist u. a. ... entscheidend/maßgeblich.",
+    "german_audio": "Für die Auftragsvergabe ist u. a. ... entscheidend",
+    "english": "For the awarding of the contract, ... is decisive/relevant.",
+    "ukrainian": "Для надання замовлення вирішальним є, серед іншого, ...",
+    "example": "Für die Auftragsvergabe ist die Lieferzeit maßgeblich."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ein wichtiges Kriterium für die Auftragsvergabe ist die Zusicherung eines verbindlichen Liefertermins.",
+    "german_audio": "Ein wichtiges Kriterium für die Auftragsvergabe ist die Zusicherung eines verbindlichen Liefertermins.",
+    "english": "An important criterion for the contract is the guarantee of a binding delivery date.",
+    "ukrainian": "Важливим критерієм для укладення контракту є гарантія зобов'язуючих термінів доставки.",
+    "example": "Ein wichtiges Kriterium ist die Zusicherung eines <b style=\"color: #eab308;\">Liefertermins.</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Herzlichen Dank für Ihre Anfrage.",
+    "german_audio": "Herzlichen Dank für Ihre Anfrage.",
+    "english": "Thank you very much for your inquiry.",
+    "ukrainian": "Щиро дякуємо за ваш запит.",
+    "example": "Herzlichen Dank für Ihre <b style=\"color: #eab308;\">Anfrage</b> bezüglich unserer Dienstleistungen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Gerne unterbreiten wir Ihnen folgendes Angebot: ...",
+    "german_audio": "Gerne unterbreiten wir Ihnen folgendes Angebot: ...",
+    "english": "We are pleased to submit the following offer: ...",
+    "ukrainian": "Ми раді зробити вам наступну пропозицію: ...",
+    "example": "Gerne unterbreiten wir Ihnen folgendes Angebot für Webdesign."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Anbei erhalten Sie unser Angebot: ...",
+    "german_audio": "Anbei erhalten Sie unser Angebot: ...",
+    "english": "Enclosed you receive our offer: ...",
+    "ukrainian": "У додатку ви знайдете нашу пропозицію: ...",
+    "example": "Anbei erhalten Sie unser detailliertes Angebot als PDF."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Die Preise verstehen sich inklusive Mehrwertsteuer.",
+    "german_audio": "Die Preise verstehen sich inklusive Mehrwertsteuer.",
+    "english": "Prices include VAT.",
+    "ukrainian": "Ціни вказані з урахуванням ПДВ.",
+    "example": "Die Preise verstehen sich inklusive der gesetzlichen <b style=\"color: #eab308;\">Mehrwertsteuer.</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Es gelten folgende Zahlungsbedingungen: ...",
+    "german_audio": "Es gelten folgende Zahlungsbedingungen: ...",
+    "english": "The following terms of payment apply: ...",
+    "ukrainian": "Діють наступні умови оплати: ...",
+    "example": "Es gelten folgende Zahlungsbedingungen: Zahlung innerhalb von 14 Tagen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Selbstverständlich stehen wir Ihnen für weitere Auskünfte gerne zur Verfügung.",
+    "german_audio": "Selbstverständlich stehen wir Ihnen für weitere Auskünfte gerne zur Verfügung.",
+    "english": "Of course we are happy to provide you with further information.",
+    "ukrainian": "Звичайно, ми з радістю готові надати вам подальшу інформацію.",
+    "example": "Wir stehen Ihnen für weitere Auskünfte gerne zur <b style=\"color: #eab308;\">Verfügung.</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Das optionale Angebot der Firma ... ist interessant/kostengünstig/überzeugend/..., aber ...",
+    "german_audio": "Das optionale Angebot der Firma ... ist interessant",
+    "english": "The optional offer from ... is interesting/inexpensive/convincing/..., but ...",
+    "ukrainian": "Опціональна пропозиція компанії ... цікава/вигідна/переконлива/..., але ...",
+    "example": "Das optionale Angebot ist günstig, aber der Support fehlt."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Das Modell ... ist ziemlich preisgünstig.",
+    "german_audio": "Das Modell ... ist ziemlich preisgünstig.",
+    "english": "The model ... is quite inexpensive.",
+    "ukrainian": "Модель ... є досить дешевою.",
+    "example": "Das Modell ProBook ist ziemlich <b style=\"color: #eab308;\">preisgünstig.</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Den Preis / Die technischen Daten finde ich sehr/nicht überzeugend.",
+    "german_audio": "Den Preis",
+    "english": "I find the price / technical specifications very/not convincing.",
+    "ukrainian": "Ціна / технічні характеристики здаються мені дуже/не переконливими.",
+    "example": "Die technischen Daten finde ich nicht überzeugend."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Es ist ein Vorteil/Nachteil, dass ...",
+    "german_audio": "Es ist ein Vorteil",
+    "english": "It is an advantage/disadvantage that ...",
+    "ukrainian": "Перевагою/недоліком є те, що ...",
+    "example": "Es ist ein <b style=\"color: #eab308;\">Vorteil</b>, dass die Software Open Source ist."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Vorteilig/Nachteilig finde ich ...",
+    "german_audio": "Vorteilig",
+    "english": "I find ... advantageous/disadvantageous",
+    "ukrainian": "Вигідним/невигідним я вважаю ...",
+    "example": "Nachteilig finde ich die hohen monatlichen Kosten."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Der größte Vorteil/Nachteil ist ...",
+    "german_audio": "Der größte Vorteil",
+    "english": "The biggest advantage/disadvantage is ...",
+    "ukrainian": "Найбільшим плюсом/мінусом є ...",
+    "example": "Der größte <b style=\"color: #eab308;\">Vorteil</b> ist die automatische Skalierung."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Das Angebot der Firma ... überzeugt mich (nicht), denn ...",
+    "german_audio": "Das Angebot der Firma ... überzeugt mich",
+    "english": "The offer from ... (does not) convince me because ...",
+    "ukrainian": "Пропозиція компанії ... мене (не) переконує, тому що ...",
+    "example": "Das Angebot überzeugt <b style=\"color: #eab308;\">mich</b>, denn es enthält 24/7 Support."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Einerseits ist die Zahlungsfrist der Firma ... länger, andererseits ...",
+    "german_audio": "Einerseits ist die Zahlungsfrist der Firma ... länger",
+    "english": "On the one hand, the payment term is longer, on the other hand ...",
+    "ukrainian": "З одного боку, термін оплати довший, з іншого боку ...",
+    "example": "Einerseits ist die Frist <b style=\"color: #eab308;\">länger</b>, andererseits sind die Preise höher."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ich bin dafür/dagegen, dieses Modell anzuschaffen.",
+    "german_audio": "Ich bin dafür",
+    "english": "I am in favor of / against acquiring this model.",
+    "ukrainian": "Я за/проти того, щоб придбати цю модель.",
+    "example": "Ich bin <b style=\"color: #eab308;\">dafür</b>, neue Laptops anzuschaffen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ich kenne das Modell und habe damit gute/schlechte Erfahrungen gemacht.",
+    "german_audio": "Ich kenne das Modell und habe damit gute",
+    "english": "I know the model and have made good/bad experiences with it.",
+    "ukrainian": "Я знаю цю модель і мав із нею хороший/поганий досвід.",
+    "example": "Ich kenne dieses Tool und habe damit <b style=\"color: #eab308;\">gute</b> Erfahrungen gemacht."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "... braucht viel/wenig/kaum Pflege und Wartung.",
+    "german_audio": "... braucht viel",
+    "english": "... needs a lot of/little/hardly any care and maintenance.",
+    "ukrainian": "... потребує багато/мало/майже не потребує догляду та обслуговування.",
+    "example": "Der Cloud-Server braucht kaum Wartung."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "... ist leicht/schwer zu bedienen.",
+    "german_audio": "... ist leicht",
+    "english": "... is easy/difficult to operate.",
+    "ukrainian": "... є простим/важким у використанні.",
+    "example": "Das CMS-System ist <b style=\"color: #eab308;\">leicht</b> zu bedienen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ich denke, das Modell wird uns die Arbeit erleichtern.",
+    "german_audio": "Ich denke",
+    "english": "I think the model will make our work easier.",
+    "ukrainian": "Я думаю, ця модель полегшить нам роботу.",
+    "example": "Ich <b style=\"color: #eab308;\">denke</b>, das neue Tool wird uns die Arbeit erleichtern."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ein anderes Argument für/gegen ... ist ...",
+    "german_audio": "Ein anderes Argument für",
+    "english": "Another argument for/against ... is ...",
+    "ukrainian": "Іншим аргументом за/проти ... є ...",
+    "example": "Ein anderes Argument gegen das Tool ist die Abhängigkeit."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ich ziehe das Angebot der Firma ... vor.",
+    "german_audio": "Ich ziehe das Angebot der Firma ... vor.",
+    "english": "I prefer the offer from ...",
+    "ukrainian": "Я віддаю перевагу пропозиції компанії ...",
+    "example": "Ich ziehe das Angebot unseres bestehenden Providers <b style=\"color: #eab308;\">vor.</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Meiner Meinung nach sollte die Firma ... den Auftrag bekommen.",
+    "german_audio": "Meiner Meinung nach sollte die Firma ... den Auftrag bekommen.",
+    "english": "In my opinion, ... should get the contract.",
+    "ukrainian": "На мою думку, компанія ... повинна отримати замовлення.",
+    "example": "Meiner Meinung nach sollte Firma AWS den Auftrag <b style=\"color: #eab308;\">bekommen.</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Dann nehmen/bestellen wir also ...",
+    "german_audio": "Dann nehmen",
+    "english": "Then we take/order ...",
+    "ukrainian": "Тоді ми беремо/замовляємо ...",
+    "example": "Dann bestellen wir also fünf Laptops für das Design-Team."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Deshalb sollten wir das Modell ... anschaffen.",
+    "german_audio": "Deshalb sollten wir das Modell ... anschaffen.",
+    "english": "Therefore we should acquire the model ...",
+    "ukrainian": "Тому нам слід придбати модель ...",
+    "example": "Deshalb sollten wir dieses Software-Modell <b style=\"color: #eab308;\">anschaffen.</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Sehr geehrte Damen und Herren, am 1. Juni 20.. haben wir bei Ihnen ... gekauft/bestellt/reklamiert/...",
+    "german_audio": "Sehr geehrte Damen und Herren",
+    "english": "Dear Sir or Madam, on June 1st we bought/ordered/complained about ... from you",
+    "ukrainian": "",
+    "example": "Шановні панове, 1 червня ми купили/замовили/оскаржили у вас ..."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Leider hat die Maschine (mit der Gerätenummer ...) (erhebliche) Mängel.",
+    "german_audio": "Leider hat die Maschine Mängel.",
+    "english": "Unfortunately the machine (with device number ...) has (significant) defects.",
+    "ukrainian": "На жаль, машина (з серійним номером ...) має (значні) недоліки.",
+    "example": "Leider hat das Gerät erhebliche <b style=\"color: #eab308;\">Mängel.</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Bei den Mängeln handelt es sich um ...",
+    "german_audio": "Bei den Mängeln handelt es sich um ...",
+    "english": "The defects are ...",
+    "ukrainian": "Недоліки полягають у ...",
+    "example": "Bei den Mängeln handelt es sich um fehlerhafte Sektoren."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Trotz mehrmaliger Anrufe ...",
+    "german_audio": "Trotz mehrmaliger Anrufe ...",
+    "english": "Despite repeated calls ...",
+    "ukrainian": "Незважаючи на неодноразові дзвінки ...",
+    "example": "Trotz mehrmaliger Anrufe wurde das Problem nicht behoben."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Bitte geben Sie uns Bescheid, wann ...",
+    "german_audio": "Bitte geben Sie uns Bescheid",
+    "english": "Please let us know when ...",
+    "ukrainian": "Будь ласка, повідомте нам, коли ...",
+    "example": "Bitte geben Sie uns <b style=\"color: #eab308;\">Bescheid</b>, wann der Techniker kommt."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Ihre Lieferung ist (erst) am ... bei uns eingetroffen.",
+    "german_audio": "Ihre Lieferung ist am ... bei uns eingetroffen.",
+    "english": "Your delivery arrived (only) on ...",
+    "ukrainian": "Ваша доставка надійшла до нас (тільки) ...",
+    "example": "Ihre Lieferung ist erst gestern bei uns <b style=\"color: #eab308;\">eingetroffen.</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Die bei Ihnen bestellten Artikel haben wir ... erhalten.",
+    "german_audio": "Die bei Ihnen bestellten Artikel haben wir ... erhalten.",
+    "english": "We received the articles ordered from you ...",
+    "ukrainian": "Ми отримали замовлені у вас товари ...",
+    "example": "Die bestellten Artikel haben wir unvollständig <b style=\"color: #eab308;\">erhalten.</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Bei der Warenkontrolle / der Überprüfung der Lieferung mussten wir feststellen, dass ...",
+    "german_audio": "Bei der Warenkontrolle",
+    "english": "During the goods inspection / checking the delivery we had to find that ...",
+    "ukrainian": "При перевірці товарів / перевірці доставки ми були змушені констатувати, що ...",
+    "example": "Bei der <b style=\"color: #eab308;\">Warenkontrolle</b> mussten wir feststellen, dass Kabel fehlen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Zu unserem Bedauern / Leider stellte sich heraus, dass Ihre Lieferung unvollständig/fehlerhaft / mit Mängeln behaftet ist.",
+    "german_audio": "Zu unserem Bedauern",
+    "english": "To our regret / Unfortunately, it turned out that your delivery is incomplete/defective.",
+    "ukrainian": "На наш жаль / на жаль виявилося, що ваша доставка є неповною/дефектною.",
+    "example": "Leider stellte sich heraus, dass die Lieferung fehlerhaft ist."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Leider hat sich gezeigt, dass ...",
+    "german_audio": "Leider hat sich gezeigt",
+    "english": "Unfortunately it turned out that ...",
+    "ukrainian": "На жаль виявилося, що ...",
+    "example": "Leider hat sich <b style=\"color: #eab308;\">gezeigt</b>, dass der Akku defekt ist."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Wir erwarten, dass Sie die fehlerhaft gelieferten Artikel bis zum ... nachliefern/austauschen/...",
+    "german_audio": "Wir erwarten",
+    "english": "We expect you to deliver/replace the incorrectly delivered articles by ...",
+    "ukrainian": "Ми очікуємо, що ви доставите/заміните дефектні товари до ...",
+    "example": "Wir <b style=\"color: #eab308;\">erwarten</b>, dass Sie die Artikel bis Freitag austauschen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Wir bitten Sie, die Waren innerhalb der nächsten drei Tage / Woche / ... abzuholen/auszutauschen/...",
+    "german_audio": "Wir bitten Sie",
+    "english": "We ask you to collect/exchange the goods within the next three days / week / ...",
+    "ukrainian": "Просимо вас забрати/замінити товари протягом наступних трьох днів / тижня ...",
+    "example": "Wir bitten Sie, die Laptops innerhalb einer Woche abzuholen."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Bitte holen Sie ... ab / tauschen Sie ... aus.",
+    "german_audio": "Bitte holen Sie ... ab",
+    "english": "Please collect ... / exchange ...",
+    "ukrainian": "Будь ласка, заберіть ... / замініть ...",
+    "example": "Bitte tauschen Sie die defekte Festplatte aus."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Bitte liefern Sie ... nach.",
+    "german_audio": "Bitte liefern Sie ... nach.",
+    "english": "Please deliver ...",
+    "ukrainian": "Будь ласка, доставте (чого не вистачає) ...",
+    "example": "Bitte liefern Sie die fehlenden Netzkabel <b style=\"color: #eab308;\">nach.</b>"
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
+    "thema": 95,
+    "german": "Bitte nennen Sie uns einen verbindlichen Termin, an dem ...",
+    "german_audio": "Bitte nennen Sie uns einen verbindlichen Termin",
+    "english": "Please give us a binding date/time on which ...",
+    "ukrainian": "Будь ласка, назвіть нам точну дату/час, коли ...",
+    "example": "Bitte nennen Sie uns einen <b style=\"color: #eab308;\">Termin</b>, an dem die Ware eintrifft."
+  },
+  {
+    "level": "B2",
+    "levels": [
+      "B2"
+    ],
     "thema": 96,
     "german": "Abschied nehmen von (+ Dat.)",
     "german_audio": "Abschied nehmen von",

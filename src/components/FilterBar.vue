@@ -28,7 +28,7 @@ const themeOptions = computed(() => {
   return [
     { label: 'Themes', value: 'all' },
     ...themes.value.map(t => ({ 
-      label: t === 99 ? 'Unregelmäßige Verben' : t === 98 ? 'Verben mit Präpositionen' : t === 97 ? 'Adjektive mit Präpositionen' : t === 96 ? 'Nomen-Verb-Verbindungen' : `Theme ${t}`, 
+      label: t === 99 ? 'Unregelmäßige Verben' : t === 98 ? 'Verben mit Präpositionen' : t === 97 ? 'Adjektive mit Präpositionen' : t === 96 ? 'Nomen-Verb-Verbindungen' : t === 95 ? 'Redemittel' : `Theme ${t}`, 
       value: t.toString() 
     }))
   ];
