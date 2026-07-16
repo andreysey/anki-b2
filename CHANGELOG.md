@@ -1,3 +1,15 @@
+# [1.7.0](https://github.com/andreysey/anki-b2/compare/v1.6.0...v1.7.0) (2026-07-16)
+
+
+### Features
+
+* update B1+ and B2 vocabulary data and regenerate Anki packages ([9e779c0](https://github.com/andreysey/anki-b2/commit/9e779c0ab0be1e7c32fa55cdab66f4c369bdb697))
+* update B1+ and B2 vocabulary data and sync Anki packages ([21af67a](https://github.com/andreysey/anki-b2/commit/21af67a194d4d41d1d7219c9450fecffd67cbdba))
+* update deck packages and data source with new vocabulary content ([14c2b5f](https://github.com/andreysey/anki-b2/commit/14c2b5f17a7e430db11b15d843755e638aa771b2))
+* update documentation and synchronize Anki package files with latest exam-aligned vocabulary content ([f4d4eef](https://github.com/andreysey/anki-b2/commit/f4d4eefc23ec62c9f1622df89566e774b210467c))
+* update vocabulary data and export new Anki packages for B1+ and B2 levels ([6537a07](https://github.com/andreysey/anki-b2/commit/6537a07ba58ee559a761218782f26a2831b324b9))
+* update vocabulary source files and synchronize Anki package exports ([7dddb1e](https://github.com/andreysey/anki-b2/commit/7dddb1e201d328da43c8fa0d6067e18e2323fc94))
+
 # [1.6.0](https://github.com/andreysey/anki-b2/compare/v1.5.1...v1.6.0) (2026-07-16)
 
 
