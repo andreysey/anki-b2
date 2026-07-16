@@ -1,71 +1,71 @@
 #separator:;
 #html:true
 #columns:German;English;Ukrainian;Example
-der Ansprechpartner, - / die Ansprechpartnerin, -nen;contact person;контактна особа;Unser Ansprechpartner für das API-Gateway ist heute leider nicht verfügbar.
-der Aushang, "-e;notice, posting;оголошення;Ich habe den digitalen Aushang im Firmen-Intranet über das neue Slack-Update gesehen.
-das Bewerbungsschreiben, -;letter of application;заява про прийняття на роботу;In Ihrem Bewerbungsschreiben sollten Sie Ihre Erfahrung mit Cloud-Technologien hervorheben.
-das Bewerbungsverfahren, -;application process;процес подання заявки;Das Bewerbungsverfahren für die Stelle als DevOps-Engineer umfasst drei technische Interviews.
-der Eindruck, "-e;impression;враження;Die neue Architektur der mobilen App macht einen sehr modernen Eindruck.
-die Elektrofirma, -firmen;electrical company;електротехнічна фірма;Die Elektrofirma installiert die neue unterbrechungsfreie Stromversorgung (USV) in unserem Rechenzentrum.
-erwarten (erwartet, erwartete, hat erwartet);to expect;очікувати;Von einem Senior-Entwickler erwarten wir fundierte Kenntnisse in Design Patterns.
-das Fachpersonal (Sg.);skilled personnel;кваліфікований персонал;Unser Unternehmen investiert stark in Fachpersonal für künstliche Intelligenz.
-fehlerfrei;error-free;без помилок;Ein fehlerfreier Code ist die Voraussetzung für eine erfolgreiche CI/CD-Pipeline.
-die Initiativbewerbung, -en;unsolicited application;ініціативна заявка;Ich habe eine Initiativbewerbung an das IT-Sicherheitszentrum geschickt.
-die Installateurfirma, -firmen;plumbing company;сантехнічна фірма;Die Installateurfirma wartet das Kühlsystem für unsere Hochleistungsserver.
-die Konkurrenz (Sg.);competition;конкуренція;In der Tech-Branche ist die Konkurrenz um die besten Talente extrem hoch.
-der Leiharbeiter, - / die Leiharbeiterin, -nen;temporary worker;тимчасовий працівник/-ця;Wir haben einen Leiharbeiter für das kurzfristige Datenmigrationsprojekt eingestellt.
-das Leitbild, -er;mission statement;місія, девіз компанії;Das Leitbild unseres Startups ist die Demokratisierung von Daten durch Open Source.
-der Stand der Dinge;state of affairs;стан справ;Können Sie mir beim nächsten Daily Stand-up den aktuellen Stand der Dinge zum Bug-Fixing geben?
-einen Termin bestätigen (bestätigt, bestätigte, hat bestätigt);to confirm an appointment;підтверджувати зустріч;Bitte bestätigen Sie den Termin für die Produktdemo über den Kalender-Link.
-die Unterlage, -n;document;документ;Bitte laden Sie alle technischen Unterlagen in den gemeinsamen Sharepoint-Ordner hoch.
-die Wartezeit, -en;waiting time;час очікування;Die Wartezeit für das Rendern des 4K-Videos beträgt etwa zwei Stunden.
-die Zeitarbeitsfirma, -en;temporary employment agency;агентство з працевлаштування;Die Zeitarbeitsfirma hat uns kurzfristig einen Spezialisten für Datenbanken vermittelt.
-zukünftig;future;майбутній;In der zukünftigen Version der Software wird eine Zwei-Faktor-Authentifizierung standardmäßig aktiviert sein.
-die Arbeitskraft, "-e;worker, manpower;робоча сила;Automatisierung reduziert den Bedarf an manueller Arbeitskraft bei Routineaufgaben.
-das Arbeitsverhältnis, -se;employment relationship;трудові відносини;Das unbefristete Arbeitsverhältnis bietet dem Softwareentwickler eine hohe Sicherheit.
-ausleihen (leiht aus, lieh aus, hat ausgeliehen);to lend, to borrow;позичати, віддавати в оренду;Man kann sich moderne VR-Brillen in der IT-Abteilung für Testzwecke ausleihen.
-die Berufsberatung, -en;vocational guidance;професійна консультація;Die Berufsberatung empfiehlt jungen Leuten oft ein Studium der Informatik.
-die Berufserfahrung, -en;professional experience;професійний досвід;Er bringt über zehn Jahre Berufserfahrung im Bereich Full-Stack-Entwicklung mit.
-beschäftigen (beschäftigt, beschäftigte, hat beschäftigt);to employ;займати, працевлаштовувати;Das System beschäftigt sich derzeit mit der Indizierung der großen Datenbank.
-die Beschäftigung (Sg.);employment;зайнятість;Die Beschäftigung mit dem Thema Machine Learning erfordert viel mathematisches Verständnis.
-der Betrieb, -e;business, company;підприємство;Der Betrieb läuft nach dem Hardware-Upgrade wieder reibungslos.
-die Genehmigung, -en;permission, permit;дозвіл;Wir warten noch auf die offizielle Genehmigung der IT-Leitung für den Kauf der neuen Lizenzen.
-die Leiharbeit (Sg.);temporary work;тимчасова праця;Leiharbeit kann für IT-Freelancer eine gute Möglichkeit sein, verschiedene Unternehmen kennenzulernen.
-staatlich;state, public;державний;Das staatliche Amt für Cybersicherheit hat eine Warnung vor einem neuen Computervirus herausgegeben.
-die Tätigkeit, -en;activity, task;діяльність;Zu meinen täglichen Tätigkeiten gehört das Schreiben von Unit-Tests und das Bugtracking.
-einen Termin vereinbaren (vereinbart, vereinbarte, hat vereinbart);to make an appointment;домовлятися про зустріч;Ich möchte einen Termin mit dem Product Owner vereinbaren, um die User Stories zu besprechen.
-verleihen (verleiht, verlieh, hat verliehen);to lend;позичати, надавати;Das Rechenzentrum verleiht Rechenleistung an kleinere Startups.
-die Vermittlung, -en;placement, mediation;працевлаштування, посередництво;Die Vermittlung von IT-Fachkräften erfolgt oft über spezialisierte Headhunter-Agenturen.
-die Vermittlungsgebühr, -en;placement fee;комісія за працевлаштування;Die Firma zahlt eine hohe Vermittlungsgebühr für einen erfahrenen Softwarearchitekten.
-der Agraringenieur, -e / die Agraringenieurin, -nen;agricultural engineer;агроном-інженер/-ка;Der Agraringenieur nutzt Drohnen und IoT-Sensoren zur Optimierung der Bewässerung.
-der Arbeitseinsatz, "-e;work assignment;використання робочої сили;Der Arbeitseinsatz der Entwickler wird über ein agiles Jira-Board gesteuert.
-der Bereich, -e;area, field;сфера, галузь;In welchem Bereich der Informatik möchtest du dich spezialisieren?
-die Bereitschaft (Sg.);readiness, willingness;готовність;Die Bereitschaft zur Wochenendarbeit ist bei kritischen Systemumstellungen notwendig.
-der Einsatzort, -e;place of assignment;місце роботи (відрядження);Mein aktueller Einsatzort ist das Headquarter der IT-Firma in San Francisco.
-examiniert;qualified, examined;дипломований;Wir suchen examiniertes Fachpersonal für die Wartung medizinischer IT-Systeme.
-das Familienunternehmen, -;family business;сімейне підприємство;Das mittelständische Familienunternehmen plant die Digitalisierung seiner gesamten Produktion.
-der Informatiker, - / die Informatikerin, -nen;IT specialist;інформатик/-иця;Der Informatiker optimiert den Algorithmus für eine schnellere Datenverarbeitung.
-der Ingenieur, -e / die Ingenieurin, -nen;engineer;інженер/-ка;Der Ingenieur entwickelt neue Hardwarekomponenten für Quantencomputer.
-innovativ;innovative;інноваційний;Unsere Firma bietet innovative Cloud-Lösungen für kleine und mittlere Unternehmen an.
-die Karrierechance, -n;career opportunity;шанс на кар'єру;Internationale Tech-Konzerne bieten hervorragende Karrierechancen für ehrgeizige Entwickler.
-die Kommunikationsfähigkeit, -en;communication skills;комунікабельність;Gute Kommunikationsfähigkeit ist bei der Zusammenarbeit in verteilten Teams unerlässlich.
-der Kundenservice (Sg.);customer service;служба підтримки клієнтів;Der Kundenservice wird durch einen KI-basierten Chatbot unterstützt.
-die Pflegekraft, "-e;caregiver, nurse;медпрацівник (з догляду);Die moderne Klinik verwendet digitale Tools, um die Pflegekraft bei der Dokumentation zu entlasten.
-der Pflegeservice (Sg.);care service;служба догляду;Ein digitaler Pflegeservice ermöglicht die Fernüberwachung von Patientendaten.
-der Sicherheitsmitarbeiter, - / die Sicherheitsmitarbeiterin, -nen;security officer;співробітник/-ця безпеки;Der Sicherheitsmitarbeiter überwacht den physischen Zugang zum Serverraum.
-der Teamgeist (Sg.);team spirit;командний дух;Ein starker Teamgeist führt oft zu kreativeren Ansätzen in der Softwareentwicklung.
-die Verantwortung (Sg.);responsibility;відповідальність;Ein Chief Information Security Officer trägt eine enorme Verantwortung für den Datenschutz.
-der Verkäufer, - / die Verkäuferin, -nen;salesperson;продавець/-чиня;Der Verkäufer erklärt dem Kunden die technischen Spezifikationen des neuen High-End-PCs.
-die Verstärkung, -en;reinforcement, addition to the team;підкріплення, новий співробітник;Wir suchen dringend Verstärkung für unser Frontend-Team im Bereich React.
-die Zukunftsperspektive, -n;future prospect;перспектива на майнє;Die Arbeit im Bereich Cybersicherheit bietet eine exzellente Zukunftsperspektive.
-die Zusammenarbeit (Sg.);cooperation;співпраця;Die erfolgreiche Zusammenarbeit zwischen Designer und Entwickler ist entscheidend für das UI/UX Design.
-zuständig;responsible;відповідальний;Wer ist in eurem Team für die Code-Qualität zuständig?
-das Bauvorhaben, -;construction project;будівельний проект;Beim neuen Bauvorhaben wird auch ein modernes Glasfasernetz für das gesamte Bürogebäude verlegt.
-die Berufsausbildung, -en;vocational training;професійна освіта;Ich habe meine Berufsausbildung zum mathematisch-technischen Softwareentwickler abgeschlossen.
-der Einsatz, "-e;assignment, mission;виконання завдання;Der weltweite Einsatz unserer Software zeigt ihre hohe Skalierbarkeit.
-das Einverständnis, -se;consent, agreement;згода;Wir benötigen das Einverständnis des Nutzers für die Verarbeitung seiner personenbezogenen Daten.
-der Fachinformatiker, - / die Fachinformatikerin, -nen;IT specialist;фахівець/-чиня з інформатики;Als Fachinformatiker für Anwendungsentwicklung schreibe ich täglich Code in C#.
-die Krankheitsvertretung, -en;sick leave cover;заміна на час хвороби;Er übernimmt kurzfristig die Krankheitsvertretung für den Lead-Architekten.
-der Realschulabschluss, "-e;secondary school certificate;атестат про закінчення реальної школи;Mit einem guten Realschulabschluss kann man eine Ausbildung zum IT-Systemkaufmann beginnen.
-die Urlaubsvertretung, -en;holiday replacement;заміна на час відпустки;Könntest du während meiner Abwesenheit meine Urlaubsvertretung für die Serverwartung machen?
-der Zeitraum, "-e;period of time;період часу;In dem Zeitraum zwischen 2:00 und 4:00 Uhr morgens finden Wartungsarbeiten am Netzwerk statt.
+der Ansprechpartner, - / die Ansprechpartnerin, -nen;contact person;контактна особа;Der Teamleiter **ist der direkte Ansprechpartner bei Konflikten im Team**.
+der Aushang, "-e;notice, posting;оголошення;Ich habe den Aushang **bezüglich der neuen Arbeitsschutzmaßnahmen im Werk gelesen**.
+das Bewerbungsschreiben, -;letter of application;заява про прийняття на роботу;Im Bewerbungsschreiben **sollte man auf seine fundierte Berufserfahrung eingehen**.
+das Bewerbungsverfahren, -;application process;процес подання заявки;Das Bewerbungsverfahren **wird von unserer HR-Abteilung sehr transparent gestaltet**.
+der Eindruck, "-e;impression;враження;Die professionelle Messepräsentation **hat einen hervorragenden Eindruck auf die Fachbesucher gemacht**.
+die Elektrofirma, -firmen;electrical company;електротехнічна фірма;Die Elektrofirma **ist für die Installation der Lärmschutzvorrichtungen zuständig**.
+erwarten (erwartet, erwartete, hat erwartet);to expect;очікувати;Vom neuen Geschäftsführer **erwarten wir eine Verbesserung des Betriebsklimas**.
+das Fachpersonal (Sg.);skilled personnel;кваліфікований персонал;Unser Handwerksbetrieb **investiert viel Geld in die Weiterbildung des Fachpersonals**.
+fehlerfrei;error-free;без помилок;Das Berichtsheft **muss wöchentlich ordnungsgemäß und fehlerfrei geführt werden**.
+die Initiativbewerbung, -en;unsolicited application;ініціативна заявка;Eine Initiativbewerbung **ist oft eine gute Alternative bei der Stellensuche**.
+die Installateurfirma, -firmen;plumbing company;сантехнічна фірма;Die Installateurfirma **führt die regelmäßige Wartung der Gasleitung durch**.
+die Konkurrenz (Sg.);competition;конкуренція;Mittelständische Betriebe **stehen im ständigen Wettbewerb mit der billigen Konkurrenz**.
+der Leiharbeiter, - / die Leiharbeiterin, -nen;temporary worker;тимчасовий працівник/-ця;Der Leiharbeiter **wurde wegen mangelhafter Arbeitsleistung vorzeitig entlassen**.
+das Leitbild, -er;mission statement;місія, девіз компанії;Das Leitbild unseres Betriebs **stellt die Kundenzufriedenheit in den Vordergrund**.
+der Stand der Dinge;state of affairs;стан справ;<b>Ich bitte Sie, uns über den aktuellen Stand der Dinge zu informieren</b>.
+einen Termin bestätigen (bestätigt, bestätigte, hat bestätigt);to confirm an appointment;підтверджувати зустріч;Bitte **bestätigen Sie den vereinbarten Stichtag schriftlich per E-Mail**.
+die Unterlage, -n;document;документ;Bitte **legen Sie dem Steuerprüfer alle erforderlichen Unterlagen vor**.
+die Wartezeit, -en;waiting time;час очікування;Für die Rente wegen Erwerbsminderung **ist eine Wartezeit von fünf Jahren einzuhalten**.
+die Zeitarbeitsfirma, -en;temporary employment agency;агентство з працевлаштування;Die Zeitarbeitsfirma **übernimmt die Vermittlung von Arbeitskräften für die Werkhalle**.
+zukünftig;future;майбутній;Die zukünftigen Tarifverträge **werden eine stufenweise Erhöhung des Mindestlohns vorsehen**.
+die Arbeitskraft, "-e;worker, manpower;робоча сила;Eine leistungsfähige Arbeitskraft **trägt wesentlich zum positiven Betriebsergebnis bei**.
+das Arbeitsverhältnis, -se;employment relationship;трудові відносини;Das Arbeitsverhältnis **kann durch eine einvernehmliche Aufhebungsvereinbarung beendet werden**.
+ausleihen (leiht aus, lieh aus, hat ausgeliehen);to lend, to borrow;позичати, віддавати в оренду;Die Azubis **können sich die Fachbücher in der Bibliothek ausleihen**.
+die Berufsberatung, -en;vocational guidance;професійна консультація;Die Berufsberatung **bietet den Schulabgängern eine wichtige Orientierung**.
+die Berufserfahrung, -en;professional experience;професійний досвід;Für diese anspruchsvolle Position **wird eine fundierte Berufserfahrung verlangt**.
+beschäftigen (beschäftigt, beschäftigte, hat beschäftigt);to employ;займати, працевлаштовувати;Wir beschäftigen **eine Teilzeitkraft für die administrative Abwicklung**.
+die Beschäftigung (Sg.);employment;зайнятість;Die Beschäftigung der Mitarbeiter **wird im Rahmen des Tarifvertrags geregelt**.
+der Betrieb, -e;business, company;підприємство;Der Betrieb **wurde im Wege eines Betriebsübergangs an den Nachfolger übergeben**.
+die Genehmigung, -en;permission, permit;дозвіл;Für die Durchführung der Sonntagsarbeit **ist eine behördliche Genehmigung erforderlich**.
+die Leiharbeit (Sg.);temporary work;тимчасова праця;Die Leiharbeit **bietet Arbeitnehmern die Chance на einen schnellen Berufseinstieg**.
+staatlich;state, public;державний;Die staatlichen Stellen **zahlen das Elterngeld während der Elternzeit**.
+die Tätigkeit, -en;activity, task;діяльність;Der Arbeitnehmer **übt vorwiegend eine sitzende Tätigkeit im Büro aus**.
+einen Termin vereinbaren (vereinbart, vereinbarte, hat vereinbart);to make an appointment;домовлятися про зустріч;Ich möchte mit Ihnen **einen Termin für das Zielvereinbarungsgespräch vereinbaren**.
+verleihen (verleiht, verlieh, hat verliehen);to lend;позичати, надавати;Die Agentur **verleiht qualifiziertes Fachpersonal an mittelständische Betriebe**.
+die Vermittlung, -en;placement, mediation;працевлаштування, посередництво;Die Vermittlung der Arbeitslosen **erfolgt über die Bundesagentur für Arbeit**.
+die Vermittlungsgebühr, -en;placement fee;комісія за працевлаштування;Die Vermittlungsgebühr **wird unter bestimmten Bedingungen vom Jobcenter erstattet**.
+der Agraringenieur, -e / die Agraringenieurin, -nen;agricultural engineer;агроном-інженер/-ка;Der Agraringenieur **ist für die Einhaltung der Gewässerschutzrichtlinien verantwortlich**.
+der Arbeitseinsatz, "-e;work assignment;використання робочої сили;Der Arbeitseinsatz **wurde im Dienstplan für die gesamte Belegschaft festgelegt**.
+der Bereich, -e;area, field;сфера, галузь;Der Bereich Arbeitsschutz **steht bei dieser Modernisierung im Vordergrund**.
+die Bereitschaft (Sg.);readiness, willingness;готовність;Der Mitarbeiter **zeigt große Bereitschaft zur Teilnahme an der Weiterbildungsmaßnahme**.
+der Einsatzort, -e;place of assignment;місце роботи (відрядження);Der Einsatzort des Servicetechnikers **befindet sich in der neuen Werkhalle**.
+examinierter;qualified, examined;дипломований;Wir suchen **eine examinierte Pflegekraft für die Betreuung im Pflegeservice**.
+das Familienunternehmen, -;family business;сімейне підприємство;Das Familienunternehmen **legt großen Wert auf ein stabiles und gutes Betriebsklima**.
+der Informatiker, - / die Informatikerin, -nen;IT specialist;інформатик/-иця;Der Informatiker **konfiguriert die Firewall und sichert die Server ab**.
+der Ingenieur, -e / die Ingenieurin, -nen;engineer;інженер/-ка;Der Ingenieur **überwacht die ordnungsgemäße Wartung der Kältemaschinen**.
+innovativ;innovative;інноваційний;Innovative Technologien **leisten einen wichtigen Beitrag zur Energieeinsparung**.
+die Karrierechance, -n;career opportunity;шанс на кар'єру;Der Tarifabschluss **verbessert die Karrierechancen der Angestellten im Betrieb**.
+die Kommunikationsfähigkeit, -en;communication skills;комунікабельність;Gute Kommunikationsfähigkeit **ist für den Kundenservice von entscheidender Bedeutung**.
+der Kundenservice (Sg.);customer service;служба підтримки клієнтів;Der Kundenservice **muss sich unverzüglich um das Anliegen des Kunden kümmern**.
+die Pflegekraft, "-e;caregiver, nurse;медпрацівник (з догляду);Die Pflegekraft **ist auf eine ergonomische Arbeitsplatzausstattung angewiesen**.
+der Pflegeservice (Sg.);care service;служба догляду;Der Pflegeservice **bietet den Angehörigen eine wichtige Entlastung im Alltag**.
+der Sicherheitsmitarbeiter, - / die Sicherheitsmitarbeiterin, -nen;security officer;співробітник/-ця безпеки;Der Sicherheitsmitarbeiter **weist uns auf die Einhaltung der Brandschutzordnung hin**.
+die Teamgeist (Sg.);team spirit;командний дух;Ein starker Teamgeist **trägt maßgeblich zur Verbesserung des Betriebsklimas bei**.
+die Verantwortung (Sg.);responsibility;відповідальність;Der Inhaber **trägt die wirtschaftliche Verantwortung für die Existenzsicherung**.
+der Verkäufer, - / die Verkäuferin, -nen;salesperson;продавець/-чиня;Der Verkäufer **erteilt den Kunden fundierte Auskünfte über das Produkt**.
+die Verstärkung, -en;reinforcement, addition to the team;підкріплення, новий співробітник;Wir suchen zur Verstärkung unseres Teams **eine qualifizierte Teilzeitkraft**.
+die Zukunftsperspektive, -n;future prospect;перспектива на майнє;Die abgeschlossene Berufsausbildung **bietet eine hervorragende Zukunftsperspektive**.
+die Zusammenarbeit (Sg.);cooperation;співпраця;Die Zusammenarbeit **zwischen dem Betriebsrat und der Geschäftsführung verläuft reibungslos**.
+zuständig;responsible;відповідальний;Frau Duda **ist für die Abrechnung der Lohnsteuer zuständig**.
+das Bauvorhaben, -;construction project;будівельний проект;Das Bauvorhaben **wurde von der zuständigen Bauaufsichtsbehörde bewilligt**.
+die Berufsausbildung, -en;vocational training;професійна освіта;Nach der Berufsausbildung **strebt er eine unbefristete Festanstellung an**.
+der Einsatz, "-e;assignment, mission;виконання завдання;Der Einsatz des Notstromaggregats **wird im Evakuierungsplan geregelt**.
+das Einverständnis, -se;consent, agreement;згода;Das Einverständnis des Betriebsrats **ist für die Überstundenregelung erforderlich**.
+der Fachinformatiker, - / die Fachinformatikerin, -nen;IT specialist;фахівець/-чиня з інформатики;Als Fachinformatiker **ist er für die Konfiguration des Firmennetzwerks zuständig**.
+die Krankheitsvertretung, -en;sick leave cover;заміна на час хвороби;Die Krankheitsvertretung **wurde im Dienstplan sorgfältig organisiert**.
+der Realschulabschluss, "-e;secondary school certificate;атестат про закінчення реальної школи;Mit einem guten Realschulabschluss **hat man beste Chancen auf einen Ausbildungsplatz**.
+die Urlaubsvertretung, -en;holiday replacement;заміна на час відпустки;Ich übernehme gerne **die Urlaubsvertretung für meinen Kollegen in der Werkhalle**.
+der Zeitraum, "-e;period of time;період часу;In dem Zeitraum der Elternzeit **ruht der gesetzliche Anspruch auf Lohnfortzahlung**.

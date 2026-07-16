@@ -789,7 +789,7 @@
     "german_audio": "der Ansprechpartner",
     "english": "contact person",
     "ukrainian": "контактна особа",
-    "example": "Unser <b style=\"color: #eab308;\">Ansprechpartner</b> für das API-Gateway ist heute leider nicht verfügbar."
+    "example": "Der Teamleiter **ist der direkte <b style=\"color: #eab308;\">Ansprechpartner</b> bei Konflikten im Team**."
   },
   {
     "level": "B1+",
@@ -802,7 +802,7 @@
     "german_audio": "der Aushang",
     "english": "notice, posting",
     "ukrainian": "оголошення",
-    "example": "Ich habe den digitalen <b style=\"color: #eab308;\">Aushang</b> im Firmen-Intranet über das neue Slack-Update gesehen."
+    "example": "Ich habe den <b style=\"color: #eab308;\">Aushang</b> **bezüglich der neuen Arbeitsschutzmaßnahmen im Werk gelesen**."
   },
   {
     "level": "B1+",
@@ -814,7 +814,7 @@
     "german_audio": "das Bewerbungsschreiben",
     "english": "letter of application",
     "ukrainian": "заява про прийняття на роботу",
-    "example": "In Ihrem <b style=\"color: #eab308;\">Bewerbungsschreiben</b> sollten Sie Ihre Erfahrung mit Cloud-Technologien hervorheben."
+    "example": "Im <b style=\"color: #eab308;\">Bewerbungsschreiben</b> **sollte man auf seine fundierte Berufserfahrung eingehen**."
   },
   {
     "level": "B1+",
@@ -827,7 +827,7 @@
     "german_audio": "das Bewerbungsverfahren",
     "english": "application process",
     "ukrainian": "процес подання заявки",
-    "example": "Das <b style=\"color: #eab308;\">Bewerbungsverfahren</b> für die Stelle als DevOps-Engineer umfasst drei technische Interviews."
+    "example": "Das <b style=\"color: #eab308;\">Bewerbungsverfahren</b> **wird von unserer HR-Abteilung sehr transparent gestaltet**."
   },
   {
     "level": "B1+",
@@ -840,7 +840,7 @@
     "german_audio": "der Eindruck",
     "english": "impression",
     "ukrainian": "враження",
-    "example": "Die neue Architektur der mobilen App macht einen sehr modernen <b style=\"color: #eab308;\">Eindruck</b>."
+    "example": "Die professionelle Messepräsentation **hat einen hervorragenden <b style=\"color: #eab308;\">Eindruck</b> auf die Fachbesucher gemacht**."
   },
   {
     "level": "B1+",
@@ -852,7 +852,7 @@
     "german_audio": "die Elektrofirma",
     "english": "electrical company",
     "ukrainian": "електротехнічна фірма",
-    "example": "Die <b style=\"color: #eab308;\">Elektrofirma</b> installiert die neue unterbrechungsfreie Stromversorgung (USV) in unserem Rechenzentrum."
+    "example": "Die <b style=\"color: #eab308;\">Elektrofirma</b> **ist für die Installation der Lärmschutzvorrichtungen zuständig**."
   },
   {
     "level": "B1+",
@@ -864,7 +864,7 @@
     "german_audio": "erwarten",
     "english": "to expect",
     "ukrainian": "очікувати",
-    "example": "Von einem Senior-Entwickler <b style=\"color: #eab308;\">erwarten</b> wir fundierte Kenntnisse in Design Patterns."
+    "example": "Vom neuen Geschäftsführer **<b style=\"color: #eab308;\">erwarten</b> wir eine Verbesserung des Betriebsklimas**."
   },
   {
     "level": "B1+",
@@ -876,7 +876,7 @@
     "german_audio": "das Fachpersonal",
     "english": "skilled personnel",
     "ukrainian": "кваліфікований персонал",
-    "example": "Unser Unternehmen investiert stark in <b style=\"color: #eab308;\">Fachpersonal</b> für künstliche Intelligenz."
+    "example": "Unser Handwerksbetrieb **investiert viel Geld in die Weiterbildung des <b style=\"color: #eab308;\">Fachpersonals</b>**."
   },
   {
     "level": "B1+",
@@ -889,7 +889,7 @@
     "german_audio": "fehlerfrei",
     "english": "error-free",
     "ukrainian": "без помилок",
-    "example": "Ein <b style=\"color: #eab308;\">fehlerfreier</b> Code ist die Voraussetzung für eine erfolgreiche CI/CD-Pipeline."
+    "example": "Das Berichtsheft **muss wöchentlich ordnungsgemäß und <b style=\"color: #eab308;\">fehlerfrei</b> geführt werden**."
   },
   {
     "level": "B1+",
@@ -902,7 +902,7 @@
     "german_audio": "die Initiativbewerbung",
     "english": "unsolicited application",
     "ukrainian": "ініціативна заявка",
-    "example": "Ich habe eine <b style=\"color: #eab308;\">Initiativbewerbung</b> an das IT-Sicherheitszentrum geschickt."
+    "example": "Eine <b style=\"color: #eab308;\">Initiativbewerbung</b> **ist oft eine gute Alternative bei der Stellensuche**."
   },
   {
     "level": "B1+",
@@ -914,7 +914,7 @@
     "german_audio": "die Installateurfirma",
     "english": "plumbing company",
     "ukrainian": "сантехнічна фірма",
-    "example": "Die <b style=\"color: #eab308;\">Installateurfirma</b> wartet das Kühlsystem für unsere Hochleistungsserver."
+    "example": "Die <b style=\"color: #eab308;\">Installateurfirma</b> **führt die regelmäßige Wartung der Gasleitung durch**."
   },
   {
     "level": "B1+",
@@ -926,7 +926,7 @@
     "german_audio": "die Konkurrenz",
     "english": "competition",
     "ukrainian": "конкуренція",
-    "example": "In der Tech-Branche ist die <b style=\"color: #eab308;\">Konkurrenz</b> um die besten Talente extrem hoch."
+    "example": "Mittelständische Betriebe **stehen im ständigen Wettbewerb mit der billigen <b style=\"color: #eab308;\">Konkurrenz</b>**."
   },
   {
     "level": "B1+",
@@ -938,7 +938,7 @@
     "german_audio": "der Leiharbeiter",
     "english": "temporary worker",
     "ukrainian": "тимчасовий працівник/-ця",
-    "example": "Wir haben einen <b style=\"color: #eab308;\">Leiharbeiter</b> für das kurzfristige Datenmigrationsprojekt eingestellt."
+    "example": "Der <b style=\"color: #eab308;\">Leiharbeiter</b> **wurde wegen mangelhafter Arbeitsleistung vorzeitig entlassen**."
   },
   {
     "level": "B1+",
@@ -951,7 +951,7 @@
     "german_audio": "das Leitbild",
     "english": "mission statement",
     "ukrainian": "місія, девіз компанії",
-    "example": "Das <b style=\"color: #eab308;\">Leitbild</b> unseres Startups ist die Demokratisierung von Daten durch Open Source."
+    "example": "Das <b style=\"color: #eab308;\">Leitbild</b> unseres Betriebs **stellt die Kundenzufriedenheit in den Vordergrund**."
   },
   {
     "level": "B1+",
@@ -963,7 +963,7 @@
     "german_audio": "der Stand der Dinge",
     "english": "state of affairs",
     "ukrainian": "стан справ",
-    "example": "Können Sie mir beim nächsten Daily Stand-up den aktuellen Stand der <b style=\"color: #eab308;\">Dinge</b> zum Bug-Fixing geben?"
+    "example": "<b>Ich bitte Sie, uns über den aktuellen Stand der <b style=\"color: #eab308;\">Dinge</b> zu informieren</b>."
   },
   {
     "level": "B1+",
@@ -975,7 +975,7 @@
     "german_audio": "einen Termin bestätigen",
     "english": "to confirm an appointment",
     "ukrainian": "підтверджувати зустріч",
-    "example": "Bitte <b style=\"color: #eab308;\">bestätigen</b> Sie den Termin für die Produktdemo über den Kalender-Link."
+    "example": "Bitte **<b style=\"color: #eab308;\">bestätigen</b> Sie den vereinbarten Stichtag schriftlich per E-Mail**."
   },
   {
     "level": "B1+",
@@ -988,7 +988,7 @@
     "german_audio": "die Wartezeit",
     "english": "waiting time",
     "ukrainian": "час очікування",
-    "example": "Die <b style=\"color: #eab308;\">Wartezeit</b> für das Rendern des 4K-Videos beträgt etwa zwei Stunden."
+    "example": "Für die Rente wegen Erwerbsminderung **ist eine <b style=\"color: #eab308;\">Wartezeit</b> von fünf Jahren einzuhalten**."
   },
   {
     "level": "B1+",
@@ -1000,7 +1000,7 @@
     "german_audio": "die Zeitarbeitsfirma",
     "english": "temporary employment agency",
     "ukrainian": "агентство з працевлаштування",
-    "example": "Die <b style=\"color: #eab308;\">Zeitarbeitsfirma</b> hat uns kurzfristig einen Spezialisten für Datenbanken vermittelt."
+    "example": "Die <b style=\"color: #eab308;\">Zeitarbeitsfirma</b> **übernimmt die Vermittlung von Arbeitskräften für die Werkhalle**."
   },
   {
     "level": "B1+",
@@ -1012,7 +1012,7 @@
     "german_audio": "zukünftig",
     "english": "future",
     "ukrainian": "майбутній",
-    "example": "In der <b style=\"color: #eab308;\">zukünftigen</b> Version der Software wird eine Zwei-Faktor-Authentifizierung standardmäßig aktiviert sein."
+    "example": "Die <b style=\"color: #eab308;\">zukünftigen</b> Tarifverträge **werden eine stufenweise Erhöhung des Mindestlohns vorsehen**."
   },
   {
     "level": "B1+",
@@ -1024,7 +1024,7 @@
     "german_audio": "die Arbeitskraft",
     "english": "worker, manpower",
     "ukrainian": "робоча сила",
-    "example": "Automatisierung reduziert den Bedarf an manueller <b style=\"color: #eab308;\">Arbeitskraft</b> bei Routineaufgaben."
+    "example": "Eine leistungsfähige <b style=\"color: #eab308;\">Arbeitskraft</b> **trägt wesentlich zum positiven Betriebsergebnis bei**."
   },
   {
     "level": "B1+",
@@ -1037,7 +1037,7 @@
     "german_audio": "das Arbeitsverhältnis",
     "english": "employment relationship",
     "ukrainian": "трудові відносини",
-    "example": "Das unbefristete <b style=\"color: #eab308;\">Arbeitsverhältnis</b> bietet dem Softwareentwickler eine hohe Sicherheit."
+    "example": "Das <b style=\"color: #eab308;\">Arbeitsverhältnis</b> **kann durch eine einvernehmliche Aufhebungsvereinbarung beendet werden**."
   },
   {
     "level": "B1+",
@@ -1049,7 +1049,7 @@
     "german_audio": "ausleihen",
     "english": "to lend, to borrow",
     "ukrainian": "позичати, віддавати в оренду",
-    "example": "Man kann sich moderne VR-Brillen in der IT-Abteilung für Testzwecke <b style=\"color: #eab308;\">ausleihen</b>."
+    "example": "Die Azubis **können sich die Fachbücher in der Bibliothek <b style=\"color: #eab308;\">ausleihen</b>**."
   },
   {
     "level": "B1+",
@@ -1061,7 +1061,7 @@
     "german_audio": "die Berufsberatung",
     "english": "vocational guidance",
     "ukrainian": "професійна консультація",
-    "example": "Die <b style=\"color: #eab308;\">Berufsberatung</b> empfiehlt jungen Leuten oft ein Studium der Informatik."
+    "example": "Die <b style=\"color: #eab308;\">Berufsberatung</b> **bietet den Schulabgängern eine wichtige Orientierung**."
   },
   {
     "level": "B1+",
@@ -1073,7 +1073,7 @@
     "german_audio": "die Berufserfahrung",
     "english": "professional experience",
     "ukrainian": "професійний досвід",
-    "example": "Er bringt über zehn Jahre <b style=\"color: #eab308;\">Berufserfahrung</b> im Bereich Full-Stack-Entwicklung mit."
+    "example": "Für diese anspruchsvolle Position **wird eine fundierte <b style=\"color: #eab308;\">Berufserfahrung</b> verlangt**."
   },
   {
     "level": "B1+",
@@ -1085,7 +1085,7 @@
     "german_audio": "beschäftigen",
     "english": "to employ",
     "ukrainian": "займати, працевлаштовувати",
-    "example": "Das System <b style=\"color: #eab308;\">beschäftigt</b> sich derzeit mit der Indizierung der großen Datenbank."
+    "example": "Wir <b style=\"color: #eab308;\">beschäftigen</b> **eine Teilzeitkraft für die administrative Abwicklung**."
   },
   {
     "level": "B1+",
@@ -1097,7 +1097,7 @@
     "german_audio": "die Beschäftigung",
     "english": "employment",
     "ukrainian": "зайнятість",
-    "example": "Die <b style=\"color: #eab308;\">Beschäftigung</b> mit dem Thema Machine Learning erfordert viel mathematisches Verständnis."
+    "example": "Die <b style=\"color: #eab308;\">Beschäftigung</b> der Mitarbeiter **wird im Rahmen des Tarifvertrags geregelt**."
   },
   {
     "level": "B1+",
@@ -1109,7 +1109,7 @@
     "german_audio": "der Betrieb",
     "english": "business, company",
     "ukrainian": "підприємство",
-    "example": "Der <b style=\"color: #eab308;\">Betrieb</b> läuft nach dem Hardware-Upgrade wieder reibungslos."
+    "example": "Der <b style=\"color: #eab308;\">Betrieb</b> **wurde im Wege eines Betriebsübergangs an den Nachfolger übergeben**."
   },
   {
     "level": "B1+",
@@ -1121,7 +1121,7 @@
     "german_audio": "die Genehmigung",
     "english": "permission, permit",
     "ukrainian": "дозвіл",
-    "example": "Wir warten noch auf die offizielle <b style=\"color: #eab308;\">Genehmigung</b> der IT-Leitung für den Kauf der neuen Lizenzen."
+    "example": "Für die Durchführung der Sonntagsarbeit **ist eine behördliche <b style=\"color: #eab308;\">Genehmigung</b> erforderlich**."
   },
   {
     "level": "B1+",
@@ -1133,7 +1133,7 @@
     "german_audio": "die Leiharbeit",
     "english": "temporary work",
     "ukrainian": "тимчасова праця",
-    "example": "<b style=\"color: #eab308;\">Leiharbeit</b> kann für IT-Freelancer eine gute Möglichkeit sein, verschiedene Unternehmen kennenzulernen."
+    "example": "Die <b style=\"color: #eab308;\">Leiharbeit</b> **bietet Arbeitnehmern die Chance на einen schnellen Berufseinstieg**."
   },
   {
     "level": "B1+",
@@ -1145,7 +1145,7 @@
     "german_audio": "staatlich",
     "english": "state, public",
     "ukrainian": "державний",
-    "example": "Das <b style=\"color: #eab308;\">staatliche</b> Amt für Cybersicherheit hat eine Warnung vor einem neuen Computervirus herausgegeben."
+    "example": "Die <b style=\"color: #eab308;\">staatlichen</b> Stellen **zahlen das Elterngeld während der Elternzeit**."
   },
   {
     "level": "B1+",
@@ -1157,7 +1157,7 @@
     "german_audio": "die Tätigkeit",
     "english": "activity, task",
     "ukrainian": "діяльність",
-    "example": "Zu meinen täglichen <b style=\"color: #eab308;\">Tätigkeiten</b> gehört das Schreiben von Unit-Tests und das Bugtracking."
+    "example": "Der Arbeitnehmer **übt vorwiegend eine sitzende <b style=\"color: #eab308;\">Tätigkeit</b> im Büro aus**."
   },
   {
     "level": "B1+",
@@ -1169,7 +1169,7 @@
     "german_audio": "einen Termin vereinbaren",
     "english": "to make an appointment",
     "ukrainian": "домовлятися про зустріч",
-    "example": "Ich möchte einen Termin mit dem Product Owner <b style=\"color: #eab308;\">vereinbaren</b>, um die User Stories zu besprechen."
+    "example": "Ich möchte mit Ihnen **einen Termin für das Zielvereinbarungsgespräch <b style=\"color: #eab308;\">vereinbaren</b>**."
   },
   {
     "level": "B1+",
@@ -1181,7 +1181,7 @@
     "german_audio": "verleihen",
     "english": "to lend",
     "ukrainian": "позичати, надавати",
-    "example": "Das Rechenzentrum <b style=\"color: #eab308;\">verleiht</b> Rechenleistung an kleinere Startups."
+    "example": "Die Agentur **<b style=\"color: #eab308;\">verleiht</b> qualifiziertes Fachpersonal an mittelständische Betriebe**."
   },
   {
     "level": "B1+",
@@ -1194,7 +1194,7 @@
     "german_audio": "die Vermittlung",
     "english": "placement, mediation",
     "ukrainian": "працевлаштування, посередництво",
-    "example": "Die <b style=\"color: #eab308;\">Vermittlung</b> von IT-Fachkräften erfolgt oft über spezialisierte Headhunter-Agenturen."
+    "example": "Die <b style=\"color: #eab308;\">Vermittlung</b> der Arbeitslosen **erfolgt über die Bundesagentur für Arbeit**."
   },
   {
     "level": "B1+",
@@ -1206,7 +1206,7 @@
     "german_audio": "die Vermittlungsgebühr",
     "english": "placement fee",
     "ukrainian": "комісія за працевлаштування",
-    "example": "Die Firma zahlt eine hohe <b style=\"color: #eab308;\">Vermittlungsgebühr</b> für einen erfahrenen Softwarearchitekten."
+    "example": "Die <b style=\"color: #eab308;\">Vermittlungsgebühr</b> **wird unter bestimmten Bedingungen vom Jobcenter erstattet**."
   },
   {
     "level": "B1+",
@@ -1218,7 +1218,7 @@
     "german_audio": "der Agraringenieur",
     "english": "agricultural engineer",
     "ukrainian": "агроном-інженер/-ка",
-    "example": "Der <b style=\"color: #eab308;\">Agraringenieur</b> nutzt Drohnen und IoT-Sensoren zur Optimierung der Bewässerung."
+    "example": "Der <b style=\"color: #eab308;\">Agraringenieur</b> **ist für die Einhaltung der Gewässerschutzrichtlinien verantwortlich**."
   },
   {
     "level": "B1+",
@@ -1230,7 +1230,7 @@
     "german_audio": "der Arbeitseinsatz",
     "english": "work assignment",
     "ukrainian": "використання робочої сили",
-    "example": "Der <b style=\"color: #eab308;\">Arbeitseinsatz</b> der Entwickler wird über ein agiles Jira-Board gesteuert."
+    "example": "Der <b style=\"color: #eab308;\">Arbeitseinsatz</b> **wurde im Dienstplan für die gesamte Belegschaft festgelegt**."
   },
   {
     "level": "B1+",
@@ -1242,7 +1242,7 @@
     "german_audio": "der Bereich",
     "english": "area, field",
     "ukrainian": "сфера, галузь",
-    "example": "In welchem <b style=\"color: #eab308;\">Bereich</b> der Informatik möchtest du dich spezialisieren?"
+    "example": "Der <b style=\"color: #eab308;\">Bereich</b> Arbeitsschutz **steht bei dieser Modernisierung im Vordergrund**."
   },
   {
     "level": "B1+",
@@ -1254,7 +1254,7 @@
     "german_audio": "die Bereitschaft",
     "english": "readiness, willingness",
     "ukrainian": "готовність",
-    "example": "Die <b style=\"color: #eab308;\">Bereitschaft</b> zur Wochenendarbeit ist bei kritischen Systemumstellungen notwendig."
+    "example": "Der Mitarbeiter **zeigt große <b style=\"color: #eab308;\">Bereitschaft</b> zur Teilnahme an der Weiterbildungsmaßnahme**."
   },
   {
     "level": "B1+",
@@ -1266,7 +1266,7 @@
     "german_audio": "der Einsatzort",
     "english": "place of assignment",
     "ukrainian": "місце роботи (відрядження)",
-    "example": "Mein aktueller <b style=\"color: #eab308;\">Einsatzort</b> ist das Headquarter der IT-Firma in San Francisco."
+    "example": "Der <b style=\"color: #eab308;\">Einsatzort</b> des Servicetechnikers **befindet sich in der neuen Werkhalle**."
   },
   {
     "level": "B1+",
@@ -1274,11 +1274,11 @@
       "B1+"
     ],
     "thema": 2,
-    "german": "examiniert",
-    "german_audio": "examiniert",
+    "german": "examinierter",
+    "german_audio": "examinierter",
     "english": "qualified, examined",
     "ukrainian": "дипломований",
-    "example": "Wir suchen <b style=\"color: #eab308;\">examiniertes</b> Fachpersonal für die Wartung medizinischer IT-Systeme."
+    "example": "Wir suchen **eine <b style=\"color: #eab308;\">examinierte</b> Pflegekraft für die Betreuung im Pflegeservice**."
   },
   {
     "level": "B1+",
@@ -1290,7 +1290,7 @@
     "german_audio": "das Familienunternehmen",
     "english": "family business",
     "ukrainian": "сімейне підприємство",
-    "example": "Das mittelständische <b style=\"color: #eab308;\">Familienunternehmen</b> plant die Digitalisierung seiner gesamten Produktion."
+    "example": "Das <b style=\"color: #eab308;\">Familienunternehmen</b> **legt großen Wert auf ein stabiles und gutes Betriebsklima**."
   },
   {
     "level": "B1+",
@@ -1302,7 +1302,7 @@
     "german_audio": "der Informatiker",
     "english": "IT specialist",
     "ukrainian": "інформатик/-иця",
-    "example": "Der <b style=\"color: #eab308;\">Informatiker</b> optimiert den Algorithmus für eine schnellere Datenverarbeitung."
+    "example": "Der <b style=\"color: #eab308;\">Informatiker</b> **konfiguriert die Firewall und sichert die Server ab**."
   },
   {
     "level": "B1+",
@@ -1314,7 +1314,7 @@
     "german_audio": "der Ingenieur",
     "english": "engineer",
     "ukrainian": "інженер/-ка",
-    "example": "Der <b style=\"color: #eab308;\">Ingenieur</b> entwickelt neue Hardwarekomponenten für Quantencomputer."
+    "example": "Der <b style=\"color: #eab308;\">Ingenieur</b> **überwacht die ordnungsgemäße Wartung der Kältemaschinen**."
   },
   {
     "level": "B1+",
@@ -1327,7 +1327,7 @@
     "german_audio": "innovativ",
     "english": "innovative",
     "ukrainian": "інноваційний",
-    "example": "Unsere Firma bietet <b style=\"color: #eab308;\">innovative</b> Cloud-Lösungen für kleine und mittlere Unternehmen an."
+    "example": "<b style=\"color: #eab308;\">Innovative</b> Technologien **leisten einen wichtigen Beitrag zur Energieeinsparung**."
   },
   {
     "level": "B1+",
@@ -1339,7 +1339,7 @@
     "german_audio": "die Karrierechance",
     "english": "career opportunity",
     "ukrainian": "шанс на кар'єру",
-    "example": "Internationale Tech-Konzerne bieten hervorragende <b style=\"color: #eab308;\">Karrierechancen</b> für ehrgeizige Entwickler."
+    "example": "Der Tarifabschluss **verbessert die <b style=\"color: #eab308;\">Karrierechancen</b> der Angestellten im Betrieb**."
   },
   {
     "level": "B1+",
@@ -1351,7 +1351,7 @@
     "german_audio": "die Kommunikationsfähigkeit",
     "english": "communication skills",
     "ukrainian": "комунікабельність",
-    "example": "Gute <b style=\"color: #eab308;\">Kommunikationsfähigkeit</b> ist bei der Zusammenarbeit in verteilten Teams unerlässlich."
+    "example": "Gute <b style=\"color: #eab308;\">Kommunikationsfähigkeit</b> **ist für den Kundenservice von entscheidender Bedeutung**."
   },
   {
     "level": "B1+",
@@ -1364,7 +1364,7 @@
     "german_audio": "der Kundenservice",
     "english": "customer service",
     "ukrainian": "служба підтримки клієнтів",
-    "example": "Der <b style=\"color: #eab308;\">Kundenservice</b> wird durch einen KI-basierten Chatbot unterstützt."
+    "example": "Der <b style=\"color: #eab308;\">Kundenservice</b> **muss sich unverzüglich um das Anliegen des Kunden kümmern**."
   },
   {
     "level": "B1+",
@@ -1377,7 +1377,7 @@
     "german_audio": "die Pflegekraft",
     "english": "caregiver, nurse",
     "ukrainian": "медпрацівник (з догляду)",
-    "example": "Die moderne Klinik verwendet digitale Tools, um die <b style=\"color: #eab308;\">Pflegekraft</b> bei der Dokumentation zu entlasten."
+    "example": "Die <b style=\"color: #eab308;\">Pflegekraft</b> **ist auf eine ergonomische Arbeitsplatzausstattung angewiesen**."
   },
   {
     "level": "B1+",
@@ -1389,7 +1389,7 @@
     "german_audio": "der Pflegeservice",
     "english": "care service",
     "ukrainian": "служба догляду",
-    "example": "Ein digitaler <b style=\"color: #eab308;\">Pflegeservice</b> ermöglicht die Fernüberwachung von Patientendaten."
+    "example": "Der <b style=\"color: #eab308;\">Pflegeservice</b> **bietet den Angehörigen eine wichtige Entlastung im Alltag**."
   },
   {
     "level": "B1+",
@@ -1401,7 +1401,7 @@
     "german_audio": "der Sicherheitsmitarbeiter",
     "english": "security officer",
     "ukrainian": "співробітник/-ця безпеки",
-    "example": "Der <b style=\"color: #eab308;\">Sicherheitsmitarbeiter</b> überwacht den physischen Zugang zum Serverraum."
+    "example": "Der <b style=\"color: #eab308;\">Sicherheitsmitarbeiter</b> **weist uns auf die Einhaltung der Brandschutzordnung hin**."
   },
   {
     "level": "B1+",
@@ -1409,11 +1409,11 @@
       "B1+"
     ],
     "thema": 2,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Teamgeist (Sg.)",
-    "german_audio": "der Teamgeist",
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Teamgeist (Sg.)",
+    "german_audio": "die Teamgeist",
     "english": "team spirit",
     "ukrainian": "командний дух",
-    "example": "Ein starker <b style=\"color: #eab308;\">Teamgeist</b> führt oft zu kreativeren Ansätzen in der Softwareentwicklung."
+    "example": "Ein starker <b style=\"color: #eab308;\">Teamgeist</b> **trägt maßgeblich zur Verbesserung des Betriebsklimas bei**."
   },
   {
     "level": "B1+",
@@ -1425,7 +1425,7 @@
     "german_audio": "die Verantwortung",
     "english": "responsibility",
     "ukrainian": "відповідальність",
-    "example": "Ein Chief Information Security Officer trägt eine enorme <b style=\"color: #eab308;\">Verantwortung</b> für den Datenschutz."
+    "example": "Der Inhaber **trägt die wirtschaftliche <b style=\"color: #eab308;\">Verantwortung</b> für die Existenzsicherung**."
   },
   {
     "level": "B1+",
@@ -1437,7 +1437,7 @@
     "german_audio": "der Verkäufer",
     "english": "salesperson",
     "ukrainian": "продавець/-чиня",
-    "example": "Der <b style=\"color: #eab308;\">Verkäufer</b> erklärt dem Kunden die technischen Spezifikationen des neuen High-End-PCs."
+    "example": "Der <b style=\"color: #eab308;\">Verkäufer</b> **erteilt den Kunden fundierte Auskünfte über das Produkt**."
   },
   {
     "level": "B1+",
@@ -1449,7 +1449,7 @@
     "german_audio": "die Verstärkung",
     "english": "reinforcement, addition to the team",
     "ukrainian": "підкріплення, новий співробітник",
-    "example": "Wir suchen dringend <b style=\"color: #eab308;\">Verstärkung</b> für unser Frontend-Team im Bereich React."
+    "example": "Wir suchen zur <b style=\"color: #eab308;\">Verstärkung</b> unseres Teams **eine qualifizierte Teilzeitkraft**."
   },
   {
     "level": "B1+",
@@ -1461,7 +1461,7 @@
     "german_audio": "die Zukunftsperspektive",
     "english": "future prospect",
     "ukrainian": "перспектива на майнє",
-    "example": "Die Arbeit im Bereich Cybersicherheit bietet eine exzellente <b style=\"color: #eab308;\">Zukunftsperspektive</b>."
+    "example": "Die abgeschlossene Berufsausbildung **bietet eine hervorragende <b style=\"color: #eab308;\">Zukunftsperspektive</b>**."
   },
   {
     "level": "B1+",
@@ -1473,7 +1473,7 @@
     "german_audio": "die Zusammenarbeit",
     "english": "cooperation",
     "ukrainian": "співпраця",
-    "example": "Die erfolgreiche <b style=\"color: #eab308;\">Zusammenarbeit</b> zwischen Designer und Entwickler ist entscheidend für das UI/UX Design."
+    "example": "Die <b style=\"color: #eab308;\">Zusammenarbeit</b> **zwischen dem Betriebsrat und der Geschäftsführung verläuft reibungslos**."
   },
   {
     "level": "B1+",
@@ -1485,7 +1485,7 @@
     "german_audio": "zuständig",
     "english": "responsible",
     "ukrainian": "відповідальний",
-    "example": "Wer ist in eurem Team für die Code-Qualität <b style=\"color: #eab308;\">zuständig</b>?"
+    "example": "Frau Duda **ist für die Abrechnung der Lohnsteuer <b style=\"color: #eab308;\">zuständig</b>**."
   },
   {
     "level": "B1+",
@@ -1497,7 +1497,7 @@
     "german_audio": "das Bauvorhaben",
     "english": "construction project",
     "ukrainian": "будівельний проект",
-    "example": "Beim neuen <b style=\"color: #eab308;\">Bauvorhaben</b> wird auch ein modernes Glasfasernetz für das gesamte Bürogebäude verlegt."
+    "example": "Das <b style=\"color: #eab308;\">Bauvorhaben</b> **wurde von der zuständigen Bauaufsichtsbehörde bewilligt**."
   },
   {
     "level": "B1+",
@@ -1509,7 +1509,7 @@
     "german_audio": "der Einsatz",
     "english": "assignment, mission",
     "ukrainian": "виконання завдання",
-    "example": "Der weltweite <b style=\"color: #eab308;\">Einsatz</b> unserer Software zeigt ihre hohe Skalierbarkeit."
+    "example": "Der <b style=\"color: #eab308;\">Einsatz</b> des Notstromaggregats **wird im Evakuierungsplan geregelt**."
   },
   {
     "level": "B1+",
@@ -1521,7 +1521,7 @@
     "german_audio": "das Einverständnis",
     "english": "consent, agreement",
     "ukrainian": "згода",
-    "example": "Wir benötigen das <b style=\"color: #eab308;\">Einverständnis</b> des Nutzers für die Verarbeitung seiner personenbezogenen Daten."
+    "example": "Das <b style=\"color: #eab308;\">Einverständnis</b> des Betriebsrats **ist für die Überstundenregelung erforderlich**."
   },
   {
     "level": "B1+",
@@ -1533,7 +1533,7 @@
     "german_audio": "der Fachinformatiker",
     "english": "IT specialist",
     "ukrainian": "фахівець/-чиня з інформатики",
-    "example": "Als <b style=\"color: #eab308;\">Fachinformatiker</b> für Anwendungsentwicklung schreibe ich täglich Code in C#."
+    "example": "Als <b style=\"color: #eab308;\">Fachinformatiker</b> **ist er für die Konfiguration des Firmennetzwerks zuständig**."
   },
   {
     "level": "B1+",
@@ -1546,7 +1546,7 @@
     "german_audio": "die Krankheitsvertretung",
     "english": "sick leave cover",
     "ukrainian": "заміна на час хвороби",
-    "example": "Er übernimmt kurzfristig die <b style=\"color: #eab308;\">Krankheitsvertretung</b> für den Lead-Architekten."
+    "example": "Die <b style=\"color: #eab308;\">Krankheitsvertretung</b> **wurde im Dienstplan sorgfältig organisiert**."
   },
   {
     "level": "B1+",
@@ -1558,7 +1558,7 @@
     "german_audio": "der Realschulabschluss",
     "english": "secondary school certificate",
     "ukrainian": "атестат про закінчення реальної школи",
-    "example": "Mit einem guten <b style=\"color: #eab308;\">Realschulabschluss</b> kann man eine Ausbildung zum IT-Systemkaufmann beginnen."
+    "example": "Mit einem guten <b style=\"color: #eab308;\">Realschulabschluss</b> **hat man beste Chancen auf einen Ausbildungsplatz**."
   },
   {
     "level": "B1+",
@@ -1571,7 +1571,7 @@
     "german_audio": "die Urlaubsvertretung",
     "english": "holiday replacement",
     "ukrainian": "заміна на час відпустки",
-    "example": "Könntest du während meiner Abwesenheit meine <b style=\"color: #eab308;\">Urlaubsvertretung</b> für die Serverwartung machen?"
+    "example": "Ich übernehme gerne **die <b style=\"color: #eab308;\">Urlaubsvertretung</b> für meinen Kollegen in der Werkhalle**."
   },
   {
     "level": "B1+",
@@ -1583,7 +1583,7 @@
     "german_audio": "der Zeitraum",
     "english": "period of time",
     "ukrainian": "період часу",
-    "example": "In dem <b style=\"color: #eab308;\">Zeitraum</b> zwischen 2:00 und 4:00 Uhr morgens finden Wartungsarbeiten am Netzwerk statt."
+    "example": "In dem <b style=\"color: #eab308;\">Zeitraum</b> der Elternzeit **ruht der gesetzliche Anspruch auf Lohnfortzahlung**."
   },
   {
     "level": "B1+",
