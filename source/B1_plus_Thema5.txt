@@ -1,69 +1,68 @@
 #separator:;
 #html:true
 #columns:German;English;Ukrainian;Example
-abhängig sein von (+ Dat.);to be dependent on;бути залежним від;Der Erfolg des Deployments ist von der Stabilität der Datenbank abhängig.
-die Beratung, -en;advice, consulting;консультація;Wir bieten eine technische Beratung zur Migration auf eine Microservices-Architektur an.
-Geld ausgeben für (+ Akk.) (gibt aus, gab aus, hat ausgegeben);to spend money on;витрачати гроші на;Unternehmen sollten mehr Geld für moderne IT-Sicherheit ausgeben.
-die Lieferzeit, -en;delivery time;час доставки;Die Lieferzeit für die neuen High-End-Grafikkarten beträgt momentan drei Wochen.
-die Öffnungszeit, -en;opening time;години роботи;Der IT-Support hat feste Öffnungszeiten, ist aber für Notfälle rund um die Uhr erreichbar.
-der Online-Einkauf, "-e;online shopping;онлайн-покупки;Wir haben das Backend für einen großen Online-Einkauf-Marktplatz entwickelt.
-die Qualität, -en;quality;якість;Die Qualität der Software wird durch kontinuierliche Code-Reviews sichergestellt.
-vorsichtig;careful;обережний;Sei vorsichtig, wenn du Änderungen direkt an der Produktions-Datenbank vornimmst!
-die Ware, -n;goods, merchandise;товар;Unsere Software verfolgt jede einzelne Ware im Lager in Echtzeit.
-der Absatz, "-e;sales, turnover;збут, продажі;Der Absatz unserer neuen Software-Lizenzen ist im letzten Quartal stark gestiegen.
-die (technische) Anlage, -n;technical system / equipment;технічна установка;Die gesamte technische Anlage des Rechenzentrums wird zentral überwacht.
-eine Anlage warten (wartet, wartete, hat gewartet);to maintain a system;обслуговувати установку;Einmal im Monat muss ein Techniker die Klimaanlage im Serverraum warten.
-jdn./etw. beobachten (beobachtet, beobachtete, hat beobachtet);to observe;спостерігати;Wir beobachten die Server-Last genau, um Engpässe frühzeitig zu erkennen.
-der Einzelhandel (Sg.);retail;роздрібна торгівля;Der Einzelhandel nutzt immer mehr IT-Lösungen für das Bestandsmanagement.
-der Endkunde, -n / die Endkundin, -nen;end customer;кінцевий споживач/-ка;Unsere App wird vom Endkunden direkt im App Store heruntergeladen.
-etw. entwickeln (entwickelt, entwickelte, hat entwickelt);to develop;розробляти;Wir entwickeln ein neues Framework für performante Webanwendungen.
-die Forschung und Entwicklung (Sg.);research and development (R&D);дослідження та розробка;Die Abteilung für Forschung und Entwicklung arbeitet an Quantencomputer-Algorithmen.
-der Großhandel (Sg.);wholesale;гуртова торгівля;Unser ERP-System optimiert die Lieferketten für den internationalen Großhandel.
-der Handel (Sg.);trade, commerce;торгівля;Der elektronische Handel erfordert eine sichere Zahlungsabwicklung.
-her|stellen (stellt her, stellte her, hat hergestellt);to produce, to manufacture;виробляти;Die Firma plant, ihre eigenen ARM-basierten Prozessoren herzustellen.
-die Herstellung (Sg.);manufacturing;виробництво;Die Herstellung von Halbleitern erfordert extrem saubere Umgebungen.
-etw. liefern (liefert, lieferte, hat geliefert);to deliver;доставляти;Der Paketbote wird die neuen Laptops heute Nachmittag liefern.
-der Lieferschein, -e;delivery note;накладна;Bitte scannen Sie den Lieferschein für die neue Hardware direkt ein.
-Lieferscheine aus|stellen (stellt aus, stellte aus, hat ausgestellt);to issue delivery notes;виписувати накладні;Das System kann automatisch Lieferscheine als PDF-Datei ausstellen.
-die Lieferung, -en;delivery;доставка;Die Lieferung der neuen Server-Racks wurde für morgen bestätigt.
-der Markt, "-e;market;ринок;Wir müssen den Markt für Cloud-Computing-Dienste genau beobachten.
-das Maß, -e;measure, dimension;міра, розмір;Wir brauchen die genauen Maße der Switch-Gehäuse für den Einbau im Rack.
-die Menge, -n;quantity, amount;кількість;Eine riesige Menge an Daten wird täglich durch unsere KI verarbeitet.
-etw. montieren (montiert, montierte, hat montiert);to assemble, to install;монтувати;Wir müssen heute noch die neuen Access-Points im Büro montieren.
-die Produktion, -en;production;виробництво;Ein Softwarefehler führte zum kompletten Stillstand der Produktion.
-die Rechnung, -en;invoice, bill;рахунок;Die Rechnung für das Azure-Abonnement wird automatisch per Lastschrift bezahlt.
-die Spedition, -en;shipping company;експедиторська компанія;Die Spedition hat die Paletten mit der neuen Hardware am Hafen abgeholt.
-der Transport, -e;transport;транспорт;Der Transport verschlüsselter Daten muss über eine sichere Verbindung erfolgen.
-die Verpackung, -en;packaging;упаковка;Die Verpackung des neuen Macs ist sehr hochwertig und umweltfreundlich gestaltet.
-der Versand (Sg.);shipping, dispatch;відправка;Nach dem QA-Check erfolgt der Versand der Hardware an den Kunden.
-der Vertrieb (Sg.);sales, distribution;відділ збуту;Unser Vertrieb nutzt ein CRM-System zur Verwaltung der Kundenkontakte.
-der Zwischenhändler, -;middleman, reseller;посередник;Händler kaufen die Laptops oft bei einem spezialisierten IT-Zwischenhändler.
-etw. analysieren;to analyze;аналізувати;Wir müssen den Netzwerk-Traffic analysieren, um das Problem zu finden.
-etw. bearbeiten (bearbeitet, bearbeitete, hat bearbeitet);to process, to edit;обробляти;Ich muss den Pull-Request meines Kollegen heute noch bearbeiten.
-jdn./etw. befördern (befördert, beförderte, hat befördert);to promote, to transport;підвищувати (на посаді), перевозити;Er wurde zum Leiter der Softwareentwicklung befördert.
-jdn./etw. betreuen (betreut, betreute, hat betreut);to support, to manage;обслуговувати, супроводжувати;Unser Support-Team betreut Kunden bei technischen Problemen mit der App.
-die Branche, -n;industry, sector;галузь;In der Tech-Branche ist lebenslanges Lernen absolut notwendig.
-etw. entwickeln;to develop;розробляти;Wir entwickeln eine innovative Lösung zur automatischen Code-Generierung.
-die Gastronomie (Sg.);gastronomy, catering;гастрономія;Die Gastronomie nutzt immer häufiger digitale Kassensysteme mit Cloud-Anbindung.
-etw. gestalten (gestaltet, gestaltete, hat gestaltet);to design, to shape;оформляти, організовувати;Ein UX-Designer hilft uns dabei, die Website benutzerfreundlich zu gestalten.
-das Handwerk (Sg.);craft, trade;ремесло;Gutes Software-Engineering wird oft als modernes digitales Handwerk bezeichnet.
-die IT-Branche (Sg.);IT industry;ІТ-галузь;Die IT-Branche ist einer der wichtigsten Arbeitgeber in Deutschland.
-etw. konstruieren (konstruiert, konstruierte, hat konstruiert);to construct, to design;конструювати;Wir konstruieren ein neues Gehäuse für unsere IoT-Geräte.
-etw. kontrollieren (kontrolliert, kontrollierte, hat kontrolliert);to control, to check;контролювати;Der Administrator muss die Zugriffsrechte der Benutzer regelmäßig kontrollieren.
-Kunden bedienen (bedient, bediente, hat bedient);to serve customers;обслуговувати клієнтів;Unsere Web-Server bedienen gleichzeitig Tausende von Anfragen pro Sekunde.
-der Kundenberater, - / die Kundenberaterin, -nen;customer advisor;консультант/-ка клієнтів;Der technische Kundenberater erklärt die Vorteile unserer API.
-das Labor, -e;laboratory;лабораторія;Im Hardware-Labor werden neue Prozessoren unter Extrembedingungen getestet.
-der Lagerist, -en / die Lageristin, -nen;warehouse clerk;працівник/-ця складу;Der Lagerist nutzt einen Handscanner, der direkt mit der Datenbank verbunden ist.
-der Tierpfleger, - / die Tierpflegerin, -nen;animal keeper;доглядач/-ка за тваринами;Der Tierpfleger nutzt ein Tablet, um die Gesundheitsdaten der Tiere zu erfassen.
-Transport und Logistik (Sg.);transport and logistics;транспорт і логістика;In den Bereichen Transport und Logistik spielt die Routenoptimierung durch KI eine große Rolle.
-der Vertriebsweg, -e;distribution channel;канал збуту;Der direkte Download über unsere Website ist unser effektivster Vertriebsweg.
-Waren bestellen (bestellt, bestellte, hat bestellt);to order goods;замовляти товари;Wir müssen neue RAM-Riegel für das Server-Upgrade bestellen.
-Wissenschaft und Forschung (Sg.);science and research;наука та дослідження;Viel Geld aus der Tech-Branche fließt in moderne Wissenschaft und Forschung.
-etw. zu|bereiten (bereitet zu, bereitete zu, hat zubereitet);to prepare (food);готувати (їжу);Dank Smart-Home-Technik kann ich meinen Kaffee schon vom Computer aus zubereiten.
-etw. zu|stellen (stellt zu, stellte zu, hat zugestellt);to deliver, to serve;доставляти;Die E-Mail mit dem Bestätigungs-Code konnte leider nicht zugestellt werden.
-die Bequemlichkeit, -en;convenience;зручність;Viele Nutzer schätzen die Bequemlichkeit von Single-Sign-On-Verfahren.
-der CO2-Ausstoß (Sg.);CO2 emission;викид CO2;Der CO2-Ausstoß von großen Rechenzentren ist ein wichtiges Thema in der Green-IT.
-der Händler, - / die Händlerin, -nen;dealer, vendor;торговець/-ка;Ein autorisierter Händler bietet speziellen Support für unsere Firmen-Laptops an.
-die Lagerhalle, -n;warehouse;складська будівля;In der neuen Lagerhalle werden die Server-Racks für den Versand vorbereitet.
-die Online-Plattform, -en;online platform;онлайн-платформа;Wir entwickeln eine neue Online-Plattform für das Projektmanagement.
-der Sonderwunsch, "-e;special request;особливе побажання;Haben Sie bezüglich der Konfiguration Ihres neuen PCs noch einen Sonderwunsch?
+abhängig sein von (+ Dat.);to be dependent on;бути залежним від;Die Höhe der Altersteilzeit **ist maßgeblich von den geleisteten Berufsjahren abhängig**.
+die Beratung, -en;advice, consulting;консультація;Die Personalabteilung **bietet eine Beratung bezüglich des Kündigungsschutzes an**.
+Geld ausgeben für (+ Akk.) (gibt aus, gab aus, hat ausgegeben);to spend money on;витрачати гроші на;Der Betrieb **sollte mehr Geld für ergonomische Arbeitsplatzgestaltung ausgeben**.
+die Lieferzeit, -en;delivery time;час доставки;Die Lieferzeit für die neuen Brandschutztüren **wurde im Vertrag festgelegt**.
+die Öffnungszeit, -en;opening time;години роботи;Die Öffnungszeiten der werkseigenen Kantine **wurden im Aushang bekannt gegeben**.
+der Online-Einkauf, "-e;online shopping;онлайн-покупки;Der Online-Einkauf **von IT-Ausstattung für das Büro spart viel Arbeitszeit**.
+die Qualität, -en;quality;якість;Die Qualität der Waren **muss bei der Anlieferung im Lager überprüft werden**.
+vorsichtig;careful;обережний;Man **sollte beim Umgang mit den neuen Kältemaschinen sehr vorsichtig sein**.
+die Ware, -n;goods, merchandise;товар;Die Ware **wird nach dem Eintreffen unmittelbar im Lager inventarisiert**.
+der Absatz, "-e;sales, turnover;збут, продажі;Der Absatz unserer Produkte **ist infolge der neuen Werbekampagne stark gestiegen**.
+die (technische) Anlage, -n;technical system / equipment;технічна установка;Die technische Anlage **muss regelmäßig auf ihre Betriebssicherheit überprüft werden**.
+eine Anlage warten (wartet, wartete, hat gewartet);to maintain a system;обслуговувати установку;Die Elektrofirma **muss die gesamte elektrische Anlage des Werks warten**.
+jdn./etw. beobachten (beobachtet, beobachtete, hat beobachtet);to observe;спостерігати;Der Vorarbeiter **muss den ordnungsgemäßen Betrieb der Maschinen beobachten**.
+der Einzelhandel (Sg.);retail;роздрібна торгівля;Der Einzelhandel **klagt über den Mangel an qualifizierten Verkaufskräften**.
+der Endkunde, -n / die Endkundin, -nen;end customer;кінцевий споживач/-ка;Der Endkunde **hat das Recht, die Ware bei Beschädigung zu reklamieren**.
+etw. entwickeln (entwickelt, entwickelte, hat entwickelt);to develop;розробляти;Wir wollen **ein neues und innovatives Verfahren zur Lärmminderung entwickeln**.
+die Forschung und Entwicklung (Sg.);research and development (R&D);дослідження та розробка;Der Bereich Forschung und Entwicklung **erfordert erhebliche finanzielle Investitionen**.
+der Großhandel (Sg.);wholesale;гуртова торгівля;Der Großhandel **liefert die Rohstoffe direkt an unsere Produktionsstätte**.
+der Handel (Sg.);trade, commerce;торгівля;Der Handel **mit Kältetechnik unterliegt strengen gesetzlichen Regelungen**.
+her|stellen (stellt her, stellte her, hat hergestellt);to produce, to manufacture;виробляти;Unser Betrieb **kann diese speziellen Ersatzteile kostengünstig herstellen**.
+die Herstellung (Sg.);manufacturing;виробництво;Bei der Herstellung der Produkte **ist auf eine fehlerfreie Verarbeitung zu achten**.
+etw. liefern (liefert, lieferte, hat geliefert);to deliver;доставляти;Die Spedition **wird die bestellten Büromöbel zum vereinbarten Stichtag liefern**.
+der Lieferschein, -e;delivery note;накладна;Bitte **vergleichen Sie den Lieferschein genau mit den erhaltenen Waren**.
+Lieferscheine aus|stellen (stellt aus, stellte aus, hat ausgestellt);to issue delivery notes;виписувати накладні;Die Versandabteilung **muss die Lieferscheine für den Gütertransport ausstellen**.
+die Lieferung, -en;delivery;доставка;Die Lieferung **erfolgte unmittelbar nach Eingang der schriftlichen Bestellung**.
+der Markt, "-e;market;ринок;Wir müssen uns **am Markt orientieren, um konkurrenzfähig zu bleiben**.
+das Maß, -e;measure, dimension;міра, розмір;Die Maße der neuen Werkbank **müssen den Richtlinien des Arbeitsschutzes entsprechen**.
+die Menge, -n;quantity, amount;кількість;Eine große Menge an Ausschuss **wirkt sich negativ auf den Gewinn aus**.
+etw. montieren (montiert, montierte, hat montiert);to assemble, to install;монтувати;Die Techniker **müssen die neuen Absauganlagen in der Werkhalle montieren**.
+die Produktion, -en;production;виробництво;Die Produktion **wurde durch den unerwarteten Kabelbrand komplett lahmgelegt**.
+die Rechnung, -en;invoice, bill;рахунок;Bitte **leiten Sie die Rechnung direkt an die Finanzbuchhaltung weiter**.
+die Spedition, -en;shipping company;експедиторська компанія;Die Spedition **trägt die Verantwortung für den sicheren Transport der Ware**.
+der Transport, -e;transport;транспорт;Der Transport von Gefahrstoffen **ist gesetzlich streng reglementiert**.
+die Verpackung, -en;packaging;упаковка;Die Verpackung **muss die Ware zuverlässig vor Feuchtigkeit schützen**.
+der Versand (Sg.);shipping, dispatch;відправка;Der Versand der Laptops **wird über das Logistikzentrum abgewickelt**.
+der Vertrieb (Sg.);sales, distribution;відділ збуту;Der Vertrieb **ist für die Neukundengewinnung in der Berufssparte zuständig**.
+der Zwischenhändler, -;middleman, reseller;посередник;Durch den Verzicht auf einen Zwischenhändler **konnten wir Kosten einsparen**.
+etw. analysieren;to analyze;аналізувати;Wir müssen die Ursachen des Betriebsunfalls **gemeinsam im Team analysieren**.
+etw. bearbeiten (bearbeitet, bearbeitete, hat bearbeitet);to process, to edit;обробляти;Die Personalabteilung **muss den Antrag auf Elternzeit unverzüglich bearbeiten**.
+jdn./etw. befördern (befördert, beförderte, hat befördert);to promote, to transport;підвищувати (на посаді), перевозити;Er wurde wegen seiner hervorragenden Leistungen **zum Vorarbeiter befördert**.
+jdn./etw. betreuen (betreut, betreute, hat betreut);to support, to manage;обслуговувати, супроводжувати;Unsere Fachkräfte **betreuen die Kunden auch nach dem Kauf der Anlage**.
+die Branche, -n;industry, sector;галузь;In dieser Branche **ist eine flexible Anpassung an die Marktbedingungen üblich**.
+die Gastronomie (Sg.);gastronomy, catering;гастрономія;In der Gastronomie **gelten sehr strenge Regeln bezüglich der Hygiene**.
+etw. gestalten (gestaltet, gestaltete, hat gestaltet);to design, to shape;оформляти, організовувати;Wir müssen den Arbeitsplatz **nach den neuesten ergonomischen Erkenntnissen gestalten**.
+das Handwerk (Sg.);craft, trade;ремесло;Das Handwerk **spielt eine tragende Rolle in der mittelständischen Wirtschaft**.
+die IT-Branche (Sg.);IT industry;ІТ-галузь;Die IT-Branche **beschäftigt eine wachsende Zahl an qualifizierten Fachkräften**.
+etw. konstruieren (konstruiert, konstruierte, hat konstruiert);to construct, to design;конструювати;Die Ingenieure **konnten eine extrem leise Kältemaschine konstruieren**.
+etw. kontrollieren (kontrolliert, kontrollierte, hat kontrolliert);to control, to check;контролювати;Der Sicherheitsmitarbeiter **muss die Einhaltung der Brandschutzordnung kontrollieren**.
+Kunden bedienen (bedient, bediente, hat bedient);to serve customers;обслуговувати клієнтів;Unsere Verkäufer **sind angewiesen, alle Kunden stets freundlich zu bedienen**.
+der Kundenberater, - / die Kundenberaterin, -nen;customer advisor;консультант/-ка клієнтів;Der Kundenberater **macht dem Interessenten ein faires und unverbindliches Angebot**.
+das Labor, -e;laboratory;лабораторія;Im Labor **werden die Materialproben einer genauen Qualitätsprüfung unterzogen**.
+der Lagerist, -en / die Lageristin, -nen;warehouse clerk;працівник/-ця складу;Der Lagerist **ist für die Annahme und Kontrolle der Lieferungen zuständig**.
+der Tierpfleger, - / die Tierpflegerin, -nen;animal keeper;доглядач/-ка за тваринами;Als Tierpfleger **trägt man eine hohe Verantwortung für das Tierwohl**.
+Transport und Logistik (Sg.);transport and logistics;транспорт і логістика;Die Ausbildung im Bereich Transport und Logistik **bietet gute Zukunftsperspektiven**.
+der Vertriebsweg, -e;distribution channel;канал збуту;Wir müssen einen neuen Vertriebsweg **für die Vermarktung unserer Dienstleistungen finden**.
+Waren bestellen (bestellt, bestellte, hat bestellt);to order goods;замовляти товари;Die Einkaufsabteilung **muss dringend neue Schutzausrüstung bestellen**.
+Wissenschaft und Forschung (Sg.);science and research;наука та дослідження;Unser Betrieb **arbeitet eng mit Einrichtungen für Wissenschaft und Forschung zusammen**.
+etw. zu|bereiten (bereitet zu, bereitete zu, hat zubereitet);to prepare (food);готувати (їжу);Der Küchenhelfer **muss die Zutaten für das Mittagessen in der Kantine zubereiten**.
+etw. zu|stellen (stellt zu, stellte zu, hat zugestellt);to deliver, to serve;доставляти;Die Post **konnte die Abmahnung des Arbeitgebers gestern nicht zustellen**.
+die Bequemlichkeit, -en;convenience;зручність;Die Bequemlichkeit der Gleitzeit **wird von der gesamten Belegschaft sehr geschätzt**.
+der CO2-Ausstoß (Sg.);CO2 emission;викид CO2;Die Verringerung des CO2-Ausstoßes **leistet einen wichtigen Beitrag zum Umweltschutz**.
+der Händler, - / die Händlerin, -nen;dealer, vendor;торговець/-ка;Der Händler **konnte uns einen Rabatt auf die Anschaffungskosten einräumen**.
+die Lagerhalle, -n;warehouse;складська будівля;In der Lagerhalle **muss eine ausreichende Belüftung der Arbeitsplätze gewährleistet sein**.
+die Online-Plattform, -en;online platform;онлайн-платформа;Über die Online-Plattform **können Mitarbeiter ihre Urlaubstage digital beantragen**.
+der Sonderwunsch, "-e;special request;особливе побажання;Die Geschäftsführung **ging auf jeden Sonderwunsch des Betriebsrats ein**.

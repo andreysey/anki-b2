@@ -3140,7 +3140,7 @@
     "german_audio": "abhängig sein von",
     "english": "to be dependent on",
     "ukrainian": "бути залежним від",
-    "example": "Der Erfolg des Deployments ist von der Stabilität der Datenbank abhängig."
+    "example": "Die Höhe der Altersteilzeit **ist maßgeblich von den geleisteten Berufsjahren abhängig**."
   },
   {
     "level": "B1+",
@@ -3152,7 +3152,7 @@
     "german_audio": "die Beratung",
     "english": "advice, consulting",
     "ukrainian": "консультація",
-    "example": "Wir bieten eine technische <b style=\"color: #eab308;\">Beratung</b> zur Migration auf eine Microservices-Architektur an."
+    "example": "Die Personalabteilung **bietet eine <b style=\"color: #eab308;\">Beratung</b> bezüglich des Kündigungsschutzes an**."
   },
   {
     "level": "B1+",
@@ -3164,7 +3164,7 @@
     "german_audio": "Geld ausgeben für",
     "english": "to spend money on",
     "ukrainian": "витрачати гроші на",
-    "example": "Unternehmen sollten mehr Geld <b style=\"color: #eab308;\">für</b> moderne IT-Sicherheit ausgeben."
+    "example": "Der Betrieb **sollte mehr Geld <b style=\"color: #eab308;\">für</b> ergonomische Arbeitsplatzgestaltung ausgeben**."
   },
   {
     "level": "B1+",
@@ -3177,7 +3177,7 @@
     "german_audio": "die Lieferzeit",
     "english": "delivery time",
     "ukrainian": "час доставки",
-    "example": "Die <b style=\"color: #eab308;\">Lieferzeit</b> für die neuen High-End-Grafikkarten beträgt momentan drei Wochen."
+    "example": "Die <b style=\"color: #eab308;\">Lieferzeit</b> für die neuen Brandschutztüren **wurde im Vertrag festgelegt**."
   },
   {
     "level": "B1+",
@@ -3189,7 +3189,7 @@
     "german_audio": "die Öffnungszeit",
     "english": "opening time",
     "ukrainian": "години роботи",
-    "example": "Der IT-Support hat feste <b style=\"color: #eab308;\">Öffnungszeiten</b>, ist aber für Notfälle rund um die Uhr erreichbar."
+    "example": "Die <b style=\"color: #eab308;\">Öffnungszeiten</b> der werkseigenen Kantine **wurden im Aushang bekannt gegeben**."
   },
   {
     "level": "B1+",
@@ -3201,7 +3201,7 @@
     "german_audio": "der Online-Einkauf",
     "english": "online shopping",
     "ukrainian": "онлайн-покупки",
-    "example": "Wir haben das Backend für einen großen <b style=\"color: #eab308;\">Online-Einkauf</b>-Marktplatz entwickelt."
+    "example": "Der <b style=\"color: #eab308;\">Online-Einkauf</b> **von IT-Ausstattung für das Büro spart viel Arbeitszeit**."
   },
   {
     "level": "B1+",
@@ -3213,7 +3213,7 @@
     "german_audio": "die Qualität",
     "english": "quality",
     "ukrainian": "якість",
-    "example": "Die <b style=\"color: #eab308;\">Qualität</b> der Software wird durch kontinuierliche Code-Reviews sichergestellt."
+    "example": "Die <b style=\"color: #eab308;\">Qualität</b> der Waren **muss bei der Anlieferung im Lager überprüft werden**."
   },
   {
     "level": "B1+",
@@ -3225,7 +3225,7 @@
     "german_audio": "vorsichtig",
     "english": "careful",
     "ukrainian": "обережний",
-    "example": "Sei <b style=\"color: #eab308;\">vorsichtig</b>, wenn du Änderungen direkt an der Produktions-Datenbank vornimmst!"
+    "example": "Man **sollte beim Umgang mit den neuen Kältemaschinen sehr <b style=\"color: #eab308;\">vorsichtig</b> sein**."
   },
   {
     "level": "B1+",
@@ -3237,7 +3237,7 @@
     "german_audio": "die Ware",
     "english": "goods, merchandise",
     "ukrainian": "товар",
-    "example": "Unsere Software verfolgt jede einzelne <b style=\"color: #eab308;\">Ware</b> im Lager in Echtzeit."
+    "example": "Die <b style=\"color: #eab308;\">Ware</b> **wird nach dem Eintreffen unmittelbar im Lager inventarisiert**."
   },
   {
     "level": "B1+",
@@ -3249,7 +3249,7 @@
     "german_audio": "der Absatz",
     "english": "sales, turnover",
     "ukrainian": "збут, продажі",
-    "example": "Der <b style=\"color: #eab308;\">Absatz</b> unserer neuen Software-Lizenzen ist im letzten Quartal stark gestiegen."
+    "example": "Der <b style=\"color: #eab308;\">Absatz</b> unserer Produkte **ist infolge der neuen Werbekampagne stark gestiegen**."
   },
   {
     "level": "B1+",
@@ -3261,7 +3261,7 @@
     "german_audio": "die Anlage",
     "english": "technical system / equipment",
     "ukrainian": "технічна установка",
-    "example": "Die gesamte technische <b style=\"color: #eab308;\">Anlage</b> des Rechenzentrums wird zentral überwacht."
+    "example": "Die technische <b style=\"color: #eab308;\">Anlage</b> **muss regelmäßig auf ihre Betriebssicherheit überprüft werden**."
   },
   {
     "level": "B1+",
@@ -3273,7 +3273,7 @@
     "german_audio": "eine Anlage warten",
     "english": "to maintain a system",
     "ukrainian": "обслуговувати установку",
-    "example": "Einmal im Monat muss ein Techniker die Klimaanlage im Serverraum <b style=\"color: #eab308;\">warten</b>."
+    "example": "Die Elektrofirma **muss die gesamte elektrische Anlage des Werks <b style=\"color: #eab308;\">warten</b>**."
   },
   {
     "level": "B1+",
@@ -3285,7 +3285,7 @@
     "german_audio": "jdn.",
     "english": "to observe",
     "ukrainian": "спостерігати",
-    "example": "Wir beobachten die Server-Last genau, um Engpässe frühzeitig zu erkennen."
+    "example": "Der Vorarbeiter **muss den ordnungsgemäßen Betrieb der Maschinen beobachten**."
   },
   {
     "level": "B1+",
@@ -3298,7 +3298,7 @@
     "german_audio": "der Einzelhandel",
     "english": "retail",
     "ukrainian": "роздрібна торгівля",
-    "example": "Der <b style=\"color: #eab308;\">Einzelhandel</b> nutzt immer mehr IT-Lösungen für das Bestandsmanagement."
+    "example": "Der <b style=\"color: #eab308;\">Einzelhandel</b> **klagt über den Mangel an qualifizierten Verkaufskräften**."
   },
   {
     "level": "B1+",
@@ -3310,7 +3310,7 @@
     "german_audio": "der Endkunde",
     "english": "end customer",
     "ukrainian": "кінцевий споживач/-ка",
-    "example": "Unsere App wird vom <b style=\"color: #eab308;\">Endkunden</b> direkt im App Store heruntergeladen."
+    "example": "Der <b style=\"color: #eab308;\">Endkunde</b> **hat das Recht, die Ware bei Beschädigung zu reklamieren**."
   },
   {
     "level": "B1+",
@@ -3323,7 +3323,7 @@
     "german_audio": "entwickeln",
     "english": "to develop",
     "ukrainian": "розробляти",
-    "example": "Wir <b style=\"color: #eab308;\">entwickeln</b> ein neues Framework für performante Webanwendungen."
+    "example": "Wir wollen **ein neues und innovatives Verfahren zur Lärmminderung <b style=\"color: #eab308;\">entwickeln</b>**."
   },
   {
     "level": "B1+",
@@ -3335,7 +3335,7 @@
     "german_audio": "die Forschung und Entwicklung",
     "english": "research and development (R&D)",
     "ukrainian": "дослідження та розробка",
-    "example": "Die Abteilung für Forschung und <b style=\"color: #eab308;\">Entwicklung</b> arbeitet an Quantencomputer-Algorithmen."
+    "example": "Der Bereich Forschung und <b style=\"color: #eab308;\">Entwicklung</b> **erfordert erhebliche finanzielle Investitionen**."
   },
   {
     "level": "B1+",
@@ -3347,7 +3347,7 @@
     "german_audio": "der Großhandel",
     "english": "wholesale",
     "ukrainian": "гуртова торгівля",
-    "example": "Unser ERP-System optimiert die Lieferketten für den internationalen <b style=\"color: #eab308;\">Großhandel</b>."
+    "example": "Der <b style=\"color: #eab308;\">Großhandel</b> **liefert die Rohstoffe direkt an unsere Produktionsstätte**."
   },
   {
     "level": "B1+",
@@ -3360,7 +3360,7 @@
     "german_audio": "der Handel",
     "english": "trade, commerce",
     "ukrainian": "торгівля",
-    "example": "Der elektronische <b style=\"color: #eab308;\">Handel</b> erfordert eine sichere Zahlungsabwicklung."
+    "example": "Der <b style=\"color: #eab308;\">Handel</b> **mit Kältetechnik unterliegt strengen gesetzlichen Regelungen**."
   },
   {
     "level": "B1+",
@@ -3372,7 +3372,7 @@
     "german_audio": "her|stellen",
     "english": "to produce, to manufacture",
     "ukrainian": "виробляти",
-    "example": "Die Firma plant, ihre eigenen ARM-basierten Prozessoren herzustellen."
+    "example": "Unser Betrieb **kann diese speziellen Ersatzteile kostengünstig <b style=\"color: #eab308;\">herstellen</b>**."
   },
   {
     "level": "B1+",
@@ -3384,7 +3384,7 @@
     "german_audio": "die Herstellung",
     "english": "manufacturing",
     "ukrainian": "виробництво",
-    "example": "Die <b style=\"color: #eab308;\">Herstellung</b> von Halbleitern erfordert extrem saubere Umgebungen."
+    "example": "Bei der <b style=\"color: #eab308;\">Herstellung</b> der Produkte **ist auf eine fehlerfreie Verarbeitung zu achten**."
   },
   {
     "level": "B1+",
@@ -3396,7 +3396,7 @@
     "german_audio": "liefern",
     "english": "to deliver",
     "ukrainian": "доставляти",
-    "example": "Der Paketbote wird die neuen Laptops heute Nachmittag <b style=\"color: #eab308;\">liefern</b>."
+    "example": "Die Spedition **wird die bestellten Büromöbel zum vereinbarten Stichtag <b style=\"color: #eab308;\">liefern</b>**."
   },
   {
     "level": "B1+",
@@ -3408,7 +3408,7 @@
     "german_audio": "der Lieferschein",
     "english": "delivery note",
     "ukrainian": "накладна",
-    "example": "Bitte scannen Sie den <b style=\"color: #eab308;\">Lieferschein</b> für die neue Hardware direkt ein."
+    "example": "Bitte **vergleichen Sie den <b style=\"color: #eab308;\">Lieferschein</b> genau mit den erhaltenen Waren**."
   },
   {
     "level": "B1+",
@@ -3420,7 +3420,7 @@
     "german_audio": "Lieferscheine aus|stellen",
     "english": "to issue delivery notes",
     "ukrainian": "виписувати накладні",
-    "example": "Das System kann automatisch Lieferscheine als PDF-Datei <b style=\"color: #eab308;\">ausstellen</b>."
+    "example": "Die Versandabteilung **muss die Lieferscheine für den Gütertransport <b style=\"color: #eab308;\">ausstellen</b>**."
   },
   {
     "level": "B1+",
@@ -3432,7 +3432,7 @@
     "german_audio": "die Lieferung",
     "english": "delivery",
     "ukrainian": "доставка",
-    "example": "Die <b style=\"color: #eab308;\">Lieferung</b> der neuen Server-Racks wurde für morgen bestätigt."
+    "example": "Die <b style=\"color: #eab308;\">Lieferung</b> **erfolgte unmittelbar nach Eingang der schriftlichen Bestellung**."
   },
   {
     "level": "B1+",
@@ -3444,7 +3444,7 @@
     "german_audio": "der Markt",
     "english": "market",
     "ukrainian": "ринок",
-    "example": "Wir müssen den <b style=\"color: #eab308;\">Markt</b> für Cloud-Computing-Dienste genau beobachten."
+    "example": "Wir müssen uns **am <b style=\"color: #eab308;\">Markt</b> orientieren, um konkurrenzfähig zu bleiben**."
   },
   {
     "level": "B1+",
@@ -3456,7 +3456,7 @@
     "german_audio": "das Maß",
     "english": "measure, dimension",
     "ukrainian": "міра, розмір",
-    "example": "Wir brauchen die genauen <b style=\"color: #eab308;\">Maße</b> der Switch-Gehäuse für den Einbau im Rack."
+    "example": "Die <b style=\"color: #eab308;\">Maße</b> der neuen Werkbank **müssen den Richtlinien des Arbeitsschutzes entsprechen**."
   },
   {
     "level": "B1+",
@@ -3469,7 +3469,7 @@
     "german_audio": "die Menge",
     "english": "quantity, amount",
     "ukrainian": "кількість",
-    "example": "Eine riesige <b style=\"color: #eab308;\">Menge</b> an Daten wird täglich durch unsere KI verarbeitet."
+    "example": "Eine große <b style=\"color: #eab308;\">Menge</b> an Ausschuss **wirkt sich negativ auf den Gewinn aus**."
   },
   {
     "level": "B1+",
@@ -3481,7 +3481,7 @@
     "german_audio": "montieren",
     "english": "to assemble, to install",
     "ukrainian": "монтувати",
-    "example": "Wir müssen heute noch die neuen Access-Points im Büro <b style=\"color: #eab308;\">montieren</b>."
+    "example": "Die Techniker **müssen die neuen Absauganlagen in der Werkhalle <b style=\"color: #eab308;\">montieren</b>**."
   },
   {
     "level": "B1+",
@@ -3493,7 +3493,7 @@
     "german_audio": "die Produktion",
     "english": "production",
     "ukrainian": "виробництво",
-    "example": "Ein Softwarefehler führte zum kompletten Stillstand der <b style=\"color: #eab308;\">Produktion</b>."
+    "example": "Die <b style=\"color: #eab308;\">Produktion</b> **wurde durch den unerwarteten Kabelbrand komplett lahmgelegt**."
   },
   {
     "level": "B1+",
@@ -3506,7 +3506,7 @@
     "german_audio": "die Rechnung",
     "english": "invoice, bill",
     "ukrainian": "рахунок",
-    "example": "Die <b style=\"color: #eab308;\">Rechnung</b> für das Azure-Abonnement wird automatisch per Lastschrift bezahlt."
+    "example": "Bitte **leiten Sie die <b style=\"color: #eab308;\">Rechnung</b> direkt an die Finanzbuchhaltung weiter**."
   },
   {
     "level": "B1+",
@@ -3519,7 +3519,7 @@
     "german_audio": "die Spedition",
     "english": "shipping company",
     "ukrainian": "експедиторська компанія",
-    "example": "Die <b style=\"color: #eab308;\">Spedition</b> hat die Paletten mit der neuen Hardware am Hafen abgeholt."
+    "example": "Die <b style=\"color: #eab308;\">Spedition</b> **trägt die Verantwortung für den sicheren Transport der Ware**."
   },
   {
     "level": "B1+",
@@ -3531,7 +3531,7 @@
     "german_audio": "der Transport",
     "english": "transport",
     "ukrainian": "транспорт",
-    "example": "Der <b style=\"color: #eab308;\">Transport</b> verschlüsselter Daten muss über eine sichere Verbindung erfolgen."
+    "example": "Der <b style=\"color: #eab308;\">Transport</b> von Gefahrstoffen **ist gesetzlich streng reglementiert**."
   },
   {
     "level": "B1+",
@@ -3544,7 +3544,7 @@
     "german_audio": "die Verpackung",
     "english": "packaging",
     "ukrainian": "упаковка",
-    "example": "Die <b style=\"color: #eab308;\">Verpackung</b> des neuen Macs ist sehr hochwertig und umweltfreundlich gestaltet."
+    "example": "Die <b style=\"color: #eab308;\">Verpackung</b> **muss die Ware zuverlässig vor Feuchtigkeit schützen**."
   },
   {
     "level": "B1+",
@@ -3556,7 +3556,7 @@
     "german_audio": "der Versand",
     "english": "shipping, dispatch",
     "ukrainian": "відправка",
-    "example": "Nach dem QA-Check erfolgt der <b style=\"color: #eab308;\">Versand</b> der Hardware an den Kunden."
+    "example": "Der <b style=\"color: #eab308;\">Versand</b> der Laptops **wird über das Logistikzentrum abgewickelt**."
   },
   {
     "level": "B1+",
@@ -3568,7 +3568,7 @@
     "german_audio": "der Vertrieb",
     "english": "sales, distribution",
     "ukrainian": "відділ збуту",
-    "example": "Unser <b style=\"color: #eab308;\">Vertrieb</b> nutzt ein CRM-System zur Verwaltung der Kundenkontakte."
+    "example": "Der <b style=\"color: #eab308;\">Vertrieb</b> **ist für die Neukundengewinnung in der Berufssparte zuständig**."
   },
   {
     "level": "B1+",
@@ -3580,7 +3580,7 @@
     "german_audio": "der Zwischenhändler",
     "english": "middleman, reseller",
     "ukrainian": "посередник",
-    "example": "Händler kaufen die Laptops oft bei einem spezialisierten IT-<b style=\"color: #eab308;\">Zwischenhändler</b>."
+    "example": "Durch den Verzicht auf einen <b style=\"color: #eab308;\">Zwischenhändler</b> **konnten wir Kosten einsparen**."
   },
   {
     "level": "B1+",
@@ -3592,7 +3592,7 @@
     "german_audio": "analysieren",
     "english": "to analyze",
     "ukrainian": "аналізувати",
-    "example": "Wir müssen den Netzwerk-Traffic <b style=\"color: #eab308;\">analysieren</b>, um das Problem zu finden."
+    "example": "Wir müssen die Ursachen des Betriebsunfalls **gemeinsam im Team <b style=\"color: #eab308;\">analysieren</b>**."
   },
   {
     "level": "B1+",
@@ -3605,7 +3605,7 @@
     "german_audio": "bearbeiten",
     "english": "to process, to edit",
     "ukrainian": "обробляти",
-    "example": "Ich muss den Pull-Request meines Kollegen heute noch <b style=\"color: #eab308;\">bearbeiten</b>."
+    "example": "Die Personalabteilung **muss den Antrag auf Elternzeit unverzüglich <b style=\"color: #eab308;\">bearbeiten</b>**."
   },
   {
     "level": "B1+",
@@ -3617,7 +3617,7 @@
     "german_audio": "jdn.",
     "english": "to promote, to transport",
     "ukrainian": "підвищувати (на посаді), перевозити",
-    "example": "Er wurde zum Leiter der Softwareentwicklung befördert."
+    "example": "Er wurde wegen seiner hervorragenden Leistungen **zum Vorarbeiter befördert**."
   },
   {
     "level": "B1+",
@@ -3629,7 +3629,7 @@
     "german_audio": "jdn.",
     "english": "to support, to manage",
     "ukrainian": "обслуговувати, супроводжувати",
-    "example": "Unser Support-Team betreut Kunden bei technischen Problemen mit der App."
+    "example": "Unsere Fachkräfte **betreuen die Kunden auch nach dem Kauf der Anlage**."
   },
   {
     "level": "B1+",
@@ -3642,19 +3642,7 @@
     "german_audio": "die Branche",
     "english": "industry, sector",
     "ukrainian": "галузь",
-    "example": "In der Tech-<b style=\"color: #eab308;\">Branche</b> ist lebenslanges Lernen absolut notwendig."
-  },
-  {
-    "level": "B1+",
-    "levels": [
-      "B1+"
-    ],
-    "thema": 5,
-    "german": "etw. entwickeln",
-    "german_audio": "entwickeln",
-    "english": "to develop",
-    "ukrainian": "розробляти",
-    "example": "Wir <b style=\"color: #eab308;\">entwickeln</b> eine innovative Lösung zur automatischen Code-Generierung."
+    "example": "In dieser <b style=\"color: #eab308;\">Branche</b> **ist eine flexible Anpassung an die Marktbedingungen üblich**."
   },
   {
     "level": "B1+",
@@ -3666,7 +3654,7 @@
     "german_audio": "die Gastronomie",
     "english": "gastronomy, catering",
     "ukrainian": "гастрономія",
-    "example": "Die <b style=\"color: #eab308;\">Gastronomie</b> nutzt immer häufiger digitale Kassensysteme mit Cloud-Anbindung."
+    "example": "In der <b style=\"color: #eab308;\">Gastronomie</b> **gelten sehr strenge Regeln bezüglich der Hygiene**."
   },
   {
     "level": "B1+",
@@ -3679,7 +3667,7 @@
     "german_audio": "gestalten",
     "english": "to design, to shape",
     "ukrainian": "оформляти, організовувати",
-    "example": "Ein UX-Designer hilft uns dabei, die Website benutzerfreundlich zu <b style=\"color: #eab308;\">gestalten</b>."
+    "example": "Wir müssen den Arbeitsplatz **nach den neuesten ergonomischen Erkenntnissen <b style=\"color: #eab308;\">gestalten</b>**."
   },
   {
     "level": "B1+",
@@ -3692,7 +3680,7 @@
     "german_audio": "das Handwerk",
     "english": "craft, trade",
     "ukrainian": "ремесло",
-    "example": "Gutes Software-Engineering wird oft als modernes digitales <b style=\"color: #eab308;\">Handwerk</b> bezeichnet."
+    "example": "Das <b style=\"color: #eab308;\">Handwerk</b> **spielt eine tragende Rolle in der mittelständischen Wirtschaft**."
   },
   {
     "level": "B1+",
@@ -3705,7 +3693,7 @@
     "german_audio": "die IT-Branche",
     "english": "IT industry",
     "ukrainian": "ІТ-галузь",
-    "example": "Die <b style=\"color: #eab308;\">IT-Branche</b> ist einer der wichtigsten Arbeitgeber in Deutschland."
+    "example": "Die <b style=\"color: #eab308;\">IT-Branche</b> **beschäftigt eine wachsende Zahl an qualifizierten Fachkräften**."
   },
   {
     "level": "B1+",
@@ -3717,7 +3705,7 @@
     "german_audio": "konstruieren",
     "english": "to construct, to design",
     "ukrainian": "конструювати",
-    "example": "Wir <b style=\"color: #eab308;\">konstruieren</b> ein neues Gehäuse für unsere IoT-Geräte."
+    "example": "Die Ingenieure **konnten eine extrem leise Kältemaschine <b style=\"color: #eab308;\">konstruieren</b>**."
   },
   {
     "level": "B1+",
@@ -3729,7 +3717,7 @@
     "german_audio": "kontrollieren",
     "english": "to control, to check",
     "ukrainian": "контролювати",
-    "example": "Der Administrator muss die Zugriffsrechte der Benutzer regelmäßig <b style=\"color: #eab308;\">kontrollieren</b>."
+    "example": "Der Sicherheitsmitarbeiter **muss die Einhaltung der Brandschutzordnung <b style=\"color: #eab308;\">kontrollieren</b>**."
   },
   {
     "level": "B1+",
@@ -3741,7 +3729,7 @@
     "german_audio": "Kunden bedienen",
     "english": "to serve customers",
     "ukrainian": "обслуговувати клієнтів",
-    "example": "Unsere Web-Server <b style=\"color: #eab308;\">bedienen</b> gleichzeitig Tausende von Anfragen pro Sekunde."
+    "example": "Unsere Verkäufer **sind angewiesen, alle Kunden stets freundlich zu <b style=\"color: #eab308;\">bedienen</b>**."
   },
   {
     "level": "B1+",
@@ -3753,7 +3741,7 @@
     "german_audio": "der Kundenberater",
     "english": "customer advisor",
     "ukrainian": "консультант/-ка клієнтів",
-    "example": "Der technische <b style=\"color: #eab308;\">Kundenberater</b> erklärt die Vorteile unserer API."
+    "example": "Der <b style=\"color: #eab308;\">Kundenberater</b> **macht dem Interessenten ein faires und unverbindliches Angebot**."
   },
   {
     "level": "B1+",
@@ -3765,7 +3753,7 @@
     "german_audio": "das Labor",
     "english": "laboratory",
     "ukrainian": "лабораторія",
-    "example": "Im Hardware-<b style=\"color: #eab308;\">Labor</b> werden neue Prozessoren unter Extrembedingungen getestet."
+    "example": "Im <b style=\"color: #eab308;\">Labor</b> **werden die Materialproben einer genauen Qualitätsprüfung unterzogen**."
   },
   {
     "level": "B1+",
@@ -3777,7 +3765,7 @@
     "german_audio": "der Lagerist",
     "english": "warehouse clerk",
     "ukrainian": "працівник/-ця складу",
-    "example": "Der <b style=\"color: #eab308;\">Lagerist</b> nutzt einen Handscanner, der direkt mit der Datenbank verbunden ist."
+    "example": "Der <b style=\"color: #eab308;\">Lagerist</b> **ist für die Annahme und Kontrolle der Lieferungen zuständig**."
   },
   {
     "level": "B1+",
@@ -3789,7 +3777,7 @@
     "german_audio": "der Tierpfleger",
     "english": "animal keeper",
     "ukrainian": "доглядач/-ка за тваринами",
-    "example": "Der <b style=\"color: #eab308;\">Tierpfleger</b> nutzt ein Tablet, um die Gesundheitsdaten der Tiere zu erfassen."
+    "example": "Als <b style=\"color: #eab308;\">Tierpfleger</b> **trägt man eine hohe Verantwortung für das Tierwohl**."
   },
   {
     "level": "B1+",
@@ -3801,7 +3789,7 @@
     "german_audio": "Transport und Logistik",
     "english": "transport and logistics",
     "ukrainian": "транспорт і логістика",
-    "example": "In den Bereichen Transport und <b style=\"color: #eab308;\">Logistik</b> spielt die Routenoptimierung durch KI eine große Rolle."
+    "example": "Die Ausbildung im Bereich Transport und <b style=\"color: #eab308;\">Logistik</b> **bietet gute Zukunftsperspektiven**."
   },
   {
     "level": "B1+",
@@ -3813,7 +3801,7 @@
     "german_audio": "der Vertriebsweg",
     "english": "distribution channel",
     "ukrainian": "канал збуту",
-    "example": "Der direkte Download über unsere Website ist unser effektivster <b style=\"color: #eab308;\">Vertriebsweg</b>."
+    "example": "Wir müssen einen neuen <b style=\"color: #eab308;\">Vertriebsweg</b> **für die Vermarktung unserer Dienstleistungen finden**."
   },
   {
     "level": "B1+",
@@ -3825,7 +3813,7 @@
     "german_audio": "Waren bestellen",
     "english": "to order goods",
     "ukrainian": "замовляти товари",
-    "example": "Wir müssen neue RAM-Riegel für das Server-Upgrade <b style=\"color: #eab308;\">bestellen</b>."
+    "example": "Die Einkaufsabteilung **muss dringend neue Schutzausrüstung <b style=\"color: #eab308;\">bestellen</b>**."
   },
   {
     "level": "B1+",
@@ -3837,7 +3825,7 @@
     "german_audio": "Wissenschaft und Forschung",
     "english": "science and research",
     "ukrainian": "наука та дослідження",
-    "example": "Viel Geld aus der Tech-Branche fließt in moderne Wissenschaft und <b style=\"color: #eab308;\">Forschung</b>."
+    "example": "Unser Betrieb **arbeitet eng mit Einrichtungen für Wissenschaft und <b style=\"color: #eab308;\">Forschung</b> zusammen**."
   },
   {
     "level": "B1+",
@@ -3849,7 +3837,7 @@
     "german_audio": "zu|bereiten",
     "english": "to prepare (food)",
     "ukrainian": "готувати (їжу)",
-    "example": "Dank Smart-Home-Technik kann ich meinen Kaffee schon vom Computer aus <b style=\"color: #eab308;\">zubereiten</b>."
+    "example": "Der Küchenhelfer **muss die Zutaten für das Mittagessen in der Kantine <b style=\"color: #eab308;\">zubereiten</b>**."
   },
   {
     "level": "B1+",
@@ -3861,7 +3849,7 @@
     "german_audio": "zu|stellen",
     "english": "to deliver, to serve",
     "ukrainian": "доставляти",
-    "example": "Die E-Mail mit dem Bestätigungs-Code konnte leider nicht zugestellt werden."
+    "example": "Die Post **konnte die Abmahnung des Arbeitgebers gestern nicht <b style=\"color: #eab308;\">zustellen</b>**."
   },
   {
     "level": "B1+",
@@ -3873,7 +3861,7 @@
     "german_audio": "die Bequemlichkeit",
     "english": "convenience",
     "ukrainian": "зручність",
-    "example": "Viele Nutzer schätzen die <b style=\"color: #eab308;\">Bequemlichkeit</b> von Single-Sign-On-Verfahren."
+    "example": "Die <b style=\"color: #eab308;\">Bequemlichkeit</b> der Gleitzeit **wird von der gesamten Belegschaft sehr geschätzt**."
   },
   {
     "level": "B1+",
@@ -3885,7 +3873,7 @@
     "german_audio": "der CO2-Ausstoß",
     "english": "CO2 emission",
     "ukrainian": "викид CO2",
-    "example": "Der <b style=\"color: #eab308;\">CO2-Ausstoß</b> von großen Rechenzentren ist ein wichtiges Thema in der Green-IT."
+    "example": "Die Verringerung des <b style=\"color: #eab308;\">CO2-Ausstoßes</b> **leistet einen wichtigen Beitrag zum Umweltschutz**."
   },
   {
     "level": "B1+",
@@ -3897,7 +3885,7 @@
     "german_audio": "der Händler",
     "english": "dealer, vendor",
     "ukrainian": "торговець/-ка",
-    "example": "Ein autorisierter <b style=\"color: #eab308;\">Händler</b> bietet speziellen Support für unsere Firmen-Laptops an."
+    "example": "Der <b style=\"color: #eab308;\">Händler</b> **konnte uns einen Rabatt auf die Anschaffungskosten einräumen**."
   },
   {
     "level": "B1+",
@@ -3909,7 +3897,7 @@
     "german_audio": "die Lagerhalle",
     "english": "warehouse",
     "ukrainian": "складська будівля",
-    "example": "In der neuen <b style=\"color: #eab308;\">Lagerhalle</b> werden die Server-Racks für den Versand vorbereitet."
+    "example": "In der <b style=\"color: #eab308;\">Lagerhalle</b> **muss eine ausreichende Belüftung der Arbeitsplätze gewährleistet sein**."
   },
   {
     "level": "B1+",
@@ -3921,7 +3909,7 @@
     "german_audio": "die Online-Plattform",
     "english": "online platform",
     "ukrainian": "онлайн-платформа",
-    "example": "Wir entwickeln eine neue <b style=\"color: #eab308;\">Online-Plattform</b> für das Projektmanagement."
+    "example": "Über die <b style=\"color: #eab308;\">Online-Plattform</b> **können Mitarbeiter ihre Urlaubstage digital beantragen**."
   },
   {
     "level": "B1+",
@@ -3933,7 +3921,7 @@
     "german_audio": "der Sonderwunsch",
     "english": "special request",
     "ukrainian": "особливе побажання",
-    "example": "Haben Sie bezüglich der Konfiguration Ihres neuen PCs noch einen <b style=\"color: #eab308;\">Sonderwunsch</b>?"
+    "example": "Die Geschäftsführung **ging auf jeden <b style=\"color: #eab308;\">Sonderwunsch</b> des Betriebsrats ein**."
   },
   {
     "level": "B1+",
