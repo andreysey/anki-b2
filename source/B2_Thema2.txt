@@ -1,141 +1,152 @@
 #separator:;
 #html:true
 #columns:German;English;Ukrainian;Example
-die Arbeitslosenquote, -n;unemployment rate;рівень безробіття;Die Arbeitslosenquote in der IT-Branche ist relativ gering.
-auffallen (fällt auf, fiel auf, ist aufgefallen);to stand out, to be noticeable;впадати в око, виділятися;Der saubere Code ist mir beim Review sofort aufgefallen.
-das Baugewerbe (Sg.);construction industry;будівельна галузь;Wir entwickeln eine Projektmanagement-Software für das Baugewerbe.
-etw. bearbeiten (bearbeitet, bearbeitete, hat bearbeitet);to process, to edit;обробляти, редагувати;Das Backend muss diese großen Datenmengen sehr schnell bearbeiten.
-etw./jdn. beaufsichtigen (beaufsichtigt, beaufsichtigte, hat beaufsichtigt);to supervise, to oversee;наглядати, контролювати;Der Senior Developer muss die neuen Praktikanten beaufsichtigen.
-befristet;temporary, fixed-term;строковий (про договір), тимчасовий;Mein erster IT-Vertrag war leider nur auf ein Jahr befristet.
-der Beschäftigte, -n / die Beschäftigte, -n;employee;працівник, співробітник;Das Startup hat mittlerweile über 50 Beschäftigte.
-etw./jdn. betreuen (betreut, betreute, hat betreut);to look after, to support, to manage;обслуговувати, супроводжувати, керувати;Unser DevOps-Team muss die Server-Infrastruktur rund um die Uhr betreuen.
-die Branche, -n;industry, sector;галузь, сфера;Die IT-Branche entwickelt sich extrem schnell weiter.
-die Dienstleistung, -en;service;послуга;Cloud-Computing (SaaS) ist heute eine sehr gefragte Dienstleistung.
-die Finanzbranche (Sg.);financial sector;фінансовий сектор;Datensicherheit ist das wichtigste Thema in der Softwareentwicklung für die Finanzbranche.
-der Fluggerätemechaniker, - / die Fluggerätemechanikerin, -nen;aircraft mechanic;авіамеханік;Der Fluggerätemechaniker nutzt Diagnose-Software für die Flugzeuge.
-das Gastgewerbe (Sg.);hospitality industry;готельно-ресторанний бізнес;Wir programmieren ein neues digitales Kassensystem für das Gastgewerbe.
-das Gesundheitswesen (Sg.);healthcare system;система охорони здоров'я;Die Digitalisierung im Gesundheitswesen ist eine große Herausforderung in Deutschland.
-das Gewerbe (Sg.);trade, business, industry;промисел, бізнес, підприємництво;Er hat ein eigenes Gewerbe als freiberuflicher IT-Berater angemeldet.
-die Gleitzeit (Sg.);flextime, flexible working hours;гнучкий графік роботи;Dank Gleitzeit kann ich morgens etwas später anfangen zu programmieren.
-der Handel (Sg.);trade, commerce;торгівля;Der Online-Handel (E-Commerce) braucht ständig neue Software-Lösungen.
-das Handwerk (Sg.);craft, trade;ремесло;Gutes Programmieren ist nicht nur Wissenschaft, sondern auch ein echtes Handwerk.
-hervorgehen aus (+ Dat.) (geht hervor, ging hervor, ist hervorgegangen);to emerge from, to follow from;випливати з, походити з;Aus dem Fehler-Log geht hervor, dass der Server überlastet war.
-das Homeoffice (Sg.);home office, working from home;робота з дому;Als Softwareentwickler arbeite ich drei Tage pro Woche im Homeoffice.
-Hotel und Gastronomie (Sg.);hotel and catering industry;готельно-ресторанна сфера;Diese App richtet sich an Kunden aus dem Bereich Hotel und Gastronomie.
-die IT-Branche (Sg.);IT industry;ІТ-галузь;In der IT-Branche gibt es momentan sehr viele offene Stellen für Entwickler.
-kaufmännisch;commercial, business;комерційний, торговельний;Der IT-Systemkaufmann kümmert sich um die kaufmännischen Aspekte des Projekts.
-die Konjunktur (Sg.);economic situation, boom;економічна ситуація, кон'юнктура;Trotz schwacher Konjunktur suchen Firmen weiterhin händeringend IT-Spezialisten.
-die Lagerlogistik (Sg.);warehouse logistics;складська логістика;Wir entwickeln eine Scanner-App für die Lagerlogistik.
-die Land- und Forstwirtschaft (Sg.);agriculture and forestry;сільське та лісове господарство;Smarte Sensoren digitalisieren zunehmend die Land- und Forstwirtschaft.
-etw. nahelegen (legt nahe, legte nahe, hat nahegelegt);to suggest (e.g., a conclusion);наводити на думку, підказувати;Die Fehlermeldung legt den Schluss nahe, dass die Datenbank down ist.
-das Pflegeheim, -e;nursing home;будинок престарілих;Wir richten das sichere WLAN-Netzwerk im neuen Pflegeheim ein.
-produzierendes Gewerbe;manufacturing industry;виробнича промисловість;Das produzierende Gewerbe braucht dringend neue Automatisierungssoftware.
-die Reservierung, -en;reservation;бронювання;Unser Backend verarbeitet Tausende Reservierungen pro Minute.
-die Schichtarbeit (Sg.);shift work;позмінна робота;In der 24/7 Server-Überwachung ist Schichtarbeit ganz normal.
-der Server, -;server;сервер;Die Web-Applikation läuft stabil auf einem Linux-Server in Frankfurt.
-sozialversicherungspflichtig;subject to social security contributions;який підлягає соціальному страхуванню;Mein neuer Job als Frontend-Entwickler ist sozialversicherungspflichtig.
-stabil;stable;стабільний;Die neue Microservice-Architektur ist sehr stabil und stürzt nicht ab.
-die Teilzeit (Sg.);part-time;неповний робочий день;Ich arbeite momentan in Teilzeit, um mehr Zeit zum Deutschlernen zu haben.
-etw. überwachen (überwacht, überwachte, hat überwacht);to monitor, to supervise;контролювати, здійснювати моніторинг;Wir nutzen Datadog, um unsere Server in Echtzeit zu überwachen.
-etw. verwalten (verwaltet, verwaltete, hat verwaltet);to manage, to administer;управляти, адмініструвати;Als Sysadmin muss ich die Zugriffsrechte aller User verwalten.
-die Vollzeit (Sg.);full-time;повний робочий день;Ich suche nach dem Kurs eine Festanstellung in Vollzeit.
-der Vollzeitjob, -s;full-time job;робота на повний робочий день;Ein Vollzeitjob in der deutschen IT bedeutet meistens 40 Stunden pro Woche.
-etw. warten (z. B. eine Maschine) (wartet, wartete, hat gewartet);to maintain (e.g., equipment);обслуговувати технічно;Wir müssen die Datenbank-Server regelmäßig am Wochenende warten.
-die Wirtschaftsbranche (Sg.);economic sector;економічна галузь;Die IT ist eine der am schnellsten wachsenden Wirtschaftsbranchen.
-etw. zubereiten (bereitet zu, bereitete zu, hat zubereitet);to prepare (food);готувати (їжу);Die smarte Büro-Kaffeemaschine kann den Espresso per App-Befehl zubereiten.
-die Zuverlässigkeit (Sg.);reliability;надійність;Zuverlässigkeit ist bei einem Cloud-Backup-System das Wichtigste.
-etw./jdn. abfertigen (fertigt ab, fertigte ab, hat abgefertigt);to dispatch, to process, to handle;обслуговувати, оформляти;Die Software hilft, die Anfragen (Requests) im Server schneller abzufertigen.
-die Arbeitsstätte, -n;workplace, place of work;робоче місце;Mein Homeoffice ist vertraglich meine offizielle Arbeitsstätte.
-etw. beschreiben (beschreibt, beschrieb, hat beschrieben);to describe;описувати;Bitte beschreiben Sie den Bug im Jira-Ticket so genau wie möglich.
-etw. betreiben (betreibt, betrieb, hat betrieben);to operate, to run;експлуатувати, керувати;Wir betreiben unsere eigenen Server in einem sicheren Rechenzentrum.
-das Bodenpersonal (Sg.);ground staff;наземний персонал;Das Bodenpersonal am Flughafen nutzt unsere Tablet-App zur Kommunikation.
-der Check-in (Sg.);check-in;реєстрація;Das System für den Online-Check-in funktioniert leider gerade nicht.
-jdn. einstellen (stellt ein, stellte ein, hat eingestellt);to hire, to employ;наймати на роботу;Die Tech-Firma möchte dieses Jahr 20 neue Entwickler einstellen.
-der Einzelhandel (Sg.);retail;роздрібна торгівля;Wir entwickeln eine moderne E-Commerce-Plattform für den Einzelhandel.
-etw. erweitern (erweitert, erweiterte, hat erweitert);to expand, to extend;розширювати;Wir müssen die Kapazität unserer Datenbank dringend erweitern.
-der Fluglotse, -n / die Fluglotsin, -nen;air traffic controller;авіадиспетчер;Der Fluglotse verlässt sich auf hochkomplexe Echtzeit-Software.
-die Flugzeugabfertigung (Sg.);aircraft handling;наземне обслуговування літаків;Unsere Sensoren optimieren die Flugzeugabfertigung am Terminal.
-die Gepäckabfertigung (Sg.);baggage handling;обробка багажу;Das IT-System für die Gepäckabfertigung ist durch einen Bug ausgefallen.
-die Gewerkschaft, -en;trade union;профспілка;Es gibt in Deutschland auch eine Gewerkschaft, die IT-Mitarbeiter vertritt.
-etw. gründen (gründet, gründete, hat gegründet);to found, to establish;засновувати;Ich möchte nach dem Kurs mein eigenes IT-Startup gründen.
-das Handgepäck (Sg.);hand luggage, carry-on baggage;ручна поклажа;Mein Firmenlaptop muss bei der Sicherheitskontrolle aus dem Handgepäck.
-die Hygiene (Sg.);hygiene;гігієна;Cyber-Hygiene (wie das regelmäßige Ändern von Passwörtern) ist extrem wichtig.
-die Logistik (Sg.);logistics;логістика;Wir programmieren eine KI-basierte Routing-Software für die Logistik.
-die Luftfracht (Sg.);air freight, air cargo;авіаперевезення, авіавантаж;Die Daten zur Luftfracht werden in unserer Cloud synchronisiert.
-der Passagier, -e / die Passagierin, -nen;passenger;пасажир;Jeder Passagier bekommt automatisiert eine E-Mail mit dem QR-Code.
-der Quereinsteiger, - / die Quereinsteigerin, -nen;career changer;світчер, людина, що змінила професію;Viele gute Programmierer sind Quereinsteiger ohne Informatik-Studium.
-die Spedition, -en;freight forwarding company;експедиторська компанія, служба доставки;Die Spedition nutzt unser Tracking-System für ihre LKWs.
-etw. umbauen (baut um, baute um, hat umgebaut);to rebuild, to modify;перебудовувати, реконструювати, переробляти;Wir müssen die Architektur der App komplett umbauen (Refactoring).
-etw. umfassen (umfasst, umfasste, hat umfasst);to include, to comprise;охоплювати, включати;Das neue Software-Update wird viele coole Features umfassen.
-etw./jdn. vertreten (vertritt, vertrat, hat vertreten);to represent, to substitute;представляти, заміняти (когось);Ich muss meinen Teamlead heute im Daily-Meeting vertreten.
-das Arbeitsmittel, -;work equipment, tool;засіб праці, робочий інструмент;Ein leistungsstarker Laptop und zwei Monitore sind meine wichtigsten Arbeitsmittel.
-der Arbeitsschutz (Sg.);occupational safety, health and safety;охорона праці;Die strengen Regeln zum Arbeitsschutz gelten auch im Serverraum.
-etw. befolgen (befolgt, befolgte, hat befolgt);to follow, to obey;дотримуватися, виконувати (правила);Wir müssen die Sicherheitsrichtlinien (Security Policies) der Firma strikt befolgen.
-etw./jdn. behindern (behindert, behinderte, hat behindert);to hinder, to obstruct;перешкоджати, заважати;Ein langsamer Server darf den Entwicklungsprozess nicht behindern.
-etw. betätigen (z. B. den Brandmelder) (betätigt, betätigte, hat betätigt);to operate, to press;приводити в дію, натискати;Im Notfall müssen Sie den roten Knopf betätigen, um den Strom abzuschalten.
-der Brandmelder, -;fire alarm, smoke detector;пожежний сповіщувач;Der Brandmelder im Rechenzentrum hat wegen Überhitzung Alarm geschlagen.
-der Brandschutz (Sg.);fire protection;пожежна безпека;Die neuen Server-Racks entsprechen den strengsten Vorgaben für den Brandschutz.
-das Brandschutzzeichen, -;fire safety sign;знак пожежної безпеки;Das rote Brandschutzzeichen zeigt, wo der Feuerlöscher im Flur hängt.
-dreieckig;triangular;трикутний;Warnschilder sind in Deutschland meistens gelb und dreieckig.
-etw. einschlagen (schlägt ein, schlug ein, hat eingeschlagen);to smash, to break in;розбивати (скло);Im Notfall müssen Sie die Glasscheibe einschlagen, um an den Schlüssel zu kommen.
-etw. entsorgen (entsorgt, entsorgte, hat entsorgt);to dispose of;утилізувати;Alte Festplatten müssen sicher und datenschutzkonform entsorgt werden.
-der Feuerlöscher, -;fire extinguisher;вогнегасник;Im Serverraum darf man auf keinen Fall einen Wasser-Feuerlöscher benutzen!
-der Feuermelder, -;fire alarm;пожежна сигналізація;Bei starker Rauchentwicklung löst der Feuermelder sofort aus.
-der Flucht- und Rettungsweg, -e;escape and rescue route;шлях евакуації;Der Flucht- und Rettungsweg im IT-Büro darf nie mit Kartons blockiert sein.
-etw. freihalten (hält frei, hielt frei, hat freigehalten);to keep clear;тримати вільним (прохід);Bitte den Zugang zu den Server-Racks immer freihalten.
-das Gebotszeichen, -;mandatory sign;приписний знак (обов'язкова дія);Das blaue Gebotszeichen bedeutet, dass man im Labor eine Schutzbrille tragen muss.
-die Glasscheibe, -n;glass pane;шибка, скляна панель;Hinter der kleinen Glasscheibe befindet sich der Not-Aus-Schalter für den Strom.
-hinweisen auf (+ Akk.) (weist hin, wies hin, hat hingewiesen);to point out, to refer to;вказувати на;Das Monitoring-Tool weist uns auf kritische Speicherprobleme hin.
-das Hinweisschild, -er;information sign;інформаційна табличка;Ein Hinweisschild auf dem Gang zeigt den Weg zum IT-Support.
-etw. löschen (löscht, löschte, hat gelöscht);to extinguish (fire), to delete (data);гасити (пожежу), видаляти (дані);Du darfst diese wichtige Datenbank-Tabelle auf keinen Fall löschen!
-der Notausgang, "-e;emergency exit;аварійний вихід;Der Notausgang ist durch ein leuchtend grünes Schild markiert.
-die Pflicht, -en;duty, obligation;обов'язок;Es ist unsere Pflicht, den Code vor dem Release gründlich zu testen.
-quadratisch;square;квадратний;Das UI-Icon für die neue App ist quadratisch mit abgerundeten Ecken.
-das Rettungszeichen, -;rescue sign, emergency sign;знак евакуації/порятунку;Rettungszeichen sind meistens grün und rechteckig.
-die Schutzausrüstung, -en;protective equipment;захисне спорядження;Beim Einbau von schweren Servern braucht man manchmal Schutzausrüstung.
-die Schutzbrille, -n;safety goggles;захисні окуляри;Beim Löten der Hardware-Platinen muss man eine Schutzbrille tragen.
-etw./jdn. schützen (schützt, schützte, hat geschützt);to protect;захищати;Eine gut konfigurierte Firewall schützt unser internes Netzwerk vor Hackern.
-der Schutzhelm, -e;safety helmet, hard hat;захисний шолом, каска;Auf der Baustelle für das neue Rechenzentrum ist ein Schutzhelm absolute Pflicht.
-der Sicherheitshinweis, -e;safety instruction/warning;вказівка щодо безпеки;Bitte lesen Sie den Sicherheitshinweis, bevor Sie den Server aufschrauben.
-der Sicherheitsschuh, -e;safety shoe;захисне взуття;Techniker tragen im Data Center oft Sicherheitsschuhe, falls Hardware herunterfällt.
-die Sicherheitsvorschrift, -en;safety regulation;правило техніки безпеки;Das Mitbringen von privaten USB-Sticks verstößt gegen unsere Sicherheitsvorschriften.
-die Stolpergefahr, -en;tripping hazard;небезпека спотикання;Offene Netzwerkkabel am Boden sind eine große Stolpergefahr im Büro.
-die Straßenverkehrsordnung (Sg.);traffic regulations;правила дорожнього руху;Die KI für autonome Autos muss die deutsche Straßenverkehrsordnung perfekt kennen.
-das Verbotsschild, -er;prohibition sign;заборонний знак;Ein rotes Verbotsschild bedeutet, dass der Zutritt zum Serverraum für Unbefugte verboten ist.
-das Verbotszeichen, -;prohibition sign;заборонний знак;Das Verbotszeichen zeigt an, dass man hier weder essen noch trinken darf.
-etw. vermeiden (vermeidet, vermied, hat vermieden);to avoid;уникати;Wir müssen redundanten Code im Projekt unbedingt vermeiden (DRY-Prinzip).
-die Verordnung, -en;regulation, decree;постанова, розпорядження;Die Datenschutz-Grundverordnung (DSGVO) ändert sehr viel für Software-Entwickler.
-verpflichtet;obliged, bound;зобов'язаний;Wir sind vertraglich verpflichtet, alle Benutzerdaten sicher zu verschlüsseln.
-etw. verstauen (verstaut, verstaute, hat verstaut);to stow, to store;ховати, укладати, зберігати;Ich muss die vielen Kabel ordentlich im Rack verstauen.
-das Warnzeichen, -;warning sign;попереджувальний знак;Ein Warnzeichen im Compiler zeigt an, dass dieser Code bald veraltet (deprecated) ist.
-der Ablauf, "-e;process, sequence, flow;процес, хід подій;Wir müssen den Ablauf für das automatisierte Deployment (CI/CD) optimieren.
-arbeitsunfähig;incapable of working, unfit for work;непрацездатний;Wegen einer starken Grippe bin ich diese Woche leider arbeitsunfähig.
-ausrutschen (rutscht aus, rutschte aus, ist ausgerutscht);to slip;посковзнутися;Pass auf, dass du auf dem nassen Boden in der Büroküche nicht ausrutschst.
-die Berufsgenossenschaft, -en;employers' liability insurance association;профспілка страховиків від нещасних випадків на виробництві;Ein Arbeitsunfall muss sofort der Berufsgenossenschaft gemeldet werden.
-beteiligt an (+ Dat.);involved in;причетний до, бере участь у;An diesem großen IT-Projekt sind drei verschiedene Teams beteiligt.
-das Detail, -s;detail;деталь, подробиця;Wir müssen noch ein kleines technisches Detail in der API-Dokumentation klären.
-das Ereignis, -se;event, occurrence;подія;Das Log-System (wie ELK-Stack) zeichnet jedes wichtige Ereignis im System auf.
-glatt;smooth, slippery;гладкий, слизький;Das neue Design der Benutzeroberfläche (UI) sieht sehr modern und glatt aus.
-das Kabel, -;cable, wire;кабель, провід;Das Netzwerkkabel am Router ist leider defekt und muss getauscht werden.
-sich (etw.) quetschen (quetscht sich, quetschte sich, hat sich gequetscht);to squeeze, to bruise (oneself);защемити (собі щось), прищемити;Er hat sich beim Einbauen des schweren Servers den Finger gequetscht.
-Ruhe bewahren;to keep calm;зберігати спокій;Wenn der Produktions-Server abstürzt, müssen wir als DevOps-Team Ruhe bewahren.
-rutschig;slippery;слизький;Vorsicht, der frisch gewischte Boden vor dem Büro ist sehr rutschig.
-sachlich;factual, objective;об'єктивний, предметний;Die Diskussion beim Code Review sollte immer sachlich und professionell bleiben.
-der Schaden, "-;damage, harm;шкода, збиток;Ein Hackerangriff kann einen enormen finanziellen Schaden verursachen.
-etw. schildern (schildert, schilderte, hat geschildert);to describe, to depict;описувати, змальовувати;Können Sie den Software-Fehler genauer schildern, damit ich ihn reproduzieren kann?
-der Schlauch, "-e;hose, tube;шланг;Die Server-Wasserkühlung braucht dringend einen neuen Schlauch.
-stolpern;to stumble, to trip;спотикатися;Jemand könnte über dieses herumliegende Stromkabel stolpern.
-sich (etw.) verbrennen (verbrennt, verbrannte, hat verbrannt);to burn (oneself);обпектися;Die CPU wird unter Last extrem heiß, pass auf, dass du dich nicht verbrennst.
-das Verhalten (Sg.);behavior;поведінка;Wir analysieren das Verhalten der User auf unserer neuen Web-Plattform.
-die Vorsichtsmaßnahme, -n;precaution, precautionary measure;запобіжний захід;Regelmäßige Backups in der Cloud sind eine sehr wichtige Vorsichtsmaßnahme.
-der Zeuge, -n / die Zeugin, -nen;witness;свідок;Er war leider Zeuge des Arbeitsunfalls im Rechenzentrum.
-etw. behaupten (behauptet, behauptete, hat behauptet);to claim, to assert;стверджувати;Der Entwickler behauptet, dass dieser bug in der neuen Version bereits gefixt ist.
-etw./jdn. beobachten;to observe, to monitor;спостерігати, стежити;Wir beobachten die Ladezeiten der App genau, um sie zu optimieren.
-entscheidend;crucial, decisive;вирішальний;Eine saubere Software-Architektur ist entscheidend für den langfristigen Erfolg.
-die Geldsorgen (Pl.);money worries, financial problems;фінансові проблеми;Als gefragter Senior Developer in Deutschland hat man meistens keine Geldsorgen.
-gemütlich;comfortable, cozy;затишний, комфортний;Unser neues IT-Büro hat eine sehr gemütliche Lounge für die Pausen.
-die Geselligkeit (Sg.);sociability, conviviality;товариськість, компанійність;Nach einem erfolgreichen Release pflegen wir die Geselligkeit bei einem Team-Event (Pizza & Bier).
-das Grundbedürfnis, -se;basic need;базова потреба;Schnelles und stabiles Internet ist für Remote-Arbeit ein absolutes Grundbedürfnis.
-die Partnerschaft, -en;partnership;партнерство;Unsere IT-Firma ist eine strategische Partnerschaft mit AWS eingegangen.
-das Wohlbefinden (Sg.);well-being;добробут, самопочуття;Das Wohlbefinden der Entwickler (z.B. durch gute Hardware) ist für das Startup wichtig.
-die Zufriedenheit (Sg.);satisfaction;задоволеність;Die Zufriedenheit der Kunden mit dem neuen Feature ist stark gestiegen.
+die Arbeitslosenquote, -n;unemployment rate;рівень безробіття;<b>Aus der Grafik geht hervor, dass</b> die Arbeitslosenquote im Land stark gesunken ist.
+auffallen (fällt auf, fiel auf, ist aufgefallen);to stand out, to be noticeable;впадати в око, виділятися;<b>Es fällt besonders auf, dass</b> die Systemleistung nach dem Update spürbar nachgelassen hat.
+das Baugewerbe (Sg.);construction industry;будівельна галузь;Im Baugewerbe <b>muss man vor Arbeitsbeginn die Sicherheitsvorschriften genau beachten</b>.
+etw. bearbeiten (bearbeitet, bearbeitete, hat bearbeitet);to process, to edit;обробляти, редагувати;Die Mitarbeiter müssen Kundenanfragen und Beschwerden schnellstmöglich <b>bearbeiten</b>.
+etw./jdn. beaufsichtigen (beaufsichtigt, beaufsichtigte, hat beaufsichtigt);to supervise, to oversee;наглядати, контролювати;Der Abteilungsleiter hat die Pflicht, die Auszubildenden am Arbeitsplatz <b>zu beaufsichtigen</b>.
+befristet;temporary, fixed-term;строковий (про договір), тимчасовий;<b>Ich bin der Meinung, dass</b> ein befristeter Arbeitsvertrag den Mitarbeitern zu wenig Sicherheit bietet.
+der Beschäftigte, -n / die Beschäftigte, -n;employee;працівник, співробітник;Die Beschäftigten <b>haben sich auf eine neue Arbeitszeitregelung geeinigt</b>.
+etw./jdn. betreuen (betreut, betreute, hat betreut);to look after, to support, to manage;обслуговувати, супроводжувати, керувати;Als Kundenberater muss ich internationale Geschäftspartner persönlich <b>betreuen</b>.
+die Branche, -n;industry, sector;галузь, сфера;In dieser Branche **steht die Zufriedenheit der Kunden im Vordergrund**.
+die Dienstleistung, -en;service;послуга;Unser Unternehmen <b>stellt den Kunden eine breite Palette an Dienstleistungen zur Verfügung</b>.
+die Finanzbranche (Sg.);financial sector;фінансовий сектор;In der Finanzbranche <b>legen Arbeitgeber großen Wert auf</b> absolute Zuverlässigkeit und Diskretion.
+der Fluggerätemechaniker, - / die Fluggerätemechanikerin, -nen;aircraft mechanic;авіамеханік;Als Fluggerätemechaniker **trägt man die Verantwortung für die Sicherheit** der Passagiere.
+das Gastgewerbe (Sg.);hospitality industry;готельно-ресторанний бізнес;Im Gastgewerbe **ist man auf flexible Arbeitszeiten angewiesen**, da oft am Wochenende gearbeitet wird.
+das Gesundheitswesen (Sg.);healthcare system;система охорони здоров'я;Im Gesundheitswesen **muss man strenge Richtlinien zur Hygiene und Sicherheit einhalten**.
+die Gleitzeit (Sg.);flextime, flexible working hours;гнучкий графік роботи;Die Einführung der Gleitzeit **hat zu einer besseren Vereinbarkeit von Beruf und Familie geführt**.
+der Handel (Sg.);trade, commerce;торгівля;Der Handel mit landwirtschaftlichen Produkten **steht im Zusammenhang mit dem Klimawandel**.
+das Handwerk (Sg.);craft, trade;ремесло;Im Handwerk **legen Meister großen Wert auf** die traditionelle und präzise Ausbildung.
+hervorgehen aus (+ Dat.) (geht hervor, ging hervor, ist hervorgegangen);to emerge from, to follow from;випливати з, походити з;<b>Aus den Daten geht hervor, dass</b> viele Betriebe unter Fachkräftemangel leiden.
+das Homeoffice (Sg.);home office, working from home;робота з дому;Die Arbeit im Homeoffice <b>setzt voraus, dass man sich selbst gut organisieren kann</b>.
+Hotel und Gastronomie (Sg.);hotel and catering industry;готельно-ресторанна сфера;<b>Ich freue mich über</b> Ihre Anfrage bezüglich einer Stelle im Bereich Hotel und Gastronomie.
+die IT-Branche (Sg.);IT industry;ІТ-галузь;In der IT-Branche <b>wecken innovative Technologien immer wieder großes Interesse</b> bei Investoren.
+kaufmännisch;commercial, business;комерційний, торговельний;Für die kaufmännische Abwicklung der Aufträge ist Herr Duda **zuständig**.
+die Konjunktur (Sg.);economic situation, boom;економічна ситуація, кон'юнктура;Die schwache Konjunktur **hat negative Auswirkungen auf die wirtschaftliche Entwicklung** des Betriebs.
+die Lagerlogistik (Sg.);warehouse logistics;складська логістика;Ein funktionierendes System in der Lagerlogistik **trägt zur Energieeinsparung bei**.
+die Land- und Forstwirtschaft (Sg.);agriculture and forestry;сільське та лісове господарство;<b>Aufgrund von</b> Dürreperioden leidet die Land- und Forstwirtschaft unter Ernteausfällen.
+etw. nahelegen (legt nahe, legte nahe, hat nahegelegt);to suggest (e.g., a conclusion);наводити на думку, підказувати;Die vorliegenden Ergebnisse <b>legen den Schluss nahe, dass</b> wir die Abläufe optimieren müssen.
+das Pflegeheim, -e;nursing home;будинок престарілих;Die Leitung des Pflegeheims **übernimmt die Verantwortung für das Wohl** der Bewohner.
+produzierendes Gewerbe;manufacturing industry;виробнича промисловість;Das produzierende Gewerbe ist stark **von ausländischen Rohstofflieferungen abhängig**.
+die Reservierung, -en;reservation;бронювання;Können Sie bitte meine Reservierung **im System überprüfen**?
+die Schichtarbeit (Sg.);shift work;позмінна робота;Schichtarbeit **kann zu einer hohen physischen Belastung für die Mitarbeiter führen**.
+der Server, -;server;сервер;Der IT-Spezialist ist **mit der Konfiguration des neuen Cloud-Servers beschäftigt**.
+sozialversicherungspflichtig;subject to social security contributions;який підлягає соціальному страхуванню;Die Agentur versucht, Arbeitslose in eine <b>sozialversicherungspflichtige Beschäftigung zu vermitteln</b>.
+stabil;stable;стабільний;Wir müssen das System stabilisieren, um **die kontinuierliche Produktion abzusichern**.
+die Teilzeit (Sg.);part-time;неповний робочий день;Er hat sich dazu entschlossen, seine Arbeitszeit auf <b>Teilzeit zu reduzieren</b>.
+etw. überwachen (überwacht, überwachte, hat überwacht);to monitor, to supervise;контролювати, здійснювати моніторинг;Wir müssen den Ladezustand der Batterien kontinuierlich <b>überwachen</b>.
+etw. verwalten (verwaltet, verwaltete, hat verwaltet);to manage, to administer;управляти, адмініструвати;Die Personalabteilung hat die Aufgabe, die Akten aller Beschäftigten <b>zu verwalten</b>.
+die Vollzeit (Sg.);full-time;повний робочий день;Sie arbeitet in <b>Vollzeit</b> und **steht daher oft unter hohem Stress**.
+der Vollzeitjob, -s;full-time job;робота на повний робочий день;<b>Ich bewerbe mich um einen</b> Vollzeitjob in Ihrer Entwicklungsabteilung.
+etw. warten (z. B. eine Maschine) (wartet, wartete, hat gewartet);to maintain (e.g., equipment);обслуговувати технічно;Die Maschinen **müssen regelmäßig gewartet werden, um Mängel zu vermeiden**.
+die Wirtschaftsbranche (Sg.);economic sector;економічна галузь;Der IT-Sektor gilt als eine sehr zukunftssichere Wirtschaftsbranche.
+etw. zubereiten (bereitet zu, bereitete zu, hat zubereitet);to prepare (food);готувати (їжу);Das Küchenpersonal muss die Speisen streng **nach den Hygiene-Richtlinien zubereiten**.
+die Zuverlässigkeit (Sg.);reliability;надійність;Die Zuverlässigkeit der Partner **ist entscheidend für eine dauerhafte Kooperation**.
+etw./jdn. abfertigen (fertigt ab, fertigte ab, hat abgefertigt);to dispatch, to process, to handle;обслуговувати, оформляти;Die Mitarbeiter müssen Kunden an der Rezeption freundlich und zügig <b>abfertigen</b>.
+die Arbeitsstätte, -n;workplace, place of work;робоче місце;Jeder Mitarbeiter ist verpflichtet, seine Arbeitsstätte **in Ordnung zu halten**.
+etw. beschreiben (beschreibt, beschrieb, hat beschrieben);to describe;описувати;<b>Ich möchte Ihnen heute</b> die Abläufe in unserer Logistikabteilung **beschreiben**.
+etw. betreiben (betreibt, betrieb, hat betrieben);to operate, to run;експлуатувати, керувати;Um die Website **zu betreiben**, müssen wir einen Vertrag mit AWS abschließen.
+das Bodenpersonal (Sg.);ground staff;наземний персонал;Das Bodenpersonal **ist für die pünktliche Flugzeugabfertigung verantwortlich**.
+der Check-in (Sg.);check-in;реєстрація;Am Check-in **kam es aufgrund eines Systemfehlers zu langen Wartezeiten**.
+jdn. einstellen (stellt ein, stellte ein, hat eingestellt);to hire, to employ;наймати на роботу;Die Geschäftsführung hat beschlossen, neue Fachkräfte <b>einzustellen</b>.
+der Einzelhandel (Sg.);retail;роздрібна торгівля;Im Einzelhandel **muss man flexibel auf die Wünsche der Kunden reagieren**.
+etw. erweitern (erweitert, erweiterte, hat erweitert);to expand, to extend;розширювати;Wir müssen unsere Lagerkapazitäten erweitern, um **die Lieferfähigkeit abzusichern**.
+der Fluglotse, -n / die Fluglotsin, -nen;air traffic controller;авіадиспетчер;Als Fluglotse **muss man in Notsituationen stets die Ruhe bewahren**.
+die Flugzeugabfertigung (Sg.);aircraft handling;наземне обслуговування літаків;Die Flugzeugabfertigung **wird von einer externen Dienstleistungsfirma durchgeführt**.
+die Gepäckabfertigung (Sg.);baggage handling;обробка багажу;Bei der Gepäckabfertigung **muss man auf Gefahrenquellen am Fließband achten**.
+die Gewerkschaft, -en;trade union;профспілка;Die Gewerkschaft **führt Verhandlungen mit den Vertretern** der Arbeitgeber.
+etw. gründen (gründet, gründete, hat gegründet);to found, to establish;засновувати;Er hat vor, ein eigenes IT-Unternehmen in Deutschland <b>zu gründen</b>.
+das Handwerksunternehmen, -;craft business / construction firm;ремісниче підприємство;Das Handwerksunternehmen **stellt den Kunden ein detailliertes Angebot zur Verfügung**.
+die Jobbörse, -n;job board;сайт з пошуку роботи;Ich nutze eine Online-Jobbörse, um **Kontakt mit Arbeitgebern aufzunehmen**.
+der Kaufmann, "-er / die Kauffrau, -en;merchant, business professional;комерсант, бізнес-спеціаліст;Als Kaufmann ist er **für die kaufmännische Abwicklung der Projekte zuständig**.
+der Logistikbetrieb, -e;logistics company;логістичне підприємство;Der Logistikbetrieb **leistet einen wichtigen Beitrag zur pünktlichen Warenlieferung**.
+die Montage, -n;assembly, installation;монтаж, збірка;Die Montage der neuen IT-Anlagen **wird von Fachkräften überwacht**.
+die Orientierung (Sg.);orientation;орієнтація, орієнтування;Die Jobmesse **bietet Berufseinsteigern eine gute Orientierung auf dem Markt**.
+die Orientierungsphase, -n;orientation phase;фаза орієнтації;Die Orientierungsphase hilft den Auszubildenden, **sich im Betrieb zurechtzufinden**.
+die Personalsuche (Sg.);recruitment;пошук персоналу;Die HR-Abteilung **hat die Verantwortung für die Personalsuche übernommen**.
+der Transportbereich, -e;transport sector;транспортна сфера;Im Transportbereich **müssen strenge Sicherheitsvorschriften eingehalten werden**.
+etw. verkürzen (verkürzt, verkürzte, hat verkürzt);to shorten, to reduce;скорочувати;Durch agile Prozesse konnten wir **die Fertigstellungszeit des Projekts verkürzen**.
+etw. verlängern (verlängert, verlängerte, hat verlängert);to extend, to prolong;подовжувати;Wir müssen den Vertrag verlängern, um **die Zusammenarbeit fortzuführen**.
+die Vermittlung, -en;placement, mediation;працевлаштування, посередництво;Die Arbeitsagentur **unterstützt die Bewerber bei der Vermittlung** in Vollzeitstellen.
+der Vermittlungsgutschein, -e;placement voucher;ваучер на працевлаштування;Ich habe vom Arbeitsberater einen Vermittlungsgutschein **erhalten**.
+das Viertel, -;quarter;чверть;Ein Viertel der Belegschaft **arbeitet in befristeten Arbeitsverhältnissen**.
+die Werft, -en;shipyard;верф, суднобудівний завод;Die Werft **ist für den Bau und die Wartung großer Schiffe zuständig**.
+zusammenarbeiten mit (+ Dat.) (arbeitet zusammen, arbeitete zusammen, hat zusammengearbeitet);to work together with;співпрацювати з;Wir wollen eng mit der Industrie- und Handelskammer **zusammenarbeiten**.
+die Abrechnung, -en;billing, statement, invoice;розрахунок, звіт (фінансовий);Die Buchhaltung ist **für die monatliche Abrechnung der Gehälter zuständig**.
+etw. anfordern (fordert an, forderte an, hat angefordert);to request / order;запитувати, вимагати (офіційно);<b>Wir bitten Sie, uns ein detailliertes Angebot für</b> das Hosting **zuzuschicken**.
+die Aufregung (Sg.);excitement, agitation;хвилювання, збудження;Vor dem wichtigen Kundengespräch **gab es im Team eine gewisse Aufregung**.
+etw. ausgleichen (gleicht aus, glich aus, hat ausgeglichen);to balance, to compensate;компенсувати, вирівнювати;Überstunden müssen durch Freizeit **ausgeglichen werden**.
+die Auszeit, -en;time-out, break;перерва, тайм-аут, сабатікал;Er nimmt eine dreimonatige Auszeit, um **sich von der mentalen Belastung zu erholen**.
+das Bankkonto, -en;bank account;банківський рахунок;Der Lohn wird jeden Monat direkt **auf Ihr Bankkonto überwiesen**.
+beantragen (beantragt, beantragte, hat beantragt);to apply for;подавати заяву на;Ich möchte eine Verlängerung meines Urlaubs **beantragen**.
+bereitstehen (steht bereit, stand bereit, hat bereitgestanden);to be ready / available;бути готовим, стояти напоготові;Die IT-Ausrüstung **steht den neuen Mitarbeitern ab morgen bereit**.
+der Bildungsurlaub (Sg.);educational leave;навчальна відпустка;Ich habe Bildungsurlaub beantragt, um **an einer IHK-Schulung teilzunehmen**.
+die Dauer (Sg.);duration;тривалість;Die genaue Dauer der Schulung **steht noch nicht fest**.
+der Dokumentarfilm, -e;documentary film;документальний фільм;Der Dokumentarfilm **handelt von den Herausforderungen der Digitalisierung**.
+etw. einreichen (reicht ein, reichte ein, hat eingereicht);to submit;подавати (документи, заяву);Sie müssen Ihre Urlaubsanträge rechtzeitig **bei der HR einreichen**.
+die Erholungszeit, -en;recovery time, rest period;час для відпочинку;Ausreichende Erholungszeiten **sind wichtig für den Erhalt der Leistungsfähigkeit**.
+der Kündigungsgrund, "-e;reason for termination;причина звільнення;Der wiederholte Verstoß gegen Sicherheitsvorschriften **ist ein Kündigungsgrund**.
+der Lebensunterhalt (Sg.);livelihood, cost of living;засоби до існування;Viele Erwerbstätige müssen hart arbeiten, um **ihren Lebensunterhalt zu sichern**.
+die Lohnfortzahlung, -en;continued payment of wages;продовження виплати заробітної плати (під час хвороби);Im Krankheitsfall **hat man einen Rechtsanspruch auf Lohnfortzahlung** für sechs Wochen.
+der Mindesturlaub (Sg.);minimum leave;мінімальна відпустка;Laut Tarifvertrag **beträgt der jährliche Mindesturlaub 24 Arbeitstage**.
+die Pflege (Sg.);care, nursing;догляд, обслуговування;Die Pflege von älteren Menschen **erfordert eine hohe interkulturelle Kompetenz**.
+der Sonderurlaub (Sg.);special leave;спеціальна відпустка (напр. весілля, смерть родича);Zur eigenen Hochzeit **erhalten die Beschäftigten einen bezahlten Sonderurlaub**.
+das Sonderurlaubsrecht, -e;special leave right;право на спеціальну відпустку;Das Sonderurlaubsrecht ist gesetzlich im Bürgerlichen Gesetzbuch geregelt.
+die Spontanität (Sg.);spontaneity;спонтанність;Gleitzeit ermöglicht den Mitarbeitern **mehr Spontanität im Alltag**.
+die Stornierung, -en;cancellation;скасування, анулювання;Die Stornierung des Auftrags **hatte negative finanzielle Folgen für uns**.
+das Tagebuch, "-er;diary, journal;щоденник;Im Praktikum **müssen die Auszubildenden ein wöchentliches Berichtsheft führen**.
+die Überstunde, -n;overtime;понаднормова година;Er hat viele Überstunden gemacht, um **die Fertigstellung des Projekts abzusichern**.
+der Urlaubsanspruch, "-e;holiday entitlement;право на відпустку;Der gesetzliche Urlaubsanspruch **beträgt mindestens 20 Tage pro Jahr**.
+die Urlaubsplanung, -en;holiday planning;планування відпустки;Bei der Urlaubsplanung **müssen wir Rücksicht auf die Kollegen nehmen**.
+das Urlaubsrecht, -e;holiday right;право на відпустку;Das Urlaubsrecht **ist im Bundesurlaubsgesetz festgeschrieben**.
+das Urlaubsziel, -e;holiday destination;місце відпочинку;Er reist in den Süden, da Spanien sein liebstes Urlaubsziel ist.
+die Vertretung, -en;substitute, representation;заміна, представництво;Ich übernehme die Vertretung, **falls ein Kollege krankheitsbedingt ausfällt**.
+die Vertretungsregelung, -en;substitution policy;регулювання заміщення (працівників);Eine klare Vertretungsregelung **vermeidet Missverständnisse bei Abwesenheit**.
+etw. verwerfen (verwirft, verwarf, hat verworfen);to discard / reject;відкидати, відхиляти;Wir mussten den ersten Entwurf **verwerfen und neu anfangen**.
+das Wohlbefinden (Sg.);well-being;самопочуття, добробут;Gute Ergonomie am Arbeitsplatz **trägt entscheidend zum Wohlbefinden bei**.
+zusammenhängen mit (+ Dat.) (hängt zusammen, hing zusammen, hat zusammengehangen);to be connected with;пов'язано з;Die Verzögerungen **hängen eng mit Lieferproblemen beim Zulieferer zusammen**.
+zustehen (+ Dat.) (steht zu, stand zu, hat zugestanden);to be entitled to;мати право на (щось);Dem Arbeitnehmer **steht bei Krankheit eine Lohnfortzahlung zu**.
+die Absprache, -n;agreement, arrangement;домовленість;Wir müssen uns an die **getroffenen Absprachen halten**.
+der Arbeitsplatz, "-e;workplace;робоче місце;Der Arbeitgeber stellt die Ausrüstung **am Arbeitsplatz zur Verfügung**.
+die Arbeitszeitregelung, -en;working hours regulation;регулювання робочого часу;Die neue Arbeitszeitregelung **ist auf allgemeines Interesse gestoßen**.
+der Bereitschaftsdienst, -e;on-call service;чергування (в режимі очікування);Im Bereitschaftsdienst **muss man bei Systemfehlern sofort reagieren**.
+die Betriebsvereinbarung, -en;company agreement;угода між керівництвом та трудовим колективом;Die Betriebsvereinbarung **regelt die Nutzung von Homeoffice im Betrieb**.
+das Kernarbeitszeit, -en;core working hours;основний робочий час (обов'язкова присутність);Während der Kernarbeitszeit **müssen alle Beschäftigten erreichbar sein**.
+die Überstundenregelung, -en;overtime regulation;регулювання понаднормової роботи;Die Überstundenregelung **wurde in der Betriebsvereinbarung festgelegt**.
+das Zeiterfassungssystem, -e;time tracking system;система обліку робочого часу;Wir nutzen ein digitales Zeiterfassungssystem, um **die Arbeitszeit zu überwachen**.
+die Vertrauensarbeitszeit (Sg.);trust-based working hours;довірчий робочий час (без жорсткого обліку);Vertrauensarbeitszeit **setzt ein hohes Maß an Zuverlässigkeit voraus**.
+das Arbeitszeitkonto, -en;working time account;рахунок робочого часу;Überstunden werden auf dem Arbeitszeitkonto gutgeschrieben.
+die Schichtplanung, -en;shift planning;планування змін;Die Schichtplanung **muss die gesetzlichen Ruhezeiten berücksichtigen**.
+der Schichtdienst, -e;shift duty;робота по змінах;Der Schichtdienst **ist typisch für Berufe im Gesundheitswesen**.
+die Flexibilität (Sg.);flexibility;гнучкість;Gleitzeit **bietet den Mitarbeitern eine höhere Flexibilität**.
+die Work-Life-Balance (Sg.);work-life-balance;баланс між роботою та особистим життям;Eine ausgewogene Work-Life-Balance **schützt vor psychischer Belastung**.
+der Freizeitausgleich (Sg.);time off in lieu;компенсація вільного часу (за понаднормову роботу);Für geleistete Überstunden **wird ein Freizeitausgleich gewährt**.
+die Kernzeit, -en;core hours;основний робочий час;Die Kernzeit in unserem Betrieb **geht von 10:00 bis 15:00 Uhr**.
+die Rahmenarbeitszeit (Sg.);frame working hours;рамковий робочий час (в межах якого можна працювати);Die Rahmenarbeitszeit **erstreckt sich von 07:00 bis 19:00 Uhr**.
+die Minusstunde, -n;undertime hour;недовідпрацьована година;Minusstunden **müssen im nächsten Monat ausgeglichen werden**.
+das Guthaben, -;credit, balance;баланс, накопичений час (плюс на рахунку);Auf meinem Arbeitszeitkonto **habe ich ein Guthaben von zehn Stunden**.
+die Auszahlung, -en;payout, payment;виплата;Die Auszahlung der Überstunden **kann schriftlich beantragt werden**.
+die Zeitschuld (Sg.);time deficit;заборгованість по годинах;Eine hohe Zeitschuld **muss innerhalb des vereinbarten Zeitraums abgebaut werden**.
+die Gleitzeitregelung, -en;flextime regulation;регулювання гнучкого графіка;Die Gleitzeitregelung **wurde mit der Gewerkschaft ausgehandelt**.
+die Zeiterfassung (Sg.);time recording;облік часу;Die elektronische Zeiterfassung **verhindert Fehler bei der Gehaltsabrechnung**.
+die Vertretungskraft, "-e;substitute worker;замісник, тимчасовий працівник;Wir haben eine Vertretungskraft **für die Dauer der Elternzeit eingestellt**.
+die Dienstplanänderung, -en;duty roster change;зміна в графіку чергувань;Dienstplanänderungen **müssen rechtzeitig bekannt gegeben werden**.
+der Urlaubsantrag, "-e;leave application;заява на відпустку;Der Urlaubsantrag **wurde vom Vorgesetzten bewilligt**.
+die Urlaubssperre, -n;leave embargo / holiday ban;заборона на відпустки;Während der Hauptsaison **gilt im Betrieb eine Urlaubssperre**.
+die Betriebsferien (Pl.);company holidays;загальнозаводська відпустка;Während der Betriebsferien **bleibt das gesamte Unternehmen geschlossen**.
+das Resturlaub, -e;remaining leave;невикористана відпустка;Der Resturlaub **muss bis zum 31. März des Folgejahres genommen werden**.
+der Urlaubsübertrag, "-e;carry-over of leave;перенесення відпустки на наступний рік;Ein Urlaubsübertrag **ist nur in Ausnahmefällen zulässig**.
+die Urlaubsbescheinigung, -en;leave certificate;довідка про відпустку;Der neue Arbeitgeber **fordert eine Urlaubsbescheinigung vom bisherigen Betrieb**.
+der Erholungsurlaub (Sg.);recreational leave;основна відпустка;Der Erholungsurlaub **dient dem Erhalt der Gesundheit der Beschäftigten**.
+die Urlaubsabgeltung, -en;compensation in lieu of leave;грошова компенсація за невикористану відпустку;Bei Kündigung **hat man Anspruch auf eine finanzielle Urlaubsabgeltung**.
+die Dienstbefreiung, -en;release from duty;звільнення від виконання службових обов'язків;Für den Arzttermin **wurde dem Mitarbeiter eine Dienstbefreiung gewährt**.
+die Freistellung, -en;exemption / release from work;звільнення від роботи (із збереженням або без оплати);Die bezahlte Freistellung **dient der Vorbereitung auf die IHK-Prüfung**.
+die Arbeitsbefreiung, -en;time off work;звільнення від роботи;Für private Notfälle **kann man eine kurzfristige Arbeitsbefreiung beantragen**.
+der Sonderurlaubsgrund, "-e;reason for special leave;причина для надання спеціальної відпустки;Die Geburt des eigenen Kindes **ist ein gesetzlicher Sonderurlaubsgrund**.
+die Bildungsmaßnahme, -n;educational measure / training;освітній захід;Die Bildungsmaßnahme **wurde mit einem Bildungsgutschein finanziert**.
+die Fortbildungsvereinbarung, -en;training agreement;угода про підвищення кваліфікації;Die Fortbildungsvereinbarung **regelt die Kostenübernahme durch die Firma**.
+die Rückzahlungsklausel, -n;repayment clause;положення про повернення коштів;Die Rückzahlungsklausel **tritt in Kraft, wenn der Mitarbeiter kündigt**.
+die Freistellungsvereinbarung, -en;release agreement;угода про звільнення від роботи;Die Freistellungsvereinbarung **wurde im gegenseitigen Einvernehmen getroffen**.
+die Umschulungsmaßnahme, -n;retraining measure;захід з перекваліфікації;Die Umschulungsmaßnahme **bietet neue Chancen auf dem Arbeitsmarkt**.
+die Weiterbildungskosten (Pl.);training costs;витрати на підвищення кваліфікації;Die Weiterbildungskosten **werden in voller Höhe vom Arbeitgeber übernommen**.
