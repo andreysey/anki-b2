@@ -211,6 +211,21 @@ export async function generateAnkiDeck(
       const germanColored = colorizeGender(wordDisplay);        // German (with <span>)
       const exampleHtml   = highlightWordInExample(wordAudio, exampleRaw); // Example
 
+      // Check if translation is missing
+      if (!english) {
+        warnings.push(`${fname}:${lineIdx + 1}: Missing English translation for "${wordDisplay}"`);
+      }
+      if (!ukrainian) {
+        warnings.push(`${fname}:${lineIdx + 1}: Missing Ukrainian translation for "${wordDisplay}"`);
+      }
+
+      // Check if the example is missing entirely, or if the main word wasn't highlighted in it
+      if (!exampleRaw) {
+        warnings.push(`${fname}:${lineIdx + 1}: Missing example sentence for "${wordDisplay}"`);
+      } else if (exampleRaw && !exampleHtml.includes('</b>')) {
+        warnings.push(`${fname}:${lineIdx + 1}: Word "${wordAudio}" could not be matched/highlighted inside the example: "${exampleRaw}"`);
+      }
+
       totalEntries++;
 
       const note = new Note({

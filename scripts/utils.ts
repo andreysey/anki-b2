@@ -43,39 +43,76 @@ export function colorizeGender(german: string): string {
 export function highlightWordInExample(cleanGerman: string, example: string): string {
   if (!example) return '';
 
-  const words = cleanGerman.split(/\s+/);
-  const mainWord = words[words.length - 1]?.replace(/\|/g, '') ?? '';
+  // Extract candidate search terms
+  const terms: string[] = [];
 
-  // Rust's String::len() checks BYTES, not characters.
-  // "für" is 3 characters but 4 bytes (ü is 2 bytes in UTF-8), so it passed the check in Rust.
-  // To achieve 100% identical output, we check byte length here.
-  const byteLen = new TextEncoder().encode(mainWord).length;
+  // Parse words like "schließen (schließt, schloss, hat geschlossen)"
+  // Extract all forms listed in parentheses or main words
+  const parensMatch = cleanGerman.match(/\((.*?)\)/);
+  if (parensMatch && parensMatch[1]) {
+    parensMatch[1].split(',').forEach(form => {
+      let f = form.replace(/^(hat|ist)\s+/, '').trim(); // Remove auxiliary verbs
+      if (f.length > 2) terms.push(f);
+    });
+  }
 
-  if (byteLen > 3) {
-    // Safe unicode word boundary using capturing groups instead of lookbehinds
-    // This avoids catastrophic backtracking in V8 while matching Rust's unicode \b
-    const wb = `(^|[^\\p{L}\\p{N}])`;
-    const we = `($|[^\\p{L}\\p{N}])`;
-
-    try {
-      // Try case-insensitive match with unicode word boundary
-      const pattern = new RegExp(`${wb}(${escapeRegex(mainWord)}[\\p{L}]*)${we}`, 'iu');
-      if (pattern.test(example)) {
-        return example.replace(pattern, (_, p1, p2, p3) => `${p1}<b style="color: #eab308;">${p2}</b>${p3}`);
+  // Add the base terms
+  const rawWords = cleanGerman.replace(/\(.*?\)/g, '').split(/\s+/);
+  rawWords.forEach(w => {
+    const cleaned = w.replace(/\|/g, '').trim();
+    // Exclude articles, short prepositions etc.
+    if (cleaned.length > 2 && !['der', 'die', 'das', 'ein', 'eine', 'mit', 'auf', 'aus', 'von', 'bei'].includes(cleaned.toLowerCase())) {
+      terms.push(cleaned);
+      // If it's a separable verb like "einladen", also check just the root "laden" or conjugated prefix forms
+      if (cleaned.endsWith('laden') && cleaned.length > 5) terms.push('lädt');
+      if (cleaned.endsWith('tragen') && cleaned.length > 6) terms.push('trägt');
+      if (cleaned.endsWith('gehen') && cleaned.length > 5) terms.push('geht', 'ging');
+      if (cleaned.endsWith('sehen') && cleaned.length > 5) terms.push('sieht', 'sah');
+      if (cleaned.endsWith('halten') && cleaned.length > 6) {
+        terms.push('hält', 'hielt');
       }
+    }
+  });
 
-      // Fallback: 4-char prefix match for declined/conjugated forms
-      const prefix = mainWord.slice(0, 4);
-      if (prefix.length >= 4) {
-        const prefixPattern = new RegExp(`${wb}(${escapeRegex(prefix)}[\\p{L}]*)${we}`, 'iu');
-        return example.replace(prefixPattern, (_, p1, p2, p3) => `${p1}<b style="color: #eab308;">${p2}</b>${p3}`);
+  // Sort terms by length descending so we match longer/more specific phrases first
+  const sortedTerms = [...new Set(terms)].sort((a, b) => b.length - a.length);
+
+  const wb = `(^|[^\\p{L}\\p{N}])`;
+  const we = `($|[^\\p{L}\\p{N}])`;
+
+  let highlightedExample = example;
+  let hasHighlighted = false;
+
+  for (const term of sortedTerms) {
+    try {
+      const pattern = new RegExp(`${wb}(${escapeRegex(term)}[\\p{L}]*)${we}`, 'iu');
+      if (pattern.test(highlightedExample)) {
+        highlightedExample = highlightedExample.replace(pattern, (_, p1, p2, p3) => `${p1}<b style="color: #eab308;">${p2}</b>${p3}`);
+        hasHighlighted = true;
+        break; // Match the longest/best term and stop
       }
     } catch {
       // RegEx fallback
     }
   }
 
-  return example;
+  // Fallback to prefix matching if nothing matched yet
+  if (!hasHighlighted) {
+    const mainWord = rawWords[rawWords.length - 1]?.replace(/\|/g, '') ?? '';
+    const prefix = mainWord.slice(0, 4);
+    if (prefix.length >= 4) {
+      try {
+        const prefixPattern = new RegExp(`${wb}(${escapeRegex(prefix)}[\\p{L}]*)${we}`, 'iu');
+        if (prefixPattern.test(highlightedExample)) {
+          highlightedExample = highlightedExample.replace(prefixPattern, (_, p1, p2, p3) => `${p1}<b style="color: #eab308;">${p2}</b>${p3}`);
+        }
+      } catch {
+        // RegEx fallback
+      }
+    }
+  }
+
+  return highlightedExample;
 }
 
 /**

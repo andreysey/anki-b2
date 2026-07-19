@@ -63,7 +63,7 @@ heben (hebt, hob, hat gehoben);to lift, to raise;піднімати;Die erfolgre
 heißen (heißt, hieß, hat geheißen);to be called, to mean;називатися, означати;Das Gesetz, das uns vor Kündigungen schützt, heißt Kündigungsschutzgesetz.
 helfen (hilft, half, hat geholfen);to help;допомагати;Die Berufsgenossenschaft hat dem Betrieb bei der Gefahrenanalyse geholfen.
 kennen (kennt, kannte, hat gekannt);to know (people/places);знати (бути знайомим з);Der Inhaber hat die familiären Lebensumstände des Angestellten gut gekannt.
-klingen (klingt, klingt, klang, hat geklungen);to sound;звучати;Die Begründung für die außerordentliche Kündigung hat unplausibel geklungen.
+klingen (klingt, klang, hat geklungen);to sound;звучати;Die Begründung für die außerordentliche Kündigung hat unplausibel geklungen.
 kneifen (kneift, kniff, hat gekniffen);to pinch, to chicken out;щипати, ухилятися;Wir dürfen vor den schwierigen Vorgaben des Arbeitsschutzes nicht kneifen.
 kommen (kommt, kam, ist gekommen);to come;приходити;Aufgrund des Streiks kam es zu erheblichen Ausfallzeiten im Werk.
 können (kann, konnte, hat gekannt / hat können);to be able to;вміти, могти;Wir konnten eine betriebsbedingte Kündigung im letzten Moment verhindern.
@@ -73,7 +73,7 @@ lassen (lässt, ließ, hat gelassen / hat lassen);to let, to leave;дозвол�
 laufen (läuft, lief, ist gelaufen);to run;бігти, працювати (про програму);Die Kälteanlage ist während des gesamten Wochenendes im Dauerbetrieb gelaufen.
 leiden (leidet, litt, hat gelitten);to suffer;страждати;Das Betriebsklima hat unter den ständigen Entlassungswellen stark gelitten.
 leihen (leiht, lieh, hat geliehen);to lend, to borrow;позичати;Der Kollege hat mir für die Montage sein Spezialwerkzeug geliehen.
-lese (liest, las, hat gelesen);to read;читати;Ich habe die Bedingungen des Arbeitsvertrags vor der Unterschrift gründlich gelesen.
+lesen (liest, las, hat gelesen);to read;читати;Ich habe die Bedingungen des Arbeitsvertrags vor der Unterschrift gründlich gelesen.
 liegen (liegt, lag, hat/ist gelegen);to lie, to be located;лежати, знаходитися;Das Betriebsergebnis hat deutlich über dem Existenzminimum gelegen.
 lügen (lügt, log, hat gelogen);to lie, to tell a falsehood;брехати;Der Zeuge hat bei der Vernehmung zum Wegeunfall nachweislich gelogen.
 meiden (meidet, mied, hat gemieden);to avoid;уникати;Wir haben den unzuverlässigen Zulieferer bei der Vergabe des Auftrags gemieden.
@@ -82,7 +82,7 @@ messen (misst, maß, hat gemessen);to measure;вимірювати;Der Immission
 misslingen (misslingt, misslang, ist misslungen);to fail;не вдаватися;Der Erstversuch, die neue Kältemaschine zu kalibrieren, ist misslungen.
 mögen (mag, mochte, hat gemocht / hat mögen);to like;любити, хотіти;Die Belegschaft hat den alten, verständnisvollen Werkleiter sehr gemocht.
 müssen (muss, musste, hat gemusst / hat müssen);to must, to have to;мусити;Wir mussten aufgrund der Dürreperiode erhebliche finanzielle Einbußen hinnehmen.
-nehmen (nimmt, nimmt, nahm, hat genommen);to take;брати;Der Arbeitnehmer hat fristgerecht Abschied von seinen Kollegen genommen.
+nehmen (nimmt, nahm, hat genommen);to take;брати;Der Arbeitnehmer hat fristgerecht Abschied von seinen Kollegen genommen.
 nennen (nennt, nannte, hat genannt);to name, to call;називати;Der Prüfer hat die genauen Paragrafen des Steuerrechts genannt.
 pfeifen (pfeift, pfiff, hat gepfiffen);to whistle;свистіти;Die Turbine der Luftleitung hat wegen des Defekts laut gepfiffen.
 preisen (preist, pries, hat gepriesen);to praise;хвалити, прославляти;Der Fachberater hat das umweltfreundliche Kältemittel auf der Messe gepriesen.
@@ -113,7 +113,8 @@ schreiben (schreibt, schrieb, hat geschrieben);to write;писати;Der Gesetzg
 schreien (schreit, schrie, hat geschrien);to scream, to shout;кричати;Der verletzte Arbeiter hat vor Schmerz laut geschrien.
 schreiten (schreitet, schritt, ist geschritten);to stride, to step;крокувати;Die Geschäftsführung schritt zügig zur Umsetzung der Lärmschutzmaßnahmen.
 schweigen (schweigt, schwieg, hat geschwiegen);to be silent;мовчати;Der Whistleblower hat trotz des enormen Drucks der Chefetage nicht geschwiegen.
-schObjects (Pl.);items / elements;предмети, елементи;Die Revision hat alle wertvollen Sachgüter im Anlagevermögen registriert.
+schwimmen (schwimmt, schwamm, hat/ist geschwommen);to swim;плавати;Die Firma ist bei der Finanzierung des neuen Werks ganz schön ins Schwimmen geraten.
+schwingen (schwingt, schwang, hat geschwungen);to swing, to vibrate;коливатися, махати, вібрувати;Das Fundament der neuen Kältemaschine darf im Betrieb nicht zu stark schwingen.
 schwinden (schwindet, schwand, ist geschwunden);to disappear, to shrink;зникати, зменшуватися;Die Hoffnung auf eine einvernehmliche Einigung ist zusehends geschwunden.
 schwören (schwört, schwor, hat geschworen);to swear, to vow;клястися;Der Zeuge hat vor dem Arbeitsgericht geschworen, die Wahrheit zu sagen.
 sehen (sieht, sah, hat gesehen);to see;бачити;Der Steuerprüfer sah die Unregelmäßigkeiten sofort in den Buchungsbelegen.
@@ -154,10 +155,10 @@ weisen (weist, wies, hat gewiesen);to point, to show;показувати, вк�
 wenden (wenden, wendete/wandte, hat gewendet/gewandt);to turn;повертати, звертатися;Bei arbeitsrechtlichen Streitigkeiten wendet man sich am besten an einen Anwalt.
 werben (wirbt, warb, hat geworben);to advertise, to recruit;рекламувати, вербувати;Die Firma wirbt auf der Bildungsmesse intensiv um neue Auszubildende.
 werden (wird, wurde, ist geworden);to become;ставати;Die Einhaltung der Umweltrichtlinien ist zu einem zentralen Thema geworden.
-werfen (wirft, warf, hat geworben);to throw;кидати;Der Vorwurf der Scheinselbstständigkeit warf viele rechtliche Fragen auf.
+werfen (wirft, warf, hat geworfen);to throw;кидати;Der Vorwurf der Scheinselbstständigkeit warf viele rechtliche Fragen auf.
 wiegen (wiegt, wog, hat gewogen);to weigh;важити;Das Paket mit den Ersatzteilen für das Aggregat hat über 20 Kilogramm gewogen.
 winden (windet, wand, hat gewunden);to wind, to twist;витися, плести;Der Kabelkanal windet sich entlang der gesamten Wand der Werkhalle.
 wissen (weiß, wusste, hat gewusst);to know (facts);знати (факти);Der Sicherheitsbeauftragte hat genau gewusst, wo sich die Feuerlöscher befinden.
 wollen (will, wollte, hat gewollt / hat wollen);to want;хотіти;Die Belegschaft wollte den angekündigten Personalabbau nicht stillschweigend hinnehmen.
 ziehen (zieht, zog, hat/ist gezogen);to pull, to drag;тягнути;Der Arbeitnehmer hat die Kündigungsschutzklage vor dem Arbeitsgericht zurückgezogen.
-zwingen (zwingt, zwang, hat gezwungen);to force;Die prekäre Finanzlage hat die GmbH zur Einleitung der Insolvenz gezwungen.
+zwingen (zwingt, zwang, hat gezwungen);to force / to compel;змушувати;Die prekäre Finanzlage hat die GmbH zur Einleitung der Insolvenz gezwungen.
