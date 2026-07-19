@@ -100,7 +100,7 @@ die Fahrlässigkeit (Sg.);negligence;необережність, халатні�
 die Vorsatz (Sg.);intent, intention;умисел;Bei Vorsatz **übernimmt die Arbeitsunfallversicherung keine Haftung**.
 die Haftungsausschluss, "-e;exclusion of liability / disclaimer;виключення відповідальності;Der Haftungsausschluss **wurde schriftlich im Vertrag festgehalten**.
 die Haftungsbeschränkung, -en;limitation of liability;обмеження відповідальності;Die Haftungsbeschränkung **ist in den AGB des Dienstleisters geregelt**.
-die Allgemeine Geschäftsbedingungen (AGB) (Pl.);general terms and conditions (AGB);загальні умови угоди (AGB);Mit der Unterschrift **bestätigen Sie das Einverständnis mit unseren AGB**.
+die Allgemeine Geschäftsbedingungen (AGB) (Pl.);general terms and conditions (AGB);загальні умови угоди (AGB);Mit der Unterschrift bestätigen Sie das Einverständnis mit unseren **Allgemeinen Geschäftsbedingungen**.
 die Vertragsklausel, -n;contract clause;пункт (положення) договору;Die Vertragsklausel **regelt die Kündigungsfrist im Krankheitsfall**.
 die Wirksamkeit (Sg.);effectiveness / validity;дійсність, чинність (юридична);Die Wirksamkeit der Kündigung **wird vom Arbeitsgericht überprüft**.
 die Unwirksamkeit (Sg.);invalidity;недійсність;Die Unwirksamkeit der Klausel **führte zur Ungültigkeit des gesamten Absatzes**.
@@ -193,7 +193,7 @@ die Sozialleistungssystem, -e;social benefit system;система соціал�
 die Generationengerechtigkeit (Sg.);intergenerational justice;справедливість між поколіннями;Generationengerechtigkeit **erfordert eine nachhaltige Finanzpolitik**.
 die Nachhaltigkeitsfaktor, -en;sustainability factor;коефіцієнт стійкості (у розрахунку пенсій);Der Nachhaltigkeitsfaktor **dämpft den Anstieg der Renten bei demografischen Problemen**.
 die Rentenformel, -n;pension formula;пенсійна формула (розрахунок пенсії);Die Rentenformel **wird gesetzlich im Sozialgesetzbuch festgelegt**.
-die Sozialgesetzbuch (SGB) (Sg.);Social Code;Соціальний кодекс (SGB);Das SGB **beinhaltet alle Rechtsnormen zur Sozialversicherung**.
+die Sozialgesetzbuch (SGB) (Sg.);Social Code;Соціальний кодекс (SGB);Das **Sozialgesetzbuch** beinhaltet alle Rechtsnormen zur Sozialversicherung.
 die Sozialgesetzgebung (Sg.);social legislation;соціальне законодавство;Die Sozialgesetzgebung **dient der sozialen Absicherung der Bevölkerung**.
 die Soziale Sicherheit;social security;соціальна безпека (захищеність);Soziale Sicherheit **ist ein Grundprinzip des deutschen Sozialstaates**.
 die Sozialstaat (Sg.);welfare state;соціальна держава;Deutschland versteht sich als Sozialstaat **im Sinne des Grundgesetzes**.
@@ -238,7 +238,7 @@ die Aufschwung, "-e;economic upswing / recovery;економічне підне�
 die Rezession, -en;recession;рецесія, спад;In einer Rezession **leidet das produzierende Gewerbe unter Auftragsmangel**.
 die Konjunkturprogramm, -e;economic stimulus program;програма стимулювання економіки;Das Konjunkturprogramm **soll die Wirtschaft aus der Rezession führen**.
 die Wirtschaftswachstum (Sg.);economic growth;економічне зростання;Das Wirtschaftswachstum **wird am Bruttoinlandsprodukt (BIP) gemessen**.
-die Bruttoinlandsprodukt (BIP) (Sg.);gross domestic product (GDP);валовий внутрішній продукт (ВВП);Das BIP **ist der wichtigste Indikator für die wirtschaftliche Leistungsfähigkeit**.
+die Bruttoinlandsprodukt (BIP) (Sg.);gross domestic product (GDP);валовий внутрішній продукт (ВВП);Das **Bruttoinlandsprodukt** ist der wichtigste Indikator für die wirtschaftliche Leistungsfähigkeit.
 die Wirtschaftskraft (Sg.);economic strength;економічна сила (потенціал країни/регіону);Die Wirtschaftskraft Bayerns **beruht auf einem starken Mittelstand**.
 die Strukturwandel, -;structural change;структурні зміни (в економіці);Der Strukturwandel **erfordert die Umschulung von Arbeitnehmern**.
 die Strukturförderung (Sg.);structural promotion / regional aid;структурна підтримка (допомога відсталим регіонам);Die Strukturförderung **soll die Lebensbedingungen in strukturschwachen Regionen angleichen**.

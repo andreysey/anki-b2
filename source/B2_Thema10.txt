@@ -125,7 +125,7 @@ die Steuerpflicht, -en;tax liability / obligation;податковий обов'
 die unbeschränkt Steuerpflicht;unlimited tax liability;необмежена податкова обов'язковість (оподаткування всіх світових доходів);Personen mit Wohnsitz in Deutschland **unterliegen der unbeschränkten Steuerpflicht**.
 die beschränkt Steuerpflicht;limited tax liability;обмежена податкова обов'язковість (оподаткування лише доходів з джерел у Німеччині);Ausländische Dienstleister **unterliegen oft der beschränkten Steuerpflicht**.
 die Doppelbesteuerung, -en;double taxation;подвійне оподаткування;Die Doppelbesteuerung **wird durch internationale Abkommen vermieden**.
-die Doppelbesteuerungsabkommen (DBA), -;double taxation treaty;угода про уникнення подвійного оподаткування (DBA);Das DBA **regelt die Aufteilung des Besteuerungsrechts zwischen den Staaten**.
+die Doppelbesteuerungsabkommen (DBA), -;double taxation treaty;угода про уникнення подвійного оподаткування (DBA);Das **Doppelbesteuerungsabkommen** regelt die Aufteilung des Besteuerungsrechts zwischen den Staaten.
 die Besteuerungsrecht, -e;right of taxation / taxing power;право на оподаткування;Das Besteuerungsrecht **liegt in diesem Fall beim Wohnsitzstaat**.
 die Wohnsitzstaat, -en;state of residence;держава проживання;Der Wohnsitzstaat **übernimmt die Besteuerung des weltweiten Einkommens**.
 die Quellenstaat, -en;state of source;держава походження доходу;Der Quellenstaat **darf eine Quellensteuer auf Dividenden erheben**.

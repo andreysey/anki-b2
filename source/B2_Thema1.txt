@@ -74,7 +74,7 @@ die Fertigstellung (Sg.);completion;завершення, готовність;W
 die Filiale, -n;branch, subsidiary;філія, відділення;Die Leitung der Filiale **übernimmt die Verantwortung für die Verkaufszahlen**.
 eine flache Hierarchie;a flat hierarchy;плоска ієрархія (мало рівнів керівництва);In Betrieben mit flachen Hierarchien <b>kann man eigene Vorschläge leichter zur Sprache bringen</b>.
 die Handwerkskammer, -n;Chamber of Crafts;реміснича палата;Die Handwerkskammer **erteilt Auskünfte über** anerkannte Ausbildungsberufe.
-die Industrie- und Handelskammer (IHK), -en;Chamber of Industry and Commerce;Торгово-промислова палата (ТПП);Die Prüfung wird vor der Industrie- und Handelskammer (IHK) abgelegt.
+die Industrie- und Handelskammer (IHK), -en;Chamber of Industry and Commerce;Торгово-промислова палата (ТПП);Die Prüfung wird vor der **Industrie- und Handelskammer** abgelegt.
 der Kernbereich, -e;core area;основна сфера, ядро;Die Entwicklung neuer Produkte gehört zum Kernbereich unserer Tätigkeit.
 die Kooperation, -en;cooperation, collaboration;кооперація, співпраця;Die enge Kooperation mit der Universität **zeigt bereits erste Wirkungen**.
 der Schritt, -e;step;крок;Wir müssen den nächsten Schritt **gemeinsam besprechen**.
@@ -107,7 +107,7 @@ das Corporate Identity (Sg.);corporate identity;корпоративна іде�
 das Image (Sg.);image, reputation;імідж, репутація;Ein Skandal kann **dem Image des Unternehmens schweren Schaden zufügen**.
 das Leitbild, -er;mission statement;концепція розвитку, ідеал;Unser Leitbild **stellt den Menschen in den Mittelpunkt unserer Arbeit**.
 die Marktposition, -en;market position;ринкова позиція;Wir müssen unsere Marktposition **durch Innovationen absichern**.
-das Corporate Social Responsibility (CSR) (Sg.);corporate social responsibility;корпоративна соціальна відповідальність;Unser CSR-Engagement **findet große Beachtung in den Medien**.
+das Corporate Social Responsibility (CSR) (Sg.);corporate social responsibility;корпоративна соціальна відповідальність;Unsere **Corporate Social Responsibility** findet große Beachtung in den Medien.
 die Unternehmenskultur, -en;corporate culture;корпоративна культура;Eine offene Feedback-Kultur **prägt unsere Unternehmenskultur**.
 das Unternehmensziel, -e;company goal;ціль компанії;Das wichtigste Unternehmensziel **ist die Steigerung der Energieeffizienz**.
 der Wert, -e;value;цінність;Zu unseren wichtigsten Werten **gehören Ehrlichkeit und Transparenz**.

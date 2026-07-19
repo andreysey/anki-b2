@@ -74,7 +74,7 @@ das Marketing (Sg.);marketing;маркетинг;Das Marketing **legt großen We
 die Messehalle, -n;exhibition hall;виставковий павільйон;In der großen Messehalle **stehen den Besuchern verschiedene Info-Stände zur Verfügung**.
 die Neuheit, -en;novelty, new product;новинка;Wir präsentieren auf der Messe **unsere neuesten technologischen Neuheiten**.
 die Produktneuheit, -en;product novelty / new product;новий продукт, новинка продукції;Die Produktneuheit **ist auf großes Interesse beim Fachpublikum gestoßen**.
-die Public Relations (PR) (Pl.);public relations;зв'язки з громадськістю (піар);Gute PR **trägt entscheidend zur Verbesserung des Images in der Öffentlichkeit bei**.
+die Public Relations (PR) (Pl.);public relations;зв'язки з громадськістю (піар);Gute **Public Relations** tragen entscheidend zur Verbesserung des Images in der Öffentlichkeit bei.
 die Publikumswelt, -en;public section / consumer fair section;публічна частина виставки;Die Publikumswelt der Messe **ist am Wochenende auch für Privatbesucher geöffnet**.
 die Publikumstag, -e;public day (at a trade fair);день для загального відвідування;Am Publikumstag **kam es am Messestand zu einem enormen Besucheransturm**.
 die Standbetreuung (Sg.);stand staff / booth support;обслуговування стенду;Die Standbetreuung **muss den Besuchern kompetente Auskünfte erteilen können**.
@@ -106,7 +106,7 @@ der Kundenstamm, "-e;customer base;клієнтська база;Unser Kundensta
 die Kundenanfrage, -n;customer inquiry;запит від клієнта;Wir bemühen uns, jede Kundenanfrage **innerhalb von 24 Stunden zu beantworten**.
 die Kundenberatung, -en;customer consultation;консультування клієнтів;Die Kundenberatung **erfolgt durch qualifizierte Fachkräfte**.
 die Kundenorientierung (Sg.);customer orientation;клієнтоорієнтованість;Kundenorientierung **wird in der Ausbildung der Kaufleute großgeschrieben**.
-das Kundenbeziehungsmanagement (CRM) (Sg.);customer relationship management (CRM);управління відносинами з клієнтами (CRM);Das neue CRM-System **erleichtert die Pflege der Kundenkontakte**.
+das Kundenbeziehungsmanagement (CRM) (Sg.);customer relationship management (CRM);управління відносинами з клієнтами (CRM);Das neue **Kundenbeziehungsmanagement** erleichtert die Pflege der Kundenkontakte.
 die Kundendaten (Pl.);customer data;дані клієнтів;Die Kundendaten **werden vertraulich behandelt und streng geschützt**.
 die Kundenakzeptanz (Sg.);customer acceptance;прийняття клієнтами (сприйняття продукту ринком);Die Kundenakzeptanz für die neue App **war erfreulich hoch**.
 der Kundennutzen (Sg.);customer benefit;користь для клієнта;Das Produkt **bietet dem Anwender einen hohen praktischen Kundennutzen**.

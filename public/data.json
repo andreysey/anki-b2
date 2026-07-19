@@ -81,7 +81,7 @@
     "german_audio": "das Berufsinformationszentrum",
     "english": "career information center",
     "ukrainian": "центр профорієнтації",
-    "example": "Im <b style=\"color: #eab308;\">BIZ</b> **erhalten Berufseinsteiger nützliche Auskünfte über Umschulungsmaßnahmen**."
+    "example": "Im **<b style=\"color: #eab308;\">Berufsinformationszentrum</b>** erhalten Berufseinsteiger nützliche Auskünfte über Umschulungsmaßnahmen."
   },
   {
     "level": "B1+",
@@ -6303,7 +6303,7 @@
     "german_audio": "die Industrie- und Handelskammer",
     "english": "Chamber of Industry and Commerce",
     "ukrainian": "Торгово-промислова палата (ТПП)",
-    "example": "Die Prüfung wird vor der Industrie- und <b style=\"color: #eab308;\">Handelskammer</b> (IHK) abgelegt."
+    "example": "Die Prüfung wird vor der **Industrie- und <b style=\"color: #eab308;\">Handelskammer</b>** abgelegt."
   },
   {
     "level": "B2",
@@ -6651,7 +6651,7 @@
     "german_audio": "das Corporate Social Responsibility",
     "english": "corporate social responsibility",
     "ukrainian": "корпоративна соціальна відповідальність",
-    "example": "Unser <b style=\"color: #eab308;\">CSR</b>-Engagement **findet große Beachtung in den Medien**."
+    "example": "Unsere **Corporate Social <b style=\"color: #eab308;\">Responsibility</b>** findet große Beachtung in den Medien."
   },
   {
     "level": "B2",
@@ -12891,7 +12891,7 @@
     "german_audio": "die Integrationsfachdienst",
     "english": "integration specialist service",
     "ukrainian": "інтеграційна спеціалізована служба",
-    "example": "Der <b style=\"color: #eab308;\">IFD</b> **unterstützt schwerbehinderte Menschen bei der Arbeitssuche**."
+    "example": "Der **<b style=\"color: #eab308;\">Integrationsfachdienst</b>** unterstützt schwerbehinderte Menschen bei der Arbeitssuche."
   },
   {
     "level": "B2",
@@ -12903,7 +12903,7 @@
     "german_audio": "die Berufsbegleitende Dienst",
     "english": "occupational support service",
     "ukrainian": "служба супроводу на робочому місці",
-    "example": "Der <b style=\"color: #eab308;\">BBD</b> **hilft bei der Lösung von Konflikten am Arbeitsplatz**."
+    "example": "Der **<b style=\"color: #eab308;\">Berufsbegleitende</b> Dienst** hilft bei der Lösung von Konflikten am Arbeitsplatz."
   },
   {
     "level": "B2",
@@ -14163,7 +14163,7 @@
     "german_audio": "die Public Relations",
     "english": "public relations",
     "ukrainian": "зв'язки з громадськістю (піар)",
-    "example": "Gute PR **trägt entscheidend zur Verbesserung des Images in der Öffentlichkeit bei**."
+    "example": "Gute **Public <b style=\"color: #eab308;\">Relations</b>** tragen entscheidend zur Verbesserung des Images in der Öffentlichkeit bei."
   },
   {
     "level": "B2",
@@ -14535,7 +14535,7 @@
     "german_audio": "das Kundenbeziehungsmanagement",
     "english": "customer relationship management (CRM)",
     "ukrainian": "управління відносинами з клієнтами (CRM)",
-    "example": "Das neue <b style=\"color: #eab308;\">CRM</b>-System **erleichtert die Pflege der Kundenkontakte**."
+    "example": "Das neue **<b style=\"color: #eab308;\">Kundenbeziehungsmanagement</b>** erleichtert die Pflege der Kundenkontakte."
   },
   {
     "level": "B2",
@@ -17775,7 +17775,7 @@
     "german_audio": "die Landesarbeitsgericht",
     "english": "regional labor court",
     "ukrainian": "земельний (апеляційний) трудовий суд",
-    "example": "Das <b style=\"color: #eab308;\">LAG</b> **ist für die Verhandlung der Berufung zuständig**."
+    "example": "Das **<b style=\"color: #eab308;\">Landesarbeitsgericht</b>** ist für die Verhandlung der Berufung zuständig."
   },
   {
     "level": "B2",
@@ -17787,7 +17787,7 @@
     "german_audio": "die Bundesarbeitsgericht",
     "english": "Federal Labor Court",
     "ukrainian": "Федеральний трудовий суд",
-    "example": "Das <b style=\"color: #eab308;\">BAG</b> **ist die höchste Instanz in der deutschen Arbeitsgerichtsbarkeit**."
+    "example": "Das **<b style=\"color: #eab308;\">Bundesarbeitsgericht</b>** ist die höchste Instanz in der deutschen Arbeitsgerichtsbarkeit."
   },
   {
     "level": "B2",
@@ -18723,7 +18723,7 @@
     "german_audio": "die Verbraucherpreisindex",
     "english": "consumer price index (CPI)",
     "ukrainian": "індекс споживчих цін (ІСЦ)",
-    "example": "Der <b style=\"color: #eab308;\">VPI</b> **dient als Maßstab für die Messung der Inflation**."
+    "example": "Der **<b style=\"color: #eab308;\">Verbraucherpreisindex</b>** dient als Maßstab für die Messung der Inflation."
   },
   {
     "level": "B2",
@@ -19731,7 +19731,7 @@
     "german_audio": "die Wohnberechtigungsschein",
     "english": "subsidized housing certificate (WBS)",
     "ukrainian": "дозвіл на оренду соціального житла (WBS)",
-    "example": "Mit dem <b style=\"color: #eab308;\">WBS</b> **kann man eine preisgünstige Sozialwohnung anmieten**."
+    "example": "Mit dem **<b style=\"color: #eab308;\">Wohnberechtigungsschein</b>** kann man eine preisgünstige Sozialwohnung anmieten."
   },
   {
     "level": "B2",
@@ -22839,7 +22839,7 @@
     "german_audio": "die Allgemeine Geschäftsbedingungen",
     "english": "general terms and conditions (AGB)",
     "ukrainian": "загальні умови угоди (AGB)",
-    "example": "Mit der Unterschrift **bestätigen Sie das Einverständnis mit unseren <b style=\"color: #eab308;\">AGB</b>**."
+    "example": "Mit der Unterschrift bestätigen Sie das Einverständnis mit unseren **Allgemeinen <b style=\"color: #eab308;\">Geschäftsbedingungen</b>**."
   },
   {
     "level": "B2",
@@ -23955,7 +23955,7 @@
     "german_audio": "die Sozialgesetzbuch",
     "english": "Social Code",
     "ukrainian": "Соціальний кодекс (SGB)",
-    "example": "Das <b style=\"color: #eab308;\">SGB</b> **beinhaltet alle Rechtsnormen zur Sozialversicherung**."
+    "example": "Das **<b style=\"color: #eab308;\">Sozialgesetzbuch</b>** beinhaltet alle Rechtsnormen zur Sozialversicherung."
   },
   {
     "level": "B2",
@@ -24495,7 +24495,7 @@
     "german_audio": "die Bruttoinlandsprodukt",
     "english": "gross domestic product (GDP)",
     "ukrainian": "валовий внутрішній продукт (ВВП)",
-    "example": "Das <b style=\"color: #eab308;\">BIP</b> **ist der wichtigste Indikator für die wirtschaftliche Leistungsfähigkeit**."
+    "example": "Das **<b style=\"color: #eab308;\">Bruttoinlandsprodukt</b>** ist der wichtigste Indikator für die wirtschaftliche Leistungsfähigkeit."
   },
   {
     "level": "B2",
@@ -27543,7 +27543,7 @@
     "german_audio": "die Bürgerliche Gesetzbuch",
     "english": "Civil Code",
     "ukrainian": "Цивільний кодекс Німеччини (BGB)",
-    "example": "Das <b style=\"color: #eab308;\">BGB</b> **regelt das Sonderurlaubsrecht та die gesetzliche Mängelhaftung**."
+    "example": "Das **<b style=\"color: #eab308;\">Bürgerliche</b> Gesetzbuch** regelt das Sonderurlaubsrecht та die gesetzliche Mängelhaftung."
   },
   {
     "level": "B2",
@@ -29391,7 +29391,7 @@
     "german_audio": "die Doppelbesteuerungsabkommen",
     "english": "double taxation treaty",
     "ukrainian": "угода про уникнення подвійного оподаткування (DBA)",
-    "example": "Das <b style=\"color: #eab308;\">DBA</b> **regelt die Aufteilung des Besteuerungsrechts zwischen den Staaten**."
+    "example": "Das **<b style=\"color: #eab308;\">Doppelbesteuerungsabkommen</b>** regelt die Aufteilung des Besteuerungsrechts zwischen den Staaten."
   },
   {
     "level": "B2",
@@ -33135,7 +33135,7 @@
     "german_audio": "die Aktivierungs- und Vermittlungsgutschein",
     "english": "activation and placement voucher (AVGS)",
     "ukrainian": "ваучер на активацію та працевлаштування (AVGS)",
-    "example": "Mit dem <b style=\"color: #eab308;\">AVGS</b> **kann man die Dienste einer privaten Vermittlungsagentur nutzen**."
+    "example": "Mit dem **Aktivierungs- und <b style=\"color: #eab308;\">Vermittlungsgutschein</b>** kann man die Dienste einer privaten Vermittlungsagentur nutzen."
   },
   {
     "level": "B2",

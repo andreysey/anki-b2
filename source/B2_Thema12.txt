@@ -102,7 +102,7 @@ die Einstiegsgeld (Sg.);starting grant / introductory subsidy (for taking a job)
 die Lohnkostenzuschuss, "-e;wage subsidy;субсидія на заробітну плату (роботодавцю);Für die Einstellung von Langzeitarbeitslosen **gibt es einen Lohnkostenzuschuss**.
 die Eingliederungszuschuss, "-e;integration subsidy;інтеграційна субсидія (доплата роботодавцю);Der Eingliederungszuschuss **wird für die Dauer der Einarbeitungsphase gezahlt**.
 die Beschäftigungszuschuss, "-e;employment subsidy;доплата на працевлаштування (субсидія);Der Beschäftigungszuschuss **dient der Integration schwer vermittelbarer Personen**.
-die Aktivierungs- und Vermittlungsgutschein (AVGS), -e;activation and placement voucher (AVGS);ваучер на активацію та працевлаштування (AVGS);Mit dem AVGS **kann man die Dienste einer privaten Vermittlungsagentur nutzen**.
+die Aktivierungs- und Vermittlungsgutschein (AVGS), -e;activation and placement voucher (AVGS);ваучер на активацію та працевлаштування (AVGS);Mit dem **Aktivierungs- und Vermittlungsgutschein** kann man die Dienste einer privaten Vermittlungsagentur nutzen.
 die Bildungsgutschein, -e;training voucher;освітній ваучер (на навчання/курси);Ich habe einen Bildungsgutschein **für eine berufliche Weiterbildung erhalten**.
 die Umschulungsmaßnahme, -n;retraining measure;заходи з перекваліфікації;Die Umschulungsmaßnahme **wird in vollem Umfang durch den Bildungsgutschein finanziert**.
 die Rentenberater, - / die Rentenberaterin, -nen;pension consultant;пенсійний консультант;Der Rentenberater **hilft bei der Berechnung der zukünftigen Rente**.

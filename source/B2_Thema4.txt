@@ -138,8 +138,8 @@ die behindertengerechte Arbeitszeit;disabled-friendly working hours;робочи
 die Minderleistung, -en;underperformance;знижена продуктивність праці;Für die Minderleistung **kann der Arbeitgeber einen Lohnkostenzuschuss erhalten**.
 die Minderleistungsausgleich, -e;compensation for underperformance;компенсація за знижену продуктивність;Der Minderleistungsausgleich **wird vom Integrationsamt an den Betrieb gezahlt**.
 die Kündigungsschutzverfahren, -;dismissal protection procedure;процедура захисту від звільнення (для інвалідів);Перед звільненням інваліда **роботодавець повинен пройти Kündigungsschutzverfahren**.
-die Integrationsfachdienst (IFD), -e;integration specialist service;інтеграційна спеціалізована служба;Der IFD **unterstützt schwerbehinderte Menschen bei der Arbeitssuche**.
-die Berufsbegleitende Dienst (BBD), -e;occupational support service;служба супроводу на робочому місці;Der BBD **hilft bei der Lösung von Konflikten am Arbeitsplatz**.
+die Integrationsfachdienst (IFD), -e;integration specialist service;інтеграційна спеціалізована служба;Der **Integrationsfachdienst** unterstützt schwerbehinderte Menschen bei der Arbeitssuche.
+die Berufsbegleitende Dienst (BBD), -e;occupational support service;служба супроводу на робочому місці;Der **Berufsbegleitende Dienst** hilft bei der Lösung von Konflikten am Arbeitsplatz.
 die psychosoziale Betreuung;psychosocial support;психосоціальний супровід;Eine psychosoziale Betreuung **hilft Mitarbeitern in schwierigen Lebenslagen**.
 die Krisenintervention, -en;crisis intervention;кризове втручання;Die Krisenintervention **wird bei akuten Konflikten im Team eingesetzt**.
 die Konfliktlösung, -en;conflict resolution;вирішення конфліктів;Eine offene Feedbackkultur **spielt eine wichtige Rolle bei der Konfliktlösung**.

@@ -162,8 +162,8 @@ der Vergleich, -e;settlement, compromise;мирова угода, компром
 die Protokollierung, -en;recording / official recording;офіційне протоколювання;Die Protokollierung des Vergleichs **beendet den Rechtsstreit rechtswirksam**.
 die Rechtskraft (Sg.);legal force;законна сила;Das Urteil **erlangt nach Ablauf der Berufungsfrist die Rechtskraft**.
 die Berufung, -en;appeal (legal);апеляція;Gegen das Urteil **kann innerhalb eines Monats Berufung eingelegt werden**.
-die Landesarbeitsgericht (LAG), -e;regional labor court;земельний (апеляційний) трудовий суд;Das LAG **ist für die Verhandlung der Berufung zuständig**.
-die Bundesarbeitsgericht (BAG) (Sg.);Federal Labor Court;Федеральний трудовий суд;Das BAG **ist die höchste Instanz in der deutschen Arbeitsgerichtsbarkeit**.
+die Landesarbeitsgericht (LAG), -e;regional labor court;земельний (апеляційний) трудовий суд;Das **Landesarbeitsgericht** ist für die Verhandlung der Berufung zuständig.
+die Bundesarbeitsgericht (BAG) (Sg.);Federal Labor Court;Федеральний трудовий суд;Das **Bundesarbeitsgericht** ist die höchste Instanz in der deutschen Arbeitsgerichtsbarkeit.
 die Revision, -en;appeal on points of law;ревізія (касаційне оскарження);Die Revision beim Bundesarbeitsgericht **wurde vom Richter zugelassen**.
 die Grundsatzentscheidung, -en;landmark decision;принципове рішення (прецедент);Das Urteil gilt als eine wichtige Grundsatzentscheidung **in unserer Wirtschaftsbranche**.
 die Präzedenzfall, "-e;precedent;прецедент;Dieses Urteil **schafft einen Präzedenzfall für zukünftige Kündigungsschutzklagen**.
@@ -243,7 +243,7 @@ die Zinswende, -n;interest rate turnaround;поворот у відсотков�
 die Inflationsrate, -n;inflation rate;рівень інфляції;<b>Aus der Grafik geht hervor, dass</b> die Inflationsrate stabil geblieben ist.
 die Geldentwertung (Sg.);depreciation of money / inflation;знецінення грошей;Die Geldentwertung **schadet vor allem den privaten Haushalten**.
 die Kaufkraft (Sg.);purchasing power;купівельна спроможність;Eine sinkende Kaufkraft **wirkt sich negativ auf den Einzelhandel aus**.
-die Verbraucherpreisindex (VPI) (Sg.);consumer price index (CPI);індекс споживчих цін (ІСЦ);Der VPI **dient als Maßstab für die Messung der Inflation**.
+die Verbraucherpreisindex (VPI) (Sg.);consumer price index (CPI);індекс споживчих цін (ІСЦ);Der **Verbraucherpreisindex** dient als Maßstab für die Messung der Inflation.
 die Warenkorb, "-e;basket of goods;споживчий кошик;Der Warenkorb **beinhaltet repräsentative Güter für den täglichen Bedarf**.
 die Lebenshaltungskosten (Pl.);cost of living;витрати на проживання;Die steigenden Lebenshaltungskosten **erfordern eine Anpassung der Tarife**.
 die Reallohn, "-e;real wage;реальна заробітна плата;Trotz Gehaltserhöhung **ist der Reallohn wegen der Inflation gesunken**.
@@ -329,7 +329,7 @@ die Kaltmiete, -n;basic rent / cold rent;орендна плата без ком
 die Warmmiete, -n;rent including heating / warm rent;орендна плата з комунальними послугами;Die Warmmiete **setzt sich aus Kaltmiete und Nebenkosten zusammen**.
 die Wohngeld (Sg.);housing benefit;житлова субсидія;Haushalte mit geringem Einkommen **können Wohngeld beantragen**.
 die Wohnungsamt, "-er;housing office;управління житлового господарства;Das Wohnungsamt **ist für die Bewilligung von Wohngeld zuständig**.
-die Wohnberechtigungsschein (WBS), -e;subsidized housing certificate (WBS);дозвіл на оренду соціального житла (WBS);Mit dem WBS **kann man eine preisgünstige Sozialwohnung anmieten**.
+die Wohnberechtigungsschein (WBS), -e;subsidized housing certificate (WBS);дозвіл на оренду соціального житла (WBS);Mit dem **Wohnberechtigungsschein** kann man eine preisgünstige Sozialwohnung anmieten.
 die Sozialwohnung, -en;social housing / subsidized apartment;соціальне житло;Die Nachfrage nach Sozialwohnungen **übersteigt das Angebot bei weitem**.
 die Wohnungsnot (Sg.);housing shortage;житлова криза (дефіцит житла);Die Wohnungsnot **stellt Ballungsräume vor große soziale Herausforderungen**.
 die Ballungsraum, "-e;conurbation / metropolitan area;густонаселений район, агломерація;Im Ballungsraum **sind die Lebenshaltungskosten deutlich höher als auf dem Land**.

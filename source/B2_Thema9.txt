@@ -126,7 +126,7 @@ die Amtsgericht (AG), -e;district court;дільничний (районний) 
 die Zivilgericht, -e;civil court;цивільний суд;Das Zivilgericht **entscheidet über Schadensersatzforderungen aus Verträgen**.
 die Zivilprozessordnung (ZPO) (Sg.);Code of Civil Procedure;Цивільний процесуальний кодекс (ZPO);Die ZPO **regelt den Ablauf der Zwangsvollstreckung**.
 die Zivilrecht (Sg.);civil law;цивільне право;Das Zivilrecht **basiert im Wesentlichen auf dem Bürgerlichen Gesetzbuch (BGB)**.
-die Bürgerliche Gesetzbuch (BGB) (Sg.);Civil Code;Цивільний кодекс Німеччини (BGB);Das BGB **regelt das Sonderurlaubsrecht та die gesetzliche Mängelhaftung**.
+die Bürgerliche Gesetzbuch (BGB) (Sg.);Civil Code;Цивільний кодекс Німеччини (BGB);Das **Bürgerliche Gesetzbuch** regelt das Sonderurlaubsrecht та die gesetzliche Mängelhaftung.
 die Gesetzbuch, "-er;code / body of laws;кодекс законів;Das Gesetzbuch **liegt auf dem Schreibtisch der Rechtsanwältin bereit**.
 die Gesetzessammlung, -en;collection of laws;збірник законів;Die Gesetzessammlung **steht den Richtern in der Gerichtsbibliothek zur Verfügung**.
 die Gesetzesblatt, "-er;official law gazette;відомості законів (офіційне видання);Die Gesetzesblätter **müssen archiviert und zugänglich gehalten werden**.
