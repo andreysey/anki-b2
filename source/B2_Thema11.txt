@@ -18,9 +18,9 @@ der Mindestlohn, "-e;minimum wage;мінімальна зарплата;<b>Aus d
 der Minijob, -s;marginal employment, mini-job;мініджоб (робота на неповний день до певної суми);Er arbeitet im Minijob, **um sich während des Studiums den Lebensunterhalt zu sichern**.
 der Praktikumsvertrag, "-e;internship contract;договір на проходження практики;Bitte **überprüfen Sie die Kündigungsregelungen im Praktikumsvertrag**.
 der Renteneintritt (Sg.);retirement;вихід на пенсію;Vor dem Renteneintritt **muss eine geordnete Aufgabenübergabe stattfinden**.
-die Teilzeitarbeitsvertrag, "-e;part-time employment contract;договір про неповний робочий час;Die Teilzeitarbeitskraft **hat einen Teilzeitarbeitsvertrag unterzeichnet**.
+der Teilzeitarbeitsvertrag, "-e;part-time employment contract;договір про неповний робочий час;Die Teilzeitarbeitskraft **hat einen Teilzeitarbeitsvertrag unterzeichnet**.
 etw. übersteigen (übersteigt, überstieg, hat überstiegen);to exceed;перевищувати;Die Schadstoffbelastung **darf die gesetzlich zulässigen Grenzwerte nicht übersteigen**.
-unbefristet;permanent, unlimited;безстроковий;Sie hat einen unbefristeten Arbeitsvertrag erhalten and **ist sehr stolz auf diesen Erfolg**.
+unbefristet;permanent, unlimited;безстроковий;Sie hat einen unbefristeten Arbeitsvertrag erhalten und **ist sehr stolz auf diesen Erfolg**.
 sich verpflichten zu (+ Dat.) (verpflichtet sich, verpflichtete sich, hat sich verpflichtet);to commit oneself to;зобов'язуватися;Die Vertragsparteien **verpflichten sich zur Einhaltung der getroffenen Absprachen**.
 wegen (+ Gen.);because of;через;Wegen eines Wegeunfalls **musste eine Krankmeldung eingereicht werden**.
 der Werkvertrag, "-e;contract for work/services;договір підряду;Bei einem Werkvertrag **wird die Bezahlung nach Abnahme des Werks fällig**.
@@ -62,11 +62,11 @@ die Arbeitgeberseite (Sg.);employers' side;сторона роботодавці
 die Arbeitnehmerseite (Sg.);employees' side;сторона працівників;Die Arbeitnehmerseite **fordert eine deutliche Anhebung des Mindestlohns**.
 die Arbeitsgerichtsbarkeit (Sg.);labor jurisdiction;система трудових судів;Die Arbeitsgerichtsbarkeit **ist in Deutschland dreistufig aufgebaut**.
 der Arbeitsplatzverlust, -e;job loss;втрата робочого місця;Der Arbeitsplatzverlust **bedeutet eine hohe psychische Belastung für den Betroffenen**.
-die Arbeitsrecht (Sg.);labor law;трудове право;Das Arbeitsrecht **regelt das Verhältnis zwischen Arbeitgeber und Arbeitnehmer**.
-die Arbeitsverhältnis, -se;employment relationship;трудові відносини;Das Arbeitsverhältnis **kann im gegenseitigen Einvernehmen beendet werden**.
+das Arbeitsrecht (Sg.);labor law;трудове право;Das Arbeitsrecht **regelt das Verhältnis zwischen Arbeitgeber und Arbeitnehmer**.
+das Arbeitsverhältnis, -se;employment relationship;трудові відносини;Das Arbeitsverhältnis **kann im gegenseitigen Einvernehmen beendet werden**.
 die Aufhebungsvereinbarung, -en;termination agreement;угода про розірвання трудового договору;Die Aufhebungsvereinbarung **bedarf zu ihrer Wirksamkeit der Schriftform**.
-die Ausnahmefall, "-e;exceptional case;винятковий випадок;<b>Eine Kündigung ohne Abmahnung ist nur im Ausnahmefall zulässig</b>.
-die Ausnehmung, -en;exception;виняток;Für Kleinbetriebe **gilt eine gesetzliche Ausnehmung beim Kündigungsschutz**.
+der Ausnahmefall, "-e;exceptional case;винятковий випадок;<b>Eine Kündigung ohne Abmahnung ist nur im Ausnahmefall zulässig</b>.
+die Ausnahme, -n;exception;виняток;Für Kleinbetriebe **gilt eine gesetzliche Ausnahmeregelung beim Kündigungsschutz**.
 der Ausweg, -e;way out, escape;вихід (з ситуації);Eine außergerichtliche Einigung **wäre ein guter Ausweg für beide Parteien**.
 der Dienstwagen, -;company car;службовий автомобіль;Der Dienstwagen **darf laut Betriebsvereinbarung privat genutzt werden**.
 einvernehmlich;mutual, amicable;за взаємною згодою;Das Arbeitsverhältnis **wurde einvernehmlich durch einen Aufhebungsvertrag beendet**.

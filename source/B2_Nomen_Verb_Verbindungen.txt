@@ -143,7 +143,7 @@ Wertschätzung genießen;to be appreciated;користуватися поваг
 Widerstand leisten gegen (+ Akk.);to offer resistance to;чинити опір (комусь/чомусь);Einige Abteilungen leisteten erbitterten Widerstand gegen die Betriebsverlegung.
 Wirkung zeigen;to show effect;дати результат, мати ефект;Die getroffenen Lärmschutzmaßnahmen zeigen bereits erste spürbare Wirkung.
 das Wort ergreifen;to take the floor / speak;брати слово, починати говорити;Auf der Versammlung ergriff der Betriebsratsvorsitzende das Wort.
-ein Ziel setzen;to set a goal;ставити ціль;Wir haben uns das Ziel gesetzt, die Fluktuation bis Jahresende zu halbelieren.
+ein Ziel setzen;to set a goal;ставити ціль;Wir haben uns das Ziel gesetzt, die Fluktuation bis Jahresende zu halbieren.
 ein Ziel verfolgen;to pursue a goal;переслідувати ціль, іти до мети;Mit der Umschulung verfolgen wir das Ziel der langfristigen Mitarbeiterbindung.
 eine Zusage erhalten;to receive approval / confirmation;отримати згоду, підтвердження;Der Arbeitnehmer hat die schriftliche Zusage für eine Abfindung erhalten.
 im Zusammenhang stehen mit (+ Dat.);to be related to / associated with;бути пов'язаним із;Der Anstieg der Krankmeldungen steht im Zusammenhang mit der hohen Lärmbelastung.

@@ -41,7 +41,7 @@ etw./jdn. einseifen (seift ein, seifte ein, hat eingeseift);to soap, to lather;�
 das Fieberthermometer, -;clinical thermometer;медичний термометр;Das Fieberthermometer **befindet sich im Erste-Hilfe-Schrank im Flur**.
 der Fingernagel, "-;fingernail;ніготь;Laut Hygieneplan müssen die Fingernägel **kurz und sauber gehalten werden**.
 fließendes Wasser;running water;проточна вода;Die Hände müssen **unter fließendem Wasser gründlich gereinigt werden**.
-die Funktionsraum, "-e;utility room, functional room;технічне приміщення;Der Zutritt zu den Funktionsräumen **ist nur befugtem Personal gestattet**.
+der Funktionsraum, "-e;utility room, functional room;технічне приміщення;Der Zutritt zu den Funktionsräumen **ist nur befugtem Personal gestattet**.
 etw./jdn. gefährden (gefährdet, gefährdete, hat gefährdet);to endanger;наражати на небезпеку;Mangelnde Hygiene kann die Gesundheit der Belegschaft **gefährden**.
 die Hygiene (Sg.);hygiene;гігієна;<b>Wir legen großen Wert auf</b> die Einhaltung der Hygiene in der Betriebskantine.
 der Hygienebeauftragte, -n / die Hygienebeauftragte, -n;hygiene officer;відповідальний за гігієну;Der Hygienebeauftragte **ist für die Überwachung des Hygieneplans zuständig**.
@@ -73,7 +73,7 @@ die Abfalltrennung, -en;waste separation;сортування сміття;Eine 
 die Recyclingquote, -n;recycling rate;рівень переробки відходів;<b>Aus der Statistik geht hervor, dass</b> unsere Recyclingquote gestiegen ist.
 der Wertstoff, -e;recyclable material;вторинна сировина (матеріал для переробки);Wertstoffe **müssen in den dafür vorgesehenen Behältern gesammelt werden**.
 die Wertstofftonne, -n;recycling bin;бак для вторинної сировини;Bitte werfen Sie Plastikabfälle **ausschließlich in die Wertstofftonne**.
-die Altpapier (Sg.);waste paper;макулатура;Altpapier **wird in der blauen Tonne hinter der Kantine gesammelt**.
+das Altpapier (Sg.);waste paper;макулатура;Altpapier **wird in der blauen Tonne hinter der Kantine gesammelt**.
 der Altglascontainer, -;bottle bank / glass recycling container;контейнер для скла;Altglas **muss nach Farben getrennt im Altglascontainer entsorgt werden**.
 der Restmüll (Sg.);residual waste;несортоване сміття;In den Restmüll **gehören nur Abfälle, die nicht recycelt werden können**.
 die Müllverbrennungsanlage, -n;waste incineration plant;сміттєспалювальний завод;Der Restmüll **wird in der regionalen Müllverbrennungsanlage entsorgt**.
@@ -83,8 +83,8 @@ die Schadstoffbelastung, -en;pollutant load / contamination;забрудненн
 der Emissionswert, -e;emission value;показник викидів;Die Einhaltung der Emissionswerte **wird von der Umweltbehörde überwacht**.
 die Umweltauflage, -n;environmental regulation/requirement;екологічна вимога;Das Einhalten der Umweltauflagen **ist Voraussetzung für den Weiterbetrieb**.
 das Umweltmanagement (Sg.);environmental management;екологічний менеджмент;Unser Umweltmanagement **strebt eine kontinuierliche Energieeinsparung an**.
-die Umweltzertifikat, -e;environmental certificate;екологічний сертифікат;Das Umweltzertifikat **wirkt sich sehr positiv auf das Image der Firma aus**.
-die Öko-Audit, -s;eco-audit;екологічний аудит;Das Öko-Audit **wird alle zwei Jahre von einem externen Gutachter durchgeführt**.
+das Umweltzertifikat, -e;environmental certificate;екологічний сертифікат;Das Umweltzertifikat **wirkt sich sehr positiv auf das Image der Firma aus**.
+das Öko-Audit, -s;eco-audit;екологічний аудит;Das Öko-Audit **wird alle zwei Jahre von einem externen Gutachter durchgeführt**.
 die Energieeffizienz (Sg.);energy efficiency;енергоефективність;Die Verbesserung der Energieeffizienz **leistet einen Beitrag zur Kostensenkung**.
 der Stromverbrauch (Sg.);electricity consumption;споживання електроенергії;<b>Wir haben uns zum Ziel gesetzt, den Stromverbrauch um 10% zu senken</b>.
 die Stromeinsparung, -en;electricity saving;економія електроенергії;Die Stromeinsparung **konnte durch die Nutzung von LED-Lampen erzielt werden**.
@@ -115,10 +115,10 @@ die Abluft (Sg.);exhaust air;витяжне повітря;Die Abluft der Server
 die Wärmerückgewinnung (Sg.);heat recovery;рекуперація тепла;Das System zur Wärmerückgewinnung **trägt erheblich zur Energieeinsparung bei**.
 der Kreislaufverbundsystem, -e;run-around coil system (heat recovery);система рекуперації тепла з проміжним теплоносієм;Das Kreislaufverbundsystem **wird vom Instandhaltungs-Team gewartet**.
 die Wärmetauscher, -;heat exchanger;теплообмінник;Die Wärmetauscher **müssen regelmäßig gereinigt werden, um Keimbelastung zu vermeiden**.
-die Kühlwasser (Sg.);cooling water;охолоджуюча вода;Der Durchfluss des Kühlwassers **wird über ein Display visualisiert**.
+das Kühlwasser (Sg.);cooling water;охолоджуюча вода;Der Durchfluss des Kühlwassers **wird über ein Display visualisiert**.
 der Kühlkreislauf, "-e;cooling circuit;контур охолодження;Ein Defekt im Kühlkreislauf **kann zu einer Überhitzung der Server führen**.
 die Kältemaschine, -n;chiller / refrigeration machine;холодильна машина;Die neue Kältemaschine **zeichnet sich durch eine hohe Energieeffizienz aus**.
-die Kältemittel, -;refrigerant;холодоагент;Das Kältemittel **muss vorschriftsmäßig durch Fachfirmen entsorgt werden**.
+das Kältemittel, -;refrigerant;холодоагент;Das Kältemittel **muss vorschriftsmäßig durch Fachfirmen entsorgt werden**.
 die F-Gase-Verordnung (Sg.);F-gas regulation;регламент щодо фторованих парникових газів;Die Einhaltung der F-Gase-Verordnung **wird beim Umwelt-Audit überprüft**.
 die Dichtheitsprüfung, -en;leakage test;перевірка на герметичність;Eine Dichtheitsprüfung der Kälteanlagen **ist einmal jährlich erforderlich**.
 die Leckage, -n;leak, leakage;витік;Eine Leckage im Kühlsystem **muss unverzüglich behoben werden**.
@@ -343,9 +343,9 @@ die Lärmbelästigung, -en;noise pollution;шумове забруднення;D
 die Schallschutzwand, "-e;noise barrier;шумозахисна стіна;Die Schallschutzwand **wurde entlang des Bahngleises errichtet**.
 die Lärmminderung (Sg.);noise reduction;зниження рівня шуму;Maßnahmen zur Lärmminderung **dienen dem Gesundheitsschutz der Anwohner**.
 die Immissionsschutzgesetz (Sg.);emission control act;закон про захист від шкідливих впливів (шум, викиди тощо);Das Immissionsschutzgesetz **regelt die maximal zulässigen Schallpegel**.
-die Schallpegel, -;sound level;рівень шуму (звукового тиску);Der Schallpegel **wird durch kontinuierliche Messungen überwacht**.
+der Schallpegel, -;sound level;рівень шуму (звукового тиску);Der Schallpegel **wird durch kontinuierliche Messungen überwacht**.
 die Dezibel (dB) (Sg.);decibel (dB);децибел (дБ);Der Lärm der Sägemaschine **darf den Wert von 80 Dezibel nicht überschreiten**.
-die Gehörschutz (Sg.);hearing protection;захист органів слуху (навушники);Das Tragen von Gehörschutz **ist in der Werkhalle vorgeschrieben**.
+der Gehörschutz (Sg.);hearing protection;захист органів слуху (навушники);Das Tragen von Gehörschutz **ist in der Werkhalle vorgeschrieben**.
 die Lärmschwerhörigkeit (Sg.);noise-induced hearing loss;професійна глухота (через шум);Die Lärmschwerhörigkeit **gilt als anerkannte Berufskrankheit**.
 die Berufskrankheit, -en;occupational disease;професійне захворювання;Die Anerkennung einer Berufskrankheit **wird bei der BG beantragt**.
 die Minderung der Erwerbsfähigkeit (MdE) (Sg.);reduction in earning capacity;зниження працездатності (MdE);Die MdE **wird durch ein medizinisches Gutachten festgelegt**.
@@ -362,7 +362,7 @@ die Handwerksordnung (HwO) (Sg.);crafts code;статут (регламент) �
 die Meisterzwang (Sg.);compulsory master title (for running a craft business);обов'язковість звання майстра (для відкриття ремісничого бізнесу);Der Meisterzwang **gilt in Deutschland für viele reglementierte Handwerke**.
 die Meisterbetrieb, -e;master craftsman's business;підприємство під керівництвом майстра;Als Meisterbetrieb **bieten wir eine qualitativ hochwertige Ausbildung an**.
 die Innung, -en;guild / trade association;цех (професійне об'єднання ремісників);Die Innung **regelt die regionalen Tarifverträge im Handwerk**.
-die Innungskrankenkasse (IKK), -n;guild health insurance;цехова лікарняна каса (IKK);Die IKK **gehört zu den gesetzlichen Krankenkassen в Німеччині**.
+die Innungskrankenkasse (IKK), -n;guild health insurance;цехова лікарняна каса (IKK);Die IKK **gehört zu den gesetzlichen Krankenkassen in Deutschland**.
 die Berufsverband, "-e;professional association;професійна асоціація (об'єднання);Der Berufsverband **vertritt die Interessen der Kältetechniker**.
 die Interessenvertretung, -en;advocacy / representation of interests;представництво інтересів;Der Betriebsrat **ist die offizielle Interessenvertretung der Belegschaft**.
 die Betriebsratswahl, -en;works council election;вибори до виробничої ради;Die Betriebsratswahl **findet alle vier Jahre im Frühjahr statt**.
@@ -374,9 +374,9 @@ die Betriebszugehörigkeit (Sg.);length of service (with the company);стаж �
 die Sozialauswahl, -en;social selection (in redundancies);соціальний відбір (при скороченні штату);Die Sozialauswahl **muss nach gesetzlich festgelegten Kriterien erfolgen**.
 die Sozialplan, "-e;social plan;соціальний план (компенсаційні заходи при скороченні);Der Sozialplan **beinhaltet Abfindungen für die entlassenen Mitarbeiter**.
 die Interessenausgleich, -e;reconciliation of interests;узгодження інтересів (роботодавця та ради при змінах у компанії);Der Interessenausgleich **muss vor der Durchführung von Kündigungen verhandelt werden**.
-die Einigungsstelle, -n;conciliation committee;примирювальний орган (комісія з врегулювання спорів між фірмою та радою);Bei Konflikten між керівництвом та радою **entscheidet die Einigungsstelle**.
+die Einigungsstelle, -n;conciliation committee;примирювальний орган (комісія з врегулювання спорів між фірмою та радою);Bei Konflikten zwischen der Geschäftsführung und dem Betriebsrat **entscheidet die Einigungsstelle**.
 die Spruch der Einigungsstelle;decision of the conciliation committee;рішення примирювального комітету;Der Spruch der Einigungsstelle **ersetzt die fehlende Einigung der Parteien**.
-die Regelungsabrede, -n;informal company agreement;неформальна угода (між роботодавцем та радою);Die Regelungsabrede **bedarf der Schriftform, щоб бути дійсною**.
+die Regelungsabrede, -n;informal company agreement;неформальна угода (між роботодавцем та радою);Die Regelungsabrede **bedarf der Schriftform, um wirksam zu sein**.
 die Betriebsvereinbarung, -en;company agreement;угода між керівництвом та трудовим колективом;Die Betriebsvereinbarung **regelt die Bedingungen für mobiles Arbeiten**.
 die Gesamtbetriebsvereinbarung, -en;overall company agreement;загальна угода (на рівні концерну/кількох філій);Die Gesamtbetriebsvereinbarung **gilt für alle Filialen des Unternehmens**.
 die Konzernbetriebsvereinbarung, -en;group company agreement;угода на рівні всього концерну;Die Konzernbetriebsvereinbarung **regelt die einheitliche IT-Ausstattung**.
@@ -399,7 +399,7 @@ die Insolvenzplan, "-e;insolvency plan;план реструктуризації
 die Sanierung, -en;reorganization / restructuring;санація, фінансове оздоровлення;Die Sanierung des Unternehmens **konnte erfolgreich abgeschlossen werden**.
 die Restrukturierung, -en;restructuring;реструктуризація;Die Restrukturierung **führte zu einer flachen Hierarchie im Betrieb**.
 die Neuausrichtung (Sg.);realignment / strategic change;нова стратегічна орієнтація;Die Neuausrichtung **soll die Wettbewerbsfähigkeit auf dem Weltmarkt sichern**.
-die Zukunftssicherung (Sg.);securing the future;забезпечення майбутнього;Die Zukunftssicherung **erfordert Investitionen in Solaranlagen та Photovoltaik**.
+die Zukunftssicherung (Sg.);securing the future;забезпечення майбутнього;Die Zukunftssicherung **erfordert Investitionen in Solaranlagen und Photovoltaik**.
 die Investition, -en;investment;інвестиція;Die Investitionen in das neue Werk **wurden vom Aufsichtsrat bewilligt**.
 die Innovationskraft (Sg.);innovative strength;інноваційна сила (потенціал);Die hohe Innovationskraft **ist das wichtigste Qualitätsmerkmal des Startups**.
 die Forschung und Entwicklung (F&E) (Sg.);research and development (R&D);дослідження та розробка (НДДКР);Die Abteilung für Forschung und Entwicklung **arbeitet an der Kältemaschine**.

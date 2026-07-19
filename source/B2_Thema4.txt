@@ -23,7 +23,7 @@ regelmäßig;regular(ly);регулярний;Wir müssen **regelmäßig Sicherh
 der Tarif, -e;tariff, rate, collective agreement;тариф;Die Gehälter in diesem Wirtschaftszweig **richten sich nach dem aktuellen Tarif**.
 sich verhalten (verhält sich, verhielt sich, hat sich verhalten);to behave, to act;поводитися;Beim Vorstellungsgespräch sollte man sich höflich und professionell <b>verhalten</b>.
 die Verabschiedung (Sg.);farewell, saying goodbye;прощання;Zur Verabschiedung des Kollegen in den Ruhestand **haben wir ein Geschenk überreicht**.
-die Vertriebsbüro, -s;sales office;офіс продажу;Unser Vertriebsbüro **ist für die Kundenbetreuung in der gesamten Region zuständig**.
+das Vertriebsbüro, -s;sales office;офіс продажу;Unser Vertriebsbüro **ist für die Kundenbetreuung in der gesamten Region zuständig**.
 die Anwesenheit (Sg.);presence, attendance;присутність;Die Anwesenheit aller Teammitglieder **bei der wöchentlichen Besprechung ist erforderlich**.
 der Arbeitsbeginn (Sg.);start of work;початок роботи;Laut Hausordnung müssen sich alle Mitarbeiter **vor Arbeitsbeginn im System anmelden**.
 der Auswahlprozess, -e;selection process;процес відбору;Das Bewerbungsverfahren **beinhaltet einen mehrstufigen Auswahlprozess**.
@@ -31,7 +31,7 @@ die Besetzung (einer Stelle) (Sg.);filling (of a position);заповнення 
 die Betriebsferien (Pl.);company holidays;корпоративна відпустка (закриття підприємства на свята);Während der Betriebsferien **bleibt das gesamte Betriebsgelände für Besucher geschlossen**.
 die Betriebskantine, -n;company canteen;їдальня на підприємстві;<b>Ich plädiere dafür, dass</b> wir in der Betriebskantine gesündere Speisen zubereiten.
 das Bewerbungsverfahren, -;application process;процес подачі заявки / відбору;Das Bewerbungsverfahren **wird online über unser neues Bewerberportal abgewickelt**.
-die Büroleiter, - / die Büroleiterin, -nen;office manager;офіс-менеджер, керівник офісу;Die Büroleiterin **ist für die Organisation der Einarbeitungsphase zuständig**.
+der Büroleiter, - / die Büroleiterin, -nen;office manager;офіс-менеджер, керівник офісу;Die Büroleiterin **ist für die organisation der Einarbeitungsphase zuständig**.
 durchgehend;continuous(ly), non-stop;безперервний, цілодобовий;Die Produktion im Werk läuft **durchgehend im Schichtbetrieb**.
 die Einarbeitung (Sg.);onboarding, training period;онбординг, введення в посаду;Eine gute Einarbeitung **hilft den neuen Kräften, sich im Team zurechtzufinden**.
 der Eindruck, "-e;impression;враження;Die Kandidatin **hat beim Vorstellungsgespräch einen sehr positiven Eindruck hinterlassen**.
@@ -68,7 +68,7 @@ der Stundenzettel, -;time sheet;табель обліку робочого ча�
 das Arbeitsverhältnis, -se;employment relationship;трудові відносини;Das Arbeitsverhältnis **wird durch den unbefristeten Arbeitsvertrag begründet**.
 etw. ausfüllen (füllt aus, füllte aus, hat ausgefüllt);to fill in/out (a form);заповнювати (форму, анкету);Bitte <b>füllen Sie das Formular für die Zeiterfassung vollständig aus</b>.
 der Ausweis, -e;ID card, badge;посвідчення, перепустка;Auf dem Betriebsgelände **muss man den Ausweis immer gut sichtbar tragen**.
-der Erfassungsbogen, "-;registration form / data sheet;опитувальний лист, реєстраційна форма;Bitte **tragen Sie Ihre Qualifikationsstufen in den Erfassungsbogen ein**.
+der Erfassungsbogen, -;registration form / data sheet;опитувальний лист, реєстраційна форма;Bitte **tragen Sie Ihre Qualifikationsstufen in den Erfassungsbogen ein**.
 die Krankmeldung, -en;notification of sickness / sick note;повідомлення про хворобу;Bei Arbeitsunfähigkeit **muss die Krankmeldung unverzüglich vorgelegt werden**.
 sich melden (meldet sich, meldete sich, hat sich gemeldet);to report, to get in touch;повідомляти про себе, давати знати;Im Krankheitsfall **muss sich der Mitarbeiter vor Arbeitsbeginn telefonisch melden**.
 das Personalbüro, -s;HR office / personnel office;відділ кадрів;Für Fragen zu Ihrer Abrechnung **steht Ihnen das Personalbüro zur Verfügung**.
@@ -137,7 +137,7 @@ die Arbeitsplatzanpassung, -en;workplace adjustment;пристосування �
 die behindertengerechte Arbeitszeit;disabled-friendly working hours;робочий час, пристосований до потреб людей з інвалідністю;Eine behindertengerechte Arbeitszeit **kann im Rahmen einer Betriebsvereinbarung vereinbart werden**.
 die Minderleistung, -en;underperformance;знижена продуктивність праці;Für die Minderleistung **kann der Arbeitgeber einen Lohnkostenzuschuss erhalten**.
 die Minderleistungsausgleich, -e;compensation for underperformance;компенсація за знижену продуктивність;Der Minderleistungsausgleich **wird vom Integrationsamt an den Betrieb gezahlt**.
-die Kündigungsschutzverfahren, -;dismissal protection procedure;процедура захисту від звільнення (для інвалідів);Перед звільненням інваліда **роботодавець повинен пройти Kündigungsschutzverfahren**.
+die Kündigungsschutzverfahren, -;dismissal protection procedure;процедура захисту від звільнення (для інвалідів);Vor der Entlassung eines Schwerbehinderten **muss der Arbeitgeber das Kündigungsschutzverfahren durchführen**.
 die Integrationsfachdienst (IFD), -e;integration specialist service;інтеграційна спеціалізована служба;Der **Integrationsfachdienst** unterstützt schwerbehinderte Menschen bei der Arbeitssuche.
 die Berufsbegleitende Dienst (BBD), -e;occupational support service;служба супроводу на робочому місці;Der **Berufsbegleitende Dienst** hilft bei der Lösung von Konflikten am Arbeitsplatz.
 die psychosoziale Betreuung;psychosocial support;психосоціальний супровід;Eine psychosoziale Betreuung **hilft Mitarbeitern in schwierigen Lebenslagen**.

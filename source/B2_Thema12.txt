@@ -41,7 +41,7 @@ unterhalb (+ Gen.);below;нижче, під;Liegt das Einkommen **unterhalb der 
 etw. vorlegen;to submit, to present;надавати, пред'являти;Sie müssen dem Personalverantwortlichen **ein ärztliches Attest vorlegen**.
 das Wohngeld (Sg.);housing allowance;допомога на оплату житла;Bei geringem Einkommen **kann man einen Zuschuss in Form von Wohngeld beantragen**.
 die Abgabe, -n;tax, duty, submission;податок, збір, здача;Die Lohnsteuer **ist eine gesetzliche Abgabe, die direkt vom Lohn abgezogen wird**.
-alleinerziehend;single parent;який виховує дитину сам;Alleinerziehende Mütter **haben oft Anspruch на besondere Steuererleichterungen**.
+alleinerziehend;single parent;який виховує дитину сам;Alleinerziehende Mütter **haben oft Anspruch auf besondere Steuererleichterungen**.
 der Arbeitgeberanteil (Sg.);employer's contribution;частка роботодавця (у страхуванні);Der Arbeitgeberanteil **an den Sozialabgaben beträgt ungefähr die Hälfte**.
 ausmachen;to amount to, to turn off;складати (суму), вимикати;Die Lohnnebenkosten **machen einen erheblichen Teil der Gesamtkosten aus**.
 der Auszahlungsbetrag, "-e;payout amount, net amount;сума до виплати;Der tatsächliche Auszahlungsbetrag **wird am Monatsende auf Ihr Gehaltskonto überwiesen**.
@@ -71,27 +71,27 @@ die Steuerklasse VI;tax class 6 (second job);податковий клас 6 (д
 das Anstellungsverhältnis, -se;employment relationship;трудові відносини (найм);Das Anstellungsverhältnis **wird im Arbeitsvertrag schriftlich vereinbart**.
 die gesetzliche Krankenkasse, -n;statutory health insurance fund;державна каса медичного страхування;Die gesetzliche Krankenkasse **ist für die Auszahlung des Krankengeldes zuständig**.
 die private Krankenkasse, -n;private health insurance fund;приватна каса медичного страхування;Bei einer privaten Krankenkasse **hängen die Beiträge vom individuellen Risiko ab**.
-das Kindergeldbezieher, - / die Kindergeldbezieherin, -nen;recipient of child benefit;отримувач допомоги на дитину;Die Kindergeldbezieher **müssen jede Änderung der Lebensumstände melden**.
+der Kindergeldbezieher, - / die Kindergeldbezieherin, -nen;recipient of child benefit;отримувач допомоги на дитину;Die Kindergeldbezieher **müssen jede Änderung der Lebensumstände melden**.
 die Familienkasse, -n;family benefits office;сімейна каса (видає Kindergeld);Die Familienkasse **ist für die Bewilligung und Auszahlung des Kindergelds zuständig**.
 der Kindergeldantrag, "-e;child benefit application;заява на допомогу на дитину;Der Kindergeldantrag **wurde bei der Familienkasse eingereicht**.
 die Kindergeldauszahlung, -en;child benefit payment;виплата допомоги на дитину;Die Kindergeldauszahlung **erfolgt monatlich auf das angegebene Bankkonto**.
 die Elterngeldstelle, -n;parental allowance office;відомство з виплати батьківської допомоги;Die Elterngeldstelle **prüft den Elterngeldantrag auf Vollständigkeit**.
 der Elterngeldantrag, "-e;parental allowance application;заява на отримання батьківської допомоги;Bitte **reichen Sie den Elterngeldantrag innerhalb der gesetzlichen Frist ein**.
-die Elterngeldbezug, "-e;receipt of parental allowance;період отримання батьківської допомоги;Während des Elterngeldbezugs **darf man in Teilzeit weiterarbeiten**.
+der Elterngeldbezug, "-e;receipt of parental allowance;період отримання батьківської допомоги;Während des Elterngeldbezugs **darf man in Teilzeit weiterarbeiten**.
 die Bundesagentur für Arbeit (BA) (Sg.);Federal Employment Agency;Федеральне агентство праці (BA);Die **Bundesagentur für Arbeit** unterstützt Arbeitssuchende bei der Stellensuche.
 die Agentur für Arbeit (Sg.);Employment Agency;Агентство праці (локальне);Die Agentur für Arbeit **erteilt Auskünfte über Weiterbildungsmaßnahmen**.
 das Jobcenter, -;job center;центр зайнятості;Das Jobcenter **ist für die Grundsicherung für Arbeitsuchende zuständig**.
-die Bürgergeld (Sg.);citizen's income (basic social welfare in Germany);громадянська допомога (Bürgergeld);Das Bürgergeld **sichert das verfassungsrechtliche Existenzminimum ab**.
-die Bürgergeldempfänger, - / die Bürgergeldempfängerin, -nen;recipient of citizen's income;отримувач громадянської допомоги;Die Bürgergeldempfänger **haben eine Mitwirkungspflicht bei der Arbeitssuche**.
+das Bürgergeld (Sg.);citizen's income (basic social welfare in Germany);громадянська допомога (Bürgergeld);Das Bürgergeld **sichert das verfassungsrechtliche Existenzminimum ab**.
+der Bürgergeldempfänger, - / die Bürgergeldempfängerin, -nen;recipient of citizen's income;отримувач громадянської допомоги;Die Bürgergeldempfänger **haben eine Mitwirkungspflicht bei der Arbeitssuche**.
 die Mitwirkungspflicht, -en;duty to cooperate / obligation to assist;обов'язок співпраці (надання інформації державним органам);Eine Verletzung der Mitwirkungspflicht **kann zu einer Leistungskürzung führen**.
 die Leistungskürzung, -en;reduction of benefits / sanction;скорочення (зменшення) виплат (санкція);Die Leistungskürzung **wurde im schriftlichen Bescheid genau begründet**.
 die Eingliederungsvereinbarung, -en;integration agreement (between jobseeker and jobcenter);угода про інтеграцію (працевлаштування);Die Eingliederungsvereinbarung **beinhaltet konkrete Schritte zur Stellensuche**.
-die Kooperationsplan, "-e;cooperation plan;план співпраці (між безробітним та центром);Der Kooperationsplan **ersetzt die bisherige Eingliederungsvereinbarung**.
+der Kooperationsplan, "-e;cooperation plan;план співпраці (між безробітним та центром);Der Kooperationsplan **ersetzt die bisherige Eingliederungsvereinbarung**.
 die zumutbare Arbeit;acceptable work / reasonable employment;прийнятна (підходяща) робота;Ein Bürgergeldempfänger **muss jede zumutbare Arbeit annehmen**.
 die Zumutbarkeit (Sg.);reasonableness / acceptability;прийнятність (відповідність вимогам закону щодо роботи);Die Zumutbarkeit der angebotenen Stelle **wird im Einzelfall geprüft**.
 die Arbeitsvermittlung (Sg.);job placement / employment service;працевлаштування, посередництво в роботі;Die Arbeitsvermittlung **erfolgt durch die Berater der Agentur für Arbeit**.
 der Arbeitsvermittler, - / die Arbeitsvermittlerin, -nen;employment agent / job placement officer;консультант з працевлаштування;Der Arbeitsvermittler **hat dem Bewerber ein Jobangebot unterbreitet**.
-die Vermittlungsvorschlag, "-e;job placement proposal / referral;пропозиція щодо працевлаштування (від центру зайнятості);Auf den Vermittlungsvorschlag **muss man sich innerhalb von drei Tagen bewerben**.
+der Vermittlungsvorschlag, "-e;job placement proposal / referral;пропозиція щодо працевлаштування (від центру зайнятості);Auf den Vermittlungsvorschlag **muss man sich innerhalb von drei Tagen bewerben**.
 die Bewerbungsbemühungen (Pl.);job application efforts;зусилля щодо пошуку роботи (подача резюме);Der Arbeitslose **muss seine Bewerbungsbemühungen monatlich nachweisen**.
 die Eigenbemühungen (Pl.);own efforts (in job search);власні зусилля (щодо пошуку роботи);Die Eigenbemühungen **sind Voraussetzung für den Erhalt von Leistungen**.
 die Bewerbungskosten (Pl.);application costs;витрати на подачу резюме (пошук роботи);Die Bewerbungskosten **werden unter bestimmten Bedingungen vom Jobcenter erstattet**.

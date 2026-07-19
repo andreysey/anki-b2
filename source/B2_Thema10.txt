@@ -68,7 +68,7 @@ etw. beanspruchen (beansprucht, beanspruchte, hat beansprucht);to claim, to dema
 die Berufsgenossenschaft (BG), -en;employers' liability insurance association;галузеве страхування;Die **Berufsgenossenschaft** entscheidet über die Gewährleistung von Renten nach Arbeitsunfällen.
 der Dauerbetrieb (Sg.);continuous operation;безперервний режим роботи;Die Sensoren **sind für den dauerhaften Dauerbetrieb im Werk ausgelegt**.
 die Einsparung, -en;saving;економія;Die Modernisierung der Beleuchtung führte zu einer spürbaren **Einsparung** beim Stromverbrauch.
-die E-Mail-Adresse, -n;email address;адреса електронної пошти;Bitte senden Sie Ihre Bewerbungsverlagen **an die angegebene E-Mail-Adresse**.
+die E-Mail-Adresse, -n;email address;адреса електронної пошти;Bitte senden Sie Ihre Bewerbungsunterlagen **an die angegebene E-Mail-Adresse**.
 die Energieeinsparung, -en;energy saving;енергозбереження;Die Verbesserung der Energieeffizienz **trägt maßgeblich zur Energieeinsparung bei**.
 die Ergonomie (Sg.);ergonomics;ергономіка;Die Ergonomie am Arbeitsplatz **wird vom Betriebsarzt beurteilt**.
 die Gasleitung, -en;gas pipe/pipeline;газопровід;Die Wartung der Gasleitung **wird streng nach den Vorschriften durchgeführt**.
@@ -89,22 +89,22 @@ das Betriebsergebnis, -se;operating result / profit;виробничий рез�
 das Umlaufvermögen (Sg.);current assets;оборотні активи;Der Lagerbestand an Rohstoffen **wird im Umlaufvermögen bilanziert**.
 die Wertminderung, -en;depreciation, reduction in value;знецінення, зменшення вартості;Der Transportschaden **verursachte eine erhebliche Wertminderung der Ware**.
 der Buchwert, -e;book value;балансова вартість;Der Buchwert der Maschinen **wird jährlich in der Bilanz angepasst**.
-die Anschaffungswert, -e;acquisition value;первісна вартість (придбання);Der Anschaffungswert **ist die Grundlage für die steuerliche Abschreibung**.
+der Anschaffungswert, -e;acquisition value;первісна вартість (придбання);Der Anschaffungswert **ist die Grundlage für die steuerliche Abschreibung**.
 der Abschreibungssatz, "-e;depreciation rate;норма амортизації;Der Abschreibungssatz **wird durch die gesetzliche Nutzungsdauer bestimmt**.
 die Nutzungsdauer (Sg.);useful life / service life;термін корисного використання;Die Nutzungsdauer der Server **ist laut Abschreibungstabelle auf drei Jahre festgelegt**.
 die Abschreibungstabelle, -n;depreciation table (AfA-Tabelle in Germany);таблиця амортизації (AfA);Die amtliche Abschreibungstabelle **gibt Auskunft über die Abschreibungssätze**.
-die linear Abschreibung;linear depreciation / straight-line depreciation;лінійна амортизація;Die lineare Abschreibung **führt zu gleichbleibenden jährlichen Belastungen**.
-die degressiv Abschreibung;degressive depreciation / declining-balance depreciation;дегресивна амортизація;Die degressive Abschreibung **wurde durch eine Gesetzesreform wieder zugelassen**.
+die lineare Abschreibung;linear depreciation / straight-line depreciation;лінійна амортизація;Die lineare Abschreibung **führt zu gleichbleibenden jährlichen Belastungen**.
+die degressive Abschreibung;degressive depreciation / declining-balance depreciation;дегресивна амортизація;Die degressive Abschreibung **wurde durch eine Gesetzesreform wieder zugelassen**.
 die Sonderabschreibung, -en;special depreciation;спеціальна (прискорена) амортизація;Für Investitionen in Solaranlagen **kann eine Sonderabschreibung beansprucht werden**.
 die Steuerersparnis, -se;tax saving;економія на податках;Die Steuerersparnis **erhöht die Liquidität unseres Handwerksunternehmens**.
-die Steuerrecht (Sg.);tax law;податкове право;Das Steuerrecht **verlangt das lückenlose Aufbewahren aller Buchungsbelege**.
+das Steuerrecht (Sg.);tax law;податкове право;Das Steuerrecht **verlangt das lückenlose Aufbewahren aller Buchungsbelege**.
 die Steuerberaterkammer, -n;chamber of tax advisors;палата податкових консультантів;Die Steuerberaterkammer **überwacht die Eignung der Prüfungsbewerber**.
 die Wirtschaftsprüferkammer, -n;chamber of public auditors;палата аудиторів;Die Wirtschaftsprüferkammer **ist für die Zulassung zur Kammerprüfung zuständig**.
 die Bundessteuerberaterkammer (BStBK) (Sg.);Federal Chamber of Tax Advisors;Федеральна палата податкових консультантів (BStBK);Die BStBK **vertritt die Interessen der Steuerberater auf Bundesebene**.
 die Wirtschaftsprüfungsgesellschaft, -en;auditing firm;аудиторська компанія;Die Wirtschaftsprüfungsgesellschaft **führt die Betriebsprüfung im Konzern durch**.
 die Steuerprüfer, - / die Steuerprüferin, -nen;tax auditor;податковий інспектор (аудитор);Der Steuerprüfer **forderte die Vorlage der Umsatzsteuervoranmeldungen**.
 die Steuerprüfung, -en;tax audit;податкова перевірка;Die Steuerprüfung **verlief ohne nennenswerte Beanstandungen durch das Amt**.
-die Steuerhinterziehungsbekämpfungsgrundsatz (Sg.);principle of combating tax evasion;принцип боротьби з ухиленням від сплати податків;Цей закон **dient dem Steuerhinterziehungsbekämpfungsgrundsatz в ЄС**.
+die Steuerhinterziehungsbekämpfungsgrundsatz (Sg.);principle of combating tax evasion;принцип боротьби з ухиленням від сплати податків;Dieses Gesetz **dient dem Steuerhinterziehungsbekämpfungsgrundsatz in der EU**.
 die Steuerordnungswidrigkeit, -en;tax administrative offense;податкове правопорушення (адміністративне);Eine verspätete Abgabe der Steuererklärung **stellt eine Steuerordnungswidrigkeit dar**.
 die Steuerstraftat, -en;tax offense (criminal);податковий злочин;Steuerhinterziehung **wird als schwere Steuerstraftat gerichtlich verfolgt**.
 die Steuerstrafverfahren, -;tax criminal proceedings;кримінальне провадження у податкових справах;Das Steuerstrafverfahren **kann durch eine Selbstanzeige abgewendet werden**.

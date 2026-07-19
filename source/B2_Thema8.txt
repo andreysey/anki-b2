@@ -63,41 +63,41 @@ die Lieferfähigkeit (Sg.);ability to deliver / delivery capability;здатні
 die Liefertreue (Sg.);delivery reliability / adherence to delivery dates;дотримання термінів поставки (пунктуальність постачальника);Wir legen großen Wert auf die Liefertreue, **um Ausfallzeiten im Werk zu vermeiden**.
 die Lieferkonditionen (Pl.);delivery terms;умови поставки;Die Lieferkonditionen **wurden schriftlich im Kaufvertrag vereinbart**.
 die Liefermenge, -n;delivery quantity;обсяг поставки;Eine Abweichung der Liefermenge **muss sofort im Übergabeprotokoll vermerkt werden**.
-die Lieferschein, -e;delivery note;накладна на поставку (документ);Bitte überprüfen Sie die Lieferung **und zeichnen Sie den Lieferschein ab**.
-die Wareneingang (Sg.);goods receipt;приймання товару (відділ або процес);Die Qualitätskontrolle **prüft alle Sendungen direkt am Wareneingang**.
-die Warenausgang (Sg.);goods issue / dispatch;відпуск товару (відділ або процес);Die Spedition **übernimmt die Ware direkt am Warenausgang des Lagers**.
-die Verpackungsmaterial, -ien;packaging material;пакувальний матеріал;Wir nutzen umweltfreundliches Verpackungsmaterial, **um Abfall zu vermeiden**.
+der Lieferschein, -e;delivery note;накладна на поставку (документ);Bitte überprüfen Sie die Lieferung **und zeichnen Sie den Lieferschein ab**.
+der Wareneingang (Sg.);goods receipt;приймання товару (відділ або процес);Die Qualitätskontrolle **prüft alle Sendungen direkt am Wareneingang**.
+der Warenausgang (Sg.);goods issue / dispatch;відпуск товару (відділ або процес);Die Spedition **übernimmt die Ware direkt am Warenausgang des Lagers**.
+das Verpackungsmaterial, -ien;packaging material;пакувальний матеріал;Wir nutzen umweltfreundliches Verpackungsmaterial, **um Abfall zu vermeiden**.
 die Ladungssicherung (Sg.);cargo securing / load securing;кріплення вантажу (безпека при транспортуванні);Eine mangelhafte Ladungssicherung **stellt ein hohes Sicherheitsrisiko dar**.
-die Transportmittel, -;means of transport;транспортний засіб (для перевезення вантажів);Die Wahl der Transportmittel **hängt eng mit den Transportkosten zusammen**.
+das Transportmittel, -;means of transport;транспортний засіб (для перевезення вантажів);Die Wahl der Transportmittel **hängt eng mit den Transportkosten zusammen**.
 die Transportversicherung, -en;transit insurance / transport insurance;страхування вантажу (при транспортуванні);Die Transportversicherung **übernimmt die Haftung bei Schäden während des Transports**.
-die Gefahrengut, "-er;hazardous goods / dangerous goods;небезпечний вантаж;Der Transport von Gefahrengut **unterliegt strengen gesetzlichen Rechtsnormen**.
+das Gefahrgut, "-er;hazardous goods / dangerous goods;небезпечний вантаж;Der Transport von Gefahrengut **unterliegt strengen gesetzlichen Rechtsnormen**.
 die Gefahrgutverordnung (Sg.);dangerous goods regulation;правила перевезення небезпечних вантажів;Die Gefahrgutverordnung **schreibt das Tragen spezieller Schutzkleidung vor**.
-die Sicherheitsdatenblatt, "-er;safety data sheet;паспорт безпеки речовини;Das Sicherheitsdatenblatt **muss bei der Lieferung von Gefahrengut beiliegen**.
-die Gefahrstoff, -e;hazardous substance;небезпечна речовина;Der Umgang mit Gefahrstoffen **erfordert eine jährliche Sicherheitsunterweisung**.
-die Gefahrstofflager, -;hazardous materials storage;склад небезпечних речовин;Der Zutritt zum Gefahrstofflager **ist nur befugten Fachkräften gestattet**.
+das Sicherheitsdatenblatt, "-er;safety data sheet;паспорт безпеки речовини;Das Sicherheitsdatenblatt **muss bei der Lieferung von Gefahrengut beiliegen**.
+der Gefahrstoff, -e;hazardous substance;небезпечна речовина;Der Umgang with Gefahrstoffen **erfordert eine jährliche Sicherheitsunterweisung**.
+das Gefahrstofflager, -;hazardous materials storage;склад небезпечних речовин;Der Zutritt zum Gefahrstofflager **ist nur befugten Fachkräften gestattet**.
 die Auffangwanne, -n;drip tray / retention basin;піддон (для збору витоків хімікатів);Die Auffangwannen **müssen regelmäßig auf Dichtheit geprüft werden**.
 die Löschwasserrückhaltung (Sg.);firewater retention;утримання води для гасіння пожежі (екологічний захист);Die Löschwasserrückhaltung **verhindert das Kontaminieren des Grundwassers**.
-die Gewässerschutz (Sg.);water protection;охорона водних ресурсів;Die Einhaltung der Vorschriften zum Gewässerschutz **wird streng kontrolliert**.
-die Bodenschutz (Sg.);soil protection;охорона ґрунтів;Der Bodenschutz **ist ein wichtiger Aspekt bei der Gefahrenanalyse im Werk**.
+der Gewässerschutz (Sg.);water protection;охорона водних ресурсів;Die Einhaltung der Vorschriften zum Gewässerschutz **wird streng kontrolliert**.
+der Bodenschutz (Sg.);soil protection;охорона ґрунтів;Der Bodenschutz **ist ein wichtiger Aspekt bei der Gefahrenanalyse im Werk**.
 die Altlasten (Pl.);contaminated sites / legacy waste;минуле екологічне засмічення (забруднені ділянки ґрунту);Die Beseitigung der Altlasten **verursachte erhebliche Instandsetzungskosten**.
 die Sanierungsmaßnahme, -n;remediation measure / cleanup;заходи з екологічної санації (очищення);Die Sanierungsmaßnahmen **wurden mit der Umweltbehörde abgesprochen**.
-die Sanierungsplan, "-e;remediation plan;план санації (очищення або фінансового оздоровлення);Der Sanierungsplan **wurde vom Gutachter auf Plausibilität geprüft**.
+der Sanierungsplan, "-e;remediation plan;план санації (очищення або фінансового оздоровлення);Der Sanierungsplan **wurde vom Gutachter auf Plausibilität geprüft**.
 die Sanierungsvereinbarung, -en;remediation agreement;угода про санацію;Die Sanierungsvereinbarung **beinhaltet finanzielle Zuschüsse des Landes**.
 die Umweltbehörde, -n;environmental authority;екологічне відомство;Die Umweltbehörde **überwacht die Einhaltung der Emissionswerte**.
 die Immissionsschutzbehörde, -n;emission control authority;орган з контролю за шкідливими впливами (шум, викиди);Die Immissionsschutzbehörde **führt unangemeldete Kontrollen im Werk durch**.
-die Gewerbeaufsichtsamt, "-er;trade supervisory office;управління з нагляду за промисловістю (охорона праці/техніка безпеки);Das Gewerbeaufsichtsamt **überprüft die Einhaltung der Arbeitszeitregelungen**.
+das Gewerbeaufsichtsamt, "-er;trade supervisory office;управління з нагляду за промисловістю (охорона праці/техніка безпеки);Das Gewerbeaufsichtsamt **überprüft die Einhaltung der Arbeitszeitregelungen**.
 die Arbeitsschutzbehörde, -n;occupational safety authority;орган з охорони праці;Die Arbeitsschutzbehörde **kann bei Pflichtverstößen Bußgelder verhängen**.
-die Bußgeld, -er;fine;штраф (адміністративний);Ein Verstoß gegen die Brandschutzordnung **kann ein hohes Bußgeld zur Folge haben**.
-die Bußgeldbescheid, -e;notice of fine;повідомлення про штраф;Der Bußgeldbescheid **wurde dem Geschäftsführer persönlich zugestellt**.
+das Bußgeld, -er;fine;штраф (адміністративний);Ein Verstoß gegen die Brandschutzordnung **kann ein hohes Bußgeld zur Folge haben**.
+der Bußgeldbescheid, -e;notice of fine;повідомлення про штраф;Der Bußgeldbescheid **wurde dem Geschäftsführer persönlich zugestellt**.
 die Ordnungswidrigkeit, -en;administrative offense;адміністративне правопорушення;Das Parken auf den Rettungswegen **stellt eine Ordnungswidrigkeit dar**.
 die Straftat, -en;criminal offense;кримінальний злочин;Der Diebstahl von Betriebsgeheimnissen **wurde als Straftat zur Anzeige gebracht**.
-die Strafverfahren, -;criminal proceedings;кримінальне провадження;Das Strafverfahren **wird von der Staatsanwaltschaft eingeleitet**.
+das Strafverfahren, -;criminal proceedings;кримінальне провадження;Das Strafverfahren **wird von der Staatsanwaltschaft eingeleitet**.
 die Staatsanwaltschaft, -en;public prosecutor's office;прокуратура;Die Staatsanwaltschaft **ermittelt wegen des Verdachts auf Pflichtverletzung**.
-die Ermittlungsverfahren, -;preliminary investigation / inquiry;слідство (процедура розслідування);Das Ermittlungsverfahren **führte zur Aufklärung der Brandursache**.
+das Ermittlungsverfahren, -;preliminary investigation / inquiry;слідство (процедура розслідування);Das Ermittlungsverfahren **führte zur Aufklärung der Brandursache**.
 die Brandursache, -n;cause of fire;причина пожежі;Die Brandursache **wurde vom Sachverständigen im Gutachten dokumentiert**.
 die Brandstiftung, -en;arson;підпал;Es besteht der Verdacht auf Brandstiftung, **daher ermittelt die Polizei**.
 die Fahrlässigkeit (Sg.);negligence;необережність, халатність;Grobe Fahrlässigkeit **kann zum Verlust des Versicherungsschutzes führen**.
-die Vorsatz (Sg.);intent, intention;умисел;Bei Vorsatz **übernimmt die Arbeitsunfallversicherung keine Haftung**.
+der Vorsatz (Sg.);intent, intention;умисел;Bei Vorsatz **übernimmt die Arbeitsunfallversicherung keine Haftung**.
 die Haftungsausschluss, "-e;exclusion of liability / disclaimer;виключення відповідальності;Der Haftungsausschluss **wurde schriftlich im Vertrag festgehalten**.
 die Haftungsbeschränkung, -en;limitation of liability;обмеження відповідальності;Die Haftungsbeschränkung **ist in den AGB des Dienstleisters geregelt**.
 die Allgemeine Geschäftsbedingungen (AGB) (Pl.);general terms and conditions (AGB);загальні умови угоди (AGB);Mit der Unterschrift bestätigen Sie das Einverständnis mit unseren **Allgemeinen Geschäftsbedingungen**.
@@ -164,7 +164,7 @@ die außergerichtliche Einigung;out-of-court settlement;позасудове в�
 die Insolvenzgericht, -e;insolvency court;суд у справах про банкрутство;Das Insolvenzgericht **eröffnet das Verfahren bei Vorliegen eines Eröffnungsgrundes**.
 die Eröffnungsgrund, "-e;ground for opening (insolvency);підстава для відкриття провадження (напр. неплатоспроможність);Der wichtigste Eröffnungsgrund **ist die drohende Zahlungsunfähigkeit**.
 die drohende Zahlungsunfähigkeit;imminent insolvency / threatening illiquidity;загроза неплатоспроможності;Bei drohender Zahlungsunfähigkeit **kann ein Insolvenzplan vorgelegt werden**.
-die Überschuldung (Sg.) (Insolvenzeröffnungsgrund für juristische Personen);over-indebtedness;надмірна заборгованість (підстава для банкрутства юр. осіб);Для акціонерних товариств **ist die Überschuldung ein zwingender Eröffnungsgrund**.
+die Überschuldung (Sg.) (Insolvenzeröffnungsgrund für juristische Personen);over-indebtedness;надмірна заборгованість (підстава для банкрутства юр. осіб);Für Aktiengesellschaften **ist die Überschuldung ein zwingender Eröffnungsgrund**.
 die Juristische Person, -en;legal entity / corporate body;юридична особа;Eine GmbH gilt als juristische Person **und haftet nur mit dem Gesellschaftsvermögen**.
 die Gesellschaftsvermögen, -;corporate assets / company assets;майно товариства (активи компанії);Das Gesellschaftsvermögen **wird im Insolvenzfall zur Insolvenzmasse**.
 die GmbH (Gesellschaft mit beschränkter Haftung), -s;limited liability company;товариство з обмеженою відповідальністю (ТОВ);Die Gründung einer GmbH **erfordert ein Mindeststammkapital von 25.000 Euro**.
@@ -211,7 +211,7 @@ die SEPA-Lastschriftmandat, -e;SEPA direct debit mandate;мандат прямо
 die Lastschrift, -en;direct debit;пряме дебетування (списання з рахунку);Die Abbuchung **erfolgt per Lastschrift zum Fälligkeitstag**.
 die Abbuchung, -en;debit / withdrawal;списання коштів;Die Abbuchung der Stromkosten **erfolgt monatlich durch den Energieversorger**.
 die Dauerauftrag, "-e;standing order;регулярний платіж (автоплатіж);Ich habe einen Dauerauftrag **für die Mietzahlung bei meiner Bank eingerichtet**.
-die Online-Banking, -s;online banking;онлайн-банкінг;Online-Banking **ermöglicht die schnelle Abwicklung von Inlands- та Auslandsüberweisungen**.
+die Online-Banking, -s;online banking;онлайн-банкінг;Online-Banking **ermöglicht die schnelle Abwicklung von Inlands- und Auslandsüberweisungen**.
 die Überweisung, -en;bank transfer;банківський переказ;Die Überweisung der Kaution **muss vor der Wohnungsübergabe erfolgen**.
 die Zahlungsempfänger, - / die Zahlungsempfängerin, -nen;payee / recipient of payment;отримувач платежу;Der Name des Zahlungsempfängers **muss auf dem Beleg angegeben sein**.
 die Beleg, -e;receipt / voucher;квитанція, чек, виправдний документ;Bewahren Sie den Beleg gut auf, **um das Rückgaberecht in Anspruch zu nehmen**.
@@ -248,7 +248,7 @@ die Standortpolitik (Sg.);location policy;політика сприяння ро
 die Ansiedlung, -en;settlement / establishment (of companies);оселення, розміщення (підприємства);Die Ansiedlung des Automobilwerks **schuf 1000 neue Arbeitsplätze**.
 die Arbeitsplatzbeschaffung (Sg.);job creation;створення робочих місць;Die Arbeitsplatzbeschaffung **wird durch staatliche Investitionszuschüsse gefördert**.
 die Beschäftigungsförderung (Sg.);employment promotion;сприяння зайнятості;Die Beschäftigungsförderung **ist eine Hauptaufgabe der Bundesagentur für Arbeit**.
-die Arbeitsförderung (Sg.);employment promotion (under social law SGB III);сприяння працевлаштуванню (за законом SGB III);Die gesetzliche Arbeitsförderung **beinhaltet Bildungs- та Vermittlungsgutscheine**.
+die Arbeitsförderung (Sg.);employment promotion (under social law SGB III);сприяння працевлаштуванню (за законом SGB III);Die gesetzliche Arbeitsförderung **beinhaltet Bildungs- und Vermittlungsgutscheine**.
 die Weiterbildungsförderung (Sg.);promotion of further training;підтримка підвищення кваліфікації;Die Weiterbildungsförderung **kann über das Aufstiegs-BAföG erfolgen**.
 die Aufstiegs-BAföG (Sg.);financial support for career advancement (under AFBG);фінансова підтримка кар'єрного зростання (Aufstiegs-BAföG);Mit dem Aufstiegs-BAföG **wird die Meisterprüfung finanziell gefördert**.
 die Aufstiegsfortbildung, -en;advancement training / career training;підвищення кваліфікації для кар'єрного просування;Die Aufstiegsfortbildung **bereitet auf die Übernahme von Führungsverantwortung vor**.

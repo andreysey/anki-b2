@@ -67,7 +67,7 @@ der Ansprechpartner, - / die Ansprechpartnerin, -nen;contact person;контак
 die Auskunft, "-e;information;інформація, довідка;Die Informationstheke **erteilt Auskünfte über alle Belange der Jobmesse**.
 der Aussteller, - / die Ausstellerin, -nen;exhibitor;експонент, учасник виставки;Der Aussteller **unterbreitete den Besuchern ein detailliertes Angebot**.
 das Exponat, -e;exhibit;експонат;Die innovativen Exponate **haben großen Eindruck auf die Fachbesucher gemacht**.
-der Fachbesucher, - / die Fachbesucherin, -nen;trade visitor, professional visitor;професійний відвідувач, спеціаліст;Die Messe **zieht jedes Jahr Tausende Fachbesucher aus aller Welt an經濟**.
+der Fachbesucher, - / die Fachbesucherin, -nen;trade visitor, professional visitor;професійний відвідувач, спеціаліст;Die Messe **zieht jedes Jahr Tausende Fachbesucher aus aller Welt an**.
 das Fachpublikum (Sg.);professional audience;професійна аудиторія, спеціалісти;Die Präsentation **richtete sich ausschließlich an ein versiertes Fachpublikum**.
 die Leitmesse, -n;leading trade fair;провідна виставка;Die IFA gilt als die Leitmesse für Unterhaltungselektronik **in unserer Branche**.
 das Marketing (Sg.);marketing;маркетинг;Das Marketing **legt großen Wert auf die Einhaltung des Corporate Designs**.
@@ -76,7 +76,7 @@ die Neuheit, -en;novelty, new product;новинка;Wir präsentieren auf der M
 die Produktneuheit, -en;product novelty / new product;новий продукт, новинка продукції;Die Produktneuheit **ist auf großes Interesse beim Fachpublikum gestoßen**.
 die Public Relations (PR) (Pl.);public relations;зв'язки з громадськістю (піар);Gute **Public Relations** tragen entscheidend zur Verbesserung des Images in der Öffentlichkeit bei.
 die Publikumswelt, -en;public section / consumer fair section;публічна частина виставки;Die Publikumswelt der Messe **ist am Wochenende auch für Privatbesucher geöffnet**.
-die Publikumstag, -e;public day (at a trade fair);день для загального відвідування;Am Publikumstag **kam es am Messestand zu einem enormen Besucheransturm**.
+der Publikumstag, -e;public day (at a trade fair);день для загального відвідування;Am Publikumstag **kam es am Messestand zu einem enormen Besucheransturm**.
 die Standbetreuung (Sg.);stand staff / booth support;обслуговування стенду;Die Standbetreuung **muss den Besuchern kompetente Auskünfte erteilen können**.
 die Standgebühr, -en;stand fee / booth fee;плата за оренду стенду;Die Standgebühren **werden in der Budgetplanung der Marketingabteilung eingeplant**.
 das Standpersonal (Sg.);booth staff;персонал стенду;Das Standpersonal **ist mit der Vorbereitung der Kundenkontakte beschäftigt**.
@@ -95,7 +95,7 @@ die Kundenbindung (Sg.);customer retention/loyalty;утримання клієн
 die Kundenakquise (Sg.);customer acquisition;пошук та залучення клієнтів;Die Kundenakquise **erfordert viel Geduld und gute Soft Skills**.
 der Stammkunde, -n / die Stammkundin, -nen;regular customer;постійний клієнт;Stammkunden **genießen bei uns besondere Konditionen und Rabatte**.
 der Neukunde, -n / die Neukundin, -nen;new customer;новий клієнт;Wir konnten auf der Messe **viele Neukunden für unsere Produkte begeistern**.
-der potenzieller Kunde;potential customer;потенційний клієнт;Wir müssen potenzielle Kunden **durch gezielte Werbung ansprechen**.
+der potenzielle Kunde;potential customer;потенційний клієнт;Wir müssen potenzielle Kunden **durch gezielte Werbung ansprechen**.
 die Kundenkartei, -en;customer register/file;картотека клієнтів;Die Daten der Neukunden **werden direkt in der Kundenkartei erfasst**.
 die Kundenbetreuung (Sg.);customer care / customer support;обслуговування клієнтів;Die Kundenbetreuung **ist rund um die Uhr telefonisch erreichbar**.
 der Kundenservice (Sg.);customer service;служба підтримки клієнтів;Bei Problemen **können Sie sich jederzeit an den Kundenservice wenden**.

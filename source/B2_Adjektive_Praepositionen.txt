@@ -39,7 +39,8 @@ gut in (+ Dat.);good at;сильний в, хороший у;Sie war in der kauf
 unerfahren in (+ Dat.);inexperienced in;недосвідчений у;Der neue Prüfling war noch unerfahren in der Durchführung komplexer Messungen.
 verliebt in (+ Akk.);in love with;закоханий у;Sie ist in das Konzept der agilen Unternehmensführung mit flachen Hierarchien verliebt.
 befreundet mit (+ Dat.);friendly with;товаришує з, дружить із;Er ist mit Vertretern des Arbeitgeberverbandes privat befreundet.
-bekannt mit (+ Dat.);acquainted with;знаемомий з;Ich bin mit den Richtlinien zur Gefahrenanalyse bestens bekannt.
+bekannt mit (+ Dat.);acquainted with / known to;знайомий з;Sie ist mit allen Außendienstmitarbeitenden sehr gut bekannt.
+vertraut mit (+ Dat.);familiar with;обізнаний з, знайомий з;Ich bin mit den Richtlinien zur Gefahrenanalyse bestens vertraut.
 beschäftigt mit (+ Dat.);busy with;зайнятий (чимось);Die Rechtsanwältin ist mit der Ausarbeitung der Kündigungsschutzklage beschäftigt.
 einverstanden mit (+ Dat.);in agreement with;згоден із;Der Betriebsrat war mit dem Vorschlag zur Überstundenregelung einverstanden.
 fertig mit (+ Dat.);finished with;готовий з, закінчив (щось);Sobald Sie mit der Rechnungsprüfung fertig sind, reichen Sie die Belege ein.
@@ -53,7 +54,7 @@ beunruhigt über (+ Akk.);alarmed about;занепокоєний (чимось);
 entsetzt über (+ Akk.);horrified at;жахнутий (чимось), у шоці від;Die Gewerkschaft war über das mangelhafte Angebot der Arbeitgeberseite entsetzt.
 erstaunt über (+ Akk.);astonished at;здивований (чимось);Wir waren über die hohe Zahl an Bewerbungen auf unsere Stellenausschreibung erstaunt.
 froh über (+ Akk.);glad about;радий (чомусь);Wir sind sehr froh über das positive Feedbackgespräch nach der Einarbeitungsphase.
-glücklich über (+ Akk.);happy about;щасливий через;Sie war über die Zusage für eine unbefristete Festanstellung überglücklich.
+glücklich über (+ Akk.);happy about;щасливий через;Sie war über die Zusage für eine unbefristete Festanstellung glücklich.
 unglücklich über (+ Akk.);unhappy about;нещасливий через;Die Gesellschafter sind unglücklich über den durch den Streik verursachten Produktionsausfall.
 verärgert über (+ Akk.);annoyed about;роздратований через, сердитий на;Der Betriebsleiter war über die Missachtung der Brandschutzordnung verärgert.
 wütend über (+ Akk.);angry about;лютий через;Die Kundengruppe war über das Qualitätsproblem bei den Ersatzteilen wütend.

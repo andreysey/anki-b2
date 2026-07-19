@@ -17,7 +17,7 @@ die Messmethode, -n;measurement method;метод вимірювання;<b>Aus 
 das Netzwerk, -e;network;мережа;Ein stabiles berufliches Netzwerk **kann den weiteren Berufsweg positiv beeinflussen**.
 die Online-Jobbörse, -n;online job board;онлайн-біржа праці;Ich nutze eine Online-Jobbörse, um **nach geeigneten Angeboten für eine Umschulung zu suchen**.
 das Online-Stellenportal, -e;online job portal;онлайн-портал вакансій;Die Personalabteilung **schaltet regelmäßig Anzeigen in verschiedenen Online-Stellenportalen**.
-die Pharmaunternehmen, -;pharmaceutical company;фармацевтична компанія;Das Pharmaunternehmen **stellt den Ärzten detaillierte Informationen über** neue Medikamente **zur Verfügung**.
+das Pharmaunternehmen, -;pharmaceutical company;фармацевтична компанія;Das Pharmaunternehmen **stellt den Ärzten detaillierte Informationen über** neue Medikamente **zur Verfügung**.
 die Qualitätskontrolle, -n;quality control;контроль якості;Die Qualitätskontrolle **weist die Produktion auf technische Mängel hin**, um Fehler zu vermeiden.
 etw. recherchieren (recherchiert, recherchierte, hat recherchiert);to research;досліджувати, шукати інформацію;Wir müssen die rechtlichen Bedingungen für die Umschulung sorgfältig <b>recherchieren</b>.
 sorgfältig;careful(ly), diligent(ly);ретельний, акуратний;Bei der Wareneingangskontrolle ist eine äußerst sorgfältige Arbeit **erforderlich**.

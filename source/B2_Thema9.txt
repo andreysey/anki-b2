@@ -29,13 +29,13 @@ ein Problem beheben (behebt, behob, hat behoben);to fix/resolve a problem;вир
 der Retourenschein, -e;return slip;бланк повернення;Bitte **legen Sie den ausgefüllten Retourenschein der Rücksendung bei**.
 die Serviceleistung, -en;service;сервісна послуга;Der Kundendienst **bietet diese Serviceleistung im Rahmen der Gewährleistung an**.
 die Textilie, -n;textile;текстиль, тканина;Bei der Herstellung von Textilien **müssen Umweltauflagen streng beachtet werden**.
-umsonst;free of charge, in vain;безкоштовно, даремно;Alle Bemühungen waren umsonst, **da der Vertrag wegen Nichtigkeitt ungültig war**.
+umsonst;free of charge, in vain;безкоштовно, даремно;Alle Bemühungen waren umsonst, **da der Vertrag wegen Nichtigkeit ungültig war**.
 etw. verfärben (verfärbt, verfärbte, hat verfärbt);to discolor;змінювати колір, забарвлювати;Das Gehäuse hat sich verfärbt, **was auf ein Qualitätsproblem beim Material hinweist**.
 etw. versalzen (versalzt, versalzte, hat versalzen);to oversalt;пересолити;Der Koch in der Betriebskantine hat das Gericht versalzen, **folglich gab es Reklamationen**.
 sich verspäten (verspätet sich, verspätete sich, ist verspätet);to be late, to be delayed;запізнюватися, затримуватися;Der Eintrittstermin der neuen Fachkraft **wird sich wegen der Visumsverzögerung verspäten**.
 jdm. etw. versprechen (verspricht, versprach, hat versprochen);to promise someone something;обіцяти комусь щось;Der Lieferant **hat uns eine schnelle Nachlieferung der Ersatzteile versprochen**.
 etw. zerbrechen (zerbricht, zerbrach, hat zerbrochen);to break, to shatter;розбивати;Das Display ist zerbrochen, **daher müssen wir ein Ersatzgerät anfordern**.
-etw. zerkratzen;to scratch;подряпати;Die Oberfläche des Tischs ist zerkratzt, **weshalb wir eine Preisminderung forlangen**.
+etw. zerkratzen;to scratch;подряпати;Die Oberfläche des Tischs ist zerkratzt, **weshalb wir eine Preisminderung verlangen**.
 etw. zerreißen (zerreißt, zerriss, hat zerrissen);to tear, to rip;розривати;Der Lehrling hat den Lieferschein zerrissen, **was zu Problemen beim Wareneingang führte**.
 Abhilfe schaffen (schafft, schaffte, hat geschaffen);to remedy, to fix a problem;зарадити, усунути проблему;Eine bessere Belüftung **wird bei der Knallgasentwicklung Abhilfe schaffen**.
 allerdings;however, indeed;однак, щоправда;Das System läuft stabil, **allerdings müssen wir regelmäßig Wartungsarbeiten durchführen**.
@@ -49,7 +49,7 @@ den Eingang bestätigen (bestätigt, bestätigte, hat bestätigt);to confirm rec
 die Flamme, -n;flame;полум'я;Bei Rauchentwicklung und Flammen **muss sofort der Feueralarm ausgelöst werden**.
 der Gefrierschrank, "-e;freezer;морозильна камера;Der Gefrierschrank **muss keimfrei gehalten werden, um Bakterien zu vermeiden**.
 sich herausstellen (stellt sich heraus, stellte sich heraus, hat sich herausgestellt);to turn out;з'ясовуватися, виявлятися;<b>Es stellte sich heraus, dass</b> der Wegeunfall durch Fahrlässigkeit verursacht wurde.
-die Lieferschein, -e;delivery note;накладна (на доставку);Bitte **vergleichen Sie die gelieferte Menge mit den Angaben auf dem Lieferschein**.
+der Lieferschein, -e;delivery note;накладна (на доставку);Bitte **vergleichen Sie die gelieferte Menge mit den Angaben auf dem Lieferschein**.
 etw. nachliefern (liefert nach, lieferte nach, hat nachgeliefert);to deliver later, to supply subsequently;допоставити, доставити пізніше;Die Spedition hat versprochen, **die fehlenden Frachtbriefe umgehend nachzuliefern**.
 umgehend;immediately, promptly;негайно, терміново;Bei einer Störung der USV **müssen wir den Bereitschaftsdienst umgehend kontaktieren**.
 verfügbar;available;доступний;Das GS-Zeichen zeigt, dass **die Sicherheitsunterlagen online verfügbar stehen**.
@@ -58,7 +58,7 @@ die Warenkontrolle, -n;goods inspection;перевірка товару;Die Ware
 die Anfahrt, -en;journey, approach (driving);проїзд, дорога (до місця);<b>Aufgrund einer Sperrung auf dem Arbeitsweg hat sich die Anfahrt verzögert</b>.
 die Anschaffung, -en;purchase, acquisition;придбання, покупка;Die Anschaffung der Photovoltaikanlage **wird durch staatliche Subventionen gefördert**.
 der Aufpreis, -e;surcharge, extra charge;доплата;Für eine Expresslieferung **müssen wir dem Lieferanten einen Aufpreis zahlen**.
-die Austausch (Sg.);exchange / replacement;заміна;Der Austausch des Akkumulators **wurde vom Kältetechniker durchgeführt**.
+der Austausch (Sg.);exchange / replacement;заміна;Der Austausch des Akkumulators **wurde vom Kältetechniker durchgeführt**.
 etw. austauschen (tauscht aus, tauschte aus, hat ausgetauscht);to exchange, to replace;обмінювати, замінювати;Wir müssen den defekten Wärmetauscher **nach den Wartungsrichtlinien austauschen**.
 etw. bereitstellen (stellt bereit, stellte bereit, hat bereitgestellt);to provide, to make available;надавати, підготувати;Der Arbeitgeber **muss den Mitarbeitern persönliche Schutzausrüstung bereitstellen**.
 der Ersatz (Sg.);replacement, compensation;заміна, компенсація;Der Schadenersatz **dient als finanzieller Ersatz für den Produktionsausfall**.
@@ -75,7 +75,7 @@ das Rücksendeetikett, -en;return label;етикетка для повернен
 der Schaden, "-;damage;збиток, шкода;Der Schaden **wurde durch eine Fehlfunktion der Klimaanlage ausgelöst**.
 der Schadensersatz (Sg.);compensation for damages;відшкодування збитків;Wir fordern Schadensersatz, **da der Verzug existenzbedrohende Folgen hat**.
 die Schadensmeldung, -en;damage report;повідомлення про збитки;Die Schadensmeldung **muss innerhalb der Frist bei der Versicherung eingehen**.
-die Transportschaden, "-;transit damage;пошкодження при транспортуванні;Der Transportschaden **wurde im Übergabeprotokoll schriftlich dokumentiert**.
+der Transportschaden, "-;transit damage;пошкодження при транспортуванні;Der Transportschaden **wurde im Übergabeprotokoll schriftlich dokumentiert**.
 etw. umtauschen (tauscht um, tauschte um, hat umgetauscht);to exchange / replace;обмінювати;Der Käufer **hat das Recht, die mangelhafte Ware umzutauschen**.
 der Umtausch (Sg.);exchange, replacement;обмін;Ein Umtausch auf Kulanzweg **setzt das Vorlegen des Kaufbelegs voraus**.
 die Verpackung, -en;packaging;упаковка;Die Verpackung **muss eine ausreichende Ladungssicherung der Güter garantieren**.
@@ -114,7 +114,7 @@ der Pfändungsbeschluss, "-e;attachment order / garnishment order;постано
 der Drittschuldner, - / die Drittschuldnerin, -nen;third-party debtor (e.g., employer in wage garnishment);третя особа-боржник (напр., роботодавець при арешті зарплати працівника);Als Drittschuldner **muss die Firma das pfändbare Einkommen berechnen**.
 die Drittschuldnererklärung, -en;third-party debtor's declaration;заява третьої особи-боржника (підтвердження арешту роботодавцем);Die Drittschuldnererklärung **muss innerhalb von zwei Wochen abgegeben werden**.
 die Pfändungsschutzkonto (P-Konto), -en;seizure protection account;банківський рахунок із захистом від арешту (P-Konto);Das P-Konto **schützt das pfändungsfreie Einkommen vor dem Zugriff der Gläubiger**.
-die pfändungsfreie Einkommen;seizure-free income;дохід, який не підлягає арешту (прожитковий мінімум);Das pfändungsfreie Einkommen **richtet sich після der Pfändungstabelle**.
+die pfändungsfreie Einkommen;seizure-free income;дохід, який не підлягає арешту (прожитковий мінімум);Das pfändungsfreie Einkommen **richtet sich nach der Pfändungstabelle**.
 die Pfändungstabelle, -n;seizure table (exemptions table);таблиця лімітів арешту (залежно від кількості утриманців);Die aktuelle Pfändungstabelle **weist die freizulassenden Beträge aus**.
 die Unterhaltspflicht, -en;obligation to pay maintenance;обов'язок виплати аліментів (утримання);Eine Unterhaltspflicht **erhöht den pfändungsfreien Betrag des Schuldners**.
 die Unterhaltszahlung, -en;maintenance payment / alimony;виплата аліментів (утримання);Die Unterhaltszahlungen **werden direkt vom Gehaltskonto abgebucht**.
@@ -126,7 +126,7 @@ die Amtsgericht (AG), -e;district court;дільничний (районний) 
 die Zivilgericht, -e;civil court;цивільний суд;Das Zivilgericht **entscheidet über Schadensersatzforderungen aus Verträgen**.
 die Zivilprozessordnung (ZPO) (Sg.);Code of Civil Procedure;Цивільний процесуальний кодекс (ZPO);Die ZPO **regelt den Ablauf der Zwangsvollstreckung**.
 die Zivilrecht (Sg.);civil law;цивільне право;Das Zivilrecht **basiert im Wesentlichen auf dem Bürgerlichen Gesetzbuch (BGB)**.
-die Bürgerliche Gesetzbuch (BGB) (Sg.);Civil Code;Цивільний кодекс Німеччини (BGB);Das **Bürgerliche Gesetzbuch** regelt das Sonderurlaubsrecht та die gesetzliche Mängelhaftung.
+die Bürgerliche Gesetzbuch (BGB) (Sg.);Civil Code;Цивільний кодекс Німеччини (BGB);Das **Bürgerliche Gesetzbuch** regelt das Sonderurlaubsrecht und die gesetzliche Mängelhaftung.
 die Gesetzbuch, "-er;code / body of laws;кодекс законів;Das Gesetzbuch **liegt auf dem Schreibtisch der Rechtsanwältin bereit**.
 die Gesetzessammlung, -en;collection of laws;збірник законів;Die Gesetzessammlung **steht den Richtern in der Gerichtsbibliothek zur Verfügung**.
 die Gesetzesblatt, "-er;official law gazette;відомості законів (офіційне видання);Die Gesetzesblätter **müssen archiviert und zugänglich gehalten werden**.

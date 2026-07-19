@@ -96,7 +96,7 @@ das Corporate Design (Sg.);corporate design;корпоративний диза�
 die Ergonomie (Sg.);ergonomics;ергономіка;Bei der Büroeinrichtung **legen wir großen Wert auf** Ergonomie.
 die Gefahrenquelle, -n;source of danger;джерело небезпеки;Regelmäßige Kontrollen helfen, Gefahrenquellen im Betrieb **zu beseitigen**.
 der Lärm (Sg.);noise;шум;Ständiger Lärm am Arbeitsplatz **führt zu Konzentrationsproblemen**.
-das Leitsatz, "-e;guiding principle;керівний принцип, гасло;Unser wichtigster Leitsatz ist die Zufriedenheit unserer Kunden.
+der Leitsatz, "-e;guiding principle;керівний принцип, гасло;Unser wichtigster Leitsatz ist die Zufriedenheit unserer Kunden.
 die Maßnahme, -n;measure, action;захід;Wir müssen Maßnahmen **zur Senkung der Betriebskosten ergreifen**.
 die Nachhaltigkeit (Sg.);sustainability;сталий розвиток, екологічність;Das Thema Nachhaltigkeit **gewinnt in vielen Unternehmen an Bedeutung**.
 die Öffentlichkeit (Sg.);public;громадськість, публіка;Wir müssen unser neues Projekt **in der Öffentlichkeit bekannter machen**.
@@ -117,12 +117,12 @@ der Brandschutz (Sg.);fire protection;пожежна безпека;Wir führen 
 der Erste-Hilfe-Kurs, -e;first aid course;курс першої медичної допомоги;Die Teilnahme an einem Erste-Hilfe-Kurs **ist für alle Mitarbeiter Pflicht**.
 der Ersthelfer, - / die Ersthelferin, -nen;first aider;особа, що надає першу допомогу;Im Notfall **leisten die Ersthelfer im Betrieb erste Hilfe**.
 der Fluchtweg, -e;escape route;шлях евакуації;Die Fluchtwege **müssen immer frei von Hindernissen gehalten werden**.
-das Gehörschutz (Sg.);ear protection;засоби захисту слуху;Bei Arbeiten mit lauten Maschinen **ist das Tragen von Gehörschutz vorgeschrieben**.
+der Gehörschutz (Sg.);ear protection;засоби захисту слуху;Bei Arbeiten mit lauten Maschinen **ist das Tragen von Gehörschutz vorgeschrieben**.
 die Notrufnummer, -n;emergency number;номер екстреного виклику;Die Notrufnummern **müssen im Betrieb gut sichtbar aushängen**.
 der Schutzhelm, -e;safety helmet;захисна каска;Auf der Baustelle **ist das Tragen eines Schutzhelms Pflicht**.
 die Sicherheitsunterweisung, -en;safety instruction/briefing;інструктаж з техніки безпеки;Neue Mitarbeiter **erhalten am ersten Tag eine Sicherheitsunterweisung**.
 der Sicherheitsbeauftragte, -n / die Sicherheitsbeauftragte, -n;safety officer;уповноважений з техніки безпеки;Der Sicherheitsbeauftragte **kontrolliert die Einhaltung der Schutzmaßnahmen**.
-die Sicherheitsschuh, -e;safety shoe;захисне взуття;Sicherheitsschuhe **schützen vor Verletzungen durch herabfallende Gegenstände**.
+der Sicherheitsschuh, -e;safety shoe;захисне взуття;Sicherheitsschuhe **schützen vor Verletzungen durch herabfallende Gegenstände**.
 der Unfallbericht, -e;accident report;звіт про нещасний випадок;Der Sicherheitsbeauftragte **muss einen Unfallbericht erstellen**.
 die Verletzung, -en;injury;травма, поранення;Er hat sich bei der Arbeit eine schwere Verletzung zugezogen.
 die Warnweste, -n;safety vest, high-visibility vest;сигнальний жилет;Beim Betreten des Lagers **ist das Tragen einer Warnweste Pflicht**.

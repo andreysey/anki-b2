@@ -12,7 +12,7 @@ Zunächst werde ich ...;First, I will ...;Спочатку я ...;Zunächst werd
 Anschließend möchte ich auf ... eingehen.;Afterwards I would like to go into ...;Після цього я хотів би зупинитися на ...;Anschließend möchte ich auf die Abfindungen im Sozialplan eingehen.
 Ich komme jetzt zum nächsten Punkt/Teil.;I am now coming to the next point/part.;Я переходжу до наступного пункту/частини.;Ich komme jetzt zum nächsten Teil bezüglich der linear Abschreibung.
 Im Folgenden/Abschließend möchte ich auf die folgenden Punkte zu sprechen kommen: ...;In the following/concluding part I would like to address the following points: ...;Надалі/на завершення я хотів би зупинитися на наступних пунктах: ...;Abschließend möchte ich auf die drohende Insolvenz der GmbH zu sprechen kommen.
-Ich komme jetzt zum Schluss.;I am now coming to the end.;Я підходжу до завершення.;Ich komme jetzt zum Schluss und fass die Ergebnisse zusammen.
+Ich komme jetzt zum Schluss.;I am now coming to the end.;Я підходжу до завершення.;Ich komme jetzt zum Schluss und fasse die Ergebnisse zusammen.
 Zusammenfassend möchte ich sagen, dass ...;In summary, I would like to say that ...;Підсумовуючи, я хотів би сказати, що ...;Zusammenfassend möchte ich sagen, dass die Einarbeitung ein voller Erfolg war.
 Vielen Dank für Ihre Aufmerksamkeit.;Thank you very much for your attention.;Дуже дякую за вашу увагу!;Vielen Dank für Ihre Aufmerksamkeit und Ihr Interesse an unserer Werkhalle.
 Für Fragen stehe ich Ihnen gerne zur Verfügung.;I am happy to answer any questions you may have.;Я з радістю відповім на ваші запитання.;Für Fragen bezüglich des Mutterschutzes stehe ich Ihnen gerne zur Verfügung.
@@ -249,11 +249,11 @@ Wie lange ist die Lieferzeit?;How long is the delivery time?;Який термі
 Ich bitte Sie, bis zum ... um ein detailliertes Angebot für ...;I ask you for a detailed offer for ... by ...;Прошу вас надати детальний прайс-лист/пропозицію на ... до ...;Ich bitte Sie bis zum Freitag um ein Angebot für die Wartung.
 Wir bitten Sie, uns ... zuzuschicken.;We ask you to send us ...;Просимо вас надіслати нам ...;Wir bitten Sie, uns die Zulassungsunterlagen zuzuschicken.
 Wir erwarten Ihr Angebot bis zum ...;We expect your offer by ...;Ми очікуємо на вашу пропозицію до ...;Wir erwarten Ihr detailliertes Angebot bis zum Monatsende.
-Die Ware soll bis zum ... zu liefern.;The goods are to be delivered by ...;Товар має бути доставлений до ...;Die Zusatzausstattung soll bis zum vereinbarten Stichtag geliefert werden.
+Die Ware soll bis zum ... zu liefern.;The goods are to be delivered by ...;Товар має бути доставлений до ...;Die Ware ist bis zum ... zu liefern.
 Das gewünschte Lieferdatum ist ...;The requested delivery date is ...;Бажана дата доставки — ...;Das gewünschte Lieferdatum für die Kältemaschinen ist der 1. Oktober.
 Wir machen darauf aufmerksam, dass ...;We draw attention to the fact that ...;Звертаємо вашу увагу на те, що ...;Wir machen darauf aufmerksam, dass die Brandschutzordnung bindend ist.
 Wir möchten darauf hinweisen, dass wir bei verschiedenen Wettbewerbern Angebote einholen.;We would like to point out that we obtain offers from various competitors.;Хочемо зазначити, що ми запитуємо пропозиції у різних конкурентів.;Wir möchten darauf hinweisen, dass wir mehrere Angebote vergleichen.
-Für die Auftragsvergabe ist u. a. ... entscheidend/maßgeblich.;For the awarding of the contract, ... is decisive/relevant.;Для надання замовлення вирішальним є, серед іншого, ...;Für die Auftragsvergabe є die Einhaltung der Umweltrichtlinien maßgeblich.
+Für die Auftragsvergabe ist u. a. ... entscheidend/maßgeblich.;For the awarding of the contract, ... is decisive/relevant.;Для надання замовлення вирішальним є, серед іншого, ...;Für die Auftragsvergabe ist die Einhaltung der Umweltrichtlinien maßgeblich.
 Ein wichtiges Kriterium für die Auftragsvergabe ist die Zusicherung eines verbindlichen Liefertermins.;An important criterion for the contract is the guarantee of a binding delivery date.;Важливим критерієм для укладення контракту є гарантія зобов'язуючих термінів доставки.;Ein wichtiges Kriterium ist die Einhaltung des Liefertermins.
 Herzlichen Dank für Ihre Anfrage.;Thank you very much for your inquiry.;Щиро дякуємо за ваш запит.;Herzlichen Dank für Ihre Anfrage bezüglich unseres Ausbildungsangebots.
 Gerne unterbreiten wir Ihnen folgendes Angebot: ...;We are pleased to submit the following offer: ...;Ми раді зробити вам наступну пропозицію: ...;Gerne unterbreiten wir Ihnen ein Angebot für den Lärmschutz.

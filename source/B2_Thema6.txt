@@ -71,14 +71,14 @@ das Ersatzgerät, -e;replacement device;підмінний пристрій;Wäh
 die Preisminderung, -en;price reduction;зниження ціни (через дефекти);Wegen der Mängel **haben wir uns mit dem Lieferanten auf eine Preisminderung geeinigt**.
 vom Vertrag zurücktreten (tritt zurück, trat zurück, ist zurückgetreten);to withdraw from the contract;розірвати договір (відмовитися від виконання);Bei wiederholten Fehlern **haben wir das Recht, vom Vertrag zurückzutreten**.
 die Nacherfüllung (Sg.);subsequent performance;додаткове виконання (усунення недоліків або заміна);Der Käufer **hat einen gesetzlichen Anspruch auf Nacherfüllung** bei Mängeln.
-die Schadenersatz, -e;compensation for damages;відшкодування збитків;Wir werden Schadenersatz **für den erlittenen Produktionsausfall in Rechnung stellen**.
+der Schadenersatz, -e;compensation for damages;відшкодування збитків;Wir werden Schadenersatz **für den erlittenen Produktionsausfall in Rechnung stellen**.
 die Beweislast (Sg.);burden of proof;тягар доведення (провини/браку);Nach sechs Monaten **liegt die Beweislast beim Käufer, dass der Mangel von Anfang an bestand**.
 die Mängelhaftung (Sg.);liability for defects;відповідальність за дефекти;Die gesetzliche Mängelhaftung **schützt den Käufer vor finanziellen Schäden**.
 die Gewährleistungsfrist, -en;warranty period;гарантійний термін;Die Gewährleistungsfrist **beträgt für Neuanschaffungen in der Regel 24 Monate**.
 die Reparatur, -en;repair;ремонт;Die Reparatur der Hebebühne **wurde vom Werkstattmeister erfolgreich durchgeführt**.
 der Kostenvoranschlag, "-e;cost estimate;кошторис (оцінка витрат);Bitte **erstellen Sie uns einen Kostenvoranschlag für die anstehende Wartung**.
 die Kulanz (Sg.);goodwill;добровільна поступка (куланс — лояльність без юр. зобов'язань);Der Hersteller hat das Display **auf Kulanz und ohne zusätzliche Kosten ausgetauscht**.
-die Kundendienst, -e;customer service;сервісна служба;Der Kundenservice **reagierte schnell und freundlich auf unsere Mangelrüge**.
+der Kundendienst, -e;customer service;сервісна служба;Der Kundenservice **reagierte schnell und freundlich auf unsere Mangelrüge**.
 die Service-Hotline, -s;service hotline;гаряча лінія підтримки;Bei Bedienungsproblemen **können Sie sich an die Service-Hotline wenden**.
 der Techniker, - / die Technikerin, -nen;technician;технік;Der Techniker **war mit der Beseitigung der Fehlfunktion beschäftigt**.
 die Fehlerquelle, -n;source of error;джерело помилки;Eine systematische Analyse **hilft, die Fehlerquelle in der Elektronik zu finden**.

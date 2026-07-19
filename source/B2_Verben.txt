@@ -13,7 +13,7 @@ sich bewerben (bewirbt sich, bewarb sich, hat sich beworben);to apply for (a job
 bewerfen (bewirbt, bewarf, hat beworfen);to pelt, to throw at;закидати, обкидати;Die Tarifpartner sollten sich bei den Verhandlungen nicht mit Vorwürfen bewerfen.
 biegen (biegt, bog, hat gebogen);to bend;гнути, згинати;Der Installateur muss das Rohr der Gasleitung vorsichtig biegen.
 bieten (bietet, bot, hat geboten);to offer;пропонувати;Die Bildungsmesse bietet eine hervorragende Orientierung für den Berufseinstieg.
-binden (bindet, band, hat gebunden);to bind, to tie;зв'язувати, прив'язувати;Der Tarifvertrag bittet beide Seiten und bindet sie an die Friedenspflicht.
+binden (bindet, band, hat gebunden);to bind, to tie;зв'язувати, прив'язувати;Der Tarifvertrag bindet beide Seiten und bindet sie an die Friedenspflicht.
 bitten (bittet, bat, hat gebeten);to ask, to request;просити;<b>Ich habe den Vorgesetzten um ein schnelles Gespräch gebeten</b>.
 blasen (bläst, blies, hat geblasen);to blow;дути;Die Luftleitung bläst kühle Luft direkt in die Werkhalle.
 bleiben (bleibt, blieb, ist geblieben);to stay, to remain;залишатися;Trotz der Insolvenz ist die Belegschaft weiterhin im Betrieb geblieben.
@@ -136,7 +136,7 @@ stinken (stinkt, stank, hat gestunken);to stink;смердіти;Es hat in der N
 stoßen (stößt, stieß, hat/ist gestoßen);to push, to bump;штовхати, наштовхуватися;Wir sind bei der Gefahrenanalyse auf mehrere Mängel gestoßen.
 streichen (streicht, strich, hat gestrichen);to paint, to cancel, to delete;фарбувати, викреслювати;Der Arbeitgeber hat die freiwillige Leistungszulage vom Gehaltszettel gestrichen.
 streiten (streitet, stritt, hat gestritten);to argue, to fight;сперечатися;Die Tarifpartner haben heftig über die Erhöhung des Mindestlohns gestritten.
-tragen (trägt, trug, hat getragen);to carry, to wear;носить;Die GmbH hat alle Kosten für die notwendigen Schutzmaßnahmen getragen.
+tragen (trägt, trug, hat getragen);to carry, to wear;носити;Die GmbH hat alle Kosten für die notwendigen Schutzmaßnahmen getragen.
 treffen (trifft, traf, hat getroffen);to meet, to hit, to make (a decision);зустрічати, приймати (рішення);Wir haben eine verbindliche Vereinbarung über die Gewinnbeteiligung getroffen.
 treiben (treibt, trieb, hat/ist getrieben);to drive, to push;гнати, спонукати;Die Inflation trieb die Preise für Rohstoffe drastisch in die Höhe.
 treten (tritt, trat, hat/ist getreten);to step, to kick;ступати, наступати;Die neue Brandschutzverordnung ist am 1. Januar in Kraft getreten.
@@ -144,7 +144,7 @@ trinken (trinkt, trank, hat getrunken);to drink;пити;Während der Hitzewelle
 tun (tut, tat, hat getan);to do;робити;Der Inhaber hat alles getan, um den drohenden Stellenabbau zu verhindern.
 verbergen (verbirgt, verborg/verbarg, hat verborgen);to hide;приховувати;Der Geschäftsführer wollte die schlechten Quartalszahlen vor den Gesellschaftern verbergen.
 vergessen (vergaß, hat vergessen);to forget;забувати;Der Auszubildende hat vergessen, seinen wöchentlichen Tätigkeitsbericht abzugeben.
-vergleichen (vergleicht, verglich, hat vergleichen);to compare;порівнювати;Wir haben die Anschaffungskosten der Kältemaschinen gründlich verglichen.
+vergleichen (vergleicht, verglich, hat verglichen);to compare;порівнювати;Wir haben die Anschaffungskosten der Kältemaschinen gründlich verglichen.
 verlieren (verliert, verlor, hat verloren);to lose;втрачати;Der Arbeitnehmer hat durch die fristlose Kündigung seinen Abfindungsanspruch verloren.
 verraten (verrät, verriet, hat verraten);to betray, to reveal;зраджувати, розголошувати;Er darf keine vertraulichen Geschäftsgeheimnisse an Konkurrenten verraten.
 verzeihen (verzeiht, verzieh, hat verziehen);to forgive;вибачати;Die Geschäftsführung hat den einmaligen Pflichtverstoß großzügig verziehen.

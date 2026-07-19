@@ -32,7 +32,7 @@ function checkFile(filePath: string) {
     const ukrainian = parts[2]?.trim() || '';
     const example = parts[3]?.trim() || '';
 
-    // 3. Find Cyrillic characters in German/English columns
+    // 3. Find Cyrillic characters in German/English/Example columns
     // Range \u0400-\u04FF covers Cyrillic characters
     const cyrillicRegex = /[\u0400-\u04FF]/;
     if (cyrillicRegex.test(german)) {
@@ -40,6 +40,9 @@ function checkFile(filePath: string) {
     }
     if (cyrillicRegex.test(english)) {
       console.log(`⚠️  ${baseName}:${lineNum} [Cyrillic in English]: "${english}"`);
+    }
+    if (cyrillicRegex.test(example)) {
+      console.log(`⚠️  ${baseName}:${lineNum} [Cyrillic in Example]: "${example}"`);
     }
 
     // 4. Check for abbreviations in example that are in parentheses in German
