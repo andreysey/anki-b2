@@ -41,7 +41,7 @@ Abhilfe schaffen (schafft, schaffte, hat geschaffen);to remedy, to fix a problem
 allerdings;however, indeed;однак, щоправда;Das System läuft stabil, **allerdings müssen wir regelmäßig Wartungsarbeiten durchführen**.
 etw. bedauern (bedauert, bedauerte, hat bedauert);to regret;шкодувати про щось;Wir bedauern die Störung im Betriebsablauf **und bitten Sie um Entschuldigung**.
 zu unserem Bedauern;to our regret;на наш жаль;<b>Zu unserem Bedauern müssen wir Ihnen mitteilen, dass das Angebot abgelaufen ist</b>.
-etw. bestätigen (bestätigt, bestätigte, hat bestätigt);to confirm;Bitte **bestätigen Sie uns den Erhalt der Kündigungserklärung schriftlich**.
+etw. bestätigen (bestätigt, bestätigte, hat bestätigt);to confirm;підтверджувати що-небудь;Bitte bestätigen Sie uns den Erhalt der Kündigungserklärung schriftlich.
 die Dunstabzugshaube, -n;extractor hood;витяжка (кухонна);Die neue Dunstabzugshaube in der Kantine **sorgt für einen guten Luftwechsel**.
 eintreffen (trifft ein, traf ein, ist eingetroffen);to arrive;прибувати, надходити;Die Lieferung mit den Schutzvisieren **wird voraussichtlich am Dienstag eintreffen**.
 der Eingang, "-e;receipt, arrival, entrance;надходження, вхід;Nach dem Eingang der Zahlung **erfolgt die Eigentumsübertragung der Ware**.
@@ -122,7 +122,7 @@ die Kindesunterhalt (Sg.);child support;аліменти на дитину;Der K
 die Ehegattenunterhalt (Sg.);spousal support / alimony;утримання (аліменти) на подружжя;Der Anspruch auf Ehegattenunterhalt **wird im Scheidungsurteil geregelt**.
 die Scheidungsurteil, -e;divorce decree;судове рішення про розірвання шлюбу;Das Scheidungsurteil **erlangte mit der Zustellung die Rechtskraft**.
 die Familiengericht, -e;family court;сімейний суд;Das Familiengericht **entscheidet über Fragen des Kindesunterhalts**.
-die Amtsgericht (AG), -e;district court;дільничний (районний) суд (Amtsgericht);Das AG **ist für zivilrechtliche Streitigkeiten mit geringem Streitwert zuständig**.
+die Amtsgericht (AG), -e;district court;дільничний (районний) суд (Amtsgericht);Das **Amtsgericht** ist für zivilrechtliche Streitigkeiten mit geringem Streitwert zuständig.
 die Zivilgericht, -e;civil court;цивільний суд;Das Zivilgericht **entscheidet über Schadensersatzforderungen aus Verträgen**.
 die Zivilprozessordnung (ZPO) (Sg.);Code of Civil Procedure;Цивільний процесуальний кодекс (ZPO);Die ZPO **regelt den Ablauf der Zwangsvollstreckung**.
 die Zivilrecht (Sg.);civil law;цивільне право;Das Zivilrecht **basiert im Wesentlichen auf dem Bürgerlichen Gesetzbuch (BGB)**.

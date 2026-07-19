@@ -259,7 +259,7 @@ die Krankenversicherung, -en;health insurance;медичне страхуван�
 die Arbeitslosenversicherung, -en;unemployment insurance;страхування на випадок безробіття;Die Beiträge zur Arbeitslosenversicherung **wurden gesetzlich angepasst**.
 die Pflegeversicherung, -en;long-term care insurance;страхування на випадок потреби в догляді;Die Pflegeversicherung **übernimmt die Kosten für das Pflegeheim teilweise**.
 die Unfallversicherung, -en;accident insurance;страхування від нещасних випадків;Die gesetzliche Unfallversicherung **ist für den Arbeitnehmer beitragsfrei**.
-die Berufsgenossenschaft (BG), -en;employers' liability insurance association;галузеве страхування;Die BG **ist der Träger der gesetzlichen Unfallversicherung**.
+die Berufsgenossenschaft (BG), -en;employers' liability insurance association;галузеве страхування;Die **Berufsgenossenschaft** ist der Träger der gesetzlichen Unfallversicherung.
 die Umlageverfahren, -;pay-as-you-go system;розподільча система (фінансування пенсій);Die gesetzliche Rente **basiert in Deutschland auf dem Umlageverfahren**.
 die Generationenvertrag, "-e;intergenerational contract;договір поколінь;Der Generationenvertrag **stößt wegen der alternden Gesellschaft an seine Grenzen**.
 die Demografie (Sg.);demography;демографія;Die Demografie **erfordert eine stufenweise Anhebung des Rentenalters**.

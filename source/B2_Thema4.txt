@@ -121,7 +121,7 @@ die Wiedereingliederungsvereinbarung, -en;reintegration agreement;угода п�
 die Hamburger Modell (Sg.);Hamburger model (gradual return to work after long illness);Гамбурзька модель (поступове повернення до роботи);Die stufenweise Rückkehr nach der Hamburger Modell **hat sich sehr bewährt**.
 die Belastungserprobung, -en;load testing / work trial;тестування під навантаженням;Die Belastungserprobung **zeigt, ob der Mitarbeiter wieder voll arbeitsfähig ist**.
 die Arbeitserprobung, -en;work trial;випробування на робочому місці (оцінка працездатності);Eine Arbeitserprobung **hilft bei der Einschätzung der verbleibenden Leistungsfähigkeit**.
-die Berufsgenossenschaft (BG), -en;employers' liability insurance association;галузеве страхування від нещасних випадків;Die BG **entscheidet über die Gewährung einer Rente nach einem Arbeitsunfall**.
+die Berufsgenossenschaft (BG), -en;employers' liability insurance association;галузеве страхування від нещасних випадків;Die **Berufsgenossenschaft** entscheidet über die Gewährung einer Rente nach einem Arbeitsunfall.
 die Rentenausschuss, "-e;pension committee;пенсійний комітет;Der Rentenausschuss **prüft die Anträge auf Erwerbsminderungsrente**.
 die Erwerbsminderungsrente, -n;reduced-earning-capacity pension;пенсія по повній або частковій втраті працездатності;Die Erwerbsminderungsrente **stellt eine wichtige Absicherung bei Invalidität dar**.
 die Schwerbehinderung, -en;severe disability;важка інвалідність;Bei Vorliegen einer Schwerbehinderung **besteht Anspruch auf zusätzlichen Urlaub**.

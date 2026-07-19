@@ -121,7 +121,7 @@ sehen (sieht, sah, hat gesehen);to see;бачити;Der Steuerprüfer sah die Un
 sein (ist, war, ist gewesen);to be;бути;Das positive Betriebsergebnis ist ein großer Erfolg für die gesamte GmbH gewesen.
 senden (sendet, sandte/sendete, hat gesandt/gesendet);to send;надсилати;Der Arbeitnehmer hat die Krankmeldung fristgerecht per Einschreiben gesendet.
 singen (singt, sang, hat gesungen);to sing;співати;Der Firmenchor hat auf der Jubiläumsfeier ein Ständchen gesungen.
-sinken (sinkt, sank, ist gesunken);to sink, to decrease;падати, знижуватися;Dank der Lärmschutzmaßnahmen є der Schallpegel in der Werkhalle gesunken.
+sinken (sinkt, sank, ist gesunken);to sink, to decrease;падати, знижуватися;Dank der Lärmschutzmaßnahmen ist der Schallpegel in der Werkhalle gesunken.
 sitzen (sitzt, saß, hat/ist gesessen);to sit;сидіти;Der Sachbearbeiter der Elterngeldstelle saß den ganzen Tag am Schreibtisch.
 sollen (soll, sollte, hat gesollt / hat sollen);to should, to ought to;мусити, мати обов'язок;Wir sollten die Sicherheitsunterweisungen ernster nehmen.
 spinnen (spinnt, spann, hat gesponnen);to spin, to be crazy;прясти, плести, вередувати (про техніку);Das IT-Netzwerk in der Hauptverwaltung hat gestern komplett gesponnen.

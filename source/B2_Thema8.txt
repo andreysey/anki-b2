@@ -140,7 +140,7 @@ die Umsatzbezogene Geldbuße;turnover-related fine;штраф, що розрах
 die existenzbedrohend;existential threat / life-threatening (for a business);такий, що загрожує існуванню бізнесу;Der Liquiditätsengpass **entwickelte sich zu einer existenzbedrohenden Krise**.
 die Existenzsicherung (Sg.);securing existence / livelihood;забезпечення прожиткового мінімуму / існування;Die Existenzsicherung der Mitarbeiter **ist das oberste Ziel des Sozialplans**.
 die Insolvenzgeld, -er;insolvency payments (wages paid by labor agency during insolvency);допомога по банкрутству (виплата зарплати агентством праці);Das Insolvenzgeld **sichert die Lohnfortzahlung für drei Monate ab**.
-die Bundesagentur für Arbeit (BA) (Sg.);Federal Employment Agency;Федеральне агентство праці (BA);Die BA **zahlt das Insolvenzgeld im Falle einer Firmenpleite aus**.
+die Bundesagentur für Arbeit (BA) (Sg.);Federal Employment Agency;Федеральне агентство праці (BA);Die **Bundesagentur für Arbeit** zahlt das Insolvenzgeld im Falle einer Firmenpleite aus.
 die Firmenpleite, -n;company bankruptcy;банкрутство фірми;Die Firmenpleite **verursachte eine hohe Arbeitslosenquote in der Region**.
 die Pleite, -n;bankruptcy / bust;банкрутство, крах;Nach der Pleite **musste das Handwerksunternehmen geschlossen werden**.
 die Konkurs, -e;bankruptcy;банкрутство (застарілий термін, зараз Insolvenz);Der Konkurs **wurde mangels Masse nicht eröffnet**.
@@ -332,7 +332,7 @@ die Prüfungsbericht, -e;audit report;аудиторський звіт;Der Prü
 die Steuernachzahlung, -en;tax back-payment;доплата податку;Die Betriebsprüfung **führte zu einer erheblichen Steuernachzahlung**.
 die Nachzahlungszins, -en;interest on back-payments;відсотки за прострочення податкових платежів;Die Nachzahlungszinsen **erhöhen die finanzielle Belastung des Betriebs**.
 die Zinsberechnung, -en;interest calculation;розрахунок відсотків;Die Zinsberechnung **erfolgt nach den gesetzlichen Vorschriften der Abgabenordnung**.
-die Abgabenordnung (AO) (Sg.);Fiscal Code;Податковий кодекс (AO - процесуальний регламент податків);Die AO **regelt das steuerliche Ermittlungsverfahren des Finanzamts**.
+die Abgabenordnung (AO) (Sg.);Fiscal Code;Податковий кодекс (AO - процесуальний регламент податків);Die **Abgabenordnung** regelt das steuerliche Ermittlungsverfahren des Finanzamts.
 die Steuerbehörde, -n;tax authority;податковий орган;Die Steuerbehörde **kann bei begründetem Verdacht Kontrollen durchführen**.
 die Steuerfahndung, -en;tax investigation unit;податкова поліція (розслідування податкових злочинів);Die Steuerfahndung **durchsuchte die Geschäftsräume des Unternehmens**.
 die Hausdurchsuchung, -en;search of the premises;обшук приміщення (дому/офісу);Die Hausdurchsuchung **wurde vom Richter wegen Verdachts auf Steuerhinterziehung angeordnet**.

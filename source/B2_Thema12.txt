@@ -78,7 +78,7 @@ die Kindergeldauszahlung, -en;child benefit payment;виплата допомо�
 die Elterngeldstelle, -n;parental allowance office;відомство з виплати батьківської допомоги;Die Elterngeldstelle **prüft den Elterngeldantrag auf Vollständigkeit**.
 der Elterngeldantrag, "-e;parental allowance application;заява на отримання батьківської допомоги;Bitte **reichen Sie den Elterngeldantrag innerhalb der gesetzlichen Frist ein**.
 die Elterngeldbezug, "-e;receipt of parental allowance;період отримання батьківської допомоги;Während des Elterngeldbezugs **darf man in Teilzeit weiterarbeiten**.
-die Bundesagentur für Arbeit (BA) (Sg.);Federal Employment Agency;Федеральне агентство праці (BA);Die BA **unterstützt Arbeitssuchende bei der Stellensuche**.
+die Bundesagentur für Arbeit (BA) (Sg.);Federal Employment Agency;Федеральне агентство праці (BA);Die **Bundesagentur für Arbeit** unterstützt Arbeitssuchende bei der Stellensuche.
 die Agentur für Arbeit (Sg.);Employment Agency;Агентство праці (локальне);Die Agentur für Arbeit **erteilt Auskünfte über Weiterbildungsmaßnahmen**.
 das Jobcenter, -;job center;центр зайнятості;Das Jobcenter **ist für die Grundsicherung für Arbeitsuchende zuständig**.
 die Bürgergeld (Sg.);citizen's income (basic social welfare in Germany);громадянська допомога (Bürgergeld);Das Bürgergeld **sichert das verfassungsrechtliche Existenzminimum ab**.

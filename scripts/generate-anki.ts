@@ -209,7 +209,7 @@ export async function generateAnkiDeck(
 
       const wordAudio     = cleanGermanForAudio(wordDisplay);   // German_Audio
       const germanColored = colorizeGender(wordDisplay);        // German (with <span>)
-      const exampleHtml   = highlightWordInExample(wordAudio, exampleRaw); // Example
+      const exampleHtml   = highlightWordInExample(wordAudio, exampleRaw, wordDisplay); // Example
 
       // Check if translation is missing
       if (!english) {

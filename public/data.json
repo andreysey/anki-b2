@@ -57,7 +57,7 @@
     "german_audio": "auf|fallen",
     "english": "to stand out, to be noticeable",
     "ukrainian": "впадати в око",
-    "example": "Im Rahmen der Revision **ist sofort aufgefallen, dass Buchungsbelege im Jahresabschluss fehlen**."
+    "example": "Im Rahmen der Revision **ist sofort <b style=\"color: #eab308;\">aufgefallen</b>, dass Buchungsbelege im Jahresabschluss fehlen**."
   },
   {
     "level": "B1+",
@@ -69,7 +69,7 @@
     "german_audio": "bestehen",
     "english": "to pass (an exam)",
     "ukrainian": "скласти (іспит)",
-    "example": "Nach intensiver Prüfungsvorbereitung **hat der Auszubildende den Erstversuch mit Erfolg <b style=\"color: #eab308;\">bestanden</b>**."
+    "example": "Nach intensiver <b style=\"color: #eab308;\">Prüfungsvorbereitung</b> **hat der Auszubildende den Erstversuch mit Erfolg bestanden**."
   },
   {
     "level": "B1+",
@@ -81,7 +81,7 @@
     "german_audio": "das Berufsinformationszentrum",
     "english": "career information center",
     "ukrainian": "центр профорієнтації",
-    "example": "Im BIZ **erhalten <b style=\"color: #eab308;\">Berufseinsteiger</b> nützliche Auskünfte über Umschulungsmaßnahmen**."
+    "example": "Im <b style=\"color: #eab308;\">BIZ</b> **erhalten Berufseinsteiger nützliche Auskünfte über Umschulungsmaßnahmen**."
   },
   {
     "level": "B1+",
@@ -118,7 +118,7 @@
     "german_audio": "ein|stellen",
     "english": "to hire someone",
     "ukrainian": "наймати когось",
-    "example": "Die Geschäftsführung **beschließt, im nächsten Quartal drei neue Fachkräfte einzustellen**."
+    "example": "Die Geschäftsführung **beschließt, im nächsten Quartal drei neue Fachkräfte <b style=\"color: #eab308;\">einzustellen</b>**."
   },
   {
     "level": "B1+",
@@ -240,7 +240,7 @@
     "german_audio": "jdm. etw. raten",
     "english": "to advise someone",
     "ukrainian": "радити комусь щось",
-    "example": "Der Sicherheitsbeauftragte **hat mir geraten, die Evakuierungsübung ernst zu nehmen**."
+    "example": "Der Sicherheitsbeauftragte **hat mir <b style=\"color: #eab308;\">geraten</b>, die Evakuierungsübung ernst zu nehmen**."
   },
   {
     "level": "B1+",
@@ -264,7 +264,7 @@
     "german_audio": "steigen",
     "english": "to rise, to climb",
     "ukrainian": "підніматися, зростати",
-    "example": "<b>Aus der Grafik geht hervor, dass</b> die Zahl der Arbeitsunfälle stetig gestiegen ist."
+    "example": "<b>Aus der Grafik geht hervor, dass</b> die Zahl der Arbeitsunfälle stetig <b style=\"color: #eab308;\">gestiegen</b> ist."
   },
   {
     "level": "B1+",
@@ -339,7 +339,7 @@
     "german_audio": "der Antrag",
     "english": "application, request",
     "ukrainian": "заява",
-    "example": "Der Kindergeldantrag **muss schriftlich bei der zuständigen Familienkasse eingereicht werden**."
+    "example": "Der <b style=\"color: #eab308;\">Kindergeldantrag</b> **muss schriftlich bei der zuständigen Familienkasse eingereicht werden**."
   },
   {
     "level": "B1+",
@@ -351,7 +351,7 @@
     "german_audio": "einen Antrag stellen",
     "english": "to submit an application",
     "ukrainian": "падавати заяву",
-    "example": "Der Schuldner **hat einen <b style=\"color: #eab308;\">Antrag</b> auf Stundung der Steuerschuld gestellt**."
+    "example": "Der Schuldner **hat einen Antrag auf Stundung der Steuerschuld <b style=\"color: #eab308;\">gestellt</b>**."
   },
   {
     "level": "B1+",
@@ -375,7 +375,7 @@
     "german_audio": "auf|wachsen",
     "english": "to grow up",
     "ukrainian": "виростати",
-    "example": "Er ist zweisprachig aufgewachsen, **was für die internationale Kundenpflege sehr vorteilhaft ist**."
+    "example": "Er ist zweisprachig <b style=\"color: #eab308;\">aufgewachsen</b>, **was für die internationale Kundenpflege sehr vorteilhaft ist**."
   },
   {
     "level": "B1+",
@@ -387,7 +387,7 @@
     "german_audio": "der Berater",
     "english": "advisor, counselor",
     "ukrainian": "консультант/-ка",
-    "example": "Der Rentenberater **erteilt den Versicherten detaillierte Auskünfte über ihre Rentenanwartschaften**."
+    "example": "Der <b style=\"color: #eab308;\">Rentenberater</b> **erteilt den Versicherten detaillierte Auskünfte über ihre Rentenanwartschaften**."
   },
   {
     "level": "B1+",
@@ -423,7 +423,7 @@
     "german_audio": "das Einkommen",
     "english": "income",
     "ukrainian": "дохід",
-    "example": "Das Nettoeinkommen **ist nach dem Abzug aller Abgaben und Steuern maßgeblich**."
+    "example": "Das <b style=\"color: #eab308;\">Nettoeinkommen</b> **ist nach dem Abzug aller Abgaben und Steuern maßgeblich**."
   },
   {
     "level": "B1+",
@@ -508,7 +508,7 @@
     "german_audio": "einen Kredit bewilligen",
     "english": "to approve a loan",
     "ukrainian": "надавати кредит",
-    "example": "Die Sparkasse **hat den <b style=\"color: #eab308;\">Kredit</b> für die Anschaffungskosten der Maschinen bewilligt**."
+    "example": "Die Sparkasse **hat den Kredit für die Anschaffungskosten der Maschinen <b style=\"color: #eab308;\">bewilligt</b>**."
   },
   {
     "level": "B1+",
@@ -1801,7 +1801,7 @@
     "german_audio": "sich freuen über",
     "english": "to be happy about",
     "ukrainian": "радіти (чомусь, що вже є)",
-    "example": "Die Belegschaft **freut <b style=\"color: #eab308;\">sich</b> über die Bewilligung des zusätzlichen Weihnachtsgelds**."
+    "example": "Die Belegschaft **<b style=\"color: #eab308;\">freut</b> sich über die Bewilligung des zusätzlichen Weihnachtsgelds**."
   },
   {
     "level": "B1+",
@@ -1813,7 +1813,7 @@
     "german_audio": "gehören zu",
     "english": "to belong to",
     "ukrainian": "належати до",
-    "example": "Das Führen des Berichtshefts **gehört zu den Pflichten eines Auszubildenden**."
+    "example": "Das Führen des Berichtshefts **<b style=\"color: #eab308;\">gehört</b> zu den Pflichten eines Auszubildenden**."
   },
   {
     "level": "B1+",
@@ -1986,7 +1986,7 @@
     "german_audio": "die Vereinbarung",
     "english": "agreement",
     "ukrainian": "угода, домовленість",
-    "example": "Die Betriebsvereinbarung **enthält wichtige Regelungen zum betrieblichen Gesundheitsschutz**."
+    "example": "Die <b style=\"color: #eab308;\">Betriebsvereinbarung</b> **enthält wichtige Regelungen zum betrieblichen Gesundheitsschutz**."
   },
   {
     "level": "B1+",
@@ -2288,7 +2288,7 @@
     "german_audio": "sich verabschieden",
     "english": "to say goodbye",
     "ukrainian": "прощатися",
-    "example": "Er hat <b style=\"color: #eab308;\">sich</b> gestern **offiziell von allen Kollegen in den Ruhestand verabschiedet**."
+    "example": "Er hat sich gestern **offiziell von allen Kollegen in den Ruhestand <b style=\"color: #eab308;\">verabschiedet</b>**."
   },
   {
     "level": "B1+",
@@ -2689,7 +2689,7 @@
     "german_audio": "vor|schreiben",
     "english": "to prescribe, to mandate",
     "ukrainian": "приписувати, зобов'язувати",
-    "example": "Die Brandschutzordnung **schreibt vor, wie man sich im Evakuierungsfall zu verhalten hat**."
+    "example": "Die Brandschutzordnung **<b style=\"color: #eab308;\">schreibt vor</b>, wie man sich im Evakuierungsfall zu verhalten hat**."
   },
   {
     "level": "B1+",
@@ -2787,7 +2787,7 @@
     "german_audio": "die Regel",
     "english": "legal rule",
     "ukrainian": "законне правило",
-    "example": "Wir müssen uns **an die gesetzlichen <b style=\"color: #eab308;\">Regeln</b> zur Vermeidung von Gefahren halten**."
+    "example": "Wir müssen uns **an die <b style=\"color: #eab308;\">gesetzlichen</b> Regeln zur Vermeidung von Gefahren halten**."
   },
   {
     "level": "B1+",
@@ -3261,7 +3261,7 @@
     "german_audio": "die Anlage",
     "english": "technical system / equipment",
     "ukrainian": "технічна установка",
-    "example": "Die technische <b style=\"color: #eab308;\">Anlage</b> **muss regelmäßig auf ihre Betriebssicherheit überprüft werden**."
+    "example": "Die <b style=\"color: #eab308;\">technische</b> Anlage **muss regelmäßig auf ihre Betriebssicherheit überprüft werden**."
   },
   {
     "level": "B1+",
@@ -3617,7 +3617,7 @@
     "german_audio": "jdn.",
     "english": "to promote, to transport",
     "ukrainian": "підвищувати (на посаді), перевозити",
-    "example": "Er wurde wegen seiner hervorragenden Leistungen **zum Vorarbeiter befördert**."
+    "example": "Er wurde wegen seiner hervorragenden Leistungen **zum Vorarbeiter <b style=\"color: #eab308;\">befördert</b>**."
   },
   {
     "level": "B1+",
@@ -3981,7 +3981,7 @@
     "german_audio": "sich beschweren",
     "english": "to complain",
     "ukrainian": "скаржитися",
-    "example": "Der Mitarbeiter **beschwert <b style=\"color: #eab308;\">sich</b> beim Betriebsrat über die mangelhafte Arbeitsplatzausstattung**."
+    "example": "Der Mitarbeiter **<b style=\"color: #eab308;\">beschwert sich</b> beim Betriebsrat über die mangelhafte Arbeitsplatzausstattung**."
   },
   {
     "level": "B1+",
@@ -4017,7 +4017,7 @@
     "german_audio": "ein|geben",
     "english": "to enter (data)",
     "ukrainian": "вводити (дані)",
-    "example": "Bitte **geben Sie die Lieferdaten sorgfältig in das EDV-System ein**."
+    "example": "Bitte **<b style=\"color: #eab308;\">geben</b> Sie die Lieferdaten sorgfältig in das EDV-System ein**."
   },
   {
     "level": "B1+",
@@ -4273,7 +4273,7 @@
     "german_audio": "der Vertrag",
     "english": "contract",
     "ukrainian": "контракт, договір",
-    "example": "Der schriftliche Arbeitsvertrag **muss vor dem Arbeitsbeginn unterzeichnet werden**."
+    "example": "Der schriftliche <b style=\"color: #eab308;\">Arbeitsvertrag</b> **muss vor dem Arbeitsbeginn unterzeichnet werden**."
   },
   {
     "level": "B1+",
@@ -4333,7 +4333,7 @@
     "german_audio": "sich binden an",
     "english": "to commit oneself to",
     "ukrainian": "зв'язувати себе зобов'язаннями",
-    "example": "Durch den Vertrag **bindet <b style=\"color: #eab308;\">sich</b> das Familienunternehmen langfristig an den Lieferanten**."
+    "example": "Durch den Vertrag **<b style=\"color: #eab308;\">bindet</b> sich das Familienunternehmen langfristig an den Lieferanten**."
   },
   {
     "level": "B1+",
@@ -4685,7 +4685,7 @@
     "german_audio": "ausreden lassen",
     "english": "to let someone finish speaking",
     "ukrainian": "давати комусь договорити",
-    "example": "Bei Besprechungen **sollte man die anderen Teilnehmer stets <b style=\"color: #eab308;\">ausreden</b> lassen**."
+    "example": "Bei Besprechungen **sollte man die anderen Teilnehmer stets <b style=\"color: #eab308;\">ausreden lassen</b>**."
   },
   {
     "level": "B1+",
@@ -4818,7 +4818,7 @@
     "german_audio": "der Alltag",
     "english": "everyday life",
     "ukrainian": "будні, повсякденне життя",
-    "example": "Der Berufsalltag **erfordert ein hohes Maß an zeitlicher Flexibilität**."
+    "example": "Der <b style=\"color: #eab308;\">Berufsalltag</b> **erfordert ein hohes Maß an zeitlicher Flexibilität**."
   },
   {
     "level": "B1+",
@@ -5014,7 +5014,7 @@
     "german_audio": "sinken",
     "english": "to sink, to decrease",
     "ukrainian": "падати, знижуватися",
-    "example": "<b>Aus der Grafik geht hervor, dass</b> der Absatz der Produkte gesunken ist."
+    "example": "<b>Aus der Grafik geht hervor, dass</b> der Absatz der Produkte <b style=\"color: #eab308;\">gesunken</b> ist."
   },
   {
     "level": "B1+",
@@ -5427,7 +5427,7 @@
     "german_audio": "ein|führen",
     "english": "to introduce",
     "ukrainian": "запроваджувати",
-    "example": "Die Geschäftsführung **beschließt, ein digitales Dokumentenmanagement einzuführen**."
+    "example": "Die Geschäftsführung **beschließt, ein digitales Dokumentenmanagement <b style=\"color: #eab308;\">einzuführen</b>**."
   },
   {
     "level": "B1+",
@@ -6651,7 +6651,7 @@
     "german_audio": "das Corporate Social Responsibility",
     "english": "corporate social responsibility",
     "ukrainian": "корпоративна соціальна відповідальність",
-    "example": "Unser CSR-Engagement **findet große Beachtung in den Medien**."
+    "example": "Unser <b style=\"color: #eab308;\">CSR</b>-Engagement **findet große Beachtung in den Medien**."
   },
   {
     "level": "B2",
@@ -7227,7 +7227,7 @@
     "german_audio": "nahelegen",
     "english": "to suggest (e.g., a conclusion)",
     "ukrainian": "наводити на думку, підказувати",
-    "example": "Die vorliegenden Ergebnisse <b>legen den Schluss <b style=\"color: #eab308;\">nahe</b>, dass</b> wir die Abläufe optimieren müssen."
+    "example": "Die vorliegenden Ergebnisse <b>legen den Schluss nahe, dass</b> wir die Abläufe optimieren müssen."
   },
   {
     "level": "B2",
@@ -7371,7 +7371,7 @@
     "german_audio": "warten",
     "english": "to maintain (e.g., equipment)",
     "ukrainian": "обслуговувати технічно",
-    "example": "Die Maschinen **müssen regelmäßig gewartet werden, um Mängel zu vermeiden**."
+    "example": "Die <b style=\"color: #eab308;\">Maschinen</b> **müssen regelmäßig gewartet werden, um Mängel zu vermeiden**."
   },
   {
     "level": "B2",
@@ -7491,7 +7491,7 @@
     "german_audio": "einstellen",
     "english": "to hire, to employ",
     "ukrainian": "наймати на роботу",
-    "example": "Die Geschäftsführung hat beschlossen, neue Fachkräfte <b>einzustellen</b>."
+    "example": "Die Geschäftsführung hat beschlossen, neue Fachkräfte <b><b style=\"color: #eab308;\">einzustellen</b></b>."
   },
   {
     "level": "B2",
@@ -8091,7 +8091,7 @@
     "german_audio": "zusammenhängen mit",
     "english": "to be connected with",
     "ukrainian": "пов'язано з",
-    "example": "Die Verzögerungen **hängen eng mit Lieferproblemen beim Zulieferer zusammen**."
+    "example": "Die Verzögerungen **<b style=\"color: #eab308;\">hängen</b> eng mit Lieferproblemen beim Zulieferer zusammen**."
   },
   {
     "level": "B2",
@@ -8667,7 +8667,7 @@
     "german_audio": "der Fortschritt",
     "english": "(medical) progress",
     "ukrainian": "(медичний) прогрес",
-    "example": "<b>Aus den Berichten geht hervor, dass</b> der medizinische <b style=\"color: #eab308;\">Fortschritt</b> viele neue Heilungsmethoden ermöglicht."
+    "example": "<b>Aus den Berichten geht hervor, dass</b> der <b style=\"color: #eab308;\">medizinische</b> Fortschritt viele neue Heilungsmethoden ermöglicht."
   },
   {
     "level": "B2",
@@ -9063,7 +9063,7 @@
     "german_audio": "verfügen über",
     "english": "to possess, to have at one's disposal",
     "ukrainian": "володіти, мати в розпорядженні",
-    "example": "Die neue Bewerberin **verfügt <b style=\"color: #eab308;\">über</b> alle erforderlichen Qualifikationen**."
+    "example": "Die neue Bewerberin **<b style=\"color: #eab308;\">verfügt</b> über alle erforderlichen Qualifikationen**."
   },
   {
     "level": "B2",
@@ -11451,7 +11451,7 @@
     "german_audio": "Bescheid bekommen",
     "english": "to be informed, to receive notice",
     "ukrainian": "отримати повідомлення / відповідь",
-    "example": "Wir werden nächste Woche **<b style=\"color: #eab308;\">Bescheid</b> bekommen**, ob die Bewerbung erfolgreich war."
+    "example": "Wir werden nächste Woche **Bescheid <b style=\"color: #eab308;\">bekommen</b>**, ob die Bewerbung erfolgreich war."
   },
   {
     "level": "B2",
@@ -12039,7 +12039,7 @@
     "german_audio": "ausfüllen",
     "english": "to fill in/out (a form)",
     "ukrainian": "заповнювати (форму, анкету)",
-    "example": "Bitte <b>füllen Sie das Formular für die Zeiterfassung vollständig aus</b>."
+    "example": "Bitte <b><b style=\"color: #eab308;\">füllen</b> Sie das Formular für die Zeiterfassung vollständig aus</b>."
   },
   {
     "level": "B2",
@@ -12171,7 +12171,7 @@
     "german_audio": "sich krankmelden",
     "english": "to report sick",
     "ukrainian": "повідомляти про хворобу (брати лікарняний)",
-    "example": "Er hat <b style=\"color: #eab308;\">sich</b> heute **wegen einer Erkältung krankgemeldet**."
+    "example": "Er hat sich heute **wegen einer Erkältung <b style=\"color: #eab308;\">krankgemeldet</b>**."
   },
   {
     "level": "B2",
@@ -12687,7 +12687,7 @@
     "german_audio": "die Berufsgenossenschaft",
     "english": "employers' liability insurance association",
     "ukrainian": "галузеве страхування від нещасних випадків",
-    "example": "Die BG **entscheidet über die Gewährung einer Rente nach einem Arbeitsunfall**."
+    "example": "Die **<b style=\"color: #eab308;\">Berufsgenossenschaft</b>** entscheidet über die Gewährung einer Rente nach einem Arbeitsunfall."
   },
   {
     "level": "B2",
@@ -12891,7 +12891,7 @@
     "german_audio": "die Integrationsfachdienst",
     "english": "integration specialist service",
     "ukrainian": "інтеграційна спеціалізована служба",
-    "example": "Der IFD **unterstützt schwerbehinderte Menschen bei der Arbeitssuche**."
+    "example": "Der <b style=\"color: #eab308;\">IFD</b> **unterstützt schwerbehinderte Menschen bei der Arbeitssuche**."
   },
   {
     "level": "B2",
@@ -12903,7 +12903,7 @@
     "german_audio": "die Berufsbegleitende Dienst",
     "english": "occupational support service",
     "ukrainian": "служба супроводу на робочому місці",
-    "example": "Der BBD **hilft bei der Lösung von Konflikten am Arbeitsplatz**."
+    "example": "Der <b style=\"color: #eab308;\">BBD</b> **hilft bei der Lösung von Konflikten am Arbeitsplatz**."
   },
   {
     "level": "B2",
@@ -13791,7 +13791,7 @@
     "german_audio": "Druck machen",
     "english": "to put pressure on",
     "ukrainian": "тиснути",
-    "example": "Der Vorgesetzte macht <b style=\"color: #eab308;\">Druck</b>, um **die Einhaltung des Fertigstellungstermins abzusichern**."
+    "example": "Der Vorgesetzte <b style=\"color: #eab308;\">macht</b> Druck, um **die Einhaltung des Fertigstellungstermins abzusichern**."
   },
   {
     "level": "B2",
@@ -14007,7 +14007,7 @@
     "german_audio": "jdm. zusagen",
     "english": "to accept / confirm to someone",
     "ukrainian": "давати згоду (комусь)",
-    "example": "Wir haben dem Bewerber **die gewünschte Einstiegsposition fest zugesagt**."
+    "example": "Wir haben dem Bewerber **die gewünschte Einstiegsposition fest <b style=\"color: #eab308;\">zugesagt</b>**."
   },
   {
     "level": "B2",
@@ -14043,7 +14043,7 @@
     "german_audio": "die Auskunft",
     "english": "information",
     "ukrainian": "інформація, довідка",
-    "example": "Die Informationstheke **erteilt <b style=\"color: #eab308;\">Auskünfte</b> über alle Belange der Jobmesse**."
+    "example": "Die Informationstheke **erteilt Auskünfte über alle Belange der Jobmesse**."
   },
   {
     "level": "B2",
@@ -14535,7 +14535,7 @@
     "german_audio": "das Kundenbeziehungsmanagement",
     "english": "customer relationship management (CRM)",
     "ukrainian": "управління відносинами з клієнтами (CRM)",
-    "example": "Das neue CRM-System **erleichtert die Pflege der <b style=\"color: #eab308;\">Kundenkontakte</b>**."
+    "example": "Das neue <b style=\"color: #eab308;\">CRM</b>-System **erleichtert die Pflege der Kundenkontakte**."
   },
   {
     "level": "B2",
@@ -14883,7 +14883,7 @@
     "german_audio": "auftauchen",
     "english": "to appear, to pop up",
     "ukrainian": "з'являтися, виникати",
-    "example": "Nach dem Softwareupdate **sind unerwartete Probleme beim Zeiterfassungssystem aufgetaucht**."
+    "example": "Nach dem Softwareupdate **sind unerwartete Probleme beim Zeiterfassungssystem <b style=\"color: #eab308;\">aufgetaucht</b>**."
   },
   {
     "level": "B2",
@@ -15051,7 +15051,7 @@
     "german_audio": "lagern",
     "english": "to store",
     "ukrainian": "зберігати",
-    "example": "Die Werkzeuge **müssen sicher im dafür vorgesehenen Bereich gelagert werden**."
+    "example": "Die Werkzeuge **müssen sicher im dafür vorgesehenen Bereich <b style=\"color: #eab308;\">gelagert</b> werden**."
   },
   {
     "level": "B2",
@@ -17775,7 +17775,7 @@
     "german_audio": "die Landesarbeitsgericht",
     "english": "regional labor court",
     "ukrainian": "земельний (апеляційний) трудовий суд",
-    "example": "Das LAG **ist für die Verhandlung der Berufung zuständig**."
+    "example": "Das <b style=\"color: #eab308;\">LAG</b> **ist für die Verhandlung der Berufung zuständig**."
   },
   {
     "level": "B2",
@@ -17787,7 +17787,7 @@
     "german_audio": "die Bundesarbeitsgericht",
     "english": "Federal Labor Court",
     "ukrainian": "Федеральний трудовий суд",
-    "example": "Das BAG **ist die höchste Instanz in der deutschen Arbeitsgerichtsbarkeit**."
+    "example": "Das <b style=\"color: #eab308;\">BAG</b> **ist die höchste Instanz in der deutschen Arbeitsgerichtsbarkeit**."
   },
   {
     "level": "B2",
@@ -17871,7 +17871,7 @@
     "german_audio": "die Bundesverfassungsgericht",
     "english": "Federal Constitutional Court",
     "ukrainian": "Федеральний конституційний суд",
-    "example": "Das BVerfG **kann Gesetze für verfassungswidrig und ungültig erklären**."
+    "example": "Das <b style=\"color: #eab308;\">BVerfG</b> **kann Gesetze für verfassungswidrig und ungültig erklären**."
   },
   {
     "level": "B2",
@@ -18723,7 +18723,7 @@
     "german_audio": "die Verbraucherpreisindex",
     "english": "consumer price index (CPI)",
     "ukrainian": "індекс споживчих цін (ІСЦ)",
-    "example": "Der VPI **dient als Maßstab für die Messung der Inflation**."
+    "example": "Der <b style=\"color: #eab308;\">VPI</b> **dient als Maßstab für die Messung der Inflation**."
   },
   {
     "level": "B2",
@@ -19731,7 +19731,7 @@
     "german_audio": "die Wohnberechtigungsschein",
     "english": "subsidized housing certificate (WBS)",
     "ukrainian": "дозвіл на оренду соціального житла (WBS)",
-    "example": "Mit dem WBS **kann man eine preisgünstige Sozialwohnung anmieten**."
+    "example": "Mit dem <b style=\"color: #eab308;\">WBS</b> **kann man eine preisgünstige Sozialwohnung anmieten**."
   },
   {
     "level": "B2",
@@ -19959,7 +19959,7 @@
     "german_audio": "die Minderung der Erwerbsfähigkeit",
     "english": "reduction in earning capacity",
     "ukrainian": "зниження працездатності (MdE)",
-    "example": "Die MdE **wird durch ein medizinisches Gutachten festgelegt**."
+    "example": "Die <b style=\"color: #eab308;\">MdE</b> **wird durch ein medizinisches Gutachten festgelegt**."
   },
   {
     "level": "B2",
@@ -20079,7 +20079,7 @@
     "german_audio": "die Handwerksordnung",
     "english": "crafts code",
     "ukrainian": "статут (регламент) ремісничої діяльності",
-    "example": "Die HwO **regelt die Voraussetzungen für das Betreiben eines <b style=\"color: #eab308;\">Handwerks</b>**."
+    "example": "Die <b style=\"color: #eab308;\">HwO</b> **regelt die Voraussetzungen für das Betreiben eines Handwerks**."
   },
   {
     "level": "B2",
@@ -20127,7 +20127,7 @@
     "german_audio": "die Innungskrankenkasse",
     "english": "guild health insurance",
     "ukrainian": "цехова лікарняна каса (IKK)",
-    "example": "Die IKK **gehört zu den gesetzlichen Krankenkassen в Німеччині**."
+    "example": "Die <b style=\"color: #eab308;\">IKK</b> **gehört zu den gesetzlichen Krankenkassen в Німеччині**."
   },
   {
     "level": "B2",
@@ -21303,7 +21303,7 @@
     "german_audio": "die Umsatzsteuer-Identifikationsnummer",
     "english": "VAT registration number",
     "ukrainian": "індивідуальний податковий номер ПДВ (USt-IdNr.)",
-    "example": "Die USt-IdNr. **ist für Geschäfte innerhalb der EU zwingend vorgeschrieben**."
+    "example": "Die <b style=\"color: #eab308;\">USt-IdNr.</b> **ist für Geschäfte innerhalb der EU zwingend vorgeschrieben**."
   },
   {
     "level": "B2",
@@ -21387,7 +21387,7 @@
     "german_audio": "die Gewinn- und Verlustrechnung",
     "english": "profit and loss account (P&L)",
     "ukrainian": "звіт про прибутки та збитки (GuV)",
-    "example": "Die GuV **weist das Ergebnis des Geschäftsjahres fehlerfrei aus**."
+    "example": "Die <b style=\"color: #eab308;\">GuV</b> **weist das Ergebnis des Geschäftsjahres fehlerfrei aus**."
   },
   {
     "level": "B2",
@@ -22095,7 +22095,7 @@
     "german_audio": "sorgen für",
     "english": "to ensure, to take care of",
     "ukrainian": "піклуватися про, забезпечувати",
-    "example": "Eine ergonomische Arbeitsplatzausstattung **sorgt <b style=\"color: #eab308;\">für</b> den Erhalt der Leistungsfähigkeit**."
+    "example": "Eine ergonomische Arbeitsplatzausstattung **<b style=\"color: #eab308;\">sorgt</b> für den Erhalt der Leistungsfähigkeit**."
   },
   {
     "level": "B2",
@@ -22179,7 +22179,7 @@
     "german_audio": "auffordern",
     "english": "to request, to ask",
     "ukrainian": "закликати, вимагати",
-    "example": "Der Abteilungsleiter **fordert die Mitarbeiter auf, die Stundenzettel einzureichen**."
+    "example": "Der Abteilungsleiter **<b style=\"color: #eab308;\">fordert</b> die Mitarbeiter auf, die Stundenzettel einzureichen**."
   },
   {
     "level": "B2",
@@ -22839,7 +22839,7 @@
     "german_audio": "die Allgemeine Geschäftsbedingungen",
     "english": "general terms and conditions (AGB)",
     "ukrainian": "загальні умови угоди (AGB)",
-    "example": "Mit der Unterschrift **bestätigen Sie das Einverständnis mit unseren AGB**."
+    "example": "Mit der Unterschrift **bestätigen Sie das Einverständnis mit unseren <b style=\"color: #eab308;\">AGB</b>**."
   },
   {
     "level": "B2",
@@ -23127,7 +23127,7 @@
     "german_audio": "die Kartellamt",
     "english": "Federal Cartel Office",
     "ukrainian": "Федеральне відомство з картелів (антимонопольний комітет)",
-    "example": "Das Bundeskartellamt **prüft Fusionen von großen Unternehmen**."
+    "example": "Das <b style=\"color: #eab308;\">Bundeskartellamt</b> **prüft Fusionen von großen Unternehmen**."
   },
   {
     "level": "B2",
@@ -23319,7 +23319,7 @@
     "german_audio": "die Bundesagentur für Arbeit",
     "english": "Federal Employment Agency",
     "ukrainian": "Федеральне агентство праці (BA)",
-    "example": "Die BA **zahlt das Insolvenzgeld im Falle einer Firmenpleite aus**."
+    "example": "Die **<b style=\"color: #eab308;\">Bundesagentur</b> für Arbeit** zahlt das Insolvenzgeld im Falle einer Firmenpleite aus."
   },
   {
     "level": "B2",
@@ -23955,7 +23955,7 @@
     "german_audio": "die Sozialgesetzbuch",
     "english": "Social Code",
     "ukrainian": "Соціальний кодекс (SGB)",
-    "example": "Das SGB **beinhaltet alle Rechtsnormen zur <b style=\"color: #eab308;\">Sozialversicherung</b>**."
+    "example": "Das <b style=\"color: #eab308;\">SGB</b> **beinhaltet alle Rechtsnormen zur Sozialversicherung**."
   },
   {
     "level": "B2",
@@ -24495,7 +24495,7 @@
     "german_audio": "die Bruttoinlandsprodukt",
     "english": "gross domestic product (GDP)",
     "ukrainian": "валовий внутрішній продукт (ВВП)",
-    "example": "Das BIP **ist der wichtigste Indikator für die wirtschaftliche Leistungsfähigkeit**."
+    "example": "Das <b style=\"color: #eab308;\">BIP</b> **ist der wichtigste Indikator für die wirtschaftliche Leistungsfähigkeit**."
   },
   {
     "level": "B2",
@@ -25419,7 +25419,7 @@
     "german_audio": "die Einfuhrumsatzsteuer",
     "english": "import turnover tax",
     "ukrainian": "імпортний ПДВ (EUSt)",
-    "example": "Die EUSt **wird von der Zollbehörde bei der <b style=\"color: #eab308;\">Einfuhr</b> erhoben**."
+    "example": "Die <b style=\"color: #eab308;\">EUSt</b> **wird von der Zollbehörde bei der Einfuhr erhoben**."
   },
   {
     "level": "B2",
@@ -25599,7 +25599,7 @@
     "german_audio": "die Abgabenordnung",
     "english": "Fiscal Code",
     "ukrainian": "Податковий кодекс (AO - процесуальний регламент податків)",
-    "example": "Die AO **regelt das steuerliche Ermittlungsverfahren des Finanzamts**."
+    "example": "Die **<b style=\"color: #eab308;\">Abgabenordnung</b>** regelt das steuerliche Ermittlungsverfahren des Finanzamts."
   },
   {
     "level": "B2",
@@ -25971,7 +25971,7 @@
     "german_audio": "die Deutsche Rentenversicherung",
     "english": "German Pension Insurance",
     "ukrainian": "Німецьке пенсійне страхування (DRV)",
-    "example": "Die DRV **prüft den sozialversicherungsrechtlichen Status der Mitarbeiter**."
+    "example": "Die <b style=\"color: #eab308;\">DRV</b> **prüft den sozialversicherungsrechtlichen Status der Mitarbeiter**."
   },
   {
     "level": "B2",
@@ -26043,7 +26043,7 @@
     "german_audio": "die Rückstand",
     "english": "arrears / backlog",
     "ukrainian": "заборгованість, відставання",
-    "example": "Der Mietrückstand **ist ein gesetzlicher Kündigungsgrund für den Vermieter**."
+    "example": "Der <b style=\"color: #eab308;\">Mietrückstand</b> **ist ein gesetzlicher Kündigungsgrund für den Vermieter**."
   },
   {
     "level": "B2",
@@ -26415,7 +26415,7 @@
     "german_audio": "konfrontieren mit",
     "english": "to confront someone with",
     "ukrainian": "зіштовхувати когось із, пред'являти",
-    "example": "Die Arbeitsschutzbehörde **konfrontiert den Betrieb mit den schweren Pflichtverstößen**."
+    "example": "Die Arbeitsschutzbehörde **<b style=\"color: #eab308;\">konfrontiert</b> den Betrieb mit den schweren Pflichtverstößen**."
   },
   {
     "level": "B2",
@@ -26715,7 +26715,7 @@
     "german_audio": "sich herausstellen",
     "english": "to turn out",
     "ukrainian": "з'ясовуватися, виявлятися",
-    "example": "<b>Es stellte <b style=\"color: #eab308;\">sich</b> heraus, dass</b> der Wegeunfall durch Fahrlässigkeit verursacht wurde."
+    "example": "<b>Es <b style=\"color: #eab308;\">stellte sich heraus</b>, dass</b> der Wegeunfall durch Fahrlässigkeit verursacht wurde."
   },
   {
     "level": "B2",
@@ -27387,7 +27387,7 @@
     "german_audio": "die Pfändungsschutzkonto",
     "english": "seizure protection account",
     "ukrainian": "банківський рахунок із захистом від арешту (P-Konto)",
-    "example": "Das P-Konto **schützt das <b style=\"color: #eab308;\">pfändungsfreie</b> Einkommen vor dem Zugriff der Gläubiger**."
+    "example": "Das <b style=\"color: #eab308;\">P-Konto</b> **schützt das pfändungsfreie Einkommen vor dem Zugriff der Gläubiger**."
   },
   {
     "level": "B2",
@@ -27495,7 +27495,7 @@
     "german_audio": "die Amtsgericht",
     "english": "district court",
     "ukrainian": "дільничний (районний) суд (Amtsgericht)",
-    "example": "Das AG **ist für zivilrechtliche Streitigkeiten mit geringem Streitwert zuständig**."
+    "example": "Das **<b style=\"color: #eab308;\">Amtsgericht</b>** ist für zivilrechtliche Streitigkeiten mit geringem Streitwert zuständig."
   },
   {
     "level": "B2",
@@ -27519,7 +27519,7 @@
     "german_audio": "die Zivilprozessordnung",
     "english": "Code of Civil Procedure",
     "ukrainian": "Цивільний процесуальний кодекс (ZPO)",
-    "example": "Die ZPO **regelt den Ablauf der Zwangsvollstreckung**."
+    "example": "Die <b style=\"color: #eab308;\">ZPO</b> **regelt den Ablauf der Zwangsvollstreckung**."
   },
   {
     "level": "B2",
@@ -27543,7 +27543,7 @@
     "german_audio": "die Bürgerliche Gesetzbuch",
     "english": "Civil Code",
     "ukrainian": "Цивільний кодекс Німеччини (BGB)",
-    "example": "Das BGB **regelt das Sonderurlaubsrecht та die <b style=\"color: #eab308;\">gesetzliche</b> Mängelhaftung**."
+    "example": "Das <b style=\"color: #eab308;\">BGB</b> **regelt das Sonderurlaubsrecht та die gesetzliche Mängelhaftung**."
   },
   {
     "level": "B2",
@@ -27591,7 +27591,7 @@
     "german_audio": "die Bundesgesetzblatt",
     "english": "Federal Law Gazette",
     "ukrainian": "Федеральний вісник законів (BGBl.)",
-    "example": "Im BGBl. **werden alle Gesetzesänderungen offiziell verkündet**."
+    "example": "Im <b style=\"color: #eab308;\">BGBl.</b> **werden alle Gesetzesänderungen offiziell verkündet**."
   },
   {
     "level": "B2",
@@ -28383,7 +28383,7 @@
     "german_audio": "auszeichnen",
     "english": "to award, to distinguish",
     "ukrainian": "відзначати, нагороджувати",
-    "example": "Das System wurde für seine hohe Zuverlässigkeit **mit einem Zertifikat ausgezeichnet**."
+    "example": "Das System wurde für seine hohe Zuverlässigkeit **mit einem Zertifikat <b style=\"color: #eab308;\">ausgezeichnet</b>**."
   },
   {
     "level": "B2",
@@ -28671,7 +28671,7 @@
     "german_audio": "sich verbessern",
     "english": "to improve",
     "ukrainian": "покращуватися, вдосконалюватися",
-    "example": "Dank des Feedbacks **hat <b style=\"color: #eab308;\">sich</b> die Qualität unserer Arbeit spürbar verbessert**."
+    "example": "Dank des Feedbacks **hat sich die Qualität unserer Arbeit spürbar <b style=\"color: #eab308;\">verbessert</b>**."
   },
   {
     "level": "B2",
@@ -28779,7 +28779,7 @@
     "german_audio": "die Einsparung",
     "english": "saving",
     "ukrainian": "економія",
-    "example": "Die Modernisierung der Beleuchtung **führte zu einer spürbaren Stromeinsparung**."
+    "example": "Die Modernisierung der Beleuchtung führte zu einer spürbaren **<b style=\"color: #eab308;\">Einsparung</b>** beim Stromverbrauch."
   },
   {
     "level": "B2",
@@ -29103,7 +29103,7 @@
     "german_audio": "die Bundessteuerberaterkammer",
     "english": "Federal Chamber of Tax Advisors",
     "ukrainian": "Федеральна палата податкових консультантів (BStBK)",
-    "example": "Die BStBK **vertritt die Interessen der Steuerberater auf <b style=\"color: #eab308;\">Bundesebene</b>**."
+    "example": "Die <b style=\"color: #eab308;\">BStBK</b> **vertritt die Interessen der Steuerberater auf Bundesebene**."
   },
   {
     "level": "B2",
@@ -29391,7 +29391,7 @@
     "german_audio": "die Doppelbesteuerungsabkommen",
     "english": "double taxation treaty",
     "ukrainian": "угода про уникнення подвійного оподаткування (DBA)",
-    "example": "Das DBA **regelt die Aufteilung des Besteuerungsrechts zwischen den Staaten**."
+    "example": "Das <b style=\"color: #eab308;\">DBA</b> **regelt die Aufteilung des Besteuerungsrechts zwischen den Staaten**."
   },
   {
     "level": "B2",
@@ -29931,7 +29931,7 @@
     "german_audio": "die Kündigung",
     "english": "termination (of the collective agreement)",
     "ukrainian": "розірвання (тарифного договору)",
-    "example": "Die <b style=\"color: #eab308;\">Kündigung</b> des Tarifvertrags **erfolgte fristgerecht zum Jahresende**."
+    "example": "Die Kündigung <b style=\"color: #eab308;\">des Tarifvertrags</b> **erfolgte fristgerecht zum Jahresende**."
   },
   {
     "level": "B2",
@@ -30411,7 +30411,7 @@
     "german_audio": "die Kündigungsschutzgesetz",
     "english": "Dismissal Protection Act",
     "ukrainian": "Закон про захист від звільнення (KSchG)",
-    "example": "Das KSchG **gilt in Betrieben mit mehr als zehn Beschäftigten**."
+    "example": "Das <b style=\"color: #eab308;\">KSchG</b> **gilt in Betrieben mit mehr als zehn Beschäftigten**."
   },
   {
     "level": "B2",
@@ -30735,7 +30735,7 @@
     "german_audio": "bestehen aus",
     "english": "to consist of",
     "ukrainian": "складатися з",
-    "example": "Die Prüfungskommission **besteht aus Vertretern der Arbeitgeber und Arbeitnehmer**."
+    "example": "Die Prüfungskommission **<b style=\"color: #eab308;\">besteht</b> aus Vertretern der Arbeitgeber und Arbeitnehmer**."
   },
   {
     "level": "B2",
@@ -30939,7 +30939,7 @@
     "german_audio": "etw.",
     "english": "to represent, to replace",
     "ukrainian": "представляти, заміняти (когось)",
-    "example": "Die Rechtsanwältin **wird den gekündigten Arbeitnehmer vor Gericht vertreten**."
+    "example": "Die Rechtsanwältin **wird den gekündigten Arbeitnehmer vor Gericht <b style=\"color: #eab308;\">vertreten</b>**."
   },
   {
     "level": "B2",
@@ -31179,7 +31179,7 @@
     "german_audio": "das Kündigungsschutzgesetz",
     "english": "Dismissal Protection Act",
     "ukrainian": "Закон про захист від звільнення (KSchG)",
-    "example": "Das KSchG **schützt Arbeitnehmer vor sozial ungerechtfertigten <b style=\"color: #eab308;\">Kündigungen</b>**."
+    "example": "Das <b style=\"color: #eab308;\">KSchG</b> **schützt Arbeitnehmer vor sozial ungerechtfertigten Kündigungen**."
   },
   {
     "level": "B2",
@@ -31851,7 +31851,7 @@
     "german_audio": "die Jugend- und Auszubildendenvertretung",
     "english": "youth and apprentice representative body (JAV)",
     "ukrainian": "представництво молоді та учнів на виробництві (JAV)",
-    "example": "Die JAV **arbeitet eng mit dem Betriebsrat zusammen**."
+    "example": "Die <b style=\"color: #eab308;\">JAV</b> **arbeitet eng mit dem Betriebsrat zusammen**."
   },
   {
     "level": "B2",
@@ -31871,11 +31871,11 @@
       "B2"
     ],
     "thema": 11,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> JAV-Vorsitzende, -n / die JAV-Vorsitzende, -n",
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> JAV-Vorsitzende, -n",
     "german_audio": "die JAV-Vorsitzende",
-    "english": "chairman of the JAV",
-    "ukrainian": "Die JAV-Vorsitzende **nimmt an den Sitzungen des Betriebsrats teil**.",
-    "example": ""
+    "english": "chairwoman/chairman of the JAV",
+    "ukrainian": "голова JAV",
+    "example": "Die <b style=\"color: #eab308;\">JAV-Vorsitzende</b> nimmt an den Sitzungen des Betriebsrats teil."
   },
   {
     "level": "B2",
@@ -31887,7 +31887,7 @@
     "german_audio": "die Schwerbehindertenvertretung",
     "english": "representative body for severely disabled employees",
     "ukrainian": "представництво інвалідинків на виробництві (SBV)",
-    "example": "Die SBV **wurde bei der Arbeitsplatzanpassung einbezogen**."
+    "example": "Die <b style=\"color: #eab308;\">SBV</b> **wurde bei der Arbeitsplatzanpassung einbezogen**."
   },
   {
     "level": "B2",
@@ -31907,11 +31907,11 @@
       "B2"
     ],
     "thema": 11,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> SBV-Vorsitzende, -n / die SBV-Vorsitzende, -n",
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> SBV-Vorsitzende, -n",
     "german_audio": "die SBV-Vorsitzende",
-    "english": "chairman of the SBV",
-    "ukrainian": "Die SBV-Vorsitzende **berät Arbeitgeber beim Gesundheitsschutz**.",
-    "example": ""
+    "english": "chairwoman/chairman of the SBV",
+    "ukrainian": "голова SBV",
+    "example": "Die <b style=\"color: #eab308;\">SBV-Vorsitzende</b> berät Arbeitgeber beim Gesundheitsschutz."
   },
   {
     "level": "B2",
@@ -32559,7 +32559,7 @@
     "german_audio": "ausmachen",
     "english": "to amount to, to turn off",
     "ukrainian": "складати (суму), вимикати",
-    "example": "Die Lohnnebenkosten **machen einen erheblichen Teil der Gesamtkosten aus**."
+    "example": "Die Lohnnebenkosten **<b style=\"color: #eab308;\">machen</b> einen erheblichen Teil der Gesamtkosten aus**."
   },
   {
     "level": "B2",
@@ -33135,7 +33135,7 @@
     "german_audio": "die Aktivierungs- und Vermittlungsgutschein",
     "english": "activation and placement voucher (AVGS)",
     "ukrainian": "ваучер на активацію та працевлаштування (AVGS)",
-    "example": "Mit dem AVGS **kann man die Dienste einer privaten <b style=\"color: #eab308;\">Vermittlungsagentur</b> nutzen**."
+    "example": "Mit dem <b style=\"color: #eab308;\">AVGS</b> **kann man die Dienste einer privaten Vermittlungsagentur nutzen**."
   },
   {
     "level": "B2",
@@ -33687,7 +33687,7 @@
     "german_audio": "Ich möchte Ihnen heute ... vorstellen.",
     "english": "I would like to present ... to you today.",
     "ukrainian": "Я хотів би представити вам сьогодні ...",
-    "example": "Ich möchte Ihnen heute das neue Konzept zur stufenweisen Wiedereingliederung <b style=\"color: #eab308;\">vorstellen.</b>"
+    "example": "Ich möchte Ihnen heute das neue Konzept zur stufenweisen Wiedereingliederung <b style=\"color: #eab308;\">vorstellen</b>."
   },
   {
     "level": "B2",
@@ -33795,7 +33795,7 @@
     "german_audio": "Ich komme jetzt zum Schluss.",
     "english": "I am now coming to the end.",
     "ukrainian": "Я підходжу до завершення.",
-    "example": "Ich <b style=\"color: #eab308;\">komme</b> jetzt zum Schluss und fass die Ergebnisse zusammen."
+    "example": "Ich komme jetzt zum <b style=\"color: #eab308;\">Schluss</b> und fass die Ergebnisse zusammen."
   },
   {
     "level": "B2",
@@ -33819,7 +33819,7 @@
     "german_audio": "Vielen Dank für Ihre Aufmerksamkeit.",
     "english": "Thank you very much for your attention.",
     "ukrainian": "Дуже дякую за вашу увагу!",
-    "example": "<b style=\"color: #eab308;\">Vielen</b> Dank für Ihre Aufmerksamkeit und Ihr Interesse an unserer Werkhalle."
+    "example": "Vielen Dank für Ihre <b style=\"color: #eab308;\">Aufmerksamkeit</b> und Ihr Interesse an unserer Werkhalle."
   },
   {
     "level": "B2",
@@ -33831,7 +33831,7 @@
     "german_audio": "Für Fragen stehe ich Ihnen gerne zur Verfügung.",
     "english": "I am happy to answer any questions you may have.",
     "ukrainian": "Я з радістю відповім на ваші запитання.",
-    "example": "Für Fragen bezüglich des Mutterschutzes stehe ich Ihnen gerne zur <b style=\"color: #eab308;\">Verfügung.</b>"
+    "example": "Für Fragen bezüglich des Mutterschutzes stehe ich Ihnen gerne zur <b style=\"color: #eab308;\">Verfügung</b>."
   },
   {
     "level": "B2",
@@ -34083,7 +34083,7 @@
     "german_audio": "Ich würde gerne mit ... sprechen.",
     "english": "I would like to speak with ...",
     "ukrainian": "Я хотів би поговорити з ...",
-    "example": "Ich würde gerne mit dem zuständigen Ombudsmann der Beschwerdestelle <b style=\"color: #eab308;\">sprechen.</b>"
+    "example": "Ich würde gerne mit dem zuständigen Ombudsmann der Beschwerdestelle <b style=\"color: #eab308;\">sprechen</b>."
   },
   {
     "level": "B2",
@@ -34191,7 +34191,7 @@
     "german_audio": "Herzlichen Dank für die Informationen.",
     "english": "Thank you very much for the information.",
     "ukrainian": "Щиро дякую за інформацію.",
-    "example": "<b style=\"color: #eab308;\">Herzlichen</b> Dank für die Informationen bezüglich der Brandschutzordnung."
+    "example": "Herzlichen Dank für die <b style=\"color: #eab308;\">Informationen</b> bezüglich der Brandschutzordnung."
   },
   {
     "level": "B2",
@@ -34203,7 +34203,7 @@
     "german_audio": "Vielen Dank. Auf Wiederhören.",
     "english": "Thank you very much. Goodbye (on the phone).",
     "ukrainian": "Дуже дякую. До побачення (по телефону).",
-    "example": "Vielen Dank für Ihre Auskunft zum Übergabeprotokoll. Auf <b style=\"color: #eab308;\">Wiederhören.</b>"
+    "example": "Vielen Dank für Ihre Auskunft zum Übergabeprotokoll. Auf <b style=\"color: #eab308;\">Wiederhören</b>."
   },
   {
     "level": "B2",
@@ -34239,7 +34239,7 @@
     "german_audio": "Ich kann Ihnen einen Termin am ... anbieten.",
     "english": "I can offer you an appointment on ...",
     "ukrainian": "Я можу запропонувати вам зустріч (коли) ...",
-    "example": "Ich kann Ihnen einen Termin am Eintrittstermin <b style=\"color: #eab308;\">anbieten.</b>"
+    "example": "Ich kann Ihnen einen Termin am Eintrittstermin <b style=\"color: #eab308;\">anbieten</b>."
   },
   {
     "level": "B2",
@@ -34371,7 +34371,7 @@
     "german_audio": "Den ... habe ich notiert.",
     "english": "I have noted down ...",
     "ukrainian": "Я записав (що/коли) ...",
-    "example": "Den Termin für das Zielvereinbarungsgespräch habe ich <b style=\"color: #eab308;\">notiert.</b>"
+    "example": "Den Termin für das Zielvereinbarungsgespräch habe ich <b style=\"color: #eab308;\">notiert</b>."
   },
   {
     "level": "B2",
@@ -34407,7 +34407,7 @@
     "german_audio": "Deshalb muss ich den Termin absagen.",
     "english": "Therefore I have to cancel the appointment.",
     "ukrainian": "Тому я змушений скасувати зустріч.",
-    "example": "Deshalb muss ich den Termin zur Arbeitsschutzunterweisung leider <b style=\"color: #eab308;\">absagen.</b>"
+    "example": "<b style=\"color: #eab308;\">Deshalb</b> muss ich den Termin zur Arbeitsschutzunterweisung leider absagen."
   },
   {
     "level": "B2",
@@ -34659,7 +34659,7 @@
     "german_audio": "Da bin ich nicht Ihrer Meinung.",
     "english": "I don't share your opinion.",
     "ukrainian": "Я не поділяю вашу думку.",
-    "example": "Da bin ich bezüglich der Sozialauswahl nicht Ihrer <b style=\"color: #eab308;\">Meinung.</b>"
+    "example": "Da bin ich bezüglich der Sozialauswahl nicht Ihrer <b style=\"color: #eab308;\">Meinung</b>."
   },
   {
     "level": "B2",
@@ -34671,7 +34671,7 @@
     "german_audio": "Da bin ich anderer Meinung.",
     "english": "I'm of a different opinion.",
     "ukrainian": "Я іншої думки.",
-    "example": "Da bin ich hinsichtlich der Notwendigkeit des Personalabbaus anderer <b style=\"color: #eab308;\">Meinung.</b>"
+    "example": "Da bin ich hinsichtlich der Notwendigkeit des Personalabbaus <b style=\"color: #eab308;\">anderer</b> Meinung."
   },
   {
     "level": "B2",
@@ -34683,7 +34683,7 @@
     "german_audio": "Davon würde ich abraten.",
     "english": "I would advise against that.",
     "ukrainian": "Я б цього не радив.",
-    "example": "<b style=\"color: #eab308;\">Davon</b> würde ich abraten, da es gegen das Arbeitsrecht verstößt."
+    "example": "Davon würde ich <b style=\"color: #eab308;\">abraten</b>, da es gegen das Arbeitsrecht verstößt."
   },
   {
     "level": "B2",
@@ -34695,7 +34695,7 @@
     "german_audio": "Das geht nicht",
     "english": "That's (unfortunately) not possible because ...",
     "ukrainian": "Це, на жаль, неможливо, тому що ...",
-    "example": "Das geht leider <b style=\"color: #eab308;\">nicht</b>, weil wir an die Friedenspflicht gebunden sind."
+    "example": "Das geht <b style=\"color: #eab308;\">leider</b> nicht, weil wir an die Friedenspflicht gebunden sind."
   },
   {
     "level": "B2",
@@ -34707,7 +34707,7 @@
     "german_audio": "Das sehe ich anders.",
     "english": "I see it differently.",
     "ukrainian": "Я бачу це інакше.",
-    "example": "Das sehe ich bezüglich der Zumutbarkeit der Arbeit ganz <b style=\"color: #eab308;\">anders.</b>"
+    "example": "Das sehe ich bezüglich der Zumutbarkeit der Arbeit ganz <b style=\"color: #eab308;\">anders</b>."
   },
   {
     "level": "B2",
@@ -34719,7 +34719,7 @@
     "german_audio": "Dem kann ich nicht zustimmen.",
     "english": "I cannot agree with that.",
     "ukrainian": "З цим я не можу погодитися.",
-    "example": "Dem Entwurf der Aufhebungsvereinbarung kann ich so nicht <b style=\"color: #eab308;\">zustimmen.</b>"
+    "example": "Dem Entwurf der Aufhebungsvereinbarung kann ich so nicht <b style=\"color: #eab308;\">zustimmen</b>."
   },
   {
     "level": "B2",
@@ -34755,7 +34755,7 @@
     "german_audio": "Damit bin ich nicht einverstanden.",
     "english": "I do not agree with that.",
     "ukrainian": "З цим я не згоден.",
-    "example": "<b style=\"color: #eab308;\">Damit</b> bin ich nicht einverstanden, da mein Urlaubsanspruch verkürzt wurde."
+    "example": "Damit bin ich nicht <b style=\"color: #eab308;\">einverstanden</b>, da mein Urlaubsanspruch verkürzt wurde."
   },
   {
     "level": "B2",
@@ -35019,7 +35019,7 @@
     "german_audio": "Das ist eine gute Idee.",
     "english": "That is a (very) good idea.",
     "ukrainian": "Це (дуже) хороша ідея.",
-    "example": "Das <b style=\"color: #eab308;\">ist</b> eine hervorragende Idee zur Verbesserung des Betriebsklimas."
+    "example": "Das ist eine hervorragende <b style=\"color: #eab308;\">Idee</b> zur Verbesserung des Betriebsklimas."
   },
   {
     "level": "B2",
@@ -35043,7 +35043,7 @@
     "german_audio": "Da bin ich ganz Ihrer Meinung.",
     "english": "I completely agree with you.",
     "ukrainian": "Тут я повністю з вами згоден.",
-    "example": "Da bin ich bezüglich der Notwendigkeit des Sozialplans ganz Ihrer <b style=\"color: #eab308;\">Meinung.</b>"
+    "example": "Da bin ich bezüglich der Notwendigkeit des Sozialplans ganz Ihrer <b style=\"color: #eab308;\">Meinung</b>."
   },
   {
     "level": "B2",
@@ -35079,7 +35079,7 @@
     "german_audio": "Das ist auch meine Erfahrung.",
     "english": "That is also my experience.",
     "ukrainian": "Це також мій досвід.",
-    "example": "Das ist auch <b style=\"color: #eab308;\">meine</b> Erfahrung bei Verhandlungen mit diesem Verband."
+    "example": "Das ist auch meine <b style=\"color: #eab308;\">Erfahrung</b> bei Verhandlungen mit diesem Verband."
   },
   {
     "level": "B2",
@@ -35091,7 +35091,7 @@
     "german_audio": "Das sehe ich genauso.",
     "english": "I see it exactly the same way.",
     "ukrainian": "Я бачу це точно так само.",
-    "example": "Das <b style=\"color: #eab308;\">sehe</b> ich genauso, der Arbeitnehmer hat Recht auf Lohnfortzahlung."
+    "example": "Das sehe ich <b style=\"color: #eab308;\">genauso</b>, der Arbeitnehmer hat Recht auf Lohnfortzahlung."
   },
   {
     "level": "B2",
@@ -35103,7 +35103,7 @@
     "german_audio": "Ich bin dafür.",
     "english": "I am in favor of it.",
     "ukrainian": "Я за (це).",
-    "example": "<b style=\"color: #eab308;\">Ich</b> bin absolut dafür, diese Lärmschutzmaßnahmen umzusetzen."
+    "example": "Ich bin absolut <b style=\"color: #eab308;\">dafür</b>, diese Lärmschutzmaßnahmen umzusetzen."
   },
   {
     "level": "B2",
@@ -35271,7 +35271,7 @@
     "german_audio": "Leider ist mir ein Fehler unterlaufen.",
     "english": "Unfortunately, I made a mistake.",
     "ukrainian": "На жаль, я припустився помилки.",
-    "example": "Leider ist mir bei der Steuererklärung ein Fehler <b style=\"color: #eab308;\">unterlaufen.</b>"
+    "example": "Leider ist mir bei der Steuererklärung ein Fehler <b style=\"color: #eab308;\">unterlaufen</b>."
   },
   {
     "level": "B2",
@@ -35511,7 +35511,7 @@
     "german_audio": "Ich könnte den ... übernehmen.",
     "english": "I could take over the ...",
     "ukrainian": "Я міг би взяти на себе (що) ...",
-    "example": "Ich könnte den Bereitschaftsdienst in der Werkhalle <b style=\"color: #eab308;\">übernehmen.</b>"
+    "example": "Ich könnte den Bereitschaftsdienst in der Werkhalle <b style=\"color: #eab308;\">übernehmen</b>."
   },
   {
     "level": "B2",
@@ -35559,7 +35559,7 @@
     "german_audio": "Das würde mir sehr helfen.",
     "english": "That would help me a lot.",
     "ukrainian": "Це б мені дуже допомогло.",
-    "example": "Eine rasche Bewilligung des Antrags würde mir sehr <b style=\"color: #eab308;\">helfen.</b>"
+    "example": "Eine rasche Bewilligung des Antrags würde mir sehr <b style=\"color: #eab308;\">helfen</b>."
   },
   {
     "level": "B2",
@@ -35619,7 +35619,7 @@
     "german_audio": "Ich möchte Ihnen das Du anbieten.",
     "english": "I would like to offer you the informal \"du\".",
     "ukrainian": "Я хотів би запропонувати вам спілкування на \"ти\".",
-    "example": "Ich <b style=\"color: #eab308;\">möchte</b> Ihnen das Du anbieten, da wir eng zusammenarbeiten."
+    "example": "Ich möchte Ihnen das Du <b style=\"color: #eab308;\">anbieten</b>, da wir eng zusammenarbeiten."
   },
   {
     "level": "B2",
@@ -35631,7 +35631,7 @@
     "german_audio": "Bei uns duzt man sich. Ich bin ...",
     "english": "We use the informal \"du\" here. I am ...",
     "ukrainian": "У нас усі спілкуються на \"ти\". Я — ...",
-    "example": "Bei uns im Handwerksbetrieb duzt man <b style=\"color: #eab308;\">sich.</b> Ich bin Andreas."
+    "example": "Bei uns im Handwerksbetrieb <b style=\"color: #eab308;\">duzt</b> man sich. Ich bin Andreas."
   },
   {
     "level": "B2",
@@ -35667,7 +35667,7 @@
     "german_audio": "Sehr gern. Ich heiße ...",
     "english": "With pleasure. My name is ...",
     "ukrainian": "Дуже охоче. Мене звати ...",
-    "example": "Sehr <b style=\"color: #eab308;\">gern.</b> Ich heiße Thomas, ich bin der neue Kältetechniker."
+    "example": "Sehr gern. Ich <b style=\"color: #eab308;\">heiße</b> Thomas, ich bin der neue Kältetechniker."
   },
   {
     "level": "B2",
@@ -35727,7 +35727,7 @@
     "german_audio": "Beim Kauf von ... achte ich auf das Design",
     "english": "When buying ... I pay (particular) attention to design / price / quality / usability / image / good advice / ...",
     "ukrainian": "При покупці ... я звертаю (особливу) увагу на дизайн / ціну / якість / зручність використання / імідж / хорошу консультацію / ...",
-    "example": "Beim Kauf von Maschinen <b style=\"color: #eab308;\">achte</b> ich besonders auf die Bedienbarkeit."
+    "example": "Beim Kauf von Maschinen achte ich <b style=\"color: #eab308;\">besonders</b> auf die Bedienbarkeit."
   },
   {
     "level": "B2",
@@ -36003,7 +36003,7 @@
     "german_audio": "Ich wurde vom Arzt ... Wochen krankgeschrieben.",
     "english": "I was put on sick leave by the doctor for ... weeks.",
     "ukrainian": "Лікар виписав мені лікарняний на ... тижнів.",
-    "example": "Ich wurde infolge des Unfalls für drei Wochen <b style=\"color: #eab308;\">krankgeschrieben.</b>"
+    "example": "Ich wurde infolge des Unfalls für drei Wochen <b style=\"color: #eab308;\">krankgeschrieben</b>."
   },
   {
     "level": "B2",
@@ -36063,7 +36063,7 @@
     "german_audio": "... funktioniert nicht",
     "english": "... does not work (properly) / is not running.",
     "ukrainian": "... не працює (належним чином) / не запускається.",
-    "example": "Die Klimaanlage in der Werkhalle läuft heute <b style=\"color: #eab308;\">nicht</b> richtig."
+    "example": "Die Klimaanlage in der Werkhalle läuft heute nicht <b style=\"color: #eab308;\">richtig</b>."
   },
   {
     "level": "B2",
@@ -36219,7 +36219,7 @@
     "german_audio": "Da müssen wir den Service kontaktieren.",
     "english": "We have to contact the service then.",
     "ukrainian": "Тоді нам потрібно зв'язатися з сервісною службою.",
-    "example": "Da müssen wir wohl den externen Kundendienst <b style=\"color: #eab308;\">kontaktieren.</b>"
+    "example": "Da müssen wir wohl den externen Kundendienst <b style=\"color: #eab308;\">kontaktieren</b>."
   },
   {
     "level": "B2",
@@ -36303,7 +36303,7 @@
     "german_audio": "Die Messe ist wieder sehr gut besucht.",
     "english": "The fair is very well attended again.",
     "ukrainian": "Виставка знову дуже добре відвідувана.",
-    "example": "Die Fachmesse ist dieses Jahr wieder sehr gut <b style=\"color: #eab308;\">besucht.</b>"
+    "example": "Die Fachmesse ist dieses Jahr wieder sehr gut <b style=\"color: #eab308;\">besucht</b>."
   },
   {
     "level": "B2",
@@ -36375,7 +36375,7 @@
     "german_audio": "Ich kann gerne zu Ihnen in die Firma kommen.",
     "english": "I am happy to come to your company.",
     "ukrainian": "Я можу приїхати до вас у компанію.",
-    "example": "Ich kann zwecks Beratung gerne zu Ihnen in den Betrieb <b style=\"color: #eab308;\">kommen.</b>"
+    "example": "Ich kann zwecks Beratung gerne zu Ihnen in den Betrieb <b style=\"color: #eab308;\">kommen</b>."
   },
   {
     "level": "B2",
@@ -36447,7 +36447,7 @@
     "german_audio": "Ich kann Ihnen ... empfehlen.",
     "english": "I can recommend ... to you.",
     "ukrainian": "Я можу рекомендувати вам ...",
-    "example": "Ich kann Ihnen den Abschluss einer betrieblichen Altersvorsorge <b style=\"color: #eab308;\">empfehlen.</b>"
+    "example": "Ich kann Ihnen den Abschluss einer betrieblichen Altersvorsorge <b style=\"color: #eab308;\">empfehlen</b>."
   },
   {
     "level": "B2",
@@ -36459,7 +36459,7 @@
     "german_audio": "Wir haben das Modell",
     "english": "We do (not) have the model/device/... in stock.",
     "ukrainian": "У нас (немає) цієї моделі/пристрою в наявності.",
-    "example": "Wir <b style=\"color: #eab308;\">haben</b> diese speziellen Schutzhelme derzeit leider nicht auf Lager."
+    "example": "Wir haben diese speziellen Schutzhelme derzeit leider <b style=\"color: #eab308;\">nicht</b> auf Lager."
   },
   {
     "level": "B2",
@@ -36687,7 +36687,7 @@
     "german_audio": "Ein wichtiges Kriterium für die Auftragsvergabe ist die Zusicherung eines verbindlichen Liefertermins.",
     "english": "An important criterion for the contract is the guarantee of a binding delivery date.",
     "ukrainian": "Важливим критерієм для укладення контракту є гарантія зобов'язуючих термінів доставки.",
-    "example": "Ein wichtiges Kriterium ist die Einhaltung des <b style=\"color: #eab308;\">Liefertermins.</b>"
+    "example": "Ein wichtiges Kriterium ist die Einhaltung des <b style=\"color: #eab308;\">Liefertermins</b>."
   },
   {
     "level": "B2",
@@ -36735,7 +36735,7 @@
     "german_audio": "Die Preise verstehen sich inklusive Mehrwertsteuer.",
     "english": "Prices include VAT.",
     "ukrainian": "Ціни вказані з урахуванням ПДВ.",
-    "example": "Die Preise der Hebebühnen verstehen sich inklusive <b style=\"color: #eab308;\">Mehrwertsteuer.</b>"
+    "example": "Die Preise der Hebebühnen verstehen sich inklusive <b style=\"color: #eab308;\">Mehrwertsteuer</b>."
   },
   {
     "level": "B2",
@@ -36759,7 +36759,7 @@
     "german_audio": "Selbstverständlich stehen wir Ihnen für weitere Auskünfte gerne zur Verfügung.",
     "english": "Of course we are happy to provide you with further information.",
     "ukrainian": "Звичайно, ми з радістю готові надати вам подальшу інформацію.",
-    "example": "Wir stehen Ihnen für Auskünfte zum Einarbeitungsplan zur <b style=\"color: #eab308;\">Verfügung.</b>"
+    "example": "Wir stehen Ihnen für <b style=\"color: #eab308;\">Auskünfte</b> zum Einarbeitungsplan zur Verfügung."
   },
   {
     "level": "B2",
@@ -36783,7 +36783,7 @@
     "german_audio": "Das Modell ... ist ziemlich preisgünstig.",
     "english": "The model ... is quite inexpensive.",
     "ukrainian": "Модель ... є досить дешевою.",
-    "example": "Dieses Modell der Kältemaschine ist im Vergleich <b style=\"color: #eab308;\">preisgünstig.</b>"
+    "example": "Dieses Modell der Kältemaschine ist im Vergleich <b style=\"color: #eab308;\">preisgünstig</b>."
   },
   {
     "level": "B2",
@@ -36951,7 +36951,7 @@
     "german_audio": "Meiner Meinung nach sollte die Firma ... den Auftrag bekommen.",
     "english": "In my opinion, ... should get the contract.",
     "ukrainian": "На мою думку, компанія ... повинна отримати замовлення.",
-    "example": "Meiner Meinung nach sollte das lokale Handwerksunternehmen den Auftrag <b style=\"color: #eab308;\">bekommen.</b>"
+    "example": "Meiner Meinung nach sollte das lokale Handwerksunternehmen den Auftrag <b style=\"color: #eab308;\">bekommen</b>."
   },
   {
     "level": "B2",
@@ -36975,7 +36975,7 @@
     "german_audio": "Deshalb sollten wir das Modell ... anschaffen.",
     "english": "Therefore we should acquire the model ...",
     "ukrainian": "Тому нам слід придбати модель ...",
-    "example": "Deshalb sollten wir dieses lärmgeminderte Modell <b style=\"color: #eab308;\">anschaffen.</b>"
+    "example": "Deshalb sollten wir dieses lärmgeminderte Modell <b style=\"color: #eab308;\">anschaffen</b>."
   },
   {
     "level": "B2",
@@ -36986,8 +36986,8 @@
     "german": "Sehr geehrte Damen und Herren, am 1. Juni 20.. haben wir bei Ihnen ... gekauft/bestellt/reklamiert/...",
     "german_audio": "Sehr geehrte Damen und Herren",
     "english": "Dear Sir or Madam, on June 1st we bought/ordered/complained about ... from you",
-    "ukrainian": "",
-    "example": "Шановні панове, 1 червня ми купили/замовили/оскаржили у вас ..."
+    "ukrainian": "Шановні дами і панове, 1 червня 20.. ми купили/замовили/оскаржили у вас ...",
+    "example": "Sehr <b style=\"color: #eab308;\">geehrte</b> Damen und Herren, am 12. Mai haben wir bei Ihnen Kältemaschinen bestellt."
   },
   {
     "level": "B2",
@@ -36999,7 +36999,7 @@
     "german_audio": "Leider hat die Maschine Mängel.",
     "english": "Unfortunately the machine (with device number ...) has (significant) defects.",
     "ukrainian": "На жаль, машина (з серійним номером ...) має (значні) недоліки.",
-    "example": "Leider hat das gelieferte Gerät erhebliche technische <b style=\"color: #eab308;\">Mängel.</b>"
+    "example": "<b style=\"color: #eab308;\">Leider</b> hat das gelieferte Gerät erhebliche technische Mängel."
   },
   {
     "level": "B2",
@@ -37047,7 +37047,7 @@
     "german_audio": "Ihre Lieferung ist am ... bei uns eingetroffen.",
     "english": "Your delivery arrived (only) on ...",
     "ukrainian": "Ваша доставка надійшла до нас (тільки) ...",
-    "example": "Ihre Lieferung ist erst nach Verstreichen der Frist bei uns <b style=\"color: #eab308;\">eingetroffen.</b>"
+    "example": "Ihre Lieferung ist erst nach Verstreichen der Frist bei uns <b style=\"color: #eab308;\">eingetroffen</b>."
   },
   {
     "level": "B2",
@@ -37107,7 +37107,7 @@
     "german_audio": "Wir hoffen auf eine schnelle Lösung des Problems.",
     "english": "We hope for a quick solution to the problem.",
     "ukrainian": "Сподіваємося на швидке вирішення проблеми.",
-    "example": "Wir hoffen auf eine einvernehmliche Lösung des <b style=\"color: #eab308;\">Problems.</b>"
+    "example": "Wir hoffen auf eine einvernehmliche Lösung des <b style=\"color: #eab308;\">Problems</b>."
   },
   {
     "level": "B2",
@@ -37179,7 +37179,7 @@
     "german_audio": "Ich bedanke mich für Ihre Bemühungen.",
     "english": "Thank you for your efforts.",
     "ukrainian": "Дякую за ваші зусилля.",
-    "example": "Ich bedanke mich herzlich für Ihre <b style=\"color: #eab308;\">Bemühungen.</b>"
+    "example": "Ich bedanke mich herzlich für Ihre <b style=\"color: #eab308;\">Bemühungen</b>."
   },
   {
     "level": "B2",
@@ -37215,7 +37215,7 @@
     "german_audio": "Anbei erhalten Sie meine Bewerbungsunterlagen.",
     "english": "Enclosed you receive my application documents.",
     "ukrainian": "У додатку ви знайдете мої документи для подачі заяви.",
-    "example": "Anbei erhalten Sie meine vollständigen <b style=\"color: #eab308;\">Bewerbungsunterlagen.</b>"
+    "example": "Anbei erhalten Sie meine vollständigen <b style=\"color: #eab308;\">Bewerbungsunterlagen</b>."
   },
   {
     "level": "B2",
@@ -37407,7 +37407,7 @@
     "german_audio": "ein Angebot unterbreiten",
     "english": "to submit an offer",
     "ukrainian": "подавати пропозицію (офіційно)",
-    "example": "Die Spedition hat uns ein optimiertes <b style=\"color: #eab308;\">Angebot</b> für die Transportkosten unterbreitet."
+    "example": "Die Spedition hat uns ein optimiertes Angebot für die Transportkosten <b style=\"color: #eab308;\">unterbreitet</b>."
   },
   {
     "level": "B2",
@@ -38822,8 +38822,8 @@
     "german": "einen Vertrag abschließen mit (+ Dat.)",
     "german_audio": "einen Vertrag abschließen mit",
     "english": "to sign a contract with",
-    "ukrainian": "Das Handwerksunternehmen hat einen Werkvertrag mit dem Bauträger abgeschlossen.",
-    "example": ""
+    "ukrainian": "укладати договір з (+ Dat.)",
+    "example": "Das Handwerksunternehmen hat <b style=\"color: #eab308;\">einen</b> Werkvertrag mit dem Bauträger abgeschlossen."
   },
   {
     "level": "B2",
@@ -38883,7 +38883,7 @@
     "german_audio": "einen Vorschlag unterbreiten",
     "english": "to submit a proposal",
     "ukrainian": "подавати пропозицію (офіційно)",
-    "example": "Die Arbeitgeberseite hat der Gewerkschaft einen neuen <b style=\"color: #eab308;\">Vorschlag</b> unterbreitet."
+    "example": "Die Arbeitgeberseite hat der Gewerkschaft einen neuen Vorschlag <b style=\"color: #eab308;\">unterbreitet</b>."
   },
   {
     "level": "B2",
@@ -39951,7 +39951,7 @@
     "german_audio": "glauben an",
     "english": "to believe in",
     "ukrainian": "вірити в",
-    "example": "Der Aufsichtsratsvorsitzende glaubt fest an den Erfolg der Sanierungsmaßnahmen."
+    "example": "Der Aufsichtsratsvorsitzende <b style=\"color: #eab308;\">glaubt</b> fest an den Erfolg der Sanierungsmaßnahmen."
   },
   {
     "level": "B2",
@@ -40035,7 +40035,7 @@
     "german_audio": "achten auf",
     "english": "to pay attention to / watch",
     "ukrainian": "звертати увагу на, стежити за",
-    "example": "Die Verhandlungskommission achtet genau auf die Formulierung der neuen Friedenspflicht."
+    "example": "Die Verhandlungskommission <b style=\"color: #eab308;\">achtet</b> genau auf die Formulierung der neuen Friedenspflicht."
   },
   {
     "level": "B2",
@@ -40095,7 +40095,7 @@
     "german_audio": "sich beziehen auf",
     "english": "to refer to / relate to",
     "ukrainian": "посилатися на, стосуватися",
-    "example": "Ich beziehe mich auf Ihre E-Mail bezüglich des angebotenen Dienstwagens."
+    "example": "Ich <b style=\"color: #eab308;\">beziehe</b> mich auf Ihre E-Mail bezüglich des angebotenen Dienstwagens."
   },
   {
     "level": "B2",
@@ -40179,7 +40179,7 @@
     "german_audio": "hoffen auf",
     "english": "to hope for",
     "ukrainian": "сподіватися на",
-    "example": "Die Belegschaft hofft auf eine baldige Einigung im Tarifkonflikt."
+    "example": "Die Belegschaft <b style=\"color: #eab308;\">hofft</b> auf eine baldige Einigung im Tarifkonflikt."
   },
   {
     "level": "B2",
@@ -40191,7 +40191,7 @@
     "german_audio": "kommen auf",
     "english": "to come up with (an idea) / think of",
     "ukrainian": "натрапити на (думку), додуматися до",
-    "example": "Wie sind Sie auf diese innovative Idee zur Lärmminderung gekommen?"
+    "example": "Wie sind Sie auf diese innovative Idee zur Lärmminderung <b style=\"color: #eab308;\">gekommen</b>?"
   },
   {
     "level": "B2",
@@ -40227,7 +40227,7 @@
     "german_audio": "stellen auf",
     "english": "to set to",
     "ukrainian": "ставити на, налаштовувати на",
-    "example": "Der Techniker hat die Kälteleistung der Klimaanlage auf die höchste Stufe gestellt."
+    "example": "Der Techniker hat die Kälteleistung der Klimaanlage auf die höchste Stufe <b style=\"color: #eab308;\">gestellt</b>."
   },
   {
     "level": "B2",
@@ -40287,7 +40287,7 @@
     "german_audio": "wirken auf",
     "english": "to seem to / have an effect on",
     "ukrainian": "справляти враження на, впливати",
-    "example": "Das neue Konzept zur Mitarbeiterbindung wirkt sehr motivierend auf das gesamte Team."
+    "example": "Das neue Konzept zur Mitarbeiterbindung <b style=\"color: #eab308;\">wirkt</b> sehr motivierend auf das gesamte Team."
   },
   {
     "level": "B2",
@@ -40311,7 +40311,7 @@
     "german_audio": "bestehen aus",
     "english": "to consist of",
     "ukrainian": "складатися з",
-    "example": "Die Verhandlungskommission besteht aus Vertretern beider Tarifvertragsparteien."
+    "example": "Die Verhandlungskommission <b style=\"color: #eab308;\">besteht</b> aus Vertretern beider Tarifvertragsparteien."
   },
   {
     "level": "B2",
@@ -40347,7 +40347,7 @@
     "german_audio": "sich zusammensetzen aus",
     "english": "to be composed of",
     "ukrainian": "складатися з",
-    "example": "Die Kosten für die Zusatzausstattung setzen <b style=\"color: #eab308;\">sich</b> aus verschiedenen Posten zusammen."
+    "example": "Die Kosten für die Zusatzausstattung <b style=\"color: #eab308;\">setzen</b> sich aus verschiedenen Posten zusammen."
   },
   {
     "level": "B2",
@@ -40371,7 +40371,7 @@
     "german_audio": "sich erstrecken von",
     "english": "to extend from/to",
     "ukrainian": "простягатися від/до",
-    "example": "Der Geltungsbereich des Tarifvertrags erstreckt <b style=\"color: #eab308;\">sich</b> von Nord- bis Süddeutschland."
+    "example": "Der Geltungsbereich des Tarifvertrags <b style=\"color: #eab308;\">erstreckt</b> sich von Nord- bis Süddeutschland."
   },
   {
     "level": "B2",
@@ -40383,7 +40383,7 @@
     "german_audio": "sich auszeichnen durch",
     "english": "to distinguish oneself by",
     "ukrainian": "відзначатися, виділятися (чимось)",
-    "example": "Unsere Produktpalette zeichnet sich <b style=\"color: #eab308;\">durch</b> hohe Energieeffizienz aus."
+    "example": "Unsere Produktpalette <b style=\"color: #eab308;\">zeichnet</b> sich durch hohe Energieeffizienz aus."
   },
   {
     "level": "B2",
@@ -40407,7 +40407,7 @@
     "german_audio": "ersetzen durch",
     "english": "to replace with",
     "ukrainian": "замінювати (чимось)",
-    "example": "Das veraltete Kühlsystem wurde <b style=\"color: #eab308;\">durch</b> ein umweltfreundliches Modell ersetzt."
+    "example": "Das veraltete Kühlsystem wurde durch ein umweltfreundliches Modell <b style=\"color: #eab308;\">ersetzt</b>."
   },
   {
     "level": "B2",
@@ -40443,7 +40443,7 @@
     "german_audio": "sich einsetzen für",
     "english": "to advocate for / stand up for",
     "ukrainian": "заступатися за, докладати зусиль для",
-    "example": "Der Betriebsrat setzt <b style=\"color: #eab308;\">sich</b> aktiv für die Weiterbeschäftigung der gekündigten Mitarbeiter ein."
+    "example": "Der Betriebsrat setzt sich aktiv <b style=\"color: #eab308;\">für</b> die Weiterbeschäftigung der gekündigten Mitarbeiter ein."
   },
   {
     "level": "B2",
@@ -40455,7 +40455,7 @@
     "german_audio": "sich engagieren für",
     "english": "to get involved in / commit to",
     "ukrainian": "активно виступати за, брати участь у",
-    "example": "Unser Betrieb engagiert <b style=\"color: #eab308;\">sich</b> stark für den Umweltschutz und die CO2-Reduzierung."
+    "example": "Unser Betrieb <b style=\"color: #eab308;\">engagiert</b> sich stark für den Umweltschutz und die CO2-Reduzierung."
   },
   {
     "level": "B2",
@@ -40479,7 +40479,7 @@
     "german_audio": "sich entschuldigen für",
     "english": "to apologize for",
     "ukrainian": "вибачатися за",
-    "example": "Der Lieferant entschuldigte <b style=\"color: #eab308;\">sich</b> schriftlich für den Transportschaden."
+    "example": "Der Lieferant <b style=\"color: #eab308;\">entschuldigte</b> sich schriftlich für den Transportschaden."
   },
   {
     "level": "B2",
@@ -40515,7 +40515,7 @@
     "german_audio": "sich interessieren für",
     "english": "to be interested in",
     "ukrainian": "цікавитися (чимось)",
-    "example": "Der Bewerber interessiert <b style=\"color: #eab308;\">sich</b> sehr für die angebotene Umschulungsmaßnahme."
+    "example": "Der Bewerber <b style=\"color: #eab308;\">interessiert</b> sich sehr für die angebotene Umschulungsmaßnahme."
   },
   {
     "level": "B2",
@@ -40527,7 +40527,7 @@
     "german_audio": "kämpfen für",
     "english": "to fight for",
     "ukrainian": "боротися за",
-    "example": "Die Gewerkschaft kämpft <b style=\"color: #eab308;\">für</b> eine spürbare Anhebung des Mindestlohns."
+    "example": "Die Gewerkschaft <b style=\"color: #eab308;\">kämpft</b> für eine spürbare Anhebung des Mindestlohns."
   },
   {
     "level": "B2",
@@ -40539,7 +40539,7 @@
     "german_audio": "plädieren für",
     "english": "to plead for / advocate",
     "ukrainian": "виступати за, висловлюватися на користь",
-    "example": "Der Immissionsschutzbeauftragte plädiert <b style=\"color: #eab308;\">für</b> die Installation neuer Schallschutzwände."
+    "example": "Der Immissionsschutzbeauftragte <b style=\"color: #eab308;\">plädiert</b> für die Installation neuer Schallschutzwände."
   },
   {
     "level": "B2",
@@ -40551,7 +40551,7 @@
     "german_audio": "sorgen für",
     "english": "to take care of / provide for",
     "ukrainian": "піклуватися про",
-    "example": "Das positive Betriebsergebnis sorgte <b style=\"color: #eab308;\">für</b> große Zufriedenheit unter den Aktionären."
+    "example": "Das positive Betriebsergebnis <b style=\"color: #eab308;\">sorgte</b> für große Zufriedenheit unter den Aktionären."
   },
   {
     "level": "B2",
@@ -40563,7 +40563,7 @@
     "german_audio": "stimmen für",
     "english": "to vote for",
     "ukrainian": "голосувати за",
-    "example": "Die Mehrheit der Stimmrechtsvertreter stimmte <b style=\"color: #eab308;\">für</b> die vorgeschlagene Satzungsänderung."
+    "example": "Die Mehrheit der <b style=\"color: #eab308;\">Stimmrechtsvertreter</b> stimmte für die vorgeschlagene Satzungsänderung."
   },
   {
     "level": "B2",
@@ -40587,7 +40587,7 @@
     "german_audio": "votieren für",
     "english": "to vote for",
     "ukrainian": "голосувати за",
-    "example": "Der Betriebsrat votierte einstimmig <b style=\"color: #eab308;\">für</b> die Vereinbarung zum Sozialplan."
+    "example": "Der Betriebsrat <b style=\"color: #eab308;\">votierte</b> einstimmig für die Vereinbarung zum Sozialplan."
   },
   {
     "level": "B2",
@@ -40623,7 +40623,7 @@
     "german_audio": "protestieren gegen",
     "english": "to protest against",
     "ukrainian": "протестувати проти",
-    "example": "Die Belegschaft protestierte lautstark <b style=\"color: #eab308;\">gegen</b> den angekündigten Stellenabbau."
+    "example": "Die Belegschaft <b style=\"color: #eab308;\">protestierte</b> lautstark gegen den angekündigten Stellenabbau."
   },
   {
     "level": "B2",
@@ -40635,7 +40635,7 @@
     "german_audio": "stimmen gegen",
     "english": "to vote against",
     "ukrainian": "голосувати проти",
-    "example": "Die Kleinaktionäre stimmten geschlossen <b style=\"color: #eab308;\">gegen</b> die Entlastung des Vorstands."
+    "example": "Die Kleinaktionäre <b style=\"color: #eab308;\">stimmten</b> geschlossen gegen die Entlastung des Vorstands."
   },
   {
     "level": "B2",
@@ -40683,7 +40683,7 @@
     "german_audio": "votieren gegen",
     "english": "to vote against",
     "ukrainian": "голосувати проти",
-    "example": "Die Gesellschafter votierten <b style=\"color: #eab308;\">gegen</b> eine sofortige Betriebsschließung."
+    "example": "Die Gesellschafter <b style=\"color: #eab308;\">votierten</b> gegen eine sofortige Betriebsschließung."
   },
   {
     "level": "B2",
@@ -40695,7 +40695,7 @@
     "german_audio": "sich halten in",
     "english": "to keep in / hold",
     "ukrainian": "триматися в",
-    "example": "Die Aktie hat <b style=\"color: #eab308;\">sich</b> trotz der Krise erstaunlich gut im Kurs gehalten."
+    "example": "Die Aktie hat sich trotz der Krise erstaunlich gut im Kurs <b style=\"color: #eab308;\">gehalten</b>."
   },
   {
     "level": "B2",
@@ -40719,7 +40719,7 @@
     "german_audio": "sich integrieren in",
     "english": "to integrate into",
     "ukrainian": "інтегруватися в",
-    "example": "Der neue Kollege hat <b style=\"color: #eab308;\">sich</b> schnell und problemlos in das Team integriert."
+    "example": "Der neue Kollege hat sich schnell und problemlos in das Team <b style=\"color: #eab308;\">integriert</b>."
   },
   {
     "level": "B2",
@@ -40851,7 +40851,7 @@
     "german_audio": "sich auskennen mit",
     "english": "to be familiar with",
     "ukrainian": "орієнтуватися в, знатися на",
-    "example": "Unser Datenschutzbeauftragter kennt <b style=\"color: #eab308;\">sich</b> bestens mit der DSGVO aus."
+    "example": "Unser Datenschutzbeauftragter kennt sich bestens mit der DSGVO aus."
   },
   {
     "level": "B2",
@@ -40875,7 +40875,7 @@
     "german_audio": "sich austauschen mit",
     "english": "to exchange ideas with",
     "ukrainian": "обмінюватися думками з",
-    "example": "Es ist wichtig, <b style=\"color: #eab308;\">sich</b> regelmäßig mit der Schwerbehindertenvertretung auszutauschen."
+    "example": "Es ist wichtig, sich regelmäßig mit der Schwerbehindertenvertretung <b style=\"color: #eab308;\">auszutauschen</b>."
   },
   {
     "level": "B2",
@@ -40887,7 +40887,7 @@
     "german_audio": "beauftragen mit",
     "english": "to task with / commission",
     "ukrainian": "доручати (щось)",
-    "example": "Die Geschäftsführung hat eine Wirtschaftsprüfungsgesellschaft mit der Prüfung beauftragt."
+    "example": "Die Geschäftsführung hat eine Wirtschaftsprüfungsgesellschaft mit der Prüfung <b style=\"color: #eab308;\">beauftragt</b>."
   },
   {
     "level": "B2",
@@ -40899,7 +40899,7 @@
     "german_audio": "beeindrucken mit",
     "english": "to impress with",
     "ukrainian": "вражати (чимось)",
-    "example": "Der Bewerber beeindruckte die Personalabteilung mit seinem fundierten Fachwissen."
+    "example": "Der Bewerber <b style=\"color: #eab308;\">beeindruckte</b> die Personalabteilung mit seinem fundierten Fachwissen."
   },
   {
     "level": "B2",
@@ -40911,7 +40911,7 @@
     "german_audio": "sich befassen mit",
     "english": "to deal with / study",
     "ukrainian": "мати справу з, займятися (чимось)",
-    "example": "Der Betriebsarzt befasst <b style=\"color: #eab308;\">sich</b> mit der Vorbeugung von Berufskrankheiten."
+    "example": "Der Betriebsarzt <b style=\"color: #eab308;\">befasst</b> sich mit der Vorbeugung von Berufskrankheiten."
   },
   {
     "level": "B2",
@@ -40935,7 +40935,7 @@
     "german_audio": "belohnen mit",
     "english": "to reward (oneself) with",
     "ukrainian": "винагороджувати (себе) чимось",
-    "example": "Nach erfolgreichem Tarifabschluss belohnte sich das Team mit einem gemeinsamen Abendessen."
+    "example": "Nach erfolgreichem Tarifabschluss <b style=\"color: #eab308;\">belohnte</b> sich das Team mit einem gemeinsamen Abendessen."
   },
   {
     "level": "B2",
@@ -40947,7 +40947,7 @@
     "german_audio": "sich beschäftigen mit",
     "english": "to busy oneself with / study",
     "ukrainian": "займятися (чимось)",
-    "example": "Die Abteilung für Qualitätssicherung beschäftigt <b style=\"color: #eab308;\">sich</b> mit der Optimierung der Prüfprozesse."
+    "example": "Die Abteilung für Qualitätssicherung <b style=\"color: #eab308;\">beschäftigt</b> sich mit der Optimierung der Prüfprozesse."
   },
   {
     "level": "B2",
@@ -41043,7 +41043,7 @@
     "german_audio": "telefonieren mit",
     "english": "to talk on the phone with",
     "ukrainian": "розмовляти по телефону з",
-    "example": "Ich habe soeben mit der zuständigen Familienkasse telefoniert."
+    "example": "Ich habe soeben mit der zuständigen Familienkasse <b style=\"color: #eab308;\">telefoniert</b>."
   },
   {
     "level": "B2",
@@ -41055,7 +41055,7 @@
     "german_audio": "sich treffen mit",
     "english": "to meet with",
     "ukrainian": "зустрічатися з",
-    "example": "Die Verhandlungskommission trifft <b style=\"color: #eab308;\">sich</b> morgen mit den Vertretern der Arbeitgeberseite."
+    "example": "Die Verhandlungskommission trifft sich morgen mit den Vertretern der Arbeitgeberseite."
   },
   {
     "level": "B2",
@@ -41091,7 +41091,7 @@
     "german_audio": "sich verstehen mit",
     "english": "to get along with",
     "ukrainian": "ладнати з",
-    "example": "Die neue Abteilungsleiterin versteht <b style=\"color: #eab308;\">sich</b> hervorragend mit ihrem Team."
+    "example": "Die neue Abteilungsleiterin <b style=\"color: #eab308;\">versteht</b> sich hervorragend mit ihrem Team."
   },
   {
     "level": "B2",
@@ -41103,7 +41103,7 @@
     "german_audio": "zusammenarbeiten mit",
     "english": "to work together with",
     "ukrainian": "співпрацювати з",
-    "example": "Die Arbeitsschutzbehörde arbeitet eng mit der Berufsgenossenschaft zusammen."
+    "example": "Die <b style=\"color: #eab308;\">Arbeitsschutzbehörde</b> arbeitet eng mit der Berufsgenossenschaft zusammen."
   },
   {
     "level": "B2",
@@ -41115,7 +41115,7 @@
     "german_audio": "fragen nach",
     "english": "to ask for/about",
     "ukrainian": "запитувати про",
-    "example": "Viele Aktionäre fragten <b style=\"color: #eab308;\">nach</b> den Gründen für die geringe Dividendenausschüttung."
+    "example": "Viele Aktionäre <b style=\"color: #eab308;\">fragten</b> nach den Gründen für die geringe Dividendenausschüttung."
   },
   {
     "level": "B2",
@@ -41127,7 +41127,7 @@
     "german_audio": "riechen nach",
     "english": "to smell of",
     "ukrainian": "пахнути (чимось)",
-    "example": "In der neuen Lackierhalle riecht es glücklicherweise nicht mehr <b style=\"color: #eab308;\">nach</b> Lösungsmitteln."
+    "example": "In der neuen Lackierhalle <b style=\"color: #eab308;\">riecht</b> es glücklicherweise nicht mehr nach Lösungsmitteln."
   },
   {
     "level": "B2",
@@ -41187,7 +41187,7 @@
     "german_audio": "sich austauschen über",
     "english": "to discuss / exchange views on",
     "ukrainian": "обмінюватися думками про",
-    "example": "Die Fachberater tauschten <b style=\"color: #eab308;\">sich</b> über die Trends der Bildungsmesse aus."
+    "example": "Die Fachberater <b style=\"color: #eab308;\">tauschten</b> sich über die Trends der Bildungsmesse aus."
   },
   {
     "level": "B2",
@@ -41199,7 +41199,7 @@
     "german_audio": "sich beklagen über",
     "english": "to complain about",
     "ukrainian": "скаржитися на",
-    "example": "Der Kunde beklagte <b style=\"color: #eab308;\">sich</b> über die ungenügende Kälteleistung des Geräts."
+    "example": "Der Kunde <b style=\"color: #eab308;\">beklagte</b> sich über die ungenügende Kälteleistung des Geräts."
   },
   {
     "level": "B2",
@@ -41211,7 +41211,7 @@
     "german_audio": "belehren über",
     "english": "to instruct about",
     "ukrainian": "повчати, інструктувати про",
-    "example": "Die Mitarbeiter müssen jährlich <b style=\"color: #eab308;\">über</b> die Unfallverhütungsvorschriften belehrt werden."
+    "example": "Die Mitarbeiter müssen jährlich über die Unfallverhütungsvorschriften <b style=\"color: #eab308;\">belehrt</b> werden."
   },
   {
     "level": "B2",
@@ -41235,7 +41235,7 @@
     "german_audio": "berichten über",
     "english": "to report on",
     "ukrainian": "доповідати про, описувати",
-    "example": "Der Prüfer berichtete ausführlich <b style=\"color: #eab308;\">über</b> die Ergebnisse der Steuerprüfung."
+    "example": "Der Prüfer <b style=\"color: #eab308;\">berichtete</b> ausführlich über die Ergebnisse der Steuerprüfung."
   },
   {
     "level": "B2",
@@ -41259,7 +41259,7 @@
     "german_audio": "brüten über",
     "english": "to brood over / ponder",
     "ukrainian": "розмірковувати над, сушити голову над",
-    "example": "Die Buchhalterin brütet schon den ganzen Tag <b style=\"color: #eab308;\">über</b> der Abschreibungstabelle."
+    "example": "Die Buchhalterin <b style=\"color: #eab308;\">brütet</b> schon den ganzen Tag über der Abschreibungstabelle."
   },
   {
     "level": "B2",
@@ -41355,7 +41355,7 @@
     "german_audio": "referieren über",
     "english": "to lecture on",
     "ukrainian": "робити доповідь про",
-    "example": "Der Gewässerschutzbeauftragte referierte <b style=\"color: #eab308;\">über</b> die Reduzierung des Wasserverbrauchs."
+    "example": "Der Gewässerschutzbeauftragte <b style=\"color: #eab308;\">referierte</b> über die Reduzierung des Wasserverbrauchs."
   },
   {
     "level": "B2",
@@ -41367,7 +41367,7 @@
     "german_audio": "schimpfen über",
     "english": "to complain about / rant",
     "ukrainian": "сварити (когось/щось), ремствувати",
-    "example": "Die Lkw-Fahrer schimpften <b style=\"color: #eab308;\">über</b> die langen Wartezeiten bei der Spedition."
+    "example": "Die Lkw-Fahrer <b style=\"color: #eab308;\">schimpften</b> über die langen Wartezeiten bei der Spedition."
   },
   {
     "level": "B2",
@@ -41403,7 +41403,7 @@
     "german_audio": "verfügen über",
     "english": "to have at one's disposal",
     "ukrainian": "володіти, мати в розпорядженні",
-    "example": "Unser neuer CTO verfügt <b style=\"color: #eab308;\">über</b> ein breites Fachwissen im IT-Bereich."
+    "example": "Unser neuer CTO <b style=\"color: #eab308;\">verfügt</b> über ein breites Fachwissen im IT-Bereich."
   },
   {
     "level": "B2",
@@ -41415,7 +41415,7 @@
     "german_audio": "sich wundern über",
     "english": "to wonder at / be surprised at",
     "ukrainian": "дивуватися чомусь",
-    "example": "Niemand wunderte <b style=\"color: #eab308;\">sich</b> über die Abmahnung nach dem wiederholten Fehlverhalten."
+    "example": "Niemand wunderte sich <b style=\"color: #eab308;\">über</b> die Abmahnung nach dem wiederholten Fehlverhalten."
   },
   {
     "level": "B2",
@@ -41427,7 +41427,7 @@
     "german_audio": "sich bemühen um",
     "english": "to strive for",
     "ukrainian": "намагатися отримати, піклуватися про",
-    "example": "Der Betriebsbeauftragte bemüht <b style=\"color: #eab308;\">sich</b> stets um die Einhaltung aller Rechtsnormen."
+    "example": "Der Betriebsbeauftragte <b style=\"color: #eab308;\">bemüht</b> sich stets um die Einhaltung aller Rechtsnormen."
   },
   {
     "level": "B2",
@@ -41439,7 +41439,7 @@
     "german_audio": "sich bewerben um",
     "english": "to apply for",
     "ukrainian": "подавати заявку на",
-    "example": "Sie hat <b style=\"color: #eab308;\">sich</b> erfolgreich um die Stelle der Gleichstellungsbeauftragten beworben."
+    "example": "Sie hat sich erfolgreich um die Stelle der Gleichstellungsbeauftragten beworben."
   },
   {
     "level": "B2",
@@ -41451,7 +41451,7 @@
     "german_audio": "bitten um",
     "english": "to ask for",
     "ukrainian": "просити про",
-    "example": "Ich bitte Sie um eine schriftliche Stellungnahme zu diesem Vorfall."
+    "example": "Ich <b style=\"color: #eab308;\">bitte</b> Sie um eine schriftliche Stellungnahme zu diesem Vorfall."
   },
   {
     "level": "B2",
@@ -41463,7 +41463,7 @@
     "german_audio": "gehen um",
     "english": "to be about",
     "ukrainian": "йтися про",
-    "example": "In diesem dringenden Gespräch geht es um den drohenden Arbeitsplatzverlust."
+    "example": "In diesem dringenden Gespräch <b style=\"color: #eab308;\">geht</b> es um den drohenden Arbeitsplatzverlust."
   },
   {
     "level": "B2",
@@ -41535,7 +41535,7 @@
     "german_audio": "berichten von",
     "english": "to report on",
     "ukrainian": "повідомляти про",
-    "example": "Der Whistleblower berichtete von schwerwiegenden Pflichtverletzungen in der Chefetage."
+    "example": "Der Whistleblower <b style=\"color: #eab308;\">berichtete</b> von schwerwiegenden Pflichtverletzungen in der Chefetage."
   },
   {
     "level": "B2",
@@ -41547,7 +41547,7 @@
     "german_audio": "sich entfernen von",
     "english": "to move away from",
     "ukrainian": "віддалятися від",
-    "example": "Das Unternehmen hat <b style=\"color: #eab308;\">sich</b> weit von seinen ursprünglichen Nachhaltigkeitszielen entfernt."
+    "example": "Das Unternehmen hat sich weit von seinen ursprünglichen Nachhaltigkeitszielen <b style=\"color: #eab308;\">entfernt</b>."
   },
   {
     "level": "B2",
@@ -41571,7 +41571,7 @@
     "german_audio": "erzählen von",
     "english": "to tell of",
     "ukrainian": "розповідати про",
-    "example": "Der Referent erzählte von erfolgreichen Projekten zur Jugendsozialarbeit."
+    "example": "Der Referent <b style=\"color: #eab308;\">erzählte</b> von erfolgreichen Projekten zur Jugendsozialarbeit."
   },
   {
     "level": "B2",
@@ -41643,7 +41643,7 @@
     "german_audio": "reden von",
     "english": "to talk of",
     "ukrainian": "говорити про",
-    "example": "Der Wirtschaftsprüfer redet von einer drohenden Zahlungsunfähigkeit der GmbH."
+    "example": "Der Wirtschaftsprüfer <b style=\"color: #eab308;\">redet</b> von einer drohenden Zahlungsunfähigkeit der GmbH."
   },
   {
     "level": "B2",
@@ -41655,7 +41655,7 @@
     "german_audio": "schwärmen von",
     "english": "to rave about",
     "ukrainian": "захоплюватися (чимось/кимось), марити",
-    "example": "Der Auszubildende schwärmte von der hervorragenden Unterstützung durch seinen Mentor."
+    "example": "Der Auszubildende <b style=\"color: #eab308;\">schwärmte</b> von der hervorragenden Unterstützung durch seinen Mentor."
   },
   {
     "level": "B2",
@@ -41703,7 +41703,7 @@
     "german_audio": "sich unterscheiden von",
     "english": "to differ from",
     "ukrainian": "відрізнятися від",
-    "example": "Die degressive Abschreibung unterscheidet <b style=\"color: #eab308;\">sich</b> deutlich von der linearen Methode."
+    "example": "Die degressive Abschreibung <b style=\"color: #eab308;\">unterscheidet</b> sich deutlich von der linearen Methode."
   },
   {
     "level": "B2",
@@ -41739,7 +41739,7 @@
     "german_audio": "sich zurückziehen von",
     "english": "to withdraw from",
     "ukrainian": "відступати від",
-    "example": "Die Bank hat <b style=\"color: #eab308;\">sich</b> vorzeitig von der Finanzierung des Neubaus zurückgezogen."
+    "example": "Die Bank hat sich vorzeitig von der Finanzierung des Neubaus zurückgezogen."
   },
   {
     "level": "B2",
@@ -41775,7 +41775,7 @@
     "german_audio": "sich fürchten vor",
     "english": "to be afraid of",
     "ukrainian": "боятися (чогось)",
-    "example": "Die Belegschaft fürchtet <b style=\"color: #eab308;\">sich</b> vor einer eventuellen Betriebsschließung."
+    "example": "Die Belegschaft <b style=\"color: #eab308;\">fürchtet</b> sich vor einer eventuellen Betriebsschließung."
   },
   {
     "level": "B2",
@@ -41811,7 +41811,7 @@
     "german_audio": "warnen vor",
     "english": "to warn against",
     "ukrainian": "попереджати про",
-    "example": "Die Berufsgenossenschaft warnt dringend <b style=\"color: #eab308;\">vor</b> dem Betreten der Werkhalle ohne Gehörschutz."
+    "example": "Die Berufsgenossenschaft <b style=\"color: #eab308;\">warnt</b> dringend vor dem Betreten der Werkhalle ohne Gehörschutz."
   },
   {
     "level": "B2",
@@ -41847,7 +41847,7 @@
     "german_audio": "drängen zu",
     "english": "to push to",
     "ukrainian": "підштовхувати до",
-    "example": "Der Schlichter drängte die Tarifpartner zu einer schnellen Einigung."
+    "example": "Der Schlichter <b style=\"color: #eab308;\">drängte</b> die Tarifpartner zu einer schnellen Einigung."
   },
   {
     "level": "B2",
@@ -41871,7 +41871,7 @@
     "german_audio": "sich entwickeln zu",
     "english": "to develop into",
     "ukrainian": "розвиватися в",
-    "example": "Das kleine Handwerksunternehmen hat <b style=\"color: #eab308;\">sich</b> zu einem führenden mittelständischen Betrieb entwickelt."
+    "example": "Das kleine Handwerksunternehmen hat sich zu einem führenden mittelständischen Betrieb entwickelt."
   },
   {
     "level": "B2",
@@ -41907,7 +41907,7 @@
     "german_audio": "gratulieren zu",
     "english": "to congratulate on",
     "ukrainian": "вітати з",
-    "example": "Ich gratuliere Ihnen herzlich zur erfolgreichen Zulassung zur Prüfung."
+    "example": "Ich <b style=\"color: #eab308;\">gratuliere</b> Ihnen herzlich zur erfolgreichen Zulassung zur Prüfung."
   },
   {
     "level": "B2",
@@ -41967,7 +41967,7 @@
     "german_audio": "backen",
     "english": "to bake",
     "ukrainian": "випікати, пекти",
-    "example": "In der werkseigenen Kantine wird das Brot täglich frisch gebacken."
+    "example": "In der werkseigenen Kantine wird das Brot täglich frisch <b style=\"color: #eab308;\">gebacken</b>."
   },
   {
     "level": "B2",
@@ -41979,7 +41979,7 @@
     "german_audio": "befehlen",
     "english": "to command, to order",
     "ukrainian": "наказувати",
-    "example": "Der Werkleiter hat befohlen, die Maschinen im Ernstfall sofort abzustellen."
+    "example": "Der Werkleiter hat <b style=\"color: #eab308;\">befohlen</b>, die Maschinen im Ernstfall sofort abzustellen."
   },
   {
     "level": "B2",
@@ -41991,7 +41991,7 @@
     "german_audio": "beginnen",
     "english": "to begin, to start",
     "ukrainian": "починати",
-    "example": "Wir haben soeben begonnen, das Übergabeprotokoll für den Schichtwechsel zu schreiben."
+    "example": "Wir haben soeben <b style=\"color: #eab308;\">begonnen</b>, das Übergabeprotokoll für den Schichtwechsel zu schreiben."
   },
   {
     "level": "B2",
@@ -42003,7 +42003,7 @@
     "german_audio": "beißen",
     "english": "to bite",
     "ukrainian": "кусати",
-    "example": "Der Wachhund auf dem Betriebsgelände hat glücklicherweise noch niemanden gebissen."
+    "example": "Der Wachhund auf dem Betriebsgelände hat glücklicherweise noch niemanden <b style=\"color: #eab308;\">gebissen</b>."
   },
   {
     "level": "B2",
@@ -42015,7 +42015,7 @@
     "german_audio": "bergen",
     "english": "to salvage, to rescue, to hide",
     "ukrainian": "рятувати, переховувати, таїти в собі",
-    "example": "Der unüberlegte Vertrag barg erhebliche Haftungsrisiken für die GmbH."
+    "example": "Der unüberlegte Vertrag <b style=\"color: #eab308;\">barg</b> erhebliche Haftungsrisiken für die GmbH."
   },
   {
     "level": "B2",
@@ -42039,7 +42039,7 @@
     "german_audio": "beweisen",
     "english": "to prove",
     "ukrainian": "доводити",
-    "example": "Das ärztliche Attest bewies die anhaltende Arbeitsunfähigkeit des Beschäftigten."
+    "example": "Das ärztliche Attest <b style=\"color: #eab308;\">bewies</b> die anhaltende Arbeitsunfähigkeit des Beschäftigten."
   },
   {
     "level": "B2",
@@ -42051,7 +42051,7 @@
     "german_audio": "bewegen",
     "english": "to move, to induce",
     "ukrainian": "рухати, спонукати",
-    "example": "Die guten Konditionen der Altersteilzeit haben ihn zum Vertragsabschluss bewogen."
+    "example": "Die guten Konditionen der Altersteilzeit haben ihn zum Vertragsabschluss <b style=\"color: #eab308;\">bewogen</b>."
   },
   {
     "level": "B2",
@@ -42111,7 +42111,7 @@
     "german_audio": "bitten",
     "english": "to ask, to request",
     "ukrainian": "просити",
-    "example": "<b>Ich habe den Vorgesetzten um ein schnelles Gespräch gebeten</b>."
+    "example": "<b>Ich habe den Vorgesetzten um ein schnelles Gespräch <b style=\"color: #eab308;\">gebeten</b></b>."
   },
   {
     "level": "B2",
@@ -42123,7 +42123,7 @@
     "german_audio": "blasen",
     "english": "to blow",
     "ukrainian": "дути",
-    "example": "Die Luftleitung bläst kühle Luft direkt in die Werkhalle."
+    "example": "Die Luftleitung <b style=\"color: #eab308;\">bläst</b> kühle Luft direkt in die Werkhalle."
   },
   {
     "level": "B2",
@@ -42135,7 +42135,7 @@
     "german_audio": "bleiben",
     "english": "to stay, to remain",
     "ukrainian": "залишатися",
-    "example": "Trotz der Insolvenz ist die Belegschaft weiterhin im Betrieb geblieben."
+    "example": "Trotz der Insolvenz ist die Belegschaft weiterhin im Betrieb <b style=\"color: #eab308;\">geblieben</b>."
   },
   {
     "level": "B2",
@@ -42147,7 +42147,7 @@
     "german_audio": "brechen",
     "english": "to break",
     "ukrainian": "ламати, розривати",
-    "example": "Der Mitarbeiter hat sich beim Wegeunfall das linke Bein gebrochen."
+    "example": "Der Mitarbeiter hat sich beim Wegeunfall das linke Bein <b style=\"color: #eab308;\">gebrochen</b>."
   },
   {
     "level": "B2",
@@ -42159,7 +42159,7 @@
     "german_audio": "brennen",
     "english": "to burn",
     "ukrainian": "горіти",
-    "example": "Wegen des Kabelbrands hat die Kontrollleuchte am Aggregat rot gebrannt."
+    "example": "Wegen des Kabelbrands hat die Kontrollleuchte am Aggregat rot <b style=\"color: #eab308;\">gebrannt</b>."
   },
   {
     "level": "B2",
@@ -42171,7 +42171,7 @@
     "german_audio": "bringen",
     "english": "to bring",
     "ukrainian": "приносити",
-    "example": "Die Modernisierung der Kältemaschine hat eine erhebliche Energieeinsparung gebracht."
+    "example": "Die Modernisierung der Kältemaschine hat eine erhebliche Energieeinsparung <b style=\"color: #eab308;\">gebracht</b>."
   },
   {
     "level": "B2",
@@ -42195,7 +42195,7 @@
     "german_audio": "denken",
     "english": "to think",
     "ukrainian": "думати",
-    "example": "Ich habe an eine andere Möglichkeit zur Lärmminderung gedacht."
+    "example": "Ich habe an eine andere Möglichkeit zur Lärmminderung <b style=\"color: #eab308;\">gedacht</b>."
   },
   {
     "level": "B2",
@@ -42291,7 +42291,7 @@
     "german_audio": "erlöschen",
     "english": "to go out, to expire",
     "ukrainian": "згасати, закінчуватися (про термін)",
-    "example": "Der arbeitsrechtliche Anspruch erlischt drei Monate nach dem Renteneintritt."
+    "example": "Der arbeitsrechtliche Anspruch <b style=\"color: #eab308;\">erlischt</b> drei Monate nach dem Renteneintritt."
   },
   {
     "level": "B2",
@@ -42315,7 +42315,7 @@
     "german_audio": "essen",
     "english": "to eat",
     "ukrainian": "їсти",
-    "example": "Wir haben während der Pause in der Werkhalle gemeinsam gegessen."
+    "example": "Wir haben während der Pause in der Werkhalle gemeinsam <b style=\"color: #eab308;\">gegessen</b>."
   },
   {
     "level": "B2",
@@ -42327,7 +42327,7 @@
     "german_audio": "fahren",
     "english": "to drive, to run",
     "ukrainian": "їхати, керувати",
-    "example": "Der neue Dienstwagen wird ausschließlich vom Filialleiter gefahren."
+    "example": "Der neue Dienstwagen wird ausschließlich vom Filialleiter <b style=\"color: #eab308;\">gefahren</b>."
   },
   {
     "level": "B2",
@@ -42339,7 +42339,7 @@
     "german_audio": "fallen",
     "english": "to fall",
     "ukrainian": "падати",
-    "example": "Der Umsatz der GmbH ist im letzten Geschäftsjahr drastisch gefallen."
+    "example": "Der Umsatz der GmbH ist im letzten Geschäftsjahr drastisch <b style=\"color: #eab308;\">gefallen</b>."
   },
   {
     "level": "B2",
@@ -42363,7 +42363,7 @@
     "german_audio": "finden",
     "english": "to find",
     "ukrainian": "знаходити",
-    "example": "Der Betriebsbeauftragte hat eine gute Alternative zur Materialverschwendung gefunden."
+    "example": "Der Betriebsbeauftragte hat eine gute Alternative zur Materialverschwendung <b style=\"color: #eab308;\">gefunden</b>."
   },
   {
     "level": "B2",
@@ -42375,7 +42375,7 @@
     "german_audio": "fliegen",
     "english": "to fly",
     "ukrainian": "літати",
-    "example": "Der Hauptaktionär ist zur Hauptversammlung der Aktiengesellschaft geflogen."
+    "example": "Der Hauptaktionär ist zur Hauptversammlung der Aktiengesellschaft <b style=\"color: #eab308;\">geflogen</b>."
   },
   {
     "level": "B2",
@@ -42387,7 +42387,7 @@
     "german_audio": "fliehen",
     "english": "to flee, to escape",
     "ukrainian": "утікати, уникати",
-    "example": "Viele Fachkräfte sind aufgrund des schlechten Betriebsklimas aus dem Betrieb geflohen."
+    "example": "Viele Fachkräfte sind aufgrund des schlechten Betriebsklimas aus dem Betrieb <b style=\"color: #eab308;\">geflohen</b>."
   },
   {
     "level": "B2",
@@ -42411,7 +42411,7 @@
     "german_audio": "fressen",
     "english": "to eat (animals), to consume",
     "ukrainian": "жерти, споживати (у великій кількості)",
-    "example": "Der Dauerbetrieb der alten Kälteanlage frisst extrem viel Strom."
+    "example": "Der Dauerbetrieb der alten Kälteanlage <b style=\"color: #eab308;\">frisst</b> extrem viel Strom."
   },
   {
     "level": "B2",
@@ -42423,7 +42423,7 @@
     "german_audio": "frieren",
     "english": "to freeze",
     "ukrainian": "мерзнути, замерзати",
-    "example": "Ohne funktionierende Heizung haben die Mitarbeiter im Büro gefroren."
+    "example": "Ohne funktionierende Heizung haben die Mitarbeiter im Büro <b style=\"color: #eab308;\">gefroren</b>."
   },
   {
     "level": "B2",
@@ -42435,7 +42435,7 @@
     "german_audio": "gebären",
     "english": "to give birth to",
     "ukrainian": "народжувати",
-    "example": "Die Idee für die Neukundengewinnung wurde beim Messegespräch geboren."
+    "example": "Die Idee für die Neukundengewinnung wurde beim Messegespräch <b style=\"color: #eab308;\">geboren</b>."
   },
   {
     "level": "B2",
@@ -42447,7 +42447,7 @@
     "german_audio": "geben",
     "english": "to give",
     "ukrainian": "давати",
-    "example": "Die Personalratsvorsitzende hat dem Mitarbeiter einen wertvollen Rat gegeben."
+    "example": "Die Personalratsvorsitzende hat dem Mitarbeiter einen wertvollen Rat <b style=\"color: #eab308;\">gegeben</b>."
   },
   {
     "level": "B2",
@@ -42459,7 +42459,7 @@
     "german_audio": "gedeihen",
     "english": "to thrive, to prosper",
     "ukrainian": "розвиватися, процвітати",
-    "example": "Die Zusammenarbeit zwischen den Tarifpartnern ist in den letzten Jahren gut gediehen."
+    "example": "Die Zusammenarbeit zwischen den Tarifpartnern ist in den letzten Jahren gut <b style=\"color: #eab308;\">gediehen</b>."
   },
   {
     "level": "B2",
@@ -42483,7 +42483,7 @@
     "german_audio": "gehen",
     "english": "to go",
     "ukrainian": "йти, працювати (про прилад)",
-    "example": "Wegen des Streiks ging am Bahnhof gestern fast nichts mehr."
+    "example": "Wegen des Streiks <b style=\"color: #eab308;\">ging</b> am Bahnhof gestern fast nichts mehr."
   },
   {
     "level": "B2",
@@ -42495,7 +42495,7 @@
     "german_audio": "gelingen",
     "english": "to succeed",
     "ukrainian": "вдаватися",
-    "example": "Es ist uns gelungen, eine einvernehmliche Lösung im Tarifkonflikt zu erzielen."
+    "example": "Es ist uns <b style=\"color: #eab308;\">gelungen</b>, eine einvernehmliche Lösung im Tarifkonflikt zu erzielen."
   },
   {
     "level": "B2",
@@ -42507,7 +42507,7 @@
     "german_audio": "gelten",
     "english": "to apply, to be valid",
     "ukrainian": "діяти, мати силу",
-    "example": "Die Vorschriften zum Brandschutz haben schon immer auf dem gesamten Betriebsgelände gegolten."
+    "example": "Die Vorschriften zum Brandschutz haben schon immer auf dem gesamten Betriebsgelände <b style=\"color: #eab308;\">gegolten</b>."
   },
   {
     "level": "B2",
@@ -42543,7 +42543,7 @@
     "german_audio": "gewinnen",
     "english": "to win, to gain",
     "ukrainian": "вигравати, здобувати",
-    "example": "Das Handwerksunternehmen hat einen wichtigen Großauftrag gewonnen."
+    "example": "Das Handwerksunternehmen hat einen wichtigen Großauftrag <b style=\"color: #eab308;\">gewonnen</b>."
   },
   {
     "level": "B2",
@@ -42555,7 +42555,7 @@
     "german_audio": "gießen",
     "english": "to pour, to water",
     "ukrainian": "лити, поливати",
-    "example": "Das Fundament für die neue Werkhalle wurde gestern erfolgreich gegossen."
+    "example": "Das Fundament für die neue Werkhalle wurde gestern erfolgreich <b style=\"color: #eab308;\">gegossen</b>."
   },
   {
     "level": "B2",
@@ -42579,7 +42579,7 @@
     "german_audio": "gleiten",
     "english": "to slide, to glide",
     "ukrainian": "ковзати",
-    "example": "Die Verhandlungen glitten dank des erfahrenen Schlichters in ruhige Bahnen."
+    "example": "Die Verhandlungen <b style=\"color: #eab308;\">glitten</b> dank des erfahrenen Schlichters in ruhige Bahnen."
   },
   {
     "level": "B2",
@@ -42591,7 +42591,7 @@
     "german_audio": "graben",
     "english": "to dig",
     "ukrainian": "копати",
-    "example": "Die Bauarbeiter haben tiefe Gräben für die neue Gasleitung gegraben."
+    "example": "Die Bauarbeiter haben tiefe Gräben für die neue Gasleitung <b style=\"color: #eab308;\">gegraben</b>."
   },
   {
     "level": "B2",
@@ -42603,7 +42603,7 @@
     "german_audio": "greifen",
     "english": "to grasp, to grab, to take effect",
     "ukrainian": "хапати, вживати заходів",
-    "example": "Die Lärmschutzmaßnahmen haben ab dem ersten Tag hervorragend gegriffen."
+    "example": "Die Lärmschutzmaßnahmen haben ab dem ersten Tag hervorragend <b style=\"color: #eab308;\">gegriffen</b>."
   },
   {
     "level": "B2",
@@ -42615,7 +42615,7 @@
     "german_audio": "haben",
     "english": "to have",
     "ukrainian": "мати",
-    "example": "Der gekündigte Mitarbeiter hat einen gesetzlichen Weiterbeschäftigungsanspruch gehabt."
+    "example": "Der gekündigte Mitarbeiter hat einen gesetzlichen Weiterbeschäftigungsanspruch <b style=\"color: #eab308;\">gehabt</b>."
   },
   {
     "level": "B2",
@@ -42639,7 +42639,7 @@
     "german_audio": "hängen",
     "english": "to hang",
     "ukrainian": "висіти",
-    "example": "Der Evakuierungsplan hat deutlich sichtbar an der Wand der Werkhalle gehangen."
+    "example": "Der Evakuierungsplan hat deutlich sichtbar an der Wand der Werkhalle <b style=\"color: #eab308;\">gehangen</b>."
   },
   {
     "level": "B2",
@@ -42651,7 +42651,7 @@
     "german_audio": "heben",
     "english": "to lift, to raise",
     "ukrainian": "піднімати",
-    "example": "Die erfolgreiche Sanierung hat das Ansehen der GmbH deutlich gehoben."
+    "example": "Die erfolgreiche Sanierung hat das Ansehen der GmbH deutlich <b style=\"color: #eab308;\">gehoben</b>."
   },
   {
     "level": "B2",
@@ -42675,7 +42675,7 @@
     "german_audio": "helfen",
     "english": "to help",
     "ukrainian": "допомагати",
-    "example": "Die Berufsgenossenschaft hat dem Betrieb bei der Gefahrenanalyse geholfen."
+    "example": "Die Berufsgenossenschaft hat dem Betrieb bei der Gefahrenanalyse <b style=\"color: #eab308;\">geholfen</b>."
   },
   {
     "level": "B2",
@@ -42687,7 +42687,7 @@
     "german_audio": "kennen",
     "english": "to know (people/places)",
     "ukrainian": "знати (бути знайомим з)",
-    "example": "Der Inhaber hat die familiären Lebensumstände des Angestellten gut gekannt."
+    "example": "Der Inhaber hat die familiären Lebensumstände des Angestellten gut <b style=\"color: #eab308;\">gekannt</b>."
   },
   {
     "level": "B2",
@@ -42699,7 +42699,7 @@
     "german_audio": "klingen",
     "english": "to sound",
     "ukrainian": "звучати",
-    "example": "Die Begründung für die außerordentliche Kündigung hat unplausibel geklungen."
+    "example": "Die Begründung für die außerordentliche Kündigung hat unplausibel <b style=\"color: #eab308;\">geklungen</b>."
   },
   {
     "level": "B2",
@@ -42723,7 +42723,7 @@
     "german_audio": "kommen",
     "english": "to come",
     "ukrainian": "приходити",
-    "example": "Aufgrund des Streiks kam es zu erheblichen Ausfallzeiten im Werk."
+    "example": "Aufgrund des Streiks <b style=\"color: #eab308;\">kam</b> es zu erheblichen Ausfallzeiten im Werk."
   },
   {
     "level": "B2",
@@ -42735,7 +42735,7 @@
     "german_audio": "können",
     "english": "to be able to",
     "ukrainian": "вміти, могти",
-    "example": "Wir konnten eine betriebsbedingte Kündigung im letzten Moment verhindern."
+    "example": "Wir <b style=\"color: #eab308;\">konnten</b> eine betriebsbedingte Kündigung im letzten Moment verhindern."
   },
   {
     "level": "B2",
@@ -42747,7 +42747,7 @@
     "german_audio": "kriechen",
     "english": "to crawl, to creep",
     "ukrainian": "повзати",
-    "example": "Die Verhandlungen über den Sozialplan krochen wochenlang mühsam vorwärts."
+    "example": "Die Verhandlungen über den Sozialplan <b style=\"color: #eab308;\">krochen</b> wochenlang mühsam vorwärts."
   },
   {
     "level": "B2",
@@ -42759,7 +42759,7 @@
     "german_audio": "laden",
     "english": "to load, to charge",
     "ukrainian": "завантажувати, заряджати",
-    "example": "Der Staplerfahrer hat die Paletten auf den Lkw geladen."
+    "example": "Der Staplerfahrer hat die Paletten auf den Lkw <b style=\"color: #eab308;\">geladen</b>."
   },
   {
     "level": "B2",
@@ -42771,7 +42771,7 @@
     "german_audio": "lassen",
     "english": "to let, to leave",
     "ukrainian": "дозволяти, залишати",
-    "example": "Die Geschäftsführung ließ den Entwurf des Sozialplans juristisch prüfen."
+    "example": "Die Geschäftsführung <b style=\"color: #eab308;\">ließ</b> den Entwurf des Sozialplans juristisch prüfen."
   },
   {
     "level": "B2",
@@ -42783,7 +42783,7 @@
     "german_audio": "laufen",
     "english": "to run",
     "ukrainian": "бігти, працювати (про програму)",
-    "example": "Die Kälteanlage ist während des gesamten Wochenendes im Dauerbetrieb gelaufen."
+    "example": "Die Kälteanlage ist während des gesamten Wochenendes im Dauerbetrieb <b style=\"color: #eab308;\">gelaufen</b>."
   },
   {
     "level": "B2",
@@ -42795,7 +42795,7 @@
     "german_audio": "leiden",
     "english": "to suffer",
     "ukrainian": "страждати",
-    "example": "Das Betriebsklima hat unter den ständigen Entlassungswellen stark gelitten."
+    "example": "Das Betriebsklima hat unter den ständigen Entlassungswellen stark <b style=\"color: #eab308;\">gelitten</b>."
   },
   {
     "level": "B2",
@@ -42807,7 +42807,7 @@
     "german_audio": "leihen",
     "english": "to lend, to borrow",
     "ukrainian": "позичати",
-    "example": "Der Kollege hat mir für die Montage sein Spezialwerkzeug geliehen."
+    "example": "Der Kollege hat mir für die Montage sein Spezialwerkzeug <b style=\"color: #eab308;\">geliehen</b>."
   },
   {
     "level": "B2",
@@ -42819,7 +42819,7 @@
     "german_audio": "lesen",
     "english": "to read",
     "ukrainian": "читати",
-    "example": "Ich habe die Bedingungen des Arbeitsvertrags vor der Unterschrift gründlich gelesen."
+    "example": "Ich habe die Bedingungen des Arbeitsvertrags vor der Unterschrift gründlich <b style=\"color: #eab308;\">gelesen</b>."
   },
   {
     "level": "B2",
@@ -42831,7 +42831,7 @@
     "german_audio": "liegen",
     "english": "to lie, to be located",
     "ukrainian": "лежати, знаходитися",
-    "example": "Das Betriebsergebnis hat deutlich über dem Existenzminimum gelegen."
+    "example": "Das Betriebsergebnis hat deutlich über dem Existenzminimum <b style=\"color: #eab308;\">gelegen</b>."
   },
   {
     "level": "B2",
@@ -42843,7 +42843,7 @@
     "german_audio": "lügen",
     "english": "to lie, to tell a falsehood",
     "ukrainian": "брехати",
-    "example": "Der Zeuge hat bei der Vernehmung zum Wegeunfall nachweislich gelogen."
+    "example": "Der Zeuge hat bei der Vernehmung zum Wegeunfall nachweislich <b style=\"color: #eab308;\">gelogen</b>."
   },
   {
     "level": "B2",
@@ -42855,7 +42855,7 @@
     "german_audio": "meiden",
     "english": "to avoid",
     "ukrainian": "уникати",
-    "example": "Wir haben den unzuverlässigen Zulieferer bei der Vergabe des Auftrags gemieden."
+    "example": "Wir haben den unzuverlässigen Zulieferer bei der Vergabe des Auftrags <b style=\"color: #eab308;\">gemieden</b>."
   },
   {
     "level": "B2",
@@ -42867,7 +42867,7 @@
     "german_audio": "melken",
     "english": "to milk",
     "ukrainian": "доїти",
-    "example": "Die Holding hat die Tochtergesellschaft finanziell völlig gemolken."
+    "example": "Die Holding hat die Tochtergesellschaft finanziell völlig <b style=\"color: #eab308;\">gemolken</b>."
   },
   {
     "level": "B2",
@@ -42879,7 +42879,7 @@
     "german_audio": "messen",
     "english": "to measure",
     "ukrainian": "вимірювати",
-    "example": "Der Immissionsschutzbeauftragte hat den Schallpegel der Säge gemessen."
+    "example": "Der Immissionsschutzbeauftragte hat den Schallpegel der Säge <b style=\"color: #eab308;\">gemessen</b>."
   },
   {
     "level": "B2",
@@ -42903,7 +42903,7 @@
     "german_audio": "mögen",
     "english": "to like",
     "ukrainian": "любити, хотіти",
-    "example": "Die Belegschaft hat den alten, verständnisvollen Werkleiter sehr gemocht."
+    "example": "Die Belegschaft hat den alten, verständnisvollen Werkleiter sehr <b style=\"color: #eab308;\">gemocht</b>."
   },
   {
     "level": "B2",
@@ -42915,7 +42915,7 @@
     "german_audio": "müssen",
     "english": "to must, to have to",
     "ukrainian": "мусити",
-    "example": "Wir mussten aufgrund der Dürreperiode erhebliche finanzielle Einbußen hinnehmen."
+    "example": "Wir <b style=\"color: #eab308;\">mussten</b> aufgrund der Dürreperiode erhebliche finanzielle Einbußen hinnehmen."
   },
   {
     "level": "B2",
@@ -42927,7 +42927,7 @@
     "german_audio": "nehmen",
     "english": "to take",
     "ukrainian": "брати",
-    "example": "Der Arbeitnehmer hat fristgerecht Abschied von seinen Kollegen genommen."
+    "example": "Der Arbeitnehmer hat fristgerecht Abschied von seinen Kollegen <b style=\"color: #eab308;\">genommen</b>."
   },
   {
     "level": "B2",
@@ -42939,7 +42939,7 @@
     "german_audio": "nennen",
     "english": "to name, to call",
     "ukrainian": "називати",
-    "example": "Der Prüfer hat die genauen Paragrafen des Steuerrechts genannt."
+    "example": "Der Prüfer hat die genauen Paragrafen des Steuerrechts <b style=\"color: #eab308;\">genannt</b>."
   },
   {
     "level": "B2",
@@ -42951,7 +42951,7 @@
     "german_audio": "pfeifen",
     "english": "to whistle",
     "ukrainian": "свистіти",
-    "example": "Die Turbine der Luftleitung hat wegen des Defekts laut gepfiffen."
+    "example": "Die Turbine der Luftleitung hat wegen des Defekts laut <b style=\"color: #eab308;\">gepfiffen</b>."
   },
   {
     "level": "B2",
@@ -42963,7 +42963,7 @@
     "german_audio": "preisen",
     "english": "to praise",
     "ukrainian": "хвалити, прославляти",
-    "example": "Der Fachberater hat das umweltfreundliche Kältemittel auf der Messe gepriesen."
+    "example": "Der Fachberater hat das umweltfreundliche Kältemittel auf der Messe <b style=\"color: #eab308;\">gepriesen</b>."
   },
   {
     "level": "B2",
@@ -42975,7 +42975,7 @@
     "german_audio": "raten",
     "english": "to advise, to guess",
     "ukrainian": "радити, відгадувати",
-    "example": "Der Rentenberater hat mir zu einer zusätzlichen Altersvorsorge geraten."
+    "example": "Der Rentenberater hat mir zu einer zusätzlichen Altersvorsorge <b style=\"color: #eab308;\">geraten</b>."
   },
   {
     "level": "B2",
@@ -42987,7 +42987,7 @@
     "german_audio": "reiben",
     "english": "to rub",
     "ukrainian": "терти",
-    "example": "Der Meister rieb sich ungläubig die Augen angesichts der guten Prüfungsleistung."
+    "example": "Der Meister <b style=\"color: #eab308;\">rieb</b> sich ungläubig die Augen angesichts der guten Prüfungsleistung."
   },
   {
     "level": "B2",
@@ -42999,7 +42999,7 @@
     "german_audio": "reißen",
     "english": "to tear, to rip",
     "ukrainian": "рвати, лопатися",
-    "example": "Das Tragseil der Hebebühne ist zum Glück nicht gerissen."
+    "example": "Das Tragseil der Hebebühne ist zum Glück nicht <b style=\"color: #eab308;\">gerissen</b>."
   },
   {
     "level": "B2",
@@ -43011,7 +43011,7 @@
     "german_audio": "reiten",
     "english": "to ride (a horse)",
     "ukrainian": "їхати верхи",
-    "example": "Der Verkaufsleiter ritt die Welle des Erfolgs nach der erfolgreichen Messe."
+    "example": "Der Verkaufsleiter <b style=\"color: #eab308;\">ritt</b> die Welle des Erfolgs nach der erfolgreichen Messe."
   },
   {
     "level": "B2",
@@ -43023,7 +43023,7 @@
     "german_audio": "rennen",
     "english": "to run, to race",
     "ukrainian": "бігти, мчати",
-    "example": "Die Mitarbeiter rannten nach dem Feueralarm sofort zum Sammelplatz."
+    "example": "Die Mitarbeiter <b style=\"color: #eab308;\">rannten</b> nach dem Feueralarm sofort zum Sammelplatz."
   },
   {
     "level": "B2",
@@ -43035,7 +43035,7 @@
     "german_audio": "riechen",
     "english": "to smell",
     "ukrainian": "пахнути, чути запах",
-    "example": "In der gesamten Werkhalle hat es intensiv nach frischem Lack gerochen."
+    "example": "In der gesamten Werkhalle hat es intensiv nach frischem Lack <b style=\"color: #eab308;\">gerochen</b>."
   },
   {
     "level": "B2",
@@ -43047,7 +43047,7 @@
     "german_audio": "ringen",
     "english": "to wrestle, to struggle",
     "ukrainian": "боротися",
-    "example": "Die Tarifpartner haben stundenlang um eine einvernehmliche Lösung gerungen."
+    "example": "Die Tarifpartner haben stundenlang um eine einvernehmliche Lösung <b style=\"color: #eab308;\">gerungen</b>."
   },
   {
     "level": "B2",
@@ -43059,7 +43059,7 @@
     "german_audio": "rufen",
     "english": "to call",
     "ukrainian": "кликати, викликати",
-    "example": "Der Sicherheitsbeauftragte hat sofort den Notfallwagen gerufen."
+    "example": "Der Sicherheitsbeauftragte hat sofort den Notfallwagen <b style=\"color: #eab308;\">gerufen</b>."
   },
   {
     "level": "B2",
@@ -43071,7 +43071,7 @@
     "german_audio": "saugen",
     "english": "to suck, to vacuum",
     "ukrainian": "всмоктувати, пилососити",
-    "example": "Die neue Luftreinigungsanlage hat den Feinstaub zuverlässig abgesaugt."
+    "example": "Die neue Luftreinigungsanlage hat den Feinstaub zuverlässig <b style=\"color: #eab308;\">abgesaugt</b>."
   },
   {
     "level": "B2",
@@ -43083,7 +43083,7 @@
     "german_audio": "schaffen",
     "english": "to create",
     "ukrainian": "створювати",
-    "example": "Die Geschäftsführung hat neue, attraktive Stellen in Teilzeit geschaffen."
+    "example": "Die Geschäftsführung hat neue, attraktive Stellen in Teilzeit <b style=\"color: #eab308;\">geschaffen</b>."
   },
   {
     "level": "B2",
@@ -43095,7 +43095,7 @@
     "german_audio": "scheiden",
     "english": "to separate, to divide",
     "ukrainian": "розділяти",
-    "example": "Die Wege des Unternehmens und des unzuverlässigen Dienstleisters haben sich geschieden."
+    "example": "Die Wege des Unternehmens und des unzuverlässigen Dienstleisters haben sich <b style=\"color: #eab308;\">geschieden</b>."
   },
   {
     "level": "B2",
@@ -43119,7 +43119,7 @@
     "german_audio": "schieben",
     "english": "to push, to shove",
     "ukrainian": "штовхати, зсувати",
-    "example": "Der Stichtag für die Rechnungslegung wurde nach hinten geschoben."
+    "example": "Der Stichtag für die Rechnungslegung wurde nach hinten <b style=\"color: #eab308;\">geschoben</b>."
   },
   {
     "level": "B2",
@@ -43131,7 +43131,7 @@
     "german_audio": "schießen",
     "english": "to shoot",
     "ukrainian": "стріляти, швидко розвиватися",
-    "example": "Der Stromverbrauch der alten Anlage ist in die Höhe geschossen."
+    "example": "Der Stromverbrauch der alten Anlage ist in die Höhe <b style=\"color: #eab308;\">geschossen</b>."
   },
   {
     "level": "B2",
@@ -43143,7 +43143,7 @@
     "german_audio": "schlafen",
     "english": "to sleep",
     "ukrainian": "спати",
-    "example": "Nach dem anstrengenden Schichtdienst hat die Mitarbeiterin fest geschlafen."
+    "example": "Nach dem anstrengenden Schichtdienst hat die Mitarbeiterin fest <b style=\"color: #eab308;\">geschlafen</b>."
   },
   {
     "level": "B2",
@@ -43155,7 +43155,7 @@
     "german_audio": "schlagen",
     "english": "to hit, to beat",
     "ukrainian": "бити, перемагати",
-    "example": "Das Überwachungssystem der Gasleitung hat wegen Druckverlusts Alarm geschlagen."
+    "example": "Das Überwachungssystem der Gasleitung hat wegen Druckverlusts Alarm <b style=\"color: #eab308;\">geschlagen</b>."
   },
   {
     "level": "B2",
@@ -43167,7 +43167,7 @@
     "german_audio": "schleichen",
     "english": "to sneak, to creep",
     "ukrainian": "крастися",
-    "example": "Ein grober Berechnungsfehler hat sich heimlich in die Bilanz geschlichen."
+    "example": "Ein grober Berechnungsfehler hat sich heimlich in die Bilanz <b style=\"color: #eab308;\">geschlichen</b>."
   },
   {
     "level": "B2",
@@ -43179,7 +43179,7 @@
     "german_audio": "schleifen",
     "english": "to grind, to polish",
     "ukrainian": "точити, шліфувати",
-    "example": "Der Lehrling hat das Metallstück in der Werkstatt sauber geschliffen."
+    "example": "Der Lehrling hat das Metallstück in der Werkstatt sauber <b style=\"color: #eab308;\">geschliffen</b>."
   },
   {
     "level": "B2",
@@ -43191,7 +43191,7 @@
     "german_audio": "schließen",
     "english": "to close",
     "ukrainian": "закривати",
-    "example": "Das Handwerksunternehmen hat einen wichtigen Kooperationsvertrag geschlossen."
+    "example": "Das Handwerksunternehmen hat einen wichtigen Kooperationsvertrag <b style=\"color: #eab308;\">geschlossen</b>."
   },
   {
     "level": "B2",
@@ -43215,7 +43215,7 @@
     "german_audio": "schmeißen",
     "english": "to throw, to chuck",
     "ukrainian": "кидати, викидати",
-    "example": "Der Inhaber hat das Projekt wegen drohender Verluste komplett hingeschmissen."
+    "example": "Der Inhaber hat das Projekt wegen drohender Verluste komplett <b style=\"color: #eab308;\">hingeschmissen</b>."
   },
   {
     "level": "B2",
@@ -43227,7 +43227,7 @@
     "german_audio": "schmelzen",
     "english": "to melt",
     "ukrainian": "танути, плавитися",
-    "example": "Durch die Fehlfunktion der Kältemaschine sind die tiefgekühlten Waren geschmolzen."
+    "example": "Durch die Fehlfunktion der Kältemaschine sind die tiefgekühlten Waren <b style=\"color: #eab308;\">geschmolzen</b>."
   },
   {
     "level": "B2",
@@ -43239,7 +43239,7 @@
     "german_audio": "schneiden",
     "english": "to cut",
     "ukrainian": "різати",
-    "example": "Er hat sich bei der Montage der Luftleitung in den Finger geschnitten."
+    "example": "Er hat sich bei der Montage der Luftleitung in den Finger <b style=\"color: #eab308;\">geschnitten</b>."
   },
   {
     "level": "B2",
@@ -43263,7 +43263,7 @@
     "german_audio": "schreien",
     "english": "to scream, to shout",
     "ukrainian": "кричати",
-    "example": "Der verletzte Arbeiter hat vor Schmerz laut geschrien."
+    "example": "Der verletzte Arbeiter hat vor Schmerz laut <b style=\"color: #eab308;\">geschrien</b>."
   },
   {
     "level": "B2",
@@ -43287,7 +43287,7 @@
     "german_audio": "schweigen",
     "english": "to be silent",
     "ukrainian": "мовчати",
-    "example": "Der Whistleblower hat trotz des enormen Drucks der Chefetage nicht geschwiegen."
+    "example": "Der Whistleblower hat trotz des enormen Drucks der Chefetage nicht <b style=\"color: #eab308;\">geschwiegen</b>."
   },
   {
     "level": "B2",
@@ -43323,7 +43323,7 @@
     "german_audio": "schwinden",
     "english": "to disappear, to shrink",
     "ukrainian": "зникати, зменшуватися",
-    "example": "Die Hoffnung auf eine einvernehmliche Einigung ist zusehends geschwunden."
+    "example": "Die Hoffnung auf eine einvernehmliche Einigung ist zusehends <b style=\"color: #eab308;\">geschwunden</b>."
   },
   {
     "level": "B2",
@@ -43335,7 +43335,7 @@
     "german_audio": "schwören",
     "english": "to swear, to vow",
     "ukrainian": "клястися",
-    "example": "Der Zeuge hat vor dem Arbeitsgericht geschworen, die Wahrheit zu sagen."
+    "example": "Der Zeuge hat vor dem Arbeitsgericht <b style=\"color: #eab308;\">geschworen</b>, die Wahrheit zu sagen."
   },
   {
     "level": "B2",
@@ -43347,7 +43347,7 @@
     "german_audio": "sehen",
     "english": "to see",
     "ukrainian": "бачити",
-    "example": "Der Steuerprüfer sah die Unregelmäßigkeiten sofort in den Buchungsbelegen."
+    "example": "Der Steuerprüfer <b style=\"color: #eab308;\">sah</b> die Unregelmäßigkeiten sofort in den Buchungsbelegen."
   },
   {
     "level": "B2",
@@ -43359,7 +43359,7 @@
     "german_audio": "sein",
     "english": "to be",
     "ukrainian": "бути",
-    "example": "Das positive Betriebsergebnis ist ein großer Erfolg für die gesamte GmbH gewesen."
+    "example": "Das positive Betriebsergebnis ist ein großer Erfolg für die gesamte GmbH <b style=\"color: #eab308;\">gewesen</b>."
   },
   {
     "level": "B2",
@@ -43371,7 +43371,7 @@
     "german_audio": "senden",
     "english": "to send",
     "ukrainian": "надсилати",
-    "example": "Der Arbeitnehmer hat die Krankmeldung fristgerecht per Einschreiben gesendet."
+    "example": "Der Arbeitnehmer hat die Krankmeldung fristgerecht per Einschreiben <b style=\"color: #eab308;\">gesendet</b>."
   },
   {
     "level": "B2",
@@ -43383,7 +43383,7 @@
     "german_audio": "singen",
     "english": "to sing",
     "ukrainian": "співати",
-    "example": "Der Firmenchor hat auf der Jubiläumsfeier ein Ständchen gesungen."
+    "example": "Der Firmenchor hat auf der Jubiläumsfeier ein Ständchen <b style=\"color: #eab308;\">gesungen</b>."
   },
   {
     "level": "B2",
@@ -43395,7 +43395,7 @@
     "german_audio": "sitzen",
     "english": "to sit",
     "ukrainian": "сидіти",
-    "example": "Der Sachbearbeiter der Elterngeldstelle saß den ganzen Tag am Schreibtisch."
+    "example": "Der Sachbearbeiter der Elterngeldstelle <b style=\"color: #eab308;\">saß</b> den ganzen Tag am Schreibtisch."
   },
   {
     "level": "B2",
@@ -43419,7 +43419,7 @@
     "german_audio": "spinnen",
     "english": "to spin, to be crazy",
     "ukrainian": "прясти, плести, вередувати (про техніку)",
-    "example": "Das IT-Netzwerk in der Hauptverwaltung hat gestern komplett gesponnen."
+    "example": "Das IT-Netzwerk in der Hauptverwaltung hat gestern komplett <b style=\"color: #eab308;\">gesponnen</b>."
   },
   {
     "level": "B2",
@@ -43431,7 +43431,7 @@
     "german_audio": "sprechen",
     "english": "to speak",
     "ukrainian": "говорити",
-    "example": "Der Ombudsmann hat vertraulich mit dem betroffenen Whistleblower gesprochen."
+    "example": "Der Ombudsmann hat vertraulich mit dem betroffenen Whistleblower <b style=\"color: #eab308;\">gesprochen</b>."
   },
   {
     "level": "B2",
@@ -43443,7 +43443,7 @@
     "german_audio": "springen",
     "english": "to jump",
     "ukrainian": "стрибати",
-    "example": "Die Anzahl der Bewerbungen ist nach dem Inserat sprunghaft angesprungen."
+    "example": "Die Anzahl der Bewerbungen ist nach dem Inserat sprunghaft <b style=\"color: #eab308;\">angesprungen</b>."
   },
   {
     "level": "B2",
@@ -43455,7 +43455,7 @@
     "german_audio": "stechen",
     "english": "to sting, to prick",
     "ukrainian": "колоти",
-    "example": "Ein scharfes Metallteil am Gerät hat mich in den Finger gestochen."
+    "example": "Ein scharfes Metallteil am Gerät hat mich in den Finger <b style=\"color: #eab308;\">gestochen</b>."
   },
   {
     "level": "B2",
@@ -43479,7 +43479,7 @@
     "german_audio": "stehlen",
     "english": "to steal",
     "ukrainian": "красти",
-    "example": "Ein Unbefugter hat sensible Kundendaten aus dem Archiv gestohlen."
+    "example": "Ein Unbefugter hat sensible Kundendaten aus dem Archiv <b style=\"color: #eab308;\">gestohlen</b>."
   },
   {
     "level": "B2",
@@ -43491,7 +43491,7 @@
     "german_audio": "steigen",
     "english": "to rise, to climb",
     "ukrainian": "підніматися, зростати",
-    "example": "Der Umsatz ist dank der erfolgreichen Messeteilnahme stark gestiegen."
+    "example": "Der Umsatz ist dank der erfolgreichen Messeteilnahme stark <b style=\"color: #eab308;\">gestiegen</b>."
   },
   {
     "level": "B2",
@@ -43503,7 +43503,7 @@
     "german_audio": "sterben",
     "english": "to die",
     "ukrainian": "помирати",
-    "example": "Der alte Inhaber des Traditionsbetriebs ist im Alter von 85 Jahren gestorben."
+    "example": "Der alte Inhaber des Traditionsbetriebs ist im Alter von 85 Jahren <b style=\"color: #eab308;\">gestorben</b>."
   },
   {
     "level": "B2",
@@ -43515,7 +43515,7 @@
     "german_audio": "stinken",
     "english": "to stink",
     "ukrainian": "смердіти",
-    "example": "Es hat in der Nähe der defekten Abwasserleitung stark gestunken."
+    "example": "Es hat in der Nähe der defekten Abwasserleitung stark <b style=\"color: #eab308;\">gestunken</b>."
   },
   {
     "level": "B2",
@@ -43527,7 +43527,7 @@
     "german_audio": "stoßen",
     "english": "to push, to bump",
     "ukrainian": "штовхати, наштовхуватися",
-    "example": "Wir sind bei der Gefahrenanalyse auf mehrere Mängel gestoßen."
+    "example": "Wir sind bei der Gefahrenanalyse auf mehrere Mängel <b style=\"color: #eab308;\">gestoßen</b>."
   },
   {
     "level": "B2",
@@ -43539,7 +43539,7 @@
     "german_audio": "streichen",
     "english": "to paint, to cancel, to delete",
     "ukrainian": "фарбувати, викреслювати",
-    "example": "Der Arbeitgeber hat die freiwillige Leistungszulage vom Gehaltszettel gestrichen."
+    "example": "Der Arbeitgeber hat die freiwillige Leistungszulage vom Gehaltszettel <b style=\"color: #eab308;\">gestrichen</b>."
   },
   {
     "level": "B2",
@@ -43551,7 +43551,7 @@
     "german_audio": "streiten",
     "english": "to argue, to fight",
     "ukrainian": "сперечатися",
-    "example": "Die Tarifpartner haben heftig über die Erhöhung des Mindestlohns gestritten."
+    "example": "Die Tarifpartner haben heftig über die Erhöhung des Mindestlohns <b style=\"color: #eab308;\">gestritten</b>."
   },
   {
     "level": "B2",
@@ -43563,7 +43563,7 @@
     "german_audio": "tragen",
     "english": "to carry, to wear",
     "ukrainian": "носить",
-    "example": "Die GmbH hat alle Kosten für die notwendigen Schutzmaßnahmen getragen."
+    "example": "Die GmbH hat alle Kosten für die notwendigen Schutzmaßnahmen <b style=\"color: #eab308;\">getragen</b>."
   },
   {
     "level": "B2",
@@ -43575,7 +43575,7 @@
     "german_audio": "treffen",
     "english": "to meet, to hit, to make (a decision)",
     "ukrainian": "зустрічати, приймати (рішення)",
-    "example": "Wir haben eine verbindliche Vereinbarung über die Gewinnbeteiligung getroffen."
+    "example": "Wir haben eine verbindliche Vereinbarung über die Gewinnbeteiligung <b style=\"color: #eab308;\">getroffen</b>."
   },
   {
     "level": "B2",
@@ -43587,7 +43587,7 @@
     "german_audio": "treiben",
     "english": "to drive, to push",
     "ukrainian": "гнати, спонукати",
-    "example": "Die Inflation trieb die Preise für Rohstoffe drastisch in die Höhe."
+    "example": "Die Inflation <b style=\"color: #eab308;\">trieb</b> die Preise für Rohstoffe drastisch in die Höhe."
   },
   {
     "level": "B2",
@@ -43599,7 +43599,7 @@
     "german_audio": "treten",
     "english": "to step, to kick",
     "ukrainian": "ступати, наступати",
-    "example": "Die neue Brandschutzverordnung ist am 1. Januar in Kraft getreten."
+    "example": "Die neue Brandschutzverordnung ist am 1. Januar in Kraft <b style=\"color: #eab308;\">getreten</b>."
   },
   {
     "level": "B2",
@@ -43611,7 +43611,7 @@
     "german_audio": "trinken",
     "english": "to drink",
     "ukrainian": "пити",
-    "example": "Während der Hitzewelle haben die Arbeiter in der Werkhalle viel Wasser getrunken."
+    "example": "Während der Hitzewelle haben die Arbeiter in der Werkhalle viel Wasser <b style=\"color: #eab308;\">getrunken</b>."
   },
   {
     "level": "B2",
@@ -43623,7 +43623,7 @@
     "german_audio": "tun",
     "english": "to do",
     "ukrainian": "робити",
-    "example": "Der Inhaber hat alles getan, um den drohenden Stellenabbau zu verhindern."
+    "example": "Der Inhaber hat alles <b style=\"color: #eab308;\">getan</b>, um den drohenden Stellenabbau zu verhindern."
   },
   {
     "level": "B2",
@@ -43707,7 +43707,7 @@
     "german_audio": "wachsen",
     "english": "to grow",
     "ukrainian": "рости",
-    "example": "Unser mittelständischer Betrieb ist in den letzten Jahren stetig gewachsen."
+    "example": "Unser mittelständischer Betrieb ist in den letzten Jahren stetig <b style=\"color: #eab308;\">gewachsen</b>."
   },
   {
     "level": "B2",
@@ -43719,7 +43719,7 @@
     "german_audio": "waschen",
     "english": "to wash",
     "ukrainian": "мити, прати",
-    "example": "Die Arbeitskleidung muss regelmäßig bei hohen Temperaturen gewaschen werden."
+    "example": "Die Arbeitskleidung muss regelmäßig bei hohen Temperaturen <b style=\"color: #eab308;\">gewaschen</b> werden."
   },
   {
     "level": "B2",
@@ -43743,7 +43743,7 @@
     "german_audio": "weisen",
     "english": "to point, to show",
     "ukrainian": "показувати, вказувати",
-    "example": "Der Bericht wies eindeutig auf Mängel bei der Einhaltung der Brandschutzordnung hin."
+    "example": "Der Bericht <b style=\"color: #eab308;\">wies</b> eindeutig auf Mängel bei der Einhaltung der Brandschutzordnung hin."
   },
   {
     "level": "B2",
@@ -43767,7 +43767,7 @@
     "german_audio": "werben",
     "english": "to advertise, to recruit",
     "ukrainian": "рекламувати, вербувати",
-    "example": "Die Firma wirbt auf der Bildungsmesse intensiv um neue Auszubildende."
+    "example": "Die Firma <b style=\"color: #eab308;\">wirbt</b> auf der Bildungsmesse intensiv um neue Auszubildende."
   },
   {
     "level": "B2",
@@ -43779,7 +43779,7 @@
     "german_audio": "werden",
     "english": "to become",
     "ukrainian": "ставати",
-    "example": "Die Einhaltung der Umweltrichtlinien ist zu einem zentralen Thema geworden."
+    "example": "Die Einhaltung der Umweltrichtlinien ist zu einem zentralen Thema <b style=\"color: #eab308;\">geworden</b>."
   },
   {
     "level": "B2",
@@ -43791,7 +43791,7 @@
     "german_audio": "werfen",
     "english": "to throw",
     "ukrainian": "кидати",
-    "example": "Der Vorwurf der Scheinselbstständigkeit warf viele rechtliche Fragen auf."
+    "example": "Der Vorwurf der Scheinselbstständigkeit <b style=\"color: #eab308;\">warf</b> viele rechtliche Fragen auf."
   },
   {
     "level": "B2",
@@ -43803,7 +43803,7 @@
     "german_audio": "wiegen",
     "english": "to weigh",
     "ukrainian": "важити",
-    "example": "Das Paket mit den Ersatzteilen für das Aggregat hat über 20 Kilogramm gewogen."
+    "example": "Das Paket mit den Ersatzteilen für das Aggregat hat über 20 Kilogramm <b style=\"color: #eab308;\">gewogen</b>."
   },
   {
     "level": "B2",
@@ -43827,7 +43827,7 @@
     "german_audio": "wissen",
     "english": "to know (facts)",
     "ukrainian": "знати (факти)",
-    "example": "Der Sicherheitsbeauftragte hat genau gewusst, wo sich die Feuerlöscher befinden."
+    "example": "Der Sicherheitsbeauftragte hat genau <b style=\"color: #eab308;\">gewusst</b>, wo sich die Feuerlöscher befinden."
   },
   {
     "level": "B2",
@@ -43851,7 +43851,7 @@
     "german_audio": "ziehen",
     "english": "to pull, to drag",
     "ukrainian": "тягнути",
-    "example": "Der Arbeitnehmer hat die Kündigungsschutzklage vor dem Arbeitsgericht zurückgezogen."
+    "example": "Der Arbeitnehmer hat die Kündigungsschutzklage vor dem Arbeitsgericht <b style=\"color: #eab308;\">zurückgezogen</b>."
   },
   {
     "level": "B2",
@@ -43863,6 +43863,6 @@
     "german_audio": "zwingen",
     "english": "to force / to compel",
     "ukrainian": "змушувати",
-    "example": "Die prekäre Finanzlage hat die GmbH zur Einleitung der Insolvenz gezwungen."
+    "example": "Die prekäre Finanzlage hat die GmbH zur Einleitung der Insolvenz <b style=\"color: #eab308;\">gezwungen</b>."
   }
 ]

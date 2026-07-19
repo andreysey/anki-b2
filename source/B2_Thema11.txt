@@ -158,10 +158,10 @@ die Personalrat, "-e;staff council (public sector);рада трудового �
 die Personalratsvorsitzende, -n / die Personalratsvorsitzende, -n;chairman of the staff council;голова ради трудового колективу;Die Personalratsvorsitzende **überwacht die Einhaltung der Arbeitsgesetze**.
 die Jugend- und Auszubildendenvertretung (JAV), -en;youth and apprentice representative body (JAV);представництво молоді та учнів на виробництві (JAV);Die JAV **arbeitet eng mit dem Betriebsrat zusammen**.
 die JAV-Mitglied, -er;JAV member;член JAV;Als JAV-Mitglied **setzt er sich für eine qualitativ hochwertige Ausbildung ein**.
-die JAV-Vorsitzende, -n / die JAV-Vorsitzende, -n;chairman of the JAV;Die JAV-Vorsitzende **nimmt an den Sitzungen des Betriebsrats teil**.
+die JAV-Vorsitzende, -n;chairwoman/chairman of the JAV;голова JAV;Die JAV-Vorsitzende nimmt an den Sitzungen des Betriebsrats teil.
 die Schwerbehindertenvertretung (SBV), -en;representative body for severely disabled employees;представництво інвалідинків на виробництві (SBV);Die SBV **wurde bei der Arbeitsplatzanpassung einbezogen**.
 die SBV-Mitglied, -er;SBV member;член SBV;Als SBV-Mitglied **fordert er die vollständige Barrierefreiheit im Betrieb**.
-die SBV-Vorsitzende, -n / die SBV-Vorsitzende, -n;chairman of the SBV;Die SBV-Vorsitzende **berät Arbeitgeber beim Gesundheitsschutz**.
+die SBV-Vorsitzende, -n;chairwoman/chairman of the SBV;голова SBV;Die SBV-Vorsitzende berät Arbeitgeber beim Gesundheitsschutz.
 der Gleichstellungsbeauftragte, -n / die Gleichstellungsbeauftragte, -n;equal opportunities officer;уповноважений з питань гендерної рівності;Die Gleichstellungsbeauftragte **achtet auf die Chancengleichheit bei Beförderungen**.
 der Frauenbeauftragte, -n / die Frauenbeauftragte, -n;women's representative;уповноважена у справах жінок;Die Frauenbeauftragte **unterstützt Frauen beim beruflichen Aufstieg**.
 der Datenschutzbeauftragte, -n / die Datenschutzbeauftragte, -n;data protection officer;уповноважений з питань захисту даних;Der Datenschutzbeauftragte **prüft das System auf Einhaltung der DSGVO**.

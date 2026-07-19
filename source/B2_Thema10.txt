@@ -65,9 +65,9 @@ die Zulassung, -en;admission, licensing, approval;дозвіл, допуск (н
 die Zusammenfassung, -en;summary;резюме, короткий зміст;Der Bericht **beinhaltet eine kurze Zusammenfassung der Versuchsergebnisse**.
 die Anschaffungskosten (Pl.);acquisition costs;витрати на придбання;Die Anschaffungskosten **können im Rahmen der Steuererklärung abgesetzt werden**.
 etw. beanspruchen (beansprucht, beanspruchte, hat beansprucht);to claim, to demand;вимагати, потребувати;Die Einarbeitung der Vertretungskraft **wird einige Zeit beanspruchen**.
-die Berufsgenossenschaft (BG), -en;employers' liability insurance association;галузеве страхування;Die BG **entscheidet über die Gewährleistung von Renten nach Arbeitsunfällen**.
+die Berufsgenossenschaft (BG), -en;employers' liability insurance association;галузеве страхування;Die **Berufsgenossenschaft** entscheidet über die Gewährleistung von Renten nach Arbeitsunfällen.
 der Dauerbetrieb (Sg.);continuous operation;безперервний режим роботи;Die Sensoren **sind für den dauerhaften Dauerbetrieb im Werk ausgelegt**.
-die Einsparung, -en;saving;економія;Die Modernisierung der Beleuchtung **führte zu einer spürbaren Stromeinsparung**.
+die Einsparung, -en;saving;економія;Die Modernisierung der Beleuchtung führte zu einer spürbaren **Einsparung** beim Stromverbrauch.
 die E-Mail-Adresse, -n;email address;адреса електронної пошти;Bitte senden Sie Ihre Bewerbungsverlagen **an die angegebene E-Mail-Adresse**.
 die Energieeinsparung, -en;energy saving;енергозбереження;Die Verbesserung der Energieeffizienz **trägt maßgeblich zur Energieeinsparung bei**.
 die Ergonomie (Sg.);ergonomics;ергономіка;Die Ergonomie am Arbeitsplatz **wird vom Betriebsarzt beurteilt**.

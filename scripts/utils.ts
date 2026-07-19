@@ -40,41 +40,80 @@ export function colorizeGender(german: string): string {
  * Port of Rust: highlight_word_in_example
  * Highlights the main word (or its declined form) in the example sentence.
  */
-export function highlightWordInExample(cleanGerman: string, example: string): string {
+export function highlightWordInExample(cleanGerman: string, example: string, originalGerman?: string): string {
   if (!example) return '';
 
-  // Extract candidate search terms
   const terms: string[] = [];
 
-  // Parse words like "schließen (schließt, schloss, hat geschlossen)"
-  // Extract all forms listed in parentheses or main words
-  const parensMatch = cleanGerman.match(/\((.*?)\)/);
-  if (parensMatch && parensMatch[1]) {
-    parensMatch[1].split(',').forEach(form => {
-      let f = form.replace(/^(hat|ist)\s+/, '').trim(); // Remove auxiliary verbs
-      if (f.length > 2) terms.push(f);
-    });
+  // ── 1. Parse ALL conjugated forms from the ORIGINAL German (before parentheses were stripped).
+  //       This is critical for B2_Verben.txt entries like:
+  //       "schlafen (schläft, schlief, hat geschlafen)"  →  adds schläft, schlief, geschlafen
+  if (originalGerman) {
+    const parensMatch = originalGerman.match(/\((.*?)\)/);
+    if (parensMatch && parensMatch[1]) {
+      parensMatch[1].split(',').forEach(form => {
+        // First split by '/' to separate alternate forms like "ist/hat gefahren" or "bäckt/backt"
+        form.split('/').forEach(part => {
+          let f = part.trim();
+          // Remove auxiliary verbs "hat", "ist", "haben", "sind" at start
+          f = f.replace(/^(hat|ist|haben|sind)\s+/i, '').trim();
+          // Remove separable-verb pipe characters
+          f = f.replace(/\|/g, '');
+          if (f.length > 2 && !f.startsWith('+') && !/^(hat|ist|haben|sind)$/i.test(f)) {
+            terms.push(f);
+          }
+        });
+      });
+    }
   }
 
-  // Add the base terms
+  // ── 2. Add base terms from cleanGerman (parentheses already stripped, pipe removed)
   const rawWords = cleanGerman.replace(/\(.*?\)/g, '').split(/\s+/);
+  const skipList = new Set(['der', 'die', 'das', 'ein', 'eine', 'mit', 'auf', 'aus', 'von',
+                            'bei', 'sich', 'jdn', 'etw', 'jdm', 'jds']);
+
   rawWords.forEach(w => {
-    const cleaned = w.replace(/\|/g, '').trim();
-    // Exclude articles, short prepositions etc.
-    if (cleaned.length > 2 && !['der', 'die', 'das', 'ein', 'eine', 'mit', 'auf', 'aus', 'von', 'bei'].includes(cleaned.toLowerCase())) {
+    // ── Handle pipe-separated separable verbs: "ein|stellen" → "einstellen" + "stellen"
+    const pipeParts = w.split('|').map(p => p.replace(/\.$/, '').trim()).filter(p => p.length > 2);
+    // The full joined form (e.g. "einstellen")
+    const cleaned = w.replace(/\|/g, '').replace(/\.$/, '').trim();
+
+    if (cleaned.length > 2 && !skipList.has(cleaned.toLowerCase())) {
       terms.push(cleaned);
-      // If it's a separable verb like "einladen", also check just the root "laden" or conjugated prefix forms
+      // For infinitives ending in '-en', also add the stem (without '-en')
+      // so regex can match conjugated forms: glauben→glaubt, achten→achtet, kommen→kommt
+      if (cleaned.endsWith('en') && cleaned.length > 4) {
+        terms.push(cleaned.slice(0, -2));
+      }
+      // Hard-coded umlaut conjugation helpers for common patterns
       if (cleaned.endsWith('laden') && cleaned.length > 5) terms.push('lädt');
       if (cleaned.endsWith('tragen') && cleaned.length > 6) terms.push('trägt');
       if (cleaned.endsWith('gehen') && cleaned.length > 5) terms.push('geht', 'ging');
       if (cleaned.endsWith('sehen') && cleaned.length > 5) terms.push('sieht', 'sah');
-      if (cleaned.endsWith('halten') && cleaned.length > 6) {
-        terms.push('hält', 'hielt');
-      }
+      if (cleaned.endsWith('halten') && cleaned.length > 6) terms.push('hält', 'hielt');
+    }
+
+    // Add each pipe part separately: "stellen" from "ein|stellen"
+    // This catches "einzustellen" via the "stell" stem match later
+    if (pipeParts.length > 1) {
+      pipeParts.forEach(part => {
+        if (!skipList.has(part.toLowerCase())) {
+          terms.push(part);
+          if (part.endsWith('en') && part.length > 4) terms.push(part.slice(0, -2));
+        }
+      });
     }
   });
 
-  // Sort terms by length descending so we match longer/more specific phrases first
+  // ── 3. For long compound terms (≥8 chars), add the last 6-char segment as a stem.
+  //       e.g. "einstellen" → "tellen", "zusammenarbeiten" → "beiten"
+  //       These act as fallback anchors for suffix-match in separable constructions.
+  const termsSnapshot = [...terms];
+  termsSnapshot.forEach(t => {
+    if (t.length >= 8) terms.push(t.slice(-6));
+  });
+
+  // Sort longest first — prefer the most specific match
   const sortedTerms = [...new Set(terms)].sort((a, b) => b.length - a.length);
 
   const wb = `(^|[^\\p{L}\\p{N}])`;
@@ -84,30 +123,86 @@ export function highlightWordInExample(cleanGerman: string, example: string): st
   let hasHighlighted = false;
 
   for (const term of sortedTerms) {
+    if (term.length < 3) continue;
     try {
+      // Match: term + any trailing letters (catches declined/conjugated suffixes)
       const pattern = new RegExp(`${wb}(${escapeRegex(term)}[\\p{L}]*)${we}`, 'iu');
       if (pattern.test(highlightedExample)) {
-        highlightedExample = highlightedExample.replace(pattern, (_, p1, p2, p3) => `${p1}<b style="color: #eab308;">${p2}</b>${p3}`);
+        highlightedExample = highlightedExample.replace(
+          pattern,
+          (_, p1, p2, p3) => `${p1}<b style="color: #eab308;">${p2}</b>${p3}`,
+        );
         hasHighlighted = true;
-        break; // Match the longest/best term and stop
+        break;
       }
     } catch {
-      // RegEx fallback
+      // skip invalid regex
     }
   }
 
-  // Fallback to prefix matching if nothing matched yet
+  // ── 4. Fallback: 5-char prefix of the main word (was 4, increased for better precision)
   if (!hasHighlighted) {
-    const mainWord = rawWords[rawWords.length - 1]?.replace(/\|/g, '') ?? '';
-    const prefix = mainWord.slice(0, 4);
-    if (prefix.length >= 4) {
+    const mainWord = rawWords[rawWords.length - 1]?.replace(/\|/g, '').replace(/\.$/, '') ?? '';
+    const prefix = mainWord.slice(0, 5);
+    if (prefix.length >= 5) {
       try {
         const prefixPattern = new RegExp(`${wb}(${escapeRegex(prefix)}[\\p{L}]*)${we}`, 'iu');
         if (prefixPattern.test(highlightedExample)) {
-          highlightedExample = highlightedExample.replace(prefixPattern, (_, p1, p2, p3) => `${p1}<b style="color: #eab308;">${p2}</b>${p3}`);
+          highlightedExample = highlightedExample.replace(
+            prefixPattern,
+            (_, p1, p2, p3) => `${p1}<b style="color: #eab308;">${p2}</b>${p3}`,
+          );
+          hasHighlighted = true;
         }
       } catch {
-        // RegEx fallback
+        // skip invalid regex
+      }
+    }
+  }
+
+  // ── 5. Fallback for separable-verb Partizip II: "gefangen" inside "abgefangen".
+  //       Match ge-forms as a substring (no left word boundary required).
+  if (!hasHighlighted) {
+    const geTerms = sortedTerms.filter(t => /^ge/i.test(t) && t.length >= 5);
+    for (const term of geTerms) {
+      try {
+        // No left-boundary: allow prefix characters (ab|aus|zu|zurück|etc.)
+        const substringPattern = new RegExp(`([\\p{L}]*(${escapeRegex(term)}[\\p{L}]*))${we}`, 'iu');
+        if (substringPattern.test(highlightedExample)) {
+          highlightedExample = highlightedExample.replace(
+            substringPattern,
+            (_, fullWord, _inner, p3) => `<b style="color: #eab308;">${fullWord}</b>${p3}`,
+          );
+          hasHighlighted = true;
+          break;
+        }
+      } catch {
+        // skip invalid regex
+      }
+    }
+  }
+  // ── 6. Fallback: general substring search for terms ≥5 chars inside compound words.
+  //       Catches noun roots: "Berater" inside "Rentenberater"
+  //       Catches separable verb suffixes: "stellen" inside "einzustellen"
+  //       Catches noun inflections: "Einkommen" inside "Nettoeinkommen"
+  if (!hasHighlighted) {
+    const longTerms = sortedTerms.filter(t => t.length >= 5);
+    for (const term of longTerms) {
+      try {
+        // Match a word that CONTAINS this term anywhere (not just at start)
+        // The word must be longer than term (otherwise already caught by boundary match)
+        const substringPattern = new RegExp(`(${wb.slice(1, -1)}[\\p{L}]*(${escapeRegex(term)})[\\p{L}]*)${we}`, 'iu');
+        if (substringPattern.test(highlightedExample)) {
+          highlightedExample = highlightedExample.replace(
+            // Find the full word containing the term
+            new RegExp(`${wb}([\\p{L}]*${escapeRegex(term)}[\\p{L}]*)${we}`, 'iu'),
+            (_, p1, fullWord, p3) => `${p1}<b style="color: #eab308;">${fullWord}</b>${p3}`,
+          );
+          hasHighlighted = true;
+          break;
+        }
+      } catch {
+        // skip invalid regex
       }
     }
   }
