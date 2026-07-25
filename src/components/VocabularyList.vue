@@ -56,7 +56,19 @@ const getItemKey = (item: Word) => `${item.german}-${item.level}-${item.thema}`;
           </div>
           <template v-if="item.example">
             <Divider />
-            <div class="italic text-surface-400 text-sm leading-relaxed [&_strong]:text-primary [&_b]:text-primary" v-html="sanitizeHtml(item.example)"></div>
+            <div class="flex items-center justify-between gap-2">
+              <div class="italic text-surface-400 text-sm leading-relaxed [&_strong]:text-primary [&_b]:text-primary" v-html="sanitizeHtml(item.example)"></div>
+              <Button 
+                icon="pi pi-volume-up" 
+                rounded 
+                text 
+                severity="secondary"
+                size="small"
+                class="shrink-0"
+                @click.stop="emit('play-audio', item.example)" 
+                title="Play example"
+              />
+            </div>
           </template>
         </template>
       </Card>

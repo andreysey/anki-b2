@@ -18,7 +18,17 @@ export function cleanGermanForAudio(text: string): string {
   t = t.split(',')[0];
   t = t.split('/')[0];
   t = t.replace(RE_PREFIX, '');
+  t = t.replace(/[*_]/g, '');
   return t.trim();
+}
+
+export function cleanExampleForAudio(text: string): string {
+  if (!text) return '';
+  return text
+    .replace(/<[^>]*>/g, '')
+    .replace(/[*_]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
 }
 
 /**

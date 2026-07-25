@@ -32,6 +32,10 @@ function checkFile(filePath: string) {
     const ukrainian = parts[2]?.trim() || '';
     const example = parts[3]?.trim() || '';
 
+    if (!ukrainian) {
+      console.log(`⚠️  ${baseName}:${lineNum} [Missing Ukrainian]: "${german}"`);
+    }
+
     // 3. Find Cyrillic characters in German/English/Example columns
     // Range \u0400-\u04FF covers Cyrillic characters
     const cyrillicRegex = /[\u0400-\u04FF]/;

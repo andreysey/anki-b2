@@ -99,7 +99,19 @@ const showGermanOnFront = computed(() => props.direction === 'DE_TO_UA');
                 </div>
                 <template v-if="word.example">
                   <Divider />
-                  <div class="italic text-surface-300 text-center [&_strong]:text-primary [&_b]:text-primary" v-html="sanitizeHtml(word.example)"></div>
+                  <div class="flex items-center justify-center gap-2">
+                    <div class="italic text-surface-300 text-center [&_strong]:text-primary [&_b]:text-primary" v-html="sanitizeHtml(word.example)"></div>
+                    <Button 
+                      icon="pi pi-volume-up"
+                      rounded
+                      text
+                      severity="secondary"
+                      size="small"
+                      class="shrink-0"
+                      @click.stop="playAudio(word.example)" 
+                      title="Play example sentence"
+                    />
+                  </div>
                 </template>
               </template>
               <template v-else>
@@ -114,7 +126,19 @@ const showGermanOnFront = computed(() => props.direction === 'DE_TO_UA');
                 </div>
                 <template v-if="word.example">
                   <Divider />
-                  <div class="italic text-surface-300 text-center [&_strong]:text-primary [&_b]:text-primary" v-html="sanitizeHtml(word.example)"></div>
+                  <div class="flex items-center justify-center gap-2">
+                    <div class="italic text-surface-300 text-center [&_strong]:text-primary [&_b]:text-primary" v-html="sanitizeHtml(word.example)"></div>
+                    <Button 
+                      icon="pi pi-volume-up"
+                      rounded
+                      text
+                      severity="secondary"
+                      size="small"
+                      class="shrink-0"
+                      @click.stop="playAudio(word.example)" 
+                      title="Play example sentence"
+                    />
+                  </div>
                 </template>
               </template>
 

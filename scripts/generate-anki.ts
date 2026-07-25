@@ -10,6 +10,7 @@ import fs from 'fs';
 import path from 'path';
 import {
   cleanGermanForAudio,
+  cleanExampleForAudio,
   colorizeGender,
   highlightWordInExample,
   getThemaNum,
@@ -237,8 +238,8 @@ export async function generateAnkiDeck(
           english,        // English
           english,        // English_Audio
           ukrainian,      // Ukrainian
-          exampleHtml,    // Example (with <b> highlight)
-          exampleRaw,     // Example_Audio (plain text, for TTS)
+          exampleHtml,                     // Example (with <b> highlight)
+          cleanExampleForAudio(exampleRaw),// Example_Audio (clean plain text without asterisks/tags, for TTS)
           entryTag,       // Tags
         ],
         tags: [level, `Thema${thema}`],

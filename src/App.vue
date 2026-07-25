@@ -153,14 +153,19 @@ watch(selectedVoiceURI, (val) => {
   localStorage.setItem('anki_tts_voice', val);
 });
 
+import { cleanTextForSpeech } from './utils/sanitize';
+
 watch(ttsRate, (val) => {
   localStorage.setItem('anki_tts_rate', String(val));
 });
 
 const playAudio = (text: string) => {
   if ('speechSynthesis' in window) {
+    const cleaned = cleanTextForSpeech(text);
+    if (!cleaned) return;
+
     window.speechSynthesis.cancel();
-    const utterance = new SpeechSynthesisUtterance(text);
+    const utterance = new SpeechSynthesisUtterance(cleaned);
     utterance.lang = 'de-DE';
     utterance.rate = ttsRate.value;
     const voice = germanVoices.value.find(v => v.voiceURI === selectedVoiceURI.value);
@@ -170,6 +175,24 @@ const playAudio = (text: string) => {
     window.speechSynthesis.speak(utterance);
   }
 };
+
+watch([currentStudyIndex, isFlipped, isStudyMode, isAutoplay], ([newIdx, newFlipped, studying, autoplay]) => {
+  if (!studying || !autoplay) return;
+  const currentCard = studyList.value[newIdx];
+  if (!currentCard) return;
+
+  if (studyDirection.value === 'DE_TO_UA') {
+    if (!newFlipped) {
+      playAudio(currentCard.german_audio || currentCard.german);
+    } else if (currentCard.example) {
+      playAudio(currentCard.example);
+    }
+  } else {
+    if (newFlipped) {
+      playAudio(currentCard.german_audio || currentCard.german);
+    }
+  }
+});
 
 const openGitHub = () => {
   window.open('https://github.com/andreysey/anki-b2', '_blank');
