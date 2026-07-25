@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/andreysey/anki-b2/compare/v1.9.0...v1.10.0) (2026-07-25)
+
+
+### Features
+
+* improve text sanitization by normalizing ellipses and supporting markdown bold/italic formatting in Anki decks ([db23cb1](https://github.com/andreysey/anki-b2/commit/db23cb11ca86fa6c1ae73f1f99d65032b5359122))
+
 # [1.9.0](https://github.com/andreysey/anki-b2/compare/v1.8.1...v1.9.0) (2026-07-25)
 
 
