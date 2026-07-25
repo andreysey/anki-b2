@@ -27,6 +27,8 @@ export function cleanExampleForAudio(text: string): string {
   return text
     .replace(/<[^>]*>/g, '')
     .replace(/[*_]/g, '')
+    .replace(/\.{2,}/g, '.')
+    .replace(/…/g, '.')
     .replace(/\s+/g, ' ')
     .trim();
 }

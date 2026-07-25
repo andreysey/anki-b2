@@ -2,7 +2,10 @@ import DOMPurify from 'dompurify';
 
 export const sanitizeHtml = (html: string | undefined | null): string => {
   if (!html) return '';
-  return DOMPurify.sanitize(html);
+  const formatted = html
+    .replace(/\*\*(.*?)\*\*/g, '<b>$1</b>')
+    .replace(/\*(.*?)\*/g, '<i>$1</i>');
+  return DOMPurify.sanitize(formatted);
 };
 
 export const cleanTextForSpeech = (text: string | undefined | null): string => {
@@ -15,7 +18,10 @@ export const cleanTextForSpeech = (text: string | undefined | null): string => {
     plainText = text.replace(/<[^>]*>/g, '');
   }
   return plainText
-    .replace(/[*_]/g, '')
+    .replace(/\*{1,2}/g, '')
+    .replace(/_{1,2}/g, '')
+    .replace(/\.{2,}/g, '.')
+    .replace(/…/g, '.')
     .replace(/\s+/g, ' ')
     .trim();
 };
