@@ -1,3 +1,13 @@
+# [1.9.0](https://github.com/andreysey/anki-b2/compare/v1.8.1...v1.9.0) (2026-07-25)
+
+
+### Features
+
+* add data validation script and lint source files ([5a4966e](https://github.com/andreysey/anki-b2/commit/5a4966e52b099d680806f07f123efc5455cba4a1))
+* add TTS support for example sentences, implement autoplay functionality, and improve text sanitization for audio output. ([7f73ee9](https://github.com/andreysey/anki-b2/commit/7f73ee9ec5df27f272d36f83dc3d9c377eab5d85))
+* extend linting to detect Cyrillic characters in example sentences and update source data and exported Anki packages ([c11e51c](https://github.com/andreysey/anki-b2/commit/c11e51c2c954ca33a9f05f419b1c311a895bca22))
+* improve example sentence highlighting and add validation checks for missing translations and examples ([1445b01](https://github.com/andreysey/anki-b2/commit/1445b01c1aa0aca520a53bcfd98c022d25108a31))
+
 ## [1.8.1](https://github.com/andreysey/anki-b2/compare/v1.8.0...v1.8.1) (2026-07-16)
 
 
