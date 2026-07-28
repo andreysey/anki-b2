@@ -89,6 +89,69 @@ describe('useVocabulary composable', () => {
     expect(savedSRS['1'].level).toBe(1);
   });
 
+  it('handles init fetch error gracefully', async () => {
+    const consoleSpy = vi.spyOn(console, 'error').mockImplementation(() => {});
+    globalThis.fetch = vi.fn().mockRejectedValue(new Error('Network error'));
+
+    const vocab = useVocabulary();
+    await vocab.init();
+    expect(vocab.vocabulary.value.length).toBe(0);
+    expect(consoleSpy).toHaveBeenCalled();
+  });
+
+  it('toggles mastered status on and off', () => {
+    const vocab = useVocabulary();
+    vocab.vocabulary.value = mockWords;
+
+    vocab.toggleMastered(mockWords[0]);
+    expect(vocab.masteredIds.value.has('1')).toBe(true);
+
+    vocab.toggleMastered(mockWords[0]);
+    expect(vocab.masteredIds.value.has('1')).toBe(false);
+  });
+
+  it('handles SRS transitions for again, hard, easy', () => {
+    const vocab = useVocabulary();
+    vocab.vocabulary.value = mockWords;
+
+    // Test 'again' rating
+    vocab.isFlipped.value = true;
+    vocab.updateSRS('again');
+    expect(vocab.isFlipped.value).toBe(false);
+    let savedSRS = JSON.parse(localStorage.getItem('anki_srs_v2') || '{}');
+    expect(savedSRS['1'].level).toBe(0);
+
+    // Test 'hard' rating
+    vocab.updateSRS('hard');
+    savedSRS = JSON.parse(localStorage.getItem('anki_srs_v2') || '{}');
+    expect(savedSRS['1'].level).toBe(0);
+
+    // Test 'easy' rating
+    vocab.updateSRS('easy');
+    savedSRS = JSON.parse(localStorage.getItem('anki_srs_v2') || '{}');
+    expect(savedSRS['1'].level).toBe(2);
+  });
+
+  it('increments displayLimit when loadMore is called', () => {
+    const vocab = useVocabulary();
+    expect(vocab.displayLimit.value).toBe(50);
+    vocab.loadMore();
+    expect(vocab.displayLimit.value).toBe(100);
+  });
+
+  it('shuffles cards and resets shuffle on toggle', () => {
+    const vocab = useVocabulary();
+    vocab.vocabulary.value = mockWords;
+
+    expect(vocab.isShuffled.value).toBe(false);
+    vocab.shuffleCards();
+    expect(vocab.isShuffled.value).toBe(true);
+    expect(vocab.studyList.value.length).toBe(2);
+
+    vocab.shuffleCards();
+    expect(vocab.isShuffled.value).toBe(false);
+  });
+
   it('navigates nextCard and prevCard correctly', () => {
     const vocab = useVocabulary();
     vocab.vocabulary.value = mockWords;
@@ -100,3 +163,4 @@ describe('useVocabulary composable', () => {
     expect(vocab.currentStudyIndex.value).toBe(0);
   });
 });
+
