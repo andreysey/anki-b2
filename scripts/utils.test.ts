@@ -1,0 +1,58 @@
+import { describe, it, expect } from 'vitest';
+import {
+  cleanGermanForAudio,
+  cleanExampleForAudio,
+  colorizeGender,
+  highlightWordInExample,
+  getThemaNum,
+  getLevelFromFilename,
+} from './utils.js';
+
+describe('cleanGermanForAudio', () => {
+  it('strips parentheses, alternatives, prefixes and formatting', () => {
+    expect(cleanGermanForAudio('jdn. an|rufen (ruft an, rief an)')).toBe('an|rufen');
+    expect(cleanGermanForAudio('etw. kaufen/verkaufen')).toBe('kaufen');
+    expect(cleanGermanForAudio('*das* Buch, -¨er')).toBe('das Buch');
+  });
+});
+
+describe('cleanExampleForAudio', () => {
+  it('strips html tags, formatting and normalizes dots', () => {
+    expect(cleanExampleForAudio('<b>Er</b> geht... nach Hause.')).toBe('Er geht. nach Hause.');
+    expect(cleanExampleForAudio('Das ist *gut*…')).toBe('Das ist gut.');
+  });
+});
+
+describe('colorizeGender', () => {
+  it('wraps der, die, das articles in colored spans', () => {
+    expect(colorizeGender('der Mann')).toBe('<span style="color: #00d2ff; font-weight: bold;">der</span> Mann');
+    expect(colorizeGender('die Frau')).toBe('<span style="color: #ef4444; font-weight: bold;">die</span> Frau');
+    expect(colorizeGender('das Kind')).toBe('<span style="color: #22c55e; font-weight: bold;">das</span> Kind');
+    expect(colorizeGender('laufen')).toBe('laufen');
+  });
+});
+
+describe('highlightWordInExample', () => {
+  it('highlights German word or verb form in sentence', () => {
+    const cleanGerman = 'schlafen';
+    const example = 'Er schläft sehr tief.';
+    const originalGerman = 'schlafen (schläft, schlief, hat geschlafen)';
+    const highlighted = highlightWordInExample(cleanGerman, example, originalGerman);
+    expect(highlighted).toContain('<b style="color: #eab308;">schläft</b>');
+  });
+});
+
+describe('getThemaNum', () => {
+  it('extracts special numbers for category files or Thema number', () => {
+    expect(getThemaNum('B2_Verben.txt')).toBe(99);
+    expect(getThemaNum('B2_Thema03_Arbeit.txt')).toBe(3);
+    expect(getThemaNum('Unknown.txt')).toBe(0);
+  });
+});
+
+describe('getLevelFromFilename', () => {
+  it('detects level B1+ vs B2 from filename', () => {
+    expect(getLevelFromFilename('B1_plus_Thema01.txt')).toBe('B1+');
+    expect(getLevelFromFilename('B2_Thema01.txt')).toBe('B2');
+  });
+});

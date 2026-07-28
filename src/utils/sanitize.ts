@@ -2,10 +2,13 @@ import DOMPurify from 'dompurify';
 
 export const sanitizeHtml = (html: string | undefined | null): string => {
   if (!html) return '';
-  const formatted = html
+  const cleanedInput = html.replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, '');
+  const formatted = cleanedInput
     .replace(/\*\*(.*?)\*\*/g, '<b>$1</b>')
     .replace(/\*(.*?)\*/g, '<i>$1</i>');
-  return DOMPurify.sanitize(formatted);
+  const purifier = typeof window !== 'undefined' ? DOMPurify(window) : DOMPurify;
+  const sanitized = purifier.sanitize(`<span>${formatted}</span>`);
+  return sanitized.replace(/^<span>/i, '').replace(/<\/span>$/i, '');
 };
 
 export const cleanTextForSpeech = (text: string | undefined | null): string => {
@@ -25,4 +28,3 @@ export const cleanTextForSpeech = (text: string | undefined | null): string => {
     .replace(/\s+/g, ' ')
     .trim();
 };
-

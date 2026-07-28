@@ -1,4 +1,4 @@
-import { defineConfig } from 'vite'
+import { defineConfig } from 'vitest/config'
 import vue from '@vitejs/plugin-vue'
 import tailwindcss from '@tailwindcss/vite'
 import { VitePWA } from 'vite-plugin-pwa'
@@ -9,6 +9,17 @@ export default defineConfig({
   base: '/anki-b2/',
   define: {
     __APP_VERSION__: JSON.stringify(version),
+  },
+  test: {
+    globals: true,
+    environment: 'happy-dom',
+    setupFiles: ['./vitest.setup.ts'],
+    include: ['src/**/*.test.ts', 'scripts/**/*.test.ts'],
+    coverage: {
+      provider: 'v8',
+      reporter: ['text', 'json', 'html'],
+      exclude: ['node_modules/', 'dist/'],
+    },
   },
   plugins: [
     vue(),
