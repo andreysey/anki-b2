@@ -1,3 +1,10 @@
+# [1.11.0](https://github.com/andreysey/anki-b2/compare/v1.10.0...v1.11.0) (2026-07-28)
+
+
+### Features
+
+* implement Vitest testing framework and add comprehensive unit tests for utils, composables, and components ([96507a6](https://github.com/andreysey/anki-b2/commit/96507a694b10e1ab85a60454bb6be80c94999989))
+
 # [1.10.0](https://github.com/andreysey/anki-b2/compare/v1.9.0...v1.10.0) (2026-07-25)
 
 
