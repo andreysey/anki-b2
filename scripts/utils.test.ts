@@ -10,6 +10,7 @@ import {
 
 describe('cleanGermanForAudio', () => {
   it('strips parentheses, alternatives, prefixes and formatting', () => {
+    expect(cleanGermanForAudio('')).toBe('');
     expect(cleanGermanForAudio('jdn. an|rufen (ruft an, rief an)')).toBe('an|rufen');
     expect(cleanGermanForAudio('etw. kaufen/verkaufen')).toBe('kaufen');
     expect(cleanGermanForAudio('*das* Buch, -¨er')).toBe('das Buch');
@@ -18,6 +19,7 @@ describe('cleanGermanForAudio', () => {
 
 describe('cleanExampleForAudio', () => {
   it('strips html tags, formatting and normalizes dots', () => {
+    expect(cleanExampleForAudio('')).toBe('');
     expect(cleanExampleForAudio('<b>Er</b> geht... nach Hause.')).toBe('Er geht. nach Hause.');
     expect(cleanExampleForAudio('Das ist *gut*…')).toBe('Das ist gut.');
   });
@@ -33,6 +35,10 @@ describe('colorizeGender', () => {
 });
 
 describe('highlightWordInExample', () => {
+  it('returns empty string if example is empty', () => {
+    expect(highlightWordInExample('Haus', '')).toBe('');
+  });
+
   it('highlights German word or verb form in sentence', () => {
     const cleanGerman = 'schlafen';
     const example = 'Er schläft sehr tief.';
@@ -40,10 +46,28 @@ describe('highlightWordInExample', () => {
     const highlighted = highlightWordInExample(cleanGerman, example, originalGerman);
     expect(highlighted).toContain('<b style="color: #eab308;">schläft</b>');
   });
+
+  it('handles separable verb Partizip II fallback with ge- prefix', () => {
+    const cleanGerman = 'ab|fangen';
+    const example = 'Der Ball wurde abgefangen.';
+    const highlighted = highlightWordInExample(cleanGerman, example);
+    expect(highlighted).toContain('<b style="color: #eab308;">abgefangen</b>');
+  });
+
+  it('handles compound noun fallback', () => {
+    const cleanGerman = 'Rentenberater';
+    const example = 'Er arbeitet als Chefrentenberater.';
+    const highlighted = highlightWordInExample(cleanGerman, example);
+    expect(highlighted).toContain('<b style="color: #eab308;">Chefrentenberater</b>');
+  });
 });
 
 describe('getThemaNum', () => {
   it('extracts special numbers for category files or Thema number', () => {
+    expect(getThemaNum('B2_Redemittel.txt')).toBe(95);
+    expect(getThemaNum('B2_Nomen_Verb.txt')).toBe(96);
+    expect(getThemaNum('B2_Adjektive.txt')).toBe(97);
+    expect(getThemaNum('B2_Praepositionen.txt')).toBe(98);
     expect(getThemaNum('B2_Verben.txt')).toBe(99);
     expect(getThemaNum('B2_Thema03_Arbeit.txt')).toBe(3);
     expect(getThemaNum('Unknown.txt')).toBe(0);
@@ -56,3 +80,4 @@ describe('getLevelFromFilename', () => {
     expect(getLevelFromFilename('B2_Thema01.txt')).toBe('B2');
   });
 });
+
