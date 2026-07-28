@@ -58,6 +58,7 @@ describe('AIAssistant.vue', () => {
     vi.spyOn(aiUtils, 'checkOnDeviceSupport').mockResolvedValue(false);
     vi.spyOn(aiUtils, 'getCloudKey').mockReturnValue('mock-api-key');
     const callAISpy = vi.spyOn(aiUtils, 'callAI').mockResolvedValue({
+      success: true,
       text: 'Grammar breakdown answer',
       source: 'cloud',
     });
@@ -80,6 +81,7 @@ describe('AIAssistant.vue', () => {
     vi.spyOn(aiUtils, 'checkOnDeviceSupport').mockResolvedValue(false);
     vi.spyOn(aiUtils, 'getCloudKey').mockReturnValue('mock-api-key');
     const callAISpy = vi.spyOn(aiUtils, 'callAI').mockResolvedValue({
+      success: true,
       text: 'Dialogue answer',
       source: 'cloud',
     });

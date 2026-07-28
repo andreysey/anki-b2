@@ -62,7 +62,7 @@ describe('DashboardView.vue', () => {
     const wrapper = mount(DashboardView, {
       props: {
         vocabulary: [],
-        masteredIds: new Set(),
+        masteredIds: new Set<string>(),
       },
     });
 
