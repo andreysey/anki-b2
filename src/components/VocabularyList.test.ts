@@ -48,7 +48,6 @@ describe('VocabularyList.vue', () => {
       },
     });
 
-    const loadMoreBtn = wrapper.find('button[aria-label="Explore More Vocabulary"], button');
     const exploreBtn = wrapper.findAll('button').find((b) => b.text().includes('Explore More Vocabulary'));
     await exploreBtn?.trigger('click');
 
