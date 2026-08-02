@@ -1,3 +1,10 @@
+# [1.13.0](https://github.com/andreysey/anki-b2/compare/v1.12.0...v1.13.0) (2026-08-02)
+
+
+### Features
+
+* add error state to AI assistant and extract header component in vocabulary card ([b288c05](https://github.com/andreysey/anki-b2/commit/b288c05ddf1678e0f316868dfdfe2a84a7d15bdf))
+
 # [1.12.0](https://github.com/andreysey/anki-b2/compare/v1.11.0...v1.12.0) (2026-08-02)
 
 
