@@ -14,6 +14,7 @@ import StudyView from './components/StudyView.vue';
 import DashboardView from './components/DashboardView.vue';
 import Panel from 'primevue/panel';
 import { cleanTextForSpeech } from './utils/sanitize';
+import type { SelectOption, StudyDirection } from './types';
 
 const activeView = ref<'list' | 'study' | 'dashboard'>('list');
 const { themeMode, cycleTheme, initTheme, cleanupTheme } = useTheme();
@@ -66,7 +67,7 @@ const studyProgress = computed(() => {
   return Math.round(((currentStudyIndex.value + 1) / studyList.value.length) * 100);
 });
 
-const directionOptions = [
+const directionOptions: SelectOption<StudyDirection>[] = [
   { label: 'DE', value: 'DE_TO_UA' },
   { label: 'UA', value: 'UA_TO_DE' }
 ];

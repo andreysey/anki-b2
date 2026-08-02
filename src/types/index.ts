@@ -16,6 +16,11 @@ export interface SRSState {
 
 export type StudyDirection = 'DE_TO_UA' | 'UA_TO_DE';
 
+export interface SelectOption<T> {
+  label: string;
+  value: T;
+}
+
 export interface AppState {
   vocabulary: Word[];
   filteredVocabulary: Word[];

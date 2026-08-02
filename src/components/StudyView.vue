@@ -3,12 +3,7 @@ import SelectButton from 'primevue/selectbutton';
 import Button from 'primevue/button';
 import ProgressBar from 'primevue/progressbar';
 import VocabularyCard from './VocabularyCard.vue';
-import type { Word, StudyDirection } from '../types';
-
-interface SelectOption<T> {
-  label: string;
-  value: T;
-}
+import type { Word, StudyDirection, SelectOption } from '../types';
 
 defineProps<{
   vocabulary: Word[];

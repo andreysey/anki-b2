@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import { mount } from '@vue/test-utils';
 import StudyView from './StudyView.vue';
-import type { Word } from '../types';
+import type { Word, SelectOption, StudyDirection } from '../types';
 
 const mockWords: Word[] = [
   {
@@ -16,7 +16,7 @@ const mockWords: Word[] = [
   },
 ];
 
-const directionOptions = [
+const directionOptions: SelectOption<StudyDirection>[] = [
   { label: 'DE', value: 'DE_TO_UA' },
   { label: 'UA', value: 'UA_TO_DE' },
 ];
