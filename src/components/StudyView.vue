@@ -36,7 +36,7 @@ const emit = defineEmits([
 </script>
 
 <template>
-  <div class="flex flex-col gap-8 max-w-[650px] mx-auto w-full px-2 sm:px-0">
+  <div class="flex flex-col items-center self-center gap-8 max-w-[650px] w-full px-2 sm:px-0">
     <!-- Controls -->
     <div class="flex justify-center gap-4 flex-wrap sm:flex-nowrap">
       <SelectButton 
@@ -73,7 +73,6 @@ const emit = defineEmits([
         :word="vocabulary[currentStudyIndex]"
         :isFlipped="isFlipped"
         :direction="studyDirection"
-        class="w-full"
         @flip="emit('flip')"
         @toggle-mastered="emit('toggle-mastered', $event)"
         @play-audio="emit('play-audio', $event)"
