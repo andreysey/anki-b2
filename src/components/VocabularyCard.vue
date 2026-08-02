@@ -21,12 +21,27 @@ const playAudio = (text: string) => {
   emit('play-audio', text);
 };
 
+const handleKeyDown = (event: KeyboardEvent) => {
+  if (event.key === 'Enter' || event.key === ' ') {
+    event.preventDefault();
+    emit('flip');
+  }
+};
+
 const showGermanOnFront = computed(() => props.direction === 'DE_TO_UA');
 
 </script>
 
 <template>
-  <div class="relative w-full max-w-[550px] h-[450px] xs:h-[480px] sm:h-[520px] [perspective:1500px] cursor-pointer mx-auto group" @click="emit('flip')">
+  <div 
+    class="relative w-full max-w-[550px] h-[450px] xs:h-[480px] sm:h-[520px] [perspective:1500px] cursor-pointer mx-auto group focus:outline-none focus:ring-2 focus:ring-primary rounded-[32px]" 
+    tabindex="0"
+    role="button"
+    :aria-expanded="isFlipped"
+    aria-label="Vocabulary card. Press Space or Enter to flip"
+    @click="emit('flip')"
+    @keydown="handleKeyDown"
+  >
     <div class="relative w-full h-full transition-all duration-[800ms] [transform-style:preserve-3d] shadow-2xl rounded-[32px]" :class="{ '[transform:rotateY(180deg)]': isFlipped }">
       <!-- Front -->
       <div class="absolute top-0 left-0 w-full h-full [backface-visibility:hidden]">
@@ -42,6 +57,7 @@ const showGermanOnFront = computed(() => props.direction === 'DE_TO_UA');
                 rounded 
                 text 
                 severity="success"
+                aria-label="Mark as Mastered"
                 @click.stop="emit('toggle-mastered', word)" 
                 title="Mark as Mastered"
               />
@@ -55,6 +71,7 @@ const showGermanOnFront = computed(() => props.direction === 'DE_TO_UA');
                   <Button 
                     icon="pi pi-volume-up"
                     rounded
+                    aria-label="Play German pronunciation"
                     @click.stop="playAudio(word.german_audio)" 
                     title="Play pronunciation"
                   />
@@ -85,6 +102,7 @@ const showGermanOnFront = computed(() => props.direction === 'DE_TO_UA');
                 rounded 
                 text 
                 severity="success"
+                aria-label="Mark as Mastered"
                 @click.stop="emit('toggle-mastered', word)" 
                 title="Mark as Mastered"
               />
@@ -108,6 +126,7 @@ const showGermanOnFront = computed(() => props.direction === 'DE_TO_UA');
                       severity="secondary"
                       size="small"
                       class="shrink-0"
+                      aria-label="Play example sentence pronunciation"
                       @click.stop="playAudio(word.example)" 
                       title="Play example sentence"
                     />
@@ -120,6 +139,7 @@ const showGermanOnFront = computed(() => props.direction === 'DE_TO_UA');
                   <Button 
                     icon="pi pi-volume-up"
                     rounded
+                    aria-label="Play German pronunciation"
                     @click.stop="playAudio(word.german_audio)" 
                     title="Play pronunciation"
                   />
@@ -135,6 +155,7 @@ const showGermanOnFront = computed(() => props.direction === 'DE_TO_UA');
                       severity="secondary"
                       size="small"
                       class="shrink-0"
+                      aria-label="Play example sentence pronunciation"
                       @click.stop="playAudio(word.example)" 
                       title="Play example sentence"
                     />
@@ -151,3 +172,4 @@ const showGermanOnFront = computed(() => props.direction === 'DE_TO_UA');
     </div>
   </div>
 </template>
+
