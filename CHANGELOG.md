@@ -1,3 +1,10 @@
+# [1.15.0](https://github.com/andreysey/anki-b2/compare/v1.14.0...v1.15.0) (2026-08-02)
+
+
+### Features
+
+* implement husky for pre-push hooks, add SelectOption type, and clean up imports and composables ([d959d35](https://github.com/andreysey/anki-b2/commit/d959d355a7c4fa0c303fb75cac0a5397a8339219))
+
 # [1.14.0](https://github.com/andreysey/anki-b2/compare/v1.13.0...v1.14.0) (2026-08-02)
 
 
