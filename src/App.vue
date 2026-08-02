@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { onMounted, onUnmounted, computed, ref, watch } from 'vue';
 import { useVocabulary } from './composables/useVocabulary';
+import { useTheme } from './composables/useTheme';
 import FilterBar from './components/FilterBar.vue';
 import Button from 'primevue/button';
 import Message from 'primevue/message';
@@ -15,6 +16,7 @@ import Panel from 'primevue/panel';
 import { cleanTextForSpeech } from './utils/sanitize';
 
 const activeView = ref<'list' | 'study' | 'dashboard'>('list');
+const { themeMode, cycleTheme, initTheme, cleanupTheme } = useTheme();
 
 const {
   vocabulary,
@@ -46,6 +48,18 @@ watch(activeView, (newView) => {
 });
 
 const toast = useToast();
+
+const themeIcon = computed(() => {
+  if (themeMode.value === 'light') return 'pi pi-sun text-lg';
+  if (themeMode.value === 'dark') return 'pi pi-moon text-lg';
+  return 'pi pi-desktop text-lg';
+});
+
+const themeLabel = computed(() => {
+  if (themeMode.value === 'light') return 'Theme: Light';
+  if (themeMode.value === 'dark') return 'Theme: Dark';
+  return 'Theme: Auto (System)';
+});
 
 const studyProgress = computed(() => {
   if (studyList.value.length === 0) return 0;
@@ -115,10 +129,12 @@ const handleGlobalKeydown = (e: KeyboardEvent) => {
 
 onMounted(() => {
   init();
+  initTheme();
   window.addEventListener('keydown', handleGlobalKeydown);
 });
 
 onUnmounted(() => {
+  cleanupTheme();
   window.removeEventListener('keydown', handleGlobalKeydown);
 });
 
@@ -196,6 +212,15 @@ const appVersion = __APP_VERSION__;
   <BaseLayout :app-version="appVersion">
     <template #header-end>
       <div class="flex items-center gap-2">
+        <Button 
+          :icon="themeIcon"
+          text 
+          rounded 
+          severity="secondary" 
+          @click="cycleTheme" 
+          :title="themeLabel" 
+          :aria-label="themeLabel"
+        />
         <Button icon="pi pi-github" text rounded severity="secondary" @click="openGitHub" />
         <Button 
           icon="pi pi-chart-bar" 

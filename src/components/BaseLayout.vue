@@ -5,6 +5,8 @@ import Tag from 'primevue/tag';
 defineProps<{
   appVersion: string;
 }>();
+
+const currentYear = new Date().getFullYear();
 </script>
 
 <template>
@@ -42,7 +44,7 @@ defineProps<{
         <footer class="mt-20 pb-12">
           <Divider />
           <div class="flex flex-col sm:flex-row items-center justify-between gap-6 pt-8 text-surface-500">
-              <p class="text-sm">© 2024 Anki B2 - Professional Vocabulary</p>
+              <p class="text-sm">© {{ currentYear }} Anki B2 - Professional Vocabulary</p>
               <div class="flex items-center gap-4">
                 <Tag :value="'v' + appVersion" severity="secondary" rounded />
               </div>

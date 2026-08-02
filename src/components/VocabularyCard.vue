@@ -44,7 +44,7 @@ const showGermanOnFront = computed(() => props.direction === 'DE_TO_UA');
   >
     <div class="relative w-full h-full transition-all duration-[800ms] [transform-style:preserve-3d] shadow-2xl rounded-[32px]" :class="{ '[transform:rotateY(180deg)]': isFlipped }">
       <!-- Front -->
-      <div class="absolute top-0 left-0 w-full h-full [backface-visibility:hidden]">
+      <div class="absolute top-0 left-0 w-full h-full card-face card-face-front">
         <Card class="w-full h-full">
           <template #header>
             <VocabularyCardHeader :word="word" @toggle-mastered="emit('toggle-mastered', $event)" />
@@ -75,7 +75,7 @@ const showGermanOnFront = computed(() => props.direction === 'DE_TO_UA');
       </div>
 
       <!-- Back -->
-      <div class="absolute top-0 left-0 w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]">
+      <div class="absolute top-0 left-0 w-full h-full card-face card-face-back">
         <Card class="w-full h-full">
           <template #header>
             <VocabularyCardHeader :word="word" @toggle-mastered="emit('toggle-mastered', $event)" />

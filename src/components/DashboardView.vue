@@ -61,7 +61,7 @@ const totalPercentage = computed(() => {
     <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
       <div class="bg-surface-900 border border-surface-800 rounded-2xl p-6 text-center shadow-lg">
         <div class="text-sm font-semibold uppercase tracking-wider text-surface-400 mb-2">Total Vocabulary</div>
-        <div class="text-4xl font-extrabold text-white">{{ totalWords }}</div>
+        <div class="text-4xl font-extrabold text-surface-900 dark:text-white">{{ totalWords }}</div>
       </div>
       <div class="bg-surface-900 border border-surface-800 rounded-2xl p-6 text-center shadow-lg">
         <div class="text-sm font-semibold uppercase tracking-wider text-surface-400 mb-2">Words Mastered</div>
@@ -84,7 +84,7 @@ const totalPercentage = computed(() => {
 
     <!-- Detailed Theme Progress -->
     <div class="bg-surface-900 border border-surface-800 rounded-2xl p-6 shadow-lg space-y-6">
-      <h3 class="text-lg font-bold text-white border-b border-surface-800 pb-3">Progress by Topic & Category</h3>
+      <h3 class="text-lg font-bold text-surface-900 dark:text-white border-b border-surface-800 pb-3">Progress by Topic & Category</h3>
       
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div v-for="item in stats" :key="item.thema" class="space-y-2 p-4 bg-surface-950/45 border border-surface-800/60 rounded-xl hover:border-primary-500/35 transition-colors duration-300">

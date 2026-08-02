@@ -18,3 +18,43 @@
 .custom-scrollbar::-webkit-scrollbar-thumb:hover {
   background: rgba(255, 255, 255, 0.2);
 }
+
+/* Expressive card borders & shadows for Light and Dark themes */
+.p-card {
+  border: 1px solid var(--p-surface-200);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.08), 0 8px 10px -6px rgba(0, 0, 0, 0.05) !important;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+.p-card:hover {
+  border-color: var(--p-primary-500);
+  box-shadow: 0 20px 30px -10px rgba(0, 0, 0, 0.15) !important;
+}
+
+html.dark .p-card {
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.5), 0 0 15px 0 rgba(255, 255, 255, 0.02) !important;
+}
+
+html.dark .p-card:hover {
+  border-color: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 20px 35px -5px rgba(0, 0, 0, 0.7), 0 0 20px 0 rgba(59, 130, 246, 0.15) !important;
+}
+
+/* Ensure 3D Card flip backface is hidden across all browsers */
+.card-face {
+  -webkit-backface-visibility: hidden !important;
+  backface-visibility: hidden !important;
+  transform-style: preserve-3d;
+}
+
+.card-face-front {
+  transform: rotateY(0deg);
+}
+
+.card-face-back {
+  transform: rotateY(180deg);
+}
+
+
+
