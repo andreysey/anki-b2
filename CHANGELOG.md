@@ -1,3 +1,10 @@
+# [1.12.0](https://github.com/andreysey/anki-b2/compare/v1.11.0...v1.12.0) (2026-08-02)
+
+
+### Features
+
+* implement CI pipeline, add CSP headers, and improve vocabulary card accessibility ([cb0583f](https://github.com/andreysey/anki-b2/commit/cb0583fda33b273b4a908c4aa236f6045afdc313))
+
 # [1.11.0](https://github.com/andreysey/anki-b2/compare/v1.10.0...v1.11.0) (2026-07-28)
 
 
