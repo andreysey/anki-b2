@@ -1,3 +1,10 @@
+# [1.14.0](https://github.com/andreysey/anki-b2/compare/v1.13.0...v1.14.0) (2026-08-02)
+
+
+### Features
+
+* implement persistent theme switching with system auto-detection and UI controls ([525cd38](https://github.com/andreysey/anki-b2/commit/525cd38d5c94f9a1db32894ffdf5c6122957f1da))
+
 # [1.13.0](https://github.com/andreysey/anki-b2/compare/v1.12.0...v1.13.0) (2026-08-02)
 
 
