@@ -1,6 +1,6 @@
 {
-  "name": "anki-b2-temp",
-  "private": false,
+  "name": "anki-b2",
+  "private": true,
   "version": "1.12.0",
   "engines": {
     "node": ">=24.15.0"
@@ -8,7 +8,6 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predev": "git pull --rebase origin main",
     "build": "vue-tsc -b && vite build",
     "type-check": "vue-tsc --noEmit",
     "preview": "vite preview",

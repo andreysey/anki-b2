@@ -17,6 +17,7 @@ const hasCloudKey = ref(false);
 const apiKey = ref('');
 const showSettings = ref(false);
 const isLoading = ref(false);
+const isError = ref(false);
 const resultText = ref('');
 const resultSource = ref<'nano' | 'cloud' | 'none'>('none');
 const explanationType = ref<'grammar' | 'dialogue' | null>(null);
@@ -40,6 +41,7 @@ const saveApiKey = () => {
 const handleExplainGrammar = async () => {
   explanationType.value = 'grammar';
   isLoading.value = true;
+  isError.value = false;
   resultText.value = '';
   
   const systemInstruction = 
@@ -58,12 +60,14 @@ const handleExplainGrammar = async () => {
   const res = await callAI(prompt, systemInstruction);
   resultText.value = res.text;
   resultSource.value = res.source;
+  isError.value = !res.success;
   isLoading.value = false;
 };
 
 const handleGenerateDialogue = async () => {
   explanationType.value = 'dialogue';
   isLoading.value = true;
+  isError.value = false;
   resultText.value = '';
 
   const systemInstruction = 
@@ -80,6 +84,7 @@ const handleGenerateDialogue = async () => {
   const res = await callAI(prompt, systemInstruction);
   resultText.value = res.text;
   resultSource.value = res.source;
+  isError.value = !res.success;
   isLoading.value = false;
 };
 </script>
@@ -148,14 +153,18 @@ const handleGenerateDialogue = async () => {
     </div>
 
     <!-- AI Output Box -->
-    <div v-if="isLoading || resultText" class="relative mt-2 p-4 bg-surface-950/80 border border-surface-800/80 rounded-2xl shadow-inner text-left max-h-[220px] overflow-hidden flex flex-col">
+    <div 
+      v-if="isLoading || resultText" 
+      class="relative mt-2 p-4 rounded-2xl shadow-inner text-left max-h-[220px] overflow-hidden flex flex-col transition-colors border"
+      :class="isError ? 'bg-red-950/40 border-red-500/50 text-red-200' : 'bg-surface-950/80 border-surface-800/80 text-surface-200'"
+    >
       <!-- Loading indicator -->
       <div v-if="isLoading" class="flex flex-col items-center justify-center py-6 gap-3 flex-1">
         <i class="pi pi-spin pi-sparkles text-xl text-primary"></i>
         <span class="text-xs text-surface-400 font-medium">Gemini is formulating explanation...</span>
       </div>
       <!-- Output Text -->
-      <ScrollPanel v-else class="h-[180px] text-xs sm:text-sm text-surface-200 leading-relaxed font-sans pr-2">
+      <ScrollPanel v-else class="h-[180px] text-xs sm:text-sm leading-relaxed font-sans pr-2">
         <div class="whitespace-pre-wrap select-text font-normal" v-html="sanitizeHtml(resultText)"></div>
       </ScrollPanel>
       <div v-if="!isLoading && resultSource !== 'none'" class="mt-2 text-[9px] text-surface-500 text-right uppercase tracking-wider font-semibold">

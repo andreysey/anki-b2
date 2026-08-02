@@ -2,12 +2,11 @@
 import { computed } from 'vue';
 import type { Word, StudyDirection } from '../types';
 import Card from 'primevue/card';
-import Badge from 'primevue/badge';
 import Divider from 'primevue/divider';
 import ScrollPanel from 'primevue/scrollpanel';
 import Button from 'primevue/button';
 import { sanitizeHtml } from '../utils/sanitize';
-import { getThemaLabel } from '../utils/thema';
+import VocabularyCardHeader from './VocabularyCardHeader.vue';
 import AIAssistant from './AIAssistant.vue';
 
 const props = defineProps<{
@@ -48,21 +47,7 @@ const showGermanOnFront = computed(() => props.direction === 'DE_TO_UA');
       <div class="absolute top-0 left-0 w-full h-full [backface-visibility:hidden]">
         <Card class="w-full h-full">
           <template #header>
-            <div class="flex justify-between items-center p-6 pb-0">
-              <div class="flex gap-2">
-                <Badge :value="word.level" severity="info" />
-                <Badge :value="getThemaLabel(word.thema)" severity="secondary" />
-              </div>
-              <Button 
-                icon="pi pi-check" 
-                rounded 
-                text 
-                severity="success"
-                aria-label="Mark as Mastered"
-                @click.stop="emit('toggle-mastered', word)" 
-                title="Mark as Mastered"
-              />
-            </div>
+            <VocabularyCardHeader :word="word" @toggle-mastered="emit('toggle-mastered', $event)" />
           </template>
           <template #content>
             <ScrollPanel class="h-[280px]">
@@ -93,21 +78,7 @@ const showGermanOnFront = computed(() => props.direction === 'DE_TO_UA');
       <div class="absolute top-0 left-0 w-full h-full [backface-visibility:hidden] [transform:rotateY(180deg)]">
         <Card class="w-full h-full">
           <template #header>
-            <div class="flex justify-between items-center p-6 pb-0">
-              <div class="flex gap-2">
-                <Badge :value="word.level" severity="info" />
-                <Badge :value="getThemaLabel(word.thema)" severity="secondary" />
-              </div>
-              <Button 
-                icon="pi pi-check" 
-                rounded 
-                text 
-                severity="success"
-                aria-label="Mark as Mastered"
-                @click.stop="emit('toggle-mastered', word)" 
-                title="Mark as Mastered"
-              />
-            </div>
+            <VocabularyCardHeader :word="word" @toggle-mastered="emit('toggle-mastered', $event)" />
           </template>
           <template #content>
             <ScrollPanel class="h-[340px]">
