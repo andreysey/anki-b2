@@ -8,6 +8,8 @@ const LEVEL_TRANSITIONS: Record<'again' | 'hard' | 'good' | 'easy', (level: numb
   easy: (level) => Math.min(5, level + 2),
 };
 
+export const getItemKey = (item: Word) => item.id || `${item.german}-${item.thema}`;
+
 export function useVocabulary() {
   const vocabulary = ref<Word[]>([]);
   
@@ -46,6 +48,9 @@ export function useVocabulary() {
   const init = async () => {
     try {
       const response = await fetch('data.json');
+      if (!response.ok) {
+        throw new Error(`Failed to fetch vocabulary data: HTTP ${response.status}`);
+      }
       vocabulary.value = await response.json();
     } catch (error) {
       console.error('Error fetching vocabulary:', error);
@@ -55,8 +60,6 @@ export function useVocabulary() {
   const saveSRS = () => {
     localStorage.setItem('anki_srs_v2', JSON.stringify(srsData.value));
   };
-
-  const getItemKey = (item: Word) => item.id || `${item.german}-${item.thema}`;
 
   const toggleMastered = (item: Word) => {
     const key = getItemKey(item);

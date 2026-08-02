@@ -12,6 +12,7 @@ import VocabularyList from './components/VocabularyList.vue';
 import StudyView from './components/StudyView.vue';
 import DashboardView from './components/DashboardView.vue';
 import Panel from 'primevue/panel';
+import { cleanTextForSpeech } from './utils/sanitize';
 
 const activeView = ref<'list' | 'study' | 'dashboard'>('list');
 
@@ -39,17 +40,9 @@ const {
   loadMore
 } = useVocabulary();
 
-// Sync isStudyMode and activeView
+// Sync activeView and isStudyMode without circular watchers
 watch(activeView, (newView) => {
   isStudyMode.value = newView === 'study';
-});
-
-watch(isStudyMode, (studying) => {
-  if (studying && activeView.value !== 'study') {
-    activeView.value = 'study';
-  } else if (!studying && activeView.value === 'study') {
-    activeView.value = 'list';
-  }
 });
 
 const toast = useToast();
@@ -87,15 +80,6 @@ const handleSRSUpdate = (severity: 'again' | 'hard' | 'good' | 'easy') => {
   });
 };
 
-onMounted(() => {
-  init();
-  window.addEventListener('keydown', handleGlobalKeydown);
-});
-
-onUnmounted(() => {
-  window.removeEventListener('keydown', handleGlobalKeydown);
-});
-
 const handleGlobalKeydown = (e: KeyboardEvent) => {
   if (!isStudyMode.value) return;
   
@@ -129,6 +113,15 @@ const handleGlobalKeydown = (e: KeyboardEvent) => {
   }
 };
 
+onMounted(() => {
+  init();
+  window.addEventListener('keydown', handleGlobalKeydown);
+});
+
+onUnmounted(() => {
+  window.removeEventListener('keydown', handleGlobalKeydown);
+});
+
 const germanVoices = ref<SpeechSynthesisVoice[]>([]);
 const selectedVoiceURI = ref(localStorage.getItem('anki_tts_voice') || '');
 const ttsRate = ref(Number(localStorage.getItem('anki_tts_rate') || '0.85'));
@@ -152,8 +145,6 @@ if ('speechSynthesis' in window) {
 watch(selectedVoiceURI, (val) => {
   localStorage.setItem('anki_tts_voice', val);
 });
-
-import { cleanTextForSpeech } from './utils/sanitize';
 
 watch(ttsRate, (val) => {
   localStorage.setItem('anki_tts_rate', String(val));
@@ -235,7 +226,8 @@ const appVersion = __APP_VERSION__;
       v-model:search="search"
       v-model:level="levelFilter"
       v-model:thema="themaFilter"
-      v-model:isStudyMode="isStudyMode"
+      :isStudyMode="isStudyMode"
+      @update:isStudyMode="activeView = $event ? 'study' : 'list'"
     />
 
     <!-- Audio Settings Panel -->

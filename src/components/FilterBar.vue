@@ -5,6 +5,7 @@ import Select from 'primevue/select';
 import InputText from 'primevue/inputtext';
 import Button from 'primevue/button';
 import Panel from 'primevue/panel';
+import { getThemaLabel } from '../utils/thema';
 
 const props = defineProps<{
   vocabulary: Word[];
@@ -28,7 +29,7 @@ const themeOptions = computed(() => {
   return [
     { label: 'Themes', value: 'all' },
     ...themes.value.map(t => ({ 
-      label: t === 99 ? 'Unregelmäßige Verben' : t === 98 ? 'Verben mit Präpositionen' : t === 97 ? 'Adjektive mit Präpositionen' : t === 96 ? 'Nomen-Verb-Verbindungen' : t === 95 ? 'Redemittel' : `Theme ${t}`, 
+      label: getThemaLabel(t), 
       value: t.toString() 
     }))
   ];

@@ -2,6 +2,8 @@
 import { computed } from 'vue';
 import type { Word } from '../types';
 import ProgressBar from 'primevue/progressbar';
+import { getThemaLabel } from '../utils/thema';
+import { getItemKey } from '../composables/useVocabulary';
 
 const props = defineProps<{
   vocabulary: Word[];
@@ -25,20 +27,14 @@ const stats = computed(() => {
     themeStat.total++;
     
     // Check if word is mastered
-    const wordKey = word.id || `${word.german}-${word.thema}`;
+    const wordKey = getItemKey(word);
     if (props.masteredIds.has(wordKey)) {
       themeStat.mastered++;
     }
   });
 
   return Array.from(themesMap.entries()).map(([thema, item]) => {
-    let name = `Theme ${thema}`;
-    if (thema === 99) name = 'Unregelmäßige Verben';
-    else if (thema === 98) name = 'Verben mit Präpositionen';
-    else if (thema === 97) name = 'Adjektive mit Präpositionen';
-    else if (thema === 96) name = 'Nomen-Verb-Verbindungen';
-    else if (thema === 95) name = 'Redemittel';
-
+    const name = getThemaLabel(thema);
     const percentage = item.total > 0 ? Math.round((item.mastered / item.total) * 100) : 0;
 
     return {

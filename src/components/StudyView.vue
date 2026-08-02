@@ -5,6 +5,11 @@ import ProgressBar from 'primevue/progressbar';
 import VocabularyCard from './VocabularyCard.vue';
 import type { Word, StudyDirection } from '../types';
 
+interface SelectOption<T> {
+  label: string;
+  value: T;
+}
+
 defineProps<{
   vocabulary: Word[];
   currentStudyIndex: number;
@@ -12,8 +17,8 @@ defineProps<{
   studyDirection: StudyDirection;
   isAutoplay: boolean;
   studyProgress: number;
-  directionOptions: any[];
-  audioOptions: any[];
+  directionOptions: SelectOption<StudyDirection>[];
+  audioOptions: SelectOption<boolean>[];
   isShuffled?: boolean;
 }>();
 
