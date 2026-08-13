@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed } from 'vue';
+import { ref, computed, watch } from 'vue';
 import type { Word, StudyDirection } from '../types';
 import VocabularyCardFace from './VocabularyCardFace.vue';
 
@@ -14,6 +14,13 @@ const emit = defineEmits<{
   (e: 'toggle-mastered', word: Word): void;
   (e: 'play-audio', text: string): void;
 }>();
+
+const isAiActive = ref(false);
+
+// Reset AI expansion when card/word flips back or changes
+watch(() => props.word, () => {
+  isAiActive.value = false;
+});
 
 const handleCardClick = (event: MouseEvent) => {
   const target = event.target as HTMLElement | null;
@@ -42,7 +49,12 @@ const showGermanOnFront = computed(() => props.direction === 'DE_TO_UA');
 
 <template>
   <div 
-    class="relative w-full max-w-[560px] h-[390px] xs:h-[410px] sm:h-[440px] [perspective:1400px] cursor-pointer mx-auto group focus:outline-none focus:ring-2 focus:ring-primary/60 rounded-[28px]" 
+    class="relative w-full max-w-[560px] [perspective:1400px] cursor-pointer mx-auto group focus:outline-none focus:ring-2 focus:ring-primary/60 rounded-[28px] transition-all duration-500 ease-out" 
+    :class="[
+      isFlipped && isAiActive 
+        ? 'h-[550px] xs:h-[590px] sm:h-[640px]' 
+        : 'h-[390px] xs:h-[410px] sm:h-[440px]'
+    ]"
     tabindex="0"
     role="button"
     :aria-expanded="isFlipped"
@@ -75,6 +87,7 @@ const showGermanOnFront = computed(() => props.direction === 'DE_TO_UA');
           scroll-panel-height="h-[270px] sm:h-[300px]"
           @toggle-mastered="emit('toggle-mastered', $event)"
           @play-audio="emit('play-audio', $event)"
+          @ai-active="isAiActive = $event"
         />
       </div>
     </div>

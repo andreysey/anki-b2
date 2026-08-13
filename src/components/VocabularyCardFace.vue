@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { ref } from 'vue';
 import type { Word } from '../types';
 import ScrollPanel from 'primevue/scrollpanel';
 import Button from 'primevue/button';
@@ -17,23 +18,34 @@ defineProps<{
 const emit = defineEmits<{
   (e: 'toggle-mastered', word: Word): void;
   (e: 'play-audio', text: string): void;
+  (e: 'ai-active', isActive: boolean): void;
 }>();
+
+const isAiContentActive = ref(false);
+
+const handleAiActive = (active: boolean) => {
+  isAiContentActive.value = active;
+  emit('ai-active', active);
+};
 </script>
 
 <template>
-  <div class="w-full h-full bg-white/95 dark:bg-slate-900/90 border border-slate-200/90 dark:border-white/10 rounded-[26px] overflow-hidden shadow-lg shadow-slate-200/50 dark:shadow-2xl flex flex-col p-5 sm:p-6">
+  <div class="w-full h-full bg-white/95 dark:bg-slate-900/90 border border-slate-200/90 dark:border-white/10 rounded-[26px] overflow-hidden shadow-lg shadow-slate-200/50 dark:shadow-2xl flex flex-col p-5 sm:p-6 transition-all duration-300">
     <!-- Card Header -->
     <VocabularyCardHeader :word="word" @toggle-mastered="emit('toggle-mastered', $event)" />
 
     <!-- Card Body & Content -->
     <div class="flex-1 flex flex-col justify-center overflow-hidden pt-2">
-      <ScrollPanel :class="scrollPanelHeight || 'h-[240px]'" class="custom-scrollbar px-1">
+      <ScrollPanel 
+        :class="isAiContentActive ? 'h-[430px] sm:h-[500px]' : (scrollPanelHeight || 'h-[250px] sm:h-[280px]')" 
+        class="custom-scrollbar px-1 transition-all duration-300"
+      >
         <!-- German Primary View -->
         <template v-if="showGerman">
           <div class="flex flex-col items-center justify-center gap-4 py-4 sm:py-6 my-auto">
             <h2 class="text-2xl sm:text-3xl font-extrabold text-center tracking-tight text-slate-900 dark:text-white leading-snug select-text" v-html="sanitizeHtml(word.german)"></h2>
             <Button 
-              icon="pi pi-volume-up"
+              icon="pi pi-volume-up" 
               rounded
               aria-label="Play German pronunciation"
               @click.stop="emit('play-audio', word.german_audio || word.german)" 
@@ -70,7 +82,7 @@ const emit = defineEmits<{
         </template>
 
         <!-- AI Assistant -->
-        <AIAssistant v-if="showAi" :word="word" />
+        <AIAssistant v-if="showAi" :word="word" @ai-active="handleAiActive" />
       </ScrollPanel>
     </div>
   </div>

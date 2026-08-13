@@ -1,14 +1,17 @@
 <script setup lang="ts">
-import { ref, onMounted } from 'vue';
+import { ref, onMounted, watch } from 'vue';
 import type { Word } from '../types';
 import { callAI } from '../utils/ai';
 import { useAIAssistantState } from '../composables/useAIAssistantState';
 import Button from 'primevue/button';
-import ScrollPanel from 'primevue/scrollpanel';
 import { sanitizeHtml } from '../utils/sanitize';
 
 const props = defineProps<{
   word: Word;
+}>();
+
+const emit = defineEmits<{
+  (e: 'ai-active', isActive: boolean): void;
 }>();
 
 const { hasNano, hasCloudKey, init, openSettings } = useAIAssistantState();
@@ -24,12 +27,27 @@ onMounted(() => {
   init();
 });
 
+// Reset AI state when word changes
+watch(() => props.word, () => {
+  isLoading.value = false;
+  isError.value = false;
+  resultText.value = '';
+  resultModel.value = '';
+  resultSource.value = 'none';
+  emit('ai-active', false);
+});
+
+watch([isLoading, resultText], ([loading, text]) => {
+  emit('ai-active', loading || Boolean(text));
+});
+
 const handleExplainGrammar = async () => {
   explanationType.value = 'grammar';
   isLoading.value = true;
   isError.value = false;
   resultText.value = '';
   resultModel.value = '';
+  emit('ai-active', true);
   
   const systemInstruction = 
     "You are a professional telc Deutsch B2 Beruf language coach. " +
@@ -58,6 +76,7 @@ const handleGenerateDialogue = async () => {
   isError.value = false;
   resultText.value = '';
   resultModel.value = '';
+  emit('ai-active', true);
 
   const systemInstruction = 
     "You are a professional telc Deutsch B2 Beruf language coach. " +
@@ -154,12 +173,12 @@ const handleGenerateDialogue = async () => {
       Click the gear icon to configure your free <strong>Gemini Cloud API Key</strong>, or use Google Chrome with <strong>window.ai</strong> enabled.
     </div>
 
-    <!-- AI Output Card with Apple Intelligence Glow -->
+    <!-- AI Output Card (Seamless, Single Outer Scrollbar) -->
     <div 
       v-if="isLoading || resultText" 
       role="status"
       aria-live="polite"
-      class="relative mt-2 p-3.5 rounded-2xl text-left max-h-[220px] overflow-hidden flex flex-col transition-all border shadow-inner"
+      class="relative mt-2 p-3.5 rounded-2xl text-left flex flex-col transition-all border shadow-inner"
       :class="isError ? 'bg-red-500/10 border-red-500/30 text-red-700 dark:text-red-300' : 'bg-slate-100 dark:bg-black/50 border-slate-200 dark:border-white/10 text-slate-800 dark:text-slate-200'"
     >
       <!-- Loading indicator -->
@@ -167,10 +186,10 @@ const handleGenerateDialogue = async () => {
         <i class="pi pi-spin pi-sparkles text-lg text-primary-500 dark:text-primary-400 animate-pulse"></i>
         <span class="text-xs text-slate-500 dark:text-slate-400 font-medium">AI Coach analyzing context...</span>
       </div>
-      <!-- Output Text -->
-      <ScrollPanel v-else class="h-[170px] text-xs leading-relaxed font-sans pr-1">
+      <!-- Output Text without nested scrollbar -->
+      <div v-else class="text-xs leading-relaxed font-sans pr-1">
         <div class="whitespace-pre-wrap select-text font-normal text-slate-800 dark:text-slate-200" v-html="sanitizeHtml(resultText)"></div>
-      </ScrollPanel>
+      </div>
       
       <!-- Footer with Model Badge & Source Details -->
       <div v-if="!isLoading && resultSource !== 'none'" class="mt-2.5 pt-2 border-t border-slate-200/80 dark:border-white/10 flex items-center justify-between gap-2 text-[10px] text-slate-500 dark:text-slate-400">
