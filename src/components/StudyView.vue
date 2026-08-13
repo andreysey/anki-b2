@@ -31,10 +31,10 @@ const emit = defineEmits<{
 </script>
 
 <template>
-  <div class="flex flex-col items-center self-center gap-6 max-w-[620px] w-full px-2 sm:px-0 animate-in fade-in duration-500">
+  <div class="flex flex-col items-center self-center gap-6 max-w-[620px] w-full px-2 sm:px-0 py-2 animate-in fade-in duration-500">
     <!-- macOS Style Top Study Controls -->
     <div class="flex justify-between items-center w-full gap-3 flex-wrap sm:flex-nowrap">
-      <div class="flex items-center gap-2">
+      <div class="flex items-center gap-2.5">
         <SelectButton 
           :modelValue="studyDirection" 
           @update:modelValue="emit('update:studyDirection', $event)"
@@ -42,7 +42,7 @@ const emit = defineEmits<{
           optionLabel="label" 
           optionValue="value" 
           :allowEmpty="false"
-          class="!rounded-xl text-xs"
+          class="!rounded-xl text-xs shadow-xs"
         />
         <SelectButton 
           :modelValue="isAutoplay" 
@@ -51,7 +51,7 @@ const emit = defineEmits<{
           optionLabel="label" 
           optionValue="value" 
           :allowEmpty="false"
-          class="!rounded-xl text-xs"
+          class="!rounded-xl text-xs shadow-xs"
         />
       </div>
 
@@ -62,17 +62,17 @@ const emit = defineEmits<{
         :severity="isShuffled ? 'primary' : 'secondary'"
         outlined
         @click="emit('shuffle')"
-        class="!rounded-xl active:scale-95 transition-all text-xs"
+        class="!rounded-xl active:scale-95 transition-all text-xs !py-2 !px-3.5 shadow-xs"
       />
     </div>
 
-    <!-- macOS Slim Progress Meter -->
-    <div class="w-full space-y-1.5">
-      <div class="flex justify-between text-[11px] font-semibold text-surface-400">
+    <!-- macOS Progress Meter -->
+    <div class="w-full space-y-2">
+      <div class="flex justify-between text-xs font-semibold text-slate-500 dark:text-slate-400">
         <span>Session Progress</span>
         <span>{{ currentStudyIndex + 1 }} of {{ vocabulary.length }}</span>
       </div>
-      <ProgressBar :value="studyProgress" class="!h-1.5 !rounded-full" />
+      <ProgressBar :value="studyProgress" class="!h-2 !rounded-full" />
     </div>
 
     <!-- Centered Tactile Vocabulary Card -->
@@ -91,11 +91,11 @@ const emit = defineEmits<{
     <!-- macOS Floating Action Island (SRS Grading HUD) -->
     <div 
       v-if="isFlipped" 
-      class="macos-floating-hud p-3 w-full grid grid-cols-2 sm:grid-cols-4 gap-3 animate-in fade-in slide-in-from-bottom-3 duration-300 shadow-2xl"
+      class="macos-floating-hud p-3.5 w-full grid grid-cols-2 sm:grid-cols-4 gap-3 animate-in fade-in slide-in-from-bottom-3 duration-300 shadow-xl"
     >
       <button 
         @click="emit('update-srs', 'again')" 
-        class="flex flex-col items-center justify-center py-2.5 px-3 rounded-xl bg-red-500/15 hover:bg-red-500/25 active:scale-95 border border-red-500/30 text-red-400 font-bold transition-all group"
+        class="flex flex-col items-center justify-center py-3 px-3 rounded-xl bg-red-500/15 hover:bg-red-500/25 active:scale-95 border border-red-500/30 text-red-600 dark:text-red-400 font-bold transition-all cursor-pointer group"
       >
         <span class="text-xs tracking-wide">AGAIN (1)</span>
         <span class="text-[10px] opacity-70 font-mono mt-0.5">Key 1</span>
@@ -103,7 +103,7 @@ const emit = defineEmits<{
 
       <button 
         @click="emit('update-srs', 'hard')" 
-        class="flex flex-col items-center justify-center py-2.5 px-3 rounded-xl bg-amber-500/15 hover:bg-amber-500/25 active:scale-95 border border-amber-500/30 text-amber-400 font-bold transition-all group"
+        class="flex flex-col items-center justify-center py-3 px-3 rounded-xl bg-amber-500/15 hover:bg-amber-500/25 active:scale-95 border border-amber-500/30 text-amber-700 dark:text-amber-400 font-bold transition-all cursor-pointer group"
       >
         <span class="text-xs tracking-wide">HARD (2)</span>
         <span class="text-[10px] opacity-70 font-mono mt-0.5">Key 2</span>
@@ -111,7 +111,7 @@ const emit = defineEmits<{
 
       <button 
         @click="emit('update-srs', 'good')" 
-        class="flex flex-col items-center justify-center py-2.5 px-3 rounded-xl bg-emerald-500/15 hover:bg-emerald-500/25 active:scale-95 border border-emerald-500/30 text-emerald-400 font-bold transition-all group"
+        class="flex flex-col items-center justify-center py-3 px-3 rounded-xl bg-emerald-500/15 hover:bg-emerald-500/25 active:scale-95 border border-emerald-500/30 text-emerald-700 dark:text-emerald-400 font-bold transition-all cursor-pointer group"
       >
         <span class="text-xs tracking-wide">GOOD (3)</span>
         <span class="text-[10px] opacity-70 font-mono mt-0.5">Key 3</span>
@@ -119,7 +119,7 @@ const emit = defineEmits<{
 
       <button 
         @click="emit('update-srs', 'easy')" 
-        class="flex flex-col items-center justify-center py-2.5 px-3 rounded-xl bg-blue-500/15 hover:bg-blue-500/25 active:scale-95 border border-blue-500/30 text-blue-400 font-bold transition-all group"
+        class="flex flex-col items-center justify-center py-3 px-3 rounded-xl bg-blue-500/15 hover:bg-blue-500/25 active:scale-95 border border-blue-500/30 text-blue-700 dark:text-blue-400 font-bold transition-all cursor-pointer group"
       >
         <span class="text-xs tracking-wide">EASY (4)</span>
         <span class="text-[10px] opacity-70 font-mono mt-0.5">Key 4</span>
@@ -134,12 +134,12 @@ const emit = defineEmits<{
         rounded 
         outlined
         @click="emit('prev')" 
-        class="hover:bg-white/10 active:scale-95"
+        class="hover:bg-slate-200/60 dark:hover:bg-white/10 active:scale-95 !w-11 !h-11 shrink-0"
         title="Previous Card (Left Arrow)"
       />
-      <div class="flex-1 text-center py-2.5 px-4 rounded-xl bg-surface-900/50 dark:bg-white/5 border border-surface-800/80 dark:border-white/10 flex flex-col items-center justify-center gap-1 text-xs font-semibold text-surface-300">
+      <div class="flex-1 text-center py-3 px-4 rounded-xl bg-white dark:bg-slate-900/90 border border-slate-200/80 dark:border-white/10 flex flex-col items-center justify-center gap-1 text-xs font-semibold text-slate-700 dark:text-slate-300 shadow-xs">
         <div>{{ currentStudyIndex + 1 }} / {{ vocabulary.length }}</div>
-        <div class="text-[11px] text-surface-400 font-normal hidden sm:block">Space to flip &bull; Arrows to navigate</div>
+        <div class="text-[11px] text-slate-500 dark:text-slate-400 font-normal hidden sm:block">Space to flip &bull; Arrows to navigate</div>
       </div>
       <Button 
         icon="pi pi-chevron-right" 
@@ -147,13 +147,13 @@ const emit = defineEmits<{
         rounded 
         outlined
         @click="emit('next')" 
-        class="hover:bg-white/10 active:scale-95"
+        class="hover:bg-slate-200/60 dark:hover:bg-white/10 active:scale-95 !w-11 !h-11 shrink-0"
         title="Next Card (Right Arrow)"
       />
     </div>
 
     <!-- macOS Tactile Keyboard Shortcuts Strip -->
-    <div class="flex flex-wrap items-center justify-center gap-x-5 gap-y-2 py-2 px-4 rounded-xl bg-surface-950/40 dark:bg-black/20 border border-surface-800/60 dark:border-white/5 text-[11px] text-surface-400 w-full">
+    <div class="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 py-3 px-5 rounded-2xl bg-white/70 dark:bg-black/30 border border-slate-200/80 dark:border-white/5 text-xs text-slate-500 dark:text-slate-400 w-full shadow-xs">
       <div class="flex items-center gap-1.5"><kbd class="macos-kbd">␣</kbd> <span>Space to flip</span></div>
       <div class="flex items-center gap-1.5"><kbd class="macos-kbd">&larr;</kbd> <kbd class="macos-kbd">&rarr;</kbd> <span>Prev / Next</span></div>
       <div class="flex items-center gap-1.5"><kbd class="macos-kbd">M</kbd> <span>Master</span></div>

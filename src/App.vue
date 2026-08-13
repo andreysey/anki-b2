@@ -194,62 +194,57 @@ watch([currentStudyIndex, isFlipped, isStudyMode, isAutoplay], ([newIdx, newFlip
   <AISettingsDialog />
   
   <!-- macOS Ambient Desktop Wallpaper Canvas -->
-  <div class="macos-desktop-bg min-h-screen text-surface-900 dark:text-surface-0 flex flex-col items-center justify-start p-3 sm:p-6 lg:p-8 font-sans selection:bg-primary-500 selection:text-white transition-colors duration-500">
+  <div class="macos-desktop-bg min-h-screen text-slate-900 dark:text-slate-100 flex flex-col items-center justify-start p-3 sm:p-6 lg:p-8 font-sans selection:bg-primary-500 selection:text-white transition-colors duration-500">
     
     <!-- Central macOS Floating Window -->
     <div class="macos-window w-full max-w-6xl rounded-[24px] sm:rounded-[32px] overflow-hidden flex flex-col min-h-[90vh] my-auto">
       
       <!-- macOS Window Titlebar & Toolbar -->
-      <header class="macos-titlebar h-14 px-4 sm:px-6 flex items-center justify-between gap-4 select-none shrink-0">
-        <!-- Traffic Light Controls & Title -->
+      <header class="macos-titlebar h-16 px-5 sm:px-8 flex items-center justify-between gap-4 select-none shrink-0">
+        <!-- App Logo & Title -->
         <div class="flex items-center gap-3">
-          <div class="flex items-center gap-2">
-            <span class="macos-traffic-btn macos-traffic-close" title="Close"></span>
-            <span class="macos-traffic-btn macos-traffic-minimize" title="Minimize"></span>
-            <span class="macos-traffic-btn macos-traffic-fullscreen" title="Fullscreen"></span>
+          <div class="w-9 h-9 rounded-xl bg-primary-500/10 border border-primary-500/20 flex items-center justify-center text-primary-500 dark:text-primary-400 shadow-xs">
+            <i class="pi pi-book text-base"></i>
           </div>
-          <div class="flex items-center gap-1.5 ml-1">
-            <i class="pi pi-book text-xs text-primary-400"></i>
-            <span class="text-xs font-bold tracking-tight text-surface-800 dark:text-surface-200">Anki B2</span>
-          </div>
+          <span class="text-sm sm:text-base font-bold tracking-tight text-slate-800 dark:text-slate-200">Anki B2</span>
         </div>
 
         <!-- Center: macOS Segmented Navigation Pill -->
-        <nav class="macos-segmented-bar flex items-center gap-1 shadow-inner">
+        <nav class="macos-segmented-bar flex items-center gap-1.5 shadow-inner">
           <button 
             type="button"
             id="tab-dictionary"
-            class="px-3.5 py-1 text-xs font-semibold rounded-lg transition-all cursor-pointer"
-            :class="activeView === 'list' ? 'macos-segmented-item-active' : 'text-surface-500 hover:text-surface-300 dark:hover:text-surface-200'"
+            class="px-4 py-1.5 text-xs sm:text-sm font-semibold rounded-lg transition-all cursor-pointer"
+            :class="activeView === 'list' ? 'macos-segmented-item-active' : 'text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200'"
             @click="activeView = 'list'"
           >
-            <i class="pi pi-list mr-1.5 text-[11px]"></i>
+            <i class="pi pi-list mr-1.5 text-xs"></i>
             <span>Dictionary</span>
           </button>
           <button 
             type="button"
             id="tab-study"
-            class="px-3.5 py-1 text-xs font-semibold rounded-lg transition-all cursor-pointer"
-            :class="activeView === 'study' ? 'macos-segmented-item-active' : 'text-surface-500 hover:text-surface-300 dark:hover:text-surface-200'"
+            class="px-4 py-1.5 text-xs sm:text-sm font-semibold rounded-lg transition-all cursor-pointer"
+            :class="activeView === 'study' ? 'macos-segmented-item-active' : 'text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200'"
             @click="activeView = 'study'"
           >
-            <i class="pi pi-graduation-cap mr-1.5 text-[11px]"></i>
+            <i class="pi pi-graduation-cap mr-1.5 text-xs"></i>
             <span>Study Mode</span>
           </button>
           <button 
             type="button"
             id="tab-dashboard"
-            class="px-3.5 py-1 text-xs font-semibold rounded-lg transition-all cursor-pointer"
-            :class="activeView === 'dashboard' ? 'macos-segmented-item-active' : 'text-surface-500 hover:text-surface-300 dark:hover:text-surface-200'"
+            class="px-4 py-1.5 text-xs sm:text-sm font-semibold rounded-lg transition-all cursor-pointer"
+            :class="activeView === 'dashboard' ? 'macos-segmented-item-active' : 'text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200'"
             @click="activeView = 'dashboard'"
           >
-            <i class="pi pi-chart-bar mr-1.5 text-[11px]"></i>
+            <i class="pi pi-chart-bar mr-1.5 text-xs"></i>
             <span>Dashboard</span>
           </button>
         </nav>
 
         <!-- Right: Window Utility Actions -->
-        <div class="flex items-center gap-1.5 justify-end">
+        <div class="flex items-center gap-2 justify-end">
           <Button 
             id="btn-theme-toggle"
             :icon="themeIcon" 
@@ -259,22 +254,22 @@ watch([currentStudyIndex, isFlipped, isStudyMode, isAutoplay], ([newIdx, newFlip
             size="small"
             @click="cycleTheme" 
             :title="`Theme: ${themeModeLabel}`"
-            class="hover:bg-white/10 active:scale-95 transition-all !w-8 !h-8"
+            class="hover:bg-slate-200/60 dark:hover:bg-white/10 active:scale-95 transition-all !w-9 !h-9"
           />
           <a 
             href="https://github.com/andreysey/anki-b2" 
             target="_blank" 
             rel="noopener noreferrer" 
             aria-label="GitHub Repository"
-            class="p-button p-component p-button-icon-only p-button-secondary p-button-rounded p-button-text !w-8 !h-8 hover:bg-white/10 active:scale-95 transition-all text-surface-400 hover:text-surface-100"
+            class="p-button p-component p-button-icon-only p-button-secondary p-button-rounded p-button-text !w-9 !h-9 hover:bg-slate-200/60 dark:hover:bg-white/10 active:scale-95 transition-all text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100"
           >
-            <i class="pi pi-github text-sm"></i>
+            <i class="pi pi-github text-base"></i>
           </a>
         </div>
       </header>
 
       <!-- macOS Window Body Content -->
-      <main ref="mainContentRef" class="flex-1 p-4 sm:p-8 flex flex-col gap-6 overflow-y-auto custom-scrollbar">
+      <main ref="mainContentRef" class="flex-1 p-6 sm:p-10 lg:p-12 flex flex-col gap-8 overflow-y-auto custom-scrollbar">
         <AppHero v-if="activeView === 'list'" />
 
         <!-- Error Banner -->
@@ -294,28 +289,28 @@ watch([currentStudyIndex, isFlipped, isStudyMode, isAutoplay], ([newIdx, newFlip
         />
 
         <!-- Audio Settings Panel -->
-        <Panel v-if="activeView === 'list'" header="Speech & Audio Preferences" toggleable collapsed class="shadow-sm !rounded-2xl border border-white/10 dark:border-white/10">
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-5 p-4">
-            <div class="flex flex-col gap-1.5">
-              <span class="text-[11px] font-bold uppercase tracking-wider text-surface-400">German Voice Engine</span>
+        <Panel v-if="activeView === 'list'" header="Speech & Audio Preferences" toggleable collapsed class="shadow-sm !rounded-2xl border border-slate-200/80 dark:border-white/10">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6 p-5">
+            <div class="flex flex-col gap-2">
+              <span class="text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">German Voice Engine</span>
               <select 
                 v-model="selectedVoiceURI" 
-                class="w-full bg-surface-950/60 dark:bg-black/40 border border-surface-800 dark:border-white/10 text-surface-100 rounded-xl p-2.5 text-xs outline-none focus:border-primary-500"
+                class="w-full bg-slate-50 dark:bg-black/40 border border-slate-200 dark:border-white/10 text-slate-800 dark:text-slate-100 rounded-xl p-3 text-xs sm:text-sm outline-none focus:border-primary-500"
               >
                 <option v-for="voice in germanVoices" :key="voice.voiceURI" :value="voice.voiceURI">
                   {{ voice.name }} ({{ voice.lang }})
                 </option>
               </select>
             </div>
-            <div class="flex flex-col gap-1.5 justify-center min-h-[55px]">
-              <span class="text-[11px] font-bold uppercase tracking-wider text-surface-400">Speech Rate ({{ ttsRate }}x)</span>
+            <div class="flex flex-col gap-2 justify-center min-h-[60px]">
+              <span class="text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">Speech Rate ({{ ttsRate }}x)</span>
               <input 
                 type="range" 
                 min="0.5" 
                 max="1.5" 
                 step="0.05" 
                 v-model.number="ttsRate"
-                class="w-full h-1.5 bg-surface-700 dark:bg-white/20 rounded-lg cursor-pointer accent-primary-500 block"
+                class="w-full h-2 bg-slate-300 dark:bg-white/20 rounded-lg cursor-pointer accent-primary-500 block"
                 style="appearance: auto; -webkit-appearance: auto;"
               />
             </div>

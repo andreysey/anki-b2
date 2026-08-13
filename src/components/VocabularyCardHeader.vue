@@ -15,10 +15,10 @@ const emit = defineEmits<{
 <template>
   <div class="flex justify-between items-center w-full">
     <div class="flex items-center gap-2 flex-wrap">
-      <span class="inline-flex items-center px-2.5 py-0.5 rounded-md text-[11px] font-bold tracking-wide bg-blue-500/15 text-blue-400 border border-blue-500/25 shadow-xs">
+      <span class="inline-flex items-center px-2.5 py-0.5 rounded-md text-[11px] font-bold tracking-wide bg-blue-500/15 text-blue-600 dark:text-blue-400 border border-blue-500/25 shadow-xs">
         {{ word.level }}
       </span>
-      <span class="inline-flex items-center px-2.5 py-0.5 rounded-md text-[11px] font-medium bg-surface-800/60 dark:bg-white/10 text-surface-400 dark:text-surface-300 border border-surface-700/60 dark:border-white/10 shadow-xs max-w-[220px] truncate" :title="getThemaLabel(word.thema)">
+      <span class="inline-flex items-center px-2.5 py-0.5 rounded-md text-[11px] font-medium bg-slate-100 dark:bg-white/10 text-slate-600 dark:text-slate-300 border border-slate-200 dark:border-white/10 shadow-xs max-w-[220px] truncate" :title="getThemaLabel(word.thema)">
         {{ getThemaLabel(word.thema) }}
       </span>
     </div>
@@ -26,7 +26,7 @@ const emit = defineEmits<{
       icon="pi pi-check" 
       rounded 
       text 
-      severity="success"
+      severity="success" 
       size="small"
       aria-label="Mark as Mastered"
       @click.stop="emit('toggle-mastered', word)" 

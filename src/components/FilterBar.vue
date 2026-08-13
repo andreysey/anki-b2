@@ -47,18 +47,18 @@ const levelOptions = [
 </script>
 
 <template>
-  <div class="p-4 sm:p-5 rounded-2xl bg-white/70 dark:bg-white/5 border border-black/5 dark:border-white/10 backdrop-blur-xl shadow-md">
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 items-center">
+  <div class="p-5 sm:p-6 rounded-2xl bg-white dark:bg-slate-900/90 border border-slate-200/80 dark:border-white/10 shadow-sm">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5 items-center">
       <!-- Spotlight Search Section -->
       <div class="w-full relative">
-        <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-surface-400">
+        <div class="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
           <i class="pi pi-search text-xs"></i>
         </div>
         <InputText 
           :modelValue="search"
           @update:modelValue="(val) => emit('update:search', val ?? '')"
-          placeholder="Spotlight search vocabulary..." 
-          class="w-full !pl-8 text-sm !bg-surface-50 dark:!bg-black/40 !border-surface-200 dark:!border-white/10 !rounded-xl"
+          placeholder="Search vocabulary..." 
+          class="w-full !pl-9 text-xs sm:text-sm !py-2.5 !bg-slate-50 dark:!bg-black/40 !border-slate-200 dark:!border-white/10 !rounded-xl"
         />
       </div>
       
@@ -71,7 +71,7 @@ const levelOptions = [
           optionLabel="label"
           optionValue="value"
           placeholder="Select Level"
-          class="w-full text-sm !bg-surface-50 dark:!bg-black/40 !border-surface-200 dark:!border-white/10 !rounded-xl"
+          class="w-full text-xs sm:text-sm !bg-slate-50 dark:!bg-black/40 !border-slate-200 dark:!border-white/10 !rounded-xl"
         />
       </div>
 
@@ -84,7 +84,7 @@ const levelOptions = [
           optionLabel="label"
           optionValue="value"
           placeholder="Select Theme"
-          class="w-full text-sm !bg-surface-50 dark:!bg-black/40 !border-surface-200 dark:!border-white/10 !rounded-xl"
+          class="w-full text-xs sm:text-sm !bg-slate-50 dark:!bg-black/40 !border-slate-200 dark:!border-white/10 !rounded-xl"
         />
       </div>
 
@@ -95,7 +95,7 @@ const levelOptions = [
           :icon="isStudyMode ? 'pi pi-list' : 'pi pi-graduation-cap'"
           @click="emit('update:isStudyMode', !isStudyMode)"
           severity="primary"
-          class="w-full !rounded-xl shadow-xs active:scale-95 transition-all text-sm font-semibold !py-2.5"
+          class="w-full !rounded-xl shadow-xs active:scale-95 transition-all text-xs sm:text-sm font-semibold !py-2.5"
         />
       </div>
     </div>
