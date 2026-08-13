@@ -1,3 +1,10 @@
+# [1.18.0](https://github.com/andreysey/anki-b2/compare/v1.17.0...v1.18.0) (2026-08-13)
+
+
+### Features
+
+* enable dynamic card resizing and unified scrolling for AI assistant content ([fe355ae](https://github.com/andreysey/anki-b2/commit/fe355aef6110c349da4402b33ffc3247b53c6634))
+
 # [1.17.0](https://github.com/andreysey/anki-b2/compare/v1.16.0...v1.17.0) (2026-08-13)
 
 
