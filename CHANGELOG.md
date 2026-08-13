@@ -1,3 +1,10 @@
+# [1.16.0](https://github.com/andreysey/anki-b2/compare/v1.15.0...v1.16.0) (2026-08-13)
+
+
+### Features
+
+* add VocabularyCardFace component, improve data linting validation, and implement secure storage utilities and speech synthesis composables. ([f04a2ae](https://github.com/andreysey/anki-b2/commit/f04a2aeb9509721c24fe3a710445af8b7583e330))
+
 # [1.15.0](https://github.com/andreysey/anki-b2/compare/v1.14.0...v1.15.0) (2026-08-02)
 
 
