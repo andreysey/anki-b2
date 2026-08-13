@@ -57,6 +57,20 @@ export const checkOnDeviceSupport = async (): Promise<boolean> => {
 let cachedModels: string[] | null = null;
 let lastKeyForCache = '';
 
+const DEFAULT_FALLBACK_MODELS = [
+  'gemini-3.7-flash',
+  'gemini-3.5-flash-lite',
+  'gemini-3.5-flash',
+  'gemini-3.1-flash-lite',
+  'gemini-3-flash',
+  'gemini-2.5-flash',
+  'gemini-2.5-flash-lite',
+  'gemini-2.0-flash',
+  'gemini-2.5-pro',
+  'gemini-1.5-flash-latest',
+  'gemini-flash-lite-latest'
+];
+
 export const getAvailableGeminiModels = async (cloudKey: string): Promise<string[]> => {
   if (cachedModels && cachedModels.length > 0 && lastKeyForCache === cloudKey) {
     return cachedModels;
@@ -72,11 +86,16 @@ export const getAvailableGeminiModels = async (cloudKey: string): Promise<string
             Array.isArray(m.supportedGenerationMethods) && m.supportedGenerationMethods.includes('generateContent')
           )
           .map((m: { name: string }) => m.name.replace(/^models\//, ''))
-          // Prioritize flash models, then sort descending
+          // Prioritize flash models, then sort by highest version number
           .sort((a: string, b: string) => {
             const aFlash = a.includes('flash') ? 1 : 0;
             const bFlash = b.includes('flash') ? 1 : 0;
             if (aFlash !== bFlash) return bFlash - aFlash;
+
+            const aVer = parseFloat(a.match(/\d+(\.\d+)?/)?.[0] || '0');
+            const bVer = parseFloat(b.match(/\d+(\.\d+)?/)?.[0] || '0');
+            if (aVer !== bVer) return bVer - aVer;
+
             return b.localeCompare(a);
           });
 
@@ -91,14 +110,7 @@ export const getAvailableGeminiModels = async (cloudKey: string): Promise<string
     console.warn('Failed to dynamically fetch Gemini model list:', e);
   }
 
-  return [
-    'gemini-2.5-flash',
-    'gemini-2.0-flash',
-    'gemini-1.5-flash-latest',
-    'gemini-1.5-flash',
-    'gemini-2.5-pro',
-    'gemini-1.5-pro'
-  ];
+  return DEFAULT_FALLBACK_MODELS;
 };
 
 export const callAI = async (

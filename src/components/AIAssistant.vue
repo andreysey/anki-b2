@@ -165,7 +165,7 @@ const handleGenerateDialogue = async () => {
       <!-- Loading indicator -->
       <div v-if="isLoading" class="flex flex-col items-center justify-center py-6 gap-2.5 flex-1">
         <i class="pi pi-spin pi-sparkles text-lg text-primary-500 dark:text-primary-400 animate-pulse"></i>
-        <span class="text-xs text-slate-500 dark:text-slate-400 font-medium">Apple Intelligence analyzing context...</span>
+        <span class="text-xs text-slate-500 dark:text-slate-400 font-medium">AI Coach analyzing context...</span>
       </div>
       <!-- Output Text -->
       <ScrollPanel v-else class="h-[170px] text-xs leading-relaxed font-sans pr-1">
