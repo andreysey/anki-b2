@@ -127,17 +127,18 @@ const model = new Model({
   `,
 });
 
-// Clean inheritance avoiding monkey patching
+// Thread-safe / Concurrency-safe Note subclass with instance-scoped ID
 class SequentialNote extends Note {
-  private static noteCounter = 0;
+  private customId: number;
 
-  static setStartId(startId: number) {
-    SequentialNote.noteCounter = startId;
+  constructor(options: ConstructorParameters<typeof Note>[0] & { customId: number }) {
+    super(options);
+    this.customId = options.customId;
   }
 
   override toSqlValues() {
     const values = super.toSqlValues();
-    values.id = SequentialNote.noteCounter++;
+    values.id = this.customId;
     return values;
   }
 }
@@ -176,8 +177,6 @@ export async function generateAnkiDeck(
     baseName === 'B1plus' ? 1607392320 :
     baseName === 'B2'     ? 1607392321 :
                             1607392322;
-
-  SequentialNote.setStartId(deckId * 1000000);
 
   const deckName = `German ${baseName.replace('plus', '+')}`;
   const deck = new Deck({ deckId, name: deckName });
@@ -234,9 +233,11 @@ export async function generateAnkiDeck(
       }
 
       totalEntries++;
+      const currentNoteIndex = noteIndex++;
 
       const note = new SequentialNote({
-        guid: (BigInt(deckId) * 10000n + BigInt(noteIndex++)).toString(),
+        customId: deckId * 1000000 + currentNoteIndex,
+        guid: (BigInt(deckId) * 10000n + BigInt(currentNoteIndex)).toString(),
         modelId: MODEL_ID,
         fields: [
           germanColored,  // German

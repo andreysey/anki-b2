@@ -155,6 +155,8 @@ const handleGenerateDialogue = async () => {
     <!-- AI Output Box -->
     <div 
       v-if="isLoading || resultText" 
+      role="status"
+      aria-live="polite"
       class="relative mt-2 p-4 rounded-2xl shadow-inner text-left max-h-[220px] overflow-hidden flex flex-col transition-colors border"
       :class="isError ? 'bg-red-950/40 border-red-500/50 text-red-200' : 'bg-surface-950/80 border-surface-800/80 text-surface-200'"
     >

@@ -6,7 +6,8 @@ export interface Word {
   english: string;
   ukrainian: string;
   example?: string;
-  id?: string; // We'll generate or use a composite key if missing
+  id?: string;
+  _searchIndex?: string; // Precomputed normalized search index for fast lookup
 }
 
 export interface SRSState {
@@ -19,16 +20,4 @@ export type StudyDirection = 'DE_TO_UA' | 'UA_TO_DE';
 export interface SelectOption<T> {
   label: string;
   value: T;
-}
-
-export interface AppState {
-  vocabulary: Word[];
-  filteredVocabulary: Word[];
-  isStudyMode: boolean;
-  currentStudyIndex: number;
-  isFlipped: boolean;
-  studyDirection: StudyDirection;
-  isAutoplay: boolean;
-  masteredIds: Set<string>;
-  srsData: Record<string, SRSState>;
 }

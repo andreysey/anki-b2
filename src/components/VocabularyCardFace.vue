@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { defineAsyncComponent } from 'vue';
 import type { Word } from '../types';
 import Card from 'primevue/card';
 import Divider from 'primevue/divider';
@@ -7,8 +6,7 @@ import ScrollPanel from 'primevue/scrollpanel';
 import Button from 'primevue/button';
 import { sanitizeHtml } from '../utils/sanitize';
 import VocabularyCardHeader from './VocabularyCardHeader.vue';
-
-const AIAssistant = defineAsyncComponent(() => import('./AIAssistant.vue'));
+import AIAssistant from './AIAssistant.vue';
 
 defineProps<{
   word: Word;

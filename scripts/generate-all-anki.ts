@@ -1,20 +1,44 @@
 /**
- * generate-all-anki.ts — Port of Rust src/main.rs
+ * generate-all-anki.ts — Multi-threaded Anki Deck Generator
  *
- * Discovers source .txt files, generates B1+, B2, and Combined Anki decks,
- * writes docs/data.json, and copies it to public/data.json.
+ * Discovers source .txt files, generates B1+, B2, and Combined Anki decks
+ * concurrently across multiple Worker Threads (multi-core parallelization).
  */
 
-import fs from 'fs';
-import path from 'path';
-import { fileURLToPath } from 'url';
-import { generateAnkiDeck } from './generate-anki.js';
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { Worker } from 'node:worker_threads';
+import type { GenerateResult } from './generate-anki.js';
 import { getThemaNum } from './utils.js';
 
-const __dirname  = path.dirname(fileURLToPath(import.meta.url));
-
-// Resolve repo root
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, '../');
+
+function runDeckWorker(files: string[], baseName: string, outputDir: string): Promise<GenerateResult> {
+  return new Promise((resolve, reject) => {
+    const workerPath = path.join(__dirname, 'deck-worker.ts');
+    const worker = new Worker(workerPath, {
+      workerData: { files, baseName, outputDir },
+      execArgv: process.execArgv,
+    });
+
+    worker.on('message', (msg) => {
+      if (msg.success) {
+        resolve(msg.result);
+      } else {
+        reject(new Error(msg.error));
+      }
+    });
+
+    worker.on('error', reject);
+    worker.on('exit', (code) => {
+      if (code !== 0) {
+        reject(new Error(`Worker for ${baseName} stopped with exit code ${code}`));
+      }
+    });
+  });
+}
 
 async function main() {
   const sourceDir = path.join(root, 'source');
@@ -29,7 +53,7 @@ async function main() {
     process.exit(1);
   }
 
-  // Discover and sort files — same as Rust main.rs
+  // Discover and sort files
   const allFiles = fs.readdirSync(sourceDir)
     .filter(f => f.endsWith('.txt'))
     .map(f => path.join(sourceDir, f));
@@ -44,34 +68,32 @@ async function main() {
 
   const combined = [...b1Files, ...b2Files];
 
-  console.log('🚀 Starting Anki generation...');
+  console.log('🚀 Starting multi-threaded Anki deck generation across worker threads...');
   console.time('Total Generation');
 
-  // 1. B1+ deck
-  console.log('⏳ Generating B1+...');
-  const r1 = await generateAnkiDeck(b1Files, 'B1plus', outputDir);
+  // Spawn separate worker threads for each deck to utilize multiple CPU cores
+  const [r1, r2, rc] = await Promise.all([
+    runDeckWorker(b1Files, 'B1plus', outputDir),
+    runDeckWorker(b2Files, 'B2', outputDir),
+    runDeckWorker(combined, 'B1plus_B2', outputDir),
+  ]);
+
   console.log(`✅ Anki: B1+ deck generated (${r1.uniqueCards} unique cards from ${r1.totalEntries} total entries)`);
   if (r1.warnings.length > 0) r1.warnings.forEach(w => console.warn(`  ⚠️  ${w}`));
 
-  // 2. B2 deck
-  console.log('⏳ Generating B2...');
-  const r2 = await generateAnkiDeck(b2Files, 'B2', outputDir);
   console.log(`✅ Anki: B2 deck generated (${r2.uniqueCards} unique cards from ${r2.totalEntries} total entries)`);
   if (r2.warnings.length > 0) r2.warnings.forEach(w => console.warn(`  ⚠️  ${w}`));
 
-  // 3. Combined deck + data.json
-  console.log('⏳ Generating Combined B1+/B2...');
-  const rc = await generateAnkiDeck(combined, 'B1plus_B2', outputDir);
   console.log(`✅ Anki: Combined deck generated (${rc.uniqueCards} unique cards from ${rc.totalEntries} total entries)`);
   if (rc.warnings.length > 0) rc.warnings.forEach(w => console.warn(`  ⚠️  ${w}`));
 
-  // 4. Write data.json (same as Rust: dist/data.json)
+  // Write data.json
   const json = JSON.stringify(rc.webData, null, 2);
   fs.mkdirSync(path.dirname(dataJsonDocs), { recursive: true });
   fs.writeFileSync(dataJsonDocs, json);
   console.log(`✅ Web data written to dist/data.json (${rc.webData.length} unique entries)`);
 
-  // 5. Sync to public/data.json (so the web app uses latest data)
+  // Sync to public/data.json (so the web app uses latest data)
   fs.copyFileSync(dataJsonDocs, dataJsonPublic);
   console.log(`✅ Copied to public/data.json`);
 

@@ -12,6 +12,10 @@ const LEVEL_TRANSITIONS: Readonly<Record<'again' | 'hard' | 'good' | 'easy', (le
 
 export const getItemKey = (item: Word): string => item.id || `${item.german}-${item.thema}`;
 
+export const buildSearchIndex = (word: Word): string => {
+  return `${word.german} ${word.english} ${word.ukrainian}`.toLowerCase();
+};
+
 // Module-level shared state (Singleton pattern across components)
 const vocabulary = ref<Word[]>([]);
 const isLoading = ref<boolean>(false);
@@ -58,7 +62,13 @@ export function useVocabulary() {
       if (!response.ok) {
         throw new Error(`Failed to fetch vocabulary data: HTTP ${response.status}`);
       }
-      vocabulary.value = await response.json();
+      const data: Word[] = await response.json();
+      data.forEach(item => {
+        if (!item._searchIndex) {
+          item._searchIndex = buildSearchIndex(item);
+        }
+      });
+      vocabulary.value = data;
     } catch (err: unknown) {
       const message = err instanceof Error ? err.message : String(err);
       console.error('Error fetching vocabulary:', message);
@@ -88,12 +98,11 @@ export function useVocabulary() {
   };
 
   const filteredVocabulary = computed(() => {
-    return vocabulary.value.filter(item => {
-      const matchesSearch = !search.value || 
-        item.german.toLowerCase().includes(search.value.toLowerCase()) ||
-        item.english.toLowerCase().includes(search.value.toLowerCase()) ||
-        item.ukrainian.toLowerCase().includes(search.value.toLowerCase());
+    const trimmedQuery = search.value.trim().toLowerCase();
 
+    return vocabulary.value.filter(item => {
+      const searchTarget = item._searchIndex ?? buildSearchIndex(item);
+      const matchesSearch = !trimmedQuery || searchTarget.includes(trimmedQuery);
       const matchesLevel = levelFilter.value === 'all' || item.level === levelFilter.value;
       const matchesThema = themaFilter.value === 'all' || item.thema.toString() === themaFilter.value;
       const isMastered = masteredIds.value.has(getItemKey(item));
