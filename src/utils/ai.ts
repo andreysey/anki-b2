@@ -57,18 +57,20 @@ export const checkOnDeviceSupport = async (): Promise<boolean> => {
 let cachedModels: string[] | null = null;
 let lastKeyForCache = '';
 
+// High quota models: gemini-flash-lite-latest (15 RPM / 500 RPD) prioritized first
 const DEFAULT_FALLBACK_MODELS = [
-  'gemini-3.7-flash',
+  'gemini-flash-lite-latest',
   'gemini-3.5-flash-lite',
-  'gemini-3.5-flash',
   'gemini-3.1-flash-lite',
+  'gemini-2.5-flash-lite',
+  'gemini-3.7-flash',
+  'gemini-3.6-flash',
+  'gemini-3.5-flash',
   'gemini-3-flash',
   'gemini-2.5-flash',
-  'gemini-2.5-flash-lite',
   'gemini-2.0-flash',
   'gemini-2.5-pro',
-  'gemini-1.5-flash-latest',
-  'gemini-flash-lite-latest'
+  'gemini-1.5-flash-latest'
 ];
 
 export const getAvailableGeminiModels = async (cloudKey: string): Promise<string[]> => {
@@ -86,12 +88,23 @@ export const getAvailableGeminiModels = async (cloudKey: string): Promise<string
             Array.isArray(m.supportedGenerationMethods) && m.supportedGenerationMethods.includes('generateContent')
           )
           .map((m: { name: string }) => m.name.replace(/^models\//, ''))
-          // Prioritize flash models, then sort by highest version number
+          // Sorter: gemini-flash-lite-latest (#1) -> Flash Lite Tier (~500 RPD) -> Flash Tier (20 RPD) -> Pro Tier
           .sort((a: string, b: string) => {
-            const aFlash = a.includes('flash') ? 1 : 0;
-            const bFlash = b.includes('flash') ? 1 : 0;
-            if (aFlash !== bFlash) return bFlash - aFlash;
+            if (a === 'gemini-flash-lite-latest') return -1;
+            if (b === 'gemini-flash-lite-latest') return 1;
 
+            const getTierScore = (name: string) => {
+              if (name.includes('flash-lite') || name.includes('flash_lite')) return 3;
+              if (name.includes('flash')) return 2;
+              if (name.includes('pro')) return 1;
+              return 0;
+            };
+
+            const scoreA = getTierScore(a);
+            const scoreB = getTierScore(b);
+            if (scoreA !== scoreB) return scoreB - scoreA;
+
+            // Within the same tier, prioritize higher version numbers (3.5 > 3.1 > 2.5)
             const aVer = parseFloat(a.match(/\d+(\.\d+)?/)?.[0] || '0');
             const bVer = parseFloat(b.match(/\d+(\.\d+)?/)?.[0] || '0');
             if (aVer !== bVer) return bVer - aVer;
