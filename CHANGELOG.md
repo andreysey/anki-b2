@@ -1,3 +1,10 @@
+# [1.17.0](https://github.com/andreysey/anki-b2/compare/v1.16.0...v1.17.0) (2026-08-13)
+
+
+### Features
+
+* update Gemini model fallback list, improve sorting logic, and rename AI assistant label ([afd06e5](https://github.com/andreysey/anki-b2/commit/afd06e5778894a8ffd7de59ea1d4d0ad9d25ce28))
+
 # [1.16.0](https://github.com/andreysey/anki-b2/compare/v1.15.0...v1.16.0) (2026-08-13)
 
 
