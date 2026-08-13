@@ -6,6 +6,7 @@ export interface AIServiceResponse {
   success: boolean;
   text: string;
   source: 'nano' | 'cloud' | 'none';
+  model?: string;
 }
 
 export interface AICapabilities {
@@ -53,6 +54,53 @@ export const checkOnDeviceSupport = async (): Promise<boolean> => {
   }
 };
 
+let cachedModels: string[] | null = null;
+let lastKeyForCache = '';
+
+export const getAvailableGeminiModels = async (cloudKey: string): Promise<string[]> => {
+  if (cachedModels && cachedModels.length > 0 && lastKeyForCache === cloudKey) {
+    return cachedModels;
+  }
+
+  try {
+    const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models?key=${cloudKey}`);
+    if (res.ok) {
+      const data = await res.json();
+      if (Array.isArray(data.models)) {
+        const supported = data.models
+          .filter((m: { name?: string; supportedGenerationMethods?: string[] }) => 
+            Array.isArray(m.supportedGenerationMethods) && m.supportedGenerationMethods.includes('generateContent')
+          )
+          .map((m: { name: string }) => m.name.replace(/^models\//, ''))
+          // Prioritize flash models, then sort descending
+          .sort((a: string, b: string) => {
+            const aFlash = a.includes('flash') ? 1 : 0;
+            const bFlash = b.includes('flash') ? 1 : 0;
+            if (aFlash !== bFlash) return bFlash - aFlash;
+            return b.localeCompare(a);
+          });
+
+        if (supported.length > 0) {
+          cachedModels = supported;
+          lastKeyForCache = cloudKey;
+          return supported;
+        }
+      }
+    }
+  } catch (e) {
+    console.warn('Failed to dynamically fetch Gemini model list:', e);
+  }
+
+  return [
+    'gemini-2.5-flash',
+    'gemini-2.0-flash',
+    'gemini-1.5-flash-latest',
+    'gemini-1.5-flash',
+    'gemini-2.5-pro',
+    'gemini-1.5-pro'
+  ];
+};
+
 export const callAI = async (
   promptText: string,
   systemInstruction?: string
@@ -67,7 +115,12 @@ export const callAI = async (
         });
         const text = await session.prompt(promptText);
         session.destroy();
-        return { success: true, text, source: 'nano' };
+        return { 
+          success: true, 
+          text, 
+          source: 'nano',
+          model: 'Gemini Nano (On-Device)' 
+        };
       }
     } catch (e) {
       console.warn('Chrome Built-in AI failed, falling back to Cloud API', e);
@@ -84,41 +137,57 @@ export const callAI = async (
     };
   }
 
-  try {
-    const formattedPrompt = systemInstruction 
-      ? `${systemInstruction}\n\nUser request: ${promptText}`
-      : promptText;
+  const formattedPrompt = systemInstruction 
+    ? `${systemInstruction}\n\nUser request: ${promptText}`
+    : promptText;
 
-    const response = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${cloudKey}`,
-      {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({
-          contents: [{ parts: [{ text: formattedPrompt }] }]
-        })
+  let lastError = '';
+  const candidateModels = await getAvailableGeminiModels(cloudKey);
+
+  for (const model of candidateModels) {
+    try {
+      const response = await fetch(
+        `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${cloudKey}`,
+        {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({
+            contents: [{ parts: [{ text: formattedPrompt }] }]
+          })
+        }
+      );
+
+      if (!response.ok) {
+        const errData = await response.json().catch(() => ({}));
+        lastError = errData.error?.message || `HTTP error ${response.status}`;
+        console.warn(`Gemini candidate model ${model} failed (${response.status}):`, lastError);
+        continue;
       }
-    );
 
-    if (!response.ok) {
-      const errData = await response.json().catch(() => ({}));
-      throw new Error(errData.error?.message || `HTTP error ${response.status}`);
+      const data = await response.json();
+      const text = data.candidates?.[0]?.content?.parts?.[0]?.text || '';
+      if (!text) {
+        lastError = 'Empty response from Gemini API';
+        continue;
+      }
+
+      return { 
+        success: true, 
+        text, 
+        source: 'cloud',
+        model: model 
+      };
+    } catch (err: unknown) {
+      lastError = err instanceof Error ? err.message : String(err);
+      console.warn(`Network attempt with ${model} failed:`, lastError);
     }
-
-    const data = await response.json();
-    const text = data.candidates?.[0]?.content?.parts?.[0]?.text || '';
-    if (!text) throw new Error('Empty response from Gemini API');
-
-    return { success: true, text, source: 'cloud' };
-  } catch (err: unknown) {
-    const errorMessage = err instanceof Error ? err.message : String(err);
-    console.error('Cloud Gemini API error:', errorMessage);
-    return {
-      success: false,
-      text: `Error calling Gemini API: ${errorMessage}`,
-      source: 'none'
-    };
   }
+
+  return {
+    success: false,
+    text: `Error calling Gemini API: ${lastError}`,
+    source: 'none'
+  };
 };

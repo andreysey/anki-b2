@@ -21,47 +21,47 @@ const emit = defineEmits<{
 </script>
 
 <template>
-  <div class="w-full h-full bg-white/95 dark:bg-slate-900/90 border border-slate-200/90 dark:border-white/10 rounded-[28px] overflow-hidden shadow-xl shadow-slate-200/50 dark:shadow-2xl flex flex-col p-6 sm:p-7">
+  <div class="w-full h-full bg-white/95 dark:bg-slate-900/90 border border-slate-200/90 dark:border-white/10 rounded-[26px] overflow-hidden shadow-lg shadow-slate-200/50 dark:shadow-2xl flex flex-col p-5 sm:p-6">
     <!-- Card Header -->
     <VocabularyCardHeader :word="word" @toggle-mastered="emit('toggle-mastered', $event)" />
 
     <!-- Card Body & Content -->
-    <div class="flex-1 flex flex-col justify-center overflow-hidden pt-3">
-      <ScrollPanel :class="scrollPanelHeight || 'h-[280px]'" class="custom-scrollbar px-1">
+    <div class="flex-1 flex flex-col justify-center overflow-hidden pt-2">
+      <ScrollPanel :class="scrollPanelHeight || 'h-[240px]'" class="custom-scrollbar px-1">
         <!-- German Primary View -->
         <template v-if="showGerman">
-          <div class="flex flex-col items-center justify-center gap-6 py-6 sm:py-8 my-auto">
-            <h2 class="text-3xl sm:text-4xl font-extrabold text-center tracking-tight text-slate-900 dark:text-white leading-snug select-text" v-html="sanitizeHtml(word.german)"></h2>
+          <div class="flex flex-col items-center justify-center gap-4 py-4 sm:py-6 my-auto">
+            <h2 class="text-2xl sm:text-3xl font-extrabold text-center tracking-tight text-slate-900 dark:text-white leading-snug select-text" v-html="sanitizeHtml(word.german)"></h2>
             <Button 
               icon="pi pi-volume-up"
               rounded
               aria-label="Play German pronunciation"
               @click.stop="emit('play-audio', word.german_audio || word.german)" 
               title="Play pronunciation"
-              class="w-12 h-12 shadow-md hover:scale-105 active:scale-95 transition-all bg-primary-500 hover:bg-primary-600 text-white"
+              class="w-10 h-10 shadow-sm hover:scale-105 active:scale-95 transition-all bg-primary-500 hover:bg-primary-600 text-white"
             />
           </div>
         </template>
 
         <!-- Translation Primary View -->
         <template v-else>
-          <div class="flex flex-col items-center justify-center gap-2 py-4">
-            <div class="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-white tracking-tight select-text">{{ word.ukrainian }}</div>
-            <div class="text-base text-slate-600 dark:text-slate-400 font-medium select-text">{{ word.english }}</div>
+          <div class="flex flex-col items-center justify-center gap-1.5 py-3">
+            <div class="text-xl sm:text-2xl font-extrabold text-slate-900 dark:text-white tracking-tight select-text">{{ word.ukrainian }}</div>
+            <div class="text-xs sm:text-sm text-slate-600 dark:text-slate-400 font-medium select-text">{{ word.english }}</div>
           </div>
         </template>
 
         <!-- Context Example Sentence -->
         <template v-if="showExample && word.example">
-          <div class="my-4 p-4 rounded-2xl bg-slate-50 dark:bg-white/5 border border-slate-200/80 dark:border-white/10 shadow-2xs flex items-center justify-between gap-3">
-            <div class="text-sm italic text-slate-700 dark:text-slate-300 leading-relaxed [&_strong]:text-primary-600 [&_strong]:dark:text-primary-400 [&_strong]:font-bold [&_b]:text-primary-600 [&_b]:dark:text-primary-400 select-text" v-html="sanitizeHtml(word.example)"></div>
+          <div class="my-3 p-3.5 rounded-2xl bg-slate-50 dark:bg-white/5 border border-slate-200/80 dark:border-white/10 shadow-2xs flex items-center justify-between gap-3">
+            <div class="text-xs sm:text-sm italic text-slate-700 dark:text-slate-300 leading-relaxed [&_strong]:text-primary-600 [&_strong]:dark:text-primary-400 [&_strong]:font-bold [&_b]:text-primary-600 [&_b]:dark:text-primary-400 select-text" v-html="sanitizeHtml(word.example)"></div>
             <Button 
               icon="pi pi-volume-up" 
               rounded 
               text 
               severity="secondary"
               size="small"
-              class="shrink-0 hover:bg-slate-200/60 dark:hover:bg-white/10 text-slate-600 dark:text-slate-300"
+              class="shrink-0 hover:bg-slate-200/60 dark:hover:bg-white/10 text-slate-600 dark:text-slate-300 !w-8 !h-8"
               aria-label="Play example sentence pronunciation"
               @click.stop="emit('play-audio', word.example)" 
               title="Play example sentence"

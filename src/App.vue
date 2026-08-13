@@ -194,13 +194,13 @@ watch([currentStudyIndex, isFlipped, isStudyMode, isAutoplay], ([newIdx, newFlip
   <AISettingsDialog />
   
   <!-- macOS Ambient Desktop Wallpaper Canvas -->
-  <div class="macos-desktop-bg min-h-screen text-slate-900 dark:text-slate-100 flex flex-col items-center justify-start p-3 sm:p-6 lg:p-8 font-sans selection:bg-primary-500 selection:text-white transition-colors duration-500">
+  <div class="macos-desktop-bg min-h-screen text-slate-900 dark:text-slate-100 flex flex-col items-center justify-start p-4 sm:p-8 lg:p-12 font-sans selection:bg-primary-500 selection:text-white transition-colors duration-500">
     
     <!-- Central macOS Floating Window -->
-    <div class="macos-window w-full max-w-6xl rounded-[24px] sm:rounded-[32px] overflow-hidden flex flex-col min-h-[90vh] my-auto">
+    <div class="macos-window w-full max-w-6xl rounded-[28px] sm:rounded-[36px] overflow-hidden flex flex-col min-h-[90vh] my-auto">
       
       <!-- macOS Window Titlebar & Toolbar -->
-      <header class="macos-titlebar h-16 px-5 sm:px-8 flex items-center justify-between gap-4 select-none shrink-0">
+      <header class="macos-titlebar h-16 px-6 sm:px-10 flex items-center justify-between gap-4 select-none shrink-0">
         <!-- App Logo & Title -->
         <div class="flex items-center gap-3">
           <div class="w-9 h-9 rounded-xl bg-primary-500/10 border border-primary-500/20 flex items-center justify-center text-primary-500 dark:text-primary-400 shadow-xs">
@@ -269,7 +269,7 @@ watch([currentStudyIndex, isFlipped, isStudyMode, isAutoplay], ([newIdx, newFlip
       </header>
 
       <!-- macOS Window Body Content -->
-      <main ref="mainContentRef" class="flex-1 p-6 sm:p-10 lg:p-12 flex flex-col gap-8 overflow-y-auto custom-scrollbar">
+      <main ref="mainContentRef" class="macos-main-content flex-1 flex flex-col gap-8 overflow-y-auto custom-scrollbar">
         <AppHero v-if="activeView === 'list'" />
 
         <!-- Error Banner -->

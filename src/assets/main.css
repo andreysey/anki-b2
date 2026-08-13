@@ -1,3 +1,4 @@
+@import "./base.css";
 @import "tailwindcss";
 
 @custom-variant dark (&:where(.dark, .dark *));
@@ -15,8 +16,6 @@
   --color-surface-900: #0f172a;
   --color-surface-950: #090d16;
 }
-
-@import "./base.css";
 
 html:not(.dark) {
   color-scheme: light;
@@ -39,14 +38,14 @@ html.dark {
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
-  background: rgba(140, 140, 150, 0.25);
+  background: rgba(140, 140, 150, 0.3);
   border-radius: 9999px;
   border: 1.5px solid transparent;
   background-clip: padding-box;
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-  background: rgba(140, 140, 150, 0.45);
+  background: rgba(140, 140, 150, 0.5);
 }
 
 /* macOS Sequoia Ambient Wallpaper & Window System */
@@ -99,13 +98,30 @@ html:not(.dark) .macos-titlebar {
   border-bottom: 1px solid rgba(0, 0, 0, 0.06);
 }
 
+/* macOS Main Content Area Spacing (Balanced & Viewport-Friendly) */
+.macos-main-content {
+  padding: 1.25rem 1.25rem 2rem 1.25rem;
+}
+
+@media (min-width: 640px) {
+  .macos-main-content {
+    padding: 1.5rem 2rem 2.5rem 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .macos-main-content {
+    padding: 1.75rem 2.5rem 3rem 2.5rem;
+  }
+}
+
 /* macOS Segmented Control (Pill Switcher) */
 .macos-segmented-bar {
   background: rgba(0, 0, 0, 0.28);
   border: 1px solid rgba(255, 255, 255, 0.08);
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.35);
   border-radius: 12px;
-  padding: 4px;
+  padding: 3.5px;
 }
 
 html:not(.dark) .macos-segmented-bar {
@@ -147,11 +163,11 @@ kbd.macos-kbd {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 22px;
-  height: 22px;
-  padding: 0 6px;
+  min-width: 20px;
+  height: 20px;
+  padding: 0 5px;
   font-family: var(--macos-font);
-  font-size: 11px;
+  font-size: 10.5px;
   font-weight: 600;
   color: #cbd5e1;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.14) 0%, rgba(255, 255, 255, 0.04) 100%);
@@ -206,7 +222,7 @@ html.dark .article-das {
   border: 1px solid rgba(255, 255, 255, 0.14);
   box-shadow: 0 20px 50px -10px rgba(0, 0, 0, 0.65),
               0 1px 0 0 rgba(255, 255, 255, 0.15) inset;
-  border-radius: 20px;
+  border-radius: 18px;
 }
 
 html:not(.dark) .macos-floating-hud {
@@ -222,7 +238,7 @@ html:not(.dark) .macos-floating-hud {
 .p-button {
   font-family: var(--macos-font) !important;
   font-weight: 600 !important;
-  border-radius: 12px !important;
+  border-radius: 10px !important;
   transition: var(--transition-smooth) !important;
 }
 
@@ -231,7 +247,7 @@ html:not(.dark) .macos-floating-hud {
 }
 
 .p-select, .p-inputtext {
-  border-radius: 12px !important;
+  border-radius: 10px !important;
   font-family: var(--macos-font) !important;
 }
 
@@ -245,7 +261,7 @@ html:not(.dark) .p-progressbar {
 }
 
 .p-dialog {
-  border-radius: 24px !important;
+  border-radius: 22px !important;
   overflow: hidden !important;
   background: rgba(26, 32, 44, 0.92) !important;
   backdrop-filter: blur(40px) saturate(190%) !important;

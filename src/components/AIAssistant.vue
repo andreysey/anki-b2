@@ -17,6 +17,7 @@ const isLoading = ref(false);
 const isError = ref(false);
 const resultText = ref('');
 const resultSource = ref<'nano' | 'cloud' | 'none'>('none');
+const resultModel = ref<string>('');
 const explanationType = ref<'grammar' | 'dialogue' | null>(null);
 
 onMounted(() => {
@@ -28,6 +29,7 @@ const handleExplainGrammar = async () => {
   isLoading.value = true;
   isError.value = false;
   resultText.value = '';
+  resultModel.value = '';
   
   const systemInstruction = 
     "You are a professional telc Deutsch B2 Beruf language coach. " +
@@ -45,6 +47,7 @@ const handleExplainGrammar = async () => {
   const res = await callAI(prompt, systemInstruction);
   resultText.value = res.text;
   resultSource.value = res.source;
+  resultModel.value = res.model || '';
   isError.value = !res.success;
   isLoading.value = false;
 };
@@ -54,6 +57,7 @@ const handleGenerateDialogue = async () => {
   isLoading.value = true;
   isError.value = false;
   resultText.value = '';
+  resultModel.value = '';
 
   const systemInstruction = 
     "You are a professional telc Deutsch B2 Beruf language coach. " +
@@ -69,6 +73,7 @@ const handleGenerateDialogue = async () => {
   const res = await callAI(prompt, systemInstruction);
   resultText.value = res.text;
   resultSource.value = res.source;
+  resultModel.value = res.model || '';
   isError.value = !res.success;
   isLoading.value = false;
 };
@@ -78,7 +83,7 @@ const handleGenerateDialogue = async () => {
   <div class="mt-4 border-t border-slate-200 dark:border-white/10 pt-4 w-full">
     <!-- Header status and settings button -->
     <div class="flex items-center justify-between mb-3">
-      <div class="flex items-center gap-2">
+      <div class="flex items-center gap-2 flex-wrap">
         <span class="text-[11px] font-bold text-slate-500 dark:text-slate-400 uppercase tracking-wider">AI Coach</span>
         <span 
           v-if="hasNano" 
@@ -86,6 +91,14 @@ const handleGenerateDialogue = async () => {
         >
           <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 dark:bg-emerald-400 animate-pulse"></span>
           Gemini Nano
+        </span>
+        <span 
+          v-else-if="resultModel"
+          class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-blue-500/15 text-blue-600 dark:text-blue-400 border border-blue-500/25"
+          :title="`Active model: ${resultModel}`"
+        >
+          <i class="pi pi-check text-[9px]"></i>
+          {{ resultModel }}
         </span>
         <span 
           v-else-if="hasCloudKey" 
@@ -158,8 +171,16 @@ const handleGenerateDialogue = async () => {
       <ScrollPanel v-else class="h-[170px] text-xs leading-relaxed font-sans pr-1">
         <div class="whitespace-pre-wrap select-text font-normal text-slate-800 dark:text-slate-200" v-html="sanitizeHtml(resultText)"></div>
       </ScrollPanel>
-      <div v-if="!isLoading && resultSource !== 'none'" class="mt-2 text-[9px] text-slate-500 text-right uppercase tracking-wider font-semibold">
-        Generated via {{ resultSource === 'nano' ? 'Local Gemini Nano' : 'Google Cloud API' }}
+      
+      <!-- Footer with Model Badge & Source Details -->
+      <div v-if="!isLoading && resultSource !== 'none'" class="mt-2.5 pt-2 border-t border-slate-200/80 dark:border-white/10 flex items-center justify-between gap-2 text-[10px] text-slate-500 dark:text-slate-400">
+        <div class="inline-flex items-center gap-1 px-2 py-0.5 rounded-md font-mono text-[9.5px] font-semibold bg-slate-200/80 dark:bg-white/10 text-slate-800 dark:text-slate-200">
+          <i class="pi pi-sparkles text-[8.5px] text-primary-500"></i>
+          <span>{{ resultModel || (resultSource === 'nano' ? 'gemini-nano' : 'gemini-cloud') }}</span>
+        </div>
+        <span class="text-[9px] uppercase tracking-wider font-semibold text-slate-400">
+          {{ resultSource === 'nano' ? 'On-Device AI' : 'Cloud API' }}
+        </span>
       </div>
     </div>
   </div>
