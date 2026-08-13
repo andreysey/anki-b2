@@ -47,7 +47,7 @@ const levelOptions = [
 </script>
 
 <template>
-  <div class="p-5 sm:p-6 rounded-2xl bg-white dark:bg-slate-900/90 border border-slate-200/80 dark:border-white/10 shadow-sm">
+  <div class="p-5 sm:p-6 rounded-2xl bg-white/95 dark:bg-slate-900/90 border border-slate-200/90 dark:border-white/10 shadow-xs">
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5 items-center">
       <!-- Spotlight Search Section -->
       <div class="w-full relative">
@@ -58,7 +58,7 @@ const levelOptions = [
           :modelValue="search"
           @update:modelValue="(val) => emit('update:search', val ?? '')"
           placeholder="Search vocabulary..." 
-          class="w-full !pl-9 text-xs sm:text-sm !py-2.5 !bg-slate-50 dark:!bg-black/40 !border-slate-200 dark:!border-white/10 !rounded-xl"
+          class="w-full !pl-9 text-xs sm:text-sm !py-2.5 !bg-slate-50/90 dark:!bg-black/40 !border-slate-200 dark:!border-white/10 !rounded-xl"
         />
       </div>
       
@@ -71,7 +71,7 @@ const levelOptions = [
           optionLabel="label"
           optionValue="value"
           placeholder="Select Level"
-          class="w-full text-xs sm:text-sm !bg-slate-50 dark:!bg-black/40 !border-slate-200 dark:!border-white/10 !rounded-xl"
+          class="w-full text-xs sm:text-sm !bg-slate-50/90 dark:!bg-black/40 !border-slate-200 dark:!border-white/10 !rounded-xl"
         />
       </div>
 
@@ -84,7 +84,7 @@ const levelOptions = [
           optionLabel="label"
           optionValue="value"
           placeholder="Select Theme"
-          class="w-full text-xs sm:text-sm !bg-slate-50 dark:!bg-black/40 !border-slate-200 dark:!border-white/10 !rounded-xl"
+          class="w-full text-xs sm:text-sm !bg-slate-50/90 dark:!bg-black/40 !border-slate-200 dark:!border-white/10 !rounded-xl"
         />
       </div>
 
