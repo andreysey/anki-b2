@@ -1,9 +1,17 @@
+export const THEMA_NUMBERS = {
+  VERBEN: 99,
+  PRAEPOSITIONEN: 98,
+  ADJEKTIVE: 97,
+  NOMEN_VERB: 96,
+  REDEMITTEL: 95,
+} as const;
+
 export const SPECIAL_THEMAS: Readonly<Record<number, string>> = {
-  99: 'Unregelmäßige Verben',
-  98: 'Verben mit Präpositionen',
-  97: 'Adjektive mit Präpositionen',
-  96: 'Nomen-Verb-Verbindungen',
-  95: 'Redemittel',
+  [THEMA_NUMBERS.VERBEN]: 'Unregelmäßige Verben',
+  [THEMA_NUMBERS.PRAEPOSITIONEN]: 'Verben mit Präpositionen',
+  [THEMA_NUMBERS.ADJEKTIVE]: 'Adjektive mit Präpositionen',
+  [THEMA_NUMBERS.NOMEN_VERB]: 'Nomen-Verb-Verbindungen',
+  [THEMA_NUMBERS.REDEMITTEL]: 'Redemittel',
 } as const;
 
 export const getThemaLabel = (thema: number): string => {

@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import { mount } from '@vue/test-utils';
 import DashboardView from './DashboardView.vue';
-import type { Word } from '../types';
+import type { Word, SRSState } from '../types';
 
 const mockVocabulary: Word[] = [
   {
@@ -19,7 +19,7 @@ const mockVocabulary: Word[] = [
     german: 'arbeiten',
     english: 'to work',
     ukrainian: 'працювати',
-    level: 'B2',
+    level: 'B1+',
     thema: 1,
     example: '',
     german_audio: '',
@@ -56,6 +56,26 @@ describe('DashboardView.vue', () => {
 
     expect(wrapper.text()).toContain('Unregelmäßige Verben');
     expect(wrapper.text()).toContain('Theme 1');
+  });
+
+  it('renders level breakdown and SRS pipeline correctly', () => {
+    const masteredIds = new Set<string>(['w1']);
+    const srsData: Record<string, SRSState> = {
+      w2: { level: 2, lastReview: Date.now() },
+    };
+
+    const wrapper = mount(DashboardView, {
+      props: {
+        vocabulary: mockVocabulary,
+        masteredIds,
+        srsData,
+      },
+    });
+
+    expect(wrapper.text()).toContain('Level B1+ Progress');
+    expect(wrapper.text()).toContain('Level B2 Progress');
+    expect(wrapper.text()).toContain('SRS Retention Pipeline');
+    expect(wrapper.text()).toContain('Learning (1-2)');
   });
 
   it('handles empty vocabulary without crashing', () => {

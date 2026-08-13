@@ -8,7 +8,9 @@ defineProps<{
   word: Word;
 }>();
 
-const emit = defineEmits(['toggle-mastered']);
+const emit = defineEmits<{
+  (e: 'toggle-mastered', word: Word): void;
+}>();
 </script>
 
 <template>

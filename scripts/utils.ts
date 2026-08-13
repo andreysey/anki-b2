@@ -2,6 +2,8 @@
  * utils.ts — port of Rust src/utils.rs + filename helpers
  */
 
+import { THEMA_NUMBERS } from '../src/constants/themas.js';
+
 // Regex equivalents of Rust's RE_PARENS, RE_PREFIX, RE_THEMA
 const RE_PARENS = /\s*\(.*?\)/g;
 const RE_PREFIX = /^(jdn\.|etw\.)\s+/;
@@ -12,6 +14,17 @@ const cleanGermanCache = new Map<string, string>();
 const cleanExampleCache = new Map<string, string>();
 const colorizeGenderCache = new Map<string, string>();
 const highlightWordCache = new Map<string, string>();
+const regexPatternCache = new Map<string, RegExp>();
+
+const getCompiledRegex = (patternStr: string, flags: string): RegExp => {
+  const key = `${patternStr}|||${flags}`;
+  let regex = regexPatternCache.get(key);
+  if (!regex) {
+    regex = new RegExp(patternStr, flags);
+    regexPatternCache.set(key, regex);
+  }
+  return regex;
+};
 
 /**
  * Port of Rust: clean_german_for_audio
@@ -147,7 +160,7 @@ export function highlightWordInExample(cleanGerman: string, example: string, ori
   for (const term of sortedTerms) {
     if (term.length < 3) continue;
     try {
-      const pattern = new RegExp(`${wb}(${escapeRegex(term)}[\\p{L}]*)${we}`, 'iu');
+      const pattern = getCompiledRegex(`${wb}(${escapeRegex(term)}[\\p{L}]*)${we}`, 'iu');
       if (pattern.test(highlightedExample)) {
         highlightedExample = highlightedExample.replace(
           pattern,
@@ -167,7 +180,7 @@ export function highlightWordInExample(cleanGerman: string, example: string, ori
     const prefix = mainWord.slice(0, 5);
     if (prefix.length >= 5) {
       try {
-        const prefixPattern = new RegExp(`${wb}(${escapeRegex(prefix)}[\\p{L}]*)${we}`, 'iu');
+        const prefixPattern = getCompiledRegex(`${wb}(${escapeRegex(prefix)}[\\p{L}]*)${we}`, 'iu');
         if (prefixPattern.test(highlightedExample)) {
           highlightedExample = highlightedExample.replace(
             prefixPattern,
@@ -186,7 +199,7 @@ export function highlightWordInExample(cleanGerman: string, example: string, ori
     const geTerms = sortedTerms.filter(t => /^ge/i.test(t) && t.length >= 5);
     for (const term of geTerms) {
       try {
-        const substringPattern = new RegExp(`([\\p{L}]*(${escapeRegex(term)}[\\p{L}]*))${we}`, 'iu');
+        const substringPattern = getCompiledRegex(`([\\p{L}]*(${escapeRegex(term)}[\\p{L}]*))${we}`, 'iu');
         if (substringPattern.test(highlightedExample)) {
           highlightedExample = highlightedExample.replace(
             substringPattern,
@@ -206,10 +219,11 @@ export function highlightWordInExample(cleanGerman: string, example: string, ori
     const longTerms = sortedTerms.filter(t => t.length >= 5);
     for (const term of longTerms) {
       try {
-        const substringPattern = new RegExp(`(${wb.slice(1, -1)}[\\p{L}]*(${escapeRegex(term)})[\\p{L}]*)${we}`, 'iu');
+        const substringPattern = getCompiledRegex(`(${wb.slice(1, -1)}[\\p{L}]*(${escapeRegex(term)})[\\p{L}]*)${we}`, 'iu');
         if (substringPattern.test(highlightedExample)) {
+          const replacePattern = getCompiledRegex(`${wb}([\\p{L}]*${escapeRegex(term)}[\\p{L}]*)${we}`, 'iu');
           highlightedExample = highlightedExample.replace(
-            new RegExp(`${wb}([\\p{L}]*${escapeRegex(term)}[\\p{L}]*)${we}`, 'iu'),
+            replacePattern,
             (_, p1, fullWord, p3) => `${p1}<b style="color: #eab308;">${fullWord}</b>${p3}`,
           );
           hasHighlighted = true;
@@ -227,20 +241,20 @@ export function highlightWordInExample(cleanGerman: string, example: string, ori
 
 /**
  * Port of Rust: get_num (builder.rs)
- * Extracts Thema number from filename.
+ * Extracts Thema number from filename using THEMA_NUMBERS constants.
  */
 export function getThemaNum(filename: string): number {
-  if (filename.includes('Redemittel')) return 95;
-  if (filename.includes('Nomen_Verb')) return 96;
-  if (filename.includes('Adjektive')) return 97;
-  if (filename.includes('Praepositionen')) return 98;
-  if (filename.includes('Verben')) return 99;
+  if (filename.includes('Redemittel')) return THEMA_NUMBERS.REDEMITTEL;
+  if (filename.includes('Nomen_Verb')) return THEMA_NUMBERS.NOMEN_VERB;
+  if (filename.includes('Adjektive')) return THEMA_NUMBERS.ADJEKTIVE;
+  if (filename.includes('Praepositionen')) return THEMA_NUMBERS.PRAEPOSITIONEN;
+  if (filename.includes('Verben')) return THEMA_NUMBERS.VERBEN;
   const m = RE_THEMA.exec(filename);
   return m ? parseInt(m[1], 10) : 0;
 }
 
 /**
- * New helper: detects the level from the source filename.
+ * Helper: detects the level from the source filename.
  * "B1_plus_ThemaX.txt" → "B1+"
  * "B2_ThemaX.txt"      → "B2"
  */

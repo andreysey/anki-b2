@@ -56,7 +56,7 @@ describe('App.vue', () => {
 
     expect(wrapper.text()).toContain('Anki B2');
     expect(wrapper.text()).toContain('Dashboard');
-    expect(wrapper.text()).toContain('List');
+    expect(wrapper.text()).toContain('Dictionary');
   });
 
   it('handles global keydown event in study mode for Space (flip)', async () => {

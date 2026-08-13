@@ -28,6 +28,12 @@ export function useSpeechSynthesis() {
     }
   };
 
+  const stopAudio = () => {
+    if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+      window.speechSynthesis.cancel();
+    }
+  };
+
   watch(selectedVoiceURI, (val) => {
     safeStorage.setItem(STORAGE_KEYS.TTS_VOICE, val);
   });
@@ -48,7 +54,13 @@ export function useSpeechSynthesis() {
     const cleaned = cleanTextForSpeech(text);
     if (!cleaned) return;
 
-    window.speechSynthesis.cancel();
+    // Guaranteed cancellation of any queued/interrupted utterances
+    stopAudio();
+
+    if (window.speechSynthesis.paused) {
+      window.speechSynthesis.resume();
+    }
+
     const utterance = new SpeechSynthesisUtterance(cleaned);
     utterance.lang = 'de-DE';
     utterance.rate = ttsRate.value;
@@ -65,6 +77,7 @@ export function useSpeechSynthesis() {
     ttsRate,
     loadVoices,
     initVoices,
-    playAudio
+    playAudio,
+    stopAudio
   };
 }

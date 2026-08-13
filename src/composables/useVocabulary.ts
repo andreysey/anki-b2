@@ -114,6 +114,13 @@ export function useVocabulary() {
     }
   };
 
+  const restoreProgress = (newMasteredIds: string[], newSrsData: Record<string, SRSState>) => {
+    masteredIds.value = new Set<string>(newMasteredIds);
+    srsData.value = { ...newSrsData };
+    safeStorage.setItem(STORAGE_KEYS.MASTERED_WORDS, Array.from(masteredIds.value));
+    saveSRS();
+  };
+
   const filteredVocabulary = computed(() => {
     const trimmedQuery = search.value.trim().toLowerCase();
 
@@ -250,6 +257,7 @@ export function useVocabulary() {
     prevCard,
     shuffleCards,
     toggleMastered,
+    restoreProgress,
     loadMore: () => { displayLimit.value += 50 },
     getItemKey
   };
