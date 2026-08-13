@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach, vi } from 'vitest';
-import { useVocabulary } from './useVocabulary';
+import { useVocabulary, getCardDueDate, SRS_INTERVALS_MS } from './useVocabulary';
 import type { Word } from '../types';
 
 const mockWords: Word[] = [
@@ -99,6 +99,30 @@ describe('useVocabulary composable', () => {
 
     const savedSRS = JSON.parse(localStorage.getItem('anki_srs_v2') || '{}');
     expect(savedSRS['1'].level).toBe(1);
+  });
+
+  it('calculates SRS card due date accurately according to Leitner intervals', () => {
+    const now = Date.now();
+    expect(getCardDueDate(undefined)).toBe(0);
+    expect(getCardDueDate({ level: 0, lastReview: now })).toBe(0);
+    expect(getCardDueDate({ level: 1, lastReview: now })).toBe(now + SRS_INTERVALS_MS[1]);
+    expect(getCardDueDate({ level: 3, lastReview: now })).toBe(now + SRS_INTERVALS_MS[3]);
+  });
+
+  it('prioritizes overdue cards over future cards in sortedStudyVocabulary', () => {
+    const vocab = useVocabulary();
+    vocab.vocabulary.value = mockWords;
+
+    const now = Date.now();
+    // Card 1: Level 2, reviewed 4 days ago (OVERDUE by 1 day)
+    // Card 2: Level 1, reviewed 1 hour ago (NOT DUE for 23 hours)
+    vocab.srsData.value = {
+      '1': { level: 2, lastReview: now - 4 * 24 * 60 * 60 * 1000 },
+      '2': { level: 1, lastReview: now - 1 * 60 * 60 * 1000 },
+    };
+
+    expect(vocab.studyList.value[0].id).toBe('1');
+    expect(vocab.studyList.value[1].id).toBe('2');
   });
 
   it('handles init fetch error gracefully', async () => {

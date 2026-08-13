@@ -51,6 +51,16 @@ export default defineConfig({
         globPatterns: ['**/*.{js,css,html,ico,png,svg,json}'],
         runtimeCaching: [
           {
+            urlPattern: ({ url }) => url.pathname.endsWith('data.json'),
+            handler: 'StaleWhileRevalidate',
+            options: {
+              cacheName: 'vocabulary-data-cache',
+              cacheableResponse: {
+                statuses: [0, 200]
+              }
+            }
+          },
+          {
              urlPattern: /^https:\/\/fonts\.googleapis\.com\/.*/i,
              handler: 'CacheFirst',
              options: {

@@ -7,6 +7,12 @@ const RE_PARENS = /\s*\(.*?\)/g;
 const RE_PREFIX = /^(jdn\.|etw\.)\s+/;
 const RE_THEMA = /Thema(\d+)/;
 
+// Module-level caches for fast repeated lookups across deck builds
+const cleanGermanCache = new Map<string, string>();
+const cleanExampleCache = new Map<string, string>();
+const colorizeGenderCache = new Map<string, string>();
+const highlightWordCache = new Map<string, string>();
+
 /**
  * Port of Rust: clean_german_for_audio
  * Strips parenthetical notes, takes first comma/slash alternative,
@@ -14,23 +20,33 @@ const RE_THEMA = /Thema(\d+)/;
  */
 export function cleanGermanForAudio(text: string): string {
   if (!text) return '';
+  const cached = cleanGermanCache.get(text);
+  if (cached !== undefined) return cached;
+
   let t = text.replace(RE_PARENS, '');
   t = t.split(',')[0];
   t = t.split('/')[0];
   t = t.replace(RE_PREFIX, '');
   t = t.replace(/[*_]/g, '');
-  return t.trim();
+  const result = t.trim();
+  cleanGermanCache.set(text, result);
+  return result;
 }
 
 export function cleanExampleForAudio(text: string): string {
   if (!text) return '';
-  return text
+  const cached = cleanExampleCache.get(text);
+  if (cached !== undefined) return cached;
+
+  const result = text
     .replace(/<[^>]*>/g, '')
     .replace(/[*_]/g, '')
     .replace(/\.{2,}/g, '.')
     .replace(/…/g, '.')
     .replace(/\s+/g, ' ')
     .trim();
+  cleanExampleCache.set(text, result);
+  return result;
 }
 
 /**
@@ -38,14 +54,20 @@ export function cleanExampleForAudio(text: string): string {
  * Wraps der/die/das article in a colored <span>.
  */
 export function colorizeGender(german: string): string {
+  if (!german) return '';
+  const cached = colorizeGenderCache.get(german);
+  if (cached !== undefined) return cached;
+
+  let result = german;
   if (german.startsWith('der ')) {
-    return `<span style="color: #00d2ff; font-weight: bold;">der</span>${german.slice(3)}`;
+    result = `<span style="color: #00d2ff; font-weight: bold;">der</span>${german.slice(3)}`;
   } else if (german.startsWith('die ')) {
-    return `<span style="color: #ef4444; font-weight: bold;">die</span>${german.slice(3)}`;
+    result = `<span style="color: #ef4444; font-weight: bold;">die</span>${german.slice(3)}`;
   } else if (german.startsWith('das ')) {
-    return `<span style="color: #22c55e; font-weight: bold;">das</span>${german.slice(3)}`;
+    result = `<span style="color: #22c55e; font-weight: bold;">das</span>${german.slice(3)}`;
   }
-  return german;
+  colorizeGenderCache.set(german, result);
+  return result;
 }
 
 /**
@@ -54,22 +76,20 @@ export function colorizeGender(german: string): string {
  */
 export function highlightWordInExample(cleanGerman: string, example: string, originalGerman?: string): string {
   if (!example) return '';
+  const cacheKey = `${cleanGerman}|||${example}|||${originalGerman ?? ''}`;
+  const cached = highlightWordCache.get(cacheKey);
+  if (cached !== undefined) return cached;
 
   const terms: string[] = [];
 
   // ── 1. Parse ALL conjugated forms from the ORIGINAL German (before parentheses were stripped).
-  //       This is critical for B2_Verben.txt entries like:
-  //       "schlafen (schläft, schlief, hat geschlafen)"  →  adds schläft, schlief, geschlafen
   if (originalGerman) {
     const parensMatch = originalGerman.match(/\((.*?)\)/);
     if (parensMatch && parensMatch[1]) {
       parensMatch[1].split(',').forEach(form => {
-        // First split by '/' to separate alternate forms like "ist/hat gefahren" or "bäckt/backt"
         form.split('/').forEach(part => {
           let f = part.trim();
-          // Remove auxiliary verbs "hat", "ist", "haben", "sind" at start
           f = f.replace(/^(hat|ist|haben|sind)\s+/i, '').trim();
-          // Remove separable-verb pipe characters
           f = f.replace(/\|/g, '');
           if (f.length > 2 && !f.startsWith('+') && !/^(hat|ist|haben|sind)$/i.test(f)) {
             terms.push(f);
@@ -79,25 +99,20 @@ export function highlightWordInExample(cleanGerman: string, example: string, ori
     }
   }
 
-  // ── 2. Add base terms from cleanGerman (parentheses already stripped, pipe removed)
+  // ── 2. Add base terms from cleanGerman
   const rawWords = cleanGerman.replace(/\(.*?\)/g, '').split(/\s+/);
   const skipList = new Set(['der', 'die', 'das', 'ein', 'eine', 'mit', 'auf', 'aus', 'von',
                             'bei', 'sich', 'jdn', 'etw', 'jdm', 'jds']);
 
   rawWords.forEach(w => {
-    // ── Handle pipe-separated separable verbs: "ein|stellen" → "einstellen" + "stellen"
     const pipeParts = w.split('|').map(p => p.replace(/\.$/, '').trim()).filter(p => p.length > 2);
-    // The full joined form (e.g. "einstellen")
     const cleaned = w.replace(/\|/g, '').replace(/\.$/, '').trim();
 
     if (cleaned.length > 2 && !skipList.has(cleaned.toLowerCase())) {
       terms.push(cleaned);
-      // For infinitives ending in '-en', also add the stem (without '-en')
-      // so regex can match conjugated forms: glauben→glaubt, achten→achtet, kommen→kommt
       if (cleaned.endsWith('en') && cleaned.length > 4) {
         terms.push(cleaned.slice(0, -2));
       }
-      // Hard-coded umlaut conjugation helpers for common patterns
       if (cleaned.endsWith('laden') && cleaned.length > 5) terms.push('lädt');
       if (cleaned.endsWith('tragen') && cleaned.length > 6) terms.push('trägt');
       if (cleaned.endsWith('gehen') && cleaned.length > 5) terms.push('geht', 'ging');
@@ -105,8 +120,6 @@ export function highlightWordInExample(cleanGerman: string, example: string, ori
       if (cleaned.endsWith('halten') && cleaned.length > 6) terms.push('hält', 'hielt');
     }
 
-    // Add each pipe part separately: "stellen" from "ein|stellen"
-    // This catches "einzustellen" via the "stell" stem match later
     if (pipeParts.length > 1) {
       pipeParts.forEach(part => {
         if (!skipList.has(part.toLowerCase())) {
@@ -117,15 +130,12 @@ export function highlightWordInExample(cleanGerman: string, example: string, ori
     }
   });
 
-  // ── 3. For long compound terms (≥8 chars), add the last 6-char segment as a stem.
-  //       e.g. "einstellen" → "tellen", "zusammenarbeiten" → "beiten"
-  //       These act as fallback anchors for suffix-match in separable constructions.
+  // ── 3. Compound terms
   const termsSnapshot = [...terms];
   termsSnapshot.forEach(t => {
     if (t.length >= 8) terms.push(t.slice(-6));
   });
 
-  // Sort longest first — prefer the most specific match
   const sortedTerms = [...new Set(terms)].sort((a, b) => b.length - a.length);
 
   const wb = `(^|[^\\p{L}\\p{N}])`;
@@ -137,7 +147,6 @@ export function highlightWordInExample(cleanGerman: string, example: string, ori
   for (const term of sortedTerms) {
     if (term.length < 3) continue;
     try {
-      // Match: term + any trailing letters (catches declined/conjugated suffixes)
       const pattern = new RegExp(`${wb}(${escapeRegex(term)}[\\p{L}]*)${we}`, 'iu');
       if (pattern.test(highlightedExample)) {
         highlightedExample = highlightedExample.replace(
@@ -152,7 +161,7 @@ export function highlightWordInExample(cleanGerman: string, example: string, ori
     }
   }
 
-  // ── 4. Fallback: 5-char prefix of the main word (was 4, increased for better precision)
+  // ── 4. Fallback: 5-char prefix of the main word
   if (!hasHighlighted) {
     const mainWord = rawWords[rawWords.length - 1]?.replace(/\|/g, '').replace(/\.$/, '') ?? '';
     const prefix = mainWord.slice(0, 5);
@@ -172,13 +181,11 @@ export function highlightWordInExample(cleanGerman: string, example: string, ori
     }
   }
 
-  // ── 5. Fallback for separable-verb Partizip II: "gefangen" inside "abgefangen".
-  //       Match ge-forms as a substring (no left word boundary required).
+  // ── 5. Fallback for separable-verb Partizip II
   if (!hasHighlighted) {
     const geTerms = sortedTerms.filter(t => /^ge/i.test(t) && t.length >= 5);
     for (const term of geTerms) {
       try {
-        // No left-boundary: allow prefix characters (ab|aus|zu|zurück|etc.)
         const substringPattern = new RegExp(`([\\p{L}]*(${escapeRegex(term)}[\\p{L}]*))${we}`, 'iu');
         if (substringPattern.test(highlightedExample)) {
           highlightedExample = highlightedExample.replace(
@@ -193,20 +200,15 @@ export function highlightWordInExample(cleanGerman: string, example: string, ori
       }
     }
   }
-  // ── 6. Fallback: general substring search for terms ≥5 chars inside compound words.
-  //       Catches noun roots: "Berater" inside "Rentenberater"
-  //       Catches separable verb suffixes: "stellen" inside "einzustellen"
-  //       Catches noun inflections: "Einkommen" inside "Nettoeinkommen"
+
+  // ── 6. Fallback: general substring search for terms ≥5 chars inside compound words
   if (!hasHighlighted) {
     const longTerms = sortedTerms.filter(t => t.length >= 5);
     for (const term of longTerms) {
       try {
-        // Match a word that CONTAINS this term anywhere (not just at start)
-        // The word must be longer than term (otherwise already caught by boundary match)
         const substringPattern = new RegExp(`(${wb.slice(1, -1)}[\\p{L}]*(${escapeRegex(term)})[\\p{L}]*)${we}`, 'iu');
         if (substringPattern.test(highlightedExample)) {
           highlightedExample = highlightedExample.replace(
-            // Find the full word containing the term
             new RegExp(`${wb}([\\p{L}]*${escapeRegex(term)}[\\p{L}]*)${we}`, 'iu'),
             (_, p1, fullWord, p3) => `${p1}<b style="color: #eab308;">${fullWord}</b>${p3}`,
           );
@@ -219,6 +221,7 @@ export function highlightWordInExample(cleanGerman: string, example: string, ori
     }
   }
 
+  highlightWordCache.set(cacheKey, highlightedExample);
   return highlightedExample;
 }
 

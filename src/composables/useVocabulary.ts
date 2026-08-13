@@ -3,6 +3,23 @@ import type { Word, SRSState, StudyDirection } from '../types';
 import { safeStorage } from '../utils/storage';
 import { STORAGE_KEYS } from '../constants/storage';
 
+export const SRS_INTERVALS_MS: Readonly<Record<number, number>> = {
+  0: 0,                           // Immediately due
+  1: 1 * 24 * 60 * 60 * 1000,    // 1 day
+  2: 3 * 24 * 60 * 60 * 1000,    // 3 days
+  3: 7 * 24 * 60 * 60 * 1000,    // 7 days
+  4: 14 * 24 * 60 * 60 * 1000,   // 14 days
+  5: 30 * 24 * 60 * 60 * 1000,   // 30 days
+};
+
+export const getCardDueDate = (srs?: SRSState): number => {
+  if (!srs || srs.level === 0 || !srs.lastReview) {
+    return 0; // New or reset cards are due immediately
+  }
+  const interval = SRS_INTERVALS_MS[srs.level] ?? SRS_INTERVALS_MS[5];
+  return srs.lastReview + interval;
+};
+
 const LEVEL_TRANSITIONS: Readonly<Record<'again' | 'hard' | 'good' | 'easy', (level: number) => number>> = {
   again: () => 0,
   hard: (level) => Math.max(0, level),
@@ -111,18 +128,39 @@ export function useVocabulary() {
     });
   });
 
-  // Base list of cards for study mode, sorted by SRS
+  // Base list of cards for study mode, sorted by SRS Due Date & Leitner Intervals
   const sortedStudyVocabulary = computed(() => {
     const list = [...filteredVocabulary.value];
+    const now = Date.now();
+
     list.sort((a, b) => {
       const keyA = getItemKey(a);
       const keyB = getItemKey(b);
-      const srsA = srsData.value[keyA] || { level: 0, lastReview: 0 };
-      const srsB = srsData.value[keyB] || { level: 0, lastReview: 0 };
-      
-      if (srsA.level !== srsB.level) return srsA.level - srsB.level;
-      return srsA.lastReview - srsB.lastReview;
+      const srsA = srsData.value[keyA];
+      const srsB = srsData.value[keyB];
+
+      const dueA = getCardDueDate(srsA);
+      const dueB = getCardDueDate(srsB);
+
+      const isDueA = dueA <= now;
+      const isDueB = dueB <= now;
+
+      // 1. Prioritize cards that are due for review now
+      if (isDueA && !isDueB) return -1;
+      if (!isDueA && isDueB) return 1;
+
+      // 2. If both are due (or both not due), sort by level and then due date
+      if (isDueA && isDueB) {
+        const levelA = srsA?.level ?? 0;
+        const levelB = srsB?.level ?? 0;
+        if (levelA !== levelB) return levelA - levelB;
+        return dueA - dueB;
+      }
+
+      // 3. Future cards: earliest due date first
+      return dueA - dueB;
     });
+
     return list;
   });
 
