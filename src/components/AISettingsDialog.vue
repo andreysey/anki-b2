@@ -26,35 +26,35 @@ const handleSave = () => {
     :blockScroll="false"
     :dismissableMask="true"
     header="AI Assistant Setup" 
-    :style="{ width: '90vw', maxWidth: '400px' }"
+    :style="{ width: '90vw', maxWidth: '420px' }"
   >
-    <div class="space-y-4 pt-2">
-      <p class="text-sm text-surface-400 leading-normal">
-        This feature supports local on-device inference via Google Chrome or a secure cloud connection to the Gemini API.
+    <div class="space-y-4 pt-1">
+      <p class="text-xs text-surface-400 leading-relaxed">
+        Configure on-device inference via Google Chrome or a secure cloud connection to the Gemini API.
       </p>
 
       <div class="flex flex-col gap-2">
-        <label for="apiKeyInput" class="text-xs font-bold uppercase tracking-wider text-surface-300">Gemini API Key</label>
+        <label for="apiKeyInput" class="text-[11px] font-bold uppercase tracking-wider text-surface-300">Gemini Cloud API Key</label>
         <div class="flex gap-2">
           <InputText 
             id="apiKeyInput" 
             v-model="localKey" 
             placeholder="Paste AI Studio API Key..." 
-            class="flex-1" 
+            class="flex-1 !rounded-xl text-xs !bg-surface-950/60 dark:!bg-black/40 !border-surface-800 dark:!border-white/15" 
             type="password"
           />
-          <Button label="Save" severity="primary" @click="handleSave" />
+          <Button label="Save" severity="primary" size="small" @click="handleSave" class="!rounded-xl text-xs font-semibold px-4 active:scale-95" />
         </div>
         <span class="text-[10px] text-surface-500">
-          Keys are saved strictly on your device inside LocalStorage. Get a free API Key on 
-          <a href="https://aistudio.google.com/" target="_blank" class="text-primary underline">Google AI Studio</a>.
+          Keys are stored locally in your browser. Get a free key on 
+          <a href="https://aistudio.google.com/" target="_blank" class="text-primary-400 underline hover:text-primary-300">Google AI Studio</a>.
         </span>
       </div>
 
-      <div class="border-t border-surface-800 pt-3 mt-4 space-y-2">
-        <div class="text-xs font-bold uppercase tracking-wider text-surface-300">Using Chrome window.ai</div>
+      <div class="border-t border-surface-800/80 dark:border-white/10 pt-3 mt-3 space-y-1.5">
+        <div class="text-[11px] font-bold uppercase tracking-wider text-surface-300">On-Device Gemini Nano</div>
         <div class="text-[11px] text-surface-500 leading-relaxed">
-          Ensure you run Chrome 148+ with local Gemini Nano active. Alternatively, enable experimental Prompt API flags via <code class="bg-surface-900 px-1 py-0.5 rounded text-surface-300 font-mono">chrome://flags</code>.
+          Ensure you run Chrome 148+ with local Gemini Nano active or enable Prompt API flags in <code class="bg-surface-900 dark:bg-white/10 px-1.5 py-0.5 rounded text-surface-300 font-mono text-[10px]">chrome://flags</code>.
         </div>
       </div>
     </div>

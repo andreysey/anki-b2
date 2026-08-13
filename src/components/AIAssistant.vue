@@ -75,27 +75,27 @@ const handleGenerateDialogue = async () => {
 </script>
 
 <template>
-  <div class="mt-4 border-t border-surface-800 pt-4 w-full">
+  <div class="mt-4 border-t border-surface-800/60 dark:border-white/10 pt-4 w-full">
     <!-- Header status and settings button -->
     <div class="flex items-center justify-between mb-3">
       <div class="flex items-center gap-2">
-        <span class="text-xs font-semibold text-surface-400">AI Assistance:</span>
+        <span class="text-[11px] font-bold text-surface-400 uppercase tracking-wider">AI Coach</span>
         <span 
           v-if="hasNano" 
-          class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded text-[10px] font-bold bg-green-500/10 text-green-400 border border-green-500/20"
+          class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-emerald-500/15 text-emerald-400 border border-emerald-500/25"
         >
-          <span class="w-1 h-1 rounded-full bg-green-400 animate-pulse"></span>
-          Gemini Nano (Local)
+          <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+          Gemini Nano
         </span>
         <span 
           v-else-if="hasCloudKey" 
-          class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded text-[10px] font-bold bg-blue-500/10 text-blue-400 border border-blue-500/20"
+          class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-blue-500/15 text-blue-400 border border-blue-500/25"
         >
           Gemini Cloud (Active)
         </span>
         <span 
           v-else 
-          class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded text-[10px] font-bold bg-yellow-500/10 text-yellow-400 border border-yellow-500/20"
+          class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-500/15 text-amber-400 border border-amber-500/25"
         >
           Setup Required
         </span>
@@ -103,15 +103,17 @@ const handleGenerateDialogue = async () => {
       <Button 
         icon="pi pi-cog" 
         severity="secondary" 
+        rounded
         text 
         size="small" 
         @click.stop="openSettings" 
         title="AI Settings"
+        class="hover:bg-white/10 active:scale-95 transition-all w-7 h-7"
       />
     </div>
 
-    <!-- AI Actions -->
-    <div class="flex gap-2 mb-4 justify-center">
+    <!-- AI Action Pills -->
+    <div class="flex gap-2.5 mb-3 justify-center">
       <Button 
         label="Grammar Breakdown" 
         icon="pi pi-compass" 
@@ -120,6 +122,7 @@ const handleGenerateDialogue = async () => {
         outlined
         @click.stop="handleExplainGrammar"
         :disabled="isLoading || (!hasNano && !hasCloudKey)"
+        class="!rounded-xl text-xs active:scale-95 transition-all !py-1.5"
       />
       <Button 
         label="Workplace Dialogue" 
@@ -129,30 +132,31 @@ const handleGenerateDialogue = async () => {
         outlined
         @click.stop="handleGenerateDialogue"
         :disabled="isLoading || (!hasNano && !hasCloudKey)"
+        class="!rounded-xl text-xs active:scale-95 transition-all !py-1.5"
       />
     </div>
 
-    <!-- Instructions when AI is not ready -->
-    <div v-if="!hasNano && !hasCloudKey" class="p-3 bg-surface-900/60 border border-surface-800 rounded-xl text-xs text-surface-400 text-center">
-      To use AI features, click the gear icon to configure your free <strong>Gemini Cloud API Key</strong>, or use Google Chrome with <strong>window.ai</strong> enabled.
+    <!-- Setup Prompt when AI is unconfigured -->
+    <div v-if="!hasNano && !hasCloudKey" class="p-3 bg-surface-900/40 dark:bg-white/5 border border-surface-800/80 dark:border-white/10 rounded-xl text-xs text-surface-400 text-center leading-relaxed">
+      Click the gear icon to configure your free <strong>Gemini Cloud API Key</strong>, or use Google Chrome with <strong>window.ai</strong> enabled.
     </div>
 
-    <!-- AI Output Box -->
+    <!-- AI Output Card with Apple Intelligence Glow -->
     <div 
       v-if="isLoading || resultText" 
       role="status"
       aria-live="polite"
-      class="relative mt-2 p-4 rounded-2xl shadow-inner text-left max-h-[220px] overflow-hidden flex flex-col transition-colors border"
-      :class="isError ? 'bg-red-950/40 border-red-500/50 text-red-200' : 'bg-surface-950/80 border-surface-800/80 text-surface-200'"
+      class="relative mt-2 p-3.5 rounded-2xl text-left max-h-[220px] overflow-hidden flex flex-col transition-all border shadow-inner"
+      :class="isError ? 'bg-red-950/40 border-red-500/40 text-red-200' : 'bg-surface-950/80 dark:bg-black/50 border-surface-800/80 dark:border-white/10 text-surface-200'"
     >
       <!-- Loading indicator -->
-      <div v-if="isLoading" class="flex flex-col items-center justify-center py-6 gap-3 flex-1">
-        <i class="pi pi-spin pi-sparkles text-xl text-primary"></i>
-        <span class="text-xs text-surface-400 font-medium">Gemini is formulating explanation...</span>
+      <div v-if="isLoading" class="flex flex-col items-center justify-center py-6 gap-2.5 flex-1">
+        <i class="pi pi-spin pi-sparkles text-lg text-primary-400 animate-pulse"></i>
+        <span class="text-xs text-surface-400 font-medium">Apple Intelligence analyzing context...</span>
       </div>
       <!-- Output Text -->
-      <ScrollPanel v-else class="h-[180px] text-xs sm:text-sm leading-relaxed font-sans pr-2">
-        <div class="whitespace-pre-wrap select-text font-normal" v-html="sanitizeHtml(resultText)"></div>
+      <ScrollPanel v-else class="h-[170px] text-xs leading-relaxed font-sans pr-1">
+        <div class="whitespace-pre-wrap select-text font-normal text-surface-200" v-html="sanitizeHtml(resultText)"></div>
       </ScrollPanel>
       <div v-if="!isLoading && resultSource !== 'none'" class="mt-2 text-[9px] text-surface-500 text-right uppercase tracking-wider font-semibold">
         Generated via {{ resultSource === 'nano' ? 'Local Gemini Nano' : 'Google Cloud API' }}

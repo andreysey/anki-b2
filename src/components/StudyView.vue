@@ -31,38 +31,52 @@ const emit = defineEmits<{
 </script>
 
 <template>
-  <div class="flex flex-col items-center self-center gap-8 max-w-[650px] w-full px-2 sm:px-0">
-    <!-- Controls -->
-    <div class="flex justify-center gap-4 flex-wrap sm:flex-nowrap">
-      <SelectButton 
-        :modelValue="studyDirection" 
-        @update:modelValue="emit('update:studyDirection', $event)"
-        :options="directionOptions" 
-        optionLabel="label" 
-        optionValue="value" 
-        :allowEmpty="false"
-      />
-      <SelectButton 
-        :modelValue="isAutoplay" 
-        @update:modelValue="emit('update:isAutoplay', $event)"
-        :options="audioOptions" 
-        optionLabel="label" 
-        optionValue="value" 
-        :allowEmpty="false"
-      />
+  <div class="flex flex-col items-center self-center gap-6 max-w-[620px] w-full px-2 sm:px-0 animate-in fade-in duration-500">
+    <!-- macOS Style Top Study Controls -->
+    <div class="flex justify-between items-center w-full gap-3 flex-wrap sm:flex-nowrap">
+      <div class="flex items-center gap-2">
+        <SelectButton 
+          :modelValue="studyDirection" 
+          @update:modelValue="emit('update:studyDirection', $event)"
+          :options="directionOptions" 
+          optionLabel="label" 
+          optionValue="value" 
+          :allowEmpty="false"
+          class="!rounded-xl text-xs"
+        />
+        <SelectButton 
+          :modelValue="isAutoplay" 
+          @update:modelValue="emit('update:isAutoplay', $event)"
+          :options="audioOptions" 
+          optionLabel="label" 
+          optionValue="value" 
+          :allowEmpty="false"
+          class="!rounded-xl text-xs"
+        />
+      </div>
+
       <Button 
         label="Shuffle"
         icon="pi pi-random"
+        size="small"
         :severity="isShuffled ? 'primary' : 'secondary'"
+        outlined
         @click="emit('shuffle')"
+        class="!rounded-xl active:scale-95 transition-all text-xs"
       />
     </div>
 
-    <!-- Progress -->
-    <ProgressBar :value="studyProgress" class="h-2 mb-2 w-full" />
+    <!-- macOS Slim Progress Meter -->
+    <div class="w-full space-y-1.5">
+      <div class="flex justify-between text-[11px] font-semibold text-surface-400">
+        <span>Session Progress</span>
+        <span>{{ currentStudyIndex + 1 }} of {{ vocabulary.length }}</span>
+      </div>
+      <ProgressBar :value="studyProgress" class="!h-1.5 !rounded-full" />
+    </div>
 
-    <!-- Card -->
-    <div class="w-full flex justify-center">
+    <!-- Centered Tactile Vocabulary Card -->
+    <div class="w-full flex justify-center py-2">
       <VocabularyCard 
         v-if="vocabulary.length > 0"
         :word="vocabulary[currentStudyIndex]"
@@ -74,33 +88,76 @@ const emit = defineEmits<{
       />
     </div>
 
-    <!-- SRS Buttons -->
-    <div v-if="isFlipped" class="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-2 w-full">
-      <Button label="AGAIN (1)" severity="danger" @click="emit('update-srs', 'again')" />
-      <Button label="HARD (2)" severity="warning" @click="emit('update-srs', 'hard')" />
-      <Button label="GOOD (3)" severity="success" @click="emit('update-srs', 'good')" />
-      <Button label="EASY (4)" severity="info" @click="emit('update-srs', 'easy')" />
+    <!-- macOS Floating Action Island (SRS Grading HUD) -->
+    <div 
+      v-if="isFlipped" 
+      class="macos-floating-hud p-3 w-full grid grid-cols-2 sm:grid-cols-4 gap-3 animate-in fade-in slide-in-from-bottom-3 duration-300 shadow-2xl"
+    >
+      <button 
+        @click="emit('update-srs', 'again')" 
+        class="flex flex-col items-center justify-center py-2.5 px-3 rounded-xl bg-red-500/15 hover:bg-red-500/25 active:scale-95 border border-red-500/30 text-red-400 font-bold transition-all group"
+      >
+        <span class="text-xs tracking-wide">AGAIN (1)</span>
+        <span class="text-[10px] opacity-70 font-mono mt-0.5">Key 1</span>
+      </button>
+
+      <button 
+        @click="emit('update-srs', 'hard')" 
+        class="flex flex-col items-center justify-center py-2.5 px-3 rounded-xl bg-amber-500/15 hover:bg-amber-500/25 active:scale-95 border border-amber-500/30 text-amber-400 font-bold transition-all group"
+      >
+        <span class="text-xs tracking-wide">HARD (2)</span>
+        <span class="text-[10px] opacity-70 font-mono mt-0.5">Key 2</span>
+      </button>
+
+      <button 
+        @click="emit('update-srs', 'good')" 
+        class="flex flex-col items-center justify-center py-2.5 px-3 rounded-xl bg-emerald-500/15 hover:bg-emerald-500/25 active:scale-95 border border-emerald-500/30 text-emerald-400 font-bold transition-all group"
+      >
+        <span class="text-xs tracking-wide">GOOD (3)</span>
+        <span class="text-[10px] opacity-70 font-mono mt-0.5">Key 3</span>
+      </button>
+
+      <button 
+        @click="emit('update-srs', 'easy')" 
+        class="flex flex-col items-center justify-center py-2.5 px-3 rounded-xl bg-blue-500/15 hover:bg-blue-500/25 active:scale-95 border border-blue-500/30 text-blue-400 font-bold transition-all group"
+      >
+        <span class="text-xs tracking-wide">EASY (4)</span>
+        <span class="text-[10px] opacity-70 font-mono mt-0.5">Key 4</span>
+      </button>
     </div>
     
-    <!-- Navigation -->
-    <div class="flex items-center gap-4 mt-6 w-full">
-      <Button icon="pi pi-chevron-left" severity="secondary" @click="emit('prev')" />
-      <div class="flex-1 text-center font-bold text-xl bg-surface-900 px-6 py-3 rounded-xl border border-surface-800 flex flex-col justify-center items-center">
+    <!-- Navigation Bar -->
+    <div class="flex items-center gap-3 w-full">
+      <Button 
+        icon="pi pi-chevron-left" 
+        severity="secondary" 
+        rounded 
+        outlined
+        @click="emit('prev')" 
+        class="hover:bg-white/10 active:scale-95"
+        title="Previous Card (Left Arrow)"
+      />
+      <div class="flex-1 text-center py-2.5 px-4 rounded-xl bg-surface-900/50 dark:bg-white/5 border border-surface-800/80 dark:border-white/10 flex flex-col items-center justify-center gap-1 text-xs font-semibold text-surface-300">
         <div>{{ currentStudyIndex + 1 }} / {{ vocabulary.length }}</div>
-        <div class="text-sm text-surface-400 font-normal mt-1 hidden sm:block">Space to flip &bull; Arrows to navigate</div>
+        <div class="text-[11px] text-surface-400 font-normal hidden sm:block">Space to flip &bull; Arrows to navigate</div>
       </div>
-      <Button icon="pi pi-chevron-right" severity="secondary" @click="emit('next')" />
+      <Button 
+        icon="pi pi-chevron-right" 
+        severity="secondary" 
+        rounded 
+        outlined
+        @click="emit('next')" 
+        class="hover:bg-white/10 active:scale-95"
+        title="Next Card (Right Arrow)"
+      />
     </div>
 
-    <!-- Shortcuts Legend -->
-    <div class="bg-surface-900/50 border border-surface-800 rounded-2xl p-4 text-center mt-2 w-full">
-      <div class="text-xs font-bold uppercase tracking-wider text-surface-400 mb-3 font-semibold">Keyboard Shortcuts</div>
-      <div class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm text-surface-300">
-        <div><kbd class="px-2 py-1 bg-surface-800 rounded text-xs border border-surface-700 font-mono">Space</kbd> Flip</div>
-        <div><kbd class="px-2 py-1 bg-surface-800 rounded text-xs border border-surface-700 font-mono">&larr;</kbd> / <kbd class="px-2 py-1 bg-surface-800 rounded text-xs border border-surface-700 font-mono">&rarr;</kbd> Prev/Next</div>
-        <div><kbd class="px-2 py-1 bg-surface-800 rounded text-xs border border-surface-700 font-mono">M</kbd> Mastered</div>
-        <div v-if="isFlipped"><kbd class="px-2 py-1 bg-surface-800 rounded text-xs border border-surface-700 font-mono">1</kbd>-<kbd class="px-2 py-1 bg-surface-800 rounded text-xs border border-surface-700 font-mono">4</kbd> Grade</div>
-      </div>
+    <!-- macOS Tactile Keyboard Shortcuts Strip -->
+    <div class="flex flex-wrap items-center justify-center gap-x-5 gap-y-2 py-2 px-4 rounded-xl bg-surface-950/40 dark:bg-black/20 border border-surface-800/60 dark:border-white/5 text-[11px] text-surface-400 w-full">
+      <div class="flex items-center gap-1.5"><kbd class="macos-kbd">␣</kbd> <span>Space to flip</span></div>
+      <div class="flex items-center gap-1.5"><kbd class="macos-kbd">&larr;</kbd> <kbd class="macos-kbd">&rarr;</kbd> <span>Prev / Next</span></div>
+      <div class="flex items-center gap-1.5"><kbd class="macos-kbd">M</kbd> <span>Master</span></div>
+      <div v-if="isFlipped" class="flex items-center gap-1.5"><kbd class="macos-kbd">1</kbd>-<kbd class="macos-kbd">4</kbd> <span>Grade</span></div>
     </div>
   </div>
 </template>

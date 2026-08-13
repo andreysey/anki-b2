@@ -1,9 +1,23 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @import "./base.css";
 
+html:not(.dark) {
+  color-scheme: light;
+  color: #0f172a;
+}
+
+html.dark {
+  color-scheme: dark;
+  color: #f8fafc;
+}
+
+/* macOS Custom Scrollbar */
 .custom-scrollbar::-webkit-scrollbar {
-  width: 5px;
+  width: 6px;
+  height: 6px;
 }
 
 .custom-scrollbar::-webkit-scrollbar-track {
@@ -11,37 +25,168 @@
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 10px;
+  background: rgba(140, 140, 150, 0.25);
+  border-radius: 9999px;
+  border: 1.5px solid transparent;
+  background-clip: padding-box;
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(140, 140, 150, 0.45);
 }
 
-/* Expressive card borders & shadows for Light and Dark themes */
-.p-card {
-  border: 1px solid var(--p-surface-200);
-  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.08), 0 8px 10px -6px rgba(0, 0, 0, 0.05) !important;
-  transition: border-color 0.3s ease, box-shadow 0.3s ease !important;
+/* macOS Sequoia Ambient Wallpaper & Window System */
+.macos-desktop-bg {
+  background: radial-gradient(circle at 15% 15%, rgba(59, 130, 246, 0.25) 0%, transparent 40%),
+              radial-gradient(circle at 85% 20%, rgba(168, 85, 247, 0.20) 0%, transparent 45%),
+              radial-gradient(circle at 50% 85%, rgba(14, 165, 233, 0.18) 0%, transparent 50%),
+              radial-gradient(circle at 75% 75%, rgba(236, 72, 153, 0.15) 0%, transparent 40%),
+              #070a10;
 }
 
-.p-card:hover {
-  border-color: var(--p-primary-500);
-  box-shadow: 0 20px 30px -10px rgba(0, 0, 0, 0.15) !important;
+html:not(.dark) .macos-desktop-bg {
+  background: radial-gradient(circle at 15% 15%, rgba(59, 130, 246, 0.18) 0%, transparent 45%),
+              radial-gradient(circle at 85% 20%, rgba(168, 85, 247, 0.15) 0%, transparent 50%),
+              radial-gradient(circle at 50% 85%, rgba(14, 165, 233, 0.12) 0%, transparent 50%),
+              radial-gradient(circle at 75% 75%, rgba(244, 114, 182, 0.12) 0%, transparent 40%),
+              #cbd5e1;
 }
 
-html.dark .p-card {
+/* macOS Frosted Acrylic Window Chrome */
+.macos-window {
+  background: rgba(18, 24, 34, 0.84);
+  backdrop-filter: blur(40px) saturate(200%);
+  -webkit-backdrop-filter: blur(40px) saturate(200%);
   border: 1px solid rgba(255, 255, 255, 0.12);
-  box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.5), 0 0 15px 0 rgba(255, 255, 255, 0.02) !important;
+  box-shadow: 0 30px 80px -15px rgba(0, 0, 0, 0.8),
+              0 0 0 1px rgba(255, 255, 255, 0.08) inset,
+              0 1px 0 0 rgba(255, 255, 255, 0.2) inset;
 }
 
-html.dark .p-card:hover {
-  border-color: rgba(255, 255, 255, 0.25);
-  box-shadow: 0 20px 35px -5px rgba(0, 0, 0, 0.7), 0 0 20px 0 rgba(59, 130, 246, 0.15) !important;
+html:not(.dark) .macos-window {
+  background: rgba(241, 245, 249, 0.92);
+  backdrop-filter: blur(40px) saturate(200%);
+  -webkit-backdrop-filter: blur(40px) saturate(200%);
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  box-shadow: 0 25px 70px -12px rgba(0, 0, 0, 0.18),
+              0 0 0 1px rgba(255, 255, 255, 0.9) inset,
+              0 1px 0 0 rgba(255, 255, 255, 1) inset;
 }
 
-/* Ensure 3D Card flip backface is hidden cleanly across all browsers without compositor vanishing glitch */
+/* macOS Window Titlebar */
+.macos-titlebar {
+  background: rgba(255, 255, 255, 0.04);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+html:not(.dark) .macos-titlebar {
+  background: rgba(255, 255, 255, 0.7);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+/* macOS Traffic Light Buttons */
+.macos-traffic-btn {
+  width: 12px;
+  height: 12px;
+  border-radius: 9999px;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.15s ease, filter 0.15s ease;
+}
+
+.macos-traffic-btn:hover {
+  filter: brightness(0.92);
+}
+
+.macos-traffic-close {
+  background: #ff5f57;
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 2px rgba(255, 95, 87, 0.35);
+}
+
+.macos-traffic-minimize {
+  background: #febc2e;
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 2px rgba(254, 188, 46, 0.35);
+}
+
+.macos-traffic-fullscreen {
+  background: #28c840;
+  border: 0.5px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 2px rgba(40, 200, 64, 0.35);
+}
+
+/* macOS Segmented Control (Pill Switcher) */
+.macos-segmented-bar {
+  background: rgba(0, 0, 0, 0.28);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.35);
+  border-radius: 12px;
+  padding: 3px;
+}
+
+html:not(.dark) .macos-segmented-bar {
+  background: rgba(0, 0, 0, 0.07);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.macos-segmented-item-active {
+  background: rgba(255, 255, 255, 0.16) !important;
+  color: #ffffff !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35), 0 0 0 1px rgba(255, 255, 255, 0.18) inset !important;
+  border-radius: 9px !important;
+}
+
+html:not(.dark) .macos-segmented-item-active {
+  background: #ffffff !important;
+  color: #0f172a !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12), 0 0 0 1px rgba(0, 0, 0, 0.06) !important;
+}
+
+/* macOS Cards & Glass Widgets */
+.p-card, .macos-card {
+  background: rgba(26, 32, 44, 0.7) !important;
+  backdrop-filter: blur(24px) saturate(180%) !important;
+  -webkit-backdrop-filter: blur(24px) saturate(180%) !important;
+  border: 1px solid rgba(255, 255, 255, 0.10) !important;
+  border-radius: 24px !important;
+  box-shadow: 0 12px 32px -4px rgba(0, 0, 0, 0.45),
+              0 1px 0 0 rgba(255, 255, 255, 0.12) inset !important;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease !important;
+}
+
+.p-card-header {
+  padding: 1.25rem 1.5rem 0.25rem 1.5rem !important;
+}
+
+.p-card-body {
+  padding: 0.5rem 1.5rem 1.25rem 1.5rem !important;
+}
+
+.p-card:hover, .macos-card:hover {
+  border-color: rgba(255, 255, 255, 0.22) !important;
+  box-shadow: 0 20px 40px -8px rgba(0, 0, 0, 0.55),
+              0 1px 0 0 rgba(255, 255, 255, 0.20) inset !important;
+}
+
+html:not(.dark) .p-card, html:not(.dark) .macos-card {
+  background: #ffffff !important;
+  border: 1px solid rgba(0, 0, 0, 0.10) !important;
+  box-shadow: 0 8px 24px -4px rgba(0, 0, 0, 0.06),
+              0 1px 0 0 rgba(255, 255, 255, 0.9) inset !important;
+}
+
+html:not(.dark) .p-card:hover, html:not(.dark) .macos-card:hover {
+  border-color: rgba(0, 0, 0, 0.18) !important;
+  box-shadow: 0 16px 32px -6px rgba(0, 0, 0, 0.10),
+              0 1px 0 0 rgba(255, 255, 255, 1) inset !important;
+}
+
+/* 3D Card Flipping Rules */
 .card-face {
   -webkit-backface-visibility: hidden !important;
   backface-visibility: hidden !important;
@@ -56,14 +201,42 @@ html.dark .p-card:hover {
   transform: rotateY(180deg);
 }
 
-/* Semantic Gender Article Colors with Light/Dark adaptiveness */
+/* macOS Tactile Keyboard Shortcut Badges */
+kbd.macos-kbd {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 22px;
+  height: 22px;
+  padding: 0 6px;
+  font-family: var(--macos-font);
+  font-size: 11px;
+  font-weight: 600;
+  color: #cbd5e1;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.14) 0%, rgba(255, 255, 255, 0.04) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.24);
+  border-radius: 6px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  user-select: none;
+}
+
+html:not(.dark) kbd.macos-kbd {
+  color: #1e293b;
+  background: linear-gradient(180deg, #ffffff 0%, #f1f5f9 100%);
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.24);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
+}
+
+/* Semantic Gender Article Badges & Colors (Apple System Palette) */
 .article-der {
   color: #0284c7;
   font-weight: 700;
 }
 
 .article-die {
-  color: #dc2626;
+  color: #e11d48;
   font-weight: 700;
 }
 
@@ -82,4 +255,64 @@ html.dark .article-die {
 
 html.dark .article-das {
   color: #4ade80;
+}
+
+/* macOS Floating HUD / Action Island */
+.macos-floating-hud {
+  background: rgba(22, 28, 38, 0.88);
+  backdrop-filter: blur(30px) saturate(190%);
+  -webkit-backdrop-filter: blur(30px) saturate(190%);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  box-shadow: 0 20px 50px -10px rgba(0, 0, 0, 0.65),
+              0 1px 0 0 rgba(255, 255, 255, 0.15) inset;
+  border-radius: 20px;
+}
+
+html:not(.dark) .macos-floating-hud {
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  box-shadow: 0 15px 40px -8px rgba(0, 0, 0, 0.15),
+              0 1px 0 0 rgba(255, 255, 255, 0.95) inset;
+}
+
+/* PrimeVue Overrides for macOS Precision */
+.p-button {
+  font-family: var(--macos-font) !important;
+  font-weight: 600 !important;
+  border-radius: 10px !important;
+  transition: var(--transition-smooth) !important;
+}
+
+.p-button:active {
+  transform: scale(0.97) !important;
+}
+
+.p-select, .p-inputtext {
+  border-radius: 10px !important;
+  font-family: var(--macos-font) !important;
+}
+
+.p-progressbar {
+  border-radius: 9999px !important;
+  background: rgba(0, 0, 0, 0.18) !important;
+}
+
+html:not(.dark) .p-progressbar {
+  background: rgba(0, 0, 0, 0.08) !important;
+}
+
+.p-dialog {
+  border-radius: 24px !important;
+  overflow: hidden !important;
+  background: rgba(26, 32, 44, 0.92) !important;
+  backdrop-filter: blur(40px) saturate(190%) !important;
+  -webkit-backdrop-filter: blur(40px) saturate(190%) !important;
+  border: 1px solid rgba(255, 255, 255, 0.14) !important;
+  box-shadow: 0 35px 80px -15px rgba(0, 0, 0, 0.8) !important;
+}
+
+html:not(.dark) .p-dialog {
+  background: rgba(255, 255, 255, 0.94) !important;
+  border: 1px solid rgba(0, 0, 0, 0.14) !important;
+  box-shadow: 0 25px 70px -15px rgba(0, 0, 0, 0.22) !important;
 }

@@ -58,7 +58,6 @@ const handleFileImport = (event: Event) => {
     }
   };
   reader.readAsText(file);
-  // Reset input so the same file can be re-selected if needed
   target.value = '';
 };
 
@@ -158,75 +157,104 @@ const totalPercentage = computed(() => {
 </script>
 
 <template>
-  <div class="space-y-8 animate-in fade-in duration-500">
-    <!-- Overall stats summary banner -->
-    <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
-      <div class="bg-surface-900 border border-surface-800 rounded-2xl p-6 text-center shadow-lg">
-        <div class="text-sm font-semibold uppercase tracking-wider text-surface-400 mb-2">Total Vocabulary</div>
-        <div class="text-4xl font-extrabold text-surface-900 dark:text-white">{{ totalWords }}</div>
+  <div class="space-y-6 pt-2 animate-in fade-in duration-500">
+    <!-- macOS Dashboard Header Title -->
+    <div class="flex items-center justify-between pb-3 border-b border-slate-200 dark:border-white/10">
+      <div>
+        <h2 class="text-xl font-bold text-slate-900 dark:text-white tracking-tight">Activity & Analytics</h2>
+        <p class="text-xs text-slate-500 dark:text-slate-400">Mastery telemetry and spaced repetition retention metrics</p>
       </div>
-      <div class="bg-surface-900 border border-surface-800 rounded-2xl p-6 text-center shadow-lg">
-        <div class="text-sm font-semibold uppercase tracking-wider text-surface-400 mb-2">Words Mastered</div>
-        <div class="text-4xl font-extrabold text-success-500">{{ totalMastered }}</div>
-      </div>
-      <div class="bg-surface-900 border border-surface-800 rounded-2xl p-6 text-center shadow-lg">
-        <div class="text-sm font-semibold uppercase tracking-wider text-surface-400 mb-2">Overall Progress</div>
-        <div class="text-4xl font-extrabold text-primary-500">{{ totalPercentage }}%</div>
+      <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-primary-500/10 text-primary-500 dark:text-primary-400 border border-primary-500/20 shadow-xs">
+        <i class="pi pi-chart-line text-xs"></i>
+        <span>Live Progress</span>
       </div>
     </div>
 
-    <!-- Level Progress Breakdown -->
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <!-- macOS Widget Summary Grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-5">
+      <div class="p-5 rounded-2xl bg-white/90 dark:bg-white/5 border border-slate-200/80 dark:border-white/10 backdrop-blur-xl shadow-md">
+        <div class="flex items-center justify-between mb-2.5">
+          <span class="text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">Total Vocabulary</span>
+          <i class="pi pi-book text-blue-500 dark:text-blue-400 text-sm"></i>
+        </div>
+        <div class="text-3xl sm:text-4xl font-extrabold text-slate-900 dark:text-white tracking-tight">{{ totalWords }}</div>
+        <div class="text-[11px] text-slate-500 dark:text-slate-400 mt-1">Full professional corpus</div>
+      </div>
+
+      <div class="p-5 rounded-2xl bg-white/90 dark:bg-white/5 border border-slate-200/80 dark:border-white/10 backdrop-blur-xl shadow-md">
+        <div class="flex items-center justify-between mb-2.5">
+          <span class="text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">Words Mastered</span>
+          <i class="pi pi-check-circle text-emerald-500 dark:text-emerald-400 text-sm"></i>
+        </div>
+        <div class="text-3xl sm:text-4xl font-extrabold text-emerald-600 dark:text-emerald-400 tracking-tight">{{ totalMastered }}</div>
+        <div class="text-[11px] text-slate-500 dark:text-slate-400 mt-1">Marked as fully memorized</div>
+      </div>
+
+      <div class="p-5 rounded-2xl bg-white/90 dark:bg-white/5 border border-slate-200/80 dark:border-white/10 backdrop-blur-xl shadow-md">
+        <div class="flex items-center justify-between mb-2.5">
+          <span class="text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">Overall Progress</span>
+          <i class="pi pi-chart-line text-primary-500 dark:text-primary-400 text-sm"></i>
+        </div>
+        <div class="text-3xl sm:text-4xl font-extrabold text-primary-600 dark:text-primary-400 tracking-tight">{{ totalPercentage }}%</div>
+        <div class="text-[11px] text-slate-500 dark:text-slate-400 mt-1">{{ totalMastered }} of {{ totalWords }} completed</div>
+      </div>
+    </div>
+
+    <!-- Level Progress Widgets (B1+ vs B2) -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
       <div 
         v-for="lvl in levelStats" 
         :key="lvl.level"
-        class="bg-surface-900 border border-surface-800 rounded-2xl p-6 shadow-lg space-y-3"
+        class="p-5 rounded-2xl bg-white/90 dark:bg-white/5 border border-slate-200/80 dark:border-white/10 backdrop-blur-xl shadow-md space-y-3"
       >
-        <div class="flex justify-between items-center text-sm font-bold">
-          <span class="text-surface-100">Level {{ lvl.level }} Progress</span>
-          <span class="text-primary">{{ lvl.mastered }} / {{ lvl.total }} ({{ lvl.percentage }}%)</span>
+        <div class="flex justify-between items-center text-xs font-bold">
+          <span class="text-slate-800 dark:text-slate-200 font-semibold">Level {{ lvl.level }} Progress</span>
+          <span class="text-primary-600 dark:text-primary-400">{{ lvl.mastered }} / {{ lvl.total }} ({{ lvl.percentage }}%)</span>
         </div>
-        <ProgressBar :value="lvl.percentage" class="h-3" />
+        <ProgressBar :value="lvl.percentage" class="!h-2 !rounded-full" />
       </div>
     </div>
 
-    <!-- SRS Learning Stages Breakdown -->
-    <div class="bg-surface-900 border border-surface-800 rounded-2xl p-6 shadow-lg space-y-4">
-      <h3 class="text-lg font-bold text-surface-900 dark:text-white">SRS Retention Pipeline</h3>
-      <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
-        <div class="p-4 rounded-xl bg-surface-950/60 border border-surface-800 text-center">
-          <div class="text-xs uppercase font-bold text-surface-400 mb-1">New</div>
-          <div class="text-2xl font-bold text-surface-200">{{ srsStages.newCount }}</div>
+    <!-- SRS Retention Pipeline Widget -->
+    <div class="p-6 rounded-2xl bg-white/90 dark:bg-white/5 border border-slate-200/80 dark:border-white/10 backdrop-blur-xl shadow-md space-y-4">
+      <div class="flex items-center justify-between">
+        <h3 class="text-sm font-bold text-slate-900 dark:text-white tracking-tight">SRS Retention Pipeline</h3>
+        <span class="text-[11px] text-slate-500 dark:text-slate-400 font-medium">Spaced Repetition Stages</span>
+      </div>
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-3.5">
+        <div class="p-4 rounded-xl bg-slate-100/90 dark:bg-black/30 border border-slate-200 dark:border-white/10 text-center">
+          <div class="text-[10px] uppercase font-bold text-slate-500 dark:text-slate-400 mb-1">New</div>
+          <div class="text-2xl font-black text-slate-800 dark:text-slate-200">{{ srsStages.newCount }}</div>
         </div>
-        <div class="p-4 rounded-xl bg-surface-950/60 border border-surface-800 text-center">
-          <div class="text-xs uppercase font-bold text-yellow-400 mb-1">Learning (1-2)</div>
-          <div class="text-2xl font-bold text-yellow-400">{{ srsStages.learningCount }}</div>
+        <div class="p-4 rounded-xl bg-amber-500/15 border border-amber-500/25 text-center">
+          <div class="text-[10px] uppercase font-bold text-amber-700 dark:text-amber-400 mb-1">Learning (1-2)</div>
+          <div class="text-2xl font-black text-amber-700 dark:text-amber-400">{{ srsStages.learningCount }}</div>
         </div>
-        <div class="p-4 rounded-xl bg-surface-950/60 border border-surface-800 text-center">
-          <div class="text-xs uppercase font-bold text-blue-400 mb-1">Review (3-4)</div>
-          <div class="text-2xl font-bold text-blue-400">{{ srsStages.reviewCount }}</div>
+        <div class="p-4 rounded-xl bg-blue-500/15 border border-blue-500/25 text-center">
+          <div class="text-[10px] uppercase font-bold text-blue-700 dark:text-blue-400 mb-1">Review (3-4)</div>
+          <div class="text-2xl font-black text-blue-700 dark:text-blue-400">{{ srsStages.reviewCount }}</div>
         </div>
-        <div class="p-4 rounded-xl bg-surface-950/60 border border-surface-800 text-center">
-          <div class="text-xs uppercase font-bold text-green-400 mb-1">Mastered (5+)</div>
-          <div class="text-2xl font-bold text-green-400">{{ srsStages.masteredCount }}</div>
+        <div class="p-4 rounded-xl bg-emerald-500/15 border border-emerald-500/25 text-center">
+          <div class="text-[10px] uppercase font-bold text-emerald-700 dark:text-emerald-400 mb-1">Mastered (5+)</div>
+          <div class="text-2xl font-black text-emerald-700 dark:text-emerald-400">{{ srsStages.masteredCount }}</div>
         </div>
       </div>
     </div>
 
-    <!-- Overall Progress bar & Backup Toolbar -->
-    <div class="bg-surface-900 border border-surface-800 rounded-2xl p-6 shadow-lg space-y-4">
-      <div class="flex justify-between items-center text-sm font-semibold flex-wrap gap-2">
-        <span class="text-surface-200">Overall Course Progress</span>
-        <span class="text-primary">{{ totalMastered }} / {{ totalWords }} mastered</span>
+    <!-- macOS System Settings Sync & Backup Panel -->
+    <div class="p-6 rounded-2xl bg-white/90 dark:bg-white/5 border border-slate-200/80 dark:border-white/10 backdrop-blur-xl shadow-md space-y-4">
+      <div class="flex justify-between items-center text-xs font-semibold flex-wrap gap-2">
+        <span class="text-slate-800 dark:text-slate-200 font-bold text-sm">Overall Course Progress</span>
+        <span class="text-primary-600 dark:text-primary-400">{{ totalMastered }} / {{ totalWords }} mastered</span>
       </div>
-      <ProgressBar :value="totalPercentage" class="h-4" />
+      <ProgressBar :value="totalPercentage" class="!h-2.5 !rounded-full" />
 
-      <!-- Backup and Restore Actions -->
-      <div class="pt-4 border-t border-surface-800 flex items-center justify-between flex-wrap gap-4">
-        <div class="text-xs text-surface-400">
-          Sync your progress across devices by exporting a backup JSON file.
+      <!-- Sync Controls -->
+      <div class="pt-4 border-t border-slate-200 dark:border-white/10 flex items-center justify-between flex-wrap gap-4">
+        <div class="text-xs text-slate-500 dark:text-slate-400">
+          Sync and transfer your learning progress across devices with a JSON backup.
         </div>
-        <div class="flex gap-3">
+        <div class="flex gap-2.5">
           <input 
             type="file" 
             ref="fileInputRef" 
@@ -241,6 +269,7 @@ const totalPercentage = computed(() => {
             size="small" 
             outlined 
             @click="handleExport" 
+            class="!rounded-xl text-xs active:scale-95 transition-all"
           />
           <Button 
             label="Restore Progress" 
@@ -249,30 +278,34 @@ const totalPercentage = computed(() => {
             size="small" 
             outlined 
             @click="triggerFileInput" 
+            class="!rounded-xl text-xs active:scale-95 transition-all"
           />
         </div>
       </div>
 
-      <!-- Feedback messages -->
-      <div v-if="importSuccess" class="text-xs text-green-400 font-medium">
+      <!-- Feedback notifications -->
+      <div v-if="importSuccess" class="text-xs text-emerald-600 dark:text-emerald-400 font-medium">
         {{ importSuccess }}
       </div>
-      <div v-if="importError" class="text-xs text-red-400 font-medium">
+      <div v-if="importError" class="text-xs text-red-600 dark:text-red-400 font-medium">
         {{ importError }}
       </div>
     </div>
 
-    <!-- Detailed Theme Progress -->
-    <div class="bg-surface-900 border border-surface-800 rounded-2xl p-6 shadow-lg space-y-6">
-      <h3 class="text-lg font-bold text-surface-900 dark:text-white border-b border-surface-800 pb-3">Progress by Topic & Category</h3>
+    <!-- Category / Thema Widgets Grid -->
+    <div class="p-6 rounded-2xl bg-white/90 dark:bg-white/5 border border-slate-200/80 dark:border-white/10 backdrop-blur-xl shadow-md space-y-5">
+      <div class="flex justify-between items-center border-b border-slate-200 dark:border-white/10 pb-3">
+        <h3 class="text-sm font-bold text-slate-900 dark:text-white">Progress by Topic & Category</h3>
+        <span class="text-[11px] text-slate-500 dark:text-slate-400 font-medium">{{ stats.length }} Topics Total</span>
+      </div>
       
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-        <div v-for="item in stats" :key="item.thema" class="space-y-2 p-4 bg-surface-950/45 border border-surface-800/60 rounded-xl hover:border-primary-500/35 transition-colors duration-300">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div v-for="item in stats" :key="item.thema" class="space-y-2 p-3.5 bg-slate-100/80 dark:bg-black/20 border border-slate-200/80 dark:border-white/5 rounded-xl hover:border-primary-500/40 transition-all duration-200">
           <div class="flex justify-between items-start">
-            <span class="font-bold text-sm text-surface-100 line-clamp-1" :title="item.name">{{ item.name }}</span>
-            <span class="text-xs font-semibold text-surface-400 shrink-0">{{ item.mastered }}/{{ item.total }} ({{ item.percentage }}%)</span>
+            <span class="font-bold text-xs text-slate-800 dark:text-slate-200 line-clamp-1" :title="item.name">{{ item.name }}</span>
+            <span class="text-[11px] font-semibold text-slate-500 dark:text-slate-400 shrink-0">{{ item.mastered }}/{{ item.total }} ({{ item.percentage }}%)</span>
           </div>
-          <ProgressBar :value="item.percentage" class="h-2" />
+          <ProgressBar :value="item.percentage" class="!h-1.5 !rounded-full" />
         </div>
       </div>
     </div>

@@ -4,7 +4,6 @@ import type { Word } from '../types';
 import Select from 'primevue/select';
 import InputText from 'primevue/inputtext';
 import Button from 'primevue/button';
-import Panel from 'primevue/panel';
 import { getThemaLabel } from '../utils/thema';
 
 const props = defineProps<{
@@ -32,7 +31,7 @@ const themes = computed(() => {
 
 const themeOptions = computed(() => {
   return [
-    { label: 'Themes', value: 'all' },
+    { label: 'All Themes', value: 'all' },
     ...themes.value.map(t => ({ 
       label: getThemaLabel(t), 
       value: t.toString() 
@@ -41,69 +40,64 @@ const themeOptions = computed(() => {
 });
 
 const levelOptions = [
-  { label: 'Levels', value: 'all' },
+  { label: 'All Levels', value: 'all' },
   { label: 'B1+', value: 'B1+' },
   { label: 'B2', value: 'B2' }
 ];
-
 </script>
 
 <template>
-  <Panel class="shadow-xl p-fluid">
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 items-end">
-    <!-- Search Section -->
-    <div class="w-full flex flex-col gap-2">
-      <span class="text-xs font-bold uppercase tracking-wider text-primary ml-2">Search Vocabulary</span>
-      <InputText 
-        :modelValue="search"
-        @update:modelValue="(val) => emit('update:search', val ?? '')"
-        placeholder="Type to filter..." 
-        class="w-full"
-      />
-    </div>
-    
-    <!-- Level Section -->
-    <div class="w-full flex flex-col gap-2">
-      <span class="text-xs font-bold uppercase tracking-wider text-surface-400 ml-2">Level</span>
-      <Select 
-        :modelValue="level" 
-        @update:modelValue="(val) => emit('update:level', val ?? 'all')"
-        :options="levelOptions"
-        optionLabel="label"
-        optionValue="value"
-        placeholder="Select Level"
-        class="w-full"
-      />
-    </div>
+  <div class="p-4 sm:p-5 rounded-2xl bg-white/70 dark:bg-white/5 border border-black/5 dark:border-white/10 backdrop-blur-xl shadow-md">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 items-center">
+      <!-- Spotlight Search Section -->
+      <div class="w-full relative">
+        <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-surface-400">
+          <i class="pi pi-search text-xs"></i>
+        </div>
+        <InputText 
+          :modelValue="search"
+          @update:modelValue="(val) => emit('update:search', val ?? '')"
+          placeholder="Spotlight search vocabulary..." 
+          class="w-full !pl-8 text-sm !bg-surface-50 dark:!bg-black/40 !border-surface-200 dark:!border-white/10 !rounded-xl"
+        />
+      </div>
+      
+      <!-- Level Filter -->
+      <div class="w-full">
+        <Select 
+          :modelValue="level" 
+          @update:modelValue="(val) => emit('update:level', val ?? 'all')"
+          :options="levelOptions"
+          optionLabel="label"
+          optionValue="value"
+          placeholder="Select Level"
+          class="w-full text-sm !bg-surface-50 dark:!bg-black/40 !border-surface-200 dark:!border-white/10 !rounded-xl"
+        />
+      </div>
 
-    <!-- Theme Section -->
-    <div class="w-full flex flex-col gap-2">
-      <span class="text-xs font-bold uppercase tracking-wider text-surface-400 ml-2">Theme</span>
-      <Select 
-        :modelValue="thema" 
-        @update:modelValue="(val) => emit('update:thema', val ?? 'all')"
-        :options="themeOptions"
-        optionLabel="label"
-        optionValue="value"
-        placeholder="Select Theme"
-        class="w-full"
-      />
-    </div>
+      <!-- Theme Filter -->
+      <div class="w-full">
+        <Select 
+          :modelValue="thema" 
+          @update:modelValue="(val) => emit('update:thema', val ?? 'all')"
+          :options="themeOptions"
+          optionLabel="label"
+          optionValue="value"
+          placeholder="Select Theme"
+          class="w-full text-sm !bg-surface-50 dark:!bg-black/40 !border-surface-200 dark:!border-white/10 !rounded-xl"
+        />
+      </div>
 
-    <!-- Mode Toggle Section -->
-    <div class="w-full flex flex-col gap-2">
-      <span class="text-xs font-bold uppercase tracking-wider text-surface-400 ml-2 lg:invisible lg:h-4">Action</span>
-      <Button 
-        :label="isStudyMode ? 'Back to List' : 'Start Study'"
-        :icon="isStudyMode ? 'pi pi-list' : 'pi pi-graduation-cap'"
-        @click="emit('update:isStudyMode', !isStudyMode)"
-        :severity="isStudyMode ? 'success' : 'primary'"
-      />
+      <!-- Mode Toggle Section -->
+      <div class="w-full">
+        <Button 
+          :label="isStudyMode ? 'Back to List' : 'Start Study'"
+          :icon="isStudyMode ? 'pi pi-list' : 'pi pi-graduation-cap'"
+          @click="emit('update:isStudyMode', !isStudyMode)"
+          severity="primary"
+          class="w-full !rounded-xl shadow-xs active:scale-95 transition-all text-sm font-semibold !py-2.5"
+        />
+      </div>
     </div>
-    </div>
-  </Panel>
+  </div>
 </template>
-
-<style scoped>
-/* No manual CSS needed anymore, all handled by Tailwind and PrimeVue pt */
-</style>

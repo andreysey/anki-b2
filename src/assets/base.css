@@ -1,20 +1,30 @@
 :root {
-    --text-main: #f8fafc;
-    --text-muted: #94a3b8;
-    --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --text-main: #0f172a;
+  --text-muted: #64748b;
+  --macos-font: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "SF Compact", "Helvetica Neue", system-ui, sans-serif;
+  --macos-mono: "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --transition-smooth: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  --macos-spring: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+html.dark {
+  --text-main: #f8fafc;
+  --text-muted: #94a3b8;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Outfit', sans-serif;
-    line-height: 1.6;
-    overflow-x: hidden;
-    min-height: 100vh;
+  font-family: var(--macos-font);
+  color: var(--text-main);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  min-height: 100vh;
+  letter-spacing: -0.011em;
 }
-
-/* Main application styling is now handled by Tailwind CSS v4 and PrimeVue. */

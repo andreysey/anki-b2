@@ -42,7 +42,7 @@ const showGermanOnFront = computed(() => props.direction === 'DE_TO_UA');
 
 <template>
   <div 
-    class="relative w-full max-w-[550px] h-[450px] xs:h-[480px] sm:h-[520px] [perspective:1500px] cursor-pointer mx-auto group focus:outline-none focus:ring-2 focus:ring-primary rounded-[32px]" 
+    class="relative w-full max-w-[560px] h-[450px] xs:h-[480px] sm:h-[510px] [perspective:1400px] cursor-pointer mx-auto group focus:outline-none focus:ring-2 focus:ring-primary/60 rounded-[30px]" 
     tabindex="0"
     role="button"
     :aria-expanded="isFlipped"
@@ -51,7 +51,7 @@ const showGermanOnFront = computed(() => props.direction === 'DE_TO_UA');
     @keydown="handleKeyDown"
   >
     <div 
-      class="relative w-full h-full transition-all duration-[800ms] [transform-style:preserve-3d] shadow-2xl rounded-[32px]" 
+      class="relative w-full h-full transition-all duration-[700ms] [transform-style:preserve-3d] shadow-2xl rounded-[28px]" 
       :class="{ '[transform:rotateY(180deg)]': isFlipped }"
     >
       <!-- Front Face -->
