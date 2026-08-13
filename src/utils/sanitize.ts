@@ -7,7 +7,10 @@ export const sanitizeHtml = (html: string | undefined | null): string => {
     .replace(/\*\*(.*?)\*\*/g, '<b>$1</b>')
     .replace(/\*(.*?)\*/g, '<i>$1</i>');
   const purifier = typeof window !== 'undefined' ? DOMPurify(window) : DOMPurify;
-  const sanitized = purifier.sanitize(`<span>${formatted}</span>`);
+  const sanitized = purifier.sanitize(`<span>${formatted}</span>`, {
+    ALLOWED_TAGS: ['b', 'strong', 'i', 'em', 'span', 'p', 'br'],
+    ALLOWED_ATTR: ['class', 'style', 'title']
+  });
   return sanitized.replace(/^<span>/i, '').replace(/<\/span>$/i, '');
 };
 

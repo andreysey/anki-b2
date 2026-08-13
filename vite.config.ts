@@ -71,5 +71,17 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     emptyOutDir: true,
+    rollupOptions: {
+      output: {
+        manualChunks(id: string) {
+          if (id.includes('node_modules/vue/') || id.includes('node_modules/@vue/')) {
+            return 'vendor-vue';
+          }
+          if (id.includes('node_modules/primevue/') || id.includes('node_modules/@primevue/')) {
+            return 'vendor-primevue';
+          }
+        }
+      }
+    }
   }
 })

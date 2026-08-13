@@ -13,7 +13,11 @@ defineProps<{
   displayLimit: number;
 }>();
 
-const emit = defineEmits(['load-more', 'play-audio', 'toggle-mastered']);
+const emit = defineEmits<{
+  (e: 'load-more'): void;
+  (e: 'play-audio', text: string): void;
+  (e: 'toggle-mastered', word: Word): void;
+}>();
 </script>
 
 <template>

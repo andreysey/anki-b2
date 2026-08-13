@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { onMounted, onUnmounted, computed, ref, watch } from 'vue';
+import { onMounted, onUnmounted, computed, ref, watch, defineAsyncComponent } from 'vue';
 import { useVocabulary } from './composables/useVocabulary';
 import { useTheme } from './composables/useTheme';
 import { useSpeechSynthesis } from './composables/useSpeechSynthesis';
@@ -14,9 +14,10 @@ import BaseLayout from './components/BaseLayout.vue';
 import AppHero from './components/AppHero.vue';
 import VocabularyList from './components/VocabularyList.vue';
 import StudyView from './components/StudyView.vue';
-import DashboardView from './components/DashboardView.vue';
 import Panel from 'primevue/panel';
 import type { SelectOption, StudyDirection } from './types';
+
+const DashboardView = defineAsyncComponent(() => import('./components/DashboardView.vue'));
 
 const activeView = ref<'list' | 'study' | 'dashboard'>('list');
 const { themeMode, cycleTheme, initTheme, cleanupTheme } = useTheme();

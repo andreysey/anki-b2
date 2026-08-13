@@ -17,17 +17,17 @@ defineProps<{
   isShuffled?: boolean;
 }>();
 
-const emit = defineEmits([
-  'update:studyDirection', 
-  'update:isAutoplay', 
-  'shuffle', 
-  'flip', 
-  'update-srs', 
-  'prev', 
-  'next',
-  'toggle-mastered',
-  'play-audio'
-]);
+const emit = defineEmits<{
+  (e: 'update:studyDirection', value: StudyDirection): void;
+  (e: 'update:isAutoplay', value: boolean): void;
+  (e: 'shuffle'): void;
+  (e: 'flip'): void;
+  (e: 'update-srs', rating: 'again' | 'hard' | 'good' | 'easy'): void;
+  (e: 'prev'): void;
+  (e: 'next'): void;
+  (e: 'toggle-mastered', word: Word): void;
+  (e: 'play-audio', text: string): void;
+}>();
 </script>
 
 <template>

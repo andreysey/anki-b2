@@ -15,7 +15,12 @@ const props = defineProps<{
   isStudyMode: boolean;
 }>();
 
-const emit = defineEmits(['update:search', 'update:level', 'update:thema', 'update:isStudyMode']);
+const emit = defineEmits<{
+  (e: 'update:search', value: string): void;
+  (e: 'update:level', value: string): void;
+  (e: 'update:thema', value: string): void;
+  (e: 'update:isStudyMode', value: boolean): void;
+}>();
 
 const themes = computed(() => {
   const relevantVocab = props.level === 'all' 
@@ -51,7 +56,7 @@ const levelOptions = [
       <span class="text-xs font-bold uppercase tracking-wider text-primary ml-2">Search Vocabulary</span>
       <InputText 
         :modelValue="search"
-        @update:modelValue="emit('update:search', $event)"
+        @update:modelValue="(val) => emit('update:search', val ?? '')"
         placeholder="Type to filter..." 
         class="w-full"
       />
@@ -62,7 +67,7 @@ const levelOptions = [
       <span class="text-xs font-bold uppercase tracking-wider text-surface-400 ml-2">Level</span>
       <Select 
         :modelValue="level" 
-        @update:modelValue="emit('update:level', $event)"
+        @update:modelValue="(val) => emit('update:level', val ?? 'all')"
         :options="levelOptions"
         optionLabel="label"
         optionValue="value"
@@ -76,7 +81,7 @@ const levelOptions = [
       <span class="text-xs font-bold uppercase tracking-wider text-surface-400 ml-2">Theme</span>
       <Select 
         :modelValue="thema" 
-        @update:modelValue="emit('update:thema', $event)"
+        @update:modelValue="(val) => emit('update:thema', val ?? 'all')"
         :options="themeOptions"
         optionLabel="label"
         optionValue="value"

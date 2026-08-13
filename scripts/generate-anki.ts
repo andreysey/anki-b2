@@ -127,14 +127,20 @@ const model = new Model({
   `,
 });
 
-// Unique sequential note IDs (avoids UNIQUE constraint in SQLite)
-let globalNoteId = 0;
-const originalToSqlValues = Note.prototype.toSqlValues;
-Note.prototype.toSqlValues = function () {
-  const values = originalToSqlValues.call(this);
-  values.id = globalNoteId++;
-  return values;
-};
+// Clean inheritance avoiding monkey patching
+class SequentialNote extends Note {
+  private static noteCounter = 0;
+
+  static setStartId(startId: number) {
+    SequentialNote.noteCounter = startId;
+  }
+
+  override toSqlValues() {
+    const values = super.toSqlValues();
+    values.id = SequentialNote.noteCounter++;
+    return values;
+  }
+}
 
 export interface EntryData {
   level: string;
@@ -171,7 +177,7 @@ export async function generateAnkiDeck(
     baseName === 'B2'     ? 1607392321 :
                             1607392322;
 
-  globalNoteId = deckId * 1000000;
+  SequentialNote.setStartId(deckId * 1000000);
 
   const deckName = `German ${baseName.replace('plus', '+')}`;
   const deck = new Deck({ deckId, name: deckName });
@@ -229,7 +235,7 @@ export async function generateAnkiDeck(
 
       totalEntries++;
 
-      const note = new Note({
+      const note = new SequentialNote({
         guid: (BigInt(deckId) * 10000n + BigInt(noteIndex++)).toString(),
         modelId: MODEL_ID,
         fields: [
