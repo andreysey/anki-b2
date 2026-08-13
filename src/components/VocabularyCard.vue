@@ -15,7 +15,22 @@ const emit = defineEmits<{
   (e: 'play-audio', text: string): void;
 }>();
 
+const handleCardClick = (event: MouseEvent) => {
+  const target = event.target as HTMLElement | null;
+  // Prevent card flipping when clicking buttons, inputs, dialogs, audio controls, or links
+  if (target && target !== event.currentTarget) {
+    if (target.closest('button, input, textarea, a, select, .p-button, .p-dialog, .p-dialog-mask, [role="dialog"]')) {
+      return;
+    }
+  }
+  emit('flip');
+};
+
 const handleKeyDown = (event: KeyboardEvent) => {
+  const target = event.target as HTMLElement | null;
+  if (target?.tagName === 'INPUT' || target?.tagName === 'TEXTAREA' || target?.closest('.p-dialog, .p-dialog-mask')) {
+    return;
+  }
   if (event.key === 'Enter' || event.key === ' ') {
     event.preventDefault();
     emit('flip');
@@ -32,7 +47,7 @@ const showGermanOnFront = computed(() => props.direction === 'DE_TO_UA');
     role="button"
     :aria-expanded="isFlipped"
     aria-label="Vocabulary card. Press Space or Enter to flip"
-    @click="emit('flip')"
+    @click="handleCardClick"
     @keydown="handleKeyDown"
   >
     <div 

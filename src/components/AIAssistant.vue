@@ -1,10 +1,9 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue';
 import type { Word } from '../types';
-import { callAI, checkOnDeviceSupport, getCloudKey, setCloudKey } from '../utils/ai';
+import { callAI } from '../utils/ai';
+import { useAIAssistantState } from '../composables/useAIAssistantState';
 import Button from 'primevue/button';
-import InputText from 'primevue/inputtext';
-import Dialog from 'primevue/dialog';
 import ScrollPanel from 'primevue/scrollpanel';
 import { sanitizeHtml } from '../utils/sanitize';
 
@@ -12,31 +11,17 @@ const props = defineProps<{
   word: Word;
 }>();
 
-const hasNano = ref(false);
-const hasCloudKey = ref(false);
-const apiKey = ref('');
-const showSettings = ref(false);
+const { hasNano, hasCloudKey, init, openSettings } = useAIAssistantState();
+
 const isLoading = ref(false);
 const isError = ref(false);
 const resultText = ref('');
 const resultSource = ref<'nano' | 'cloud' | 'none'>('none');
 const explanationType = ref<'grammar' | 'dialogue' | null>(null);
 
-const checkAvailability = async () => {
-  hasNano.value = await checkOnDeviceSupport();
-  apiKey.value = getCloudKey();
-  hasCloudKey.value = !!apiKey.value;
-};
-
 onMounted(() => {
-  checkAvailability();
+  init();
 });
-
-const saveApiKey = () => {
-  setCloudKey(apiKey.value);
-  hasCloudKey.value = !!apiKey.value;
-  showSettings.value = false;
-};
 
 const handleExplainGrammar = async () => {
   explanationType.value = 'grammar';
@@ -120,7 +105,7 @@ const handleGenerateDialogue = async () => {
         severity="secondary" 
         text 
         size="small" 
-        @click.stop="showSettings = true" 
+        @click.stop="openSettings" 
         title="AI Settings"
       />
     </div>
@@ -173,46 +158,5 @@ const handleGenerateDialogue = async () => {
         Generated via {{ resultSource === 'nano' ? 'Local Gemini Nano' : 'Google Cloud API' }}
       </div>
     </div>
-
-    <!-- Settings Dialog -->
-    <Dialog 
-      v-model:visible="showSettings" 
-      modal 
-      header="AI Assistant Setup" 
-      :style="{ width: '90vw', maxWidth: '400px' }"
-      @click.stop
-    >
-      <div class="space-y-4 pt-2">
-        <p class="text-sm text-surface-400 leading-normal">
-          This feature supports local on-device inference via Google Chrome or a secure cloud connection to the Gemini API.
-        </p>
-
-        <div class="flex flex-col gap-2">
-          <label for="apiKey" class="text-xs font-bold uppercase tracking-wider text-surface-300">Gemini API Key</label>
-          <div class="flex gap-2">
-            <InputText 
-              id="apiKey" 
-              v-model="apiKey" 
-              placeholder="Paste AI Studio API Key..." 
-              class="flex-1" 
-              type="password"
-              @click.stop
-            />
-            <Button label="Save" severity="primary" @click="saveApiKey" />
-          </div>
-          <span class="text-[10px] text-surface-500">
-            Keys are saved strictly on your device inside LocalStorage. Get a free API Key on 
-            <a href="https://aistudio.google.com/" target="_blank" class="text-primary underline" @click.stop>Google AI Studio</a>.
-          </span>
-        </div>
-
-        <div class="border-t border-surface-800 pt-3 mt-4 space-y-2">
-          <div class="text-xs font-bold uppercase tracking-wider text-surface-300">Using Chrome window.ai</div>
-          <div class="text-[11px] text-surface-500 leading-relaxed">
-            Ensure you run Chrome 148+ with local Gemini Nano active. Alternatively, enable experimental Prompt API flags via <code class="bg-surface-900 px-1 py-0.5 rounded text-surface-300 font-mono">chrome://flags</code>.
-          </div>
-        </div>
-      </div>
-    </Dialog>
   </div>
 </template>

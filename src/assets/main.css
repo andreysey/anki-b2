@@ -41,11 +41,11 @@ html.dark .p-card:hover {
   box-shadow: 0 20px 35px -5px rgba(0, 0, 0, 0.7), 0 0 20px 0 rgba(59, 130, 246, 0.15) !important;
 }
 
-/* Ensure 3D Card flip backface is hidden across all browsers */
+/* Ensure 3D Card flip backface is hidden cleanly across all browsers without compositor vanishing glitch */
 .card-face {
   -webkit-backface-visibility: hidden !important;
   backface-visibility: hidden !important;
-  transform-style: preserve-3d;
+  transform-style: flat !important;
 }
 
 .card-face-front {

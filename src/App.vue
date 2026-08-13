@@ -19,6 +19,7 @@ import AppHero from './components/AppHero.vue';
 import FilterBar from './components/FilterBar.vue';
 import StudyView from './components/StudyView.vue';
 import VocabularyList from './components/VocabularyList.vue';
+import AISettingsDialog from './components/AISettingsDialog.vue';
 
 // Async Components (Code Splitting)
 const DashboardView = defineAsyncComponent(() => import('./components/DashboardView.vue'));
@@ -177,6 +178,7 @@ watch([currentStudyIndex, isFlipped, isStudyMode, isAutoplay], ([newIdx, newFlip
 
 <template>
   <Toast />
+  <AISettingsDialog />
   <div class="min-h-screen bg-surface-950 text-surface-0 flex flex-col items-center p-4 sm:p-8 font-sans selection:bg-primary selection:text-white">
     <!-- Header Controls -->
     <header class="w-full max-w-6xl flex justify-between items-center mb-6">
@@ -237,7 +239,7 @@ watch([currentStudyIndex, isFlipped, isStudyMode, isAutoplay], ([newIdx, newFlip
         />
       </div>
 
-      <AppHero />
+      <AppHero v-if="activeView === 'list'" />
 
       <!-- Error State -->
       <Message v-if="error" severity="error" icon="pi pi-exclamation-triangle" class="mb-6">
@@ -255,7 +257,7 @@ watch([currentStudyIndex, isFlipped, isStudyMode, isAutoplay], ([newIdx, newFlip
       />
 
       <!-- Audio Settings Panel -->
-      <Panel v-if="activeView !== 'dashboard'" header="Audio Settings" toggleable collapsed class="shadow-xl">
+      <Panel v-if="activeView === 'list'" header="Audio Settings" toggleable collapsed class="shadow-xl">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 p-4">
           <div class="flex flex-col gap-2">
             <span class="text-xs font-bold uppercase tracking-wider text-surface-400">German Voice</span>
