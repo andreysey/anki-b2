@@ -2,10 +2,13 @@
 import { onMounted, onUnmounted, computed, ref, watch } from 'vue';
 import { useVocabulary } from './composables/useVocabulary';
 import { useTheme } from './composables/useTheme';
+import { useSpeechSynthesis } from './composables/useSpeechSynthesis';
+import { useKeyboardShortcuts } from './composables/useKeyboardShortcuts';
 import FilterBar from './components/FilterBar.vue';
 import Button from 'primevue/button';
 import Message from 'primevue/message';
 import Toast from 'primevue/toast';
+import ProgressSpinner from 'primevue/progressspinner';
 import { useToast } from 'primevue/usetoast';
 import BaseLayout from './components/BaseLayout.vue';
 import AppHero from './components/AppHero.vue';
@@ -13,11 +16,18 @@ import VocabularyList from './components/VocabularyList.vue';
 import StudyView from './components/StudyView.vue';
 import DashboardView from './components/DashboardView.vue';
 import Panel from 'primevue/panel';
-import { cleanTextForSpeech } from './utils/sanitize';
 import type { SelectOption, StudyDirection } from './types';
 
 const activeView = ref<'list' | 'study' | 'dashboard'>('list');
 const { themeMode, cycleTheme, initTheme, cleanupTheme } = useTheme();
+
+const {
+  germanVoices,
+  selectedVoiceURI,
+  ttsRate,
+  initVoices,
+  playAudio
+} = useSpeechSynthesis();
 
 const {
   vocabulary,
@@ -34,6 +44,8 @@ const {
   isShuffled,
   masteredIds,
   displayLimit,
+  isLoading,
+  error,
   init,
   updateSRS,
   nextCard,
@@ -95,94 +107,40 @@ const handleSRSUpdate = (severity: 'again' | 'hard' | 'good' | 'easy') => {
   });
 };
 
-const handleGlobalKeydown = (e: KeyboardEvent) => {
-  if (!isStudyMode.value) return;
-  
-  if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) {
-    return;
-  }
-  
-  if (e.code === 'Space') {
-    e.preventDefault();
-    isFlipped.value = !isFlipped.value;
-  } else if (e.code === 'ArrowRight') {
-    nextCard();
-  } else if (e.code === 'ArrowLeft') {
-    prevCard();
-  } else if (e.code === 'KeyM') {
-    const currentCard = studyList.value[currentStudyIndex.value];
-    if (currentCard) {
-      toggleMastered(currentCard);
-      toast.add({
-        severity: 'success',
-        summary: 'Mastered',
-        detail: 'Word marked as mastered',
-        life: 2000
-      });
-    }
-  } else if (isFlipped.value) {
-    if (e.key === '1') handleSRSUpdate('again');
-    else if (e.key === '2') handleSRSUpdate('hard');
-    else if (e.key === '3') handleSRSUpdate('good');
-    else if (e.key === '4') handleSRSUpdate('easy');
+const handleMasterCurrentCard = () => {
+  const currentCard = studyList.value[currentStudyIndex.value];
+  if (currentCard) {
+    toggleMastered(currentCard);
+    toast.add({
+      severity: 'success',
+      summary: 'Mastered',
+      detail: 'Word marked as mastered',
+      life: 2000
+    });
   }
 };
+
+const shortcuts = useKeyboardShortcuts({
+  isStudyMode,
+  isFlipped,
+  onFlip: () => { isFlipped.value = !isFlipped.value; },
+  onNext: nextCard,
+  onPrev: prevCard,
+  onToggleMastered: handleMasterCurrentCard,
+  onGrade: handleSRSUpdate
+});
 
 onMounted(() => {
   init();
   initTheme();
-  window.addEventListener('keydown', handleGlobalKeydown);
+  initVoices();
+  shortcuts.register();
 });
 
 onUnmounted(() => {
   cleanupTheme();
-  window.removeEventListener('keydown', handleGlobalKeydown);
+  shortcuts.cleanup();
 });
-
-const germanVoices = ref<SpeechSynthesisVoice[]>([]);
-const selectedVoiceURI = ref(localStorage.getItem('anki_tts_voice') || '');
-const ttsRate = ref(Number(localStorage.getItem('anki_tts_rate') || '0.85'));
-
-const loadVoices = () => {
-  if ('speechSynthesis' in window) {
-    germanVoices.value = window.speechSynthesis.getVoices().filter(v => v.lang.toLowerCase().startsWith('de'));
-    if (!selectedVoiceURI.value && germanVoices.value.length > 0) {
-      // Prefer standard German voices if available
-      const preferred = germanVoices.value.find(v => v.lang === 'de-DE') || germanVoices.value[0];
-      selectedVoiceURI.value = preferred.voiceURI;
-    }
-  }
-};
-
-if ('speechSynthesis' in window) {
-  window.speechSynthesis.onvoiceschanged = loadVoices;
-  loadVoices();
-}
-
-watch(selectedVoiceURI, (val) => {
-  localStorage.setItem('anki_tts_voice', val);
-});
-
-watch(ttsRate, (val) => {
-  localStorage.setItem('anki_tts_rate', String(val));
-});
-
-const playAudio = (text: string) => {
-  if ('speechSynthesis' in window) {
-    const cleaned = cleanTextForSpeech(text);
-    if (!cleaned) return;
-
-    window.speechSynthesis.cancel();
-    const utterance = new SpeechSynthesisUtterance(cleaned);
-    utterance.lang = 'de-DE';
-    utterance.rate = ttsRate.value;
-    const voice = germanVoices.value.find(v => v.voiceURI === selectedVoiceURI.value);
-    if (voice) {
-      utterance.voice = voice;
-    }
-    window.speechSynthesis.speak(utterance);
-  }
-};
 
 watch([currentStudyIndex, isFlipped, isStudyMode, isAutoplay], ([newIdx, newFlipped, studying, autoplay]) => {
   if (!studying || !autoplay) return;
@@ -246,6 +204,11 @@ const appVersion = __APP_VERSION__;
 
     <AppHero />
 
+    <!-- Error State -->
+    <Message v-if="error" severity="error" icon="pi pi-exclamation-triangle" class="mb-6">
+      {{ error }}
+    </Message>
+
     <FilterBar 
       v-if="activeView !== 'dashboard'"
       :vocabulary="vocabulary"
@@ -292,14 +255,19 @@ const appVersion = __APP_VERSION__;
       :masteredIds="masteredIds"
     />
 
+    <!-- Loading State -->
+    <div v-else-if="isLoading" class="flex justify-center my-12">
+      <ProgressSpinner />
+    </div>
+
     <!-- Empty State -->
-    <Message v-if="activeView !== 'dashboard' && filteredVocabulary.length === 0" severity="secondary" icon="pi pi-search" class="mb-12">
+    <Message v-else-if="filteredVocabulary.length === 0" severity="secondary" icon="pi pi-search" class="mb-12">
         No results found matching your current search or filter criteria. Try adjusting your filters.
     </Message>
 
     <!-- List View -->
     <VocabularyList 
-      v-if="activeView === 'list' && filteredVocabulary.length > 0"
+      v-else-if="activeView === 'list'"
       :vocabulary="filteredVocabulary"
       :display-limit="displayLimit"
       @load-more="loadMore"

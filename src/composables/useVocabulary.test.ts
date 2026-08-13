@@ -29,6 +29,16 @@ describe('useVocabulary composable', () => {
   beforeEach(() => {
     localStorage.clear();
     vi.restoreAllMocks();
+    const vocab = useVocabulary();
+    vocab.vocabulary.value = [];
+    vocab.masteredIds.value.clear();
+    vocab.srsData.value = {};
+    vocab.search.value = '';
+    vocab.levelFilter.value = 'all';
+    vocab.themaFilter.value = 'all';
+    vocab.currentStudyIndex.value = 0;
+    vocab.isShuffled.value = false;
+    vocab.displayLimit.value = 50;
   });
 
   it('initializes vocabulary via init fetch', async () => {
@@ -41,6 +51,8 @@ describe('useVocabulary composable', () => {
     await vocab.init();
     expect(vocab.vocabulary.value.length).toBe(2);
     expect(vocab.filteredVocabulary.value.length).toBe(2);
+    expect(vocab.isLoading.value).toBe(false);
+    expect(vocab.error.value).toBeNull();
   });
 
   it('filters vocabulary by search query', async () => {
@@ -96,6 +108,7 @@ describe('useVocabulary composable', () => {
     const vocab = useVocabulary();
     await vocab.init();
     expect(vocab.vocabulary.value.length).toBe(0);
+    expect(vocab.error.value).toBe('Network error');
     expect(consoleSpy).toHaveBeenCalled();
   });
 
@@ -163,4 +176,3 @@ describe('useVocabulary composable', () => {
     expect(vocab.currentStudyIndex.value).toBe(0);
   });
 });
-

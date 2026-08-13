@@ -1,12 +1,14 @@
 import * as fs from 'fs';
 import * as path from 'path';
-
 import { fileURLToPath } from 'url';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const sourceDir = path.join(__dirname, '../source');
+
+let errorCount = 0;
+let warningCount = 0;
 
 function checkFile(filePath: string) {
   const content = fs.readFileSync(filePath, 'utf-8');
@@ -23,7 +25,8 @@ function checkFile(filePath: string) {
     // 1. Validate Delimiters (must have exactly 3 semicolons)
     const semicolonCount = (trimmed.match(/;/g) || []).length;
     if (semicolonCount !== 3) {
-      console.log(`⚠️  ${baseName}:${lineNum} [Format]: Expected exactly 3 delimiters (found ${semicolonCount})`);
+      console.error(`❌ ${baseName}:${lineNum} [Format]: Expected exactly 3 delimiters (found ${semicolonCount})`);
+      errorCount++;
     }
 
     const parts = trimmed.split(';');
@@ -32,21 +35,35 @@ function checkFile(filePath: string) {
     const ukrainian = parts[2]?.trim() || '';
     const example = parts[3]?.trim() || '';
 
-    if (!ukrainian) {
-      console.log(`⚠️  ${baseName}:${lineNum} [Missing Ukrainian]: "${german}"`);
+    if (!german) {
+      console.error(`❌ ${baseName}:${lineNum} [Missing German Term]`);
+      errorCount++;
     }
 
-    // 3. Find Cyrillic characters in German/English/Example columns
+    if (!ukrainian) {
+      console.error(`❌ ${baseName}:${lineNum} [Missing Ukrainian]: "${german}"`);
+      errorCount++;
+    }
+
+    if (!english) {
+      console.warn(`⚠️  ${baseName}:${lineNum} [Missing English]: "${german}"`);
+      warningCount++;
+    }
+
+    // 3. Find Cyrillic characters in German/English columns
     // Range \u0400-\u04FF covers Cyrillic characters
     const cyrillicRegex = /[\u0400-\u04FF]/;
     if (cyrillicRegex.test(german)) {
-      console.log(`⚠️  ${baseName}:${lineNum} [Cyrillic in German]: "${german}"`);
+      console.error(`❌ ${baseName}:${lineNum} [Cyrillic in German]: "${german}"`);
+      errorCount++;
     }
     if (cyrillicRegex.test(english)) {
-      console.log(`⚠️  ${baseName}:${lineNum} [Cyrillic in English]: "${english}"`);
+      console.error(`❌ ${baseName}:${lineNum} [Cyrillic in English]: "${english}"`);
+      errorCount++;
     }
     if (cyrillicRegex.test(example)) {
-      console.log(`⚠️  ${baseName}:${lineNum} [Cyrillic in Example]: "${example}"`);
+      console.warn(`⚠️  ${baseName}:${lineNum} [Cyrillic in Example]: "${example}"`);
+      warningCount++;
     }
 
     // 4. Check for abbreviations in example that are in parentheses in German
@@ -59,7 +76,8 @@ function checkFile(filePath: string) {
         // If example uses the abbreviation instead of a full word, warn about it
         const wordPattern = new RegExp(`\\b${abbr}\\b`);
         if (wordPattern.test(example) && !example.toLowerCase().includes(german.split('(')[0].trim().toLowerCase().slice(0, 5))) {
-          console.log(`⚠️  ${baseName}:${lineNum} [Abbreviation Alert]: Example uses "${abbr}", consider using full word from "${german}"`);
+          console.warn(`⚠️  ${baseName}:${lineNum} [Abbreviation Alert]: Example uses "${abbr}", consider using full word from "${german}"`);
+          warningCount++;
         }
       }
     }
@@ -75,7 +93,15 @@ function run() {
 
   const files = fs.readdirSync(sourceDir).filter(f => f.endsWith('.txt'));
   files.forEach(f => checkFile(path.join(sourceDir, f)));
-  console.log('✅ Validation complete.');
+
+  if (errorCount > 0) {
+    console.error(`\n❌ Validation failed: ${errorCount} error(s), ${warningCount} warning(s) found.`);
+    process.exit(1);
+  } else if (warningCount > 0) {
+    console.log(`\n⚠️  Validation passed with ${warningCount} warning(s).`);
+  } else {
+    console.log('\n✅ Validation passed with zero errors/warnings.');
+  }
 }
 
 run();

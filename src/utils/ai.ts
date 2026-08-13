@@ -1,4 +1,6 @@
 // Helper for on-device LanguageModel API & Cloud Gemini API fallback
+import { safeStorage } from './storage';
+import { STORAGE_KEYS } from '../constants/storage';
 
 export interface AIServiceResponse {
   success: boolean;
@@ -6,24 +8,39 @@ export interface AIServiceResponse {
   source: 'nano' | 'cloud' | 'none';
 }
 
+export interface AICapabilities {
+  available: 'readily' | 'after-download' | 'no';
+}
+
+export interface AILanguageModelSession {
+  prompt: (input: string) => Promise<string>;
+  destroy: () => void;
+}
+
+export interface AILanguageModelCreateOptions {
+  systemInstruction?: string;
+}
+
+export interface AILanguageModel {
+  create: (options?: AILanguageModelCreateOptions) => Promise<AILanguageModelSession>;
+  capabilities: () => Promise<AICapabilities>;
+}
+
 // Extend Window interface for TypeScript
 declare global {
   interface Window {
     ai?: {
-      languageModel?: {
-        create: (options?: any) => Promise<any>;
-        capabilities: () => Promise<any>;
-      };
+      languageModel?: AILanguageModel;
     };
   }
 }
 
 export const getCloudKey = (): string => {
-  return localStorage.getItem('anki_gemini_api_key') || '';
+  return safeStorage.getString(STORAGE_KEYS.GEMINI_API_KEY, '');
 };
 
 export const setCloudKey = (key: string): void => {
-  localStorage.setItem('anki_gemini_api_key', key);
+  safeStorage.setItem(STORAGE_KEYS.GEMINI_API_KEY, key);
 };
 
 export const checkOnDeviceSupport = async (): Promise<boolean> => {
@@ -95,11 +112,12 @@ export const callAI = async (
     if (!text) throw new Error('Empty response from Gemini API');
 
     return { success: true, text, source: 'cloud' };
-  } catch (err: any) {
-    console.error('Cloud Gemini API error:', err);
+  } catch (err: unknown) {
+    const errorMessage = err instanceof Error ? err.message : String(err);
+    console.error('Cloud Gemini API error:', errorMessage);
     return {
       success: false,
-      text: `Error calling Gemini API: ${err.message || err}`,
+      text: `Error calling Gemini API: ${errorMessage}`,
       source: 'none'
     };
   }

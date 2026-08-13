@@ -1,64 +1,75 @@
 import { ref, computed, watch } from 'vue';
 import type { Word, SRSState, StudyDirection } from '../types';
+import { safeStorage } from '../utils/storage';
+import { STORAGE_KEYS } from '../constants/storage';
 
-const LEVEL_TRANSITIONS: Record<'again' | 'hard' | 'good' | 'easy', (level: number) => number> = {
+const LEVEL_TRANSITIONS: Readonly<Record<'again' | 'hard' | 'good' | 'easy', (level: number) => number>> = {
   again: () => 0,
   hard: (level) => Math.max(0, level),
   good: (level) => Math.min(5, level + 1),
   easy: (level) => Math.min(5, level + 2),
 };
 
-export const getItemKey = (item: Word) => item.id || `${item.german}-${item.thema}`;
+export const getItemKey = (item: Word): string => item.id || `${item.german}-${item.thema}`;
+
+// Module-level shared state (Singleton pattern across components)
+const vocabulary = ref<Word[]>([]);
+const isLoading = ref<boolean>(false);
+const error = ref<string | null>(null);
+
+const masteredIds = ref<Set<string>>(
+  new Set<string>(safeStorage.getItem<string[]>(STORAGE_KEYS.MASTERED_WORDS, []))
+);
+
+const srsData = ref<Record<string, SRSState>>(
+  safeStorage.getItem<Record<string, SRSState>>(STORAGE_KEYS.SRS_DATA, {})
+);
+
+const search = ref<string>('');
+const levelFilter = ref<string>('all');
+const themaFilter = ref<string>('all');
+const displayLimit = ref<number>(50);
+
+const isStudyMode = ref<boolean>(false);
+const currentStudyIndex = ref<number>(0);
+const isFlipped = ref<boolean>(false);
+const studyDirection = ref<StudyDirection>('DE_TO_UA');
+const isAutoplay = ref<boolean>(false);
+
+const isShuffled = ref<boolean>(false);
+const shuffledIndices = ref<number[]>([]);
+
+// Reset display limit and shuffle when filters change
+watch([search, levelFilter, themaFilter], () => {
+  displayLimit.value = 50;
+  isShuffled.value = false;
+  shuffledIndices.value = [];
+});
 
 export function useVocabulary() {
-  const vocabulary = ref<Word[]>([]);
-  
-  // Load masteredIds from localStorage
-  const masteredIds = ref<Set<string>>(new Set(
-    JSON.parse(localStorage.getItem('anki_mastered_words') || '[]')
-  ));
-  
-  const srsData = ref<Record<string, SRSState>>(
-    JSON.parse(localStorage.getItem('anki_srs_v2') || '{}')
-  );
-
-  const search = ref('');
-  const levelFilter = ref('all');
-  const themaFilter = ref('all');
-  const displayLimit = ref(50);
-  
-  const isStudyMode = ref(false);
-  const currentStudyIndex = ref(0);
-  const isFlipped = ref(false);
-  const studyDirection = ref<StudyDirection>('DE_TO_UA');
-  const isAutoplay = ref(false);
-
-  // Shuffle state
-  const isShuffled = ref(false);
-  const shuffledIndices = ref<number[]>([]);
-
-  // Reset display limit and shuffle when filters change
-  watch([search, levelFilter, themaFilter], () => {
-    displayLimit.value = 50;
-    isShuffled.value = false;
-    shuffledIndices.value = [];
-  });
-
-  // Load data
   const init = async () => {
+    if (vocabulary.value.length > 0) return; // Already loaded
+
+    isLoading.value = true;
+    error.value = null;
+
     try {
       const response = await fetch('data.json');
       if (!response.ok) {
         throw new Error(`Failed to fetch vocabulary data: HTTP ${response.status}`);
       }
       vocabulary.value = await response.json();
-    } catch (error) {
-      console.error('Error fetching vocabulary:', error);
+    } catch (err: unknown) {
+      const message = err instanceof Error ? err.message : String(err);
+      console.error('Error fetching vocabulary:', message);
+      error.value = message;
+    } finally {
+      isLoading.value = false;
     }
   };
 
   const saveSRS = () => {
-    localStorage.setItem('anki_srs_v2', JSON.stringify(srsData.value));
+    safeStorage.setItem(STORAGE_KEYS.SRS_DATA, srsData.value);
   };
 
   const toggleMastered = (item: Word) => {
@@ -68,7 +79,7 @@ export function useVocabulary() {
     } else {
       masteredIds.value.add(key);
     }
-    localStorage.setItem('anki_mastered_words', JSON.stringify(Array.from(masteredIds.value)));
+    safeStorage.setItem(STORAGE_KEYS.MASTERED_WORDS, Array.from(masteredIds.value));
     
     // Safety check for study index after removing a card from the list
     if (isStudyMode.value && currentStudyIndex.value >= studyList.value.length) {
@@ -182,7 +193,10 @@ export function useVocabulary() {
     isAutoplay,
     isShuffled,
     masteredIds,
+    srsData,
     displayLimit,
+    isLoading,
+    error,
     init,
     updateSRS,
     nextCard,

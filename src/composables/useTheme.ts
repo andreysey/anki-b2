@@ -1,9 +1,11 @@
 import { ref, watch } from 'vue';
+import { safeStorage } from '../utils/storage';
+import { STORAGE_KEYS } from '../constants/storage';
 
 export type ThemeMode = 'light' | 'dark' | 'system';
 
 const themeMode = ref<ThemeMode>(
-  (localStorage.getItem('anki_theme_mode') as ThemeMode) || 'system'
+  safeStorage.getString(STORAGE_KEYS.THEME_MODE, 'system') as ThemeMode
 );
 
 export function useTheme() {
@@ -30,7 +32,7 @@ export function useTheme() {
 
   const setThemeMode = (mode: ThemeMode) => {
     themeMode.value = mode;
-    localStorage.setItem('anki_theme_mode', mode);
+    safeStorage.setItem(STORAGE_KEYS.THEME_MODE, mode);
     applyTheme();
   };
 

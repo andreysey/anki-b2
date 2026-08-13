@@ -29,7 +29,10 @@ describe('ai utils', () => {
       window.ai = {
         languageModel: {
           capabilities: async () => ({ available: 'readily' }),
-          create: async () => ({}),
+          create: async () => ({
+            prompt: async () => '',
+            destroy: () => {},
+          }),
         },
       };
       const isSupported = await checkOnDeviceSupport();

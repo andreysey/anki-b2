@@ -56,5 +56,30 @@ html.dark .p-card:hover {
   transform: rotateY(180deg);
 }
 
+/* Semantic Gender Article Colors with Light/Dark adaptiveness */
+.article-der {
+  color: #0284c7;
+  font-weight: 700;
+}
 
+.article-die {
+  color: #dc2626;
+  font-weight: 700;
+}
 
+.article-das {
+  color: #16a34a;
+  font-weight: 700;
+}
+
+html.dark .article-der {
+  color: #38bdf8;
+}
+
+html.dark .article-die {
+  color: #f87171;
+}
+
+html.dark .article-das {
+  color: #4ade80;
+}
