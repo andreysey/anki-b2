@@ -25,7 +25,9 @@ function checkFile(filePath: string) {
     // 1. Validate Delimiters (must have exactly 3 semicolons)
     const semicolonCount = (trimmed.match(/;/g) || []).length;
     if (semicolonCount !== 3) {
-      console.error(`❌ ${baseName}:${lineNum} [Format]: Expected exactly 3 delimiters (found ${semicolonCount})`);
+      console.error(
+        `❌ ${baseName}:${lineNum} [Format]: Expected exactly 3 delimiters (found ${semicolonCount})`
+      );
       errorCount++;
     }
 
@@ -75,8 +77,13 @@ function checkFile(filePath: string) {
       if (/^[A-Z]{2,4}$/.test(abbr)) {
         // If example uses the abbreviation instead of a full word, warn about it
         const wordPattern = new RegExp(`\\b${abbr}\\b`);
-        if (wordPattern.test(example) && !example.toLowerCase().includes(german.split('(')[0].trim().toLowerCase().slice(0, 5))) {
-          console.warn(`⚠️  ${baseName}:${lineNum} [Abbreviation Alert]: Example uses "${abbr}", consider using full word from "${german}"`);
+        if (
+          wordPattern.test(example) &&
+          !example.toLowerCase().includes(german.split('(')[0].trim().toLowerCase().slice(0, 5))
+        ) {
+          console.warn(
+            `⚠️  ${baseName}:${lineNum} [Abbreviation Alert]: Example uses "${abbr}", consider using full word from "${german}"`
+          );
           warningCount++;
         }
       }
@@ -91,11 +98,13 @@ function run() {
     process.exit(1);
   }
 
-  const files = fs.readdirSync(sourceDir).filter(f => f.endsWith('.txt'));
-  files.forEach(f => checkFile(path.join(sourceDir, f)));
+  const files = fs.readdirSync(sourceDir).filter((f) => f.endsWith('.txt'));
+  files.forEach((f) => checkFile(path.join(sourceDir, f)));
 
   if (errorCount > 0) {
-    console.error(`\n❌ Validation failed: ${errorCount} error(s), ${warningCount} warning(s) found.`);
+    console.error(
+      `\n❌ Validation failed: ${errorCount} error(s), ${warningCount} warning(s) found.`
+    );
     process.exit(1);
   } else if (warningCount > 0) {
     console.log(`\n⚠️  Validation passed with ${warningCount} warning(s).`);

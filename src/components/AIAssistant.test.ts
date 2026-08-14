@@ -12,7 +12,7 @@ const mockWord: Word = {
   level: 'B2',
   thema: 99,
   example: 'Ich rufe an.',
-  german_audio: 'anrufen.mp3',
+  german_audio: 'anrufen.mp3'
 };
 
 vi.mock('../utils/ai', () => ({
@@ -21,8 +21,8 @@ vi.mock('../utils/ai', () => ({
   setCloudKey: vi.fn(),
   callAI: vi.fn().mockResolvedValue({
     text: 'Grammar analysis result',
-    source: 'cloud',
-  }),
+    source: 'cloud'
+  })
 }));
 
 describe('AIAssistant.vue', () => {
@@ -35,7 +35,7 @@ describe('AIAssistant.vue', () => {
     vi.spyOn(aiUtils, 'getCloudKey').mockReturnValue('');
 
     const wrapper = mount(AIAssistant, {
-      props: { word: mockWord },
+      props: { word: mockWord }
     });
 
     await new Promise((r) => setTimeout(r, 20));
@@ -47,7 +47,7 @@ describe('AIAssistant.vue', () => {
     vi.spyOn(aiUtils, 'getCloudKey').mockReturnValue('mock-api-key');
 
     const wrapper = mount(AIAssistant, {
-      props: { word: mockWord },
+      props: { word: mockWord }
     });
 
     await new Promise((r) => setTimeout(r, 20));
@@ -60,11 +60,11 @@ describe('AIAssistant.vue', () => {
     const callAISpy = vi.spyOn(aiUtils, 'callAI').mockResolvedValue({
       success: true,
       text: 'Grammar breakdown answer',
-      source: 'cloud',
+      source: 'cloud'
     });
 
     const wrapper = mount(AIAssistant, {
-      props: { word: mockWord },
+      props: { word: mockWord }
     });
 
     await new Promise((r) => setTimeout(r, 20));
@@ -83,11 +83,11 @@ describe('AIAssistant.vue', () => {
     const callAISpy = vi.spyOn(aiUtils, 'callAI').mockResolvedValue({
       success: true,
       text: 'Dialogue answer',
-      source: 'cloud',
+      source: 'cloud'
     });
 
     const wrapper = mount(AIAssistant, {
-      props: { word: mockWord },
+      props: { word: mockWord }
     });
 
     await new Promise((r) => setTimeout(r, 20));

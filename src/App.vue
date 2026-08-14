@@ -57,12 +57,7 @@ const {
   loadMore
 } = useVocabulary();
 
-const {
-  themeMode,
-  cycleTheme,
-  initTheme,
-  cleanupTheme
-} = useTheme();
+const { themeMode, cycleTheme, initTheme, cleanupTheme } = useTheme();
 
 const themeIcon = computed(() => {
   if (themeMode.value === 'light') return 'pi pi-sun';
@@ -76,19 +71,13 @@ const themeModeLabel = computed(() => {
   return 'System';
 });
 
-const {
-  germanVoices,
-  selectedVoiceURI,
-  ttsRate,
-  initVoices,
-  playAudio
-} = useSpeechSynthesis();
+const { germanVoices, selectedVoiceURI, ttsRate, initVoices, playAudio } = useSpeechSynthesis();
 
 const activeView = ref<'list' | 'study' | 'dashboard'>('list');
 
 // Synchronize activeView with isStudyMode bidirectionally and reset scroll
 watch(activeView, async (val) => {
-  isStudyMode.value = (val === 'study');
+  isStudyMode.value = val === 'study';
   await nextTick();
   if (mainContentRef.value) {
     mainContentRef.value.scrollTop = 0;
@@ -120,19 +109,24 @@ const audioOptions = [
 
 const handleSRSUpdate = (severity: 'again' | 'hard' | 'good' | 'easy') => {
   updateSRS(severity);
-  const labels: Record<string, string> = { again: 'Again', hard: 'Hard', good: 'Good', easy: 'Easy' };
+  const labels: Record<string, string> = {
+    again: 'Again',
+    hard: 'Hard',
+    good: 'Good',
+    easy: 'Easy'
+  };
   const toastSeverity: Record<string, 'error' | 'warn' | 'success' | 'info'> = {
     again: 'error',
     hard: 'warn',
     good: 'success',
     easy: 'info'
   };
-  
-  toast.add({ 
-    severity: toastSeverity[severity], 
-    summary: 'Graded', 
-    detail: labels[severity], 
-    life: 2000 
+
+  toast.add({
+    severity: toastSeverity[severity],
+    summary: 'Graded',
+    detail: labels[severity],
+    life: 2000
   });
 };
 
@@ -152,7 +146,9 @@ const handleMasterCurrentCard = () => {
 const shortcuts = useKeyboardShortcuts({
   isStudyMode,
   isFlipped,
-  onFlip: () => { isFlipped.value = !isFlipped.value; },
+  onFlip: () => {
+    isFlipped.value = !isFlipped.value;
+  },
   onNext: nextCard,
   onPrev: prevCard,
   onToggleMastered: handleMasterCurrentCard,
@@ -171,45 +167,59 @@ onUnmounted(() => {
   shortcuts.cleanup();
 });
 
-watch([currentStudyIndex, isFlipped, isStudyMode, isAutoplay], ([newIdx, newFlipped, studying, autoplay]) => {
-  if (!studying || !autoplay) return;
-  const currentCard = studyList.value[newIdx];
-  if (!currentCard) return;
+watch(
+  [currentStudyIndex, isFlipped, isStudyMode, isAutoplay],
+  ([newIdx, newFlipped, studying, autoplay]) => {
+    if (!studying || !autoplay) return;
+    const currentCard = studyList.value[newIdx];
+    if (!currentCard) return;
 
-  if (studyDirection.value === 'DE_TO_UA') {
-    if (!newFlipped) {
-      playAudio(currentCard.german_audio || currentCard.german);
-    } else if (currentCard.example) {
-      playAudio(currentCard.example);
-    }
-  } else {
-    if (newFlipped) {
-      playAudio(currentCard.german_audio || currentCard.german);
+    if (studyDirection.value === 'DE_TO_UA') {
+      if (!newFlipped) {
+        playAudio(currentCard.german_audio || currentCard.german);
+      } else if (currentCard.example) {
+        playAudio(currentCard.example);
+      }
+    } else {
+      if (newFlipped) {
+        playAudio(currentCard.german_audio || currentCard.german);
+      }
     }
   }
-});
+);
 </script>
 
 <template>
   <Toast />
   <AISettingsDialog />
-  
+
   <!-- macOS Ambient Desktop Wallpaper Canvas -->
-  <div class="macos-desktop-bg min-h-screen text-slate-900 dark:text-slate-100 flex flex-col items-center justify-start p-4 sm:p-8 lg:p-12 font-sans selection:bg-primary-500 selection:text-white transition-colors duration-500">
-    
+  <div
+    class="macos-desktop-bg min-h-screen text-slate-900 dark:text-slate-100 flex flex-col items-center justify-start p-4 sm:p-8 lg:p-12 font-sans selection:bg-primary-500 selection:text-white transition-colors duration-500"
+  >
     <!-- Central macOS Floating Window -->
-    <div class="macos-window w-full max-w-6xl rounded-[28px] sm:rounded-[36px] overflow-hidden flex flex-col min-h-[90vh] my-auto">
-      
+    <div
+      class="macos-window w-full max-w-6xl rounded-[28px] sm:rounded-[36px] overflow-hidden flex flex-col min-h-[90vh] my-auto"
+    >
       <!-- macOS Window Titlebar & Toolbar -->
-      <header class="macos-titlebar h-16 px-6 sm:px-10 flex items-center justify-between gap-4 select-none shrink-0">
+      <header
+        class="macos-titlebar h-16 px-6 sm:px-10 flex items-center justify-between gap-4 select-none shrink-0"
+      >
         <!-- App Logo & Title -->
         <div class="flex items-center gap-3">
-          <div class="w-9 h-9 rounded-xl bg-primary-500/10 border border-primary-500/20 flex items-center justify-center text-primary-500 dark:text-primary-400 shadow-xs">
+          <div
+            class="w-9 h-9 rounded-xl bg-primary-500/10 border border-primary-500/20 flex items-center justify-center text-primary-500 dark:text-primary-400 shadow-xs"
+          >
             <i class="pi pi-book text-base"></i>
           </div>
           <div class="flex items-center gap-2">
-            <span class="text-sm sm:text-base font-bold tracking-tight text-slate-800 dark:text-slate-200">Anki B2</span>
-            <span class="text-[10px] font-mono font-medium px-1.5 py-0.5 rounded-md bg-slate-100 dark:bg-white/10 text-slate-500 dark:text-slate-400 border border-slate-200/80 dark:border-white/10 shadow-2xs">
+            <span
+              class="text-sm sm:text-base font-bold tracking-tight text-slate-800 dark:text-slate-200"
+              >Anki B2</span
+            >
+            <span
+              class="text-[10px] font-mono font-medium px-1.5 py-0.5 rounded-md bg-slate-100 dark:bg-white/10 text-slate-500 dark:text-slate-400 border border-slate-200/80 dark:border-white/10 shadow-2xs"
+            >
               v{{ appVersion }}
             </span>
           </div>
@@ -217,31 +227,43 @@ watch([currentStudyIndex, isFlipped, isStudyMode, isAutoplay], ([newIdx, newFlip
 
         <!-- Center: macOS Segmented Navigation Pill -->
         <nav class="macos-segmented-bar flex items-center gap-1.5 shadow-inner">
-          <button 
+          <button
             type="button"
             id="tab-dictionary"
             class="px-4 py-1.5 text-xs sm:text-sm font-semibold rounded-lg transition-all cursor-pointer"
-            :class="activeView === 'list' ? 'macos-segmented-item-active' : 'text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200'"
+            :class="
+              activeView === 'list'
+                ? 'macos-segmented-item-active'
+                : 'text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200'
+            "
             @click="activeView = 'list'"
           >
             <i class="pi pi-list mr-1.5 text-xs"></i>
             <span>Dictionary</span>
           </button>
-          <button 
+          <button
             type="button"
             id="tab-study"
             class="px-4 py-1.5 text-xs sm:text-sm font-semibold rounded-lg transition-all cursor-pointer"
-            :class="activeView === 'study' ? 'macos-segmented-item-active' : 'text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200'"
+            :class="
+              activeView === 'study'
+                ? 'macos-segmented-item-active'
+                : 'text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200'
+            "
             @click="activeView = 'study'"
           >
             <i class="pi pi-graduation-cap mr-1.5 text-xs"></i>
             <span>Study Mode</span>
           </button>
-          <button 
+          <button
             type="button"
             id="tab-dashboard"
             class="px-4 py-1.5 text-xs sm:text-sm font-semibold rounded-lg transition-all cursor-pointer"
-            :class="activeView === 'dashboard' ? 'macos-segmented-item-active' : 'text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200'"
+            :class="
+              activeView === 'dashboard'
+                ? 'macos-segmented-item-active'
+                : 'text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200'
+            "
             @click="activeView = 'dashboard'"
           >
             <i class="pi pi-chart-bar mr-1.5 text-xs"></i>
@@ -251,21 +273,21 @@ watch([currentStudyIndex, isFlipped, isStudyMode, isAutoplay], ([newIdx, newFlip
 
         <!-- Right: Window Utility Actions -->
         <div class="flex items-center gap-2 justify-end">
-          <Button 
+          <Button
             id="btn-theme-toggle"
-            :icon="themeIcon" 
-            severity="secondary" 
-            rounded 
-            text 
+            :icon="themeIcon"
+            severity="secondary"
+            rounded
+            text
             size="small"
-            @click="cycleTheme" 
+            @click="cycleTheme"
             :title="`Theme: ${themeModeLabel}`"
             class="hover:bg-slate-200/60 dark:hover:bg-white/10 active:scale-95 transition-all !w-9 !h-9"
           />
-          <a 
-            href="https://github.com/andreysey/anki-b2" 
-            target="_blank" 
-            rel="noopener noreferrer" 
+          <a
+            href="https://github.com/andreysey/anki-b2"
+            target="_blank"
+            rel="noopener noreferrer"
             aria-label="GitHub Repository"
             class="p-button p-component p-button-icon-only p-button-secondary p-button-rounded p-button-text !w-9 !h-9 hover:bg-slate-200/60 dark:hover:bg-white/10 active:scale-95 transition-all text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100"
           >
@@ -275,16 +297,24 @@ watch([currentStudyIndex, isFlipped, isStudyMode, isAutoplay], ([newIdx, newFlip
       </header>
 
       <!-- macOS Window Body Content -->
-      <main ref="mainContentRef" class="macos-main-content flex-1 flex flex-col gap-8 overflow-y-auto custom-scrollbar">
+      <main
+        ref="mainContentRef"
+        class="macos-main-content flex-1 flex flex-col gap-8 overflow-y-auto custom-scrollbar"
+      >
         <AppHero v-if="activeView === 'list'" />
 
         <!-- Error Banner -->
-        <Message v-if="error" severity="error" icon="pi pi-exclamation-triangle" class="!rounded-xl mb-4">
+        <Message
+          v-if="error"
+          severity="error"
+          icon="pi pi-exclamation-triangle"
+          class="!rounded-xl mb-4"
+        >
           {{ error }}
         </Message>
 
         <!-- Filter Bar (Dictionary View) -->
-        <FilterBar 
+        <FilterBar
           v-if="activeView === 'list'"
           :vocabulary="vocabulary"
           v-model:search="search"
@@ -295,12 +325,21 @@ watch([currentStudyIndex, isFlipped, isStudyMode, isAutoplay], ([newIdx, newFlip
         />
 
         <!-- Audio Settings Panel -->
-        <Panel v-if="activeView === 'list'" header="Speech & Audio Preferences" toggleable collapsed class="shadow-sm !rounded-2xl border border-slate-200/80 dark:border-white/10">
+        <Panel
+          v-if="activeView === 'list'"
+          header="Speech & Audio Preferences"
+          toggleable
+          collapsed
+          class="shadow-sm !rounded-2xl border border-slate-200/80 dark:border-white/10"
+        >
           <div class="grid grid-cols-1 md:grid-cols-2 gap-6 p-5">
             <div class="flex flex-col gap-2">
-              <span class="text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">German Voice Engine</span>
-              <select 
-                v-model="selectedVoiceURI" 
+              <span
+                class="text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400"
+                >German Voice Engine</span
+              >
+              <select
+                v-model="selectedVoiceURI"
                 class="w-full bg-slate-50 dark:bg-black/40 border border-slate-200 dark:border-white/10 text-slate-800 dark:text-slate-100 rounded-xl p-3 text-xs sm:text-sm outline-none focus:border-primary-500"
               >
                 <option v-for="voice in germanVoices" :key="voice.voiceURI" :value="voice.voiceURI">
@@ -309,22 +348,25 @@ watch([currentStudyIndex, isFlipped, isStudyMode, isAutoplay], ([newIdx, newFlip
               </select>
             </div>
             <div class="flex flex-col gap-2 justify-center min-h-[60px]">
-              <span class="text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">Speech Rate ({{ ttsRate }}x)</span>
-              <input 
-                type="range" 
-                min="0.5" 
-                max="1.5" 
-                step="0.05" 
+              <span
+                class="text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400"
+                >Speech Rate ({{ ttsRate }}x)</span
+              >
+              <input
+                type="range"
+                min="0.5"
+                max="1.5"
+                step="0.05"
                 v-model.number="ttsRate"
                 class="w-full h-2 bg-slate-300 dark:bg-white/20 rounded-lg cursor-pointer accent-primary-500 block"
-                style="appearance: auto; -webkit-appearance: auto;"
+                style="appearance: auto; -webkit-appearance: auto"
               />
             </div>
           </div>
         </Panel>
 
         <!-- Dashboard View -->
-        <DashboardView 
+        <DashboardView
           v-if="activeView === 'dashboard'"
           :vocabulary="vocabulary"
           :masteredIds="masteredIds"
@@ -338,7 +380,7 @@ watch([currentStudyIndex, isFlipped, isStudyMode, isAutoplay], ([newIdx, newFlip
         </div>
 
         <!-- Study Mode View -->
-        <StudyView 
+        <StudyView
           v-else-if="activeView === 'study'"
           :vocabulary="studyList"
           :currentStudyIndex="currentStudyIndex"
@@ -359,7 +401,7 @@ watch([currentStudyIndex, isFlipped, isStudyMode, isAutoplay], ([newIdx, newFlip
         />
 
         <!-- Vocabulary List View -->
-        <VocabularyList 
+        <VocabularyList
           v-else
           :vocabulary="filteredVocabulary"
           :displayLimit="displayLimit"

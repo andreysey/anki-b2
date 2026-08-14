@@ -1,8 +1,10 @@
 :root {
   --text-main: #0f172a;
   --text-muted: #64748b;
-  --macos-font: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "SF Compact", "Helvetica Neue", system-ui, sans-serif;
-  --macos-mono: "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --macos-font:
+    -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', 'SF Compact',
+    'Helvetica Neue', system-ui, sans-serif;
+  --macos-mono: 'SF Mono', Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
   --transition-smooth: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
   --macos-spring: cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }

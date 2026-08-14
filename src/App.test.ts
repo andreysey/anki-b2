@@ -12,7 +12,7 @@ const mockWords: Word[] = [
     level: 'B2',
     thema: 99,
     example: 'Ich rufe an.',
-    german_audio: 'anrufen.mp3',
+    german_audio: 'anrufen.mp3'
   },
   {
     id: '2',
@@ -22,14 +22,14 @@ const mockWords: Word[] = [
     level: 'B1+',
     thema: 1,
     example: 'Er schläft.',
-    german_audio: 'schlafen.mp3',
-  },
+    german_audio: 'schlafen.mp3'
+  }
 ];
 
 vi.mock('primevue/usetoast', () => ({
   useToast: () => ({
-    add: vi.fn(),
-  }),
+    add: vi.fn()
+  })
 }));
 
 describe('App.vue', () => {
@@ -38,7 +38,7 @@ describe('App.vue', () => {
     vi.restoreAllMocks();
     globalThis.fetch = vi.fn().mockResolvedValue({
       ok: true,
-      json: async () => mockWords,
+      json: async () => mockWords
     } as Response);
   });
 
@@ -46,9 +46,9 @@ describe('App.vue', () => {
     const wrapper = mount(App, {
       global: {
         stubs: {
-          Toast: true,
-        },
-      },
+          Toast: true
+        }
+      }
     });
 
     // Wait for init
@@ -63,9 +63,9 @@ describe('App.vue', () => {
     const wrapper = mount(App, {
       global: {
         stubs: {
-          Toast: true,
-        },
-      },
+          Toast: true
+        }
+      }
     });
 
     await new Promise((resolve) => setTimeout(resolve, 50));
@@ -87,9 +87,9 @@ describe('App.vue', () => {
     const wrapper = mount(App, {
       global: {
         stubs: {
-          Toast: true,
-        },
-      },
+          Toast: true
+        }
+      }
     });
 
     await new Promise((resolve) => setTimeout(resolve, 50));

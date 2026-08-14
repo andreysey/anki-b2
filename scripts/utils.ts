@@ -87,7 +87,11 @@ export function colorizeGender(german: string): string {
  * Port of Rust: highlight_word_in_example
  * Highlights the main word (or its declined form) in the example sentence.
  */
-export function highlightWordInExample(cleanGerman: string, example: string, originalGerman?: string): string {
+export function highlightWordInExample(
+  cleanGerman: string,
+  example: string,
+  originalGerman?: string
+): string {
   if (!example) return '';
   const cacheKey = `${cleanGerman}|||${example}|||${originalGerman ?? ''}`;
   const cached = highlightWordCache.get(cacheKey);
@@ -99,8 +103,8 @@ export function highlightWordInExample(cleanGerman: string, example: string, ori
   if (originalGerman) {
     const parensMatch = originalGerman.match(/\((.*?)\)/);
     if (parensMatch && parensMatch[1]) {
-      parensMatch[1].split(',').forEach(form => {
-        form.split('/').forEach(part => {
+      parensMatch[1].split(',').forEach((form) => {
+        form.split('/').forEach((part) => {
           let f = part.trim();
           f = f.replace(/^(hat|ist|haben|sind)\s+/i, '').trim();
           f = f.replace(/\|/g, '');
@@ -114,11 +118,29 @@ export function highlightWordInExample(cleanGerman: string, example: string, ori
 
   // ── 2. Add base terms from cleanGerman
   const rawWords = cleanGerman.replace(/\(.*?\)/g, '').split(/\s+/);
-  const skipList = new Set(['der', 'die', 'das', 'ein', 'eine', 'mit', 'auf', 'aus', 'von',
-                            'bei', 'sich', 'jdn', 'etw', 'jdm', 'jds']);
+  const skipList = new Set([
+    'der',
+    'die',
+    'das',
+    'ein',
+    'eine',
+    'mit',
+    'auf',
+    'aus',
+    'von',
+    'bei',
+    'sich',
+    'jdn',
+    'etw',
+    'jdm',
+    'jds'
+  ]);
 
-  rawWords.forEach(w => {
-    const pipeParts = w.split('|').map(p => p.replace(/\.$/, '').trim()).filter(p => p.length > 2);
+  rawWords.forEach((w) => {
+    const pipeParts = w
+      .split('|')
+      .map((p) => p.replace(/\.$/, '').trim())
+      .filter((p) => p.length > 2);
     const cleaned = w.replace(/\|/g, '').replace(/\.$/, '').trim();
 
     if (cleaned.length > 2 && !skipList.has(cleaned.toLowerCase())) {
@@ -134,7 +156,7 @@ export function highlightWordInExample(cleanGerman: string, example: string, ori
     }
 
     if (pipeParts.length > 1) {
-      pipeParts.forEach(part => {
+      pipeParts.forEach((part) => {
         if (!skipList.has(part.toLowerCase())) {
           terms.push(part);
           if (part.endsWith('en') && part.length > 4) terms.push(part.slice(0, -2));
@@ -145,7 +167,7 @@ export function highlightWordInExample(cleanGerman: string, example: string, ori
 
   // ── 3. Compound terms
   const termsSnapshot = [...terms];
-  termsSnapshot.forEach(t => {
+  termsSnapshot.forEach((t) => {
     if (t.length >= 8) terms.push(t.slice(-6));
   });
 
@@ -164,7 +186,7 @@ export function highlightWordInExample(cleanGerman: string, example: string, ori
       if (pattern.test(highlightedExample)) {
         highlightedExample = highlightedExample.replace(
           pattern,
-          (_, p1, p2, p3) => `${p1}<b style="color: #eab308;">${p2}</b>${p3}`,
+          (_, p1, p2, p3) => `${p1}<b style="color: #eab308;">${p2}</b>${p3}`
         );
         hasHighlighted = true;
         break;
@@ -184,7 +206,7 @@ export function highlightWordInExample(cleanGerman: string, example: string, ori
         if (prefixPattern.test(highlightedExample)) {
           highlightedExample = highlightedExample.replace(
             prefixPattern,
-            (_, p1, p2, p3) => `${p1}<b style="color: #eab308;">${p2}</b>${p3}`,
+            (_, p1, p2, p3) => `${p1}<b style="color: #eab308;">${p2}</b>${p3}`
           );
           hasHighlighted = true;
         }
@@ -196,14 +218,17 @@ export function highlightWordInExample(cleanGerman: string, example: string, ori
 
   // ── 5. Fallback for separable-verb Partizip II
   if (!hasHighlighted) {
-    const geTerms = sortedTerms.filter(t => /^ge/i.test(t) && t.length >= 5);
+    const geTerms = sortedTerms.filter((t) => /^ge/i.test(t) && t.length >= 5);
     for (const term of geTerms) {
       try {
-        const substringPattern = getCompiledRegex(`([\\p{L}]*(${escapeRegex(term)}[\\p{L}]*))${we}`, 'iu');
+        const substringPattern = getCompiledRegex(
+          `([\\p{L}]*(${escapeRegex(term)}[\\p{L}]*))${we}`,
+          'iu'
+        );
         if (substringPattern.test(highlightedExample)) {
           highlightedExample = highlightedExample.replace(
             substringPattern,
-            (_, fullWord, _inner, p3) => `<b style="color: #eab308;">${fullWord}</b>${p3}`,
+            (_, fullWord, _inner, p3) => `<b style="color: #eab308;">${fullWord}</b>${p3}`
           );
           hasHighlighted = true;
           break;
@@ -216,15 +241,21 @@ export function highlightWordInExample(cleanGerman: string, example: string, ori
 
   // ── 6. Fallback: general substring search for terms ≥5 chars inside compound words
   if (!hasHighlighted) {
-    const longTerms = sortedTerms.filter(t => t.length >= 5);
+    const longTerms = sortedTerms.filter((t) => t.length >= 5);
     for (const term of longTerms) {
       try {
-        const substringPattern = getCompiledRegex(`(${wb.slice(1, -1)}[\\p{L}]*(${escapeRegex(term)})[\\p{L}]*)${we}`, 'iu');
+        const substringPattern = getCompiledRegex(
+          `(${wb.slice(1, -1)}[\\p{L}]*(${escapeRegex(term)})[\\p{L}]*)${we}`,
+          'iu'
+        );
         if (substringPattern.test(highlightedExample)) {
-          const replacePattern = getCompiledRegex(`${wb}([\\p{L}]*${escapeRegex(term)}[\\p{L}]*)${we}`, 'iu');
+          const replacePattern = getCompiledRegex(
+            `${wb}([\\p{L}]*${escapeRegex(term)}[\\p{L}]*)${we}`,
+            'iu'
+          );
           highlightedExample = highlightedExample.replace(
             replacePattern,
-            (_, p1, fullWord, p3) => `${p1}<b style="color: #eab308;">${fullWord}</b>${p3}`,
+            (_, p1, fullWord, p3) => `${p1}<b style="color: #eab308;">${fullWord}</b>${p3}`
           );
           hasHighlighted = true;
           break;

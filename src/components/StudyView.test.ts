@@ -12,18 +12,18 @@ const mockWords: Word[] = [
     level: 'B2',
     thema: 99,
     example: 'Ich rufe an.',
-    german_audio: 'anrufen.mp3',
-  },
+    german_audio: 'anrufen.mp3'
+  }
 ];
 
 const directionOptions: SelectOption<StudyDirection>[] = [
   { label: 'DE', value: 'DE_TO_UA' },
-  { label: 'UA', value: 'UA_TO_DE' },
+  { label: 'UA', value: 'UA_TO_DE' }
 ];
 
 const audioOptions = [
   { label: 'Audio On', value: true },
-  { label: 'Audio Off', value: false },
+  { label: 'Audio Off', value: false }
 ];
 
 describe('StudyView.vue', () => {
@@ -37,8 +37,8 @@ describe('StudyView.vue', () => {
         isAutoplay: true,
         studyProgress: 100,
         directionOptions,
-        audioOptions,
-      },
+        audioOptions
+      }
     });
 
     expect(wrapper.text()).toContain('Shuffle');
@@ -56,8 +56,8 @@ describe('StudyView.vue', () => {
         isAutoplay: true,
         studyProgress: 100,
         directionOptions,
-        audioOptions,
-      },
+        audioOptions
+      }
     });
 
     expect(wrapper.text()).toContain('AGAIN (1)');
@@ -80,8 +80,8 @@ describe('StudyView.vue', () => {
         isAutoplay: true,
         studyProgress: 100,
         directionOptions,
-        audioOptions,
-      },
+        audioOptions
+      }
     });
 
     const shuffleBtn = wrapper.findAll('button').find((b) => b.text().includes('Shuffle'));

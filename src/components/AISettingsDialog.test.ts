@@ -6,7 +6,7 @@ import { useAIAssistantState } from '../composables/useAIAssistantState';
 vi.mock('../utils/ai', () => ({
   checkOnDeviceSupport: vi.fn().mockResolvedValue(false),
   getCloudKey: vi.fn().mockReturnValue('stored-key'),
-  setCloudKey: vi.fn(),
+  setCloudKey: vi.fn()
 }));
 
 describe('AISettingsDialog.vue', () => {
@@ -23,10 +23,10 @@ describe('AISettingsDialog.vue', () => {
         stubs: {
           Dialog: {
             template: '<div v-if="visible" class="p-dialog-stub"><slot /></div>',
-            props: ['visible'],
-          },
-        },
-      },
+            props: ['visible']
+          }
+        }
+      }
     });
 
     expect(wrapper.find('.p-dialog-stub').exists()).toBe(true);

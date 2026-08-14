@@ -4,8 +4,26 @@ import FilterBar from './FilterBar.vue';
 import type { Word } from '../types';
 
 const mockVocab: Word[] = [
-  { id: '1', german: 'Haus', english: 'house', ukrainian: 'дім', level: 'B1+', thema: 1, example: '', german_audio: '' },
-  { id: '2', german: 'Auto', english: 'car', ukrainian: 'авто', level: 'B2', thema: 2, example: '', german_audio: '' }
+  {
+    id: '1',
+    german: 'Haus',
+    english: 'house',
+    ukrainian: 'дім',
+    level: 'B1+',
+    thema: 1,
+    example: '',
+    german_audio: ''
+  },
+  {
+    id: '2',
+    german: 'Auto',
+    english: 'car',
+    ukrainian: 'авто',
+    level: 'B2',
+    thema: 2,
+    example: '',
+    german_audio: ''
+  }
 ];
 
 describe('FilterBar.vue', () => {
@@ -16,8 +34,8 @@ describe('FilterBar.vue', () => {
         search: '',
         level: 'all',
         thema: 'all',
-        isStudyMode: false,
-      },
+        isStudyMode: false
+      }
     });
 
     expect(wrapper.find('input').exists()).toBe(true);
@@ -31,8 +49,8 @@ describe('FilterBar.vue', () => {
         search: '',
         level: 'all',
         thema: 'all',
-        isStudyMode: false,
-      },
+        isStudyMode: false
+      }
     });
 
     const button = wrapper.find('button');

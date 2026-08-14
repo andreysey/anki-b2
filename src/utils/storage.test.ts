@@ -21,7 +21,7 @@ describe('safeStorage', () => {
   it('handles invalid JSON gracefully without throwing and returns default value', () => {
     localStorage.setItem('corrupted_key', 'INVALID_JSON_{[[');
     const consoleWarnSpy = vi.spyOn(console, 'warn').mockImplementation(() => {});
-    
+
     const res = safeStorage.getItem('corrupted_key', ['default']);
     expect(res).toEqual(['default']);
     expect(consoleWarnSpy).toHaveBeenCalled();

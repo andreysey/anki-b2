@@ -12,19 +12,19 @@ const mockWord: Word = {
   ukrainian: 'професія',
   example: 'Er übt einen **wichtigen** Beruf aus.',
   level: 'B2',
-  thema: 1,
+  thema: 1
 };
 
 describe('VocabularyCardFace.vue', () => {
   it('renders German text and audio button when showGerman is true', () => {
     const wrapper = mount(VocabularyCardFace, {
       global: {
-        plugins: [PrimeVue],
+        plugins: [PrimeVue]
       },
       props: {
         word: mockWord,
-        showGerman: true,
-      },
+        showGerman: true
+      }
     });
 
     expect(wrapper.text()).toContain('Beruf');
@@ -35,12 +35,12 @@ describe('VocabularyCardFace.vue', () => {
   it('renders Ukrainian and English translations when showGerman is false', () => {
     const wrapper = mount(VocabularyCardFace, {
       global: {
-        plugins: [PrimeVue],
+        plugins: [PrimeVue]
       },
       props: {
         word: mockWord,
-        showGerman: false,
-      },
+        showGerman: false
+      }
     });
 
     expect(wrapper.text()).toContain('професія');
@@ -50,17 +50,19 @@ describe('VocabularyCardFace.vue', () => {
   it('renders example sentence and emits play-audio when example audio button is clicked', async () => {
     const wrapper = mount(VocabularyCardFace, {
       global: {
-        plugins: [PrimeVue],
+        plugins: [PrimeVue]
       },
       props: {
         word: mockWord,
         showGerman: false,
-        showExample: true,
-      },
+        showExample: true
+      }
     });
 
     expect(wrapper.text()).toContain('Er übt einen');
-    const exampleAudioBtn = wrapper.find('button[aria-label="Play example sentence pronunciation"]');
+    const exampleAudioBtn = wrapper.find(
+      'button[aria-label="Play example sentence pronunciation"]'
+    );
     expect(exampleAudioBtn.exists()).toBe(true);
 
     await exampleAudioBtn.trigger('click');

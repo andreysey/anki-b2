@@ -4,12 +4,12 @@ import { safeStorage } from '../utils/storage';
 import { STORAGE_KEYS } from '../constants/storage';
 
 export const SRS_INTERVALS_MS: Readonly<Record<number, number>> = {
-  0: 0,                           // Immediately due
-  1: 1 * 24 * 60 * 60 * 1000,    // 1 day
-  2: 3 * 24 * 60 * 60 * 1000,    // 3 days
-  3: 7 * 24 * 60 * 60 * 1000,    // 7 days
-  4: 14 * 24 * 60 * 60 * 1000,   // 14 days
-  5: 30 * 24 * 60 * 60 * 1000,   // 30 days
+  0: 0, // Immediately due
+  1: 1 * 24 * 60 * 60 * 1000, // 1 day
+  2: 3 * 24 * 60 * 60 * 1000, // 3 days
+  3: 7 * 24 * 60 * 60 * 1000, // 7 days
+  4: 14 * 24 * 60 * 60 * 1000, // 14 days
+  5: 30 * 24 * 60 * 60 * 1000 // 30 days
 };
 
 export const getCardDueDate = (srs?: SRSState): number => {
@@ -20,11 +20,13 @@ export const getCardDueDate = (srs?: SRSState): number => {
   return srs.lastReview + interval;
 };
 
-const LEVEL_TRANSITIONS: Readonly<Record<'again' | 'hard' | 'good' | 'easy', (level: number) => number>> = {
+const LEVEL_TRANSITIONS: Readonly<
+  Record<'again' | 'hard' | 'good' | 'easy', (level: number) => number>
+> = {
   again: () => 0,
   hard: (level) => Math.max(0, level),
   good: (level) => Math.min(5, level + 1),
-  easy: (level) => Math.min(5, level + 2),
+  easy: (level) => Math.min(5, level + 2)
 };
 
 export const getItemKey = (item: Word): string => item.id || `${item.german}-${item.thema}`;
@@ -80,7 +82,7 @@ export function useVocabulary() {
         throw new Error(`Failed to fetch vocabulary data: HTTP ${response.status}`);
       }
       const data: Word[] = await response.json();
-      data.forEach(item => {
+      data.forEach((item) => {
         if (!item._searchIndex) {
           item._searchIndex = buildSearchIndex(item);
         }
@@ -107,7 +109,7 @@ export function useVocabulary() {
       masteredIds.value.add(key);
     }
     safeStorage.setItem(STORAGE_KEYS.MASTERED_WORDS, Array.from(masteredIds.value));
-    
+
     // Safety check for study index after removing a card from the list
     if (isStudyMode.value && currentStudyIndex.value >= studyList.value.length) {
       currentStudyIndex.value = Math.max(0, studyList.value.length - 1);
@@ -124,11 +126,12 @@ export function useVocabulary() {
   const filteredVocabulary = computed(() => {
     const trimmedQuery = search.value.trim().toLowerCase();
 
-    return vocabulary.value.filter(item => {
+    return vocabulary.value.filter((item) => {
       const searchTarget = item._searchIndex ?? buildSearchIndex(item);
       const matchesSearch = !trimmedQuery || searchTarget.includes(trimmedQuery);
       const matchesLevel = levelFilter.value === 'all' || item.level === levelFilter.value;
-      const matchesThema = themaFilter.value === 'all' || item.thema.toString() === themaFilter.value;
+      const matchesThema =
+        themaFilter.value === 'all' || item.thema.toString() === themaFilter.value;
       const isMastered = masteredIds.value.has(getItemKey(item));
 
       return matchesSearch && matchesLevel && matchesThema && !isMastered;
@@ -175,7 +178,7 @@ export function useVocabulary() {
   const studyList = computed(() => {
     const list = sortedStudyVocabulary.value;
     if (isShuffled.value && shuffledIndices.value.length === list.length) {
-      return shuffledIndices.value.map(idx => list[idx]);
+      return shuffledIndices.value.map((idx) => list[idx]);
     }
     return list;
   });
@@ -183,12 +186,12 @@ export function useVocabulary() {
   const updateSRS = (rating: 'again' | 'hard' | 'good' | 'easy') => {
     const item = studyList.value[currentStudyIndex.value];
     if (!item) return;
-    
+
     const key = getItemKey(item);
     const current = srsData.value[key] || { level: 0, lastReview: 0 };
-    
+
     const newLevel = LEVEL_TRANSITIONS[rating](current.level);
-    
+
     srsData.value[key] = {
       level: newLevel,
       lastReview: Date.now()
@@ -258,7 +261,9 @@ export function useVocabulary() {
     shuffleCards,
     toggleMastered,
     restoreProgress,
-    loadMore: () => { displayLimit.value += 50 },
+    loadMore: () => {
+      displayLimit.value += 50;
+    },
     getItemKey
   };
 }

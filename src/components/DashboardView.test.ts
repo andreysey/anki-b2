@@ -12,7 +12,7 @@ const mockVocabulary: Word[] = [
     level: 'B2',
     thema: 99,
     example: '',
-    german_audio: '',
+    german_audio: ''
   },
   {
     id: 'w2',
@@ -22,8 +22,8 @@ const mockVocabulary: Word[] = [
     level: 'B1+',
     thema: 1,
     example: '',
-    german_audio: '',
-  },
+    german_audio: ''
+  }
 ];
 
 describe('DashboardView.vue', () => {
@@ -33,8 +33,8 @@ describe('DashboardView.vue', () => {
     const wrapper = mount(DashboardView, {
       props: {
         vocabulary: mockVocabulary,
-        masteredIds,
-      },
+        masteredIds
+      }
     });
 
     expect(wrapper.text()).toContain('Total Vocabulary');
@@ -50,8 +50,8 @@ describe('DashboardView.vue', () => {
     const wrapper = mount(DashboardView, {
       props: {
         vocabulary: mockVocabulary,
-        masteredIds,
-      },
+        masteredIds
+      }
     });
 
     expect(wrapper.text()).toContain('Unregelmäßige Verben');
@@ -61,15 +61,15 @@ describe('DashboardView.vue', () => {
   it('renders level breakdown and SRS pipeline correctly', () => {
     const masteredIds = new Set<string>(['w1']);
     const srsData: Record<string, SRSState> = {
-      w2: { level: 2, lastReview: Date.now() },
+      w2: { level: 2, lastReview: Date.now() }
     };
 
     const wrapper = mount(DashboardView, {
       props: {
         vocabulary: mockVocabulary,
         masteredIds,
-        srsData,
-      },
+        srsData
+      }
     });
 
     expect(wrapper.text()).toContain('Level B1+ Progress');
@@ -82,8 +82,8 @@ describe('DashboardView.vue', () => {
     const wrapper = mount(DashboardView, {
       props: {
         vocabulary: [],
-        masteredIds: new Set<string>(),
-      },
+        masteredIds: new Set<string>()
+      }
     });
 
     expect(wrapper.text()).toContain('Overall Progress');

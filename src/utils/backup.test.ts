@@ -3,7 +3,7 @@ import {
   createBackupPayload,
   exportBackupJson,
   parseAndValidateBackup,
-  downloadBackupFile,
+  downloadBackupFile
 } from './backup';
 import type { SRSState } from '../types';
 
@@ -12,7 +12,7 @@ describe('backup utility', () => {
     const masteredIds = new Set<string>(['w1', 'w2']);
     const srsData: Record<string, SRSState> = {
       w1: { level: 2, lastReview: 1000 },
-      w2: { level: 5, lastReview: 2000 },
+      w2: { level: 5, lastReview: 2000 }
     };
 
     const payload = createBackupPayload(masteredIds, srsData);
@@ -32,8 +32,8 @@ describe('backup utility', () => {
       timestamp: Date.now(),
       masteredIds: ['w1', 'w2'],
       srsData: {
-        w1: { level: 3, lastReview: 12345 },
-      },
+        w1: { level: 3, lastReview: 12345 }
+      }
     });
 
     const result = parseAndValidateBackup(validJson);
@@ -49,8 +49,8 @@ describe('backup utility', () => {
       masteredIds: ['w1'],
       srsData: {
         w1: { level: 99, lastReview: 12345 },
-        w2: { level: -5, lastReview: 12345 },
-      },
+        w2: { level: -5, lastReview: 12345 }
+      }
     });
 
     const result = parseAndValidateBackup(json);
@@ -62,8 +62,12 @@ describe('backup utility', () => {
   it('rejects invalid JSON or malformed structures', () => {
     expect(parseAndValidateBackup('invalid json').success).toBe(false);
     expect(parseAndValidateBackup('null').success).toBe(false);
-    expect(parseAndValidateBackup(JSON.stringify({ masteredIds: 'not an array', srsData: {} })).success).toBe(false);
-    expect(parseAndValidateBackup(JSON.stringify({ masteredIds: [], srsData: [] })).success).toBe(false);
+    expect(
+      parseAndValidateBackup(JSON.stringify({ masteredIds: 'not an array', srsData: {} })).success
+    ).toBe(false);
+    expect(parseAndValidateBackup(JSON.stringify({ masteredIds: [], srsData: [] })).success).toBe(
+      false
+    );
   });
 
   it('triggers browser download link in downloadBackupFile', () => {
@@ -71,7 +75,7 @@ describe('backup utility', () => {
     const createElementSpy = vi.spyOn(document, 'createElement').mockReturnValue({
       set href(_val: string) {},
       set download(_val: string) {},
-      click: clickSpy,
+      click: clickSpy
     } as unknown as HTMLAnchorElement);
 
     downloadBackupFile(new Set<string>(['w1']), {});

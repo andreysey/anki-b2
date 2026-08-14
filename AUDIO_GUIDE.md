@@ -28,8 +28,8 @@ AwesomeTTS works best if you have a dedicated field for audio.
 3. Select all cards (`Ctrl + A`).
 4. Go to **AwesomeTTS -> Add Audio to Selected...**.
 5. In the window that appears:
-   *   **Generator**: Choose a free service like `Google Translate` or `Microsoft Azure`.
-   *   **Voice**: Select a German voice (e.g., `German (Germany)`).
-   *   **Source Field**: The field containing the German word (usually `German`).
-   *   **Destination Field**: The `Audio` field.
+   - **Generator**: Choose a free service like `Google Translate` or `Microsoft Azure`.
+   - **Voice**: Select a German voice (e.g., `German (Germany)`).
+   - **Source Field**: The field containing the German word (usually `German`).
+   - **Destination Field**: The `Audio` field.
 6. Click **Generate**.

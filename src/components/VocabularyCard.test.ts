@@ -11,7 +11,7 @@ const mockWord: Word = {
   level: 'B2',
   thema: 99,
   example: 'Das Haus ist groß.',
-  german_audio: 'haus.mp3',
+  german_audio: 'haus.mp3'
 };
 
 describe('VocabularyCard.vue', () => {
@@ -20,8 +20,8 @@ describe('VocabularyCard.vue', () => {
       props: {
         word: mockWord,
         isFlipped: false,
-        direction: 'DE_TO_UA',
-      },
+        direction: 'DE_TO_UA'
+      }
     });
 
     expect(wrapper.text()).toContain('das Haus');
@@ -34,8 +34,8 @@ describe('VocabularyCard.vue', () => {
       props: {
         word: mockWord,
         isFlipped: false,
-        direction: 'UA_TO_DE',
-      },
+        direction: 'UA_TO_DE'
+      }
     });
 
     expect(wrapper.text()).toContain('дім');
@@ -47,8 +47,8 @@ describe('VocabularyCard.vue', () => {
       props: {
         word: mockWord,
         isFlipped: false,
-        direction: 'DE_TO_UA',
-      },
+        direction: 'DE_TO_UA'
+      }
     });
 
     await wrapper.find('.group').trigger('click');
@@ -60,8 +60,8 @@ describe('VocabularyCard.vue', () => {
       props: {
         word: mockWord,
         isFlipped: false,
-        direction: 'DE_TO_UA',
-      },
+        direction: 'DE_TO_UA'
+      }
     });
 
     const masteredBtn = wrapper.find('button[title="Mark as Mastered"]');
@@ -75,8 +75,8 @@ describe('VocabularyCard.vue', () => {
       props: {
         word: mockWord,
         isFlipped: false,
-        direction: 'DE_TO_UA',
-      },
+        direction: 'DE_TO_UA'
+      }
     });
 
     const audioBtn = wrapper.find('button[title="Play pronunciation"]');

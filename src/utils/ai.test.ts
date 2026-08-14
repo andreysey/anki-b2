@@ -1,5 +1,11 @@
 import { describe, it, expect, beforeEach, vi } from 'vitest';
-import { getCloudKey, setCloudKey, checkOnDeviceSupport, callAI, getAvailableGeminiModels } from './ai';
+import {
+  getCloudKey,
+  setCloudKey,
+  checkOnDeviceSupport,
+  callAI,
+  getAvailableGeminiModels
+} from './ai';
 
 describe('ai utils', () => {
   beforeEach(() => {
@@ -31,9 +37,9 @@ describe('ai utils', () => {
           capabilities: async () => ({ available: 'readily' }),
           create: async () => ({
             prompt: async () => '',
-            destroy: () => {},
-          }),
-        },
+            destroy: () => {}
+          })
+        }
       };
       const isSupported = await checkOnDeviceSupport();
       expect(isSupported).toBe(true);
@@ -52,7 +58,7 @@ describe('ai utils', () => {
 
       globalThis.fetch = vi.fn().mockResolvedValue({
         ok: true,
-        json: async () => mockList,
+        json: async () => mockList
       } as Response);
 
       const models = await getAvailableGeminiModels('dynamic-test-key');
@@ -77,15 +83,15 @@ describe('ai utils', () => {
         candidates: [
           {
             content: {
-              parts: [{ text: 'German grammar explanation' }],
-            },
-          },
-        ],
+              parts: [{ text: 'German grammar explanation' }]
+            }
+          }
+        ]
       };
 
       globalThis.fetch = vi.fn().mockResolvedValue({
         ok: true,
-        json: async () => mockResponse,
+        json: async () => mockResponse
       } as Response);
 
       const res = await callAI('Explain word', 'System rule');
@@ -101,18 +107,19 @@ describe('ai utils', () => {
       const error404Response = {
         ok: false,
         status: 404,
-        json: async () => ({ error: { message: 'models/gemini-2.5-flash is not found' } }),
+        json: async () => ({ error: { message: 'models/gemini-2.5-flash is not found' } })
       };
 
       const successResponse = {
         ok: true,
         json: async () => ({
-          candidates: [{ content: { parts: [{ text: 'Fallback response' }] } }],
-        }),
+          candidates: [{ content: { parts: [{ text: 'Fallback response' }] } }]
+        })
       };
 
       // Mock dynamic models list call failure/success followed by generateContent calls
-      globalThis.fetch = vi.fn()
+      globalThis.fetch = vi
+        .fn()
         .mockResolvedValueOnce({ ok: false, status: 500, json: async () => ({}) } as Response)
         .mockResolvedValueOnce(error404Response as Response)
         .mockResolvedValueOnce(successResponse as Response);
@@ -132,9 +139,9 @@ describe('ai utils', () => {
           capabilities: async () => ({ available: 'readily' }),
           create: async () => ({
             prompt: promptMock,
-            destroy: destroyMock,
-          }),
-        },
+            destroy: destroyMock
+          })
+        }
       };
 
       const res = await callAI('Translate this');

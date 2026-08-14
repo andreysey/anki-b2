@@ -14,7 +14,7 @@ import {
   colorizeGender,
   highlightWordInExample,
   getThemaNum,
-  getLevelFromFilename,
+  getLevelFromFilename
 } from './utils.js';
 
 // MODEL_ID matches Rust exactly
@@ -31,7 +31,7 @@ const model = new Model({
     { name: 'Ukrainian' },
     { name: 'Example' },
     { name: 'Example_Audio' },
-    { name: 'Tags' },
+    { name: 'Tags' }
   ],
   templates: [
     {
@@ -49,7 +49,7 @@ const model = new Model({
               <div class="audio-container">
                   <div class="audio-btn">{{tts de_DE:Example_Audio}}</div>
               </div>
-             </div>`,
+             </div>`
     },
     {
       name: 'Card 2: Production',
@@ -66,8 +66,8 @@ const model = new Model({
                   <div class="audio-btn">{{tts de_DE:German_Audio}}</div>
                   <div class="audio-btn">{{tts de_DE:Example_Audio}}</div>
               </div>
-             </div>`,
-    },
+             </div>`
+    }
   ],
   css: `
     .card {
@@ -124,7 +124,7 @@ const model = new Model({
     .m-25 {
       margin-bottom: 25px;
     }
-  `,
+  `
 });
 
 // Thread-safe / Concurrency-safe Note subclass with instance-scoped ID
@@ -171,12 +171,9 @@ export interface GenerateResult {
 export async function generateAnkiDeck(
   files: string[],
   baseName: string,
-  outputDir: string,
+  outputDir: string
 ): Promise<GenerateResult> {
-  const deckId =
-    baseName === 'B1plus' ? 1607392320 :
-    baseName === 'B2'     ? 1607392321 :
-                            1607392322;
+  const deckId = baseName === 'B1plus' ? 1607392320 : baseName === 'B2' ? 1607392321 : 1607392322;
 
   const deckName = `German ${baseName.replace('plus', '+')}`;
   const deck = new Deck({ deckId, name: deckName });
@@ -209,27 +206,31 @@ export async function generateAnkiDeck(
       }
 
       const wordDisplay = parts[0];
-      const english    = parts[1];
-      const ukrainian  = parts[2];
+      const english = parts[1];
+      const ukrainian = parts[2];
       const exampleRaw = parts[3] ?? '';
 
-      const wordAudio     = cleanGermanForAudio(wordDisplay);   // German_Audio
-      const germanColored = colorizeGender(wordDisplay);        // German (with <span>)
-      const exampleHtml   = highlightWordInExample(wordAudio, exampleRaw, wordDisplay); // Example
+      const wordAudio = cleanGermanForAudio(wordDisplay); // German_Audio
+      const germanColored = colorizeGender(wordDisplay); // German (with <span>)
+      const exampleHtml = highlightWordInExample(wordAudio, exampleRaw, wordDisplay); // Example
 
       // Check if translation is missing
       if (!english) {
         warnings.push(`${fname}:${lineIdx + 1}: Missing English translation for "${wordDisplay}"`);
       }
       if (!ukrainian) {
-        warnings.push(`${fname}:${lineIdx + 1}: Missing Ukrainian translation for "${wordDisplay}"`);
+        warnings.push(
+          `${fname}:${lineIdx + 1}: Missing Ukrainian translation for "${wordDisplay}"`
+        );
       }
 
       // Check if the example is missing entirely, or if the main word wasn't highlighted in it
       if (!exampleRaw) {
         warnings.push(`${fname}:${lineIdx + 1}: Missing example sentence for "${wordDisplay}"`);
       } else if (exampleRaw && !exampleHtml.includes('</b>')) {
-        warnings.push(`${fname}:${lineIdx + 1}: Word "${wordAudio}" could not be matched/highlighted inside the example: "${exampleRaw}"`);
+        warnings.push(
+          `${fname}:${lineIdx + 1}: Word "${wordAudio}" could not be matched/highlighted inside the example: "${exampleRaw}"`
+        );
       }
 
       totalEntries++;
@@ -240,16 +241,16 @@ export async function generateAnkiDeck(
         guid: (BigInt(deckId) * 10000n + BigInt(currentNoteIndex)).toString(),
         modelId: MODEL_ID,
         fields: [
-          germanColored,  // German
-          wordAudio,      // German_Audio (clean, for TTS)
-          english,        // English
-          english,        // English_Audio
-          ukrainian,      // Ukrainian
-          exampleHtml,                     // Example (with <b> highlight)
-          cleanExampleForAudio(exampleRaw),// Example_Audio (clean plain text without asterisks/tags, for TTS)
-          entryTag,       // Tags
+          germanColored, // German
+          wordAudio, // German_Audio (clean, for TTS)
+          english, // English
+          english, // English_Audio
+          ukrainian, // Ukrainian
+          exampleHtml, // Example (with <b> highlight)
+          cleanExampleForAudio(exampleRaw), // Example_Audio (clean plain text without asterisks/tags, for TTS)
+          entryTag // Tags
         ],
-        tags: [level, `Thema${thema}`],
+        tags: [level, `Thema${thema}`]
       });
 
       if (!seen.has(wordDisplay)) {
@@ -265,7 +266,7 @@ export async function generateAnkiDeck(
             german_audio: wordAudio,
             english,
             ukrainian,
-            example: exampleHtml,
+            example: exampleHtml
           });
           webDataOrder.push(wordDisplay);
         }

@@ -13,20 +13,20 @@ const mockWord: Word = {
   ukrainian: 'професія',
   example: 'Er übt einen Beruf aus.',
   level: 'B2',
-  thema: 1,
+  thema: 1
 };
 
 describe('VocabularyCard flip and AI Assistant dialog interaction', () => {
   it('does not emit flip when gear button inside AIAssistant is clicked', async () => {
     const wrapper = mount(VocabularyCard, {
       global: {
-        plugins: [PrimeVue, ToastService],
+        plugins: [PrimeVue, ToastService]
       },
       props: {
         word: mockWord,
         isFlipped: true,
-        direction: 'DE_TO_UA',
-      },
+        direction: 'DE_TO_UA'
+      }
     });
 
     const gearBtn = wrapper.find('button[title="AI Settings"]');

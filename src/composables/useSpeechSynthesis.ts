@@ -10,12 +10,13 @@ export function useSpeechSynthesis() {
 
   const loadVoices = () => {
     if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
-      germanVoices.value = window.speechSynthesis.getVoices().filter(v => 
-        v.lang.toLowerCase().startsWith('de')
-      );
+      germanVoices.value = window.speechSynthesis
+        .getVoices()
+        .filter((v) => v.lang.toLowerCase().startsWith('de'));
       if (!selectedVoiceURI.value && germanVoices.value.length > 0) {
         // Prefer standard de-DE voices
-        const preferred = germanVoices.value.find(v => v.lang === 'de-DE') || germanVoices.value[0];
+        const preferred =
+          germanVoices.value.find((v) => v.lang === 'de-DE') || germanVoices.value[0];
         selectedVoiceURI.value = preferred.voiceURI;
       }
     }
@@ -64,7 +65,7 @@ export function useSpeechSynthesis() {
     const utterance = new SpeechSynthesisUtterance(cleaned);
     utterance.lang = 'de-DE';
     utterance.rate = ttsRate.value;
-    const voice = germanVoices.value.find(v => v.voiceURI === selectedVoiceURI.value);
+    const voice = germanVoices.value.find((v) => v.voiceURI === selectedVoiceURI.value);
     if (voice) {
       utterance.voice = voice;
     }

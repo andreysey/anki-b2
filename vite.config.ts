@@ -1,14 +1,14 @@
-import { defineConfig } from 'vitest/config'
-import vue from '@vitejs/plugin-vue'
-import tailwindcss from '@tailwindcss/vite'
-import { VitePWA } from 'vite-plugin-pwa'
+import { defineConfig } from 'vitest/config';
+import vue from '@vitejs/plugin-vue';
+import tailwindcss from '@tailwindcss/vite';
+import { VitePWA } from 'vite-plugin-pwa';
 import { version } from './package.json' with { type: 'json' };
 
 // https://vite.dev/config/
 export default defineConfig({
   base: '/anki-b2/',
   define: {
-    __APP_VERSION__: JSON.stringify(version),
+    __APP_VERSION__: JSON.stringify(version)
   },
   test: {
     globals: true,
@@ -18,8 +18,8 @@ export default defineConfig({
     coverage: {
       provider: 'v8',
       reporter: ['text', 'json', 'html'],
-      exclude: ['node_modules/', 'dist/'],
-    },
+      exclude: ['node_modules/', 'dist/']
+    }
   },
   plugins: [
     vue(),
@@ -61,18 +61,18 @@ export default defineConfig({
             }
           },
           {
-             urlPattern: /^https:\/\/fonts\.googleapis\.com\/.*/i,
-             handler: 'CacheFirst',
-             options: {
-               cacheName: 'google-fonts-cache',
-               expiration: {
-                 maxEntries: 10,
-                 maxAgeSeconds: 60 * 60 * 24 * 365
-               },
-               cacheableResponse: {
-                 statuses: [0, 200]
-               }
-             }
+            urlPattern: /^https:\/\/fonts\.googleapis\.com\/.*/i,
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'google-fonts-cache',
+              expiration: {
+                maxEntries: 10,
+                maxAgeSeconds: 60 * 60 * 24 * 365
+              },
+              cacheableResponse: {
+                statuses: [0, 200]
+              }
+            }
           }
         ]
       }
@@ -94,4 +94,4 @@ export default defineConfig({
       }
     }
   }
-})
+});

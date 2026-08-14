@@ -12,7 +12,7 @@ const mockVocabulary: Word[] = [
     level: 'B2',
     thema: 99,
     example: 'Ich rufe an.',
-    german_audio: 'anrufen.mp3',
+    german_audio: 'anrufen.mp3'
   },
   {
     id: '2',
@@ -22,8 +22,8 @@ const mockVocabulary: Word[] = [
     level: 'B1+',
     thema: 1,
     example: 'Er schläft.',
-    german_audio: 'schlafen.mp3',
-  },
+    german_audio: 'schlafen.mp3'
+  }
 ];
 
 describe('VocabularyList.vue', () => {
@@ -31,8 +31,8 @@ describe('VocabularyList.vue', () => {
     const wrapper = mount(VocabularyList, {
       props: {
         vocabulary: mockVocabulary,
-        displayLimit: 1,
-      },
+        displayLimit: 1
+      }
     });
 
     expect(wrapper.text()).toContain('anrufen');
@@ -44,11 +44,13 @@ describe('VocabularyList.vue', () => {
     const wrapper = mount(VocabularyList, {
       props: {
         vocabulary: mockVocabulary,
-        displayLimit: 1,
-      },
+        displayLimit: 1
+      }
     });
 
-    const exploreBtn = wrapper.findAll('button').find((b) => b.text().includes('Explore More Vocabulary'));
+    const exploreBtn = wrapper
+      .findAll('button')
+      .find((b) => b.text().includes('Explore More Vocabulary'));
     await exploreBtn?.trigger('click');
 
     expect(wrapper.emitted('load-more')).toBeTruthy();
@@ -58,8 +60,8 @@ describe('VocabularyList.vue', () => {
     const wrapper = mount(VocabularyList, {
       props: {
         vocabulary: mockVocabulary,
-        displayLimit: 50,
-      },
+        displayLimit: 50
+      }
     });
 
     const masteredBtn = wrapper.find('button[title="Mark as Mastered"]');

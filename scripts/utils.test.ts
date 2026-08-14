@@ -5,7 +5,7 @@ import {
   colorizeGender,
   highlightWordInExample,
   getThemaNum,
-  getLevelFromFilename,
+  getLevelFromFilename
 } from './utils.js';
 
 describe('cleanGermanForAudio', () => {
@@ -27,9 +27,15 @@ describe('cleanExampleForAudio', () => {
 
 describe('colorizeGender', () => {
   it('wraps der, die, das articles in colored spans', () => {
-    expect(colorizeGender('der Mann')).toBe('<span style="color: #00d2ff; font-weight: bold;">der</span> Mann');
-    expect(colorizeGender('die Frau')).toBe('<span style="color: #ef4444; font-weight: bold;">die</span> Frau');
-    expect(colorizeGender('das Kind')).toBe('<span style="color: #22c55e; font-weight: bold;">das</span> Kind');
+    expect(colorizeGender('der Mann')).toBe(
+      '<span style="color: #00d2ff; font-weight: bold;">der</span> Mann'
+    );
+    expect(colorizeGender('die Frau')).toBe(
+      '<span style="color: #ef4444; font-weight: bold;">die</span> Frau'
+    );
+    expect(colorizeGender('das Kind')).toBe(
+      '<span style="color: #22c55e; font-weight: bold;">das</span> Kind'
+    );
     expect(colorizeGender('laufen')).toBe('laufen');
   });
 });
@@ -80,4 +86,3 @@ describe('getLevelFromFilename', () => {
     expect(getLevelFromFilename('B2_Thema01.txt')).toBe('B2');
   });
 });
-

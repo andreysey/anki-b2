@@ -79,13 +79,17 @@ export const getAvailableGeminiModels = async (cloudKey: string): Promise<string
   }
 
   try {
-    const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models?key=${cloudKey}`);
+    const res = await fetch(
+      `https://generativelanguage.googleapis.com/v1beta/models?key=${cloudKey}`
+    );
     if (res.ok) {
       const data = await res.json();
       if (Array.isArray(data.models)) {
         const supported = data.models
-          .filter((m: { name?: string; supportedGenerationMethods?: string[] }) => 
-            Array.isArray(m.supportedGenerationMethods) && m.supportedGenerationMethods.includes('generateContent')
+          .filter(
+            (m: { name?: string; supportedGenerationMethods?: string[] }) =>
+              Array.isArray(m.supportedGenerationMethods) &&
+              m.supportedGenerationMethods.includes('generateContent')
           )
           .map((m: { name: string }) => m.name.replace(/^models\//, ''))
           // Sorter: gemini-flash-lite-latest (#1) -> Flash Lite Tier (~500 RPD) -> Flash Tier (20 RPD) -> Pro Tier
@@ -140,11 +144,11 @@ export const callAI = async (
         });
         const text = await session.prompt(promptText);
         session.destroy();
-        return { 
-          success: true, 
-          text, 
+        return {
+          success: true,
+          text,
           source: 'nano',
-          model: 'Gemini Nano (On-Device)' 
+          model: 'Gemini Nano (On-Device)'
         };
       }
     } catch (e) {
@@ -162,7 +166,7 @@ export const callAI = async (
     };
   }
 
-  const formattedPrompt = systemInstruction 
+  const formattedPrompt = systemInstruction
     ? `${systemInstruction}\n\nUser request: ${promptText}`
     : promptText;
 
@@ -198,11 +202,11 @@ export const callAI = async (
         continue;
       }
 
-      return { 
-        success: true, 
-        text, 
+      return {
+        success: true,
+        text,
         source: 'cloud',
-        model: model 
+        model: model
       };
     } catch (err: unknown) {
       lastError = err instanceof Error ? err.message : String(err);

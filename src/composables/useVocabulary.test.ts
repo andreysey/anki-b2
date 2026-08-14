@@ -11,7 +11,7 @@ const mockWords: Word[] = [
     level: 'B2',
     thema: 99,
     example: 'Ich rufe an.',
-    german_audio: 'anrufen.mp3',
+    german_audio: 'anrufen.mp3'
   },
   {
     id: '2',
@@ -21,8 +21,8 @@ const mockWords: Word[] = [
     level: 'B1+',
     thema: 1,
     example: 'Er schläft.',
-    german_audio: 'schlafen.mp3',
-  },
+    german_audio: 'schlafen.mp3'
+  }
 ];
 
 describe('useVocabulary composable', () => {
@@ -44,7 +44,7 @@ describe('useVocabulary composable', () => {
   it('initializes vocabulary via init fetch', async () => {
     globalThis.fetch = vi.fn().mockResolvedValue({
       ok: true,
-      json: async () => mockWords,
+      json: async () => mockWords
     } as Response);
 
     const vocab = useVocabulary();
@@ -118,7 +118,7 @@ describe('useVocabulary composable', () => {
     // Card 2: Level 1, reviewed 1 hour ago (NOT DUE for 23 hours)
     vocab.srsData.value = {
       '1': { level: 2, lastReview: now - 4 * 24 * 60 * 60 * 1000 },
-      '2': { level: 1, lastReview: now - 1 * 60 * 60 * 1000 },
+      '2': { level: 1, lastReview: now - 1 * 60 * 60 * 1000 }
     };
 
     expect(vocab.studyList.value[0].id).toBe('1');

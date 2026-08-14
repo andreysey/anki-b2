@@ -18,15 +18,22 @@ const emit = defineEmits<{
 const isAiActive = ref(false);
 
 // Reset AI expansion when card/word flips back or changes
-watch(() => props.word, () => {
-  isAiActive.value = false;
-});
+watch(
+  () => props.word,
+  () => {
+    isAiActive.value = false;
+  }
+);
 
 const handleCardClick = (event: MouseEvent) => {
   const target = event.target as HTMLElement | null;
   // Prevent card flipping when clicking buttons, inputs, dialogs, audio controls, or links
   if (target && target !== event.currentTarget) {
-    if (target.closest('button, input, textarea, a, select, .p-button, .p-dialog, .p-dialog-mask, [role="dialog"]')) {
+    if (
+      target.closest(
+        'button, input, textarea, a, select, .p-button, .p-dialog, .p-dialog-mask, [role="dialog"]'
+      )
+    ) {
       return;
     }
   }
@@ -35,7 +42,11 @@ const handleCardClick = (event: MouseEvent) => {
 
 const handleKeyDown = (event: KeyboardEvent) => {
   const target = event.target as HTMLElement | null;
-  if (target?.tagName === 'INPUT' || target?.tagName === 'TEXTAREA' || target?.closest('.p-dialog, .p-dialog-mask')) {
+  if (
+    target?.tagName === 'INPUT' ||
+    target?.tagName === 'TEXTAREA' ||
+    target?.closest('.p-dialog, .p-dialog-mask')
+  ) {
     return;
   }
   if (event.key === 'Enter' || event.key === ' ') {
@@ -48,11 +59,11 @@ const showGermanOnFront = computed(() => props.direction === 'DE_TO_UA');
 </script>
 
 <template>
-  <div 
-    class="relative w-full max-w-[560px] [perspective:1400px] cursor-pointer mx-auto group focus:outline-none focus:ring-2 focus:ring-primary/60 rounded-[28px] transition-all duration-500 ease-out" 
+  <div
+    class="relative w-full max-w-[560px] [perspective:1400px] cursor-pointer mx-auto group focus:outline-none focus:ring-2 focus:ring-primary/60 rounded-[28px] transition-all duration-500 ease-out"
     :class="[
-      isFlipped && isAiActive 
-        ? 'h-[550px] xs:h-[590px] sm:h-[640px]' 
+      isFlipped && isAiActive
+        ? 'h-[550px] xs:h-[590px] sm:h-[640px]'
         : 'h-[390px] xs:h-[410px] sm:h-[440px]'
     ]"
     tabindex="0"
@@ -62,8 +73,8 @@ const showGermanOnFront = computed(() => props.direction === 'DE_TO_UA');
     @click="handleCardClick"
     @keydown="handleKeyDown"
   >
-    <div 
-      class="relative w-full h-full transition-all duration-[700ms] [transform-style:preserve-3d] shadow-xl rounded-[26px]" 
+    <div
+      class="relative w-full h-full transition-all duration-[700ms] [transform-style:preserve-3d] shadow-xl rounded-[26px]"
       :class="{ '[transform:rotateY(180deg)]': isFlipped }"
     >
       <!-- Front Face -->

@@ -4,7 +4,7 @@ export const STORAGE_KEYS = {
   THEME_MODE: 'anki_theme_mode',
   TTS_VOICE: 'anki_tts_voice',
   TTS_RATE: 'anki_tts_rate',
-  GEMINI_API_KEY: 'anki_gemini_api_key',
+  GEMINI_API_KEY: 'anki_gemini_api_key'
 } as const;
 
-export type StorageKey = typeof STORAGE_KEYS[keyof typeof STORAGE_KEYS];
+export type StorageKey = (typeof STORAGE_KEYS)[keyof typeof STORAGE_KEYS];

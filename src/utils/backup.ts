@@ -17,7 +17,7 @@ export function createBackupPayload(
     version: BACKUP_VERSION,
     timestamp: Date.now(),
     masteredIds: Array.from(masteredIds),
-    srsData: { ...srsData },
+    srsData: { ...srsData }
   };
 }
 
@@ -61,7 +61,7 @@ export function parseAndValidateBackup(rawJson: string): {
         const srs = val as SRSState;
         validSRS[key] = {
           level: Math.min(5, Math.max(0, Math.floor(srs.level))),
-          lastReview: typeof srs.lastReview === 'number' ? srs.lastReview : 0,
+          lastReview: typeof srs.lastReview === 'number' ? srs.lastReview : 0
         };
       }
     }
@@ -72,8 +72,8 @@ export function parseAndValidateBackup(rawJson: string): {
         version: typeof parsed.version === 'number' ? parsed.version : 1,
         timestamp: typeof parsed.timestamp === 'number' ? parsed.timestamp : Date.now(),
         masteredIds: validMasteredIds,
-        srsData: validSRS,
-      },
+        srsData: validSRS
+      }
     };
   } catch (err: unknown) {
     const message = err instanceof Error ? err.message : String(err);

@@ -38,6 +38,6 @@ export function useAIAssistantState() {
     init,
     openSettings,
     closeSettings,
-    saveApiKey,
+    saveApiKey
   };
 }
