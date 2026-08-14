@@ -33,7 +33,8 @@ describe('DashboardView.vue', () => {
     const wrapper = mount(DashboardView, {
       props: {
         vocabulary: mockVocabulary,
-        masteredIds
+        masteredIds,
+        studyStreak: { lastDate: '2026-08-14', streak: 5 }
       }
     });
 
@@ -42,6 +43,8 @@ describe('DashboardView.vue', () => {
     expect(wrapper.text()).toContain('Words Mastered');
     expect(wrapper.text()).toContain('1');
     expect(wrapper.text()).toContain('50%');
+    expect(wrapper.text()).toContain('Daily Streak');
+    expect(wrapper.text()).toContain('5');
   });
 
   it('renders stats grouped by theme correctly', () => {
@@ -58,7 +61,7 @@ describe('DashboardView.vue', () => {
     expect(wrapper.text()).toContain('Theme 1');
   });
 
-  it('renders level breakdown and SRS pipeline correctly', () => {
+  it('renders level breakdown and Leitner box distribution correctly', () => {
     const masteredIds = new Set<string>(['w1']);
     const srsData: Record<string, SRSState> = {
       w2: { level: 2, lastReview: Date.now() }
@@ -74,8 +77,8 @@ describe('DashboardView.vue', () => {
 
     expect(wrapper.text()).toContain('Level B1+ Progress');
     expect(wrapper.text()).toContain('Level B2 Progress');
-    expect(wrapper.text()).toContain('SRS Retention Pipeline');
-    expect(wrapper.text()).toContain('Learning (1-2)');
+    expect(wrapper.text()).toContain('Leitner Box Distribution');
+    expect(wrapper.text()).toContain('Box 2 (3 Days)');
   });
 
   it('handles empty vocabulary without crashing', () => {

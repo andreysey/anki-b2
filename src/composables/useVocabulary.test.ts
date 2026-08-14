@@ -39,6 +39,7 @@ describe('useVocabulary composable', () => {
     vocab.currentStudyIndex.value = 0;
     vocab.isShuffled.value = false;
     vocab.displayLimit.value = 50;
+    vocab.sessionReviewedCount.value = 0;
   });
 
   it('initializes vocabulary via init fetch', async () => {
@@ -89,16 +90,25 @@ describe('useVocabulary composable', () => {
     expect(vocab.filteredVocabulary.value[0].id).toBe('2');
   });
 
-  it('updates SRS rating levels correctly', () => {
+  it('updates SRS rating levels and session reviewed count', () => {
     const vocab = useVocabulary();
     vocab.vocabulary.value = mockWords;
 
-    // First card: '1'
+    expect(vocab.sessionReviewedCount.value).toBe(0);
     vocab.updateSRS('good');
     expect(vocab.currentStudyIndex.value).toBe(1);
+    expect(vocab.sessionReviewedCount.value).toBe(1);
 
     const savedSRS = JSON.parse(localStorage.getItem('anki_srs_v2') || '{}');
     expect(savedSRS['1'].level).toBe(1);
+  });
+
+  it('records study streak accurately', () => {
+    const vocab = useVocabulary();
+    vocab.vocabulary.value = mockWords;
+
+    vocab.recordStudyActivity();
+    expect(vocab.studyStreak.value.streak).toBeGreaterThanOrEqual(1);
   });
 
   it('calculates SRS card due date accurately according to Leitner intervals', () => {

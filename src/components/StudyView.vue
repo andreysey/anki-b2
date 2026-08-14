@@ -15,6 +15,7 @@ defineProps<{
   directionOptions: SelectOption<StudyDirection>[];
   audioOptions: SelectOption<boolean>[];
   isShuffled?: boolean;
+  sessionReviewedCount?: number;
 }>();
 
 const emit = defineEmits<{
@@ -68,18 +69,27 @@ const emit = defineEmits<{
       />
     </div>
 
-    <!-- macOS Progress Meter -->
+    <!-- macOS Progress Meter & Session Stats -->
     <div class="w-full space-y-1.5">
       <div
-        class="flex justify-between text-[11px] font-semibold text-slate-500 dark:text-slate-400"
+        class="flex justify-between items-center text-[11px] font-semibold text-slate-500 dark:text-slate-400"
       >
-        <span>Session Progress</span>
+        <div class="flex items-center gap-2">
+          <span>Session Progress</span>
+          <span
+            v-if="typeof sessionReviewedCount === 'number' && sessionReviewedCount > 0"
+            class="inline-flex items-center gap-1 px-1.5 py-0.2 rounded-md bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 text-[10px] font-mono font-bold"
+          >
+            <i class="pi pi-check text-[8.5px]"></i>
+            {{ sessionReviewedCount }} reviewed
+          </span>
+        </div>
         <span>{{ currentStudyIndex + 1 }} of {{ vocabulary.length }}</span>
       </div>
       <ProgressBar :value="studyProgress" class="!h-1.5 !rounded-full" />
     </div>
 
-    <!-- Centered Tactile Vocabulary Card -->
+    <!-- Centered Tactile Vocabulary Card with Touch Swipes -->
     <div class="w-full flex justify-center py-0.5">
       <VocabularyCard
         v-if="vocabulary.length > 0"
@@ -89,6 +99,8 @@ const emit = defineEmits<{
         @flip="emit('flip')"
         @toggle-mastered="emit('toggle-mastered', $event)"
         @play-audio="emit('play-audio', $event)"
+        @swipe-left="emit('update-srs', 'again')"
+        @swipe-right="emit('update-srs', 'good')"
       />
     </div>
 
@@ -102,7 +114,7 @@ const emit = defineEmits<{
         class="flex flex-col items-center justify-center py-2 px-2 rounded-xl bg-red-50 hover:bg-red-100/80 dark:bg-red-500/15 dark:hover:bg-red-500/25 active:scale-95 border border-red-200 dark:border-red-500/30 text-red-600 dark:text-red-400 font-bold transition-all cursor-pointer group"
       >
         <span class="text-xs tracking-wide">AGAIN (1)</span>
-        <span class="text-[9.5px] opacity-70 font-mono mt-0.5">Key 1</span>
+        <span class="text-[9.5px] opacity-70 font-mono mt-0.5">Key 1 / Swipe &larr;</span>
       </button>
 
       <button
@@ -118,7 +130,7 @@ const emit = defineEmits<{
         class="flex flex-col items-center justify-center py-2 px-2 rounded-xl bg-emerald-50 hover:bg-emerald-100/80 dark:bg-emerald-500/15 dark:hover:bg-emerald-500/25 active:scale-95 border border-emerald-200 dark:border-emerald-500/30 text-emerald-700 dark:text-emerald-400 font-bold transition-all cursor-pointer group"
       >
         <span class="text-xs tracking-wide">GOOD (3)</span>
-        <span class="text-[9.5px] opacity-70 font-mono mt-0.5">Key 3</span>
+        <span class="text-[9.5px] opacity-70 font-mono mt-0.5">Key 3 / Swipe &rarr;</span>
       </button>
 
       <button
@@ -146,7 +158,7 @@ const emit = defineEmits<{
       >
         <div>{{ currentStudyIndex + 1 }} / {{ vocabulary.length }}</div>
         <div class="text-[10px] text-slate-500 dark:text-slate-400 font-normal hidden sm:block">
-          Space to flip &bull; Arrows to navigate
+          Space or Tap to flip &bull; Swipe Left/Right to grade
         </div>
       </div>
       <Button
@@ -160,12 +172,12 @@ const emit = defineEmits<{
       />
     </div>
 
-    <!-- macOS Tactile Keyboard Shortcuts Strip -->
+    <!-- macOS Tactile Keyboard Shortcuts & Gesture Strip -->
     <div
       class="flex flex-wrap items-center justify-center gap-x-5 gap-y-1.5 py-2 px-4 rounded-xl bg-white/80 dark:bg-black/30 border border-slate-200/80 dark:border-white/5 text-[11px] text-slate-500 dark:text-slate-400 w-full shadow-2xs"
     >
       <div class="flex items-center gap-1.5">
-        <kbd class="macos-kbd">␣</kbd> <span>Space to flip</span>
+        <kbd class="macos-kbd">␣</kbd> <span>Space / Tap to flip</span>
       </div>
       <div class="flex items-center gap-1.5">
         <kbd class="macos-kbd">&larr;</kbd> <kbd class="macos-kbd">&rarr;</kbd>

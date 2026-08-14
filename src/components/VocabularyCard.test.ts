@@ -1,4 +1,4 @@
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect, vi } from 'vitest';
 import { mount } from '@vue/test-utils';
 import VocabularyCard from './VocabularyCard.vue';
 import type { Word } from '../types';
@@ -83,5 +83,40 @@ describe('VocabularyCard.vue', () => {
     await audioBtn.trigger('click');
     expect(wrapper.emitted('play-audio')).toBeTruthy();
     expect(wrapper.emitted('play-audio')?.[0]).toEqual(['haus.mp3']);
+  });
+
+  it('handles touch swipe gestures correctly', async () => {
+    const vibrateSpy = vi.fn();
+    Object.assign(navigator, { vibrate: vibrateSpy });
+
+    const wrapper = mount(VocabularyCard, {
+      props: {
+        word: mockWord,
+        isFlipped: false,
+        direction: 'DE_TO_UA'
+      }
+    });
+
+    const card = wrapper.find('.group');
+
+    // Simulate Swipe Left (Again)
+    await card.trigger('touchstart', {
+      touches: [{ clientX: 200, clientY: 100 }]
+    });
+    await card.trigger('touchend', {
+      changedTouches: [{ clientX: 100, clientY: 100 }]
+    });
+
+    expect(wrapper.emitted('swipe-left')).toBeTruthy();
+
+    // Simulate Swipe Right (Good)
+    await card.trigger('touchstart', {
+      touches: [{ clientX: 100, clientY: 100 }]
+    });
+    await card.trigger('touchend', {
+      changedTouches: [{ clientX: 200, clientY: 100 }]
+    });
+
+    expect(wrapper.emitted('swipe-right')).toBeTruthy();
   });
 });

@@ -44,6 +44,8 @@ const {
   isShuffled,
   masteredIds,
   srsData,
+  studyStreak,
+  sessionReviewedCount,
   displayLimit,
   isLoading,
   error,
@@ -317,6 +319,8 @@ watch(
         <FilterBar
           v-if="activeView === 'list'"
           :vocabulary="vocabulary"
+          :totalCount="vocabulary.length"
+          :filteredCount="filteredVocabulary.length"
           v-model:search="search"
           v-model:level="levelFilter"
           v-model:thema="themaFilter"
@@ -371,6 +375,7 @@ watch(
           :vocabulary="vocabulary"
           :masteredIds="masteredIds"
           :srsData="srsData"
+          :studyStreak="studyStreak"
           @restore-progress="restoreProgress($event.masteredIds, $event.srsData)"
         />
 
@@ -391,6 +396,7 @@ watch(
           :directionOptions="directionOptions"
           :audioOptions="audioOptions"
           :isShuffled="isShuffled"
+          :sessionReviewedCount="sessionReviewedCount"
           @shuffle="shuffleCards"
           @flip="isFlipped = !isFlipped"
           @update-srs="handleSRSUpdate"

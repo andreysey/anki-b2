@@ -37,13 +37,15 @@ describe('StudyView.vue', () => {
         isAutoplay: true,
         studyProgress: 100,
         directionOptions,
-        audioOptions
+        audioOptions,
+        sessionReviewedCount: 3
       }
     });
 
     expect(wrapper.text()).toContain('Shuffle');
     expect(wrapper.text()).toContain('1 / 1');
-    expect(wrapper.text()).toContain('Space to flip');
+    expect(wrapper.text()).toContain('3 reviewed');
+    expect(wrapper.text()).toContain('flip');
   });
 
   it('renders SRS rating buttons when card is flipped', async () => {

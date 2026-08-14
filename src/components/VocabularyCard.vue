@@ -13,9 +13,14 @@ const emit = defineEmits<{
   (e: 'flip'): void;
   (e: 'toggle-mastered', word: Word): void;
   (e: 'play-audio', text: string): void;
+  (e: 'swipe-left'): void;
+  (e: 'swipe-right'): void;
 }>();
 
 const isAiActive = ref(false);
+
+const touchStartX = ref<number | null>(null);
+const touchStartY = ref<number | null>(null);
 
 // Reset AI expansion when card/word flips back or changes
 watch(
@@ -24,6 +29,16 @@ watch(
     isAiActive.value = false;
   }
 );
+
+const triggerHaptic = () => {
+  if (typeof navigator !== 'undefined' && 'vibrate' in navigator) {
+    try {
+      navigator.vibrate(15);
+    } catch {
+      // Ignore haptic errors on unsupported hardware
+    }
+  }
+};
 
 const handleCardClick = (event: MouseEvent) => {
   const target = event.target as HTMLElement | null;
@@ -37,7 +52,38 @@ const handleCardClick = (event: MouseEvent) => {
       return;
     }
   }
+  triggerHaptic();
   emit('flip');
+};
+
+const handleTouchStart = (event: TouchEvent) => {
+  const touch = event.touches[0];
+  if (touch) {
+    touchStartX.value = touch.clientX;
+    touchStartY.value = touch.clientY;
+  }
+};
+
+const handleTouchEnd = (event: TouchEvent) => {
+  if (touchStartX.value === null || touchStartY.value === null) return;
+  const touch = event.changedTouches[0];
+  if (!touch) return;
+
+  const deltaX = touch.clientX - touchStartX.value;
+  const deltaY = touch.clientY - touchStartY.value;
+
+  // Check if horizontal swipe exceeds 50px threshold and is more horizontal than vertical
+  if (Math.abs(deltaX) > 50 && Math.abs(deltaX) > Math.abs(deltaY)) {
+    triggerHaptic();
+    if (deltaX < -50) {
+      emit('swipe-left');
+    } else if (deltaX > 50) {
+      emit('swipe-right');
+    }
+  }
+
+  touchStartX.value = null;
+  touchStartY.value = null;
 };
 
 const handleKeyDown = (event: KeyboardEvent) => {
@@ -51,6 +97,7 @@ const handleKeyDown = (event: KeyboardEvent) => {
   }
   if (event.key === 'Enter' || event.key === ' ') {
     event.preventDefault();
+    triggerHaptic();
     emit('flip');
   }
 };
@@ -60,7 +107,7 @@ const showGermanOnFront = computed(() => props.direction === 'DE_TO_UA');
 
 <template>
   <div
-    class="relative w-full max-w-[560px] [perspective:1400px] cursor-pointer mx-auto group focus:outline-none focus:ring-2 focus:ring-primary/60 rounded-[28px] transition-all duration-500 ease-out"
+    class="relative w-full max-w-[560px] [perspective:1400px] cursor-pointer mx-auto group focus:outline-none focus:ring-2 focus:ring-primary/60 rounded-[28px] transition-all duration-500 ease-out select-none"
     :class="[
       isFlipped && isAiActive
         ? 'h-[550px] xs:h-[590px] sm:h-[640px]'
@@ -69,9 +116,11 @@ const showGermanOnFront = computed(() => props.direction === 'DE_TO_UA');
     tabindex="0"
     role="button"
     :aria-expanded="isFlipped"
-    aria-label="Vocabulary card. Press Space or Enter to flip"
+    aria-label="Vocabulary card. Press Space or Enter to flip, swipe left or right on mobile"
     @click="handleCardClick"
     @keydown="handleKeyDown"
+    @touchstart="handleTouchStart"
+    @touchend="handleTouchEnd"
   >
     <div
       class="relative w-full h-full transition-all duration-[700ms] [transform-style:preserve-3d] shadow-xl rounded-[26px]"

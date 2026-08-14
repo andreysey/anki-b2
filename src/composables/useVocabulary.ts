@@ -35,6 +35,22 @@ export const buildSearchIndex = (word: Word): string => {
   return `${word.german} ${word.english} ${word.ukrainian}`.toLowerCase();
 };
 
+export interface StudyStreakData {
+  lastDate: string; // 'YYYY-MM-DD'
+  streak: number;
+}
+
+const getTodayDateString = (): string => {
+  const d = new Date();
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+};
+
+const getYesterdayDateString = (): string => {
+  const d = new Date();
+  d.setDate(d.getDate() - 1);
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+};
+
 // Module-level shared state (Singleton pattern across components)
 const vocabulary = ref<Word[]>([]);
 const isLoading = ref<boolean>(false);
@@ -47,6 +63,12 @@ const masteredIds = ref<Set<string>>(
 const srsData = ref<Record<string, SRSState>>(
   safeStorage.getItem<Record<string, SRSState>>(STORAGE_KEYS.SRS_DATA, {})
 );
+
+const studyStreak = ref<StudyStreakData>(
+  safeStorage.getItem<StudyStreakData>(STORAGE_KEYS.STUDY_STREAK, { lastDate: '', streak: 0 })
+);
+
+const sessionReviewedCount = ref<number>(0);
 
 const search = ref<string>('');
 const levelFilter = ref<string>('all');
@@ -70,6 +92,28 @@ watch([search, levelFilter, themaFilter], () => {
 });
 
 export function useVocabulary() {
+  const recordStudyActivity = () => {
+    const today = getTodayDateString();
+    const yesterday = getYesterdayDateString();
+    const current = studyStreak.value;
+
+    if (current.lastDate === today) {
+      return; // Already recorded activity today
+    }
+
+    let newStreak = 1;
+    if (current.lastDate === yesterday) {
+      newStreak = (current.streak || 0) + 1;
+    }
+
+    const updated: StudyStreakData = {
+      lastDate: today,
+      streak: newStreak
+    };
+    studyStreak.value = updated;
+    safeStorage.setItem(STORAGE_KEYS.STUDY_STREAK, updated);
+  };
+
   const init = async () => {
     if (vocabulary.value.length > 0) return; // Already loaded
 
@@ -198,6 +242,9 @@ export function useVocabulary() {
     };
     saveSRS();
 
+    sessionReviewedCount.value++;
+    recordStudyActivity();
+
     if (rating === 'good' || rating === 'easy') {
       nextCard();
     } else {
@@ -251,6 +298,8 @@ export function useVocabulary() {
     isShuffled,
     masteredIds,
     srsData,
+    studyStreak,
+    sessionReviewedCount,
     displayLimit,
     isLoading,
     error,
@@ -261,6 +310,7 @@ export function useVocabulary() {
     shuffleCards,
     toggleMastered,
     restoreProgress,
+    recordStudyActivity,
     loadMore: () => {
       displayLimit.value += 50;
     },

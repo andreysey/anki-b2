@@ -15,15 +15,21 @@ const mockWord: Word = {
   german_audio: 'anrufen.mp3'
 };
 
-vi.mock('../utils/ai', () => ({
-  checkOnDeviceSupport: vi.fn().mockResolvedValue(false),
-  getCloudKey: vi.fn().mockReturnValue(''),
-  setCloudKey: vi.fn(),
-  callAI: vi.fn().mockResolvedValue({
-    text: 'Grammar analysis result',
-    source: 'cloud'
-  })
-}));
+vi.mock('../utils/ai', async (importOriginal) => {
+  const actual = await importOriginal<typeof import('../utils/ai')>();
+  return {
+    ...actual,
+    checkOnDeviceSupport: vi.fn().mockResolvedValue(false),
+    getCloudKey: vi.fn().mockReturnValue(''),
+    setCloudKey: vi.fn(),
+    callAI: vi.fn().mockResolvedValue({
+      success: true,
+      text: 'Grammar analysis result',
+      source: 'cloud',
+      model: 'gemini-flash-lite-latest'
+    })
+  };
+});
 
 describe('AIAssistant.vue', () => {
   beforeEach(() => {
@@ -54,13 +60,21 @@ describe('AIAssistant.vue', () => {
     expect(wrapper.text()).toContain('Gemini Cloud (Active)');
   });
 
-  it('triggers grammar breakdown AI call on button click', async () => {
+  it('triggers grammar breakdown AI call and supports copy to clipboard', async () => {
     vi.spyOn(aiUtils, 'checkOnDeviceSupport').mockResolvedValue(false);
     vi.spyOn(aiUtils, 'getCloudKey').mockReturnValue('mock-api-key');
     const callAISpy = vi.spyOn(aiUtils, 'callAI').mockResolvedValue({
       success: true,
-      text: 'Grammar breakdown answer',
-      source: 'cloud'
+      text: 'Grammar breakdown answer with German: Das ist ein wichtiges Verb.',
+      source: 'cloud',
+      model: 'gemini-flash-lite-latest'
+    });
+
+    const writeTextSpy = vi.fn().mockResolvedValue(undefined);
+    Object.defineProperty(navigator, 'clipboard', {
+      value: { writeText: writeTextSpy },
+      configurable: true,
+      writable: true
     });
 
     const wrapper = mount(AIAssistant, {
@@ -75,6 +89,12 @@ describe('AIAssistant.vue', () => {
     expect(callAISpy).toHaveBeenCalled();
     await new Promise((r) => setTimeout(r, 20));
     expect(wrapper.text()).toContain('Grammar breakdown answer');
+
+    // Test copy button
+    const copyBtn = wrapper.find('button[aria-label="Copy text to clipboard"]');
+    expect(copyBtn.exists()).toBe(true);
+    await copyBtn.trigger('click');
+    expect(writeTextSpy).toHaveBeenCalled();
   });
 
   it('triggers workplace dialogue AI call on button click', async () => {
@@ -82,8 +102,9 @@ describe('AIAssistant.vue', () => {
     vi.spyOn(aiUtils, 'getCloudKey').mockReturnValue('mock-api-key');
     const callAISpy = vi.spyOn(aiUtils, 'callAI').mockResolvedValue({
       success: true,
-      text: 'Dialogue answer',
-      source: 'cloud'
+      text: 'Person A: Guten Morgen!\n(Добрий ранок!)',
+      source: 'cloud',
+      model: 'gemini-flash-lite-latest'
     });
 
     const wrapper = mount(AIAssistant, {
@@ -97,6 +118,6 @@ describe('AIAssistant.vue', () => {
 
     expect(callAISpy).toHaveBeenCalled();
     await new Promise((r) => setTimeout(r, 20));
-    expect(wrapper.text()).toContain('Dialogue answer');
+    expect(wrapper.text()).toContain('Person A: Guten Morgen!');
   });
 });

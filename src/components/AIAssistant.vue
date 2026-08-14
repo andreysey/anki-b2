@@ -22,6 +22,7 @@ const resultText = ref('');
 const resultSource = ref<'nano' | 'cloud' | 'none'>('none');
 const resultModel = ref<string>('');
 const explanationType = ref<'grammar' | 'dialogue' | null>(null);
+const isCopied = ref(false);
 
 onMounted(() => {
   init();
@@ -36,6 +37,8 @@ watch(
     resultText.value = '';
     resultModel.value = '';
     resultSource.value = 'none';
+    explanationType.value = null;
+    isCopied.value = false;
     emit('ai-active', false);
   }
 );
@@ -44,12 +47,27 @@ watch([isLoading, resultText], ([loading, text]) => {
   emit('ai-active', loading || Boolean(text));
 });
 
+const handleCopy = async () => {
+  if (!resultText.value) return;
+  try {
+    const cleanText = resultText.value.replace(/<[^>]*>/g, '');
+    await navigator.clipboard.writeText(cleanText);
+    isCopied.value = true;
+    setTimeout(() => {
+      isCopied.value = false;
+    }, 2000);
+  } catch (err) {
+    console.warn('Failed to copy AI text:', err);
+  }
+};
+
 const handleExplainGrammar = async () => {
   explanationType.value = 'grammar';
   isLoading.value = true;
   isError.value = false;
   resultText.value = '';
   resultModel.value = '';
+  isCopied.value = false;
   emit('ai-active', true);
 
   const systemInstruction =
@@ -79,6 +97,7 @@ const handleGenerateDialogue = async () => {
   isError.value = false;
   resultText.value = '';
   resultModel.value = '';
+  isCopied.value = false;
   emit('ai-active', true);
 
   const systemInstruction =
@@ -197,6 +216,22 @@ const handleGenerateDialogue = async () => {
           : 'bg-slate-100 dark:bg-black/50 border-slate-200 dark:border-white/10 text-slate-800 dark:text-slate-200'
       "
     >
+      <!-- Quick Utility Action: Copy to Clipboard -->
+      <div v-if="!isLoading && resultText" class="flex items-center justify-end gap-1 mb-1.5">
+        <Button
+          :icon="isCopied ? 'pi pi-check' : 'pi pi-copy'"
+          severity="secondary"
+          rounded
+          text
+          size="small"
+          @click.stop="handleCopy"
+          :title="isCopied ? 'Copied!' : 'Copy text to clipboard'"
+          aria-label="Copy text to clipboard"
+          class="hover:bg-slate-200/60 dark:hover:bg-white/10 !w-7 !h-7 active:scale-95 transition-all"
+          :class="isCopied ? 'text-emerald-500 font-bold' : 'text-slate-600 dark:text-slate-300'"
+        />
+      </div>
+
       <!-- Loading indicator -->
       <div v-if="isLoading" class="flex flex-col items-center justify-center py-6 gap-2.5 flex-1">
         <i

@@ -12,9 +12,11 @@ const props = withDefaults(
     vocabulary: Word[];
     masteredIds: Set<string>;
     srsData?: Record<string, SRSState>;
+    studyStreak?: { lastDate: string; streak: number };
   }>(),
   {
-    srsData: () => ({})
+    srsData: () => ({}),
+    studyStreak: () => ({ lastDate: '', streak: 0 })
   }
 );
 
@@ -81,40 +83,75 @@ const levelStats = computed(() => {
   });
 });
 
-// SRS Stage Distribution
-const srsStages = computed(() => {
-  let newCount = 0;
-  let learningCount = 0; // Level 1-2
-  let reviewCount = 0; // Level 3-4
-  let masteredCount = 0; // Level 5 or in masteredIds
+// Detailed Leitner Box 0-5 Breakdown
+const leitnerBoxes = computed(() => {
+  const counts = {
+    box0: 0, // New / Due
+    box1: 0, // 1 Day
+    box2: 0, // 3 Days
+    box3: 0, // 7 Days
+    box4: 0, // 14 Days
+    box5: 0 // 30 Days / Mastered
+  };
 
   props.vocabulary.forEach((w) => {
     const key = getItemKey(w);
     if (props.masteredIds.has(key)) {
-      masteredCount++;
+      counts.box5++;
       return;
     }
 
     const srs = props.srsData?.[key];
     const level = srs?.level ?? 0;
 
-    if (level === 0) {
-      newCount++;
-    } else if (level <= 2) {
-      learningCount++;
-    } else if (level <= 4) {
-      reviewCount++;
-    } else {
-      masteredCount++;
-    }
+    if (level === 0) counts.box0++;
+    else if (level === 1) counts.box1++;
+    else if (level === 2) counts.box2++;
+    else if (level === 3) counts.box3++;
+    else if (level === 4) counts.box4++;
+    else counts.box5++;
   });
 
-  return {
-    newCount,
-    learningCount,
-    reviewCount,
-    masteredCount
-  };
+  const total = props.vocabulary.length || 1;
+
+  return [
+    {
+      label: 'Box 0 (New)',
+      count: counts.box0,
+      color: 'bg-slate-500',
+      percentage: Math.round((counts.box0 / total) * 100)
+    },
+    {
+      label: 'Box 1 (1 Day)',
+      count: counts.box1,
+      color: 'bg-red-500',
+      percentage: Math.round((counts.box1 / total) * 100)
+    },
+    {
+      label: 'Box 2 (3 Days)',
+      count: counts.box2,
+      color: 'bg-amber-500',
+      percentage: Math.round((counts.box2 / total) * 100)
+    },
+    {
+      label: 'Box 3 (7 Days)',
+      count: counts.box3,
+      color: 'bg-blue-500',
+      percentage: Math.round((counts.box3 / total) * 100)
+    },
+    {
+      label: 'Box 4 (14 Days)',
+      count: counts.box4,
+      color: 'bg-indigo-500',
+      percentage: Math.round((counts.box4 / total) * 100)
+    },
+    {
+      label: 'Box 5 (Mastered)',
+      count: counts.box5,
+      color: 'bg-emerald-500',
+      percentage: Math.round((counts.box5 / total) * 100)
+    }
+  ];
 });
 
 // Grouping by Thema
@@ -183,8 +220,9 @@ const totalPercentage = computed(() => {
       </div>
     </div>
 
-    <!-- macOS Widget Summary Grid -->
-    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-5">
+    <!-- macOS Widget Summary Grid (4 Cards: Total, Mastered, Streak, Progress) -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-5">
+      <!-- Total Vocabulary -->
       <div
         class="p-4 sm:p-5 rounded-2xl bg-white/95 dark:bg-slate-900/90 border border-slate-200/90 dark:border-white/10 shadow-xs space-y-2"
       >
@@ -207,6 +245,7 @@ const totalPercentage = computed(() => {
         <div class="text-[11px] text-slate-500 dark:text-slate-400">Full professional corpus</div>
       </div>
 
+      <!-- Mastered Count -->
       <div
         class="p-4 sm:p-5 rounded-2xl bg-white/95 dark:bg-slate-900/90 border border-slate-200/90 dark:border-white/10 shadow-xs space-y-2"
       >
@@ -229,6 +268,31 @@ const totalPercentage = computed(() => {
         <div class="text-[11px] text-slate-500 dark:text-slate-400">Marked as fully memorized</div>
       </div>
 
+      <!-- Daily Streak -->
+      <div
+        class="p-4 sm:p-5 rounded-2xl bg-white/95 dark:bg-slate-900/90 border border-slate-200/90 dark:border-white/10 shadow-xs space-y-2"
+      >
+        <div class="flex items-center justify-between">
+          <span
+            class="text-[11px] font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400"
+            >Daily Streak</span
+          >
+          <div
+            class="w-7 h-7 rounded-lg bg-amber-50 text-amber-600 dark:bg-amber-500/10 dark:text-amber-400 flex items-center justify-center text-sm"
+          >
+            🔥
+          </div>
+        </div>
+        <div
+          class="text-2xl sm:text-3xl font-extrabold text-amber-600 dark:text-amber-400 tracking-tight flex items-baseline gap-1.5"
+        >
+          <span>{{ studyStreak?.streak || 0 }}</span>
+          <span class="text-sm font-semibold text-slate-500 dark:text-slate-400">days</span>
+        </div>
+        <div class="text-[11px] text-slate-500 dark:text-slate-400">Consecutive study days</div>
+      </div>
+
+      <!-- Overall Progress -->
       <div
         class="p-4 sm:p-5 rounded-2xl bg-white/95 dark:bg-slate-900/90 border border-slate-200/90 dark:border-white/10 shadow-xs space-y-2"
       >
@@ -271,56 +335,34 @@ const totalPercentage = computed(() => {
       </div>
     </div>
 
-    <!-- SRS Retention Pipeline Widget -->
+    <!-- Detailed Leitner Box 0-5 Distribution -->
     <div
       class="p-5 sm:p-6 rounded-2xl bg-white/95 dark:bg-slate-900/90 border border-slate-200/90 dark:border-white/10 shadow-xs space-y-4"
     >
       <div class="flex items-center justify-between">
         <h3 class="text-sm font-bold text-slate-900 dark:text-white tracking-tight">
-          SRS Retention Pipeline
+          Leitner Box Distribution (SRS Memory Depth)
         </h3>
         <span class="text-[11px] text-slate-500 dark:text-slate-400 font-medium"
-          >Spaced Repetition Stages</span
+          >Stages 0 to 5</span
         >
       </div>
-      <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
         <div
-          class="p-3 sm:p-4 rounded-xl bg-slate-100/90 dark:bg-black/40 border border-slate-200/80 dark:border-white/10 text-center space-y-0.5"
+          v-for="box in leitnerBoxes"
+          :key="box.label"
+          class="p-3 rounded-xl bg-slate-50 dark:bg-black/40 border border-slate-200/80 dark:border-white/10 space-y-1.5"
         >
-          <div class="text-[10px] uppercase font-bold text-slate-500 dark:text-slate-400">New</div>
-          <div class="text-xl sm:text-2xl font-black text-slate-800 dark:text-slate-200">
-            {{ srsStages.newCount }}
+          <div
+            class="text-[10px] font-bold text-slate-600 dark:text-slate-300 truncate"
+            :title="box.label"
+          >
+            {{ box.label }}
           </div>
-        </div>
-        <div
-          class="p-3 sm:p-4 rounded-xl bg-amber-50 border border-amber-200/80 dark:bg-amber-500/10 dark:border-amber-500/25 text-center space-y-0.5"
-        >
-          <div class="text-[10px] uppercase font-bold text-amber-700 dark:text-amber-400">
-            Learning (1-2)
+          <div class="text-xl font-black text-slate-900 dark:text-white">
+            {{ box.count }}
           </div>
-          <div class="text-xl sm:text-2xl font-black text-amber-700 dark:text-amber-400">
-            {{ srsStages.learningCount }}
-          </div>
-        </div>
-        <div
-          class="p-3 sm:p-4 rounded-xl bg-blue-50 border border-blue-200/80 dark:bg-blue-500/10 dark:border-blue-500/25 text-center space-y-0.5"
-        >
-          <div class="text-[10px] uppercase font-bold text-blue-700 dark:text-blue-400">
-            Review (3-4)
-          </div>
-          <div class="text-xl sm:text-2xl font-black text-blue-700 dark:text-blue-400">
-            {{ srsStages.reviewCount }}
-          </div>
-        </div>
-        <div
-          class="p-3 sm:p-4 rounded-xl bg-emerald-50 border border-emerald-200/80 dark:bg-emerald-500/10 dark:border-emerald-500/25 text-center space-y-0.5"
-        >
-          <div class="text-[10px] uppercase font-bold text-emerald-700 dark:text-emerald-400">
-            Mastered (5+)
-          </div>
-          <div class="text-xl sm:text-2xl font-black text-emerald-700 dark:text-emerald-400">
-            {{ srsStages.masteredCount }}
-          </div>
+          <ProgressBar :value="box.percentage" class="!h-1 !rounded-full" />
         </div>
       </div>
     </div>
