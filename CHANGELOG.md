@@ -1,3 +1,10 @@
+# [1.19.0](https://github.com/andreysey/anki-b2/compare/v1.18.0...v1.19.0) (2026-08-14)
+
+
+### Features
+
+* display app version tag in the header navigation ([761e480](https://github.com/andreysey/anki-b2/commit/761e480ed86e6529978d0d94320641e421e748dd))
+
 # [1.18.0](https://github.com/andreysey/anki-b2/compare/v1.17.0...v1.18.0) (2026-08-13)
 
 
