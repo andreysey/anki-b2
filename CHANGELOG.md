@@ -1,9 +1,8 @@
 # [1.20.0](https://github.com/andreysey/anki-b2/compare/v1.19.0...v1.20.0) (2026-08-14)
 
-
 ### Features
 
-* implement daily study streaks and mobile swipe gestures for vocabulary cards ([4e55737](https://github.com/andreysey/anki-b2/commit/4e557372762c3d4327f493fbb35abddb93b8d6a4))
+- implement daily study streaks and mobile swipe gestures for vocabulary cards ([4e55737](https://github.com/andreysey/anki-b2/commit/4e557372762c3d4327f493fbb35abddb93b8d6a4))
 
 # [1.19.0](https://github.com/andreysey/anki-b2/compare/v1.18.0...v1.19.0) (2026-08-14)
 

@@ -228,11 +228,13 @@ watch(
         </div>
 
         <!-- Center: macOS Segmented Navigation Pill -->
-        <nav class="macos-segmented-bar flex items-center gap-1.5 shadow-inner">
+        <nav
+          class="macos-segmented-bar flex items-center gap-1 sm:gap-1.5 shadow-inner max-w-full overflow-x-auto"
+        >
           <button
             type="button"
             id="tab-dictionary"
-            class="px-4 py-1.5 text-xs sm:text-sm font-semibold rounded-lg transition-all cursor-pointer"
+            class="px-2.5 sm:px-4 py-1.5 text-xs sm:text-sm font-semibold rounded-lg transition-all cursor-pointer whitespace-nowrap"
             :class="
               activeView === 'list'
                 ? 'macos-segmented-item-active'
@@ -240,13 +242,13 @@ watch(
             "
             @click="activeView = 'list'"
           >
-            <i class="pi pi-list mr-1.5 text-xs"></i>
+            <i class="pi pi-list mr-1 sm:mr-1.5 text-xs"></i>
             <span>Dictionary</span>
           </button>
           <button
             type="button"
             id="tab-study"
-            class="px-4 py-1.5 text-xs sm:text-sm font-semibold rounded-lg transition-all cursor-pointer"
+            class="px-2.5 sm:px-4 py-1.5 text-xs sm:text-sm font-semibold rounded-lg transition-all cursor-pointer whitespace-nowrap"
             :class="
               activeView === 'study'
                 ? 'macos-segmented-item-active'
@@ -254,13 +256,13 @@ watch(
             "
             @click="activeView = 'study'"
           >
-            <i class="pi pi-graduation-cap mr-1.5 text-xs"></i>
+            <i class="pi pi-graduation-cap mr-1 sm:mr-1.5 text-xs"></i>
             <span>Study Mode</span>
           </button>
           <button
             type="button"
             id="tab-dashboard"
-            class="px-4 py-1.5 text-xs sm:text-sm font-semibold rounded-lg transition-all cursor-pointer"
+            class="px-2.5 sm:px-4 py-1.5 text-xs sm:text-sm font-semibold rounded-lg transition-all cursor-pointer whitespace-nowrap"
             :class="
               activeView === 'dashboard'
                 ? 'macos-segmented-item-active'
@@ -268,7 +270,7 @@ watch(
             "
             @click="activeView = 'dashboard'"
           >
-            <i class="pi pi-chart-bar mr-1.5 text-xs"></i>
+            <i class="pi pi-chart-bar mr-1 sm:mr-1.5 text-xs"></i>
             <span>Dashboard</span>
           </button>
         </nav>
