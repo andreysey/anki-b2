@@ -205,36 +205,62 @@ watch(
     >
       <!-- macOS Window Titlebar & Toolbar -->
       <header
-        class="macos-titlebar h-16 px-6 sm:px-10 flex items-center justify-between gap-4 select-none shrink-0"
+        class="macos-titlebar px-4 sm:px-6 md:px-10 py-3 sm:py-3.5 flex flex-col md:flex-row md:items-center justify-between gap-3 md:gap-4 select-none shrink-0"
       >
-        <!-- App Logo & Title -->
-        <div class="flex items-center gap-3">
-          <div
-            class="w-9 h-9 rounded-xl bg-primary-500/10 border border-primary-500/20 flex items-center justify-center text-primary-500 dark:text-primary-400 shadow-xs"
-          >
-            <i class="pi pi-book text-base"></i>
+        <!-- Top row on mobile: Logo + Title (Left) & Utility Actions (Right) -->
+        <div class="flex items-center justify-between w-full md:w-auto gap-3">
+          <div class="flex items-center gap-2.5 sm:gap-3">
+            <div
+              class="w-8 h-8 sm:w-9 sm:h-9 rounded-xl bg-primary-500/10 border border-primary-500/20 flex items-center justify-center text-primary-500 dark:text-primary-400 shadow-xs shrink-0"
+            >
+              <i class="pi pi-book text-sm sm:text-base"></i>
+            </div>
+            <div class="flex items-center gap-1.5 sm:gap-2">
+              <span
+                class="text-sm sm:text-base font-bold tracking-tight text-slate-800 dark:text-slate-200"
+                >Anki B2</span
+              >
+              <span
+                class="text-[10px] font-mono font-medium px-1.5 py-0.5 rounded-md bg-slate-100 dark:bg-white/10 text-slate-500 dark:text-slate-400 border border-slate-200/80 dark:border-white/10 shadow-2xs"
+              >
+                v{{ appVersion }}
+              </span>
+            </div>
           </div>
-          <div class="flex items-center gap-2">
-            <span
-              class="text-sm sm:text-base font-bold tracking-tight text-slate-800 dark:text-slate-200"
-              >Anki B2</span
+
+          <!-- Utility Actions (Mobile only) -->
+          <div class="flex md:hidden items-center gap-1.5">
+            <Button
+              id="btn-theme-toggle-mobile"
+              :icon="themeIcon"
+              severity="secondary"
+              rounded
+              text
+              size="small"
+              @click="cycleTheme"
+              :title="`Theme: ${themeModeLabel}`"
+              class="hover:bg-slate-200/60 dark:hover:bg-white/10 active:scale-95 transition-all !w-8 !h-8"
+            />
+            <a
+              href="https://github.com/andreysey/anki-b2"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GitHub Repository"
+              class="p-button p-component p-button-icon-only p-button-secondary p-button-rounded p-button-text !w-8 !h-8 hover:bg-slate-200/60 dark:hover:bg-white/10 active:scale-95 transition-all text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100"
             >
-            <span
-              class="text-[10px] font-mono font-medium px-1.5 py-0.5 rounded-md bg-slate-100 dark:bg-white/10 text-slate-500 dark:text-slate-400 border border-slate-200/80 dark:border-white/10 shadow-2xs"
-            >
-              v{{ appVersion }}
-            </span>
+              <i class="pi pi-github text-sm"></i>
+            </a>
           </div>
         </div>
 
         <!-- Center: macOS Segmented Navigation Pill -->
         <nav
-          class="macos-segmented-bar flex items-center gap-1 sm:gap-1.5 shadow-inner max-w-full overflow-x-auto"
+          class="macos-segmented-bar w-full md:w-auto grid grid-cols-3 md:flex items-center gap-1 shadow-inner p-1"
         >
           <button
             type="button"
             id="tab-dictionary"
-            class="px-2.5 sm:px-4 py-1.5 text-xs sm:text-sm font-semibold rounded-lg transition-all cursor-pointer whitespace-nowrap"
+            class="px-2 sm:px-4 py-1.5 text-xs sm:text-sm font-semibold rounded-lg transition-all cursor-pointer flex items-center justify-center gap-1 sm:gap-1.5 text-center"
             :class="
               activeView === 'list'
                 ? 'macos-segmented-item-active'
@@ -242,13 +268,13 @@ watch(
             "
             @click="activeView = 'list'"
           >
-            <i class="pi pi-list mr-1 sm:mr-1.5 text-xs"></i>
+            <i class="pi pi-list text-xs"></i>
             <span>Dictionary</span>
           </button>
           <button
             type="button"
             id="tab-study"
-            class="px-2.5 sm:px-4 py-1.5 text-xs sm:text-sm font-semibold rounded-lg transition-all cursor-pointer whitespace-nowrap"
+            class="px-2 sm:px-4 py-1.5 text-xs sm:text-sm font-semibold rounded-lg transition-all cursor-pointer flex items-center justify-center gap-1 sm:gap-1.5 text-center"
             :class="
               activeView === 'study'
                 ? 'macos-segmented-item-active'
@@ -256,13 +282,13 @@ watch(
             "
             @click="activeView = 'study'"
           >
-            <i class="pi pi-graduation-cap mr-1 sm:mr-1.5 text-xs"></i>
+            <i class="pi pi-graduation-cap text-xs"></i>
             <span>Study Mode</span>
           </button>
           <button
             type="button"
             id="tab-dashboard"
-            class="px-2.5 sm:px-4 py-1.5 text-xs sm:text-sm font-semibold rounded-lg transition-all cursor-pointer whitespace-nowrap"
+            class="px-2 sm:px-4 py-1.5 text-xs sm:text-sm font-semibold rounded-lg transition-all cursor-pointer flex items-center justify-center gap-1 sm:gap-1.5 text-center"
             :class="
               activeView === 'dashboard'
                 ? 'macos-segmented-item-active'
@@ -270,13 +296,13 @@ watch(
             "
             @click="activeView = 'dashboard'"
           >
-            <i class="pi pi-chart-bar mr-1 sm:mr-1.5 text-xs"></i>
+            <i class="pi pi-chart-bar text-xs"></i>
             <span>Dashboard</span>
           </button>
         </nav>
 
-        <!-- Right: Window Utility Actions -->
-        <div class="flex items-center gap-2 justify-end">
+        <!-- Right: Window Utility Actions (Desktop only) -->
+        <div class="hidden md:flex items-center gap-2 justify-end">
           <Button
             id="btn-theme-toggle"
             :icon="themeIcon"
