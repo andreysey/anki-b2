@@ -26,6 +26,7 @@ const DashboardView = defineAsyncComponent(() => import('./components/DashboardV
 
 const toast = useToast();
 const mainContentRef = ref<HTMLElement | null>(null);
+const appVersion = typeof __APP_VERSION__ !== 'undefined' ? __APP_VERSION__ : '1.18.0';
 
 // Domain State from Composables
 const {
@@ -206,7 +207,12 @@ watch([currentStudyIndex, isFlipped, isStudyMode, isAutoplay], ([newIdx, newFlip
           <div class="w-9 h-9 rounded-xl bg-primary-500/10 border border-primary-500/20 flex items-center justify-center text-primary-500 dark:text-primary-400 shadow-xs">
             <i class="pi pi-book text-base"></i>
           </div>
-          <span class="text-sm sm:text-base font-bold tracking-tight text-slate-800 dark:text-slate-200">Anki B2</span>
+          <div class="flex items-center gap-2">
+            <span class="text-sm sm:text-base font-bold tracking-tight text-slate-800 dark:text-slate-200">Anki B2</span>
+            <span class="text-[10px] font-mono font-medium px-1.5 py-0.5 rounded-md bg-slate-100 dark:bg-white/10 text-slate-500 dark:text-slate-400 border border-slate-200/80 dark:border-white/10 shadow-2xs">
+              v{{ appVersion }}
+            </span>
+          </div>
         </div>
 
         <!-- Center: macOS Segmented Navigation Pill -->
