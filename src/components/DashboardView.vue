@@ -331,7 +331,7 @@ const totalPercentage = computed(() => {
             >{{ lvl.mastered }} / {{ lvl.total }} ({{ lvl.percentage }}%)</span
           >
         </div>
-        <ProgressBar :value="lvl.percentage" class="!h-2 !rounded-full" />
+        <ProgressBar :value="lvl.percentage" class="h-2! rounded-full!" />
       </div>
     </div>
 
@@ -362,7 +362,7 @@ const totalPercentage = computed(() => {
           <div class="text-xl font-black text-slate-900 dark:text-white">
             {{ box.count }}
           </div>
-          <ProgressBar :value="box.percentage" class="!h-1 !rounded-full" />
+          <ProgressBar :value="box.percentage" class="h-1! rounded-full!" />
         </div>
       </div>
     </div>
@@ -379,7 +379,7 @@ const totalPercentage = computed(() => {
           >{{ totalMastered }} / {{ totalWords }} mastered</span
         >
       </div>
-      <ProgressBar :value="totalPercentage" class="!h-2.5 !rounded-full" />
+      <ProgressBar :value="totalPercentage" class="h-2.5! rounded-full!" />
 
       <!-- Sync Controls -->
       <div
@@ -403,7 +403,7 @@ const totalPercentage = computed(() => {
             size="small"
             outlined
             @click="handleExport"
-            class="!rounded-xl text-xs !py-1.5 !px-3 active:scale-95 transition-all font-semibold"
+            class="rounded-xl! text-xs py-1.5! px-3! active:scale-95 transition-all font-semibold"
           />
           <Button
             label="Restore Progress"
@@ -412,7 +412,7 @@ const totalPercentage = computed(() => {
             size="small"
             outlined
             @click="triggerFileInput"
-            class="!rounded-xl text-xs !py-1.5 !px-3 active:scale-95 transition-all font-semibold"
+            class="rounded-xl! text-xs py-1.5! px-3! active:scale-95 transition-all font-semibold"
           />
         </div>
       </div>
@@ -457,7 +457,7 @@ const totalPercentage = computed(() => {
               >{{ item.mastered }}/{{ item.total }} ({{ item.percentage }}%)</span
             >
           </div>
-          <ProgressBar :value="item.percentage" class="!h-1.5 !rounded-full" />
+          <ProgressBar :value="item.percentage" class="h-1.5! rounded-full!" />
         </div>
       </div>
     </div>

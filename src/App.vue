@@ -239,14 +239,14 @@ watch(
               size="small"
               @click="cycleTheme"
               :title="`Theme: ${themeModeLabel}`"
-              class="hover:bg-slate-200/60 dark:hover:bg-white/10 active:scale-95 transition-all !w-8 !h-8"
+              class="hover:bg-slate-200/60 dark:hover:bg-white/10 active:scale-95 transition-all w-8! h-8!"
             />
             <a
               href="https://github.com/andreysey/anki-b2"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub Repository"
-              class="p-button p-component p-button-icon-only p-button-secondary p-button-rounded p-button-text !w-8 !h-8 hover:bg-slate-200/60 dark:hover:bg-white/10 active:scale-95 transition-all text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100"
+              class="p-button p-component p-button-icon-only p-button-secondary p-button-rounded p-button-text w-8! h-8! hover:bg-slate-200/60 dark:hover:bg-white/10 active:scale-95 transition-all text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100"
             >
               <i class="pi pi-github text-sm"></i>
             </a>
@@ -312,14 +312,14 @@ watch(
             size="small"
             @click="cycleTheme"
             :title="`Theme: ${themeModeLabel}`"
-            class="hover:bg-slate-200/60 dark:hover:bg-white/10 active:scale-95 transition-all !w-9 !h-9"
+            class="hover:bg-slate-200/60 dark:hover:bg-white/10 active:scale-95 transition-all w-9! h-9!"
           />
           <a
             href="https://github.com/andreysey/anki-b2"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub Repository"
-            class="p-button p-component p-button-icon-only p-button-secondary p-button-rounded p-button-text !w-9 !h-9 hover:bg-slate-200/60 dark:hover:bg-white/10 active:scale-95 transition-all text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100"
+            class="p-button p-component p-button-icon-only p-button-secondary p-button-rounded p-button-text w-9! h-9! hover:bg-slate-200/60 dark:hover:bg-white/10 active:scale-95 transition-all text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100"
           >
             <i class="pi pi-github text-base"></i>
           </a>
@@ -338,7 +338,7 @@ watch(
           v-if="error"
           severity="error"
           icon="pi pi-exclamation-triangle"
-          class="!rounded-xl mb-4"
+          class="rounded-xl! mb-4"
         >
           {{ error }}
         </Message>
@@ -362,7 +362,7 @@ watch(
           header="Speech & Audio Preferences"
           toggleable
           collapsed
-          class="shadow-sm !rounded-2xl border border-slate-200/80 dark:border-white/10"
+          class="shadow-sm rounded-2xl! border border-slate-200/80 dark:border-white/10"
         >
           <div class="grid grid-cols-1 md:grid-cols-2 gap-6 p-5">
             <div class="flex flex-col gap-2">
@@ -379,7 +379,7 @@ watch(
                 </option>
               </select>
             </div>
-            <div class="flex flex-col gap-2 justify-center min-h-[60px]">
+            <div class="flex flex-col gap-2 justify-center min-h-15">
               <span
                 class="text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400"
                 >Speech Rate ({{ ttsRate }}x)</span

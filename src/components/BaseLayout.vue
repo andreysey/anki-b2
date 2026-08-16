@@ -18,7 +18,7 @@ const currentYear = new Date().getFullYear();
       class="sticky top-0 z-50 bg-surface-950/80 backdrop-blur-md border-b border-surface-800 w-full flex justify-center"
     >
       <div
-        class="max-w-[1280px] w-full !mx-auto !px-6 sm:!px-12 lg:!px-16 h-16 flex items-center justify-between"
+        class="max-w-7xl w-full mx-auto! px-6! sm:px-12! lg:px-16! h-16 flex items-center justify-between"
       >
         <div class="flex items-center">
           <slot name="header-start">
@@ -46,9 +46,9 @@ const currentYear = new Date().getFullYear();
     <!-- Content Wrapper with Centering -->
     <div class="w-full flex justify-center min-h-[calc(100vh-64px)]">
       <div
-        class="max-w-[1280px] w-full !mx-auto !px-6 sm:!px-12 lg:!px-16 py-12 sm:py-20 flex flex-col flex-grow"
+        class="max-w-7xl w-full mx-auto! px-6! sm:px-12! lg:px-16! py-12 sm:py-20 flex flex-col grow"
       >
-        <main class="flex-grow flex flex-col gap-12">
+        <main class="grow flex flex-col gap-12">
           <slot />
         </main>
 

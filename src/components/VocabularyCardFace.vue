@@ -41,8 +41,8 @@ const handleAiActive = (active: boolean) => {
       <ScrollPanel
         :class="
           isAiContentActive
-            ? 'h-[430px] sm:h-[500px]'
-            : scrollPanelHeight || 'h-[250px] sm:h-[280px]'
+            ? 'h-107.5 sm:h-125'
+            : scrollPanelHeight || 'h-62.5 sm:h-70'
         "
         class="custom-scrollbar px-1 transition-all duration-300"
       >
@@ -95,7 +95,7 @@ const handleAiActive = (active: boolean) => {
               text
               severity="secondary"
               size="small"
-              class="shrink-0 hover:bg-slate-200/60 dark:hover:bg-white/10 text-slate-600 dark:text-slate-300 !w-8 !h-8"
+              class="shrink-0 hover:bg-slate-200/60 dark:hover:bg-white/10 text-slate-600 dark:text-slate-300 w-8! h-8!"
               aria-label="Play example sentence pronunciation"
               @click.stop="emit('play-audio', word.example)"
               title="Play example sentence"

@@ -45,7 +45,7 @@ const handleSave = () => {
             id="apiKeyInput"
             v-model="localKey"
             placeholder="Paste AI Studio API Key..."
-            class="flex-1 !rounded-xl text-xs !bg-slate-50 dark:!bg-black/40 !border-slate-200 dark:!border-white/15"
+            class="flex-1 rounded-xl! text-xs bg-slate-50! dark:bg-black/40! border-slate-200! dark:border-white/15!"
             type="password"
           />
           <Button
@@ -53,7 +53,7 @@ const handleSave = () => {
             severity="primary"
             size="small"
             @click="handleSave"
-            class="!rounded-xl text-xs font-semibold px-4 active:scale-95"
+            class="rounded-xl! text-xs font-semibold px-4 active:scale-95"
           />
         </div>
         <span class="text-[10px] text-slate-500">
