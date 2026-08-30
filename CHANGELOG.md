@@ -1,3 +1,10 @@
+# [1.30.0](https://github.com/andreysey/anki-b2/compare/v1.29.0...v1.30.0) (2026-08-30)
+
+
+### Features
+
+* enable multi-language text-to-speech with sequential audio playback support ([173a2e8](https://github.com/andreysey/anki-b2/commit/173a2e8853a83d8b545dad2d0a6972a2dd2400ee))
+
 # [1.29.0](https://github.com/andreysey/anki-b2/compare/v1.28.0...v1.29.0) (2026-08-30)
 
 
