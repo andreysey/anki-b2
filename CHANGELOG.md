@@ -1,3 +1,10 @@
+# [1.27.0](https://github.com/andreysey/anki-b2/compare/v1.26.0...v1.27.0) (2026-08-30)
+
+
+### Features
+
+* replace primevue agent skill with shadcn-vue skill configuration ([4b9a290](https://github.com/andreysey/anki-b2/commit/4b9a290b7c83f5fe7848795f27c8dc3997d60dd8))
+
 # [1.26.0](https://github.com/andreysey/anki-b2/compare/v1.25.0...v1.26.0) (2026-08-30)
 
 
