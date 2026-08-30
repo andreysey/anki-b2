@@ -54,6 +54,7 @@ export default defineConfig({
         ]
       },
       workbox: {
+        maximumFileSizeToCacheInBytes: 10 * 1024 * 1024,
         globPatterns: ['**/*.{js,css,html,ico,png,svg,json}'],
         runtimeCaching: [
           {
@@ -87,9 +88,13 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     emptyOutDir: true,
+    chunkSizeWarningLimit: 7000,
     rollupOptions: {
       output: {
         manualChunks(id: string) {
+          if (id.includes('node_modules/@mlc-ai/web-llm/')) {
+            return 'vendor-webllm';
+          }
           if (id.includes('node_modules/vue/') || id.includes('node_modules/@vue/')) {
             return 'vendor-vue';
           }

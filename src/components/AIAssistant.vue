@@ -13,6 +13,15 @@ import {
   Check
 } from 'lucide-vue-next';
 import { sanitizeHtml } from '../utils/sanitize';
+import {
+  isModelReady,
+  isModelLoading,
+  modelLoadingProgress,
+  modelLoadingText,
+  isWebGPUSupported,
+  isGenerating,
+  generationStatus
+} from '../utils/webllm';
 
 const props = defineProps<{
   word: Word;
@@ -27,13 +36,18 @@ const { hasNano, hasCloudKey, init, openSettings } = useAIAssistantState();
 const isLoading = ref(false);
 const isError = ref(false);
 const resultText = ref('');
-const resultSource = ref<'nano' | 'cloud' | 'none'>('none');
+const resultSource = ref<'nano' | 'webllm' | 'cloud' | 'none'>('none');
 const resultModel = ref<string>('');
 const explanationType = ref<'grammar' | 'dialogue' | null>(null);
 const isCopied = ref(false);
+const hasCachedLocalModel = ref(false);
 
-onMounted(() => {
+onMounted(async () => {
   init();
+  if (isWebGPUSupported()) {
+    const { isModelCached } = await import('../utils/webllm');
+    hasCachedLocalModel.value = await isModelCached();
+  }
 });
 
 // Reset AI state when word changes
@@ -79,19 +93,18 @@ const handleExplainGrammar = async () => {
   emit('ai-active', true);
 
   const systemInstruction =
-    'You are a professional CEFR German B1+/B2 Beruf language coach. ' +
-    'Analyze the German vocabulary term and its example sentence. ' +
-    'Explain in Ukrainian (keep it brief and highly readable): ' +
-    '1. Underline the vocabulary meaning/preposition context in this sentence. ' +
-    '2. Explain any important grammar elements used (like prepositions, cases, or Nomen-Verb-Verbindungen). ' +
-    'Use bullet points and bold text where appropriate.';
+    'You are a German language coach (CEFR B1/B2). ' +
+    'Explain the German vocabulary term clearly in Ukrainian with bullet points. ' +
+    'Do not repeat phrases. Be concise and structured.';
 
   const prompt =
-    `Vocabulary Term: ${props.word.german}\n` +
-    `Example Sentence: ${props.word.example || 'None'}\n\n` +
-    `Please parse and explain the grammar structure.`;
+    `German word: ${props.word.german}\n` +
+    `Example: ${props.word.example || 'N/A'}\n\n` +
+    `Task: Provide meaning and grammar notes in Ukrainian.`;
 
-  const res = await callAI(prompt, systemInstruction);
+  const res = await callAI(prompt, systemInstruction, (_chunk, fullText) => {
+    resultText.value = fullText;
+  });
   resultText.value = res.text;
   resultSource.value = res.source;
   resultModel.value = res.model || '';
@@ -109,17 +122,21 @@ const handleGenerateDialogue = async () => {
   emit('ai-active', true);
 
   const systemInstruction =
-    'You are a professional CEFR German B1+/B2 Beruf language coach. ' +
-    'Generate a short corporate/workplace dialogue in German (2-4 turns) demonstrating the practical use of the target word. ' +
-    'Include a brief Ukrainian translation underneath each line. ' +
-    'Bold the target German vocabulary word inside the dialogue.';
+    'You are a German language coach. ' +
+    'Write a concise 2-speaker German workplace dialogue (2-3 lines max) using the vocabulary word. ' +
+    'Provide Ukrainian translation for each line. Do not repeat lines.';
 
   const prompt =
-    `Vocabulary Term: ${props.word.german}\n` +
-    `Context: Business/Professional (B2 Beruf)\n\n` +
-    `Create a practical workplace dialog.`;
+    `Word: ${props.word.german}\n` +
+    `Format:\n` +
+    `A: [German line]\n` +
+    `  [Ukrainian translation]\n` +
+    `B: [German line]\n` +
+    `  [Ukrainian translation]`;
 
-  const res = await callAI(prompt, systemInstruction);
+  const res = await callAI(prompt, systemInstruction, (_chunk, fullText) => {
+    resultText.value = fullText;
+  });
   resultText.value = res.text;
   resultSource.value = res.source;
   resultModel.value = res.model || '';
@@ -149,6 +166,15 @@ const handleGenerateDialogue = async () => {
             class="w-1.5 h-1.5 rounded-full bg-emerald-500 dark:bg-emerald-400 animate-pulse"
           ></span>
           Gemini Nano
+        </span>
+        <span
+          v-else-if="isModelReady || hasCachedLocalModel"
+          class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 border border-emerald-500/25"
+        >
+          <span
+            class="w-1.5 h-1.5 rounded-full bg-emerald-500 dark:bg-emerald-400 animate-pulse"
+          ></span>
+          Local AI (Offline)
         </span>
         <span
           v-else-if="resultModel"
@@ -188,7 +214,7 @@ const handleGenerateDialogue = async () => {
         variant="outline"
         size="sm"
         @click.stop="handleExplainGrammar"
-        :disabled="isLoading || (!hasNano && !hasCloudKey)"
+        :disabled="isLoading || (!hasNano && !hasCloudKey && !isModelReady && !hasCachedLocalModel && !isWebGPUSupported())"
         class="rounded-xl text-xs py-1.5"
       >
         <Compass class="h-3.5 w-3.5" />
@@ -198,7 +224,7 @@ const handleGenerateDialogue = async () => {
         variant="outline"
         size="sm"
         @click.stop="handleGenerateDialogue"
-        :disabled="isLoading || (!hasNano && !hasCloudKey)"
+        :disabled="isLoading || (!hasNano && !hasCloudKey && !isModelReady && !hasCachedLocalModel && !isWebGPUSupported())"
         class="rounded-xl text-xs py-1.5"
       >
         <MessageSquare class="h-3.5 w-3.5" />
@@ -208,11 +234,10 @@ const handleGenerateDialogue = async () => {
 
     <!-- Setup Prompt when AI is unconfigured -->
     <div
-      v-if="!hasNano && !hasCloudKey"
+      v-if="!hasNano && !hasCloudKey && !isModelReady && !hasCachedLocalModel"
       class="p-3 bg-slate-100 dark:bg-white/5 border border-slate-200 dark:border-white/10 rounded-xl text-xs text-slate-600 dark:text-slate-400 text-center leading-relaxed"
     >
-      Click the gear icon to configure your free <strong>Gemini Cloud API Key</strong>, or use
-      Google Chrome with <strong>window.ai</strong> enabled.
+      Click the gear icon to download the <strong>Offline Local Model (~250MB)</strong> or configure your free <strong>Gemini Cloud Key</strong>.
     </div>
 
     <!-- AI Output Card (Seamless, Single Outer Scrollbar) -->
@@ -241,19 +266,34 @@ const handleGenerateDialogue = async () => {
         </Button>
       </div>
 
-      <!-- Loading indicator -->
-      <div v-if="isLoading" class="flex flex-col items-center justify-center py-6 gap-2.5 flex-1">
+      <!-- Loading indicator & Real-time Thinking Status -->
+      <div v-if="isLoading && !resultText" class="flex flex-col items-center justify-center py-6 gap-2.5 flex-1">
         <Sparkles class="h-5 w-5 text-primary-500 animate-spin" />
-        <span class="text-xs text-slate-500 dark:text-slate-400 font-medium">
-          AI Coach analyzing context...
+        <span class="text-xs text-slate-600 dark:text-slate-300 font-medium animate-pulse">
+          {{
+            isModelLoading
+              ? (modelLoadingText || 'Downloading local model...')
+              : (generationStatus || 'AI Coach analyzing context...')
+          }}
         </span>
+        <div v-if="isModelLoading" class="w-48 bg-slate-200 dark:bg-slate-700 h-1.5 rounded-full overflow-hidden mt-1">
+          <div
+            class="bg-primary-500 h-full transition-all duration-300 rounded-full"
+            :style="{ width: `${modelLoadingProgress}%` }"
+          ></div>
+        </div>
       </div>
-      <!-- Output Text without nested scrollbar -->
+
+      <!-- Output Text (Live Streaming tokens & completed response) -->
       <div v-else class="text-xs leading-relaxed font-sans pr-1">
         <div
           class="whitespace-pre-wrap select-text font-normal text-slate-800 dark:text-slate-200"
           v-html="sanitizeHtml(resultText)"
         ></div>
+        <span
+          v-if="isLoading && isGenerating"
+          class="inline-block w-1.5 h-3.5 ml-1 bg-primary-500 animate-pulse align-middle rounded-xs"
+        ></span>
       </div>
 
       <!-- Footer with Model Badge & Source Details -->
@@ -266,11 +306,11 @@ const handleGenerateDialogue = async () => {
         >
           <Sparkles class="h-2.5 w-2.5 text-primary-500" />
           <span>{{
-            resultModel || (resultSource === 'nano' ? 'gemini-nano' : 'gemini-cloud')
+            resultModel || (resultSource === 'nano' ? 'gemini-nano' : resultSource === 'webllm' ? 'smollm2-local' : 'gemini-cloud')
           }}</span>
         </div>
         <span class="text-[9px] uppercase tracking-wider font-semibold text-slate-400">
-          {{ resultSource === 'nano' ? 'On-Device AI' : 'Cloud API' }}
+          {{ resultSource === 'nano' ? 'On-Device AI' : resultSource === 'webllm' ? 'WebGPU Local AI' : 'Cloud API' }}
         </span>
       </div>
     </div>

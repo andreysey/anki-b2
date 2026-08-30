@@ -5,7 +5,7 @@ import { STORAGE_KEYS } from '../constants/storage';
 export interface AIServiceResponse {
   success: boolean;
   text: string;
-  source: 'nano' | 'cloud' | 'none';
+  source: 'nano' | 'webllm' | 'cloud' | 'none';
   model?: string;
 }
 
@@ -142,7 +142,8 @@ export const getAvailableGeminiModels = async (cloudKey: string): Promise<string
 
 export const callAI = async (
   promptText: string,
-  systemInstruction?: string
+  systemInstruction?: string,
+  onProgress?: (chunk: string, fullText: string) => void
 ): Promise<AIServiceResponse> => {
   // 1. Try Chrome Built-in AI (Gemini Nano via W3C Prompt API)
   const onDeviceEngine = getOnDeviceAIEngine();
@@ -163,16 +164,44 @@ export const callAI = async (
         };
       }
     } catch (e) {
-      console.warn('Chrome Built-in AI failed, falling back to Cloud API', e);
+      console.warn('Chrome Built-in AI failed, falling back to local WebLLM or Cloud API', e);
     }
   }
 
-  // 2. Fallback to Cloud Gemini API
+  // 2. Try WebGPU Local WebLLM if model is cached/ready or WebGPU is supported
   const cloudKey = getCloudKey();
+  let localModelError = '';
+  try {
+    const { isModelReady, isModelCached, isWebGPUSupported, callWebLLM, selectedLocalModel } = await import('./webllm');
+    const cached = await isModelCached();
+    if ((isModelReady.value || cached || !cloudKey) && isWebGPUSupported()) {
+      try {
+        const localText = await callWebLLM(promptText, systemInstruction, onProgress);
+        if (localText) {
+          return {
+            success: true,
+            text: localText,
+            source: 'webllm',
+            model: `${selectedLocalModel.value.replace(/-q[0-9]f[0-9]+.*$/, '')} (Local WebGPU)`
+          };
+        }
+      } catch (e) {
+        localModelError = e instanceof Error ? e.message : String(e);
+        console.warn('Local WebLLM execution error:', localModelError);
+      }
+    }
+  } catch (err) {
+    console.warn('Local WebLLM check error:', err);
+  }
+
+  // 3. Fallback to Cloud Gemini API
   if (!cloudKey) {
+    const errorDetail = localModelError
+      ? `Local AI failed: ${localModelError}. Please check WebGPU support or configure a Gemini API key.`
+      : 'No local AI model loaded and no Gemini API key configured. Open settings to load a model or enter an API key.';
     return {
       success: false,
-      text: 'No API key or Built-in AI support found.',
+      text: errorDetail,
       source: 'none'
     };
   }

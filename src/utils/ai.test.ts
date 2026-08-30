@@ -73,7 +73,7 @@ describe('ai utils', () => {
       const res = await callAI('Explain dictionary entry');
       expect(res.success).toBe(false);
       expect(res.source).toBe('none');
-      expect(res.text).toContain('No API key');
+      expect(res.text).toContain('API key');
     });
 
     it('calls cloud API successfully when key is set', async () => {
