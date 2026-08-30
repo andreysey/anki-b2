@@ -47,4 +47,8 @@ npm run build
 
 ---
 
+---
+
 _Source of truth: `source/*.txt` — Decks & web data are automatically built and deployed via GitHub Actions._
+
+> **Disclaimer**: This is an independent open-source educational project. "telc" is a registered trademark of telc gGmbH. This project is not affiliated with, sponsored, or endorsed by telc gGmbH. All vocabulary is aligned with the official CEFR B1+/B2 occupational language frameworks.

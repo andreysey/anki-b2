@@ -446,7 +446,7 @@ watch(
       <!-- macOS Window Body Content -->
       <main
         ref="mainContentRef"
-        class="macos-main-content flex-1 flex flex-col gap-8 overflow-y-auto custom-scrollbar"
+        class="macos-main-content flex-1 flex flex-col gap-5 sm:gap-6 overflow-y-auto custom-scrollbar"
       >
         <AppHero v-if="activeView === 'list'" />
 
