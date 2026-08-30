@@ -4,10 +4,12 @@
 
 import { THEMA_NUMBERS } from '../src/constants/themas.js';
 
-// Regex equivalents of Rust's RE_PARENS, RE_PREFIX, RE_THEMA
+// Regex equivalents of Rust's RE_PARENS, RE_THEMA and grammar prefix patterns
 const RE_PARENS = /\s*\(.*?\)/g;
-const RE_PREFIX = /^(jdn\.|etw\.)\s+/;
 const RE_THEMA = /Thema(\d+)/;
+const RE_ARTICLES = /^(der|die|das)\/(die|der|das)\s+/i;
+const RE_GRAMMAR_PREFIX = /^(?:(?:etw\.|jdn\.|jdm\.|jds\.)(?:\/(?:etw\.|jdn\.|jdm\.|jds\.))?\s*)+/i;
+const RE_SICH_PREFIX = /^sich\s+(?:(?:etw\.|jdn\.|jdm\.|jds\.)(?:\/(?:etw\.|jdn\.|jdm\.|jds\.))?\s*)+/i;
 
 // Module-level caches for fast repeated lookups across deck builds
 const cleanGermanCache = new Map<string, string>();
@@ -29,7 +31,7 @@ const getCompiledRegex = (patternStr: string, flags: string): RegExp => {
 /**
  * Port of Rust: clean_german_for_audio
  * Strips parenthetical notes, takes first comma/slash alternative,
- * and removes grammatical prefixes like "jdn." / "etw."
+ * and removes grammatical prefixes like "jdn." / "etw." / "etw./jdn." / "jdm. etw."
  */
 export function cleanGermanForAudio(text: string): string {
   if (!text) return '';
@@ -37,10 +39,32 @@ export function cleanGermanForAudio(text: string): string {
   if (cached !== undefined) return cached;
 
   let t = text.replace(RE_PARENS, '');
-  t = t.split(',')[0];
-  t = t.split('/')[0];
-  t = t.replace(RE_PREFIX, '');
   t = t.replace(/[*_]/g, '');
+  t = t.replace(RE_ARTICLES, '$1 ');
+  t = t.replace(RE_GRAMMAR_PREFIX, '');
+  t = t.replace(RE_SICH_PREFIX, 'sich ');
+
+  // Noun pairs separated by " / die " or " / der " etc.
+  if (t.includes(' / ')) {
+    t = t.split(' / ')[0];
+  }
+
+  // Plural/suffix after comma (e.g. "die Abteilung, -en", "das Buch, -¨er", "das Praktikum, Praktika")
+  // while preserving dialogue sentences with commas (e.g. "Ja, das passt")
+  if (/^[a-zA-ZäöüÄÖÜß\s|]+,\s*(-|"-|–|—|[A-ZÄÖÜ][a-zäöüß]+$)/.test(t)) {
+    t = t.split(',')[0];
+  } else if (/^[a-zA-ZäöüÄÖÜß\s|]+,\s*$/.test(t)) {
+    t = t.split(',')[0];
+  }
+
+  // Handle remaining single slash in word alternatives like "kaufen/verkaufen"
+  if (t.includes('/') && !t.includes(' ')) {
+    t = t.split('/')[0];
+  } else if (t.includes('/')) {
+    const words = t.split(' ');
+    t = words.map((w) => (w.includes('/') && !w.startsWith('http') ? w.split('/')[0] : w)).join(' ');
+  }
+
   const result = t.trim();
   cleanGermanCache.set(text, result);
   return result;

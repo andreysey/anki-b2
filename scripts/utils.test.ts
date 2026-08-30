@@ -15,6 +15,32 @@ describe('cleanGermanForAudio', () => {
     expect(cleanGermanForAudio('etw. kaufen/verkaufen')).toBe('kaufen');
     expect(cleanGermanForAudio('*das* Buch, -¨er')).toBe('das Buch');
   });
+
+  it('handles complex grammatical prefixes like etw./jdn., jdm. etw., and sich etw.', () => {
+    expect(
+      cleanGermanForAudio('etw./jdn. abfertigen (fertigt ab, fertigte ab, hat abgefertigt)')
+    ).toBe('abfertigen');
+    expect(
+      cleanGermanForAudio(
+        'etw./jdn. beaufsichtigen (beaufsichtigt, beaufsichtigte, hat beaufsichtigt)'
+      )
+    ).toBe('beaufsichtigen');
+    expect(
+      cleanGermanForAudio('jdn./etw. beobachten (beobachtet, beobachtete, hat beobachtet)')
+    ).toBe('beobachten');
+    expect(cleanGermanForAudio('etw./jdm. Beachtung schenken')).toBe('Beachtung schenken');
+    expect(cleanGermanForAudio('jdm. etw. raten (rät, riet, hat geraten)')).toBe('raten');
+    expect(cleanGermanForAudio('sich etw. merken (merkt sich, merkte sich, hat sich gemerkt)')).toBe(
+      'sich merken'
+    );
+    expect(cleanGermanForAudio('der/die Vorgesetzte, -n')).toBe('der Vorgesetzte');
+    expect(cleanGermanForAudio('der/die Beschäftigte, -n')).toBe('der Beschäftigte');
+    expect(cleanGermanForAudio('der Arbeitgeber, - / die Arbeitgeberin, -nen')).toBe(
+      'der Arbeitgeber'
+    );
+    expect(cleanGermanForAudio('das Praktikum, Praktika')).toBe('das Praktikum');
+    expect(cleanGermanForAudio('Ja, das passt / das geht. Einverstanden.')).toBe('Ja, das passt');
+  });
 });
 
 describe('cleanExampleForAudio', () => {
