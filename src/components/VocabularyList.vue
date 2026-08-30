@@ -48,24 +48,24 @@ const emit = defineEmits<{
               class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-snug select-text"
               v-html="sanitizeHtml(item.german)"
             ></div>
-            <div class="flex items-center gap-1 shrink-0">
+            <div class="flex items-center gap-1.5 shrink-0">
               <Button
                 variant="ghost"
                 size="icon-sm"
                 @click.stop="emit('toggle-mastered', item)"
                 title="Mark as Mastered"
-                class="rounded-full w-7 h-7 text-emerald-600 dark:text-emerald-400 hover:bg-emerald-500/15"
+                class="rounded-full w-8 h-8 text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 hover:bg-emerald-500/25 border border-emerald-500/20 active:scale-95 transition-all cursor-pointer"
               >
-                <Check class="h-3.5 w-3.5" />
+                <Check class="h-4 w-4" />
               </Button>
               <Button
                 variant="ghost"
                 size="icon-sm"
                 @click.stop="emit('play-audio', item.german_audio || item.german)"
                 title="Play pronunciation"
-                class="rounded-full w-7 h-7 text-primary-600 dark:text-primary-400 hover:bg-primary-500/15"
+                class="rounded-full w-8 h-8 text-primary hover:text-primary bg-primary/10 hover:bg-primary/20 hover:scale-105 border border-primary/20 active:scale-95 transition-all cursor-pointer"
               >
-                <Volume2 class="h-3.5 w-3.5" />
+                <Volume2 class="h-4 w-4" />
               </Button>
             </div>
           </div>

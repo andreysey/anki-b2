@@ -59,9 +59,9 @@ const handleAiActive = (active: boolean) => {
               aria-label="Play German pronunciation"
               @click.stop="emit('play-audio', word.german_audio || word.german)"
               title="Play pronunciation"
-              class="rounded-full w-10 h-10 shadow-sm hover:scale-105 active:scale-95 transition-all"
+              class="relative z-10 rounded-full w-12 h-12 shadow-md hover:shadow-lg hover:shadow-primary/30 hover:scale-110 active:scale-95 transition-all duration-200 cursor-pointer ring-4 ring-primary/10 hover:ring-primary/25"
             >
-              <Volume2 class="h-4 w-4" />
+              <Volume2 class="h-5 w-5" />
             </Button>
           </div>
         </template>

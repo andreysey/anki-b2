@@ -34,7 +34,7 @@ const emit = defineEmits<{
       aria-label="Mark as Mastered"
       @click.stop="emit('toggle-mastered', word)"
       title="Mark as Mastered"
-      class="text-emerald-600 dark:text-emerald-400 hover:bg-emerald-500/15 rounded-full shrink-0"
+      class="text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 hover:bg-emerald-500/25 border border-emerald-500/20 active:scale-95 transition-all rounded-full shrink-0 w-8 h-8 cursor-pointer"
     >
       <Check class="h-4 w-4" />
     </Button>
