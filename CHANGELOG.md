@@ -1,3 +1,10 @@
+# [1.22.0](https://github.com/andreysey/anki-b2/compare/v1.21.0...v1.22.0) (2026-08-30)
+
+
+### Features
+
+* update B2 topic 2 content and synchronize Anki card packages with data.json ([89fd38e](https://github.com/andreysey/anki-b2/commit/89fd38e089eca5df38fa76a882df8dfd00d78bfe))
+
 # [1.21.0](https://github.com/andreysey/anki-b2/compare/v1.20.0...v1.21.0) (2026-08-30)
 
 
