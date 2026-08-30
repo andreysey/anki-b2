@@ -27,7 +27,7 @@ const emit = defineEmits<{
   (e: 'prev'): void;
   (e: 'next'): void;
   (e: 'toggle-mastered', word: Word): void;
-  (e: 'play-audio', text: string): void;
+  (e: 'play-audio', text: string, lang?: string): void;
 }>();
 </script>
 
@@ -115,7 +115,7 @@ const emit = defineEmits<{
         :direction="studyDirection"
         @flip="emit('flip')"
         @toggle-mastered="emit('toggle-mastered', $event)"
-        @play-audio="emit('play-audio', $event)"
+        @play-audio="(text, lang) => emit('play-audio', text, lang)"
         @swipe-left="emit('update-srs', 'again')"
         @swipe-right="emit('update-srs', 'good')"
       />

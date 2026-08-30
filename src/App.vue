@@ -82,7 +82,8 @@ const themeModeLabel = computed(() => {
   return 'System';
 });
 
-const { germanVoices, selectedVoiceURI, ttsRate, initVoices, playAudio } = useSpeechSynthesis();
+const { germanVoices, selectedVoiceURI, ttsRate, initVoices, playAudio, playSequence } =
+  useSpeechSynthesis();
 
 const activeView = ref<'list' | 'study' | 'dashboard'>('list');
 
@@ -109,8 +110,8 @@ const studyProgress = computed(() => {
 });
 
 const directionOptions: SelectOption<StudyDirection>[] = [
-  { label: 'DE', value: 'DE_TO_UA' },
-  { label: 'UA', value: 'UA_TO_DE' }
+  { label: 'DE → EN/UA', value: 'DE_TO_UA' },
+  { label: 'EN/UA → DE', value: 'UA_TO_DE' }
 ];
 
 const audioOptions = [
@@ -179,13 +180,31 @@ watch(
 
     if (studyDirection.value === 'DE_TO_UA') {
       if (!newFlipped) {
-        playAudio(currentCard.german_audio || currentCard.german);
-      } else if (currentCard.example) {
-        playAudio(currentCard.example);
+        // Front: German word
+        playAudio(currentCard.german_audio || currentCard.german, 'de-DE');
+      } else {
+        // Back: English translation -> German example sentence
+        const items: Array<{ text: string; lang?: string }> = [
+          { text: currentCard.english, lang: 'en-US' }
+        ];
+        if (currentCard.example) {
+          items.push({ text: currentCard.example, lang: 'de-DE' });
+        }
+        playSequence(items);
       }
     } else {
-      if (newFlipped) {
-        playAudio(currentCard.german_audio || currentCard.german);
+      if (!newFlipped) {
+        // Front: English word
+        playAudio(currentCard.english, 'en-US');
+      } else {
+        // Back: German word -> German example sentence
+        const items: Array<{ text: string; lang?: string }> = [
+          { text: currentCard.german_audio || currentCard.german, lang: 'de-DE' }
+        ];
+        if (currentCard.example) {
+          items.push({ text: currentCard.example, lang: 'de-DE' });
+        }
+        playSequence(items);
       }
     }
   }

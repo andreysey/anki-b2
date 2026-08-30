@@ -17,7 +17,7 @@ defineProps<{
 
 const emit = defineEmits<{
   (e: 'toggle-mastered', word: Word): void;
-  (e: 'play-audio', text: string): void;
+  (e: 'play-audio', text: string, lang?: string): void;
   (e: 'ai-active', isActive: boolean): void;
 }>();
 
@@ -66,18 +66,30 @@ const handleAiActive = (active: boolean) => {
           </div>
         </template>
 
-        <!-- Translation Primary View -->
+        <!-- Translation Primary View (EN with audio first, UA below) -->
         <template v-else>
-          <div class="flex flex-col items-center justify-center gap-1.5 py-3">
-            <div
-              class="text-xl sm:text-2xl font-extrabold text-slate-900 dark:text-white tracking-tight select-text"
-            >
-              {{ word.ukrainian }}
+          <div class="flex flex-col items-center justify-center gap-3 py-4 sm:py-6 my-auto">
+            <div class="flex flex-col items-center gap-2">
+              <h2
+                class="text-2xl sm:text-3xl font-extrabold text-center tracking-tight text-slate-900 dark:text-white leading-snug select-text"
+              >
+                {{ word.english }}
+              </h2>
+              <Button
+                variant="ghost"
+                size="icon-sm"
+                aria-label="Play English pronunciation"
+                @click.stop="emit('play-audio', word.english, 'en-US')"
+                title="Play English pronunciation"
+                class="rounded-full w-8 h-8 text-primary hover:text-primary bg-primary/10 hover:bg-primary/20 hover:scale-105 border border-primary/20 active:scale-95 transition-all cursor-pointer"
+              >
+                <Volume2 class="h-4 w-4" />
+              </Button>
             </div>
             <div
-              class="text-xs sm:text-sm text-slate-600 dark:text-slate-400 font-medium select-text"
+              class="text-base sm:text-lg font-semibold text-slate-600 dark:text-slate-300 tracking-tight text-center select-text"
             >
-              {{ word.english }}
+              {{ word.ukrainian }}
             </div>
           </div>
         </template>

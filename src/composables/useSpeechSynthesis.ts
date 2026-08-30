@@ -43,7 +43,7 @@ export function useSpeechSynthesis() {
     safeStorage.setItem(STORAGE_KEYS.TTS_RATE, String(val));
   });
 
-  const playAudio = (text: string) => {
+  const playAudio = (text: string, lang = 'de-DE') => {
     if (
       typeof window === 'undefined' ||
       !('speechSynthesis' in window) ||
@@ -63,13 +63,69 @@ export function useSpeechSynthesis() {
     }
 
     const utterance = new SpeechSynthesisUtterance(cleaned);
-    utterance.lang = 'de-DE';
+    utterance.lang = lang;
     utterance.rate = ttsRate.value;
-    const voice = germanVoices.value.find((v) => v.voiceURI === selectedVoiceURI.value);
-    if (voice) {
-      utterance.voice = voice;
+    const allVoices = window.speechSynthesis.getVoices();
+    if (lang.startsWith('de')) {
+      const voice = germanVoices.value.find((v) => v.voiceURI === selectedVoiceURI.value);
+      if (voice) {
+        utterance.voice = voice;
+      }
+    } else if (lang.startsWith('en')) {
+      const englishVoice =
+        allVoices.find((v) => v.lang === 'en-US') ||
+        allVoices.find((v) => v.lang.toLowerCase().startsWith('en'));
+      if (englishVoice) {
+        utterance.voice = englishVoice;
+      }
     }
     window.speechSynthesis.speak(utterance);
+  };
+
+  const playSequence = (items: Array<{ text: string; lang?: string }>) => {
+    if (
+      typeof window === 'undefined' ||
+      !('speechSynthesis' in window) ||
+      typeof SpeechSynthesisUtterance === 'undefined'
+    ) {
+      return;
+    }
+
+    // Stop currently playing speech
+    stopAudio();
+
+    if (window.speechSynthesis.paused) {
+      window.speechSynthesis.resume();
+    }
+
+    const validItems = items
+      .map((item) => ({
+        text: cleanTextForSpeech(item.text),
+        lang: item.lang || 'de-DE'
+      }))
+      .filter((item) => Boolean(item.text));
+
+    if (validItems.length === 0) return;
+
+    const allVoices = window.speechSynthesis.getVoices();
+    const germanVoice = germanVoices.value.find((v) => v.voiceURI === selectedVoiceURI.value);
+    const englishVoice =
+      allVoices.find((v) => v.lang === 'en-US') ||
+      allVoices.find((v) => v.lang.toLowerCase().startsWith('en'));
+
+    validItems.forEach((item) => {
+      const utterance = new SpeechSynthesisUtterance(item.text);
+      utterance.lang = item.lang;
+      utterance.rate = ttsRate.value;
+
+      if (item.lang.startsWith('de') && germanVoice) {
+        utterance.voice = germanVoice;
+      } else if (item.lang.startsWith('en') && englishVoice) {
+        utterance.voice = englishVoice;
+      }
+
+      window.speechSynthesis.speak(utterance);
+    });
   };
 
   return {
@@ -79,6 +135,7 @@ export function useSpeechSynthesis() {
     loadVoices,
     initVoices,
     playAudio,
+    playSequence,
     stopAudio
   };
 }

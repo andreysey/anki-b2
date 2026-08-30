@@ -12,7 +12,7 @@ const props = defineProps<{
 const emit = defineEmits<{
   (e: 'flip'): void;
   (e: 'toggle-mastered', word: Word): void;
-  (e: 'play-audio', text: string): void;
+  (e: 'play-audio', text: string, lang?: string): void;
   (e: 'swipe-left'): void;
   (e: 'swipe-right'): void;
 }>();
@@ -133,7 +133,7 @@ const showGermanOnFront = computed(() => props.direction === 'DE_TO_UA');
           :show-german="showGermanOnFront"
           scroll-panel-height="h-62.5 sm:h-70"
           @toggle-mastered="emit('toggle-mastered', $event)"
-          @play-audio="emit('play-audio', $event)"
+          @play-audio="(text, lang) => (lang ? emit('play-audio', text, lang) : emit('play-audio', text))"
         />
       </div>
 
@@ -146,7 +146,7 @@ const showGermanOnFront = computed(() => props.direction === 'DE_TO_UA');
           :show-ai="true"
           scroll-panel-height="h-67.5 sm:h-75"
           @toggle-mastered="emit('toggle-mastered', $event)"
-          @play-audio="emit('play-audio', $event)"
+          @play-audio="(text, lang) => (lang ? emit('play-audio', text, lang) : emit('play-audio', text))"
           @ai-active="isAiActive = $event"
         />
       </div>
