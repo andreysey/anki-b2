@@ -1,3 +1,10 @@
+# [1.29.0](https://github.com/andreysey/anki-b2/compare/v1.28.0...v1.29.0) (2026-08-30)
+
+
+### Features
+
+* replace audio settings collapsible panel with reusable Popover components ([2b13db0](https://github.com/andreysey/anki-b2/commit/2b13db032f5f06f104b65ad87377bdc48128e565))
+
 # [1.28.0](https://github.com/andreysey/anki-b2/compare/v1.27.0...v1.28.0) (2026-08-30)
 
 
