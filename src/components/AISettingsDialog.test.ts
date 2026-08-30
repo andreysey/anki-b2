@@ -47,4 +47,18 @@ describe('AISettingsDialog.vue', () => {
     await saveBtn?.trigger('click');
     expect(aiState.isSettingsOpen.value).toBe(false);
   });
+
+  it('allows removing an existing API key', async () => {
+    const aiState = useAIAssistantState();
+    aiState.saveApiKey('test-existing-key');
+    aiState.openSettings();
+
+    const wrapper = mount(AISettingsDialog);
+    const removeBtn = wrapper.findAll('button').find((b) => b.attributes('title')?.includes('Remove'));
+    expect(removeBtn?.exists()).toBe(true);
+
+    await removeBtn?.trigger('click');
+    expect(aiState.apiKey.value).toBe('');
+    expect(aiState.hasCloudKey.value).toBe(false);
+  });
 });

@@ -9,9 +9,10 @@ import {
 } from './ui/dialog';
 import { Input } from './ui/input';
 import { Button } from './ui/button';
+import { Trash2 } from 'lucide-vue-next';
 import { useAIAssistantState } from '../composables/useAIAssistantState';
 
-const { isSettingsOpen, apiKey, saveApiKey } = useAIAssistantState();
+const { isSettingsOpen, apiKey, saveApiKey, removeApiKey } = useAIAssistantState();
 const localKey = ref(apiKey.value);
 
 watch(isSettingsOpen, (open) => {
@@ -22,6 +23,11 @@ watch(isSettingsOpen, (open) => {
 
 const handleSave = () => {
   saveApiKey(localKey.value);
+};
+
+const handleRemove = () => {
+  removeApiKey();
+  localKey.value = '';
 };
 </script>
 
@@ -57,6 +63,16 @@ const handleSave = () => {
               class="px-4 font-semibold"
             >
               Save
+            </Button>
+            <Button
+              v-if="apiKey"
+              variant="outline"
+              size="sm"
+              @click="handleRemove"
+              title="Remove stored API key"
+              class="text-red-600 dark:text-red-400 hover:bg-red-500/10 hover:text-red-700 border-red-500/20"
+            >
+              <Trash2 class="h-4 w-4" />
             </Button>
           </div>
           <span class="text-[10px] text-slate-500">

@@ -24,10 +24,16 @@ export function useAIAssistantState() {
   };
 
   const saveApiKey = (newKey: string) => {
-    setCloudKey(newKey);
-    apiKey.value = newKey;
-    hasCloudKey.value = !!newKey;
+    setCloudKey(newKey.trim());
+    apiKey.value = newKey.trim();
+    hasCloudKey.value = !!newKey.trim();
     isSettingsOpen.value = false;
+  };
+
+  const removeApiKey = () => {
+    setCloudKey('');
+    apiKey.value = '';
+    hasCloudKey.value = false;
   };
 
   return {
@@ -38,6 +44,7 @@ export function useAIAssistantState() {
     init,
     openSettings,
     closeSettings,
-    saveApiKey
+    saveApiKey,
+    removeApiKey
   };
 }
