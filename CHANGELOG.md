@@ -1,3 +1,10 @@
+# [1.21.0](https://github.com/andreysey/anki-b2/compare/v1.20.0...v1.21.0) (2026-08-30)
+
+
+### Features
+
+* improve German text cleaning logic for audio by supporting complex grammatical prefixes, article variants, and enhanced comma handling ([1fd0832](https://github.com/andreysey/anki-b2/commit/1fd083246e104c939c9d482ccb17455d92e57532))
+
 # [1.20.0](https://github.com/andreysey/anki-b2/compare/v1.19.0...v1.20.0) (2026-08-14)
 
 ### Features
