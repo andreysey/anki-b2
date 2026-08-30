@@ -54,11 +54,12 @@ const handleAiActive = (active: boolean) => {
               v-html="sanitizeHtml(word.german)"
             ></h2>
             <Button
+              variant="default"
               size="icon"
               aria-label="Play German pronunciation"
               @click.stop="emit('play-audio', word.german_audio || word.german)"
               title="Play pronunciation"
-              class="rounded-full w-10 h-10 shadow-sm hover:scale-105 active:scale-95 transition-all bg-primary-600 hover:bg-primary-500 text-white"
+              class="rounded-full w-10 h-10 shadow-sm hover:scale-105 active:scale-95 transition-all"
             >
               <Volume2 class="h-4 w-4" />
             </Button>
