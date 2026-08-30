@@ -7756,7 +7756,7 @@
     "german_audio": "anfordern",
     "english": "to request / order",
     "ukrainian": "запитувати, вимагати (офіційно)",
-    "example": "<b>Wir bitten Sie, uns ein detailliertes Angebot für</b> das Hosting **zuzuschicken**."
+    "example": "<b>Wir möchten ein detailliertes Angebot für</b> das Hosting **<b style=\"color: #eab308;\">anfordern</b>**."
   },
   {
     "level": "B2",
@@ -7996,7 +7996,7 @@
     "german_audio": "das Tagebuch",
     "english": "diary, journal",
     "ukrainian": "щоденник",
-    "example": "Im Praktikum **müssen die Auszubildenden ein wöchentliches Berichtsheft führen**."
+    "example": "Im Praktikum **müssen die Auszubildenden ein <b style=\"color: #eab308;\">Tagebuch</b> über ihre Aufgaben führen**."
   },
   {
     "level": "B2",

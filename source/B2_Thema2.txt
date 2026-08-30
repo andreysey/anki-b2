@@ -74,7 +74,7 @@ das Viertel, -;quarter;чверть;Ein Viertel der Belegschaft **arbeitet in be
 die Werft, -en;shipyard;верф, суднобудівний завод;Die Werft **ist für den Bau und die Wartung großer Schiffe zuständig**.
 zusammenarbeiten mit (+ Dat.) (arbeitet zusammen, arbeitete zusammen, hat zusammengearbeitet);to work together with;співпрацювати з;Wir wollen eng mit der Industrie- und Handelskammer **zusammenarbeiten**.
 die Abrechnung, -en;billing, statement, invoice;розрахунок, звіт (фінансовий);Die Buchhaltung ist **für die monatliche Abrechnung der Gehälter zuständig**.
-etw. anfordern (fordert an, forderte an, hat angefordert);to request / order;запитувати, вимагати (офіційно);<b>Wir bitten Sie, uns ein detailliertes Angebot für</b> das Hosting **zuzuschicken**.
+etw. anfordern (fordert an, forderte an, hat angefordert);to request / order;запитувати, вимагати (офіційно);<b>Wir möchten ein detailliertes Angebot für</b> das Hosting **anfordern**.
 die Aufregung (Sg.);excitement, agitation;хвилювання, збудження;Vor dem wichtigen Kundengespräch **gab es im Team eine gewisse Aufregung**.
 etw. ausgleichen (gleicht aus, glich aus, hat ausgeglichen);to balance, to compensate;компенсувати, вирівнювати;Überstunden müssen durch Freizeit **ausgeglichen werden**.
 die Auszeit, -en;time-out, break;перерва, тайм-аут, сабатікал;Er nimmt eine dreimonatige Auszeit, um **sich von der mentalen Belastung zu erholen**.
@@ -95,7 +95,7 @@ der Sonderurlaub (Sg.);special leave;спеціальна відпустка (н
 das Sonderurlaubsrecht, -e;special leave right;право на спеціальну відпустку;Das Sonderurlaubsrecht ist gesetzlich im Bürgerlichen Gesetzbuch geregelt.
 die Spontanität (Sg.);spontaneity;спонтанність;Gleitzeit ermöglicht den Mitarbeitern **mehr Spontanität im Alltag**.
 die Stornierung, -en;cancellation;скасування, анулювання;Die Stornierung des Auftrags **hatte negative finanzielle Folgen für uns**.
-das Tagebuch, "-er;diary, journal;щоденник;Im Praktikum **müssen die Auszubildenden ein wöchentliches Berichtsheft führen**.
+das Tagebuch, "-er;diary, journal;щоденник;Im Praktikum **müssen die Auszubildenden ein Tagebuch über ihre Aufgaben führen**.
 die Überstunde, -n;overtime;понаднормова година;Er hat viele Überstunden gemacht, um **die Fertigstellung des Projekts abzusichern**.
 der Urlaubsanspruch, "-e;holiday entitlement;право на відпустку;Der gesetzliche Urlaubsanspruch **beträgt mindestens 20 Tage pro Jahr**.
 die Urlaubsplanung, -en;holiday planning;планування відпустки;Bei der Urlaubsplanung **müssen wir Rücksicht auf die Kollegen nehmen**.
