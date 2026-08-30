@@ -1,3 +1,10 @@
+# [1.24.0](https://github.com/andreysey/anki-b2/compare/v1.23.0...v1.24.0) (2026-08-30)
+
+
+### Features
+
+* optimize English and example text for TTS and sanitize HTML formatting in Anki package generation ([e62e8ef](https://github.com/andreysey/anki-b2/commit/e62e8efdcc02d9e43323176493f67655a1e65e36))
+
 # [1.23.0](https://github.com/andreysey/anki-b2/compare/v1.22.0...v1.23.0) (2026-08-30)
 
 
