@@ -1,3 +1,10 @@
+# [1.26.0](https://github.com/andreysey/anki-b2/compare/v1.25.0...v1.26.0) (2026-08-30)
+
+
+### Features
+
+* define CSS variables for theme-aware color palette and border radii ([b29d328](https://github.com/andreysey/anki-b2/commit/b29d328de0382d11a6f819ebbaeee6bfaf0474bc))
+
 # [1.25.0](https://github.com/andreysey/anki-b2/compare/v1.24.0...v1.25.0) (2026-08-30)
 
 
