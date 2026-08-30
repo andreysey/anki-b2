@@ -20,6 +20,7 @@ export interface AILanguageModelSession {
 
 export interface AILanguageModelCreateOptions {
   systemInstruction?: string;
+  monitor?: (m: { addEventListener: (event: string, cb: (e: { loaded: number; total: number }) => void) => void }) => void;
 }
 
 export interface AILanguageModel {
@@ -27,11 +28,12 @@ export interface AILanguageModel {
   capabilities: () => Promise<AICapabilities>;
 }
 
-// Extend Window interface for TypeScript
+// Extend Window and globalThis interface for TypeScript (W3C Prompt API & Origin Trials)
 declare global {
   interface Window {
     ai?: {
       languageModel?: AILanguageModel;
+      assistant?: AILanguageModel;
     };
   }
 }
@@ -44,10 +46,18 @@ export const setCloudKey = (key: string): void => {
   safeStorage.setItem(STORAGE_KEYS.GEMINI_API_KEY, key);
 };
 
+export const getOnDeviceAIEngine = (): AILanguageModel | null => {
+  if (typeof window === 'undefined') return null;
+  const aiObj = window.ai || (globalThis as unknown as { ai?: { languageModel?: AILanguageModel; assistant?: AILanguageModel } }).ai;
+  if (!aiObj) return null;
+  return aiObj.languageModel || aiObj.assistant || null;
+};
+
 export const checkOnDeviceSupport = async (): Promise<boolean> => {
-  if (!window.ai || !window.ai.languageModel) return false;
+  const engine = getOnDeviceAIEngine();
+  if (!engine) return false;
   try {
-    const caps = await window.ai.languageModel.capabilities();
+    const caps = await engine.capabilities();
     return caps.available !== 'no';
   } catch {
     return false;
@@ -134,12 +144,13 @@ export const callAI = async (
   promptText: string,
   systemInstruction?: string
 ): Promise<AIServiceResponse> => {
-  // 1. Try Chrome Built-in AI (Gemini Nano)
-  if (window.ai?.languageModel) {
+  // 1. Try Chrome Built-in AI (Gemini Nano via W3C Prompt API)
+  const onDeviceEngine = getOnDeviceAIEngine();
+  if (onDeviceEngine) {
     try {
-      const caps = await window.ai.languageModel.capabilities();
+      const caps = await onDeviceEngine.capabilities();
       if (caps.available !== 'no') {
-        const session = await window.ai.languageModel.create({
+        const session = await onDeviceEngine.create({
           systemInstruction: systemInstruction || 'You are a helpful German Language Coach.'
         });
         const text = await session.prompt(promptText);
