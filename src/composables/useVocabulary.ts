@@ -31,8 +31,30 @@ const LEVEL_TRANSITIONS: Readonly<
 
 export const getItemKey = (item: Word): string => item.id || `${item.german}-${item.thema}`;
 
+export const normalizeGermanText = (text: string): string => {
+  return text
+    .toLowerCase()
+    .replace(/ä/g, 'ae')
+    .replace(/ö/g, 'oe')
+    .replace(/ü/g, 'ue')
+    .replace(/ß/g, 'ss')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '');
+};
+
+export const normalizeToSimpleAscii = (text: string): string => {
+  return text
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/ß/g, 'ss');
+};
+
 export const buildSearchIndex = (word: Word): string => {
-  return `${word.german} ${word.english} ${word.ukrainian}`.toLowerCase();
+  const raw = `${word.german} ${word.english} ${word.ukrainian}`.toLowerCase();
+  const withExpandedUmlauts = normalizeGermanText(raw);
+  const withStrippedUmlauts = normalizeToSimpleAscii(raw);
+  return `${raw} ${withExpandedUmlauts} ${withStrippedUmlauts}`;
 };
 
 export interface StudyStreakData {
@@ -168,11 +190,15 @@ export function useVocabulary() {
   };
 
   const filteredVocabulary = computed(() => {
-    const trimmedQuery = search.value.trim().toLowerCase();
+    const rawQuery = search.value.trim().toLowerCase();
+    const normalizedQuery = normalizeGermanText(rawQuery);
 
     return vocabulary.value.filter((item) => {
       const searchTarget = item._searchIndex ?? buildSearchIndex(item);
-      const matchesSearch = !trimmedQuery || searchTarget.includes(trimmedQuery);
+      const matchesSearch =
+        !rawQuery ||
+        searchTarget.includes(rawQuery) ||
+        searchTarget.includes(normalizedQuery);
       const matchesLevel = levelFilter.value === 'all' || item.level === levelFilter.value;
       const matchesThema =
         themaFilter.value === 'all' || item.thema.toString() === themaFilter.value;

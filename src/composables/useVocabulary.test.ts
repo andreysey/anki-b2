@@ -56,9 +56,20 @@ describe('useVocabulary composable', () => {
     expect(vocab.error.value).toBeNull();
   });
 
-  it('filters vocabulary by search query', async () => {
+  it('filters vocabulary by search query with umlaut tolerance', async () => {
     const vocab = useVocabulary();
-    vocab.vocabulary.value = mockWords;
+    vocab.vocabulary.value = [
+      ...mockWords,
+      {
+        id: '3',
+        german: 'übernehmen',
+        german_audio: 'uebernehmen.mp3',
+        english: 'to take over',
+        ukrainian: 'переймати',
+        level: 'B2',
+        thema: 99
+      }
+    ];
 
     vocab.search.value = 'schlafen';
     expect(vocab.filteredVocabulary.value.length).toBe(1);
@@ -67,6 +78,15 @@ describe('useVocabulary composable', () => {
     vocab.search.value = 'дзвонити';
     expect(vocab.filteredVocabulary.value.length).toBe(1);
     expect(vocab.filteredVocabulary.value[0].german).toBe('anrufen');
+
+    // Umlaut normalization test
+    vocab.search.value = 'ubernehmen';
+    expect(vocab.filteredVocabulary.value.length).toBe(1);
+    expect(vocab.filteredVocabulary.value[0].german).toBe('übernehmen');
+
+    vocab.search.value = 'uebernehmen';
+    expect(vocab.filteredVocabulary.value.length).toBe(1);
+    expect(vocab.filteredVocabulary.value[0].german).toBe('übernehmen');
   });
 
   it('filters vocabulary by CEFR level filter', async () => {
