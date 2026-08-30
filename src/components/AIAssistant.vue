@@ -79,7 +79,7 @@ const handleExplainGrammar = async () => {
   emit('ai-active', true);
 
   const systemInstruction =
-    'You are a professional telc Deutsch B2 Beruf language coach. ' +
+    'You are a professional CEFR German B1+/B2 Beruf language coach. ' +
     'Analyze the German vocabulary term and its example sentence. ' +
     'Explain in Ukrainian (keep it brief and highly readable): ' +
     '1. Underline the vocabulary meaning/preposition context in this sentence. ' +
@@ -109,7 +109,7 @@ const handleGenerateDialogue = async () => {
   emit('ai-active', true);
 
   const systemInstruction =
-    'You are a professional telc Deutsch B2 Beruf language coach. ' +
+    'You are a professional CEFR German B1+/B2 Beruf language coach. ' +
     'Generate a short corporate/workplace dialogue in German (2-4 turns) demonstrating the practical use of the target word. ' +
     'Include a brief Ukrainian translation underneath each line. ' +
     'Bold the target German vocabulary word inside the dialogue.';
