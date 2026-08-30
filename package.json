@@ -1,7 +1,7 @@
 {
   "name": "anki-b2",
   "private": true,
-  "version": "1.22.0",
+  "version": "1.23.0",
   "engines": {
     "node": ">=24.15.0"
   },

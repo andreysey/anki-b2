@@ -1,3 +1,10 @@
+# [1.23.0](https://github.com/andreysey/anki-b2/compare/v1.22.0...v1.23.0) (2026-08-30)
+
+
+### Features
+
+* remove pipe symbols during text normalization and update flashcard data accordingly ([427ebcd](https://github.com/andreysey/anki-b2/commit/427ebcd12177f7659c3e03faa39e6d87ae18197c))
+
 # [1.22.0](https://github.com/andreysey/anki-b2/compare/v1.21.0...v1.22.0) (2026-08-30)
 
 
