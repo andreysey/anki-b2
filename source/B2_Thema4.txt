@@ -110,13 +110,13 @@ der Brandlöscher, -;fire extinguisher;вогнегасник;Die Brandlöscher 
 die Brandschutzordnung, -en;fire protection regulation;інструкція з пожежної безпеки;Die Brandschutzordnung **hängt im Flur des Verwaltungsgebäudes aus**.
 der Evakuierungshelfer, - / die Evakuierungshelferin, -nen;evacuation helper;помічник при евакуації;Der Evakuierungshelfer **koordiniert das Verlassen des Gebäudes im Ernstfall**.
 die Ersthelferausbildung, -en;first aider training;підготовка рятувальників (перша допомога);Die Kosten für die Ersthelferausbildung **werden vom Betrieb übernommen**.
-die Verbandbuch, "-er;accident log book;журнал обліку травматизму (першої допомоги);Jede Verletzung, auch eine kleine, **muss im Verbandbuch dokumentiert werden**.
+das Verbandbuch, "-er;accident log book;журнал обліку травматизму (першої допомоги);Jede Verletzung, auch eine kleine, **muss im Verbandbuch dokumentiert werden**.
 die Unfallmeldung, -en;accident notification;повідомлення про нещасний випадок;Der Arbeitgeber **muss die Unfallmeldung an die Berufsgenossenschaft senden**.
 die Berufsgenossenschaft, -en;employers' liability insurance association;галузеве страхування від нещасних випадків;Die Berufsgenossenschaft **übernimmt die Kosten für die Rehabilitation nach Arbeitsunfällen**.
 die Arbeitsunfallversicherung, -en;occupational accident insurance;страхування від нещасних випадків на виробництві;Die gesetzliche Arbeitsunfallversicherung **schützt die Beschäftigten auf dem Arbeitsweg**.
 die Wegeunfall, "-e;commuting accident;нещасний випадок по дорозі на роботу;Ein Wegeunfall **ist der gesetzlichen Unfallversicherung unverzüglich zu melden**.
 die Wiedereingliederungsmaßnahme, -n;reintegration measure;захід з реінтеграції;Die Wiedereingliederungsmaßnahme **wurde erfolgreich abgeschlossen**.
-die Wiedereingliederungsplan, "-e;reintegration plan;план реінтеграції;Der Wiedereingliederungsplan **wird individuell für den betroffenen Mitarbeiter erstellt**.
+der Wiedereingliederungsplan, "-e;reintegration plan;план реінтеграції;Der Wiedereingliederungsplan **wird individuell für den betroffenen Mitarbeiter erstellt**.
 die Wiedereingliederungsvereinbarung, -en;reintegration agreement;угода про реінтеграцію;Die Wiedereingliederungsvereinbarung **bedarf der Zustimmung des Betriebsrats**.
 die Hamburger Modell (Sg.);Hamburger model (gradual return to work after long illness);Гамбурзька модель (поступове повернення до роботи);Die stufenweise Rückkehr nach der Hamburger Modell **hat sich sehr bewährt**.
 die Belastungserprobung, -en;load testing / work trial;тестування під навантаженням;Die Belastungserprobung **zeigt, ob der Mitarbeiter wieder voll arbeitsfähig ist**.
@@ -127,8 +127,8 @@ die Erwerbsminderungsrente, -n;reduced-earning-capacity pension;пенсія п�
 die Schwerbehinderung, -en;severe disability;важка інвалідність;Bei Vorliegen einer Schwerbehinderung **besteht Anspruch auf zusätzlichen Urlaub**.
 die Schwerbehindertenvertretung, -en;representative body for severely disabled employees;представництво працівників з обмеженими можливостями;Die Schwerbehindertenvertretung **setzt sich für die Barrierefreiheit im Betrieb ein**.
 die Inklusionsvereinbarung, -en;inclusion agreement;угода про інклюзію;Die Inklusionsvereinbarung **regelt die Beschäftigung schwerbehinderter Menschen**.
-die Inklusionsbetrieb, -e;inclusion company / social enterprise;інклюзивне підприємство (де працевлаштовані люди з інвалідністю);Das Unternehmen **engagiert sich als Inklusionsbetrieb für Chancengleichheit**.
-die Integrationsamt, "-er;integration office;управління інтеграції (служба допомоги інвалідам);Das Integrationsamt **zahlt Zuschüsse für die behindertengerechte Gestaltung des Arbeitsplatzes**.
+der Inklusionsbetrieb, -e;inclusion company / social enterprise;інклюзивне підприємство (де працевлаштовані люди з інвалідністю);Das Unternehmen **engagiert sich als Inklusionsbetrieb für Chancengleichheit**.
+das Integrationsamt, "-er;integration office;управління інтеграції (служба допомоги інвалідам);Das Integrationsamt **zahlt Zuschüsse für die behindertengerechte Gestaltung des Arbeitsplatzes**.
 die behindertengerechte Gestaltung;disabled-friendly design;пристосування для потреб людей з інвалідністю;Die behindertengerechte Gestaltung **ist Voraussetzung für barrierefreie Arbeitsplätze**.
 die Arbeitsplatzausstattung, -en;workplace equipment;оснащення робочого місця;Eine ergonomische Arbeitsplatzausstattung **beugt gesundheitlichen Belastungen vor**.
 die Hilfsmittel (Pl.);auxiliary aids / assistance tools;допоміжні засоби;Das Integrationsamt übernimmt die Kosten **für spezielle Hilfsmittel am Arbeitsplatz**.
@@ -136,9 +136,9 @@ die Arbeitsassistenz, -en;work assistance;асистент на роботі (д
 die Arbeitsplatzanpassung, -en;workplace adjustment;пристосування робочого місця;Die Arbeitsplatzanpassung **wird in Abstimmung mit der Schwerbehindertenvertretung vorgenommen**.
 die behindertengerechte Arbeitszeit;disabled-friendly working hours;робочий час, пристосований до потреб людей з інвалідністю;Eine behindertengerechte Arbeitszeit **kann im Rahmen einer Betriebsvereinbarung vereinbart werden**.
 die Minderleistung, -en;underperformance;знижена продуктивність праці;Für die Minderleistung **kann der Arbeitgeber einen Lohnkostenzuschuss erhalten**.
-die Minderleistungsausgleich, -e;compensation for underperformance;компенсація за знижену продуктивність;Der Minderleistungsausgleich **wird vom Integrationsamt an den Betrieb gezahlt**.
-die Kündigungsschutzverfahren, -;dismissal protection procedure;процедура захисту від звільнення (для інвалідів);Vor der Entlassung eines Schwerbehinderten **muss der Arbeitgeber das Kündigungsschutzverfahren durchführen**.
-die Integrationsfachdienst (IFD), -e;integration specialist service;інтеграційна спеціалізована служба;Der **Integrationsfachdienst** unterstützt schwerbehinderte Menschen bei der Arbeitssuche.
+der Minderleistungsausgleich, -e;compensation for underperformance;компенсація за знижену продуктивність;Der Minderleistungsausgleich **wird vom Integrationsamt an den Betrieb gezahlt**.
+das Kündigungsschutzverfahren, -;dismissal protection procedure;процедура захисту від звільнення (для інвалідів);Vor der Entlassung eines Schwerbehinderten **muss der Arbeitgeber das Kündigungsschutzverfahren durchführen**.
+der Integrationsfachdienst (IFD), -e;integration specialist service;інтеграційна спеціалізована служба;Der **Integrationsfachdienst** unterstützt schwerbehinderte Menschen bei der Arbeitssuche.
 die Berufsbegleitende Dienst (BBD), -e;occupational support service;служба супроводу на робочому місці;Der **Berufsbegleitende Dienst** hilft bei der Lösung von Konflikten am Arbeitsplatz.
 die psychosoziale Betreuung;psychosocial support;психосоціальний супровід;Eine psychosoziale Betreuung **hilft Mitarbeitern in schwierigen Lebenslagen**.
 die Krisenintervention, -en;crisis intervention;кризове втручання;Die Krisenintervention **wird bei akuten Konflikten im Team eingesetzt**.
@@ -151,7 +151,7 @@ die Schlichtung, -en;arbitration, conciliation;примирення, трете�
 die Schlichtungsstelle, -n;arbitration board;примирювальний орган / комісія;Die Schlichtungsstelle **wird bei Tarifkonflikten angerufen**.
 die Schlichter, - / die Schlichterin, -nen;arbitrator;третейський суддя / примиритель;Der Schlichter **unterbreitet den Parteien einen Schlichtungsvorschlag**.
 die Schlichtungsvereinbarung, -en;arbitration agreement;угода за результатами примирення;Die Schlichtungsvereinbarung **ist für beide Parteien bindend**.
-die Schlichtungsverfahren, -;arbitration procedure;процедура примирення;Das Schlichtungsverfahren **führte zur Beilegung des Arbeitskampfes**.
+das Schlichtungsverfahren, -;arbitration procedure;процедура примирення;Das Schlichtungsverfahren **führte zur Beilegung des Arbeitskampfes**.
 die Schlichtungsvorschlag, "-e;arbitration proposal;пропозиція щодо примирення;Die Gewerkschaft **hat den Schlichtungsvorschlag angenommen**.
 die Tarifverhandlung, -en;collective bargaining / tariff negotiation;тарифні переговори;Die Tarifverhandlungen **gestalten sich in diesem Jahr äußerst schwierig**.
 die Tarifkonflikt, -e;tariff dispute;тарифний конфлікт;Der Tarifkonflikt **konnte durch eine Schlichtung beigelegt werden**.
@@ -161,17 +161,17 @@ die Warnstreik, -s;warning strike;попереджувальний страйк;
 die Aussperrung, -en;lockout;лок-аут (припинення роботи підприємства власником);Die Aussperrung der Mitarbeiter **ist eine drastische Maßnahme der Arbeitgeber**.
 die Urabstimmung, -en;ballot (strike ballot);загальне опитування членів профспілки (голосування за страйк);Nach einer erfolgreichen Urabstimmung **kann der unbefristete Streik beginnen**.
 die Friedenspflicht (Sg.);peace obligation;зобов'язання утримуватися від страйку (під час дії тарифної угоди);Während der Laufzeit des Tarifvertrags **gilt eine strikte Friedenspflicht**.
-die Tarifvertrag, "-e;collective agreement;тарифний договір;Der Tarifvertrag **regelt die Vergütung und die Arbeitszeit der Beschäftigten**.
-die Manteltarifvertrag, "-e;framework collective agreement;рамковий тарифний договір;Der Manteltarifvertrag **regelt allgemeine Arbeitsbedingungen wie den Urlaubsanspruch**.
+der Tarifvertrag, "-e;collective agreement;тарифний договір;Der Tarifvertrag **regelt die Vergütung und die Arbeitszeit der Beschäftigten**.
+der Manteltarifvertrag, "-e;framework collective agreement;рамковий тарифний договір;Der Manteltarifvertrag **regelt allgemeine Arbeitsbedingungen wie den Urlaubsanspruch**.
 die Lohn- und Gehaltstarifvertrag, "-e;wage and salary collective agreement;тарифна угода про оплату праці;Der Lohn- und Gehaltstarifvertrag **wird in der Regel jährlich neu ausgehandelt**.
 die Tarifbindung, -en;binding force of collective agreements;зв'язаність колективним договором;Die Tarifbindung **sichert den Beschäftigten faire Arbeitsbedingungen**.
 die Arbeitgeberverband, "-e;employers' association;об'єднання роботодавців;Der Arbeitgeberverband **vertritt die Interessen der Mitgliedsbetriebe**.
-die Gewerkschaftsmitglied, -er;union member;член профспілки;Als Gewerkschaftsmitglied **erhält man bei Streik ein Streikgeld**.
-die Streikgeld, -er;strike pay;допомога страйкарям (з фонду профспілки);Das Streikgeld **gleicht den Lohnausfall während des Streiks teilweise aus**.
+das Gewerkschaftsmitglied, -er;union member;член профспілки;Als Gewerkschaftsmitglied **erhält man bei Streik ein Streikgeld**.
+das Streikgeld, -er;strike pay;допомога страйкарям (з фонду профспілки);Das Streikgeld **gleicht den Lohnausfall während des Streiks teilweise aus**.
 die Lohnausfall, "-e;loss of wages;втрата заробітку;Der Lohnausfall **wird bei einem legalen Streik von der Gewerkschaft abgemildert**.
 die Streikbrecher, - / die Streikbrecherin, -nen;scab / strikebreaker;штрейкбрехер;Streikbrecher **stören die Solidarität der streikenden Belegschaft**.
 die Notdienstvereinbarung, -en;emergency service agreement;угода про чергові служби (під час страйку);Eine Notdienstvereinbarung **sichert die Notversorgung im Gesundheitswesen ab**.
-die Notdienst, -e;emergency service;чергова (аварійна) служба;Der Notdienst **muss auch während des Streiks aufrechterhalten werden**.
+der Notdienst, -e;emergency service;чергова (аварійна) служба;Der Notdienst **muss auch während des Streiks aufrechterhalten werden**.
 die Streikposten, -;picket / striker on picket duty;пікетник (черговий страйкар біля входу);Die Streikposten **standen vor den Toren des Betriebsgeländes**.
 die Streikleitung, -en;strike committee;керівництво страйком;Die Streikleitung **koordiniert die Aktionen der streikenden Arbeitnehmer**.
 die Streikaufruf, -e;strike call;заклик до страйку;Die Gewerkschaft **hat einen Streikaufruf für das nächste Wochenende veröffentlicht**.

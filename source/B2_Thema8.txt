@@ -117,21 +117,21 @@ die Schuldhaftigkeit (Sg.);culpability;винуватість;Die Schuldhaftigke
 die Fahrlässigkeitshaftung, -en;liability for negligence;відповідальність за необережність;Die Fahrlässigkeitshaftung **kann vertraglich nicht völlig ausgeschlossen werden**.
 die Gefährdungshaftung, -en;strict liability (liability without fault);відповідальність за створення небезпеки (незалежно від вини — напр. власника авто або заводу);Die Gefährdungshaftung **gilt für Betreiber von kerntechnischen Anlagen**.
 die Produkthaftung (Sg.);product liability;відповідальність за якість продукції;Die Produkthaftung **regelt die Haftung des Herstellers für fehlerhafte Produkte**.
-die Produktsicherheitsgesetz (ProdSG) (Sg.);product safety act;закон про безпеку продукції;Das ProdSG **schreibt strenge Sicherheitsprüfungen vor dem Verkauf vor**.
+das Produktsicherheitsgesetz (ProdSG) (Sg.);product safety act;закон про безпеку продукції;Das ProdSG **schreibt strenge Sicherheitsprüfungen vor dem Verkauf vor**.
 die GS-Zeichen (geprüfte Sicherheit), -;GS mark (tested safety);знак сертифікації «безпека перевірена» (GS);Das GS-Zeichen **dient dem Verbraucher als Nachweis der geprüften Sicherheit**.
 die Konformitätsbewertung, -en;conformity assessment;оцінка відповідності;Die Konformitätsbewertung **wurde durch eine akkreditierte Prüfstelle durchgeführt**.
 die Akkreditierung, -en;accreditation;акредитація;Die Akkreditierung **bestätigt die Kompetenz des Labors zur Durchführung der Messungen**.
 die Prüfstelle, -n;testing body / inspection authority;орган сертифікації (випробувальний центр);Die Prüfstelle **ist für die Zulassung der Kältemaschinen zuständig**.
-die Sachverständigenrat, "-e;council of experts / advisory board;рада експертів;Der Sachverständigenrat **berät die Bundesregierung bei Wirtschaftsfragen**.
+der Sachverständigenrat, "-e;council of experts / advisory board;рада експертів;Der Sachverständigenrat **berät die Bundesregierung bei Wirtschaftsfragen**.
 die Monopolkommission, -en;monopolies commission;монопольна комісія;Die Monopolkommission **überwacht die Wettbewerbssituation auf dem Markt**.
-die Kartellamt (Bundeskartellamt) (Sg.);Federal Cartel Office;Федеральне відомство з картелів (антимонопольний комітет);Das Bundeskartellamt **prüft Fusionen von großen Unternehmen**.
+das Kartellamt (Bundeskartellamt) (Sg.);Federal Cartel Office;Федеральне відомство з картелів (антимонопольний комітет);Das Bundeskartellamt **prüft Fusionen von großen Unternehmen**.
 die Fusionskontrolle, -n;merger control;контроль за злиттям підприємств;Die Fusionskontrolle **verhindert die Entstehung marktbeherrschender Stellungen**.
 die marktbeherrschende Stellung;dominant market position;домінуюче становище на ринку;Eine marktbeherrschende Stellung **unterliegt der Missbrauchsaufsicht**.
 die Missbrauchsaufsicht (Sg.);abuse control / supervision of abuse;нагляд за зловживанням (домінуючим становищем);Die Missbrauchsaufsicht **wird vom Bundeskartellamt durchgeführt**.
 die Preismissbrauch, "-e;price abuse;зловживання цінами (завищення монополістом);Preismissbrauch **ist gesetzlich verboten und wird streng geahndet**.
 die Kartellverbot, -e;ban on cartels;заборона картельних угод;Das Kartellverbot **schützt den fairen Wettbewerb auf dem Markt**.
 die Preisabsprache, -n;price fixing / price agreement;цінова змова;Illegale Preisabsprachen **führten zu Millionenstrafen für die Beteiligten**.
-die Bußgeldverfahren, -;fine proceedings;провадження у справі про накладення штрафу;Das Bußgeldverfahren **wurde nach der Zahlung des Geldes eingestellt**.
+das Bußgeldverfahren, -;fine proceedings;провадження у справі про накладення штрафу;Das Bußgeldverfahren **wurde nach der Zahlung des Geldes eingestellt**.
 die Kronzeugenregelung, -en;leniency program / state's witness rule;програма пом'якшення покарання для тих, хто співпрацює зі слідством (кронцойге);Die Kronzeugenregelung **hilft bei der Aufdeckung geheimer Kartelle**.
 die Kronzeuge, -n / die Kronzeugin, -nen;state's witness / chief witness;головний свідок (той, хто співпрацює зі слідством);Der Kronzeuge **erhielt Straffreiheit für seine Kooperation**.
 die Straffreiheit (Sg.);immunity from prosecution;звільнення від покарання (імунітет);Die Straffreiheit **wurde im Rahmen der Kronzeugenregelung gewährt**.
@@ -139,12 +139,12 @@ die Geldbuße, -n;administrative fine;грошовий штраф;Die Geldbuße 
 die Umsatzbezogene Geldbuße;turnover-related fine;штраф, що розраховується від обороту компанії;Eine umsatzbezogene Geldbuße **kann existenzbedrohend für den Betrieb sein**.
 die existenzbedrohend;existential threat / life-threatening (for a business);такий, що загрожує існуванню бізнесу;Der Liquiditätsengpass **entwickelte sich zu einer existenzbedrohenden Krise**.
 die Existenzsicherung (Sg.);securing existence / livelihood;забезпечення прожиткового мінімуму / існування;Die Existenzsicherung der Mitarbeiter **ist das oberste Ziel des Sozialplans**.
-die Insolvenzgeld, -er;insolvency payments (wages paid by labor agency during insolvency);допомога по банкрутству (виплата зарплати агентством праці);Das Insolvenzgeld **sichert die Lohnfortzahlung für drei Monate ab**.
+das Insolvenzgeld, -er;insolvency payments (wages paid by labor agency during insolvency);допомога по банкрутству (виплата зарплати агентством праці);Das Insolvenzgeld **sichert die Lohnfortzahlung für drei Monate ab**.
 die Bundesagentur für Arbeit (BA) (Sg.);Federal Employment Agency;Федеральне агентство праці (BA);Die **Bundesagentur für Arbeit** zahlt das Insolvenzgeld im Falle einer Firmenpleite aus.
 die Firmenpleite, -n;company bankruptcy;банкрутство фірми;Die Firmenpleite **verursachte eine hohe Arbeitslosenquote in der Region**.
 die Pleite, -n;bankruptcy / bust;банкрутство, крах;Nach der Pleite **musste das Handwerksunternehmen geschlossen werden**.
 die Konkurs, -e;bankruptcy;банкрутство (застарілий термін, зараз Insolvenz);Der Konkurs **wurde mangels Masse nicht eröffnet**.
-die Konkursverfahren, -;bankruptcy proceedings;процедура конкурсного провадження (банкрутства);Das Konkursverfahren **wurde nach dem alten Recht abgewickelt**.
+das Konkursverfahren, -;bankruptcy proceedings;процедура конкурсного провадження (банкрутства);Das Konkursverfahren **wurde nach dem alten Recht abgewickelt**.
 die Konkursmasse, -n;bankruptcy estate;банкрутське майно;Die Konkursmasse **wurde unter den Gläubigern aufgeteilt**.
 die Konkursverwalter, - / die Konkursverwalterin, -nen;receiver in bankruptcy;конкурсний керуючий;Der Konkursverwalter **versteigerte die verbliebene Ausstattung des Büros**.
 die Versteigerung, -en;auction;аукціон, примусовий продаж;Die Versteigerung der Maschinen **brachte einen Erlös für die Insolvenzmasse**.
@@ -159,7 +159,7 @@ die Treuhänder, - / die Treuhänderin, -nen;trustee;довірчий керую
 die Privatinsolvenz, -en;consumer insolvency / personal bankruptcy;банкрутство фізичної особи;Eine Privatinsolvenz **bietet überschuldeten Personen einen Ausweg**.
 die Überschuldung, -en;over-indebtedness;надмірна заборгованість;Die Überschuldung **war die Folge von unüberlegten Ratenzahlungen**.
 die Schuldnerberatung, -en;debt counseling;консультація для боржників;Die Schuldnerberatung **unterstützt bei der Erstellung eines Schuldensanierungsplans**.
-die Schuldensanierungsplan, "-e;debt restructuring plan;план реструктуризації боргів;Der Schuldensanierungsplan **bedarf der Zustimmung aller Gläubiger**.
+der Schuldensanierungsplan, "-e;debt restructuring plan;план реструктуризації боргів;Der Schuldensanierungsplan **bedarf der Zustimmung aller Gläubiger**.
 die außergerichtliche Einigung;out-of-court settlement;позасудове врегулювання (компроміс);Eine außergerichtliche Einigung **verhindert das Einleiten des Insolvenzverfahrens**.
 die Insolvenzgericht, -e;insolvency court;суд у справах про банкрутство;Das Insolvenzgericht **eröffnet das Verfahren bei Vorliegen eines Eröffnungsgrundes**.
 die Eröffnungsgrund, "-e;ground for opening (insolvency);підстава для відкриття провадження (напр. неплатоспроможність);Der wichtigste Eröffnungsgrund **ist die drohende Zahlungsunfähigkeit**.
@@ -170,9 +170,9 @@ die Gesellschaftsvermögen, -;corporate assets / company assets;майно то�
 die GmbH (Gesellschaft mit beschränkter Haftung), -s;limited liability company;товариство з обмеженою відповідальністю (ТОВ);Die Gründung einer GmbH **erfordert ein Mindeststammkapital von 25.000 Euro**.
 die Stammkapital, -ien;share capital;статутний капітал;Das Stammkapital **muss auf das Bankkonto der Gesellschaft eingezahlt werden**.
 die Mindeststammkapital (Sg.);minimum share capital;мінімальний статутний капітал;Das Mindeststammkapital **dient dem Gläubigerschutz**.
-die Gläubigerschutz (Sg.);protection of creditors;захист прав кредиторів;Der Gläubigerschutz **ist ein zentrales Prinzip des deutschen Gesellschaftsrechts**.
-die Gesellschaftsrecht (Sg.);corporate law / company law;корпоративне право;Das Gesellschaftsrecht **regelt die Rechte und Pflichten der Gesellschafter**.
-die Gesellschaftervertrag, "-e;articles of association / partnership agreement;засновницький договір (статут);Der Gesellschaftervertrag **regelt die Vertretungsmacht der Geschäftsführer**.
+der Gläubigerschutz (Sg.);protection of creditors;захист прав кредиторів;Der Gläubigerschutz **ist ein zentrales Prinzip des deutschen Gesellschaftsrechts**.
+das Gesellschaftsrecht (Sg.);corporate law / company law;корпоративне право;Das Gesellschaftsrecht **regelt die Rechte und Pflichten der Gesellschafter**.
+der Gesellschaftervertrag, "-e;articles of association / partnership agreement;засновницький договір (статут);Der Gesellschaftervertrag **regelt die Vertretungsmacht der Geschäftsführer**.
 die Satzung, -en;statutes / bylaws;статут (акціонерного товариства або товариства);Die Satzung **muss notariell beurkundet und im Handelsregister eingetragen werden**.
 die Notarielle Beurkundung;notarial certification;нотаріальне посвідчення;Die notarielle Beurkundung **ist Voraussetzung für die Wirksamkeit der Satzung**.
 die Notar, -en / die Notarin, -nen;notary;нотаріус;Der Notar **bestätigt die Identität der Gründer bei der Existenzgründung**.
@@ -189,11 +189,11 @@ die Berufsunfähigkeitsversicherung, -en;occupational disability insurance;ст�
 die Rentenhöhe, -n;pension amount;розмір пенсії;Die Rentenhöhe **richtet sich nach den eingezahlten Beiträgen zur Rentenversicherung**.
 die Beitragszahler, -;taxpayer / contributor;платник внесків;Die Zahl der Beitragszahler **sinkt aufgrund des demografischen Wandels**.
 die Leistungsempfänger, -;beneficiary / recipient of benefits;отримувач послуг / допомоги;Die Zahl der Leistungsempfänger **steigt kontinuierlich an**.
-die Sozialleistungssystem, -e;social benefit system;система соціального забезпечення;Das Sozialleistungssystem **muss zukunftssicher reformiert werden**.
+das Sozialleistungssystem, -e;social benefit system;система соціального забезпечення;Das Sozialleistungssystem **muss zukunftssicher reformiert werden**.
 die Generationengerechtigkeit (Sg.);intergenerational justice;справедливість між поколіннями;Generationengerechtigkeit **erfordert eine nachhaltige Finanzpolitik**.
 die Nachhaltigkeitsfaktor, -en;sustainability factor;коефіцієнт стійкості (у розрахунку пенсій);Der Nachhaltigkeitsfaktor **dämpft den Anstieg der Renten bei demografischen Problemen**.
 die Rentenformel, -n;pension formula;пенсійна формула (розрахунок пенсії);Die Rentenformel **wird gesetzlich im Sozialgesetzbuch festgelegt**.
-die Sozialgesetzbuch (SGB) (Sg.);Social Code;Соціальний кодекс (SGB);Das **Sozialgesetzbuch** beinhaltet alle Rechtsnormen zur Sozialversicherung.
+das Sozialgesetzbuch (SGB) (Sg.);Social Code;Соціальний кодекс (SGB);Das **Sozialgesetzbuch** beinhaltet alle Rechtsnormen zur Sozialversicherung.
 die Sozialgesetzgebung (Sg.);social legislation;соціальне законодавство;Die Sozialgesetzgebung **dient der sozialen Absicherung der Bevölkerung**.
 die Soziale Sicherheit;social security;соціальна безпека (захищеність);Soziale Sicherheit **ist ein Grundprinzip des deutschen Sozialstaates**.
 die Sozialstaat (Sg.);welfare state;соціальна держава;Deutschland versteht sich als Sozialstaat **im Sinne des Grundgesetzes**.
@@ -203,15 +203,15 @@ die Steuergerechtigkeit (Sg.);tax fairness / tax justice;податкова сп
 die Einkommensteuer, -n;income tax;податок на доходи фізичних осіб (ПДФО);Die Einkommensteuer **wird vom Bruttogehalt des Arbeitnehmers abgezogen**.
 die Bruttogehalt, "-er;gross salary;валова заробітна плата (брутто);Das Bruttogehalt **ist die Basis für die Berechnung der Sozialabgaben**.
 die Nettogehalt, "-er;net salary;чиста заробітна плата (нетто);Das Nettogehalt **wird jeden Monat auf das Bankkonto überwiesen**.
-die Gehaltskonto, -en;salary account;зарплатний рахунок;Bitte geben Sie Ihre IBAN **für das Gehaltskonto im Personalbüro an**.
+das Gehaltskonto, -en;salary account;зарплатний рахунок;Bitte geben Sie Ihre IBAN **für das Gehaltskonto im Personalbüro an**.
 die IBAN (International Bank Account Number), -s;IBAN;номер банківського рахунку IBAN;Die IBAN **ist für die Überweisung des Gehalts zwingend erforderlich**.
 die Bankverbindung, -en;bank details;банківські реквізити;Bitte teilen Sie uns Ihre Bankverbindung **im Personaldatenblatt mit**.
 die Einzugsermächtigung, -en;direct debit authorization;дозвіл на списання коштів з рахунку;Die Einzugsermächtigung **erleichtert das Bezahlen der monatlichen Miete**.
-die SEPA-Lastschriftmandat, -e;SEPA direct debit mandate;мандат прямого дебету SEPA;Das SEPA-Lastschriftmandat **muss dem Vermieter schriftlich erteilt werden**.
+das SEPA-Lastschriftmandat, -e;SEPA direct debit mandate;мандат прямого дебету SEPA;Das SEPA-Lastschriftmandat **muss dem Vermieter schriftlich erteilt werden**.
 die Lastschrift, -en;direct debit;пряме дебетування (списання з рахунку);Die Abbuchung **erfolgt per Lastschrift zum Fälligkeitstag**.
 die Abbuchung, -en;debit / withdrawal;списання коштів;Die Abbuchung der Stromkosten **erfolgt monatlich durch den Energieversorger**.
 die Dauerauftrag, "-e;standing order;регулярний платіж (автоплатіж);Ich habe einen Dauerauftrag **für die Mietzahlung bei meiner Bank eingerichtet**.
-die Online-Banking, -s;online banking;онлайн-банкінг;Online-Banking **ermöglicht die schnelle Abwicklung von Inlands- und Auslandsüberweisungen**.
+das Online-Banking, -s;online banking;онлайн-банкінг;Online-Banking **ermöglicht die schnelle Abwicklung von Inlands- und Auslandsüberweisungen**.
 die Überweisung, -en;bank transfer;банківський переказ;Die Überweisung der Kaution **muss vor der Wohnungsübergabe erfolgen**.
 die Zahlungsempfänger, - / die Zahlungsempfängerin, -nen;payee / recipient of payment;отримувач платежу;Der Name des Zahlungsempfängers **muss auf dem Beleg angegeben sein**.
 die Beleg, -e;receipt / voucher;квитанція, чек, виправдний документ;Bewahren Sie den Beleg gut auf, **um das Rückgaberecht in Anspruch zu nehmen**.
@@ -236,7 +236,7 @@ die Fiskalpolitik (Sg.);fiscal policy;фіскальна політика;Die Fi
 die Konjunkturzyklus, -zyklen;business cycle / economic cycle;економічний цикл (кон'юнктурний);Der Konjunkturzyklus **durchläuft die Phasen Aufschwung, Boom, Rezession und Depression**.
 die Aufschwung, "-e;economic upswing / recovery;економічне піднесення;Ein konjunktureller Aufschwung **führt zu einer sinkenden Arbeitslosenquote**.
 die Rezession, -en;recession;рецесія, спад;In einer Rezession **leidet das produzierende Gewerbe unter Auftragsmangel**.
-die Konjunkturprogramm, -e;economic stimulus program;програма стимулювання економіки;Das Konjunkturprogramm **soll die Wirtschaft aus der Rezession führen**.
+das Konjunkturprogramm, -e;economic stimulus program;програма стимулювання економіки;Das Konjunkturprogramm **soll die Wirtschaft aus der Rezession führen**.
 die Wirtschaftswachstum (Sg.);economic growth;економічне зростання;Das Wirtschaftswachstum **wird am Bruttoinlandsprodukt (BIP) gemessen**.
 die Bruttoinlandsprodukt (BIP) (Sg.);gross domestic product (GDP);валовий внутрішній продукт (ВВП);Das **Bruttoinlandsprodukt** ist der wichtigste Indikator für die wirtschaftliche Leistungsfähigkeit.
 die Wirtschaftskraft (Sg.);economic strength;економічна сила (потенціал країни/регіону);Die Wirtschaftskraft Bayerns **beruht auf einem starken Mittelstand**.
@@ -266,9 +266,9 @@ die Erstkorrektur, -en;first marking;перша перевірка;Die Erstkorre
 die Korrektor, -en / die Korrektorin, -nen;marker / proofreader;екзаменатор, який перевіряє роботи;Die Korrektorin **bemängelte die ungenaue Formulierung im Gesetzestext**.
 die Formulierung, -en;formulation / wording;формулювання;Eine präzise Formulierung **ist für die Wirksamkeit von Vertragsklauseln entscheidend**.
 die Auslegung, -en;interpretation;тлумачення (закону або договору);Die Auslegung des Gesetzes **erfolgt im Zweifel durch die Rechtsprechung**.
-die Auslegungsspielraum, "-e;room for interpretation;простір для тлумачення;Der Vertragstext **lässt dem Richter einen gewissen Auslegungsspielraum**.
+der Auslegungsspielraum, "-e;room for interpretation;простір для тлумачення;Der Vertragstext **lässt dem Richter einen gewissen Auslegungsspielraum**.
 die Zweifelsfall, "-e;case of doubt;сумнівний випадок (у разі сумніву);Im Zweifelsfall **ist die verbraucherfreundliche Auslegung anzuwenden**.
-die Verbraucherschutz (Sg.);consumer protection;захист прав споживачів;Der Verbraucherschutz **wird durch strenge gesetzliche Verordnungen geregelt**.
+der Verbraucherschutz (Sg.);consumer protection;захист прав споживачів;Der Verbraucherschutz **wird durch strenge gesetzliche Verordnungen geregelt**.
 die Verbraucherschutzorganisation, -en;consumer protection organization;організація захисту споживачів;Die Verbraucherschutzorganisation **warnt vor irreführenden AGB im Internet**.
 die Verbraucherzentrale, -n;consumer advice center;центр захисту споживачів;Die Verbraucherzentrale **bietet rechtliche Rechtsberatung bei Reklamationen**.
 die Musterklage, -n;model case / representative action;зразковий позов (колективний позов);Die Musterklage **soll Schadensersatz für Tausende Kunden erstreiten**.
@@ -307,7 +307,7 @@ die Gläubigerverzeichnis, -se;list of creditors;список кредиторі
 die Schuldenverzeichnis, -se;debt register;список боргів (реєстр боржників);Der Eintrag im Schuldenverzeichnis **schadet der Bonität des Unternehmens**.
 die Bonitätsauskunft, "-e;credit report;довідка про платоспроможність;Eine Bonitätsauskunft **gibt Aufschluss über die Kreditwürdigkeit**.
 die Auskunftsdatei, -en;credit reference agency / database;довідкова база даних (кредитне бюро);Die Schufa ist die bekannteste Auskunftsdatei **in Deutschland**.
-die Scoring-Verfahren, -;scoring method;метод скорингу (оцінки ризиків);Das Scoring-Verfahren **berechnet die Wahrscheinlichkeit eines Zahlungsausfalls**.
+das Scoring-Verfahren, -;scoring method;метод скорингу (оцінки ризиків);Das Scoring-Verfahren **berechnet die Wahrscheinlichkeit eines Zahlungsausfalls**.
 die Zahlungsausfall, "-e;default in payment;неплатіж (втрата платежу);Ein hoher Zahlungsausfall **kann einen Liquiditätsengpass verursachen**.
 die Ausfallrisiko, -en;default risk;ризик невиплати (дефолту);Das Ausfallrisiko **wird durch die Bonitätsprüfung minimiert**.
 die Risikomanagement (Sg.);risk management;управління ризиками;Das Risikomanagement **ist Teil der strategischen Unternehmensführung**.
@@ -319,7 +319,7 @@ die Exporteur, -e / die Exporteurin, -nen;exporter;експортер;Der Export
 die Importeur, -e / die Importeurin, -nen;importer;імпортер;Der Importeur **ist für die Entrichtung des Einfuhrzolls zuständig**.
 die Einfuhrumsatzsteuer (EUSt) (Sg.);import turnover tax;імпортний ПДВ (EUSt);Die EUSt **wird von der Zollbehörde bei der Einfuhr erhoben**.
 die Zollanmeldung, -en;customs declaration;митна декларація;Die Zollanmeldung **muss elektronisch über das ATLAS-System abgegeben werden**.
-die ATLAS-System (Sg.);ATLAS system (German automated customs system);система ATLAS (автоматизована митна система);Das ATLAS-System **erleichtert die schnelle Zollabwicklung**.
+das ATLAS-System (Sg.);ATLAS system (German automated customs system);система ATLAS (автоматизована митна система);Das ATLAS-System **erleichtert die schnelle Zollabwicklung**.
 die Zolltarif, -e;customs tariff;митний тариф;Der anwendbare Zolltarif **richtet sich nach der Codenummer der Ware**.
 die Codenummer, -n;code number / tariff code;код товару (митна кодифікація);Die korrekte Codenummer **ist im Frachtbrief anzugeben**.
 die Zolltarifnummer, -n;customs tariff number;код митного тарифу;Die Zolltarifnummer **dient der Klassifizierung der Güter beim Import**.
@@ -327,8 +327,8 @@ die Tarifierung, -en;classification / tariffing;тарифікація (клас
 die Zollprüfung, -en;customs audit / inspection;митна перевірка;Die Zollprüfung **kann auch nachträglich im Betrieb durchgeführt werden**.
 die Außenprüfung, -en;field audit / tax audit;зовнішня (виїзна) податкова перевірка;Die Außenprüfung **wurde vom Finanzamt schriftlich angekündigt**.
 die Prüfungsanordnung, -en;audit order;розпорядження про проведення перевірки;Die Prüfungsanordnung **muss den Prüfungszeitraum genau definieren**.
-die Prüfungszeitraum, "-e;audit period;період перевірки;Der Prüfungszeitraum **umfasst die letzten drei Geschäftsjahre**.
-die Prüfungsbericht, -e;audit report;аудиторський звіт;Der Prüfungsbericht **enthält Feststellungen über steuerliche Pflichtverletzungen**.
+der Prüfungszeitraum, "-e;audit period;період перевірки;Der Prüfungszeitraum **umfasst die letzten drei Geschäftsjahre**.
+der Prüfungsbericht, -e;audit report;аудиторський звіт;Der Prüfungsbericht **enthält Feststellungen über steuerliche Pflichtverletzungen**.
 die Steuernachzahlung, -en;tax back-payment;доплата податку;Die Betriebsprüfung **führte zu einer erheblichen Steuernachzahlung**.
 die Nachzahlungszins, -en;interest on back-payments;відсотки за прострочення податкових платежів;Die Nachzahlungszinsen **erhöhen die finanzielle Belastung des Betriebs**.
 die Zinsberechnung, -en;interest calculation;розрахунок відсотків;Die Zinsberechnung **erfolgt nach den gesetzlichen Vorschriften der Abgabenordnung**.
@@ -345,7 +345,7 @@ die Wiedereingliederung (Sg.) (gesellschaftlich/sozial);social reintegration;с�
 die Resozialisierung (Sg.);rehabilitation / resocialization;ресоціалізація;Resozialisierung **ist das oberste Ziel des deutschen Strafvollzugs**.
 die Strafvollzug (Sg.);execution of sentences / prison system;виконання покарань (пенітенціарна система);Der Strafvollzug **unterliegt der Aufsicht des Justizministeriums**.
 die Justizministerium (Sg.);Ministry of Justice;Міністерство юстиції;Das Justizministerium **erarbeitet Gesetzesentwürfe zur Reform des Strafrechts**.
-die Strafrecht (Sg.);criminal law;кримінальне право;Das Strafrecht **definiert die Voraussetzungen für eine Bestrafung**.
+das Strafrecht (Sg.);criminal law;кримінальне право;Das Strafrecht **definiert die Voraussetzungen für eine Bestrafung**.
 die Bestrafung, -en;punishment;покарання;Die Bestrafung **soll der Abschreckung und der Gerechtigkeit dienen**.
 die Abschreckung (Sg.);deterrence;залякування, запобігання (превенція);Die Abschreckung **ist ein wichtiges Ziel der gesetzlichen Strafen**.
 die Prävention (Sg.);prevention;профілактика, запобігання;Maßnahmen zur Prävention **stehen auch beim Arbeitsschutz im Vordergrund**.
@@ -359,11 +359,11 @@ die Hebesatz, "-e;multiplier / assessment rate (for local taxes);ставка о
 die Gemeinde, -n;municipality / local community;громада, муніципалітет;Die Gemeinde **ist für die Bereitstellung der Infrastruktur zuständig**.
 die Kommunalverwaltung, -en;local government / municipal administration;комунальне управління, місцева адміністрація;Die Kommunalverwaltung **bearbeitet Anträge auf Gewerbeanmeldung**.
 die Gewerbeanmeldung, -en;business registration;реєстрація підприємницької діяльності;Die Gewerbeanmeldung **ist vor dem Arbeitsbeginn des Betriebs vorzunehmen**.
-die Gewerbeamt, "-er;trade office / licensing office;відділ реєстрації підприємництва;Das Gewerbeamt **stellt den Gewerbeschein nach der Anmeldung aus**.
-die Gewerbeschein, -e;trade license / business registration certificate;дозвіл на промисел (свідоцтво про реєстрацію бізнесу);Der Gewerbeschein **dient als offizieller Nachweis der selbstständigen Tätigkeit**.
+das Gewerbeamt, "-er;trade office / licensing office;відділ реєстрації підприємництва;Das Gewerbeamt **stellt den Gewerbeschein nach der Anmeldung aus**.
+der Gewerbeschein, -e;trade license / business registration certificate;дозвіл на промисел (свідоцтво про реєстрацію бізнесу);Der Gewerbeschein **dient als offizieller Nachweis der selbstständigen Tätigkeit**.
 die Selbstständigkeit (Sg.);self-employment / independence;самостійність, підприємницька діяльність;Der Schritt in die Selbstständigkeit **erfordert Mut und kaufmännische Kenntnisse**.
 die Scheinselbstständigkeit (Sg.);false self-employment;фіктивна самостійність (коли фрілансер фактично є найманим працівником);Scheinselbstständigkeit **ist illegal und führt zu Nachzahlungen von Sozialabgaben**.
-die Statusfeststellungsverfahren, -;status determination procedure (to check for false self-employment);процедура визначення статусу зайнятості (для виявлення фіктивної самостійності);Das Statusfeststellungsverfahren **wird von der Deutschen Rentenversicherung durchgeführt**.
+das Statusfeststellungsverfahren, -;status determination procedure (to check for false self-employment);процедура визначення статусу зайнятості (для виявлення фіктивної самостійності);Das Statusfeststellungsverfahren **wird von der Deutschen Rentenversicherung durchgeführt**.
 die Deutsche Rentenversicherung (DRV) (Sg.);German Pension Insurance;Німецьке пенсійне страхування (DRV);Die DRV **prüft den sozialversicherungsrechtlichen Status der Mitarbeiter**.
 die Sozialversicherungsprüfung, -en;social security audit;перевірка сплати внесків на соцстрахування;Eine Sozialversicherungsprüfung **findet alle vier Jahre in jedem Betrieb statt**.
 die Beitragsnachzahlung, -en;back-payment of contributions;доплата соціальних внесків;Die Beitragsnachzahlung **kann den Arbeitgeber finanziell schwer belasten**.
@@ -380,9 +380,9 @@ die Härtefall, "-e;case of hardship;важкий випадок (особлив
 die Härtefallregelung, -en;hardship clause / regulation;правила врегулювання особливих випадків (скрути);Die Härtefallregelung **sieht Ausnahmen von den gesetzlichen Vorschriften vor**.
 die Ausnahmeregelung, -en;exceptional regulation / exemption;виняток (особливі правила);Für kleine Handwerksbetriebe **gilt eine Ausnahmeregelung beim Kündigungsschutz**.
 die Sonderregelung, -en;special regulation;спеціальне регулювання;Die Sonderregelung **wurde mit dem Personalrat schriftlich vereinbart**.
-die Personalrat, "-e;staff council (public sector equivalent of works council);рада трудового колективу (у держсекторі);Der Personalrat **vertritt die Interessen der Beschäftigten im öffentlichen Dienst**.
-die Personalvertretungsgesetz (PersVG) (Sg.);Staff Representation Act;закон про представництво інтересів персоналу (PersVG);Das PersVG **regelt die Mitbestimmungsrechte des Personalrats**.
-die Mitbestimmungsrecht, -e;right of co-determination;право на співучасть у прийнятті рішень (участь у керівництві);Das Mitbestimmungsrecht **ist ein zentraler Pfeiler der sozialen Partnerschaft**.
+der Personalrat, "-e;staff council (public sector equivalent of works council);рада трудового колективу (у держсекторі);Der Personalrat **vertritt die Interessen der Beschäftigten im öffentlichen Dienst**.
+das Personalvertretungsgesetz (PersVG) (Sg.);Staff Representation Act;закон про представництво інтересів персоналу (PersVG);Das PersVG **regelt die Mitbestimmungsrechte des Personalrats**.
+das Mitbestimmungsrecht, -e;right of co-determination;право на співучасть у прийнятті рішень (участь у керівництві);Das Mitbestimmungsrecht **ist ein zentraler Pfeiler der sozialen Partnerschaft**.
 die Soziale Partnerschaft;social partnership;соціальне партнерство;Die soziale Partnerschaft **sichert den inneren Frieden in der Wirtschaft**.
 die Betriebsfriede (Sg.);industrial peace / peace within the company;внутрішній мир на підприємстві (доброзичлива атмосфера);Die Störung des Betriebsfriedens **kann eine verhaltensbedingte Kündigung rechtfertigen**.
 die Arbeitsklima (Sg.);working atmosphere;робоча атмосфера;Ein gutes Arbeitsklima **wirkt sich positiv auf die Gesundheit der Belegschaft aus**.

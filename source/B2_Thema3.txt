@@ -148,7 +148,7 @@ der Urlaubsabbau (Sg.);reduction of remaining leave;відпрацювання �
 die Urlaubsanspruchsabgeltung, -en;compensation for unused holiday;компенсація за невикористану відпустку;Die Urlaubsanspruchsabgeltung **wird mit der letzten Gehaltsabrechnung ausgezahlt**.
 die Restarbeitszeit (Sg.);remaining working time;залишок робочого часу (до звільнення);Die Restarbeitszeit **muss für die geordnete Übergabe der Aufgaben genutzt werden**.
 die Aufgabenübergabe, -n;handover of tasks;передача обов'язків (справ);Eine strukturierte Aufgabenübergabe **vermeidet Probleme bei der Nachfolge**.
-die Übergabeprotokoll, -e;handover protocol;протокол передачі справ;Die Übergabe der Dokumente **wurde im Übergabeprotokoll festgehalten**.
+das Übergabeprotokoll, -e;handover protocol;протокол передачі справ;Die Übergabe der Dokumente **wurde im Übergabeprotokoll festgehalten**.
 der Nachfolger, - / die Nachfolgerin, -nen;successor;наступник;Ich bin gerade **mit der Einarbeitung meines Nachfolgers beschäftigt**.
 die Nachfolge, -n;succession;наступництво;Die Regelung der Nachfolge **wurde rechtzeitig in Angriff genommen**.
 die Nachfolgeregelung, -en;succession plan;регулювання наступництва;Eine fehlende Nachfolgeregelung **kann den Betrieb vor große Probleme stellen**.

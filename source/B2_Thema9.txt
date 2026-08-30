@@ -113,7 +113,7 @@ die Gehaltspfändung, -en;garnishment of salary;арешт (вилучення) 
 der Pfändungsbeschluss, "-e;attachment order / garnishment order;постанова про накладення арешту (судове рішення);Der Pfändungsbeschluss **wurde dem Arbeitgeber als Drittschuldner zugestellt**.
 der Drittschuldner, - / die Drittschuldnerin, -nen;third-party debtor (e.g., employer in wage garnishment);третя особа-боржник (напр., роботодавець при арешті зарплати працівника);Als Drittschuldner **muss die Firma das pfändbare Einkommen berechnen**.
 die Drittschuldnererklärung, -en;third-party debtor's declaration;заява третьої особи-боржника (підтвердження арешту роботодавцем);Die Drittschuldnererklärung **muss innerhalb von zwei Wochen abgegeben werden**.
-die Pfändungsschutzkonto (P-Konto), -en;seizure protection account;банківський рахунок із захистом від арешту (P-Konto);Das P-Konto **schützt das pfändungsfreie Einkommen vor dem Zugriff der Gläubiger**.
+das Pfändungsschutzkonto (P-Konto), -en;seizure protection account;банківський рахунок із захистом від арешту (P-Konto);Das P-Konto **schützt das pfändungsfreie Einkommen vor dem Zugriff der Gläubiger**.
 die pfändungsfreie Einkommen;seizure-free income;дохід, який не підлягає арешту (прожитковий мінімум);Das pfändungsfreie Einkommen **richtet sich nach der Pfändungstabelle**.
 die Pfändungstabelle, -n;seizure table (exemptions table);таблиця лімітів арешту (залежно від кількості утриманців);Die aktuelle Pfändungstabelle **weist die freizulassenden Beträge aus**.
 die Unterhaltspflicht, -en;obligation to pay maintenance;обов'язок виплати аліментів (утримання);Eine Unterhaltspflicht **erhöht den pfändungsfreien Betrag des Schuldners**.
@@ -125,9 +125,9 @@ die Familiengericht, -e;family court;сімейний суд;Das Familiengericht
 die Amtsgericht (AG), -e;district court;дільничний (районний) суд (Amtsgericht);Das **Amtsgericht** ist für zivilrechtliche Streitigkeiten mit geringem Streitwert zuständig.
 die Zivilgericht, -e;civil court;цивільний суд;Das Zivilgericht **entscheidet über Schadensersatzforderungen aus Verträgen**.
 die Zivilprozessordnung (ZPO) (Sg.);Code of Civil Procedure;Цивільний процесуальний кодекс (ZPO);Die ZPO **regelt den Ablauf der Zwangsvollstreckung**.
-die Zivilrecht (Sg.);civil law;цивільне право;Das Zivilrecht **basiert im Wesentlichen auf dem Bürgerlichen Gesetzbuch (BGB)**.
+das Zivilrecht (Sg.);civil law;цивільне право;Das Zivilrecht **basiert im Wesentlichen auf dem Bürgerlichen Gesetzbuch (BGB)**.
 die Bürgerliche Gesetzbuch (BGB) (Sg.);Civil Code;Цивільний кодекс Німеччини (BGB);Das **Bürgerliche Gesetzbuch** regelt das Sonderurlaubsrecht und die gesetzliche Mängelhaftung.
-die Gesetzbuch, "-er;code / body of laws;кодекс законів;Das Gesetzbuch **liegt auf dem Schreibtisch der Rechtsanwältin bereit**.
+das Gesetzbuch, "-er;code / body of laws;кодекс законів;Das Gesetzbuch **liegt auf dem Schreibtisch der Rechtsanwältin bereit**.
 die Gesetzessammlung, -en;collection of laws;збірник законів;Die Gesetzessammlung **steht den Richtern in der Gerichtsbibliothek zur Verfügung**.
 die Gesetzesblatt, "-er;official law gazette;відомості законів (офіційне видання);Die Gesetzesblätter **müssen archiviert und zugänglich gehalten werden**.
 die Bundesgesetzblatt (BGBl.) (Sg.);Federal Law Gazette;Федеральний вісник законів (BGBl.);Im BGBl. **werden alle Gesetzesänderungen offiziell verkündet**.
@@ -140,15 +140,15 @@ die Stellungnahme, -n;comment / statement;висновок, відгук, поз
 die Anhörung, -en;hearing / consultation;слухання (заслуховування сторін);Vor der verhaltensbedingten Kündigung **muss eine Anhörung des Mitarbeiters stattfinden**.
 die rechtliche Gehör;right to be heard / fair hearing;право бути заслуханим (судовий принцип);Das rechtliche Gehör **ist ein geschütztes Grundrecht vor Gericht**.
 die Gehörsverletzung, -en;violation of the right to be heard;порушення права на захист (заслуховування);Eine Gehörsverletzung **kann die Aufhebung des Gerichtsurteils zur Folge haben**.
-die Berufungsverfahren, -;appeal proceedings;апеляційне провадження;Das Berufungsverfahren **wird vor dem Landesarbeitsgericht verhandelt**.
+das Berufungsverfahren, -;appeal proceedings;апеляційне провадження;Das Berufungsverfahren **wird vor dem Landesarbeitsgericht verhandelt**.
 die Berufungsgericht, -e;court of appeal;апеляційний суд;Das Berufungsgericht **überprüft das erstinstanzliche Urteil auf Rechtsfehler**.
 die Rechtsfehler, -;error of law;юридична помилка (помилка в застосуванні права);Ein Rechtsfehler des Richters **berechtigt zur Einlegung der Revision**.
-die Revisionsverfahren, -;appeal on points of law proceedings;касаційне провадження;Das Revisionsverfahren **wird schriftlich ohne erneute Beweisaufnahme geführt**.
+das Revisionsverfahren, -;appeal on points of law proceedings;касаційне провадження;Das Revisionsverfahren **wird schriftlich ohne erneute Beweisaufnahme geführt**.
 die Beweisaufnahme, -n;taking of evidence;судове дослідження доказів;Die Beweisaufnahme **beinhaltet das Vernehmen von Zeugen und Sachverständigen**.
 die Zeugenvernehmung, -en;examination of witnesses;допит свідків;Bei der Zeugenvernehmung **mussten die Kollegen zum Pflichtverstoß aussagen**.
 die Zeuge, -n / die Zeugin, -nen;witness;свідок;Der Zeuge **ist zur wahrheitsgemäßen Aussage vor Gericht verpflichtet**.
 die Zeugenaussage, -n;testimony / witness statement;показання свідка;Die Zeugenaussage **wurde im Sitzungsprotokoll genau dokumentiert**.
-die Sitzungsprotokoll, -e;minutes of the meeting/hearing;протокол судового засідання (або засідання ради);Das Sitzungsprotokoll **wird von der Geschäftsstelle des Gerichts verfasst**.
+das Sitzungsprotokoll, -e;minutes of the meeting/hearing;протокол судового засідання (або засідання ради);Das Sitzungsprotokoll **wird von der Geschäftsstelle des Gerichts verfasst**.
 die Sitzungssaal, -säle;courtroom / meeting room;зал засідань;Der Sitzungssaal **darf erst nach Aufforderung durch den Richter betreten werden**.
 die Öffentlichkeit, -en;public;громадськість, публіка;Die Gerichtsverhandlung **ist für die Öffentlichkeit frei zugänglich**.
 die Ausschluss der Öffentlichkeit;exclusion of the public;слухання в закритому режимі (без публіки);Bei Gefährdung von Betriebsgeheimnissen **kann der Ausschluss der Öffentlichkeit beantragt werden**.

@@ -40,6 +40,7 @@ export function cleanGermanForAudio(text: string): string {
 
   let t = text.replace(RE_PARENS, '');
   t = t.replace(/[*_]/g, '');
+  t = t.replace(/\|/g, '');
   t = t.replace(RE_ARTICLES, '$1 ');
   t = t.replace(RE_GRAMMAR_PREFIX, '');
   t = t.replace(RE_SICH_PREFIX, 'sich ');

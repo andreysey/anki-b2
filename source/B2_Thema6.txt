@@ -108,13 +108,13 @@ die Rückerstattung, -en;refund;повернення грошей;Nach der Storn
 die Preiserstattung, -en;refund of price;повернення вартості;Der Kunde **hat Anspruch auf eine vollständige Preiserstattung** bei Fehllieferung.
 die Kaufpreisrückzahlung, -en;refund of purchase price;повернення купівельної ціни;Die Kaufpreisrückzahlung **wurde vom Buchhaltungs-System veranlasst**.
 die Geldrückgabe (Sg.);money back / refund;повернення грошей;Die Geldrückgabe **erfolgt nach Überprüfung des Schadensfalls**.
-die Rückgaberecht, -e;right of return;право на повернення;Laut AGB **besteht ein 14-tägiges Rückgaberecht für alle Bestellungen**.
-die Widerrufsrecht, -e;right of withdrawal;право на відкликання (скасування замовлення);Das gesetzliche Widerrufsrecht **gilt bei Online-Verträgen für Verbraucher**.
+das Rückgaberecht, -e;right of return;право на повернення;Laut AGB **besteht ein 14-tägiges Rückgaberecht für alle Bestellungen**.
+das Widerrufsrecht, -e;right of withdrawal;право на відкликання (скасування замовлення);Das gesetzliche Widerrufsrecht **gilt bei Online-Verträgen für Verbraucher**.
 die Widerrufsfrist, -en;withdrawal period;термін відкликання;Die Widerrufsfrist **erstreckt sich über 14 Tage ab Erhalt der Ware**.
 die Widerrufserklärung, -en;notice of withdrawal;заява про скасування (угоди);Die Widerrufserklärung **muss schriftlich per E-Mail oder Post erfolgen**.
 die Rückgabefrist, -en;return period;термін повернення;Die Rückgabefrist **wurde in den Verkaufsbedingungen genau festgelegt**.
 die Kulanzregelung, -en;goodwill policy;правила надання пільг на добровільній основі;Die Kulanzregelung **sieht einen kostenlosen Austausch des Displays vor**.
 die Kulanzentscheidung, -en;goodwill decision;рішення про добровільну поступку;Die Kulanzentscheidung **wurde von der Vertriebsleitung getroffen**.
-die Kulanzantrag, "-e;goodwill request;запит про добровільне врегулювання (без юр. зобов'язань);Der Kundendienst **reichte einen Kulanzantrag beim Hersteller ein**.
+der Kulanzantrag, "-e;goodwill request;запит про добровільне врегулювання (без юр. зобов'язань);Der Kundendienst **reichte einen Kulanzantrag beim Hersteller ein**.
 die Kulanzweg, -e;goodwill path/route;шлях добровільного врегулювання (на основі лояльності);Das Gerät **wurde auf Kulanzweg und ohne Gewährleistung repariert**.
 die Kulanzleistung, -en;goodwill gesture / ex gratia payment;послуга, надана на добровільній основі (куланс);Die Kulanzleistung **hat das Image des Unternehmens beim Kunden gerettet**.

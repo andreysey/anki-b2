@@ -98,12 +98,12 @@ die Bewerbungskosten (Pl.);application costs;витрати на подачу р
 die Reisekostenrückerstattung (Sg.);reimbursement of travel expenses;відшкодування витрат на поїздку (на співбесіду);Die Reisekostenrückerstattung **kann vor dem Vorstellungsgespräch beantragt werden**.
 die Mobilitätshilfe, -n;mobility aid / subsidy;допомога на мобільність (напр., витрати на переїзд до місця роботи);Die Mobilitätshilfe **unterstützt die Aufnahme einer auswärtigen Erwerbstätigkeit**.
 die Umzugskosten (Pl.);moving costs;витрати на переїзд;Die Umzugskosten **werden bei einer berufsbedingten Umschulung übernommen**.
-die Einstiegsgeld (Sg.);starting grant / introductory subsidy (for taking a job);допомога на первинне працевлаштування (Einstiegsgeld);Das Einstiegsgeld **wird als Anreiz für die Aufnahme einer Beschäftigung gezahlt**.
+das Einstiegsgeld (Sg.);starting grant / introductory subsidy (for taking a job);допомога на первинне працевлаштування (Einstiegsgeld);Das Einstiegsgeld **wird als Anreiz für die Aufnahme einer Beschäftigung gezahlt**.
 die Lohnkostenzuschuss, "-e;wage subsidy;субсидія на заробітну плату (роботодавцю);Für die Einstellung von Langzeitarbeitslosen **gibt es einen Lohnkostenzuschuss**.
 die Eingliederungszuschuss, "-e;integration subsidy;інтеграційна субсидія (доплата роботодавцю);Der Eingliederungszuschuss **wird für die Dauer der Einarbeitungsphase gezahlt**.
 die Beschäftigungszuschuss, "-e;employment subsidy;доплата на працевлаштування (субсидія);Der Beschäftigungszuschuss **dient der Integration schwer vermittelbarer Personen**.
 die Aktivierungs- und Vermittlungsgutschein (AVGS), -e;activation and placement voucher (AVGS);ваучер на активацію та працевлаштування (AVGS);Mit dem **Aktivierungs- und Vermittlungsgutschein** kann man die Dienste einer privaten Vermittlungsagentur nutzen.
-die Bildungsgutschein, -e;training voucher;освітній ваучер (на навчання/курси);Ich habe einen Bildungsgutschein **für eine berufliche Weiterbildung erhalten**.
+der Bildungsgutschein, -e;training voucher;освітній ваучер (на навчання/курси);Ich habe einen Bildungsgutschein **für eine berufliche Weiterbildung erhalten**.
 die Umschulungsmaßnahme, -n;retraining measure;заходи з перекваліфікації;Die Umschulungsmaßnahme **wird in vollem Umfang durch den Bildungsgutschein finanziert**.
 die Rentenberater, - / die Rentenberaterin, -nen;pension consultant;пенсійний консультант;Der Rentenberater **hilft bei der Berechnung der zukünftigen Rente**.
 die Rentenauskunft, "-e;pension statement / information;довідка про стан пенсійного рахунку (накопичення);Die Rentenauskunft **gibt Aufschluss über die Höhe des Rentenanspruchs**.
@@ -113,7 +113,7 @@ die Pflichtbeitragszeit, -en;period of compulsory contributions;період о�
 die Anrechnungszeit, -en;credited period (for pension - e.g. sickness, study);період, що зараховується до стажу (напр., навчання, хвороба);Die Ausbildungszeit **wird als Anrechnungszeit in der Rentenformel berücksichtigt**.
 die Kindererziehungszeit, -en;child-raising period (credited for pension);період виховання дітей (зараховується до стажу);Die Kindererziehungszeiten **führen zu einer Steigerung der Rentenanwartschaft**.
 die Rentenanwartschaft, -en;pension entitlement / accrued rights;накопичені пенсійні права (очікування пенсії);Die Rentenanwartschaft **kann bei einer Scheidung aufgeteilt werden**.
-die Versorgungsausgleich (Sg.);equalization of pension points (in divorce);вирівнювання пенсійних прав (при розлученні);Der Versorgungsausgleich **wird vom Familiengericht von Amts wegen durchgeführt**.
+der Versorgungsausgleich (Sg.);equalization of pension points (in divorce);вирівнювання пенсійних прав (при розлученні);Der Versorgungsausgleich **wird vom Familiengericht von Amts wegen durchgeführt**.
 die Versorgungsausgleichskasse, -n;pension equalization fund;каса пенсійного вирівнювання;Die Versorgungsausgleichskasse **verwaltet die übertragenen Rentenpunkte**.
 der Rentenpunkt, -e;pension point / earning point;пенсійний бал;Die Höhe der Rente **basiert auf der Anzahl der gesammelten Rentenpunkte**.
 die Entgeltpunkt, -e;earning point (pension point);бал заробітку (пенсійний бал);Ein Entgeltpunkt **entspricht dem Durchschnittseinkommen eines Kalenderjahres**.
@@ -129,7 +129,7 @@ die abschlagsfreie Rente;deduction-free pension;пенсія без вираху
 die Rente für besonders langjährig Versicherte;pension for long-term contributors;пенсія для осіб з дуже тривалим стажем (45 років);Die Rente für besonders langjährig Versicherte **wird oft als „Rente mit 63“ bezeichnet**.
 die Rente mit 63;retirement at 63;вихід на пенсію в 63 роки;Die Rente mit 63 **setzt eine 45-jährige Pflichtbeitragszeit voraus**.
 die Altersteilzeit (Sg.);partial retirement;неповна зайнятість для літніх працівників перед пенсією (альтерстайльцайт);Die Altersteilzeit **ermöglicht einen gleitenden Übergang in den Ruhestand**.
-die Blockmodell (Sg.);block model (in partial retirement);блочна модель (працюєш повний час, потім взагалі не працюєш);Beim Blockmodell **wird die Altersteilzeit in eine Arbeits- und eine Freistellungsphase unterteilt**.
+das Blockmodell (Sg.);block model (in partial retirement);блочна модель (працюєш повний час, потім взагалі не працюєш);Beim Blockmodell **wird die Altersteilzeit in eine Arbeits- und eine Freistellungsphase unterteilt**.
 die Arbeitsphase, -n;active phase (working phase);активна фаза (фаза роботи);In der Arbeitsphase **arbeitet der Beschäftigte trotz halbiertem Gehalt voll**.
 die Freistellungsphase, -n;passive phase (release phase);пасивна фаза (фаза звільнення від роботи перед пенсією);In der Freistellungsphase **erfolgt der Rentenübergang ohne weitere Arbeitsleistung**.
 die Aufstockungsbetrag, "-e;top-up amount (in partial retirement);доплата (нарахування) до зарплати/внесків;Der Arbeitgeber **zahlt einen Aufstockungsbetrag zum Gehalt in der Altersteilzeit**.

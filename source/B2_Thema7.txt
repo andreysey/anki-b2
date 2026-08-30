@@ -104,8 +104,8 @@ die Netzausfall, "-e;power outage / network failure;вимкнення мере�
 die Notstromaggregat, -e;emergency generator;дизель-генератор (аварійний);Im Ernstfall **springt das Notstromaggregat automatisch innerhalb von Sekunden an**.
 die USV-Anlage (unterbrechungsfreie Stromversorgung), -n;UPS system (uninterruptible power supply);система безперебійного живлення (ДБЖ);Die USV-Anlage **muss regelmäßig gewartet werden, um Mängel auszuschließen**.
 die Akkumulator, -en;accumulator / rechargeable battery;акумулятор;Die Akkumulatoren der USV **haben eine begrenzte Haltbarkeit von fünf Jahren**.
-die Batterieraum, "-e;battery room;акумуляторна кімната;Der Zutritt zum Batterieraum **ist nur für Elektrofachkräfte gestattet**.
-die Säureschutz, -e;acid protection;захист від кислоти;Beim Umgang mit den Batterien **ist die Säureschutzbekleidung zu tragen**.
+der Batterieraum, "-e;battery room;акумуляторна кімната;Der Zutritt zum Batterieraum **ist nur für Elektrofachkräfte gestattet**.
+der Säureschutz, -e;acid protection;захист від кислоти;Beim Umgang mit den Batterien **ist die Säureschutzbekleidung zu tragen**.
 die Knallgasentwicklung, -en;oxyhydrogen gas formation / gas emission;виділення гримучого газу;Eine Knallgasentwicklung im Batterieraum **stellt eine hohe Explosionsgefahr dar**.
 die Belüftung (Sg.);ventilation;вентиляція;Eine ausreichende Belüftung **ist im Akku-Raum gesetzlich vorgeschrieben**.
 die Lüftungsanlage, -n;ventilation system;вентиляційна установка;Die Lüftungsanlage **muss im Störungsfall einen Feueralarm auslösen**.
@@ -113,7 +113,7 @@ der Luftwechsel, -;air exchange;повітрообмін;Der erforderliche Luftw
 die Zuluft (Sg.);supply air / intake air;припливне повітря;Die Zuluft **wird vor dem Einblasen in die Büroräume gefiltert**.
 die Abluft (Sg.);exhaust air;витяжне повітря;Die Abluft der Server **wird zur Beheizung des Gebäudes genutzt**.
 die Wärmerückgewinnung (Sg.);heat recovery;рекуперація тепла;Das System zur Wärmerückgewinnung **trägt erheblich zur Energieeinsparung bei**.
-der Kreislaufverbundsystem, -e;run-around coil system (heat recovery);система рекуперації тепла з проміжним теплоносієм;Das Kreislaufverbundsystem **wird vom Instandhaltungs-Team gewartet**.
+das Kreislaufverbundsystem, -e;run-around coil system (heat recovery);система рекуперації тепла з проміжним теплоносієм;Das Kreislaufverbundsystem **wird vom Instandhaltungs-Team gewartet**.
 die Wärmetauscher, -;heat exchanger;теплообмінник;Die Wärmetauscher **müssen regelmäßig gereinigt werden, um Keimbelastung zu vermeiden**.
 das Kühlwasser (Sg.);cooling water;охолоджуюча вода;Der Durchfluss des Kühlwassers **wird über ein Display visualisiert**.
 der Kühlkreislauf, "-e;cooling circuit;контур охолодження;Ein Defekt im Kühlkreislauf **kann zu einer Überhitzung der Server führen**.
@@ -129,10 +129,10 @@ die Luftfeuchtigkeit (Sg.);humidity;вологість повітря;Die Luftfe
 die Taupunkt, -e;dew point;точка роси;Der Taupunkt **darf zur Vermeidung von Kondensat nicht unterschritten werden**.
 die Kondensatbildung (Sg.);condensation formation;утворення конденсату;Eine Kondensatbildung an den Geräten **kann Kurzschlüsse auslösen**.
 die Kurzschluss, "-e;short circuit;коротке замикання;Ein Kurzschluss **führte zum Ausfall der gesamten IT-Infrastruktur**.
-die Überspannungsschutz (Sg.);surge protection;захист від перенапруги;Der Überspannungsschutz **schützt die Server vor Schäden durch Blitzeinschläge**.
+der Überspannungsschutz (Sg.);surge protection;захист від перенапруги;Der Überspannungsschutz **schützt die Server vor Schäden durch Blitzeinschläge**.
 die Blitzschutzanlage, -n;lightning protection system;блискавкозахист;Die Blitzschutzanlage **wird im Rahmen des Arbeitsschutzes regelmäßig geprüft**.
 der Erdungswiderstand, "-e;earthing resistance;опір заземлення;Die Messung des Erdungswiderstandes **wurde im Prüfprotokoll dokumentiert**.
-die Potenzialausgleich, -e;equipotential bonding;вирівнювання потенціалів;Der Potenzialausgleich **ist für die Sicherheit im Serverraum zwingend vorgeschrieben**.
+der Potenzialausgleich, -e;equipotential bonding;вирівнювання потенціалів;Der Potenzialausgleich **ist für die Sicherheit im Serverraum zwingend vorgeschrieben**.
 die Funktionserdung, -en;functional earthing;функціональне заземлення;Die Funktionserdung **sichert den störungsfreien Betrieb der Elektronik ab**.
 die EMV-Richtlinie (Richtlinie zur elektromagnetischen Verträglichkeit), -n;EMC directive (electromagnetic compatibility);директива з електромагнітної сумісності (ЕМС);Die Einhaltung der EMV-Richtlinie **ist Voraussetzung für das CE-Zertifikat**.
 die CE-Kennzeichnung, -en;CE marking;маркування CE;Die CE-Kennzeichnung **bestätigt die Korrektheit des Produkts nach EU-Recht**.
@@ -153,7 +153,7 @@ die Rechtsberatung, -en;legal advice;юридична консультація;V
 die Rechtsschutzversicherung, -en;legal expenses insurance;страхування юридичних витрат;Die Rechtsschutzversicherung **übernimmt die Kosten für den Rechtsstreit**.
 die Gerichtsgebühr, -en;court fee;судовий збір;Die Gerichtsgebühren **müssen von der unterlegenen Partei getragen werden**.
 die Anwaltskosten (Pl.);lawyer's fees;витрати на адвоката;Die Anwaltskosten **richten sich nach dem Rechtsanwaltsvergütungsgesetz**.
-die Streitwert, -e;amount in dispute / value in dispute;сума позову (вартість предмету спору);Der Streitwert des Verfahrens **wurde auf drei Monatsgehälter festgelegt**.
+der Streitwert, -e;amount in dispute / value in dispute;сума позову (вартість предмету спору);Der Streitwert des Verfahrens **wurde auf drei Monatsgehälter festgelegt**.
 die Klageschrift, -en;statement of claim / lawsuit;позовна заява;Die Klageschrift **wurde vom Rechtsanwalt beim Arbeitsgericht eingereicht**.
 die Klageerwiderung, -en;defense / reply to the statement of claim;заперечення проти позову;Die Klageerwiderung **muss innerhalb der vom Richter gesetzten Frist erfolgen**.
 die Gerichtsverhandlung, -en;court hearing;судове засідання;Die Gerichtsverhandlung **findet im großen Saal des Arbeitsgerichts statt**.
@@ -167,19 +167,19 @@ die Bundesarbeitsgericht (BAG) (Sg.);Federal Labor Court;Федеральний 
 die Revision, -en;appeal on points of law;ревізія (касаційне оскарження);Die Revision beim Bundesarbeitsgericht **wurde vom Richter zugelassen**.
 die Grundsatzentscheidung, -en;landmark decision;принципове рішення (прецедент);Das Urteil gilt als eine wichtige Grundsatzentscheidung **in unserer Wirtschaftsbranche**.
 die Präzedenzfall, "-e;precedent;прецедент;Dieses Urteil **schafft einen Präzedenzfall für zukünftige Kündigungsschutzklagen**.
-die Richterrecht (Sg.);case law / judge-made law;судове право (право, створене рішеннями суддів);Das Richterrecht **ergänzt die geschriebenen gesetzlichen Rechtsnormen**.
+das Richterrecht (Sg.);case law / judge-made law;судове право (право, створене рішеннями суддів);Das Richterrecht **ergänzt die geschriebenen gesetzlichen Rechtsnormen**.
 die Rechtsfortbildung, -en;development of the law / legal development;розвиток права (шляхом судових рішень);Die Rechtsfortbildung **erfolgt vor allem durch die Urteile des Bundesarbeitsgerichts**.
 die Verfassungsmäßigkeit (Sg.);constitutionality;конституційність;Die Verfassungsmäßigkeit des Gesetzes **wurde vom Verfassungsgericht bestätigt**.
 die Bundesverfassungsgericht (BVerfG) (Sg.);Federal Constitutional Court;Федеральний конституційний суд;Das BVerfG **kann Gesetze für verfassungswidrig und ungültig erklären**.
 die Verfassungsbeschwerde, -n;constitutional complaint;конституційна скарга;Gegen das Urteil des BAG **wurde eine Verfassungsbeschwerde eingereicht**.
-die Grundrecht, -e;basic right / constitutional right;основне (конституційне) право;Die Koalitionsfreiheit **ist ein geschütztes Grundrecht im Grundgesetz**.
-die Grundgesetz (GG) (Sg.);Basic Law (German Constitution);Основний закон (Конституція Німеччини);Das Grundgesetz **steht an der Spitze aller deutschen Rechtsnormen**.
+das Grundrecht, -e;basic right / constitutional right;основне (конституційне) право;Die Koalitionsfreiheit **ist ein geschütztes Grundrecht im Grundgesetz**.
+das Grundgesetz (GG) (Sg.);Basic Law (German Constitution);Основний закон (Конституція Німеччини);Das Grundgesetz **steht an der Spitze aller deutschen Rechtsnormen**.
 die Verfassung, -en;constitution;конституція;Die Verfassung **garantiert den Schutz der Menschenwürde und der Grundrechte**.
 die Gesetzgeber, -;legislator;законодавець;Der Gesetzgeber **muss die Richtlinien der EU in nationales Recht umsetzen**.
 die Gesetzesentwurf, "-e;bill / draft law;законопроект;Der Gesetzesentwurf zur Arbeitszeiterfassung **wurde im Bundestag debattiert**.
-die Gesetzgebungsverfahren, -;legislative process;законодавчий процес;Das Gesetzgebungsverfahren **erfordert die Zustimmung des Bundesrates**.
+das Gesetzgebungsverfahren, -;legislative process;законодавчий процес;Das Gesetzgebungsverfahren **erfordert die Zustimmung des Bundesrates**.
 die Bundestag (Sg.);Bundestag (German Federal Parliament);Бундестаг;Der Bundestag **ist für die Verabschiedung von Bundesgesetzen zuständig**.
-die Bundesrat (Sg.);Bundesrat (Federal Council);Бундесрат;Der Bundesrat **vertritt die Interessen der Bundesländer bei der Gesetzgebung**.
+der Bundesrat (Sg.);Bundesrat (Federal Council);Бундесрат;Der Bundesrat **vertritt die Interessen der Bundesländer bei der Gesetzgebung**.
 die Gesetzblatt, "-er;federal law gazette;відомості законів (офіційне видання);Das Gesetz wird nach der Verkündung **im Bundesgesetzblatt veröffentlicht**.
 die Inkrafttreten (Sg.);entry into force;набрання чинності;Das genaue Datum für das Inkrafttreten des Gesetzes **wurde verschoben**.
 die Außerkrafttreten (Sg.);expiration / loss of legal force;втрата чинності;Das Außerkrafttreten der alten Verordnung **erfolgt zum Jahresende**.
@@ -187,8 +187,8 @@ die Übergangsregelung, -en;transitional regulation;перехідні прав�
 die Übergangsfrist, -en;transitional period;перехідний період (термін);Die Übergangsfrist **gibt den Betrieben Zeit zur Anpassung an die Vorschriften**.
 die Stichtag, -e;cutoff date / deadline;опорна дата (дедлайн);Der Stichtag für die Umsetzung der Richtlinie **ist der 31. Dezember**.
 die Übergangszeit, -en;transitional period;перехідний час;Während der Übergangszeit **gelten vereinfachte Regeln für das Qualitätsmanagement**.
-die Bestandsschutz (Sg.);grandfathering / protection of established rights;захист існуючих прав (статус-кво);Für alte Industrieanlagen **gilt ein gesetzlicher Bestandsschutz**.
-die Altvertrag, "-e;old contract / grandfathered contract;старий договір;Die Altverträge **bleiben von der neuen gesetzlichen Regelung unberührt**.
+der Bestandsschutz (Sg.);grandfathering / protection of established rights;захист існуючих прав (статус-кво);Für alte Industrieanlagen **gilt ein gesetzlicher Bestandsschutz**.
+der Altvertrag, "-e;old contract / grandfathered contract;старий договір;Die Altverträge **bleiben von der neuen gesetzlichen Regelung unberührt**.
 die Neuregelung, -en;new regulation / reform;нове регулювання;Die Neuregelung der Zeiterfassung **stieß auf Kritik bei den Arbeitgebern**.
 die Gesetzesänderung, -en;amendment to the law;зміна закону;Eine Gesetzesänderung **macht die Anpassung der Betriebsvereinbarungen erforderlich**.
 die Gesetzesreform, -en;legal reform;законодавча реформа;Die Gesetzesreform **soll die Flexibilität auf dem Arbeitsmarkt erhöhen**.
@@ -204,7 +204,7 @@ die Geheimhaltungspflicht, -en;duty of confidentiality;обов'язок нер�
 die Verschwiegenheitsvereinbarung, -en;non-disclosure agreement (NDA);угода про нерозголошення (NDA);Vor den Verhandlungen **haben wir eine Verschwiegenheitsvereinbarung unterzeichnet**.
 die Geschäftsgeheimnis, -se;trade secret;комерційна таємниця;Der Verrat von Geschäftsgeheimnissen **ist strafbar und ein Kündigungsgrund**.
 die Betriebsgeheimnis, -se;operating secret / company secret;службова (заводська) таємниця;Mitarbeiter sind verpflichtet, **alle Betriebsgeheimnisse streng geheim zu halten**.
-die Kundenschutz (Sg.);customer protection / non-compete for clients;захист клієнтів (заборона переманювати клієнтів);Die Klausel zum Kundenschutz **gilt für zwei Jahre nach dem Austritt**.
+der Kundenschutz (Sg.);customer protection / non-compete for clients;захист клієнтів (заборона переманювати клієнтів);Die Klausel zum Kundenschutz **gilt für zwei Jahre nach dem Austritt**.
 die Wettbewerbsverbot, -e;non-compete covenant;заборона конкуренції;Das nachvertragliche Wettbewerbsverbot **sieht eine finanzielle Entschädigung vor**.
 die Karenzentschädigung, -en;non-compete compensation;компенсація за утримання від конкуренції (каренц);Der Ex-Arbeitgeber **muss eine Karenzentschädigung in halber Gehaltshöhe zahlen**.
 die Konkurrenzklausel, -n;non-compete clause;положення про конкуренцію (в договорі);Die Konkurrenzklausel **verbietet die Arbeit für direkte Mitbewerber**.
@@ -233,7 +233,7 @@ die Leistungsbilanz, -en;current account balance;баланс поточних �
 die Zahlungsbilanz, -en;balance of payments;платіжний баланс;Die Zahlungsbilanz **gibt Aufschluss über die finanziellen Beziehungen zum Ausland**.
 die Währungsrisiko, -en;currency risk;валютний ризик;Um das Währungsrisiko zu minimieren, **nutzen wir feste Wechselkurse**.
 die Wechselkurs, -e;exchange rate;обмінний курс;Schwankungen der Wechselkurse **beeinflussen das Ergebnis im Exportgeschäft**.
-die Devisenmarkt, "-e;foreign exchange market;валютний ринок;Die Transaktionen auf dem Devisenmarkt **unterliegen strengen Kontrollen**.
+der Devisenmarkt, "-e;foreign exchange market;валютний ринок;Die Transaktionen auf dem Devisenmarkt **unterliegen strengen Kontrollen**.
 die Devisenreserven (Pl.);foreign exchange reserves;валютні резерви;Die Devisenreserven des Landes **sichern die Stabilität der Währung ab**.
 die Geldpolitik (Sg.);monetary policy;грошово-кредитна політика;Die Geldpolitik der EZB **hat Einfluss auf die Zinsen für Unternehmenskredite**.
 die Notenbank, -en;central bank;емісійний (центральний) банк;Die Notenbank **entscheidet über die Leitzinsanpassung im Euroraum**.
@@ -246,8 +246,8 @@ die Kaufkraft (Sg.);purchasing power;купівельна спроможніст
 die Verbraucherpreisindex (VPI) (Sg.);consumer price index (CPI);індекс споживчих цін (ІСЦ);Der **Verbraucherpreisindex** dient als Maßstab für die Messung der Inflation.
 die Warenkorb, "-e;basket of goods;споживчий кошик;Der Warenkorb **beinhaltet repräsentative Güter für den täglichen Bedarf**.
 die Lebenshaltungskosten (Pl.);cost of living;витрати на проживання;Die steigenden Lebenshaltungskosten **erfordern eine Anpassung der Tarife**.
-die Reallohn, "-e;real wage;реальна заробітна плата;Trotz Gehaltserhöhung **ist der Reallohn wegen der Inflation gesunken**.
-die Nominallohn, "-e;nominal wage;номінальна заробітна плата;Der Nominallohn **stieg im vergangenen Jahr um durchschnittlich 4 Prozent**.
+der Reallohn, "-e;real wage;реальна заробітна плата;Trotz Gehaltserhöhung **ist der Reallohn wegen der Inflation gesunken**.
+der Nominallohn, "-e;nominal wage;номінальна заробітна плата;Der Nominallohn **stieg im vergangenen Jahr um durchschnittlich 4 Prozent**.
 die Lohn-Preis-Spirale, -n;wage-price spiral;інфляційна спіраль «зарплата-ціни»;Eine Lohn-Preis-Spirale **muss durch moderate Tarifabschlüsse vermieden werden**.
 die Lohnpolitik (Sg.);wage policy;політика заробітної плати;Eine verantwortungsvolle Lohnpolitik **sichert die Arbeitsplätze im Inland**.
 die Lohnnebenkosten (Pl.);non-wage labor costs;додаткові витрати на оплату праці (соцвнески роботодавця);Hohe Lohnnebenkosten **gefährden die Wettbewerbsfähigkeit der Betriebe**.
@@ -260,19 +260,19 @@ die Arbeitslosenversicherung, -en;unemployment insurance;страхування 
 die Pflegeversicherung, -en;long-term care insurance;страхування на випадок потреби в догляді;Die Pflegeversicherung **übernimmt die Kosten für das Pflegeheim teilweise**.
 die Unfallversicherung, -en;accident insurance;страхування від нещасних випадків;Die gesetzliche Unfallversicherung **ist für den Arbeitnehmer beitragsfrei**.
 die Berufsgenossenschaft (BG), -en;employers' liability insurance association;галузеве страхування;Die **Berufsgenossenschaft** ist der Träger der gesetzlichen Unfallversicherung.
-die Umlageverfahren, -;pay-as-you-go system;розподільча система (фінансування пенсій);Die gesetzliche Rente **basiert in Deutschland auf dem Umlageverfahren**.
-die Generationenvertrag, "-e;intergenerational contract;договір поколінь;Der Generationenvertrag **stößt wegen der alternden Gesellschaft an seine Grenzen**.
+das Umlageverfahren, -;pay-as-you-go system;розподільча система (фінансування пенсій);Die gesetzliche Rente **basiert in Deutschland auf dem Umlageverfahren**.
+der Generationenvertrag, "-e;intergenerational contract;договір поколінь;Der Generationenvertrag **stößt wegen der alternden Gesellschaft an seine Grenzen**.
 die Demografie (Sg.);demography;демографія;Die Demografie **erfordert eine stufenweise Anhebung des Rentenalters**.
 die demografische Wandel;demographic change;демографічні зміни;Der demografische Wandel **verursacht einen chronischen Fachkräftemangel**.
 die Fachkräftemangel (Sg.);shortage of skilled workers;дефіцит кваліфікованих кадрів;Der Fachkräftemangel **stellt das produzierende Gewerbe vor große Probleme**.
 die Arbeitskräftemangel (Sg.);labor shortage;дефіцит робочої сили;Gegen den Arbeitskräftemangel **hilft die gezielte Zuwanderung von Fachkräften**.
 die Zuwanderung (Sg.);immigration;імміграція;Die Zuwanderung **leistet einen Beitrag zur Stabilisierung der Sozialkassen**.
-die Fachkräfteeinwanderungsgesetz (Sg.);skilled immigration act;закон про імміграцію кваліфікованих спеціалістів;Das neue Fachkräfteeinwanderungsgesetz **erleichtert die Arbeitsplatzsuche in der IT**.
+das Fachkräfteeinwanderungsgesetz (Sg.);skilled immigration act;закон про імміграцію кваліфікованих спеціалістів;Das neue Fachkräfteeinwanderungsgesetz **erleichtert die Arbeitsplatzsuche in der IT**.
 die Anerkennung (z. B. von Abschlüssen) (Sg.);recognition / equivalence assessment;визнання (напр., дипломів);Die Anerkennung ausländischer Abschlüsse **wird von der IHK durchgeführt**.
 die Gleichwertigkeitsprüfung, -en;equivalence assessment;перевірка на еквівалентність (диплому);Die Gleichwertigkeitsprüfung **erfordert das Vorlegen aller Zeugnisse**.
 die Defizitbescheid, -e;deficit notice (in qualification recognition);повідомлення про часткове визнання (з переліком відсутніх дисциплін);Im Defizitbescheid **sind die fehlenden Qualifikationen genau aufgelistet**.
 die Anpassungsqualifizierung, -en;adaptation qualification / training;адаптаційна кваліфікація (навчання для повного визнання диплому);Die Anpassungsqualifizierung **hilft, die volle Gleichwertigkeit zu erreichen**.
-die Anerkennungsverfahren, -;recognition procedure;процедура визнання (диплому);Das Anerkennungsverfahren **wird durch staatliche Zuschüsse finanziell gefördert**.
+das Anerkennungsverfahren, -;recognition procedure;процедура визнання (диплому);Das Anerkennungsverfahren **wird durch staatliche Zuschüsse finanziell gefördert**.
 die Reglementierte Berufe (Pl.);regulated professions;регламентовані професії;Im Gesundheitswesen **handelt es sich meist um reglementierte Berufe**.
 die Berufszulassung (Sg.);professional license;дозвіл на професійну діяльність;Für Ärzte **ist die Approbation als offizielle Berufszulassung erforderlich**.
 die Approbation, -en;license to practice medicine;апробація (дозвіл на медичну практику);Die Approbation **wird nach erfolgreichem Abschluss des Verfahrens erteilt**.
@@ -290,16 +290,16 @@ die Blaue Karte EU;EU Blue Card;Блакитна карта ЄС;Die Blaue Karte
 die Visum, -sa / Visa;visa;віза;Das Visum zur Stellensuche **wird bei der deutschen Botschaft beantragt**.
 die Einreise, -n;entry (into a country);в'їзд (у країну);Vor der Einreise **müssen alle erforderlichen Visa vorliegen**.
 die Grenzkontrolle, -n;border control;прикордонний контроль;Die Grenzkontrollen **wurden zur Vermeidung illegaler Einreisen verstärkt**.
-die Aufenthaltsrecht, -e;right of residence;право на перебування;Das Aufenthaltsrecht **erlischt bei Kündigung des Arbeitsverhältnisses**.
+das Aufenthaltsrecht, -e;right of residence;право на перебування;Das Aufenthaltsrecht **erlischt bei Kündigung des Arbeitsverhältnisses**.
 die Ausweisung, -en;expulsion / deportation;видворення, депортація;Die Ausweisung **ist bei schweren Straftaten gesetzlich vorgeschrieben**.
 die Abschiebung, -en;deportation;примусове видворення, депортація;Die Abschiebung **wurde von der zuständigen Behörde vollzogen**.
 die Duldung, -en;tolerated stay (suspension of deportation);тимчасове відтермінування депортації (дульдунг);Eine Duldung **gewährt keinen legalen Aufenthalt, schützt aber vor Abschiebung**.
-die Asylverfahren, -;asylum procedure;процедура надання притулку;Das Asylverfahren **unterliegt den Bestimmungen des Asylgesetzes**.
+das Asylverfahren, -;asylum procedure;процедура надання притулку;Das Asylverfahren **unterliegt den Bestimmungen des Asylgesetzes**.
 die Asylbewerber, - / die Asylbewerberin, -nen;asylum seeker;прохач притулку;Der Asylbewerber **erhält während des Verfahrens soziale Leistungen**.
 die Flüchtling, -e;refugee;біженець;Die Integration der Flüchtlinge **stellt die Kommunen vor eine Herausforderung**.
 die Genfer Flüchtlingskonvention (Sg.);Geneva Refugee Convention;Женевська конвенція про статус біженців;Die Genfer Flüchtlingskonvention **garantiert den Schutz vor Verfolgung**.
 die subsidiäre Schutz;subsidiary protection;субсидіарний захист;Personen mit subsidiärem Schutz **erhalten eine Aufenthaltserlaubnis für ein Jahr**.
-die Abschiebungsschutz (Sg.);protection against deportation;захист від депортації;Bei gesundheitlichen Problemen **kann Abschiebungsschutz gewährt werden**.
+der Abschiebungsschutz (Sg.);protection against deportation;захист від депортації;Bei gesundheitlichen Problemen **kann Abschiebungsschutz gewährt werden**.
 die Härtefallkommission, -en;hardship commission;комісія з розгляду випадків особливої скрути (у міграційних справах);Die Härtefallkommission **kann eine Aufenthaltserlaubnis aus humanitären Gründen empfehlen**.
 die Humanitäre Aufenthalt (Sg.);residence on humanitarian grounds;перебування з гуманітарних причин;Der humanitäre Aufenthalt **wird Opfern von Bürgerkriegen gewährt**.
 die Niederlassungserlaubnis, -se;permanent settlement permit;дозвіл на постійне проживання (ПМЖ);Die Niederlassungserlaubnis **setzt fünf Jahre rechtmäßigen Aufenthalt voraus**.
@@ -313,7 +313,7 @@ die Melderegister (Sg.);population register;реєстр мешканців;Die 
 die Meldebehörde, -n;registration office;орган реєстрації (прописки);Die Meldebehörde **stellt die offizielle Meldebescheinigung aus**.
 die Meldebescheinigung, -en;registration certificate;довідка про реєстрацію (прописку);Die Meldebescheinigung **ist für die Eröffnung eines Bankkontos erforderlich**.
 die Wohnungsgeberbestätigung, -en;landlord confirmation;підтвердження від орендодавця (для прописки);Die Wohnungsgeberbestätigung **muss innerhalb von zwei Wochen vorgelegt werden**.
-die Mietvertrag, "-e;tenancy agreement / lease;договір оренди;Der Mietvertrag **beinhaltet genaue Regelungen über die Nebenkosten**.
+der Mietvertrag, "-e;tenancy agreement / lease;договір оренди;Der Mietvertrag **beinhaltet genaue Regelungen über die Nebenkosten**.
 die Vermieter, - / die Vermieterin, -nen;landlord, lessor;орендодавець;Der Vermieter **ist für die Instandhaltung der Heizungsanlage zuständig**.
 die Mieter, - / die Mieterin, -nen;tenant, lessee;орендар;Der Mieter **ist verpflichtet, die monatliche Miete pünktlich zu überweisen**.
 die Kaution, -en;deposit;застава (депозит за квартиру);Die Kaution **beträgt im Krankheitsfall drei Monatskaltmieten**.
@@ -322,17 +322,17 @@ die Heizkostenabrechnung, -en;heating bill;рахунок за опалення;
 die Betriebskostenabrechnung, -en;service charge statement;рахунок за комунальні послуги;Die Betriebskostenabrechnung **muss auf Richtigkeit überprüft werden**.
 die Mietminderung, -en;rent reduction;зниження орендної плати (через дефекти житла);Bei Schimmelbildung in der Wohnung **hat der Mieter Recht auf Mietminderung**.
 die Wohnungsübergabe, -n;apartment handover;передача квартири;Die Wohnungsübergabe **wurde im Übergabeprotokoll schriftlich dokumentiert**.
-die Übergabeprotokoll, -e;handover protocol;протокол передачі;Das Übergabeprotokoll **hält alle vorhandenen Mängel der Wohnung fest**.
+das Übergabeprotokoll, -e;handover protocol;протокол передачі;Das Übergabeprotokoll **hält alle vorhandenen Mängel der Wohnung fest**.
 die Schönheitsreparaturen (Pl.);cosmetic repairs / redecoration;косметичний ремонт;Die Schönheitsreparaturen **müssen laut Mietvertrag vom Mieter durchgeführt werden**.
 die Modernisierungsmaßnahme, -n;modernization measure;заходи з модернізації;Die Modernisierungsmaßnahmen **führten zu einer Erhöhung der Kaltmiete**.
 die Kaltmiete, -n;basic rent / cold rent;орендна плата без комунальних послуг;Die Kaltmiete **wurde im Mietvertrag schriftlich festgelegt**.
 die Warmmiete, -n;rent including heating / warm rent;орендна плата з комунальними послугами;Die Warmmiete **setzt sich aus Kaltmiete und Nebenkosten zusammen**.
-die Wohngeld (Sg.);housing benefit;житлова субсидія;Haushalte mit geringem Einkommen **können Wohngeld beantragen**.
-die Wohnungsamt, "-er;housing office;управління житлового господарства;Das Wohnungsamt **ist für die Bewilligung von Wohngeld zuständig**.
-die Wohnberechtigungsschein (WBS), -e;subsidized housing certificate (WBS);дозвіл на оренду соціального житла (WBS);Mit dem **Wohnberechtigungsschein** kann man eine preisgünstige Sozialwohnung anmieten.
+das Wohngeld (Sg.);housing benefit;житлова субсидія;Haushalte mit geringem Einkommen **können Wohngeld beantragen**.
+das Wohnungsamt, "-er;housing office;управління житлового господарства;Das Wohnungsamt **ist für die Bewilligung von Wohngeld zuständig**.
+der Wohnberechtigungsschein (WBS), -e;subsidized housing certificate (WBS);дозвіл на оренду соціального житла (WBS);Mit dem **Wohnberechtigungsschein** kann man eine preisgünstige Sozialwohnung anmieten.
 die Sozialwohnung, -en;social housing / subsidized apartment;соціальне житло;Die Nachfrage nach Sozialwohnungen **übersteigt das Angebot bei weitem**.
 die Wohnungsnot (Sg.);housing shortage;житлова криза (дефіцит житла);Die Wohnungsnot **stellt Ballungsräume vor große soziale Herausforderungen**.
-die Ballungsraum, "-e;conurbation / metropolitan area;густонаселений район, агломерація;Im Ballungsraum **sind die Lebenshaltungskosten deutlich höher als auf dem Land**.
+der Ballungsraum, "-e;conurbation / metropolitan area;густонаселений район, агломерація;Im Ballungsraum **sind die Lebenshaltungskosten deutlich höher als auf dem Land**.
 die Infrastruktur, -en;infrastructure;інфраструктура;Eine gute Infrastruktur **ist ein wichtiges Kriterium für die Standortwahl**.
 die Standortfaktor, -en;location factor;фактор вибору розташування (Standort);Die Verfügbarkeit von Fachkräften **ist ein entscheidender Standortfaktor**.
 die Gewerbegebiet, -e;industrial estate / commercial zone;промислова (комерційна) зона;Unser Werk **befindet sich im neu erschlossenen Gewerbegebiet**.
@@ -342,7 +342,7 @@ die Wohngebiet, -e;residential area;житловий район;Im Wohngebiet **
 die Lärmbelästigung, -en;noise pollution;шумове забруднення;Die Lärmbelästigung **wurde durch eine neue Schallschutzwand minimiert**.
 die Schallschutzwand, "-e;noise barrier;шумозахисна стіна;Die Schallschutzwand **wurde entlang des Bahngleises errichtet**.
 die Lärmminderung (Sg.);noise reduction;зниження рівня шуму;Maßnahmen zur Lärmminderung **dienen dem Gesundheitsschutz der Anwohner**.
-die Immissionsschutzgesetz (Sg.);emission control act;закон про захист від шкідливих впливів (шум, викиди тощо);Das Immissionsschutzgesetz **regelt die maximal zulässigen Schallpegel**.
+das Immissionsschutzgesetz (Sg.);emission control act;закон про захист від шкідливих впливів (шум, викиди тощо);Das Immissionsschutzgesetz **regelt die maximal zulässigen Schallpegel**.
 der Schallpegel, -;sound level;рівень шуму (звукового тиску);Der Schallpegel **wird durch kontinuierliche Messungen überwacht**.
 die Dezibel (dB) (Sg.);decibel (dB);децибел (дБ);Der Lärm der Sägemaschine **darf den Wert von 80 Dezibel nicht überschreiten**.
 der Gehörschutz (Sg.);hearing protection;захист органів слуху (навушники);Das Tragen von Gehörschutz **ist in der Werkhalle vorgeschrieben**.
@@ -360,7 +360,7 @@ die HWK (Handwerkskammer) (Sg.);Chamber of Crafts;Реміснича палат�
 die Handwerkskammer (HWK) (Sg.);Chamber of Crafts;Реміснича палата;Die Handwerkskammer **stellt den Gesellenbrief nach bestandener Prüfung aus**.
 die Handwerksordnung (HwO) (Sg.);crafts code;статут (регламент) ремісничої діяльності;Die HwO **regelt die Voraussetzungen für das Betreiben eines Handwerks**.
 die Meisterzwang (Sg.);compulsory master title (for running a craft business);обов'язковість звання майстра (для відкриття ремісничого бізнесу);Der Meisterzwang **gilt in Deutschland für viele reglementierte Handwerke**.
-die Meisterbetrieb, -e;master craftsman's business;підприємство під керівництвом майстра;Als Meisterbetrieb **bieten wir eine qualitativ hochwertige Ausbildung an**.
+der Meisterbetrieb, -e;master craftsman's business;підприємство під керівництвом майстра;Als Meisterbetrieb **bieten wir eine qualitativ hochwertige Ausbildung an**.
 die Innung, -en;guild / trade association;цех (професійне об'єднання ремісників);Die Innung **regelt die regionalen Tarifverträge im Handwerk**.
 die Innungskrankenkasse (IKK), -n;guild health insurance;цехова лікарняна каса (IKK);Die IKK **gehört zu den gesetzlichen Krankenkassen in Deutschland**.
 die Berufsverband, "-e;professional association;професійна асоціація (об'єднання);Der Berufsverband **vertritt die Interessen der Kältetechniker**.
@@ -372,30 +372,30 @@ die Wahlberechtigung, -en;right to vote;виборче право;Die Wahlberech
 die Zugehörigkeit (Sg.);affiliation, membership;належність, стаж роботи в компанії;Eine lange Zugehörigkeit zum Betrieb **wirkt sich positiv auf den Kündigungsschutz aus**.
 die Betriebszugehörigkeit (Sg.);length of service (with the company);стаж роботи на підприємстві;Bei der Sozialauswahl **spielt die Betriebszugehörigkeit eine wichtige Rolle**.
 die Sozialauswahl, -en;social selection (in redundancies);соціальний відбір (при скороченні штату);Die Sozialauswahl **muss nach gesetzlich festgelegten Kriterien erfolgen**.
-die Sozialplan, "-e;social plan;соціальний план (компенсаційні заходи при скороченні);Der Sozialplan **beinhaltet Abfindungen für die entlassenen Mitarbeiter**.
-die Interessenausgleich, -e;reconciliation of interests;узгодження інтересів (роботодавця та ради при змінах у компанії);Der Interessenausgleich **muss vor der Durchführung von Kündigungen verhandelt werden**.
+der Sozialplan, "-e;social plan;соціальний план (компенсаційні заходи при скороченні);Der Sozialplan **beinhaltet Abfindungen für die entlassenen Mitarbeiter**.
+der Interessenausgleich, -e;reconciliation of interests;узгодження інтересів (роботодавця та ради при змінах у компанії);Der Interessenausgleich **muss vor der Durchführung von Kündigungen verhandelt werden**.
 die Einigungsstelle, -n;conciliation committee;примирювальний орган (комісія з врегулювання спорів між фірмою та радою);Bei Konflikten zwischen der Geschäftsführung und dem Betriebsrat **entscheidet die Einigungsstelle**.
 die Spruch der Einigungsstelle;decision of the conciliation committee;рішення примирювального комітету;Der Spruch der Einigungsstelle **ersetzt die fehlende Einigung der Parteien**.
 die Regelungsabrede, -n;informal company agreement;неформальна угода (між роботодавцем та радою);Die Regelungsabrede **bedarf der Schriftform, um wirksam zu sein**.
 die Betriebsvereinbarung, -en;company agreement;угода між керівництвом та трудовим колективом;Die Betriebsvereinbarung **regelt die Bedingungen für mobiles Arbeiten**.
 die Gesamtbetriebsvereinbarung, -en;overall company agreement;загальна угода (на рівні концерну/кількох філій);Die Gesamtbetriebsvereinbarung **gilt für alle Filialen des Unternehmens**.
 die Konzernbetriebsvereinbarung, -en;group company agreement;угода на рівні всього концерну;Die Konzernbetriebsvereinbarung **regelt die einheitliche IT-Ausstattung**.
-die Gesamtbetriebsrat, "-e;general works council;загальна виробнича рада (представництво всіх філій);Der Gesamtbetriebsrat **wird bei übergeordneten Themen aktiv**.
-die Konzernbetriebsrat, "-e;group works council;виробнича рада концерну;Der Konzernbetriebsrat **verhandelt mit dem Vorstand des Konzerns**.
+der Gesamtbetriebsrat, "-e;general works council;загальна виробнича рада (представництво всіх філій);Der Gesamtbetriebsrat **wird bei übergeordneten Themen aktiv**.
+der Konzernbetriebsrat, "-e;group works council;виробнича рада концерну;Der Konzernbetriebsrat **verhandelt mit dem Vorstand des Konzerns**.
 die Wirtschaftsausschuss, "-e;finance committee;економічний комітет;Der Wirtschaftsausschuss **informiert den Betriebsrat über die finanzielle Lage**.
 die Finanzlage, -n;financial situation;фінансове становище;Die angespannte Finanzlage **erfordert strenge Maßnahmen zur Energieeinsparung**.
 die Liquidität (Sg.);liquidity;ліквідність;Die Liquidität des Betriebs **ist durch den Großauftrag langfristig gesichert**.
 die Zahlungsunfähigkeit (Sg.);insolvency, inability to pay;неплатоспроможність;Bei Zahlungsunfähigkeit **muss der Geschäftsführer Insolvenz anmelden**.
 die Insolvenz, -en;insolvency, bankruptcy;банкрутство;Die Insolvenz des Zulieferers **führte zu erheblichen Lieferverzögerungen**.
-die Insolvenzantrag, "-e;petition for insolvency;заява про банкрутство;Der Insolvenzantrag **wurde beim zuständigen Amtsgericht eingereicht**.
-die Insolvenzverfahren, -;insolvency proceedings;процедура банкрутства;Das Insolvenzverfahren **wird von einem gerichtlich bestellten Verwalter geleitet**.
+der Insolvenzantrag, "-e;petition for insolvency;заява про банкрутство;Der Insolvenzantrag **wurde beim zuständigen Amtsgericht eingereicht**.
+das Insolvenzverfahren, -;insolvency proceedings;процедура банкрутства;Das Insolvenzverfahren **wird von einem gerichtlich bestellten Verwalter geleitet**.
 die Insolvenzverwalter, - / die Insolvenzverwalterin, -nen;insolvency administrator;арбітражний керуючий (ліквідатор);Der Insolvenzverwalter **übernimmt die Leitung des insolventen Betriebs**.
 die Insolvenzmasse, -n;insolvency estate / assets;конкурсна маса (майно банкрута);Die Insolvenzmasse **reicht oft nicht aus, um alle Schulden zu decken**.
 die Gläubiger, - / die Gläubigerin, -nen;creditor;кредитор;Die Gläubiger **müssen ihre Forderungen schriftlich beim Verwalter anmelden**.
 die Forderungsanmeldung, -en;filing of claims;заява про реєстрацію вимог кредитора;Die Frist für die Forderungsanmeldung **beträgt in der Regel drei Monate**.
 die Insolvenztabelle, -n;insolvency register / schedule of claims;таблиця вимог кредиторів;Die angemeldeten Forderungen **werden in die Insolvenztabelle eingetragen**.
 die Gläubigerversammlung, -en;creditors' meeting;збори кредиторів;Die Gläubigerversammlung **entscheidet über den Verkauf von Betriebsteilen**.
-die Insolvenzplan, "-e;insolvency plan;план реструктуризації при банкрутстві;Der Insolvenzplan **sieht die Weiterbeschäftigung der halben Belegschaft vor**.
+der Insolvenzplan, "-e;insolvency plan;план реструктуризації при банкрутстві;Der Insolvenzplan **sieht die Weiterbeschäftigung der halben Belegschaft vor**.
 die Sanierung, -en;reorganization / restructuring;санація, фінансове оздоровлення;Die Sanierung des Unternehmens **konnte erfolgreich abgeschlossen werden**.
 die Restrukturierung, -en;restructuring;реструктуризація;Die Restrukturierung **führte zu einer flachen Hierarchie im Betrieb**.
 die Neuausrichtung (Sg.);realignment / strategic change;нова стратегічна орієнтація;Die Neuausrichtung **soll die Wettbewerbsfähigkeit auf dem Weltmarkt sichern**.
@@ -404,12 +404,12 @@ die Investition, -en;investment;інвестиція;Die Investitionen in das ne
 die Innovationskraft (Sg.);innovative strength;інноваційна сила (потенціал);Die hohe Innovationskraft **ist das wichtigste Qualitätsmerkmal des Startups**.
 die Forschung und Entwicklung (F&E) (Sg.);research and development (R&D);дослідження та розробка (НДДКР);Die Abteilung für Forschung und Entwicklung **arbeitet an der Kältemaschine**.
 die Patent, -e;patent;патент;Das Patent für das neue Verfahren **wurde beim Patentamt angemeldet**.
-die Schutzrecht, -e;property right / patent right;право інтелектуальної власності;Die gewerblichen Schutzrechte **sichern unseren technologischen Vorsprung ab**.
+das Schutzrecht, -e;property right / patent right;право інтелектуальної власності;Die gewerblichen Schutzrechte **sichern unseren technologischen Vorsprung ab**.
 die Lizenzgebühr, -en;license fee / royalty;ліцензійний збір;Die Lizenzgebühren **müssen jährlich an den Patentinhaber gezahlt werden**.
-die Lizenzvertrag, "-e;license agreement;ліцензійний договір;Der Lizenzvertrag **regelt die Nutzung der Software durch Drittfirmen**.
+der Lizenzvertrag, "-e;license agreement;ліцензійний договір;Der Lizenzvertrag **regelt die Nutzung der Software durch Drittfirmen**.
 die Lizenznehmer, - / die Lizenznehmerin, -nen;licensee;ліцензіат;Der Lizenznehmer **ist zur Nutzung des Patents im Inland berechtigt**.
 die Lizenzgeber, - / die Lizenzgeberin, -nen;licensor;ліцензіар;Der Lizenzgeber **garantiert die funktionale Korrektheit der Technologie**.
-die Urheberrecht, -e;copyright;авторське право;Das Urheberrecht **schützt den Quellcode vor unbefugtem Kopieren**.
+das Urheberrecht, -e;copyright;авторське право;Das Urheberrecht **schützt den Quellcode vor unbefugtem Kopieren**.
 die geistige Eigentum;intellectual property;інтелектуальна власність;Der Schutz des geistigen Eigentums **ist gesetzlich streng geregelt**.
 die Produktpiraterie (Sg.);product piracy;піратство продукції (копіювання);Produktpiraterie **verursacht jährlich Schäden in Millionenhöhe**.
 die Plagiat, -e;plagiarism / knockoff;плагіат, підробка;Das Plagiat **weist erhebliche Mängel in der Tragfähigkeit auf**.
@@ -423,15 +423,15 @@ die Lieferadresse, -n;delivery address;адреса доставки;Bitte trage
 die Rechnungsadresse, -n;billing address;адреса для виставлення рахунку;Die Rechnungsadresse **kann von der Lieferadresse abweichen**.
 die Zahlungsbedingung, -en;payment term / condition;умова оплати;Die Zahlungsbedingungen **sehen ein Zahlungsziel von 14 Tagen vor**.
 die Zahlungsziel, -e;payment deadline / term;термін оплати;Das Zahlungsziel **kann bei langjährigen Kunden auf 30 Tage verlängert werden**.
-die Skonto, -s / Skonti;cash discount (for prompt payment);знижка за швидку оплату (сконто);Bei Zahlung innerhalb von 3 Tagen **gewähren wir 2% Skonto**.
+das Skonto, -s / Skonti;cash discount (for prompt payment);знижка за швидку оплату (сконто);Bei Zahlung innerhalb von 3 Tagen **gewähren wir 2% Skonto**.
 die Rabattgewährung (Sg.);granting of discount;надання знижки;Die Rabattgewährung **erfolgt im Ermessen des Vertriebsleiters**.
 die Sonderkondition, -en;special condition / term;спеціальні умови;Für Stammkunden **gelten attraktive Sonderkonditionen beim Einkauf**.
 die Lieferbedingung, -en;delivery condition / term;умови поставки;Die Lieferbedingungen **wurden nach den internationalen Incoterms vereinbart**.
 die Incoterms (Pl.);Incoterms;Інкотермс;Die Incoterms **regeln den Gefahrenübergang beim internationalen Transport**.
-die Gefahrenübergang, "-e;transfer of risk;перехід ризику;Der Gefahrenübergang **erfolgt bei der Übergabe der Ware an die Spedition**.
+der Gefahrenübergang, "-e;transfer of risk;перехід ризику;Der Gefahrenübergang **erfolgt bei der Übergabe der Ware an die Spedition**.
 die Eigentumsvorbehalt, -e;retention of title;застереження про право власності (до повної оплати);Die Ware bleibt bis zur vollständigen Bezahlung **unter Eigentumsvorbehalt**.
 die Eigentumsübertragung, -en;transfer of ownership;передача права власності;Die Eigentumsübertragung **erfolgt nach dem Zahlungseingang**.
-die Zahlungseingang, "-e;receipt of payment;надходження платежу;Der Zahlungseingang **wird vom Zeiterfassungssystem automatisch registriert**.
+der Zahlungseingang, "-e;receipt of payment;надходження платежу;Der Zahlungseingang **wird vom Zeiterfassungssystem automatisch registriert**.
 die Mahnwesen (Sg.);dunning system / collection process;система нагадування про борги;Das Mahnwesen **wird von der Buchhaltungsabteilung betreut**.
 die Mahnung, -en;dunning letter / reminder;нагадування про сплату боргу;Die erste Mahnung **wird nach Ablauf des Zahlungsziels versendet**.
 die Mahngebühr, -en;dunning fee;плата за нагадування (штраф за прострочення);Wegen des Verzugs **wurde eine Mahngebühr von 5 Euro erhoben**.
@@ -460,7 +460,7 @@ die Umsatzsteuer (USt.) (Sg.);turnover tax / sales tax;податок з обо�
 die Vorsteuer (Sg.);input tax;вхідний ПДВ (податок, сплачений постачальникам);Die gezahlte Vorsteuer **kann mit der Umsatzsteuer verrechnet werden**.
 die Vorsteuerabzug (Sg.);input tax deduction;податковий вирахування вхідного ПДВ;Der Vorsteuerabzug **reduziert die finanzielle Belastung des Unternehmens**.
 die Umsatzsteuervoranmeldung, -en;advance turnover tax return;попередня декларація з ПДВ;Die Umsatzsteuervoranmeldung **muss monatlich elektronisch eingereicht werden**.
-die Finanzamt, "-er;tax office;податкова інспекція;Das Finanzamt **überwacht die ordnungsgemäße Abführung der Steuern**.
+das Finanzamt, "-er;tax office;податкова інспекція;Das Finanzamt **überwacht die ordnungsgemäße Abführung der Steuern**.
 die Steuernummer, -n;tax number;податковий номер;Die Steuernummer **muss auf jeder offiziellen Rechnung angegeben sein**.
 die Umsatzsteuer-Identifikationsnummer (USt-IdNr.), -n;VAT registration number;індивідуальний податковий номер ПДВ (USt-IdNr.);Die USt-IdNr. **ist für Geschäfte innerhalb der EU zwingend vorgeschrieben**.
 die Steuererklärung, -en;tax return;податкова декларація;Die Steuererklärung **wurde vom Steuerberater beim Finanzamt eingereicht**.
@@ -472,16 +472,16 @@ die Bilanz, -en;balance sheet;баланс (бухгалтерський);Die Bi
 die Gewinn- und Verlustrechnung (GuV) (Sg.);profit and loss account (P&L);звіт про прибутки та збитки (GuV);Die GuV **weist das Ergebnis des Geschäftsjahres fehlerfrei aus**.
 die Geschäftsjahr, -e;financial year / fiscal year;фінансовий (звітний) рік;Das Geschäftsjahr **entspricht bei uns dem Kalenderjahr**.
 die Quartal, -e;quarter (of a year);квартал;Die Ergebnisse des ersten Quartals **sind sehr positiv verlaufen**.
-die Quartalsbericht, -e;quarterly report;квартальний звіт;Der Quartalsbericht **wurde auf der Webseite zum Download bereitgestellt**.
+der Quartalsbericht, -e;quarterly report;квартальний звіт;Der Quartalsbericht **wurde auf der Webseite zum Download bereitgestellt**.
 die Quartalszahl, -en;quarterly figures;квартальні показники (цифри);Die Quartalszahlen **haben die Erwartungen der Analysten übertroffen**.
 die Umsatz, "-e;turnover / sales;оборот (виручка);Der Umsatz **konnte durch die Neukundengewinnung spürbar gesteigert werden**.
 die Gewinn, -e;profit;прибуток;Der Gewinn des Unternehmens **wird teilweise an die Gesellschafter ausgezahlt**.
-die Verlust, -e;loss;збиток;Der erlittene Verlust **hängt eng mit dem Produktionsausfall zusammen**.
+der Verlust, -e;loss;збиток;Der erlittene Verlust **hängt eng mit dem Produktionsausfall zusammen**.
 die Rentabilität (Sg.);profitability;рентабельність;Die Rentabilität der Investition **wurde vorab genau analysiert**.
 die Wirtschaftlichkeit (Sg.);economic efficiency;економічна доцільність;Die Wirtschaftlichkeit der Solaranlage **ist unumstritten**.
 die Kosten-Nutzen-Analyse, -n;cost-benefit analysis;аналіз витрат і вигод;Eine Kosten-Nutzen-Analyse **ist Voraussetzung für das Projekt**.
 die Wirtschaftlichkeitsberechnung, -en;profitability calculation;розрахунок економічної ефективності;Die Wirtschaftlichkeitsberechnung **wurde im Businessplan dokumentiert**.
-die Businessplan, "-e;business plan;бізнес-план;Der Businessplan **überzeugte die Bank bei der Kreditverhandlung**.
+der Businessplan, "-e;business plan;бізнес-план;Der Businessplan **überzeugte die Bank bei der Kreditverhandlung**.
 die Existenzgründung, -en;business startup;заснування бізнесу;Die Existenzgründung **wurde durch einen Gründungszuschuss gefördert**.
 die Gründungszuschuss, "-e;startup grant;субсидія на відкриття власної справи;Ich habe beim Arbeitsberater einen Gründungszuschuss **beantragt**.
 die Existenzgründer, - / die Existenzgründerin, -nen;founder of a business;засновник бізнесу, підприємець-початківець;Die Existenzgründerin **verfügt über eine hervorragende Geschäftsidee**.
@@ -489,7 +489,7 @@ die Geschäftsidee, -n;business idea;бізнес-ідея;Die innovative Gesch�
 die Investor, -en / die Investorin, -nen;investor;інвестор;Die Investoren **stellen dem Startup Kapital zur Verfügung**.
 die Venture-Capital (VC) (Sg.);venture capital;венчурний капітал;Das Startup **sucht nach Venture-Capital für die internationale Markterschließung**.
 die Startup, -s;startup;стартап;Das IT-Startup **leistet einen wichtigen Beitrag zur Digitalisierung**.
-die Gründerzentrum, -en;incubator / startup center;бізнес-інкубатор (центр підтримки стартапів);Unser Büro **befindet sich im lokalen Gründerzentrum**.
+das Gründerzentrum, -en;incubator / startup center;бізнес-інкубатор (центр підтримки стартапів);Unser Büro **befindet sich im lokalen Gründerzentrum**.
 die Netzwerktreffen, -;networking event;зустріч для розширення контактів (нетфоркінг);Das Netzwerktreffen **bietet gute Chancen für Kooperationen**.
 die Erfahrungsaustausch (Sg.);exchange of experience;обмін досвідом;Der Erfahrungsaustausch **wirkt sich sehr vorteilhaft auf die Arbeit aus**.
 die Kooperationsvereinbarung, -en;cooperation agreement;угода про співпрацю;Die Kooperationsvereinbarung **wurde im gegenseitigen Einvernehmen unterzeichnet**.

@@ -26,7 +26,8 @@
   {
     "level": "B1+",
     "levels": [
-      "B1+"
+      "B1+",
+      "B2"
     ],
     "thema": 1,
     "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Asylverfahren, -",
@@ -54,7 +55,7 @@
     ],
     "thema": 1,
     "german": "auf|fallen (fällt auf, fiel auf, ist aufgefallen)",
-    "german_audio": "auf|fallen",
+    "german_audio": "auffallen",
     "english": "to stand out, to be noticeable",
     "ukrainian": "впадати в око",
     "example": "Im Rahmen der Revision **ist sofort <b style=\"color: #eab308;\">aufgefallen</b>, dass Buchungsbelege im Jahresabschluss fehlen**."
@@ -89,8 +90,8 @@
       "B1+"
     ],
     "thema": 1,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Betrieb, -e",
-    "german_audio": "die Betrieb",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Betrieb, -e",
+    "german_audio": "der Betrieb",
     "english": "company, business",
     "ukrainian": "підприємство",
     "example": "Unser <b style=\"color: #eab308;\">Betrieb</b> **muss sich streng an die gesetzlichen Richtlinien des Arbeitsschutzes orientieren**."
@@ -115,10 +116,10 @@
     ],
     "thema": 1,
     "german": "jdn. ein|stellen (stellt ein, stellte ein, hat eingestellt)",
-    "german_audio": "ein|stellen",
+    "german_audio": "einstellen",
     "english": "to hire someone",
     "ukrainian": "наймати когось",
-    "example": "Die Geschäftsführung **beschließt, im nächsten Quartal drei neue Fachkräfte <b style=\"color: #eab308;\">einzustellen</b>**."
+    "example": "Die Geschäftsführung **beschließt, im nächsten Quartal drei neue <b style=\"color: #eab308;\">Fachkräfte einzustellen</b>**."
   },
   {
     "level": "B1+",
@@ -273,7 +274,7 @@
     ],
     "thema": 1,
     "german": "teil|nehmen an (+ Dat.) (nimmt teil, nahm teil, hat teilgenommen)",
-    "german_audio": "teil|nehmen an",
+    "german_audio": "teilnehmen an",
     "english": "to participate in",
     "ukrainian": "брати участь",
     "example": "Die Belegschaft **wird geschlossen an der kommenden Betriebsversammlung <b style=\"color: #eab308;\">teilnehmen</b>**."
@@ -372,7 +373,7 @@
     ],
     "thema": 1,
     "german": "auf|wachsen (wächst auf, wuchs auf, ist aufgewachsen)",
-    "german_audio": "auf|wachsen",
+    "german_audio": "aufwachsen",
     "english": "to grow up",
     "ukrainian": "виростати",
     "example": "Er ist zweisprachig <b style=\"color: #eab308;\">aufgewachsen</b>, **was für die internationale Kundenpflege sehr vorteilhaft ist**."
@@ -404,7 +405,8 @@
   {
     "level": "B1+",
     "levels": [
-      "B1+"
+      "B1+",
+      "B2"
     ],
     "thema": 1,
     "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Businessplan, \"-e",
@@ -647,7 +649,8 @@
   {
     "level": "B1+",
     "levels": [
-      "B1+"
+      "B1+",
+      "B2"
     ],
     "thema": 1,
     "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Anerkennungsverfahren, -",
@@ -1105,18 +1108,6 @@
       "B1+"
     ],
     "thema": 2,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Betrieb, -e",
-    "german_audio": "der Betrieb",
-    "english": "business, company",
-    "ukrainian": "підприємство",
-    "example": "Der <b style=\"color: #eab308;\">Betrieb</b> **wurde im Wege eines Betriebsübergangs an den Nachfolger übergeben**."
-  },
-  {
-    "level": "B1+",
-    "levels": [
-      "B1+"
-    ],
-    "thema": 2,
     "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Genehmigung, -en",
     "german_audio": "die Genehmigung",
     "english": "permission, permit",
@@ -1235,7 +1226,8 @@
   {
     "level": "B1+",
     "levels": [
-      "B1+"
+      "B1+",
+      "B2"
     ],
     "thema": 2,
     "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Bereich, -e",
@@ -1724,7 +1716,7 @@
     ],
     "thema": 3,
     "german": "sich weiter|bilden (bildet sich weiter, bildete sich weiter, hat sich weitergebildet)",
-    "german_audio": "sich weiter|bilden",
+    "german_audio": "sich weiterbilden",
     "english": "to continue education",
     "ukrainian": "підвищувати кваліфікацію",
     "example": "Angestellte **sollten sich regelmäßig <b style=\"color: #eab308;\">weiterbilden</b>, um ihre Karrierechancen zu verbessern**."
@@ -1870,7 +1862,7 @@
     ],
     "thema": 3,
     "german": "statt|finden (fand statt, hat stattgefunden)",
-    "german_audio": "statt|finden",
+    "german_audio": "stattfinden",
     "english": "to take place",
     "ukrainian": "відбуватися",
     "example": "Die jährliche Evakuierungsübung **findet während der regulären Arbeitszeit <b style=\"color: #eab308;\">statt</b>**."
@@ -1959,7 +1951,7 @@
     ],
     "thema": 3,
     "german": "etw. zusammen|fassen (fasst zusammen, fasste zusammen, hat zusammengefasst)",
-    "german_audio": "zusammen|fassen",
+    "german_audio": "zusammenfassen",
     "english": "to summarize",
     "ukrainian": "підсумовувати",
     "example": "Könnten Sie die wichtigsten Kernpunkte des Businessplans **kurz <b style=\"color: #eab308;\">zusammenfassen</b>**?"
@@ -2081,7 +2073,7 @@
     ],
     "thema": 3,
     "german": "etw. vor|schlagen (schlägt vor, schlug vor, hat vorgeschlagen)",
-    "german_audio": "vor|schlagen",
+    "german_audio": "vorschlagen",
     "english": "to suggest",
     "ukrainian": "пропонувати",
     "example": "Ich möchte **einen alternativen Termin für das Vorstellungsgespräch <b style=\"color: #eab308;\">vorschlagen</b>**."
@@ -2297,7 +2289,7 @@
     ],
     "thema": 4,
     "german": "sich etw. an|schauen (schaut an, schaute an, hat angeschaut)",
-    "german_audio": "sich an|schauen",
+    "german_audio": "sich anschauen",
     "english": "to look at something",
     "ukrainian": "подивитися на щось",
     "example": "Der Betriebsrat **möchte sich die Entwürfe der neuen Betriebsvereinbarung genau <b style=\"color: #eab308;\">anschauen</b>**."
@@ -2358,7 +2350,7 @@
     ],
     "thema": 4,
     "german": "sich aus|wirken (auf + Akk.) (wirkt aus, wirkte aus, hat ausgewirkt)",
-    "german_audio": "sich aus|wirken",
+    "german_audio": "sich auswirken",
     "english": "to affect, to impact",
     "ukrainian": "впливати",
     "example": "Die Lärmbelastung **kann sich negativ auf die Gesundheit der Mitarbeiter <b style=\"color: #eab308;\">auswirken</b>**."
@@ -2491,7 +2483,7 @@
     ],
     "thema": 4,
     "german": "einen Termin ab|sagen",
-    "german_audio": "einen Termin ab|sagen",
+    "german_audio": "einen Termin absagen",
     "english": "to cancel an appointment",
     "ukrainian": "скасувати зустріч",
     "example": "<b>Ich bedauere sehr, dass</b> ich den Termin zur Arbeitsschutzunterweisung <b style=\"color: #eab308;\">absagen</b> muss."
@@ -2564,7 +2556,7 @@
     ],
     "thema": 4,
     "german": "sich ab|sprechen (mit + Dat.) (spricht sich ab, sprach sich ab, hat sich abgesprochen)",
-    "german_audio": "sich ab|sprechen",
+    "german_audio": "sich absprechen",
     "english": "to coordinate (with someone)",
     "ukrainian": "домовлятися",
     "example": "Der Meister **muss sich mit der Geschäftsführung bezüglich der Überstunden <b style=\"color: #eab308;\">absprechen</b>**."
@@ -2662,7 +2654,7 @@
     ],
     "thema": 4,
     "german": "jdn. ein|weisen in (+ Akk.) (weist ein, wies ein, hat eingewiesen)",
-    "german_audio": "ein|weisen in",
+    "german_audio": "einweisen in",
     "english": "to instruct, to brief",
     "ukrainian": "інструктувати",
     "example": "Der Vorarbeiter **muss den neuen Küchenhelfer gründlich in seine Aufgaben <b style=\"color: #eab308;\">einweisen</b>**."
@@ -2686,7 +2678,7 @@
     ],
     "thema": 4,
     "german": "etw. vor|schreiben (schreibt vor, schrieb vor, hat vorgeschrieben)",
-    "german_audio": "vor|schreiben",
+    "german_audio": "vorschreiben",
     "english": "to prescribe, to mandate",
     "ukrainian": "приписувати, зобов'язувати",
     "example": "Die Brandschutzordnung **<b style=\"color: #eab308;\">schreibt vor</b>, wie man sich im Evakuierungsfall zu verhalten hat**."
@@ -3369,7 +3361,7 @@
     ],
     "thema": 5,
     "german": "her|stellen (stellt her, stellte her, hat hergestellt)",
-    "german_audio": "her|stellen",
+    "german_audio": "herstellen",
     "english": "to produce, to manufacture",
     "ukrainian": "виробляти",
     "example": "Unser Betrieb **kann diese speziellen Ersatzteile kostengünstig <b style=\"color: #eab308;\">herstellen</b>**."
@@ -3418,7 +3410,7 @@
     ],
     "thema": 5,
     "german": "Lieferscheine aus|stellen (stellt aus, stellte aus, hat ausgestellt)",
-    "german_audio": "Lieferscheine aus|stellen",
+    "german_audio": "Lieferscheine ausstellen",
     "english": "to issue delivery notes",
     "ukrainian": "виписувати накладні",
     "example": "Die Versandabteilung **muss die <b style=\"color: #eab308;\">Lieferscheine</b> für den Gütertransport ausstellen**."
@@ -3835,7 +3827,7 @@
     ],
     "thema": 5,
     "german": "etw. zu|bereiten (bereitet zu, bereitete zu, hat zubereitet)",
-    "german_audio": "zu|bereiten",
+    "german_audio": "zubereiten",
     "english": "to prepare (food)",
     "ukrainian": "готувати (їжу)",
     "example": "Der Küchenhelfer **muss die Zutaten für das Mittagessen in der Kantine <b style=\"color: #eab308;\">zubereiten</b>**."
@@ -3847,7 +3839,7 @@
     ],
     "thema": 5,
     "german": "etw. zu|stellen (stellt zu, stellte zu, hat zugestellt)",
-    "german_audio": "zu|stellen",
+    "german_audio": "zustellen",
     "english": "to deliver, to serve",
     "ukrainian": "доставляти",
     "example": "Die Post **konnte die Abmahnung des Arbeitgebers gestern nicht <b style=\"color: #eab308;\">zustellen</b>**."
@@ -3955,7 +3947,7 @@
     ],
     "thema": 6,
     "german": "etw. auf|laden (lädt auf, lud auf, hat aufgeladen)",
-    "german_audio": "auf|laden",
+    "german_audio": "aufladen",
     "english": "to top up, to charge",
     "ukrainian": "заряджати, поповнювати (рахунок)",
     "example": "Der Fahrer **muss die Batterie des Gabelstaplers rechtzeitig <b style=\"color: #eab308;\">aufladen</b>**."
@@ -4015,10 +4007,10 @@
     ],
     "thema": 6,
     "german": "etw. ein|geben (gibt ein, gab ein, hat eingegeben)",
-    "german_audio": "ein|geben",
+    "german_audio": "eingeben",
     "english": "to enter (data)",
     "ukrainian": "вводити (дані)",
-    "example": "Bitte **<b style=\"color: #eab308;\">geben</b> Sie die Lieferdaten sorgfältig in das EDV-System ein**."
+    "example": "Bitte **geben Sie die Lieferdaten sorgfältig in das EDV-System ein**."
   },
   {
     "level": "B1+",
@@ -4027,7 +4019,7 @@
     ],
     "thema": 6,
     "german": "etw. ein|legen (legt ein, legte ein, hat eingelegt)",
-    "german_audio": "ein|legen",
+    "german_audio": "einlegen",
     "english": "to insert",
     "ukrainian": "вставляти",
     "example": "Der Arbeitnehmer **muss bei einer Kündigung Klage beim Arbeitsgericht <b style=\"color: #eab308;\">einlegen</b>**."
@@ -4063,7 +4055,7 @@
     ],
     "thema": 6,
     "german": "etw. entgegen|nehmen (nimmt entgegen, nahm entgegen, hat entgegengenommen)",
-    "german_audio": "entgegen|nehmen",
+    "german_audio": "entgegennehmen",
     "english": "to receive, to accept",
     "ukrainian": "приймати",
     "example": "Der Lagerist **ist befugt, die Warenlieferung am Empfang <b style=\"color: #eab308;\">entgegenzunehmen</b>**."
@@ -4087,7 +4079,7 @@
     ],
     "thema": 6,
     "german": "etw. frei|schalten (schaltet frei, schaltete frei, hat freigeschaltet)",
-    "german_audio": "frei|schalten",
+    "german_audio": "freischalten",
     "english": "to unlock, to activate",
     "ukrainian": "активувати, розблокувати",
     "example": "Die Personalabteilung **muss den Zugang zum Abrechnungsportal für den Auszubildenden <b style=\"color: #eab308;\">freischalten</b>**."
@@ -4804,7 +4796,7 @@
     ],
     "thema": 6,
     "german": "sich etw. vor|stellen (stellt sich vor, stellte sich vor, hat sich vorgestellt)",
-    "german_audio": "sich vor|stellen",
+    "german_audio": "sich vorstellen",
     "english": "to imagine",
     "ukrainian": "уявляти",
     "example": "Ich kann mir <b style=\"color: #eab308;\">vorstellen</b>, **mich in diesem Bereich beruflich weiterzubilden**."
@@ -4890,7 +4882,7 @@
     ],
     "thema": 7,
     "german": "herunter|laden (lädt herunter, lud herunter, hat heruntergeladen)",
-    "german_audio": "herunter|laden",
+    "german_audio": "herunterladen",
     "english": "to download",
     "ukrainian": "завантажувати",
     "example": "Bitte **laden Sie die erforderlichen Bewerbungsunterlagen im PDF-Format <b style=\"color: #eab308;\">herunter</b>**."
@@ -5425,7 +5417,7 @@
     ],
     "thema": 7,
     "german": "etw. ein|führen (führt ein, führte ein, hat eingeführt)",
-    "german_audio": "ein|führen",
+    "german_audio": "einführen",
     "english": "to introduce",
     "ukrainian": "запроваджувати",
     "example": "Die Geschäftsführung **beschließt, ein digitales Dokumentenmanagement <b style=\"color: #eab308;\">einzuführen</b>**."
@@ -5449,7 +5441,7 @@
     ],
     "thema": 7,
     "german": "etw. fern|steuern (steuert fern, steuerte fern, hat ferngesteuert)",
-    "german_audio": "fern|steuern",
+    "german_audio": "fernsteuern",
     "english": "to remote control",
     "ukrainian": "керувати дистанційно",
     "example": "Moderne Kräne in der Werkhalle **lassen sich per Funkfernbedienung <b style=\"color: #eab308;\">fernsteuern</b>**."
@@ -6125,18 +6117,6 @@
     "english": "waste prevention",
     "ukrainian": "уникнення відходів",
     "example": "<b>Umweltschutz steht im Vordergrund</b>, weshalb wir Maßnahmen zur <b style=\"color: #eab308;\">Abfallvermeidung</b> treffen."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 1,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Bereich, -e",
-    "german_audio": "die Bereich",
-    "english": "area, field, department",
-    "ukrainian": "відділ, сфера",
-    "example": "Frau Duda ist für den <b style=\"color: #eab308;\">Bereich</b> Kundenservice **zuständig**."
   },
   {
     "level": "B2",
@@ -8424,8 +8404,8 @@
       "B2"
     ],
     "thema": 2,
-    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Resturlaub, -e",
-    "german_audio": "das Resturlaub",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Resturlaub, -e",
+    "german_audio": "der Resturlaub",
     "english": "remaining leave",
     "ukrainian": "невикористана відпустка",
     "example": "Der <b style=\"color: #eab308;\">Resturlaub</b> **muss bis zum 31. März des Folgejahres genommen werden**."
@@ -10104,8 +10084,8 @@
       "B2"
     ],
     "thema": 3,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Übergabeprotokoll, -e",
-    "german_audio": "die Übergabeprotokoll",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Übergabeprotokoll, -e",
+    "german_audio": "das Übergabeprotokoll",
     "english": "handover protocol",
     "ukrainian": "протокол передачі справ",
     "example": "Die Übergabe der Dokumente **wurde im <b style=\"color: #eab308;\">Übergabeprotokoll</b> festgehalten**."
@@ -12552,8 +12532,8 @@
       "B2"
     ],
     "thema": 4,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Verbandbuch, \"-er",
-    "german_audio": "die Verbandbuch",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Verbandbuch, \"-er",
+    "german_audio": "das Verbandbuch",
     "english": "accident log book",
     "ukrainian": "журнал обліку травматизму (першої допомоги)",
     "example": "Jede Verletzung, auch eine kleine, **muss im <b style=\"color: #eab308;\">Verbandbuch</b> dokumentiert werden**."
@@ -12624,8 +12604,8 @@
       "B2"
     ],
     "thema": 4,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Wiedereingliederungsplan, \"-e",
-    "german_audio": "die Wiedereingliederungsplan",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Wiedereingliederungsplan, \"-e",
+    "german_audio": "der Wiedereingliederungsplan",
     "english": "reintegration plan",
     "ukrainian": "план реінтеграції",
     "example": "Der <b style=\"color: #eab308;\">Wiedereingliederungsplan</b> **wird individuell für den betroffenen Mitarbeiter erstellt**."
@@ -12756,8 +12736,8 @@
       "B2"
     ],
     "thema": 4,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Inklusionsbetrieb, -e",
-    "german_audio": "die Inklusionsbetrieb",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Inklusionsbetrieb, -e",
+    "german_audio": "der Inklusionsbetrieb",
     "english": "inclusion company / social enterprise",
     "ukrainian": "інклюзивне підприємство (де працевлаштовані люди з інвалідністю)",
     "example": "Das Unternehmen **engagiert sich als <b style=\"color: #eab308;\">Inklusionsbetrieb</b> für Chancengleichheit**."
@@ -12768,8 +12748,8 @@
       "B2"
     ],
     "thema": 4,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Integrationsamt, \"-er",
-    "german_audio": "die Integrationsamt",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Integrationsamt, \"-er",
+    "german_audio": "das Integrationsamt",
     "english": "integration office",
     "ukrainian": "управління інтеграції (служба допомоги інвалідам)",
     "example": "Das <b style=\"color: #eab308;\">Integrationsamt</b> **zahlt Zuschüsse für die behindertengerechte Gestaltung des Arbeitsplatzes**."
@@ -12864,8 +12844,8 @@
       "B2"
     ],
     "thema": 4,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Minderleistungsausgleich, -e",
-    "german_audio": "die Minderleistungsausgleich",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Minderleistungsausgleich, -e",
+    "german_audio": "der Minderleistungsausgleich",
     "english": "compensation for underperformance",
     "ukrainian": "компенсація за знижену продуктивність",
     "example": "Der <b style=\"color: #eab308;\">Minderleistungsausgleich</b> **wird vom Integrationsamt an den Betrieb gezahlt**."
@@ -12876,8 +12856,8 @@
       "B2"
     ],
     "thema": 4,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Kündigungsschutzverfahren, -",
-    "german_audio": "die Kündigungsschutzverfahren",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Kündigungsschutzverfahren, -",
+    "german_audio": "das Kündigungsschutzverfahren",
     "english": "dismissal protection procedure",
     "ukrainian": "процедура захисту від звільнення (для інвалідів)",
     "example": "Vor der Entlassung eines Schwerbehinderten **muss der Arbeitgeber das <b style=\"color: #eab308;\">Kündigungsschutzverfahren</b> durchführen**."
@@ -12888,8 +12868,8 @@
       "B2"
     ],
     "thema": 4,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Integrationsfachdienst (IFD), -e",
-    "german_audio": "die Integrationsfachdienst",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Integrationsfachdienst (IFD), -e",
+    "german_audio": "der Integrationsfachdienst",
     "english": "integration specialist service",
     "ukrainian": "інтеграційна спеціалізована служба",
     "example": "Der **<b style=\"color: #eab308;\">Integrationsfachdienst</b>** unterstützt schwerbehinderte Menschen bei der Arbeitssuche."
@@ -13044,8 +13024,8 @@
       "B2"
     ],
     "thema": 4,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Schlichtungsverfahren, -",
-    "german_audio": "die Schlichtungsverfahren",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Schlichtungsverfahren, -",
+    "german_audio": "das Schlichtungsverfahren",
     "english": "arbitration procedure",
     "ukrainian": "процедура примирення",
     "example": "Das <b style=\"color: #eab308;\">Schlichtungsverfahren</b> **führte zur Beilegung des Arbeitskampfes**."
@@ -13164,8 +13144,8 @@
       "B2"
     ],
     "thema": 4,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Tarifvertrag, \"-e",
-    "german_audio": "die Tarifvertrag",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Tarifvertrag, \"-e",
+    "german_audio": "der Tarifvertrag",
     "english": "collective agreement",
     "ukrainian": "тарифний договір",
     "example": "Der <b style=\"color: #eab308;\">Tarifvertrag</b> **regelt die Vergütung und die Arbeitszeit der Beschäftigten**."
@@ -13176,8 +13156,8 @@
       "B2"
     ],
     "thema": 4,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Manteltarifvertrag, \"-e",
-    "german_audio": "die Manteltarifvertrag",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Manteltarifvertrag, \"-e",
+    "german_audio": "der Manteltarifvertrag",
     "english": "framework collective agreement",
     "ukrainian": "рамковий тарифний договір",
     "example": "Der <b style=\"color: #eab308;\">Manteltarifvertrag</b> **regelt allgemeine Arbeitsbedingungen wie den Urlaubsanspruch**."
@@ -13224,8 +13204,8 @@
       "B2"
     ],
     "thema": 4,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Gewerkschaftsmitglied, -er",
-    "german_audio": "die Gewerkschaftsmitglied",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Gewerkschaftsmitglied, -er",
+    "german_audio": "das Gewerkschaftsmitglied",
     "english": "union member",
     "ukrainian": "член профспілки",
     "example": "Als <b style=\"color: #eab308;\">Gewerkschaftsmitglied</b> **erhält man bei Streik ein Streikgeld**."
@@ -13236,8 +13216,8 @@
       "B2"
     ],
     "thema": 4,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Streikgeld, -er",
-    "german_audio": "die Streikgeld",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Streikgeld, -er",
+    "german_audio": "das Streikgeld",
     "english": "strike pay",
     "ukrainian": "допомога страйкарям (з фонду профспілки)",
     "example": "Das <b style=\"color: #eab308;\">Streikgeld</b> **gleicht den Lohnausfall während des Streiks teilweise aus**."
@@ -13284,8 +13264,8 @@
       "B2"
     ],
     "thema": 4,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Notdienst, -e",
-    "german_audio": "die Notdienst",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Notdienst, -e",
+    "german_audio": "der Notdienst",
     "english": "emergency service",
     "ukrainian": "чергова (аварійна) служба",
     "example": "Der <b style=\"color: #eab308;\">Notdienst</b> **muss auch während des Streiks aufrechterhalten werden**."
@@ -15792,8 +15772,8 @@
       "B2"
     ],
     "thema": 6,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Rückgaberecht, -e",
-    "german_audio": "die Rückgaberecht",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Rückgaberecht, -e",
+    "german_audio": "das Rückgaberecht",
     "english": "right of return",
     "ukrainian": "право на повернення",
     "example": "Laut AGB **besteht ein 14-tägiges <b style=\"color: #eab308;\">Rückgaberecht</b> für alle Bestellungen**."
@@ -15804,8 +15784,8 @@
       "B2"
     ],
     "thema": 6,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Widerrufsrecht, -e",
-    "german_audio": "die Widerrufsrecht",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Widerrufsrecht, -e",
+    "german_audio": "das Widerrufsrecht",
     "english": "right of withdrawal",
     "ukrainian": "право на відкликання (скасування замовлення)",
     "example": "Das gesetzliche <b style=\"color: #eab308;\">Widerrufsrecht</b> **gilt bei Online-Verträgen für Verbraucher**."
@@ -15876,8 +15856,8 @@
       "B2"
     ],
     "thema": 6,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Kulanzantrag, \"-e",
-    "german_audio": "die Kulanzantrag",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Kulanzantrag, \"-e",
+    "german_audio": "der Kulanzantrag",
     "english": "goodwill request",
     "ukrainian": "запит про добровільне врегулювання (без юр. зобов'язань)",
     "example": "Der Kundendienst **reichte einen <b style=\"color: #eab308;\">Kulanzantrag</b> beim Hersteller ein**."
@@ -17076,8 +17056,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Batterieraum, \"-e",
-    "german_audio": "die Batterieraum",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Batterieraum, \"-e",
+    "german_audio": "der Batterieraum",
     "english": "battery room",
     "ukrainian": "акумуляторна кімната",
     "example": "Der Zutritt zum <b style=\"color: #eab308;\">Batterieraum</b> **ist nur für Elektrofachkräfte gestattet**."
@@ -17088,8 +17068,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Säureschutz, -e",
-    "german_audio": "die Säureschutz",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Säureschutz, -e",
+    "german_audio": "der Säureschutz",
     "english": "acid protection",
     "ukrainian": "захист від кислоти",
     "example": "Beim Umgang mit den Batterien **ist die <b style=\"color: #eab308;\">Säureschutzbekleidung</b> zu tragen**."
@@ -17184,8 +17164,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Kreislaufverbundsystem, -e",
-    "german_audio": "der Kreislaufverbundsystem",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Kreislaufverbundsystem, -e",
+    "german_audio": "das Kreislaufverbundsystem",
     "english": "run-around coil system (heat recovery)",
     "ukrainian": "система рекуперації тепла з проміжним теплоносієм",
     "example": "Das <b style=\"color: #eab308;\">Kreislaufverbundsystem</b> **wird vom Instandhaltungs-Team gewartet**."
@@ -17376,8 +17356,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Überspannungsschutz (Sg.)",
-    "german_audio": "die Überspannungsschutz",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Überspannungsschutz (Sg.)",
+    "german_audio": "der Überspannungsschutz",
     "english": "surge protection",
     "ukrainian": "захист від перенапруги",
     "example": "Der <b style=\"color: #eab308;\">Überspannungsschutz</b> **schützt die Server vor Schäden durch Blitzeinschläge**."
@@ -17412,8 +17392,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Potenzialausgleich, -e",
-    "german_audio": "die Potenzialausgleich",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Potenzialausgleich, -e",
+    "german_audio": "der Potenzialausgleich",
     "english": "equipotential bonding",
     "ukrainian": "вирівнювання потенціалів",
     "example": "Der <b style=\"color: #eab308;\">Potenzialausgleich</b> **ist für die Sicherheit im Serverraum zwingend vorgeschrieben**."
@@ -17664,8 +17644,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Streitwert, -e",
-    "german_audio": "die Streitwert",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Streitwert, -e",
+    "german_audio": "der Streitwert",
     "english": "amount in dispute / value in dispute",
     "ukrainian": "сума позову (вартість предмету спору)",
     "example": "Der <b style=\"color: #eab308;\">Streitwert</b> des Verfahrens **wurde auf drei Monatsgehälter festgelegt**."
@@ -17832,8 +17812,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Richterrecht (Sg.)",
-    "german_audio": "die Richterrecht",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Richterrecht (Sg.)",
+    "german_audio": "das Richterrecht",
     "english": "case law / judge-made law",
     "ukrainian": "судове право (право, створене рішеннями суддів)",
     "example": "Das <b style=\"color: #eab308;\">Richterrecht</b> **ergänzt die geschriebenen gesetzlichen Rechtsnormen**."
@@ -17892,8 +17872,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Grundrecht, -e",
-    "german_audio": "die Grundrecht",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Grundrecht, -e",
+    "german_audio": "das Grundrecht",
     "english": "basic right / constitutional right",
     "ukrainian": "основне (конституційне) право",
     "example": "Die Koalitionsfreiheit **ist ein geschütztes <b style=\"color: #eab308;\">Grundrecht</b> im Grundgesetz**."
@@ -17904,8 +17884,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Grundgesetz (GG) (Sg.)",
-    "german_audio": "die Grundgesetz",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Grundgesetz (GG) (Sg.)",
+    "german_audio": "das Grundgesetz",
     "english": "Basic Law (German Constitution)",
     "ukrainian": "Основний закон (Конституція Німеччини)",
     "example": "Das <b style=\"color: #eab308;\">Grundgesetz</b> **steht an der Spitze aller deutschen Rechtsnormen**."
@@ -17952,8 +17932,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Gesetzgebungsverfahren, -",
-    "german_audio": "die Gesetzgebungsverfahren",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Gesetzgebungsverfahren, -",
+    "german_audio": "das Gesetzgebungsverfahren",
     "english": "legislative process",
     "ukrainian": "законодавчий процес",
     "example": "Das <b style=\"color: #eab308;\">Gesetzgebungsverfahren</b> **erfordert die Zustimmung des Bundesrates**."
@@ -17976,8 +17956,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Bundesrat (Sg.)",
-    "german_audio": "die Bundesrat",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Bundesrat (Sg.)",
+    "german_audio": "der Bundesrat",
     "english": "Bundesrat (Federal Council)",
     "ukrainian": "Бундесрат",
     "example": "Der <b style=\"color: #eab308;\">Bundesrat</b> **vertritt die Interessen der Bundesländer bei der Gesetzgebung**."
@@ -18072,8 +18052,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Bestandsschutz (Sg.)",
-    "german_audio": "die Bestandsschutz",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Bestandsschutz (Sg.)",
+    "german_audio": "der Bestandsschutz",
     "english": "grandfathering / protection of established rights",
     "ukrainian": "захист існуючих прав (статус-кво)",
     "example": "Für alte Industrieanlagen **gilt ein gesetzlicher <b style=\"color: #eab308;\">Bestandsschutz</b>**."
@@ -18084,8 +18064,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Altvertrag, \"-e",
-    "german_audio": "die Altvertrag",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Altvertrag, \"-e",
+    "german_audio": "der Altvertrag",
     "english": "old contract / grandfathered contract",
     "ukrainian": "старий договір",
     "example": "Die <b style=\"color: #eab308;\">Altverträge</b> **bleiben von der neuen gesetzlichen Regelung unberührt**."
@@ -18276,8 +18256,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Kundenschutz (Sg.)",
-    "german_audio": "die Kundenschutz",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Kundenschutz (Sg.)",
+    "german_audio": "der Kundenschutz",
     "english": "customer protection / non-compete for clients",
     "ukrainian": "захист клієнтів (заборона переманювати клієнтів)",
     "example": "Die Klausel zum <b style=\"color: #eab308;\">Kundenschutz</b> **gilt für zwei Jahre nach dem Austritt**."
@@ -18600,8 +18580,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Devisenmarkt, \"-e",
-    "german_audio": "die Devisenmarkt",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Devisenmarkt, \"-e",
+    "german_audio": "der Devisenmarkt",
     "english": "foreign exchange market",
     "ukrainian": "валютний ринок",
     "example": "Die Transaktionen auf dem <b style=\"color: #eab308;\">Devisenmarkt</b> **unterliegen strengen Kontrollen**."
@@ -18756,8 +18736,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Reallohn, \"-e",
-    "german_audio": "die Reallohn",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Reallohn, \"-e",
+    "german_audio": "der Reallohn",
     "english": "real wage",
     "ukrainian": "реальна заробітна плата",
     "example": "Trotz Gehaltserhöhung **ist der <b style=\"color: #eab308;\">Reallohn</b> wegen der Inflation gesunken**."
@@ -18768,8 +18748,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Nominallohn, \"-e",
-    "german_audio": "die Nominallohn",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Nominallohn, \"-e",
+    "german_audio": "der Nominallohn",
     "english": "nominal wage",
     "ukrainian": "номінальна заробітна плата",
     "example": "Der <b style=\"color: #eab308;\">Nominallohn</b> **stieg im vergangenen Jahr um durchschnittlich 4 Prozent**."
@@ -18912,8 +18892,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Umlageverfahren, -",
-    "german_audio": "die Umlageverfahren",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Umlageverfahren, -",
+    "german_audio": "das Umlageverfahren",
     "english": "pay-as-you-go system",
     "ukrainian": "розподільча система (фінансування пенсій)",
     "example": "Die gesetzliche Rente **basiert in Deutschland auf dem <b style=\"color: #eab308;\">Umlageverfahren</b>**."
@@ -18924,8 +18904,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Generationenvertrag, \"-e",
-    "german_audio": "die Generationenvertrag",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Generationenvertrag, \"-e",
+    "german_audio": "der Generationenvertrag",
     "english": "intergenerational contract",
     "ukrainian": "договір поколінь",
     "example": "Der <b style=\"color: #eab308;\">Generationenvertrag</b> **stößt wegen der alternden Gesellschaft an seine Grenzen**."
@@ -18996,8 +18976,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Fachkräfteeinwanderungsgesetz (Sg.)",
-    "german_audio": "die Fachkräfteeinwanderungsgesetz",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Fachkräfteeinwanderungsgesetz (Sg.)",
+    "german_audio": "das Fachkräfteeinwanderungsgesetz",
     "english": "skilled immigration act",
     "ukrainian": "закон про імміграцію кваліфікованих спеціалістів",
     "example": "Das neue <b style=\"color: #eab308;\">Fachkräfteeinwanderungsgesetz</b> **erleichtert die Arbeitsplatzsuche in der IT**."
@@ -19049,18 +19029,6 @@
     "english": "adaptation qualification / training",
     "ukrainian": "адаптаційна кваліфікація (навчання для повного визнання диплому)",
     "example": "Die <b style=\"color: #eab308;\">Anpassungsqualifizierung</b> **hilft, die volle Gleichwertigkeit zu erreichen**."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Anerkennungsverfahren, -",
-    "german_audio": "die Anerkennungsverfahren",
-    "english": "recognition procedure",
-    "ukrainian": "процедура визнання (диплому)",
-    "example": "Das <b style=\"color: #eab308;\">Anerkennungsverfahren</b> **wird durch staatliche Zuschüsse finanziell gefördert**."
   },
   {
     "level": "B2",
@@ -19272,8 +19240,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Aufenthaltsrecht, -e",
-    "german_audio": "die Aufenthaltsrecht",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Aufenthaltsrecht, -e",
+    "german_audio": "das Aufenthaltsrecht",
     "english": "right of residence",
     "ukrainian": "право на перебування",
     "example": "Das <b style=\"color: #eab308;\">Aufenthaltsrecht</b> **erlischt bei Kündigung des Arbeitsverhältnisses**."
@@ -19313,18 +19281,6 @@
     "english": "tolerated stay (suspension of deportation)",
     "ukrainian": "тимчасове відтермінування депортації (дульдунг)",
     "example": "Eine <b style=\"color: #eab308;\">Duldung</b> **gewährt keinen legalen Aufenthalt, schützt aber vor Abschiebung**."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Asylverfahren, -",
-    "german_audio": "die Asylverfahren",
-    "english": "asylum procedure",
-    "ukrainian": "процедура надання притулку",
-    "example": "Das <b style=\"color: #eab308;\">Asylverfahren</b> **unterliegt den Bestimmungen des Asylgesetzes**."
   },
   {
     "level": "B2",
@@ -19380,8 +19336,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Abschiebungsschutz (Sg.)",
-    "german_audio": "die Abschiebungsschutz",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Abschiebungsschutz (Sg.)",
+    "german_audio": "der Abschiebungsschutz",
     "english": "protection against deportation",
     "ukrainian": "захист від депортації",
     "example": "Bei gesundheitlichen Problemen **kann <b style=\"color: #eab308;\">Abschiebungsschutz</b> gewährt werden**."
@@ -19548,8 +19504,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Mietvertrag, \"-e",
-    "german_audio": "die Mietvertrag",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Mietvertrag, \"-e",
+    "german_audio": "der Mietvertrag",
     "english": "tenancy agreement / lease",
     "ukrainian": "договір оренди",
     "example": "Der <b style=\"color: #eab308;\">Mietvertrag</b> **beinhaltet genaue Regelungen über die Nebenkosten**."
@@ -19704,8 +19660,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Wohngeld (Sg.)",
-    "german_audio": "die Wohngeld",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Wohngeld (Sg.)",
+    "german_audio": "das Wohngeld",
     "english": "housing benefit",
     "ukrainian": "житлова субсидія",
     "example": "Haushalte mit geringem Einkommen **können <b style=\"color: #eab308;\">Wohngeld</b> beantragen**."
@@ -19716,8 +19672,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Wohnungsamt, \"-er",
-    "german_audio": "die Wohnungsamt",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Wohnungsamt, \"-er",
+    "german_audio": "das Wohnungsamt",
     "english": "housing office",
     "ukrainian": "управління житлового господарства",
     "example": "Das <b style=\"color: #eab308;\">Wohnungsamt</b> **ist für die Bewilligung von Wohngeld zuständig**."
@@ -19728,8 +19684,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Wohnberechtigungsschein (WBS), -e",
-    "german_audio": "die Wohnberechtigungsschein",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Wohnberechtigungsschein (WBS), -e",
+    "german_audio": "der Wohnberechtigungsschein",
     "english": "subsidized housing certificate (WBS)",
     "ukrainian": "дозвіл на оренду соціального житла (WBS)",
     "example": "Mit dem **<b style=\"color: #eab308;\">Wohnberechtigungsschein</b>** kann man eine preisgünstige Sozialwohnung anmieten."
@@ -19764,8 +19720,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Ballungsraum, \"-e",
-    "german_audio": "die Ballungsraum",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Ballungsraum, \"-e",
+    "german_audio": "der Ballungsraum",
     "english": "conurbation / metropolitan area",
     "ukrainian": "густонаселений район, агломерація",
     "example": "Im <b style=\"color: #eab308;\">Ballungsraum</b> **sind die Lebenshaltungskosten deutlich höher als auf dem Land**."
@@ -19884,8 +19840,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Immissionsschutzgesetz (Sg.)",
-    "german_audio": "die Immissionsschutzgesetz",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Immissionsschutzgesetz (Sg.)",
+    "german_audio": "das Immissionsschutzgesetz",
     "english": "emission control act",
     "ukrainian": "закон про захист від шкідливих впливів (шум, викиди тощо)",
     "example": "Das <b style=\"color: #eab308;\">Immissionsschutzgesetz</b> **regelt die maximal zulässigen Schallpegel**."
@@ -20088,8 +20044,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Meisterbetrieb, -e",
-    "german_audio": "die Meisterbetrieb",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Meisterbetrieb, -e",
+    "german_audio": "der Meisterbetrieb",
     "english": "master craftsman's business",
     "ukrainian": "підприємство під керівництвом майстра",
     "example": "Als <b style=\"color: #eab308;\">Meisterbetrieb</b> **bieten wir eine qualitativ hochwertige Ausbildung an**."
@@ -20232,8 +20188,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Sozialplan, \"-e",
-    "german_audio": "die Sozialplan",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Sozialplan, \"-e",
+    "german_audio": "der Sozialplan",
     "english": "social plan",
     "ukrainian": "соціальний план (компенсаційні заходи при скороченні)",
     "example": "Der <b style=\"color: #eab308;\">Sozialplan</b> **beinhaltet Abfindungen für die entlassenen Mitarbeiter**."
@@ -20244,8 +20200,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Interessenausgleich, -e",
-    "german_audio": "die Interessenausgleich",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Interessenausgleich, -e",
+    "german_audio": "der Interessenausgleich",
     "english": "reconciliation of interests",
     "ukrainian": "узгодження інтересів (роботодавця та ради при змінах у компанії)",
     "example": "Der <b style=\"color: #eab308;\">Interessenausgleich</b> **muss vor der Durchführung von Kündigungen verhandelt werden**."
@@ -20316,8 +20272,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Gesamtbetriebsrat, \"-e",
-    "german_audio": "die Gesamtbetriebsrat",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Gesamtbetriebsrat, \"-e",
+    "german_audio": "der Gesamtbetriebsrat",
     "english": "general works council",
     "ukrainian": "загальна виробнича рада (представництво всіх філій)",
     "example": "Der <b style=\"color: #eab308;\">Gesamtbetriebsrat</b> **wird bei übergeordneten Themen aktiv**."
@@ -20328,8 +20284,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Konzernbetriebsrat, \"-e",
-    "german_audio": "die Konzernbetriebsrat",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Konzernbetriebsrat, \"-e",
+    "german_audio": "der Konzernbetriebsrat",
     "english": "group works council",
     "ukrainian": "виробнича рада концерну",
     "example": "Der <b style=\"color: #eab308;\">Konzernbetriebsrat</b> **verhandelt mit dem Vorstand des Konzerns**."
@@ -20400,8 +20356,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Insolvenzantrag, \"-e",
-    "german_audio": "die Insolvenzantrag",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Insolvenzantrag, \"-e",
+    "german_audio": "der Insolvenzantrag",
     "english": "petition for insolvency",
     "ukrainian": "заява про банкрутство",
     "example": "Der <b style=\"color: #eab308;\">Insolvenzantrag</b> **wurde beim zuständigen Amtsgericht eingereicht**."
@@ -20412,8 +20368,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Insolvenzverfahren, -",
-    "german_audio": "die Insolvenzverfahren",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Insolvenzverfahren, -",
+    "german_audio": "das Insolvenzverfahren",
     "english": "insolvency proceedings",
     "ukrainian": "процедура банкрутства",
     "example": "Das <b style=\"color: #eab308;\">Insolvenzverfahren</b> **wird von einem gerichtlich bestellten Verwalter geleitet**."
@@ -20496,8 +20452,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Insolvenzplan, \"-e",
-    "german_audio": "die Insolvenzplan",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Insolvenzplan, \"-e",
+    "german_audio": "der Insolvenzplan",
     "english": "insolvency plan",
     "ukrainian": "план реструктуризації при банкрутстві",
     "example": "Der <b style=\"color: #eab308;\">Insolvenzplan</b> **sieht die Weiterbeschäftigung der halben Belegschaft vor**."
@@ -20604,8 +20560,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Schutzrecht, -e",
-    "german_audio": "die Schutzrecht",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Schutzrecht, -e",
+    "german_audio": "das Schutzrecht",
     "english": "property right / patent right",
     "ukrainian": "право інтелектуальної власності",
     "example": "Die gewerblichen <b style=\"color: #eab308;\">Schutzrechte</b> **sichern unseren technologischen Vorsprung ab**."
@@ -20628,8 +20584,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Lizenzvertrag, \"-e",
-    "german_audio": "die Lizenzvertrag",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Lizenzvertrag, \"-e",
+    "german_audio": "der Lizenzvertrag",
     "english": "license agreement",
     "ukrainian": "ліцензійний договір",
     "example": "Der <b style=\"color: #eab308;\">Lizenzvertrag</b> **regelt die Nutzung der Software durch Drittfirmen**."
@@ -20664,8 +20620,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Urheberrecht, -e",
-    "german_audio": "die Urheberrecht",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Urheberrecht, -e",
+    "german_audio": "das Urheberrecht",
     "english": "copyright",
     "ukrainian": "авторське право",
     "example": "Das <b style=\"color: #eab308;\">Urheberrecht</b> **schützt den Quellcode vor unbefugtem Kopieren**."
@@ -20820,8 +20776,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Skonto, -s / Skonti",
-    "german_audio": "die Skonto",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Skonto, -s / Skonti",
+    "german_audio": "das Skonto",
     "english": "cash discount (for prompt payment)",
     "ukrainian": "знижка за швидку оплату (сконто)",
     "example": "Bei Zahlung innerhalb von 3 Tagen **gewähren wir 2% <b style=\"color: #eab308;\">Skonto</b>**."
@@ -20880,8 +20836,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Gefahrenübergang, \"-e",
-    "german_audio": "die Gefahrenübergang",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Gefahrenübergang, \"-e",
+    "german_audio": "der Gefahrenübergang",
     "english": "transfer of risk",
     "ukrainian": "перехід ризику",
     "example": "Der <b style=\"color: #eab308;\">Gefahrenübergang</b> **erfolgt bei der Übergabe der Ware an die Spedition**."
@@ -20916,8 +20872,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Zahlungseingang, \"-e",
-    "german_audio": "die Zahlungseingang",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Zahlungseingang, \"-e",
+    "german_audio": "der Zahlungseingang",
     "english": "receipt of payment",
     "ukrainian": "надходження платежу",
     "example": "Der <b style=\"color: #eab308;\">Zahlungseingang</b> **wird vom Zeiterfassungssystem automatisch registriert**."
@@ -21264,8 +21220,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Finanzamt, \"-er",
-    "german_audio": "die Finanzamt",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Finanzamt, \"-er",
+    "german_audio": "das Finanzamt",
     "english": "tax office",
     "ukrainian": "податкова інспекція",
     "example": "Das <b style=\"color: #eab308;\">Finanzamt</b> **überwacht die ordnungsgemäße Abführung der Steuern**."
@@ -21408,8 +21364,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Quartalsbericht, -e",
-    "german_audio": "die Quartalsbericht",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Quartalsbericht, -e",
+    "german_audio": "der Quartalsbericht",
     "english": "quarterly report",
     "ukrainian": "квартальний звіт",
     "example": "Der <b style=\"color: #eab308;\">Quartalsbericht</b> **wurde auf der Webseite zum Download bereitgestellt**."
@@ -21456,8 +21412,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Verlust, -e",
-    "german_audio": "die Verlust",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Verlust, -e",
+    "german_audio": "der Verlust",
     "english": "loss",
     "ukrainian": "збиток",
     "example": "Der erlittene <b style=\"color: #eab308;\">Verlust</b> **hängt eng mit dem Produktionsausfall zusammen**."
@@ -21509,18 +21465,6 @@
     "english": "profitability calculation",
     "ukrainian": "розрахунок економічної ефективності",
     "example": "Die <b style=\"color: #eab308;\">Wirtschaftlichkeitsberechnung</b> **wurde im Businessplan dokumentiert**."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Businessplan, \"-e",
-    "german_audio": "die Businessplan",
-    "english": "business plan",
-    "ukrainian": "бізнес-план",
-    "example": "Der <b style=\"color: #eab308;\">Businessplan</b> **überzeugte die Bank bei der Kreditverhandlung**."
   },
   {
     "level": "B2",
@@ -21600,8 +21544,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Gründerzentrum, -en",
-    "german_audio": "die Gründerzentrum",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Gründerzentrum, -en",
+    "german_audio": "das Gründerzentrum",
     "english": "incubator / startup center",
     "ukrainian": "бізнес-інкубатор (центр підтримки стартапів)",
     "example": "Unser Büro **befindet sich im lokalen <b style=\"color: #eab308;\">Gründerzentrum</b>**."
@@ -23004,8 +22948,8 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Produktsicherheitsgesetz (ProdSG) (Sg.)",
-    "german_audio": "die Produktsicherheitsgesetz",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Produktsicherheitsgesetz (ProdSG) (Sg.)",
+    "german_audio": "das Produktsicherheitsgesetz",
     "english": "product safety act",
     "ukrainian": "закон про безпеку продукції",
     "example": "Das <b style=\"color: #eab308;\">ProdSG</b> **schreibt strenge Sicherheitsprüfungen vor dem Verkauf vor**."
@@ -23064,8 +23008,8 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Sachverständigenrat, \"-e",
-    "german_audio": "die Sachverständigenrat",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Sachverständigenrat, \"-e",
+    "german_audio": "der Sachverständigenrat",
     "english": "council of experts / advisory board",
     "ukrainian": "рада експертів",
     "example": "Der <b style=\"color: #eab308;\">Sachverständigenrat</b> **berät die Bundesregierung bei Wirtschaftsfragen**."
@@ -23088,8 +23032,8 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Kartellamt (Bundeskartellamt) (Sg.)",
-    "german_audio": "die Kartellamt",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Kartellamt (Bundeskartellamt) (Sg.)",
+    "german_audio": "das Kartellamt",
     "english": "Federal Cartel Office",
     "ukrainian": "Федеральне відомство з картелів (антимонопольний комітет)",
     "example": "Das <b style=\"color: #eab308;\">Bundeskartellamt</b> **prüft Fusionen von großen Unternehmen**."
@@ -23172,8 +23116,8 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Bußgeldverfahren, -",
-    "german_audio": "die Bußgeldverfahren",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Bußgeldverfahren, -",
+    "german_audio": "das Bußgeldverfahren",
     "english": "fine proceedings",
     "ukrainian": "провадження у справі про накладення штрафу",
     "example": "Das <b style=\"color: #eab308;\">Bußgeldverfahren</b> **wurde nach der Zahlung des Geldes eingestellt**."
@@ -23268,8 +23212,8 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Insolvenzgeld, -er",
-    "german_audio": "die Insolvenzgeld",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Insolvenzgeld, -er",
+    "german_audio": "das Insolvenzgeld",
     "english": "insolvency payments (wages paid by labor agency during insolvency)",
     "ukrainian": "допомога по банкрутству (виплата зарплати агентством праці)",
     "example": "Das <b style=\"color: #eab308;\">Insolvenzgeld</b> **sichert die Lohnfortzahlung für drei Monate ab**."
@@ -23328,8 +23272,8 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Konkursverfahren, -",
-    "german_audio": "die Konkursverfahren",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Konkursverfahren, -",
+    "german_audio": "das Konkursverfahren",
     "english": "bankruptcy proceedings",
     "ukrainian": "процедура конкурсного провадження (банкрутства)",
     "example": "Das <b style=\"color: #eab308;\">Konkursverfahren</b> **wurde nach dem alten Recht abgewickelt**."
@@ -23508,8 +23452,8 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Schuldensanierungsplan, \"-e",
-    "german_audio": "die Schuldensanierungsplan",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Schuldensanierungsplan, \"-e",
+    "german_audio": "der Schuldensanierungsplan",
     "english": "debt restructuring plan",
     "ukrainian": "план реструктуризації боргів",
     "example": "Der <b style=\"color: #eab308;\">Schuldensanierungsplan</b> **bedarf der Zustimmung aller Gläubiger**."
@@ -23640,8 +23584,8 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Gläubigerschutz (Sg.)",
-    "german_audio": "die Gläubigerschutz",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Gläubigerschutz (Sg.)",
+    "german_audio": "der Gläubigerschutz",
     "english": "protection of creditors",
     "ukrainian": "захист прав кредиторів",
     "example": "Der <b style=\"color: #eab308;\">Gläubigerschutz</b> **ist ein zentrales Prinzip des deutschen Gesellschaftsrechts**."
@@ -23652,8 +23596,8 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Gesellschaftsrecht (Sg.)",
-    "german_audio": "die Gesellschaftsrecht",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Gesellschaftsrecht (Sg.)",
+    "german_audio": "das Gesellschaftsrecht",
     "english": "corporate law / company law",
     "ukrainian": "корпоративне право",
     "example": "Das <b style=\"color: #eab308;\">Gesellschaftsrecht</b> **regelt die Rechte und Pflichten der Gesellschafter**."
@@ -23664,8 +23608,8 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Gesellschaftervertrag, \"-e",
-    "german_audio": "die Gesellschaftervertrag",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Gesellschaftervertrag, \"-e",
+    "german_audio": "der Gesellschaftervertrag",
     "english": "articles of association / partnership agreement",
     "ukrainian": "засновницький договір (статут)",
     "example": "Der <b style=\"color: #eab308;\">Gesellschaftervertrag</b> **regelt die Vertretungsmacht der Geschäftsführer**."
@@ -23868,8 +23812,8 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Sozialleistungssystem, -e",
-    "german_audio": "die Sozialleistungssystem",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Sozialleistungssystem, -e",
+    "german_audio": "das Sozialleistungssystem",
     "english": "social benefit system",
     "ukrainian": "система соціального забезпечення",
     "example": "Das <b style=\"color: #eab308;\">Sozialleistungssystem</b> **muss zukunftssicher reformiert werden**."
@@ -23916,8 +23860,8 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Sozialgesetzbuch (SGB) (Sg.)",
-    "german_audio": "die Sozialgesetzbuch",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Sozialgesetzbuch (SGB) (Sg.)",
+    "german_audio": "das Sozialgesetzbuch",
     "english": "Social Code",
     "ukrainian": "Соціальний кодекс (SGB)",
     "example": "Das **<b style=\"color: #eab308;\">Sozialgesetzbuch</b>** beinhaltet alle Rechtsnormen zur Sozialversicherung."
@@ -24036,8 +23980,8 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Gehaltskonto, -en",
-    "german_audio": "die Gehaltskonto",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Gehaltskonto, -en",
+    "german_audio": "das Gehaltskonto",
     "english": "salary account",
     "ukrainian": "зарплатний рахунок",
     "example": "Bitte geben Sie Ihre IBAN **für das <b style=\"color: #eab308;\">Gehaltskonto</b> im Personalbüro an**."
@@ -24084,8 +24028,8 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> SEPA-Lastschriftmandat, -e",
-    "german_audio": "die SEPA-Lastschriftmandat, -e",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> SEPA-Lastschriftmandat, -e",
+    "german_audio": "das SEPA-Lastschriftmandat, -e",
     "english": "SEPA direct debit mandate",
     "ukrainian": "мандат прямого дебету SEPA",
     "example": "Das SEPA-Lastschriftmandat **muss dem Vermieter schriftlich erteilt werden**."
@@ -24132,8 +24076,8 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Online-Banking, -s",
-    "german_audio": "die Online-Banking, -s",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Online-Banking, -s",
+    "german_audio": "das Online-Banking, -s",
     "english": "online banking",
     "ukrainian": "онлайн-банкінг",
     "example": "Online-Banking **ermöglicht die schnelle Abwicklung von Inlands- und Auslandsüberweisungen**."
@@ -24432,8 +24376,8 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Konjunkturprogramm, -e",
-    "german_audio": "die Konjunkturprogramm",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Konjunkturprogramm, -e",
+    "german_audio": "das Konjunkturprogramm",
     "english": "economic stimulus program",
     "ukrainian": "програма стимулювання економіки",
     "example": "Das <b style=\"color: #eab308;\">Konjunkturprogramm</b> **soll die Wirtschaft aus der Rezession führen**."
@@ -24780,8 +24724,8 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Auslegungsspielraum, \"-e",
-    "german_audio": "die Auslegungsspielraum",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Auslegungsspielraum, \"-e",
+    "german_audio": "der Auslegungsspielraum",
     "english": "room for interpretation",
     "ukrainian": "простір для тлумачення",
     "example": "Der Vertragstext **lässt dem Richter einen gewissen <b style=\"color: #eab308;\">Auslegungsspielraum</b>**."
@@ -24804,8 +24748,8 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Verbraucherschutz (Sg.)",
-    "german_audio": "die Verbraucherschutz",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Verbraucherschutz (Sg.)",
+    "german_audio": "der Verbraucherschutz",
     "english": "consumer protection",
     "ukrainian": "захист прав споживачів",
     "example": "Der <b style=\"color: #eab308;\">Verbraucherschutz</b> **wird durch strenge gesetzliche Verordnungen geregelt**."
@@ -25260,8 +25204,8 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Scoring-Verfahren, -",
-    "german_audio": "die Scoring-Verfahren, -",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Scoring-Verfahren, -",
+    "german_audio": "das Scoring-Verfahren, -",
     "english": "scoring method",
     "ukrainian": "метод скорингу (оцінки ризиків)",
     "example": "Das Scoring-Verfahren **berechnet die Wahrscheinlichkeit eines Zahlungsausfalls**."
@@ -25404,8 +25348,8 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> ATLAS-System (Sg.)",
-    "german_audio": "die ATLAS-System",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> ATLAS-System (Sg.)",
+    "german_audio": "das ATLAS-System",
     "english": "ATLAS system (German automated customs system)",
     "ukrainian": "система ATLAS (автоматизована митна система)",
     "example": "Das <b style=\"color: #eab308;\">ATLAS-System</b> **erleichtert die schnelle Zollabwicklung**."
@@ -25500,8 +25444,8 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Prüfungszeitraum, \"-e",
-    "german_audio": "die Prüfungszeitraum",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Prüfungszeitraum, \"-e",
+    "german_audio": "der Prüfungszeitraum",
     "english": "audit period",
     "ukrainian": "період перевірки",
     "example": "Der <b style=\"color: #eab308;\">Prüfungszeitraum</b> **umfasst die letzten drei Geschäftsjahre**."
@@ -25512,8 +25456,8 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Prüfungsbericht, -e",
-    "german_audio": "die Prüfungsbericht",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Prüfungsbericht, -e",
+    "german_audio": "der Prüfungsbericht",
     "english": "audit report",
     "ukrainian": "аудиторський звіт",
     "example": "Der <b style=\"color: #eab308;\">Prüfungsbericht</b> **enthält Feststellungen über steuerliche Pflichtverletzungen**."
@@ -25716,8 +25660,8 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Strafrecht (Sg.)",
-    "german_audio": "die Strafrecht",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Strafrecht (Sg.)",
+    "german_audio": "das Strafrecht",
     "english": "criminal law",
     "ukrainian": "кримінальне право",
     "example": "Das <b style=\"color: #eab308;\">Strafrecht</b> **definiert die Voraussetzungen für eine Bestrafung**."
@@ -25884,8 +25828,8 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Gewerbeamt, \"-er",
-    "german_audio": "die Gewerbeamt",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Gewerbeamt, \"-er",
+    "german_audio": "das Gewerbeamt",
     "english": "trade office / licensing office",
     "ukrainian": "відділ реєстрації підприємництва",
     "example": "Das <b style=\"color: #eab308;\">Gewerbeamt</b> **stellt den Gewerbeschein nach der Anmeldung aus**."
@@ -25896,8 +25840,8 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Gewerbeschein, -e",
-    "german_audio": "die Gewerbeschein",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Gewerbeschein, -e",
+    "german_audio": "der Gewerbeschein",
     "english": "trade license / business registration certificate",
     "ukrainian": "дозвіл на промисел (свідоцтво про реєстрацію бізнесу)",
     "example": "Der <b style=\"color: #eab308;\">Gewerbeschein</b> **dient als offizieller Nachweis der selbstständigen Tätigkeit**."
@@ -25920,8 +25864,8 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Statusfeststellungsverfahren, -",
-    "german_audio": "die Statusfeststellungsverfahren",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Statusfeststellungsverfahren, -",
+    "german_audio": "das Statusfeststellungsverfahren",
     "english": "status determination procedure (to check for false self-employment)",
     "ukrainian": "процедура визначення статусу зайнятості (для виявлення фіктивної самостійності)",
     "example": "Das <b style=\"color: #eab308;\">Statusfeststellungsverfahren</b> **wird von der Deutschen Rentenversicherung durchgeführt**."
@@ -26124,8 +26068,8 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Personalrat, \"-e",
-    "german_audio": "die Personalrat",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Personalrat, \"-e",
+    "german_audio": "der Personalrat",
     "english": "staff council (public sector equivalent of works council)",
     "ukrainian": "рада трудового колективу (у держсекторі)",
     "example": "Der <b style=\"color: #eab308;\">Personalrat</b> **vertritt die Interessen der Beschäftigten im öffentlichen Dienst**."
@@ -26136,8 +26080,8 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Personalvertretungsgesetz (PersVG) (Sg.)",
-    "german_audio": "die Personalvertretungsgesetz",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Personalvertretungsgesetz (PersVG) (Sg.)",
+    "german_audio": "das Personalvertretungsgesetz",
     "english": "Staff Representation Act",
     "ukrainian": "закон про представництво інтересів персоналу (PersVG)",
     "example": "Das <b style=\"color: #eab308;\">PersVG</b> **regelt die Mitbestimmungsrechte des Personalrats**."
@@ -26148,8 +26092,8 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Mitbestimmungsrecht, -e",
-    "german_audio": "die Mitbestimmungsrecht",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Mitbestimmungsrecht, -e",
+    "german_audio": "das Mitbestimmungsrecht",
     "english": "right of co-determination",
     "ukrainian": "право на співучасть у прийнятті рішень (участь у керівництві)",
     "example": "Das <b style=\"color: #eab308;\">Mitbestimmungsrecht</b> **ist ein zentraler Pfeiler der sozialen Partnerschaft**."
@@ -27348,8 +27292,8 @@
       "B2"
     ],
     "thema": 9,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Pfändungsschutzkonto (P-Konto), -en",
-    "german_audio": "die Pfändungsschutzkonto",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Pfändungsschutzkonto (P-Konto), -en",
+    "german_audio": "das Pfändungsschutzkonto",
     "english": "seizure protection account",
     "ukrainian": "банківський рахунок із захистом від арешту (P-Konto)",
     "example": "Das <b style=\"color: #eab308;\">P-Konto</b> **schützt das pfändungsfreie Einkommen vor dem Zugriff der Gläubiger**."
@@ -27492,8 +27436,8 @@
       "B2"
     ],
     "thema": 9,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Zivilrecht (Sg.)",
-    "german_audio": "die Zivilrecht",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Zivilrecht (Sg.)",
+    "german_audio": "das Zivilrecht",
     "english": "civil law",
     "ukrainian": "цивільне право",
     "example": "Das <b style=\"color: #eab308;\">Zivilrecht</b> **basiert im Wesentlichen auf dem Bürgerlichen Gesetzbuch (BGB)**."
@@ -27516,8 +27460,8 @@
       "B2"
     ],
     "thema": 9,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Gesetzbuch, \"-er",
-    "german_audio": "die Gesetzbuch",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Gesetzbuch, \"-er",
+    "german_audio": "das Gesetzbuch",
     "english": "code / body of laws",
     "ukrainian": "кодекс законів",
     "example": "Das <b style=\"color: #eab308;\">Gesetzbuch</b> **liegt auf dem Schreibtisch der Rechtsanwältin bereit**."
@@ -27672,8 +27616,8 @@
       "B2"
     ],
     "thema": 9,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Berufungsverfahren, -",
-    "german_audio": "die Berufungsverfahren",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Berufungsverfahren, -",
+    "german_audio": "das Berufungsverfahren",
     "english": "appeal proceedings",
     "ukrainian": "апеляційне провадження",
     "example": "Das <b style=\"color: #eab308;\">Berufungsverfahren</b> **wird vor dem Landesarbeitsgericht verhandelt**."
@@ -27708,8 +27652,8 @@
       "B2"
     ],
     "thema": 9,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Revisionsverfahren, -",
-    "german_audio": "die Revisionsverfahren",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Revisionsverfahren, -",
+    "german_audio": "das Revisionsverfahren",
     "english": "appeal on points of law proceedings",
     "ukrainian": "касаційне провадження",
     "example": "Das <b style=\"color: #eab308;\">Revisionsverfahren</b> **wird schriftlich ohne erneute Beweisaufnahme geführt**."
@@ -27768,8 +27712,8 @@
       "B2"
     ],
     "thema": 9,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Sitzungsprotokoll, -e",
-    "german_audio": "die Sitzungsprotokoll",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Sitzungsprotokoll, -e",
+    "german_audio": "das Sitzungsprotokoll",
     "english": "minutes of the meeting/hearing",
     "ukrainian": "протокол судового засідання (або засідання ради)",
     "example": "Das <b style=\"color: #eab308;\">Sitzungsprotokoll</b> **wird von der Geschäftsstelle des Gerichts verfasst**."
@@ -29148,8 +29092,8 @@
       "B2"
     ],
     "thema": 10,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Steuerstrafverfahren, -",
-    "german_audio": "die Steuerstrafverfahren",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Steuerstrafverfahren, -",
+    "german_audio": "das Steuerstrafverfahren",
     "english": "tax criminal proceedings",
     "ukrainian": "кримінальне провадження у податкових справах",
     "example": "Das <b style=\"color: #eab308;\">Steuerstrafverfahren</b> **kann durch eine Selbstanzeige abgewendet werden**."
@@ -29292,8 +29236,8 @@
       "B2"
     ],
     "thema": 10,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Solidaritätszuschlagsgesetz (Sg.)",
-    "german_audio": "die Solidaritätszuschlagsgesetz",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Solidaritätszuschlagsgesetz (Sg.)",
+    "german_audio": "das Solidaritätszuschlagsgesetz",
     "english": "Solidarity Surcharge Act",
     "ukrainian": "закон про надбавку за солідарність",
     "example": "Das <b style=\"color: #eab308;\">Solidaritätszuschlagsgesetz</b> **wurde vom Bundesverfassungsgericht geprüft**."
@@ -29364,8 +29308,8 @@
       "B2"
     ],
     "thema": 10,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Besteuerungsrecht, -e",
-    "german_audio": "die Besteuerungsrecht",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Besteuerungsrecht, -e",
+    "german_audio": "das Besteuerungsrecht",
     "english": "right of taxation / taxing power",
     "ukrainian": "право на оподаткування",
     "example": "Das <b style=\"color: #eab308;\">Besteuerungsrecht</b> **liegt in diesem Fall beim Wohnsitzstaat**."
@@ -29460,8 +29404,8 @@
       "B2"
     ],
     "thema": 10,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Stimmrecht, -e",
-    "german_audio": "die Stimmrecht",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Stimmrecht, -e",
+    "german_audio": "das Stimmrecht",
     "english": "voting right",
     "ukrainian": "право голосу",
     "example": "Das <b style=\"color: #eab308;\">Stimmrecht</b> **kann per Vollmacht auf eine Bank übertragen werden**."
@@ -29712,8 +29656,8 @@
       "B2"
     ],
     "thema": 10,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Streikrecht, -e",
-    "german_audio": "die Streikrecht",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Streikrecht, -e",
+    "german_audio": "das Streikrecht",
     "english": "right to strike",
     "ukrainian": "право на страйк",
     "example": "Das <b style=\"color: #eab308;\">Streikrecht</b> **ist ein geschütztes Grundrecht im Grundgesetz**."
@@ -29868,8 +29812,8 @@
       "B2"
     ],
     "thema": 10,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Stufenplan, \"-e",
-    "german_audio": "die Stufenplan",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Stufenplan, \"-e",
+    "german_audio": "der Stufenplan",
     "english": "phased plan / step-by-step plan",
     "ukrainian": "поетапний план",
     "example": "Der <b style=\"color: #eab308;\">Stufenplan</b> **regelt die Einführung der Gleitzeitregelung**."
@@ -29928,8 +29872,8 @@
       "B2"
     ],
     "thema": 10,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Übertragungsvertrag, \"-e",
-    "german_audio": "die Übertragungsvertrag",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Übertragungsvertrag, \"-e",
+    "german_audio": "der Übertragungsvertrag",
     "english": "transfer contract",
     "ukrainian": "договір про передачу (бізнесу або прав)",
     "example": "Der <b style=\"color: #eab308;\">Übertragungsvertrag</b> **bedarf der Zustimmung des Aufsichtsrats**."
@@ -29940,8 +29884,8 @@
       "B2"
     ],
     "thema": 10,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Betriebsübergang, \"-e",
-    "german_audio": "die Betriebsübergang",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Betriebsübergang, \"-e",
+    "german_audio": "der Betriebsübergang",
     "english": "transfer of undertaking / business transfer (under § 613a BGB)",
     "ukrainian": "перехід підприємства (зміна власника із збереженням прав працівників за § 613a BGB)",
     "example": "Beim <b style=\"color: #eab308;\">Betriebsübergang</b> **gehen alle Arbeitsverhältnisse auf den neuen Inhaber über**."
@@ -29976,8 +29920,8 @@
       "B2"
     ],
     "thema": 10,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Weiterbeschäftigungsanspruch, \"-e",
-    "german_audio": "die Weiterbeschäftigungsanspruch",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Weiterbeschäftigungsanspruch, \"-e",
+    "german_audio": "der Weiterbeschäftigungsanspruch",
     "english": "right to continued employment",
     "ukrainian": "право на збереження робочого місця (продовження роботи)",
     "example": "Bei unwirksamer Kündigung **besteht ein gerichtlich durchsetzbarer <b style=\"color: #eab308;\">Weiterbeschäftigungsanspruch</b>**."
@@ -30000,8 +29944,8 @@
       "B2"
     ],
     "thema": 10,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Rechtsanspruch, \"-e",
-    "german_audio": "die Rechtsanspruch",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Rechtsanspruch, \"-e",
+    "german_audio": "der Rechtsanspruch",
     "english": "legal claim / right",
     "ukrainian": "правова претензія (законне право)",
     "example": "Der Arbeitnehmer **hat einen <b style=\"color: #eab308;\">Rechtsanspruch</b> auf Lohnfortzahlung im Krankheitsfall**."
@@ -30012,8 +29956,8 @@
       "B2"
     ],
     "thema": 10,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Entgeltfortzahlungsgesetz (EntgFG) (Sg.)",
-    "german_audio": "die Entgeltfortzahlungsgesetz",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Entgeltfortzahlungsgesetz (EntgFG) (Sg.)",
+    "german_audio": "das Entgeltfortzahlungsgesetz",
     "english": "Continued Remuneration Act",
     "ukrainian": "закон про збереження заробітної плати (EntgFG)",
     "example": "Das <b style=\"color: #eab308;\">EntgFG</b> **schützt den Arbeitnehmer vor Verdienstausfall bei Krankheit**."
@@ -30036,8 +29980,8 @@
       "B2"
     ],
     "thema": 10,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Verletztengeld (Sg.)",
-    "german_audio": "die Verletztengeld",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Verletztengeld (Sg.)",
+    "german_audio": "das Verletztengeld",
     "english": "injury benefit (paid by accident insurance)",
     "ukrainian": "допомога по травмі (від каси страхування нещасних випадків)",
     "example": "Das <b style=\"color: #eab308;\">Verletztengeld</b> **wird von der Berufsgenossenschaft ausgezahlt**."
@@ -30096,8 +30040,8 @@
       "B2"
     ],
     "thema": 10,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Mutterschutz, -e",
-    "german_audio": "die Mutterschutz",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Mutterschutz, -e",
+    "german_audio": "der Mutterschutz",
     "english": "maternity protection",
     "ukrainian": "декретна відпустка (охорона материнства перед і після пологів)",
     "example": "Der <b style=\"color: #eab308;\">Mutterschutz</b> **beginnt sechs Wochen vor dem voraussichtlichen Entbindungstermin**."
@@ -30120,8 +30064,8 @@
       "B2"
     ],
     "thema": 10,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Mutterschaftsgeld (Sg.)",
-    "german_audio": "die Mutterschaftsgeld",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Mutterschaftsgeld (Sg.)",
+    "german_audio": "das Mutterschaftsgeld",
     "english": "maternity benefit",
     "ukrainian": "допомога по вагітності та пологах",
     "example": "Das <b style=\"color: #eab308;\">Mutterschaftsgeld</b> **wird von der Krankenkasse und dem Arbeitgeber gezahlt**."
@@ -30144,8 +30088,8 @@
       "B2"
     ],
     "thema": 10,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Elterngeld (Sg.)",
-    "german_audio": "die Elterngeld",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Elterngeld (Sg.)",
+    "german_audio": "das Elterngeld",
     "english": "parental allowance",
     "ukrainian": "допомога по догляду за дитиною (державна виплата батькам)",
     "example": "Das <b style=\"color: #eab308;\">Elterngeld</b> **wird bei der Elterngeldstelle beantragt**."
@@ -30240,8 +30184,8 @@
       "B2"
     ],
     "thema": 10,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Scoring-Wert, -e",
-    "german_audio": "die Scoring-Wert, -e",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Scoring-Wert, -e",
+    "german_audio": "der Scoring-Wert, -e",
     "english": "scoring value / credit score",
     "ukrainian": "скоринговий бал",
     "example": "Der Scoring-Wert **entscheidet über die Genehmigung von Ratenzahlungen**."
@@ -30324,8 +30268,8 @@
       "B2"
     ],
     "thema": 10,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Einschreiben, -",
-    "german_audio": "die Einschreiben",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Einschreiben, -",
+    "german_audio": "das Einschreiben",
     "english": "registered mail / letter",
     "ukrainian": "рекомендований лист",
     "example": "Das Kündigungsschreiben **sollte per <b style=\"color: #eab308;\">Einschreiben</b> mit Rückschein zugestellt werden**."
@@ -30336,8 +30280,8 @@
       "B2"
     ],
     "thema": 10,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Rückschein, -e",
-    "german_audio": "die Rückschein",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Rückschein, -e",
+    "german_audio": "der Rückschein",
     "english": "advice of receipt / return receipt",
     "ukrainian": "повідомлення про вручення (рекомендованого листа)",
     "example": "Der <b style=\"color: #eab308;\">Rückschein</b> **weist den Zugang des Schreibens beim Empfänger nach**."
@@ -30348,8 +30292,8 @@
       "B2"
     ],
     "thema": 10,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Zugang (z. B. des Schreibens) (Sg.)",
-    "german_audio": "die Zugang",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Zugang (z. B. des Schreibens) (Sg.)",
+    "german_audio": "der Zugang",
     "english": "receipt / arrival (of the letter)",
     "ukrainian": "надходження (отримання листа адресатом)",
     "example": "Der <b style=\"color: #eab308;\">Zugang</b> der Kündigung **ist der Stichtag für den Beginn der Klagefrist**."
@@ -30372,8 +30316,8 @@
       "B2"
     ],
     "thema": 10,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Kündigungsschutzgesetz (KSchG) (Sg.)",
-    "german_audio": "die Kündigungsschutzgesetz",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Kündigungsschutzgesetz (KSchG) (Sg.)",
+    "german_audio": "das Kündigungsschutzgesetz",
     "english": "Dismissal Protection Act",
     "ukrainian": "Закон про захист від звільнення (KSchG)",
     "example": "Das <b style=\"color: #eab308;\">KSchG</b> **gilt in Betrieben mit mehr als zehn Beschäftigten**."
@@ -30384,8 +30328,8 @@
       "B2"
     ],
     "thema": 10,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Kleinbetrieb, -e",
-    "german_audio": "die Kleinbetrieb",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Kleinbetrieb, -e",
+    "german_audio": "der Kleinbetrieb",
     "english": "small business",
     "ukrainian": "мале підприємство (до 10 працівників)",
     "example": "Im <b style=\"color: #eab308;\">Kleinbetrieb</b> **findet das Kündigungsschutzgesetz keine Anwendung**."
@@ -30408,8 +30352,8 @@
       "B2"
     ],
     "thema": 10,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Geltungsbereich, -e",
-    "german_audio": "die Geltungsbereich",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Geltungsbereich, -e",
+    "german_audio": "der Geltungsbereich",
     "english": "scope / area of application",
     "ukrainian": "сфера дії (закону або договору)",
     "example": "Der <b style=\"color: #eab308;\">Geltungsbereich</b> des Tarifvertrags **erstreckt sich auf alle Beschäftigten**."
@@ -30816,18 +30760,6 @@
       "B2"
     ],
     "thema": 11,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Sozialplan, \"-e",
-    "german_audio": "der Sozialplan",
-    "english": "social compensation plan",
-    "ukrainian": "соціальний план (при скороченнях)",
-    "example": "Der <b style=\"color: #eab308;\">Sozialplan</b> **beinhaltet Abfindungen zur Sicherung des Lebensunterhalts**."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 11,
     "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Tätigkeitsbericht, -e",
     "german_audio": "der Tätigkeitsbericht",
     "english": "activity report",
@@ -31128,18 +31060,6 @@
       "B2"
     ],
     "thema": 11,
-    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Kündigungsschutzgesetz (KSchG) (Sg.)",
-    "german_audio": "das Kündigungsschutzgesetz",
-    "english": "Dismissal Protection Act",
-    "ukrainian": "Закон про захист від звільнення (KSchG)",
-    "example": "Das <b style=\"color: #eab308;\">KSchG</b> **schützt Arbeitnehmer vor sozial ungerechtfertigten Kündigungen**."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 11,
     "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Lebensumstände (Pl.)",
     "german_audio": "die Lebensumstände",
     "english": "life circumstances",
@@ -31265,18 +31185,6 @@
     "english": "collective agreement conclusion",
     "ukrainian": "завершення тарифних переговорів (угода)",
     "example": "Der neue <b style=\"color: #eab308;\">Tarifabschluss</b> **sieht eine stufenweise Gehaltserhöhung vor**."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 11,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Tarifvertrag, \"-e",
-    "german_audio": "der Tarifvertrag",
-    "english": "collective agreement",
-    "ukrainian": "тарифний договір",
-    "example": "Die Bestimmungen des <b style=\"color: #eab308;\">Tarifvertrags</b> **sind für beide Seiten bindend**."
   },
   {
     "level": "B2",
@@ -31524,8 +31432,8 @@
       "B2"
     ],
     "thema": 11,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Vorstandsmitglied, -er",
-    "german_audio": "die Vorstandsmitglied",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Vorstandsmitglied, -er",
+    "german_audio": "das Vorstandsmitglied",
     "english": "board member",
     "ukrainian": "член правління",
     "example": "Die <b style=\"color: #eab308;\">Vorstandsmitglieder</b> **wurden vom Aufsichtsrat ernannt**."
@@ -31596,8 +31504,8 @@
       "B2"
     ],
     "thema": 11,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Aufsichtsratsmitglied, -er",
-    "german_audio": "der Aufsichtsratsmitglied",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Aufsichtsratsmitglied, -er",
+    "german_audio": "das Aufsichtsratsmitglied",
     "english": "supervisory board member",
     "ukrainian": "член наглядової ради",
     "example": "Als <b style=\"color: #eab308;\">Aufsichtsratsmitglied</b> **verfügt er über umfangreiche Kontrollrechte**."
@@ -31620,8 +31528,8 @@
       "B2"
     ],
     "thema": 11,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Aufsichtsratsmandat, -e",
-    "german_audio": "die Aufsichtsratsmandat",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Aufsichtsratsmandat, -e",
+    "german_audio": "das Aufsichtsratsmandat",
     "english": "supervisory board mandate",
     "ukrainian": "мандат (місце) у наглядовій раді",
     "example": "Er hat ein weiteres <b style=\"color: #eab308;\">Aufsichtsratsmandat</b> **in der Finanzbranche übernommen**."
@@ -31812,8 +31720,8 @@
       "B2"
     ],
     "thema": 11,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> JAV-Mitglied, -er",
-    "german_audio": "die JAV-Mitglied, -er",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> JAV-Mitglied, -er",
+    "german_audio": "das JAV-Mitglied, -er",
     "english": "JAV member",
     "ukrainian": "член JAV",
     "example": "Als JAV-Mitglied **setzt er sich für eine qualitativ hochwertige Ausbildung ein**."
@@ -31848,8 +31756,8 @@
       "B2"
     ],
     "thema": 11,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> SBV-Mitglied, -er",
-    "german_audio": "die SBV-Mitglied, -er",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> SBV-Mitglied, -er",
+    "german_audio": "das SBV-Mitglied, -er",
     "english": "SBV member",
     "ukrainian": "член SBV",
     "example": "Als SBV-Mitglied **fordert er die vollständige Barrierefreiheit im Betrieb**."
@@ -32016,8 +31924,8 @@
       "B2"
     ],
     "thema": 11,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Hinweisgebersystem, -e",
-    "german_audio": "die Hinweisgebersystem",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Hinweisgebersystem, -e",
+    "german_audio": "das Hinweisgebersystem",
     "english": "whistleblowing system",
     "ukrainian": "система подачі скарг (викриття порушень)",
     "example": "Das neue <b style=\"color: #eab308;\">Hinweisgebersystem</b> **beugt kriminellem Fehlverhalten im Betrieb vor**."
@@ -32052,8 +31960,8 @@
       "B2"
     ],
     "thema": 11,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Beschwerdeverfahren, -",
-    "german_audio": "die Beschwerdeverfahren",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Beschwerdeverfahren, -",
+    "german_audio": "das Beschwerdeverfahren",
     "english": "complaint procedure",
     "ukrainian": "процедура розгляду скарг",
     "example": "Das <b style=\"color: #eab308;\">Beschwerdeverfahren</b> **ist in einer Betriebsvereinbarung genau geregelt**."
@@ -32213,18 +32121,6 @@
     "english": "citizen",
     "ukrainian": "громадянин",
     "example": "Die Kommunalverwaltung **ist für die Anliegen der <b style=\"color: #eab308;\">Bürger</b> zuständig**."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 12,
-    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Elterngeld (Sg.)",
-    "german_audio": "das Elterngeld",
-    "english": "parental allowance",
-    "ukrainian": "допомога на дитину (для батьків у декреті)",
-    "example": "Während der Elternzeit **kann man <b style=\"color: #eab308;\">Elterngeld</b> bei der zuständigen Stelle beantragen**."
   },
   {
     "level": "B2",
@@ -32453,18 +32349,6 @@
     "english": "to submit, to present",
     "ukrainian": "надавати, пред'являти",
     "example": "Sie müssen dem Personalverantwortlichen **ein ärztliches Attest <b style=\"color: #eab308;\">vorlegen</b>**."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 12,
-    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Wohngeld (Sg.)",
-    "german_audio": "das Wohngeld",
-    "english": "housing allowance",
-    "ukrainian": "допомога на оплату житла",
-    "example": "Bei geringem Einkommen **kann man einen Zuschuss in Form von <b style=\"color: #eab308;\">Wohngeld</b> beantragen**."
   },
   {
     "level": "B2",
@@ -33036,8 +32920,8 @@
       "B2"
     ],
     "thema": 12,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Einstiegsgeld (Sg.)",
-    "german_audio": "die Einstiegsgeld",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Einstiegsgeld (Sg.)",
+    "german_audio": "das Einstiegsgeld",
     "english": "starting grant / introductory subsidy (for taking a job)",
     "ukrainian": "допомога на первинне працевлаштування (Einstiegsgeld)",
     "example": "Das <b style=\"color: #eab308;\">Einstiegsgeld</b> **wird als Anreiz für die Aufnahme einer Beschäftigung gezahlt**."
@@ -33089,18 +32973,6 @@
     "english": "activation and placement voucher (AVGS)",
     "ukrainian": "ваучер на активацію та працевлаштування (AVGS)",
     "example": "Mit dem **<b style=\"color: #eab308;\">Aktivierungs-</b> und Vermittlungsgutschein** kann man die Dienste einer privaten Vermittlungsagentur nutzen."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 12,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Bildungsgutschein, -e",
-    "german_audio": "die Bildungsgutschein",
-    "english": "training voucher",
-    "ukrainian": "освітній ваучер (на навчання/курси)",
-    "example": "Ich habe einen <b style=\"color: #eab308;\">Bildungsgutschein</b> **für eine berufliche Weiterbildung erhalten**."
   },
   {
     "level": "B2",
@@ -33192,8 +33064,8 @@
       "B2"
     ],
     "thema": 12,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Versorgungsausgleich (Sg.)",
-    "german_audio": "die Versorgungsausgleich",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Versorgungsausgleich (Sg.)",
+    "german_audio": "der Versorgungsausgleich",
     "english": "equalization of pension points (in divorce)",
     "ukrainian": "вирівнювання пенсійних прав (при розлученні)",
     "example": "Der <b style=\"color: #eab308;\">Versorgungsausgleich</b> **wird vom Familiengericht von Amts wegen durchgeführt**."
@@ -33384,8 +33256,8 @@
       "B2"
     ],
     "thema": 12,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Blockmodell (Sg.)",
-    "german_audio": "die Blockmodell",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Blockmodell (Sg.)",
+    "german_audio": "das Blockmodell",
     "english": "block model (in partial retirement)",
     "ukrainian": "блочна модель (працюєш повний час, потім взагалі не працюєш)",
     "example": "Beim <b style=\"color: #eab308;\">Blockmodell</b> **wird die Altersteilzeit in eine Arbeits- und eine Freistellungsphase unterteilt**."

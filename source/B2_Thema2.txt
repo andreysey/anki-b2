@@ -135,7 +135,7 @@ die Dienstplanänderung, -en;duty roster change;зміна в графіку ч�
 der Urlaubsantrag, "-e;leave application;заява на відпустку;Der Urlaubsantrag **wurde vom Vorgesetzten bewilligt**.
 die Urlaubssperre, -n;leave embargo / holiday ban;заборона на відпустки;Während der Hauptsaison **gilt im Betrieb eine Urlaubssperre**.
 die Betriebsferien (Pl.);company holidays;загальнозаводська відпустка;Während der Betriebsferien **bleibt das gesamte Unternehmen geschlossen**.
-das Resturlaub, -e;remaining leave;невикористана відпустка;Der Resturlaub **muss bis zum 31. März des Folgejahres genommen werden**.
+der Resturlaub, -e;remaining leave;невикористана відпустка;Der Resturlaub **muss bis zum 31. März des Folgejahres genommen werden**.
 der Urlaubsübertrag, "-e;carry-over of leave;перенесення відпустки на наступний рік;Ein Urlaubsübertrag **ist nur in Ausnahmefällen zulässig**.
 die Urlaubsbescheinigung, -en;leave certificate;довідка про відпустку;Der neue Arbeitgeber **fordert eine Urlaubsbescheinigung vom bisherigen Betrieb**.
 der Erholungsurlaub (Sg.);recreational leave;основна відпустка;Der Erholungsurlaub **dient dem Erhalt der Gesundheit der Beschäftigten**.

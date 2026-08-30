@@ -8,7 +8,7 @@ die Ausbildung, -en;apprenticeship, vocational training;професійне н�
 auf|fallen (fällt auf, fiel auf, ist aufgefallen);to stand out, to be noticeable;впадати в око;Im Rahmen der Revision **ist sofort aufgefallen, dass Buchungsbelege im Jahresabschluss fehlen**.
 (eine Prüfung) bestehen (besteht, bestand, hat bestanden);to pass (an exam);скласти (іспит);Nach intensiver Prüfungsvorbereitung **hat der Auszubildende den Erstversuch mit Erfolg bestanden**.
 das Berufsinformationszentrum (BIZ);career information center;центр профорієнтації;Im **Berufsinformationszentrum** erhalten Berufseinsteiger nützliche Auskünfte über Umschulungsmaßnahmen.
-die Betrieb, -e;company, business;підприємство;Unser Betrieb **muss sich streng an die gesetzlichen Richtlinien des Arbeitsschutzes orientieren**.
+der Betrieb, -e;company, business;підприємство;Unser Betrieb **muss sich streng an die gesetzlichen Richtlinien des Arbeitsschutzes orientieren**.
 sich bewerben (bewirbt sich, bewarb sich, hat sich beworben);to apply;подавати заявку (на роботу);Ich möchte mich **um die ausgeschriebene Stelle in Ihrer IT-Abteilung bewerben**.
 jdn. ein|stellen (stellt ein, stellte ein, hat eingestellt);to hire someone;наймати когось;Die Geschäftsführung **beschließt, im nächsten Quartal drei neue Fachkräfte einzustellen**.
 das E-Learning (Sg.);e-learning;електронне навчання;<b>Ich bin der Meinung, dass</b> E-Learning eine hervorragende Alternative zum Präsenzunterricht darstellt.

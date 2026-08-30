@@ -11,7 +11,7 @@ import {
 describe('cleanGermanForAudio', () => {
   it('strips parentheses, alternatives, prefixes and formatting', () => {
     expect(cleanGermanForAudio('')).toBe('');
-    expect(cleanGermanForAudio('jdn. an|rufen (ruft an, rief an)')).toBe('an|rufen');
+    expect(cleanGermanForAudio('jdn. an|rufen (ruft an, rief an)')).toBe('anrufen');
     expect(cleanGermanForAudio('etw. kaufen/verkaufen')).toBe('kaufen');
     expect(cleanGermanForAudio('*das* Buch, -¨er')).toBe('das Buch');
   });

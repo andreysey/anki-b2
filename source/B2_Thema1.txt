@@ -60,7 +60,7 @@ etw. vermitteln (vermittelt, vermittelte, hat vermittelt);to convey, to impart, 
 zur Verfügung stehen;to be available;бути в розпорядженні, бути доступним;Die Schulungsunterlagen <b>stehen den Teilnehmenden im Intranet zur Verfügung</b>.
 die Abfallvermeidung (Sg.);waste prevention;уникнення відходів;<b>Umweltschutz steht im Vordergrund</b>, weshalb wir Maßnahmen zur Abfallvermeidung treffen.
 der Anschluss, "-e;connection;підключення, зв'язок;Ein schneller Internetanschluss **ist für die tägliche Büroarbeit unerlässlich**.
-die Bereich, -e;area, field, department;відділ, сфера;Frau Duda ist für den Bereich Kundenservice **zuständig**.
+der Bereich, -e;area, field, department;відділ, сфера;Frau Duda ist für den Bereich Kundenservice **zuständig**.
 die Betriebsbesichtigung, -en;company tour;екскурсія підприємством;Die Betriebsbesichtigung **gab uns einen guten Überblick über** die Produktionsabläufe.
 das Betriebsgelände (Sg.);company grounds;територія підприємства;Das Rauchen ist auf dem gesamten Betriebsgelände **unter Strafe gestellt**.
 etw. einführen (führt ein, führte ein, hat eingeführt);to introduce, to implement;впроваджувати, запроваджувати;Wir wollen im nächsten Quartal ein neues Zeiterfassungssystem <b>einführen</b>.

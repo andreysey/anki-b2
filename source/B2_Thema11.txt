@@ -127,16 +127,16 @@ die Filialleitung, -en;branch management / store management;керівництв
 der Geschäftsführer, - / die Geschäftsführerin, -nen;managing director;керівник фірми, комерційний директор;Der Geschäftsführer **unterzeichnete die Aufhebungsvereinbarung**.
 die Geschäftsführung, -en;management;керівництво підприємства;Die Geschäftsführung **trägt die Verantwortung für die Existenzsicherung des Betriebs**.
 der Vorstand, "-e;board of directors / executive board;правління (дирекція акціонерного товариства);Der Vorstand **ist für die Zukunftssicherung des Konzerns verantwortlich**.
-die Vorstandsmitglied, -er;board member;член правління;Die Vorstandsmitglieder **wurden vom Aufsichtsrat ernannt**.
+das Vorstandsmitglied, -er;board member;член правління;Die Vorstandsmitglieder **wurden vom Aufsichtsrat ernannt**.
 der Vorstandsvorsitzende, -n / die Vorstandsvorsitzende, -n;chairman of the board / CEO;голова правління (CEO);Der Vorstandsvorsitzende **präsentierte den Jahresabschluss auf der Hauptversammlung**.
 der CEO, -s;CEO;генеральний директор (CEO);Der CEO **betonte die Bedeutung der Innovationskraft für das Unternehmen**.
 der CFO, -s;CFO;фінансовий директор (CFO);Der CFO **berichtete über die Liquidität und die Steuerlast des Betriebs**.
 der COO, -s;COO;операційний директор (COO);Der COO **ist für die Optimierung der Produktionsabläufe zuständig**.
 der CTO, -s;CTO;технічний директор (CTO);Der CTO **entscheidet über Investitionen in innovative Software-Lösungen**.
 der Aufsichtsrat, "-e;supervisory board;наглядова рада;Der Aufsichtsrat **überwacht die Geschäftsführung des Vorstands**.
-der Aufsichtsratsmitglied, -er;supervisory board member;член наглядової ради;Als Aufsichtsratsmitglied **verfügt er über umfangreiche Kontrollrechte**.
+das Aufsichtsratsmitglied, -er;supervisory board member;член наглядової ради;Als Aufsichtsratsmitglied **verfügt er über umfangreiche Kontrollrechte**.
 der Aufsichtsratsvorsitzende, -n / die Aufsichtsratsvorsitzende, -n;chairman of the supervisory board;голова наглядової ради;Der Aufsichtsratsvorsitzende **leitete die Sitzung zur Fusionskontrolle**.
-die Aufsichtsratsmandat, -e;supervisory board mandate;мандат (місце) у наглядовій раді;Er hat ein weiteres Aufsichtsratsmandat **in der Finanzbranche übernommen**.
+das Aufsichtsratsmandat, -e;supervisory board mandate;мандат (місце) у наглядовій раді;Er hat ein weiteres Aufsichtsratsmandat **in der Finanzbranche übernommen**.
 der Gesellschafter, - / die Gesellschafterin, -nen;shareholder / partner;учасник товариства, компаньйон;Die Gesellschafter **haben die Erhöhung des Stammkapitals beschlossen**.
 die Gesellschafterversammlung, -en;shareholders' meeting;збори учасників товариства;Die Gesellschafterversammlung **ist das oberste Entscheidungsorgan der GmbH**.
 der Inhaber, - / die Inhaberin, -nen;owner / proprietor;власник, володілець;Der Inhaber **bedankt sich bei der Belegschaft für den Einsatz**.
@@ -154,13 +154,13 @@ die Tarifvertragspartei, -en;party to a collective agreement;сторона та
 die Gewerkschaftsfunktionär, -e / die Gewerkschaftsfunktionärin, -nen;union official;профспілковий діяч;Der Gewerkschaftsfunktionär **führte die Verhandlungen für die Arbeitnehmer**.
 der Betriebsrat, "-e;works council;виробнича рада (представницький орган);Der Betriebsrat **ist für die Einhaltung der Betriebsvereinbarungen zuständig**.
 der Betriebsratsvorsitzende, -n / die Betriebsratsvorsitzende, -n;chairman of the works council;голова виробничої ради;Der Betriebsratsvorsitzende **gibt dem Personalrat eine Stellungnahme ab**.
-die Personalrat, "-e;staff council (public sector);рада трудового колективу (у держсекторі);Der Personalrat **wirkt bei der Gestaltung der Arbeitsplätze mit**.
+der Personalrat, "-e;staff council (public sector);рада трудового колективу (у держсекторі);Der Personalrat **wirkt bei der Gestaltung der Arbeitsplätze mit**.
 die Personalratsvorsitzende, -n / die Personalratsvorsitzende, -n;chairman of the staff council;голова ради трудового колективу;Die Personalratsvorsitzende **überwacht die Einhaltung der Arbeitsgesetze**.
 die Jugend- und Auszubildendenvertretung (JAV), -en;youth and apprentice representative body (JAV);представництво молоді та учнів на виробництві (JAV);Die JAV **arbeitet eng mit dem Betriebsrat zusammen**.
-die JAV-Mitglied, -er;JAV member;член JAV;Als JAV-Mitglied **setzt er sich für eine qualitativ hochwertige Ausbildung ein**.
+das JAV-Mitglied, -er;JAV member;член JAV;Als JAV-Mitglied **setzt er sich für eine qualitativ hochwertige Ausbildung ein**.
 die JAV-Vorsitzende, -n;chairwoman/chairman of the JAV;голова JAV;Die JAV-Vorsitzende nimmt an den Sitzungen des Betriebsrats teil.
 die Schwerbehindertenvertretung (SBV), -en;representative body for severely disabled employees;представництво інвалідинків на виробництві (SBV);Die SBV **wurde bei der Arbeitsplatzanpassung einbezogen**.
-die SBV-Mitglied, -er;SBV member;член SBV;Als SBV-Mitglied **fordert er die vollständige Barrierefreiheit im Betrieb**.
+das SBV-Mitglied, -er;SBV member;член SBV;Als SBV-Mitglied **fordert er die vollständige Barrierefreiheit im Betrieb**.
 die SBV-Vorsitzende, -n;chairwoman/chairman of the SBV;голова SBV;Die SBV-Vorsitzende berät Arbeitgeber beim Gesundheitsschutz.
 der Gleichstellungsbeauftragte, -n / die Gleichstellungsbeauftragte, -n;equal opportunities officer;уповноважений з питань гендерної рівності;Die Gleichstellungsbeauftragte **achtet auf die Chancengleichheit bei Beförderungen**.
 der Frauenbeauftragte, -n / die Frauenbeauftragte, -n;women's representative;уповноважена у справах жінок;Die Frauenbeauftragte **unterstützt Frauen beim beruflichen Aufstieg**.
@@ -175,10 +175,10 @@ der Ombudsmann, "-er / die Ombudsfrau, -en;ombudsperson;омбудсмен (не
 die Ombudsstelle, -n;ombuds office;служба омбудсмена;Die Ombudsstelle **garantiert eine absolut vertrauliche Bearbeitung aller Hinweise**.
 der Whistleblower, - / die Whistleblowerin, -nen;whistleblower;інформатор, викривач;Das Hinweisgeberschutzgesetz **schützt den Whistleblower vor Kündigung**.
 die Hinweisgeber, - / die Hinweisgeberin, -nen;informer / whistleblower;інформатор (викривач);Der Hinweisgeber **meldete einen schweren Pflichtverstoß in der Chefetage**.
-die Hinweisgebersystem, -e;whistleblowing system;система подачі скарг (викриття порушень);Das neue Hinweisgebersystem **beugt kriminellem Fehlverhalten im Betrieb vor**.
+das Hinweisgebersystem, -e;whistleblowing system;система подачі скарг (викриття порушень);Das neue Hinweisgebersystem **beugt kriminellem Fehlverhalten im Betrieb vor**.
 die Meldestelle, -n;reporting office;пункт (орган) реєстрації порушень;Die interne Meldestelle **nimmt Hinweise auf Steuerhinterziehung entgegen**.
 die Beschwerdestelle, -n;complaint office / grievance committee;відділ скарг;Laut KSchG **kann sich der Arbeitnehmer bei der Beschwerdestelle beschweren**.
 die Beschwerde, -n;complaint / grievance;скарга;Die Beschwerde **wurde vom Betriebsrat als berechtigt anerkannt**.
-die Beschwerdeverfahren, -;complaint procedure;процедура розгляду скарг;Das Beschwerdeverfahren **ist in einer Betriebsvereinbarung genau geregelt**.
+das Beschwerdeverfahren, -;complaint procedure;процедура розгляду скарг;Das Beschwerdeverfahren **ist in einer Betriebsvereinbarung genau geregelt**.
 die Abhilfemaßnahme, -n;remedial measure;заходи з усунення недоліків (допомога);Der Arbeitgeber **ist verpflichtet, wirksame Abhilfemaßnahmen zu ergreifen**.
 die Abhilfe (Sg.);remedy / redress;допомога, зарада, усунення порушення;Bei berechtigten Beschwerden **muss die Geschäftsführung Abhilfe schaffen**.
