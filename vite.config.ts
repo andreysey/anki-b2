@@ -10,7 +10,7 @@ export default defineConfig({
   base: '/anki-b2/',
   resolve: {
     alias: {
-      '@': path.resolve(__dirname, './src')
+      '@': path.resolve(import.meta.dirname, './src')
     }
   },
   define: {
