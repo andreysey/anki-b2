@@ -9,6 +9,7 @@ import { useKeyboardShortcuts } from './composables/useKeyboardShortcuts';
 // UI Components
 import { Button } from './components/ui/button';
 import { Toaster, toast } from './components/ui/sonner';
+import { Popover, PopoverTrigger, PopoverContent } from './components/ui/popover';
 import {
   BookOpen,
   Sun,
@@ -20,8 +21,7 @@ import {
   BarChart3,
   Loader2,
   AlertTriangle,
-  Volume2,
-  ChevronDown
+  Volume2
 } from 'lucide-vue-next';
 
 // App Components
@@ -35,7 +35,6 @@ import AISettingsDialog from './components/AISettingsDialog.vue';
 const DashboardView = defineAsyncComponent(() => import('./components/DashboardView.vue'));
 
 const mainContentRef = ref<HTMLElement | null>(null);
-const isAudioPanelOpen = ref(false);
 const appVersion = typeof __APP_VERSION__ !== 'undefined' ? __APP_VERSION__ : '1.18.0';
 
 // Domain State from Composables
@@ -233,6 +232,55 @@ watch(
 
           <!-- Utility Actions (Mobile only) -->
           <div class="flex md:hidden items-center gap-1.5">
+            <!-- Audio Settings Popover (Mobile) -->
+            <Popover>
+              <PopoverTrigger as-child>
+                <Button
+                  id="btn-audio-settings-mobile"
+                  variant="ghost"
+                  size="icon-sm"
+                  title="Speech & Audio Preferences"
+                  class="rounded-full text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100"
+                >
+                  <Volume2 class="h-4 w-4" />
+                </Button>
+              </PopoverTrigger>
+              <PopoverContent class="w-80 p-4 space-y-4" align="end">
+                <div class="flex items-center gap-2 pb-2 border-b border-slate-200/80 dark:border-white/10">
+                  <Volume2 class="h-4 w-4 text-primary" />
+                  <span class="text-xs font-bold text-slate-800 dark:text-slate-200">Speech & Audio Preferences</span>
+                </div>
+                <div class="space-y-2">
+                  <span class="text-[11px] font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">
+                    German Voice Engine
+                  </span>
+                  <select
+                    v-model="selectedVoiceURI"
+                    class="w-full bg-slate-50 dark:bg-black/40 border border-slate-200 dark:border-white/10 text-slate-800 dark:text-slate-100 rounded-xl p-2 text-xs outline-none focus:border-primary"
+                  >
+                    <option v-for="voice in germanVoices" :key="voice.voiceURI" :value="voice.voiceURI">
+                      {{ voice.name }} ({{ voice.lang }})
+                    </option>
+                  </select>
+                </div>
+                <div class="space-y-2">
+                  <div class="flex justify-between items-center text-[11px] font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">
+                    <span>Speech Rate</span>
+                    <span class="font-mono text-primary">{{ ttsRate }}x</span>
+                  </div>
+                  <input
+                    type="range"
+                    min="0.5"
+                    max="1.5"
+                    step="0.05"
+                    v-model.number="ttsRate"
+                    class="w-full h-2 bg-slate-300 dark:bg-white/20 rounded-lg cursor-pointer accent-primary block"
+                    style="appearance: auto; -webkit-appearance: auto"
+                  />
+                </div>
+              </PopoverContent>
+            </Popover>
+
             <Button
               id="btn-theme-toggle-mobile"
               variant="ghost"
@@ -305,6 +353,55 @@ watch(
 
         <!-- Right: Window Utility Actions (Desktop only) -->
         <div class="hidden md:flex items-center gap-2 justify-end">
+          <!-- Audio Settings Popover (Desktop) -->
+          <Popover>
+            <PopoverTrigger as-child>
+              <Button
+                id="btn-audio-settings"
+                variant="ghost"
+                size="icon"
+                title="Speech & Audio Preferences"
+                class="rounded-full text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100"
+              >
+                <Volume2 class="h-4 w-4" />
+              </Button>
+            </PopoverTrigger>
+            <PopoverContent class="w-80 p-4 space-y-4" align="end">
+              <div class="flex items-center gap-2 pb-2 border-b border-slate-200/80 dark:border-white/10">
+                <Volume2 class="h-4 w-4 text-primary" />
+                <span class="text-xs font-bold text-slate-800 dark:text-slate-200">Speech & Audio Preferences</span>
+              </div>
+              <div class="space-y-2">
+                <span class="text-[11px] font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">
+                  German Voice Engine
+                </span>
+                <select
+                  v-model="selectedVoiceURI"
+                  class="w-full bg-slate-50 dark:bg-black/40 border border-slate-200 dark:border-white/10 text-slate-800 dark:text-slate-100 rounded-xl p-2 text-xs sm:text-sm outline-none focus:border-primary"
+                >
+                  <option v-for="voice in germanVoices" :key="voice.voiceURI" :value="voice.voiceURI">
+                    {{ voice.name }} ({{ voice.lang }})
+                  </option>
+                </select>
+              </div>
+              <div class="space-y-2">
+                <div class="flex justify-between items-center text-[11px] font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">
+                  <span>Speech Rate</span>
+                  <span class="font-mono text-primary">{{ ttsRate }}x</span>
+                </div>
+                <input
+                  type="range"
+                  min="0.5"
+                  max="1.5"
+                  step="0.05"
+                  v-model.number="ttsRate"
+                  class="w-full h-2 bg-slate-300 dark:bg-white/20 rounded-lg cursor-pointer accent-primary block"
+                  style="appearance: auto; -webkit-appearance: auto"
+                />
+              </div>
+            </PopoverContent>
+          </Popover>
+
           <Button
             id="btn-theme-toggle"
             variant="ghost"
@@ -355,63 +452,6 @@ watch(
           :isStudyMode="isStudyMode"
           @update:isStudyMode="activeView = $event ? 'study' : 'list'"
         />
-
-        <!-- Audio Settings Collapsible Panel -->
-        <div
-          v-if="activeView === 'list'"
-          class="rounded-2xl border border-slate-200/80 dark:border-white/10 bg-white/70 dark:bg-slate-900/70 overflow-hidden shadow-xs"
-        >
-          <button
-            type="button"
-            @click="isAudioPanelOpen = !isAudioPanelOpen"
-            class="w-full flex items-center justify-between p-3.5 sm:p-4 text-xs font-bold text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-white/5 transition-colors cursor-pointer"
-          >
-            <div class="flex items-center gap-2">
-              <Volume2 class="h-4 w-4 text-primary-500" />
-              <span>Speech & Audio Preferences</span>
-            </div>
-            <ChevronDown
-              :class="[
-                'h-4 w-4 text-slate-400 transition-transform duration-200',
-                isAudioPanelOpen ? 'rotate-180' : ''
-              ]"
-            />
-          </button>
-
-          <div v-show="isAudioPanelOpen" class="grid grid-cols-1 md:grid-cols-2 gap-6 p-5 border-t border-slate-200/80 dark:border-white/10">
-            <div class="flex flex-col gap-2">
-              <span
-                class="text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400"
-              >
-                German Voice Engine
-              </span>
-              <select
-                v-model="selectedVoiceURI"
-                class="w-full bg-slate-50 dark:bg-black/40 border border-slate-200 dark:border-white/10 text-slate-800 dark:text-slate-100 rounded-xl p-2.5 text-xs sm:text-sm outline-none focus:border-primary-500"
-              >
-                <option v-for="voice in germanVoices" :key="voice.voiceURI" :value="voice.voiceURI">
-                  {{ voice.name }} ({{ voice.lang }})
-                </option>
-              </select>
-            </div>
-            <div class="flex flex-col gap-2 justify-center min-h-15">
-              <span
-                class="text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400"
-              >
-                Speech Rate ({{ ttsRate }}x)
-              </span>
-              <input
-                type="range"
-                min="0.5"
-                max="1.5"
-                step="0.05"
-                v-model.number="ttsRate"
-                class="w-full h-2 bg-slate-300 dark:bg-white/20 rounded-lg cursor-pointer accent-primary-500 block"
-                style="appearance: auto; -webkit-appearance: auto"
-              />
-            </div>
-          </div>
-        </div>
 
         <!-- Dashboard View -->
         <DashboardView
