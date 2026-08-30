@@ -2,11 +2,17 @@ import { defineConfig } from 'vitest/config';
 import vue from '@vitejs/plugin-vue';
 import tailwindcss from '@tailwindcss/vite';
 import { VitePWA } from 'vite-plugin-pwa';
+import path from 'node:path';
 import { version } from './package.json' with { type: 'json' };
 
 // https://vite.dev/config/
 export default defineConfig({
   base: '/anki-b2/',
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, './src')
+    }
+  },
   define: {
     __APP_VERSION__: JSON.stringify(version)
   },
