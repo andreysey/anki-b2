@@ -60,7 +60,7 @@ export const getAvailableLocalModels = async (): Promise<LocalModelOption[]> => 
         id.includes('Math') ||
         id.includes('-1k');
 
-      // Only modern lightweight architectures
+      // Only modern stable lightweight architectures (excluding experimental broken wasm binaries)
       const isModern =
         id.startsWith('Llama-3.2-1B') ||
         id.startsWith('Llama-3.2-3B') ||
@@ -68,9 +68,6 @@ export const getAvailableLocalModels = async (): Promise<LocalModelOption[]> => 
         id.startsWith('Qwen2.5-1.5B') ||
         id.startsWith('Qwen3-0.6B') ||
         id.startsWith('Qwen3.5-0.8B') ||
-        id.startsWith('gemma4') ||
-        id.startsWith('gemma-4') ||
-        id.startsWith('gemma3-1b') ||
         id.startsWith('gemma-2-2b') ||
         id.startsWith('Phi-4-mini') ||
         id.startsWith('SmolLM2-360M') ||
@@ -159,14 +156,36 @@ export const getWebLLMEngine = async (modelId?: string): Promise<MLCEngineInterf
   modelError.value = null;
 
   try {
-    const { CreateMLCEngine } = await import('@mlc-ai/web-llm');
+    const { MLCEngine, prebuiltAppConfig } = await import('@mlc-ai/web-llm');
 
-    engineInstance = await CreateMLCEngine(targetModel, {
+    // Fix upstream WebLLM config conflict where Gemma 3 defines both positive context_window and sliding_window
+    const customAppConfig = {
+      ...prebuiltAppConfig,
+      model_list: prebuiltAppConfig.model_list.map((m) => {
+        if (m.model_id.includes('gemma3-1b')) {
+          return {
+            ...m,
+            overrides: {
+              ...m.overrides,
+              sliding_window_size: -1
+            }
+          };
+        }
+        return m;
+      })
+    };
+
+    const engine = new MLCEngine({
+      appConfig: customAppConfig,
       initProgressCallback: (report) => {
         modelLoadingProgress.value = Math.round(report.progress * 100);
         modelLoadingText.value = report.text;
       }
     });
+
+    const chatOpts = targetModel.includes('gemma3-1b') ? { sliding_window_size: -1 } : undefined;
+    await engine.reload(targetModel, chatOpts);
+    engineInstance = engine;
 
     isModelReady.value = true;
     return engineInstance;
