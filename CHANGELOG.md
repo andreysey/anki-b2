@@ -1,3 +1,10 @@
+# [1.31.0](https://github.com/andreysey/anki-b2/compare/v1.30.0...v1.31.0) (2026-08-30)
+
+
+### Features
+
+* implement system-aware dark mode theme persistence in document head ([8f241fc](https://github.com/andreysey/anki-b2/commit/8f241fcb0ca161ef3a0d8d20968164ac51b789ab))
+
 # [1.30.0](https://github.com/andreysey/anki-b2/compare/v1.29.0...v1.30.0) (2026-08-30)
 
 
