@@ -1,3 +1,10 @@
+# [1.33.0](https://github.com/andreysey/anki-b2/compare/v1.32.0...v1.33.0) (2026-08-30)
+
+
+### Features
+
+* abstract on-device AI engine access to support W3C Prompt API and global assistant interfaces ([9a5b96a](https://github.com/andreysey/anki-b2/commit/9a5b96ad0d3a4f6aaec6e6d170208479ec764902))
+
 # [1.32.0](https://github.com/andreysey/anki-b2/compare/v1.31.0...v1.32.0) (2026-08-30)
 
 
