@@ -1,3 +1,10 @@
+# [1.34.0](https://github.com/andreysey/anki-b2/compare/v1.33.0...v1.34.0) (2026-08-30)
+
+
+### Features
+
+* add functionality to remove stored API key in settings dialog ([96cb22f](https://github.com/andreysey/anki-b2/commit/96cb22f1da58ecc5d65ea34f954993dce9e7e9ad))
+
 # [1.33.0](https://github.com/andreysey/anki-b2/compare/v1.32.0...v1.33.0) (2026-08-30)
 
 
