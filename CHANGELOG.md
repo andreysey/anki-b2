@@ -1,3 +1,10 @@
+# [1.32.0](https://github.com/andreysey/anki-b2/compare/v1.31.0...v1.32.0) (2026-08-30)
+
+
+### Features
+
+* add umlaut-tolerant search, SEO metadata, CI test step, and clean up legacy files. ([69067da](https://github.com/andreysey/anki-b2/commit/69067da00f215c9c2b1c61f67d24e71013b72f4a))
+
 # [1.31.0](https://github.com/andreysey/anki-b2/compare/v1.30.0...v1.31.0) (2026-08-30)
 
 
