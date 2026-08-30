@@ -1,3 +1,10 @@
+## [1.35.1](https://github.com/andreysey/anki-b2/compare/v1.35.0...v1.35.1) (2026-08-30)
+
+
+### Bug Fixes
+
+* filter unstable Gemma models and patch Gemma 3 sliding window configuration in WebLLM engine initialization ([5993e22](https://github.com/andreysey/anki-b2/commit/5993e2267fb4efa6c123545386add83dd1604d84))
+
 # [1.35.0](https://github.com/andreysey/anki-b2/compare/v1.34.0...v1.35.0) (2026-08-30)
 
 
