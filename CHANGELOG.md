@@ -1,3 +1,10 @@
+# [1.28.0](https://github.com/andreysey/anki-b2/compare/v1.27.0...v1.28.0) (2026-08-30)
+
+
+### Features
+
+* add shadcn-vue MCP server configuration ([ed87eea](https://github.com/andreysey/anki-b2/commit/ed87eea74bae8d3b09279e79aedab2360d5218b6))
+
 # [1.27.0](https://github.com/andreysey/anki-b2/compare/v1.26.0...v1.27.0) (2026-08-30)
 
 
