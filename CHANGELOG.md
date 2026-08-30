@@ -1,3 +1,10 @@
+# [1.35.0](https://github.com/andreysey/anki-b2/compare/v1.34.0...v1.35.0) (2026-08-30)
+
+
+### Features
+
+* integrate WebLLM for local WebGPU-based AI model execution and management in settings ([2d3ba8f](https://github.com/andreysey/anki-b2/commit/2d3ba8fc27e044dcb675d4426759580bcc942713))
+
 # [1.34.0](https://github.com/andreysey/anki-b2/compare/v1.33.0...v1.34.0) (2026-08-30)
 
 
