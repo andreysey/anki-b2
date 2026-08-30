@@ -71,6 +71,20 @@ export function cleanGermanForAudio(text: string): string {
   return result;
 }
 
+export function cleanEnglishForAudio(text: string): string {
+  if (!text) return '';
+  let t = text.replace(RE_PARENS, '');
+  t = t.replace(/[*_]/g, '');
+  // Take first alternative before slash or comma for natural speech playback
+  if (t.includes('/')) {
+    t = t.split('/')[0];
+  }
+  if (t.includes(',')) {
+    t = t.split(',')[0];
+  }
+  return t.trim();
+}
+
 export function cleanExampleForAudio(text: string): string {
   if (!text) return '';
   const cached = cleanExampleCache.get(text);
@@ -288,6 +302,11 @@ export function highlightWordInExample(
       }
     }
   }
+
+  // Strip any remaining markdown bold asterisks so Anki and web view render clean HTML
+  highlightedExample = highlightedExample.replace(/\*\*/g, '');
+  // Clean potential nested <b> tags if example already had <b>
+  highlightedExample = highlightedExample.replace(/<b>\s*(<b[^>]*>.*?<\/b>)\s*<\/b>/g, '$1');
 
   highlightWordCache.set(cacheKey, highlightedExample);
   return highlightedExample;

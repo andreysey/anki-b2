@@ -1,6 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import {
   cleanGermanForAudio,
+  cleanEnglishForAudio,
   cleanExampleForAudio,
   colorizeGender,
   highlightWordInExample,
@@ -40,6 +41,16 @@ describe('cleanGermanForAudio', () => {
     );
     expect(cleanGermanForAudio('das Praktikum, Praktika')).toBe('das Praktikum');
     expect(cleanGermanForAudio('Ja, das passt / das geht. Einverstanden.')).toBe('Ja, das passt');
+  });
+});
+
+describe('cleanEnglishForAudio', () => {
+  it('strips slashes, commas, parentheses and formatting for clean speech', () => {
+    expect(cleanEnglishForAudio('')).toBe('');
+    expect(cleanEnglishForAudio('to agree on / coordinate')).toBe('to agree on');
+    expect(cleanEnglishForAudio('to dispatch, to process, to handle')).toBe('to dispatch');
+    expect(cleanEnglishForAudio('to plan to do sth. (resolves, resolved)')).toBe('to plan to do sth.');
+    expect(cleanEnglishForAudio('*decision* / resolution')).toBe('decision');
   });
 });
 
@@ -91,6 +102,14 @@ describe('highlightWordInExample', () => {
     const example = 'Er arbeitet als Chefrentenberater.';
     const highlighted = highlightWordInExample(cleanGerman, example);
     expect(highlighted).toContain('<b style="color: #eab308;">Chefrentenberater</b>');
+  });
+
+  it('strips markdown asterisks around highlighted words and phrases', () => {
+    const cleanGerman = 'anfordern';
+    const example = 'Wir möchten das Angebot **anfordern**.';
+    const highlighted = highlightWordInExample(cleanGerman, example);
+    expect(highlighted).toBe('Wir möchten das Angebot <b style="color: #eab308;">anfordern</b>.');
+    expect(highlighted).not.toContain('**');
   });
 });
 

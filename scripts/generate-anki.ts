@@ -10,6 +10,7 @@ import fs from 'fs';
 import path from 'path';
 import {
   cleanGermanForAudio,
+  cleanEnglishForAudio,
   cleanExampleForAudio,
   colorizeGender,
   highlightWordInExample,
@@ -236,21 +237,23 @@ export async function generateAnkiDeck(
       totalEntries++;
       const currentNoteIndex = noteIndex++;
 
+      const levelTag = level.replace('+', 'plus');
+
       const note = new SequentialNote({
         customId: deckId * 1000000 + currentNoteIndex,
-        guid: (BigInt(deckId) * 10000n + BigInt(currentNoteIndex)).toString(),
+        guid: (BigInt(deckId) * 1000000n + BigInt(currentNoteIndex)).toString(),
         modelId: MODEL_ID,
         fields: [
           germanColored, // German
           wordAudio, // German_Audio (clean, for TTS)
           english, // English
-          english, // English_Audio
+          cleanEnglishForAudio(english), // English_Audio (clean, without slash/alternative clutter for TTS)
           ukrainian, // Ukrainian
-          exampleHtml, // Example (with <b> highlight)
+          exampleHtml, // Example (clean HTML with <b> highlight)
           cleanExampleForAudio(exampleRaw), // Example_Audio (clean plain text without asterisks/tags, for TTS)
           entryTag // Tags
         ],
-        tags: [level, `Thema${thema}`]
+        tags: [levelTag, `Thema${thema}`]
       });
 
       if (!seen.has(wordDisplay)) {
