@@ -1,10 +1,10 @@
 /**
- * utils.ts — port of Rust src/utils.rs + filename helpers
+ * utils.ts — Vocabulary processing, audio cleaning, gender coloring, and highlighting utilities.
  */
 
 import { THEMA_NUMBERS } from '../src/constants/themas.js';
 
-// Regex equivalents of Rust's RE_PARENS, RE_THEMA and grammar prefix patterns
+// Regex patterns for parenthetical notes, themas, articles, and grammar prefixes
 const RE_PARENS = /\s*\(.*?\)/g;
 const RE_THEMA = /Thema(\d+)/;
 const RE_ARTICLES = /^(der|die|das)\/(die|der|das)\s+/i;
@@ -29,9 +29,9 @@ const getCompiledRegex = (patternStr: string, flags: string): RegExp => {
 };
 
 /**
- * Port of Rust: clean_german_for_audio
- * Strips parenthetical notes, takes first comma/slash alternative,
- * and removes grammatical prefixes like "jdn." / "etw." / "etw./jdn." / "jdm. etw."
+ * Cleans German terms for TTS/audio playback:
+ * Strips parenthetical notes, pipes, takes first comma/slash alternative,
+ * and removes grammatical placeholders like "jdn." / "etw." / "etw./jdn." / "jdm. etw."
  */
 export function cleanGermanForAudio(text: string): string {
   if (!text) return '';
@@ -88,8 +88,7 @@ export function cleanExampleForAudio(text: string): string {
 }
 
 /**
- * Port of Rust: colorize_gender
- * Wraps der/die/das article in a colored <span>.
+ * Wraps der/die/das article in a colored <span> for visual learning.
  */
 export function colorizeGender(german: string): string {
   if (!german) return '';
@@ -109,8 +108,7 @@ export function colorizeGender(german: string): string {
 }
 
 /**
- * Port of Rust: highlight_word_in_example
- * Highlights the main word (or its declined form) in the example sentence.
+ * Highlights the main word (or its declined/conjugated form) in the example sentence.
  */
 export function highlightWordInExample(
   cleanGerman: string,
@@ -296,7 +294,6 @@ export function highlightWordInExample(
 }
 
 /**
- * Port of Rust: get_num (builder.rs)
  * Extracts Thema number from filename using THEMA_NUMBERS constants.
  */
 export function getThemaNum(filename: string): number {

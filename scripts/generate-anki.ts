@@ -1,5 +1,5 @@
 /**
- * generate-anki.ts — Port of Rust src/builder.rs::generate_decks()
+ * generate-anki.ts — Anki Deck and Package Generator
  *
  * Reads source .txt files directly (not data.json) and generates .apkg files.
  * Called from generate-all-anki.ts.
@@ -17,7 +17,7 @@ import {
   getLevelFromFilename
 } from './utils.js';
 
-// MODEL_ID matches Rust exactly
+// Stable Note Model ID
 const MODEL_ID = 1607392319;
 
 const model = new Model({
@@ -162,7 +162,7 @@ export interface GenerateResult {
 }
 
 /**
- * Port of Rust builder.rs::generate_decks() for Anki output.
+ * Generates Anki deck (.apkg) from raw source vocabulary files.
  *
  * @param files     Absolute paths to source .txt files
  * @param baseName  "B1plus" | "B2" | "B1plus_B2"
@@ -196,7 +196,7 @@ export async function generateAnkiDeck(
     for (const [lineIdx, rawLine] of content.split('\n').entries()) {
       const line = rawLine.trim();
 
-      // Skip header comments and empty lines (same as Rust)
+      // Skip header comments and empty lines
       if (!line || line.startsWith('#')) continue;
 
       const parts = line.split(';').map((s) => s.trim());
