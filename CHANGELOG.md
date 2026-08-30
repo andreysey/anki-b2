@@ -1,3 +1,10 @@
+# [1.25.0](https://github.com/andreysey/anki-b2/compare/v1.24.0...v1.25.0) (2026-08-30)
+
+
+### Features
+
+* configure path aliases and shadcn-vue initialization settings ([69ef2c4](https://github.com/andreysey/anki-b2/commit/69ef2c4ffd3c68e7983c925f60f42bcb165807d3))
+
 # [1.24.0](https://github.com/andreysey/anki-b2/compare/v1.23.0...v1.24.0) (2026-08-30)
 
 
