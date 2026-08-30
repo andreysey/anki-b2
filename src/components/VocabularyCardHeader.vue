@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import Button from 'primevue/button';
+import { Button } from './ui/button';
+import { Check } from 'lucide-vue-next';
 import type { Word } from '../types';
 import { getThemaLabel } from '../utils/thema';
 
@@ -21,22 +22,21 @@ const emit = defineEmits<{
         {{ word.level }}
       </span>
       <span
-        class="inline-flex items-center px-2.5 py-0.5 rounded-md text-[11px] font-medium bg-slate-100/90 text-slate-700 border border-slate-200/80 dark:bg-white/10 dark:text-slate-300 dark:border-white/10 shadow-2xs max-w-[220px] truncate"
+        class="inline-flex items-center px-2.5 py-0.5 rounded-md text-[11px] font-medium bg-slate-100/90 text-slate-700 border border-slate-200/80 dark:bg-white/10 dark:text-slate-300 dark:border-white/10 shadow-2xs max-w-55 truncate"
         :title="getThemaLabel(word.thema)"
       >
         {{ getThemaLabel(word.thema) }}
       </span>
     </div>
     <Button
-      icon="pi pi-check"
-      rounded
-      text
-      severity="success"
-      size="small"
+      variant="ghost"
+      size="icon-sm"
       aria-label="Mark as Mastered"
       @click.stop="emit('toggle-mastered', word)"
       title="Mark as Mastered"
-      class="hover:bg-green-500/15 active:scale-95 transition-transform shrink-0"
-    />
+      class="text-emerald-600 dark:text-emerald-400 hover:bg-emerald-500/15 rounded-full shrink-0"
+    >
+      <Check class="h-4 w-4" />
+    </Button>
   </div>
 </template>

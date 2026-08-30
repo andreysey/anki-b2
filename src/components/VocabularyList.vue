@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import Button from 'primevue/button';
-import Divider from 'primevue/divider';
+import { Button } from './ui/button';
+import { Check, Volume2, ChevronDown } from 'lucide-vue-next';
 import type { Word } from '../types';
 import { sanitizeHtml } from '../utils/sanitize';
 import { getThemaLabel } from '../utils/thema';
@@ -34,7 +34,7 @@ const emit = defineEmits<{
             {{ item.level }}
           </span>
           <span
-            class="inline-flex items-center px-2 py-0.5 rounded-md text-[10px] font-medium bg-slate-100/90 text-slate-700 border border-slate-200/80 dark:bg-white/10 dark:text-slate-300 dark:border-white/10 max-w-[170px] truncate"
+            class="inline-flex items-center px-2 py-0.5 rounded-md text-[10px] font-medium bg-slate-100/90 text-slate-700 border border-slate-200/80 dark:bg-white/10 dark:text-slate-300 dark:border-white/10 max-w-42.5 truncate"
             :title="getThemaLabel(item.thema)"
           >
             {{ getThemaLabel(item.thema) }}
@@ -50,24 +50,23 @@ const emit = defineEmits<{
             ></div>
             <div class="flex items-center gap-1 shrink-0">
               <Button
-                icon="pi pi-check"
-                rounded
-                text
-                severity="success"
-                size="small"
+                variant="ghost"
+                size="icon-sm"
                 @click.stop="emit('toggle-mastered', item)"
                 title="Mark as Mastered"
-                class="hover:bg-green-500/15 !w-7 !h-7"
-              />
+                class="rounded-full w-7 h-7 text-emerald-600 dark:text-emerald-400 hover:bg-emerald-500/15"
+              >
+                <Check class="h-3.5 w-3.5" />
+              </Button>
               <Button
-                icon="pi pi-volume-up"
-                rounded
-                text
-                size="small"
+                variant="ghost"
+                size="icon-sm"
                 @click.stop="emit('play-audio', item.german_audio || item.german)"
                 title="Play pronunciation"
-                class="hover:bg-primary-500/15 text-primary-600 dark:text-primary-400 !w-7 !h-7"
-              />
+                class="rounded-full w-7 h-7 text-primary-600 dark:text-primary-400 hover:bg-primary-500/15"
+              >
+                <Volume2 class="h-3.5 w-3.5" />
+              </Button>
             </div>
           </div>
           <div class="space-y-0.5 text-xs sm:text-sm">
@@ -79,7 +78,7 @@ const emit = defineEmits<{
             </div>
           </div>
           <template v-if="item.example">
-            <Divider class="!my-2" />
+            <div class="h-px bg-slate-200/80 dark:bg-slate-800 my-2"></div>
             <div
               class="flex items-center justify-between gap-2 p-2 rounded-xl bg-slate-50 dark:bg-white/5 border border-slate-200/60 dark:border-white/5"
             >
@@ -88,15 +87,14 @@ const emit = defineEmits<{
                 v-html="sanitizeHtml(item.example)"
               ></div>
               <Button
-                icon="pi pi-volume-up"
-                rounded
-                text
-                severity="secondary"
-                size="small"
-                class="shrink-0 hover:bg-slate-200/60 dark:hover:bg-white/10 text-slate-600 dark:text-slate-300 !w-6 !h-6"
+                variant="ghost"
+                size="icon-sm"
+                class="shrink-0 hover:bg-slate-200/60 dark:hover:bg-white/10 text-slate-600 dark:text-slate-300 w-6 h-6 rounded-full"
                 @click.stop="emit('play-audio', item.example)"
                 title="Play example"
-              />
+              >
+                <Volume2 class="h-3 w-3" />
+              </Button>
             </div>
           </template>
         </div>
@@ -106,13 +104,14 @@ const emit = defineEmits<{
     <!-- Explore More Vocabulary Button -->
     <div v-if="displayLimit < vocabulary.length" class="flex justify-center pb-4">
       <Button
-        label="Explore More Vocabulary"
-        icon="pi pi-chevron-down"
-        size="small"
+        variant="outline"
+        size="sm"
         @click="emit('load-more')"
-        outlined
-        class="!rounded-full px-5 py-2 shadow-xs active:scale-95 transition-all text-xs font-semibold"
-      />
+        class="rounded-full px-5 py-2 shadow-xs active:scale-95 transition-all text-xs font-semibold"
+      >
+        <ChevronDown class="h-3.5 w-3.5" />
+        <span>Explore More Vocabulary</span>
+      </Button>
     </div>
   </div>
 </template>

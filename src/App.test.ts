@@ -26,10 +26,16 @@ const mockWords: Word[] = [
   }
 ];
 
-vi.mock('primevue/usetoast', () => ({
-  useToast: () => ({
-    add: vi.fn()
-  })
+vi.mock('vue-sonner', () => ({
+  toast: {
+    success: vi.fn(),
+    error: vi.fn(),
+    warning: vi.fn(),
+    info: vi.fn()
+  },
+  Toaster: {
+    template: '<div><slot /></div>'
+  }
 }));
 
 describe('App.vue', () => {
@@ -43,13 +49,7 @@ describe('App.vue', () => {
   });
 
   it('renders application title and navigation options', async () => {
-    const wrapper = mount(App, {
-      global: {
-        stubs: {
-          Toast: true
-        }
-      }
-    });
+    const wrapper = mount(App);
 
     // Wait for init
     await new Promise((resolve) => setTimeout(resolve, 50));
@@ -60,13 +60,7 @@ describe('App.vue', () => {
   });
 
   it('handles global keydown event in study mode for Space (flip)', async () => {
-    const wrapper = mount(App, {
-      global: {
-        stubs: {
-          Toast: true
-        }
-      }
-    });
+    const wrapper = mount(App);
 
     await new Promise((resolve) => setTimeout(resolve, 50));
 
@@ -84,13 +78,7 @@ describe('App.vue', () => {
   });
 
   it('handles keyboard shortcuts ArrowRight and ArrowLeft in study mode', async () => {
-    const wrapper = mount(App, {
-      global: {
-        stubs: {
-          Toast: true
-        }
-      }
-    });
+    const wrapper = mount(App);
 
     await new Promise((resolve) => setTimeout(resolve, 50));
 

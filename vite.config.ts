@@ -87,8 +87,8 @@ export default defineConfig({
           if (id.includes('node_modules/vue/') || id.includes('node_modules/@vue/')) {
             return 'vendor-vue';
           }
-          if (id.includes('node_modules/primevue/') || id.includes('node_modules/@primevue/')) {
-            return 'vendor-primevue';
+          if (id.includes('node_modules/reka-ui/')) {
+            return 'vendor-ui';
           }
         }
       }

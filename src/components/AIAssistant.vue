@@ -3,7 +3,15 @@ import { ref, onMounted, watch } from 'vue';
 import type { Word } from '../types';
 import { callAI } from '../utils/ai';
 import { useAIAssistantState } from '../composables/useAIAssistantState';
-import Button from 'primevue/button';
+import { Button } from './ui/button';
+import {
+  Sparkles,
+  Settings,
+  Compass,
+  MessageSquare,
+  Copy,
+  Check
+} from 'lucide-vue-next';
 import { sanitizeHtml } from '../utils/sanitize';
 
 const props = defineProps<{
@@ -121,14 +129,18 @@ const handleGenerateDialogue = async () => {
 </script>
 
 <template>
-  <div class="mt-4 border-t border-slate-200 dark:border-white/10 pt-4 w-full">
-    <!-- Header status and settings button -->
-    <div class="flex items-center justify-between mb-3">
-      <div class="flex items-center gap-2 flex-wrap">
+  <div
+    class="border-t border-slate-200/80 dark:border-white/10 pt-3.5 mt-2 flex flex-col w-full text-center"
+  >
+    <!-- AI Status & Settings Row -->
+    <div class="flex items-center justify-between mb-2.5 px-0.5">
+      <div class="flex items-center gap-1.5">
         <span
-          class="text-[11px] font-bold text-slate-500 dark:text-slate-400 uppercase tracking-wider"
-          >AI Coach</span
+          class="text-[11px] font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300 flex items-center gap-1"
         >
+          <Sparkles class="h-3.5 w-3.5 text-primary-500" />
+          AI Coach
+        </span>
         <span
           v-if="hasNano"
           class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 border border-emerald-500/25"
@@ -143,7 +155,7 @@ const handleGenerateDialogue = async () => {
           class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-blue-500/15 text-blue-600 dark:text-blue-400 border border-blue-500/25"
           :title="`Active model: ${resultModel}`"
         >
-          <i class="pi pi-check text-[9px]"></i>
+          <Check class="h-2.5 w-2.5" />
           {{ resultModel }}
         </span>
         <span
@@ -160,39 +172,38 @@ const handleGenerateDialogue = async () => {
         </span>
       </div>
       <Button
-        icon="pi pi-cog"
-        severity="secondary"
-        rounded
-        text
-        size="small"
+        variant="ghost"
+        size="icon-sm"
         @click.stop="openSettings"
         title="AI Settings"
-        class="hover:bg-slate-200/60 dark:hover:bg-white/10 active:scale-95 transition-all w-7 h-7"
-      />
+        class="rounded-full text-slate-500 hover:text-slate-900 dark:hover:text-slate-100"
+      >
+        <Settings class="h-4 w-4" />
+      </Button>
     </div>
 
     <!-- AI Action Pills -->
     <div class="flex gap-2.5 mb-3 justify-center">
       <Button
-        label="Grammar Breakdown"
-        icon="pi pi-compass"
-        severity="secondary"
-        size="small"
-        outlined
+        variant="outline"
+        size="sm"
         @click.stop="handleExplainGrammar"
         :disabled="isLoading || (!hasNano && !hasCloudKey)"
-        class="!rounded-xl text-xs active:scale-95 transition-all !py-1.5"
-      />
+        class="rounded-xl text-xs py-1.5"
+      >
+        <Compass class="h-3.5 w-3.5" />
+        <span>Grammar Breakdown</span>
+      </Button>
       <Button
-        label="Workplace Dialogue"
-        icon="pi pi-comments"
-        severity="secondary"
-        size="small"
-        outlined
+        variant="outline"
+        size="sm"
         @click.stop="handleGenerateDialogue"
         :disabled="isLoading || (!hasNano && !hasCloudKey)"
-        class="!rounded-xl text-xs active:scale-95 transition-all !py-1.5"
-      />
+        class="rounded-xl text-xs py-1.5"
+      >
+        <MessageSquare class="h-3.5 w-3.5" />
+        <span>Workplace Dialogue</span>
+      </Button>
     </div>
 
     <!-- Setup Prompt when AI is unconfigured -->
@@ -219,27 +230,23 @@ const handleGenerateDialogue = async () => {
       <!-- Quick Utility Action: Copy to Clipboard -->
       <div v-if="!isLoading && resultText" class="flex items-center justify-end gap-1 mb-1.5">
         <Button
-          :icon="isCopied ? 'pi pi-check' : 'pi pi-copy'"
-          severity="secondary"
-          rounded
-          text
-          size="small"
+          variant="ghost"
+          size="icon-sm"
           @click.stop="handleCopy"
           :title="isCopied ? 'Copied!' : 'Copy text to clipboard'"
           aria-label="Copy text to clipboard"
-          class="hover:bg-slate-200/60 dark:hover:bg-white/10 !w-7 !h-7 active:scale-95 transition-all"
           :class="isCopied ? 'text-emerald-500 font-bold' : 'text-slate-600 dark:text-slate-300'"
-        />
+        >
+          <component :is="isCopied ? Check : Copy" class="h-3.5 w-3.5" />
+        </Button>
       </div>
 
       <!-- Loading indicator -->
       <div v-if="isLoading" class="flex flex-col items-center justify-center py-6 gap-2.5 flex-1">
-        <i
-          class="pi pi-spin pi-sparkles text-lg text-primary-500 dark:text-primary-400 animate-pulse"
-        ></i>
-        <span class="text-xs text-slate-500 dark:text-slate-400 font-medium"
-          >AI Coach analyzing context...</span
-        >
+        <Sparkles class="h-5 w-5 text-primary-500 animate-spin" />
+        <span class="text-xs text-slate-500 dark:text-slate-400 font-medium">
+          AI Coach analyzing context...
+        </span>
       </div>
       <!-- Output Text without nested scrollbar -->
       <div v-else class="text-xs leading-relaxed font-sans pr-1">
@@ -257,7 +264,7 @@ const handleGenerateDialogue = async () => {
         <div
           class="inline-flex items-center gap-1 px-2 py-0.5 rounded-md font-mono text-[9.5px] font-semibold bg-slate-200/80 dark:bg-white/10 text-slate-800 dark:text-slate-200"
         >
-          <i class="pi pi-sparkles text-[8.5px] text-primary-500"></i>
+          <Sparkles class="h-2.5 w-2.5 text-primary-500" />
           <span>{{
             resultModel || (resultSource === 'nano' ? 'gemini-nano' : 'gemini-cloud')
           }}</span>

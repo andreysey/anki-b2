@@ -46,7 +46,7 @@ const handleCardClick = (event: MouseEvent) => {
   if (target && target !== event.currentTarget) {
     if (
       target.closest(
-        'button, input, textarea, a, select, .p-button, .p-dialog, .p-dialog-mask, [role="dialog"]'
+        'button, input, textarea, a, select, [role="dialog"], [data-reka-dialog-content], [data-radix-dialog-content]'
       )
     ) {
       return;
@@ -91,7 +91,7 @@ const handleKeyDown = (event: KeyboardEvent) => {
   if (
     target?.tagName === 'INPUT' ||
     target?.tagName === 'TEXTAREA' ||
-    target?.closest('.p-dialog, .p-dialog-mask')
+    target?.closest('[role="dialog"], [data-reka-dialog-content], [data-radix-dialog-content]')
   ) {
     return;
   }
@@ -107,11 +107,11 @@ const showGermanOnFront = computed(() => props.direction === 'DE_TO_UA');
 
 <template>
   <div
-    class="relative w-full max-w-[560px] [perspective:1400px] cursor-pointer mx-auto group focus:outline-none focus:ring-2 focus:ring-primary/60 rounded-[28px] transition-all duration-500 ease-out select-none"
+    class="relative w-full max-w-140 perspective-[1400px] cursor-pointer mx-auto group focus:outline-none focus:ring-2 focus:ring-primary/60 rounded-[28px] transition-all duration-500 ease-out select-none"
     :class="[
       isFlipped && isAiActive
-        ? 'h-[550px] xs:h-[590px] sm:h-[640px]'
-        : 'h-[390px] xs:h-[410px] sm:h-[440px]'
+        ? 'h-137.5 xs:h-147.5 sm:h-160'
+        : 'h-97.5 xs:h-102.5 sm:h-110'
     ]"
     tabindex="0"
     role="button"
@@ -123,15 +123,15 @@ const showGermanOnFront = computed(() => props.direction === 'DE_TO_UA');
     @touchend="handleTouchEnd"
   >
     <div
-      class="relative w-full h-full transition-all duration-[700ms] [transform-style:preserve-3d] shadow-xl rounded-[26px]"
-      :class="{ '[transform:rotateY(180deg)]': isFlipped }"
+      class="relative w-full h-full transition-all duration-700 transform-3d shadow-xl rounded-[26px]"
+      :class="{ 'transform-[rotateY(180deg)]': isFlipped }"
     >
       <!-- Front Face -->
       <div class="absolute top-0 left-0 w-full h-full card-face card-face-front">
         <VocabularyCardFace
           :word="word"
           :show-german="showGermanOnFront"
-          scroll-panel-height="h-[250px] sm:h-[280px]"
+          scroll-panel-height="h-62.5 sm:h-70"
           @toggle-mastered="emit('toggle-mastered', $event)"
           @play-audio="emit('play-audio', $event)"
         />
@@ -144,7 +144,7 @@ const showGermanOnFront = computed(() => props.direction === 'DE_TO_UA');
           :show-german="!showGermanOnFront"
           :show-example="true"
           :show-ai="true"
-          scroll-panel-height="h-[270px] sm:h-[300px]"
+          scroll-panel-height="h-67.5 sm:h-75"
           @toggle-mastered="emit('toggle-mastered', $event)"
           @play-audio="emit('play-audio', $event)"
           @ai-active="isAiActive = $event"

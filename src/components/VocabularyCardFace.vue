@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 import type { Word } from '../types';
-import ScrollPanel from 'primevue/scrollpanel';
-import Button from 'primevue/button';
+import { Button } from './ui/button';
+import { Volume2 } from 'lucide-vue-next';
 import { sanitizeHtml } from '../utils/sanitize';
 import VocabularyCardHeader from './VocabularyCardHeader.vue';
 import AIAssistant from './AIAssistant.vue';
@@ -38,13 +38,13 @@ const handleAiActive = (active: boolean) => {
 
     <!-- Card Body & Content -->
     <div class="flex-1 flex flex-col justify-center overflow-hidden pt-2">
-      <ScrollPanel
-        :class="
+      <div
+        :class="[
+          'custom-scrollbar overflow-y-auto px-1 transition-all duration-300',
           isAiContentActive
             ? 'h-107.5 sm:h-125'
             : scrollPanelHeight || 'h-62.5 sm:h-70'
-        "
-        class="custom-scrollbar px-1 transition-all duration-300"
+        ]"
       >
         <!-- German Primary View -->
         <template v-if="showGerman">
@@ -54,13 +54,14 @@ const handleAiActive = (active: boolean) => {
               v-html="sanitizeHtml(word.german)"
             ></h2>
             <Button
-              icon="pi pi-volume-up"
-              rounded
+              size="icon"
               aria-label="Play German pronunciation"
               @click.stop="emit('play-audio', word.german_audio || word.german)"
               title="Play pronunciation"
-              class="w-10 h-10 shadow-sm hover:scale-105 active:scale-95 transition-all bg-primary-500 hover:bg-primary-600 text-white"
-            />
+              class="rounded-full w-10 h-10 shadow-sm hover:scale-105 active:scale-95 transition-all bg-primary-600 hover:bg-primary-500 text-white"
+            >
+              <Volume2 class="h-4 w-4" />
+            </Button>
           </div>
         </template>
 
@@ -90,22 +91,21 @@ const handleAiActive = (active: boolean) => {
               v-html="sanitizeHtml(word.example)"
             ></div>
             <Button
-              icon="pi pi-volume-up"
-              rounded
-              text
-              severity="secondary"
-              size="small"
-              class="shrink-0 hover:bg-slate-200/60 dark:hover:bg-white/10 text-slate-600 dark:text-slate-300 w-8! h-8!"
+              variant="ghost"
+              size="icon-sm"
+              class="shrink-0 hover:bg-slate-200/60 dark:hover:bg-white/10 text-slate-600 dark:text-slate-300 rounded-full w-8 h-8"
               aria-label="Play example sentence pronunciation"
               @click.stop="emit('play-audio', word.example)"
               title="Play example sentence"
-            />
+            >
+              <Volume2 class="h-3.5 w-3.5" />
+            </Button>
           </div>
         </template>
 
         <!-- AI Assistant -->
         <AIAssistant v-if="showAi" :word="word" @ai-active="handleAiActive" />
-      </ScrollPanel>
+      </div>
     </div>
   </div>
 </template>

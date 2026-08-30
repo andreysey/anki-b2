@@ -1,9 +1,16 @@
 <script setup lang="ts">
 import { computed } from 'vue';
 import type { Word } from '../types';
-import Select from 'primevue/select';
-import InputText from 'primevue/inputtext';
-import Button from 'primevue/button';
+import { Input } from './ui/input';
+import { Button } from './ui/button';
+import {
+  Select,
+  SelectTrigger,
+  SelectValue,
+  SelectContent,
+  SelectItem
+} from './ui/select';
+import { Search, X, List, GraduationCap } from 'lucide-vue-next';
 import { getThemaLabel } from '../utils/thema';
 
 const props = defineProps<{
@@ -63,13 +70,13 @@ const handleClearSearch = () => {
         <div
           class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400"
         >
-          <i class="pi pi-search text-xs"></i>
+          <Search class="h-4 w-4" />
         </div>
-        <InputText
+        <Input
           :modelValue="search"
-          @update:modelValue="(val) => emit('update:search', val ?? '')"
+          @update:modelValue="(val) => emit('update:search', String(val ?? ''))"
           placeholder="Search vocabulary..."
-          class="w-full !pl-8 !pr-8 text-xs sm:text-sm !py-2 !bg-slate-50/90 dark:!bg-black/40 !border-slate-200 dark:!border-white/10 !rounded-xl"
+          class="w-full pl-9 pr-8 text-xs sm:text-sm h-9 bg-slate-50/90 dark:bg-black/40 border-slate-200 dark:border-white/10 rounded-xl"
         />
         <button
           v-if="search"
@@ -79,7 +86,7 @@ const handleClearSearch = () => {
           title="Clear search"
           class="absolute inset-y-0 right-0 pr-3 flex items-center text-slate-400 hover:text-slate-700 dark:hover:text-slate-200 cursor-pointer transition-colors"
         >
-          <i class="pi pi-times-circle text-xs"></i>
+          <X class="h-4 w-4" />
         </button>
       </div>
 
@@ -87,37 +94,54 @@ const handleClearSearch = () => {
       <div class="w-full">
         <Select
           :modelValue="level"
-          @update:modelValue="(val) => emit('update:level', val ?? 'all')"
-          :options="levelOptions"
-          optionLabel="label"
-          optionValue="value"
-          placeholder="Select Level"
-          class="w-full text-xs sm:text-sm !bg-slate-50/90 dark:!bg-black/40 !border-slate-200 dark:!border-white/10 !rounded-xl"
-        />
+          @update:modelValue="(val) => emit('update:level', String(val ?? 'all'))"
+        >
+          <SelectTrigger class="w-full text-xs sm:text-sm h-9 bg-slate-50/90 dark:bg-black/40 border-slate-200 dark:border-white/10 rounded-xl">
+            <SelectValue placeholder="Select Level" />
+          </SelectTrigger>
+          <SelectContent>
+            <SelectItem
+              v-for="opt in levelOptions"
+              :key="opt.value"
+              :value="opt.value"
+            >
+              {{ opt.label }}
+            </SelectItem>
+          </SelectContent>
+        </Select>
       </div>
 
       <!-- Theme Filter -->
       <div class="w-full">
         <Select
           :modelValue="thema"
-          @update:modelValue="(val) => emit('update:thema', val ?? 'all')"
-          :options="themeOptions"
-          optionLabel="label"
-          optionValue="value"
-          placeholder="Select Theme"
-          class="w-full text-xs sm:text-sm !bg-slate-50/90 dark:!bg-black/40 !border-slate-200 dark:!border-white/10 !rounded-xl"
-        />
+          @update:modelValue="(val) => emit('update:thema', String(val ?? 'all'))"
+        >
+          <SelectTrigger class="w-full text-xs sm:text-sm h-9 bg-slate-50/90 dark:bg-black/40 border-slate-200 dark:border-white/10 rounded-xl">
+            <SelectValue placeholder="Select Theme" />
+          </SelectTrigger>
+          <SelectContent class="max-h-72">
+            <SelectItem
+              v-for="opt in themeOptions"
+              :key="opt.value"
+              :value="opt.value"
+            >
+              {{ opt.label }}
+            </SelectItem>
+          </SelectContent>
+        </Select>
       </div>
 
       <!-- Mode Toggle Section -->
       <div class="w-full">
         <Button
-          :label="isStudyMode ? 'Back to List' : 'Start Study'"
-          :icon="isStudyMode ? 'pi pi-list' : 'pi pi-graduation-cap'"
+          variant="default"
           @click="emit('update:isStudyMode', !isStudyMode)"
-          severity="primary"
-          class="w-full !rounded-xl shadow-xs active:scale-95 transition-all text-xs sm:text-sm font-semibold !py-2"
-        />
+          class="w-full rounded-xl shadow-xs font-semibold text-xs sm:text-sm h-9"
+        >
+          <component :is="isStudyMode ? List : GraduationCap" class="h-4 w-4" />
+          <span>{{ isStudyMode ? 'Back to List' : 'Start Study' }}</span>
+        </Button>
       </div>
     </div>
 
@@ -128,17 +152,17 @@ const handleClearSearch = () => {
     >
       <div class="flex items-center gap-1.5 font-medium">
         <span class="w-1.5 h-1.5 rounded-full bg-primary-500"></span>
-        <span
-          >Showing
+        <span>
+          Showing
           <strong class="text-slate-800 dark:text-slate-200">{{ filteredCount }}</strong> of
-          {{ totalCount }} words</span
-        >
+          {{ totalCount }} words
+        </span>
       </div>
       <div
         v-if="search || level !== 'all' || thema !== 'all'"
         class="text-[10px] text-slate-400 font-mono"
       >
-        Filters active
+        Filtered
       </div>
     </div>
   </div>

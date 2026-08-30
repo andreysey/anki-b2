@@ -9,6 +9,25 @@ vi.mock('../utils/ai', () => ({
   setCloudKey: vi.fn()
 }));
 
+vi.mock('./ui/dialog', () => ({
+  Dialog: {
+    template: '<div v-if="open"><slot /></div>',
+    props: ['open']
+  },
+  DialogContent: {
+    template: '<div class="dialog-content"><slot /></div>'
+  },
+  DialogHeader: {
+    template: '<div><slot /></div>'
+  },
+  DialogTitle: {
+    template: '<div><slot /></div>'
+  },
+  DialogDescription: {
+    template: '<div><slot /></div>'
+  }
+}));
+
 describe('AISettingsDialog.vue', () => {
   beforeEach(() => {
     vi.restoreAllMocks();
@@ -18,18 +37,9 @@ describe('AISettingsDialog.vue', () => {
     const aiState = useAIAssistantState();
     aiState.openSettings();
 
-    const wrapper = mount(AISettingsDialog, {
-      global: {
-        stubs: {
-          Dialog: {
-            template: '<div v-if="visible" class="p-dialog-stub"><slot /></div>',
-            props: ['visible']
-          }
-        }
-      }
-    });
+    const wrapper = mount(AISettingsDialog);
 
-    expect(wrapper.find('.p-dialog-stub').exists()).toBe(true);
+    expect(wrapper.find('.dialog-content').exists()).toBe(true);
 
     const saveBtn = wrapper.findAll('button').find((b) => b.text().includes('Save'));
     expect(saveBtn?.exists()).toBe(true);

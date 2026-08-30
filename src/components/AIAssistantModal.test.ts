@@ -1,7 +1,5 @@
 import { describe, it, expect } from 'vitest';
 import { mount } from '@vue/test-utils';
-import PrimeVue from 'primevue/config';
-import ToastService from 'primevue/toastservice';
 import VocabularyCard from './VocabularyCard.vue';
 import type { Word } from '../types';
 
@@ -19,9 +17,6 @@ const mockWord: Word = {
 describe('VocabularyCard flip and AI Assistant dialog interaction', () => {
   it('does not emit flip when gear button inside AIAssistant is clicked', async () => {
     const wrapper = mount(VocabularyCard, {
-      global: {
-        plugins: [PrimeVue, ToastService]
-      },
       props: {
         word: mockWord,
         isFlipped: true,

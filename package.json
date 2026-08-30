@@ -23,16 +23,20 @@
     "prepare": "husky"
   },
   "dependencies": {
-    "@primevue/themes": "^4.5.4",
+    "@lucide/vue": "^1.37.0",
     "@tailwindcss/vite": "^4.3.3",
     "autoprefixer": "^10.5.4",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
     "dompurify": "^3.4.14",
     "genankjs": "^1.0.6",
+    "lucide-vue-next": "^1.0.0",
     "postcss": "^8.5.26",
-    "primeicons": "^8.0.0",
-    "primevue": "^4.5.5",
+    "reka-ui": "^2.10.4",
+    "tailwind-merge": "^3.6.0",
     "tailwindcss": "^4.3.3",
-    "vue": "^3.5.42"
+    "vue": "^3.5.42",
+    "vue-sonner": "^2.0.9"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^7.0.0",

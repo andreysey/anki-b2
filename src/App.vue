@@ -6,13 +6,23 @@ import { useTheme } from './composables/useTheme';
 import { useSpeechSynthesis } from './composables/useSpeechSynthesis';
 import { useKeyboardShortcuts } from './composables/useKeyboardShortcuts';
 
-// PrimeVue Components
-import Button from 'primevue/button';
-import Message from 'primevue/message';
-import ProgressSpinner from 'primevue/progressspinner';
-import Toast from 'primevue/toast';
-import Panel from 'primevue/panel';
-import { useToast } from 'primevue/usetoast';
+// UI Components
+import { Button } from './components/ui/button';
+import { Toaster, toast } from './components/ui/sonner';
+import {
+  BookOpen,
+  Sun,
+  Moon,
+  Monitor,
+  Github,
+  List,
+  GraduationCap,
+  BarChart3,
+  Loader2,
+  AlertTriangle,
+  Volume2,
+  ChevronDown
+} from 'lucide-vue-next';
 
 // App Components
 import AppHero from './components/AppHero.vue';
@@ -24,8 +34,8 @@ import AISettingsDialog from './components/AISettingsDialog.vue';
 // Async Components (Code Splitting)
 const DashboardView = defineAsyncComponent(() => import('./components/DashboardView.vue'));
 
-const toast = useToast();
 const mainContentRef = ref<HTMLElement | null>(null);
+const isAudioPanelOpen = ref(false);
 const appVersion = typeof __APP_VERSION__ !== 'undefined' ? __APP_VERSION__ : '1.18.0';
 
 // Domain State from Composables
@@ -62,9 +72,9 @@ const {
 const { themeMode, cycleTheme, initTheme, cleanupTheme } = useTheme();
 
 const themeIcon = computed(() => {
-  if (themeMode.value === 'light') return 'pi pi-sun';
-  if (themeMode.value === 'dark') return 'pi pi-moon';
-  return 'pi pi-desktop';
+  if (themeMode.value === 'light') return Sun;
+  if (themeMode.value === 'dark') return Moon;
+  return Monitor;
 });
 
 const themeModeLabel = computed(() => {
@@ -117,31 +127,23 @@ const handleSRSUpdate = (severity: 'again' | 'hard' | 'good' | 'easy') => {
     good: 'Good',
     easy: 'Easy'
   };
-  const toastSeverity: Record<string, 'error' | 'warn' | 'success' | 'info'> = {
-    again: 'error',
-    hard: 'warn',
-    good: 'success',
-    easy: 'info'
-  };
 
-  toast.add({
-    severity: toastSeverity[severity],
-    summary: 'Graded',
-    detail: labels[severity],
-    life: 2000
-  });
+  if (severity === 'again') {
+    toast.error(`Graded: ${labels[severity]}`);
+  } else if (severity === 'hard') {
+    toast.warning(`Graded: ${labels[severity]}`);
+  } else if (severity === 'good') {
+    toast.success(`Graded: ${labels[severity]}`);
+  } else {
+    toast.info(`Graded: ${labels[severity]}`);
+  }
 };
 
 const handleMasterCurrentCard = () => {
   const currentCard = studyList.value[currentStudyIndex.value];
   if (currentCard) {
     toggleMastered(currentCard);
-    toast.add({
-      severity: 'success',
-      summary: 'Mastered',
-      detail: 'Word marked as mastered',
-      life: 2000
-    });
+    toast.success('Word marked as mastered');
   }
 };
 
@@ -192,7 +194,7 @@ watch(
 </script>
 
 <template>
-  <Toast />
+  <Toaster position="top-right" richColors />
   <AISettingsDialog />
 
   <!-- macOS Ambient Desktop Wallpaper Canvas -->
@@ -213,13 +215,14 @@ watch(
             <div
               class="w-8 h-8 sm:w-9 sm:h-9 rounded-xl bg-primary-500/10 border border-primary-500/20 flex items-center justify-center text-primary-500 dark:text-primary-400 shadow-xs shrink-0"
             >
-              <i class="pi pi-book text-sm sm:text-base"></i>
+              <BookOpen class="h-4 w-4 sm:h-5 sm:w-5" />
             </div>
             <div class="flex items-center gap-1.5 sm:gap-2">
               <span
                 class="text-sm sm:text-base font-bold tracking-tight text-slate-800 dark:text-slate-200"
-                >Anki B2</span
               >
+                Anki B2
+              </span>
               <span
                 class="text-[10px] font-mono font-medium px-1.5 py-0.5 rounded-md bg-slate-100 dark:bg-white/10 text-slate-500 dark:text-slate-400 border border-slate-200/80 dark:border-white/10 shadow-2xs"
               >
@@ -232,23 +235,22 @@ watch(
           <div class="flex md:hidden items-center gap-1.5">
             <Button
               id="btn-theme-toggle-mobile"
-              :icon="themeIcon"
-              severity="secondary"
-              rounded
-              text
-              size="small"
+              variant="ghost"
+              size="icon-sm"
               @click="cycleTheme"
               :title="`Theme: ${themeModeLabel}`"
-              class="hover:bg-slate-200/60 dark:hover:bg-white/10 active:scale-95 transition-all w-8! h-8!"
-            />
+              class="rounded-full text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100"
+            >
+              <component :is="themeIcon" class="h-4 w-4" />
+            </Button>
             <a
               href="https://github.com/andreysey/anki-b2"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub Repository"
-              class="p-button p-component p-button-icon-only p-button-secondary p-button-rounded p-button-text w-8! h-8! hover:bg-slate-200/60 dark:hover:bg-white/10 active:scale-95 transition-all text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100"
+              class="inline-flex items-center justify-center rounded-full h-7 w-7 text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100 hover:bg-slate-200/60 dark:hover:bg-white/10 transition-all"
             >
-              <i class="pi pi-github text-sm"></i>
+              <Github class="h-4 w-4" />
             </a>
           </div>
         </div>
@@ -268,7 +270,7 @@ watch(
             "
             @click="activeView = 'list'"
           >
-            <i class="pi pi-list text-xs"></i>
+            <List class="h-3.5 w-3.5" />
             <span>Dictionary</span>
           </button>
           <button
@@ -282,7 +284,7 @@ watch(
             "
             @click="activeView = 'study'"
           >
-            <i class="pi pi-graduation-cap text-xs"></i>
+            <GraduationCap class="h-3.5 w-3.5" />
             <span>Study Mode</span>
           </button>
           <button
@@ -296,7 +298,7 @@ watch(
             "
             @click="activeView = 'dashboard'"
           >
-            <i class="pi pi-chart-bar text-xs"></i>
+            <BarChart3 class="h-3.5 w-3.5" />
             <span>Dashboard</span>
           </button>
         </nav>
@@ -305,23 +307,22 @@ watch(
         <div class="hidden md:flex items-center gap-2 justify-end">
           <Button
             id="btn-theme-toggle"
-            :icon="themeIcon"
-            severity="secondary"
-            rounded
-            text
-            size="small"
+            variant="ghost"
+            size="icon"
             @click="cycleTheme"
             :title="`Theme: ${themeModeLabel}`"
-            class="hover:bg-slate-200/60 dark:hover:bg-white/10 active:scale-95 transition-all w-9! h-9!"
-          />
+            class="rounded-full text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100"
+          >
+            <component :is="themeIcon" class="h-4 w-4" />
+          </Button>
           <a
             href="https://github.com/andreysey/anki-b2"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="GitHub Repository"
-            class="p-button p-component p-button-icon-only p-button-secondary p-button-rounded p-button-text w-9! h-9! hover:bg-slate-200/60 dark:hover:bg-white/10 active:scale-95 transition-all text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100"
+            class="inline-flex items-center justify-center rounded-full h-9 w-9 text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100 hover:bg-slate-200/60 dark:hover:bg-white/10 transition-all"
           >
-            <i class="pi pi-github text-base"></i>
+            <Github class="h-4 w-4" />
           </a>
         </div>
       </header>
@@ -334,14 +335,13 @@ watch(
         <AppHero v-if="activeView === 'list'" />
 
         <!-- Error Banner -->
-        <Message
+        <div
           v-if="error"
-          severity="error"
-          icon="pi pi-exclamation-triangle"
-          class="rounded-xl! mb-4"
+          class="flex items-center gap-2.5 p-3.5 rounded-xl bg-rose-500/15 text-rose-700 dark:text-rose-300 border border-rose-500/30 text-xs sm:text-sm font-medium mb-4"
         >
-          {{ error }}
-        </Message>
+          <AlertTriangle class="h-4 w-4 shrink-0" />
+          <span>{{ error }}</span>
+        </div>
 
         <!-- Filter Bar (Dictionary View) -->
         <FilterBar
@@ -356,23 +356,38 @@ watch(
           @update:isStudyMode="activeView = $event ? 'study' : 'list'"
         />
 
-        <!-- Audio Settings Panel -->
-        <Panel
+        <!-- Audio Settings Collapsible Panel -->
+        <div
           v-if="activeView === 'list'"
-          header="Speech & Audio Preferences"
-          toggleable
-          collapsed
-          class="shadow-sm rounded-2xl! border border-slate-200/80 dark:border-white/10"
+          class="rounded-2xl border border-slate-200/80 dark:border-white/10 bg-white/70 dark:bg-slate-900/70 overflow-hidden shadow-xs"
         >
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-6 p-5">
+          <button
+            type="button"
+            @click="isAudioPanelOpen = !isAudioPanelOpen"
+            class="w-full flex items-center justify-between p-3.5 sm:p-4 text-xs font-bold text-slate-700 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-white/5 transition-colors cursor-pointer"
+          >
+            <div class="flex items-center gap-2">
+              <Volume2 class="h-4 w-4 text-primary-500" />
+              <span>Speech & Audio Preferences</span>
+            </div>
+            <ChevronDown
+              :class="[
+                'h-4 w-4 text-slate-400 transition-transform duration-200',
+                isAudioPanelOpen ? 'rotate-180' : ''
+              ]"
+            />
+          </button>
+
+          <div v-show="isAudioPanelOpen" class="grid grid-cols-1 md:grid-cols-2 gap-6 p-5 border-t border-slate-200/80 dark:border-white/10">
             <div class="flex flex-col gap-2">
               <span
                 class="text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400"
-                >German Voice Engine</span
               >
+                German Voice Engine
+              </span>
               <select
                 v-model="selectedVoiceURI"
-                class="w-full bg-slate-50 dark:bg-black/40 border border-slate-200 dark:border-white/10 text-slate-800 dark:text-slate-100 rounded-xl p-3 text-xs sm:text-sm outline-none focus:border-primary-500"
+                class="w-full bg-slate-50 dark:bg-black/40 border border-slate-200 dark:border-white/10 text-slate-800 dark:text-slate-100 rounded-xl p-2.5 text-xs sm:text-sm outline-none focus:border-primary-500"
               >
                 <option v-for="voice in germanVoices" :key="voice.voiceURI" :value="voice.voiceURI">
                   {{ voice.name }} ({{ voice.lang }})
@@ -382,8 +397,9 @@ watch(
             <div class="flex flex-col gap-2 justify-center min-h-15">
               <span
                 class="text-xs font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400"
-                >Speech Rate ({{ ttsRate }}x)</span
               >
+                Speech Rate ({{ ttsRate }}x)
+              </span>
               <input
                 type="range"
                 min="0.5"
@@ -395,7 +411,7 @@ watch(
               />
             </div>
           </div>
-        </Panel>
+        </div>
 
         <!-- Dashboard View -->
         <DashboardView
@@ -408,8 +424,9 @@ watch(
         />
 
         <!-- Loading State -->
-        <div v-else-if="isLoading" class="flex justify-center my-16">
-          <ProgressSpinner />
+        <div v-else-if="isLoading" class="flex flex-col items-center justify-center my-16 gap-3">
+          <Loader2 class="h-8 w-8 text-primary-500 animate-spin" />
+          <span class="text-xs text-slate-500 font-medium">Loading vocabulary...</span>
         </div>
 
         <!-- Study Mode View -->

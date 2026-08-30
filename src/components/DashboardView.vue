@@ -1,8 +1,15 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue';
 import type { Word, SRSState } from '../types';
-import ProgressBar from 'primevue/progressbar';
-import Button from 'primevue/button';
+import { Progress } from './ui/progress';
+import { Button } from './ui/button';
+import {
+  TrendingUp,
+  BookOpen,
+  CheckCircle2,
+  Download,
+  Upload
+} from 'lucide-vue-next';
 import { getThemaLabel } from '../utils/thema';
 import { getItemKey } from '../composables/useVocabulary';
 import { downloadBackupFile, parseAndValidateBackup } from '../utils/backup';
@@ -101,97 +108,89 @@ const leitnerBoxes = computed(() => {
       return;
     }
 
-    const srs = props.srsData?.[key];
-    const level = srs?.level ?? 0;
-
-    if (level === 0) counts.box0++;
-    else if (level === 1) counts.box1++;
-    else if (level === 2) counts.box2++;
-    else if (level === 3) counts.box3++;
-    else if (level === 4) counts.box4++;
-    else counts.box5++;
+    const srs = props.srsData[key];
+    if (!srs || srs.level === 0) {
+      counts.box0++;
+    } else if (srs.level === 1) {
+      counts.box1++;
+    } else if (srs.level === 2) {
+      counts.box2++;
+    } else if (srs.level === 3) {
+      counts.box3++;
+    } else if (srs.level === 4) {
+      counts.box4++;
+    } else {
+      counts.box5++;
+    }
   });
 
   const total = props.vocabulary.length || 1;
 
   return [
     {
-      label: 'Box 0 (New)',
+      label: 'Box 0 (New/Due)',
       count: counts.box0,
-      color: 'bg-slate-500',
       percentage: Math.round((counts.box0 / total) * 100)
     },
     {
       label: 'Box 1 (1 Day)',
       count: counts.box1,
-      color: 'bg-red-500',
       percentage: Math.round((counts.box1 / total) * 100)
     },
     {
       label: 'Box 2 (3 Days)',
       count: counts.box2,
-      color: 'bg-amber-500',
       percentage: Math.round((counts.box2 / total) * 100)
     },
     {
       label: 'Box 3 (7 Days)',
       count: counts.box3,
-      color: 'bg-blue-500',
       percentage: Math.round((counts.box3 / total) * 100)
     },
     {
       label: 'Box 4 (14 Days)',
       count: counts.box4,
-      color: 'bg-indigo-500',
       percentage: Math.round((counts.box4 / total) * 100)
     },
     {
       label: 'Box 5 (Mastered)',
       count: counts.box5,
-      color: 'bg-emerald-500',
       percentage: Math.round((counts.box5 / total) * 100)
     }
   ];
 });
 
-// Grouping by Thema
+// Category / Thema Detailed Breakdown
 const stats = computed(() => {
-  if (props.vocabulary.length === 0) return [];
+  const themas = [...new Set(props.vocabulary.map((item) => item.thema))].sort((a, b) => a - b);
 
-  const themesMap = new Map<number, { total: number; mastered: number }>();
+  return themas.map((themaNum) => {
+    const totalWords = props.vocabulary.filter((item) => item.thema === themaNum);
+    const masteredWords = totalWords.filter((item) => props.masteredIds.has(getItemKey(item)));
+    const percentage =
+      totalWords.length > 0 ? Math.round((masteredWords.length / totalWords.length) * 100) : 0;
 
-  props.vocabulary.forEach((word) => {
-    const key = word.thema;
-    if (!themesMap.has(key)) {
-      themesMap.set(key, { total: 0, mastered: 0 });
-    }
-    const themeStat = themesMap.get(key)!;
-    themeStat.total++;
-
-    const wordKey = getItemKey(word);
-    if (props.masteredIds.has(wordKey)) {
-      themeStat.mastered++;
-    }
+    return {
+      thema: themaNum,
+      name: getThemaLabel(themaNum),
+      total: totalWords.length,
+      mastered: masteredWords.length,
+      percentage
+    };
   });
-
-  return Array.from(themesMap.entries())
-    .map(([thema, item]) => {
-      const name = getThemaLabel(thema);
-      const percentage = item.total > 0 ? Math.round((item.mastered / item.total) * 100) : 0;
-
-      return {
-        thema,
-        name,
-        total: item.total,
-        mastered: item.mastered,
-        percentage
-      };
-    })
-    .sort((a, b) => a.thema - b.thema);
 });
 
-const totalMastered = computed(() => props.masteredIds.size);
 const totalWords = computed(() => props.vocabulary.length);
+const totalMastered = computed(() => {
+  let count = 0;
+  props.vocabulary.forEach((word) => {
+    if (props.masteredIds.has(getItemKey(word))) {
+      count++;
+    }
+  });
+  return count;
+});
+
 const totalPercentage = computed(() => {
   if (totalWords.value === 0) return 0;
   return Math.round((totalMastered.value / totalWords.value) * 100);
@@ -215,7 +214,7 @@ const totalPercentage = computed(() => {
       <div
         class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[11px] font-semibold bg-primary-50 text-primary-600 border border-primary-200 dark:bg-primary-500/10 dark:text-primary-400 dark:border-primary-500/20 shadow-2xs"
       >
-        <i class="pi pi-chart-line text-xs"></i>
+        <TrendingUp class="h-3.5 w-3.5" />
         <span>Live Progress</span>
       </div>
     </div>
@@ -229,12 +228,13 @@ const totalPercentage = computed(() => {
         <div class="flex items-center justify-between">
           <span
             class="text-[11px] font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400"
-            >Total Vocabulary</span
           >
+            Total Vocabulary
+          </span>
           <div
             class="w-7 h-7 rounded-lg bg-blue-50 text-blue-600 dark:bg-blue-500/10 dark:text-blue-400 flex items-center justify-center"
           >
-            <i class="pi pi-book text-xs"></i>
+            <BookOpen class="h-3.5 w-3.5" />
           </div>
         </div>
         <div
@@ -252,12 +252,13 @@ const totalPercentage = computed(() => {
         <div class="flex items-center justify-between">
           <span
             class="text-[11px] font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400"
-            >Words Mastered</span
           >
+            Words Mastered
+          </span>
           <div
             class="w-7 h-7 rounded-lg bg-emerald-50 text-emerald-600 dark:bg-emerald-500/10 dark:text-emerald-400 flex items-center justify-center"
           >
-            <i class="pi pi-check-circle text-xs"></i>
+            <CheckCircle2 class="h-3.5 w-3.5" />
           </div>
         </div>
         <div
@@ -275,8 +276,9 @@ const totalPercentage = computed(() => {
         <div class="flex items-center justify-between">
           <span
             class="text-[11px] font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400"
-            >Daily Streak</span
           >
+            Daily Streak
+          </span>
           <div
             class="w-7 h-7 rounded-lg bg-amber-50 text-amber-600 dark:bg-amber-500/10 dark:text-amber-400 flex items-center justify-center text-sm"
           >
@@ -299,12 +301,13 @@ const totalPercentage = computed(() => {
         <div class="flex items-center justify-between">
           <span
             class="text-[11px] font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400"
-            >Overall Progress</span
           >
+            Overall Progress
+          </span>
           <div
             class="w-7 h-7 rounded-lg bg-primary-50 text-primary-600 dark:bg-primary-500/10 dark:text-primary-400 flex items-center justify-center"
           >
-            <i class="pi pi-chart-line text-xs"></i>
+            <TrendingUp class="h-3.5 w-3.5" />
           </div>
         </div>
         <div
@@ -331,7 +334,7 @@ const totalPercentage = computed(() => {
             >{{ lvl.mastered }} / {{ lvl.total }} ({{ lvl.percentage }}%)</span
           >
         </div>
-        <ProgressBar :value="lvl.percentage" class="h-2! rounded-full!" />
+        <Progress :modelValue="lvl.percentage" class="h-2" />
       </div>
     </div>
 
@@ -362,7 +365,7 @@ const totalPercentage = computed(() => {
           <div class="text-xl font-black text-slate-900 dark:text-white">
             {{ box.count }}
           </div>
-          <ProgressBar :value="box.percentage" class="h-1! rounded-full!" />
+          <Progress :modelValue="box.percentage" class="h-1" />
         </div>
       </div>
     </div>
@@ -379,7 +382,7 @@ const totalPercentage = computed(() => {
           >{{ totalMastered }} / {{ totalWords }} mastered</span
         >
       </div>
-      <ProgressBar :value="totalPercentage" class="h-2.5! rounded-full!" />
+      <Progress :modelValue="totalPercentage" class="h-2.5" />
 
       <!-- Sync Controls -->
       <div
@@ -397,23 +400,23 @@ const totalPercentage = computed(() => {
             @change="handleFileImport"
           />
           <Button
-            label="Export Backup"
-            icon="pi pi-download"
-            severity="secondary"
-            size="small"
-            outlined
+            variant="outline"
+            size="sm"
             @click="handleExport"
-            class="rounded-xl! text-xs py-1.5! px-3! active:scale-95 transition-all font-semibold"
-          />
+            class="rounded-xl text-xs py-1.5 px-3 font-semibold"
+          >
+            <Download class="h-3.5 w-3.5" />
+            <span>Export Backup</span>
+          </Button>
           <Button
-            label="Restore Progress"
-            icon="pi pi-upload"
-            severity="secondary"
-            size="small"
-            outlined
+            variant="outline"
+            size="sm"
             @click="triggerFileInput"
-            class="rounded-xl! text-xs py-1.5! px-3! active:scale-95 transition-all font-semibold"
-          />
+            class="rounded-xl text-xs py-1.5 px-3 font-semibold"
+          >
+            <Upload class="h-3.5 w-3.5" />
+            <span>Restore Progress</span>
+          </Button>
         </div>
       </div>
 
@@ -457,7 +460,7 @@ const totalPercentage = computed(() => {
               >{{ item.mastered }}/{{ item.total }} ({{ item.percentage }}%)</span
             >
           </div>
-          <ProgressBar :value="item.percentage" class="h-1.5! rounded-full!" />
+          <Progress :modelValue="item.percentage" class="h-1.5" />
         </div>
       </div>
     </div>

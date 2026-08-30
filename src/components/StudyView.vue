@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import SelectButton from 'primevue/selectbutton';
-import Button from 'primevue/button';
-import ProgressBar from 'primevue/progressbar';
+import { Button } from './ui/button';
+import { Progress } from './ui/progress';
 import VocabularyCard from './VocabularyCard.vue';
+import { Shuffle, ChevronLeft, ChevronRight, Check } from 'lucide-vue-next';
 import type { Word, StudyDirection, SelectOption } from '../types';
 
 defineProps<{
@@ -33,40 +33,57 @@ const emit = defineEmits<{
 
 <template>
   <div
-    class="flex flex-col items-center self-center gap-4 max-w-[580px] w-full px-1 sm:px-0 py-0 animate-in fade-in duration-500"
+    class="flex flex-col items-center self-center gap-4 max-w-145 w-full px-1 sm:px-0 py-0 animate-in fade-in duration-500"
   >
     <!-- macOS Style Top Study Controls -->
     <div class="flex justify-between items-center w-full gap-2.5 flex-wrap sm:flex-nowrap">
       <div class="flex items-center gap-2">
-        <SelectButton
-          :modelValue="studyDirection"
-          @update:modelValue="emit('update:studyDirection', $event)"
-          :options="directionOptions"
-          optionLabel="label"
-          optionValue="value"
-          :allowEmpty="false"
-          class="!rounded-xl text-xs shadow-2xs"
-        />
-        <SelectButton
-          :modelValue="isAutoplay"
-          @update:modelValue="emit('update:isAutoplay', $event)"
-          :options="audioOptions"
-          optionLabel="label"
-          optionValue="value"
-          :allowEmpty="false"
-          class="!rounded-xl text-xs shadow-2xs"
-        />
+        <!-- Direction Segmented Toggle -->
+        <div class="flex rounded-xl p-1 bg-slate-100 dark:bg-slate-800/90 border border-slate-200/80 dark:border-slate-700/80 text-xs shadow-2xs">
+          <button
+            v-for="opt in directionOptions"
+            :key="String(opt.value)"
+            type="button"
+            @click="emit('update:studyDirection', opt.value)"
+            :class="[
+              'px-2.5 py-1 rounded-lg font-medium transition-all cursor-pointer',
+              studyDirection === opt.value
+                ? 'bg-white dark:bg-slate-700 text-slate-900 dark:text-slate-100 shadow-xs'
+                : 'text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200'
+            ]"
+          >
+            {{ opt.label }}
+          </button>
+        </div>
+
+        <!-- Audio Autoplay Segmented Toggle -->
+        <div class="flex rounded-xl p-1 bg-slate-100 dark:bg-slate-800/90 border border-slate-200/80 dark:border-slate-700/80 text-xs shadow-2xs">
+          <button
+            v-for="opt in audioOptions"
+            :key="String(opt.value)"
+            type="button"
+            @click="emit('update:isAutoplay', opt.value)"
+            :class="[
+              'px-2.5 py-1 rounded-lg font-medium transition-all cursor-pointer',
+              isAutoplay === opt.value
+                ? 'bg-white dark:bg-slate-700 text-slate-900 dark:text-slate-100 shadow-xs'
+                : 'text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200'
+            ]"
+          >
+            {{ opt.label }}
+          </button>
+        </div>
       </div>
 
       <Button
-        label="Shuffle"
-        icon="pi pi-random"
-        size="small"
-        :severity="isShuffled ? 'primary' : 'secondary'"
-        outlined
+        size="sm"
+        :variant="isShuffled ? 'default' : 'outline'"
         @click="emit('shuffle')"
-        class="!rounded-xl active:scale-95 transition-all text-xs !py-1.5 !px-3 shadow-2xs"
-      />
+        class="rounded-xl text-xs px-3 shadow-2xs"
+      >
+        <Shuffle class="h-3.5 w-3.5" />
+        <span>Shuffle</span>
+      </Button>
     </div>
 
     <!-- macOS Progress Meter & Session Stats -->
@@ -80,13 +97,13 @@ const emit = defineEmits<{
             v-if="typeof sessionReviewedCount === 'number' && sessionReviewedCount > 0"
             class="inline-flex items-center gap-1 px-1.5 py-0.2 rounded-md bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 text-[10px] font-mono font-bold"
           >
-            <i class="pi pi-check text-[8.5px]"></i>
+            <Check class="h-2.5 w-2.5" />
             {{ sessionReviewedCount }} reviewed
           </span>
         </div>
         <span>{{ currentStudyIndex + 1 }} of {{ vocabulary.length }}</span>
       </div>
-      <ProgressBar :value="studyProgress" class="!h-1.5 !rounded-full" />
+      <Progress :modelValue="studyProgress" class="h-1.5" />
     </div>
 
     <!-- Centered Tactile Vocabulary Card with Touch Swipes -->
@@ -145,14 +162,14 @@ const emit = defineEmits<{
     <!-- Navigation Bar -->
     <div class="flex items-center gap-2.5 w-full">
       <Button
-        icon="pi pi-chevron-left"
-        severity="secondary"
-        rounded
-        outlined
+        variant="outline"
+        size="icon"
         @click="emit('prev')"
-        class="hover:bg-slate-200/60 dark:hover:bg-white/10 active:scale-95 !w-10 !h-10 shrink-0 text-slate-600 dark:text-slate-300"
+        class="rounded-full w-10 h-10 shrink-0 text-slate-600 dark:text-slate-300"
         title="Previous Card (Left Arrow)"
-      />
+      >
+        <ChevronLeft class="h-4 w-4" />
+      </Button>
       <div
         class="flex-1 text-center py-2 px-3 rounded-xl bg-white/95 dark:bg-slate-900/90 border border-slate-200/90 dark:border-white/10 flex flex-col items-center justify-center gap-0.5 text-xs font-semibold text-slate-700 dark:text-slate-300 shadow-2xs"
       >
@@ -162,14 +179,14 @@ const emit = defineEmits<{
         </div>
       </div>
       <Button
-        icon="pi pi-chevron-right"
-        severity="secondary"
-        rounded
-        outlined
+        variant="outline"
+        size="icon"
         @click="emit('next')"
-        class="hover:bg-slate-200/60 dark:hover:bg-white/10 active:scale-95 !w-10 !h-10 shrink-0 text-slate-600 dark:text-slate-300"
+        class="rounded-full w-10 h-10 shrink-0 text-slate-600 dark:text-slate-300"
         title="Next Card (Right Arrow)"
-      />
+      >
+        <ChevronRight class="h-4 w-4" />
+      </Button>
     </div>
 
     <!-- macOS Tactile Keyboard Shortcuts & Gesture Strip -->
@@ -180,15 +197,13 @@ const emit = defineEmits<{
         <kbd class="macos-kbd">␣</kbd> <span>Space / Tap to flip</span>
       </div>
       <div class="flex items-center gap-1.5">
-        <kbd class="macos-kbd">&larr;</kbd> <kbd class="macos-kbd">&rarr;</kbd>
-        <span>Prev / Next</span>
+        <kbd class="macos-kbd">1-4</kbd> <span>Grade retention</span>
       </div>
       <div class="flex items-center gap-1.5">
-        <kbd class="macos-kbd">M</kbd> <span>Master</span>
+        <kbd class="macos-kbd">&larr;</kbd> <kbd class="macos-kbd">&rarr;</kbd>
+        <span>Navigate</span>
       </div>
-      <div v-if="isFlipped" class="flex items-center gap-1.5">
-        <kbd class="macos-kbd">1</kbd>-<kbd class="macos-kbd">4</kbd> <span>Grade</span>
-      </div>
+      <div class="flex items-center gap-1.5"><kbd class="macos-kbd">M</kbd> <span>Master</span></div>
     </div>
   </div>
 </template>

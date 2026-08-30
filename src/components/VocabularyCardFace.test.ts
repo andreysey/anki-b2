@@ -1,7 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { mount } from '@vue/test-utils';
 import VocabularyCardFace from './VocabularyCardFace.vue';
-import PrimeVue from 'primevue/config';
 import type { Word } from '../types';
 
 const mockWord: Word = {
@@ -18,9 +17,6 @@ const mockWord: Word = {
 describe('VocabularyCardFace.vue', () => {
   it('renders German text and audio button when showGerman is true', () => {
     const wrapper = mount(VocabularyCardFace, {
-      global: {
-        plugins: [PrimeVue]
-      },
       props: {
         word: mockWord,
         showGerman: true
@@ -34,9 +30,6 @@ describe('VocabularyCardFace.vue', () => {
 
   it('renders Ukrainian and English translations when showGerman is false', () => {
     const wrapper = mount(VocabularyCardFace, {
-      global: {
-        plugins: [PrimeVue]
-      },
       props: {
         word: mockWord,
         showGerman: false
@@ -49,9 +42,6 @@ describe('VocabularyCardFace.vue', () => {
 
   it('renders example sentence and emits play-audio when example audio button is clicked', async () => {
     const wrapper = mount(VocabularyCardFace, {
-      global: {
-        plugins: [PrimeVue]
-      },
       props: {
         word: mockWord,
         showGerman: false,
