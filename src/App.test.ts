@@ -1,6 +1,7 @@
 import { describe, it, expect, beforeEach, vi } from 'vitest';
 import { mount } from '@vue/test-utils';
 import App from './App.vue';
+import { useVocabulary } from './composables/useVocabulary';
 import type { Word } from './types';
 
 const mockWords: Word[] = [
@@ -42,6 +43,10 @@ describe('App.vue', () => {
   beforeEach(() => {
     localStorage.clear();
     vi.restoreAllMocks();
+    const vocab = useVocabulary();
+    vocab.vocabulary.value = [];
+    vocab.error.value = null;
+    vocab.isLoading.value = false;
     globalThis.fetch = vi.fn().mockResolvedValue({
       ok: true,
       json: async () => mockWords
@@ -92,5 +97,16 @@ describe('App.vue', () => {
 
     const leftEvent = new KeyboardEvent('keydown', { code: 'ArrowLeft' });
     window.dispatchEvent(leftEvent);
+  });
+
+  it('renders error banner when data.json fails to load', async () => {
+    vi.spyOn(console, 'error').mockImplementation(() => {});
+    globalThis.fetch = vi.fn().mockRejectedValue(new Error('Failed to load vocabulary data'));
+
+    const wrapper = mount(App);
+    await new Promise((resolve) => setTimeout(resolve, 50));
+    await wrapper.vm.$nextTick();
+
+    expect(wrapper.text()).toContain('Failed to load vocabulary data');
   });
 });

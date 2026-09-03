@@ -72,4 +72,18 @@ describe('VocabularyList.vue', () => {
     await audioBtn.trigger('click');
     expect(wrapper.emitted('play-audio')?.[0]).toEqual(['anrufen.mp3']);
   });
+
+  it('hides explore button when all items are displayed', () => {
+    const wrapper = mount(VocabularyList, {
+      props: {
+        vocabulary: mockVocabulary,
+        displayLimit: mockVocabulary.length
+      }
+    });
+
+    const exploreBtn = wrapper
+      .findAll('button')
+      .find((b) => b.text().includes('Explore More Vocabulary'));
+    expect(exploreBtn).toBeUndefined();
+  });
 });
