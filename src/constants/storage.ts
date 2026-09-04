@@ -6,7 +6,8 @@ export const STORAGE_KEYS = {
   TTS_RATE: 'anki_tts_rate',
   GEMINI_API_KEY: 'anki_gemini_api_key',
   STUDY_STREAK: 'anki_study_streak_v1',
-  WEBLLM_MODEL: 'anki_webllm_model'
+  WEBLLM_MODEL: 'anki_webllm_model',
+  AUTOPLAY: 'anki_autoplay'
 } as const;
 
 export type StorageKey = (typeof STORAGE_KEYS)[keyof typeof STORAGE_KEYS];

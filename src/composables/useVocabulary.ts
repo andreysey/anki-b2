@@ -144,7 +144,12 @@ const isStudyMode = ref<boolean>(false);
 const currentStudyIndex = ref<number>(0);
 const isFlipped = ref<boolean>(false);
 const studyDirection = ref<StudyDirection>('DE_TO_UA');
-const isAutoplay = ref<boolean>(false);
+const isAutoplay = ref<boolean>(safeStorage.getItem<boolean>(STORAGE_KEYS.AUTOPLAY, false));
+
+// Persist autoplay setting across reloads
+watch(isAutoplay, (val) => {
+  safeStorage.setItem(STORAGE_KEYS.AUTOPLAY, val);
+});
 
 const isShuffled = ref<boolean>(false);
 const shuffledIndices = ref<number[]>([]);

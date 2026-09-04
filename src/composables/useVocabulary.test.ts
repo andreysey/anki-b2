@@ -38,6 +38,7 @@ describe('useVocabulary composable', () => {
     vocab.themaFilter.value = 'all';
     vocab.currentStudyIndex.value = 0;
     vocab.isShuffled.value = false;
+    vocab.isAutoplay.value = false;
     vocab.displayLimit.value = 50;
     vocab.sessionReviewedCount.value = 0;
   });
@@ -228,5 +229,13 @@ describe('useVocabulary composable', () => {
     expect(vocab.currentStudyIndex.value).toBe(1);
     vocab.prevCard();
     expect(vocab.currentStudyIndex.value).toBe(0);
+  });
+
+  it('persists isAutoplay state to localStorage', async () => {
+    const vocab = useVocabulary();
+    expect(vocab.isAutoplay.value).toBe(false);
+    vocab.isAutoplay.value = true;
+    await new Promise((resolve) => setTimeout(resolve, 0));
+    expect(localStorage.getItem('anki_autoplay')).toBe('true');
   });
 });
