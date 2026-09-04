@@ -1,3 +1,10 @@
+# [1.36.0](https://github.com/andreysey/anki-b2/compare/v1.35.2...v1.36.0) (2026-09-04)
+
+
+### Features
+
+* add streaming support for on-device AI and update detection logic to support newer Prompt API versions ([e19f4f3](https://github.com/andreysey/anki-b2/commit/e19f4f3fb60d6ddcc7c9f113ae82df20dc60a559))
+
 ## [1.35.2](https://github.com/andreysey/anki-b2/compare/v1.35.1...v1.35.2) (2026-09-04)
 
 
