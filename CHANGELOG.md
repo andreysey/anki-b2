@@ -1,3 +1,10 @@
+## [1.35.2](https://github.com/andreysey/anki-b2/compare/v1.35.1...v1.35.2) (2026-09-04)
+
+
+### Bug Fixes
+
+* prevent export failure by defaulting srsData to an empty object ([7517548](https://github.com/andreysey/anki-b2/commit/7517548f31e032a9cc8258249263ccbba82981b0))
+
 ## [1.35.1](https://github.com/andreysey/anki-b2/compare/v1.35.0...v1.35.1) (2026-08-30)
 
 
