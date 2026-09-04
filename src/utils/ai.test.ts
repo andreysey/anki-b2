@@ -151,5 +151,33 @@ describe('ai utils', () => {
       expect(promptMock).toHaveBeenCalledWith('Translate this');
       expect(destroyMock).toHaveBeenCalled();
     });
+
+    it('streams on-device AI response when promptStreaming is available', async () => {
+      const destroyMock = vi.fn();
+      async function* mockStream() {
+        yield 'Hello ';
+        yield 'World';
+      }
+
+      window.ai = {
+        languageModel: {
+          availability: async () => 'readily',
+          create: async () => ({
+            prompt: vi.fn(),
+            promptStreaming: () => mockStream(),
+            destroy: destroyMock
+          })
+        }
+      };
+
+      const progressMock = vi.fn();
+      const res = await callAI('Stream this', undefined, progressMock);
+      expect(res.success).toBe(true);
+      expect(res.source).toBe('nano');
+      expect(res.text).toBe('Hello World');
+      expect(progressMock).toHaveBeenCalledWith('Hello ', 'Hello ');
+      expect(progressMock).toHaveBeenCalledWith('World', 'Hello World');
+      expect(destroyMock).toHaveBeenCalled();
+    });
   });
 });

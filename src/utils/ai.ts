@@ -15,6 +15,7 @@ export interface AICapabilities {
 
 export interface AILanguageModelSession {
   prompt: (input: string) => Promise<string>;
+  promptStreaming?: (input: string) => ReadableStream<string> | AsyncIterable<string>;
   destroy: () => void;
 }
 
@@ -25,7 +26,8 @@ export interface AILanguageModelCreateOptions {
 
 export interface AILanguageModel {
   create: (options?: AILanguageModelCreateOptions) => Promise<AILanguageModelSession>;
-  capabilities: () => Promise<AICapabilities>;
+  capabilities?: () => Promise<AICapabilities>;
+  availability?: () => Promise<'readily' | 'after-download' | 'no'>;
 }
 
 // Extend Window and globalThis interface for TypeScript (W3C Prompt API & Origin Trials)
@@ -48,7 +50,10 @@ export const setCloudKey = (key: string): void => {
 
 export const getOnDeviceAIEngine = (): AILanguageModel | null => {
   if (typeof window === 'undefined') return null;
-  const aiObj = window.ai || (globalThis as unknown as { ai?: { languageModel?: AILanguageModel; assistant?: AILanguageModel } }).ai;
+  const globalScope = typeof self !== 'undefined' ? self : window;
+  const aiObj =
+    (globalScope as unknown as { ai?: { languageModel?: AILanguageModel; assistant?: AILanguageModel } }).ai ||
+    window.ai;
   if (!aiObj) return null;
   return aiObj.languageModel || aiObj.assistant || null;
 };
@@ -57,8 +62,15 @@ export const checkOnDeviceSupport = async (): Promise<boolean> => {
   const engine = getOnDeviceAIEngine();
   if (!engine) return false;
   try {
-    const caps = await engine.capabilities();
-    return caps.available !== 'no';
+    if (typeof engine.availability === 'function') {
+      const avail = await engine.availability();
+      return avail !== 'no';
+    }
+    if (typeof engine.capabilities === 'function') {
+      const caps = await engine.capabilities();
+      return caps.available !== 'no';
+    }
+    return true;
   } catch {
     return false;
   }
@@ -149,12 +161,43 @@ export const callAI = async (
   const onDeviceEngine = getOnDeviceAIEngine();
   if (onDeviceEngine) {
     try {
-      const caps = await onDeviceEngine.capabilities();
-      if (caps.available !== 'no') {
+      const isAvailable =
+        typeof onDeviceEngine.availability === 'function'
+          ? (await onDeviceEngine.availability()) !== 'no'
+          : typeof onDeviceEngine.capabilities === 'function'
+            ? (await onDeviceEngine.capabilities()).available !== 'no'
+            : true;
+
+      if (isAvailable) {
         const session = await onDeviceEngine.create({
           systemInstruction: systemInstruction || 'You are a helpful German Language Coach.'
         });
-        const text = await session.prompt(promptText);
+
+        let text = '';
+        if (typeof session.promptStreaming === 'function') {
+          const stream = session.promptStreaming(promptText);
+          if (Symbol.asyncIterator in Object(stream)) {
+            for await (const chunk of stream as AsyncIterable<string>) {
+              text += chunk;
+              onProgress?.(chunk, text);
+            }
+          } else if (typeof (stream as ReadableStream<string>).getReader === 'function') {
+            const reader = (stream as ReadableStream<string>).getReader();
+            while (true) {
+              const { done, value } = await reader.read();
+              if (done) break;
+              if (value) {
+                text += value;
+                onProgress?.(value, text);
+              }
+            }
+          } else {
+            text = await session.prompt(promptText);
+          }
+        } else {
+          text = await session.prompt(promptText);
+        }
+
         session.destroy();
         return {
           success: true,
