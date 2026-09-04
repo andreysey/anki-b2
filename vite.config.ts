@@ -30,6 +30,27 @@ export default defineConfig({
   plugins: [
     vue(),
     tailwindcss(),
+    {
+      name: 'inline-css',
+      apply: 'build',
+      enforce: 'post',
+      transformIndexHtml(html, { bundle }) {
+        if (!bundle) return html;
+        let inlinedHtml = html;
+        for (const [fileName, file] of Object.entries(bundle)) {
+          if (fileName.endsWith('.css') && 'source' in file) {
+            const cssContent = typeof file.source === 'string' ? file.source : file.source.toString();
+            // Replace external <link rel="stylesheet" ...> with <style>...</style>
+            const linkRegex = new RegExp(`<link[^>]*rel=["']stylesheet["'][^>]*href=["'][^"']*${fileName}[^"']*["'][^>]*>`, 'i');
+            if (linkRegex.test(inlinedHtml)) {
+              inlinedHtml = inlinedHtml.replace(linkRegex, `<style>${cssContent}</style>`);
+              delete bundle[fileName];
+            }
+          }
+        }
+        return inlinedHtml;
+      }
+    },
     VitePWA({
       registerType: 'autoUpdate',
       injectRegister: 'script-defer',
@@ -82,12 +103,6 @@ export default defineConfig({
         manualChunks(id: string) {
           if (id.includes('node_modules/@mlc-ai/web-llm/')) {
             return 'vendor-webllm';
-          }
-          if (id.includes('node_modules/vue/') || id.includes('node_modules/@vue/')) {
-            return 'vendor-vue';
-          }
-          if (id.includes('node_modules/reka-ui/')) {
-            return 'vendor-ui';
           }
         }
       }

@@ -193,12 +193,20 @@ export function useVocabulary() {
     error.value = null;
 
     try {
-      const response = await fetch('data.json');
-      if (!response.ok) {
-        throw new Error(`Failed to fetch vocabulary data: HTTP ${response.status}`);
+      let data: Word[] | null = null;
+      if (typeof window !== 'undefined' && (window as unknown as { __DATA_PROMISE__?: Promise<Word[] | null> }).__DATA_PROMISE__) {
+        data = await (window as unknown as { __DATA_PROMISE__: Promise<Word[] | null> }).__DATA_PROMISE__;
       }
-      const data: Word[] = await response.json();
-      vocabulary.value = data;
+      if (!data) {
+        const response = await fetch('data.json');
+        if (!response.ok) {
+          throw new Error(`Failed to fetch vocabulary data: HTTP ${response.status}`);
+        }
+        data = await response.json();
+      }
+      if (data) {
+        vocabulary.value = data;
+      }
     } catch (err: unknown) {
       const message = err instanceof Error ? err.message : String(err);
       console.error('Error fetching vocabulary:', message);

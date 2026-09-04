@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed } from 'vue';
 import { Button } from './ui/button';
-import { Popover, PopoverTrigger, PopoverContent } from './ui/popover';
+import AudioSettingsPopover from './AudioSettingsPopover.vue';
 import {
   BookOpen,
   Sun,
@@ -10,8 +10,7 @@ import {
   Github,
   List,
   GraduationCap,
-  BarChart3,
-  Volume2
+  BarChart3
 } from 'lucide-vue-next';
 
 interface VoiceOption {
@@ -78,58 +77,15 @@ const themeModeLabel = computed(() => {
       <!-- Utility Actions (Mobile only) -->
       <div class="flex md:hidden items-center gap-1.5">
         <!-- Audio Settings Popover (Mobile) -->
-        <Popover>
-          <PopoverTrigger as-child>
-            <Button
-              id="btn-audio-settings-mobile"
-              variant="ghost"
-              size="icon-sm"
-              title="Speech & Audio Preferences"
-              class="rounded-full text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100"
-            >
-              <Volume2 class="h-4 w-4" />
-            </Button>
-          </PopoverTrigger>
-          <PopoverContent class="w-80 p-4 space-y-4" align="end">
-            <div class="flex items-center gap-2 pb-2 border-b border-slate-200/80 dark:border-white/10">
-              <Volume2 class="h-4 w-4 text-primary" />
-              <span class="text-xs font-bold text-slate-800 dark:text-slate-200">Speech & Audio Preferences</span>
-            </div>
-            <div class="space-y-2">
-              <label for="voice-select-mobile" class="text-[11px] font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400 block">
-                German Voice Engine
-              </label>
-              <select
-                id="voice-select-mobile"
-                aria-label="Select German Voice Engine"
-                :value="selectedVoiceURI"
-                @change="emit('update:selectedVoiceURI', ($event.target as HTMLSelectElement).value)"
-                class="w-full bg-slate-50 dark:bg-black/40 border border-slate-200 dark:border-white/10 text-slate-800 dark:text-slate-100 rounded-xl p-2 text-xs outline-none focus:border-primary"
-              >
-                <option v-for="voice in germanVoices" :key="voice.voiceURI" :value="voice.voiceURI">
-                  {{ voice.name }} ({{ voice.lang }})
-                </option>
-              </select>
-            </div>
-            <div class="space-y-2">
-              <div class="flex justify-between items-center text-[11px] font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">
-                <label for="tts-rate-mobile">Speech Rate</label>
-                <span class="font-mono text-primary">{{ ttsRate }}x</span>
-              </div>
-              <input
-                id="tts-rate-mobile"
-                aria-label="Speech Rate"
-                type="range"
-                min="0.5"
-                max="1.5"
-                step="0.05"
-                :value="ttsRate"
-                @input="emit('update:ttsRate', Number(($event.target as HTMLInputElement).value))"
-                class="w-full h-2 bg-slate-300 dark:bg-white/20 rounded-lg cursor-pointer accent-primary block"
-              />
-            </div>
-          </PopoverContent>
-        </Popover>
+        <AudioSettingsPopover
+          idPrefix="mobile"
+          buttonSize="icon-sm"
+          :germanVoices="germanVoices"
+          :selectedVoiceURI="selectedVoiceURI"
+          :ttsRate="ttsRate"
+          @update:selectedVoiceURI="emit('update:selectedVoiceURI', $event)"
+          @update:ttsRate="emit('update:ttsRate', $event)"
+        />
 
         <Button
           id="btn-theme-toggle-mobile"
@@ -207,58 +163,15 @@ const themeModeLabel = computed(() => {
     <!-- Right: Window Utility Actions (Desktop only) -->
     <div class="hidden md:flex items-center gap-2 justify-end">
       <!-- Audio Settings Popover (Desktop) -->
-      <Popover>
-        <PopoverTrigger as-child>
-          <Button
-            id="btn-audio-settings"
-            variant="ghost"
-            size="icon"
-            title="Speech & Audio Preferences"
-            class="rounded-full text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100"
-          >
-            <Volume2 class="h-4 w-4" />
-          </Button>
-        </PopoverTrigger>
-        <PopoverContent class="w-80 p-4 space-y-4" align="end">
-          <div class="flex items-center gap-2 pb-2 border-b border-slate-200/80 dark:border-white/10">
-            <Volume2 class="h-4 w-4 text-primary" />
-            <span class="text-xs font-bold text-slate-800 dark:text-slate-200">Speech & Audio Preferences</span>
-          </div>
-          <div class="space-y-2">
-            <label for="voice-select-desktop" class="text-[11px] font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400 block">
-              German Voice Engine
-            </label>
-            <select
-              id="voice-select-desktop"
-              aria-label="Select German Voice Engine"
-              :value="selectedVoiceURI"
-              @change="emit('update:selectedVoiceURI', ($event.target as HTMLSelectElement).value)"
-              class="w-full bg-slate-50 dark:bg-black/40 border border-slate-200 dark:border-white/10 text-slate-800 dark:text-slate-100 rounded-xl p-2 text-xs sm:text-sm outline-none focus:border-primary"
-            >
-              <option v-for="voice in germanVoices" :key="voice.voiceURI" :value="voice.voiceURI">
-                {{ voice.name }} ({{ voice.lang }})
-              </option>
-            </select>
-          </div>
-          <div class="space-y-2">
-            <div class="flex justify-between items-center text-[11px] font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">
-              <label for="tts-rate-desktop">Speech Rate</label>
-              <span class="font-mono text-primary">{{ ttsRate }}x</span>
-            </div>
-            <input
-              id="tts-rate-desktop"
-              aria-label="Speech Rate"
-              type="range"
-              min="0.5"
-              max="1.5"
-              step="0.05"
-              :value="ttsRate"
-              @input="emit('update:ttsRate', Number(($event.target as HTMLInputElement).value))"
-              class="w-full h-2 bg-slate-300 dark:bg-white/20 rounded-lg cursor-pointer accent-primary block"
-            />
-          </div>
-        </PopoverContent>
-      </Popover>
+      <AudioSettingsPopover
+        idPrefix="desktop"
+        buttonSize="icon"
+        :germanVoices="germanVoices"
+        :selectedVoiceURI="selectedVoiceURI"
+        :ttsRate="ttsRate"
+        @update:selectedVoiceURI="emit('update:selectedVoiceURI', $event)"
+        @update:ttsRate="emit('update:ttsRate', $event)"
+      />
 
       <Button
         id="btn-theme-toggle"

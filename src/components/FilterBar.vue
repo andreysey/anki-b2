@@ -3,14 +3,7 @@ import { computed } from 'vue';
 import type { Word } from '../types';
 import { Input } from './ui/input';
 import { Button } from './ui/button';
-import {
-  Select,
-  SelectTrigger,
-  SelectValue,
-  SelectContent,
-  SelectItem
-} from './ui/select';
-import { Search, X, List, GraduationCap } from 'lucide-vue-next';
+import { Search, X, List, GraduationCap, ChevronDown } from 'lucide-vue-next';
 import { getThemaLabel } from '../utils/thema';
 
 const props = defineProps<{
@@ -93,51 +86,47 @@ const toggleStudyModeLabel = computed(() => (props.isStudyMode ? 'Back to List' 
       </div>
 
       <!-- Level Filter -->
-      <div class="w-full">
-        <Select
-          :modelValue="level"
-          @update:modelValue="(val) => emit('update:level', String(val ?? 'all'))"
+      <div class="w-full relative">
+        <select
+          aria-label="Filter vocabulary by level"
+          :value="level"
+          @change="emit('update:level', ($event.target as HTMLSelectElement).value)"
+          class="w-full text-xs sm:text-sm h-9 px-3 bg-slate-50/90 dark:bg-black/40 border border-slate-200 dark:border-white/10 rounded-xl text-slate-800 dark:text-slate-100 outline-none focus:border-primary cursor-pointer appearance-none"
         >
-          <SelectTrigger
-            aria-label="Filter vocabulary by level"
-            class="w-full text-xs sm:text-sm h-9 bg-slate-50/90 dark:bg-black/40 border-slate-200 dark:border-white/10 rounded-xl"
+          <option
+            v-for="opt in levelOptions"
+            :key="opt.value"
+            :value="opt.value"
+            class="bg-white dark:bg-slate-900 text-slate-900 dark:text-white"
           >
-            <SelectValue placeholder="Select Level" />
-          </SelectTrigger>
-          <SelectContent>
-            <SelectItem
-              v-for="opt in levelOptions"
-              :key="opt.value"
-              :value="opt.value"
-            >
-              {{ opt.label }}
-            </SelectItem>
-          </SelectContent>
-        </Select>
+            {{ opt.label }}
+          </option>
+        </select>
+        <div class="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none text-slate-400">
+          <ChevronDown class="h-4 w-4" />
+        </div>
       </div>
 
       <!-- Theme Filter -->
-      <div class="w-full">
-        <Select
-          :modelValue="thema"
-          @update:modelValue="(val) => emit('update:thema', String(val ?? 'all'))"
+      <div class="w-full relative">
+        <select
+          aria-label="Filter vocabulary by theme"
+          :value="thema"
+          @change="emit('update:thema', ($event.target as HTMLSelectElement).value)"
+          class="w-full text-xs sm:text-sm h-9 px-3 bg-slate-50/90 dark:bg-black/40 border border-slate-200 dark:border-white/10 rounded-xl text-slate-800 dark:text-slate-100 outline-none focus:border-primary cursor-pointer appearance-none truncate"
         >
-          <SelectTrigger
-            aria-label="Filter vocabulary by theme"
-            class="w-full text-xs sm:text-sm h-9 bg-slate-50/90 dark:bg-black/40 border-slate-200 dark:border-white/10 rounded-xl"
+          <option
+            v-for="opt in themeOptions"
+            :key="opt.value"
+            :value="opt.value"
+            class="bg-white dark:bg-slate-900 text-slate-900 dark:text-white"
           >
-            <SelectValue placeholder="Select Theme" />
-          </SelectTrigger>
-          <SelectContent class="max-h-72">
-            <SelectItem
-              v-for="opt in themeOptions"
-              :key="opt.value"
-              :value="opt.value"
-            >
-              {{ opt.label }}
-            </SelectItem>
-          </SelectContent>
-        </Select>
+            {{ opt.label }}
+          </option>
+        </select>
+        <div class="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none text-slate-400">
+          <ChevronDown class="h-4 w-4" />
+        </div>
       </div>
 
       <!-- Mode Toggle Section -->

@@ -9,20 +9,22 @@ import { useNavigation } from './composables/useNavigation';
 import { useAIAssistantState } from './composables/useAIAssistantState';
 
 // UI Components
-import { Toaster, toast } from './components/ui/sonner';
+import { toast } from './components/ui/sonner/toast';
 import { Loader2, AlertTriangle } from 'lucide-vue-next';
 
 // App Components
 import AppHero from './components/AppHero.vue';
 import AppHeader from './components/AppHeader.vue';
 import FilterBar from './components/FilterBar.vue';
-import StudyView from './components/StudyView.vue';
 import VocabularyList from './components/VocabularyList.vue';
 
 // Async Components (Code Splitting)
+const Toaster = defineAsyncComponent(() => import('./components/ui/sonner/Sonner.vue'));
+const StudyView = defineAsyncComponent(() => import('./components/StudyView.vue'));
 const DashboardView = defineAsyncComponent(() => import('./components/DashboardView.vue'));
 const AISettingsDialog = defineAsyncComponent(() => import('./components/AISettingsDialog.vue'));
 
+const isToasterMounted = ref(false);
 const mainContentRef = ref<HTMLElement | null>(null);
 const appVersion = typeof __APP_VERSION__ !== 'undefined' ? __APP_VERSION__ : '1.18.0';
 
@@ -143,6 +145,9 @@ onMounted(() => {
   initTheme();
   initVoices();
   shortcuts.register();
+  window.addEventListener('load-toaster', () => {
+    isToasterMounted.value = true;
+  }, { once: true });
 });
 
 onUnmounted(() => {
@@ -163,7 +168,7 @@ watch(
         // Front: German word
         playAudio(currentCard.german_audio || currentCard.german, 'de-DE');
       } else {
-        // Back: English translation -> German example sentence
+        // Back: English word -> German example sentence
         const items: Array<{ text: string; lang?: string }> = [
           { text: currentCard.english, lang: 'en-US' }
         ];
@@ -192,7 +197,7 @@ watch(
 </script>
 
 <template>
-  <Toaster position="top-right" richColors />
+  <Toaster v-if="isToasterMounted" position="top-right" richColors />
   <AISettingsDialog v-if="isSettingsOpen" />
 
   <!-- macOS Ambient Desktop Wallpaper Canvas -->
