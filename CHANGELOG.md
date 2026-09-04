@@ -1,3 +1,10 @@
+# [1.39.0](https://github.com/andreysey/anki-b2/compare/v1.38.0...v1.39.0) (2026-09-04)
+
+
+### Features
+
+* optimize UI layout and responsive spacing for compact viewports across app components ([fa8f50f](https://github.com/andreysey/anki-b2/commit/fa8f50f2ebc6a45a961924ef8c934372b79eb2ee))
+
 # [1.38.0](https://github.com/andreysey/anki-b2/compare/v1.37.0...v1.38.0) (2026-09-04)
 
 
