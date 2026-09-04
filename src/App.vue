@@ -17,10 +17,10 @@ import AppHeader from './components/AppHeader.vue';
 import FilterBar from './components/FilterBar.vue';
 import StudyView from './components/StudyView.vue';
 import VocabularyList from './components/VocabularyList.vue';
-import AISettingsDialog from './components/AISettingsDialog.vue';
 
 // Async Components (Code Splitting)
 const DashboardView = defineAsyncComponent(() => import('./components/DashboardView.vue'));
+const AISettingsDialog = defineAsyncComponent(() => import('./components/AISettingsDialog.vue'));
 
 const mainContentRef = ref<HTMLElement | null>(null);
 const appVersion = typeof __APP_VERSION__ !== 'undefined' ? __APP_VERSION__ : '1.18.0';
