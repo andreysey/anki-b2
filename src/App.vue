@@ -5,6 +5,7 @@ import { useVocabulary } from './composables/useVocabulary';
 import { useTheme } from './composables/useTheme';
 import { useSpeechSynthesis } from './composables/useSpeechSynthesis';
 import { useKeyboardShortcuts } from './composables/useKeyboardShortcuts';
+import { useNavigation } from './composables/useNavigation';
 
 // UI Components
 import { Toaster, toast } from './components/ui/sonner';
@@ -60,7 +61,7 @@ const { themeMode, cycleTheme, initTheme, cleanupTheme } = useTheme();
 const { germanVoices, selectedVoiceURI, ttsRate, initVoices, playAudio, playSequence } =
   useSpeechSynthesis();
 
-const activeView = ref<'list' | 'study' | 'dashboard'>('list');
+const { activeView, initNavigation, cleanupNavigation } = useNavigation();
 
 // Synchronize activeView with isStudyMode bidirectionally and reset scroll
 watch(activeView, async (val) => {
@@ -135,6 +136,7 @@ const shortcuts = useKeyboardShortcuts({
 });
 
 onMounted(() => {
+  initNavigation();
   init();
   initTheme();
   initVoices();
@@ -142,6 +144,7 @@ onMounted(() => {
 });
 
 onUnmounted(() => {
+  cleanupNavigation();
   cleanupTheme();
   shortcuts.cleanup();
 });
