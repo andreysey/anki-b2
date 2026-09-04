@@ -86,17 +86,17 @@ async function main() {
   console.log(
     `✅ Anki: B1+ deck generated (${r1.uniqueCards} unique cards from ${r1.totalEntries} total entries)`
   );
-  if (r1.warnings.length > 0) r1.warnings.forEach((w) => console.warn(`  ⚠️  ${w}`));
+  if (r1.warnings.length) r1.warnings.forEach((w) => console.warn(`  ⚠️  ${w}`));
 
   console.log(
     `✅ Anki: B2 deck generated (${r2.uniqueCards} unique cards from ${r2.totalEntries} total entries)`
   );
-  if (r2.warnings.length > 0) r2.warnings.forEach((w) => console.warn(`  ⚠️  ${w}`));
+  if (r2.warnings.length) r2.warnings.forEach((w) => console.warn(`  ⚠️  ${w}`));
 
   console.log(
     `✅ Anki: Combined deck generated (${rc.uniqueCards} unique cards from ${rc.totalEntries} total entries)`
   );
-  if (rc.warnings.length > 0) rc.warnings.forEach((w) => console.warn(`  ⚠️  ${w}`));
+  if (rc.warnings.length) rc.warnings.forEach((w) => console.warn(`  ⚠️  ${w}`));
 
   // Write data.json
   const json = JSON.stringify(rc.webData, null, 2);

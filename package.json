@@ -19,6 +19,7 @@
     "test:coverage": "vitest run --coverage",
     "generate:anki": "tsx scripts/generate-all-anki.ts",
     "lint:data": "tsx scripts/lint-data.ts",
+    "lint:mess": "vue-mess-detector analyze",
     "release": "semantic-release",
     "prepare": "husky"
   },
@@ -55,6 +56,7 @@
     "vite": "^8.2.2",
     "vite-plugin-pwa": "^1.3.0",
     "vitest": "^4.1.11",
+    "vue-mess-detector": "^0.68.1",
     "vue-tsc": "^3.3.11"
   },
   "volta": {

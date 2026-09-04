@@ -31,6 +31,39 @@ const LEVEL_TRANSITIONS: Readonly<
 
 export const getItemKey = (item: Word): string => item.id || `${item.german}-${item.thema}`;
 
+export const compareStudyCards = (
+  a: Word,
+  b: Word,
+  srsDataMap: Record<string, SRSState>,
+  now: number
+): number => {
+  const keyA = getItemKey(a);
+  const keyB = getItemKey(b);
+  const srsA = srsDataMap[keyA];
+  const srsB = srsDataMap[keyB];
+
+  const dueA = getCardDueDate(srsA);
+  const dueB = getCardDueDate(srsB);
+
+  const isDueA = dueA <= now;
+  const isDueB = dueB <= now;
+
+  // 1. Prioritize cards due for review now
+  if (isDueA !== isDueB) {
+    return isDueA ? -1 : 1;
+  }
+
+  // 2. If both are due, sort by level and then due date
+  if (isDueA) {
+    const levelA = srsA?.level ?? 0;
+    const levelB = srsB?.level ?? 0;
+    if (levelA !== levelB) return levelA - levelB;
+  }
+
+  // 3. Earliest due date first
+  return dueA - dueB;
+};
+
 export const normalizeGermanText = (text: string): string => {
   return text
     .toLowerCase()
@@ -55,6 +88,16 @@ export const buildSearchIndex = (word: Word): string => {
   const withExpandedUmlauts = normalizeGermanText(raw);
   const withStrippedUmlauts = normalizeToSimpleAscii(raw);
   return `${raw} ${withExpandedUmlauts} ${withStrippedUmlauts}`;
+};
+
+export const matchesSearchFilter = (
+  item: Word,
+  rawQuery: string,
+  normalizedQuery: string
+): boolean => {
+  if (!rawQuery) return true;
+  const searchTarget = item._searchIndex ?? buildSearchIndex(item);
+  return searchTarget.includes(rawQuery) || searchTarget.includes(normalizedQuery);
 };
 
 export interface StudyStreakData {
@@ -137,7 +180,7 @@ export function useVocabulary() {
   };
 
   const init = async () => {
-    if (vocabulary.value.length > 0) return; // Already loaded
+    if (vocabulary.value.length) return; // Already loaded
 
     isLoading.value = true;
     error.value = null;
@@ -194,17 +237,16 @@ export function useVocabulary() {
     const normalizedQuery = normalizeGermanText(rawQuery);
 
     return vocabulary.value.filter((item) => {
-      const searchTarget = item._searchIndex ?? buildSearchIndex(item);
-      const matchesSearch =
-        !rawQuery ||
-        searchTarget.includes(rawQuery) ||
-        searchTarget.includes(normalizedQuery);
-      const matchesLevel = levelFilter.value === 'all' || item.level === levelFilter.value;
-      const matchesThema =
-        themaFilter.value === 'all' || item.thema.toString() === themaFilter.value;
-      const isMastered = masteredIds.value.has(getItemKey(item));
-
-      return matchesSearch && matchesLevel && matchesThema && !isMastered;
+      if (masteredIds.value.has(getItemKey(item))) {
+        return false;
+      }
+      if (levelFilter.value !== 'all' && item.level !== levelFilter.value) {
+        return false;
+      }
+      if (themaFilter.value !== 'all' && item.thema.toString() !== themaFilter.value) {
+        return false;
+      }
+      return matchesSearchFilter(item, rawQuery, normalizedQuery);
     });
   });
 
@@ -212,35 +254,7 @@ export function useVocabulary() {
   const sortedStudyVocabulary = computed(() => {
     const list = [...filteredVocabulary.value];
     const now = Date.now();
-
-    list.sort((a, b) => {
-      const keyA = getItemKey(a);
-      const keyB = getItemKey(b);
-      const srsA = srsData.value[keyA];
-      const srsB = srsData.value[keyB];
-
-      const dueA = getCardDueDate(srsA);
-      const dueB = getCardDueDate(srsB);
-
-      const isDueA = dueA <= now;
-      const isDueB = dueB <= now;
-
-      // 1. Prioritize cards that are due for review now
-      if (isDueA && !isDueB) return -1;
-      if (!isDueA && isDueB) return 1;
-
-      // 2. If both are due (or both not due), sort by level and then due date
-      if (isDueA && isDueB) {
-        const levelA = srsA?.level ?? 0;
-        const levelB = srsB?.level ?? 0;
-        if (levelA !== levelB) return levelA - levelB;
-        return dueA - dueB;
-      }
-
-      // 3. Future cards: earliest due date first
-      return dueA - dueB;
-    });
-
+    list.sort((a, b) => compareStudyCards(a, b, srsData.value, now));
     return list;
   });
 

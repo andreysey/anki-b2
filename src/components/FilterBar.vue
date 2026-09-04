@@ -58,6 +58,8 @@ const levelOptions = [
 const handleClearSearch = () => {
   emit('update:search', '');
 };
+
+const toggleStudyModeLabel = computed(() => (props.isStudyMode ? 'Back to List' : 'Start Study'));
 </script>
 
 <template>
@@ -140,7 +142,7 @@ const handleClearSearch = () => {
           class="w-full rounded-xl shadow-xs font-semibold text-xs sm:text-sm h-9"
         >
           <component :is="isStudyMode ? List : GraduationCap" class="h-4 w-4" />
-          <span>{{ isStudyMode ? 'Back to List' : 'Start Study' }}</span>
+          <span>{{ toggleStudyModeLabel }}</span>
         </Button>
       </div>
     </div>

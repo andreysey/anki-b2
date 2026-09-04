@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, watch, onMounted } from 'vue';
+import { ref, computed, watch, onMounted } from 'vue';
 import {
   Dialog,
   DialogContent,
@@ -93,6 +93,12 @@ const handleDeleteModel = async () => {
     console.error('Failed to delete model from cache:', e);
   }
 };
+
+const loadingText = computed(() => modelLoadingText.value || 'Downloading model...');
+
+const modelActionButtonLabel = computed(() =>
+  isCurrentModelCached.value ? 'Load & Activate Model' : 'Download & Activate Model'
+);
 </script>
 
 <template>
@@ -203,7 +209,7 @@ const handleDeleteModel = async () => {
             <!-- Loading Progress -->
             <div v-if="isModelLoading" class="space-y-1.5 p-2.5 rounded-xl bg-slate-100 dark:bg-white/5 border border-slate-200 dark:border-white/10">
               <div class="flex justify-between text-[11px] font-medium text-slate-700 dark:text-slate-300">
-                <span>{{ modelLoadingText || 'Downloading model...' }}</span>
+                <span>{{ loadingText }}</span>
                 <span>{{ modelLoadingProgress }}%</span>
               </div>
               <div class="w-full bg-slate-200 dark:bg-slate-700 h-1.5 rounded-full overflow-hidden">
@@ -224,7 +230,7 @@ const handleDeleteModel = async () => {
                 class="flex-1 text-xs font-semibold py-2 rounded-xl"
               >
                 <Download class="h-3.5 w-3.5 mr-1" />
-                {{ isCurrentModelCached ? 'Load & Activate Model' : 'Download & Activate Model' }}
+                {{ modelActionButtonLabel }}
               </Button>
               <Button
                 v-if="isCurrentModelCached"

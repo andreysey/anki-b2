@@ -84,7 +84,7 @@ const DEFAULT_FALLBACK_MODELS = [
 ];
 
 export const getAvailableGeminiModels = async (cloudKey: string): Promise<string[]> => {
-  if (cachedModels && cachedModels.length > 0 && lastKeyForCache === cloudKey) {
+  if (cachedModels && cachedModels.length && lastKeyForCache === cloudKey) {
     return cachedModels;
   }
 
@@ -126,7 +126,7 @@ export const getAvailableGeminiModels = async (cloudKey: string): Promise<string
             return b.localeCompare(a);
           });
 
-        if (supported.length > 0) {
+        if (supported.length) {
           cachedModels = supported;
           lastKeyForCache = cloudKey;
           return supported;

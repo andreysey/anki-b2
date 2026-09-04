@@ -13,7 +13,7 @@ export function useSpeechSynthesis() {
       germanVoices.value = window.speechSynthesis
         .getVoices()
         .filter((v) => v.lang.toLowerCase().startsWith('de'));
-      if (!selectedVoiceURI.value && germanVoices.value.length > 0) {
+      if (!selectedVoiceURI.value && germanVoices.value.length) {
         // Prefer standard de-DE voices
         const preferred =
           germanVoices.value.find((v) => v.lang === 'de-DE') || germanVoices.value[0];
