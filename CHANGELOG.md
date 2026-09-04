@@ -1,3 +1,10 @@
+## [1.39.1](https://github.com/andreysey/anki-b2/compare/v1.39.0...v1.39.1) (2026-09-04)
+
+
+### Performance Improvements
+
+* ignore WebLLM assets in PWA cache, optimize font loading, and lazy-load AISettingsDialog ([3835904](https://github.com/andreysey/anki-b2/commit/38359043c89decb73b7444758765f923da888fc2))
+
 # [1.39.0](https://github.com/andreysey/anki-b2/compare/v1.38.0...v1.39.0) (2026-09-04)
 
 
