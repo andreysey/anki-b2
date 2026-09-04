@@ -1,3 +1,10 @@
+# [1.37.0](https://github.com/andreysey/anki-b2/compare/v1.36.0...v1.37.0) (2026-09-04)
+
+
+### Features
+
+* add persistence for isAutoplay setting using localStorage ([7c7e6a6](https://github.com/andreysey/anki-b2/commit/7c7e6a65097aff494d2ee9d949d0a3b2ee06a0e2))
+
 # [1.36.0](https://github.com/andreysey/anki-b2/compare/v1.35.2...v1.36.0) (2026-09-04)
 
 
