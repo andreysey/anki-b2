@@ -164,8 +164,9 @@ const themeModeLabel = computed(() => {
         "
         @click="emit('update:activeView', 'list')"
       >
-        <List class="h-3.5 w-3.5" />
-        <span>Dictionary</span>
+        <List class="h-3.5 w-3.5 shrink-0" />
+        <span class="hidden xs:inline sm:inline">Dictionary</span>
+        <span class="xs:hidden">Words</span>
       </button>
       <button
         type="button"
@@ -178,8 +179,9 @@ const themeModeLabel = computed(() => {
         "
         @click="emit('update:activeView', 'study')"
       >
-        <GraduationCap class="h-3.5 w-3.5" />
-        <span>Study Mode</span>
+        <GraduationCap class="h-3.5 w-3.5 shrink-0" />
+        <span class="hidden sm:inline">Study Mode</span>
+        <span class="sm:hidden">Study</span>
       </button>
       <button
         type="button"
@@ -192,8 +194,9 @@ const themeModeLabel = computed(() => {
         "
         @click="emit('update:activeView', 'dashboard')"
       >
-        <BarChart3 class="h-3.5 w-3.5" />
-        <span>Dashboard</span>
+        <BarChart3 class="h-3.5 w-3.5 shrink-0" />
+        <span class="hidden xs:inline sm:inline">Dashboard</span>
+        <span class="xs:hidden">Stats</span>
       </button>
     </nav>
 

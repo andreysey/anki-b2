@@ -188,7 +188,7 @@ html:not(.dark) .macos-titlebar {
 
 /* macOS Main Content Area Spacing (Balanced & Viewport-Friendly) */
 .macos-main-content {
-  padding: 1.25rem 1.25rem 2rem 1.25rem;
+  padding: 0.875rem 0.875rem 1.5rem 0.875rem;
 }
 
 @media (min-width: 640px) {

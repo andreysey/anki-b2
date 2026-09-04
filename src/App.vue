@@ -195,11 +195,11 @@ watch(
 
   <!-- macOS Ambient Desktop Wallpaper Canvas -->
   <div
-    class="macos-desktop-bg min-h-screen text-slate-900 dark:text-slate-100 flex flex-col items-center justify-start p-4 sm:p-8 lg:p-12 font-sans selection:bg-primary-500 selection:text-white transition-colors duration-500"
+    class="macos-desktop-bg min-h-screen text-slate-900 dark:text-slate-100 flex flex-col items-center justify-start p-1.5 sm:p-6 lg:p-10 font-sans selection:bg-primary-500 selection:text-white transition-colors duration-500"
   >
     <!-- Central macOS Floating Window -->
     <div
-      class="macos-window w-full max-w-6xl rounded-[28px] sm:rounded-[36px] overflow-hidden flex flex-col min-h-[90vh] my-auto"
+      class="macos-window w-full max-w-6xl rounded-2xl sm:rounded-[36px] overflow-hidden flex flex-col min-h-[96vh] sm:min-h-[90vh] my-auto"
     >
       <!-- macOS Window Titlebar & Toolbar -->
       <AppHeader
