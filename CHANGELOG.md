@@ -1,3 +1,10 @@
+# [1.38.0](https://github.com/andreysey/anki-b2/compare/v1.37.0...v1.38.0) (2026-09-04)
+
+
+### Features
+
+* implement URL hash-based navigation composable with bidirectional sync ([8df7c7a](https://github.com/andreysey/anki-b2/commit/8df7c7ad6599264b15c1a7eeb2b1ea90e0914d6d))
+
 # [1.37.0](https://github.com/andreysey/anki-b2/compare/v1.36.0...v1.37.0) (2026-09-04)
 
 
