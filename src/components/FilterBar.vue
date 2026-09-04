@@ -98,7 +98,10 @@ const toggleStudyModeLabel = computed(() => (props.isStudyMode ? 'Back to List' 
           :modelValue="level"
           @update:modelValue="(val) => emit('update:level', String(val ?? 'all'))"
         >
-          <SelectTrigger class="w-full text-xs sm:text-sm h-9 bg-slate-50/90 dark:bg-black/40 border-slate-200 dark:border-white/10 rounded-xl">
+          <SelectTrigger
+            aria-label="Filter vocabulary by level"
+            class="w-full text-xs sm:text-sm h-9 bg-slate-50/90 dark:bg-black/40 border-slate-200 dark:border-white/10 rounded-xl"
+          >
             <SelectValue placeholder="Select Level" />
           </SelectTrigger>
           <SelectContent>
@@ -119,7 +122,10 @@ const toggleStudyModeLabel = computed(() => (props.isStudyMode ? 'Back to List' 
           :modelValue="thema"
           @update:modelValue="(val) => emit('update:thema', String(val ?? 'all'))"
         >
-          <SelectTrigger class="w-full text-xs sm:text-sm h-9 bg-slate-50/90 dark:bg-black/40 border-slate-200 dark:border-white/10 rounded-xl">
+          <SelectTrigger
+            aria-label="Filter vocabulary by theme"
+            class="w-full text-xs sm:text-sm h-9 bg-slate-50/90 dark:bg-black/40 border-slate-200 dark:border-white/10 rounded-xl"
+          >
             <SelectValue placeholder="Select Theme" />
           </SelectTrigger>
           <SelectContent class="max-h-72">

@@ -96,8 +96,10 @@ export const matchesSearchFilter = (
   normalizedQuery: string
 ): boolean => {
   if (!rawQuery) return true;
-  const searchTarget = item._searchIndex ?? buildSearchIndex(item);
-  return searchTarget.includes(rawQuery) || searchTarget.includes(normalizedQuery);
+  if (!item._searchIndex) {
+    item._searchIndex = buildSearchIndex(item);
+  }
+  return item._searchIndex.includes(rawQuery) || item._searchIndex.includes(normalizedQuery);
 };
 
 export interface StudyStreakData {
@@ -138,7 +140,7 @@ const sessionReviewedCount = ref<number>(0);
 const search = ref<string>('');
 const levelFilter = ref<string>('all');
 const themaFilter = ref<string>('all');
-const displayLimit = ref<number>(50);
+const displayLimit = ref<number>(24);
 
 const isStudyMode = ref<boolean>(false);
 const currentStudyIndex = ref<number>(0);
@@ -156,7 +158,7 @@ const shuffledIndices = ref<number[]>([]);
 
 // Reset display limit and shuffle when filters change
 watch([search, levelFilter, themaFilter], () => {
-  displayLimit.value = 50;
+  displayLimit.value = 24;
   isShuffled.value = false;
   shuffledIndices.value = [];
 });
@@ -196,11 +198,6 @@ export function useVocabulary() {
         throw new Error(`Failed to fetch vocabulary data: HTTP ${response.status}`);
       }
       const data: Word[] = await response.json();
-      data.forEach((item) => {
-        if (!item._searchIndex) {
-          item._searchIndex = buildSearchIndex(item);
-        }
-      });
       vocabulary.value = data;
     } catch (err: unknown) {
       const message = err instanceof Error ? err.message : String(err);
@@ -357,7 +354,7 @@ export function useVocabulary() {
     restoreProgress,
     recordStudyActivity,
     loadMore: () => {
-      displayLimit.value += 50;
+      displayLimit.value += 24;
     },
     getItemKey
   };

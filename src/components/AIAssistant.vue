@@ -20,7 +20,7 @@ import {
   isWebGPUSupported,
   isGenerating,
   generationStatus
-} from '../utils/webllm';
+} from '../utils/webllmState';
 
 const props = defineProps<{
   word: Word;

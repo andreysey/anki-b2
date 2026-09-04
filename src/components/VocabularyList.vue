@@ -19,12 +19,15 @@ const emit = defineEmits<{
 </script>
 
 <template>
-  <div class="flex flex-col gap-6 sm:gap-8 animate-in fade-in duration-500">
+  <div class="flex flex-col gap-6 sm:gap-8">
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5">
       <div
-        v-for="item in vocabulary.slice(0, displayLimit)"
+        v-for="(item, idx) in vocabulary.slice(0, displayLimit)"
         :key="getItemKey(item)"
-        class="bg-white/95 dark:bg-slate-900/90 border border-slate-200/90 dark:border-white/10 rounded-2xl p-4 sm:p-4.5 shadow-xs hover:shadow-md hover:border-slate-300 dark:hover:border-white/20 hover:scale-[1.01] transition-all duration-200 flex flex-col justify-between"
+        :class="[
+          'bg-white/95 dark:bg-slate-900/90 border border-slate-200/90 dark:border-white/10 rounded-2xl p-4 sm:p-4.5 shadow-xs hover:shadow-md hover:border-slate-300 dark:hover:border-white/20 hover:scale-[1.01] transition-all duration-200 flex flex-col justify-between',
+          idx >= 6 ? 'vocab-card-auto' : ''
+        ]"
       >
         <!-- Header -->
         <div class="flex justify-between items-center w-full mb-2.5">

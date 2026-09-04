@@ -96,10 +96,12 @@ const themeModeLabel = computed(() => {
               <span class="text-xs font-bold text-slate-800 dark:text-slate-200">Speech & Audio Preferences</span>
             </div>
             <div class="space-y-2">
-              <span class="text-[11px] font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">
+              <label for="voice-select-mobile" class="text-[11px] font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400 block">
                 German Voice Engine
-              </span>
+              </label>
               <select
+                id="voice-select-mobile"
+                aria-label="Select German Voice Engine"
                 :value="selectedVoiceURI"
                 @change="emit('update:selectedVoiceURI', ($event.target as HTMLSelectElement).value)"
                 class="w-full bg-slate-50 dark:bg-black/40 border border-slate-200 dark:border-white/10 text-slate-800 dark:text-slate-100 rounded-xl p-2 text-xs outline-none focus:border-primary"
@@ -111,10 +113,12 @@ const themeModeLabel = computed(() => {
             </div>
             <div class="space-y-2">
               <div class="flex justify-between items-center text-[11px] font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">
-                <span>Speech Rate</span>
+                <label for="tts-rate-mobile">Speech Rate</label>
                 <span class="font-mono text-primary">{{ ttsRate }}x</span>
               </div>
               <input
+                id="tts-rate-mobile"
+                aria-label="Speech Rate"
                 type="range"
                 min="0.5"
                 max="1.5"
@@ -221,10 +225,12 @@ const themeModeLabel = computed(() => {
             <span class="text-xs font-bold text-slate-800 dark:text-slate-200">Speech & Audio Preferences</span>
           </div>
           <div class="space-y-2">
-            <span class="text-[11px] font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">
+            <label for="voice-select-desktop" class="text-[11px] font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400 block">
               German Voice Engine
-            </span>
+            </label>
             <select
+              id="voice-select-desktop"
+              aria-label="Select German Voice Engine"
               :value="selectedVoiceURI"
               @change="emit('update:selectedVoiceURI', ($event.target as HTMLSelectElement).value)"
               class="w-full bg-slate-50 dark:bg-black/40 border border-slate-200 dark:border-white/10 text-slate-800 dark:text-slate-100 rounded-xl p-2 text-xs sm:text-sm outline-none focus:border-primary"
@@ -236,10 +242,12 @@ const themeModeLabel = computed(() => {
           </div>
           <div class="space-y-2">
             <div class="flex justify-between items-center text-[11px] font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">
-              <span>Speech Rate</span>
+              <label for="tts-rate-desktop">Speech Rate</label>
               <span class="font-mono text-primary">{{ ttsRate }}x</span>
             </div>
             <input
+              id="tts-rate-desktop"
+              aria-label="Speech Rate"
               type="range"
               min="0.5"
               max="1.5"

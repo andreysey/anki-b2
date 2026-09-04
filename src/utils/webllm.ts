@@ -1,24 +1,36 @@
 // Lightweight on-demand WebLLM engine with WebGPU support
 import type { MLCEngineInterface } from '@mlc-ai/web-llm';
-import { ref } from 'vue';
-import { safeStorage } from './storage';
-import { STORAGE_KEYS } from '../constants/storage';
+import {
+  type LocalModelOption,
+  isWebGPUSupported,
+  selectedLocalModel,
+  isModelLoading,
+  modelLoadingProgress,
+  modelLoadingText,
+  isModelReady,
+  modelError,
+  isGenerating,
+  generationStatus,
+  setSelectedLocalModel as setStateSelectedLocalModel
+} from './webllmState';
 
-export interface LocalModelOption {
-  id: string;
-  name: string;
-  vramMB: number;
-  isCached?: boolean;
-}
-
-export const isWebGPUSupported = (): boolean => {
-  return typeof navigator !== 'undefined' && 'gpu' in navigator && !!navigator.gpu;
+export {
+  type LocalModelOption,
+  isWebGPUSupported,
+  selectedLocalModel,
+  isModelLoading,
+  modelLoadingProgress,
+  modelLoadingText,
+  isModelReady,
+  modelError,
+  isGenerating,
+  generationStatus
 };
 
 export const checkWebGPUAvailability = async (): Promise<boolean> => {
   if (!isWebGPUSupported()) return false;
   try {
-    const adapter = await navigator.gpu.requestAdapter();
+    const adapter = await navigator.gpu?.requestAdapter();
     return !!adapter;
   } catch {
     return false;
@@ -29,7 +41,7 @@ export const checkWebGPUAvailability = async (): Promise<boolean> => {
 export const supportsF16Shaders = async (): Promise<boolean> => {
   if (!isWebGPUSupported()) return false;
   try {
-    const adapter = await navigator.gpu.requestAdapter();
+    const adapter = await navigator.gpu?.requestAdapter();
     return !!(adapter && adapter.features.has('shader-f16'));
   } catch {
     return false;
@@ -120,28 +132,13 @@ export const getAvailableLocalModels = async (): Promise<LocalModelOption[]> => 
   }
 };
 
-const savedModel = safeStorage.getString(
-  STORAGE_KEYS.WEBLLM_MODEL,
-  'SmolLM2-360M-Instruct-q4f32_1-MLC'
-);
-
-export const selectedLocalModel = ref<string>(savedModel);
-
-export const setSelectedLocalModel = (modelId: string): void => {
-  selectedLocalModel.value = modelId;
-  safeStorage.setItem(STORAGE_KEYS.WEBLLM_MODEL, modelId);
-  // Reset engine instance if switching models
-  engineInstance = null;
-  isModelReady.value = false;
-};
 
 let engineInstance: MLCEngineInterface | null = null;
 
-export const isModelLoading = ref<boolean>(false);
-export const modelLoadingProgress = ref<number>(0);
-export const modelLoadingText = ref<string>('');
-export const isModelReady = ref<boolean>(false);
-export const modelError = ref<string | null>(null);
+export const setSelectedLocalModel = (modelId: string): void => {
+  setStateSelectedLocalModel(modelId);
+  engineInstance = null;
+};
 
 export const getWebLLMEngine = async (modelId?: string): Promise<MLCEngineInterface> => {
   const targetModel = modelId || selectedLocalModel.value;
@@ -223,9 +220,6 @@ export const deleteLocalModelFromCache = async (modelId?: string): Promise<void>
     throw err;
   }
 };
-
-export const isGenerating = ref<boolean>(false);
-export const generationStatus = ref<string>('');
 
 export const callWebLLM = async (
   promptText: string,

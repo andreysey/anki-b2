@@ -39,7 +39,7 @@ describe('useVocabulary composable', () => {
     vocab.currentStudyIndex.value = 0;
     vocab.isShuffled.value = false;
     vocab.isAutoplay.value = false;
-    vocab.displayLimit.value = 50;
+    vocab.displayLimit.value = 24;
     vocab.sessionReviewedCount.value = 0;
   });
 
@@ -202,9 +202,9 @@ describe('useVocabulary composable', () => {
 
   it('increments displayLimit when loadMore is called', () => {
     const vocab = useVocabulary();
-    expect(vocab.displayLimit.value).toBe(50);
+    expect(vocab.displayLimit.value).toBe(24);
     vocab.loadMore();
-    expect(vocab.displayLimit.value).toBe(100);
+    expect(vocab.displayLimit.value).toBe(48);
   });
 
   it('shuffles cards and resets shuffle on toggle', () => {

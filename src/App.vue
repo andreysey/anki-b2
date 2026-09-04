@@ -6,6 +6,7 @@ import { useTheme } from './composables/useTheme';
 import { useSpeechSynthesis } from './composables/useSpeechSynthesis';
 import { useKeyboardShortcuts } from './composables/useKeyboardShortcuts';
 import { useNavigation } from './composables/useNavigation';
+import { useAIAssistantState } from './composables/useAIAssistantState';
 
 // UI Components
 import { Toaster, toast } from './components/ui/sonner';
@@ -62,6 +63,7 @@ const { germanVoices, selectedVoiceURI, ttsRate, initVoices, playAudio, playSequ
   useSpeechSynthesis();
 
 const { activeView, initNavigation, cleanupNavigation } = useNavigation();
+const { isSettingsOpen } = useAIAssistantState();
 
 // Synchronize activeView with isStudyMode bidirectionally and reset scroll
 watch(activeView, async (val) => {
@@ -191,7 +193,7 @@ watch(
 
 <template>
   <Toaster position="top-right" richColors />
-  <AISettingsDialog />
+  <AISettingsDialog v-if="isSettingsOpen" />
 
   <!-- macOS Ambient Desktop Wallpaper Canvas -->
   <div

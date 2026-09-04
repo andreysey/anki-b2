@@ -17,12 +17,10 @@ import {
   isModelLoading,
   modelLoadingProgress,
   modelLoadingText,
-  getWebLLMEngine,
-  getAvailableLocalModels,
   selectedLocalModel,
   setSelectedLocalModel,
   type LocalModelOption
-} from '../utils/webllm';
+} from '../utils/webllmState';
 
 const { isSettingsOpen, apiKey, saveApiKey, removeApiKey } = useAIAssistantState();
 const localKey = ref(apiKey.value);
@@ -40,6 +38,7 @@ const loadModelsList = async () => {
   if (!isWebGPUSupported()) return;
   isModelsLoading.value = true;
   try {
+    const { getAvailableLocalModels } = await import('../utils/webllm');
     availableModels.value = await getAvailableLocalModels();
     await checkCachedStatus();
   } finally {
@@ -77,6 +76,7 @@ const handleModelChange = async (e: Event) => {
 
 const handleLoadModel = async () => {
   try {
+    const { getWebLLMEngine } = await import('../utils/webllm');
     await getWebLLMEngine(selectedLocalModel.value);
     await checkCachedStatus();
   } catch (e) {
