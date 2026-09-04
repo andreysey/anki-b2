@@ -26,7 +26,7 @@ const importError = ref<string | null>(null);
 const importSuccess = ref<string | null>(null);
 
 const handleExport = () => {
-  downloadBackupFile(props.masteredIds, props.srsData);
+  downloadBackupFile(props.masteredIds, props.srsData ?? {});
 };
 
 const triggerFileInput = () => {
