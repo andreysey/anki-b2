@@ -38,18 +38,14 @@ const model = new Model({
     {
       name: 'Card 1: Recognition',
       qfmt: `<div class="card-container front-side">
-              <div class="card-title">{{German}}</div>
-              <div style="display: none;">{{tts de_DE:German_Audio}}</div>
+              <div class="card-title clickable-audio">{{German}}<span class="audio-trigger">{{tts de_DE:German_Audio}}</span></div>
              </div>`,
       afmt: `{{FrontSide}}<hr id="answer">
              <div class="card-container back-side">
               <div class="card-subtitle-english m-15">{{English}}</div>
               <div style="display: none;">{{tts en_US:English_Audio}}</div>
               <div class="card-subtitle-ukrainian m-25">{{Ukrainian}}</div>
-              <div class="card-example">{{Example}}</div>
-              <div class="audio-container">
-                  <div class="audio-btn">{{tts de_DE:Example_Audio}}</div>
-              </div>
+              <div class="card-example clickable-audio">{{Example}}<span class="audio-trigger">{{tts de_DE:Example_Audio}}</span></div>
              </div>`
     },
     {
@@ -61,12 +57,8 @@ const model = new Model({
              </div>`,
       afmt: `{{FrontSide}}<hr id="answer">
              <div class="card-container back-side">
-              <div class="card-title m-20">{{German}}</div>
-              <div class="card-example">{{Example}}</div>
-              <div class="audio-container">
-                  <div class="audio-btn">{{tts de_DE:German_Audio}}</div>
-                  <div class="audio-btn">{{tts de_DE:Example_Audio}}</div>
-              </div>
+              <div class="card-title clickable-audio m-20">{{German}}<span class="audio-trigger">{{tts de_DE:German_Audio}}</span></div>
+              <div class="card-example clickable-audio">{{Example}}<span class="audio-trigger">{{tts de_DE:Example_Audio}}</span></div>
              </div>`
     }
   ],
@@ -90,6 +82,7 @@ const model = new Model({
     .card-title {
       font-size: 32px;
       font-weight: 600;
+      position: relative;
     }
     .card-subtitle-english {
       font-size: 24px;
@@ -105,13 +98,38 @@ const model = new Model({
       font-size: 18px;
       border-top: 1px solid #334155;
       padding-top: 20px;
+      position: relative;
     }
-    .audio-container {
-      margin-top: 25px;
+    .clickable-audio {
+      cursor: pointer;
+      -webkit-tap-highlight-color: transparent;
+      user-select: none;
     }
-    .audio-btn {
+    .clickable-audio:hover {
+      opacity: 0.92;
+    }
+    .clickable-audio:active {
+      transform: scale(0.99);
+    }
+    .audio-trigger {
       display: inline-block;
-      margin: 0 10px;
+      vertical-align: middle;
+      margin-left: 8px;
+    }
+    .audio-trigger .replay-button,
+    .audio-trigger a.replay-button,
+    .audio-trigger svg {
+      opacity: 0.35;
+      transition: opacity 0.2s ease, transform 0.2s ease;
+      width: 22px;
+      height: 22px;
+      vertical-align: middle;
+    }
+    .clickable-audio:hover .audio-trigger .replay-button,
+    .clickable-audio:hover .audio-trigger a.replay-button,
+    .clickable-audio:hover .audio-trigger svg {
+      opacity: 0.85;
+      transform: scale(1.1);
     }
     .m-10 {
       margin-bottom: 10px;
