@@ -12,7 +12,7 @@
     "type-check": "vue-tsc -b --noEmit",
     "preview": "vite preview",
     "lint": "npm run lint:data && npm run format:check",
-    "lint:data": "tsx scripts/lint-data.ts",
+    "lint:data": "node scripts/lint-data.ts",
     "lint:mess": "vue-mess-detector analyze",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
