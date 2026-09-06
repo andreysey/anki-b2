@@ -1,3 +1,10 @@
+## [1.39.2](https://github.com/andreysey/anki-b2/compare/v1.39.1...v1.39.2) (2026-09-06)
+
+
+### Bug Fixes
+
+* update regex to support hyphens in German word cleaning and regenerate Anki packages ([e419d63](https://github.com/andreysey/anki-b2/commit/e419d63457dca4a32cc3c7756bd00ae54a8dfe9b))
+
 ## [1.39.1](https://github.com/andreysey/anki-b2/compare/v1.39.0...v1.39.1) (2026-09-04)
 
 
