@@ -1,3 +1,10 @@
+# [1.41.0](https://github.com/andreysey/anki-b2/compare/v1.40.0...v1.41.0) (2026-09-06)
+
+
+### Features
+
+* integrate interactive B2 verb grammar tenses into Anki cards with automated generation and styling ([e2a87e4](https://github.com/andreysey/anki-b2/commit/e2a87e4c5432d1426f3752cd151670a19220767c))
+
 # [1.40.0](https://github.com/andreysey/anki-b2/compare/v1.39.2...v1.40.0) (2026-09-06)
 
 
