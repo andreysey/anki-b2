@@ -112,7 +112,7 @@ der Arbeitsplatz, "-e;workplace;робоче місце;Der Arbeitgeber stellt d
 die Arbeitszeitregelung, -en;working hours regulation;регулювання робочого часу;Die neue Arbeitszeitregelung **ist auf allgemeines Interesse gestoßen**.
 der Bereitschaftsdienst, -e;on-call service;чергування (в режимі очікування);Im Bereitschaftsdienst **muss man bei Systemfehlern sofort reagieren**.
 die Betriebsvereinbarung, -en;company agreement;угода між керівництвом та трудовим колективом;Die Betriebsvereinbarung **regelt die Nutzung von Homeoffice im Betrieb**.
-das Kernarbeitszeit, -en;core working hours;основний робочий час (обов'язкова присутність);Während der Kernarbeitszeit **müssen alle Beschäftigten erreichbar sein**.
+die Kernarbeitszeit, -en;core working hours;основний робочий час (обов'язкова присутність);Während der Kernarbeitszeit **müssen alle Beschäftigten erreichbar sein**.
 die Überstundenregelung, -en;overtime regulation;регулювання понаднормової роботи;Die Überstundenregelung **wurde in der Betriebsvereinbarung festgelegt**.
 das Zeiterfassungssystem, -e;time tracking system;система обліку робочого часу;Wir nutzen ein digitales Zeiterfassungssystem, um **die Arbeitszeit zu überwachen**.
 die Vertrauensarbeitszeit (Sg.);trust-based working hours;довірчий робочий час (без жорсткого обліку);Vertrauensarbeitszeit **setzt ein hohes Maß an Zuverlässigkeit voraus**.

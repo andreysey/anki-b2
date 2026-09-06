@@ -111,6 +111,24 @@ describe('highlightWordInExample', () => {
     expect(highlighted).toContain('<b style="color: #eab308;">Chefrentenberater</b>');
   });
 
+  it('highlights plural forms with umlauts based on originalGerman', () => {
+    expect(
+      highlightWordInExample(
+        'die Auskunft',
+        'Die Informationstheke erteilt Auskünfte über alle Belange.',
+        'die Auskunft, "-e'
+      )
+    ).toContain('<b style="color: #eab308;">Auskünfte</b>');
+
+    expect(
+      highlightWordInExample(
+        'das Gut',
+        'Der Transport empfindlicher Güter erfordert Vorsicht.',
+        'das Gut, "-er'
+      )
+    ).toContain('<b style="color: #eab308;">Güter</b>');
+  });
+
   it('strips markdown asterisks around highlighted words and phrases', () => {
     const cleanGerman = 'anfordern';
     const example = 'Wir möchten das Angebot **anfordern**.';

@@ -151,6 +151,38 @@ export function highlightWordInExample(
         });
       });
     }
+
+    // ── 1b. Parse plural form if originalGerman contains comma plural suffix (e.g. `"-e`, `"-er`, `"-`, `-en`)
+    const commaParts = originalGerman.split(',');
+    if (commaParts.length >= 2) {
+      const suffixPart = commaParts[1].trim();
+      const m = suffixPart.match(/^([\"–—-]?[a-zA-ZäöüÄÖÜß-]+)/);
+      if (m && (m[1].includes('-') || m[1].includes('"'))) {
+        const pluralSuffix = m[1];
+        const rawNoun = commaParts[0].replace(/^(der|die|das)\s+/i, '').trim();
+        const noun = rawNoun.split(/\s+/).pop()?.replace(/\|/g, '') || '';
+        if (noun && noun.length >= 3) {
+          const hasUmlaut = pluralSuffix.includes('"');
+          const suffix = pluralSuffix.replace(/[\"–—-]/g, '').trim();
+          let base = noun;
+          if (hasUmlaut) {
+            base = base.replace(/(au|a|o|u)(?=[^aeiouäöü]*(?:(?:el|er|en)$|$))/i, (match) => {
+              const lower = match.toLowerCase();
+              const isCap = match[0] === match[0].toUpperCase() && match[0] !== match[0].toLowerCase();
+              if (lower === 'au') return isCap ? 'Äu' : 'äu';
+              if (lower === 'a') return isCap ? 'Ä' : 'ä';
+              if (lower === 'o') return isCap ? 'Ö' : 'ö';
+              if (lower === 'u') return isCap ? 'Ü' : 'ü';
+              return match;
+            });
+          }
+          const pluralCandidate = base + suffix;
+          if (pluralCandidate.length > 2) {
+            terms.push(pluralCandidate);
+          }
+        }
+      }
+    }
   }
 
   // ── 2. Add base terms from cleanGerman

@@ -168,7 +168,7 @@ die Tarifbindung, -en;binding force of collective agreements;зв'язаніст
 die Arbeitgeberverband, "-e;employers' association;об'єднання роботодавців;Der Arbeitgeberverband **vertritt die Interessen der Mitgliedsbetriebe**.
 das Gewerkschaftsmitglied, -er;union member;член профспілки;Als Gewerkschaftsmitglied **erhält man bei Streik ein Streikgeld**.
 das Streikgeld, -er;strike pay;допомога страйкарям (з фонду профспілки);Das Streikgeld **gleicht den Lohnausfall während des Streiks teilweise aus**.
-die Lohnausfall, "-e;loss of wages;втрата заробітку;Der Lohnausfall **wird bei einem legalen Streik von der Gewerkschaft abgemildert**.
+der Lohnausfall, "-e;loss of wages;втрата заробітку;Der Lohnausfall **wird bei einem legalen Streik von der Gewerkschaft abgemildert**.
 die Streikbrecher, - / die Streikbrecherin, -nen;scab / strikebreaker;штрейкбрехер;Streikbrecher **stören die Solidarität der streikenden Belegschaft**.
 die Notdienstvereinbarung, -en;emergency service agreement;угода про чергові служби (під час страйку);Eine Notdienstvereinbarung **sichert die Notversorgung im Gesundheitswesen ab**.
 der Notdienst, -e;emergency service;чергова (аварійна) служба;Der Notdienst **muss auch während des Streiks aufrechterhalten werden**.
@@ -176,5 +176,5 @@ die Streikposten, -;picket / striker on picket duty;пікетник (черго
 die Streikleitung, -en;strike committee;керівництво страйком;Die Streikleitung **koordiniert die Aktionen der streikenden Arbeitnehmer**.
 die Streikaufruf, -e;strike call;заклик до страйку;Die Gewerkschaft **hat einen Streikaufruf für das nächste Wochenende veröffentlicht**.
 die Schlichtungsempfehlung, -en;arbitration recommendation;рекомендація примирювальної комісії;Die Schlichtungsempfehlung **wurde von den Konfliktparteien angenommen**.
-die Schiedsgericht, -e;arbitration court / tribunal;арбітражний суд;Das Schiedsgericht **entscheidet über Streitigkeiten aus dem Tarifvertrag**.
+das Schiedsgericht, -e;arbitration court / tribunal;арбітражний суд;Das Schiedsgericht **entscheidet über Streitigkeiten aus dem Tarifvertrag**.
 die Schiedsspruch, "-e;arbitration award;арбітражне рішення;Der Schiedsspruch **ist für beide Seiten bindend und beendet den Tarifkonflikt**.

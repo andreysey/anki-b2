@@ -120,29 +120,29 @@ die Unterhaltspflicht, -en;obligation to pay maintenance;обов'язок ви�
 die Unterhaltszahlung, -en;maintenance payment / alimony;виплата аліментів (утримання);Die Unterhaltszahlungen **werden direkt vom Gehaltskonto abgebucht**.
 die Kindesunterhalt (Sg.);child support;аліменти на дитину;Der Kindesunterhalt **ist eine gesetzliche Pflicht der Eltern**.
 die Ehegattenunterhalt (Sg.);spousal support / alimony;утримання (аліменти) на подружжя;Der Anspruch auf Ehegattenunterhalt **wird im Scheidungsurteil geregelt**.
-die Scheidungsurteil, -e;divorce decree;судове рішення про розірвання шлюбу;Das Scheidungsurteil **erlangte mit der Zustellung die Rechtskraft**.
-die Familiengericht, -e;family court;сімейний суд;Das Familiengericht **entscheidet über Fragen des Kindesunterhalts**.
-die Amtsgericht (AG), -e;district court;дільничний (районний) суд (Amtsgericht);Das **Amtsgericht** ist für zivilrechtliche Streitigkeiten mit geringem Streitwert zuständig.
-die Zivilgericht, -e;civil court;цивільний суд;Das Zivilgericht **entscheidet über Schadensersatzforderungen aus Verträgen**.
+das Scheidungsurteil, -e;divorce decree;судове рішення про розірвання шлюбу;Das Scheidungsurteil **erlangte mit der Zustellung die Rechtskraft**.
+das Familiengericht, -e;family court;сімейний суд;Das Familiengericht **entscheidet über Fragen des Kindesunterhalts**.
+das Amtsgericht (AG), -e;district court;дільничний (районний) суд (Amtsgericht);Das **Amtsgericht** ist für zivilrechtliche Streitigkeiten mit geringem Streitwert zuständig.
+das Zivilgericht, -e;civil court;цивільний суд;Das Zivilgericht **entscheidet über Schadensersatzforderungen aus Verträgen**.
 die Zivilprozessordnung (ZPO) (Sg.);Code of Civil Procedure;Цивільний процесуальний кодекс (ZPO);Die ZPO **regelt den Ablauf der Zwangsvollstreckung**.
 das Zivilrecht (Sg.);civil law;цивільне право;Das Zivilrecht **basiert im Wesentlichen auf dem Bürgerlichen Gesetzbuch (BGB)**.
 die Bürgerliche Gesetzbuch (BGB) (Sg.);Civil Code;Цивільний кодекс Німеччини (BGB);Das **Bürgerliche Gesetzbuch** regelt das Sonderurlaubsrecht und die gesetzliche Mängelhaftung.
 das Gesetzbuch, "-er;code / body of laws;кодекс законів;Das Gesetzbuch **liegt auf dem Schreibtisch der Rechtsanwältin bereit**.
 die Gesetzessammlung, -en;collection of laws;збірник законів;Die Gesetzessammlung **steht den Richtern in der Gerichtsbibliothek zur Verfügung**.
-die Gesetzesblatt, "-er;official law gazette;відомості законів (офіційне видання);Die Gesetzesblätter **müssen archiviert und zugänglich gehalten werden**.
-die Bundesgesetzblatt (BGBl.) (Sg.);Federal Law Gazette;Федеральний вісник законів (BGBl.);Im BGBl. **werden alle Gesetzesänderungen offiziell verkündet**.
+das Gesetzesblatt, "-er;official law gazette;відомості законів (офіційне видання);Die Gesetzesblätter **müssen archiviert und zugänglich gehalten werden**.
+das Bundesgesetzblatt (BGBl.) (Sg.);Federal Law Gazette;Федеральний вісник законів (BGBl.);Im BGBl. **werden alle Gesetzesänderungen offiziell verkündet**.
 die Verkündung, -en;promulgation / announcement (of a law);проголошення, офіційне оприлюднення;Die Verkündung des Gesetzes **ist Voraussetzung für sein Inkrafttreten**.
 die Gesetzgebungsperiode, -n;legislative period;законодавчий період (каденція парламенту);In dieser Gesetzgebungsperiode **wurden viele Umweltauflagen verschärft**.
 die Legislaturperiode, -n;legislative period;законодавчий період;Die Reform der Rentenversicherung **ist das wichtigste Ziel dieser Legislaturperiode**.
 die Regierungszeit, -en;term of office / reign;період перебування при владі;Während seiner Regierungszeit **konnte die Staatsverschuldung gesenkt werden**.
-die Regierungsentwurf, "-e;government draft;урядовий законопроект;Der Regierungsentwurf **wurde zur Stellungnahme an den Betriebsrat übermittelt**.
+der Regierungsentwurf, "-e;government draft;урядовий законопроект;Der Regierungsentwurf **wurde zur Stellungnahme an den Betriebsrat übermittelt**.
 die Stellungnahme, -n;comment / statement;висновок, відгук, позиція (офіційна);Der Personalrat **gibt eine schriftliche Stellungnahme zur geplanten Kündigung ab**.
 die Anhörung, -en;hearing / consultation;слухання (заслуховування сторін);Vor der verhaltensbedingten Kündigung **muss eine Anhörung des Mitarbeiters stattfinden**.
 die rechtliche Gehör;right to be heard / fair hearing;право бути заслуханим (судовий принцип);Das rechtliche Gehör **ist ein geschütztes Grundrecht vor Gericht**.
 die Gehörsverletzung, -en;violation of the right to be heard;порушення права на захист (заслуховування);Eine Gehörsverletzung **kann die Aufhebung des Gerichtsurteils zur Folge haben**.
 das Berufungsverfahren, -;appeal proceedings;апеляційне провадження;Das Berufungsverfahren **wird vor dem Landesarbeitsgericht verhandelt**.
-die Berufungsgericht, -e;court of appeal;апеляційний суд;Das Berufungsgericht **überprüft das erstinstanzliche Urteil auf Rechtsfehler**.
-die Rechtsfehler, -;error of law;юридична помилка (помилка в застосуванні права);Ein Rechtsfehler des Richters **berechtigt zur Einlegung der Revision**.
+das Berufungsgericht, -e;court of appeal;апеляційний суд;Das Berufungsgericht **überprüft das erstinstanzliche Urteil auf Rechtsfehler**.
+der Rechtsfehler, -;error of law;юридична помилка (помилка в застосуванні права);Ein Rechtsfehler des Richters **berechtigt zur Einlegung der Revision**.
 das Revisionsverfahren, -;appeal on points of law proceedings;касаційне провадження;Das Revisionsverfahren **wird schriftlich ohne erneute Beweisaufnahme geführt**.
 die Beweisaufnahme, -n;taking of evidence;судове дослідження доказів;Die Beweisaufnahme **beinhaltet das Vernehmen von Zeugen und Sachverständigen**.
 die Zeugenvernehmung, -en;examination of witnesses;допит свідків;Bei der Zeugenvernehmung **mussten die Kollegen zum Pflichtverstoß aussagen**.

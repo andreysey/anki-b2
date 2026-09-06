@@ -161,7 +161,7 @@ die Überschuldung, -en;over-indebtedness;надмірна заборгован�
 die Schuldnerberatung, -en;debt counseling;консультація для боржників;Die Schuldnerberatung **unterstützt bei der Erstellung eines Schuldensanierungsplans**.
 der Schuldensanierungsplan, "-e;debt restructuring plan;план реструктуризації боргів;Der Schuldensanierungsplan **bedarf der Zustimmung aller Gläubiger**.
 die außergerichtliche Einigung;out-of-court settlement;позасудове врегулювання (компроміс);Eine außergerichtliche Einigung **verhindert das Einleiten des Insolvenzverfahrens**.
-die Insolvenzgericht, -e;insolvency court;суд у справах про банкрутство;Das Insolvenzgericht **eröffnet das Verfahren bei Vorliegen eines Eröffnungsgrundes**.
+das Insolvenzgericht, -e;insolvency court;суд у справах про банкрутство;Das Insolvenzgericht **eröffnet das Verfahren bei Vorliegen eines Eröffnungsgrundes**.
 die Eröffnungsgrund, "-e;ground for opening (insolvency);підстава для відкриття провадження (напр. неплатоспроможність);Der wichtigste Eröffnungsgrund **ist die drohende Zahlungsunfähigkeit**.
 die drohende Zahlungsunfähigkeit;imminent insolvency / threatening illiquidity;загроза неплатоспроможності;Bei drohender Zahlungsunfähigkeit **kann ein Insolvenzplan vorgelegt werden**.
 die Überschuldung (Sg.) (Insolvenzeröffnungsgrund für juristische Personen);over-indebtedness;надмірна заборгованість (підстава для банкрутства юр. осіб);Für Aktiengesellschaften **ist die Überschuldung ein zwingender Eröffnungsgrund**.
@@ -214,8 +214,8 @@ die Dauerauftrag, "-e;standing order;регулярний платіж (авто
 das Online-Banking, -s;online banking;онлайн-банкінг;Online-Banking **ermöglicht die schnelle Abwicklung von Inlands- und Auslandsüberweisungen**.
 die Überweisung, -en;bank transfer;банківський переказ;Die Überweisung der Kaution **muss vor der Wohnungsübergabe erfolgen**.
 die Zahlungsempfänger, - / die Zahlungsempfängerin, -nen;payee / recipient of payment;отримувач платежу;Der Name des Zahlungsempfängers **muss auf dem Beleg angegeben sein**.
-die Beleg, -e;receipt / voucher;квитанція, чек, виправдний документ;Bewahren Sie den Beleg gut auf, **um das Rückgaberecht in Anspruch zu nehmen**.
-die Buchungsbeleg, -e;accounting voucher;бухгалтерський документ (ордер/проводка);Jede Buchung **erfordert einen entsprechenden Buchungsbeleg**.
+der Beleg, -e;receipt / voucher;квитанція, чек, виправдний документ;Bewahren Sie den Beleg gut auf, **um das Rückgaberecht in Anspruch zu nehmen**.
+der Buchungsbeleg, -e;accounting voucher;бухгалтерський документ (ордер/проводка);Jede Buchung **erfordert einen entsprechenden Buchungsbeleg**.
 die Buchführung, -en;bookkeeping / accounting;бухгалтерія, ведення обліку;Eine ordnungsgemäße Buchführung **ist gesetzliche Pflicht für Kaufleute**.
 die Buchhalter, - / die Buchhalterin, -nen;bookkeeper / accountant;бухгалтер;Die Buchhalterin **ist mit der Kontierung der Rechnungen beschäftigt**.
 die Kontierung, -en;account assignment / coding;кодування (визначення рахунків бухгалтерської проводки);Die Kontierung der Belege **erfolgt nach dem Kontenrahmen**.
@@ -253,7 +253,7 @@ die Weiterbildungsförderung (Sg.);promotion of further training;підтрим�
 die Aufstiegs-BAföG (Sg.);financial support for career advancement (under AFBG);фінансова підтримка кар'єрного зростання (Aufstiegs-BAföG);Mit dem Aufstiegs-BAföG **wird die Meisterprüfung finanziell gefördert**.
 die Aufstiegsfortbildung, -en;advancement training / career training;підвищення кваліфікації для кар'єрного просування;Die Aufstiegsfortbildung **bereitet auf die Übernahme von Führungsverantwortung vor**.
 die Fachfortbildung, -en;specialized training;спеціалізоване підвищення кваліфікації;Die Fachfortbildung **dient dem Erwerb spezieller Sachkunde**.
-die Sachkundenachweis, -e;proof of competence;підтвердження компетентності;Der Sachkundenachweis **ist nach bestandener Fachprüfung beim Amt einzureichen**.
+der Sachkundenachweis, -e;proof of competence;підтвердження компетентності;Der Sachkundenachweis **ist nach bestandener Fachprüfung beim Amt einzureichen**.
 die Fachprüfung, -en;specialized exam;професійний (фаховий) іспит;Die Fachprüfung **wurde vor einer staatlich anerkannten Prüfstelle abgelegt**.
 die Prüfungsordnung, -en;examination regulations;положення про іспити;Die Prüfungsordnung **regelt den genauen Ablauf und die Notenvergabe**.
 die Benotung, -en;grading / marking;оцінювання (виставлення оцінок);Die Benotung **muss nach transparenten und sachlichen Kriterien erfolgen**.
@@ -308,7 +308,7 @@ die Schuldenverzeichnis, -se;debt register;список боргів (реєст
 die Bonitätsauskunft, "-e;credit report;довідка про платоспроможність;Eine Bonitätsauskunft **gibt Aufschluss über die Kreditwürdigkeit**.
 die Auskunftsdatei, -en;credit reference agency / database;довідкова база даних (кредитне бюро);Die Schufa ist die bekannteste Auskunftsdatei **in Deutschland**.
 das Scoring-Verfahren, -;scoring method;метод скорингу (оцінки ризиків);Das Scoring-Verfahren **berechnet die Wahrscheinlichkeit eines Zahlungsausfalls**.
-die Zahlungsausfall, "-e;default in payment;неплатіж (втрата платежу);Ein hoher Zahlungsausfall **kann einen Liquiditätsengpass verursachen**.
+der Zahlungsausfall, "-e;default in payment;неплатіж (втрата платежу);Ein hoher Zahlungsausfall **kann einen Liquiditätsengpass verursachen**.
 die Ausfallrisiko, -en;default risk;ризик невиплати (дефолту);Das Ausfallrisiko **wird durch die Bonitätsprüfung minimiert**.
 die Risikomanagement (Sg.);risk management;управління ризиками;Das Risikomanagement **ist Teil der strategischen Unternehmensführung**.
 die Risikobewertung, -en;risk assessment;оцінка ризиків;Die Risikobewertung **muss vor der Vergabe großer Kredite erfolgen**.
@@ -320,7 +320,7 @@ die Importeur, -e / die Importeurin, -nen;importer;імпортер;Der Importeu
 die Einfuhrumsatzsteuer (EUSt) (Sg.);import turnover tax;імпортний ПДВ (EUSt);Die EUSt **wird von der Zollbehörde bei der Einfuhr erhoben**.
 die Zollanmeldung, -en;customs declaration;митна декларація;Die Zollanmeldung **muss elektronisch über das ATLAS-System abgegeben werden**.
 das ATLAS-System (Sg.);ATLAS system (German automated customs system);система ATLAS (автоматизована митна система);Das ATLAS-System **erleichtert die schnelle Zollabwicklung**.
-die Zolltarif, -e;customs tariff;митний тариф;Der anwendbare Zolltarif **richtet sich nach der Codenummer der Ware**.
+der Zolltarif, -e;customs tariff;митний тариф;Der anwendbare Zolltarif **richtet sich nach der Codenummer der Ware**.
 die Codenummer, -n;code number / tariff code;код товару (митна кодифікація);Die korrekte Codenummer **ist im Frachtbrief anzugeben**.
 die Zolltarifnummer, -n;customs tariff number;код митного тарифу;Die Zolltarifnummer **dient der Klassifizierung der Güter beim Import**.
 die Tarifierung, -en;classification / tariffing;тарифікація (класифікація товарів для мита);Die korrekte Tarifierung **verhindert Probleme bei der Zollprüfung**.
@@ -367,13 +367,13 @@ das Statusfeststellungsverfahren, -;status determination procedure (to check for
 die Deutsche Rentenversicherung (DRV) (Sg.);German Pension Insurance;Німецьке пенсійне страхування (DRV);Die DRV **prüft den sozialversicherungsrechtlichen Status der Mitarbeiter**.
 die Sozialversicherungsprüfung, -en;social security audit;перевірка сплати внесків на соцстрахування;Eine Sozialversicherungsprüfung **findet alle vier Jahre in jedem Betrieb statt**.
 die Beitragsnachzahlung, -en;back-payment of contributions;доплата соціальних внесків;Die Beitragsnachzahlung **kann den Arbeitgeber finanziell schwer belasten**.
-die Säumniszuschlag, "-e;late payment penalty;пеня за несвоєчасну сплату внесків/податків;Bei verspäteter Zahlung **wird ein gesetzlicher Säumniszuschlag berechnet**.
+der Säumniszuschlag, "-e;late payment penalty;пеня за несвоєчасну сплату внесків/податків;Bei verspäteter Zahlung **wird ein gesetzlicher Säumniszuschlag berechnet**.
 die Verzug, "-e;delay / default;прострочення, затримка;Der Verzug **berechtigt den Gläubiger zur Erhebung von Mahngebühren**.
 die Verzugsgebühr, -en;late fee;плата за прострочення;Die Verzugsgebühr **wurde in der Betriebskostenabrechnung ausgewiesen**.
 die Rückstand, "-e;arrears / backlog;заборгованість, відставання;Der Mietrückstand **ist ein gesetzlicher Kündigungsgrund für den Vermieter**.
 die Mietrückstand, "-e;rent arrears;заборгованість по орендній платі;Bei einem Mietrückstand von zwei Monatsmieten **droht die fristlose Kündigung**.
 die Räumungsklage, -n;eviction lawsuit;позов про виселення;Der Vermieter **reichte eine Räumungsklage beim Amtsgericht ein**.
-die Räumungsurteil, -e;eviction order / judgment;судове рішення про виселення;Das Räumungsurteil **ist dem Gerichtsvollzieher zur Vollstreckung vorzulegen**.
+das Räumungsurteil, -e;eviction order / judgment;судове рішення про виселення;Das Räumungsurteil **ist dem Gerichtsvollzieher zur Vollstreckung vorzulegen**.
 die Zwangsräumung, -en;forced eviction;примусове виселення;Die Zwangsräumung **wurde durch den Gerichtsvollzieher durchgeführt**.
 die Räumungsfrist, -en;period for evacuation / eviction period;термін виселення (звільнення приміщення);Der Richter **kann dem Mieter eine angemessene Räumungsfrist gewähren**.
 die Härtefall, "-e;case of hardship;важкий випадок (особлива скрута);Bei Vorliegen eines Härtefalls **kann die Kündigung der Wohnung unwirksam sein**.

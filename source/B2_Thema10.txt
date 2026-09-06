@@ -113,13 +113,13 @@ die Nacherklärung, -en;subsequent declaration;додаткове деклару
 die Steuerschuld, -en;tax liability / debt;податковий борг;Die Steuerschuld **muss bis zum Fälligkeitstag an das Finanzamt überwiesen werden**.
 die Steuerschuldner, - / die Steuerschuldnerin, -nen;tax debtor;платник податку (боржник);Der Steuerschuldner **kann eine Stundung der Steuerschuld beantragen**.
 die Steuergläubiger, -;tax creditor (e.g., state or municipality);отримувач податку (держава/громада);Das Finanzamt tritt als Steuergläubiger **im Insolvenzverfahren auf**.
-die Steuerbescheid, -e;tax assessment notice;повідомлення про нарахування податку;Der Steuerbescheid **wurde dem Steuerbüro elektronisch übermittelt**.
+der Steuerbescheid, -e;tax assessment notice;повідомлення про нарахування податку;Der Steuerbescheid **wurde dem Steuerbüro elektronisch übermittelt**.
 die Vorauszahlung, -en;advance payment;авансовий платіж (попередній внесок);Die vierteljährlichen Vorauszahlungen **wurden auf Basis des Vorjahres festgesetzt**.
 die Steuervorauszahlung, -en;advance tax payment;авансовий податковий платіж;Die Steuervorauszahlung **dient der gleichmäßigen Verteilung der Steuerlast**.
 die Steuerklasse, -n;tax class / bracket;податковий клас;Die Steuerklasse **beeinflusst die Höhe der Lohnsteuer auf der Gehaltsabrechnung**.
 die Lohnsteuer, -n;wage tax / income tax on salaries;податок на заробітну плату (частина ПДФО);Die Lohnsteuer **wird vom Arbeitgeber direkt an den Steuergläubiger abgeführt**.
 die Kirchensteuer, -n;church tax;церковний податок;Die Kirchensteuer **wird zusammen mit der Einkommensteuer erhoben**.
-die Solidaritätszuschlag (Sg.);solidarity surcharge (Soli);надбавка за солідарність (Soli);Der Solidaritätszuschlag **wurde für die meisten Steuerpflichtigen abgeschafft**.
+der Solidaritätszuschlag (Sg.);solidarity surcharge (Soli);надбавка за солідарність (Soli);Der Solidaritätszuschlag **wurde für die meisten Steuerpflichtigen abgeschafft**.
 das Solidaritätszuschlagsgesetz (Sg.);Solidarity Surcharge Act;закон про надбавку за солідарність;Das Solidaritätszuschlagsgesetz **wurde vom Bundesverfassungsgericht geprüft**.
 die Steuerpflicht, -en;tax liability / obligation;податковий обов'язок;Die Steuerpflicht **erlischt bei Aufgabe des Wohnsitzes im Inland**.
 die unbeschränkt Steuerpflicht;unlimited tax liability;необмежена податкова обов'язковість (оподаткування всіх світових доходів);Personen mit Wohnsitz in Deutschland **unterliegen der unbeschränkten Steuerpflicht**.
@@ -189,7 +189,7 @@ die gerichtlich durchsetzbar;judicially enforceable;такий, що може б
 der Rechtsanspruch, "-e;legal claim / right;правова претензія (законне право);Der Arbeitnehmer **hat einen Rechtsanspruch auf Lohnfortzahlung im Krankheitsfall**.
 die Lohnfortzahlung, -en;continued payment of wages;продовження виплати заробітної плати (під час хвороби);Die Lohnfortzahlung **ist im Entgeltfortzahlungsgesetz geregelt**.
 das Entgeltfortzahlungsgesetz (EntgFG) (Sg.);Continued Remuneration Act;закон про збереження заробітної плати (EntgFG);Das EntgFG **schützt den Arbeitnehmer vor Verdienstausfall bei Krankheit**.
-die Verdienstausfall, "-e;loss of earnings;втрата заробітку (доходу);Der Verdienstausfall **wird bei Arbeitsunfällen durch das Verletztengeld ausgeglichen**.
+der Verdienstausfall, "-e;loss of earnings;втрата заробітку (доходу);Der Verdienstausfall **wird bei Arbeitsunfällen durch das Verletztengeld ausgeglichen**.
 das Verletztengeld (Sg.);injury benefit (paid by accident insurance);допомога по травмі (від каси страхування нещасних випадків);Das Verletztengeld **wird von der Berufsgenossenschaft ausgezahlt**.
 die Verletztengeldbezug, "-e;receipt of injury benefit;період отримання допомоги по травмі;Während des Verletztengeldbezugs **ruht der Anspruch auf Lohnfortzahlung**.
 die Ruhen (z. B. des Anspruchs) (Sg.);suspension (e.g. of a claim);призупинення дії (права/вимоги);Das Ruhen des Arbeitsverhältnisses **wurde während der Elternzeit vereinbart**.
@@ -202,10 +202,10 @@ die Arbeitgeberzuschuss, "-e;employer's subsidy / supplement;доплата ві
 die Nettogehalt, "-er;net salary;чиста заробітна плата;Das Nettogehalt **ist für die Berechnung des Elterngeldes maßgeblich**.
 das Elterngeld (Sg.);parental allowance;допомога по догляду за дитиною (державна виплата батькам);Das Elterngeld **wird bei der Elterngeldstelle beantragt**.
 die Elterngeldstelle, -n;parental allowance office;відомство з виплати батьківської допомоги;Die Elterngeldstelle **fordert die Vorlage der Gehaltsabrechnungen der letzten 12 Monate**.
-die Gehaltsnachweis, -e;proof of salary / income;довідка про доходи (зарплату);Der Gehaltsnachweis **ist für den Abschluss des Mietvertrags erforderlich**.
-die Einkommensnachweis, -e;proof of income;підтвердження доходів;Als Einkommensnachweis **kann der Steuerbescheid des Vorjahres vorgelegt werden**.
-die Steuerbescheid, -e;tax assessment notice;повідомлення про нарахування податку;Der Steuerbescheid **dient dem Vermieter als Nachweis der Bonität**.
-die Bonitätsnachweis, -e;proof of creditworthiness;підтвердження платоспроможності;Die Schufa-Auskunft gilt als **anerkannter Bonitätsnachweis in Deutschland**.
+der Gehaltsnachweis, -e;proof of salary / income;довідка про доходи (зарплату);Der Gehaltsnachweis **ist für den Abschluss des Mietvertrags erforderlich**.
+der Einkommensnachweis, -e;proof of income;підтвердження доходів;Als Einkommensnachweis **kann der Steuerbescheid des Vorjahres vorgelegt werden**.
+der Steuerbescheid, -e;tax assessment notice;повідомлення про нарахування податку;Der Steuerbescheid **dient dem Vermieter als Nachweis der Bonität**.
+der Bonitätsnachweis, -e;proof of creditworthiness;підтвердження платоспроможності;Die Schufa-Auskunft gilt als **anerkannter Bonitätsnachweis in Deutschland**.
 die Schufa (Schutzgemeinschaft für allgemeine Kreditsicherung) (Sg.);Schufa (German credit investigation agency);Шуфа (асоціація захисту кредитних ризиків);Die Schufa **erstellt Bonitätsauskünfte für Verbraucher und Unternehmen**.
 die Bonitätsindex, -e;credit index / score;індекс платоспроможності (скоринговий бал);Ein niedriger Bonitätsindex **weist auf ein hohes Ausfallrisiko hin**.
 die Ausfallwahrscheinlichkeit, -en;probability of default;ймовірність дефолту (неплатежу);Die Ausfallwahrscheinlichkeit **wird durch mathematische Scoring-Verfahren berechnet**.

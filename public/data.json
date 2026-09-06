@@ -8152,8 +8152,8 @@
       "B2"
     ],
     "thema": 2,
-    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Kernarbeitszeit, -en",
-    "german_audio": "das Kernarbeitszeit",
+    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Kernarbeitszeit, -en",
+    "german_audio": "die Kernarbeitszeit",
     "english": "core working hours",
     "ukrainian": "основний робочий час (обов'язкова присутність)",
     "example": "Während der <b style=\"color: #eab308;\">Kernarbeitszeit</b> müssen alle Beschäftigten erreichbar sein."
@@ -13228,8 +13228,8 @@
       "B2"
     ],
     "thema": 4,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Lohnausfall, \"-e",
-    "german_audio": "die Lohnausfall",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Lohnausfall, \"-e",
+    "german_audio": "der Lohnausfall",
     "english": "loss of wages",
     "ukrainian": "втрата заробітку",
     "example": "Der <b style=\"color: #eab308;\">Lohnausfall</b> wird bei einem legalen Streik von der Gewerkschaft abgemildert."
@@ -13324,8 +13324,8 @@
       "B2"
     ],
     "thema": 4,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Schiedsgericht, -e",
-    "german_audio": "die Schiedsgericht",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Schiedsgericht, -e",
+    "german_audio": "das Schiedsgericht",
     "english": "arbitration court / tribunal",
     "ukrainian": "арбітражний суд",
     "example": "Das <b style=\"color: #eab308;\">Schiedsgericht</b> entscheidet über Streitigkeiten aus dem Tarifvertrag."
@@ -14024,7 +14024,7 @@
     "german_audio": "die Auskunft",
     "english": "information",
     "ukrainian": "інформація, довідка",
-    "example": "Die Informationstheke erteilt Auskünfte über alle Belange der Jobmesse."
+    "example": "Die Informationstheke erteilt <b style=\"color: #eab308;\">Auskünfte</b> über alle Belange der Jobmesse."
   },
   {
     "level": "B2",
@@ -17008,8 +17008,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Netzausfall, \"-e",
-    "german_audio": "die Netzausfall",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Netzausfall, \"-e",
+    "german_audio": "der Netzausfall",
     "english": "power outage / network failure",
     "ukrainian": "вимкнення мережі / збій",
     "example": "Ein <b style=\"color: #eab308;\">Netzausfall</b> wird durch die unterbrechungsfreie Stromversorgung (USV) abgefangen."
@@ -17752,8 +17752,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Landesarbeitsgericht (LAG), -e",
-    "german_audio": "die Landesarbeitsgericht",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Landesarbeitsgericht (LAG), -e",
+    "german_audio": "das Landesarbeitsgericht",
     "english": "regional labor court",
     "ukrainian": "земельний (апеляційний) трудовий суд",
     "example": "Das <b style=\"color: #eab308;\">Landesarbeitsgericht</b> ist für die Verhandlung der Berufung zuständig."
@@ -17764,8 +17764,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Bundesarbeitsgericht (BAG) (Sg.)",
-    "german_audio": "die Bundesarbeitsgericht",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Bundesarbeitsgericht (BAG) (Sg.)",
+    "german_audio": "das Bundesarbeitsgericht",
     "english": "Federal Labor Court",
     "ukrainian": "Федеральний трудовий суд",
     "example": "Das <b style=\"color: #eab308;\">Bundesarbeitsgericht</b> ist die höchste Instanz in der deutschen Arbeitsgerichtsbarkeit."
@@ -17848,8 +17848,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Bundesverfassungsgericht (BVerfG) (Sg.)",
-    "german_audio": "die Bundesverfassungsgericht",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Bundesverfassungsgericht (BVerfG) (Sg.)",
+    "german_audio": "das Bundesverfassungsgericht",
     "english": "Federal Constitutional Court",
     "ukrainian": "Федеральний конституційний суд",
     "example": "Das <b style=\"color: #eab308;\">BVerfG</b> kann Gesetze für verfassungswidrig und ungültig erklären."
@@ -17920,8 +17920,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Gesetzesentwurf, \"-e",
-    "german_audio": "die Gesetzesentwurf",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Gesetzesentwurf, \"-e",
+    "german_audio": "der Gesetzesentwurf",
     "english": "bill / draft law",
     "ukrainian": "законопроект",
     "example": "Der <b style=\"color: #eab308;\">Gesetzesentwurf</b> zur Arbeitszeiterfassung wurde im Bundestag debattiert."
@@ -17968,8 +17968,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Gesetzblatt, \"-er",
-    "german_audio": "die Gesetzblatt",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Gesetzblatt, \"-er",
+    "german_audio": "das Gesetzblatt",
     "english": "federal law gazette",
     "ukrainian": "відомості законів (офіційне видання)",
     "example": "Das <b style=\"color: #eab308;\">Gesetz</b> wird nach der Verkündung im Bundesgesetzblatt veröffentlicht."
@@ -19012,8 +19012,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Defizitbescheid, -e",
-    "german_audio": "die Defizitbescheid",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Defizitbescheid, -e",
+    "german_audio": "der Defizitbescheid",
     "english": "deficit notice (in qualification recognition)",
     "ukrainian": "повідомлення про часткове визнання (з переліком відсутніх дисциплін)",
     "example": "Im <b style=\"color: #eab308;\">Defizitbescheid</b> sind die fehlenden Qualifikationen genau aufgelistet."
@@ -19912,8 +19912,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Gutachten, -",
-    "german_audio": "die Gutachten",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Gutachten, -",
+    "german_audio": "das Gutachten",
     "english": "expert opinion / medical report",
     "ukrainian": "експертний висновок",
     "example": "Das <b style=\"color: #eab308;\">Gutachten</b> bestätigte die Berufseignung des Arbeitnehmers."
@@ -19960,8 +19960,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Sachkundenachweis, -e",
-    "german_audio": "die Sachkundenachweis",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Sachkundenachweis, -e",
+    "german_audio": "der Sachkundenachweis",
     "english": "certificate of competence",
     "ukrainian": "підтвердження спеціальних знань",
     "example": "Der <b style=\"color: #eab308;\">Sachkundenachweis</b> muss dem Umweltamt vorgelegt werden."
@@ -20716,8 +20716,8 @@
       "B2"
     ],
     "thema": 7,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Frachtbrief, -e",
-    "german_audio": "die Frachtbrief",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Frachtbrief, -e",
+    "german_audio": "der Frachtbrief",
     "english": "consignment note / waybill",
     "ukrainian": "транспортна накладна",
     "example": "Der <b style=\"color: #eab308;\">Frachtbrief</b> muss vom Empfänger bei der Übergabe unterzeichnet werden."
@@ -21932,7 +21932,7 @@
     "german_audio": "das Gut",
     "english": "good, commodity, asset",
     "ukrainian": "товар, майно",
-    "example": "Der Transport empfindlicher Güter erfordert die Beachtung strenger Sicherheitsvorschriften."
+    "example": "Der Transport empfindlicher <b style=\"color: #eab308;\">Güter</b> erfordert die Beachtung strenger Sicherheitsvorschriften."
   },
   {
     "level": "B2",
@@ -23476,8 +23476,8 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Insolvenzgericht, -e",
-    "german_audio": "die Insolvenzgericht",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Insolvenzgericht, -e",
+    "german_audio": "das Insolvenzgericht",
     "english": "insolvency court",
     "ukrainian": "суд у справах про банкрутство",
     "example": "Das <b style=\"color: #eab308;\">Insolvenzgericht</b> eröffnet das Verfahren bei Vorliegen eines Eröffnungsgrundes."
@@ -24112,8 +24112,8 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Beleg, -e",
-    "german_audio": "die Beleg",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Beleg, -e",
+    "german_audio": "der Beleg",
     "english": "receipt / voucher",
     "ukrainian": "квитанція, чек, виправдний документ",
     "example": "Bewahren Sie den <b style=\"color: #eab308;\">Beleg</b> gut auf, um das Rückgaberecht in Anspruch zu nehmen."
@@ -24124,8 +24124,8 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Buchungsbeleg, -e",
-    "german_audio": "die Buchungsbeleg",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Buchungsbeleg, -e",
+    "german_audio": "der Buchungsbeleg",
     "english": "accounting voucher",
     "ukrainian": "бухгалтерський документ (ордер/проводка)",
     "example": "Jede Buchung erfordert einen entsprechenden <b style=\"color: #eab308;\">Buchungsbeleg</b>."
@@ -25216,8 +25216,8 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Zahlungsausfall, \"-e",
-    "german_audio": "die Zahlungsausfall",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Zahlungsausfall, \"-e",
+    "german_audio": "der Zahlungsausfall",
     "english": "default in payment",
     "ukrainian": "неплатіж (втрата платежу)",
     "example": "Ein hoher <b style=\"color: #eab308;\">Zahlungsausfall</b> kann einen Liquiditätsengpass verursachen."
@@ -25360,8 +25360,8 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Zolltarif, -e",
-    "german_audio": "die Zolltarif",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Zolltarif, -e",
+    "german_audio": "der Zolltarif",
     "english": "customs tariff",
     "ukrainian": "митний тариф",
     "example": "Der anwendbare <b style=\"color: #eab308;\">Zolltarif</b> richtet sich nach der Codenummer der Ware."
@@ -25912,8 +25912,8 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Säumniszuschlag, \"-e",
-    "german_audio": "die Säumniszuschlag",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Säumniszuschlag, \"-e",
+    "german_audio": "der Säumniszuschlag",
     "english": "late payment penalty",
     "ukrainian": "пеня за несвоєчасну сплату внесків/податків",
     "example": "Bei verspäteter Zahlung wird ein gesetzlicher <b style=\"color: #eab308;\">Säumniszuschlag</b> berechnet."
@@ -25984,8 +25984,8 @@
       "B2"
     ],
     "thema": 8,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Räumungsurteil, -e",
-    "german_audio": "die Räumungsurteil",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Räumungsurteil, -e",
+    "german_audio": "das Räumungsurteil",
     "english": "eviction order / judgment",
     "ukrainian": "судове рішення про виселення",
     "example": "Das <b style=\"color: #eab308;\">Räumungsurteil</b> ist dem Gerichtsvollzieher zur Vollstreckung vorzulegen."
@@ -27376,8 +27376,8 @@
       "B2"
     ],
     "thema": 9,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Scheidungsurteil, -e",
-    "german_audio": "die Scheidungsurteil",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Scheidungsurteil, -e",
+    "german_audio": "das Scheidungsurteil",
     "english": "divorce decree",
     "ukrainian": "судове рішення про розірвання шлюбу",
     "example": "Das <b style=\"color: #eab308;\">Scheidungsurteil</b> erlangte mit der Zustellung die Rechtskraft."
@@ -27388,8 +27388,8 @@
       "B2"
     ],
     "thema": 9,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Familiengericht, -e",
-    "german_audio": "die Familiengericht",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Familiengericht, -e",
+    "german_audio": "das Familiengericht",
     "english": "family court",
     "ukrainian": "сімейний суд",
     "example": "Das <b style=\"color: #eab308;\">Familiengericht</b> entscheidet über Fragen des Kindesunterhalts."
@@ -27400,8 +27400,8 @@
       "B2"
     ],
     "thema": 9,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Amtsgericht (AG), -e",
-    "german_audio": "die Amtsgericht",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Amtsgericht (AG), -e",
+    "german_audio": "das Amtsgericht",
     "english": "district court",
     "ukrainian": "дільничний (районний) суд (Amtsgericht)",
     "example": "Das <b style=\"color: #eab308;\">Amtsgericht</b> ist für zivilrechtliche Streitigkeiten mit geringem Streitwert zuständig."
@@ -27412,8 +27412,8 @@
       "B2"
     ],
     "thema": 9,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Zivilgericht, -e",
-    "german_audio": "die Zivilgericht",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Zivilgericht, -e",
+    "german_audio": "das Zivilgericht",
     "english": "civil court",
     "ukrainian": "цивільний суд",
     "example": "Das <b style=\"color: #eab308;\">Zivilgericht</b> entscheidet über Schadensersatzforderungen aus Verträgen."
@@ -27484,8 +27484,8 @@
       "B2"
     ],
     "thema": 9,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Gesetzesblatt, \"-er",
-    "german_audio": "die Gesetzesblatt",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Gesetzesblatt, \"-er",
+    "german_audio": "das Gesetzesblatt",
     "english": "official law gazette",
     "ukrainian": "відомості законів (офіційне видання)",
     "example": "Die <b style=\"color: #eab308;\">Gesetzesblätter</b> müssen archiviert und zugänglich gehalten werden."
@@ -27496,8 +27496,8 @@
       "B2"
     ],
     "thema": 9,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Bundesgesetzblatt (BGBl.) (Sg.)",
-    "german_audio": "die Bundesgesetzblatt",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Bundesgesetzblatt (BGBl.) (Sg.)",
+    "german_audio": "das Bundesgesetzblatt",
     "english": "Federal Law Gazette",
     "ukrainian": "Федеральний вісник законів (BGBl.)",
     "example": "Im <b style=\"color: #eab308;\">BGBl.</b> werden alle Gesetzesänderungen offiziell verkündet."
@@ -27556,8 +27556,8 @@
       "B2"
     ],
     "thema": 9,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Regierungsentwurf, \"-e",
-    "german_audio": "die Regierungsentwurf",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Regierungsentwurf, \"-e",
+    "german_audio": "der Regierungsentwurf",
     "english": "government draft",
     "ukrainian": "урядовий законопроект",
     "example": "Der <b style=\"color: #eab308;\">Regierungsentwurf</b> wurde zur Stellungnahme an den Betriebsrat übermittelt."
@@ -27628,8 +27628,8 @@
       "B2"
     ],
     "thema": 9,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Berufungsgericht, -e",
-    "german_audio": "die Berufungsgericht",
+    "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Berufungsgericht, -e",
+    "german_audio": "das Berufungsgericht",
     "english": "court of appeal",
     "ukrainian": "апеляційний суд",
     "example": "Das <b style=\"color: #eab308;\">Berufungsgericht</b> überprüft das erstinstanzliche Urteil auf Rechtsfehler."
@@ -27640,8 +27640,8 @@
       "B2"
     ],
     "thema": 9,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Rechtsfehler, -",
-    "german_audio": "die Rechtsfehler",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Rechtsfehler, -",
+    "german_audio": "der Rechtsfehler",
     "english": "error of law",
     "ukrainian": "юридична помилка (помилка в застосуванні права)",
     "example": "Ein <b style=\"color: #eab308;\">Rechtsfehler</b> des Richters berechtigt zur Einlegung der Revision."
@@ -29164,8 +29164,8 @@
       "B2"
     ],
     "thema": 10,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Steuerbescheid, -e",
-    "german_audio": "die Steuerbescheid",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Steuerbescheid, -e",
+    "german_audio": "der Steuerbescheid",
     "english": "tax assessment notice",
     "ukrainian": "повідомлення про нарахування податку",
     "example": "Der <b style=\"color: #eab308;\">Steuerbescheid</b> wurde dem Steuerbüro elektronisch übermittelt."
@@ -29224,8 +29224,8 @@
       "B2"
     ],
     "thema": 10,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Solidaritätszuschlag (Sg.)",
-    "german_audio": "die Solidaritätszuschlag",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Solidaritätszuschlag (Sg.)",
+    "german_audio": "der Solidaritätszuschlag",
     "english": "solidarity surcharge (Soli)",
     "ukrainian": "надбавка за солідарність (Soli)",
     "example": "Der <b style=\"color: #eab308;\">Solidaritätszuschlag</b> wurde für die meisten Steuerpflichtigen abgeschafft."
@@ -29968,8 +29968,8 @@
       "B2"
     ],
     "thema": 10,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Verdienstausfall, \"-e",
-    "german_audio": "die Verdienstausfall",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Verdienstausfall, \"-e",
+    "german_audio": "der Verdienstausfall",
     "english": "loss of earnings",
     "ukrainian": "втрата заробітку (доходу)",
     "example": "Der <b style=\"color: #eab308;\">Verdienstausfall</b> wird bei Arbeitsunfällen durch das Verletztengeld ausgeglichen."
@@ -30112,8 +30112,8 @@
       "B2"
     ],
     "thema": 10,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Gehaltsnachweis, -e",
-    "german_audio": "die Gehaltsnachweis",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Gehaltsnachweis, -e",
+    "german_audio": "der Gehaltsnachweis",
     "english": "proof of salary / income",
     "ukrainian": "довідка про доходи (зарплату)",
     "example": "Der <b style=\"color: #eab308;\">Gehaltsnachweis</b> ist für den Abschluss des Mietvertrags erforderlich."
@@ -30124,8 +30124,8 @@
       "B2"
     ],
     "thema": 10,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Einkommensnachweis, -e",
-    "german_audio": "die Einkommensnachweis",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Einkommensnachweis, -e",
+    "german_audio": "der Einkommensnachweis",
     "english": "proof of income",
     "ukrainian": "підтвердження доходів",
     "example": "Als <b style=\"color: #eab308;\">Einkommensnachweis</b> kann der Steuerbescheid des Vorjahres vorgelegt werden."
@@ -30136,8 +30136,8 @@
       "B2"
     ],
     "thema": 10,
-    "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Bonitätsnachweis, -e",
-    "german_audio": "die Bonitätsnachweis",
+    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Bonitätsnachweis, -e",
+    "german_audio": "der Bonitätsnachweis",
     "english": "proof of creditworthiness",
     "ukrainian": "підтвердження платоспроможності",
     "example": "Die Schufa-Auskunft gilt als anerkannter <b style=\"color: #eab308;\">Bonitätsnachweis</b> in Deutschland."
@@ -32505,18 +32505,6 @@
     "english": "partnership, cohabitation",
     "ukrainian": "спільне проживання, партнерство",
     "example": "Die eingetragene <b style=\"color: #eab308;\">Lebensgemeinschaft</b> beeinflusst die Wahl der Steuerklasse."
-  },
-  {
-    "level": "B2",
-    "levels": [
-      "B2"
-    ],
-    "thema": 12,
-    "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Solidaritätszuschlag (Sg.)",
-    "german_audio": "der Solidaritätszuschlag",
-    "english": "solidarity surcharge (Soli)",
-    "ukrainian": "надбавка за солідарність (Soli)",
-    "example": "Der <b style=\"color: #eab308;\">Solidaritätszuschlag</b> wurde durch eine Gesetzesreform für viele abgeschafft."
   },
   {
     "level": "B2",

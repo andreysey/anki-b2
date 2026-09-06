@@ -100,7 +100,7 @@ die Fernwärme (Sg.);district heating;централізоване теплоп�
 die Energieversorgung (Sg.);energy supply;енергопостачання;Eine zuverlässige Energieversorgung **ist entscheidend für die Produktion**.
 der Energieversorger, -;energy provider / utility company;постачальник енергії;Der Energieversorger **hat eine Gehaltserhöhung der Stromtarife angekündigt**.
 die Stromnetz, -e;power grid;електромережа;Die Störung im Stromnetz **verursachte einen stundenlangen Serverausfall**.
-die Netzausfall, "-e;power outage / network failure;вимкнення мережі / збій;Ein Netzausfall **wird durch die unterbrechungsfreie Stromversorgung (USV) abgefangen**.
+der Netzausfall, "-e;power outage / network failure;вимкнення мережі / збій;Ein Netzausfall **wird durch die unterbrechungsfreie Stromversorgung (USV) abgefangen**.
 die Notstromaggregat, -e;emergency generator;дизель-генератор (аварійний);Im Ernstfall **springt das Notstromaggregat automatisch innerhalb von Sekunden an**.
 die USV-Anlage (unterbrechungsfreie Stromversorgung), -n;UPS system (uninterruptible power supply);система безперебійного живлення (ДБЖ);Die USV-Anlage **muss regelmäßig gewartet werden, um Mängel auszuschließen**.
 die Akkumulator, -en;accumulator / rechargeable battery;акумулятор;Die Akkumulatoren der USV **haben eine begrenzte Haltbarkeit von fünf Jahren**.
@@ -162,25 +162,25 @@ der Vergleich, -e;settlement, compromise;мирова угода, компром
 die Protokollierung, -en;recording / official recording;офіційне протоколювання;Die Protokollierung des Vergleichs **beendet den Rechtsstreit rechtswirksam**.
 die Rechtskraft (Sg.);legal force;законна сила;Das Urteil **erlangt nach Ablauf der Berufungsfrist die Rechtskraft**.
 die Berufung, -en;appeal (legal);апеляція;Gegen das Urteil **kann innerhalb eines Monats Berufung eingelegt werden**.
-die Landesarbeitsgericht (LAG), -e;regional labor court;земельний (апеляційний) трудовий суд;Das **Landesarbeitsgericht** ist für die Verhandlung der Berufung zuständig.
-die Bundesarbeitsgericht (BAG) (Sg.);Federal Labor Court;Федеральний трудовий суд;Das **Bundesarbeitsgericht** ist die höchste Instanz in der deutschen Arbeitsgerichtsbarkeit.
+das Landesarbeitsgericht (LAG), -e;regional labor court;земельний (апеляційний) трудовий суд;Das **Landesarbeitsgericht** ist für die Verhandlung der Berufung zuständig.
+das Bundesarbeitsgericht (BAG) (Sg.);Federal Labor Court;Федеральний трудовий суд;Das **Bundesarbeitsgericht** ist die höchste Instanz in der deutschen Arbeitsgerichtsbarkeit.
 die Revision, -en;appeal on points of law;ревізія (касаційне оскарження);Die Revision beim Bundesarbeitsgericht **wurde vom Richter zugelassen**.
 die Grundsatzentscheidung, -en;landmark decision;принципове рішення (прецедент);Das Urteil gilt als eine wichtige Grundsatzentscheidung **in unserer Wirtschaftsbranche**.
 die Präzedenzfall, "-e;precedent;прецедент;Dieses Urteil **schafft einen Präzedenzfall für zukünftige Kündigungsschutzklagen**.
 das Richterrecht (Sg.);case law / judge-made law;судове право (право, створене рішеннями суддів);Das Richterrecht **ergänzt die geschriebenen gesetzlichen Rechtsnormen**.
 die Rechtsfortbildung, -en;development of the law / legal development;розвиток права (шляхом судових рішень);Die Rechtsfortbildung **erfolgt vor allem durch die Urteile des Bundesarbeitsgerichts**.
 die Verfassungsmäßigkeit (Sg.);constitutionality;конституційність;Die Verfassungsmäßigkeit des Gesetzes **wurde vom Verfassungsgericht bestätigt**.
-die Bundesverfassungsgericht (BVerfG) (Sg.);Federal Constitutional Court;Федеральний конституційний суд;Das BVerfG **kann Gesetze für verfassungswidrig und ungültig erklären**.
+das Bundesverfassungsgericht (BVerfG) (Sg.);Federal Constitutional Court;Федеральний конституційний суд;Das BVerfG **kann Gesetze für verfassungswidrig und ungültig erklären**.
 die Verfassungsbeschwerde, -n;constitutional complaint;конституційна скарга;Gegen das Urteil des BAG **wurde eine Verfassungsbeschwerde eingereicht**.
 das Grundrecht, -e;basic right / constitutional right;основне (конституційне) право;Die Koalitionsfreiheit **ist ein geschütztes Grundrecht im Grundgesetz**.
 das Grundgesetz (GG) (Sg.);Basic Law (German Constitution);Основний закон (Конституція Німеччини);Das Grundgesetz **steht an der Spitze aller deutschen Rechtsnormen**.
 die Verfassung, -en;constitution;конституція;Die Verfassung **garantiert den Schutz der Menschenwürde und der Grundrechte**.
 die Gesetzgeber, -;legislator;законодавець;Der Gesetzgeber **muss die Richtlinien der EU in nationales Recht umsetzen**.
-die Gesetzesentwurf, "-e;bill / draft law;законопроект;Der Gesetzesentwurf zur Arbeitszeiterfassung **wurde im Bundestag debattiert**.
+der Gesetzesentwurf, "-e;bill / draft law;законопроект;Der Gesetzesentwurf zur Arbeitszeiterfassung **wurde im Bundestag debattiert**.
 das Gesetzgebungsverfahren, -;legislative process;законодавчий процес;Das Gesetzgebungsverfahren **erfordert die Zustimmung des Bundesrates**.
 die Bundestag (Sg.);Bundestag (German Federal Parliament);Бундестаг;Der Bundestag **ist für die Verabschiedung von Bundesgesetzen zuständig**.
 der Bundesrat (Sg.);Bundesrat (Federal Council);Бундесрат;Der Bundesrat **vertritt die Interessen der Bundesländer bei der Gesetzgebung**.
-die Gesetzblatt, "-er;federal law gazette;відомості законів (офіційне видання);Das Gesetz wird nach der Verkündung **im Bundesgesetzblatt veröffentlicht**.
+das Gesetzblatt, "-er;federal law gazette;відомості законів (офіційне видання);Das Gesetz wird nach der Verkündung **im Bundesgesetzblatt veröffentlicht**.
 die Inkrafttreten (Sg.);entry into force;набрання чинності;Das genaue Datum für das Inkrafttreten des Gesetzes **wurde verschoben**.
 die Außerkrafttreten (Sg.);expiration / loss of legal force;втрата чинності;Das Außerkrafttreten der alten Verordnung **erfolgt zum Jahresende**.
 die Übergangsregelung, -en;transitional regulation;перехідні правила (регулювання);Für bestehende Verträge **wurde eine großzügige Übergangsregelung vereinbart**.
@@ -270,7 +270,7 @@ die Zuwanderung (Sg.);immigration;імміграція;Die Zuwanderung **leistet
 das Fachkräfteeinwanderungsgesetz (Sg.);skilled immigration act;закон про імміграцію кваліфікованих спеціалістів;Das neue Fachkräfteeinwanderungsgesetz **erleichtert die Arbeitsplatzsuche in der IT**.
 die Anerkennung (z. B. von Abschlüssen) (Sg.);recognition / equivalence assessment;визнання (напр., дипломів);Die Anerkennung ausländischer Abschlüsse **wird von der IHK durchgeführt**.
 die Gleichwertigkeitsprüfung, -en;equivalence assessment;перевірка на еквівалентність (диплому);Die Gleichwertigkeitsprüfung **erfordert das Vorlegen aller Zeugnisse**.
-die Defizitbescheid, -e;deficit notice (in qualification recognition);повідомлення про часткове визнання (з переліком відсутніх дисциплін);Im Defizitbescheid **sind die fehlenden Qualifikationen genau aufgelistet**.
+der Defizitbescheid, -e;deficit notice (in qualification recognition);повідомлення про часткове визнання (з переліком відсутніх дисциплін);Im Defizitbescheid **sind die fehlenden Qualifikationen genau aufgelistet**.
 die Anpassungsqualifizierung, -en;adaptation qualification / training;адаптаційна кваліфікація (навчання для повного визнання диплому);Die Anpassungsqualifizierung **hilft, die volle Gleichwertigkeit zu erreichen**.
 das Anerkennungsverfahren, -;recognition procedure;процедура визнання (диплому);Das Anerkennungsverfahren **wird durch staatliche Zuschüsse finanziell gefördert**.
 die Reglementierte Berufe (Pl.);regulated professions;регламентовані професії;Im Gesundheitswesen **handelt es sich meist um reglementierte Berufe**.
@@ -349,11 +349,11 @@ der Gehörschutz (Sg.);hearing protection;захист органів слуху
 die Lärmschwerhörigkeit (Sg.);noise-induced hearing loss;професійна глухота (через шум);Die Lärmschwerhörigkeit **gilt als anerkannte Berufskrankheit**.
 die Berufskrankheit, -en;occupational disease;професійне захворювання;Die Anerkennung einer Berufskrankheit **wird bei der BG beantragt**.
 die Minderung der Erwerbsfähigkeit (MdE) (Sg.);reduction in earning capacity;зниження працездатності (MdE);Die MdE **wird durch ein medizinisches Gutachten festgelegt**.
-die Gutachten, -;expert opinion / medical report;експертний висновок;Das Gutachten **bestätigte die Berufseignung des Arbeitnehmers**.
+das Gutachten, -;expert opinion / medical report;експертний висновок;Das Gutachten **bestätigte die Berufseignung des Arbeitnehmers**.
 die Gutachter, - / die Gutachterin, -nen;expert, surveyor;експерт, спеціаліст;Der Gutachter **ist für die Schätzung des Gebäudewertes zuständig**.
 die Sachverständige, -n / die Sachverständige, -n;expert, specialist;експерт, фахівець;Die Sachverständige **prüfte die Einhaltung der Brandschutzordnung**.
 die Sachkunde (Sg.);expertise, specialized knowledge;спеціальні знання (експертиза);Für die Wartung der Kälteanlagen **ist eine spezielle Sachkunde erforderlich**.
-die Sachkundenachweis, -e;certificate of competence;підтвердження спеціальних знань;Der Sachkundenachweis **muss dem Umweltamt vorgelegt werden**.
+der Sachkundenachweis, -e;certificate of competence;підтвердження спеціальних знань;Der Sachkundenachweis **muss dem Umweltamt vorgelegt werden**.
 die Sachkundeprüfung, -en;expert knowledge exam;іспит на підтвердження спеціальних знань;Die Sachkundeprüfung **wird vor der Industrie- und Handelskammer abgelegt**.
 die IHK (Industrie- und Handelskammer) (Sg.);Chamber of Industry and Commerce;Торгово-промислова палата (IHK);Die IHK **unterstützt Betriebe bei der Ausbildung der Fachkräfte**.
 die HWK (Handwerkskammer) (Sg.);Chamber of Crafts;Реміснича палата (HWK);Die HWK **ist für die Abnahme der Gesellenprüfungen zuständig**.
@@ -418,7 +418,7 @@ die Zollbehörde, -n;customs authority;митна служба;Die Zollbehörde 
 die Einfuhrzoll, "-e;import duty / tariff;імпортне мито;Die Einfuhrzölle **erhöhen die Anschaffungskosten für Rohstoffe aus den USA**.
 die Zollabwicklung, -en;customs clearance;митне оформлення;Die Zollabwicklung **wird von einer spezialisierten Spedition übernommen**.
 die Spedition, -en;freight forwarding company;транспортно-експедиційна компанія (експедитор);Die Spedition **ist für den sicheren Transport der Maschinen verantwortlich**.
-die Frachtbrief, -e;consignment note / waybill;транспортна накладна;Der Frachtbrief **muss vom Empfänger bei der Übergabe unterzeichnet werden**.
+der Frachtbrief, -e;consignment note / waybill;транспортна накладна;Der Frachtbrief **muss vom Empfänger bei der Übergabe unterzeichnet werden**.
 die Lieferadresse, -n;delivery address;адреса доставки;Bitte tragen Sie die Lieferadresse **in das Bestellformular ein**.
 die Rechnungsadresse, -n;billing address;адреса для виставлення рахунку;Die Rechnungsadresse **kann von der Lieferadresse abweichen**.
 die Zahlungsbedingung, -en;payment term / condition;умова оплати;Die Zahlungsbedingungen **sehen ein Zahlungsziel von 14 Tagen vor**.
