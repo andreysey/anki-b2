@@ -6,6 +6,7 @@ import {
   colorizeGender,
   highlightWordInExample,
   getThemaNum,
+  getThemaTag,
   getLevelFromFilename
 } from './utils.js';
 
@@ -147,6 +148,18 @@ describe('getThemaNum', () => {
     expect(getThemaNum('B2_Verben.txt')).toBe(99);
     expect(getThemaNum('B2_Thema03_Arbeit.txt')).toBe(3);
     expect(getThemaNum('Unknown.txt')).toBe(0);
+  });
+});
+
+describe('getThemaTag', () => {
+  it('returns human-readable tags for special and numbered themas', () => {
+    expect(getThemaTag(1)).toBe('Thema1');
+    expect(getThemaTag(12)).toBe('Thema12');
+    expect(getThemaTag(95)).toBe('Redemittel');
+    expect(getThemaTag(96)).toBe('Nomen_Verb_Verbindungen');
+    expect(getThemaTag(97)).toBe('Adjektive_mit_Praepositionen');
+    expect(getThemaTag(98)).toBe('Verben_mit_Praepositionen');
+    expect(getThemaTag(99)).toBe('Unregelmaessige_Verben');
   });
 });
 

@@ -15,6 +15,7 @@ import {
   colorizeGender,
   highlightWordInExample,
   getThemaNum,
+  getThemaTag,
   getLevelFromFilename
 } from './utils.js';
 import { buildVerbTenses, formatTensesHtml } from './verb-grammar.js';
@@ -290,7 +291,8 @@ export async function generateAnkiDeck(
     const content = fs.readFileSync(filePath, 'utf8');
     const level = getLevelFromFilename(fname);
     const thema = getThemaNum(fname);
-    const entryTag = `${level} Thema${thema}`.replace('+', 'plus');
+    const themaTag = getThemaTag(thema);
+    const entryTag = `${level} ${themaTag}`.replace('+', 'plus');
 
     for (const [lineIdx, rawLine] of content.split('\n').entries()) {
       const line = rawLine.trim();
@@ -354,7 +356,7 @@ export async function generateAnkiDeck(
           grammarTensesHtml, // Grammar_Tenses (B2 interactive details accordion)
           entryTag // Tags
         ],
-        tags: [levelTag, `Thema${thema}`]
+        tags: [levelTag, themaTag]
       });
 
       if (!seen.has(wordDisplay)) {

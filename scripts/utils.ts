@@ -358,6 +358,28 @@ export function getThemaNum(filename: string): number {
 }
 
 /**
+ * Returns a human-readable Anki tag for a given Thema number.
+ * Regular themes: "Thema1", "Thema2", etc.
+ * Special themes: "Redemittel", "Nomen_Verb_Verbindungen", "Verben_mit_Praepositionen", etc.
+ */
+export function getThemaTag(thema: number): string {
+  switch (thema) {
+    case THEMA_NUMBERS.VERBEN:
+      return 'Unregelmaessige_Verben';
+    case THEMA_NUMBERS.PRAEPOSITIONEN:
+      return 'Verben_mit_Praepositionen';
+    case THEMA_NUMBERS.ADJEKTIVE:
+      return 'Adjektive_mit_Praepositionen';
+    case THEMA_NUMBERS.NOMEN_VERB:
+      return 'Nomen_Verb_Verbindungen';
+    case THEMA_NUMBERS.REDEMITTEL:
+      return 'Redemittel';
+    default:
+      return `Thema${thema}`;
+  }
+}
+
+/**
  * Helper: detects the level from the source filename.
  * "B1_plus_ThemaX.txt" → "B1+"
  * "B2_ThemaX.txt"      → "B2"
