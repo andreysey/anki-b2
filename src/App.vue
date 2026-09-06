@@ -101,22 +101,6 @@ const audioOptions = [
 
 const handleSRSUpdate = (severity: 'again' | 'hard' | 'good' | 'easy') => {
   updateSRS(severity);
-  const labels: Record<string, string> = {
-    again: 'Again',
-    hard: 'Hard',
-    good: 'Good',
-    easy: 'Easy'
-  };
-
-  if (severity === 'again') {
-    toast.error(`Graded: ${labels[severity]}`);
-  } else if (severity === 'hard') {
-    toast.warning(`Graded: ${labels[severity]}`);
-  } else if (severity === 'good') {
-    toast.success(`Graded: ${labels[severity]}`);
-  } else {
-    toast.info(`Graded: ${labels[severity]}`);
-  }
 };
 
 const handleMasterCurrentCard = () => {
