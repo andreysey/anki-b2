@@ -52,9 +52,9 @@ export function cleanGermanForAudio(text: string): string {
 
   // Plural/suffix after comma (e.g. "die Abteilung, -en", "das Buch, -¨er", "das Praktikum, Praktika")
   // while preserving dialogue sentences with commas (e.g. "Ja, das passt")
-  if (/^[a-zA-ZäöüÄÖÜß\s|]+,\s*(-|"-|–|—|[A-ZÄÖÜ][a-zäöüß]+$)/.test(t)) {
+  if (/^[a-zA-ZäöüÄÖÜß\s|–-]+,\s*(-|"-|–|—|[A-ZÄÖÜ][a-zäöüß]+$)/.test(t)) {
     t = t.split(',')[0];
-  } else if (/^[a-zA-ZäöüÄÖÜß\s|]+,\s*$/.test(t)) {
+  } else if (/^[a-zA-ZäöüÄÖÜß\s|–-]+,\s*$/.test(t)) {
     t = t.split(',')[0];
   }
 

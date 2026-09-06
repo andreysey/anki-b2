@@ -40,6 +40,13 @@ describe('cleanGermanForAudio', () => {
       'der Arbeitgeber'
     );
     expect(cleanGermanForAudio('das Praktikum, Praktika')).toBe('das Praktikum');
+    expect(cleanGermanForAudio('der E-Learning-Kurs, -e')).toBe('der E-Learning-Kurs');
+    expect(cleanGermanForAudio('die Industrie- und Handelskammer (IHK), -en')).toBe(
+      'die Industrie- und Handelskammer'
+    );
+    expect(cleanGermanForAudio('das Preis-Leistungs-Verhältnis, -se')).toBe(
+      'das Preis-Leistungs-Verhältnis'
+    );
     expect(cleanGermanForAudio('Ja, das passt / das geht. Einverstanden.')).toBe('Ja, das passt');
   });
 });

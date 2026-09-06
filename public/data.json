@@ -140,10 +140,10 @@
     ],
     "thema": 1,
     "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> E-Learning-Kurs, -e",
-    "german_audio": "der E-Learning-Kurs, -e",
+    "german_audio": "der E-Learning-Kurs",
     "english": "e-learning course",
     "ukrainian": "курс дистанційного навчання",
-    "example": "Der E-Learning-Kurs beinhaltet interaktive Module zur Arbeitssicherheit im Betrieb."
+    "example": "Der <b style=\"color: #eab308;\">E-Learning-Kurs</b> beinhaltet interaktive Module zur Arbeitssicherheit im Betrieb."
   },
   {
     "level": "B1+",
@@ -2642,10 +2642,10 @@
     ],
     "thema": 4,
     "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> EDV-System, -e",
-    "german_audio": "das EDV-System, -e",
+    "german_audio": "das EDV-System",
     "english": "IT system",
     "ukrainian": "ІТ-система",
-    "example": "Das neue EDV-System erleichtert die administrative Abwicklung der Kundenaufträge."
+    "example": "Das neue <b style=\"color: #eab308;\">EDV-System</b> erleichtert die administrative Abwicklung der Kundenaufträge."
   },
   {
     "level": "B1+",
@@ -3190,10 +3190,10 @@
     ],
     "thema": 5,
     "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Online-Einkauf, \"-e",
-    "german_audio": "der Online-Einkauf, \"-e",
+    "german_audio": "der Online-Einkauf",
     "english": "online shopping",
     "ukrainian": "онлайн-покупки",
-    "example": "Der Online-Einkauf von IT-Ausstattung für das Büro spart viel Arbeitszeit."
+    "example": "Der <b style=\"color: #eab308;\">Online-Einkauf</b> von IT-Ausstattung für das Büro spart viel Arbeitszeit."
   },
   {
     "level": "B1+",
@@ -3899,10 +3899,10 @@
     ],
     "thema": 5,
     "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Online-Plattform, -en",
-    "german_audio": "die Online-Plattform, -en",
+    "german_audio": "die Online-Plattform",
     "english": "online platform",
     "ukrainian": "онлайн-платформа",
-    "example": "Über die Online-Plattform können Mitarbeiter ihre Urlaubstage digital beantragen."
+    "example": "Über die <b style=\"color: #eab308;\">Online-Plattform</b> können Mitarbeiter ihre Urlaubstage digital beantragen."
   },
   {
     "level": "B1+",
@@ -5296,10 +5296,10 @@
     ],
     "thema": 7,
     "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> IT-Systemkaufmann, -leute / die IT-Systemkauffrau, -en",
-    "german_audio": "der IT-Systemkaufmann, -leute",
+    "german_audio": "der IT-Systemkaufmann",
     "english": "IT systems management assistant",
     "ukrainian": "фахівець/-чиня з продажів ІТ-систем",
-    "example": "Als IT-Systemkaufmann ist man für die Beratung und Vermittlung zuständig."
+    "example": "Als <b style=\"color: #eab308;\">IT-Systemkaufmann</b> ist man für die Beratung und Vermittlung zuständig."
   },
   {
     "level": "B1+",
@@ -6281,10 +6281,10 @@
     ],
     "thema": 1,
     "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Industrie- und Handelskammer (IHK), -en",
-    "german_audio": "die Industrie- und Handelskammer, -en",
+    "german_audio": "die Industrie- und Handelskammer",
     "english": "Chamber of Industry and Commerce",
     "ukrainian": "Торгово-промислова палата (ТПП)",
-    "example": "Die Prüfung wird vor der <b style=\"color: #eab308;\">Industrie-</b> und Handelskammer abgelegt."
+    "example": "Die Prüfung wird vor der Industrie- und <b style=\"color: #eab308;\">Handelskammer</b> abgelegt."
   },
   {
     "level": "B2",
@@ -6713,10 +6713,10 @@
     ],
     "thema": 1,
     "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Erste-Hilfe-Kurs, -e",
-    "german_audio": "der Erste-Hilfe-Kurs, -e",
+    "german_audio": "der Erste-Hilfe-Kurs",
     "english": "first aid course",
     "ukrainian": "курс першої медичної допомоги",
-    "example": "Die Teilnahme an einem Erste-Hilfe-Kurs ist für alle Mitarbeiter Pflicht."
+    "example": "Die Teilnahme an einem <b style=\"color: #eab308;\">Erste-Hilfe-Kurs</b> ist für alle Mitarbeiter Pflicht."
   },
   {
     "level": "B2",
@@ -8717,10 +8717,10 @@
     ],
     "thema": 3,
     "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Online-Jobbörse, -n",
-    "german_audio": "die Online-Jobbörse, -n",
+    "german_audio": "die Online-Jobbörse",
     "english": "online job board",
     "ukrainian": "онлайн-біржа праці",
-    "example": "Ich nutze eine <b style=\"color: #eab308;\">Online-Jobbörse,</b> um nach geeigneten Angeboten für eine Umschulung zu suchen."
+    "example": "Ich nutze eine <b style=\"color: #eab308;\">Online-Jobbörse</b>, um nach geeigneten Angeboten für eine Umschulung zu suchen."
   },
   {
     "level": "B2",
@@ -8729,10 +8729,10 @@
     ],
     "thema": 3,
     "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Online-Stellenportal, -e",
-    "german_audio": "das Online-Stellenportal, -e",
+    "german_audio": "das Online-Stellenportal",
     "english": "online job portal",
     "ukrainian": "онлайн-портал вакансій",
-    "example": "Die Personalabteilung schaltet regelmäßig Anzeigen in verschiedenen Online-Stellenportalen."
+    "example": "Die Personalabteilung schaltet regelmäßig Anzeigen in verschiedenen <b style=\"color: #eab308;\">Online-Stellenportalen</b>."
   },
   {
     "level": "B2",
@@ -9005,10 +9005,10 @@
     ],
     "thema": 3,
     "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Praxis- und Berufserfahrung, -en",
-    "german_audio": "die Praxis- und Berufserfahrung, -en",
+    "german_audio": "die Praxis- und Berufserfahrung",
     "english": "practical and professional experience",
     "ukrainian": "практичний та професійний досвід",
-    "example": "Für die Stelle als Filialleiter wird eine mehrjährige <b style=\"color: #eab308;\">Praxis-</b> und Berufserfahrung <b>verlangt</b>."
+    "example": "Für die Stelle als Filialleiter wird eine mehrjährige Praxis- und <b style=\"color: #eab308;\">Berufserfahrung</b> <b>verlangt</b>."
   },
   {
     "level": "B2",
@@ -9425,10 +9425,10 @@
     ],
     "thema": 3,
     "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Online-Bewerbung, -en",
-    "german_audio": "die Online-Bewerbung, -en",
+    "german_audio": "die Online-Bewerbung",
     "english": "online application",
     "ukrainian": "онлайн-резюме",
-    "example": "Eine Online-Bewerbung erleichtert der HR-Abteilung die schnelle Personalsuche."
+    "example": "Eine <b style=\"color: #eab308;\">Online-Bewerbung</b> erleichtert der HR-Abteilung die schnelle Personalsuche."
   },
   {
     "level": "B2",
@@ -9473,10 +9473,10 @@
     ],
     "thema": 3,
     "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Assessment-Center, -",
-    "german_audio": "das Assessment-Center, -",
+    "german_audio": "das Assessment-Center",
     "english": "assessment center",
     "ukrainian": "асесмент-центр (груповий відбір кандидатів)",
-    "example": "Das Assessment-Center stellt die Bewerber vor verschiedene praktische Herausforderungen."
+    "example": "Das <b style=\"color: #eab308;\">Assessment-Center</b> stellt die Bewerber vor verschiedene praktische Herausforderungen."
   },
   {
     "level": "B2",
@@ -9653,10 +9653,10 @@
     ],
     "thema": 3,
     "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Teambuilding-Event, -s",
-    "german_audio": "der Teambuilding-Event, -s",
+    "german_audio": "der Teambuilding-Event",
     "english": "team building event",
     "ukrainian": "тімбілдінг",
-    "example": "Der Teambuilding-Event sollte zur Verbesserung des Betriebsklimas beitragen."
+    "example": "Der <b style=\"color: #eab308;\">Teambuilding-Event</b> sollte zur Verbesserung des Betriebsklimas beitragen."
   },
   {
     "level": "B2",
@@ -10253,10 +10253,10 @@
     ],
     "thema": 3,
     "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Ex-Mitarbeiter, - / die Ex-Mitarbeiterin, -nen",
-    "german_audio": "der Ex-Mitarbeiter, -",
+    "german_audio": "der Ex-Mitarbeiter",
     "english": "former employee",
     "ukrainian": "колишній співробітник",
-    "example": "Wir halten weiterhin guten Kontakt zu unseren Ex-Mitarbeitern."
+    "example": "Wir halten weiterhin guten Kontakt zu unseren <b style=\"color: #eab308;\">Ex-Mitarbeitern</b>."
   },
   {
     "level": "B2",
@@ -10505,10 +10505,10 @@
     ],
     "thema": 3,
     "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> E-Learning-Modul, -e",
-    "german_audio": "das E-Learning-Modul, -e",
+    "german_audio": "das E-Learning-Modul",
     "english": "e-learning module",
     "ukrainian": "модуль електронного навчання",
-    "example": "Das E-Learning-Modul beinhaltet Tests zur Arbeitssicherheit."
+    "example": "Das <b style=\"color: #eab308;\">E-Learning-Modul</b> beinhaltet Tests zur Arbeitssicherheit."
   },
   {
     "level": "B2",
@@ -10541,10 +10541,10 @@
     ],
     "thema": 3,
     "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> IHK-Prüfung, -en",
-    "german_audio": "die IHK-Prüfung, -en",
+    "german_audio": "die IHK-Prüfung",
     "english": "IHK exam (Chamber of Commerce exam)",
     "ukrainian": "іспит торгово-промислової палати",
-    "example": "Nach der Vorbereitung legte er die IHK-Prüfung mit Erfolg ab."
+    "example": "Nach der Vorbereitung legte er die <b style=\"color: #eab308;\">IHK-Prüfung</b> mit Erfolg ab."
   },
   {
     "level": "B2",
@@ -10553,10 +10553,10 @@
     ],
     "thema": 3,
     "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> IHK-Zertifikat, -e",
-    "german_audio": "das IHK-Zertifikat, -e",
+    "german_audio": "das IHK-Zertifikat",
     "english": "IHK certificate",
     "ukrainian": "сертифікат торгово-промислової палати",
-    "example": "Das IHK-Zertifikat genießt in der deutschen Wirtschaft eine hohe Wertschätzung."
+    "example": "Das <b style=\"color: #eab308;\">IHK-Zertifikat</b> genießt in der deutschen Wirtschaft eine hohe Wertschätzung."
   },
   {
     "level": "B2",
@@ -11081,10 +11081,10 @@
     ],
     "thema": 3,
     "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Führungskräfte-Coaching, -s",
-    "german_audio": "das Führungskräfte-Coaching, -s",
+    "german_audio": "das Führungskräfte-Coaching",
     "english": "leadership coaching",
     "ukrainian": "коучинг для керівників",
-    "example": "Das Führungskräfte-Coaching unterstützt die Leiter bei der Teamführung."
+    "example": "Das <b style=\"color: #eab308;\">Führungskräfte-Coaching</b> unterstützt die Leiter bei der Teamführung."
   },
   {
     "level": "B2",
@@ -11489,10 +11489,10 @@
     ],
     "thema": 4,
     "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Mess- und Analysetechnik, -en",
-    "german_audio": "die Mess- und Analysetechnik, -en",
+    "german_audio": "die Mess- und Analysetechnik",
     "english": "measurement and analysis technology",
     "ukrainian": "вимірювальна та аналітична техніка",
-    "example": "Als Techniker ist er mit der Wartung der <b style=\"color: #eab308;\">Mess-</b> und Analysetechnik beschäftigt."
+    "example": "Als Techniker ist er mit der Wartung der Mess- und <b style=\"color: #eab308;\">Analysetechnik</b> beschäftigt."
   },
   {
     "level": "B2",
@@ -12101,10 +12101,10 @@
     ],
     "thema": 4,
     "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> SV-Nummer (Sozialversicherungsnummer), -n",
-    "german_audio": "die SV-Nummer, -n",
+    "german_audio": "die SV-Nummer",
     "english": "social security number",
     "ukrainian": "номер соцстрахування",
-    "example": "Bitte tragen Sie Ihre SV-<b style=\"color: #eab308;\">Nummer</b> in das Personaldatenblatt ein."
+    "example": "Bitte tragen Sie Ihre <b style=\"color: #eab308;\">SV-Nummer</b> in das Personaldatenblatt ein."
   },
   {
     "level": "B2",
@@ -12425,10 +12425,10 @@
     ],
     "thema": 4,
     "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Erste-Hilfe-Raum, \"-e",
-    "german_audio": "der Erste-Hilfe-Raum, \"-e",
+    "german_audio": "der Erste-Hilfe-Raum",
     "english": "first aid room",
     "ukrainian": "кімната першої медичної допомоги",
-    "example": "Der Erste-Hilfe-Raum befindet sich direkt neben der Betriebskantine."
+    "example": "Der <b style=\"color: #eab308;\">Erste-Hilfe-Raum</b> befindet sich direkt neben der Betriebskantine."
   },
   {
     "level": "B2",
@@ -13169,10 +13169,10 @@
     ],
     "thema": 4,
     "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Lohn- und Gehaltstarifvertrag, \"-e",
-    "german_audio": "die Lohn- und Gehaltstarifvertrag, \"-e",
+    "german_audio": "die Lohn- und Gehaltstarifvertrag",
     "english": "wage and salary collective agreement",
     "ukrainian": "тарифна угода про оплату праці",
-    "example": "Der <b style=\"color: #eab308;\">Lohn-</b> und Gehaltstarifvertrag wird in der Regel jährlich neu ausgehandelt."
+    "example": "Der Lohn- und <b style=\"color: #eab308;\">Gehaltstarifvertrag</b> wird in der Regel jährlich neu ausgehandelt."
   },
   {
     "level": "B2",
@@ -15425,10 +15425,10 @@
     ],
     "thema": 6,
     "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Service-Hotline, -s",
-    "german_audio": "die Service-Hotline, -s",
+    "german_audio": "die Service-Hotline",
     "english": "service hotline",
     "ukrainian": "гаряча лінія підтримки",
-    "example": "Bei Bedienungsproblemen können Sie sich an die Service-Hotline wenden."
+    "example": "Bei Bedienungsproblemen können Sie sich an die <b style=\"color: #eab308;\">Service-Hotline</b> wenden."
   },
   {
     "level": "B2",
@@ -16037,10 +16037,10 @@
     ],
     "thema": 7,
     "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Preis-Leistungs-Verhältnis, -se",
-    "german_audio": "das Preis-Leistungs-Verhältnis, -se",
+    "german_audio": "das Preis-Leistungs-Verhältnis",
     "english": "price-performance ratio",
     "ukrainian": "співвідношення ціни та якості",
-    "example": "<b>Aus der Grafik geht hervor, dass viele Kunden großen Wert auf</b> das Preis-Leistungs-Verhältnis legen."
+    "example": "<b>Aus der Grafik geht hervor, dass viele Kunden großen Wert auf</b> das <b style=\"color: #eab308;\">Preis-Leistungs-Verhältnis</b> legen."
   },
   {
     "level": "B2",
@@ -16553,10 +16553,10 @@
     ],
     "thema": 7,
     "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Mund-Nasen-Bedeckung, -en",
-    "german_audio": "die Mund-Nasen-Bedeckung, -en",
+    "german_audio": "die Mund-Nasen-Bedeckung",
     "english": "mouth-nose covering / face mask",
     "ukrainian": "маска для обличчя (рот і ніс)",
-    "example": "Das Tragen einer Mund-Nasen-Bedeckung dient dem Gesundheitsschutz aller."
+    "example": "Das Tragen einer <b style=\"color: #eab308;\">Mund-Nasen-Bedeckung</b> dient dem Gesundheitsschutz aller."
   },
   {
     "level": "B2",
@@ -16817,10 +16817,10 @@
     ],
     "thema": 7,
     "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Öko-Audit, -s",
-    "german_audio": "das Öko-Audit, -s",
+    "german_audio": "das Öko-Audit",
     "english": "eco-audit",
     "ukrainian": "екологічний аудит",
-    "example": "Das Öko-Audit wird alle zwei Jahre von einem externen Gutachter durchgeführt."
+    "example": "Das <b style=\"color: #eab308;\">Öko-Audit</b> wird alle zwei Jahre von einem externen Gutachter durchgeführt."
   },
   {
     "level": "B2",
@@ -17033,10 +17033,10 @@
     ],
     "thema": 7,
     "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> USV-Anlage (unterbrechungsfreie Stromversorgung), -n",
-    "german_audio": "die USV-Anlage, -n",
+    "german_audio": "die USV-Anlage",
     "english": "UPS system (uninterruptible power supply)",
     "ukrainian": "система безперебійного живлення (ДБЖ)",
-    "example": "Die USV-Anlage muss regelmäßig gewartet werden, um Mängel auszuschließen."
+    "example": "Die <b style=\"color: #eab308;\">USV-Anlage</b> muss regelmäßig gewartet werden, um Mängel auszuschließen."
   },
   {
     "level": "B2",
@@ -17417,10 +17417,10 @@
     ],
     "thema": 7,
     "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> EMV-Richtlinie (Richtlinie zur elektromagnetischen Verträglichkeit), -n",
-    "german_audio": "die EMV-Richtlinie, -n",
+    "german_audio": "die EMV-Richtlinie",
     "english": "EMC directive (electromagnetic compatibility)",
     "ukrainian": "директива з електромагнітної сумісності (ЕМС)",
-    "example": "Die Einhaltung der EMV-Richtlinie ist Voraussetzung für das CE-Zertifikat."
+    "example": "Die Einhaltung der <b style=\"color: #eab308;\">EMV-Richtlinie</b> ist Voraussetzung für das CE-Zertifikat."
   },
   {
     "level": "B2",
@@ -17429,10 +17429,10 @@
     ],
     "thema": 7,
     "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> CE-Kennzeichnung, -en",
-    "german_audio": "die CE-Kennzeichnung, -en",
+    "german_audio": "die CE-Kennzeichnung",
     "english": "CE marking",
     "ukrainian": "маркування CE",
-    "example": "Die CE-Kennzeichnung bestätigt die Korrektheit des Produkts nach EU-Recht."
+    "example": "Die <b style=\"color: #eab308;\">CE-Kennzeichnung</b> bestätigt die Korrektheit des Produkts nach EU-Recht."
   },
   {
     "level": "B2",
@@ -17453,10 +17453,10 @@
     ],
     "thema": 7,
     "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> EU-Richtlinie, -n",
-    "german_audio": "die EU-Richtlinie, -n",
+    "german_audio": "die EU-Richtlinie",
     "english": "EU directive",
     "ukrainian": "директива ЄС",
-    "example": "Die EU-Richtlinien legen strenge Mindeststandards für den Arbeitsschutz fest."
+    "example": "Die <b style=\"color: #eab308;\">EU-Richtlinien</b> legen strenge Mindeststandards für den Arbeitsschutz fest."
   },
   {
     "level": "B2",
@@ -18761,10 +18761,10 @@
     ],
     "thema": 7,
     "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Lohn-Preis-Spirale, -n",
-    "german_audio": "die Lohn-Preis-Spirale, -n",
+    "german_audio": "die Lohn-Preis-Spirale",
     "english": "wage-price spiral",
     "ukrainian": "інфляційна спіраль «зарплата-ціни»",
-    "example": "Eine Lohn-Preis-Spirale muss durch moderate Tarifabschlüsse vermieden werden."
+    "example": "Eine <b style=\"color: #eab308;\">Lohn-Preis-Spirale</b> muss durch moderate Tarifabschlüsse vermieden werden."
   },
   {
     "level": "B2",
@@ -20969,10 +20969,10 @@
     ],
     "thema": 7,
     "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Schufa-Auskunft, \"-e",
-    "german_audio": "die Schufa-Auskunft, \"-e",
+    "german_audio": "die Schufa-Auskunft",
     "english": "Schufa report (credit rating report in Germany)",
     "ukrainian": "довідка Schufa (про кредитну історію в Німеччині)",
-    "example": "Die Schufa-Auskunft wurde vom Vermieter vor der Wohnungsübergabe verlangt."
+    "example": "Die <b style=\"color: #eab308;\">Schufa-Auskunft</b> wurde vom Vermieter vor der Wohnungsübergabe verlangt."
   },
   {
     "level": "B2",
@@ -21245,7 +21245,7 @@
     ],
     "thema": 7,
     "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Umsatzsteuer-Identifikationsnummer (USt-IdNr.), -n",
-    "german_audio": "die Umsatzsteuer-Identifikationsnummer, -n",
+    "german_audio": "die Umsatzsteuer-Identifikationsnummer",
     "english": "VAT registration number",
     "ukrainian": "індивідуальний податковий номер ПДВ (USt-IdNr.)",
     "example": "Die <b style=\"color: #eab308;\">USt-IdNr.</b> ist für Geschäfte innerhalb der EU zwingend vorgeschrieben."
@@ -21449,10 +21449,10 @@
     ],
     "thema": 7,
     "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Kosten-Nutzen-Analyse, -n",
-    "german_audio": "die Kosten-Nutzen-Analyse, -n",
+    "german_audio": "die Kosten-Nutzen-Analyse",
     "english": "cost-benefit analysis",
     "ukrainian": "аналіз витрат і вигод",
-    "example": "Eine Kosten-Nutzen-Analyse ist Voraussetzung für das Projekt."
+    "example": "Eine <b style=\"color: #eab308;\">Kosten-Nutzen-Analyse</b> ist Voraussetzung für das Projekt."
   },
   {
     "level": "B2",
@@ -21821,10 +21821,10 @@
     ],
     "thema": 8,
     "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> CAD-Programm, -e",
-    "german_audio": "das CAD-Programm, -e",
+    "german_audio": "das CAD-Programm",
     "english": "CAD program",
     "ukrainian": "САПР (система автоматизованого проектування)",
-    "example": "Der Technische Zeichner verfügt über exzellente Kenntnisse im Umgang mit CAD-Programmen."
+    "example": "Der Technische Zeichner verfügt über exzellente Kenntnisse im Umgang mit <b style=\"color: #eab308;\">CAD-Programmen</b>."
   },
   {
     "level": "B2",
@@ -22961,10 +22961,10 @@
     ],
     "thema": 8,
     "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> GS-Zeichen (geprüfte Sicherheit), -",
-    "german_audio": "die GS-Zeichen, -",
+    "german_audio": "die GS-Zeichen",
     "english": "GS mark (tested safety)",
     "ukrainian": "знак сертифікації «безпека перевірена» (GS)",
-    "example": "Das GS-Zeichen dient dem Verbraucher als Nachweis der geprüften <b style=\"color: #eab308;\">Sicherheit</b>."
+    "example": "Das <b style=\"color: #eab308;\">GS-Zeichen</b> dient dem Verbraucher als Nachweis der geprüften Sicherheit."
   },
   {
     "level": "B2",
@@ -24029,10 +24029,10 @@
     ],
     "thema": 8,
     "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> SEPA-Lastschriftmandat, -e",
-    "german_audio": "das SEPA-Lastschriftmandat, -e",
+    "german_audio": "das SEPA-Lastschriftmandat",
     "english": "SEPA direct debit mandate",
     "ukrainian": "мандат прямого дебету SEPA",
-    "example": "Das SEPA-Lastschriftmandat muss dem Vermieter schriftlich erteilt werden."
+    "example": "Das <b style=\"color: #eab308;\">SEPA-Lastschriftmandat</b> muss dem Vermieter schriftlich erteilt werden."
   },
   {
     "level": "B2",
@@ -24077,10 +24077,10 @@
     ],
     "thema": 8,
     "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Online-Banking, -s",
-    "german_audio": "das Online-Banking, -s",
+    "german_audio": "das Online-Banking",
     "english": "online banking",
     "ukrainian": "онлайн-банкінг",
-    "example": "Online-Banking ermöglicht die schnelle Abwicklung von Inlands- und Auslandsüberweisungen."
+    "example": "<b style=\"color: #eab308;\">Online-Banking</b> ermöglicht die schnelle Abwicklung von Inlands- und Auslandsüberweisungen."
   },
   {
     "level": "B2",
@@ -25205,10 +25205,10 @@
     ],
     "thema": 8,
     "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Scoring-Verfahren, -",
-    "german_audio": "das Scoring-Verfahren, -",
+    "german_audio": "das Scoring-Verfahren",
     "english": "scoring method",
     "ukrainian": "метод скорингу (оцінки ризиків)",
-    "example": "Das Scoring-Verfahren berechnet die Wahrscheinlichkeit eines Zahlungsausfalls."
+    "example": "Das <b style=\"color: #eab308;\">Scoring-Verfahren</b> berechnet die Wahrscheinlichkeit eines Zahlungsausfalls."
   },
   {
     "level": "B2",
@@ -27005,10 +27005,10 @@
     ],
     "thema": 9,
     "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> EC-Karte, -n",
-    "german_audio": "die EC-Karte, -n",
+    "german_audio": "die EC-Karte",
     "english": "EC card / debit card",
     "ukrainian": "дебетова картка (EC)",
-    "example": "Mit der EC-Karte kann man den Rechnungsbetrag am Terminal bezahlen."
+    "example": "Mit der <b style=\"color: #eab308;\">EC-Karte</b> kann man den Rechnungsbetrag am Terminal bezahlen."
   },
   {
     "level": "B2",
@@ -28697,10 +28697,10 @@
     ],
     "thema": 10,
     "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> E-Mail-Adresse, -n",
-    "german_audio": "die E-Mail-Adresse, -n",
+    "german_audio": "die E-Mail-Adresse",
     "english": "email address",
     "ukrainian": "адреса електронної пошти",
-    "example": "Bitte senden Sie Ihre Bewerbungsunterlagen an die angegebene E-Mail-Adresse."
+    "example": "Bitte senden Sie Ihre Bewerbungsunterlagen an die angegebene <b style=\"color: #eab308;\">E-Mail-Adresse</b>."
   },
   {
     "level": "B2",
@@ -28757,10 +28757,10 @@
     ],
     "thema": 10,
     "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> Qualitätssicherungs-Zertifikat, -e",
-    "german_audio": "das Qualitätssicherungs-Zertifikat, -e",
+    "german_audio": "das Qualitätssicherungs-Zertifikat",
     "english": "quality assurance certificate",
     "ukrainian": "сертифікат забезпечення якості",
-    "example": "Das Qualitätssicherungs-Zertifikat bestätigt die Korrektheit unserer Prozesse."
+    "example": "Das <b style=\"color: #eab308;\">Qualitätssicherungs-Zertifikat</b> bestätigt die Korrektheit unserer Prozesse."
   },
   {
     "level": "B2",
@@ -30185,10 +30185,10 @@
     ],
     "thema": 10,
     "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Scoring-Wert, -e",
-    "german_audio": "der Scoring-Wert, -e",
+    "german_audio": "der Scoring-Wert",
     "english": "scoring value / credit score",
     "ukrainian": "скоринговий бал",
-    "example": "Der Scoring-Wert entscheidet über die Genehmigung von Ratenzahlungen."
+    "example": "Der <b style=\"color: #eab308;\">Scoring-Wert</b> entscheidet über die Genehmigung von Ratenzahlungen."
   },
   {
     "level": "B2",
@@ -30233,10 +30233,10 @@
     ],
     "thema": 10,
     "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> E-Mail, -s",
-    "german_audio": "die E-Mail, -s",
+    "german_audio": "die E-Mail",
     "english": "email",
     "ukrainian": "електронна пошта",
-    "example": "Die Krankmeldung kann vorab per E-Mail an das Personalbüro gesendet werden."
+    "example": "Die Krankmeldung kann vorab per <b style=\"color: #eab308;\">E-Mail</b> an das Personalbüro gesendet werden."
   },
   {
     "level": "B2",
@@ -31709,7 +31709,7 @@
     ],
     "thema": 11,
     "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Jugend- und Auszubildendenvertretung (JAV), -en",
-    "german_audio": "die Jugend- und Auszubildendenvertretung, -en",
+    "german_audio": "die Jugend- und Auszubildendenvertretung",
     "english": "youth and apprentice representative body (JAV)",
     "ukrainian": "представництво молоді та учнів на виробництві (JAV)",
     "example": "Die <b style=\"color: #eab308;\">JAV</b> arbeitet eng mit dem Betriebsrat zusammen."
@@ -31721,10 +31721,10 @@
     ],
     "thema": 11,
     "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> JAV-Mitglied, -er",
-    "german_audio": "das JAV-Mitglied, -er",
+    "german_audio": "das JAV-Mitglied",
     "english": "JAV member",
     "ukrainian": "член JAV",
-    "example": "Als JAV-Mitglied setzt er sich für eine qualitativ hochwertige Ausbildung ein."
+    "example": "Als <b style=\"color: #eab308;\">JAV-Mitglied</b> setzt er sich für eine qualitativ hochwertige Ausbildung ein."
   },
   {
     "level": "B2",
@@ -31733,10 +31733,10 @@
     ],
     "thema": 11,
     "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> JAV-Vorsitzende, -n",
-    "german_audio": "die JAV-Vorsitzende, -n",
+    "german_audio": "die JAV-Vorsitzende",
     "english": "chairwoman/chairman of the JAV",
     "ukrainian": "голова JAV",
-    "example": "Die JAV-Vorsitzende nimmt an den Sitzungen des Betriebsrats teil."
+    "example": "Die <b style=\"color: #eab308;\">JAV-Vorsitzende</b> nimmt an den Sitzungen des Betriebsrats teil."
   },
   {
     "level": "B2",
@@ -31757,10 +31757,10 @@
     ],
     "thema": 11,
     "german": "<span style=\"color: #22c55e; font-weight: bold;\">das</span> SBV-Mitglied, -er",
-    "german_audio": "das SBV-Mitglied, -er",
+    "german_audio": "das SBV-Mitglied",
     "english": "SBV member",
     "ukrainian": "член SBV",
-    "example": "Als SBV-Mitglied fordert er die vollständige Barrierefreiheit im Betrieb."
+    "example": "Als <b style=\"color: #eab308;\">SBV-Mitglied</b> fordert er die vollständige Barrierefreiheit im Betrieb."
   },
   {
     "level": "B2",
@@ -31769,10 +31769,10 @@
     ],
     "thema": 11,
     "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> SBV-Vorsitzende, -n",
-    "german_audio": "die SBV-Vorsitzende, -n",
+    "german_audio": "die SBV-Vorsitzende",
     "english": "chairwoman/chairman of the SBV",
     "ukrainian": "голова SBV",
-    "example": "Die SBV-Vorsitzende berät Arbeitgeber beim Gesundheitsschutz."
+    "example": "Die <b style=\"color: #eab308;\">SBV-Vorsitzende</b> berät Arbeitgeber beim Gesundheitsschutz."
   },
   {
     "level": "B2",
@@ -31865,10 +31865,10 @@
     ],
     "thema": 11,
     "german": "<span style=\"color: #00d2ff; font-weight: bold;\">der</span> Compliance-Officer, -s",
-    "german_audio": "der Compliance-Officer, -s",
+    "german_audio": "der Compliance-Officer",
     "english": "compliance officer",
     "ukrainian": "офіцер з комплаєнсу (контроль відповідності законам)",
-    "example": "Der Compliance-Officer führt regelmäßige Schulungen zur Korruptionsprävention durch."
+    "example": "Der <b style=\"color: #eab308;\">Compliance-Officer</b> führt regelmäßige Schulungen zur Korruptionsprävention durch."
   },
   {
     "level": "B2",
@@ -32969,10 +32969,10 @@
     ],
     "thema": 12,
     "german": "<span style=\"color: #ef4444; font-weight: bold;\">die</span> Aktivierungs- und Vermittlungsgutschein (AVGS), -e",
-    "german_audio": "die Aktivierungs- und Vermittlungsgutschein, -e",
+    "german_audio": "die Aktivierungs- und Vermittlungsgutschein",
     "english": "activation and placement voucher (AVGS)",
     "ukrainian": "ваучер на активацію та працевлаштування (AVGS)",
-    "example": "Mit dem <b style=\"color: #eab308;\">Aktivierungs-</b> und Vermittlungsgutschein kann man die Dienste einer privaten Vermittlungsagentur nutzen."
+    "example": "Mit dem Aktivierungs- und <b style=\"color: #eab308;\">Vermittlungsgutschein</b> kann man die Dienste einer privaten Vermittlungsagentur nutzen."
   },
   {
     "level": "B2",
