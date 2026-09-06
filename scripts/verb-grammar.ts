@@ -85,7 +85,7 @@ export function buildVerbTenses(fullGerman: string, example: string = ''): Tense
   const cleanedBeforeParens = beforeParens
     .replace(/^(?:etw\.|jdn\.|jdm\.|jds\.)(?:\/(?:etw\.|jdn\.|jdm\.|jds\.))?\s+/i, '')
     .replace(/^sich\s+/i, '')
-    .replace(/\b(?:an|auf|aus|bei|für|in|mit|nach|über|um|unter|von|vor|zu)\s*\(\+[^)]+\)/gi, '')
+    .replace(/(?:^|\s)(?:an|auf|aus|bei|für|in|mit|nach|über|um|unter|von|vor|zu)\s*\(\+[^)]+\)/gi, '')
     .replace(/\s*\([^)]*\)/g, '')
     .trim()
     .replace(/\|/g, '');
@@ -133,7 +133,7 @@ export function buildVerbTenses(fullGerman: string, example: string = ''): Tense
   let subject = 'Er';
 
   const prepMatch = fullGerman.match(
-    /\b(um|auf|an|für|über|zu|mit|von|in)\s+\(\+?\s*(?:Akk\.|Dat\.)\)/i
+    /(?:^|\s)(um|auf|an|für|über|zu|mit|von|in)\s+\(\+?\s*(?:Akk\.|Dat\.)\)/i
   );
 
   if (isReflexive) {
@@ -148,6 +148,8 @@ export function buildVerbTenses(fullGerman: string, example: string = ''): Tense
       else if (prep === 'mit') obj = 'mit den Kollegen';
       else if (prep === 'von') obj = 'vom Plan';
       else if (prep === 'in') obj = 'in die Arbeit';
+    } else if (/sich\s+(?:etw\.|jdn\.)/i.test(fullGerman) || /(?:etw\.|jdn\.)\s+sich/i.test(fullGerman)) {
+      obj = 'das Dokument';
     } else {
       obj = '';
     }
