@@ -1,3 +1,10 @@
+# [1.42.0](https://github.com/andreysey/anki-b2/compare/v1.41.1...v1.42.0) (2026-09-06)
+
+
+### Features
+
+* introduce getThemaTag helper to generate descriptive Anki tags for special themed content ([c0346b0](https://github.com/andreysey/anki-b2/commit/c0346b0185d121c558b276aa8164d5671c6ebe70))
+
 ## [1.41.1](https://github.com/andreysey/anki-b2/compare/v1.41.0...v1.41.1) (2026-09-06)
 
 
