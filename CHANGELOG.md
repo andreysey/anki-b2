@@ -1,3 +1,10 @@
+# [1.40.0](https://github.com/andreysey/anki-b2/compare/v1.39.2...v1.40.0) (2026-09-06)
+
+
+### Features
+
+* implement plural form highlighting with automatic umlaut handling in examples and update vocabulary data ([a7d2a40](https://github.com/andreysey/anki-b2/commit/a7d2a4034a5532543657bac285031f07b094c42f))
+
 ## [1.39.2](https://github.com/andreysey/anki-b2/compare/v1.39.1...v1.39.2) (2026-09-06)
 
 
