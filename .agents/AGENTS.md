@@ -12,3 +12,12 @@
   3. Production build: `npm run build`
 - **Data Integrity**: Source vocabulary files in `source/*.txt` are the single source of truth for Anki decks and `public/data.json`. Never edit `public/data.json` directly.
 
+## Anki Schema & Template Safety (Preserving Learning Progress)
+- **Backup Reminder**: Always advise backing up Anki collection (`File -> Export -> Anki Collection Package (.colpkg)` with scheduling information) before making structural changes to note types or templates.
+- **Model Stability**: Never alter `MODEL_ID` (`1607392319`) or the Note Model name (`German B2 Professional (Bi-Directional)`), otherwise Anki treats the deck as a brand new note type and won't update existing notes.
+- **Card Template Names**: Keep card template names stable (`Card 1: Recognition`, `Card 2: Production`). Renaming card types causes Anki to create additional duplicate card types (e.g. 20,000+ cards instead of 7,266).
+- **Field Additions**:
+  - Always append new fields at the end of the schema (before `Tags`), never reorder or remove existing fields.
+  - Inform users that when importing a `.apkg` with new fields, Anki Desktop requires **"Merge note types"** enabled in the import dialog, or the note type in Anki must be updated first so fields align properly.
+
+

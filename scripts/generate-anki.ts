@@ -20,7 +20,14 @@ import {
 } from './utils.js';
 import { buildVerbTenses, formatTensesHtml } from './verb-grammar.js';
 
-// Stable Note Model ID
+// ── Stable Note Model Configuration ──────────────────────────────────────────
+// CRITICAL SAFETY NOTICE:
+// 1. Never change MODEL_ID or Model name: Anki relies on them to update existing notes.
+//    Changing them will create a second note type and prevent merging with user progress.
+// 2. Never rename Card templates: Renaming 'Card 1: Recognition' / 'Card 2: Production'
+//    causes Anki to generate duplicate cards (e.g. 20k+ cards instead of 7,266).
+// 3. Adding fields: Always append new fields before 'Tags'. Never reorder existing fields.
+// ─────────────────────────────────────────────────────────────────────────────
 const MODEL_ID = 1607392319;
 
 const model = new Model({
