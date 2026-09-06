@@ -12,7 +12,7 @@ export const safeStorage = {
         return defaultValue;
       }
       return JSON.parse(item) as T;
-    } catch (err) {
+    } catch (err: unknown) {
       console.warn(`[safeStorage] Failed to parse key "${key}" from localStorage:`, err);
       return defaultValue;
     }
@@ -25,7 +25,7 @@ export const safeStorage = {
     try {
       const item = window.localStorage.getItem(key);
       return item !== null ? item : defaultValue;
-    } catch (err) {
+    } catch (err: unknown) {
       console.warn(`[safeStorage] Failed to get string key "${key}" from localStorage:`, err);
       return defaultValue;
     }
@@ -39,7 +39,7 @@ export const safeStorage = {
       const serialized = typeof value === 'string' ? value : JSON.stringify(value);
       window.localStorage.setItem(key, serialized);
       return true;
-    } catch (err) {
+    } catch (err: unknown) {
       console.error(`[safeStorage] Failed to set key "${key}" in localStorage:`, err);
       return false;
     }
@@ -52,7 +52,7 @@ export const safeStorage = {
     try {
       window.localStorage.removeItem(key);
       return true;
-    } catch (err) {
+    } catch (err: unknown) {
       console.error(`[safeStorage] Failed to remove key "${key}" from localStorage:`, err);
       return false;
     }

@@ -10,6 +10,106 @@ const sourceDir = path.join(__dirname, '../source');
 let errorCount = 0;
 let warningCount = 0;
 
+export interface ValidationIssue {
+  type: 'error' | 'warning';
+  category: string;
+  message: string;
+}
+
+export function validateLine(line: string): ValidationIssue[] {
+  const issues: ValidationIssue[] = [];
+  const trimmed = line.trim();
+
+  // Skip metadata headers and empty lines
+  if (!trimmed || trimmed.startsWith('#')) return issues;
+
+  // 1. Validate Delimiters (must have exactly 3 semicolons)
+  const semicolonCount = (trimmed.match(/;/g) || []).length;
+  if (semicolonCount !== 3) {
+    issues.push({
+      type: 'error',
+      category: 'Format',
+      message: `Expected exactly 3 delimiters (found ${semicolonCount})`
+    });
+  }
+
+  const parts = trimmed.split(';');
+  const german = parts[0]?.trim() || '';
+  const english = parts[1]?.trim() || '';
+  const ukrainian = parts[2]?.trim() || '';
+  const example = parts[3]?.trim() || '';
+
+  if (!german) {
+    issues.push({
+      type: 'error',
+      category: 'Missing German Term',
+      message: 'German term is required'
+    });
+  }
+
+  if (!ukrainian) {
+    issues.push({
+      type: 'error',
+      category: 'Missing Ukrainian',
+      message: `Missing Ukrainian: "${german}"`
+    });
+  }
+
+  if (!english) {
+    issues.push({
+      type: 'warning',
+      category: 'Missing English',
+      message: `Missing English: "${german}"`
+    });
+  }
+
+  // 3. Find Cyrillic characters in German/English columns
+  // Range \u0400-\u04FF covers Cyrillic characters
+  const cyrillicRegex = /[\u0400-\u04FF]/;
+  if (cyrillicRegex.test(german)) {
+    issues.push({
+      type: 'error',
+      category: 'Cyrillic in German',
+      message: `Cyrillic in German: "${german}"`
+    });
+  }
+  if (cyrillicRegex.test(english)) {
+    issues.push({
+      type: 'error',
+      category: 'Cyrillic in English',
+      message: `Cyrillic in English: "${english}"`
+    });
+  }
+  if (cyrillicRegex.test(example)) {
+    issues.push({
+      type: 'warning',
+      category: 'Cyrillic in Example',
+      message: `Cyrillic in Example: "${example}"`
+    });
+  }
+
+  // 4. Check for abbreviations in example that are in parentheses in German
+  const parenMatch = german.match(/\(([^)]+)\)/);
+  if (parenMatch && parenMatch[1]) {
+    const abbr = parenMatch[1].trim();
+    if (/^[A-Z]{2,4}$/.test(abbr)) {
+      const wordPattern = new RegExp(`\\b${abbr}\\b`);
+      if (
+        wordPattern.test(example) &&
+        !example.toLowerCase().includes(german.split('(')[0].trim().toLowerCase().slice(0, 5))
+      ) {
+        issues.push({
+          type: 'warning',
+          category: 'Abbreviation Alert',
+          message: `Example uses "${abbr}", consider using full word from "${german}"`
+        });
+      }
+    }
+  }
+
+  return issues;
+}
+
 function checkFile(filePath: string) {
   const content = fs.readFileSync(filePath, 'utf-8');
   const lines = content.split('\n');
@@ -17,77 +117,16 @@ function checkFile(filePath: string) {
 
   lines.forEach((line, index) => {
     const lineNum = index + 1;
-    const trimmed = line.trim();
-
-    // Skip metadata headers and empty lines
-    if (!trimmed || trimmed.startsWith('#')) return;
-
-    // 1. Validate Delimiters (must have exactly 3 semicolons)
-    const semicolonCount = (trimmed.match(/;/g) || []).length;
-    if (semicolonCount !== 3) {
-      console.error(
-        `❌ ${baseName}:${lineNum} [Format]: Expected exactly 3 delimiters (found ${semicolonCount})`
-      );
-      errorCount++;
-    }
-
-    const parts = trimmed.split(';');
-    const german = parts[0]?.trim() || '';
-    const english = parts[1]?.trim() || '';
-    const ukrainian = parts[2]?.trim() || '';
-    const example = parts[3]?.trim() || '';
-
-    if (!german) {
-      console.error(`❌ ${baseName}:${lineNum} [Missing German Term]`);
-      errorCount++;
-    }
-
-    if (!ukrainian) {
-      console.error(`❌ ${baseName}:${lineNum} [Missing Ukrainian]: "${german}"`);
-      errorCount++;
-    }
-
-    if (!english) {
-      console.warn(`⚠️  ${baseName}:${lineNum} [Missing English]: "${german}"`);
-      warningCount++;
-    }
-
-    // 3. Find Cyrillic characters in German/English columns
-    // Range \u0400-\u04FF covers Cyrillic characters
-    const cyrillicRegex = /[\u0400-\u04FF]/;
-    if (cyrillicRegex.test(german)) {
-      console.error(`❌ ${baseName}:${lineNum} [Cyrillic in German]: "${german}"`);
-      errorCount++;
-    }
-    if (cyrillicRegex.test(english)) {
-      console.error(`❌ ${baseName}:${lineNum} [Cyrillic in English]: "${english}"`);
-      errorCount++;
-    }
-    if (cyrillicRegex.test(example)) {
-      console.warn(`⚠️  ${baseName}:${lineNum} [Cyrillic in Example]: "${example}"`);
-      warningCount++;
-    }
-
-    // 4. Check for abbreviations in example that are in parentheses in German
-    // matches e.g. "die Berufsgenossenschaft (BG)"
-    const parenMatch = german.match(/\(([^)]+)\)/);
-    if (parenMatch && parenMatch[1]) {
-      const abbr = parenMatch[1].trim();
-      // Ensure it looks like an abbreviation (2-4 uppercase characters)
-      if (/^[A-Z]{2,4}$/.test(abbr)) {
-        // If example uses the abbreviation instead of a full word, warn about it
-        const wordPattern = new RegExp(`\\b${abbr}\\b`);
-        if (
-          wordPattern.test(example) &&
-          !example.toLowerCase().includes(german.split('(')[0].trim().toLowerCase().slice(0, 5))
-        ) {
-          console.warn(
-            `⚠️  ${baseName}:${lineNum} [Abbreviation Alert]: Example uses "${abbr}", consider using full word from "${german}"`
-          );
-          warningCount++;
-        }
+    const issues = validateLine(line);
+    issues.forEach((issue) => {
+      if (issue.type === 'error') {
+        console.error(`❌ ${baseName}:${lineNum} [${issue.category}]: ${issue.message}`);
+        errorCount++;
+      } else {
+        console.warn(`⚠️  ${baseName}:${lineNum} [${issue.category}]: ${issue.message}`);
+        warningCount++;
       }
-    }
+    });
   });
 }
 
@@ -113,4 +152,6 @@ function run() {
   }
 }
 
-run();
+if (process.argv[1] && fileURLToPath(import.meta.url) === path.resolve(process.argv[1])) {
+  run();
+}

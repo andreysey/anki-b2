@@ -119,22 +119,34 @@ const leitnerBoxes = computed(() => {
 
 // Category / Thema Detailed Breakdown
 const stats = computed(() => {
-  const themas = [...new Set(props.vocabulary.map((item) => item.thema))].sort((a, b) => a - b);
+  const themaMap = new Map<number, { total: number; mastered: number }>();
 
-  return themas.map((themaNum) => {
-    const totalWords = props.vocabulary.filter((item) => item.thema === themaNum);
-    const masteredWords = totalWords.filter((item) => props.masteredIds.has(getItemKey(item)));
-    const percentage =
-      totalWords.length ? Math.round((masteredWords.length / totalWords.length) * 100) : 0;
-
-    return {
-      thema: themaNum,
-      name: getThemaLabel(themaNum),
-      total: totalWords.length,
-      mastered: masteredWords.length,
-      percentage
-    };
+  props.vocabulary.forEach((item) => {
+    let entry = themaMap.get(item.thema);
+    if (!entry) {
+      entry = { total: 0, mastered: 0 };
+      themaMap.set(item.thema, entry);
+    }
+    entry.total++;
+    if (props.masteredIds.has(getItemKey(item))) {
+      entry.mastered++;
+    }
   });
+
+  return Array.from(themaMap.keys())
+    .sort((a, b) => a - b)
+    .map((themaNum) => {
+      const entry = themaMap.get(themaNum)!;
+      const percentage = entry.total > 0 ? Math.round((entry.mastered / entry.total) * 100) : 0;
+
+      return {
+        thema: themaNum,
+        name: getThemaLabel(themaNum),
+        total: entry.total,
+        mastered: entry.mastered,
+        percentage
+      };
+    });
 });
 
 const totalWords = computed(() => props.vocabulary.length);

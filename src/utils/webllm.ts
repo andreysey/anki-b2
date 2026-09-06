@@ -121,7 +121,7 @@ export const getAvailableLocalModels = async (): Promise<LocalModelOption[]> => 
       if (!a.isCached && b.isCached) return 1;
       return a.vramMB - b.vramMB;
     });
-  } catch (err) {
+  } catch (err: unknown) {
     console.warn('Failed to dynamically load WebLLM model list:', err);
     return [
       { id: 'SmolLM2-360M-Instruct-q4f32_1-MLC', name: 'SmolLM2-360M-Instruct (Universal 32-bit)', vramMB: 580, isCached: false },
@@ -215,7 +215,7 @@ export const deleteLocalModelFromCache = async (modelId?: string): Promise<void>
       engineInstance = null;
     }
     isModelReady.value = false;
-  } catch (err) {
+  } catch (err: unknown) {
     console.error(`Failed to delete model ${target} from cache:`, err);
     throw err;
   }

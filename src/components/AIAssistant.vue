@@ -77,7 +77,7 @@ const handleCopy = async () => {
     setTimeout(() => {
       isCopied.value = false;
     }, 2000);
-  } catch (err) {
+  } catch (err: unknown) {
     console.warn('Failed to copy AI text:', err);
   }
 };

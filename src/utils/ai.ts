@@ -145,7 +145,7 @@ export const getAvailableGeminiModels = async (cloudKey: string): Promise<string
         }
       }
     }
-  } catch (e) {
+  } catch (e: unknown) {
     console.warn('Failed to dynamically fetch Gemini model list:', e);
   }
 
@@ -206,7 +206,7 @@ export const callAI = async (
           model: 'Gemini Nano (On-Device)'
         };
       }
-    } catch (e) {
+    } catch (e: unknown) {
       console.warn('Chrome Built-in AI failed, falling back to local WebLLM or Cloud API', e);
     }
   }
@@ -228,12 +228,12 @@ export const callAI = async (
             model: `${selectedLocalModel.value.replace(/-q[0-9]f[0-9]+.*$/, '')} (Local WebGPU)`
           };
         }
-      } catch (e) {
+      } catch (e: unknown) {
         localModelError = e instanceof Error ? e.message : String(e);
         console.warn('Local WebLLM execution error:', localModelError);
       }
     }
-  } catch (err) {
+  } catch (err: unknown) {
     console.warn('Local WebLLM check error:', err);
   }
 

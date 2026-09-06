@@ -79,7 +79,7 @@ const handleLoadModel = async () => {
     const { getWebLLMEngine } = await import('../utils/webllm');
     await getWebLLMEngine(selectedLocalModel.value);
     await checkCachedStatus();
-  } catch (e) {
+  } catch (e: unknown) {
     console.error('Manual WebLLM loading failed:', e);
   }
 };
@@ -89,7 +89,7 @@ const handleDeleteModel = async () => {
     const { deleteLocalModelFromCache } = await import('../utils/webllm');
     await deleteLocalModelFromCache(selectedLocalModel.value);
     await checkCachedStatus();
-  } catch (e) {
+  } catch (e: unknown) {
     console.error('Failed to delete model from cache:', e);
   }
 };
@@ -150,6 +150,7 @@ const modelActionButtonLabel = computed(() =>
             <a
               href="https://aistudio.google.com/"
               target="_blank"
+              rel="noopener noreferrer"
               class="text-primary-600 dark:text-primary-400 underline hover:text-primary-500"
             >
               Google AI Studio
