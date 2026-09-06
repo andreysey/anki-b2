@@ -49,7 +49,7 @@ const model = new Model({
               <div class="card-subtitle-ukrainian m-25">{{Ukrainian}}</div>
               <div class="card-example clickable-audio">{{Example}}<span class="audio-trigger">{{tts de_DE:Example_Audio}}</span></div>
               {{#Grammar_Tenses}}
-              {{{Grammar_Tenses}}}
+              {{Grammar_Tenses}}
               {{/Grammar_Tenses}}
              </div>`
     },
@@ -65,7 +65,7 @@ const model = new Model({
               <div class="card-title clickable-audio m-20">{{German}}<span class="audio-trigger">{{tts de_DE:German_Audio}}</span></div>
               <div class="card-example clickable-audio">{{Example}}<span class="audio-trigger">{{tts de_DE:Example_Audio}}</span></div>
               {{#Grammar_Tenses}}
-              {{{Grammar_Tenses}}}
+              {{Grammar_Tenses}}
               {{/Grammar_Tenses}}
              </div>`
     }
@@ -160,14 +160,14 @@ const model = new Model({
     }
     .tense-summary {
       cursor: pointer;
-      font-size: 14px;
+      font-size: 13px;
       font-weight: 600;
       color: #94a3b8;
       outline: none;
       user-select: none;
-      transition: color 0.2s ease;
+      transition: color 0.2s ease, background 0.2s ease;
       display: inline-block;
-      padding: 4px 8px;
+      padding: 5px 10px;
       border-radius: 8px;
       background: rgba(51, 65, 85, 0.4);
     }
@@ -179,31 +179,39 @@ const model = new Model({
       margin-top: 12px;
       display: flex;
       flex-direction: column;
-      gap: 6px;
-      font-size: 14px;
+      gap: 7px;
     }
     .tense-row {
-      display: flex;
-      align-items: baseline;
-      gap: 8px;
-      line-height: 1.4;
-      flex-wrap: wrap;
+      display: grid;
+      grid-template-columns: 88px 1fr;
+      align-items: center;
+      gap: 10px;
+      line-height: 1.35;
+      padding: 3px 0;
+      border-bottom: 1px solid rgba(51, 65, 85, 0.2);
     }
     .tense-text {
       color: #e2e8f0;
-      font-size: 13.5px;
+      font-size: 13px;
+      word-break: normal;
     }
     .badge {
-      display: inline-block;
-      font-size: 10px;
-      font-weight: 700;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 9px;
+      font-weight: 800;
       text-transform: uppercase;
-      letter-spacing: 0.5px;
-      padding: 2px 6px;
+      letter-spacing: 0.4px;
+      padding: 3px 4px;
       border-radius: 4px;
-      min-width: 68px;
+      width: 88px;
       text-align: center;
       flex-shrink: 0;
+      box-sizing: border-box;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
     .badge.praes { background: #0284c7; color: #fff; }
     .badge.praet { background: #2563eb; color: #fff; }
