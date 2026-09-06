@@ -17,6 +17,7 @@ import {
   getThemaNum,
   getLevelFromFilename
 } from './utils.js';
+import { buildVerbTenses, formatTensesHtml } from './verb-grammar.js';
 
 // Stable Note Model ID
 const MODEL_ID = 1607392319;
@@ -32,6 +33,7 @@ const model = new Model({
     { name: 'Ukrainian' },
     { name: 'Example' },
     { name: 'Example_Audio' },
+    { name: 'Grammar_Tenses' },
     { name: 'Tags' }
   ],
   templates: [
@@ -46,6 +48,9 @@ const model = new Model({
               <div style="display: none;">{{tts en_US:English_Audio}}</div>
               <div class="card-subtitle-ukrainian m-25">{{Ukrainian}}</div>
               <div class="card-example clickable-audio">{{Example}}<span class="audio-trigger">{{tts de_DE:Example_Audio}}</span></div>
+              {{#Grammar_Tenses}}
+              {{{Grammar_Tenses}}}
+              {{/Grammar_Tenses}}
              </div>`
     },
     {
@@ -59,6 +64,9 @@ const model = new Model({
              <div class="card-container back-side">
               <div class="card-title clickable-audio m-20">{{German}}<span class="audio-trigger">{{tts de_DE:German_Audio}}</span></div>
               <div class="card-example clickable-audio">{{Example}}<span class="audio-trigger">{{tts de_DE:Example_Audio}}</span></div>
+              {{#Grammar_Tenses}}
+              {{{Grammar_Tenses}}}
+              {{/Grammar_Tenses}}
              </div>`
     }
   ],
@@ -143,6 +151,70 @@ const model = new Model({
     .m-25 {
       margin-bottom: 25px;
     }
+    /* ── B2 Zeitformen & Grammatik Accordion ── */
+    .tense-spoiler {
+      margin-top: 18px;
+      border-top: 1px dashed #334155;
+      padding-top: 12px;
+      text-align: left;
+    }
+    .tense-summary {
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 600;
+      color: #94a3b8;
+      outline: none;
+      user-select: none;
+      transition: color 0.2s ease;
+      display: inline-block;
+      padding: 4px 8px;
+      border-radius: 8px;
+      background: rgba(51, 65, 85, 0.4);
+    }
+    .tense-summary:hover {
+      color: #38bdf8;
+      background: rgba(51, 65, 85, 0.7);
+    }
+    .tense-grid {
+      margin-top: 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      font-size: 14px;
+    }
+    .tense-row {
+      display: flex;
+      align-items: baseline;
+      gap: 8px;
+      line-height: 1.4;
+      flex-wrap: wrap;
+    }
+    .tense-text {
+      color: #e2e8f0;
+      font-size: 13.5px;
+    }
+    .badge {
+      display: inline-block;
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      padding: 2px 6px;
+      border-radius: 4px;
+      min-width: 68px;
+      text-align: center;
+      flex-shrink: 0;
+    }
+    .badge.praes { background: #0284c7; color: #fff; }
+    .badge.praet { background: #2563eb; color: #fff; }
+    .badge.perf { background: #059669; color: #fff; }
+    .badge.plusq { background: #0d9488; color: #fff; }
+    .badge.fut1 { background: #d97706; color: #fff; }
+    .badge.fut2 { background: #ea580c; color: #fff; }
+    .badge.pass { background: #dc2626; color: #fff; }
+    .badge.pass-alt { background: #b91c1c; color: #fff; }
+    .badge.konj1 { background: #7c3aed; color: #fff; }
+    .badge.konj2 { background: #db2777; color: #fff; }
   `
 });
 
@@ -232,6 +304,8 @@ export async function generateAnkiDeck(
       const wordAudio = cleanGermanForAudio(wordDisplay); // German_Audio
       const germanColored = colorizeGender(wordDisplay); // German (with <span>)
       const exampleHtml = highlightWordInExample(wordAudio, exampleRaw, wordDisplay); // Example
+      const verbTenses = buildVerbTenses(wordDisplay, exampleRaw);
+      const grammarTensesHtml = formatTensesHtml(verbTenses);
 
       // Check if translation is missing
       if (!english) {
@@ -269,6 +343,7 @@ export async function generateAnkiDeck(
           ukrainian, // Ukrainian
           exampleHtml, // Example (clean HTML with <b> highlight)
           cleanExampleForAudio(exampleRaw), // Example_Audio (clean plain text without asterisks/tags, for TTS)
+          grammarTensesHtml, // Grammar_Tenses (B2 interactive details accordion)
           entryTag // Tags
         ],
         tags: [levelTag, `Thema${thema}`]
