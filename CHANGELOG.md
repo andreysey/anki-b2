@@ -1,3 +1,10 @@
+## [1.41.1](https://github.com/andreysey/anki-b2/compare/v1.41.0...v1.41.1) (2026-09-06)
+
+
+### Bug Fixes
+
+* improve preposition matching regex and update verb object generation in verb-grammar script, and regenerate Anki package files. ([40c628b](https://github.com/andreysey/anki-b2/commit/40c628bae7e914d4ea578b55f09bf85c2404ca9a))
+
 # [1.41.0](https://github.com/andreysey/anki-b2/compare/v1.40.0...v1.41.0) (2026-09-06)
 
 
