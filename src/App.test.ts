@@ -2,6 +2,7 @@ import { describe, it, expect, beforeEach, vi } from 'vitest';
 import { mount } from '@vue/test-utils';
 import App from './App.vue';
 import { useVocabulary } from './composables/useVocabulary';
+import { useNavigation } from './composables/useNavigation';
 import type { Word } from './types';
 
 const mockWords: Word[] = [
@@ -38,6 +39,7 @@ vi.mock('vue-sonner', () => ({
     template: '<div><slot /></div>'
   }
 }));
+
 
 describe('App.vue', () => {
   beforeEach(() => {
@@ -109,4 +111,36 @@ describe('App.vue', () => {
 
     expect(wrapper.text()).toContain('Failed to load vocabulary data');
   });
+
+  it('syncs navigation activeView when switching views', async () => {
+    const { activeView } = useNavigation();
+    activeView.value = 'list';
+
+    const wrapper = mount(App);
+    await new Promise((resolve) => setTimeout(resolve, 50));
+
+    // Click dashboard tab
+    await wrapper.find('#tab-dashboard').trigger('click');
+    expect(activeView.value).toBe('dashboard');
+
+    // Click study tab
+    await wrapper.find('#tab-study').trigger('click');
+    expect(activeView.value).toBe('study');
+
+    // Click dictionary tab
+    await wrapper.find('#tab-dictionary').trigger('click');
+    expect(activeView.value).toBe('list');
+  });
+
+  it('sets isToasterMounted to true on load-toaster custom event', async () => {
+    const wrapper = mount(App);
+    await new Promise((resolve) => setTimeout(resolve, 50));
+
+    expect((wrapper.vm as any).isToasterMounted).toBe(false);
+    window.dispatchEvent(new CustomEvent('load-toaster'));
+    await wrapper.vm.$nextTick();
+    expect((wrapper.vm as any).isToasterMounted).toBe(true);
+  });
 });
+
+

@@ -58,4 +58,51 @@ describe('useSpeechSynthesis', () => {
     expect(cancelMock).toHaveBeenCalled();
     expect(speakMock).toHaveBeenCalled();
   });
+
+  it('handles missing window.speechSynthesis gracefully', () => {
+    const originalSpeechSynthesis = window.speechSynthesis;
+    // @ts-expect-error simulating missing API
+    delete window.speechSynthesis;
+
+    const { playAudio, playSequence, stopAudio, loadVoices } = useSpeechSynthesis();
+
+    expect(() => loadVoices()).not.toThrow();
+    expect(() => stopAudio()).not.toThrow();
+    expect(() => playAudio('Test')).not.toThrow();
+    expect(() => playSequence([{ text: 'Test' }])).not.toThrow();
+
+    window.speechSynthesis = originalSpeechSynthesis;
+  });
+
+  it('handles playSequence with German and English voices', () => {
+    const cancelMock = vi.fn();
+    const speakMock = vi.fn();
+    const mockVoices: SpeechSynthesisVoice[] = [
+      { name: 'Anna', lang: 'de-DE', voiceURI: 'anna-uri', default: true, localService: true },
+      { name: 'David', lang: 'en-US', voiceURI: 'david-uri', default: false, localService: true }
+    ];
+
+    window.speechSynthesis = {
+      getVoices: vi.fn().mockReturnValue(mockVoices),
+      cancel: cancelMock,
+      speak: speakMock,
+      paused: true,
+      resume: vi.fn(),
+      onvoiceschanged: null
+    } as unknown as SpeechSynthesis;
+
+    const { playSequence, loadVoices } = useSpeechSynthesis();
+    loadVoices();
+
+    playSequence([
+      { text: 'Hallo', lang: 'de-DE' },
+      { text: 'Hello', lang: 'en-US' },
+      { text: '   ' } // Should be skipped
+    ]);
+
+    expect(cancelMock).toHaveBeenCalled();
+    expect(window.speechSynthesis.resume).toHaveBeenCalled();
+    expect(speakMock).toHaveBeenCalledTimes(2);
+  });
 });
+
