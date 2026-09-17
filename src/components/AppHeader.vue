@@ -80,7 +80,7 @@ const themeModeLabel = computed(() => {
   >
     <!-- Scroll-driven Reading / Progress Bar (CSS Scroll Timeline) -->
     <div
-      class="scroll-progress-bar absolute bottom-0 left-0 right-0 h-[2px] bg-primary-500 pointer-events-none opacity-80"
+      class="scroll-progress-bar absolute bottom-0 left-0 right-0 h-0.5 bg-primary-500 pointer-events-none opacity-80"
     ></div>
     <!-- Top row on mobile: Logo + Title (Left) & Utility Actions (Right) -->
     <div class="flex items-center justify-between w-full md:w-auto gap-3">

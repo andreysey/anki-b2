@@ -94,7 +94,7 @@ const handleCopy = async (item: Word) => {
         <!-- Content -->
         <div class="flex flex-col flex-1 gap-2.5 min-w-0">
           <div
-            class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-snug select-text break-words hyphens-auto"
+            class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-snug select-text wrap-break-word hyphens-auto"
             lang="de"
             v-html="sanitizeHtml(item.german)"
           ></div>
