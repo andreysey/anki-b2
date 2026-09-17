@@ -1,3 +1,10 @@
+# [1.51.0](https://github.com/andreysey/anki-b2/compare/v1.50.0...v1.51.0) (2026-09-17)
+
+
+### Features
+
+* add command palette modal for quick vocabulary search and navigation ([8a35e9b](https://github.com/andreysey/anki-b2/commit/8a35e9baf9231c2e27a85232f8eaf6b93f567191))
+
 # [1.50.0](https://github.com/andreysey/anki-b2/compare/v1.49.0...v1.50.0) (2026-09-17)
 
 
