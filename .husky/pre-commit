@@ -1,0 +1,1 @@
+npm run check:quick && npm run health:check
