@@ -103,7 +103,7 @@ const modelActionButtonLabel = computed(() =>
 
 <template>
   <Dialog v-model:open="isSettingsOpen">
-    <DialogContent class="max-w-105 w-[90vw]">
+    <DialogContent class="@container max-w-105 w-[90vw]">
       <DialogHeader>
         <DialogTitle>AI Assistant Setup</DialogTitle>
         <DialogDescription>
@@ -119,7 +119,7 @@ const modelActionButtonLabel = computed(() =>
           >
             Gemini Cloud API Key
           </label>
-          <div class="flex gap-2">
+          <div class="flex flex-col @xs:flex-row gap-2">
             <Input
               id="apiKeyInput"
               v-model="localKey"
@@ -127,23 +127,25 @@ const modelActionButtonLabel = computed(() =>
               type="password"
               class="flex-1"
             />
-            <Button
-              size="sm"
-              @click="handleSave"
-              class="px-4 font-semibold"
-            >
-              Save
-            </Button>
-            <Button
-              v-if="apiKey"
-              variant="outline"
-              size="sm"
-              @click="handleRemove"
-              title="Remove stored API key"
-              class="text-red-600 dark:text-red-400 hover:bg-red-500/10 hover:text-red-700 border-red-500/20"
-            >
-              <Trash2 class="h-4 w-4" />
-            </Button>
+            <div class="flex gap-2 shrink-0">
+              <Button
+                size="sm"
+                @click="handleSave"
+                class="flex-1 @xs:flex-initial px-4 font-semibold"
+              >
+                Save
+              </Button>
+              <Button
+                v-if="apiKey"
+                variant="outline"
+                size="sm"
+                @click="handleRemove"
+                title="Remove stored API key"
+                class="text-red-600 dark:text-red-400 hover:bg-red-500/10 hover:text-red-700 border-red-500/20"
+              >
+                <Trash2 class="h-4 w-4" />
+              </Button>
+            </div>
           </div>
           <span class="text-[10px] text-slate-500">
             Keys are stored locally in your browser. Get a free key on
@@ -226,7 +228,7 @@ const modelActionButtonLabel = computed(() =>
             </div>
 
             <!-- Actions: Download or Delete Cached Model -->
-            <div v-if="!isModelLoading" class="flex gap-2">
+            <div v-if="!isModelLoading" class="flex flex-col @xs:flex-row gap-2">
               <Button
                 v-if="!isModelReady"
                 variant="outline"

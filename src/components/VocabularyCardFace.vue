@@ -31,7 +31,7 @@ const handleAiActive = (active: boolean) => {
 
 <template>
   <div
-    class="w-full h-full bg-white/95 dark:bg-slate-900/90 border border-slate-200/90 dark:border-white/10 rounded-[26px] overflow-hidden shadow-lg shadow-slate-200/50 dark:shadow-2xl flex flex-col p-5 sm:p-6 transition-all duration-300"
+    class="@container w-full h-full bg-white/95 dark:bg-slate-900/90 border border-slate-200/90 dark:border-white/10 rounded-[26px] overflow-hidden shadow-lg shadow-slate-200/50 dark:shadow-2xl flex flex-col p-4 @xs:p-5 @sm:p-6 transition-all duration-300"
   >
     <!-- Card Header -->
     <VocabularyCardHeader :word="word" @toggle-mastered="emit('toggle-mastered', $event)" />
@@ -48,9 +48,9 @@ const handleAiActive = (active: boolean) => {
       >
         <!-- German Primary View -->
         <template v-if="showGerman">
-          <div class="flex flex-col items-center justify-center gap-4 py-4 sm:py-6 my-auto">
+          <div class="flex flex-col items-center justify-center gap-4 py-4 @sm:py-6 my-auto">
             <h2
-              class="text-2xl sm:text-3xl font-extrabold text-center tracking-tight text-slate-900 dark:text-white leading-snug select-text"
+              class="text-2xl @xs:text-3xl font-extrabold text-center tracking-tight text-slate-900 dark:text-white leading-snug select-text"
               v-html="sanitizeHtml(word.german)"
             ></h2>
             <Button
@@ -68,10 +68,10 @@ const handleAiActive = (active: boolean) => {
 
         <!-- Translation Primary View (EN with audio first, UA below) -->
         <template v-else>
-          <div class="flex flex-col items-center justify-center gap-3 py-4 sm:py-6 my-auto">
+          <div class="flex flex-col items-center justify-center gap-3 py-4 @sm:py-6 my-auto">
             <div class="flex flex-col items-center gap-2">
               <h2
-                class="text-2xl sm:text-3xl font-extrabold text-center tracking-tight text-slate-900 dark:text-white leading-snug select-text"
+                class="text-2xl @xs:text-3xl font-extrabold text-center tracking-tight text-slate-900 dark:text-white leading-snug select-text"
               >
                 {{ word.english }}
               </h2>
@@ -87,7 +87,7 @@ const handleAiActive = (active: boolean) => {
               </Button>
             </div>
             <div
-              class="text-base sm:text-lg font-semibold text-slate-600 dark:text-slate-300 tracking-tight text-center select-text"
+              class="text-base @xs:text-lg font-semibold text-slate-600 dark:text-slate-300 tracking-tight text-center select-text"
             >
               {{ word.ukrainian }}
             </div>
@@ -97,10 +97,10 @@ const handleAiActive = (active: boolean) => {
         <!-- Context Example Sentence -->
         <template v-if="showExample && word.example">
           <div
-            class="my-3 p-3.5 rounded-2xl bg-slate-50 dark:bg-white/5 border border-slate-200/80 dark:border-white/10 shadow-2xs flex items-center justify-between gap-3"
+            class="my-3 p-3 @xs:p-3.5 rounded-2xl bg-slate-50 dark:bg-white/5 border border-slate-200/80 dark:border-white/10 shadow-2xs flex items-center justify-between gap-3"
           >
             <div
-              class="text-xs sm:text-sm italic text-slate-700 dark:text-slate-300 leading-relaxed [&_strong]:text-primary-600 [&_strong]:dark:text-primary-400 [&_strong]:font-bold [&_b]:text-primary-600 [&_b]:dark:text-primary-400 select-text"
+              class="text-xs @xs:text-sm italic text-slate-700 dark:text-slate-300 leading-relaxed [&_strong]:text-primary-600 [&_strong]:dark:text-primary-400 [&_strong]:font-bold [&_b]:text-primary-600 [&_b]:dark:text-primary-400 select-text"
               v-html="sanitizeHtml(word.example)"
             ></div>
             <Button

@@ -191,11 +191,11 @@ const loadingStatusText = computed(() => {
 
 <template>
   <div
-    class="border-t border-slate-200/80 dark:border-white/10 pt-3.5 mt-2 flex flex-col w-full text-center"
+    class="@container border-t border-slate-200/80 dark:border-white/10 pt-3.5 mt-2 flex flex-col w-full text-center"
   >
     <!-- AI Status & Settings Row -->
     <div class="flex items-center justify-between mb-2.5 px-0.5">
-      <div class="flex items-center gap-1.5">
+      <div class="flex items-center gap-1.5 flex-wrap">
         <span
           class="text-[11px] font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300 flex items-center gap-1"
         >
@@ -246,20 +246,20 @@ const loadingStatusText = computed(() => {
         size="icon-sm"
         @click.stop="openSettings"
         title="AI Settings"
-        class="rounded-full text-slate-500 hover:text-slate-900 dark:hover:text-slate-100"
+        class="rounded-full text-slate-500 hover:text-slate-900 dark:hover:text-slate-100 shrink-0"
       >
         <Settings class="h-4 w-4" />
       </Button>
     </div>
 
     <!-- AI Action Pills -->
-    <div class="flex gap-2.5 mb-3 justify-center">
+    <div class="grid grid-cols-1 @xs:grid-cols-2 gap-2 mb-3">
       <Button
         variant="outline"
         size="sm"
         @click.stop="handleExplainGrammar"
         :disabled="isLoading || (!hasNano && !hasCloudKey && !isModelReady && !hasCachedLocalModel && !isWebGPUSupported())"
-        class="rounded-xl text-xs py-1.5"
+        class="rounded-xl text-xs py-1.5 w-full justify-center"
       >
         <Compass class="h-3.5 w-3.5" />
         <span>Grammar Breakdown</span>
@@ -269,7 +269,7 @@ const loadingStatusText = computed(() => {
         size="sm"
         @click.stop="handleGenerateDialogue"
         :disabled="isLoading || (!hasNano && !hasCloudKey && !isModelReady && !hasCachedLocalModel && !isWebGPUSupported())"
-        class="rounded-xl text-xs py-1.5"
+        class="rounded-xl text-xs py-1.5 w-full justify-center"
       >
         <MessageSquare class="h-3.5 w-3.5" />
         <span>Workplace Dialogue</span>

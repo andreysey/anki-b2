@@ -25,7 +25,7 @@ const emit = defineEmits<{
         v-for="(item, idx) in vocabulary.slice(0, displayLimit)"
         :key="getItemKey(item)"
         :class="[
-          'bg-white/95 dark:bg-slate-900/90 border border-slate-200/90 dark:border-white/10 rounded-2xl p-4 sm:p-4.5 shadow-xs hover:shadow-md hover:border-slate-300 dark:hover:border-white/20 hover:scale-[1.01] transition-all duration-200 flex flex-col justify-between',
+          '@container bg-white/95 dark:bg-slate-900/90 border border-slate-200/90 dark:border-white/10 rounded-2xl p-4 sm:p-4.5 shadow-xs hover:shadow-md hover:border-slate-300 dark:hover:border-white/20 hover:scale-[1.01] transition-all duration-200 flex flex-col justify-between',
           idx >= 6 ? 'vocab-card-auto' : ''
         ]"
       >
