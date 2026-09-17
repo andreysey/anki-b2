@@ -110,3 +110,23 @@ export const mockWindowAI = (options?: {
     languageModel
   };
 };
+
+export const resetVocabularyState = async () => {
+  const { useVocabulary } = await import('../composables/useVocabulary');
+  const vocab = useVocabulary();
+  vocab.vocabulary.value = [];
+  vocab.masteredIds.value = new Set<string>();
+  vocab.srsData.value = {};
+  vocab.studyStreak.value = { lastDate: '', streak: 0 };
+  vocab.sessionReviewedCount.value = 0;
+  vocab.search.value = '';
+  vocab.levelFilter.value = 'all';
+  vocab.themaFilter.value = 'all';
+  vocab.displayLimit.value = 24;
+  vocab.isStudyMode.value = false;
+  vocab.currentStudyIndex.value = 0;
+  vocab.isFlipped.value = false;
+  vocab.studyDirection.value = 'DE_TO_UA';
+  vocab.isAutoplay.value = false;
+  vocab.isShuffled.value = false;
+};

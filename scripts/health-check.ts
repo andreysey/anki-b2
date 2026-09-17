@@ -71,6 +71,8 @@ function checkDirectLocalStorageUsage(): CheckResult {
     (file) =>
       !file.endsWith('storage.ts') &&
       !file.endsWith('.test.ts') &&
+      !file.endsWith('test-setup.ts') &&
+      !file.includes('/test-utils/') &&
       !file.endsWith('vite-env.d.ts')
   );
   const violations: string[] = [];
@@ -170,6 +172,52 @@ function checkCspHardening(): CheckResult {
   };
 }
 
+// 5. Verify PWA Manifest & Web Data Integrity
+function checkPwaAndDataIntegrity(): CheckResult {
+  const violations: string[] = [];
+  const dataPath = path.join(ROOT_DIR, 'public', 'data.json');
+  const manifestPath = path.join(ROOT_DIR, 'public', 'manifest.webmanifest');
+  const altManifestPath = path.join(ROOT_DIR, 'public', 'manifest.json');
+
+  if (!fs.existsSync(dataPath)) {
+    violations.push('public/data.json is missing. Run npm run generate:anki first.');
+  } else {
+    try {
+      const dataContent = fs.readFileSync(dataPath, 'utf8');
+      const parsed = JSON.parse(dataContent);
+      if (!Array.isArray(parsed) || parsed.length < 3000) {
+        violations.push(`public/data.json has unexpected entry count: ${Array.isArray(parsed) ? parsed.length : 'not an array'}`);
+      } else {
+        const first = parsed[0];
+        if (!first.german || !first.ukrainian || !first.thema) {
+          violations.push('public/data.json entries do not conform to expected schema (missing german, ukrainian, or thema)');
+        }
+      }
+    } catch (e: any) {
+      violations.push(`public/data.json is malformed JSON: ${e.message}`);
+    }
+  }
+
+  const manifestExists = fs.existsSync(manifestPath) || fs.existsSync(altManifestPath);
+  if (!manifestExists) {
+    violations.push('Neither public/manifest.webmanifest nor public/manifest.json found.');
+  }
+  // Also check vite.config.ts has VitePWA
+  const viteConfigPath = path.join(ROOT_DIR, 'vite.config.ts');
+  if (fs.existsSync(viteConfigPath)) {
+    const viteConfig = fs.readFileSync(viteConfigPath, 'utf8');
+    if (!viteConfig.includes('VitePWA')) {
+      violations.push('vite.config.ts is missing VitePWA configuration for offline PWA precaching');
+    }
+  }
+
+  return {
+    name: 'PWA Manifest & Data Integrity',
+    passed: violations.length === 0,
+    details: violations
+  };
+}
+
 // Run All Checks
 console.log('\n🛡️  Starting Automated Health & Security Guard...\n');
 
@@ -177,6 +225,7 @@ results.push(checkVHtmlSanitization());
 results.push(checkDirectLocalStorageUsage());
 results.push(checkAnkiModelStability());
 results.push(checkCspHardening());
+results.push(checkPwaAndDataIntegrity());
 
 let hasFailures = false;
 

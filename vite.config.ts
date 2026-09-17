@@ -19,7 +19,7 @@ export default defineConfig({
   test: {
     globals: true,
     environment: 'happy-dom',
-    setupFiles: ['./vitest.setup.ts'],
+    setupFiles: ['./src/test-setup.ts'],
     include: ['src/**/*.test.ts', 'scripts/**/*.test.ts'],
     coverage: {
       provider: 'v8',
