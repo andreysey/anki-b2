@@ -1,9 +1,43 @@
 <script setup lang="ts">
+import { ref, onMounted, onUnmounted } from 'vue';
 import { Button } from './ui/button';
 import { Progress } from './ui/progress';
 import VocabularyCard from './VocabularyCard.vue';
-import { Shuffle, ChevronLeft, ChevronRight, Check } from '@lucide/vue';
+import { Shuffle, ChevronLeft, ChevronRight, Check, Maximize2, Minimize2 } from '@lucide/vue';
 import type { Word, StudyDirection, SelectOption } from '../types';
+
+const isFullscreen = ref(false);
+
+const checkFullscreen = () => {
+  if (typeof document !== 'undefined') {
+    isFullscreen.value = Boolean(document.fullscreenElement);
+  }
+};
+
+const toggleFullscreen = async () => {
+  if (typeof document === 'undefined') return;
+  try {
+    if (!document.fullscreenElement) {
+      await document.documentElement.requestFullscreen();
+    } else {
+      await document.exitFullscreen();
+    }
+  } catch {
+    // Ignore fullscreen rejection or lack of user gesture
+  }
+};
+
+onMounted(() => {
+  if (typeof document !== 'undefined') {
+    document.addEventListener('fullscreenchange', checkFullscreen);
+  }
+});
+
+onUnmounted(() => {
+  if (typeof document !== 'undefined') {
+    document.removeEventListener('fullscreenchange', checkFullscreen);
+  }
+});
 
 defineProps<{
   vocabulary: Word[];
@@ -75,15 +109,29 @@ const emit = defineEmits<{
         </div>
       </div>
 
-      <Button
-        size="sm"
-        :variant="isShuffled ? 'default' : 'outline'"
-        @click="emit('shuffle')"
-        class="rounded-xl text-xs px-2.5 sm:px-3 shadow-2xs shrink-0"
-      >
-        <Shuffle class="h-3.5 w-3.5" />
-        <span>Shuffle</span>
-      </Button>
+      <div class="flex items-center gap-1.5 shrink-0">
+        <Button
+          size="sm"
+          variant="outline"
+          @click="toggleFullscreen"
+          :title="isFullscreen ? 'Exit Zen Mode (Fullscreen)' : 'Enter Zen Mode (Fullscreen)'"
+          aria-label="Toggle Zen mode fullscreen"
+          class="rounded-xl text-xs px-2 sm:px-2.5 shadow-2xs"
+        >
+          <component :is="isFullscreen ? Minimize2 : Maximize2" class="h-3.5 w-3.5" />
+          <span class="hidden sm:inline">Zen</span>
+        </Button>
+
+        <Button
+          size="sm"
+          :variant="isShuffled ? 'default' : 'outline'"
+          @click="emit('shuffle')"
+          class="rounded-xl text-xs px-2.5 sm:px-3 shadow-2xs shrink-0"
+        >
+          <Shuffle class="h-3.5 w-3.5" />
+          <span>Shuffle</span>
+        </Button>
+      </div>
     </div>
 
     <!-- macOS Progress Meter & Session Stats -->

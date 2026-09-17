@@ -452,3 +452,26 @@ html, body, .macos-main-content {
   transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/* Modern Native accent-color & Range Styling */
+input[type='range'],
+input[type='checkbox'],
+input[type='radio'] {
+  accent-color: hsl(var(--primary));
+}
+
+input[type='range']::-webkit-slider-thumb {
+  height: 16px;
+  width: 16px;
+  border-radius: 9999px;
+  background: hsl(var(--primary));
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+input[type='range']::-webkit-slider-thumb:hover {
+  transform: scale(1.15);
+  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.2);
+}
+
+

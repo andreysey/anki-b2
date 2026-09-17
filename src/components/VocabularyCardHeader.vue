@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { Button } from './ui/button';
-import { Check, Share2 } from '@lucide/vue';
+import { Check, Share2, Copy } from '@lucide/vue';
 import type { Word } from '../types';
 import { getThemaLabel } from '../utils/thema';
 import { toast } from './ui/sonner/toast';
@@ -12,6 +12,19 @@ const props = defineProps<{
 const emit = defineEmits<{
   (e: 'toggle-mastered', word: Word): void;
 }>();
+
+const handleCopy = async () => {
+  const cleanGerman = props.word.german.replace(/<[^>]*>?/gm, '');
+  const text = `${cleanGerman} - ${props.word.english} (${props.word.ukrainian || ''})${props.word.example ? `\nExample: ${props.word.example.replace(/<[^>]*>?/gm, '')}` : ''}`;
+  if (typeof navigator !== 'undefined' && 'clipboard' in navigator) {
+    try {
+      await navigator.clipboard.writeText(text);
+      toast.success('Copied to clipboard');
+    } catch {
+      toast.error('Failed to copy');
+    }
+  }
+};
 
 const canShare = typeof navigator !== 'undefined' && typeof navigator.share === 'function';
 
@@ -59,6 +72,16 @@ const handleShare = async () => {
       </span>
     </div>
     <div class="flex items-center gap-1">
+      <Button
+        variant="ghost"
+        size="icon-sm"
+        aria-label="Copy word"
+        @click.stop="handleCopy"
+        title="Copy word to clipboard"
+        class="text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100 hover:bg-slate-200/60 dark:hover:bg-white/10 rounded-full shrink-0 w-8 h-8 cursor-pointer active:scale-95 transition-all"
+      >
+        <Copy class="h-3.5 w-3.5" />
+      </Button>
       <Button
         variant="ghost"
         size="icon-sm"

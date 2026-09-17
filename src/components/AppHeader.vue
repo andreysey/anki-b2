@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed } from 'vue';
+import { ref, computed, onMounted, onUnmounted } from 'vue';
 import { Button } from './ui/button';
 import AudioSettingsPopover from './AudioSettingsPopover.vue';
 import {
@@ -9,8 +9,31 @@ import {
   Monitor,
   List,
   GraduationCap,
-  BarChart3
+  BarChart3,
+  WifiOff
 } from '@lucide/vue';
+
+const isOnline = ref(typeof navigator !== 'undefined' ? navigator.onLine : true);
+
+const updateOnlineStatus = () => {
+  if (typeof navigator !== 'undefined') {
+    isOnline.value = navigator.onLine;
+  }
+};
+
+onMounted(() => {
+  if (typeof window !== 'undefined') {
+    window.addEventListener('online', updateOnlineStatus);
+    window.addEventListener('offline', updateOnlineStatus);
+  }
+});
+
+onUnmounted(() => {
+  if (typeof window !== 'undefined') {
+    window.removeEventListener('online', updateOnlineStatus);
+    window.removeEventListener('offline', updateOnlineStatus);
+  }
+});
 
 interface VoiceOption {
   voiceURI: string;
@@ -73,6 +96,14 @@ const themeModeLabel = computed(() => {
             class="text-[10px] font-mono font-medium px-1.5 py-0.5 rounded-md bg-slate-100 dark:bg-white/10 text-slate-500 dark:text-slate-400 border border-slate-200/80 dark:border-white/10 shadow-2xs"
           >
             v{{ appVersion }}
+          </span>
+          <span
+            v-if="!isOnline"
+            class="inline-flex items-center gap-1 text-[10px] font-medium px-1.5 py-0.5 rounded-md bg-amber-500/15 text-amber-600 dark:text-amber-400 border border-amber-500/25"
+            title="Running completely offline"
+          >
+            <WifiOff class="h-2.5 w-2.5" />
+            <span class="hidden sm:inline">Offline</span>
           </span>
         </div>
       </div>

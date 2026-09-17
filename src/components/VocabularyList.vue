@@ -1,10 +1,11 @@
 <script setup lang="ts">
 import { Button } from './ui/button';
-import { Check, Volume2, ChevronDown } from '@lucide/vue';
+import { Check, Volume2, ChevronDown, Copy } from '@lucide/vue';
 import type { Word } from '../types';
 import { sanitizeHtml } from '../utils/sanitize';
 import { getThemaLabel } from '../utils/thema';
 import { getItemKey } from '../composables/useVocabulary';
+import { toast } from './ui/sonner/toast';
 
 defineProps<{
   vocabulary: Word[];
@@ -16,6 +17,19 @@ const emit = defineEmits<{
   (e: 'play-audio', text: string): void;
   (e: 'toggle-mastered', word: Word): void;
 }>();
+
+const handleCopy = async (item: Word) => {
+  const cleanGerman = item.german.replace(/<[^>]*>?/gm, '');
+  const text = `${cleanGerman} - ${item.english} (${item.ukrainian || ''})${item.example ? `\nExample: ${item.example.replace(/<[^>]*>?/gm, '')}` : ''}`;
+  if (typeof navigator !== 'undefined' && 'clipboard' in navigator) {
+    try {
+      await navigator.clipboard.writeText(text);
+      toast.success('Copied to clipboard');
+    } catch {
+      toast.error('Failed to copy');
+    }
+  }
+};
 </script>
 
 <template>
@@ -60,6 +74,15 @@ const emit = defineEmits<{
                 class="rounded-full w-8 h-8 text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 hover:bg-emerald-500/25 border border-emerald-500/20 active:scale-95 transition-all cursor-pointer"
               >
                 <Check class="h-4 w-4" />
+              </Button>
+              <Button
+                variant="ghost"
+                size="icon-sm"
+                @click.stop="handleCopy(item)"
+                title="Copy word to clipboard"
+                class="rounded-full w-8 h-8 text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100 hover:bg-slate-200/60 dark:hover:bg-white/10 active:scale-95 transition-all cursor-pointer"
+              >
+                <Copy class="h-3.5 w-3.5" />
               </Button>
               <Button
                 variant="ghost"
