@@ -29,7 +29,7 @@ const toggleOpen = () => {
   isOpen.value = !isOpen.value;
 };
 
-const handleClickOutside = (event: MouseEvent) => {
+const handleClickOutside = (event: Event) => {
   if (isOpen.value && popoverRef.value && !popoverRef.value.contains(event.target as Node)) {
     isOpen.value = false;
   }
@@ -42,12 +42,12 @@ const handleKeydown = (event: KeyboardEvent) => {
 };
 
 onMounted(() => {
-  window.addEventListener('click', handleClickOutside);
+  document.addEventListener('click', handleClickOutside);
   window.addEventListener('keydown', handleKeydown);
 });
 
 onUnmounted(() => {
-  window.removeEventListener('click', handleClickOutside);
+  document.removeEventListener('click', handleClickOutside);
   window.removeEventListener('keydown', handleKeydown);
 });
 </script>
