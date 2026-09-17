@@ -388,12 +388,6 @@ html:not(.dark) .macos-floating-hud {
   contain-intrinsic-size: auto 160px;
 }
 
-/* Baseline 2023 CSS Subgrid for harmonious card internal alignment */
-@supports (grid-template-rows: subgrid) {
-  .vocab-list-grid {
-    grid-auto-rows: min-content;
-  }
-}
 
 /* Mobile Smooth Scroll Snap Container */
 .study-cards-snap-container {

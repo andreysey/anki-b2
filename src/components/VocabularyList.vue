@@ -39,62 +39,65 @@ const handleCopy = async (item: Word) => {
         v-for="(item, idx) in vocabulary.slice(0, displayLimit)"
         :key="getItemKey(item)"
         :class="[
-          '@container bg-white/95 dark:bg-slate-900/90 border border-slate-200/90 dark:border-white/10 rounded-2xl p-4 sm:p-4.5 shadow-xs hover:shadow-md hover:border-slate-300 dark:hover:border-white/20 hover:scale-[1.01] transition-all duration-200 flex flex-col justify-between vocab-list-card',
+          '@container bg-white/95 dark:bg-slate-900/90 border border-slate-200/90 dark:border-white/10 rounded-2xl p-4 sm:p-4.5 shadow-xs hover:shadow-md hover:border-slate-300 dark:hover:border-white/20 hover:scale-[1.01] transition-all duration-200 flex flex-col',
           idx >= 6 ? 'vocab-card-auto' : ''
         ]"
       >
         <!-- Header -->
-        <div class="flex justify-between items-center w-full mb-2.5">
-          <span
-            class="inline-flex items-center px-2 py-0.5 rounded-md text-[10px] font-bold bg-blue-50 text-blue-600 border border-blue-200 dark:bg-blue-500/15 dark:text-blue-400 dark:border-blue-500/25"
-          >
-            {{ item.level }}
-          </span>
-          <span
-            class="inline-flex items-center px-2 py-0.5 rounded-md text-[10px] font-medium bg-slate-100/90 text-slate-700 border border-slate-200/80 dark:bg-white/10 dark:text-slate-300 dark:border-white/10 max-w-42.5 truncate"
-            :title="getThemaLabel(item.thema)"
-          >
-            {{ getThemaLabel(item.thema) }}
-          </span>
+        <div class="flex justify-between items-center w-full gap-2 mb-2.5">
+          <div class="flex items-center gap-1.5 min-w-0">
+            <span
+              class="inline-flex items-center px-2 py-0.5 rounded-md text-[10px] font-bold bg-blue-50 text-blue-600 border border-blue-200 dark:bg-blue-500/15 dark:text-blue-400 dark:border-blue-500/25 shrink-0"
+            >
+              {{ item.level }}
+            </span>
+            <span
+              class="inline-flex items-center px-2 py-0.5 rounded-md text-[10px] font-medium bg-slate-100/90 text-slate-700 border border-slate-200/80 dark:bg-white/10 dark:text-slate-300 dark:border-white/10 max-w-32 sm:max-w-40 truncate"
+              :title="getThemaLabel(item.thema)"
+            >
+              {{ getThemaLabel(item.thema) }}
+            </span>
+          </div>
+
+          <!-- Actions -->
+          <div class="flex items-center gap-1 shrink-0">
+            <Button
+              variant="ghost"
+              size="icon-sm"
+              @click.stop="emit('toggle-mastered', item)"
+              title="Mark as Mastered"
+              class="rounded-full w-7 h-7 sm:w-8 sm:h-8 text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 hover:bg-emerald-500/25 border border-emerald-500/20 active:scale-95 transition-all cursor-pointer"
+            >
+              <Check class="h-3.5 w-3.5 sm:h-4 sm:w-4" />
+            </Button>
+            <Button
+              variant="ghost"
+              size="icon-sm"
+              @click.stop="handleCopy(item)"
+              title="Copy word to clipboard"
+              class="rounded-full w-7 h-7 sm:w-8 sm:h-8 text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100 hover:bg-slate-200/60 dark:hover:bg-white/10 active:scale-95 transition-all cursor-pointer"
+            >
+              <Copy class="h-3 w-3 sm:h-3.5 sm:w-3.5" />
+            </Button>
+            <Button
+              variant="ghost"
+              size="icon-sm"
+              @click.stop="emit('play-audio', item.german_audio || item.german)"
+              title="Play pronunciation"
+              class="rounded-full w-7 h-7 sm:w-8 sm:h-8 text-primary hover:text-primary bg-primary/10 hover:bg-primary/20 hover:scale-105 border border-primary/20 active:scale-95 transition-all cursor-pointer"
+            >
+              <Volume2 class="h-3.5 w-3.5 sm:h-4 sm:w-4" />
+            </Button>
+          </div>
         </div>
 
         <!-- Content -->
-        <div class="space-y-2.5">
-          <div class="flex justify-between items-start gap-2.5">
-            <div
-              class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-snug select-text text-balance"
-              v-html="sanitizeHtml(item.german)"
-            ></div>
-            <div class="flex items-center gap-1.5 shrink-0">
-              <Button
-                variant="ghost"
-                size="icon-sm"
-                @click.stop="emit('toggle-mastered', item)"
-                title="Mark as Mastered"
-                class="rounded-full w-8 h-8 text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 hover:bg-emerald-500/25 border border-emerald-500/20 active:scale-95 transition-all cursor-pointer"
-              >
-                <Check class="h-4 w-4" />
-              </Button>
-              <Button
-                variant="ghost"
-                size="icon-sm"
-                @click.stop="handleCopy(item)"
-                title="Copy word to clipboard"
-                class="rounded-full w-8 h-8 text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100 hover:bg-slate-200/60 dark:hover:bg-white/10 active:scale-95 transition-all cursor-pointer"
-              >
-                <Copy class="h-3.5 w-3.5" />
-              </Button>
-              <Button
-                variant="ghost"
-                size="icon-sm"
-                @click.stop="emit('play-audio', item.german_audio || item.german)"
-                title="Play pronunciation"
-                class="rounded-full w-8 h-8 text-primary hover:text-primary bg-primary/10 hover:bg-primary/20 hover:scale-105 border border-primary/20 active:scale-95 transition-all cursor-pointer"
-              >
-                <Volume2 class="h-4 w-4" />
-              </Button>
-            </div>
-          </div>
+        <div class="flex flex-col flex-1 gap-2.5 min-w-0">
+          <div
+            class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-snug select-text break-words hyphens-auto"
+            lang="de"
+            v-html="sanitizeHtml(item.german)"
+          ></div>
           <div class="space-y-0.5 text-xs sm:text-sm">
             <div class="text-primary-600 dark:text-primary-400 font-semibold select-text text-balance">
               {{ item.english }}
@@ -104,23 +107,25 @@ const handleCopy = async (item: Word) => {
             </div>
           </div>
           <template v-if="item.example">
-            <div class="h-px bg-slate-200/80 dark:bg-slate-800 my-2"></div>
-            <div
-              class="flex items-center justify-between gap-2 p-2 rounded-xl bg-slate-50 dark:bg-white/5 border border-slate-200/60 dark:border-white/5"
-            >
+            <div class="mt-auto pt-2">
+              <div class="h-px bg-slate-200/80 dark:bg-slate-800 mb-2.5"></div>
               <div
-                class="italic text-slate-700 dark:text-slate-400 text-[11px] leading-relaxed [&_strong]:text-primary-600 [&_strong]:dark:text-primary-400 [&_b]:text-primary-600 [&_b]:dark:text-primary-400 select-text text-pretty"
-                v-html="sanitizeHtml(item.example)"
-              ></div>
-              <Button
-                variant="ghost"
-                size="icon-sm"
-                class="shrink-0 hover:bg-slate-200/60 dark:hover:bg-white/10 text-slate-600 dark:text-slate-300 w-6 h-6 rounded-full"
-                @click.stop="emit('play-audio', item.example)"
-                title="Play example"
+                class="flex items-center justify-between gap-2 p-2 rounded-xl bg-slate-50 dark:bg-white/5 border border-slate-200/60 dark:border-white/5"
               >
-                <Volume2 class="h-3 w-3" />
-              </Button>
+                <div
+                  class="italic text-slate-700 dark:text-slate-400 text-[11px] leading-relaxed [&_strong]:text-primary-600 [&_strong]:dark:text-primary-400 [&_b]:text-primary-600 [&_b]:dark:text-primary-400 select-text text-pretty"
+                  v-html="sanitizeHtml(item.example)"
+                ></div>
+                <Button
+                  variant="ghost"
+                  size="icon-sm"
+                  class="shrink-0 hover:bg-slate-200/60 dark:hover:bg-white/10 text-slate-600 dark:text-slate-300 w-6 h-6 rounded-full"
+                  @click.stop="emit('play-audio', item.example)"
+                  title="Play example"
+                >
+                  <Volume2 class="h-3 w-3" />
+                </Button>
+              </div>
             </div>
           </template>
         </div>
