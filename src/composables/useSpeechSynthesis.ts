@@ -27,6 +27,23 @@ export function useSpeechSynthesis() {
     }
   };
 
+  const warmupSpeech = () => {
+    if (typeof window !== 'undefined' && 'speechSynthesis' in window && typeof SpeechSynthesisUtterance !== 'undefined') {
+      try {
+        if (window.speechSynthesis.paused) {
+          window.speechSynthesis.resume();
+        }
+        // Silent utterance of empty space to wake up the speech pipeline on iOS/Android
+        const silent = new SpeechSynthesisUtterance(' ');
+        silent.volume = 0;
+        silent.rate = 2;
+        window.speechSynthesis.speak(silent);
+      } catch {
+        // Ignore errors
+      }
+    }
+  };
+
   const initVoices = () => {
     if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
       window.speechSynthesis.onvoiceschanged = loadVoices;
@@ -185,6 +202,7 @@ export function useSpeechSynthesis() {
     ttsRate,
     loadVoices,
     initVoices,
+    warmupSpeech,
     playAudio,
     playSequence,
     stopAudio

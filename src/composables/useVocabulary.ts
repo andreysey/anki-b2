@@ -307,6 +307,17 @@ export function useVocabulary() {
     return list;
   });
 
+  const dueCardsCount = computed(() => {
+    const now = Date.now();
+    return vocabulary.value.reduce((count, item) => {
+      const key = getItemKey(item);
+      if (masteredIds.value.has(key)) return count;
+      const srs = srsData.value[key];
+      const dueDate = getCardDueDate(srs);
+      return dueDate <= now ? count + 1 : count;
+    }, 0);
+  });
+
   // Final study list (either sorted or shuffled)
   const studyList = computed(() => {
     const list = sortedStudyVocabulary.value;
@@ -376,6 +387,7 @@ export function useVocabulary() {
     vocabulary,
     filteredVocabulary,
     studyList,
+    dueCardsCount,
     search,
     levelFilter,
     themaFilter,

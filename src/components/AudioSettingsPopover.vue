@@ -1,13 +1,16 @@
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from 'vue';
 import { Button } from './ui/button';
-import { Volume2, X, RotateCcw } from '@lucide/vue';
+import { Volume2, X, RotateCcw, Sparkles } from '@lucide/vue';
+import { useSoundFx } from '../utils/soundFx';
 
 interface VoiceOption {
   voiceURI: string;
   name: string;
   lang: string;
 }
+
+const { isSoundEnabled, playSoundFx } = useSoundFx();
 
 defineProps<{
   idPrefix: string;
@@ -145,6 +148,34 @@ onUnmounted(() => {
           @input="emit('update:ttsRate', Math.round(Number(($event.target as HTMLInputElement).value) * 100) / 100)"
           class="w-full h-2 bg-slate-300 dark:bg-white/20 rounded-lg cursor-pointer accent-primary block"
         />
+      </div>
+
+      <!-- Tactile Sound Effects (Web Audio Synthesizer) -->
+      <div class="pt-2 border-t border-slate-200/80 dark:border-white/10 flex items-center justify-between">
+        <div class="space-y-0.5">
+          <span class="text-xs font-medium text-slate-800 dark:text-slate-200 block">Tactile Sound FX</span>
+          <span class="text-[10px] text-slate-500 dark:text-slate-400 block">Procedural audio chimes on flip & SRS</span>
+        </div>
+        <div class="flex items-center gap-2">
+          <button
+            v-if="isSoundEnabled"
+            type="button"
+            @click="playSoundFx('correct')"
+            class="text-[10px] text-slate-400 hover:text-primary transition-colors flex items-center gap-0.5 font-normal"
+            title="Preview sound"
+            aria-label="Preview sound chime"
+          >
+            <Sparkles class="h-3 w-3" />
+            <span>test</span>
+          </button>
+          <input
+            type="checkbox"
+            :id="`sound-fx-toggle-${idPrefix}`"
+            v-model="isSoundEnabled"
+            class="w-4 h-4 rounded text-primary focus:ring-primary accent-primary cursor-pointer"
+            aria-label="Enable sound effects"
+          />
+        </div>
       </div>
     </div>
   </div>

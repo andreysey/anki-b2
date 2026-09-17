@@ -106,8 +106,8 @@ const emit = defineEmits<{
       <Progress :modelValue="studyProgress" class="h-1.5" />
     </div>
 
-    <!-- Centered Tactile Vocabulary Card with Touch Swipes -->
-    <div class="w-full flex justify-center py-0.5">
+    <!-- Centered Tactile Vocabulary Card with Touch Swipes & Mobile Scroll Snap -->
+    <div class="w-full flex justify-center py-0.5 study-card-snap-item">
       <VocabularyCard
         v-if="vocabulary.length > 0"
         :word="vocabulary[currentStudyIndex]"

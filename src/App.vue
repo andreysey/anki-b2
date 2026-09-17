@@ -27,6 +27,9 @@ const AISettingsDialog = defineAsyncComponent(() => import('./components/AISetti
 
 const isToasterMounted = ref(false);
 const mainContentRef = ref<HTMLElement | null>(null);
+import { updateAppBadge } from './utils/badge';
+import { playSoundFx } from './utils/soundFx';
+
 const appVersion = typeof __APP_VERSION__ !== 'undefined' ? __APP_VERSION__ : '1.18.0';
 
 // Domain State from Composables
@@ -34,6 +37,7 @@ const {
   vocabulary,
   filteredVocabulary,
   studyList,
+  dueCardsCount,
   search,
   levelFilter,
   themaFilter,
@@ -67,6 +71,7 @@ const {
   selectedVoiceURI,
   ttsRate,
   initVoices,
+  warmupSpeech,
   playAudio,
   playSequence,
   stopAudio
@@ -115,34 +120,53 @@ const audioOptions = [
 ];
 
 const handleSRSUpdate = (severity: 'again' | 'hard' | 'good' | 'easy') => {
+  if (severity === 'again') {
+    playSoundFx('again');
+  } else {
+    playSoundFx('correct');
+  }
   updateSRS(severity);
 };
 
 const handleMasterCurrentCard = () => {
   const currentCard = studyList.value[currentStudyIndex.value];
   if (currentCard) {
+    playSoundFx('celebrate');
     toggleMastered(currentCard);
     toast.success('Word marked as mastered');
   }
 };
 
+const handleCardFlip = () => {
+  playSoundFx('flip');
+  isFlipped.value = !isFlipped.value;
+};
+
 const shortcuts = useKeyboardShortcuts({
   isStudyMode,
   isFlipped,
-  onFlip: () => {
-    isFlipped.value = !isFlipped.value;
-  },
+  onFlip: handleCardFlip,
   onNext: nextCard,
   onPrev: prevCard,
   onToggleMastered: handleMasterCurrentCard,
   onGrade: handleSRSUpdate
 });
 
+// PWA App Badging: keep badge count synced with due cards for SRS review
+watch(
+  dueCardsCount,
+  (count) => {
+    updateAppBadge(count);
+  },
+  { immediate: true }
+);
+
 onMounted(() => {
   initNavigation();
   init();
   initTheme();
   initVoices();
+  warmupSpeech();
   shortcuts.register();
   window.addEventListener('load-toaster', () => {
     isToasterMounted.value = true;
@@ -280,7 +304,7 @@ watch(
           :isShuffled="isShuffled"
           :sessionReviewedCount="sessionReviewedCount"
           @shuffle="shuffleCards"
-          @flip="isFlipped = !isFlipped"
+          @flip="handleCardFlip"
           @update-srs="handleSRSUpdate"
           @prev="prevCard"
           @next="nextCard"
