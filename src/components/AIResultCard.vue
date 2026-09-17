@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { Button } from './ui/button';
-import { Sparkles, Copy, Check } from 'lucide-vue-next';
+import { Sparkles, Copy, Check } from '@lucide/vue';
 import { sanitizeAiHtml } from '../utils/sanitize';
 
 defineProps<{

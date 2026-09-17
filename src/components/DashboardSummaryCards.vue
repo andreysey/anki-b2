@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { BookOpen, CheckCircle2, TrendingUp } from 'lucide-vue-next';
+import { BookOpen, CheckCircle2, TrendingUp } from '@lucide/vue';
 
 defineProps<{
   totalWords: number;

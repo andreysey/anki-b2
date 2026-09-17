@@ -9,7 +9,7 @@ import {
 } from './ui/dialog';
 import { Input } from './ui/input';
 import { Button } from './ui/button';
-import { Trash2, Download } from 'lucide-vue-next';
+import { Trash2, Download } from '@lucide/vue';
 import { useAIAssistantState } from '../composables/useAIAssistantState';
 import {
   isWebGPUSupported,

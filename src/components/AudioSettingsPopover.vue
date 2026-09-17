@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from 'vue';
 import { Button } from './ui/button';
-import { Volume2, X, RotateCcw } from 'lucide-vue-next';
+import { Volume2, X, RotateCcw } from '@lucide/vue';
 
 interface VoiceOption {
   voiceURI: string;

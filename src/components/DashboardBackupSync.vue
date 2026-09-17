@@ -2,7 +2,7 @@
 import { ref } from 'vue';
 import { Progress } from './ui/progress';
 import { Button } from './ui/button';
-import { Download, Upload } from 'lucide-vue-next';
+import { Download, Upload } from '@lucide/vue';
 import { downloadBackupFile, parseAndValidateBackup, MAX_BACKUP_SIZE_BYTES } from '../utils/backup';
 import type { SRSState } from '../types';
 

@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { Button } from './ui/button';
-import { Check, Volume2, ChevronDown } from 'lucide-vue-next';
+import { Check, Volume2, ChevronDown } from '@lucide/vue';
 import type { Word } from '../types';
 import { sanitizeHtml } from '../utils/sanitize';
 import { getThemaLabel } from '../utils/thema';

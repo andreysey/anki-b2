@@ -10,7 +10,7 @@ import {
   Compass,
   MessageSquare,
   Check
-} from 'lucide-vue-next';
+} from '@lucide/vue';
 import AIResultCard from './AIResultCard.vue';
 import {
   isModelReady,

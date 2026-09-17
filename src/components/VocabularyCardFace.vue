@@ -2,7 +2,7 @@
 import { ref } from 'vue';
 import type { Word } from '../types';
 import { Button } from './ui/button';
-import { Volume2 } from 'lucide-vue-next';
+import { Volume2 } from '@lucide/vue';
 import { sanitizeHtml } from '../utils/sanitize';
 import VocabularyCardHeader from './VocabularyCardHeader.vue';
 import AIAssistant from './AIAssistant.vue';

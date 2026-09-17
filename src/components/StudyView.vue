@@ -2,7 +2,7 @@
 import { Button } from './ui/button';
 import { Progress } from './ui/progress';
 import VocabularyCard from './VocabularyCard.vue';
-import { Shuffle, ChevronLeft, ChevronRight, Check } from 'lucide-vue-next';
+import { Shuffle, ChevronLeft, ChevronRight, Check } from '@lucide/vue';
 import type { Word, StudyDirection, SelectOption } from '../types';
 
 defineProps<{

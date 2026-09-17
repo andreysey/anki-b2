@@ -9,7 +9,7 @@ import {
   DialogPortal,
   useForwardPropsEmits
 } from 'reka-ui';
-import { X } from 'lucide-vue-next';
+import { X } from '@lucide/vue';
 import { cn } from '../utils';
 
 const props = defineProps<DialogContentProps & { class?: HTMLAttributes['class'] }>();

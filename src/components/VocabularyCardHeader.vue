@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { Button } from './ui/button';
-import { Check } from 'lucide-vue-next';
+import { Check } from '@lucide/vue';
 import type { Word } from '../types';
 import { getThemaLabel } from '../utils/thema';
 

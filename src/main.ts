@@ -1,6 +1,7 @@
 import { createApp } from 'vue';
 import App from './App.vue';
 import './assets/main.css';
+import 'vue-sonner/style.css';
 
 const app = createApp(App);
 

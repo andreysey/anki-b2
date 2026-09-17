@@ -10,7 +10,7 @@ import { useAIAssistantState } from './composables/useAIAssistantState';
 
 // UI Components
 import { toast } from './components/ui/sonner/toast';
-import { Loader2, AlertTriangle } from 'lucide-vue-next';
+import { Loader2, AlertTriangle } from '@lucide/vue';
 
 // App Components
 import AppHero from './components/AppHero.vue';

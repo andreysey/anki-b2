@@ -2,7 +2,7 @@
 import { computed } from 'vue';
 import type { Word, SRSState } from '../types';
 import { Progress } from './ui/progress';
-import { TrendingUp } from 'lucide-vue-next';
+import { TrendingUp } from '@lucide/vue';
 import { getThemaLabel } from '../utils/thema';
 import { getItemKey } from '../composables/useVocabulary';
 import DashboardThemaBreakdown from './DashboardThemaBreakdown.vue';

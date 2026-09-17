@@ -3,7 +3,7 @@ import { computed } from 'vue';
 import type { Word } from '../types';
 import { Input } from './ui/input';
 import { Button } from './ui/button';
-import { Search, X, List, GraduationCap, ChevronDown } from 'lucide-vue-next';
+import { Search, X, List, GraduationCap, ChevronDown } from '@lucide/vue';
 import { getThemaLabel } from '../utils/thema';
 
 const props = defineProps<{
