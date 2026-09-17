@@ -1,3 +1,10 @@
+# [1.55.0](https://github.com/andreysey/anki-b2/compare/v1.54.0...v1.55.0) (2026-09-17)
+
+
+### Features
+
+* improve accessibility across components with ARIA attributes and update Anki packages ([c75fd6d](https://github.com/andreysey/anki-b2/commit/c75fd6d2db454af5205b62b4145f19896a91e2af))
+
 # [1.54.0](https://github.com/andreysey/anki-b2/compare/v1.53.0...v1.54.0) (2026-09-17)
 
 
