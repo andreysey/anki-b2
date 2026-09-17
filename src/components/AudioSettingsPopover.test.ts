@@ -82,4 +82,19 @@ describe('AudioSettingsPopover.vue', () => {
     expect(wrapper.emitted('update:ttsRate')).toBeTruthy();
     expect(wrapper.emitted('update:ttsRate')![0]).toEqual([1.15]);
   });
+
+  it('renders disabled select with fallback message when no German voices are available', async () => {
+    const wrapper = mount(AudioSettingsPopover, {
+      props: {
+        ...defaultProps,
+        germanVoices: [],
+        selectedVoiceURI: ''
+      }
+    });
+
+    await wrapper.find('#btn-audio-settings-header').trigger('click');
+    const select = wrapper.find('#voice-select-header');
+    expect(select.attributes('disabled')).toBeDefined();
+    expect(select.text()).toContain('No German voice found');
+  });
 });
