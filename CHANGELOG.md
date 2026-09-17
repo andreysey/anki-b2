@@ -1,3 +1,10 @@
+# [1.49.0](https://github.com/andreysey/anki-b2/compare/v1.48.0...v1.49.0) (2026-09-17)
+
+
+### Features
+
+* add PWA shortcuts, media session integration, wake lock visibility handling, and focus styles ([c3c58b3](https://github.com/andreysey/anki-b2/commit/c3c58b33066f30d4b1aa2de904fa06b31240bde2))
+
 # [1.48.0](https://github.com/andreysey/anki-b2/compare/v1.47.0...v1.48.0) (2026-09-17)
 
 
