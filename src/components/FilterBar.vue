@@ -68,6 +68,8 @@ const toggleStudyModeLabel = computed(() => (props.isStudyMode ? 'Back to List' 
           <Search class="h-4 w-4" />
         </div>
         <Input
+          id="filter-search-input"
+          aria-label="Search vocabulary"
           :modelValue="search"
           @update:modelValue="(val) => emit('update:search', String(val ?? ''))"
           placeholder="Search vocabulary..."

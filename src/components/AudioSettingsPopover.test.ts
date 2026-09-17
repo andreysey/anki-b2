@@ -45,6 +45,21 @@ describe('AudioSettingsPopover.vue', () => {
     wrapper.unmount();
   });
 
+  it('closes popover when close button (X) is clicked', async () => {
+    const wrapper = mount(AudioSettingsPopover, {
+      props: defaultProps
+    });
+
+    await wrapper.find('#btn-audio-settings-header').trigger('click');
+    expect(wrapper.find('[role="dialog"]').exists()).toBe(true);
+
+    const closeBtn = wrapper.find('button[aria-label="Close preferences"]');
+    expect(closeBtn.exists()).toBe(true);
+    await closeBtn.trigger('click');
+
+    expect(wrapper.find('[role="dialog"]').exists()).toBe(false);
+  });
+
   it('closes popover on click outside', async () => {
     const outsideEl = document.createElement('div');
     document.body.appendChild(outsideEl);
