@@ -34,8 +34,38 @@ export function useSpeechSynthesis() {
     }
   };
 
+  const updateMediaSession = (title: string, artist = 'German B2 Professional') => {
+    if (typeof navigator !== 'undefined' && 'mediaSession' in navigator) {
+      try {
+        navigator.mediaSession.metadata = new MediaMetadata({
+          title,
+          artist,
+          album: 'Anki B2 German Vocabulary',
+          artwork: [
+            { src: 'icon-192.png', sizes: '192x192', type: 'image/png' },
+            { src: 'icon-512.png', sizes: '512x512', type: 'image/png' }
+          ]
+        });
+        navigator.mediaSession.playbackState = 'playing';
+      } catch {
+        // Ignore mediaSession metadata errors in unsupported contexts
+      }
+    }
+  };
+
+  const clearMediaSession = () => {
+    if (typeof navigator !== 'undefined' && 'mediaSession' in navigator) {
+      try {
+        navigator.mediaSession.playbackState = 'none';
+      } catch {
+        // Ignore errors
+      }
+    }
+  };
+
   const stopAudio = () => {
     activeUtterances.clear();
+    clearMediaSession();
     if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
       window.speechSynthesis.cancel();
     }
@@ -87,8 +117,12 @@ export function useSpeechSynthesis() {
       }
     }
     activeUtterances.add(utterance);
+    updateMediaSession(cleaned, lang.startsWith('de') ? 'German Pronunciation' : 'English Translation');
     utterance.onend = utterance.onerror = () => {
       activeUtterances.delete(utterance);
+      if (activeUtterances.size === 0) {
+        clearMediaSession();
+      }
     };
 
     window.speechSynthesis.speak(utterance);

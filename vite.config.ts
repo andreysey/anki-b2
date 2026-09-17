@@ -73,6 +73,29 @@ export default defineConfig({
             sizes: '512x512',
             type: 'image/png'
           }
+        ],
+        shortcuts: [
+          {
+            name: 'Study Cards',
+            short_name: 'Study',
+            description: 'Start your active flashcard review session',
+            url: '/anki-b2/#study',
+            icons: [{ src: 'icon-192.png', sizes: '192x192' }]
+          },
+          {
+            name: 'Dashboard & Stats',
+            short_name: 'Dashboard',
+            description: 'View Leitner boxes, progress and metrics',
+            url: '/anki-b2/#dashboard',
+            icons: [{ src: 'icon-192.png', sizes: '192x192' }]
+          },
+          {
+            name: 'Dictionary Search',
+            short_name: 'Dictionary',
+            description: 'Browse and search vocabulary list',
+            url: '/anki-b2/',
+            icons: [{ src: 'icon-192.png', sizes: '192x192' }]
+          }
         ]
       },
       workbox: {

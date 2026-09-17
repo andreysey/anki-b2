@@ -74,7 +74,7 @@ const {
 
 const { activeView, setView, initNavigation, cleanupNavigation } = useNavigation();
 const { isSettingsOpen } = useAIAssistantState();
-const { requestWakeLock, releaseWakeLock } = useWakeLock();
+const { requestWakeLock, releaseWakeLock, cleanup: cleanupWakeLock } = useWakeLock();
 
 // Synchronize activeView with isStudyMode bidirectionally and reset scroll
 watch(activeView, async (val) => {
@@ -151,7 +151,7 @@ onMounted(() => {
 
 onUnmounted(() => {
   stopAudio();
-  releaseWakeLock();
+  cleanupWakeLock();
   cleanupNavigation();
   cleanupTheme();
   shortcuts.cleanup();

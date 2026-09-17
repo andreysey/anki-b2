@@ -371,6 +371,17 @@ html:not(.dark) .macos-floating-hud {
   box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.35);
 }
 
+/* Modern Keyboard Navigation Focus System (:focus-visible) */
+:focus:not(:focus-visible) {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+:focus-visible {
+  outline: 2px solid hsl(var(--primary)) !important;
+  outline-offset: 2px !important;
+}
+
 /* Rendering performance boost for offscreen vocabulary cards */
 .vocab-card-auto {
   content-visibility: auto;
