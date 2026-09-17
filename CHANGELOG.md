@@ -1,3 +1,10 @@
+# [1.50.0](https://github.com/andreysey/anki-b2/compare/v1.49.0...v1.50.0) (2026-09-17)
+
+
+### Features
+
+* add tactile sound effects, PWA badge syncing, speech warmup, and mobile scroll snap support ([b568ed0](https://github.com/andreysey/anki-b2/commit/b568ed0385f1423373e4dfeb41cb6713a303b191))
+
 # [1.49.0](https://github.com/andreysey/anki-b2/compare/v1.48.0...v1.49.0) (2026-09-17)
 
 
