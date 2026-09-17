@@ -1,3 +1,10 @@
+# [1.48.0](https://github.com/andreysey/anki-b2/compare/v1.47.0...v1.48.0) (2026-09-17)
+
+
+### Features
+
+* add screen wake lock during study mode, word sharing support, and a scroll progress indicator ([f164635](https://github.com/andreysey/anki-b2/commit/f164635cb9507a792742a6333b0adf8c1d26abae))
+
 # [1.47.0](https://github.com/andreysey/anki-b2/compare/v1.46.0...v1.47.0) (2026-09-17)
 
 
