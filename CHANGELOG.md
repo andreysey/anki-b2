@@ -1,3 +1,10 @@
+# [1.43.0](https://github.com/andreysey/anki-b2/compare/v1.42.0...v1.43.0) (2026-09-17)
+
+
+### Features
+
+* add AI quota error handling, strict AI HTML sanitization, backup limits, and debounced SRS saving ([cf87971](https://github.com/andreysey/anki-b2/commit/cf879718d7d283ba0f9bd1029b590adea56cc292))
+
 # [1.42.0](https://github.com/andreysey/anki-b2/compare/v1.41.1...v1.42.0) (2026-09-06)
 
 
