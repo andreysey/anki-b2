@@ -111,7 +111,7 @@ onUnmounted(() => {
       <div class="space-y-2">
         <div class="flex justify-between items-center text-[11px] font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">
           <label :for="`tts-rate-${idPrefix}`">Speech Rate</label>
-          <span class="font-mono text-primary">{{ ttsRate }}x</span>
+          <span class="font-mono text-primary">{{ Number(ttsRate).toFixed(2) }}x</span>
         </div>
         <input
           :id="`tts-rate-${idPrefix}`"
@@ -121,7 +121,7 @@ onUnmounted(() => {
           max="1.5"
           step="0.05"
           :value="ttsRate"
-          @input="emit('update:ttsRate', Number(($event.target as HTMLInputElement).value))"
+          @input="emit('update:ttsRate', Math.round(Number(($event.target as HTMLInputElement).value) * 100) / 100)"
           class="w-full h-2 bg-slate-300 dark:bg-white/20 rounded-lg cursor-pointer accent-primary block"
         />
       </div>
