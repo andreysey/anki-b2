@@ -29,11 +29,17 @@ export function exportBackupJson(
   return JSON.stringify(payload, null, 2);
 }
 
+export const MAX_BACKUP_SIZE_BYTES = 5 * 1024 * 1024; // 5 MB
+
 export function parseAndValidateBackup(rawJson: string): {
   success: boolean;
   data?: BackupData;
   error?: string;
 } {
+  if (typeof rawJson !== 'string' || rawJson.length > MAX_BACKUP_SIZE_BYTES) {
+    return { success: false, error: 'Backup file exceeds maximum allowed size of 5 MB' };
+  }
+
   try {
     const parsed = JSON.parse(rawJson);
     if (!parsed || typeof parsed !== 'object') {
@@ -54,9 +60,12 @@ export function parseAndValidateBackup(rawJson: string): {
       .map((id: string) => id.trim())
       .filter(Boolean);
 
-    // Validate SRS records
+    // Validate SRS records with prototype pollution protection
     const validSRS: Record<string, SRSState> = {};
     for (const [key, val] of Object.entries(parsed.srsData)) {
+      if (key === '__proto__' || key === 'constructor' || key === 'prototype') {
+        continue;
+      }
       if (val && typeof val === 'object' && typeof (val as SRSState).level === 'number') {
         const srs = val as SRSState;
         validSRS[key] = {

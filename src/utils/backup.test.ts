@@ -70,6 +70,36 @@ describe('backup utility', () => {
     );
   });
 
+  it('rejects backup files that exceed maximum allowed size of 5 MB', () => {
+    const hugePayload = ' '.repeat(5 * 1024 * 1024 + 10);
+    const result = parseAndValidateBackup(hugePayload);
+    expect(result.success).toBe(false);
+    expect(result.error).toContain('exceeds maximum allowed size');
+  });
+
+  it('protects against prototype pollution by ignoring __proto__ and constructor keys', () => {
+    const maliciousJson = JSON.stringify({
+      version: 1,
+      timestamp: Date.now(),
+      masteredIds: ['w1'],
+      srsData: {
+        __proto__: { level: 5, lastReview: 100 },
+        constructor: { level: 5, lastReview: 100 },
+        prototype: { level: 5, lastReview: 100 },
+        w1: { level: 2, lastReview: 200 }
+      }
+    });
+
+    const result = parseAndValidateBackup(maliciousJson);
+    expect(result.success).toBe(true);
+    expect(result.data?.srsData).not.toHaveProperty('__proto__');
+    expect(result.data?.srsData).not.toHaveProperty('constructor');
+    expect(result.data?.srsData).not.toHaveProperty('prototype');
+    expect(result.data?.srsData.w1.level).toBe(2);
+    // Verify Object.prototype is unharmed
+    expect(({} as Record<string, unknown>).level).toBeUndefined();
+  });
+
   it('triggers browser download link in downloadBackupFile', () => {
     const clickSpy = vi.fn();
     const createElementSpy = vi.spyOn(document, 'createElement').mockReturnValue({

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { Button } from './ui/button';
 import { Sparkles, Copy, Check } from 'lucide-vue-next';
-import { sanitizeHtml } from '../utils/sanitize';
+import { sanitizeAiHtml } from '../utils/sanitize';
 
 defineProps<{
   isLoading: boolean;
@@ -65,7 +65,7 @@ const emit = defineEmits<{
     <div v-else class="text-xs leading-relaxed font-sans pr-1">
       <div
         class="whitespace-pre-wrap select-text font-normal text-slate-800 dark:text-slate-200"
-        v-html="sanitizeHtml(resultText)"
+        v-html="sanitizeAiHtml(resultText)"
       ></div>
       <span
         v-if="isLoading && isGenerating"

@@ -96,10 +96,8 @@ export const matchesSearchFilter = (
   normalizedQuery: string
 ): boolean => {
   if (!rawQuery) return true;
-  if (!item._searchIndex) {
-    item._searchIndex = buildSearchIndex(item);
-  }
-  return item._searchIndex.includes(rawQuery) || item._searchIndex.includes(normalizedQuery);
+  const index = item._searchIndex ?? buildSearchIndex(item);
+  return index.includes(rawQuery) || index.includes(normalizedQuery);
 };
 
 export interface StudyStreakData {
@@ -163,6 +161,41 @@ watch([search, levelFilter, themaFilter], () => {
   shuffledIndices.value = [];
 });
 
+let saveSRSTimeout: ReturnType<typeof setTimeout> | null = null;
+
+export const flushPendingSRS = (): void => {
+  if (saveSRSTimeout !== null) {
+    clearTimeout(saveSRSTimeout);
+    saveSRSTimeout = null;
+  }
+  safeStorage.setItem(STORAGE_KEYS.SRS_DATA, srsData.value);
+};
+
+export const saveSRS = (immediate = false): void => {
+  if (immediate) {
+    flushPendingSRS();
+    return;
+  }
+  if (saveSRSTimeout !== null) {
+    clearTimeout(saveSRSTimeout);
+  }
+  saveSRSTimeout = setTimeout(() => {
+    saveSRSTimeout = null;
+    safeStorage.setItem(STORAGE_KEYS.SRS_DATA, srsData.value);
+  }, 500);
+};
+
+if (typeof window !== 'undefined') {
+  window.addEventListener('beforeunload', flushPendingSRS);
+  if (typeof document !== 'undefined') {
+    document.addEventListener('visibilitychange', () => {
+      if (document.visibilityState === 'hidden') {
+        flushPendingSRS();
+      }
+    });
+  }
+}
+
 export function useVocabulary() {
   const recordStudyActivity = () => {
     const today = getTodayDateString();
@@ -205,6 +238,9 @@ export function useVocabulary() {
         data = await response.json();
       }
       if (data) {
+        for (let i = 0; i < data.length; i++) {
+          data[i]._searchIndex = buildSearchIndex(data[i]);
+        }
         vocabulary.value = data;
       }
     } catch (err: unknown) {
@@ -214,10 +250,6 @@ export function useVocabulary() {
     } finally {
       isLoading.value = false;
     }
-  };
-
-  const saveSRS = () => {
-    safeStorage.setItem(STORAGE_KEYS.SRS_DATA, srsData.value);
   };
 
   const toggleMastered = (item: Word) => {
@@ -239,7 +271,7 @@ export function useVocabulary() {
     masteredIds.value = new Set<string>(newMasteredIds);
     srsData.value = { ...newSrsData };
     safeStorage.setItem(STORAGE_KEYS.MASTERED_WORDS, Array.from(masteredIds.value));
-    saveSRS();
+    saveSRS(true);
   };
 
   const filteredVocabulary = computed(() => {
@@ -364,6 +396,8 @@ export function useVocabulary() {
     loadMore: () => {
       displayLimit.value += 24;
     },
+    saveSRS,
+    flushPendingSRS,
     getItemKey
   };
 }

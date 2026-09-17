@@ -98,7 +98,36 @@ describe('ai utils', () => {
       expect(res.success).toBe(true);
       expect(res.source).toBe('cloud');
       expect(res.text).toBe('German grammar explanation');
-      expect(globalThis.fetch).toHaveBeenCalled();
+      expect(globalThis.fetch).toHaveBeenCalledWith(
+        expect.stringMatching(/https:\/\/generativelanguage\.googleapis\.com\/v1beta\/models\/[^:]+:generateContent$/),
+        expect.objectContaining({
+          headers: expect.objectContaining({
+            'x-goog-api-key': 'test-key'
+          })
+        })
+      );
+    });
+
+    it('handles HTTP 429 quota exhaustion with friendly English message', async () => {
+      setCloudKey('test-key-quota');
+
+      const error429Response = {
+        ok: false,
+        status: 429,
+        json: async () => ({ error: { message: 'Quota exceeded for quota metric', status: 'RESOURCE_EXHAUSTED' } })
+      };
+
+      globalThis.fetch = vi
+        .fn()
+        .mockResolvedValueOnce({ ok: false, status: 500, json: async () => ({}) } as Response)
+        .mockResolvedValueOnce(error429Response as Response);
+
+      const res = await callAI('Explain word');
+      expect(res.success).toBe(false);
+      expect(res.source).toBe('none');
+      expect(res.text).toBe(
+        'Gemini API request quota exceeded. Please wait a minute before retrying, or switch to the local WebGPU model in AI settings.'
+      );
     });
 
     it('falls back to secondary model if first model fails', async () => {

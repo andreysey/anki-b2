@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { sanitizeHtml, cleanTextForSpeech } from './sanitize';
+import { sanitizeHtml, sanitizeAiHtml, cleanTextForSpeech } from './sanitize';
 
 describe('sanitizeHtml', () => {
   it('returns empty string for null, undefined or empty input', () => {
@@ -20,6 +20,44 @@ describe('sanitizeHtml', () => {
     expect(cleanOutput).not.toContain('<script>');
     expect(cleanOutput).not.toContain('</script>');
     expect(cleanOutput).toContain('<b>test</b>');
+  });
+});
+
+describe('sanitizeAiHtml', () => {
+  it('returns empty string for empty inputs', () => {
+    expect(sanitizeAiHtml(null)).toBe('');
+    expect(sanitizeAiHtml(undefined)).toBe('');
+    expect(sanitizeAiHtml('')).toBe('');
+  });
+
+  it('strictly strips style attributes to prevent CSS injection / overlays', () => {
+    const inputWithStyle = '<span style="position: fixed; top: 0; left: 0; z-index: 9999;">overlay</span>';
+    const cleanOutput = sanitizeAiHtml(inputWithStyle);
+    expect(cleanOutput).not.toContain('style=');
+    expect(cleanOutput).not.toContain('position: fixed');
+    expect(cleanOutput).toContain('overlay');
+  });
+
+  it('converts markdown bullet lists to semantic ul/li tags', () => {
+    const input = "- Erste Regel\n- Zweite Regel";
+    const cleanOutput = sanitizeAiHtml(input);
+    expect(cleanOutput).toContain('<ul');
+    expect(cleanOutput).toContain('<li>Erste Regel</li>');
+    expect(cleanOutput).toContain('<li>Zweite Regel</li>');
+  });
+
+  it('converts backtick code blocks into inline code tags', () => {
+    const input = 'Verwenden Sie `der Begriff` im Satz.';
+    const cleanOutput = sanitizeAiHtml(input);
+    expect(cleanOutput).toContain('<code');
+    expect(cleanOutput).toContain('der Begriff');
+  });
+
+  it('sanitizes script tags in AI responses', () => {
+    const maliciousInput = '<script>document.cookie</script>**Note**';
+    const cleanOutput = sanitizeAiHtml(maliciousInput);
+    expect(cleanOutput).not.toContain('<script>');
+    expect(cleanOutput).toContain('<b>Note</b>');
   });
 });
 

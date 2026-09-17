@@ -102,7 +102,12 @@ export const getAvailableGeminiModels = async (cloudKey: string): Promise<string
 
   try {
     const res = await fetch(
-      `https://generativelanguage.googleapis.com/v1beta/models?key=${cloudKey}`
+      'https://generativelanguage.googleapis.com/v1beta/models',
+      {
+        headers: {
+          'x-goog-api-key': cloudKey
+        }
+      }
     );
     if (res.ok) {
       const data = await res.json();
@@ -259,11 +264,12 @@ export const callAI = async (
   for (const model of candidateModels) {
     try {
       const response = await fetch(
-        `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${cloudKey}`,
+        `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`,
         {
           method: 'POST',
           headers: {
-            'Content-Type': 'application/json'
+            'Content-Type': 'application/json',
+            'x-goog-api-key': cloudKey
           },
           body: JSON.stringify({
             contents: [{ parts: [{ text: formattedPrompt }] }]
@@ -273,6 +279,12 @@ export const callAI = async (
 
       if (!response.ok) {
         const errData = await response.json().catch(() => ({}));
+        if (response.status === 429 || errData.error?.status === 'RESOURCE_EXHAUSTED') {
+          lastError =
+            'Gemini API request quota exceeded. Please wait a minute before retrying, or switch to the local WebGPU model in AI settings.';
+          console.warn(`Gemini candidate model ${model} hit rate/quota limit (429):`, lastError);
+          break;
+        }
         lastError = errData.error?.message || `HTTP error ${response.status}`;
         console.warn(`Gemini candidate model ${model} failed (${response.status}):`, lastError);
         continue;
@@ -297,9 +309,13 @@ export const callAI = async (
     }
   }
 
+  const errorMessage = lastError.includes('quota exceeded')
+    ? lastError
+    : `Error calling Gemini API: ${lastError}`;
+
   return {
     success: false,
-    text: `Error calling Gemini API: ${lastError}`,
+    text: errorMessage,
     source: 'none'
   };
 };

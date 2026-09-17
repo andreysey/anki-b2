@@ -3,7 +3,7 @@ import { ref } from 'vue';
 import { Progress } from './ui/progress';
 import { Button } from './ui/button';
 import { Download, Upload } from 'lucide-vue-next';
-import { downloadBackupFile, parseAndValidateBackup } from '../utils/backup';
+import { downloadBackupFile, parseAndValidateBackup, MAX_BACKUP_SIZE_BYTES } from '../utils/backup';
 import type { SRSState } from '../types';
 
 const props = defineProps<{
@@ -39,6 +39,13 @@ const handleFileImport = (event: Event) => {
   const target = event.target as HTMLInputElement;
   const file = target.files?.[0];
   if (!file) return;
+
+  if (file.size > MAX_BACKUP_SIZE_BYTES) {
+    importError.value = 'Backup file exceeds maximum allowed size of 5 MB';
+    importSuccess.value = null;
+    target.value = '';
+    return;
+  }
 
   const reader = new FileReader();
   reader.onload = (e) => {

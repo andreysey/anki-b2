@@ -120,6 +120,7 @@ describe('useVocabulary composable', () => {
     expect(vocab.currentStudyIndex.value).toBe(1);
     expect(vocab.sessionReviewedCount.value).toBe(1);
 
+    vocab.flushPendingSRS();
     const savedSRS = JSON.parse(localStorage.getItem('anki_srs_v2') || '{}');
     expect(savedSRS['1'].level).toBe(1);
   });
@@ -186,16 +187,19 @@ describe('useVocabulary composable', () => {
     vocab.isFlipped.value = true;
     vocab.updateSRS('again');
     expect(vocab.isFlipped.value).toBe(false);
+    vocab.flushPendingSRS();
     let savedSRS = JSON.parse(localStorage.getItem('anki_srs_v2') || '{}');
     expect(savedSRS['1'].level).toBe(0);
 
     // Test 'hard' rating
     vocab.updateSRS('hard');
+    vocab.flushPendingSRS();
     savedSRS = JSON.parse(localStorage.getItem('anki_srs_v2') || '{}');
     expect(savedSRS['1'].level).toBe(0);
 
     // Test 'easy' rating
     vocab.updateSRS('easy');
+    vocab.flushPendingSRS();
     savedSRS = JSON.parse(localStorage.getItem('anki_srs_v2') || '{}');
     expect(savedSRS['1'].level).toBe(2);
   });
@@ -237,5 +241,16 @@ describe('useVocabulary composable', () => {
     vocab.isAutoplay.value = true;
     await new Promise((resolve) => setTimeout(resolve, 0));
     expect(localStorage.getItem('anki_autoplay')).toBe('true');
+  });
+
+  it('debounces saveSRS and flushes immediately with flushPendingSRS', () => {
+    const vocab = useVocabulary();
+    vocab.vocabulary.value = mockWords;
+
+    vocab.updateSRS('good');
+    expect(localStorage.getItem('anki_srs_v2')).toBeNull();
+
+    vocab.flushPendingSRS();
+    expect(localStorage.getItem('anki_srs_v2')).not.toBeNull();
   });
 });
