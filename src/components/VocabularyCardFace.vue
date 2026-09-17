@@ -50,7 +50,7 @@ const handleAiActive = (active: boolean) => {
         <template v-if="showGerman">
           <div class="flex flex-col items-center justify-center gap-4 py-4 @sm:py-6 my-auto">
             <h2
-              class="text-2xl @xs:text-3xl font-extrabold text-center tracking-tight text-slate-900 dark:text-white leading-snug select-text"
+              class="text-2xl @xs:text-3xl font-extrabold text-center tracking-tight text-slate-900 dark:text-white leading-snug select-text text-balance"
               v-html="sanitizeHtml(word.german)"
             ></h2>
             <Button
@@ -71,7 +71,7 @@ const handleAiActive = (active: boolean) => {
           <div class="flex flex-col items-center justify-center gap-3 py-4 @sm:py-6 my-auto">
             <div class="flex flex-col items-center gap-2">
               <h2
-                class="text-2xl @xs:text-3xl font-extrabold text-center tracking-tight text-slate-900 dark:text-white leading-snug select-text"
+                class="text-2xl @xs:text-3xl font-extrabold text-center tracking-tight text-slate-900 dark:text-white leading-snug select-text text-balance"
               >
                 {{ word.english }}
               </h2>
@@ -87,7 +87,7 @@ const handleAiActive = (active: boolean) => {
               </Button>
             </div>
             <div
-              class="text-base @xs:text-lg font-semibold text-slate-600 dark:text-slate-300 tracking-tight text-center select-text"
+              class="text-base @xs:text-lg font-semibold text-slate-600 dark:text-slate-300 tracking-tight text-center select-text text-balance"
             >
               {{ word.ukrainian }}
             </div>
@@ -100,7 +100,7 @@ const handleAiActive = (active: boolean) => {
             class="my-3 p-3 @xs:p-3.5 rounded-2xl bg-slate-50 dark:bg-white/5 border border-slate-200/80 dark:border-white/10 shadow-2xs flex items-center justify-between gap-3"
           >
             <div
-              class="text-xs @xs:text-sm italic text-slate-700 dark:text-slate-300 leading-relaxed [&_strong]:text-primary-600 [&_strong]:dark:text-primary-400 [&_strong]:font-bold [&_b]:text-primary-600 [&_b]:dark:text-primary-400 select-text"
+              class="text-xs @xs:text-sm italic text-slate-700 dark:text-slate-300 leading-relaxed [&_strong]:text-primary-600 [&_strong]:dark:text-primary-400 [&_strong]:font-bold [&_b]:text-primary-600 [&_b]:dark:text-primary-400 select-text text-pretty"
               v-html="sanitizeHtml(word.example)"
             ></div>
             <Button

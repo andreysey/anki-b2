@@ -7,6 +7,7 @@ import { useSpeechSynthesis } from './composables/useSpeechSynthesis';
 import { useKeyboardShortcuts } from './composables/useKeyboardShortcuts';
 import { useNavigation } from './composables/useNavigation';
 import { useAIAssistantState } from './composables/useAIAssistantState';
+import { useWakeLock } from './composables/useWakeLock';
 
 // UI Components
 import { toast } from './components/ui/sonner/toast';
@@ -71,13 +72,17 @@ const {
   stopAudio
 } = useSpeechSynthesis();
 
-const { activeView, initNavigation, cleanupNavigation } = useNavigation();
+const { activeView, setView, initNavigation, cleanupNavigation } = useNavigation();
 const { isSettingsOpen } = useAIAssistantState();
+const { requestWakeLock, releaseWakeLock } = useWakeLock();
 
 // Synchronize activeView with isStudyMode bidirectionally and reset scroll
 watch(activeView, async (val) => {
   if (val !== 'study') {
     stopAudio();
+    releaseWakeLock();
+  } else {
+    requestWakeLock();
   }
   isStudyMode.value = val === 'study';
   await nextTick();
@@ -146,6 +151,7 @@ onMounted(() => {
 
 onUnmounted(() => {
   stopAudio();
+  releaseWakeLock();
   cleanupNavigation();
   cleanupTheme();
   shortcuts.cleanup();
@@ -206,7 +212,8 @@ watch(
       <!-- macOS Window Titlebar & Toolbar -->
       <AppHeader
         :appVersion="appVersion"
-        v-model:activeView="activeView"
+        :activeView="activeView"
+        @update:activeView="setView"
         :themeMode="themeMode"
         :germanVoices="germanVoices"
         v-model:selectedVoiceURI="selectedVoiceURI"

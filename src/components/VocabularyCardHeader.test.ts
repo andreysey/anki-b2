@@ -38,4 +38,15 @@ describe('VocabularyCardHeader.vue', () => {
     expect(wrapper.emitted('toggle-mastered')).toBeTruthy();
     expect(wrapper.emitted('toggle-mastered')?.[0]).toEqual([mockWord]);
   });
+
+  it('renders share word button and handles click', async () => {
+    const wrapper = mount(VocabularyCardHeader, {
+      props: { word: mockWord }
+    });
+
+    const shareBtn = wrapper.find('button[aria-label="Share word"]');
+    expect(shareBtn.exists()).toBe(true);
+    await shareBtn.trigger('click');
+    // Button click triggers handleShare safely without unhandled exceptions
+  });
 });

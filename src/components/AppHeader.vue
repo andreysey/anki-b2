@@ -49,8 +49,12 @@ const themeModeLabel = computed(() => {
 
 <template>
   <header
-    class="macos-titlebar px-4 sm:px-6 md:px-10 py-3 sm:py-3.5 flex flex-col md:flex-row md:items-center justify-between gap-3 md:gap-4 select-none shrink-0"
+    class="macos-titlebar relative px-4 sm:px-6 md:px-10 py-3 sm:py-3.5 flex flex-col md:flex-row md:items-center justify-between gap-3 md:gap-4 select-none shrink-0"
   >
+    <!-- Scroll-driven Reading / Progress Bar (CSS Scroll Timeline) -->
+    <div
+      class="scroll-progress-bar absolute bottom-0 left-0 right-0 h-[2px] bg-primary-500 pointer-events-none opacity-80"
+    ></div>
     <!-- Top row on mobile: Logo + Title (Left) & Utility Actions (Right) -->
     <div class="flex items-center justify-between w-full md:w-auto gap-3">
       <div class="flex items-center gap-2.5 sm:gap-3">

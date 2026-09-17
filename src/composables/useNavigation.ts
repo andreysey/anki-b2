@@ -53,7 +53,19 @@ export function useNavigation() {
     initNavigation,
     cleanupNavigation,
     setView: (view: AppView) => {
-      activeView.value = view;
+      if (activeView.value === view) return;
+      if (
+        typeof document !== 'undefined' &&
+        'startViewTransition' in document &&
+        typeof window !== 'undefined' &&
+        !window.matchMedia('(prefers-reduced-motion: reduce)').matches
+      ) {
+        (document as unknown as { startViewTransition: (cb: () => void) => void }).startViewTransition(() => {
+          activeView.value = view;
+        });
+      } else {
+        activeView.value = view;
+      }
     }
   };
 }

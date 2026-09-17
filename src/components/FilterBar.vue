@@ -61,7 +61,7 @@ const toggleStudyModeLabel = computed(() => (props.isStudyMode ? 'Back to List' 
   >
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-3.5 items-center">
       <!-- Spotlight Search Section with Clear Button -->
-      <div class="w-full relative">
+      <div class="search-wrapper w-full relative rounded-xl transition-all">
         <div
           class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400"
         >

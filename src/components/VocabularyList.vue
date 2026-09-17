@@ -48,7 +48,7 @@ const emit = defineEmits<{
         <div class="space-y-2.5">
           <div class="flex justify-between items-start gap-2.5">
             <div
-              class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-snug select-text"
+              class="text-base sm:text-lg font-bold text-slate-900 dark:text-white leading-snug select-text text-balance"
               v-html="sanitizeHtml(item.german)"
             ></div>
             <div class="flex items-center gap-1.5 shrink-0">
@@ -73,10 +73,10 @@ const emit = defineEmits<{
             </div>
           </div>
           <div class="space-y-0.5 text-xs sm:text-sm">
-            <div class="text-primary-600 dark:text-primary-400 font-semibold select-text">
+            <div class="text-primary-600 dark:text-primary-400 font-semibold select-text text-balance">
               {{ item.english }}
             </div>
-            <div class="text-slate-600 dark:text-slate-300 font-medium select-text">
+            <div class="text-slate-600 dark:text-slate-300 font-medium select-text text-balance">
               {{ item.ukrainian }}
             </div>
           </div>
@@ -86,7 +86,7 @@ const emit = defineEmits<{
               class="flex items-center justify-between gap-2 p-2 rounded-xl bg-slate-50 dark:bg-white/5 border border-slate-200/60 dark:border-white/5"
             >
               <div
-                class="italic text-slate-700 dark:text-slate-400 text-[11px] leading-relaxed [&_strong]:text-primary-600 [&_strong]:dark:text-primary-400 [&_b]:text-primary-600 [&_b]:dark:text-primary-400 select-text"
+                class="italic text-slate-700 dark:text-slate-400 text-[11px] leading-relaxed [&_strong]:text-primary-600 [&_strong]:dark:text-primary-400 [&_b]:text-primary-600 [&_b]:dark:text-primary-400 select-text text-pretty"
                 v-html="sanitizeHtml(item.example)"
               ></div>
               <Button

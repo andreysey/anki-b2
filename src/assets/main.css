@@ -330,6 +330,47 @@ html:not(.dark) .macos-floating-hud {
     0 1px 0 0 rgba(255, 255, 255, 1) inset;
 }
 
+/* Modern Typography: Balance & Pretty text wrapping */
+.text-balance {
+  text-wrap: balance;
+}
+
+.text-pretty {
+  text-wrap: pretty;
+}
+
+/* Modern View Transitions */
+@media (prefers-reduced-motion: no-preference) {
+  ::view-transition-old(root),
+  ::view-transition-new(root) {
+    animation-duration: 220ms;
+    animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+  }
+}
+
+/* Modern Scroll-driven Animations */
+@supports (animation-timeline: scroll()) {
+  .scroll-progress-bar {
+    transform-origin: 0% 50%;
+    animation: scroll-indicator auto linear;
+    animation-timeline: scroll(nearest root);
+  }
+
+  @keyframes scroll-indicator {
+    from {
+      transform: scaleX(0);
+    }
+    to {
+      transform: scaleX(1);
+    }
+  }
+}
+
+/* CSS :has() Enhancements */
+.search-wrapper:has(input:focus) {
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.35);
+}
+
 /* Rendering performance boost for offscreen vocabulary cards */
 .vocab-card-auto {
   content-visibility: auto;
