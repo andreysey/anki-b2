@@ -1,3 +1,10 @@
+# [1.54.0](https://github.com/andreysey/anki-b2/compare/v1.53.0...v1.54.0) (2026-09-17)
+
+
+### Features
+
+* add fuzzy search utility, prefers-reduced-motion accessibility rules, and wake-lock/speech-synthesis resilience improvements ([ec4ede7](https://github.com/andreysey/anki-b2/commit/ec4ede7d6487623ac910ffc6f068a9d66354fbc2))
+
 # [1.53.0](https://github.com/andreysey/anki-b2/compare/v1.52.0...v1.53.0) (2026-09-17)
 
 
