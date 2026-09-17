@@ -63,6 +63,10 @@ const handleFileImport = (event: Event) => {
       importSuccess.value = null;
     }
   };
+  reader.onerror = () => {
+    importError.value = 'Failed to read backup file from disk.';
+    importSuccess.value = null;
+  };
   reader.readAsText(file);
   target.value = '';
 };

@@ -30,18 +30,92 @@ const emit = defineEmits<{
   ): void;
 }>();
 
+// Aggregated Telemetry Data in a single unified pass over vocabulary
+const aggregatedMetrics = computed(() => {
+  const levels = {
+    'B1+': { total: 0, mastered: 0 },
+    'B2': { total: 0, mastered: 0 }
+  };
+
+  const leitnerCounts = {
+    box0: 0,
+    box1: 0,
+    box2: 0,
+    box3: 0,
+    box4: 0,
+    box5: 0
+  };
+
+  const themaMap = new Map<number, { total: number; mastered: number }>();
+  let masteredCount = 0;
+
+  props.vocabulary.forEach((w) => {
+    const key = getItemKey(w);
+    const isMastered = props.masteredIds.has(key);
+
+    if (isMastered) {
+      masteredCount++;
+    }
+
+    // Level breakdown
+    if (w.level === 'B1+') {
+      levels['B1+'].total++;
+      if (isMastered) levels['B1+'].mastered++;
+    } else if (w.level === 'B2') {
+      levels['B2'].total++;
+      if (isMastered) levels['B2'].mastered++;
+    }
+
+    // Leitner boxes
+    if (isMastered) {
+      leitnerCounts.box5++;
+    } else {
+      const srs = props.srsData[key];
+      if (!srs || srs.level === 0) {
+        leitnerCounts.box0++;
+      } else if (srs.level === 1) {
+        leitnerCounts.box1++;
+      } else if (srs.level === 2) {
+        leitnerCounts.box2++;
+      } else if (srs.level === 3) {
+        leitnerCounts.box3++;
+      } else if (srs.level === 4) {
+        leitnerCounts.box4++;
+      } else {
+        leitnerCounts.box5++;
+      }
+    }
+
+    // Thema breakdown
+    let entry = themaMap.get(w.thema);
+    if (!entry) {
+      entry = { total: 0, mastered: 0 };
+      themaMap.set(w.thema, entry);
+    }
+    entry.total++;
+    if (isMastered) {
+      entry.mastered++;
+    }
+  });
+
+  return {
+    levels,
+    leitnerCounts,
+    themaMap,
+    masteredCount
+  };
+});
+
 // Level Statistics (B1+ vs B2)
 const levelStats = computed(() => {
-  const levels = ['B1+', 'B2'];
-  return levels.map((lvl) => {
-    const words = props.vocabulary.filter((w) => w.level === lvl);
-    const total = words.length;
-    const mastered = words.filter((w) => props.masteredIds.has(getItemKey(w))).length;
-    const percentage = total > 0 ? Math.round((mastered / total) * 100) : 0;
+  const { levels } = aggregatedMetrics.value;
+  return (['B1+', 'B2'] as const).map((lvl) => {
+    const data = levels[lvl];
+    const percentage = data.total > 0 ? Math.round((data.mastered / data.total) * 100) : 0;
     return {
       level: lvl,
-      total,
-      mastered,
+      total: data.total,
+      mastered: data.mastered,
       percentage
     };
   });
@@ -49,89 +123,46 @@ const levelStats = computed(() => {
 
 // Detailed Leitner Box 0-5 Breakdown
 const leitnerBoxes = computed(() => {
-  const counts = {
-    box0: 0, // New / Due
-    box1: 0, // 1 Day
-    box2: 0, // 3 Days
-    box3: 0, // 7 Days
-    box4: 0, // 14 Days
-    box5: 0 // 30 Days / Mastered
-  };
-
-  props.vocabulary.forEach((w) => {
-    const key = getItemKey(w);
-    if (props.masteredIds.has(key)) {
-      counts.box5++;
-      return;
-    }
-
-    const srs = props.srsData[key];
-    if (!srs || srs.level === 0) {
-      counts.box0++;
-    } else if (srs.level === 1) {
-      counts.box1++;
-    } else if (srs.level === 2) {
-      counts.box2++;
-    } else if (srs.level === 3) {
-      counts.box3++;
-    } else if (srs.level === 4) {
-      counts.box4++;
-    } else {
-      counts.box5++;
-    }
-  });
-
+  const { leitnerCounts } = aggregatedMetrics.value;
   const total = props.vocabulary.length || 1;
 
   return [
     {
       label: 'Box 0 (New/Due)',
-      count: counts.box0,
-      percentage: Math.round((counts.box0 / total) * 100)
+      count: leitnerCounts.box0,
+      percentage: Math.round((leitnerCounts.box0 / total) * 100)
     },
     {
       label: 'Box 1 (1 Day)',
-      count: counts.box1,
-      percentage: Math.round((counts.box1 / total) * 100)
+      count: leitnerCounts.box1,
+      percentage: Math.round((leitnerCounts.box1 / total) * 100)
     },
     {
       label: 'Box 2 (3 Days)',
-      count: counts.box2,
-      percentage: Math.round((counts.box2 / total) * 100)
+      count: leitnerCounts.box2,
+      percentage: Math.round((leitnerCounts.box2 / total) * 100)
     },
     {
       label: 'Box 3 (7 Days)',
-      count: counts.box3,
-      percentage: Math.round((counts.box3 / total) * 100)
+      count: leitnerCounts.box3,
+      percentage: Math.round((leitnerCounts.box3 / total) * 100)
     },
     {
       label: 'Box 4 (14 Days)',
-      count: counts.box4,
-      percentage: Math.round((counts.box4 / total) * 100)
+      count: leitnerCounts.box4,
+      percentage: Math.round((leitnerCounts.box4 / total) * 100)
     },
     {
       label: 'Box 5 (Mastered)',
-      count: counts.box5,
-      percentage: Math.round((counts.box5 / total) * 100)
+      count: leitnerCounts.box5,
+      percentage: Math.round((leitnerCounts.box5 / total) * 100)
     }
   ];
 });
 
 // Category / Thema Detailed Breakdown
 const stats = computed(() => {
-  const themaMap = new Map<number, { total: number; mastered: number }>();
-
-  props.vocabulary.forEach((item) => {
-    let entry = themaMap.get(item.thema);
-    if (!entry) {
-      entry = { total: 0, mastered: 0 };
-      themaMap.set(item.thema, entry);
-    }
-    entry.total++;
-    if (props.masteredIds.has(getItemKey(item))) {
-      entry.mastered++;
-    }
-  });
+  const { themaMap } = aggregatedMetrics.value;
 
   return Array.from(themaMap.keys())
     .sort((a, b) => a - b)
@@ -150,15 +181,7 @@ const stats = computed(() => {
 });
 
 const totalWords = computed(() => props.vocabulary.length);
-const totalMastered = computed(() => {
-  let count = 0;
-  props.vocabulary.forEach((word) => {
-    if (props.masteredIds.has(getItemKey(word))) {
-      count++;
-    }
-  });
-  return count;
-});
+const totalMastered = computed(() => aggregatedMetrics.value.masteredCount);
 
 const totalPercentage = computed(() => {
   if (totalWords.value === 0) return 0;

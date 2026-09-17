@@ -117,4 +117,33 @@ describe('DashboardBackupSync.vue', () => {
     expect(wrapper.emitted('restore-progress')).toBeFalsy();
     expect(wrapper.text()).toContain('JSON parse error');
   });
+
+  it('handles FileReader disk read error gracefully', async () => {
+    const wrapper = mount(DashboardBackupSync, {
+      props: defaultProps
+    });
+
+    const file = new File([''], 'empty.json', { type: 'application/json' });
+    const fileInput = wrapper.find('input[type="file"]');
+
+    class FailingFileReader {
+      onerror: ((e: any) => void) | null = null;
+      readAsText(_f: any) {
+        if (this.onerror) {
+          this.onerror(new ProgressEvent('error'));
+        }
+      }
+    }
+    vi.stubGlobal('FileReader', FailingFileReader);
+
+    Object.defineProperty(fileInput.element, 'files', {
+      value: [file],
+      writable: true
+    });
+
+    await fileInput.trigger('change');
+
+    expect(wrapper.emitted('restore-progress')).toBeFalsy();
+    expect(wrapper.text()).toContain('Failed to read backup file from disk.');
+  });
 });
