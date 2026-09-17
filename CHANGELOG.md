@@ -1,3 +1,10 @@
+## [1.43.1](https://github.com/andreysey/anki-b2/compare/v1.43.0...v1.43.1) (2026-09-17)
+
+
+### Bug Fixes
+
+* ignore stale AI responses on word change, bound regex cache size, and improve touch swipe handling ([720848e](https://github.com/andreysey/anki-b2/commit/720848e39286d047f6455649712cb945cdca3154))
+
 # [1.43.0](https://github.com/andreysey/anki-b2/compare/v1.42.0...v1.43.0) (2026-09-17)
 
 
