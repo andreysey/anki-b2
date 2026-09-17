@@ -21,6 +21,7 @@ const isAiActive = ref(false);
 
 const touchStartX = ref<number | null>(null);
 const touchStartY = ref<number | null>(null);
+const lastTouchEndTime = ref<number>(0);
 
 // Reset AI expansion when card/word flips back or changes
 watch(
@@ -64,7 +65,7 @@ const handleTouchStart = (event: TouchEvent) => {
   }
 };
 
-const checkAndEmitSwipe = (deltaX: number, deltaY: number, isInsideScrollable: boolean | null) => {
+const checkAndEmitSwipe = (deltaX: number, deltaY: number, isInsideScrollable: boolean | null): boolean => {
   if (
     (!isInsideScrollable || Math.abs(deltaX) > Math.abs(deltaY) * 1.5) &&
     Math.abs(deltaX) > 50 &&
@@ -73,10 +74,13 @@ const checkAndEmitSwipe = (deltaX: number, deltaY: number, isInsideScrollable: b
     triggerHaptic();
     if (deltaX < -50) {
       emit('swipe-left');
+      return true;
     } else if (deltaX > 50) {
       emit('swipe-right');
+      return true;
     }
   }
+  return false;
 };
 
 const handleTouchEnd = (event: TouchEvent) => {
@@ -92,7 +96,19 @@ const handleTouchEnd = (event: TouchEvent) => {
   const isInsideScrollable =
     Boolean(scrollContainer && scrollContainer.scrollHeight > scrollContainer.clientHeight);
 
-  checkAndEmitSwipe(deltaX, deltaY, isInsideScrollable);
+  const isSwipe = checkAndEmitSwipe(deltaX, deltaY, isInsideScrollable);
+
+  // If not a swipe, check for responsive double-tap
+  if (!isSwipe && Math.abs(deltaX) < 15 && Math.abs(deltaY) < 15) {
+    const now = Date.now();
+    if (now - lastTouchEndTime.value < 280) {
+      triggerHaptic();
+      emit('flip');
+      lastTouchEndTime.value = 0;
+    } else {
+      lastTouchEndTime.value = now;
+    }
+  }
 
   touchStartX.value = null;
   touchStartY.value = null;

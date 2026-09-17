@@ -474,4 +474,23 @@ input[type='range']::-webkit-slider-thumb:hover {
   box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.2);
 }
 
+/* Modern Typographic Underlines (Duden/Hueber Editorial Style) */
+u, ins, a, .vocab-underline {
+  text-underline-offset: 3.5px;
+  text-decoration-thickness: 1.5px;
+  text-decoration-color: rgba(59, 130, 246, 0.45);
+}
+
+/* Zero CLS Font Fallback Metrics Smoothing */
+@supports (size-adjust: 100%) {
+  @font-face {
+    font-family: 'SF-Fallback';
+    src: local('BlinkMacSystemFont'), local('Segoe UI'), local('Helvetica Neue');
+    size-adjust: 100%;
+    ascent-override: 95%;
+    descent-override: 25%;
+    line-gap-override: 0%;
+  }
+}
+
 

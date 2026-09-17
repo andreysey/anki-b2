@@ -38,14 +38,24 @@ const filteredWords = computed(() => {
     .slice(0, 15);
 });
 
+const previouslyFocusedElement = ref<HTMLElement | null>(null);
+
 watch(
   () => props.isOpen,
   async (open) => {
     if (open) {
+      if (typeof document !== 'undefined') {
+        previouslyFocusedElement.value = document.activeElement as HTMLElement | null;
+      }
       searchQuery.value = '';
       selectedIndex.value = 0;
       await nextTick();
       inputRef.value?.focus();
+    } else {
+      if (previouslyFocusedElement.value && typeof previouslyFocusedElement.value.focus === 'function') {
+        previouslyFocusedElement.value.focus();
+        previouslyFocusedElement.value = null;
+      }
     }
   }
 );
