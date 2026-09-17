@@ -3,9 +3,16 @@ import { safeStorage } from '../utils/storage';
 import { STORAGE_KEYS } from '../constants/storage';
 
 export type ThemeMode = 'light' | 'dark' | 'system';
+export type ThemeStyle = 'macos' | 'material';
 
 const themeMode = ref<ThemeMode>(
   safeStorage.getString(STORAGE_KEYS.THEME_MODE, 'system') as ThemeMode
+);
+
+const themeStyle = ref<ThemeStyle>(
+  (safeStorage.getString(STORAGE_KEYS.THEME_STYLE, 'macos') as ThemeStyle) === 'material'
+    ? 'material'
+    : 'macos'
 );
 
 export function useTheme() {
@@ -28,12 +35,30 @@ export function useTheme() {
     } else {
       document.documentElement.classList.remove('dark');
     }
+
+    if (themeStyle.value === 'material') {
+      document.documentElement.classList.add('theme-material');
+      document.documentElement.classList.remove('theme-macos');
+    } else {
+      document.documentElement.classList.add('theme-macos');
+      document.documentElement.classList.remove('theme-material');
+    }
   };
 
   const setThemeMode = (mode: ThemeMode) => {
     themeMode.value = mode;
     safeStorage.setItem(STORAGE_KEYS.THEME_MODE, mode);
     applyTheme();
+  };
+
+  const setThemeStyle = (style: ThemeStyle) => {
+    themeStyle.value = style;
+    safeStorage.setItem(STORAGE_KEYS.THEME_STYLE, style);
+    applyTheme();
+  };
+
+  const toggleThemeStyle = () => {
+    setThemeStyle(themeStyle.value === 'macos' ? 'material' : 'macos');
   };
 
   const cycleTheme = () => {
@@ -75,11 +100,14 @@ export function useTheme() {
     }
   };
 
-  watch(themeMode, applyTheme);
+  watch([themeMode, themeStyle], applyTheme);
 
   return {
     themeMode,
+    themeStyle,
     setThemeMode,
+    setThemeStyle,
+    toggleThemeStyle,
     cycleTheme,
     initTheme,
     cleanupTheme,

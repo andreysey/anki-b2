@@ -67,7 +67,7 @@ const {
   loadMore
 } = useVocabulary();
 
-const { themeMode, cycleTheme, initTheme, cleanupTheme } = useTheme();
+const { themeMode, themeStyle, cycleTheme, toggleThemeStyle, initTheme, cleanupTheme } = useTheme();
 
 const {
   germanVoices,
@@ -275,10 +275,12 @@ watch(
         :activeView="activeView"
         @update:activeView="setView"
         :themeMode="themeMode"
+        :themeStyle="themeStyle"
         :germanVoices="germanVoices"
         v-model:selectedVoiceURI="selectedVoiceURI"
         v-model:ttsRate="ttsRate"
         @cycleTheme="cycleTheme"
+        @toggleThemeStyle="toggleThemeStyle"
       />
 
       <!-- macOS Window Body Content -->

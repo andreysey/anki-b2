@@ -41,4 +41,19 @@ describe('useTheme composable', () => {
     cycleTheme();
     expect(themeMode.value).toBe('system');
   });
+
+  it('supports themeStyle macos and material', () => {
+    const { themeStyle, setThemeStyle, toggleThemeStyle } = useTheme();
+    setThemeStyle('macos');
+    expect(themeStyle.value).toBe('macos');
+    expect(document.documentElement.classList.contains('theme-macos')).toBe(true);
+    expect(document.documentElement.classList.contains('theme-material')).toBe(false);
+    expect(localStorage.getItem('anki_theme_style')).toBe('macos');
+
+    toggleThemeStyle();
+    expect(themeStyle.value).toBe('material');
+    expect(document.documentElement.classList.contains('theme-material')).toBe(true);
+    expect(document.documentElement.classList.contains('theme-macos')).toBe(false);
+    expect(localStorage.getItem('anki_theme_style')).toBe('material');
+  });
 });

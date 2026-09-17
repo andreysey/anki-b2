@@ -10,8 +10,10 @@ import {
   List,
   GraduationCap,
   BarChart3,
-  WifiOff
+  WifiOff,
+  Palette
 } from '@lucide/vue';
+import type { ThemeStyle } from '../composables/useTheme';
 
 const isOnline = ref(typeof navigator !== 'undefined' ? navigator.onLine : true);
 
@@ -45,6 +47,7 @@ const props = defineProps<{
   appVersion: string;
   activeView: 'list' | 'study' | 'dashboard';
   themeMode: 'light' | 'dark' | 'system';
+  themeStyle?: ThemeStyle;
   germanVoices: VoiceOption[];
   selectedVoiceURI: string;
   ttsRate: number;
@@ -53,6 +56,7 @@ const props = defineProps<{
 const emit = defineEmits<{
   (e: 'update:activeView', view: 'list' | 'study' | 'dashboard'): void;
   (e: 'cycleTheme'): void;
+  (e: 'toggleThemeStyle'): void;
   (e: 'update:selectedVoiceURI', uri: string): void;
   (e: 'update:ttsRate', rate: number): void;
 }>();
@@ -121,6 +125,16 @@ const themeModeLabel = computed(() => {
           @update:ttsRate="emit('update:ttsRate', $event)"
         />
 
+        <Button
+          id="btn-theme-style-mobile"
+          variant="ghost"
+          size="icon-sm"
+          @click="emit('toggleThemeStyle')"
+          :title="`Style: ${themeStyle === 'material' ? 'Material Design 3' : 'macOS'}`"
+          class="rounded-full text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100"
+        >
+          <Palette class="h-4 w-4" />
+        </Button>
         <Button
           id="btn-theme-toggle-mobile"
           variant="ghost"
@@ -221,6 +235,16 @@ const themeModeLabel = computed(() => {
         @update:ttsRate="emit('update:ttsRate', $event)"
       />
 
+      <Button
+        id="btn-theme-style"
+        variant="ghost"
+        size="icon"
+        @click="emit('toggleThemeStyle')"
+        :title="`Style: ${themeStyle === 'material' ? 'Material Design 3' : 'macOS'}`"
+        class="rounded-full text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100"
+      >
+        <Palette class="h-4 w-4" />
+      </Button>
       <Button
         id="btn-theme-toggle"
         variant="ghost"

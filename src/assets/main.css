@@ -242,6 +242,137 @@ html:not(.dark) .macos-segmented-item-active {
   transform-style: flat !important;
 }
 
+/* ==========================================================================
+   Material Design 3 (Material You) Theme System
+   ========================================================================== */
+
+/* M3 Tokens - Light */
+html.theme-material:not(.dark) {
+  --background: 240 10% 98%;
+  --foreground: 240 10% 10%;
+  --primary: 262 52% 47%; /* M3 Primary #6750A4 */
+  --primary-foreground: 0 0% 100%;
+  --secondary: 261 14% 39%;
+  --secondary-foreground: 0 0% 100%;
+  --muted: 240 12% 92%;
+  --muted-foreground: 240 6% 40%;
+  --accent: 262 52% 95%;
+  --accent-foreground: 262 52% 35%;
+  --border: 240 6% 82%;
+  --radius: 1rem;
+}
+
+/* M3 Tokens - Dark */
+html.theme-material.dark {
+  --background: 260 14% 8%; /* M3 Surface #141218 */
+  --foreground: 260 14% 90%;
+  --primary: 263 70% 82%; /* M3 Primary #D0BCFF */
+  --primary-foreground: 262 52% 20%;
+  --secondary: 261 20% 75%;
+  --secondary-foreground: 261 20% 15%;
+  --muted: 260 10% 18%;
+  --muted-foreground: 260 10% 65%;
+  --accent: 260 14% 20%;
+  --accent-foreground: 263 70% 88%;
+  --border: 260 8% 28%;
+  --radius: 1rem;
+}
+
+/* M3 Wallpaper & Background */
+html.theme-material:not(.dark) .macos-desktop-bg {
+  background:
+    radial-gradient(circle at 10% 10%, rgba(103, 80, 164, 0.12) 0%, transparent 40%),
+    radial-gradient(circle at 90% 90%, rgba(125, 82, 96, 0.08) 0%, transparent 45%),
+    linear-gradient(180deg, #d8d3e0 0%, #cdc7d6 100%) !important;
+}
+
+html.theme-material.dark .macos-desktop-bg {
+  background:
+    radial-gradient(circle at 20% 20%, rgba(208, 188, 255, 0.07) 0%, transparent 40%),
+    radial-gradient(circle at 80% 80%, rgba(239, 184, 200, 0.05) 0%, transparent 45%),
+    linear-gradient(180deg, #141218 0%, #1d192b 100%) !important;
+}
+
+/* M3 Window Container (M3 Surface Container) */
+html.theme-material:not(.dark) .macos-window {
+  background: #ece6f0 !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  border: 1px solid #cac4d0 !important;
+  border-radius: 28px !important;
+  box-shadow:
+    0 1px 3px 0 rgba(0, 0, 0, 0.12),
+    0 6px 12px 2px rgba(0, 0, 0, 0.08) !important;
+}
+
+html.theme-material.dark .macos-window {
+  background: #211f26 !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  border: 1px solid #49454f !important;
+  border-radius: 28px !important;
+  box-shadow:
+    0 4px 12px 0 rgba(0, 0, 0, 0.35),
+    0 8px 24px 4px rgba(0, 0, 0, 0.25) !important;
+}
+
+/* M3 Top App Bar */
+html.theme-material:not(.dark) .macos-titlebar {
+  background: #e6e0e9 !important;
+  border-bottom: 1px solid #cac4d0 !important;
+}
+
+html.theme-material.dark .macos-titlebar {
+  background: #2b2930 !important;
+  border-bottom: 1px solid #49454f !important;
+}
+
+/* M3 Navigation Bar / Pill Switcher */
+html.theme-material:not(.dark) .macos-segmented-bar {
+  background: #d0bcff !important;
+  border: none !important;
+  border-radius: 9999px !important;
+  padding: 4px !important;
+}
+
+html.theme-material.dark .macos-segmented-bar {
+  background: #4f378b !important;
+  border: none !important;
+  border-radius: 9999px !important;
+  padding: 4px !important;
+}
+
+html.theme-material:not(.dark) .macos-segmented-item-active {
+  background: #21005d !important;
+  color: #ffffff !important;
+  border-radius: 9999px !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.18) !important;
+}
+
+html.theme-material.dark .macos-segmented-item-active {
+  background: #d0bcff !important;
+  color: #381e72 !important;
+  border-radius: 9999px !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) !important;
+}
+
+/* M3 Elevated & Outlined Cards Overrides */
+html.theme-material:not(.dark) [class*="bg-white/95"],
+html.theme-material:not(.dark) [class*="bg-white/90"] {
+  background-color: #f7f2fa !important;
+  border-color: #b5aebf !important;
+  border-radius: 20px !important;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08) !important;
+}
+
+html.theme-material.dark [class*="bg-slate-900/90"],
+html.theme-material.dark [class*="bg-slate-900/95"] {
+  background-color: #2b2930 !important;
+  border-color: #49454f !important;
+  border-radius: 20px !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3) !important;
+}
+
 .card-face-front {
   transform: rotateY(0deg);
 }
