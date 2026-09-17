@@ -88,6 +88,23 @@ export function useSpeechSynthesis() {
     }
   };
 
+  // Recover from audio interruptions (incoming call, tab switch, background audio)
+  if (typeof window !== 'undefined') {
+    window.addEventListener('focus', () => {
+      if ('speechSynthesis' in window && window.speechSynthesis.paused) {
+        window.speechSynthesis.resume();
+      }
+    });
+    window.addEventListener('blur', () => {
+      // Clean up queued utterances if tab loses focus to prevent stuck audio states
+      if (activeUtterances.size > 0 && typeof window.speechSynthesis !== 'undefined') {
+        if (!window.speechSynthesis.speaking) {
+          stopAudio();
+        }
+      }
+    });
+  }
+
   watch(selectedVoiceURI, (val) => {
     safeStorage.setItem(STORAGE_KEYS.TTS_VOICE, val);
   });

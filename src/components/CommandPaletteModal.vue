@@ -5,6 +5,7 @@ import type { Word } from '../types';
 import { sanitizeHtml } from '../utils/sanitize';
 import { getThemaLabel } from '../utils/thema';
 import { getItemKey } from '../composables/useVocabulary';
+import { filterWordsFuzzy } from '../utils/fuzzySearch';
 
 const props = defineProps<{
   isOpen: boolean;
@@ -24,18 +25,7 @@ const inputRef = ref<HTMLInputElement | null>(null);
 const selectedIndex = ref(0);
 
 const filteredWords = computed(() => {
-  const query = searchQuery.value.trim().toLowerCase();
-  if (!query) {
-    return props.vocabulary.slice(0, 8);
-  }
-  return props.vocabulary
-    .filter((w) => {
-      const g = w.german.toLowerCase();
-      const e = w.english.toLowerCase();
-      const u = w.ukrainian ? w.ukrainian.toLowerCase() : '';
-      return g.includes(query) || e.includes(query) || u.includes(query);
-    })
-    .slice(0, 15);
+  return filterWordsFuzzy(props.vocabulary, searchQuery.value, 15);
 });
 
 const previouslyFocusedElement = ref<HTMLElement | null>(null);
