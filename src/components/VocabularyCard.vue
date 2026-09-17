@@ -64,21 +64,7 @@ const handleTouchStart = (event: TouchEvent) => {
   }
 };
 
-const handleTouchEnd = (event: TouchEvent) => {
-  if (touchStartX.value === null || touchStartY.value === null) return;
-  const touch = event.changedTouches[0];
-  if (!touch) return;
-
-  const deltaX = touch.clientX - touchStartX.value;
-  const deltaY = touch.clientY - touchStartY.value;
-
-  // Ignore swipes if target is inside an actively scrollable container and motion is predominantly vertical
-  const target = event.target as HTMLElement | null;
-  const scrollContainer = target?.closest('.custom-scrollbar');
-  const isInsideScrollable =
-    scrollContainer && scrollContainer.scrollHeight > scrollContainer.clientHeight;
-
-  // Check if horizontal swipe exceeds 50px threshold and is clearly horizontal (deltaX > 1.5 * deltaY)
+const checkAndEmitSwipe = (deltaX: number, deltaY: number, isInsideScrollable: boolean | null) => {
   if (
     (!isInsideScrollable || Math.abs(deltaX) > Math.abs(deltaY) * 1.5) &&
     Math.abs(deltaX) > 50 &&
@@ -91,6 +77,22 @@ const handleTouchEnd = (event: TouchEvent) => {
       emit('swipe-right');
     }
   }
+};
+
+const handleTouchEnd = (event: TouchEvent) => {
+  if (touchStartX.value === null || touchStartY.value === null) return;
+  const touch = event.changedTouches[0];
+  if (!touch) return;
+
+  const deltaX = touch.clientX - touchStartX.value;
+  const deltaY = touch.clientY - touchStartY.value;
+
+  const target = event.target as HTMLElement | null;
+  const scrollContainer = target?.closest('.custom-scrollbar');
+  const isInsideScrollable =
+    Boolean(scrollContainer && scrollContainer.scrollHeight > scrollContainer.clientHeight);
+
+  checkAndEmitSwipe(deltaX, deltaY, isInsideScrollable);
 
   touchStartX.value = null;
   touchStartY.value = null;

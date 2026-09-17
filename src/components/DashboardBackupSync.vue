@@ -35,6 +35,21 @@ const triggerFileInput = () => {
   fileInputRef.value?.click();
 };
 
+const processBackupContent = (content: string) => {
+  const result = parseAndValidateBackup(content);
+  if (result.success && result.data) {
+    emit('restore-progress', {
+      masteredIds: result.data.masteredIds,
+      srsData: result.data.srsData
+    });
+    importSuccess.value = `Successfully restored ${result.data.masteredIds.length} mastered words and ${Object.keys(result.data.srsData).length} SRS cards.`;
+    importError.value = null;
+  } else {
+    importError.value = result.error || 'Failed to import backup file';
+    importSuccess.value = null;
+  }
+};
+
 const handleFileImport = (event: Event) => {
   const target = event.target as HTMLInputElement;
   const file = target.files?.[0];
@@ -49,19 +64,7 @@ const handleFileImport = (event: Event) => {
 
   const reader = new FileReader();
   reader.onload = (e) => {
-    const content = e.target?.result as string;
-    const result = parseAndValidateBackup(content);
-    if (result.success && result.data) {
-      emit('restore-progress', {
-        masteredIds: result.data.masteredIds,
-        srsData: result.data.srsData
-      });
-      importSuccess.value = `Successfully restored ${result.data.masteredIds.length} mastered words and ${Object.keys(result.data.srsData).length} SRS cards.`;
-      importError.value = null;
-    } else {
-      importError.value = result.error || 'Failed to import backup file';
-      importSuccess.value = null;
-    }
+    processBackupContent(e.target?.result as string);
   };
   reader.onerror = () => {
     importError.value = 'Failed to read backup file from disk.';

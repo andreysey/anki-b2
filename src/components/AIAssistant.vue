@@ -85,9 +85,13 @@ const handleCopy = async () => {
   }
 };
 
-const handleExplainGrammar = async () => {
+const executeAiPrompt = async (
+  type: 'grammar' | 'dialogue',
+  systemInstruction: string,
+  prompt: string
+) => {
   const currentId = ++activeRequestId;
-  explanationType.value = 'grammar';
+  explanationType.value = type;
   isLoading.value = true;
   isError.value = false;
   resultText.value = '';
@@ -95,6 +99,22 @@ const handleExplainGrammar = async () => {
   isCopied.value = false;
   emit('ai-active', true);
 
+  const res = await callAI(prompt, systemInstruction, (_chunk, fullText) => {
+    if (activeRequestId === currentId) {
+      resultText.value = fullText;
+    }
+  });
+
+  if (activeRequestId !== currentId) return;
+
+  resultText.value = res.text;
+  resultSource.value = res.source;
+  resultModel.value = res.model || '';
+  isError.value = !res.success;
+  isLoading.value = false;
+};
+
+const handleExplainGrammar = async () => {
   const systemInstruction =
     'You are a German language coach (CEFR B1/B2). ' +
     'Explain the German vocabulary term clearly in Ukrainian with bullet points. ' +
@@ -105,33 +125,10 @@ const handleExplainGrammar = async () => {
     `Example: ${props.word.example || 'N/A'}\n\n` +
     `Task: Provide meaning and grammar notes in Ukrainian.`;
 
-  const res = await callAI(prompt, systemInstruction, (_chunk, fullText) => {
-    if (activeRequestId === currentId) {
-      resultText.value = fullText;
-    }
-  });
-
-  if (activeRequestId !== currentId) {
-    return;
-  }
-
-  resultText.value = res.text;
-  resultSource.value = res.source;
-  resultModel.value = res.model || '';
-  isError.value = !res.success;
-  isLoading.value = false;
+  await executeAiPrompt('grammar', systemInstruction, prompt);
 };
 
 const handleGenerateDialogue = async () => {
-  const currentId = ++activeRequestId;
-  explanationType.value = 'dialogue';
-  isLoading.value = true;
-  isError.value = false;
-  resultText.value = '';
-  resultModel.value = '';
-  isCopied.value = false;
-  emit('ai-active', true);
-
   const systemInstruction =
     'You are a German language coach. ' +
     'Write a concise 2-speaker German workplace dialogue (2-3 lines max) using the vocabulary word. ' +
@@ -145,21 +142,7 @@ const handleGenerateDialogue = async () => {
     `B: [German line]\n` +
     `  [Ukrainian translation]`;
 
-  const res = await callAI(prompt, systemInstruction, (_chunk, fullText) => {
-    if (activeRequestId === currentId) {
-      resultText.value = fullText;
-    }
-  });
-
-  if (activeRequestId !== currentId) {
-    return;
-  }
-
-  resultText.value = res.text;
-  resultSource.value = res.source;
-  resultModel.value = res.model || '';
-  isError.value = !res.success;
-  isLoading.value = false;
+  await executeAiPrompt('dialogue', systemInstruction, prompt);
 };
 
 const displayModelLabel = computed(() => {
