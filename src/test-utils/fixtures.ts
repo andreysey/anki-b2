@@ -112,9 +112,12 @@ export const mockWindowAI = (options?: {
 };
 
 export const resetVocabularyState = async () => {
-  const { useVocabulary } = await import('../composables/useVocabulary');
+  const { useVocabulary, flushPendingSRS } = await import('../composables/useVocabulary');
+  flushPendingSRS();
   const vocab = useVocabulary();
   vocab.vocabulary.value = [];
+  vocab.isLoading.value = false;
+  vocab.error.value = null;
   vocab.masteredIds.value = new Set<string>();
   vocab.srsData.value = {};
   vocab.studyStreak.value = { lastDate: '', streak: 0 };
