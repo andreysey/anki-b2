@@ -78,9 +78,12 @@ export const getAvailableLocalModels = async (): Promise<LocalModelOption[]> => 
         id.startsWith('Llama-3.2-3B') ||
         id.startsWith('Qwen2.5-0.5B') ||
         id.startsWith('Qwen2.5-1.5B') ||
+        id.startsWith('Qwen2.5-3B') ||
         id.startsWith('Qwen3-0.6B') ||
         id.startsWith('Qwen3.5-0.8B') ||
         id.startsWith('gemma-2-2b') ||
+        id.startsWith('gemma3-1b') ||
+        id.startsWith('Ministral-3-3B-Instruct') ||
         id.startsWith('Phi-4-mini') ||
         id.startsWith('SmolLM2-360M') ||
         id.startsWith('SmolLM2-1.7B');
@@ -96,9 +99,15 @@ export const getAvailableLocalModels = async (): Promise<LocalModelOption[]> => 
     const models = await Promise.all(
       filtered.map(async (m) => {
         const isF32 = m.model_id.includes('q4f32');
-        const cleanName = m.model_id
+        let cleanName = m.model_id
           .replace(/-q[0-9]f[0-9]+.*$/, '')
-          .replace(/-MLC$/, '');
+          .replace(/-MLC$/, '')
+          .replace(/-2512-BF16$/, '');
+
+        // Friendly label tag depending on VRAM / size
+        const vram = Math.round(m.vram_required_MB || 0);
+        const tag = vram <= 1100 ? 'Fast' : vram <= 2200 ? 'Balanced' : 'High Quality';
+
         let isCached = false;
         try {
           isCached = await hasModelInCache(m.model_id);
@@ -108,8 +117,8 @@ export const getAvailableLocalModels = async (): Promise<LocalModelOption[]> => 
 
         return {
           id: m.model_id,
-          name: isF32 ? `${cleanName} (Universal 32-bit)` : cleanName,
-          vramMB: Math.round(m.vram_required_MB || 0),
+          name: isF32 ? `${cleanName} (${tag} · 32-bit)` : `${cleanName} (${tag})`,
+          vramMB: vram,
           isCached
         };
       })
@@ -124,10 +133,10 @@ export const getAvailableLocalModels = async (): Promise<LocalModelOption[]> => 
   } catch (err: unknown) {
     console.warn('Failed to dynamically load WebLLM model list:', err);
     return [
-      { id: 'SmolLM2-360M-Instruct-q4f32_1-MLC', name: 'SmolLM2-360M-Instruct (Universal 32-bit)', vramMB: 580, isCached: false },
-      { id: 'Llama-3.2-1B-Instruct-q4f32_1-MLC', name: 'Llama-3.2-1B-Instruct (Universal 32-bit)', vramMB: 1128, isCached: false },
-      { id: 'Qwen2.5-0.5B-Instruct-q4f32_1-MLC', name: 'Qwen2.5-0.5B-Instruct (Universal 32-bit)', vramMB: 1060, isCached: false },
-      { id: 'SmolLM2-360M-Instruct-q4f16_1-MLC', name: 'SmolLM2-360M-Instruct', vramMB: 376, isCached: false }
+      { id: 'SmolLM2-360M-Instruct-q4f32_1-MLC', name: 'SmolLM2-360M-Instruct (Fast · 32-bit)', vramMB: 580, isCached: false },
+      { id: 'Llama-3.2-1B-Instruct-q4f32_1-MLC', name: 'Llama-3.2-1B-Instruct (Balanced · 32-bit)', vramMB: 1128, isCached: false },
+      { id: 'Qwen2.5-0.5B-Instruct-q4f32_1-MLC', name: 'Qwen2.5-0.5B-Instruct (Fast · 32-bit)', vramMB: 1060, isCached: false },
+      { id: 'SmolLM2-360M-Instruct-q4f16_1-MLC', name: 'SmolLM2-360M-Instruct (Fast)', vramMB: 376, isCached: false }
     ];
   }
 };
