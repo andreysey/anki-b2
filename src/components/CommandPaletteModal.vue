@@ -97,6 +97,9 @@ onUnmounted(() => {
 <template>
   <div
     v-if="isOpen"
+    role="dialog"
+    aria-modal="true"
+    aria-label="Command Palette: Search vocabulary"
     class="fixed inset-0 z-50 flex items-start justify-center pt-16 sm:pt-24 px-4 bg-slate-950/60 backdrop-blur-md animate-in fade-in duration-150"
     @click.self="close"
   >
@@ -105,10 +108,15 @@ onUnmounted(() => {
     >
       <!-- Search input header -->
       <div class="relative flex items-center px-4 py-3 border-b border-slate-200/80 dark:border-white/10">
-        <Search class="h-5 w-5 text-slate-400 shrink-0 mr-3" />
+        <Search class="h-5 w-5 text-slate-400 shrink-0 mr-3" aria-hidden="true" />
         <input
           ref="inputRef"
           type="text"
+          role="combobox"
+          aria-autocomplete="list"
+          aria-expanded="true"
+          aria-controls="command-palette-results"
+          :aria-activedescendant="`cmd-option-${selectedIndex}`"
           v-model="searchQuery"
           placeholder="Search vocabulary in German, English, Ukrainian..."
           class="w-full bg-transparent text-sm sm:text-base text-slate-900 dark:text-white placeholder-slate-400 outline-none border-none"
@@ -119,14 +127,20 @@ onUnmounted(() => {
           class="p-1 rounded-lg text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 hover:bg-slate-100 dark:hover:bg-white/5 transition-colors"
           aria-label="Close search dialog"
         >
-          <X class="h-4 w-4" />
+          <X class="h-4 w-4" aria-hidden="true" />
         </button>
       </div>
 
       <!-- Results list -->
-      <div class="flex-1 overflow-y-auto custom-scrollbar p-2 space-y-1">
+      <div
+        id="command-palette-results"
+        role="listbox"
+        aria-label="Search suggestions"
+        class="flex-1 overflow-y-auto custom-scrollbar p-2 space-y-1"
+      >
         <div
           v-if="filteredWords.length === 0"
+          role="status"
           class="py-12 text-center text-sm text-slate-400"
         >
           No matching words found for "{{ searchQuery }}"
@@ -134,7 +148,10 @@ onUnmounted(() => {
 
         <div
           v-for="(word, idx) in filteredWords"
+          :id="`cmd-option-${idx}`"
           :key="getItemKey(word)"
+          role="option"
+          :aria-selected="idx === selectedIndex"
           @click="emit('select-word', word); close()"
           :class="[
             'p-3 rounded-xl flex items-center justify-between gap-3 cursor-pointer transition-all',

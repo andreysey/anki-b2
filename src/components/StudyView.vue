@@ -176,6 +176,7 @@ const emit = defineEmits<{
     >
       <button
         @click="emit('update-srs', 'again')"
+        aria-label="Grade Again: reset card to level 0 (Shortcut: Key 1 or Swipe Left)"
         class="flex flex-col items-center justify-center py-2 px-1.5 sm:px-2 rounded-xl bg-red-50 hover:bg-red-100/80 dark:bg-red-500/15 dark:hover:bg-red-500/25 active:scale-95 border border-red-200 dark:border-red-500/30 text-red-600 dark:text-red-400 font-bold transition-all cursor-pointer group"
       >
         <span class="text-xs tracking-wide">AGAIN (1)</span>
@@ -186,6 +187,7 @@ const emit = defineEmits<{
 
       <button
         @click="emit('update-srs', 'hard')"
+        aria-label="Grade Hard: repeat with same interval (Shortcut: Key 2)"
         class="flex flex-col items-center justify-center py-2 px-1.5 sm:px-2 rounded-xl bg-amber-50 hover:bg-amber-100/80 dark:bg-amber-500/15 dark:hover:bg-amber-500/25 active:scale-95 border border-amber-200 dark:border-amber-500/30 text-amber-700 dark:text-amber-400 font-bold transition-all cursor-pointer group"
       >
         <span class="text-xs tracking-wide">HARD (2)</span>
@@ -194,6 +196,7 @@ const emit = defineEmits<{
 
       <button
         @click="emit('update-srs', 'good')"
+        aria-label="Grade Good: advance card level by 1 (Shortcut: Key 3 or Swipe Right)"
         class="flex flex-col items-center justify-center py-2 px-1.5 sm:px-2 rounded-xl bg-emerald-50 hover:bg-emerald-100/80 dark:bg-emerald-500/15 dark:hover:bg-emerald-500/25 active:scale-95 border border-emerald-200 dark:border-emerald-500/30 text-emerald-700 dark:text-emerald-400 font-bold transition-all cursor-pointer group"
       >
         <span class="text-xs tracking-wide">GOOD (3)</span>
@@ -204,6 +207,7 @@ const emit = defineEmits<{
 
       <button
         @click="emit('update-srs', 'easy')"
+        aria-label="Grade Easy: advance card level by 2 (Shortcut: Key 4)"
         class="flex flex-col items-center justify-center py-2 px-1.5 sm:px-2 rounded-xl bg-blue-50 hover:bg-blue-100/80 dark:bg-blue-500/15 dark:hover:bg-blue-500/25 active:scale-95 border border-blue-200 dark:border-blue-500/30 text-blue-700 dark:text-blue-400 font-bold transition-all cursor-pointer group"
       >
         <span class="text-xs tracking-wide">EASY (4)</span>

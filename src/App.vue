@@ -257,6 +257,14 @@ watch(
   <div
     class="macos-desktop-bg min-h-screen text-slate-900 dark:text-slate-100 flex flex-col items-center justify-start p-1.5 sm:p-6 lg:p-10 font-sans selection:bg-primary-500 selection:text-white transition-colors duration-500"
   >
+    <!-- Accessible Skip to Content Link -->
+    <a
+      href="#main-content"
+      class="sr-only focus:not-sr-only focus:absolute focus:top-3 focus:left-3 focus:z-50 focus:px-4 focus:py-2 focus:bg-primary-600 focus:text-white focus:rounded-xl focus:shadow-lg focus:outline-none focus:ring-2 focus:ring-white text-xs font-bold"
+    >
+      Skip to main content
+    </a>
+
     <!-- Central macOS Floating Window -->
     <div
       class="macos-window w-full max-w-6xl rounded-2xl sm:rounded-[36px] overflow-hidden flex flex-col min-h-[96vh] sm:min-h-[90vh] my-auto"
@@ -275,8 +283,10 @@ watch(
 
       <!-- macOS Window Body Content -->
       <main
+        id="main-content"
+        tabindex="-1"
         ref="mainContentRef"
-        class="macos-main-content flex-1 flex flex-col gap-5 sm:gap-6 overflow-y-auto custom-scrollbar"
+        class="macos-main-content flex-1 flex flex-col gap-5 sm:gap-6 overflow-y-auto custom-scrollbar focus:outline-none"
       >
         <AppHero v-if="activeView === 'list'" />
 

@@ -151,11 +151,15 @@ const themeModeLabel = computed(() => {
 
     <!-- Center: macOS Segmented Navigation Pill -->
     <nav
+      role="tablist"
+      aria-label="Main Navigation"
       class="macos-segmented-bar w-full md:w-auto grid grid-cols-3 md:flex items-center gap-1 shadow-inner p-1"
     >
       <button
         type="button"
         id="tab-dictionary"
+        role="tab"
+        :aria-selected="activeView === 'list'"
         class="px-2 sm:px-4 py-1.5 text-xs sm:text-sm font-semibold rounded-lg transition-all cursor-pointer flex items-center justify-center gap-1 sm:gap-1.5 text-center"
         :class="
           activeView === 'list'
@@ -164,13 +168,15 @@ const themeModeLabel = computed(() => {
         "
         @click="emit('update:activeView', 'list')"
       >
-        <List class="h-3.5 w-3.5 shrink-0" />
+        <List class="h-3.5 w-3.5 shrink-0" aria-hidden="true" />
         <span class="hidden xs:inline sm:inline">Dictionary</span>
         <span class="xs:hidden">Words</span>
       </button>
       <button
         type="button"
         id="tab-study"
+        role="tab"
+        :aria-selected="activeView === 'study'"
         class="px-2 sm:px-4 py-1.5 text-xs sm:text-sm font-semibold rounded-lg transition-all cursor-pointer flex items-center justify-center gap-1 sm:gap-1.5 text-center"
         :class="
           activeView === 'study'
@@ -179,13 +185,15 @@ const themeModeLabel = computed(() => {
         "
         @click="emit('update:activeView', 'study')"
       >
-        <GraduationCap class="h-3.5 w-3.5 shrink-0" />
+        <GraduationCap class="h-3.5 w-3.5 shrink-0" aria-hidden="true" />
         <span class="hidden sm:inline">Study Mode</span>
         <span class="sm:hidden">Study</span>
       </button>
       <button
         type="button"
         id="tab-dashboard"
+        role="tab"
+        :aria-selected="activeView === 'dashboard'"
         class="px-2 sm:px-4 py-1.5 text-xs sm:text-sm font-semibold rounded-lg transition-all cursor-pointer flex items-center justify-center gap-1 sm:gap-1.5 text-center"
         :class="
           activeView === 'dashboard'
@@ -194,7 +202,7 @@ const themeModeLabel = computed(() => {
         "
         @click="emit('update:activeView', 'dashboard')"
       >
-        <BarChart3 class="h-3.5 w-3.5 shrink-0" />
+        <BarChart3 class="h-3.5 w-3.5 shrink-0" aria-hidden="true" />
         <span class="hidden xs:inline sm:inline">Dashboard</span>
         <span class="xs:hidden">Stats</span>
       </button>
