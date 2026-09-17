@@ -1,3 +1,10 @@
+# [1.47.0](https://github.com/andreysey/anki-b2/compare/v1.46.0...v1.47.0) (2026-09-17)
+
+
+### Features
+
+* add support for new WebLLM models and VRAM-based performance tags ([3fe50c5](https://github.com/andreysey/anki-b2/commit/3fe50c5e851bbb648e351a35d12dbc332de53c9e))
+
 # [1.46.0](https://github.com/andreysey/anki-b2/compare/v1.45.0...v1.46.0) (2026-09-17)
 
 
