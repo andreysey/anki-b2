@@ -103,10 +103,10 @@ onUnmounted(() => {
           @change="emit('update:selectedVoiceURI', ($event.target as HTMLSelectElement).value)"
           class="w-full bg-slate-50 dark:bg-black/40 border border-slate-200 dark:border-white/10 text-slate-800 dark:text-slate-100 rounded-xl p-2 text-xs sm:text-sm outline-none focus:border-primary disabled:opacity-50 disabled:cursor-not-allowed"
         >
-          <option v-if="germanVoices.length === 0" value="">
+          <option v-if="germanVoices.length === 0" value="" class="bg-white dark:bg-slate-900 text-slate-900 dark:text-slate-100">
             No German voice found (using browser default)
           </option>
-          <option v-for="voice in germanVoices" :key="voice.voiceURI" :value="voice.voiceURI">
+          <option v-for="voice in germanVoices" :key="voice.voiceURI" :value="voice.voiceURI" class="bg-white dark:bg-slate-900 text-slate-900 dark:text-slate-100">
             {{ voice.name }} ({{ voice.lang }})
           </option>
         </select>

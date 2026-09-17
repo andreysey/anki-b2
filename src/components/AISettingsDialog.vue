@@ -9,7 +9,7 @@ import {
 } from './ui/dialog';
 import { Input } from './ui/input';
 import { Button } from './ui/button';
-import { Trash2, Download } from '@lucide/vue';
+import { Trash2, Download, ChevronDown } from '@lucide/vue';
 import { useAIAssistantState } from '../composables/useAIAssistantState';
 import {
   isWebGPUSupported,
@@ -194,16 +194,20 @@ const modelActionButtonLabel = computed(() =>
                   :value="selectedLocalModel"
                   @change="handleModelChange"
                   :disabled="isModelLoading"
-                  class="w-full text-xs py-2 px-3 rounded-xl bg-slate-100 dark:bg-white/5 border border-slate-200 dark:border-white/10 text-slate-800 dark:text-slate-200 focus:outline-none focus:ring-1 focus:ring-primary-500 font-sans"
+                  class="w-full text-xs py-2 pl-3 pr-8 rounded-xl bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-white/10 text-slate-900 dark:text-slate-100 focus:outline-none focus:ring-1 focus:ring-primary-500 font-sans appearance-none cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
                 >
                   <option
                     v-for="model in availableModels"
                     :key="model.id"
                     :value="model.id"
+                    class="bg-white dark:bg-slate-900 text-slate-900 dark:text-slate-100 py-1"
                   >
                     {{ model.isCached ? '✓ [Downloaded] ' : '' }}{{ model.name }} (~{{ model.vramMB }} MB VRAM)
                   </option>
                 </select>
+                <div class="absolute inset-y-0 right-0 pr-2.5 flex items-center pointer-events-none text-slate-400">
+                  <ChevronDown class="h-4 w-4" />
+                </div>
               </div>
             </div>
 
