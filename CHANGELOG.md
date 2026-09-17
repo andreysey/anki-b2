@@ -1,3 +1,10 @@
+# [1.46.0](https://github.com/andreysey/anki-b2/compare/v1.45.0...v1.46.0) (2026-09-17)
+
+
+### Features
+
+* add execution duration to data validation output ([4ce7ead](https://github.com/andreysey/anki-b2/commit/4ce7ead82a2f5e4df1448fef80d993f257644917))
+
 # [1.45.0](https://github.com/andreysey/anki-b2/compare/v1.44.0...v1.45.0) (2026-09-17)
 
 
