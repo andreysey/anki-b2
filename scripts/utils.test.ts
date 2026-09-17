@@ -169,3 +169,19 @@ describe('getLevelFromFilename', () => {
     expect(getLevelFromFilename('B2_Thema01.txt')).toBe('B2');
   });
 });
+
+describe('getCompiledRegex cache bounding', () => {
+  it('caches and reuses compiled RegExp instances and evicts when exceeding capacity', async () => {
+    const { getCompiledRegex } = await import('./utils.js');
+    const r1 = getCompiledRegex('test1', 'i');
+    const r2 = getCompiledRegex('test1', 'i');
+    expect(r1).toBe(r2);
+
+    // Populate beyond 1000 items to verify eviction doesn't crash or fail
+    for (let i = 0; i < 1005; i++) {
+      getCompiledRegex(`pattern_${i}`, 'i');
+    }
+    const rNew = getCompiledRegex('pattern_fresh', 'i');
+    expect(rNew.test('pattern_fresh')).toBe(true);
+  });
+});

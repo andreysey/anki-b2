@@ -49,10 +49,13 @@ onMounted(async () => {
   }
 });
 
+let activeRequestId = 0;
+
 // Reset AI state when word changes
 watch(
   () => props.word,
   () => {
+    activeRequestId++;
     isLoading.value = false;
     isError.value = false;
     resultText.value = '';
@@ -83,6 +86,7 @@ const handleCopy = async () => {
 };
 
 const handleExplainGrammar = async () => {
+  const currentId = ++activeRequestId;
   explanationType.value = 'grammar';
   isLoading.value = true;
   isError.value = false;
@@ -102,8 +106,15 @@ const handleExplainGrammar = async () => {
     `Task: Provide meaning and grammar notes in Ukrainian.`;
 
   const res = await callAI(prompt, systemInstruction, (_chunk, fullText) => {
-    resultText.value = fullText;
+    if (activeRequestId === currentId) {
+      resultText.value = fullText;
+    }
   });
+
+  if (activeRequestId !== currentId) {
+    return;
+  }
+
   resultText.value = res.text;
   resultSource.value = res.source;
   resultModel.value = res.model || '';
@@ -112,6 +123,7 @@ const handleExplainGrammar = async () => {
 };
 
 const handleGenerateDialogue = async () => {
+  const currentId = ++activeRequestId;
   explanationType.value = 'dialogue';
   isLoading.value = true;
   isError.value = false;
@@ -134,8 +146,15 @@ const handleGenerateDialogue = async () => {
     `  [Ukrainian translation]`;
 
   const res = await callAI(prompt, systemInstruction, (_chunk, fullText) => {
-    resultText.value = fullText;
+    if (activeRequestId === currentId) {
+      resultText.value = fullText;
+    }
   });
+
+  if (activeRequestId !== currentId) {
+    return;
+  }
+
   resultText.value = res.text;
   resultSource.value = res.source;
   resultModel.value = res.model || '';

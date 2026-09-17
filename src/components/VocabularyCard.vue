@@ -72,8 +72,18 @@ const handleTouchEnd = (event: TouchEvent) => {
   const deltaX = touch.clientX - touchStartX.value;
   const deltaY = touch.clientY - touchStartY.value;
 
-  // Check if horizontal swipe exceeds 50px threshold and is more horizontal than vertical
-  if (Math.abs(deltaX) > 50 && Math.abs(deltaX) > Math.abs(deltaY)) {
+  // Ignore swipes if target is inside an actively scrollable container and motion is predominantly vertical
+  const target = event.target as HTMLElement | null;
+  const scrollContainer = target?.closest('.custom-scrollbar');
+  const isInsideScrollable =
+    scrollContainer && scrollContainer.scrollHeight > scrollContainer.clientHeight;
+
+  // Check if horizontal swipe exceeds 50px threshold and is clearly horizontal (deltaX > 1.5 * deltaY)
+  if (
+    (!isInsideScrollable || Math.abs(deltaX) > Math.abs(deltaY) * 1.5) &&
+    Math.abs(deltaX) > 50 &&
+    Math.abs(deltaX) > Math.abs(deltaY)
+  ) {
     triggerHaptic();
     if (deltaX < -50) {
       emit('swipe-left');

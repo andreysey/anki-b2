@@ -120,4 +120,43 @@ describe('AIAssistant.vue', () => {
     await new Promise((r) => setTimeout(r, 20));
     expect(wrapper.text()).toContain('Person A: Guten Morgen!');
   });
+
+  it('ignores stale AI responses if the word changes while call is in flight', async () => {
+    vi.spyOn(aiUtils, 'checkOnDeviceSupport').mockResolvedValue(false);
+    vi.spyOn(aiUtils, 'getCloudKey').mockReturnValue('mock-api-key');
+
+    let resolveCallAI: (val: any) => void;
+    vi.spyOn(aiUtils, 'callAI').mockImplementation(
+      () =>
+        new Promise((resolve) => {
+          resolveCallAI = resolve;
+        })
+    );
+
+    const wrapper = mount(AIAssistant, {
+      props: { word: mockWord }
+    });
+    await new Promise((r) => setTimeout(r, 20));
+
+    const btn = wrapper.findAll('button').find((b) => b.text().includes('Grammar Breakdown'));
+    await btn?.trigger('click');
+
+    // Switch word while callAI is in flight
+    await wrapper.setProps({
+      word: { ...mockWord, id: '2', german: 'schreiben' }
+    });
+
+    // Resolve the previous call
+    resolveCallAI!({
+      success: true,
+      text: 'Stale grammar breakdown result for anrufen',
+      source: 'cloud',
+      model: 'gemini-flash-lite-latest'
+    });
+
+    await new Promise((r) => setTimeout(r, 20));
+
+    // Stale result should NOT be displayed
+    expect(wrapper.text()).not.toContain('Stale grammar breakdown result');
+  });
 });

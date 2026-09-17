@@ -61,14 +61,24 @@ const {
 
 const { themeMode, cycleTheme, initTheme, cleanupTheme } = useTheme();
 
-const { germanVoices, selectedVoiceURI, ttsRate, initVoices, playAudio, playSequence } =
-  useSpeechSynthesis();
+const {
+  germanVoices,
+  selectedVoiceURI,
+  ttsRate,
+  initVoices,
+  playAudio,
+  playSequence,
+  stopAudio
+} = useSpeechSynthesis();
 
 const { activeView, initNavigation, cleanupNavigation } = useNavigation();
 const { isSettingsOpen } = useAIAssistantState();
 
 // Synchronize activeView with isStudyMode bidirectionally and reset scroll
 watch(activeView, async (val) => {
+  if (val !== 'study') {
+    stopAudio();
+  }
   isStudyMode.value = val === 'study';
   await nextTick();
   if (mainContentRef.value) {
@@ -135,6 +145,7 @@ onMounted(() => {
 });
 
 onUnmounted(() => {
+  stopAudio();
   cleanupNavigation();
   cleanupTheme();
   shortcuts.cleanup();

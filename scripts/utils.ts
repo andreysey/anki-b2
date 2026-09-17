@@ -17,11 +17,19 @@ const cleanExampleCache = new Map<string, string>();
 const colorizeGenderCache = new Map<string, string>();
 const highlightWordCache = new Map<string, string>();
 const regexPatternCache = new Map<string, RegExp>();
+const MAX_REGEX_CACHE_SIZE = 1000;
 
-const getCompiledRegex = (patternStr: string, flags: string): RegExp => {
+export const getCompiledRegex = (patternStr: string, flags: string): RegExp => {
   const key = `${patternStr}|||${flags}`;
   let regex = regexPatternCache.get(key);
   if (!regex) {
+    if (regexPatternCache.size >= MAX_REGEX_CACHE_SIZE) {
+      // Evict oldest entries
+      const firstKey = regexPatternCache.keys().next().value;
+      if (firstKey !== undefined) {
+        regexPatternCache.delete(firstKey);
+      }
+    }
     regex = new RegExp(patternStr, flags);
     regexPatternCache.set(key, regex);
   }
