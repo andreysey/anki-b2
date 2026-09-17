@@ -1,3 +1,10 @@
+## [1.43.2](https://github.com/andreysey/anki-b2/compare/v1.43.1...v1.43.2) (2026-09-17)
+
+
+### Bug Fixes
+
+* format and round tts rate to two decimal places ([abf97c4](https://github.com/andreysey/anki-b2/commit/abf97c44b7a5c5c2aa5515aacf345c0fa6bf20fc))
+
 ## [1.43.1](https://github.com/andreysey/anki-b2/compare/v1.43.0...v1.43.1) (2026-09-17)
 
 
