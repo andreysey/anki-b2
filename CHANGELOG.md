@@ -1,3 +1,10 @@
+# [1.53.0](https://github.com/andreysey/anki-b2/compare/v1.52.0...v1.53.0) (2026-09-17)
+
+
+### Features
+
+* add command palette focus restoration, vocabulary card double-tap flip, and custom typography styles ([45d9043](https://github.com/andreysey/anki-b2/commit/45d904355a7d761e0cb84a6ec347db00072da484))
+
 # [1.52.0](https://github.com/andreysey/anki-b2/compare/v1.51.0...v1.52.0) (2026-09-17)
 
 
