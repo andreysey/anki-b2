@@ -12,6 +12,8 @@ describe('useSpeechSynthesis', () => {
       lang = '';
       rate = 1;
       voice: SpeechSynthesisVoice | null = null;
+      onend: (() => void) | null = null;
+      onerror: (() => void) | null = null;
       constructor(text: string) {
         this.text = text;
       }
@@ -103,6 +105,16 @@ describe('useSpeechSynthesis', () => {
     expect(cancelMock).toHaveBeenCalled();
     expect(window.speechSynthesis.resume).toHaveBeenCalled();
     expect(speakMock).toHaveBeenCalledTimes(2);
+  });
+
+  it('clamps invalid or extreme ttsRate to safe bounds (0.5..2.0)', async () => {
+    localStorage.setItem('anki_tts_rate', '999');
+    const { ttsRate } = useSpeechSynthesis();
+    expect(ttsRate.value).toBe(2.0);
+
+    ttsRate.value = 0.1;
+    await new Promise((resolve) => setTimeout(resolve, 0));
+    expect(localStorage.getItem('anki_tts_rate')).toBe('0.5');
   });
 });
 

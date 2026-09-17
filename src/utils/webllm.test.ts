@@ -32,6 +32,7 @@ vi.mock('@mlc-ai/web-llm', () => {
       }
       return true;
     }
+    unload = vi.fn().mockResolvedValue(undefined);
     chat = {
       completions: {
         create: vi.fn().mockImplementation(async (params: any) => {

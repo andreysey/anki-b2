@@ -14,7 +14,12 @@ export function useKeyboardShortcuts(handlers: KeyboardShortcutHandlers) {
   const handleKeyDown = (e: KeyboardEvent) => {
     if (!handlers.isStudyMode.value) return;
 
-    if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) {
+    if (
+      e.target instanceof HTMLInputElement ||
+      e.target instanceof HTMLTextAreaElement ||
+      e.target instanceof HTMLSelectElement ||
+      (e.target as HTMLElement | null)?.isContentEditable
+    ) {
       return;
     }
 

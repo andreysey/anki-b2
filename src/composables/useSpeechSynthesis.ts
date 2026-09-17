@@ -3,10 +3,15 @@ import { cleanTextForSpeech } from '../utils/sanitize';
 import { safeStorage } from '../utils/storage';
 import { STORAGE_KEYS } from '../constants/storage';
 
+const activeUtterances = new Set<SpeechSynthesisUtterance>();
+
 export function useSpeechSynthesis() {
   const germanVoices = ref<SpeechSynthesisVoice[]>([]);
   const selectedVoiceURI = ref(safeStorage.getString(STORAGE_KEYS.TTS_VOICE, ''));
-  const ttsRate = ref(Number(safeStorage.getString(STORAGE_KEYS.TTS_RATE, '0.85')) || 0.85);
+
+  const rawRate = Number(safeStorage.getString(STORAGE_KEYS.TTS_RATE, '0.85'));
+  const initialRate = Number.isFinite(rawRate) ? Math.min(2.0, Math.max(0.5, rawRate)) : 0.85;
+  const ttsRate = ref(initialRate);
 
   const loadVoices = () => {
     if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
@@ -30,6 +35,7 @@ export function useSpeechSynthesis() {
   };
 
   const stopAudio = () => {
+    activeUtterances.clear();
     if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
       window.speechSynthesis.cancel();
     }
@@ -40,7 +46,8 @@ export function useSpeechSynthesis() {
   });
 
   watch(ttsRate, (val) => {
-    safeStorage.setItem(STORAGE_KEYS.TTS_RATE, String(val));
+    const clamped = Math.min(2.0, Math.max(0.5, val));
+    safeStorage.setItem(STORAGE_KEYS.TTS_RATE, String(clamped));
   });
 
   const playAudio = (text: string, lang = 'de-DE') => {
@@ -79,6 +86,11 @@ export function useSpeechSynthesis() {
         utterance.voice = englishVoice;
       }
     }
+    activeUtterances.add(utterance);
+    utterance.onend = utterance.onerror = () => {
+      activeUtterances.delete(utterance);
+    };
+
     window.speechSynthesis.speak(utterance);
   };
 
@@ -123,6 +135,11 @@ export function useSpeechSynthesis() {
       } else if (item.lang.startsWith('en') && englishVoice) {
         utterance.voice = englishVoice;
       }
+
+      activeUtterances.add(utterance);
+      utterance.onend = utterance.onerror = () => {
+        activeUtterances.delete(utterance);
+      };
 
       window.speechSynthesis.speak(utterance);
     });

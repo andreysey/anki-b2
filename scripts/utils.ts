@@ -240,7 +240,7 @@ export function highlightWordInExample(
     if (t.length >= 8) terms.push(t.slice(-6));
   });
 
-  const sortedTerms = [...new Set(terms)].sort((a, b) => b.length - a.length);
+  const sortedTerms = [...new Set<string>(terms)].sort((a, b) => b.length - a.length);
 
   const wb = `(^|[^\\p{L}\\p{N}])`;
   const we = `($|[^\\p{L}\\p{N}])`;

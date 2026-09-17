@@ -3,4 +3,9 @@ import App from './App.vue';
 import './assets/main.css';
 
 const app = createApp(App);
+
+app.config.errorHandler = (err, _instance, info) => {
+  console.error('[AnkiB2 Global Error]:', err, info);
+};
+
 app.mount('#app');

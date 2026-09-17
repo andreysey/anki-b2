@@ -135,9 +135,25 @@ export const getAvailableLocalModels = async (): Promise<LocalModelOption[]> => 
 
 let engineInstance: MLCEngineInterface | null = null;
 
+export const unloadCurrentEngine = async (): Promise<void> => {
+  if (engineInstance) {
+    try {
+      if (typeof (engineInstance as unknown as { unload?: () => Promise<void> }).unload === 'function') {
+        await (engineInstance as unknown as { unload: () => Promise<void> }).unload();
+      }
+    } catch (e) {
+      console.warn('Failed to cleanly unload WebLLM engine:', e);
+    }
+    engineInstance = null;
+    isModelReady.value = false;
+  }
+};
+
 export const setSelectedLocalModel = (modelId: string): void => {
   setStateSelectedLocalModel(modelId);
-  engineInstance = null;
+  if (engineInstance) {
+    unloadCurrentEngine().catch((err) => console.warn('Error unloading engine on model change:', err));
+  }
 };
 
 export const getWebLLMEngine = async (modelId?: string): Promise<MLCEngineInterface> => {
@@ -212,7 +228,7 @@ export const deleteLocalModelFromCache = async (modelId?: string): Promise<void>
     const { deleteModelAllInfoInCache } = await import('@mlc-ai/web-llm');
     await deleteModelAllInfoInCache(target);
     if (engineInstance) {
-      engineInstance = null;
+      await unloadCurrentEngine();
     }
     isModelReady.value = false;
   } catch (err: unknown) {

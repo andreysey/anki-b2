@@ -11,9 +11,17 @@ export const safeStorage = {
       if (item === null) {
         return defaultValue;
       }
-      return JSON.parse(item) as T;
+      try {
+        return JSON.parse(item) as T;
+      } catch {
+        if (typeof defaultValue === 'string') {
+          return item as unknown as T;
+        }
+        console.warn(`[safeStorage] Failed to parse key "${key}" from localStorage as JSON`);
+        return defaultValue;
+      }
     } catch (err: unknown) {
-      console.warn(`[safeStorage] Failed to parse key "${key}" from localStorage:`, err);
+      console.warn(`[safeStorage] Failed to access key "${key}" from localStorage:`, err);
       return defaultValue;
     }
   },

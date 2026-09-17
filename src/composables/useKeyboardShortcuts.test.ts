@@ -57,6 +57,21 @@ describe('useKeyboardShortcuts', () => {
     shortcuts.handleKeyDown(event);
 
     expect(onFlip).not.toHaveBeenCalled();
+
+    // Test select element
+    const select = document.createElement('select');
+    const selectEvent = new KeyboardEvent('keydown', { code: 'Space' });
+    Object.defineProperty(selectEvent, 'target', { value: select, writable: false });
+    shortcuts.handleKeyDown(selectEvent);
+    expect(onFlip).not.toHaveBeenCalled();
+
+    // Test contenteditable element
+    const editable = document.createElement('div');
+    editable.contentEditable = 'true';
+    const editableEvent = new KeyboardEvent('keydown', { code: 'Space' });
+    Object.defineProperty(editableEvent, 'target', { value: editable, writable: false });
+    shortcuts.handleKeyDown(editableEvent);
+    expect(onFlip).not.toHaveBeenCalled();
   });
 
   it('triggers onNext and onPrev with Arrow keys', () => {

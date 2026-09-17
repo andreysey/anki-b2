@@ -27,6 +27,12 @@ describe('safeStorage', () => {
     expect(consoleWarnSpy).toHaveBeenCalled();
   });
 
+  it('gracefully returns raw string from getItem when defaultValue is string', () => {
+    localStorage.setItem('raw_str', 'plain_unquoted_string');
+    const res = safeStorage.getItem('raw_str', 'default_str');
+    expect(res).toBe('plain_unquoted_string');
+  });
+
   it('getString returns stored string or default', () => {
     expect(safeStorage.getString('theme', 'dark')).toBe('dark');
     localStorage.setItem('theme', 'light');
