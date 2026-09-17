@@ -1,3 +1,10 @@
+# [1.52.0](https://github.com/andreysey/anki-b2/compare/v1.51.0...v1.52.0) (2026-09-17)
+
+
+### Features
+
+* add online status indicator, fullscreen zen mode, copy-to-clipboard actions, and range styling ([9b060ec](https://github.com/andreysey/anki-b2/commit/9b060ec2a445ded5c74af15fb9806d13e4945d1d))
+
 # [1.51.0](https://github.com/andreysey/anki-b2/compare/v1.50.0...v1.51.0) (2026-09-17)
 
 
