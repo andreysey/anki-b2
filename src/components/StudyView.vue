@@ -95,13 +95,13 @@ const emit = defineEmits<{
           <span>Session Progress</span>
           <span
             v-if="typeof sessionReviewedCount === 'number' && sessionReviewedCount > 0"
-            class="inline-flex items-center gap-1 px-1.5 py-0.2 rounded-md bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 text-[10px] font-mono font-bold"
+            class="inline-flex items-center gap-1 px-1.5 py-0.2 rounded-md bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 text-[10px] font-mono font-bold tabular-ticker"
           >
             <Check class="h-2.5 w-2.5" />
             {{ sessionReviewedCount }} reviewed
           </span>
         </div>
-        <span>{{ currentStudyIndex + 1 }} of {{ vocabulary.length }}</span>
+        <span class="tabular-ticker font-mono">{{ currentStudyIndex + 1 }} of {{ vocabulary.length }}</span>
       </div>
       <Progress :modelValue="studyProgress" class="h-1.5" />
     </div>

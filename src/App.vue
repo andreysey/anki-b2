@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, computed, watch, onMounted, onUnmounted, defineAsyncComponent, nextTick } from 'vue';
-import type { StudyDirection, SelectOption } from './types';
+import type { Word, StudyDirection, SelectOption } from './types';
 import { useVocabulary } from './composables/useVocabulary';
 import { useTheme } from './composables/useTheme';
 import { useSpeechSynthesis } from './composables/useSpeechSynthesis';
@@ -24,8 +24,10 @@ const Toaster = defineAsyncComponent(() => import('./components/ui/sonner/Sonner
 const StudyView = defineAsyncComponent(() => import('./components/StudyView.vue'));
 const DashboardView = defineAsyncComponent(() => import('./components/DashboardView.vue'));
 const AISettingsDialog = defineAsyncComponent(() => import('./components/AISettingsDialog.vue'));
+const CommandPaletteModal = defineAsyncComponent(() => import('./components/CommandPaletteModal.vue'));
 
 const isToasterMounted = ref(false);
+const isCommandPaletteOpen = ref(false);
 const mainContentRef = ref<HTMLElement | null>(null);
 import { updateAppBadge } from './utils/badge';
 import { playSoundFx } from './utils/soundFx';
@@ -61,6 +63,7 @@ const {
   shuffleCards,
   toggleMastered,
   restoreProgress,
+  saveSRS,
   loadMore
 } = useVocabulary();
 
@@ -161,6 +164,23 @@ watch(
   { immediate: true }
 );
 
+const handleGlobalKeydown = (e: KeyboardEvent) => {
+  if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
+    e.preventDefault();
+    isCommandPaletteOpen.value = !isCommandPaletteOpen.value;
+  }
+};
+
+const handlePageFreeze = () => {
+  // Page Lifecycle API: guarantee instant persistence of SRS state on freeze/prerender
+  saveSRS(true);
+};
+
+const handleSelectWordFromPalette = (word: Word) => {
+  search.value = word.german;
+  activeView.value = 'list';
+};
+
 onMounted(() => {
   initNavigation();
   init();
@@ -168,6 +188,10 @@ onMounted(() => {
   initVoices();
   warmupSpeech();
   shortcuts.register();
+  window.addEventListener('keydown', handleGlobalKeydown);
+  if (typeof document !== 'undefined') {
+    document.addEventListener('freeze', handlePageFreeze);
+  }
   window.addEventListener('load-toaster', () => {
     isToasterMounted.value = true;
   }, { once: true });
@@ -179,6 +203,10 @@ onUnmounted(() => {
   cleanupNavigation();
   cleanupTheme();
   shortcuts.cleanup();
+  window.removeEventListener('keydown', handleGlobalKeydown);
+  if (typeof document !== 'undefined') {
+    document.removeEventListener('freeze', handlePageFreeze);
+  }
 });
 
 watch(
@@ -324,5 +352,15 @@ watch(
         />
       </main>
     </div>
+
+    <!-- Command Palette (Cmd+K / Ctrl+K) -->
+    <CommandPaletteModal
+      v-model:isOpen="isCommandPaletteOpen"
+      :vocabulary="vocabulary"
+      :masteredIds="masteredIds"
+      @select-word="handleSelectWordFromPalette"
+      @play-audio="playAudio"
+      @toggle-mastered="toggleMastered"
+    />
   </div>
 </template>

@@ -123,7 +123,8 @@ const showGermanOnFront = computed(() => props.direction === 'DE_TO_UA');
     :class="[
       isFlipped && isAiActive
         ? 'h-137.5 xs:h-147.5 sm:h-160'
-        : 'h-97.5 xs:h-102.5 sm:h-110'
+        : 'h-97.5 xs:h-102.5 sm:h-110',
+      isFlipped ? 'card-glow-active' : ''
     ]"
     tabindex="0"
     role="button"

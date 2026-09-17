@@ -407,3 +407,48 @@ html:not(.dark) .macos-floating-hud {
   scroll-snap-stop: always;
 }
 
+/* Baseline 2024 CSS @property for hardware-accelerated animated glow borders */
+@property --card-angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+
+@keyframes rotateCardGlow {
+  to {
+    --card-angle: 360deg;
+  }
+}
+
+.card-glow-active {
+  position: relative;
+}
+
+.card-glow-active::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  border-radius: 30px;
+  background: conic-gradient(
+    from var(--card-angle),
+    transparent 20%,
+    rgba(59, 130, 246, 0.45) 50%,
+    transparent 80%
+  );
+  z-index: -1;
+  animation: rotateCardGlow 4s linear infinite;
+  pointer-events: none;
+  opacity: 0.85;
+}
+
+/* CSS scrollbar-gutter: stable to prevent layout shifts */
+html, body, .macos-main-content {
+  scrollbar-gutter: stable;
+}
+
+/* Smooth metric ticker styles with tabular numbers */
+.tabular-ticker {
+  font-variant-numeric: tabular-nums;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
