@@ -13,10 +13,17 @@ export const SRS_INTERVALS_MS: Readonly<Record<number, number>> = {
 };
 
 export const getCardDueDate = (srs?: SRSState): number => {
-  if (!srs || srs.level === 0 || !srs.lastReview) {
+  if (
+    !srs ||
+    !Number.isFinite(srs.level) ||
+    srs.level <= 0 ||
+    !Number.isFinite(srs.lastReview) ||
+    srs.lastReview <= 0
+  ) {
     return 0; // New or reset cards are due immediately
   }
-  const interval = SRS_INTERVALS_MS[srs.level] ?? SRS_INTERVALS_MS[5];
+  const safeLevel = Math.min(5, Math.max(1, Math.floor(srs.level)));
+  const interval = SRS_INTERVALS_MS[safeLevel] ?? SRS_INTERVALS_MS[5];
   return srs.lastReview + interval;
 };
 

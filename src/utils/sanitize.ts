@@ -11,6 +11,36 @@ const getDOMParser = (): DOMParser | null => {
   return domParserInstance;
 };
 
+const sanitizeStyleAttribute = (styleValue: string): string => {
+  const safeDeclarations = styleValue
+    .split(';')
+    .map((decl) => decl.trim())
+    .filter((decl) => /^color\s*:\s*[^;]+$/i.test(decl));
+  return safeDeclarations.length ? `${safeDeclarations.join('; ')};` : '';
+};
+
+purifier.addHook('afterSanitizeAttributes', (node) => {
+  if (!node || typeof (node as Element).querySelectorAll !== 'function') return;
+  const element = node as Element;
+  if (element.hasAttribute && element.hasAttribute('style')) {
+    const safeStyle = sanitizeStyleAttribute(element.getAttribute('style') || '');
+    if (safeStyle) {
+      element.setAttribute('style', safeStyle);
+    } else {
+      element.removeAttribute('style');
+    }
+  }
+  const styledDescendants = element.querySelectorAll('[style]');
+  styledDescendants.forEach((child) => {
+    const safeStyle = sanitizeStyleAttribute(child.getAttribute('style') || '');
+    if (safeStyle) {
+      child.setAttribute('style', safeStyle);
+    } else {
+      child.removeAttribute('style');
+    }
+  });
+});
+
 export const sanitizeHtml = (html: string | undefined | null): string => {
   if (!html) return '';
   const cleanScript = html.replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, '');

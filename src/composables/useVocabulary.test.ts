@@ -139,6 +139,9 @@ describe('useVocabulary composable', () => {
     expect(getCardDueDate({ level: 0, lastReview: now })).toBe(0);
     expect(getCardDueDate({ level: 1, lastReview: now })).toBe(now + SRS_INTERVALS_MS[1]);
     expect(getCardDueDate({ level: 3, lastReview: now })).toBe(now + SRS_INTERVALS_MS[3]);
+    expect(getCardDueDate({ level: NaN, lastReview: now })).toBe(0);
+    expect(getCardDueDate({ level: 2, lastReview: NaN })).toBe(0);
+    expect(getCardDueDate({ level: Infinity, lastReview: now })).toBe(0);
   });
 
   it('prioritizes overdue cards over future cards in sortedStudyVocabulary', () => {

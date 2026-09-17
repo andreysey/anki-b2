@@ -2,7 +2,7 @@
  * Safe wrapper around localStorage with fallback handling and JSON parsing resilience.
  */
 export const safeStorage = {
-  getItem<T>(key: string, defaultValue: T): T {
+  getItem<T>(key: string, defaultValue: T, validator?: (val: unknown) => boolean): T {
     if (typeof window === 'undefined' || !window.localStorage) {
       return defaultValue;
     }
@@ -12,9 +12,17 @@ export const safeStorage = {
         return defaultValue;
       }
       try {
-        return JSON.parse(item) as T;
+        const parsed = JSON.parse(item) as unknown;
+        if (validator && !validator(parsed)) {
+          console.warn(`[safeStorage] Validation failed for key "${key}" from localStorage`);
+          return defaultValue;
+        }
+        return parsed as T;
       } catch {
         if (typeof defaultValue === 'string') {
+          if (validator && !validator(item)) {
+            return defaultValue;
+          }
           return item as unknown as T;
         }
         console.warn(`[safeStorage] Failed to parse key "${key}" from localStorage as JSON`);

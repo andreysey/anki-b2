@@ -64,7 +64,13 @@ const handleFileImport = (event: Event) => {
 
   const reader = new FileReader();
   reader.onload = (e) => {
-    processBackupContent(e.target?.result as string);
+    const content = e.target?.result;
+    if (typeof content === 'string') {
+      processBackupContent(content);
+    } else {
+      importError.value = 'Failed to read backup file: invalid file format.';
+      importSuccess.value = null;
+    }
   };
   reader.onerror = () => {
     importError.value = 'Failed to read backup file from disk.';

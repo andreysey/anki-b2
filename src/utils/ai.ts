@@ -40,12 +40,16 @@ declare global {
   }
 }
 
+export const isValidApiKey = (key: string): boolean => {
+  return typeof key === 'string' && /^[A-Za-z0-9_\-]{6,128}$/.test(key.trim());
+};
+
 export const getCloudKey = (): string => {
-  return safeStorage.getString(STORAGE_KEYS.GEMINI_API_KEY, '');
+  return safeStorage.getString(STORAGE_KEYS.GEMINI_API_KEY, '').trim();
 };
 
 export const setCloudKey = (key: string): void => {
-  safeStorage.setItem(STORAGE_KEYS.GEMINI_API_KEY, key);
+  safeStorage.setItem(STORAGE_KEYS.GEMINI_API_KEY, key.trim());
 };
 
 export const getOnDeviceAIEngine = (): AILanguageModel | null => {
@@ -95,8 +99,15 @@ const DEFAULT_FALLBACK_MODELS = [
   'gemini-1.5-flash-latest'
 ];
 
-export const getAvailableGeminiModels = async (cloudKey: string): Promise<string[]> => {
-  if (cachedModels && cachedModels.length && lastKeyForCache === cloudKey) {
+export const getAvailableGeminiModels = async (
+  cloudKey: string,
+  signal?: AbortSignal
+): Promise<string[]> => {
+  const sanitizedKey = cloudKey.trim();
+  if (!isValidApiKey(sanitizedKey)) {
+    return DEFAULT_FALLBACK_MODELS;
+  }
+  if (cachedModels && cachedModels.length && lastKeyForCache === sanitizedKey) {
     return cachedModels;
   }
 
@@ -105,8 +116,9 @@ export const getAvailableGeminiModels = async (cloudKey: string): Promise<string
       'https://generativelanguage.googleapis.com/v1beta/models',
       {
         headers: {
-          'x-goog-api-key': cloudKey
-        }
+          'x-goog-api-key': sanitizedKey
+        },
+        signal
       }
     );
     if (res.ok) {
@@ -160,7 +172,8 @@ export const getAvailableGeminiModels = async (cloudKey: string): Promise<string
 export const callAI = async (
   promptText: string,
   systemInstruction?: string,
-  onProgress?: (chunk: string, fullText: string) => void
+  onProgress?: (chunk: string, fullText: string) => void,
+  signal?: AbortSignal
 ): Promise<AIServiceResponse> => {
   // 1. Try Chrome Built-in AI (Gemini Nano via W3C Prompt API)
   const onDeviceEngine = getOnDeviceAIEngine();
@@ -243,7 +256,8 @@ export const callAI = async (
   }
 
   // 3. Fallback to Cloud Gemini API
-  if (!cloudKey) {
+  const sanitizedKey = cloudKey.trim();
+  if (!sanitizedKey) {
     const errorDetail = localModelError
       ? `Local AI failed: ${localModelError}. Please check WebGPU support or configure a Gemini API key.`
       : 'No local AI model loaded and no Gemini API key configured. Open settings to load a model or enter an API key.';
@@ -254,26 +268,51 @@ export const callAI = async (
     };
   }
 
+  if (!isValidApiKey(sanitizedKey)) {
+    return {
+      success: false,
+      text: 'Invalid Gemini API key format. Please check your API key in settings.',
+      source: 'none'
+    };
+  }
+
+  if (signal?.aborted) {
+    return {
+      success: false,
+      text: 'Request cancelled',
+      source: 'none'
+    };
+  }
+
   const formattedPrompt = systemInstruction
     ? `${systemInstruction}\n\nUser request: ${promptText}`
     : promptText;
 
   let lastError = '';
-  const candidateModels = await getAvailableGeminiModels(cloudKey);
+  const candidateModels = await getAvailableGeminiModels(sanitizedKey, signal);
 
   for (const model of candidateModels) {
+    if (signal?.aborted) {
+      return {
+        success: false,
+        text: 'Request cancelled',
+        source: 'none'
+      };
+    }
+
     try {
       const response = await fetch(
-        `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`,
+        `https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(model)}:generateContent`,
         {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
-            'x-goog-api-key': cloudKey
+            'x-goog-api-key': sanitizedKey
           },
           body: JSON.stringify({
             contents: [{ parts: [{ text: formattedPrompt }] }]
-          })
+          }),
+          signal
         }
       );
 
@@ -304,6 +343,13 @@ export const callAI = async (
         model: model
       };
     } catch (err: unknown) {
+      if (signal?.aborted || (err instanceof DOMException && err.name === 'AbortError')) {
+        return {
+          success: false,
+          text: 'Request cancelled',
+          source: 'none'
+        };
+      }
       lastError = err instanceof Error ? err.message : String(err);
       console.warn(`Network attempt with ${model} failed:`, lastError);
     }

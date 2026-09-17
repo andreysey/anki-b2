@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, computed, onMounted, watch } from 'vue';
+import { ref, computed, onMounted, onUnmounted, watch } from 'vue';
 import type { Word } from '../types';
 import { callAI } from '../utils/ai';
 import { useAIAssistantState } from '../composables/useAIAssistantState';
@@ -50,11 +50,23 @@ onMounted(async () => {
 });
 
 let activeRequestId = 0;
+let activeAbortController: AbortController | null = null;
+
+onUnmounted(() => {
+  if (activeAbortController) {
+    activeAbortController.abort();
+    activeAbortController = null;
+  }
+});
 
 // Reset AI state when word changes
 watch(
   () => props.word,
   () => {
+    if (activeAbortController) {
+      activeAbortController.abort();
+      activeAbortController = null;
+    }
     activeRequestId++;
     isLoading.value = false;
     isError.value = false;
@@ -90,6 +102,12 @@ const executeAiPrompt = async (
   systemInstruction: string,
   prompt: string
 ) => {
+  if (activeAbortController) {
+    activeAbortController.abort();
+  }
+  const abortController = new AbortController();
+  activeAbortController = abortController;
+
   const currentId = ++activeRequestId;
   explanationType.value = type;
   isLoading.value = true;
@@ -99,11 +117,16 @@ const executeAiPrompt = async (
   isCopied.value = false;
   emit('ai-active', true);
 
-  const res = await callAI(prompt, systemInstruction, (_chunk, fullText) => {
-    if (activeRequestId === currentId) {
-      resultText.value = fullText;
-    }
-  });
+  const res = await callAI(
+    prompt,
+    systemInstruction,
+    (_chunk, fullText) => {
+      if (activeRequestId === currentId) {
+        resultText.value = fullText;
+      }
+    },
+    abortController.signal
+  );
 
   if (activeRequestId !== currentId) return;
 

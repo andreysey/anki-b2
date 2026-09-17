@@ -208,5 +208,22 @@ describe('ai utils', () => {
       expect(progressMock).toHaveBeenCalledWith('World', 'Hello World');
       expect(destroyMock).toHaveBeenCalled();
     });
+
+    it('rejects callAI if API key contains invalid characters', async () => {
+      setCloudKey('invalid key with spaces');
+      const res = await callAI('Hello');
+      expect(res.success).toBe(false);
+      expect(res.text).toContain('Invalid Gemini API key format');
+    });
+
+    it('aborts callAI request when AbortSignal is cancelled', async () => {
+      setCloudKey('test-valid-key');
+      const controller = new AbortController();
+      controller.abort();
+
+      const res = await callAI('Hello', undefined, undefined, controller.signal);
+      expect(res.success).toBe(false);
+      expect(res.text).toBe('Request cancelled');
+    });
   });
 });

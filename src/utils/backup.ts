@@ -30,6 +30,7 @@ export function exportBackupJson(
 }
 
 export const MAX_BACKUP_SIZE_BYTES = 5 * 1024 * 1024; // 5 MB
+export const MAX_BACKUP_ENTRIES = 25000;
 
 export function parseAndValidateBackup(rawJson: string): {
   success: boolean;
@@ -50,8 +51,23 @@ export function parseAndValidateBackup(rawJson: string): {
       return { success: false, error: 'Invalid backup format: masteredIds must be an array' };
     }
 
+    if (parsed.masteredIds.length > MAX_BACKUP_ENTRIES) {
+      return {
+        success: false,
+        error: `Invalid backup: masteredIds exceeds maximum of ${MAX_BACKUP_ENTRIES} entries`
+      };
+    }
+
     if (!parsed.srsData || typeof parsed.srsData !== 'object' || Array.isArray(parsed.srsData)) {
       return { success: false, error: 'Invalid backup format: srsData must be an object' };
+    }
+
+    const srsKeys = Object.keys(parsed.srsData);
+    if (srsKeys.length > MAX_BACKUP_ENTRIES) {
+      return {
+        success: false,
+        error: `Invalid backup: srsData exceeds maximum of ${MAX_BACKUP_ENTRIES} entries`
+      };
     }
 
     // Sanitize masteredIds to strings
@@ -60,17 +76,22 @@ export function parseAndValidateBackup(rawJson: string): {
       .map((id: string) => id.trim())
       .filter(Boolean);
 
-    // Validate SRS records with prototype pollution protection
+    // Validate SRS records with prototype pollution protection and finite number validation
     const validSRS: Record<string, SRSState> = {};
     for (const [key, val] of Object.entries(parsed.srsData)) {
       if (key === '__proto__' || key === 'constructor' || key === 'prototype') {
         continue;
       }
-      if (val && typeof val === 'object' && typeof (val as SRSState).level === 'number') {
+      if (
+        val &&
+        typeof val === 'object' &&
+        Number.isFinite((val as SRSState).level) &&
+        Number.isFinite((val as SRSState).lastReview)
+      ) {
         const srs = val as SRSState;
         validSRS[key] = {
           level: Math.min(5, Math.max(0, Math.floor(srs.level))),
-          lastReview: typeof srs.lastReview === 'number' ? srs.lastReview : 0
+          lastReview: Math.max(0, Math.floor(srs.lastReview))
         };
       }
     }

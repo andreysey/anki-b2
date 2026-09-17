@@ -100,6 +100,22 @@ describe('backup utility', () => {
     expect(({} as Record<string, unknown>).level).toBeUndefined();
   });
 
+  it('ignores entries with NaN or non-finite numbers', () => {
+    const corruptedJson = '{"masteredIds":[],"srsData":{"valid":{"level":3,"lastReview":100},"bad1":{"level":null,"lastReview":100},"bad2":{"level":"five","lastReview":100}}}';
+    const result = parseAndValidateBackup(corruptedJson);
+    expect(result.success).toBe(true);
+    expect(result.data?.srsData.valid).toBeDefined();
+    expect(result.data?.srsData.bad1).toBeUndefined();
+    expect(result.data?.srsData.bad2).toBeUndefined();
+  });
+
+  it('rejects backup with too many masteredIds entries', () => {
+    const hugeList = Array.from({ length: 25001 }, (_, i) => `id-${i}`);
+    const result = parseAndValidateBackup(JSON.stringify({ masteredIds: hugeList, srsData: {} }));
+    expect(result.success).toBe(false);
+    expect(result.error).toContain('exceeds maximum of 25000 entries');
+  });
+
   it('triggers browser download link in downloadBackupFile', () => {
     const clickSpy = vi.fn();
     const createElementSpy = vi.spyOn(document, 'createElement').mockReturnValue({

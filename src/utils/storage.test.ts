@@ -51,4 +51,17 @@ describe('safeStorage', () => {
     expect(success).toBe(true);
     expect(localStorage.getItem('temp')).toBeNull();
   });
+
+  it('uses validator to reject malformed stored data and fall back to defaultValue', () => {
+    localStorage.setItem('validated_key', JSON.stringify({ wrongProp: true }));
+    const isNumberArray = (val: unknown): boolean =>
+      Array.isArray(val) && val.every((v) => typeof v === 'number');
+
+    const res = safeStorage.getItem('validated_key', [1, 2, 3], isNumberArray);
+    expect(res).toEqual([1, 2, 3]);
+
+    localStorage.setItem('validated_key', JSON.stringify([10, 20]));
+    const validRes = safeStorage.getItem('validated_key', [1, 2, 3], isNumberArray);
+    expect(validRes).toEqual([10, 20]);
+  });
 });

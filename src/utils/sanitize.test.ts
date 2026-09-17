@@ -21,6 +21,18 @@ describe('sanitizeHtml', () => {
     expect(cleanOutput).not.toContain('</script>');
     expect(cleanOutput).toContain('<b>test</b>');
   });
+
+  it('allows color style for highlighting but strips dangerous CSS properties', () => {
+    const safeInput = '<b style="color: #eab308;">Highlight</b>';
+    expect(sanitizeHtml(safeInput)).toContain('style="color: #eab308;"');
+
+    const dangerousInput = '<span style="position: fixed; top: 0; z-index: 9999; color: red;">test</span>';
+    const cleanOutput = sanitizeHtml(dangerousInput);
+    expect(cleanOutput).not.toContain('position');
+    expect(cleanOutput).not.toContain('fixed');
+    expect(cleanOutput).not.toContain('z-index');
+    expect(cleanOutput).toContain('color: red');
+  });
 });
 
 describe('sanitizeAiHtml', () => {
