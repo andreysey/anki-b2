@@ -1,3 +1,10 @@
+# [1.45.0](https://github.com/andreysey/anki-b2/compare/v1.44.0...v1.45.0) (2026-09-17)
+
+
+### Features
+
+* add ARIA slider attributes to TTS rate input for accessibility ([d853af8](https://github.com/andreysey/anki-b2/commit/d853af83cadfe2492b3c8598ed0ec5891a03c792))
+
 # [1.44.0](https://github.com/andreysey/anki-b2/compare/v1.43.2...v1.44.0) (2026-09-17)
 
 
