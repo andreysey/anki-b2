@@ -1,3 +1,10 @@
+# [1.44.0](https://github.com/andreysey/anki-b2/compare/v1.43.2...v1.44.0) (2026-09-17)
+
+
+### Features
+
+* add fallback option and disable voice select when no German voices are found ([7240b27](https://github.com/andreysey/anki-b2/commit/7240b27b98f1c71427b1c613bda9f3bb2af145ef))
+
 ## [1.43.2](https://github.com/andreysey/anki-b2/compare/v1.43.1...v1.43.2) (2026-09-17)
 
 
