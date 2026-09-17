@@ -114,4 +114,17 @@ describe('AudioSettingsPopover.vue', () => {
     expect(wrapper.emitted('update:ttsRate')).toBeTruthy();
     expect(wrapper.emitted('update:ttsRate')![0]).toEqual([0.85]);
   });
+
+  it('provides proper ARIA slider attributes for accessibility', async () => {
+    const wrapper = mount(AudioSettingsPopover, {
+      props: defaultProps
+    });
+
+    await wrapper.find('#btn-audio-settings-header').trigger('click');
+    const slider = wrapper.find('#tts-rate-header');
+    expect(slider.attributes('aria-valuemin')).toBe('0.5');
+    expect(slider.attributes('aria-valuemax')).toBe('1.5');
+    expect(slider.attributes('aria-valuenow')).toBe('0.85');
+    expect(slider.attributes('aria-valuetext')).toBe('0.85 times normal speed');
+  });
 });

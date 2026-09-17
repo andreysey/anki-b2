@@ -138,6 +138,10 @@ onUnmounted(() => {
           max="1.5"
           step="0.05"
           :value="ttsRate"
+          :aria-valuemin="0.5"
+          :aria-valuemax="1.5"
+          :aria-valuenow="ttsRate"
+          :aria-valuetext="`${Number(ttsRate).toFixed(2)} times normal speed`"
           @input="emit('update:ttsRate', Math.round(Number(($event.target as HTMLInputElement).value) * 100) / 100)"
           class="w-full h-2 bg-slate-300 dark:bg-white/20 rounded-lg cursor-pointer accent-primary block"
         />
