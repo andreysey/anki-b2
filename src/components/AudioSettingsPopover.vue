@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from 'vue';
 import { Button } from './ui/button';
-import { Volume2, X } from 'lucide-vue-next';
+import { Volume2, X, RotateCcw } from 'lucide-vue-next';
 
 interface VoiceOption {
   voiceURI: string;
@@ -114,7 +114,20 @@ onUnmounted(() => {
 
       <div class="space-y-2">
         <div class="flex justify-between items-center text-[11px] font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">
-          <label :for="`tts-rate-${idPrefix}`">Speech Rate</label>
+          <div class="flex items-center gap-1.5">
+            <label :for="`tts-rate-${idPrefix}`">Speech Rate</label>
+            <button
+              v-if="ttsRate !== 0.85"
+              type="button"
+              @click="emit('update:ttsRate', 0.85)"
+              class="text-[10px] text-slate-400 hover:text-primary transition-colors flex items-center gap-0.5 font-normal lowercase"
+              title="Reset rate to default 0.85x"
+              aria-label="Reset speech rate to default 0.85x"
+            >
+              <RotateCcw class="h-2.5 w-2.5" />
+              <span>reset</span>
+            </button>
+          </div>
           <span class="font-mono text-primary">{{ Number(ttsRate).toFixed(2) }}x</span>
         </div>
         <input

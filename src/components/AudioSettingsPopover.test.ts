@@ -97,4 +97,21 @@ describe('AudioSettingsPopover.vue', () => {
     expect(select.attributes('disabled')).toBeDefined();
     expect(select.text()).toContain('No German voice found');
   });
+
+  it('renders reset button when ttsRate is non-default and resets to 0.85 when clicked', async () => {
+    const wrapper = mount(AudioSettingsPopover, {
+      props: {
+        ...defaultProps,
+        ttsRate: 1.25
+      }
+    });
+
+    await wrapper.find('#btn-audio-settings-header').trigger('click');
+    const resetBtn = wrapper.find('button[aria-label="Reset speech rate to default 0.85x"]');
+    expect(resetBtn.exists()).toBe(true);
+
+    await resetBtn.trigger('click');
+    expect(wrapper.emitted('update:ttsRate')).toBeTruthy();
+    expect(wrapper.emitted('update:ttsRate')![0]).toEqual([0.85]);
+  });
 });
