@@ -1,3 +1,10 @@
+# [1.56.0](https://github.com/andreysey/anki-b2/compare/v1.55.0...v1.56.0) (2026-09-17)
+
+
+### Features
+
+* add Material Design 3 theme style option with toggle controls and CSS tokens ([4dd02d5](https://github.com/andreysey/anki-b2/commit/4dd02d5f8b3f3e9f4795dba77a255c801749e449))
+
 # [1.55.0](https://github.com/andreysey/anki-b2/compare/v1.54.0...v1.55.0) (2026-09-17)
 
 
