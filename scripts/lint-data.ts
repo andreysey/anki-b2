@@ -131,6 +131,7 @@ function checkFile(filePath: string) {
 }
 
 function run() {
+  const startTime = performance.now();
   console.log('🔍 Starting validation of data files...');
   if (!fs.existsSync(sourceDir)) {
     console.error(`Error: Directory ${sourceDir} does not exist.`);
@@ -140,15 +141,17 @@ function run() {
   const files = fs.readdirSync(sourceDir).filter((f) => f.endsWith('.txt'));
   files.forEach((f) => checkFile(path.join(sourceDir, f)));
 
+  const durationMs = (performance.now() - startTime).toFixed(1);
+
   if (errorCount > 0) {
     console.error(
-      `\n❌ Validation failed: ${errorCount} error(s), ${warningCount} warning(s) found.`
+      `\n❌ Validation failed: ${errorCount} error(s), ${warningCount} warning(s) found in ${durationMs}ms.`
     );
     process.exit(1);
   } else if (warningCount > 0) {
-    console.log(`\n⚠️  Validation passed with ${warningCount} warning(s).`);
+    console.log(`\n⚠️  Validation passed with ${warningCount} warning(s) in ${durationMs}ms.`);
   } else {
-    console.log('\n✅ Validation passed with zero errors/warnings.');
+    console.log(`\n✅ Validation passed with zero errors/warnings in ${durationMs}ms.`);
   }
 }
 
