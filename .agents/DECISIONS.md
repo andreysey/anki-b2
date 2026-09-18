@@ -98,3 +98,21 @@ Passing these raw strings to the Web Speech API causes the speech synthesizer to
 Created centralized audio sanitizers (`src/utils/audioCleaners.ts`):
 - `cleanGermanForSpeech(text)`: Strips parenthesized forms, plural suffixes after commas, and cleanses the string for native German pronunciation.
 - `cleanUkrainianForSpeech(text)`: Normalizes translations for speech synthesis.
+
+---
+
+## ADR-006: Mandatory Test Environment Isolation in Vitest (`isolate: true`)
+
+### Context
+Vitest issues an informational hint during test execution suggesting that recreating DOM environments across multiple test files has overhead, and points to `isolate: false`. In a standard stateless utility library, disabling isolation can accelerate local test runs.
+
+However, in this application:
+1. Composables use the **Module-Level Singleton Pattern** (ADR-001) where reactive state (`vocabulary`, `masteredIds`, `srsData`, `studyStreak`, theme, audio playback) lives at the module scope.
+2. Numerous tests mock global browser APIs and environment interfaces (`navigator.wakeLock`, `window.AudioContext`, `document.activeElement`, `window.localStorage`).
+
+### Decision
+Strictly preserve Vitest test environment isolation (`isolate: true`, default in Vitest). Never disable isolation or share global DOM/worker environments across test suites.
+
+### Rationale & Consequences
+- **Deterministic & Flaky-Free Tests**: Eliminates cross-suite state leakage, polluted browser mock objects, and un-reset singleton reactive objects between test files.
+- **Negligible Performance Penalty**: The entire test suite of 37+ files and 200+ tests executes in ~3.5 seconds on Node.js 24, rendering micro-optimizations unnecessary at the cost of correctness.

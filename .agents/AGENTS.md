@@ -11,6 +11,7 @@
   2. Deck generation: `npm run generate:anki`
   3. Production build: `npm run build`
 - **Data Integrity**: Source vocabulary files in `source/*.txt` are the single source of truth for Anki decks and `public/data.json`. Never edit `public/data.json` directly.
+- **Test Environment Isolation (Vitest)**: Always preserve full test suite isolation (`isolate: true`). Never disable isolation (`isolate: false`) to prevent module-level singleton state leakage and mock contamination across tests.
 
 ## Anki Schema & Template Safety (Preserving Learning Progress)
 - **Backup Reminder**: Always advise backing up Anki collection (`File -> Export -> Anki Collection Package (.colpkg)` with scheduling information) before making structural changes to note types or templates.

@@ -2,6 +2,9 @@
 
 This document provides a comprehensive overview of the `anki-b2` codebase, its subsystems, state management, and data flow pipelines.
 
+> [!NOTE]
+> For the historical rationale, trade-offs, and key technical decisions behind this architecture, see the **[Architecture Decision Records (.agents/DECISIONS.md)](file:///home/kubuntu/Dev/anki-b2/.agents/DECISIONS.md)**.
+
 ---
 
 ## 1. High-Level System Architecture

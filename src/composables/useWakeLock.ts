@@ -7,6 +7,7 @@ export function useWakeLock() {
   let sentinel: { release: () => Promise<void>; addEventListener: (event: string, cb: () => void) => void } | null = null;
 
   const INACTIVITY_TIMEOUT_MS = 5 * 60 * 1000; // 5 minutes
+  let isAcquiring = false;
   let inactivityTimer: ReturnType<typeof setTimeout> | null = null;
 
   const resetInactivityTimer = () => {
@@ -15,8 +16,8 @@ export function useWakeLock() {
       inactivityTimer = null;
     }
     if (shouldBeLocked) {
-      if (!isLocked.value) {
-        void requestWakeLock();
+      if (!isLocked.value && !isAcquiring) {
+        void acquireWakeLock();
       }
       inactivityTimer = setTimeout(async () => {
         // Auto-release to prevent battery drain if user walks away
@@ -39,10 +40,9 @@ export function useWakeLock() {
     }
   };
 
-  const requestWakeLock = async () => {
-    shouldBeLocked = true;
-    resetInactivityTimer();
-    if (!isSupported || isLocked.value) return;
+  const acquireWakeLock = async () => {
+    if (!isSupported || isLocked.value || isAcquiring) return;
+    isAcquiring = true;
     try {
       sentinel = await (navigator as unknown as { wakeLock: { request: (type: string) => Promise<any> } }).wakeLock.request('screen');
       isLocked.value = true;
@@ -53,7 +53,15 @@ export function useWakeLock() {
     } catch {
       isLocked.value = false;
       sentinel = null;
+    } finally {
+      isAcquiring = false;
     }
+  };
+
+  const requestWakeLock = async () => {
+    shouldBeLocked = true;
+    resetInactivityTimer();
+    await acquireWakeLock();
   };
 
   const releaseWakeLock = async () => {
