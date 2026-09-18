@@ -1,3 +1,10 @@
+## [1.56.1](https://github.com/andreysey/anki-b2/compare/v1.56.0...v1.56.1) (2026-09-18)
+
+
+### Bug Fixes
+
+* resolve wake-lock recursion and document Vitest isolation policy in ADR-006 ([08a9246](https://github.com/andreysey/anki-b2/commit/08a9246a13e38254b0d3b57777096e28df615d94))
+
 # [1.56.0](https://github.com/andreysey/anki-b2/compare/v1.55.0...v1.56.0) (2026-09-17)
 
 
