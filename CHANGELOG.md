@@ -1,3 +1,10 @@
+# [1.59.0](https://github.com/andreysey/anki-b2/compare/v1.58.0...v1.59.0) (2026-10-29)
+
+
+### Features
+
+* **ai:** setup help for local AI on every system and browser ([930835a](https://github.com/andreysey/anki-b2/commit/930835a6af420cadb0983e73c5dcd615f9e427d0))
+
 # [1.58.0](https://github.com/andreysey/anki-b2/compare/v1.57.0...v1.58.0) (2026-10-29)
 
 
