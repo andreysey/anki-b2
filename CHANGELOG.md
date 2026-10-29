@@ -1,3 +1,10 @@
+# [1.61.0](https://github.com/andreysey/anki-b2/compare/v1.60.0...v1.61.0) (2026-10-29)
+
+
+### Features
+
+* **ui:** responsive and touch improvements across views ([83d800f](https://github.com/andreysey/anki-b2/commit/83d800f633cf24878881665c1e9c2f2e2e86d282))
+
 # [1.60.0](https://github.com/andreysey/anki-b2/compare/v1.59.0...v1.60.0) (2026-10-29)
 
 
