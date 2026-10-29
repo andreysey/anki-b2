@@ -18,6 +18,7 @@ vi.mock('../utils/ai', () => ({
 }));
 
 vi.mock('../utils/webllm', () => ({
+  checkWebGPUAvailability: vi.fn(),
   getAvailableLocalModels: vi.fn(),
   isModelCached: vi.fn(),
   getWebLLMEngine: vi.fn(),
@@ -134,6 +135,7 @@ describe('AISettingsDialog.vue', () => {
       modelLoadingProgress.value = 0;
       modelLoadingText.value = '';
 
+      vi.mocked(webllm.checkWebGPUAvailability).mockReset().mockResolvedValue(true);
       vi.mocked(webllm.getAvailableLocalModels).mockReset().mockResolvedValue(MODELS);
       vi.mocked(webllm.isModelCached)
         .mockReset()
@@ -164,6 +166,25 @@ describe('AISettingsDialog.vue', () => {
       expect(wrapper.text()).toContain('WebGPU Unavailable');
       expect(wrapper.find('#localModelSelect').exists()).toBe(false);
       expect(webllm.getAvailableLocalModels).not.toHaveBeenCalled();
+      expect(wrapper.find('[data-testid="webgpu-help"]').exists()).toBe(true);
+      expect(wrapper.find('[data-testid="webgpu-help"] a').attributes('href')).toContain(
+        'LOCAL_AI_GUIDE.md'
+      );
+    });
+
+    it('shows help instead of the download button when WebGPU has no GPU adapter', async () => {
+      vi.mocked(webllm.checkWebGPUAvailability).mockResolvedValue(false);
+      const wrapper = await mountOpen();
+
+      expect(wrapper.text()).toContain('WebGPU Unavailable');
+      expect(wrapper.find('[data-testid="webgpu-help"]').exists()).toBe(true);
+      expect(wrapper.find('#localModelSelect').exists()).toBe(false);
+      expect(webllm.getAvailableLocalModels).not.toHaveBeenCalled();
+    });
+
+    it('hides the help when a GPU is available', async () => {
+      const wrapper = await mountOpen();
+      expect(wrapper.find('[data-testid="webgpu-help"]').exists()).toBe(false);
     });
 
     it('lists discovered models and marks downloaded ones', async () => {

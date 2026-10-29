@@ -15,12 +15,17 @@ import {
   setSelectedLocalModel,
   type LocalModelOption
 } from '../utils/webllmState';
+import { getWebGPUHelp, LOCAL_AI_GUIDE_URL } from '../utils/webgpuHelp';
 
 const { isSettingsOpen, apiKey, saveApiKey, removeApiKey } = useAIAssistantState();
 const localKey = ref(apiKey.value);
 const availableModels = ref<LocalModelOption[]>([]);
 const isModelsLoading = ref(false);
 const isCurrentModelCached = ref(false);
+// navigator.gpu can exist while no GPU adapter is available (common on Linux)
+const hasGPUAdapter = ref(true);
+const gpuReady = computed(() => isWebGPUSupported() && hasGPUAdapter.value);
+const webgpuHelp = getWebGPUHelp();
 
 const checkCachedStatus = async () => {
   if (!isWebGPUSupported()) return;
@@ -32,7 +37,9 @@ const loadModelsList = async () => {
   if (!isWebGPUSupported()) return;
   isModelsLoading.value = true;
   try {
-    const { getAvailableLocalModels } = await import('../utils/webllm');
+    const { getAvailableLocalModels, checkWebGPUAvailability } = await import('../utils/webllm');
+    hasGPUAdapter.value = await checkWebGPUAvailability();
+    if (!hasGPUAdapter.value) return;
     availableModels.value = await getAvailableLocalModels();
     await checkCachedStatus();
   } finally {
@@ -169,10 +176,7 @@ const modelActionButtonLabel = computed(() =>
             >
               Active
             </span>
-            <span
-              v-else-if="!isWebGPUSupported()"
-              class="text-[10px] text-amber-600 dark:text-amber-400"
-            >
+            <span v-else-if="!gpuReady" class="text-[10px] text-amber-600 dark:text-amber-400">
               WebGPU Unavailable
             </span>
           </div>
@@ -182,7 +186,30 @@ const modelActionButtonLabel = computed(() =>
             without Chrome flags or API keys.
           </p>
 
-          <div v-if="isWebGPUSupported()" class="space-y-2.5">
+          <div
+            v-if="!gpuReady"
+            class="p-2.5 rounded-xl bg-amber-500/5 border border-amber-500/20 space-y-1.5"
+            data-testid="webgpu-help"
+          >
+            <div class="text-[11px] font-semibold text-slate-700 dark:text-slate-300">
+              How to enable it ({{ webgpuHelp.label }}):
+            </div>
+            <ol class="list-decimal pl-4 space-y-1 text-[11px] text-slate-600 dark:text-slate-400">
+              <li v-for="step in webgpuHelp.steps" :key="step">{{ step }}</li>
+            </ol>
+            <div class="text-[11px] text-slate-500">
+              Or add a Gemini API key above.
+              <a
+                :href="LOCAL_AI_GUIDE_URL"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-primary-600 dark:text-primary-400 underline hover:text-primary-500"
+                >Full guide for all systems</a
+              >
+            </div>
+          </div>
+
+          <div v-if="gpuReady" class="space-y-2.5">
             <!-- Model Selection Dropdown -->
             <div class="flex flex-col gap-1.5">
               <label
