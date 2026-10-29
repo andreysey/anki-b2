@@ -4,6 +4,7 @@ import { fileURLToPath } from 'node:url';
 import {
   buildVerbLexicon,
   extractInfinitive,
+  isSingleVerbCard,
   lookupVerbForms,
   parseVerbEntry,
   type VerbLexicon
@@ -125,5 +126,108 @@ describe('buildVerbLexicon (real sources)', () => {
     expect(real.size).toBeGreaterThan(300);
     expect(real.get('treffen')).toEqual(['trifft', 'traf', 'getroffen']);
     expect(real.get('hinweisen')).toEqual(['weist', 'wies', 'hingewiesen']);
+  });
+});
+
+describe('multi-word entries and non-verbs', () => {
+  it('keeps only verb forms for multi-word entries', () => {
+    expect(parseVerbEntry('treu bleiben (bleibt treu, blieb treu, ist treu geblieben)')).toEqual([
+      'bleiben',
+      ['bleibt', 'blieb', 'geblieben']
+    ]);
+    expect(
+      parseVerbEntry('hervorgehen aus (+ Dat.) (geht hervor, ging hervor, ist hervorgegangen)')
+    ).toEqual(['hervorgehen', ['geht', 'ging', 'hervorgegangen']]);
+  });
+
+  it('does not treat prepositions ending in -en as verbs', () => {
+    expect(extractInfinitive('kämpfen gegen')).toBe('kämpfen');
+  });
+
+  it('recognises cards whose only content word is the verb', () => {
+    expect(isSingleVerbCard('sich einsetzen für')).toBe(true);
+    expect(isSingleVerbCard('jdn. hinweisen auf (+ Akk.)')).toBe(true);
+    expect(isSingleVerbCard('treu bleiben')).toBe(false);
+    expect(isSingleVerbCard('eine Absprache treffen')).toBe(false);
+    expect(isSingleVerbCard('sich leisten können')).toBe(false);
+  });
+});
+
+describe('separable verb particles', () => {
+  it('highlights the particle at the end of the clause', () => {
+    const forms = lookupVerbForms(
+      'zustehen',
+      new Map([['stehen', ['steht', 'stand', 'gestanden']]])
+    );
+    expect(
+      highlightWordInExample(
+        'zustehen',
+        'Dem Arbeitnehmer steht eine Zahlung zu.',
+        undefined,
+        forms
+      )
+    ).toBe(`Dem Arbeitnehmer ${HL('steht')} eine Zahlung ${HL('zu')}.`);
+  });
+
+  it('uses the | marker from the card and skips prepositions mid-sentence', () => {
+    expect(
+      highlightWordInExample(
+        'eingeben',
+        'Bitte geben Sie die Daten in das System ein.',
+        'etw. ein|geben (gibt ein, gab ein, hat eingegeben)',
+        ['gibt', 'gab', 'eingegeben', 'geben']
+      )
+    ).toBe(`Bitte ${HL('geben')} Sie die Daten in das System ${HL('ein')}.`);
+  });
+
+  it('stops at a comma and leaves joined forms alone', () => {
+    expect(
+      highlightWordInExample('ankommen auf', 'Es kommt darauf an, wer kommt.', undefined, ['kommt'])
+    ).toBe(`Es ${HL('kommt')} darauf ${HL('an')}, wer kommt.`);
+    expect(
+      highlightWordInExample('ankommen', 'Der Zug ist pünktlich angekommen.', undefined, [
+        'angekommen'
+      ])
+    ).toBe(`Der Zug ist pünktlich ${HL('angekommen')}.`);
+  });
+
+  it('does not highlight a particle that is not at the clause end', () => {
+    expect(
+      highlightWordInExample('ankommen auf', 'Er kommt an der Station pünktlich.', undefined, [
+        'kommt'
+      ])
+    ).toBe(`Er ${HL('kommt')} an der Station pünktlich.`);
+  });
+});
+
+describe('single-verb cards prefer verb forms', () => {
+  it('highlights the verb instead of the preposition or a noun with the same stem', () => {
+    expect(
+      highlightWordInExample(
+        'sich einsetzen für',
+        'Der Betriebsrat setzt sich für die Mitarbeiter ein.',
+        undefined,
+        ['setzt', 'setzte', 'eingesetzt']
+      )
+    ).toBe(`Der Betriebsrat ${HL('setzt')} sich für die Mitarbeiter ${HL('ein')}.`);
+    expect(
+      highlightWordInExample(
+        'zusammenarbeiten mit',
+        'Die Arbeitsschutzbehörde arbeitet eng mit uns zusammen.',
+        undefined,
+        ['arbeitet', 'arbeitete', 'zusammengearbeitet']
+      )
+    ).toBe(`Die Arbeitsschutzbehörde ${HL('arbeitet')} eng mit uns ${HL('zusammen')}.`);
+  });
+
+  it('keeps highlighting the noun of noun-verb phrases', () => {
+    expect(
+      highlightWordInExample(
+        'eine Absprache treffen',
+        'Wir haben eine Absprache getroffen.',
+        undefined,
+        ['trifft', 'traf', 'getroffen']
+      )
+    ).toContain(HL('Absprache'));
   });
 });

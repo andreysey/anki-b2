@@ -70,7 +70,7 @@
     "german_audio": "bestehen",
     "english": "to pass (an exam)",
     "ukrainian": "скласти (іспит)",
-    "example": "Nach intensiver <b style=\"color: #eab308;\">Prüfungsvorbereitung</b> hat der Auszubildende den Erstversuch mit Erfolg bestanden."
+    "example": "Nach intensiver Prüfungsvorbereitung hat der Auszubildende den Erstversuch mit Erfolg <b style=\"color: #eab308;\">bestanden</b>."
   },
   {
     "level": "B1+",
@@ -2681,7 +2681,7 @@
     "german_audio": "vorschreiben",
     "english": "to prescribe, to mandate",
     "ukrainian": "приписувати, зобов'язувати",
-    "example": "Die Brandschutzordnung <b style=\"color: #eab308;\">schreibt vor</b>, wie man sich im Evakuierungsfall zu verhalten hat."
+    "example": "Die Brandschutzordnung <b style=\"color: #eab308;\">schreibt</b> <b style=\"color: #eab308;\">vor</b>, wie man sich im Evakuierungsfall zu verhalten hat."
   },
   {
     "level": "B1+",
@@ -3974,7 +3974,7 @@
     "german_audio": "sich beschweren",
     "english": "to complain",
     "ukrainian": "скаржитися",
-    "example": "Der Mitarbeiter <b style=\"color: #eab308;\">beschwert sich</b> beim Betriebsrat über die mangelhafte Arbeitsplatzausstattung."
+    "example": "Der Mitarbeiter <b style=\"color: #eab308;\">beschwert</b> sich beim Betriebsrat über die mangelhafte Arbeitsplatzausstattung."
   },
   {
     "level": "B1+",
@@ -4010,7 +4010,7 @@
     "german_audio": "eingeben",
     "english": "to enter (data)",
     "ukrainian": "вводити (дані)",
-    "example": "Bitte <b style=\"color: #eab308;\">geben</b> Sie die Lieferdaten sorgfältig in das EDV-System ein."
+    "example": "Bitte <b style=\"color: #eab308;\">geben</b> Sie die Lieferdaten sorgfältig in das EDV-System <b style=\"color: #eab308;\">ein</b>."
   },
   {
     "level": "B1+",
@@ -4885,7 +4885,7 @@
     "german_audio": "herunterladen",
     "english": "to download",
     "ukrainian": "завантажувати",
-    "example": "Bitte laden Sie die erforderlichen Bewerbungsunterlagen im PDF-Format <b style=\"color: #eab308;\">herunter</b>."
+    "example": "Bitte <b style=\"color: #eab308;\">laden</b> Sie die erforderlichen Bewerbungsunterlagen im PDF-Format <b style=\"color: #eab308;\">herunter</b>."
   },
   {
     "level": "B1+",
@@ -6992,7 +6992,7 @@
     "german_audio": "auffallen",
     "english": "to stand out, to be noticeable",
     "ukrainian": "впадати в око, виділятися",
-    "example": "<b>Es fällt besonders auf, dass</b> die Systemleistung nach dem Update spürbar nachgelassen hat."
+    "example": "<b>Es <b style=\"color: #eab308;\">fällt</b> besonders <b style=\"color: #eab308;\">auf</b>, dass</b> die Systemleistung nach dem Update spürbar nachgelassen hat."
   },
   {
     "level": "B2",
@@ -7136,7 +7136,7 @@
     "german_audio": "hervorgehen aus",
     "english": "to emerge from, to follow from",
     "ukrainian": "випливати з, походити з",
-    "example": "<b>Aus den Daten <b style=\"color: #eab308;\">geht</b> hervor, dass</b> viele Betriebe unter Fachkräftemangel leiden."
+    "example": "<b>Aus den Daten <b style=\"color: #eab308;\">geht</b> <b style=\"color: #eab308;\">hervor</b>, dass</b> viele Betriebe unter Fachkräftemangel leiden."
   },
   {
     "level": "B2",
@@ -7352,7 +7352,7 @@
     "german_audio": "warten",
     "english": "to maintain (e.g., equipment)",
     "ukrainian": "обслуговувати технічно",
-    "example": "Die <b style=\"color: #eab308;\">Maschinen</b> müssen regelmäßig gewartet werden, um Mängel zu vermeiden."
+    "example": "Die Maschinen müssen regelmäßig <b style=\"color: #eab308;\">gewartet</b> werden, um Mängel zu vermeiden."
   },
   {
     "level": "B2",
@@ -8072,7 +8072,7 @@
     "german_audio": "zusammenhängen mit",
     "english": "to be connected with",
     "ukrainian": "пов'язано з",
-    "example": "Die Verzögerungen <b style=\"color: #eab308;\">hängen</b> eng mit Lieferproblemen beim Zulieferer zusammen."
+    "example": "Die Verzögerungen <b style=\"color: #eab308;\">hängen</b> eng mit Lieferproblemen beim Zulieferer <b style=\"color: #eab308;\">zusammen</b>."
   },
   {
     "level": "B2",
@@ -8084,7 +8084,7 @@
     "german_audio": "zustehen",
     "english": "to be entitled to",
     "ukrainian": "мати право на (щось)",
-    "example": "Dem Arbeitnehmer <b style=\"color: #eab308;\">steht</b> bei Krankheit eine Lohnfortzahlung zu."
+    "example": "Dem Arbeitnehmer <b style=\"color: #eab308;\">steht</b> bei Krankheit eine Lohnfortzahlung <b style=\"color: #eab308;\">zu</b>."
   },
   {
     "level": "B2",
@@ -8960,7 +8960,7 @@
     "german_audio": "hinweisen auf",
     "english": "to point out to",
     "ukrainian": "вказувати комусь на щось",
-    "example": "Der Sicherheitsbeauftragte <b style=\"color: #eab308;\">weist</b> die Belegschaft auf die Einhaltung der Vorschriften hin."
+    "example": "Der Sicherheitsbeauftragte <b style=\"color: #eab308;\">weist</b> die Belegschaft auf die Einhaltung der Vorschriften <b style=\"color: #eab308;\">hin</b>."
   },
   {
     "level": "B2",
@@ -12020,7 +12020,7 @@
     "german_audio": "ausfüllen",
     "english": "to fill in/out (a form)",
     "ukrainian": "заповнювати (форму, анкету)",
-    "example": "Bitte <b><b style=\"color: #eab308;\">füllen</b> Sie das Formular für die Zeiterfassung vollständig aus</b>."
+    "example": "Bitte <b><b style=\"color: #eab308;\">füllen</b> Sie das Formular für die Zeiterfassung vollständig <b style=\"color: #eab308;\">aus</b></b>."
   },
   {
     "level": "B2",
@@ -14804,7 +14804,7 @@
     "german_audio": "vorgehen",
     "english": "to proceed, to act",
     "ukrainian": "діяти, чинити",
-    "example": "Bitte <b style=\"color: #eab308;\">gehen</b> Sie bei der Beseitigung des Fehlers wie folgt vor: ..."
+    "example": "Bitte <b style=\"color: #eab308;\">gehen</b> Sie bei der Beseitigung des Fehlers wie folgt <b style=\"color: #eab308;\">vor</b>: ..."
   },
   {
     "level": "B2",
@@ -22112,7 +22112,7 @@
     "german_audio": "auffordern",
     "english": "to request, to ask",
     "ukrainian": "закликати, вимагати",
-    "example": "Der Abteilungsleiter <b style=\"color: #eab308;\">fordert</b> die Mitarbeiter auf, die Stundenzettel einzureichen."
+    "example": "Der Abteilungsleiter <b style=\"color: #eab308;\">fordert</b> die Mitarbeiter <b style=\"color: #eab308;\">auf</b>, die Stundenzettel einzureichen."
   },
   {
     "level": "B2",
@@ -26624,7 +26624,7 @@
     "german_audio": "sich herausstellen",
     "english": "to turn out",
     "ukrainian": "з'ясовуватися, виявлятися",
-    "example": "<b>Es <b style=\"color: #eab308;\">stellte sich heraus</b>, dass</b> der Wegeunfall durch Fahrlässigkeit verursacht wurde."
+    "example": "<b>Es <b style=\"color: #eab308;\">stellte</b> sich <b style=\"color: #eab308;\">heraus</b>, dass</b> der Wegeunfall durch Fahrlässigkeit verursacht wurde."
   },
   {
     "level": "B2",
@@ -32396,7 +32396,7 @@
     "german_audio": "ausmachen",
     "english": "to amount to, to turn off",
     "ukrainian": "складати (суму), вимикати",
-    "example": "Die Lohnnebenkosten <b style=\"color: #eab308;\">machen</b> einen erheblichen Teil der Gesamtkosten aus."
+    "example": "Die Lohnnebenkosten <b style=\"color: #eab308;\">machen</b> einen erheblichen Teil der Gesamtkosten <b style=\"color: #eab308;\">aus</b>."
   },
   {
     "level": "B2",
@@ -39860,7 +39860,7 @@
     "german_audio": "ankommen auf",
     "english": "to depend on",
     "ukrainian": "залежний від",
-    "example": "Bei der Sozialauswahl <b style=\"color: #eab308;\">kommt</b> es vor allem auf die familiären Lebensumstände an."
+    "example": "Bei der Sozialauswahl <b style=\"color: #eab308;\">kommt</b> es vor allem auf die familiären Lebensumstände <b style=\"color: #eab308;\">an</b>."
   },
   {
     "level": "B2",
@@ -40160,7 +40160,7 @@
     "german_audio": "sich zusammensetzen aus",
     "english": "to be composed of",
     "ukrainian": "складатися з",
-    "example": "Die Kosten für die Zusatzausstattung <b style=\"color: #eab308;\">setzen</b> sich aus verschiedenen Posten zusammen."
+    "example": "Die Kosten für die Zusatzausstattung <b style=\"color: #eab308;\">setzen</b> sich aus verschiedenen Posten <b style=\"color: #eab308;\">zusammen</b>."
   },
   {
     "level": "B2",
@@ -40196,7 +40196,7 @@
     "german_audio": "sich auszeichnen durch",
     "english": "to distinguish oneself by",
     "ukrainian": "відзначатися, виділятися (чимось)",
-    "example": "Unsere Produktpalette <b style=\"color: #eab308;\">zeichnet</b> sich durch hohe Energieeffizienz aus."
+    "example": "Unsere Produktpalette <b style=\"color: #eab308;\">zeichnet</b> sich durch hohe Energieeffizienz <b style=\"color: #eab308;\">aus</b>."
   },
   {
     "level": "B2",
@@ -40232,7 +40232,7 @@
     "german_audio": "ausgeben für",
     "english": "to spend on",
     "ukrainian": "витрачати на",
-    "example": "Das Unternehmen hat viel Geld <b style=\"color: #eab308;\">für</b> neue Lärmschutzmaßnahmen ausgegeben."
+    "example": "Das Unternehmen hat viel Geld für neue Lärmschutzmaßnahmen <b style=\"color: #eab308;\">ausgegeben</b>."
   },
   {
     "level": "B2",
@@ -40256,7 +40256,7 @@
     "german_audio": "sich einsetzen für",
     "english": "to advocate for / stand up for",
     "ukrainian": "заступатися за, докладати зусиль для",
-    "example": "Der Betriebsrat setzt sich aktiv <b style=\"color: #eab308;\">für</b> die Weiterbeschäftigung der gekündigten Mitarbeiter ein."
+    "example": "Der Betriebsrat <b style=\"color: #eab308;\">setzt</b> sich aktiv für die Weiterbeschäftigung der gekündigten Mitarbeiter <b style=\"color: #eab308;\">ein</b>."
   },
   {
     "level": "B2",
@@ -40280,7 +40280,7 @@
     "german_audio": "sich entscheiden für",
     "english": "to decide on / choose",
     "ukrainian": "вирішувати на користь, обирати",
-    "example": "Wir haben uns <b style=\"color: #eab308;\">für</b> den Anbieter mit dem besten Kundenservice entschieden."
+    "example": "Wir haben uns für den Anbieter mit dem besten Kundenservice <b style=\"color: #eab308;\">entschieden</b>."
   },
   {
     "level": "B2",
@@ -40316,7 +40316,7 @@
     "german_audio": "halten für",
     "english": "to consider to be",
     "ukrainian": "вважати (чимось/кимось)",
-    "example": "Der Kaltmietenvergleich hält diese Immobilie <b style=\"color: #eab308;\">für</b> deutlich überteuert."
+    "example": "Der Kaltmietenvergleich <b style=\"color: #eab308;\">hält</b> diese Immobilie für deutlich überteuert."
   },
   {
     "level": "B2",
@@ -40376,7 +40376,7 @@
     "german_audio": "stimmen für",
     "english": "to vote for",
     "ukrainian": "голосувати за",
-    "example": "Die Mehrheit der <b style=\"color: #eab308;\">Stimmrechtsvertreter</b> stimmte für die vorgeschlagene Satzungsänderung."
+    "example": "Die Mehrheit der Stimmrechtsvertreter <b style=\"color: #eab308;\">stimmte</b> für die vorgeschlagene Satzungsänderung."
   },
   {
     "level": "B2",
@@ -40568,7 +40568,7 @@
     "german_audio": "übereinstimmen in",
     "english": "to agree on",
     "ukrainian": "сходитися в (думках/деталях)",
-    "example": "Die Tarifpartner <b style=\"color: #eab308;\">stimmten</b> in den wesentlichen Punkten des Stufenplans überein."
+    "example": "Die Tarifpartner <b style=\"color: #eab308;\">stimmten</b> in den wesentlichen Punkten des Stufenplans <b style=\"color: #eab308;\">überein</b>."
   },
   {
     "level": "B2",
@@ -40664,7 +40664,7 @@
     "german_audio": "sich auskennen mit",
     "english": "to be familiar with",
     "ukrainian": "орієнтуватися в, знатися на",
-    "example": "Unser Datenschutzbeauftragter <b style=\"color: #eab308;\">kennt</b> sich bestens mit der DSGVO aus."
+    "example": "Unser Datenschutzbeauftragter <b style=\"color: #eab308;\">kennt</b> sich bestens mit der DSGVO <b style=\"color: #eab308;\">aus</b>."
   },
   {
     "level": "B2",
@@ -40916,7 +40916,7 @@
     "german_audio": "zusammenarbeiten mit",
     "english": "to work together with",
     "ukrainian": "співпрацювати з",
-    "example": "Die <b style=\"color: #eab308;\">Arbeitsschutzbehörde</b> arbeitet eng mit der Berufsgenossenschaft zusammen."
+    "example": "Die Arbeitsschutzbehörde <b style=\"color: #eab308;\">arbeitet</b> eng mit der Berufsgenossenschaft <b style=\"color: #eab308;\">zusammen</b>."
   },
   {
     "level": "B2",
@@ -40952,7 +40952,7 @@
     "german_audio": "rufen nach",
     "english": "to call for",
     "ukrainian": "кликати, вимагати (когось)",
-    "example": "Die schwierige Situation im Pflegesektor ruft <b style=\"color: #eab308;\">nach</b> schnellen Reformen."
+    "example": "Die schwierige Situation im Pflegesektor <b style=\"color: #eab308;\">ruft</b> nach schnellen Reformen."
   },
   {
     "level": "B2",
@@ -40976,7 +40976,7 @@
     "german_audio": "sehen nach",
     "english": "to look for / check",
     "ukrainian": "видивлятися, перевіряти",
-    "example": "Der Betriebsleiter sieht in der Werkhalle <b style=\"color: #eab308;\">nach</b> dem Rechten."
+    "example": "Der Betriebsleiter <b style=\"color: #eab308;\">sieht</b> in der Werkhalle nach dem Rechten."
   },
   {
     "level": "B2",
@@ -41000,7 +41000,7 @@
     "german_audio": "sich austauschen über",
     "english": "to discuss / exchange views on",
     "ukrainian": "обмінюватися думками про",
-    "example": "Die Fachberater <b style=\"color: #eab308;\">tauschten</b> sich über die Trends der Bildungsmesse aus."
+    "example": "Die Fachberater <b style=\"color: #eab308;\">tauschten</b> sich über die Trends der Bildungsmesse <b style=\"color: #eab308;\">aus</b>."
   },
   {
     "level": "B2",
@@ -41132,7 +41132,7 @@
     "german_audio": "lachen über",
     "english": "to laugh at",
     "ukrainian": "сміятися з",
-    "example": "Im Meeting wurde entspannt <b style=\"color: #eab308;\">über</b> ein kleines Missgeschick gelacht."
+    "example": "Im Meeting wurde entspannt über ein kleines Missgeschick <b style=\"color: #eab308;\">gelacht</b>."
   },
   {
     "level": "B2",
@@ -41192,7 +41192,7 @@
     "german_audio": "sprechen über",
     "english": "to speak about",
     "ukrainian": "розмовляти про",
-    "example": "Wir haben in der Teamsitzung ausführlich <b style=\"color: #eab308;\">über</b> den Einarbeitungsplan gesprochen."
+    "example": "Wir haben in der Teamsitzung ausführlich über den Einarbeitungsplan <b style=\"color: #eab308;\">gesprochen</b>."
   },
   {
     "level": "B2",
@@ -41324,7 +41324,7 @@
     "german_audio": "leiden unter",
     "english": "to suffer from",
     "ukrainian": "страждати від (зовнішніх факторів)",
-    "example": "Die Arbeitsmoral der Belegschaft leidet stark <b style=\"color: #eab308;\">unter</b> dem schlechten Betriebsklima."
+    "example": "Die Arbeitsmoral der Belegschaft <b style=\"color: #eab308;\">leidet</b> stark unter dem schlechten Betriebsklima."
   },
   {
     "level": "B2",
@@ -41672,7 +41672,7 @@
     "german_audio": "einladen zu",
     "english": "to invite to",
     "ukrainian": "запрошувати на",
-    "example": "Der Betriebsrat <b style=\"color: #eab308;\">lädt</b> alle Beschäftigten zur jährlichen Betriebsversammlung ein."
+    "example": "Der Betriebsrat <b style=\"color: #eab308;\">lädt</b> alle Beschäftigten zur jährlichen Betriebsversammlung <b style=\"color: #eab308;\">ein</b>."
   },
   {
     "level": "B2",

@@ -16,6 +16,8 @@ const PREFIXES = [
     ...SEP_PREFIXES,
     'heraus',
     'herein',
+    'hervor',
+    'voran',
     'herunter',
     'hinaus',
     'hinein',
@@ -27,7 +29,57 @@ const PREFIXES = [
 const INSEPARABLE = /^(be|emp|ent|er|ge|miss|ver|zer)/;
 const FORMS_RE = /\(([^()]+,\s*[^()]+,\s*(?:hat|ist|hat\/ist)\s+[^()]+)\)\s*$/;
 const VERB_WORD_RE = /^[a-zäöüß]{2,}(en|ln|rn)$/;
-const PARTICLES = new Set(SEP_PREFIXES);
+// Words that end like infinitives but aren't verbs
+const NOT_VERBS = new Set([
+  'gegen',
+  'wegen',
+  'zwischen',
+  'neben',
+  'binnen',
+  'oben',
+  'unten',
+  'innen',
+  'außen',
+  'einen',
+  'keinen',
+  'jemanden',
+  'seinen',
+  'ihren'
+]);
+// Everything on a card that isn't the verb itself: "sich einsetzen für" → only "einsetzen" counts
+const FUNCTION_WORDS = new Set([
+  'sich',
+  'jdn',
+  'jdm',
+  'jds',
+  'etw',
+  'jemanden',
+  'jemandem',
+  'an',
+  'auf',
+  'aus',
+  'bei',
+  'durch',
+  'für',
+  'gegen',
+  'in',
+  'mit',
+  'nach',
+  'über',
+  'um',
+  'unter',
+  'von',
+  'vor',
+  'zu',
+  'zum',
+  'zur',
+  'zwischen',
+  'wegen',
+  'hinter',
+  'neben',
+  'als'
+]);
+const PARTICLES = new Set(PREFIXES);
 const AUX_OR_PRONOUN = new Set(['hat', 'ist', 'sich', 'haben', 'sein']);
 
 const lexiconCache = new Map<string, VerbLexicon>();
@@ -48,8 +100,18 @@ export function extractInfinitive(german: string): string | null {
     .replace(/\(.*?\)/g, ' ')
     .replace(/\|/g, '')
     .split(/\s+/)
-    .filter((w) => VERB_WORD_RE.test(w));
+    .filter((w) => VERB_WORD_RE.test(w) && !NOT_VERBS.has(w));
   return words.length ? words[words.length - 1] : null;
+}
+
+/** True when the verb is the only content word: "sich einsetzen für" yes, "treu bleiben" no. */
+export function isSingleVerbCard(german: string): boolean {
+  const content = german
+    .replace(/\(.*?\)/g, ' ')
+    .replace(/[|.]/g, '')
+    .split(/[\s/]+/)
+    .filter((w) => w && !FUNCTION_WORDS.has(w.toLowerCase()));
+  return content.length === 1 && extractInfinitive(content[0]) === content[0];
 }
 
 export function parseVerbEntry(german: string): [string, string[]] | null {
@@ -57,8 +119,19 @@ export function parseVerbEntry(german: string): [string, string[]] | null {
   if (!m) return null;
   const infinitive = extractInfinitive(german.slice(0, m.index));
   if (!infinitive) return null;
-  const forms = m[1].split(',').flatMap(formWords);
-  return forms.length ? [infinitive, forms] : null;
+  // Drop other words of multi-word entries: "treu bleiben (bleibt treu, …)" → bleibt, not treu
+  const lemmaWords = new Set(
+    german
+      .slice(0, m.index)
+      .replace(/\|/g, '')
+      .split(/\s+/)
+      .filter((w) => w !== infinitive)
+  );
+  const forms = m[1]
+    .split(',')
+    .flatMap(formWords)
+    .filter((w) => !lemmaWords.has(w));
+  return forms.length ? [infinitive, [...new Set(forms)]] : null;
 }
 
 export function buildVerbLexicon(sourceDir: string): VerbLexicon {
@@ -94,9 +167,14 @@ function regularForms(verb: string): string[] {
  * Separable verbs also get the bare verb forms ("kommt" for "ankommen"),
  * because in main clauses the prefix moves to the end of the sentence.
  */
+/** Separable prefix of an infinitive, if any: "zustehen" → "zu", "übereinstimmen" → "überein". */
+export function separablePrefix(verb: string): string | null {
+  return PREFIXES.find((p) => verb.startsWith(p) && verb.length - p.length >= 4) ?? null;
+}
+
 export function lookupVerbForms(verb: string, lexicon: VerbLexicon): string[] {
   const direct = lexicon.get(verb);
-  const prefix = PREFIXES.find((p) => verb.startsWith(p) && verb.length - p.length >= 4);
+  const prefix = separablePrefix(verb);
   const base = prefix ? verb.slice(prefix.length) : null;
   const baseForms = base ? lexicon.get(base) : undefined;
 

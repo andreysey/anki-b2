@@ -3,6 +3,7 @@
  */
 
 import { THEMA_NUMBERS } from '../src/constants/themas.js';
+import { extractInfinitive, isSingleVerbCard, separablePrefix } from './verb-lexicon.js';
 
 // Regex patterns for parenthetical notes, themas, articles, and grammar prefixes
 const RE_PARENS = /\s*\(.*?\)/g;
@@ -135,6 +136,44 @@ export function colorizeGender(german: string): string {
 /**
  * Highlights the main word (or its declined/conjugated form) in the example sentence.
  */
+const HL_OPEN = '<b style="color: #eab308;">';
+
+/**
+ * Separable verbs split in main clauses: "Dem Mitarbeiter <b>steht</b> eine Abfindung zu."
+ * Also highlights the particle, but only where it closes the clause (before . , : ; ! ? or the end),
+ * which is where German puts it, so prepositions earlier in the sentence are left alone.
+ */
+function highlightSeparatedParticle(
+  html: string,
+  cleanGerman: string,
+  originalGerman?: string
+): string {
+  const pipeVerb = originalGerman
+    ?.replace(/\(.*?\)/g, ' ')
+    .split(/\s+/)
+    .find((w) => /^[a-zäöüß]+\|[a-zäöüß]+$/.test(w));
+  const infinitive = pipeVerb ? pipeVerb.replace('|', '') : extractInfinitive(cleanGerman);
+  if (!infinitive) return html;
+  const prefix = pipeVerb ? pipeVerb.split('|')[0] : separablePrefix(infinitive);
+  if (!prefix) return html;
+
+  const start = html.indexOf(HL_OPEN);
+  const end = html.indexOf('</b>', start);
+  if (start === -1 || end === -1) return html;
+  const highlighted = html.slice(start + HL_OPEN.length, end).toLowerCase();
+  // Joined forms (angekommen, zustehen, herauskam) already contain the particle
+  if (highlighted.startsWith(prefix)) return html;
+
+  const before = html.slice(0, end + 4);
+  const after = html.slice(end + 4);
+  const particle = getCompiledRegex(
+    `(^|[^\\p{L}])(${escapeRegex(prefix)})(?=\\s*(?:<\\/b>)?\\s*(?:[.,:;!?]|$))`,
+    'iu'
+  );
+  if (!particle.test(after)) return html;
+  return before + after.replace(particle, (_, p1, p2) => `${p1}${HL_OPEN}${p2}</b>`);
+}
+
 export function highlightWordInExample(
   cleanGerman: string,
   example: string,
@@ -265,7 +304,30 @@ export function highlightWordInExample(
   let highlightedExample = example;
   let hasHighlighted = false;
 
-  for (const term of sortedTerms) {
+  // Allows only verb endings after the form, so "kam" won't match "Kamera".
+  const tryVerbForms = (forms: string[]) => {
+    for (const form of [...forms].sort((a, b) => b.length - a.length)) {
+      const pattern = getCompiledRegex(`${wb}(${escapeRegex(form)}(?:e|en|n|st|t|et)?)${we}`, 'iu');
+      if (pattern.test(highlightedExample)) {
+        highlightedExample = highlightedExample.replace(
+          pattern,
+          (_, p1, p2, p3) => `${p1}${HL_OPEN}${p2}</b>${p3}`
+        );
+        hasHighlighted = true;
+        return;
+      }
+    }
+  };
+
+  // ── 2b. Pure verb cards ("sich einsetzen für", "zusammenarbeiten mit"): try real verb
+  // forms first, so a preposition (für) or a noun sharing the stem (Arbeitsschutzbehörde)
+  // doesn't win. Multi-word cards ("eine Absprache treffen", "treu bleiben") keep the old order.
+  const cardVerb = extractInfinitive(cleanGerman);
+  if (cardVerb && verbForms.length && isSingleVerbCard(cleanGerman)) {
+    tryVerbForms([cardVerb, ...verbForms]);
+  }
+
+  for (const term of hasHighlighted ? [] : sortedTerms) {
     if (term.length < 3) continue;
     try {
       const pattern = getCompiledRegex(`${wb}(${escapeRegex(term)}[\\p{L}]*)${we}`, 'iu');
@@ -353,21 +415,7 @@ export function highlightWordInExample(
   }
 
   // ── 7. Fallback: verb forms collected from other cards (trifft, kam, gewählt…).
-  // Allows only verb endings after the form, so "kam" won't match "Kamera".
-  if (!hasHighlighted && verbForms.length) {
-    const forms = [...verbForms].sort((a, b) => b.length - a.length);
-    for (const form of forms) {
-      const pattern = getCompiledRegex(`${wb}(${escapeRegex(form)}(?:e|en|n|st|t|et)?)${we}`, 'iu');
-      if (pattern.test(highlightedExample)) {
-        highlightedExample = highlightedExample.replace(
-          pattern,
-          (_, p1, p2, p3) => `${p1}<b style="color: #eab308;">${p2}</b>${p3}`
-        );
-        hasHighlighted = true;
-        break;
-      }
-    }
-  }
+  if (!hasHighlighted) tryVerbForms(verbForms);
 
   // ── 8. Fallback: phrase alternatives ("… bietet / verfügt über / …").
   // cleanGerman only keeps the first alternative, so try the others.
@@ -392,6 +440,14 @@ export function highlightWordInExample(
   highlightedExample = highlightedExample.replace(/\*\*/g, '');
   // Clean potential nested <b> tags if example already had <b>
   highlightedExample = highlightedExample.replace(/<b>\s*(<b[^>]*>.*?<\/b>)\s*<\/b>/g, '$1');
+
+  if (hasHighlighted) {
+    highlightedExample = highlightSeparatedParticle(
+      highlightedExample,
+      cleanGerman,
+      originalGerman
+    );
+  }
 
   highlightWordCache.set(cacheKey, highlightedExample);
   return highlightedExample;
