@@ -9,38 +9,44 @@ export interface AIServiceResponse {
   model?: string;
 }
 
-export interface AICapabilities {
-  available: 'readily' | 'after-download' | 'no';
+// ── Chrome built-in AI (Gemini Nano) via the Prompt API: https://developer.chrome.com/docs/ai/prompt-api
+export type LanguageModelAvailability =
+  'unavailable' | 'downloadable' | 'downloading' | 'available';
+
+interface LanguageModelExpected {
+  type: 'text';
+  languages: string[];
 }
 
-export interface AILanguageModelSession {
-  prompt: (input: string) => Promise<string>;
-  promptStreaming?: (input: string) => ReadableStream<string> | AsyncIterable<string>;
+export interface LanguageModelOptions {
+  expectedInputs?: LanguageModelExpected[];
+  expectedOutputs?: LanguageModelExpected[];
+  initialPrompts?: { role: 'system' | 'user' | 'assistant'; content: string }[];
+  signal?: AbortSignal;
+}
+
+export interface LanguageModelSession {
+  prompt: (input: string, options?: { signal?: AbortSignal }) => Promise<string>;
+  promptStreaming?: (
+    input: string,
+    options?: { signal?: AbortSignal }
+  ) => ReadableStream<string> | AsyncIterable<string>;
   destroy: () => void;
 }
 
-export interface AILanguageModelCreateOptions {
-  systemInstruction?: string;
-  monitor?: (m: {
-    addEventListener: (event: string, cb: (e: { loaded: number; total: number }) => void) => void;
-  }) => void;
+export interface LanguageModelStatic {
+  availability: (options?: LanguageModelOptions) => Promise<LanguageModelAvailability>;
+  create: (options?: LanguageModelOptions) => Promise<LanguageModelSession>;
 }
 
-export interface AILanguageModel {
-  create: (options?: AILanguageModelCreateOptions) => Promise<AILanguageModelSession>;
-  capabilities?: () => Promise<AICapabilities>;
-  availability?: () => Promise<'readily' | 'after-download' | 'no'>;
-}
-
-// Extend Window and globalThis interface for TypeScript (W3C Prompt API & Origin Trials)
-declare global {
-  interface Window {
-    ai?: {
-      languageModel?: AILanguageModel;
-      assistant?: AILanguageModel;
-    };
-  }
-}
+// The coach reads English/German prompts and answers in Ukrainian. Gemini Nano doesn't
+// support Ukrainian output yet, so availability() reports 'unavailable' and we fall back
+// to WebLLM / cloud. Once Chrome adds Ukrainian this path starts working on its own.
+export const ON_DEVICE_LANGUAGES: Pick<LanguageModelOptions, 'expectedInputs' | 'expectedOutputs'> =
+  {
+    expectedInputs: [{ type: 'text', languages: ['en', 'de'] }],
+    expectedOutputs: [{ type: 'text', languages: ['uk'] }]
+  };
 
 export const isValidApiKey = (key: string): boolean => {
   return typeof key === 'string' && /^[A-Za-z0-9_\-]{6,128}$/.test(key.trim());
@@ -54,32 +60,19 @@ export const setCloudKey = (key: string): void => {
   safeStorage.setItem(STORAGE_KEYS.GEMINI_API_KEY, key.trim());
 };
 
-export const getOnDeviceAIEngine = (): AILanguageModel | null => {
-  if (typeof window === 'undefined') return null;
-  const globalScope = typeof self !== 'undefined' ? self : window;
-  const aiObj =
-    (
-      globalScope as unknown as {
-        ai?: { languageModel?: AILanguageModel; assistant?: AILanguageModel };
-      }
-    ).ai || window.ai;
-  if (!aiObj) return null;
-  return aiObj.languageModel || aiObj.assistant || null;
-};
+export const getOnDeviceAIEngine = (): LanguageModelStatic | null =>
+  (globalThis as { LanguageModel?: LanguageModelStatic }).LanguageModel ?? null;
 
+/**
+ * True only when Gemini Nano is already downloaded and supports our languages.
+ * 'downloadable' is treated as unavailable: creating a session would silently
+ * start a multi-GB model download.
+ */
 export const checkOnDeviceSupport = async (): Promise<boolean> => {
   const engine = getOnDeviceAIEngine();
   if (!engine) return false;
   try {
-    if (typeof engine.availability === 'function') {
-      const avail = await engine.availability();
-      return avail !== 'no';
-    }
-    if (typeof engine.capabilities === 'function') {
-      const caps = await engine.capabilities();
-      return caps.available !== 'no';
-    }
-    return true;
+    return (await engine.availability(ON_DEVICE_LANGUAGES)) === 'available';
   } catch {
     return false;
   }
@@ -177,57 +170,56 @@ export const callAI = async (
   onProgress?: (chunk: string, fullText: string) => void,
   signal?: AbortSignal
 ): Promise<AIServiceResponse> => {
-  // 1. Try Chrome Built-in AI (Gemini Nano via W3C Prompt API)
+  // 1. Try Chrome Built-in AI (Gemini Nano via the Prompt API)
   const onDeviceEngine = getOnDeviceAIEngine();
-  if (onDeviceEngine) {
+  if (onDeviceEngine && (await checkOnDeviceSupport())) {
+    let session: LanguageModelSession | null = null;
     try {
-      const isAvailable =
-        typeof onDeviceEngine.availability === 'function'
-          ? (await onDeviceEngine.availability()) !== 'no'
-          : typeof onDeviceEngine.capabilities === 'function'
-            ? (await onDeviceEngine.capabilities()).available !== 'no'
-            : true;
-
-      if (isAvailable) {
-        const session = await onDeviceEngine.create({
-          systemInstruction: systemInstruction || 'You are a helpful German Language Coach.'
-        });
-
-        let text = '';
-        if (typeof session.promptStreaming === 'function') {
-          const stream = session.promptStreaming(promptText);
-          if (Symbol.asyncIterator in Object(stream)) {
-            for await (const chunk of stream as AsyncIterable<string>) {
-              text += chunk;
-              onProgress?.(chunk, text);
-            }
-          } else if (typeof (stream as ReadableStream<string>).getReader === 'function') {
-            const reader = (stream as ReadableStream<string>).getReader();
-            while (true) {
-              const { done, value } = await reader.read();
-              if (done) break;
-              if (value) {
-                text += value;
-                onProgress?.(value, text);
-              }
-            }
-          } else {
-            text = await session.prompt(promptText);
+      session = await onDeviceEngine.create({
+        ...ON_DEVICE_LANGUAGES,
+        initialPrompts: [
+          {
+            role: 'system',
+            content: systemInstruction || 'You are a helpful German Language Coach.'
           }
-        } else {
-          text = await session.prompt(promptText);
-        }
+        ],
+        signal
+      });
 
-        session.destroy();
-        return {
-          success: true,
-          text,
-          source: 'nano',
-          model: 'Gemini Nano (On-Device)'
-        };
+      let text = '';
+      const stream = session.promptStreaming?.(promptText, { signal });
+      if (stream && Symbol.asyncIterator in Object(stream)) {
+        for await (const chunk of stream as AsyncIterable<string>) {
+          text += chunk;
+          onProgress?.(chunk, text);
+        }
+      } else if (stream && typeof (stream as ReadableStream<string>).getReader === 'function') {
+        const reader = (stream as ReadableStream<string>).getReader();
+        while (true) {
+          const { done, value } = await reader.read();
+          if (done) break;
+          if (value) {
+            text += value;
+            onProgress?.(value, text);
+          }
+        }
+      } else {
+        text = await session.prompt(promptText, { signal });
       }
+
+      return {
+        success: true,
+        text,
+        source: 'nano',
+        model: 'Gemini Nano (On-Device)'
+      };
     } catch (e: unknown) {
+      if (signal?.aborted) {
+        return { success: false, text: 'Request cancelled', source: 'none' };
+      }
       console.warn('Chrome Built-in AI failed, falling back to local WebLLM or Cloud API', e);
+    } finally {
+      session?.destroy();
     }
   }
 

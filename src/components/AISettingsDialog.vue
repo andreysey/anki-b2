@@ -273,11 +273,8 @@ const modelActionButtonLabel = computed(() =>
             Chrome Built-in Gemini Nano
           </div>
           <div class="text-[11px] text-slate-500 leading-relaxed">
-            If you have Chrome with Prompt API enabled in
-            <code
-              class="bg-slate-100 dark:bg-slate-800 px-1.5 py-0.5 rounded text-slate-700 dark:text-slate-300 font-mono text-[10px]"
-              >chrome://flags</code
-            >, it will be automatically used first with zero download required.
+            Used automatically first, with no download, once Chrome's on-device model supports
+            Ukrainian answers. Until then the local model or Gemini API is used.
           </div>
         </div>
       </div>

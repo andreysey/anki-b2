@@ -4,13 +4,15 @@ import {
   setCloudKey,
   checkOnDeviceSupport,
   callAI,
-  getAvailableGeminiModels
+  getAvailableGeminiModels,
+  ON_DEVICE_LANGUAGES
 } from './ai';
+import { mockLanguageModel, clearLanguageModel } from '../test-utils/fixtures';
 
 describe('ai utils', () => {
   beforeEach(() => {
     localStorage.clear();
-    delete window.ai;
+    clearLanguageModel();
     vi.restoreAllMocks();
   });
 
@@ -26,23 +28,26 @@ describe('ai utils', () => {
   });
 
   describe('checkOnDeviceSupport', () => {
-    it('returns false when window.ai is missing', async () => {
-      const isSupported = await checkOnDeviceSupport();
-      expect(isSupported).toBe(false);
+    it('returns false when the Prompt API is missing', async () => {
+      expect(await checkOnDeviceSupport()).toBe(false);
     });
 
-    it('returns true when window.ai.languageModel reports available', async () => {
-      window.ai = {
-        languageModel: {
-          capabilities: async () => ({ available: 'readily' }),
-          create: async () => ({
-            prompt: async () => '',
-            destroy: () => {}
-          })
-        }
-      };
-      const isSupported = await checkOnDeviceSupport();
-      expect(isSupported).toBe(true);
+    it('returns true only when the model is downloaded and supports our languages', async () => {
+      const { availabilityMock } = mockLanguageModel({ available: 'available' });
+      expect(await checkOnDeviceSupport()).toBe(true);
+      expect(availabilityMock).toHaveBeenCalledWith(ON_DEVICE_LANGUAGES);
+    });
+
+    it.each(['unavailable', 'downloadable', 'downloading'] as const)(
+      'returns false when availability is %s',
+      async (available) => {
+        mockLanguageModel({ available });
+        expect(await checkOnDeviceSupport()).toBe(false);
+      }
+    );
+
+    it('asks for Ukrainian output', () => {
+      expect(ON_DEVICE_LANGUAGES.expectedOutputs?.[0].languages).toEqual(['uk']);
     });
   });
 
@@ -163,45 +168,27 @@ describe('ai utils', () => {
       expect(res.text).toBe('Fallback response');
     });
 
-    it('uses Chrome on-device AI when window.ai is available', async () => {
-      const promptMock = vi.fn().mockResolvedValue('On-device AI response');
-      const destroyMock = vi.fn();
+    it('uses Gemini Nano with a system prompt and language hints when available', async () => {
+      const { promptMock, destroyMock, createMock } = mockLanguageModel({
+        promptResponse: 'On-device AI response'
+      });
 
-      window.ai = {
-        languageModel: {
-          capabilities: async () => ({ available: 'readily' }),
-          create: async () => ({
-            prompt: promptMock,
-            destroy: destroyMock
-          })
-        }
-      };
-
-      const res = await callAI('Translate this');
+      const res = await callAI('Translate this', 'Be brief.');
       expect(res.success).toBe(true);
       expect(res.source).toBe('nano');
       expect(res.text).toBe('On-device AI response');
-      expect(promptMock).toHaveBeenCalledWith('Translate this');
+      expect(createMock).toHaveBeenCalledWith(
+        expect.objectContaining({
+          ...ON_DEVICE_LANGUAGES,
+          initialPrompts: [{ role: 'system', content: 'Be brief.' }]
+        })
+      );
+      expect(promptMock).toHaveBeenCalledWith('Translate this', expect.anything());
       expect(destroyMock).toHaveBeenCalled();
     });
 
-    it('streams on-device AI response when promptStreaming is available', async () => {
-      const destroyMock = vi.fn();
-      async function* mockStream() {
-        yield 'Hello ';
-        yield 'World';
-      }
-
-      window.ai = {
-        languageModel: {
-          availability: async () => 'readily',
-          create: async () => ({
-            prompt: vi.fn(),
-            promptStreaming: () => mockStream(),
-            destroy: destroyMock
-          })
-        }
-      };
+    it('streams Gemini Nano responses when promptStreaming is available', async () => {
+      const { destroyMock } = mockLanguageModel({ streamChunks: ['Hello ', 'World'] });
 
       const progressMock = vi.fn();
       const res = await callAI('Stream this', undefined, progressMock);
@@ -211,6 +198,32 @@ describe('ai utils', () => {
       expect(progressMock).toHaveBeenCalledWith('Hello ', 'Hello ');
       expect(progressMock).toHaveBeenCalledWith('World', 'Hello World');
       expect(destroyMock).toHaveBeenCalled();
+    });
+
+    it('skips Gemini Nano when it does not support the language, without creating a session', async () => {
+      const { createMock } = mockLanguageModel({ available: 'unavailable' });
+      setCloudKey('test-key-nano-skip');
+      globalThis.fetch = vi
+        .fn()
+        .mockResolvedValueOnce({ ok: false, status: 500, json: async () => ({}) } as Response)
+        .mockResolvedValueOnce({
+          ok: true,
+          json: async () => ({ candidates: [{ content: { parts: [{ text: 'Cloud' }] } }] })
+        } as Response);
+
+      const res = await callAI('Explain word');
+      expect(createMock).not.toHaveBeenCalled();
+      expect(res.source).toBe('cloud');
+    });
+
+    it('destroys the session and falls back when Gemini Nano throws', async () => {
+      const { promptMock, destroyMock } = mockLanguageModel();
+      promptMock.mockRejectedValue(new DOMException('fail', 'NotSupportedError'));
+      vi.spyOn(console, 'warn').mockImplementation(() => {});
+
+      const res = await callAI('Explain word');
+      expect(destroyMock).toHaveBeenCalled();
+      expect(res.source).not.toBe('nano');
     });
 
     it('rejects callAI if API key contains invalid characters', async () => {

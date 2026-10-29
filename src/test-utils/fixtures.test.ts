@@ -5,8 +5,10 @@ import {
   createMockSRSState,
   mockAIServiceResponse,
   mockSpeechSynthesisInstance,
-  mockWindowAI
+  mockLanguageModel,
+  clearLanguageModel
 } from './fixtures';
+import type { LanguageModelStatic } from '../utils/ai';
 
 describe('test fixtures', () => {
   it('creates mock word with default and overridden properties', () => {
@@ -41,14 +43,16 @@ describe('test fixtures', () => {
     expect(getVoicesMock).toHaveBeenCalled();
   });
 
-  it('mocks window.ai language model', async () => {
-    const { promptMock, destroyMock } = mockWindowAI({ promptResponse: 'Gut gemacht!' });
-    expect(window.ai?.languageModel).toBeDefined();
-    const session = await window.ai!.languageModel!.create();
+  it('mocks the Chrome Prompt API LanguageModel', async () => {
+    const { promptMock, destroyMock } = mockLanguageModel({ promptResponse: 'Gut gemacht!' });
+    const lm = (globalThis as { LanguageModel?: LanguageModelStatic }).LanguageModel!;
+    expect(await lm.availability()).toBe('available');
+    const session = await lm.create();
     const res = await session.prompt('Test');
     session.destroy();
     expect(res).toBe('Gut gemacht!');
     expect(promptMock).toHaveBeenCalledWith('Test');
     expect(destroyMock).toHaveBeenCalled();
+    clearLanguageModel();
   });
 });

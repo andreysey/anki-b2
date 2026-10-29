@@ -3,7 +3,11 @@
  */
 import { vi } from 'vitest';
 import type { Word, SRSState } from '../types';
-import type { AILanguageModel, AIServiceResponse } from '../utils/ai';
+import type {
+  AIServiceResponse,
+  LanguageModelAvailability,
+  LanguageModelStatic
+} from '../utils/ai';
 
 export const createMockWord = (overrides?: Partial<Word>): Word => ({
   id: 'word-1',
@@ -83,34 +87,36 @@ export const mockSpeechSynthesisInstance = () => {
   };
 };
 
-export const mockWindowAI = (options?: {
-  available?: 'readily' | 'after-download' | 'no';
+/** Installs a fake Chrome Prompt API (`globalThis.LanguageModel`). Remove with `clearLanguageModel()`. */
+export const mockLanguageModel = (options?: {
+  available?: LanguageModelAvailability;
   promptResponse?: string;
+  streamChunks?: string[];
 }) => {
   const promptMock = vi.fn().mockResolvedValue(options?.promptResponse ?? 'Mock on-device reply');
   const destroyMock = vi.fn();
+  const availabilityMock = vi.fn().mockResolvedValue(options?.available ?? 'available');
+  const createMock = vi.fn().mockImplementation(async () => ({
+    prompt: promptMock,
+    promptStreaming: options?.streamChunks
+      ? async function* () {
+          yield* options.streamChunks!;
+        }
+      : undefined,
+    destroy: destroyMock
+  }));
 
-  const languageModel: AILanguageModel = {
-    capabilities: async () => ({ available: options?.available ?? 'readily' }),
-    availability: async () => options?.available ?? 'readily',
-    create: async () => ({
-      prompt: promptMock,
-      destroy: destroyMock
-    })
+  const languageModel: LanguageModelStatic = {
+    availability: availabilityMock,
+    create: createMock
   };
+  (globalThis as { LanguageModel?: LanguageModelStatic }).LanguageModel = languageModel;
 
-  if (typeof window !== 'undefined') {
-    window.ai = {
-      languageModel,
-      assistant: languageModel
-    };
-  }
+  return { promptMock, destroyMock, availabilityMock, createMock, languageModel };
+};
 
-  return {
-    promptMock,
-    destroyMock,
-    languageModel
-  };
+export const clearLanguageModel = () => {
+  delete (globalThis as { LanguageModel?: LanguageModelStatic }).LanguageModel;
 };
 
 export const resetVocabularyState = async () => {

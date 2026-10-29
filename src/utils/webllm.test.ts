@@ -7,14 +7,18 @@ import {
   getWebLLMEngine,
   isModelCached,
   deleteLocalModelFromCache,
-  callWebLLM
+  callWebLLM,
+  resolveDefaultModel,
+  stripThinking
 } from './webllm';
 import {
   selectedLocalModel,
   isModelReady,
   modelError,
   isGenerating,
-  generationStatus
+  generationStatus,
+  DEFAULT_MODEL_F16,
+  DEFAULT_MODEL_F32
 } from './webllmState';
 
 vi.mock('@mlc-ai/web-llm', () => {
@@ -165,6 +169,79 @@ describe('webllm utils', () => {
       expect(response).toBe('chunk 1 chunk 2');
       expect(onChunk).toHaveBeenCalledTimes(2);
       expect(isGenerating.value).toBe(false);
+    });
+  });
+
+  describe('default model', () => {
+    const setGPU = (f16: boolean) =>
+      Object.defineProperty(navigator, 'gpu', {
+        value: {
+          requestAdapter: vi
+            .fn()
+            .mockResolvedValue({ features: new Set(f16 ? ['shader-f16'] : []) })
+        },
+        configurable: true
+      });
+
+    beforeEach(() => {
+      localStorage.clear();
+      selectedLocalModel.value = DEFAULT_MODEL_F32;
+    });
+
+    it('uses multilingual defaults instead of SmolLM2', () => {
+      expect(DEFAULT_MODEL_F16).toMatch(/^gemma3-1b/);
+      expect(DEFAULT_MODEL_F32).toMatch(/^Qwen3\.5-0\.8B.*q4f32/);
+    });
+
+    it('upgrades to Gemma 3 when the GPU supports f16', async () => {
+      setGPU(true);
+      await resolveDefaultModel();
+      expect(selectedLocalModel.value).toBe(DEFAULT_MODEL_F16);
+    });
+
+    it('keeps the f32 default when the GPU lacks f16', async () => {
+      setGPU(false);
+      await resolveDefaultModel();
+      expect(selectedLocalModel.value).toBe(DEFAULT_MODEL_F32);
+    });
+
+    it("never overrides the user's own choice", async () => {
+      setGPU(true);
+      setSelectedLocalModel('Llama-3.2-1B-Instruct-q4f32_1-MLC');
+      await resolveDefaultModel();
+      expect(selectedLocalModel.value).toBe('Llama-3.2-1B-Instruct-q4f32_1-MLC');
+    });
+  });
+
+  describe('thinking models', () => {
+    it('strips complete and unfinished <think> blocks', () => {
+      expect(stripThinking('<think>\nhmm\n</think>\n\nAntwort')).toBe('Antwort');
+      expect(stripThinking('<think>still thinking')).toBe('');
+      expect(stripThinking('Plain answer')).toBe('Plain answer');
+    });
+
+    it('disables thinking for Qwen3 models and cleans the output', async () => {
+      setSelectedLocalModel('Qwen3.5-0.8B-q4f32_1-MLC');
+      const engine = await getWebLLMEngine();
+      const create = engine.chat.completions.create as unknown as ReturnType<typeof vi.fn>;
+      create.mockResolvedValueOnce({
+        choices: [{ message: { content: '<think></think>\n\nПояснення' } }]
+      });
+
+      const text = await callWebLLM('Erkläre das Wort');
+      expect(text).toBe('Пояснення');
+      expect(create).toHaveBeenLastCalledWith(
+        expect.objectContaining({ extra_body: { enable_thinking: false } })
+      );
+    });
+
+    it('does not send enable_thinking to other models', async () => {
+      setSelectedLocalModel('Llama-3.2-1B-Instruct-q4f32_1-MLC');
+      const engine = await getWebLLMEngine();
+      const create = engine.chat.completions.create as unknown as ReturnType<typeof vi.fn>;
+
+      await callWebLLM('Erkläre das Wort');
+      expect(create.mock.lastCall?.[0]).not.toHaveProperty('extra_body');
     });
   });
 });

@@ -11,7 +11,9 @@ import {
   modelError,
   isGenerating,
   generationStatus,
-  setSelectedLocalModel as setStateSelectedLocalModel
+  setSelectedLocalModel as setStateSelectedLocalModel,
+  hasUserSelectedModel,
+  DEFAULT_MODEL_F16
 } from './webllmState';
 
 export {
@@ -48,11 +50,30 @@ export const supportsF16Shaders = async (): Promise<boolean> => {
   }
 };
 
+/**
+ * Upgrades the default to Gemma 3 1B when the GPU supports f16 shaders.
+ * Never touches a model the user picked themselves.
+ */
+export const resolveDefaultModel = async (): Promise<void> => {
+  if (hasUserSelectedModel()) return;
+  if (await supportsF16Shaders()) selectedLocalModel.value = DEFAULT_MODEL_F16;
+};
+
+// Qwen3 / Qwen3.5 "think" first; we turn that off and strip any leftover <think> block
+const isThinkingModel = (modelId: string): boolean => /^Qwen3/i.test(modelId);
+
+export const stripThinking = (text: string): string =>
+  text
+    .replace(/<think>[\s\S]*?<\/think>\s*/g, '')
+    .replace(/<think>[\s\S]*$/, '')
+    .trimStart();
+
 // Dynamically fetch and filter modern, active compact models from web-llm registry
 export const getAvailableLocalModels = async (): Promise<LocalModelOption[]> => {
   try {
     const { prebuiltAppConfig, hasModelInCache } = await import('@mlc-ai/web-llm');
     const f16Supported = await supportsF16Shaders();
+    await resolveDefaultModel();
 
     const filtered = prebuiltAppConfig.model_list.filter((m) => {
       const id = m.model_id;
@@ -80,7 +101,9 @@ export const getAvailableLocalModels = async (): Promise<LocalModelOption[]> => 
         id.startsWith('Qwen2.5-1.5B') ||
         id.startsWith('Qwen2.5-3B') ||
         id.startsWith('Qwen3-0.6B') ||
+        id.startsWith('Qwen3-1.7B') ||
         id.startsWith('Qwen3.5-0.8B') ||
+        id.startsWith('Qwen3.5-2B') ||
         id.startsWith('gemma-2-2b') ||
         id.startsWith('gemma3-1b') ||
         id.startsWith('Ministral-3-3B-Instruct') ||
@@ -133,6 +156,12 @@ export const getAvailableLocalModels = async (): Promise<LocalModelOption[]> => 
   } catch (err: unknown) {
     console.warn('Failed to dynamically load WebLLM model list:', err);
     return [
+      {
+        id: 'Qwen3.5-0.8B-q4f32_1-MLC',
+        name: 'Qwen3.5-0.8B (Balanced · 32-bit)',
+        vramMB: 1894,
+        isCached: false
+      },
       {
         id: 'SmolLM2-360M-Instruct-q4f32_1-MLC',
         name: 'SmolLM2-360M-Instruct (Fast · 32-bit)',
@@ -189,6 +218,7 @@ export const setSelectedLocalModel = (modelId: string): void => {
 };
 
 export const getWebLLMEngine = async (modelId?: string): Promise<MLCEngineInterface> => {
+  if (!modelId) await resolveDefaultModel();
   const targetModel = modelId || selectedLocalModel.value;
 
   if (engineInstance && isModelReady.value) {
@@ -284,6 +314,9 @@ export const callWebLLM = async (
 
   isGenerating.value = true;
   generationStatus.value = 'Thinking & compiling context...';
+  const extraBody = isThinkingModel(selectedLocalModel.value)
+    ? { extra_body: { enable_thinking: false } }
+    : {};
 
   try {
     if (onChunk) {
@@ -294,7 +327,8 @@ export const callWebLLM = async (
         top_p: 0.9,
         repetition_penalty: 1.18,
         max_tokens: 512,
-        stream: true
+        stream: true,
+        ...extraBody
       });
 
       let accumulated = '';
@@ -302,10 +336,10 @@ export const callWebLLM = async (
         const textDelta = chunk.choices[0]?.delta?.content || '';
         if (textDelta) {
           accumulated += textDelta;
-          onChunk(textDelta, accumulated);
+          onChunk(textDelta, stripThinking(accumulated));
         }
       }
-      return accumulated;
+      return stripThinking(accumulated);
     } else {
       generationStatus.value = 'Inferring response...';
       const reply = await engine.chat.completions.create({
@@ -313,10 +347,11 @@ export const callWebLLM = async (
         temperature: 0.3,
         top_p: 0.9,
         repetition_penalty: 1.18,
-        max_tokens: 512
+        max_tokens: 512,
+        ...extraBody
       });
 
-      return reply.choices[0]?.message?.content || '';
+      return stripThinking(reply.choices[0]?.message?.content || '');
     }
   } finally {
     isGenerating.value = false;
