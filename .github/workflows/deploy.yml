@@ -40,6 +40,8 @@ jobs:
         run: npx semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # The release bot commits and pushes; don't run local git hooks (tests already ran in CI)
+          HUSKY: 0
 
   build-deploy:
     needs: release

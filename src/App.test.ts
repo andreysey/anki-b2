@@ -1,5 +1,5 @@
-import { describe, it, expect, beforeEach, vi } from 'vitest';
-import { mount } from '@vue/test-utils';
+import { describe, it, expect, beforeAll, beforeEach, afterEach, vi } from 'vitest';
+import { mount, enableAutoUnmount } from '@vue/test-utils';
 import App from './App.vue';
 import { useVocabulary } from './composables/useVocabulary';
 import { useNavigation } from './composables/useNavigation';
@@ -39,6 +39,21 @@ vi.mock('vue-sonner', () => ({
     template: '<div><slot /></div>'
   }
 }));
+
+// App lazy-loads these with defineAsyncComponent. Load them up front so no dynamic
+// import is still pending when the test environment is torn down
+// (that caused a flaky EnvironmentTeardownError for Sonner.vue in CI).
+beforeAll(async () => {
+  await Promise.all([
+    import('./components/ui/sonner/Sonner.vue'),
+    import('./components/StudyView.vue'),
+    import('./components/DashboardView.vue'),
+    import('./components/AISettingsDialog.vue'),
+    import('./components/CommandPaletteModal.vue')
+  ]);
+});
+
+enableAutoUnmount(afterEach);
 
 describe('App.vue', () => {
   beforeEach(() => {
