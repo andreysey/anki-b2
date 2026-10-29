@@ -1,3 +1,10 @@
+## [1.56.2](https://github.com/andreysey/anki-b2/compare/v1.56.1...v1.56.2) (2026-10-29)
+
+
+### Bug Fixes
+
+* **release:** include package-lock.json in release commits ([8428dd4](https://github.com/andreysey/anki-b2/commit/8428dd468a76511bcbdfe750d5158602af5b197c))
+
 ## [1.56.1](https://github.com/andreysey/anki-b2/compare/v1.56.0...v1.56.1) (2026-09-18)
 
 
