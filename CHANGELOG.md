@@ -1,3 +1,10 @@
+# [1.57.0](https://github.com/andreysey/anki-b2/compare/v1.56.5...v1.57.0) (2026-10-29)
+
+
+### Features
+
+* **ai:** multilingual local model defaults and current Chrome Prompt API ([b7cc8b6](https://github.com/andreysey/anki-b2/commit/b7cc8b6fd49a28562de61ccf10f86453d150f913))
+
 ## [1.56.5](https://github.com/andreysey/anki-b2/compare/v1.56.4...v1.56.5) (2026-10-29)
 
 
