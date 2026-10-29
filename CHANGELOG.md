@@ -1,3 +1,10 @@
+# [1.60.0](https://github.com/andreysey/anki-b2/compare/v1.59.0...v1.60.0) (2026-10-29)
+
+
+### Features
+
+* **ui:** widen the study card on large screens while the AI coach is open ([d189ab2](https://github.com/andreysey/anki-b2/commit/d189ab2d49615dc815d164781d49dbf5e623b1a6))
+
 # [1.59.0](https://github.com/andreysey/anki-b2/compare/v1.58.0...v1.59.0) (2026-10-29)
 
 
