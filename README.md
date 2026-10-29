@@ -10,9 +10,11 @@ Interactive German vocabulary training platform and native Anki packages aligned
 
 - **3,600+ Thematic Cards**: Professional German vocabulary covering workplace scenarios, *Nomen-Verb-Verbindungen*, verbs/adjectives with prepositions, and *Redemittel*.
 - **Native Anki Packages (`.apkg`)**: Bi-directional cards (Recognition & Production) with gender colorization, example highlighting, and built-in TTS audio.
-- **Spaced Repetition (SRS)**: 5-stage Leitner SRS engine with keyboard shortcuts (`Space` flip, `1-4` grade).
-- **AI Language Coach**: Integrated Gemini AI for instant grammatical breakdown and workplace dialogue examples.
-- **Modern Web App**: Offline-ready PWA, dark/light themes, progress analytics, and JSON backup/restore.
+- **Spaced Repetition (SRS)**: 5-stage Leitner SRS engine with keyboard shortcuts (`Space` flip, `1-4` grade, `←`/`→` navigate, `M` mark as mastered).
+- **AI Language Coach**: Grammatical breakdowns and workplace dialogue examples. Runs on-device first (browser built-in AI, or a local WebLLM model via WebGPU) and falls back to the Gemini API with your own key.
+- **Quick Search**: Command palette (`Ctrl/⌘ + K`) with fuzzy search across all cards.
+- **Modern Web App**: Offline-ready PWA, light/dark mode with macOS and Material Design 3 styles, fullscreen zen mode, progress analytics, and JSON backup/restore.
+- **Accessible**: ARIA labels, keyboard navigation, and `prefers-reduced-motion` support.
 
 ---
 
@@ -27,6 +29,8 @@ Pre-built `.apkg` packages ready for import into Anki (Desktop, AnkiMobile, Anki
 ---
 
 ## 🛠️ Quick Start
+
+Requires **Node.js 24.20+**.
 
 ```bash
 # Install dependencies
