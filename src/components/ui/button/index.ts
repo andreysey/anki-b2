@@ -23,7 +23,8 @@ export const buttonVariants = cva(
         sm: 'h-8 rounded-lg px-3 text-xs',
         lg: 'h-10 rounded-xl px-6',
         icon: 'h-9 w-9 rounded-xl',
-        'icon-sm': 'h-7 w-7 rounded-lg'
+        // Small on desktop, finger-sized (36px) on touch screens
+        'icon-sm': 'h-7 w-7 rounded-lg pointer-coarse:h-9! pointer-coarse:w-9!'
       }
     },
     defaultVariants: {

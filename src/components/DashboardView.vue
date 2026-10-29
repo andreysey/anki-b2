@@ -193,7 +193,7 @@ const totalPercentage = computed(() => {
   <div class="space-y-6 pt-0 animate-in fade-in duration-500">
     <!-- macOS Dashboard Header Title -->
     <div
-      class="flex items-center justify-between pb-3 border-b border-slate-200/80 dark:border-white/10"
+      class="flex items-start sm:items-center justify-between gap-3 pb-3 border-b border-slate-200/80 dark:border-white/10"
     >
       <div class="space-y-0.5">
         <h2 class="text-xl font-bold text-slate-900 dark:text-white tracking-tight">
@@ -204,7 +204,7 @@ const totalPercentage = computed(() => {
         </p>
       </div>
       <div
-        class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-[11px] font-semibold bg-primary-50 text-primary-600 border border-primary-200 dark:bg-primary-500/10 dark:text-primary-400 dark:border-primary-500/20 shadow-2xs"
+        class="hidden sm:inline-flex shrink-0 whitespace-nowrap items-center gap-1.5 px-3 py-1 rounded-full text-[11px] font-semibold bg-primary-50 text-primary-600 border border-primary-200 dark:bg-primary-500/10 dark:text-primary-400 dark:border-primary-500/20 shadow-2xs"
       >
         <TrendingUp class="h-3.5 w-3.5" />
         <span>Live Progress</span>

@@ -76,14 +76,14 @@ const themeModeLabel = computed(() => {
 
 <template>
   <header
-    class="macos-titlebar relative px-4 sm:px-6 md:px-10 py-3 sm:py-3.5 flex flex-col md:flex-row md:items-center justify-between gap-3 md:gap-4 select-none shrink-0"
+    class="macos-titlebar relative px-4 sm:px-6 lg:px-10 py-3 sm:py-3.5 flex flex-col lg:flex-row lg:items-center justify-between gap-3 lg:gap-4 select-none shrink-0"
   >
     <!-- Scroll-driven Reading / Progress Bar (CSS Scroll Timeline) -->
     <div
       class="scroll-progress-bar absolute bottom-0 left-0 right-0 h-0.5 bg-primary-500 pointer-events-none opacity-80"
     ></div>
     <!-- Top row on mobile: Logo + Title (Left) & Utility Actions (Right) -->
-    <div class="flex items-center justify-between w-full md:w-auto gap-3">
+    <div class="flex items-center justify-between w-full lg:w-auto gap-3">
       <div class="flex items-center gap-2.5 sm:gap-3">
         <div
           class="w-8 h-8 sm:w-9 sm:h-9 rounded-xl bg-primary-500/10 border border-primary-500/20 flex items-center justify-center text-primary-500 dark:text-primary-400 shadow-xs shrink-0"
@@ -92,7 +92,7 @@ const themeModeLabel = computed(() => {
         </div>
         <div class="flex items-center gap-1.5 sm:gap-2">
           <span
-            class="text-sm sm:text-base font-bold tracking-tight text-slate-800 dark:text-slate-200"
+            class="text-sm sm:text-base font-bold tracking-tight whitespace-nowrap text-slate-800 dark:text-slate-200"
           >
             Anki B2
           </span>
@@ -113,11 +113,11 @@ const themeModeLabel = computed(() => {
       </div>
 
       <!-- Utility Actions (Mobile only) -->
-      <div class="flex md:hidden items-center gap-1.5">
+      <div class="flex lg:hidden items-center gap-1 sm:gap-1.5">
         <!-- Audio Settings Popover (Mobile) -->
         <AudioSettingsPopover
           idPrefix="mobile"
-          buttonSize="icon-sm"
+          buttonSize="icon"
           :germanVoices="germanVoices"
           :selectedVoiceURI="selectedVoiceURI"
           :ttsRate="ttsRate"
@@ -128,7 +128,7 @@ const themeModeLabel = computed(() => {
         <Button
           id="btn-theme-style-mobile"
           variant="ghost"
-          size="icon-sm"
+          size="icon"
           @click="emit('toggleThemeStyle')"
           :title="`Style: ${themeStyle === 'material' ? 'Material Design 3' : 'macOS'}`"
           class="rounded-full text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100"
@@ -138,7 +138,7 @@ const themeModeLabel = computed(() => {
         <Button
           id="btn-theme-toggle-mobile"
           variant="ghost"
-          size="icon-sm"
+          size="icon"
           @click="emit('cycleTheme')"
           :title="`Theme: ${themeModeLabel}`"
           class="rounded-full text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100"
@@ -150,7 +150,7 @@ const themeModeLabel = computed(() => {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="GitHub Repository"
-          class="inline-flex items-center justify-center rounded-full h-7 w-7 text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100 hover:bg-slate-200/60 dark:hover:bg-white/10 transition-all"
+          class="hidden xs:inline-flex items-center justify-center rounded-full h-9 w-9 text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100 hover:bg-slate-200/60 dark:hover:bg-white/10 transition-all"
         >
           <svg class="h-4 w-4 fill-current" viewBox="0 0 24 24" aria-hidden="true">
             <path
@@ -167,14 +167,14 @@ const themeModeLabel = computed(() => {
     <nav
       role="tablist"
       aria-label="Main Navigation"
-      class="macos-segmented-bar w-full md:w-auto grid grid-cols-3 md:flex items-center gap-1 shadow-inner p-1"
+      class="macos-segmented-bar w-full lg:w-auto grid grid-cols-3 lg:flex items-center gap-1 shadow-inner p-1"
     >
       <button
         type="button"
         id="tab-dictionary"
         role="tab"
         :aria-selected="activeView === 'list'"
-        class="px-2 sm:px-4 py-1.5 text-xs sm:text-sm font-semibold rounded-lg transition-all cursor-pointer flex items-center justify-center gap-1 sm:gap-1.5 text-center"
+        class="px-2 sm:px-4 py-1.5 pointer-coarse:py-2 text-xs sm:text-sm font-semibold rounded-lg transition-all cursor-pointer flex items-center justify-center gap-1 sm:gap-1.5 text-center"
         :class="
           activeView === 'list'
             ? 'macos-segmented-item-active'
@@ -183,15 +183,15 @@ const themeModeLabel = computed(() => {
         @click="emit('update:activeView', 'list')"
       >
         <List class="h-3.5 w-3.5 shrink-0" aria-hidden="true" />
-        <span class="hidden xs:inline sm:inline">Dictionary</span>
-        <span class="xs:hidden">Words</span>
+        <span class="hidden lg:inline whitespace-nowrap">Dictionary</span>
+        <span class="lg:hidden">Words</span>
       </button>
       <button
         type="button"
         id="tab-study"
         role="tab"
         :aria-selected="activeView === 'study'"
-        class="px-2 sm:px-4 py-1.5 text-xs sm:text-sm font-semibold rounded-lg transition-all cursor-pointer flex items-center justify-center gap-1 sm:gap-1.5 text-center"
+        class="px-2 sm:px-4 py-1.5 pointer-coarse:py-2 text-xs sm:text-sm font-semibold rounded-lg transition-all cursor-pointer flex items-center justify-center gap-1 sm:gap-1.5 text-center"
         :class="
           activeView === 'study'
             ? 'macos-segmented-item-active'
@@ -200,15 +200,15 @@ const themeModeLabel = computed(() => {
         @click="emit('update:activeView', 'study')"
       >
         <GraduationCap class="h-3.5 w-3.5 shrink-0" aria-hidden="true" />
-        <span class="hidden sm:inline">Study Mode</span>
-        <span class="sm:hidden">Study</span>
+        <span class="hidden lg:inline whitespace-nowrap">Study Mode</span>
+        <span class="lg:hidden">Study</span>
       </button>
       <button
         type="button"
         id="tab-dashboard"
         role="tab"
         :aria-selected="activeView === 'dashboard'"
-        class="px-2 sm:px-4 py-1.5 text-xs sm:text-sm font-semibold rounded-lg transition-all cursor-pointer flex items-center justify-center gap-1 sm:gap-1.5 text-center"
+        class="px-2 sm:px-4 py-1.5 pointer-coarse:py-2 text-xs sm:text-sm font-semibold rounded-lg transition-all cursor-pointer flex items-center justify-center gap-1 sm:gap-1.5 text-center"
         :class="
           activeView === 'dashboard'
             ? 'macos-segmented-item-active'
@@ -217,13 +217,13 @@ const themeModeLabel = computed(() => {
         @click="emit('update:activeView', 'dashboard')"
       >
         <BarChart3 class="h-3.5 w-3.5 shrink-0" aria-hidden="true" />
-        <span class="hidden xs:inline sm:inline">Dashboard</span>
-        <span class="xs:hidden">Stats</span>
+        <span class="hidden lg:inline whitespace-nowrap">Dashboard</span>
+        <span class="lg:hidden">Stats</span>
       </button>
     </nav>
 
     <!-- Right: Window Utility Actions (Desktop only) -->
-    <div class="hidden md:flex items-center gap-2 justify-end">
+    <div class="hidden lg:flex items-center gap-2 justify-end">
       <!-- Audio Settings Popover (Desktop) -->
       <AudioSettingsPopover
         idPrefix="desktop"

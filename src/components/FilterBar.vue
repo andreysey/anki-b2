@@ -16,6 +16,10 @@ const props = defineProps<{
   filteredCount?: number;
 }>();
 
+// Shortcut hint matches the OS: ⌘K on Apple devices, Ctrl+K elsewhere
+const shortcutLabel =
+  typeof navigator !== 'undefined' && /Mac|iPhone|iPad/.test(navigator.userAgent) ? '⌘K' : 'Ctrl+K';
+
 const emit = defineEmits<{
   (e: 'update:search', value: string): void;
   (e: 'update:level', value: string): void;
@@ -72,8 +76,8 @@ const toggleStudyModeLabel = computed(() => (props.isStudyMode ? 'Back to List' 
           aria-label="Search vocabulary"
           :modelValue="search"
           @update:modelValue="(val) => emit('update:search', String(val ?? ''))"
-          placeholder="Search vocabulary... (⌘K)"
-          class="w-full pl-9 pr-14 text-xs sm:text-sm h-9 bg-slate-50/90 dark:bg-black/40 border-slate-200 dark:border-white/10 rounded-xl"
+          placeholder="Search vocabulary..."
+          class="w-full pl-9 pr-16 text-xs sm:text-sm h-9 bg-slate-50/90 dark:bg-black/40 border-slate-200 dark:border-white/10 rounded-xl"
         />
         <div class="absolute inset-y-0 right-0 pr-2.5 flex items-center gap-1">
           <button
@@ -82,15 +86,15 @@ const toggleStudyModeLabel = computed(() => (props.isStudyMode ? 'Back to List' 
             @click="handleClearSearch"
             aria-label="Clear search input"
             title="Clear search"
-            class="flex items-center text-slate-400 hover:text-slate-700 dark:hover:text-slate-200 cursor-pointer transition-colors"
+            class="flex items-center p-1.5 -m-1 rounded-full text-slate-400 hover:text-slate-700 dark:hover:text-slate-200 cursor-pointer transition-colors"
           >
             <X class="h-4 w-4" />
           </button>
           <kbd
             v-else
-            class="hidden xs:inline-flex items-center text-[10px] font-mono px-1.5 py-0.5 rounded bg-slate-200/80 dark:bg-white/10 text-slate-500 dark:text-slate-400 border border-slate-300/60 dark:border-white/10"
+            class="hidden pointer-fine:inline-flex items-center text-[10px] font-mono px-1.5 py-0.5 rounded bg-slate-200/80 dark:bg-white/10 text-slate-500 dark:text-slate-400 border border-slate-300/60 dark:border-white/10"
           >
-            ⌘K
+            {{ shortcutLabel }}
           </kbd>
         </div>
       </div>

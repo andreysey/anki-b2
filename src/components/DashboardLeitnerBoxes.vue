@@ -20,7 +20,10 @@ defineProps<{
       <h3 class="text-sm font-bold text-slate-900 dark:text-white tracking-tight">
         Leitner Box Distribution (SRS Memory Depth)
       </h3>
-      <span class="text-[11px] text-slate-500 dark:text-slate-400 font-medium">Stages 0 to 5</span>
+      <span
+        class="hidden sm:inline shrink-0 text-[11px] text-slate-500 dark:text-slate-400 font-medium"
+        >Stages 0 to 5</span
+      >
     </div>
     <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
       <div

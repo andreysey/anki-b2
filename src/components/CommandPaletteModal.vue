@@ -179,7 +179,7 @@ onUnmounted(() => {
                 class="text-sm font-semibold truncate text-slate-900 dark:text-white"
                 v-html="sanitizeHtml(word.german)"
               ></span>
-              <span class="text-xs text-slate-400 truncate">
+              <span class="hidden sm:inline text-xs text-slate-400 truncate">
                 ({{ getThemaLabel(word.thema) }})
               </span>
             </div>
@@ -220,7 +220,7 @@ onUnmounted(() => {
 
       <!-- Footer info with keyboard hints -->
       <div
-        class="px-4 py-2 border-t border-slate-200/80 dark:border-white/10 bg-slate-50/80 dark:bg-slate-950/40 text-[11px] text-slate-500 dark:text-slate-400 flex items-center justify-between"
+        class="hidden pointer-fine:flex px-4 py-2 border-t border-slate-200/80 dark:border-white/10 bg-slate-50/80 dark:bg-slate-950/40 text-[11px] text-slate-500 dark:text-slate-400 items-center justify-between"
       >
         <div class="flex items-center gap-2">
           <span

@@ -75,6 +75,8 @@ html.dark {
 }
 
 @theme {
+  /* Small-phone breakpoint used as xs: (480px) */
+  --breakpoint-xs: 30rem;
   --color-surface-50: #f8fafc;
   --color-surface-100: #f1f5f9;
   --color-surface-200: #e2e8f0;
