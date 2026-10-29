@@ -127,6 +127,15 @@ describe('AISettingsDialog.vue', () => {
     expect(input.value).toBe('stored-key');
   });
 
+  it('explains how to restrict the API key to this site', () => {
+    useAIAssistantState().openSettings();
+    const wrapper = mount(AISettingsDialog);
+    const tips = wrapper.find('details');
+    expect(tips.text()).toContain('How to protect your key');
+    expect(tips.text()).toContain('Generative Language API');
+    expect(tips.find('code').text()).toBe(`${window.location.origin}/*`);
+  });
+
   describe('local WebGPU model', () => {
     beforeEach(() => {
       selectedLocalModel.value = 'small-model';

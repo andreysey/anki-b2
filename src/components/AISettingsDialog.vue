@@ -26,6 +26,11 @@ const isCurrentModelCached = ref(false);
 const hasGPUAdapter = ref(true);
 const gpuReady = computed(() => isWebGPUSupported() && hasGPUAdapter.value);
 const webgpuHelp = getWebGPUHelp();
+// Address to allow in the key's "Websites" restriction, e.g. https://andreysey.github.io/anki-b2/*
+const siteReferrer =
+  typeof window !== 'undefined'
+    ? `${window.location.origin}${import.meta.env.BASE_URL}*`
+    : 'https://andreysey.github.io/anki-b2/*';
 
 const checkCachedStatus = async () => {
   if (!isWebGPUSupported()) return;
@@ -160,6 +165,37 @@ const modelActionButtonLabel = computed(() =>
               Google AI Studio </a
             >.
           </span>
+          <details class="group text-[11px] text-slate-600 dark:text-slate-400">
+            <summary
+              class="cursor-pointer select-none font-medium text-slate-700 dark:text-slate-300 hover:text-primary-600 dark:hover:text-primary-400"
+            >
+              How to protect your key
+            </summary>
+            <ol class="list-decimal pl-4 mt-1.5 space-y-1 leading-relaxed">
+              <li>
+                Use a key from a project <strong>without billing</strong> — the free tier can't cost
+                you money.
+              </li>
+              <li>
+                In
+                <a
+                  href="https://console.cloud.google.com/apis/credentials"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-primary-600 dark:text-primary-400 underline"
+                  >Google Cloud → Credentials</a
+                >, open the key → <em>API restrictions</em> → allow only
+                <strong>Generative Language API</strong>.
+              </li>
+              <li>
+                Under <em>Application restrictions</em> choose <strong>Websites</strong> and add
+                <code
+                  class="break-all bg-slate-100 dark:bg-slate-800 px-1 py-0.5 rounded font-mono text-[10px]"
+                  >{{ siteReferrer }}</code
+                >.
+              </li>
+            </ol>
+          </details>
         </div>
 
         <!-- Local WebGPU AI Section -->
