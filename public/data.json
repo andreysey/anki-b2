@@ -4010,7 +4010,7 @@
     "german_audio": "eingeben",
     "english": "to enter (data)",
     "ukrainian": "вводити (дані)",
-    "example": "Bitte geben Sie die Lieferdaten sorgfältig in das EDV-System ein."
+    "example": "Bitte <b style=\"color: #eab308;\">geben</b> Sie die Lieferdaten sorgfältig in das EDV-System ein."
   },
   {
     "level": "B1+",
@@ -7208,7 +7208,7 @@
     "german_audio": "nahelegen",
     "english": "to suggest (e.g., a conclusion)",
     "ukrainian": "наводити на думку, підказувати",
-    "example": "Die vorliegenden Ergebnisse <b>legen den Schluss nahe, dass</b> wir die Abläufe optimieren müssen."
+    "example": "Die vorliegenden Ergebnisse <b>legen den Schluss <b style=\"color: #eab308;\">nahe</b>, dass</b> wir die Abläufe optimieren müssen."
   },
   {
     "level": "B2",
@@ -8084,7 +8084,7 @@
     "german_audio": "zustehen",
     "english": "to be entitled to",
     "ukrainian": "мати право на (щось)",
-    "example": "Dem Arbeitnehmer steht bei Krankheit eine Lohnfortzahlung zu."
+    "example": "Dem Arbeitnehmer <b style=\"color: #eab308;\">steht</b> bei Krankheit eine Lohnfortzahlung zu."
   },
   {
     "level": "B2",
@@ -8960,7 +8960,7 @@
     "german_audio": "hinweisen auf",
     "english": "to point out to",
     "ukrainian": "вказувати комусь на щось",
-    "example": "Der Sicherheitsbeauftragte weist die Belegschaft auf die Einhaltung der Vorschriften hin."
+    "example": "Der Sicherheitsbeauftragte <b style=\"color: #eab308;\">weist</b> die Belegschaft auf die Einhaltung der Vorschriften hin."
   },
   {
     "level": "B2",
@@ -14804,7 +14804,7 @@
     "german_audio": "vorgehen",
     "english": "to proceed, to act",
     "ukrainian": "діяти, чинити",
-    "example": "Bitte gehen Sie bei der Beseitigung des Fehlers wie folgt vor: ..."
+    "example": "Bitte <b style=\"color: #eab308;\">gehen</b> Sie bei der Beseitigung des Fehlers wie folgt vor: ..."
   },
   {
     "level": "B2",
@@ -39860,7 +39860,7 @@
     "german_audio": "ankommen auf",
     "english": "to depend on",
     "ukrainian": "залежний від",
-    "example": "Bei der Sozialauswahl kommt es vor allem auf die familiären Lebensumstände an."
+    "example": "Bei der Sozialauswahl <b style=\"color: #eab308;\">kommt</b> es vor allem auf die familiären Lebensumstände an."
   },
   {
     "level": "B2",
@@ -39980,7 +39980,7 @@
     "german_audio": "hinweisen auf",
     "english": "to point out",
     "ukrainian": "вкивати на",
-    "example": "Der Abfallbeauftragte hat uns auf die korrekte Mülltrennung hingewiesen."
+    "example": "Der Abfallbeauftragte hat uns auf die korrekte Mülltrennung <b style=\"color: #eab308;\">hingewiesen</b>."
   },
   {
     "level": "B2",
@@ -40136,7 +40136,7 @@
     "german_audio": "herauskommen aus",
     "english": "to come out of",
     "ukrainian": "виходити з",
-    "example": "Nachdem er aus dem Besprechungsraum herauskam, wirkte der Abteilungsleiter erleichtert."
+    "example": "Nachdem er aus dem Besprechungsraum <b style=\"color: #eab308;\">herauskam</b>, wirkte der Abteilungsleiter erleichtert."
   },
   {
     "level": "B2",
@@ -40568,7 +40568,7 @@
     "german_audio": "übereinstimmen in",
     "english": "to agree on",
     "ukrainian": "сходитися в (думках/деталях)",
-    "example": "Die Tarifpartner stimmten in den wesentlichen Punkten des Stufenplans überein."
+    "example": "Die Tarifpartner <b style=\"color: #eab308;\">stimmten</b> in den wesentlichen Punkten des Stufenplans überein."
   },
   {
     "level": "B2",
@@ -40664,7 +40664,7 @@
     "german_audio": "sich auskennen mit",
     "english": "to be familiar with",
     "ukrainian": "орієнтуватися в, знатися на",
-    "example": "Unser Datenschutzbeauftragter kennt sich bestens mit der DSGVO aus."
+    "example": "Unser Datenschutzbeauftragter <b style=\"color: #eab308;\">kennt</b> sich bestens mit der DSGVO aus."
   },
   {
     "level": "B2",
@@ -40676,7 +40676,7 @@
     "german_audio": "ausstatten mit",
     "english": "to equip with",
     "ukrainian": "оснащувати (чимось)",
-    "example": "Alle modernen Büros wurden mit ergonomischen Bürostühlen ausgestattet."
+    "example": "Alle modernen Büros wurden mit ergonomischen Bürostühlen <b style=\"color: #eab308;\">ausgestattet</b>."
   },
   {
     "level": "B2",
@@ -40868,7 +40868,7 @@
     "german_audio": "sich treffen mit",
     "english": "to meet with",
     "ukrainian": "зустрічатися з",
-    "example": "Die Verhandlungskommission trifft sich morgen mit den Vertretern der Arbeitgeberseite."
+    "example": "Die Verhandlungskommission <b style=\"color: #eab308;\">trifft</b> sich morgen mit den Vertretern der Arbeitgeberseite."
   },
   {
     "level": "B2",
@@ -41252,7 +41252,7 @@
     "german_audio": "sich bewerben um",
     "english": "to apply for",
     "ukrainian": "подавати заявку на",
-    "example": "Sie hat sich erfolgreich um die Stelle der Gleichstellungsbeauftragten beworben."
+    "example": "Sie hat sich erfolgreich um die Stelle der Gleichstellungsbeauftragten <b style=\"color: #eab308;\">beworben</b>."
   },
   {
     "level": "B2",
@@ -41420,7 +41420,7 @@
     "german_audio": "hören von",
     "english": "to hear of",
     "ukrainian": "чути про",
-    "example": "Haben Sie schon von den Plänen zur Betriebsverlegung nach Polen gehört?"
+    "example": "Haben Sie schon von den Plänen zur Betriebsverlegung nach Polen <b style=\"color: #eab308;\">gehört</b>?"
   },
   {
     "level": "B2",
@@ -41540,7 +41540,7 @@
     "german_audio": "wissen von",
     "english": "to know of",
     "ukrainian": "знати про",
-    "example": "Der Vorstand will angeblich nichts von den Steuerordnungswidrigkeiten gewusst haben."
+    "example": "Der Vorstand will angeblich nichts von den Steuerordnungswidrigkeiten <b style=\"color: #eab308;\">gewusst</b> haben."
   },
   {
     "level": "B2",
@@ -41552,7 +41552,7 @@
     "german_audio": "sich zurückziehen von",
     "english": "to withdraw from",
     "ukrainian": "відступати від",
-    "example": "Die Bank hat sich vorzeitig von der Finanzierung des Neubaus zurückgezogen."
+    "example": "Die Bank hat sich vorzeitig von der Finanzierung des Neubaus <b style=\"color: #eab308;\">zurückgezogen</b>."
   },
   {
     "level": "B2",
@@ -41732,7 +41732,7 @@
     "german_audio": "kommen zu",
     "english": "to come to",
     "ukrainian": "приходити до, призводити до",
-    "example": "Aufgrund des Streiks kam es zu erheblichen Ausfallzeiten im Betrieb."
+    "example": "Aufgrund des Streiks <b style=\"color: #eab308;\">kam</b> es zu erheblichen Ausfallzeiten im Betrieb."
   },
   {
     "level": "B2",
@@ -41768,7 +41768,7 @@
     "german_audio": "wählen zu",
     "english": "to elect as",
     "ukrainian": "обирати (на посаду)",
-    "example": "Herr Müller wurde gestern mit großer Mehrheit zum Betriebsratsvorsitzenden gewählt."
+    "example": "Herr Müller wurde gestern mit großer Mehrheit zum Betriebsratsvorsitzenden <b style=\"color: #eab308;\">gewählt</b>."
   },
   {
     "level": "B2",

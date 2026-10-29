@@ -19,6 +19,7 @@ import {
   getLevelFromFilename
 } from './utils.js';
 import { buildVerbTenses, formatTensesHtml } from './verb-grammar.js';
+import { buildVerbLexicon, extractInfinitive, lookupVerbForms } from './verb-lexicon.js';
 
 // ── Stable Note Model Configuration ──────────────────────────────────────────
 // CRITICAL SAFETY NOTICE:
@@ -292,6 +293,8 @@ export async function generateAnkiDeck(
   const warnings: string[] = [];
   let totalEntries = 0;
   let noteIndex = 0;
+  // Built from every source file, so all decks highlight the same way
+  const verbLexicon = files.length ? buildVerbLexicon(path.dirname(files[0])) : new Map();
 
   for (const filePath of files) {
     const fname = path.basename(filePath);
@@ -320,7 +323,9 @@ export async function generateAnkiDeck(
 
       const wordAudio = cleanGermanForAudio(wordDisplay); // German_Audio
       const germanColored = colorizeGender(wordDisplay); // German (with <span>)
-      const exampleHtml = highlightWordInExample(wordAudio, exampleRaw, wordDisplay); // Example
+      const infinitive = extractInfinitive(wordDisplay.replace(/\([^()]*\)\s*$/, ''));
+      const verbForms = infinitive ? lookupVerbForms(infinitive, verbLexicon) : [];
+      const exampleHtml = highlightWordInExample(wordAudio, exampleRaw, wordDisplay, verbForms); // Example
       const verbTenses = buildVerbTenses(wordDisplay, exampleRaw);
       const grammarTensesHtml = formatTensesHtml(verbTenses);
 

@@ -20,7 +20,7 @@ export interface TenseEntry {
   sentence: string;
 }
 
-const SEP_PREFIXES = [
+export const SEP_PREFIXES = [
   'zurück',
   'zusammen',
   'weiter',

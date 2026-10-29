@@ -138,10 +138,11 @@ export function colorizeGender(german: string): string {
 export function highlightWordInExample(
   cleanGerman: string,
   example: string,
-  originalGerman?: string
+  originalGerman?: string,
+  verbForms: string[] = []
 ): string {
   if (!example) return '';
-  const cacheKey = `${cleanGerman}|||${example}|||${originalGerman ?? ''}`;
+  const cacheKey = `${cleanGerman}|||${example}|||${originalGerman ?? ''}|||${verbForms.join(',')}`;
   const cached = highlightWordCache.get(cacheKey);
   if (cached !== undefined) return cached;
 
@@ -351,7 +352,24 @@ export function highlightWordInExample(
     }
   }
 
-  // ── 7. Fallback: phrase alternatives ("… bietet / verfügt über / …").
+  // ── 7. Fallback: verb forms collected from other cards (trifft, kam, gewählt…).
+  // Allows only verb endings after the form, so "kam" won't match "Kamera".
+  if (!hasHighlighted && verbForms.length) {
+    const forms = [...verbForms].sort((a, b) => b.length - a.length);
+    for (const form of forms) {
+      const pattern = getCompiledRegex(`${wb}(${escapeRegex(form)}(?:e|en|n|st|t|et)?)${we}`, 'iu');
+      if (pattern.test(highlightedExample)) {
+        highlightedExample = highlightedExample.replace(
+          pattern,
+          (_, p1, p2, p3) => `${p1}<b style="color: #eab308;">${p2}</b>${p3}`
+        );
+        hasHighlighted = true;
+        break;
+      }
+    }
+  }
+
+  // ── 8. Fallback: phrase alternatives ("… bietet / verfügt über / …").
   // cleanGerman only keeps the first alternative, so try the others.
   if (!hasHighlighted && originalGerman && originalGerman.includes(' / ')) {
     const alternatives = originalGerman
