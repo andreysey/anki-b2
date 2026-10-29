@@ -5,7 +5,8 @@ import {
   checkOnDeviceSupport,
   callAI,
   getAvailableGeminiModels,
-  ON_DEVICE_LANGUAGES
+  ON_DEVICE_LANGUAGES,
+  ANSWER_LANGUAGE
 } from './ai';
 import { mockLanguageModel, clearLanguageModel } from '../test-utils/fixtures';
 
@@ -46,8 +47,8 @@ describe('ai utils', () => {
       }
     );
 
-    it('asks for Ukrainian output', () => {
-      expect(ON_DEVICE_LANGUAGES.expectedOutputs?.[0].languages).toEqual(['uk']);
+    it('asks Gemini Nano for English output', () => {
+      expect(ON_DEVICE_LANGUAGES.expectedOutputs?.[0].languages).toEqual(['en']);
     });
   });
 
@@ -241,6 +242,41 @@ describe('ai utils', () => {
       const res = await callAI('Hello', undefined, undefined, controller.signal);
       expect(res.success).toBe(false);
       expect(res.text).toBe('Request cancelled');
+    });
+  });
+
+  describe('answer language', () => {
+    const prompt = `Explain in ${ANSWER_LANGUAGE}.`;
+    const system = `Coach answering in ${ANSWER_LANGUAGE}.`;
+
+    it('asks on-device models to answer in English', async () => {
+      const { promptMock, createMock } = mockLanguageModel({ promptResponse: 'ok' });
+      await callAI(prompt, system);
+      expect(promptMock).toHaveBeenCalledWith('Explain in English.', expect.anything());
+      expect(createMock).toHaveBeenCalledWith(
+        expect.objectContaining({
+          initialPrompts: [{ role: 'system', content: 'Coach answering in English.' }]
+        })
+      );
+    });
+
+    it('asks the cloud API to answer in Ukrainian', async () => {
+      setCloudKey('test-key-language');
+      const fetchMock = vi
+        .fn()
+        .mockResolvedValueOnce({ ok: false, status: 500, json: async () => ({}) } as Response)
+        .mockResolvedValueOnce({
+          ok: true,
+          json: async () => ({ candidates: [{ content: { parts: [{ text: 'Відповідь' }] } }] })
+        } as Response);
+      globalThis.fetch = fetchMock;
+
+      const res = await callAI(prompt, system);
+      expect(res.source).toBe('cloud');
+      const body = JSON.parse(fetchMock.mock.calls[1][1].body);
+      expect(body.contents[0].parts[0].text).toBe(
+        'Coach answering in Ukrainian.\n\nUser request: Explain in Ukrainian.'
+      );
     });
   });
 });

@@ -39,13 +39,22 @@ export interface LanguageModelStatic {
   create: (options?: LanguageModelOptions) => Promise<LanguageModelSession>;
 }
 
-// The coach reads English/German prompts and answers in Ukrainian. Gemini Nano doesn't
-// support Ukrainian output yet, so availability() reports 'unavailable' and we fall back
-// to WebLLM / cloud. Once Chrome adds Ukrainian this path starts working on its own.
+/**
+ * Placeholder for the answer language in prompts. Small on-device models (Gemini Nano,
+ * WebLLM) write much better English than Ukrainian, and Nano doesn't support Ukrainian
+ * at all, so they answer in English; the cloud Gemini API answers in Ukrainian.
+ */
+export const ANSWER_LANGUAGE = '{{ANSWER_LANGUAGE}}';
+export const LOCAL_ANSWER_LANGUAGE = 'English';
+export const CLOUD_ANSWER_LANGUAGE = 'Ukrainian';
+
+const withLanguage = (text: string, language: string): string =>
+  text.split(ANSWER_LANGUAGE).join(language);
+
 export const ON_DEVICE_LANGUAGES: Pick<LanguageModelOptions, 'expectedInputs' | 'expectedOutputs'> =
   {
     expectedInputs: [{ type: 'text', languages: ['en', 'de'] }],
-    expectedOutputs: [{ type: 'text', languages: ['uk'] }]
+    expectedOutputs: [{ type: 'text', languages: ['en'] }]
   };
 
 export const isValidApiKey = (key: string): boolean => {
@@ -165,11 +174,15 @@ export const getAvailableGeminiModels = async (
 };
 
 export const callAI = async (
-  promptText: string,
-  systemInstruction?: string,
+  rawPrompt: string,
+  rawSystemInstruction?: string,
   onProgress?: (chunk: string, fullText: string) => void,
   signal?: AbortSignal
 ): Promise<AIServiceResponse> => {
+  const promptText = withLanguage(rawPrompt, LOCAL_ANSWER_LANGUAGE);
+  const systemInstruction =
+    rawSystemInstruction && withLanguage(rawSystemInstruction, LOCAL_ANSWER_LANGUAGE);
+
   // 1. Try Chrome Built-in AI (Gemini Nano via the Prompt API)
   const onDeviceEngine = getOnDeviceAIEngine();
   if (onDeviceEngine && (await checkOnDeviceSupport())) {
@@ -279,9 +292,12 @@ export const callAI = async (
     };
   }
 
-  const formattedPrompt = systemInstruction
-    ? `${systemInstruction}\n\nUser request: ${promptText}`
-    : promptText;
+  const cloudPrompt = withLanguage(rawPrompt, CLOUD_ANSWER_LANGUAGE);
+  const cloudSystemInstruction =
+    rawSystemInstruction && withLanguage(rawSystemInstruction, CLOUD_ANSWER_LANGUAGE);
+  const formattedPrompt = cloudSystemInstruction
+    ? `${cloudSystemInstruction}\n\nUser request: ${cloudPrompt}`
+    : cloudPrompt;
 
   let lastError = '';
   const candidateModels = await getAvailableGeminiModels(sanitizedKey, signal);

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, onUnmounted, watch } from 'vue';
 import type { Word } from '../types';
-import { callAI } from '../utils/ai';
+import { callAI, ANSWER_LANGUAGE } from '../utils/ai';
 import { useAIAssistantState } from '../composables/useAIAssistantState';
 import { Button } from './ui/button';
 import { Sparkles, Settings, Compass, MessageSquare, Check } from '@lucide/vue';
@@ -134,13 +134,13 @@ const executeAiPrompt = async (
 const handleExplainGrammar = async () => {
   const systemInstruction =
     'You are a German language coach (CEFR B1/B2). ' +
-    'Explain the German vocabulary term clearly in Ukrainian with bullet points. ' +
+    `Explain the German vocabulary term clearly in ${ANSWER_LANGUAGE} with bullet points. ` +
     'Do not repeat phrases. Be concise and structured.';
 
   const prompt =
     `German word: ${props.word.german}\n` +
     `Example: ${props.word.example || 'N/A'}\n\n` +
-    `Task: Provide meaning and grammar notes in Ukrainian.`;
+    `Task: Provide meaning and grammar notes in ${ANSWER_LANGUAGE}.`;
 
   await executeAiPrompt('grammar', systemInstruction, prompt);
 };
@@ -149,15 +149,15 @@ const handleGenerateDialogue = async () => {
   const systemInstruction =
     'You are a German language coach. ' +
     'Write a concise 2-speaker German workplace dialogue (2-3 lines max) using the vocabulary word. ' +
-    'Provide Ukrainian translation for each line. Do not repeat lines.';
+    `Provide ${ANSWER_LANGUAGE} translation for each line. Do not repeat lines.`;
 
   const prompt =
     `Word: ${props.word.german}\n` +
     `Format:\n` +
     `A: [German line]\n` +
-    `  [Ukrainian translation]\n` +
+    `  [${ANSWER_LANGUAGE} translation]\n` +
     `B: [German line]\n` +
-    `  [Ukrainian translation]`;
+    `  [${ANSWER_LANGUAGE} translation]`;
 
   await executeAiPrompt('dialogue', systemInstruction, prompt);
 };
@@ -165,7 +165,7 @@ const handleGenerateDialogue = async () => {
 const displayModelLabel = computed(() => {
   if (resultModel.value) return resultModel.value;
   if (resultSource.value === 'nano') return 'gemini-nano';
-  if (resultSource.value === 'webllm') return 'smollm2-local';
+  if (resultSource.value === 'webllm') return 'local-model';
   return 'gemini-cloud';
 });
 

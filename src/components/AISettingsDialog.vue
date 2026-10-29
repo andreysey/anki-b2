@@ -273,8 +273,9 @@ const modelActionButtonLabel = computed(() =>
             Chrome Built-in Gemini Nano
           </div>
           <div class="text-[11px] text-slate-500 leading-relaxed">
-            Used automatically first, with no download, once Chrome's on-device model supports
-            Ukrainian answers. Until then the local model or Gemini API is used.
+            Used automatically first when Chrome's on-device model is available, with no extra
+            download. On-device and local models answer in English; the Gemini API answers in
+            Ukrainian.
           </div>
         </div>
       </div>
