@@ -1,3 +1,10 @@
+# [1.58.0](https://github.com/andreysey/anki-b2/compare/v1.57.0...v1.58.0) (2026-10-29)
+
+
+### Features
+
+* **ai:** on-device models answer in English, cloud stays Ukrainian ([fb8dc6c](https://github.com/andreysey/anki-b2/commit/fb8dc6c6a586a3b1dc48bb9237583642dce9936b))
+
 # [1.57.0](https://github.com/andreysey/anki-b2/compare/v1.56.5...v1.57.0) (2026-10-29)
 
 
