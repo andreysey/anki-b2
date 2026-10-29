@@ -68,7 +68,7 @@ const emit = defineEmits<{
     </div>
 
     <!-- Output Text (Live Streaming tokens & completed response) -->
-    <div v-else class="text-xs leading-relaxed font-sans pr-1">
+    <div v-else class="text-xs @2xl:text-sm leading-relaxed font-sans pr-1">
       <div
         class="whitespace-pre-wrap select-text font-normal text-slate-800 dark:text-slate-200"
         v-html="sanitizeAiHtml(resultText)"

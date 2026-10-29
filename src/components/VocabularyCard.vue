@@ -143,6 +143,8 @@ const showGermanOnFront = computed(() => props.direction === 'DE_TO_UA');
     class="@container relative w-full max-w-140 perspective-[1400px] cursor-pointer mx-auto group focus:outline-none focus:ring-2 focus:ring-primary/60 rounded-[28px] transition-all duration-500 ease-out select-none"
     :class="[
       isFlipped && isAiActive ? 'h-137.5 xs:h-147.5 sm:h-160' : 'h-97.5 xs:h-102.5 sm:h-110',
+      // Give AI answers more room on large screens (StudyView widens via :has(.ai-expanded))
+      isFlipped && isAiActive ? 'ai-expanded lg:max-w-200' : '',
       isFlipped ? 'card-glow-active' : ''
     ]"
     tabindex="0"

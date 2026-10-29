@@ -289,8 +289,8 @@ const loadingStatusText = computed(() => {
       v-if="!hasNano && !hasCloudKey && !isModelReady && !hasCachedLocalModel"
       class="p-3 bg-slate-100 dark:bg-white/5 border border-slate-200 dark:border-white/10 rounded-xl text-xs text-slate-600 dark:text-slate-400 text-center leading-relaxed"
     >
-      Click the gear icon to download the <strong>Offline Local Model (~250MB)</strong> or configure
-      your free <strong>Gemini Cloud Key</strong>.
+      Click the gear icon to download the <strong>Offline Local Model (~0.7–1.9 GB)</strong> or
+      configure your free <strong>Gemini Cloud Key</strong>.
     </div>
 
     <!-- AI Output Card -->

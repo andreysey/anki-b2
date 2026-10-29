@@ -67,7 +67,7 @@ const emit = defineEmits<{
 
 <template>
   <div
-    class="flex flex-col items-center self-center gap-4 max-w-145 w-full px-1 sm:px-0 py-0 animate-in fade-in duration-500"
+    class="flex flex-col items-center self-center gap-4 max-w-145 lg:has-[.ai-expanded]:max-w-205 w-full px-1 sm:px-0 py-0 transition-[max-width] duration-500 animate-in fade-in"
   >
     <!-- macOS Style Top Study Controls -->
     <div class="flex justify-between items-center w-full gap-2 flex-wrap xs:flex-nowrap">
