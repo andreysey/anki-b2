@@ -66,5 +66,9 @@
   },
   "volta": {
     "node": "24.20.0"
+  },
+  "allowScripts": {
+    "better-sqlite3": true,
+    "esbuild": true
   }
 }
