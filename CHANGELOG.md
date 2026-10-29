@@ -1,3 +1,10 @@
+## [1.56.5](https://github.com/andreysey/anki-b2/compare/v1.56.4...v1.56.5) (2026-10-29)
+
+
+### Bug Fixes
+
+* **anki:** highlight both parts of separable verbs and prefer verbs on verb cards ([3ff90f0](https://github.com/andreysey/anki-b2/commit/3ff90f0859bad7db98d9201573ace014658dd27a))
+
 ## [1.56.4](https://github.com/andreysey/anki-b2/compare/v1.56.3...v1.56.4) (2026-10-29)
 
 
