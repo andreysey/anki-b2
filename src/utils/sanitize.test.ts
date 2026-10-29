@@ -26,7 +26,8 @@ describe('sanitizeHtml', () => {
     const safeInput = '<b style="color: #eab308;">Highlight</b>';
     expect(sanitizeHtml(safeInput)).toContain('style="color: #eab308;"');
 
-    const dangerousInput = '<span style="position: fixed; top: 0; z-index: 9999; color: red;">test</span>';
+    const dangerousInput =
+      '<span style="position: fixed; top: 0; z-index: 9999; color: red;">test</span>';
     const cleanOutput = sanitizeHtml(dangerousInput);
     expect(cleanOutput).not.toContain('position');
     expect(cleanOutput).not.toContain('fixed');
@@ -43,7 +44,8 @@ describe('sanitizeAiHtml', () => {
   });
 
   it('strictly strips style attributes to prevent CSS injection / overlays', () => {
-    const inputWithStyle = '<span style="position: fixed; top: 0; left: 0; z-index: 9999;">overlay</span>';
+    const inputWithStyle =
+      '<span style="position: fixed; top: 0; left: 0; z-index: 9999;">overlay</span>';
     const cleanOutput = sanitizeAiHtml(inputWithStyle);
     expect(cleanOutput).not.toContain('style=');
     expect(cleanOutput).not.toContain('position: fixed');
@@ -51,7 +53,7 @@ describe('sanitizeAiHtml', () => {
   });
 
   it('converts markdown bullet lists to semantic ul/li tags', () => {
-    const input = "- Erste Regel\n- Zweite Regel";
+    const input = '- Erste Regel\n- Zweite Regel';
     const cleanOutput = sanitizeAiHtml(input);
     expect(cleanOutput).toContain('<ul');
     expect(cleanOutput).toContain('<li>Erste Regel</li>');

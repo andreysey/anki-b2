@@ -24,7 +24,9 @@ const Toaster = defineAsyncComponent(() => import('./components/ui/sonner/Sonner
 const StudyView = defineAsyncComponent(() => import('./components/StudyView.vue'));
 const DashboardView = defineAsyncComponent(() => import('./components/DashboardView.vue'));
 const AISettingsDialog = defineAsyncComponent(() => import('./components/AISettingsDialog.vue'));
-const CommandPaletteModal = defineAsyncComponent(() => import('./components/CommandPaletteModal.vue'));
+const CommandPaletteModal = defineAsyncComponent(
+  () => import('./components/CommandPaletteModal.vue')
+);
 
 const isToasterMounted = ref(false);
 const isCommandPaletteOpen = ref(false);
@@ -192,9 +194,13 @@ onMounted(() => {
   if (typeof document !== 'undefined') {
     document.addEventListener('freeze', handlePageFreeze);
   }
-  window.addEventListener('load-toaster', () => {
-    isToasterMounted.value = true;
-  }, { once: true });
+  window.addEventListener(
+    'load-toaster',
+    () => {
+      isToasterMounted.value = true;
+    },
+    { once: true }
+  );
 });
 
 onUnmounted(() => {

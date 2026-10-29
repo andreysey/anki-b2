@@ -117,4 +117,3 @@ describe('useSpeechSynthesis', () => {
     expect(localStorage.getItem('anki_tts_rate')).toBe('0.5');
   });
 });
-

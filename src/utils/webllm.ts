@@ -133,21 +133,42 @@ export const getAvailableLocalModels = async (): Promise<LocalModelOption[]> => 
   } catch (err: unknown) {
     console.warn('Failed to dynamically load WebLLM model list:', err);
     return [
-      { id: 'SmolLM2-360M-Instruct-q4f32_1-MLC', name: 'SmolLM2-360M-Instruct (Fast · 32-bit)', vramMB: 580, isCached: false },
-      { id: 'Llama-3.2-1B-Instruct-q4f32_1-MLC', name: 'Llama-3.2-1B-Instruct (Balanced · 32-bit)', vramMB: 1128, isCached: false },
-      { id: 'Qwen2.5-0.5B-Instruct-q4f32_1-MLC', name: 'Qwen2.5-0.5B-Instruct (Fast · 32-bit)', vramMB: 1060, isCached: false },
-      { id: 'SmolLM2-360M-Instruct-q4f16_1-MLC', name: 'SmolLM2-360M-Instruct (Fast)', vramMB: 376, isCached: false }
+      {
+        id: 'SmolLM2-360M-Instruct-q4f32_1-MLC',
+        name: 'SmolLM2-360M-Instruct (Fast · 32-bit)',
+        vramMB: 580,
+        isCached: false
+      },
+      {
+        id: 'Llama-3.2-1B-Instruct-q4f32_1-MLC',
+        name: 'Llama-3.2-1B-Instruct (Balanced · 32-bit)',
+        vramMB: 1128,
+        isCached: false
+      },
+      {
+        id: 'Qwen2.5-0.5B-Instruct-q4f32_1-MLC',
+        name: 'Qwen2.5-0.5B-Instruct (Fast · 32-bit)',
+        vramMB: 1060,
+        isCached: false
+      },
+      {
+        id: 'SmolLM2-360M-Instruct-q4f16_1-MLC',
+        name: 'SmolLM2-360M-Instruct (Fast)',
+        vramMB: 376,
+        isCached: false
+      }
     ];
   }
 };
-
 
 let engineInstance: MLCEngineInterface | null = null;
 
 export const unloadCurrentEngine = async (): Promise<void> => {
   if (engineInstance) {
     try {
-      if (typeof (engineInstance as unknown as { unload?: () => Promise<void> }).unload === 'function') {
+      if (
+        typeof (engineInstance as unknown as { unload?: () => Promise<void> }).unload === 'function'
+      ) {
         await (engineInstance as unknown as { unload: () => Promise<void> }).unload();
       }
     } catch (e) {
@@ -161,7 +182,9 @@ export const unloadCurrentEngine = async (): Promise<void> => {
 export const setSelectedLocalModel = (modelId: string): void => {
   setStateSelectedLocalModel(modelId);
   if (engineInstance) {
-    unloadCurrentEngine().catch((err) => console.warn('Error unloading engine on model change:', err));
+    unloadCurrentEngine().catch((err) =>
+      console.warn('Error unloading engine on model change:', err)
+    );
   }
 };
 
@@ -255,9 +278,7 @@ export const callWebLLM = async (
   const engine = await getWebLLMEngine();
 
   const messages = [
-    ...(systemInstruction
-      ? [{ role: 'system' as const, content: systemInstruction }]
-      : []),
+    ...(systemInstruction ? [{ role: 'system' as const, content: systemInstruction }] : []),
     { role: 'user' as const, content: promptText }
   ];
 

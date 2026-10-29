@@ -32,9 +32,9 @@ describe('cleanGermanForAudio', () => {
     ).toBe('beobachten');
     expect(cleanGermanForAudio('etw./jdm. Beachtung schenken')).toBe('Beachtung schenken');
     expect(cleanGermanForAudio('jdm. etw. raten (rät, riet, hat geraten)')).toBe('raten');
-    expect(cleanGermanForAudio('sich etw. merken (merkt sich, merkte sich, hat sich gemerkt)')).toBe(
-      'sich merken'
-    );
+    expect(
+      cleanGermanForAudio('sich etw. merken (merkt sich, merkte sich, hat sich gemerkt)')
+    ).toBe('sich merken');
     expect(cleanGermanForAudio('der/die Vorgesetzte, -n')).toBe('der Vorgesetzte');
     expect(cleanGermanForAudio('der/die Beschäftigte, -n')).toBe('der Beschäftigte');
     expect(cleanGermanForAudio('der Arbeitgeber, - / die Arbeitgeberin, -nen')).toBe(
@@ -57,7 +57,9 @@ describe('cleanEnglishForAudio', () => {
     expect(cleanEnglishForAudio('')).toBe('');
     expect(cleanEnglishForAudio('to agree on / coordinate')).toBe('to agree on');
     expect(cleanEnglishForAudio('to dispatch, to process, to handle')).toBe('to dispatch');
-    expect(cleanEnglishForAudio('to plan to do sth. (resolves, resolved)')).toBe('to plan to do sth.');
+    expect(cleanEnglishForAudio('to plan to do sth. (resolves, resolved)')).toBe(
+      'to plan to do sth.'
+    );
     expect(cleanEnglishForAudio('*decision* / resolution')).toBe('decision');
   });
 });

@@ -41,9 +41,7 @@ const handleAiActive = (active: boolean) => {
       <div
         :class="[
           'custom-scrollbar overflow-y-auto px-1 transition-all duration-300',
-          isAiContentActive
-            ? 'h-107.5 sm:h-125'
-            : scrollPanelHeight || 'h-62.5 sm:h-70'
+          isAiContentActive ? 'h-107.5 sm:h-125' : scrollPanelHeight || 'h-62.5 sm:h-70'
         ]"
       >
         <!-- German Primary View -->

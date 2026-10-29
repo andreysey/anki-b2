@@ -48,12 +48,18 @@ const emit = defineEmits<{
     </div>
 
     <!-- Loading indicator & Real-time Thinking Status -->
-    <div v-if="isLoading && !resultText" class="flex flex-col items-center justify-center py-6 gap-2.5 flex-1">
+    <div
+      v-if="isLoading && !resultText"
+      class="flex flex-col items-center justify-center py-6 gap-2.5 flex-1"
+    >
       <Sparkles class="h-5 w-5 text-primary-500 animate-spin" />
       <span class="text-xs text-slate-600 dark:text-slate-300 font-medium animate-pulse">
         {{ loadingStatusText }}
       </span>
-      <div v-if="isModelLoading" class="w-48 bg-slate-200 dark:bg-slate-700 h-1.5 rounded-full overflow-hidden mt-1">
+      <div
+        v-if="isModelLoading"
+        class="w-48 bg-slate-200 dark:bg-slate-700 h-1.5 rounded-full overflow-hidden mt-1"
+      >
         <div
           class="bg-primary-500 h-full transition-all duration-300 rounded-full"
           :style="{ width: `${modelLoadingProgress}%` }"

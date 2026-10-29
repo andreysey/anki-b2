@@ -60,7 +60,9 @@ export function useNavigation() {
         typeof window !== 'undefined' &&
         !window.matchMedia('(prefers-reduced-motion: reduce)').matches
       ) {
-        (document as unknown as { startViewTransition: (cb: () => void) => void }).startViewTransition(() => {
+        (
+          document as unknown as { startViewTransition: (cb: () => void) => void }
+        ).startViewTransition(() => {
           activeView.value = view;
         });
       } else {

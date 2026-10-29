@@ -4,13 +4,7 @@ import type { Word } from '../types';
 import { callAI } from '../utils/ai';
 import { useAIAssistantState } from '../composables/useAIAssistantState';
 import { Button } from './ui/button';
-import {
-  Sparkles,
-  Settings,
-  Compass,
-  MessageSquare,
-  Check
-} from '@lucide/vue';
+import { Sparkles, Settings, Compass, MessageSquare, Check } from '@lucide/vue';
 import AIResultCard from './AIResultCard.vue';
 import {
   isModelReady,
@@ -258,7 +252,14 @@ const loadingStatusText = computed(() => {
         variant="outline"
         size="sm"
         @click.stop="handleExplainGrammar"
-        :disabled="isLoading || (!hasNano && !hasCloudKey && !isModelReady && !hasCachedLocalModel && !isWebGPUSupported())"
+        :disabled="
+          isLoading ||
+          (!hasNano &&
+            !hasCloudKey &&
+            !isModelReady &&
+            !hasCachedLocalModel &&
+            !isWebGPUSupported())
+        "
         class="rounded-xl text-xs py-1.5 w-full justify-center"
       >
         <Compass class="h-3.5 w-3.5" />
@@ -268,7 +269,14 @@ const loadingStatusText = computed(() => {
         variant="outline"
         size="sm"
         @click.stop="handleGenerateDialogue"
-        :disabled="isLoading || (!hasNano && !hasCloudKey && !isModelReady && !hasCachedLocalModel && !isWebGPUSupported())"
+        :disabled="
+          isLoading ||
+          (!hasNano &&
+            !hasCloudKey &&
+            !isModelReady &&
+            !hasCachedLocalModel &&
+            !isWebGPUSupported())
+        "
         class="rounded-xl text-xs py-1.5 w-full justify-center"
       >
         <MessageSquare class="h-3.5 w-3.5" />
@@ -281,7 +289,8 @@ const loadingStatusText = computed(() => {
       v-if="!hasNano && !hasCloudKey && !isModelReady && !hasCachedLocalModel"
       class="p-3 bg-slate-100 dark:bg-white/5 border border-slate-200 dark:border-white/10 rounded-xl text-xs text-slate-600 dark:text-slate-400 text-center leading-relaxed"
     >
-      Click the gear icon to download the <strong>Offline Local Model (~250MB)</strong> or configure your free <strong>Gemini Cloud Key</strong>.
+      Click the gear icon to download the <strong>Offline Local Model (~250MB)</strong> or configure
+      your free <strong>Gemini Cloud Key</strong>.
     </div>
 
     <!-- AI Output Card -->

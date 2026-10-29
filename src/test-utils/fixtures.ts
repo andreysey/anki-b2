@@ -37,7 +37,9 @@ export const createMockSRSState = (overrides?: Partial<SRSState>): SRSState => (
   ...overrides
 });
 
-export const mockAIServiceResponse = (overrides?: Partial<AIServiceResponse>): AIServiceResponse => ({
+export const mockAIServiceResponse = (
+  overrides?: Partial<AIServiceResponse>
+): AIServiceResponse => ({
   success: true,
   text: 'Mock German coach explanation',
   source: 'cloud',

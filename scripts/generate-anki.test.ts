@@ -33,11 +33,7 @@ describe('generateAnkiDeck', () => {
     ].join('\n');
     fs.writeFileSync(sourceFile2, content2, 'utf8');
 
-    const result = await generateAnkiDeck(
-      [sourceFile1, sourceFile2],
-      'B1plus_B2',
-      tempDir
-    );
+    const result = await generateAnkiDeck([sourceFile1, sourceFile2], 'B1plus_B2', tempDir);
 
     // 1. Check statistics
     expect(result.totalEntries).toBe(4);

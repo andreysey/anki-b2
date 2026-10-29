@@ -63,9 +63,7 @@ export function buildVerbTenses(fullGerman: string, example: string = ''): Tense
   if (!fullGerman) return null;
 
   // Verb with forms: (3.Sg.Präsens, 3.Sg.Präteritum, hat/ist Partizip II)
-  const parenMatch = fullGerman.match(
-    /\(([^()]+,\s*[^()]+,\s*(?:hat|ist|hat\/ist)\s+[^()]+)\)$/
-  );
+  const parenMatch = fullGerman.match(/\(([^()]+,\s*[^()]+,\s*(?:hat|ist|hat\/ist)\s+[^()]+)\)$/);
   if (!parenMatch) return null;
 
   const parts = parenMatch[1].split(',').map((s) => s.trim());
@@ -85,7 +83,10 @@ export function buildVerbTenses(fullGerman: string, example: string = ''): Tense
   const cleanedBeforeParens = beforeParens
     .replace(/^(?:etw\.|jdn\.|jdm\.|jds\.)(?:\/(?:etw\.|jdn\.|jdm\.|jds\.))?\s+/i, '')
     .replace(/^sich\s+/i, '')
-    .replace(/(?:^|\s)(?:an|auf|aus|bei|für|in|mit|nach|über|um|unter|von|vor|zu)\s*\(\+[^)]+\)/gi, '')
+    .replace(
+      /(?:^|\s)(?:an|auf|aus|bei|für|in|mit|nach|über|um|unter|von|vor|zu)\s*\(\+[^)]+\)/gi,
+      ''
+    )
     .replace(/\s*\([^)]*\)/g, '')
     .trim()
     .replace(/\|/g, '');
@@ -148,7 +149,10 @@ export function buildVerbTenses(fullGerman: string, example: string = ''): Tense
       else if (prep === 'mit') obj = 'mit den Kollegen';
       else if (prep === 'von') obj = 'vom Plan';
       else if (prep === 'in') obj = 'in die Arbeit';
-    } else if (/sich\s+(?:etw\.|jdn\.)/i.test(fullGerman) || /(?:etw\.|jdn\.)\s+sich/i.test(fullGerman)) {
+    } else if (
+      /sich\s+(?:etw\.|jdn\.)/i.test(fullGerman) ||
+      /(?:etw\.|jdn\.)\s+sich/i.test(fullGerman)
+    ) {
       obj = 'das Dokument';
     } else {
       obj = '';
@@ -220,7 +224,8 @@ export function buildVerbTenses(fullGerman: string, example: string = ''): Tense
   }
 
   // 2. Präteritum
-  const invertedSubject = subject === 'Er' ? 'er' : subject.startsWith('Der ') ? 'der ' + subject.slice(4) : subject;
+  const invertedSubject =
+    subject === 'Er' ? 'er' : subject.startsWith('Der ') ? 'der ' + subject.slice(4) : subject;
   let praetSentence = '';
   if (isReflexive) {
     if (prefix && purePrateritum3sg.includes(prefix)) {

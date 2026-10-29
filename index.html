@@ -13,7 +13,10 @@
       name="description"
       content="Interactive German B1+/B2 Beruf vocabulary trainer & native Anki packages. Features Leitner SRS, speech audio, and AI grammar explanations."
     />
-    <meta name="keywords" content="German, B2, B1, Deutsch, Beruf, Vocabulary, Anki, CEFR, Leitner, SRS, Flashcards" />
+    <meta
+      name="keywords"
+      content="German, B2, B1, Deutsch, Beruf, Vocabulary, Anki, CEFR, Leitner, SRS, Flashcards"
+    />
     <meta name="author" content="Andrey Sey" />
 
     <!-- Open Graph / Facebook / Telegram -->
@@ -43,8 +46,7 @@
           const theme = localStorage.getItem('anki_theme_mode') || 'system';
           const isDark =
             theme === 'dark' ||
-            (theme === 'system' &&
-              window.matchMedia('(prefers-color-scheme: dark)').matches);
+            (theme === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches);
           if (isDark) {
             document.documentElement.classList.add('dark');
           } else {

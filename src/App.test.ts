@@ -40,7 +40,6 @@ vi.mock('vue-sonner', () => ({
   }
 }));
 
-
 describe('App.vue', () => {
   beforeEach(() => {
     localStorage.clear();
@@ -142,5 +141,3 @@ describe('App.vue', () => {
     expect((wrapper.vm as any).isToasterMounted).toBe(true);
   });
 });
-
-

@@ -99,7 +99,9 @@ describe('ai utils', () => {
       expect(res.source).toBe('cloud');
       expect(res.text).toBe('German grammar explanation');
       expect(globalThis.fetch).toHaveBeenCalledWith(
-        expect.stringMatching(/https:\/\/generativelanguage\.googleapis\.com\/v1beta\/models\/[^:]+:generateContent$/),
+        expect.stringMatching(
+          /https:\/\/generativelanguage\.googleapis\.com\/v1beta\/models\/[^:]+:generateContent$/
+        ),
         expect.objectContaining({
           headers: expect.objectContaining({
             'x-goog-api-key': 'test-key'
@@ -114,7 +116,9 @@ describe('ai utils', () => {
       const error429Response = {
         ok: false,
         status: 429,
-        json: async () => ({ error: { message: 'Quota exceeded for quota metric', status: 'RESOURCE_EXHAUSTED' } })
+        json: async () => ({
+          error: { message: 'Quota exceeded for quota metric', status: 'RESOURCE_EXHAUSTED' }
+        })
       };
 
       globalThis.fetch = vi

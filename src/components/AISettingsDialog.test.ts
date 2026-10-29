@@ -54,7 +54,9 @@ describe('AISettingsDialog.vue', () => {
     aiState.openSettings();
 
     const wrapper = mount(AISettingsDialog);
-    const removeBtn = wrapper.findAll('button').find((b) => b.attributes('title')?.includes('Remove'));
+    const removeBtn = wrapper
+      .findAll('button')
+      .find((b) => b.attributes('title')?.includes('Remove'));
     expect(removeBtn?.exists()).toBe(true);
 
     await removeBtn?.trigger('click');

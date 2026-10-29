@@ -34,7 +34,7 @@ const emit = defineEmits<{
 const aggregatedMetrics = computed(() => {
   const levels = {
     'B1+': { total: 0, mastered: 0 },
-    'B2': { total: 0, mastered: 0 }
+    B2: { total: 0, mastered: 0 }
   };
 
   const leitnerCounts = {

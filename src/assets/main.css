@@ -357,16 +357,16 @@ html.theme-material.dark .macos-segmented-item-active {
 }
 
 /* M3 Elevated & Outlined Cards Overrides */
-html.theme-material:not(.dark) [class*="bg-white/95"],
-html.theme-material:not(.dark) [class*="bg-white/90"] {
+html.theme-material:not(.dark) [class*='bg-white/95'],
+html.theme-material:not(.dark) [class*='bg-white/90'] {
   background-color: #f7f2fa !important;
   border-color: #b5aebf !important;
   border-radius: 20px !important;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08) !important;
 }
 
-html.theme-material.dark [class*="bg-slate-900/90"],
-html.theme-material.dark [class*="bg-slate-900/95"] {
+html.theme-material.dark [class*='bg-slate-900/90'],
+html.theme-material.dark [class*='bg-slate-900/95'] {
   background-color: #2b2930 !important;
   border-color: #49454f !important;
   border-radius: 20px !important;
@@ -517,7 +517,6 @@ html:not(.dark) .macos-floating-hud {
   contain-intrinsic-size: auto 160px;
 }
 
-
 /* Mobile Smooth Scroll Snap Container */
 .study-cards-snap-container {
   scroll-snap-type: x mandatory;
@@ -565,7 +564,9 @@ html:not(.dark) .macos-floating-hud {
 }
 
 /* CSS scrollbar-gutter: stable to prevent layout shifts */
-html, body, .macos-main-content {
+html,
+body,
+.macos-main-content {
   scrollbar-gutter: stable;
 }
 
@@ -589,7 +590,9 @@ input[type='range']::-webkit-slider-thumb {
   background: hsl(var(--primary));
   cursor: pointer;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
 }
 
 input[type='range']::-webkit-slider-thumb:hover {
@@ -598,7 +601,10 @@ input[type='range']::-webkit-slider-thumb:hover {
 }
 
 /* Modern Typographic Underlines (Duden/Hueber Editorial Style) */
-u, ins, a, .vocab-underline {
+u,
+ins,
+a,
+.vocab-underline {
   text-underline-offset: 3.5px;
   text-decoration-thickness: 1.5px;
   text-decoration-color: rgba(59, 130, 246, 0.45);
@@ -641,5 +647,3 @@ u, ins, a, .vocab-underline {
     opacity: 0.4 !important;
   }
 }
-
-

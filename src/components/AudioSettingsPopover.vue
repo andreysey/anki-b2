@@ -76,10 +76,14 @@ onUnmounted(() => {
       aria-label="Speech & Audio Preferences"
       class="absolute right-0 top-full mt-2 w-80 p-4 space-y-4 rounded-xl border border-slate-200/80 dark:border-slate-800 bg-white/95 dark:bg-slate-900/95 text-slate-900 dark:text-slate-100 shadow-xl backdrop-blur-xl z-50 animate-in fade-in zoom-in-95 duration-150"
     >
-      <div class="flex items-center justify-between pb-2 border-b border-slate-200/80 dark:border-white/10">
+      <div
+        class="flex items-center justify-between pb-2 border-b border-slate-200/80 dark:border-white/10"
+      >
         <div class="flex items-center gap-2">
           <Volume2 class="h-4 w-4 text-primary" />
-          <span class="text-xs font-bold text-slate-800 dark:text-slate-200">Speech & Audio Preferences</span>
+          <span class="text-xs font-bold text-slate-800 dark:text-slate-200"
+            >Speech & Audio Preferences</span
+          >
         </div>
         <button
           type="button"
@@ -106,17 +110,28 @@ onUnmounted(() => {
           @change="emit('update:selectedVoiceURI', ($event.target as HTMLSelectElement).value)"
           class="w-full bg-slate-50 dark:bg-black/40 border border-slate-200 dark:border-white/10 text-slate-800 dark:text-slate-100 rounded-xl p-2 text-xs sm:text-sm outline-none focus:border-primary disabled:opacity-50 disabled:cursor-not-allowed"
         >
-          <option v-if="germanVoices.length === 0" value="" class="bg-white dark:bg-slate-900 text-slate-900 dark:text-slate-100">
+          <option
+            v-if="germanVoices.length === 0"
+            value=""
+            class="bg-white dark:bg-slate-900 text-slate-900 dark:text-slate-100"
+          >
             No German voice found (using browser default)
           </option>
-          <option v-for="voice in germanVoices" :key="voice.voiceURI" :value="voice.voiceURI" class="bg-white dark:bg-slate-900 text-slate-900 dark:text-slate-100">
+          <option
+            v-for="voice in germanVoices"
+            :key="voice.voiceURI"
+            :value="voice.voiceURI"
+            class="bg-white dark:bg-slate-900 text-slate-900 dark:text-slate-100"
+          >
             {{ voice.name }} ({{ voice.lang }})
           </option>
         </select>
       </div>
 
       <div class="space-y-2">
-        <div class="flex justify-between items-center text-[11px] font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">
+        <div
+          class="flex justify-between items-center text-[11px] font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400"
+        >
           <div class="flex items-center gap-1.5">
             <label :for="`tts-rate-${idPrefix}`">Speech Rate</label>
             <button
@@ -145,16 +160,27 @@ onUnmounted(() => {
           :aria-valuemax="1.5"
           :aria-valuenow="ttsRate"
           :aria-valuetext="`${Number(ttsRate).toFixed(2)} times normal speed`"
-          @input="emit('update:ttsRate', Math.round(Number(($event.target as HTMLInputElement).value) * 100) / 100)"
+          @input="
+            emit(
+              'update:ttsRate',
+              Math.round(Number(($event.target as HTMLInputElement).value) * 100) / 100
+            )
+          "
           class="w-full h-2 bg-slate-300 dark:bg-white/20 rounded-lg cursor-pointer accent-primary block"
         />
       </div>
 
       <!-- Tactile Sound Effects (Web Audio Synthesizer) -->
-      <div class="pt-2 border-t border-slate-200/80 dark:border-white/10 flex items-center justify-between">
+      <div
+        class="pt-2 border-t border-slate-200/80 dark:border-white/10 flex items-center justify-between"
+      >
         <div class="space-y-0.5">
-          <span class="text-xs font-medium text-slate-800 dark:text-slate-200 block">Tactile Sound FX</span>
-          <span class="text-[10px] text-slate-500 dark:text-slate-400 block">Procedural audio chimes on flip & SRS</span>
+          <span class="text-xs font-medium text-slate-800 dark:text-slate-200 block"
+            >Tactile Sound FX</span
+          >
+          <span class="text-[10px] text-slate-500 dark:text-slate-400 block"
+            >Procedural audio chimes on flip & SRS</span
+          >
         </div>
         <div class="flex items-center gap-2">
           <button

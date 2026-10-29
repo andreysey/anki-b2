@@ -112,7 +112,9 @@ const toggleStudyModeLabel = computed(() => (props.isStudyMode ? 'Back to List' 
             {{ opt.label }}
           </option>
         </select>
-        <div class="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none text-slate-400">
+        <div
+          class="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none text-slate-400"
+        >
           <ChevronDown class="h-4 w-4" />
         </div>
       </div>
@@ -134,7 +136,9 @@ const toggleStudyModeLabel = computed(() => (props.isStudyMode ? 'Back to List' 
             {{ opt.label }}
           </option>
         </select>
-        <div class="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none text-slate-400">
+        <div
+          class="absolute inset-y-0 right-0 pr-3 flex items-center pointer-events-none text-slate-400"
+        >
           <ChevronDown class="h-4 w-4" />
         </div>
       </div>

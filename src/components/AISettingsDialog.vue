@@ -1,12 +1,6 @@
 <script setup lang="ts">
 import { ref, computed, watch, onMounted } from 'vue';
-import {
-  Dialog,
-  DialogContent,
-  DialogHeader,
-  DialogTitle,
-  DialogDescription
-} from './ui/dialog';
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from './ui/dialog';
 import { Input } from './ui/input';
 import { Button } from './ui/button';
 import { Trash2, Download, ChevronDown } from '@lucide/vue';
@@ -107,7 +101,8 @@ const modelActionButtonLabel = computed(() =>
       <DialogHeader>
         <DialogTitle>AI Assistant Setup</DialogTitle>
         <DialogDescription>
-          Configure on-device inference via Google Chrome or a secure cloud connection to the Gemini API.
+          Configure on-device inference via Google Chrome or a secure cloud connection to the Gemini
+          API.
         </DialogDescription>
       </DialogHeader>
 
@@ -155,15 +150,17 @@ const modelActionButtonLabel = computed(() =>
               rel="noopener noreferrer"
               class="text-primary-600 dark:text-primary-400 underline hover:text-primary-500"
             >
-              Google AI Studio
-            </a>.
+              Google AI Studio </a
+            >.
           </span>
         </div>
 
         <!-- Local WebGPU AI Section -->
         <div class="border-t border-slate-200 dark:border-slate-800 pt-3 mt-3 space-y-2.5">
           <div class="flex items-center justify-between">
-            <div class="text-[11px] font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300">
+            <div
+              class="text-[11px] font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300"
+            >
               Offline WebGPU Local AI
             </div>
             <span
@@ -181,13 +178,17 @@ const modelActionButtonLabel = computed(() =>
           </div>
 
           <p class="text-[11px] text-slate-500 leading-relaxed">
-            Choose from dynamically available open-weights models. Run 100% locally and offline without Chrome flags or API keys.
+            Choose from dynamically available open-weights models. Run 100% locally and offline
+            without Chrome flags or API keys.
           </p>
 
           <div v-if="isWebGPUSupported()" class="space-y-2.5">
             <!-- Model Selection Dropdown -->
             <div class="flex flex-col gap-1.5">
-              <label for="localModelSelect" class="text-[10.5px] font-semibold text-slate-600 dark:text-slate-400">
+              <label
+                for="localModelSelect"
+                class="text-[10.5px] font-semibold text-slate-600 dark:text-slate-400"
+              >
                 Select Model (Auto-discovered):
               </label>
               <div class="relative">
@@ -204,18 +205,28 @@ const modelActionButtonLabel = computed(() =>
                     :value="model.id"
                     class="bg-white dark:bg-slate-900 text-slate-900 dark:text-slate-100 py-1"
                   >
-                    {{ model.isCached ? '✓ [Downloaded] ' : '' }}{{ model.name }} (~{{ model.vramMB }} MB VRAM)
+                    {{ model.isCached ? '✓ [Downloaded] ' : '' }}{{ model.name }} (~{{
+                      model.vramMB
+                    }}
+                    MB VRAM)
                   </option>
                 </select>
-                <div class="absolute inset-y-0 right-0 pr-2.5 flex items-center pointer-events-none text-slate-400">
+                <div
+                  class="absolute inset-y-0 right-0 pr-2.5 flex items-center pointer-events-none text-slate-400"
+                >
                   <ChevronDown class="h-4 w-4" />
                 </div>
               </div>
             </div>
 
             <!-- Loading Progress -->
-            <div v-if="isModelLoading" class="space-y-1.5 p-2.5 rounded-xl bg-slate-100 dark:bg-white/5 border border-slate-200 dark:border-white/10">
-              <div class="flex justify-between text-[11px] font-medium text-slate-700 dark:text-slate-300">
+            <div
+              v-if="isModelLoading"
+              class="space-y-1.5 p-2.5 rounded-xl bg-slate-100 dark:bg-white/5 border border-slate-200 dark:border-white/10"
+            >
+              <div
+                class="flex justify-between text-[11px] font-medium text-slate-700 dark:text-slate-300"
+              >
                 <span>{{ loadingText }}</span>
                 <span>{{ modelLoadingProgress }}%</span>
               </div>
@@ -256,11 +267,17 @@ const modelActionButtonLabel = computed(() =>
 
         <!-- Chrome Built-in Prompt API Note -->
         <div class="border-t border-slate-200 dark:border-slate-800 pt-3 mt-3 space-y-1.5">
-          <div class="text-[11px] font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300">
+          <div
+            class="text-[11px] font-bold uppercase tracking-wider text-slate-700 dark:text-slate-300"
+          >
             Chrome Built-in Gemini Nano
           </div>
           <div class="text-[11px] text-slate-500 leading-relaxed">
-            If you have Chrome with Prompt API enabled in <code class="bg-slate-100 dark:bg-slate-800 px-1.5 py-0.5 rounded text-slate-700 dark:text-slate-300 font-mono text-[10px]">chrome://flags</code>, it will be automatically used first with zero download required.
+            If you have Chrome with Prompt API enabled in
+            <code
+              class="bg-slate-100 dark:bg-slate-800 px-1.5 py-0.5 rounded text-slate-700 dark:text-slate-300 font-mono text-[10px]"
+              >chrome://flags</code
+            >, it will be automatically used first with zero download required.
           </div>
         </div>
       </div>

@@ -99,7 +99,9 @@ const handleCopy = async (item: Word) => {
             v-html="sanitizeHtml(item.german)"
           ></div>
           <div class="space-y-0.5 text-xs sm:text-sm">
-            <div class="text-primary-600 dark:text-primary-400 font-semibold select-text text-balance">
+            <div
+              class="text-primary-600 dark:text-primary-400 font-semibold select-text text-balance"
+            >
               {{ item.english }}
             </div>
             <div class="text-slate-600 dark:text-slate-300 font-medium select-text text-balance">

@@ -49,8 +49,7 @@ function checkVHtmlSanitization(): CheckResult {
 
     lines.forEach((line, index) => {
       if (line.includes('v-html=')) {
-        const isSanitized =
-          line.includes('sanitizeHtml(') || line.includes('sanitizeAiHtml(');
+        const isSanitized = line.includes('sanitizeHtml(') || line.includes('sanitizeAiHtml(');
         if (!isSanitized) {
           violations.push(`${relativePath}:${index + 1} -> ${line.trim()}`);
         }
@@ -87,9 +86,7 @@ function checkDirectLocalStorageUsage(): CheckResult {
       const trimmed = line.trim();
       if (trimmed.startsWith('//') || trimmed.startsWith('*')) return;
 
-      if (
-        /\b(?:window\.)?localStorage\.(?:getItem|setItem|removeItem|clear)\b/.test(line)
-      ) {
+      if (/\b(?:window\.)?localStorage\.(?:getItem|setItem|removeItem|clear)\b/.test(line)) {
         violations.push(`${relativePath}:${index + 1} -> ${trimmed}`);
       }
     });
@@ -186,11 +183,15 @@ function checkPwaAndDataIntegrity(): CheckResult {
       const dataContent = fs.readFileSync(dataPath, 'utf8');
       const parsed = JSON.parse(dataContent);
       if (!Array.isArray(parsed) || parsed.length < 3000) {
-        violations.push(`public/data.json has unexpected entry count: ${Array.isArray(parsed) ? parsed.length : 'not an array'}`);
+        violations.push(
+          `public/data.json has unexpected entry count: ${Array.isArray(parsed) ? parsed.length : 'not an array'}`
+        );
       } else {
         const first = parsed[0];
         if (!first.german || !first.ukrainian || !first.thema) {
-          violations.push('public/data.json entries do not conform to expected schema (missing german, ukrainian, or thema)');
+          violations.push(
+            'public/data.json entries do not conform to expected schema (missing german, ukrainian, or thema)'
+          );
         }
       }
     } catch (e: any) {

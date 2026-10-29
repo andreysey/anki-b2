@@ -39,9 +39,13 @@ export default defineConfig({
         let inlinedHtml = html;
         for (const [fileName, file] of Object.entries(bundle)) {
           if (fileName.endsWith('.css') && 'source' in file) {
-            const cssContent = typeof file.source === 'string' ? file.source : file.source.toString();
+            const cssContent =
+              typeof file.source === 'string' ? file.source : file.source.toString();
             // Replace external <link rel="stylesheet" ...> with <style>...</style>
-            const linkRegex = new RegExp(`<link[^>]*rel=["']stylesheet["'][^>]*href=["'][^"']*${fileName}[^"']*["'][^>]*>`, 'i');
+            const linkRegex = new RegExp(
+              `<link[^>]*rel=["']stylesheet["'][^>]*href=["'][^"']*${fileName}[^"']*["'][^>]*>`,
+              'i'
+            );
             if (linkRegex.test(inlinedHtml)) {
               inlinedHtml = inlinedHtml.replace(linkRegex, `<style>${cssContent}</style>`);
               delete bundle[fileName];

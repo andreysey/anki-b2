@@ -38,11 +38,15 @@ describe('verb-grammar', () => {
     expect(findTense('Perfekt')).toBe('Er hat das Angebot angefordert.');
     expect(findTense('Plusquamperfekt')).toBe('Er hatte das Angebot angefordert.');
     expect(findTense('Futur I')).toBe('Er wird das Angebot anfordern.');
-    expect(findTense('Futur II (Vermutung)')).toBe('Er wird wohl schon das Angebot angefordert haben.');
+    expect(findTense('Futur II (Vermutung)')).toBe(
+      'Er wird wohl schon das Angebot angefordert haben.'
+    );
     expect(findTense('Passiv')).toBe('Das Angebot wird / wurde angefordert.');
     expect(findTense('Passiversatz')).toBe('Das Angebot lässt sich anfordern · ist anzufordern.');
     expect(findTense('Konjunktiv I')).toBe('Er sagte, er fordere das Angebot an.');
-    expect(findTense('Konjunktiv II')).toBe('Er würde das Angebot anfordern · hätte das Angebot angefordert.');
+    expect(findTense('Konjunktiv II')).toBe(
+      'Er würde das Angebot anfordern · hätte das Angebot angefordert.'
+    );
   });
 
   it('handles reflexive verbs with prepositions (sich bewerben um)', () => {
@@ -58,7 +62,9 @@ describe('verb-grammar', () => {
     expect(findTense('Perfekt')).toBe('Er hat sich um die Stelle beworben.');
     expect(findTense('Passiv')).toContain('Nicht passivfähig');
     expect(findTense('Passiversatz')).toContain('Kein Passiversatz');
-    expect(findTense('Konjunktiv II')).toBe('Er würde sich um die Stelle bewerben · hätte sich beworben.');
+    expect(findTense('Konjunktiv II')).toBe(
+      'Er würde sich um die Stelle bewerben · hätte sich beworben.'
+    );
   });
 
   it('handles intransitive verbs with auxiliary sein (aufwachsen)', () => {
@@ -72,7 +78,9 @@ describe('verb-grammar', () => {
 
     expect(findTense('Perfekt')).toBe('Er ist rechtzeitig aufgewachsen.');
     expect(findTense('Plusquamperfekt')).toBe('Er war rechtzeitig aufgewachsen.');
-    expect(findTense('Futur II (Vermutung)')).toBe('Er wird wohl schon rechtzeitig aufgewachsen sein.');
+    expect(findTense('Futur II (Vermutung)')).toBe(
+      'Er wird wohl schon rechtzeitig aufgewachsen sein.'
+    );
     expect(findTense('Passiv')).toContain('Nicht passivfähig');
     expect(findTense('Passiversatz')).toContain('Kein Passiversatz');
   });

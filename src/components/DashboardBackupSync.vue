@@ -85,9 +85,7 @@ const handleFileImport = (event: Event) => {
   <div
     class="p-5 sm:p-6 rounded-2xl bg-white/95 dark:bg-slate-900/90 border border-slate-200/90 dark:border-white/10 shadow-xs space-y-4"
   >
-    <div
-      class="flex justify-between items-center text-xs sm:text-sm font-semibold flex-wrap gap-2"
-    >
+    <div class="flex justify-between items-center text-xs sm:text-sm font-semibold flex-wrap gap-2">
       <span class="text-slate-800 dark:text-slate-200 font-bold">Overall Course Progress</span>
       <span class="text-primary-600 dark:text-primary-400"
         >{{ totalMastered }} / {{ totalWords }} mastered</span

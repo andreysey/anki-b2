@@ -9,7 +9,8 @@ const RE_PARENS = /\s*\(.*?\)/g;
 const RE_THEMA = /Thema(\d+)/;
 const RE_ARTICLES = /^(der|die|das)\/(die|der|das)\s+/i;
 const RE_GRAMMAR_PREFIX = /^(?:(?:etw\.|jdn\.|jdm\.|jds\.)(?:\/(?:etw\.|jdn\.|jdm\.|jds\.))?\s*)+/i;
-const RE_SICH_PREFIX = /^sich\s+(?:(?:etw\.|jdn\.|jdm\.|jds\.)(?:\/(?:etw\.|jdn\.|jdm\.|jds\.))?\s*)+/i;
+const RE_SICH_PREFIX =
+  /^sich\s+(?:(?:etw\.|jdn\.|jdm\.|jds\.)(?:\/(?:etw\.|jdn\.|jdm\.|jds\.))?\s*)+/i;
 
 // Module-level caches for fast repeated lookups across deck builds
 const cleanGermanCache = new Map<string, string>();
@@ -71,7 +72,9 @@ export function cleanGermanForAudio(text: string): string {
     t = t.split('/')[0];
   } else if (t.includes('/')) {
     const words = t.split(' ');
-    t = words.map((w) => (w.includes('/') && !w.startsWith('http') ? w.split('/')[0] : w)).join(' ');
+    t = words
+      .map((w) => (w.includes('/') && !w.startsWith('http') ? w.split('/')[0] : w))
+      .join(' ');
   }
 
   const result = t.trim();
@@ -176,7 +179,8 @@ export function highlightWordInExample(
           if (hasUmlaut) {
             base = base.replace(/(au|a|o|u)(?=[^aeiouäöü]*(?:(?:el|er|en)$|$))/i, (match) => {
               const lower = match.toLowerCase();
-              const isCap = match[0] === match[0].toUpperCase() && match[0] !== match[0].toLowerCase();
+              const isCap =
+                match[0] === match[0].toUpperCase() && match[0] !== match[0].toLowerCase();
               if (lower === 'au') return isCap ? 'Äu' : 'äu';
               if (lower === 'a') return isCap ? 'Ä' : 'ä';
               if (lower === 'o') return isCap ? 'Ö' : 'ö';

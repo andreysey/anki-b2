@@ -66,6 +66,7 @@ graph TD
 ## 3. Client State Management Architecture
 
 The application adopts the **Vue 3 Composable Singleton Pattern**:
+
 - Stateful reactive properties (e.g. `vocabulary`, `masteredIds`, `srsData`, `studyStreak`) are declared at the **module scope** outside the composable function.
 - Every component calling `useVocabulary()` shares the exact same reactive state without needing external state libraries like Pinia.
 - Debounced mutations (`saveSRS`) sync state to `localStorage` with safety flushes on `beforeunload` and `visibilitychange: hidden`.
@@ -102,6 +103,7 @@ flowchart TD
 ```
 
 ### Safety & Resilience in AI Calls:
+
 - **Request Cancellation**: Every user-initiated call binds to an `AbortController`. When switching cards or closing dialogs, previous in-flight requests are automatically aborted.
 - **Key Validation**: Keys are verified with `isValidApiKey` (`^[A-Za-z0-9_\-]{6,128}$`) before being passed to HTTP headers.
 - **Model URL Encoding**: Candidate model names are encoded via `encodeURIComponent` to prevent injection.
@@ -111,10 +113,10 @@ flowchart TD
 
 ## 5. Security & Isolation Matrix
 
-| Subsystem | Input Source | Security Controls |
-|---|---|---|
-| **Vocabulary Cards** | `public/data.json` | `sanitizeHtml`: allows only `<b>`, `<i>`, `<span>`, `<em>`, `<p>`, `<br>`. Restricts inline CSS to `color: #eab308;`. |
-| **AI Responses** | On-device, WebGPU, Cloud LLM | `sanitizeAiHtml`: disallows `style`, sanitizes script tags, formats lists/code. |
-| **Backup Import** | User JSON file upload | File size capped at 5MB, entries capped at 25,000, prototype pollution blocked (`__proto__`, `constructor`), `Number.isFinite` validation. |
-| **Speech Audio** | SpeechSynthesis API | `cleanTextForSpeech`: strips HTML tags, clears multiple punctuation and Markdown before TTS. |
-| **Browser Execution** | HTML Document | Content Security Policy: `base-uri 'self'`, `object-src 'none'`, `form-action 'self'`, `img-src 'self' data:`. |
+| Subsystem             | Input Source                 | Security Controls                                                                                                                          |
+| --------------------- | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Vocabulary Cards**  | `public/data.json`           | `sanitizeHtml`: allows only `<b>`, `<i>`, `<span>`, `<em>`, `<p>`, `<br>`. Restricts inline CSS to `color: #eab308;`.                      |
+| **AI Responses**      | On-device, WebGPU, Cloud LLM | `sanitizeAiHtml`: disallows `style`, sanitizes script tags, formats lists/code.                                                            |
+| **Backup Import**     | User JSON file upload        | File size capped at 5MB, entries capped at 25,000, prototype pollution blocked (`__proto__`, `constructor`), `Number.isFinite` validation. |
+| **Speech Audio**      | SpeechSynthesis API          | `cleanTextForSpeech`: strips HTML tags, clears multiple punctuation and Markdown before TTS.                                               |
+| **Browser Execution** | HTML Document                | Content Security Policy: `base-uri 'self'`, `object-src 'none'`, `form-action 'self'`, `img-src 'self' data:`.                             |

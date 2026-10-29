@@ -65,7 +65,11 @@ const handleTouchStart = (event: TouchEvent) => {
   }
 };
 
-const checkAndEmitSwipe = (deltaX: number, deltaY: number, isInsideScrollable: boolean | null): boolean => {
+const checkAndEmitSwipe = (
+  deltaX: number,
+  deltaY: number,
+  isInsideScrollable: boolean | null
+): boolean => {
   if (
     (!isInsideScrollable || Math.abs(deltaX) > Math.abs(deltaY) * 1.5) &&
     Math.abs(deltaX) > 50 &&
@@ -93,8 +97,9 @@ const handleTouchEnd = (event: TouchEvent) => {
 
   const target = event.target as HTMLElement | null;
   const scrollContainer = target?.closest('.custom-scrollbar');
-  const isInsideScrollable =
-    Boolean(scrollContainer && scrollContainer.scrollHeight > scrollContainer.clientHeight);
+  const isInsideScrollable = Boolean(
+    scrollContainer && scrollContainer.scrollHeight > scrollContainer.clientHeight
+  );
 
   const isSwipe = checkAndEmitSwipe(deltaX, deltaY, isInsideScrollable);
 
@@ -137,9 +142,7 @@ const showGermanOnFront = computed(() => props.direction === 'DE_TO_UA');
   <div
     class="@container relative w-full max-w-140 perspective-[1400px] cursor-pointer mx-auto group focus:outline-none focus:ring-2 focus:ring-primary/60 rounded-[28px] transition-all duration-500 ease-out select-none"
     :class="[
-      isFlipped && isAiActive
-        ? 'h-137.5 xs:h-147.5 sm:h-160'
-        : 'h-97.5 xs:h-102.5 sm:h-110',
+      isFlipped && isAiActive ? 'h-137.5 xs:h-147.5 sm:h-160' : 'h-97.5 xs:h-102.5 sm:h-110',
       isFlipped ? 'card-glow-active' : ''
     ]"
     tabindex="0"
@@ -162,7 +165,9 @@ const showGermanOnFront = computed(() => props.direction === 'DE_TO_UA');
           :show-german="showGermanOnFront"
           scroll-panel-height="h-62.5 sm:h-70"
           @toggle-mastered="emit('toggle-mastered', $event)"
-          @play-audio="(text, lang) => (lang ? emit('play-audio', text, lang) : emit('play-audio', text))"
+          @play-audio="
+            (text, lang) => (lang ? emit('play-audio', text, lang) : emit('play-audio', text))
+          "
         />
       </div>
 
@@ -175,7 +180,9 @@ const showGermanOnFront = computed(() => props.direction === 'DE_TO_UA');
           :show-ai="true"
           scroll-panel-height="h-67.5 sm:h-75"
           @toggle-mastered="emit('toggle-mastered', $event)"
-          @play-audio="(text, lang) => (lang ? emit('play-audio', text, lang) : emit('play-audio', text))"
+          @play-audio="
+            (text, lang) => (lang ? emit('play-audio', text, lang) : emit('play-audio', text))
+          "
           @ai-active="isAiActive = $event"
         />
       </div>

@@ -4,7 +4,10 @@ export function useWakeLock() {
   const isSupported = typeof navigator !== 'undefined' && 'wakeLock' in navigator;
   const isLocked = ref(false);
   let shouldBeLocked = false;
-  let sentinel: { release: () => Promise<void>; addEventListener: (event: string, cb: () => void) => void } | null = null;
+  let sentinel: {
+    release: () => Promise<void>;
+    addEventListener: (event: string, cb: () => void) => void;
+  } | null = null;
 
   const INACTIVITY_TIMEOUT_MS = 5 * 60 * 1000; // 5 minutes
   let isAcquiring = false;
@@ -44,7 +47,9 @@ export function useWakeLock() {
     if (!isSupported || isLocked.value || isAcquiring) return;
     isAcquiring = true;
     try {
-      sentinel = await (navigator as unknown as { wakeLock: { request: (type: string) => Promise<any> } }).wakeLock.request('screen');
+      sentinel = await (
+        navigator as unknown as { wakeLock: { request: (type: string) => Promise<any> } }
+      ).wakeLock.request('screen');
       isLocked.value = true;
       sentinel?.addEventListener('release', () => {
         isLocked.value = false;

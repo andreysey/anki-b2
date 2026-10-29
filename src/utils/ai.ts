@@ -21,7 +21,9 @@ export interface AILanguageModelSession {
 
 export interface AILanguageModelCreateOptions {
   systemInstruction?: string;
-  monitor?: (m: { addEventListener: (event: string, cb: (e: { loaded: number; total: number }) => void) => void }) => void;
+  monitor?: (m: {
+    addEventListener: (event: string, cb: (e: { loaded: number; total: number }) => void) => void;
+  }) => void;
 }
 
 export interface AILanguageModel {
@@ -56,8 +58,11 @@ export const getOnDeviceAIEngine = (): AILanguageModel | null => {
   if (typeof window === 'undefined') return null;
   const globalScope = typeof self !== 'undefined' ? self : window;
   const aiObj =
-    (globalScope as unknown as { ai?: { languageModel?: AILanguageModel; assistant?: AILanguageModel } }).ai ||
-    window.ai;
+    (
+      globalScope as unknown as {
+        ai?: { languageModel?: AILanguageModel; assistant?: AILanguageModel };
+      }
+    ).ai || window.ai;
   if (!aiObj) return null;
   return aiObj.languageModel || aiObj.assistant || null;
 };
@@ -112,15 +117,12 @@ export const getAvailableGeminiModels = async (
   }
 
   try {
-    const res = await fetch(
-      'https://generativelanguage.googleapis.com/v1beta/models',
-      {
-        headers: {
-          'x-goog-api-key': sanitizedKey
-        },
-        signal
-      }
-    );
+    const res = await fetch('https://generativelanguage.googleapis.com/v1beta/models', {
+      headers: {
+        'x-goog-api-key': sanitizedKey
+      },
+      signal
+    });
     if (res.ok) {
       const data = await res.json();
       if (Array.isArray(data.models)) {
@@ -233,7 +235,8 @@ export const callAI = async (
   const cloudKey = getCloudKey();
   let localModelError = '';
   try {
-    const { isModelReady, isModelCached, isWebGPUSupported, callWebLLM, selectedLocalModel } = await import('./webllm');
+    const { isModelReady, isModelCached, isWebGPUSupported, callWebLLM, selectedLocalModel } =
+      await import('./webllm');
     const cached = await isModelCached();
     if ((isModelReady.value || cached || !cloudKey) && isWebGPUSupported()) {
       try {

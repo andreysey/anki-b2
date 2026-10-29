@@ -38,11 +38,7 @@ export function getLevenshteinDistance(a: string, b: string): number {
   return prevRow[n];
 }
 
-export function matchesFuzzy(
-  text: string,
-  query: string,
-  maxDistance = 1
-): boolean {
+export function matchesFuzzy(text: string, query: string, maxDistance = 1): boolean {
   if (!query) return true;
   const q = query.trim().toLowerCase();
   if (!q) return true;

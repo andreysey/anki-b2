@@ -234,8 +234,12 @@ export function useVocabulary() {
 
     try {
       let data: Word[] | null = null;
-      if (typeof window !== 'undefined' && (window as unknown as { __DATA_PROMISE__?: Promise<Word[] | null> }).__DATA_PROMISE__) {
-        data = await (window as unknown as { __DATA_PROMISE__: Promise<Word[] | null> }).__DATA_PROMISE__;
+      if (
+        typeof window !== 'undefined' &&
+        (window as unknown as { __DATA_PROMISE__?: Promise<Word[] | null> }).__DATA_PROMISE__
+      ) {
+        data = await (window as unknown as { __DATA_PROMISE__: Promise<Word[] | null> })
+          .__DATA_PROMISE__;
       }
       if (!data) {
         const response = await fetch('data.json');

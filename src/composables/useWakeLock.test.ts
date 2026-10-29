@@ -2,7 +2,10 @@ import { describe, it, expect, vi, beforeEach } from 'vitest';
 import { useWakeLock } from './useWakeLock';
 
 describe('useWakeLock composable', () => {
-  let mockSentinel: { release: ReturnType<typeof vi.fn>; addEventListener: ReturnType<typeof vi.fn> };
+  let mockSentinel: {
+    release: ReturnType<typeof vi.fn>;
+    addEventListener: ReturnType<typeof vi.fn>;
+  };
   let mockRequest: ReturnType<typeof vi.fn>;
 
   beforeEach(() => {

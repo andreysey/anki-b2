@@ -101,7 +101,8 @@ describe('backup utility', () => {
   });
 
   it('ignores entries with NaN or non-finite numbers', () => {
-    const corruptedJson = '{"masteredIds":[],"srsData":{"valid":{"level":3,"lastReview":100},"bad1":{"level":null,"lastReview":100},"bad2":{"level":"five","lastReview":100}}}';
+    const corruptedJson =
+      '{"masteredIds":[],"srsData":{"valid":{"level":3,"lastReview":100},"bad1":{"level":null,"lastReview":100},"bad2":{"level":"five","lastReview":100}}}';
     const result = parseAndValidateBackup(corruptedJson);
     expect(result.success).toBe(true);
     expect(result.data?.srsData.valid).toBeDefined();

@@ -73,7 +73,9 @@ const emit = defineEmits<{
     <div class="flex justify-between items-center w-full gap-2 flex-wrap xs:flex-nowrap">
       <div class="flex items-center gap-1.5 sm:gap-2 flex-wrap xs:flex-nowrap">
         <!-- Direction Segmented Toggle -->
-        <div class="flex rounded-xl p-1 bg-slate-100 dark:bg-slate-800/90 border border-slate-200/80 dark:border-slate-700/80 text-xs shadow-2xs">
+        <div
+          class="flex rounded-xl p-1 bg-slate-100 dark:bg-slate-800/90 border border-slate-200/80 dark:border-slate-700/80 text-xs shadow-2xs"
+        >
           <button
             v-for="opt in directionOptions"
             :key="String(opt.value)"
@@ -91,7 +93,9 @@ const emit = defineEmits<{
         </div>
 
         <!-- Audio Autoplay Segmented Toggle -->
-        <div class="flex rounded-xl p-1 bg-slate-100 dark:bg-slate-800/90 border border-slate-200/80 dark:border-slate-700/80 text-xs shadow-2xs">
+        <div
+          class="flex rounded-xl p-1 bg-slate-100 dark:bg-slate-800/90 border border-slate-200/80 dark:border-slate-700/80 text-xs shadow-2xs"
+        >
           <button
             v-for="opt in audioOptions"
             :key="String(opt.value)"
@@ -149,7 +153,9 @@ const emit = defineEmits<{
             {{ sessionReviewedCount }} reviewed
           </span>
         </div>
-        <span class="tabular-ticker font-mono">{{ currentStudyIndex + 1 }} of {{ vocabulary.length }}</span>
+        <span class="tabular-ticker font-mono"
+          >{{ currentStudyIndex + 1 }} of {{ vocabulary.length }}</span
+        >
       </div>
       <Progress :modelValue="studyProgress" class="h-1.5" />
     </div>
@@ -259,7 +265,9 @@ const emit = defineEmits<{
         <kbd class="macos-kbd">&larr;</kbd> <kbd class="macos-kbd">&rarr;</kbd>
         <span>Navigate</span>
       </div>
-      <div class="flex items-center gap-1.5"><kbd class="macos-kbd">M</kbd> <span>Master</span></div>
+      <div class="flex items-center gap-1.5">
+        <kbd class="macos-kbd">M</kbd> <span>Master</span>
+      </div>
     </div>
   </div>
 </template>

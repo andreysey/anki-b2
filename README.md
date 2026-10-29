@@ -8,7 +8,7 @@ Interactive German vocabulary training platform and native Anki packages aligned
 
 ## ✨ Features
 
-- **3,600+ Thematic Cards**: Professional German vocabulary covering workplace scenarios, *Nomen-Verb-Verbindungen*, verbs/adjectives with prepositions, and *Redemittel*.
+- **3,600+ Thematic Cards**: Professional German vocabulary covering workplace scenarios, _Nomen-Verb-Verbindungen_, verbs/adjectives with prepositions, and _Redemittel_.
 - **Native Anki Packages (`.apkg`)**: Bi-directional cards (Recognition & Production) with gender colorization, example highlighting, and built-in TTS audio.
 - **Spaced Repetition (SRS)**: 5-stage Leitner SRS engine with keyboard shortcuts (`Space` flip, `1-4` grade, `←`/`→` navigate, `M` mark as mastered).
 - **AI Language Coach**: Grammatical breakdowns and workplace dialogue examples. Runs on-device first (browser built-in AI, or a local WebLLM model via WebGPU) and falls back to the Gemini API with your own key.

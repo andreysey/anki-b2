@@ -28,7 +28,11 @@ export function useSpeechSynthesis() {
   };
 
   const warmupSpeech = () => {
-    if (typeof window !== 'undefined' && 'speechSynthesis' in window && typeof SpeechSynthesisUtterance !== 'undefined') {
+    if (
+      typeof window !== 'undefined' &&
+      'speechSynthesis' in window &&
+      typeof SpeechSynthesisUtterance !== 'undefined'
+    ) {
       try {
         if (window.speechSynthesis.paused) {
           window.speechSynthesis.resume();
@@ -151,7 +155,10 @@ export function useSpeechSynthesis() {
       }
     }
     activeUtterances.add(utterance);
-    updateMediaSession(cleaned, lang.startsWith('de') ? 'German Pronunciation' : 'English Translation');
+    updateMediaSession(
+      cleaned,
+      lang.startsWith('de') ? 'German Pronunciation' : 'English Translation'
+    );
     utterance.onend = utterance.onerror = () => {
       activeUtterances.delete(utterance);
       if (activeUtterances.size === 0) {

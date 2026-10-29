@@ -42,7 +42,10 @@ watch(
       await nextTick();
       inputRef.value?.focus();
     } else {
-      if (previouslyFocusedElement.value && typeof previouslyFocusedElement.value.focus === 'function') {
+      if (
+        previouslyFocusedElement.value &&
+        typeof previouslyFocusedElement.value.focus === 'function'
+      ) {
         previouslyFocusedElement.value.focus();
         previouslyFocusedElement.value = null;
       }
@@ -107,7 +110,9 @@ onUnmounted(() => {
       class="w-full max-w-xl bg-white/95 dark:bg-slate-900/95 border border-slate-200/90 dark:border-white/10 rounded-2xl shadow-2xl overflow-hidden flex flex-col max-h-[80vh] animate-in zoom-in-95 duration-150"
     >
       <!-- Search input header -->
-      <div class="relative flex items-center px-4 py-3 border-b border-slate-200/80 dark:border-white/10">
+      <div
+        class="relative flex items-center px-4 py-3 border-b border-slate-200/80 dark:border-white/10"
+      >
         <Search class="h-5 w-5 text-slate-400 shrink-0 mr-3" aria-hidden="true" />
         <input
           ref="inputRef"
@@ -152,7 +157,10 @@ onUnmounted(() => {
           :key="getItemKey(word)"
           role="option"
           :aria-selected="idx === selectedIndex"
-          @click="emit('select-word', word); close()"
+          @click="
+            emit('select-word', word);
+            close();
+          "
           :class="[
             'p-3 rounded-xl flex items-center justify-between gap-3 cursor-pointer transition-all',
             idx === selectedIndex
@@ -176,7 +184,9 @@ onUnmounted(() => {
               </span>
             </div>
             <div class="text-xs text-slate-600 dark:text-slate-300 truncate">
-              <span class="font-medium text-primary-600 dark:text-primary-400 mr-2">{{ word.english }}</span>
+              <span class="font-medium text-primary-600 dark:text-primary-400 mr-2">{{
+                word.english
+              }}</span>
               <span>{{ word.ukrainian }}</span>
             </div>
           </div>
@@ -213,10 +223,22 @@ onUnmounted(() => {
         class="px-4 py-2 border-t border-slate-200/80 dark:border-white/10 bg-slate-50/80 dark:bg-slate-950/40 text-[11px] text-slate-500 dark:text-slate-400 flex items-center justify-between"
       >
         <div class="flex items-center gap-2">
-          <span>Navigate: <kbd class="px-1.5 py-0.5 rounded bg-slate-200 dark:bg-white/10 font-mono">↑</kbd> <kbd class="px-1.5 py-0.5 rounded bg-slate-200 dark:bg-white/10 font-mono">↓</kbd></span>
-          <span>Select: <kbd class="px-1.5 py-0.5 rounded bg-slate-200 dark:bg-white/10 font-mono">Enter</kbd></span>
+          <span
+            >Navigate:
+            <kbd class="px-1.5 py-0.5 rounded bg-slate-200 dark:bg-white/10 font-mono">↑</kbd>
+            <kbd class="px-1.5 py-0.5 rounded bg-slate-200 dark:bg-white/10 font-mono">↓</kbd></span
+          >
+          <span
+            >Select:
+            <kbd class="px-1.5 py-0.5 rounded bg-slate-200 dark:bg-white/10 font-mono"
+              >Enter</kbd
+            ></span
+          >
         </div>
-        <span>Close: <kbd class="px-1.5 py-0.5 rounded bg-slate-200 dark:bg-white/10 font-mono">Esc</kbd></span>
+        <span
+          >Close:
+          <kbd class="px-1.5 py-0.5 rounded bg-slate-200 dark:bg-white/10 font-mono">Esc</kbd></span
+        >
       </div>
     </div>
   </div>
