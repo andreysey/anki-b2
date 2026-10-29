@@ -1,3 +1,10 @@
+# [1.63.0](https://github.com/andreysey/anki-b2/compare/v1.62.0...v1.63.0) (2026-10-29)
+
+
+### Features
+
+* **ai:** explain how to restrict the Gemini API key ([ac0617d](https://github.com/andreysey/anki-b2/commit/ac0617d084cf2a18d055876947258b10b99e5884))
+
 # [1.62.0](https://github.com/andreysey/anki-b2/compare/v1.61.1...v1.62.0) (2026-10-29)
 
 
