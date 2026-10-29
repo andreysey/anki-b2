@@ -1,3 +1,10 @@
+## [1.56.3](https://github.com/andreysey/anki-b2/compare/v1.56.2...v1.56.3) (2026-10-29)
+
+
+### Bug Fixes
+
+* **anki:** highlight -eln/-ern verbs and later phrase alternatives in examples ([8801ffb](https://github.com/andreysey/anki-b2/commit/8801ffb4dcf20adea1959c83b546fad3eb5c09b8))
+
 ## [1.56.2](https://github.com/andreysey/anki-b2/compare/v1.56.1...v1.56.2) (2026-10-29)
 
 
