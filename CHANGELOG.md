@@ -1,3 +1,10 @@
+## [1.61.1](https://github.com/andreysey/anki-b2/compare/v1.61.0...v1.61.1) (2026-10-29)
+
+
+### Bug Fixes
+
+* **ui:** readable article colors and example highlights in light mode ([212b247](https://github.com/andreysey/anki-b2/commit/212b24719696361c6b8af55db1590883c0d6bc45))
+
 # [1.61.0](https://github.com/andreysey/anki-b2/compare/v1.60.0...v1.61.0) (2026-10-29)
 
 
