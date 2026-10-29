@@ -1,3 +1,10 @@
+# [1.62.0](https://github.com/andreysey/anki-b2/compare/v1.61.1...v1.62.0) (2026-10-29)
+
+
+### Features
+
+* protect learning progress from browser data cleanup ([a7808bb](https://github.com/andreysey/anki-b2/commit/a7808bbece853023f97ac9b60c839c02b126a56d))
+
 ## [1.61.1](https://github.com/andreysey/anki-b2/compare/v1.61.0...v1.61.1) (2026-10-29)
 
 
