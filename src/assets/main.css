@@ -649,3 +649,22 @@ a,
     opacity: 0.4 !important;
   }
 }
+
+/* Article colors (der/die/das) and the example-word highlight come from the data as
+   inline styles, tuned for dark backgrounds. Swap in darker shades of the same hues in
+   light mode (and a lighter red in dark mode) so they meet WCAG AA contrast. */
+html:not(.dark) [style*='#eab308' i] {
+  color: #92400e !important; /* amber-800 */
+}
+html:not(.dark) [style*='#00d2ff' i] {
+  color: #155e75 !important; /* cyan-800 */
+}
+html:not(.dark) [style*='#ef4444' i] {
+  color: #b91c1c !important; /* red-700 */
+}
+html:not(.dark) [style*='#22c55e' i] {
+  color: #166534 !important; /* green-800 */
+}
+html.dark [style*='#ef4444' i] {
+  color: #f87171 !important; /* red-400 */
+}
