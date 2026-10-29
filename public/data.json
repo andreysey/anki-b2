@@ -36164,7 +36164,7 @@
     "german_audio": "... bietet",
     "english": "... offers / has / is equipped with ...",
     "ukrainian": "... пропонує / володіє / оснащений ...",
-    "example": "Unser neues Modell verfügt über ein ISO-Qualitätssicherungs-Zertifikat."
+    "example": "Unser neues Modell <b style=\"color: #eab308;\">verfügt</b> über ein ISO-Qualitätssicherungs-Zertifikat."
   },
   {
     "level": "B2",
@@ -36200,7 +36200,7 @@
     "german_audio": "Wann",
     "english": "When / Which date would suit you?",
     "ukrainian": "Коли / яка дата вам підійде?",
-    "example": "Welches Datum würde Ihnen für eine Präsentation vor Ort passen?"
+    "example": "<b style=\"color: #eab308;\">Welches</b> Datum würde Ihnen für eine Präsentation vor Ort passen?"
   },
   {
     "level": "B2",
@@ -36296,7 +36296,7 @@
     "german_audio": "An welches Modell",
     "english": "Which model / color / size / ... did you have in mind?",
     "ukrainian": "Про яку модель / колір / розмір / ... ви думали?",
-    "example": "An welche Nutzungsdauer der Geräte haben Sie gedacht?"
+    "example": "An <b style=\"color: #eab308;\">welche</b> Nutzungsdauer der Geräte haben Sie gedacht?"
   },
   {
     "level": "B2",
@@ -36608,7 +36608,7 @@
     "german_audio": "Den Preis",
     "english": "I find the price / technical specifications very/not convincing.",
     "ukrainian": "Ціна / технічні характеристики здаються мені дуже/не переконливими.",
-    "example": "Die Angaben zum Stromverbrauch finde ich sehr überzeugend."
+    "example": "Die Angaben zum Stromverbrauch finde ich sehr <b style=\"color: #eab308;\">überzeugend</b>."
   },
   {
     "level": "B2",
@@ -41228,7 +41228,7 @@
     "german_audio": "sich wundern über",
     "english": "to wonder at / be surprised at",
     "ukrainian": "дивуватися чомусь",
-    "example": "Niemand wunderte sich <b style=\"color: #eab308;\">über</b> die Abmahnung nach dem wiederholten Fehlverhalten."
+    "example": "Niemand <b style=\"color: #eab308;\">wunderte</b> sich über die Abmahnung nach dem wiederholten Fehlverhalten."
   },
   {
     "level": "B2",
@@ -41288,7 +41288,7 @@
     "german_audio": "handeln um",
     "english": "to be about",
     "ukrainian": "йтися про",
-    "example": "Es handelt sich hierbei um eine gesetzliche Pflichtversicherung."
+    "example": "Es <b style=\"color: #eab308;\">handelt</b> sich hierbei um eine gesetzliche Pflichtversicherung."
   },
   {
     "level": "B2",
@@ -41408,7 +41408,7 @@
     "german_audio": "handeln von",
     "english": "to be about",
     "ukrainian": "бути про (сюжет)",
-    "example": "Das Handbuch handelt von den genauen Abläufen bei einer Betriebsstilllegung."
+    "example": "Das Handbuch <b style=\"color: #eab308;\">handelt</b> von den genauen Abläufen bei einer Betriebsstilllegung."
   },
   {
     "level": "B2",
@@ -41684,7 +41684,7 @@
     "german_audio": "sich entwickeln zu",
     "english": "to develop into",
     "ukrainian": "розвиватися в",
-    "example": "Das kleine Handwerksunternehmen hat sich zu einem führenden mittelständischen Betrieb entwickelt."
+    "example": "Das kleine Handwerksunternehmen hat sich zu einem führenden mittelständischen Betrieb <b style=\"color: #eab308;\">entwickelt</b>."
   },
   {
     "level": "B2",

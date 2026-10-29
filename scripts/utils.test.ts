@@ -107,6 +107,39 @@ describe('highlightWordInExample', () => {
     expect(highlighted).toContain('<b style="color: #eab308;">abgefangen</b>');
   });
 
+  it('highlights conjugated -eln / -ern verbs', () => {
+    expect(
+      highlightWordInExample('handeln von', 'Das Handbuch handelt von den Abläufen.')
+    ).toContain('<b style="color: #eab308;">handelt</b>');
+    expect(
+      highlightWordInExample('sich wundern über', 'Niemand wunderte sich über die Abmahnung.')
+    ).toContain('<b style="color: #eab308;">wunderte</b>');
+    expect(highlightWordInExample('ändern', 'Wir ändern den Plan.')).toContain(
+      '<b style="color: #eab308;">ändern</b>'
+    );
+  });
+
+  it('falls back to later " / " alternatives when the first one is not in the example', () => {
+    const original = '... bietet / verfügt über / ist ausgestattet mit ...';
+    const highlighted = highlightWordInExample(
+      '... bietet',
+      'Unser Modell verfügt über ein Zertifikat.',
+      original
+    );
+    expect(highlighted).toContain('<b style="color: #eab308;">verfügt</b>');
+  });
+
+  it('prefers the first alternative when it is present', () => {
+    const original = '... bietet / verfügt über ...';
+    const highlighted = highlightWordInExample(
+      '... bietet',
+      'Das Modell bietet viel und verfügt über alles.',
+      original
+    );
+    expect(highlighted).toContain('<b style="color: #eab308;">bietet</b>');
+    expect(highlighted).not.toContain('<b style="color: #eab308;">verfügt</b>');
+  });
+
   it('handles compound noun fallback', () => {
     const cleanGerman = 'Rentenberater';
     const example = 'Er arbeitet als Chefrentenberater.';

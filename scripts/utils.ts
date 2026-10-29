@@ -229,6 +229,10 @@ export function highlightWordInExample(
       if (cleaned.endsWith('en') && cleaned.length > 4) {
         terms.push(cleaned.slice(0, -2));
       }
+      // -eln / -ern verbs: stem keeps the "e" (handeln → handel-t, ändern → änder-t)
+      if (/[^e](el|er)n$/.test(cleaned) && cleaned.length > 5) {
+        terms.push(cleaned.slice(0, -1));
+      }
       if (cleaned.endsWith('laden') && cleaned.length > 5) terms.push('lädt');
       if (cleaned.endsWith('tragen') && cleaned.length > 6) terms.push('trägt');
       if (cleaned.endsWith('gehen') && cleaned.length > 5) terms.push('geht', 'ging');
@@ -343,6 +347,25 @@ export function highlightWordInExample(
         }
       } catch {
         // skip invalid regex
+      }
+    }
+  }
+
+  // ── 7. Fallback: phrase alternatives ("… bietet / verfügt über / …").
+  // cleanGerman only keeps the first alternative, so try the others.
+  if (!hasHighlighted && originalGerman && originalGerman.includes(' / ')) {
+    const alternatives = originalGerman
+      .replace(/\(.*?\)/g, '')
+      .split(' / ')
+      .slice(1);
+    for (const alt of alternatives) {
+      const altClean = cleanGermanForAudio(alt.replace(/\.{3}|…/g, ' ')).trim();
+      if (altClean.length < 3) continue;
+      const altHighlighted = highlightWordInExample(altClean, example);
+      if (altHighlighted.includes('</b>')) {
+        highlightedExample = altHighlighted;
+        hasHighlighted = true;
+        break;
       }
     }
   }
