@@ -1,3 +1,10 @@
+## [1.56.4](https://github.com/andreysey/anki-b2/compare/v1.56.3...v1.56.4) (2026-10-29)
+
+
+### Bug Fixes
+
+* **anki:** highlight irregular and separable verb forms in examples ([8c309dc](https://github.com/andreysey/anki-b2/commit/8c309dc405b9cd3cd00a47a253d7c75037e6b051))
+
 ## [1.56.3](https://github.com/andreysey/anki-b2/compare/v1.56.2...v1.56.3) (2026-10-29)
 
 
