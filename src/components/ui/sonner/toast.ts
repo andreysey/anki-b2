@@ -5,6 +5,12 @@ const triggerToasterMount = () => {
   }
 };
 
+export interface ToastOptions {
+  description?: string;
+  duration?: number;
+  action?: { label: string; onClick: () => void };
+}
+
 export const toast = {
   success: (message: string) => {
     triggerToasterMount();
@@ -18,8 +24,10 @@ export const toast = {
     triggerToasterMount();
     return import('vue-sonner').then((m) => m.toast.warning(message));
   },
-  info: (message: string) => {
+  info: (message: string, options?: ToastOptions) => {
     triggerToasterMount();
-    return import('vue-sonner').then((m) => m.toast.info(message));
+    return import('vue-sonner').then((m) =>
+      options ? m.toast.info(message, options) : m.toast.info(message)
+    );
   }
 };

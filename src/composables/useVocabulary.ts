@@ -2,6 +2,7 @@ import { ref, computed, watch } from 'vue';
 import type { Word, SRSState, StudyDirection } from '../types';
 import { safeStorage } from '../utils/storage';
 import { STORAGE_KEYS } from '../constants/storage';
+import { requestPersistentStorage } from '../utils/dataSafety';
 
 export const SRS_INTERVALS_MS: Readonly<Record<number, number>> = {
   0: 0, // Immediately due
@@ -224,6 +225,8 @@ export function useVocabulary() {
     };
     studyStreak.value = updated;
     safeStorage.setItem(STORAGE_KEYS.STUDY_STREAK, updated);
+    // First study of the day: make sure the browser won't wipe the progress
+    void requestPersistentStorage();
   };
 
   const init = async () => {

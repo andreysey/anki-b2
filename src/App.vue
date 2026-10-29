@@ -33,6 +33,8 @@ const isCommandPaletteOpen = ref(false);
 const mainContentRef = ref<HTMLElement | null>(null);
 import { updateAppBadge } from './utils/badge';
 import { playSoundFx } from './utils/soundFx';
+import { shouldShowBackupReminder, markBackupReminderShown } from './utils/dataSafety';
+import { downloadBackupFile } from './utils/backup';
 
 const appVersion = typeof __APP_VERSION__ !== 'undefined' ? __APP_VERSION__ : '1.18.0';
 
@@ -183,7 +185,30 @@ const handleSelectWordFromPalette = (word: Word) => {
   activeView.value = 'list';
 };
 
+// Progress lives only in this browser; nudge the user to keep a backup (max once a week)
+const BACKUP_REMINDER_DELAY_MS = 4000;
+const maybeRemindBackup = () => {
+  const hasProgress = masteredIds.value.size > 0 || Object.keys(srsData.value).length > 0;
+  if (!shouldShowBackupReminder(hasProgress)) return;
+  markBackupReminderShown();
+  toast.info('Back up your progress', {
+    description:
+      'Your progress is saved only in this browser and could be lost if browser data is cleared.',
+    duration: 15000,
+    action: {
+      label: 'Back up now',
+      onClick: () => {
+        downloadBackupFile(masteredIds.value, srsData.value);
+        toast.success('Backup saved');
+      }
+    }
+  });
+};
+
+let backupReminderTimer: number | undefined;
+
 onMounted(() => {
+  backupReminderTimer = window.setTimeout(maybeRemindBackup, BACKUP_REMINDER_DELAY_MS);
   initNavigation();
   init();
   initTheme();
@@ -204,6 +229,7 @@ onMounted(() => {
 });
 
 onUnmounted(() => {
+  window.clearTimeout(backupReminderTimer);
   stopAudio();
   cleanupWakeLock();
   cleanupNavigation();

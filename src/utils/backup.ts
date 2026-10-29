@@ -1,4 +1,5 @@
 import type { SRSState } from '../types';
+import { markBackupDone } from './dataSafety';
 
 export interface BackupData {
   version: number;
@@ -126,4 +127,5 @@ export function downloadBackupFile(
   anchor.download = filename;
   anchor.click();
   URL.revokeObjectURL(url);
+  markBackupDone();
 }

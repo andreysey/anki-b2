@@ -1,9 +1,11 @@
-import { describe, it, expect, vi } from 'vitest';
-import { mount } from '@vue/test-utils';
+import { describe, it, expect, vi, beforeEach } from 'vitest';
+import { mount, flushPromises } from '@vue/test-utils';
 import DashboardBackupSync from './DashboardBackupSync.vue';
 import * as backupUtils from '../utils/backup';
 
 describe('DashboardBackupSync.vue', () => {
+  beforeEach(() => localStorage.clear());
+
   const defaultProps = {
     totalWords: 100,
     totalMastered: 40,
@@ -145,5 +147,34 @@ describe('DashboardBackupSync.vue', () => {
 
     expect(wrapper.emitted('restore-progress')).toBeFalsy();
     expect(wrapper.text()).toContain('Failed to read backup file from disk.');
+  });
+
+  it('warns when there is progress but no backup yet', async () => {
+    const wrapper = mount(DashboardBackupSync, { props: defaultProps });
+    await flushPromises();
+    const status = wrapper.find('[data-testid="backup-status"]');
+    expect(status.text()).toContain('Last backup: never');
+    expect(status.classes().join(' ')).toContain('text-amber');
+  });
+
+  it('shows a recent backup without warning', async () => {
+    localStorage.setItem('anki_last_backup', String(Date.now()));
+    const wrapper = mount(DashboardBackupSync, { props: defaultProps });
+    await flushPromises();
+    const status = wrapper.find('[data-testid="backup-status"]');
+    expect(status.text()).toContain('Last backup: today');
+    expect(status.classes().join(' ')).not.toContain('text-amber');
+  });
+
+  it('shows whether browser storage is protected', async () => {
+    Object.defineProperty(navigator, 'storage', {
+      value: { persisted: vi.fn().mockResolvedValue(true), persist: vi.fn() },
+      configurable: true
+    });
+    const wrapper = mount(DashboardBackupSync, { props: defaultProps });
+    await flushPromises();
+    expect(wrapper.text()).toContain('Browser storage protected');
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    delete (navigator as any).storage;
   });
 });

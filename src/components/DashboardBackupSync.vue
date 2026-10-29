@@ -1,10 +1,16 @@
 <script setup lang="ts">
-import { ref } from 'vue';
+import { ref, computed, onMounted } from 'vue';
 import { Progress } from './ui/progress';
 import { Button } from './ui/button';
-import { Download, Upload } from '@lucide/vue';
+import { Download, Upload, ShieldCheck, ShieldAlert } from '@lucide/vue';
 import { downloadBackupFile, parseAndValidateBackup, MAX_BACKUP_SIZE_BYTES } from '../utils/backup';
 import type { SRSState } from '../types';
+import {
+  getLastBackup,
+  isBackupDue,
+  formatBackupAge,
+  isStoragePersisted
+} from '../utils/dataSafety';
 
 const props = defineProps<{
   totalWords: number;
@@ -25,8 +31,21 @@ const fileInputRef = ref<HTMLInputElement | null>(null);
 const importError = ref<string | null>(null);
 const importSuccess = ref<string | null>(null);
 
+const lastBackup = ref<number | null>(getLastBackup());
+const storagePersisted = ref<boolean | null>(null);
+const hasProgress = computed(
+  () => props.masteredIds.size > 0 || Object.keys(props.srsData ?? {}).length > 0
+);
+const backupDue = computed(() => isBackupDue(hasProgress.value, lastBackup.value));
+const backupAgeLabel = computed(() => formatBackupAge(lastBackup.value));
+
+onMounted(async () => {
+  storagePersisted.value = await isStoragePersisted();
+});
+
 const handleExport = () => {
   downloadBackupFile(props.masteredIds, props.srsData ?? {});
+  lastBackup.value = getLastBackup();
 };
 
 const triggerFileInput = () => {
@@ -97,8 +116,28 @@ const handleFileImport = (event: Event) => {
     <div
       class="pt-3.5 border-t border-slate-200/80 dark:border-white/10 flex items-center justify-between flex-wrap gap-3"
     >
-      <div class="text-xs text-slate-500 dark:text-slate-400 max-w-md leading-relaxed">
-        Sync and transfer your learning progress across devices with a JSON backup file.
+      <div class="text-xs text-slate-500 dark:text-slate-400 max-w-md leading-relaxed space-y-1">
+        <div>Sync and transfer your learning progress across devices with a JSON backup file.</div>
+        <div
+          data-testid="backup-status"
+          class="flex items-center gap-1.5 font-medium"
+          :class="
+            backupDue ? 'text-amber-700 dark:text-amber-400' : 'text-slate-600 dark:text-slate-300'
+          "
+        >
+          <component
+            :is="storagePersisted ? ShieldCheck : ShieldAlert"
+            class="h-3.5 w-3.5 shrink-0"
+            aria-hidden="true"
+          />
+          <span>
+            Last backup: {{ backupAgeLabel
+            }}<template v-if="storagePersisted === true"> · Browser storage protected</template
+            ><template v-else-if="storagePersisted === false">
+              · Browser may clear this data</template
+            >
+          </span>
+        </div>
       </div>
       <div class="flex gap-2.5">
         <input
