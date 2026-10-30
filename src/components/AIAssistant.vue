@@ -1,11 +1,13 @@
 <script setup lang="ts">
-import { ref, computed, onMounted, onUnmounted, watch } from 'vue';
+import { ref, computed, onMounted, watch } from 'vue';
 import type { Word } from '../types';
-import { callAI, ANSWER_LANGUAGE } from '../utils/ai';
 import { useAIAssistantState } from '../composables/useAIAssistantState';
+import { useAIRequest } from '../composables/useAIRequest';
+import { AI_PROMPTS, type AIPromptType } from '../utils/aiPrompts';
 import { Button } from './ui/button';
-import { Sparkles, Settings, Compass, MessageSquare, Check } from '@lucide/vue';
+import { Sparkles, Settings, Compass, MessageSquare } from '@lucide/vue';
 import AIResultCard from './AIResultCard.vue';
+import AIStatusBadge from './AIStatusBadge.vue';
 import {
   isModelReady,
   isModelLoading,
@@ -25,14 +27,18 @@ const emit = defineEmits<{
 }>();
 
 const { hasNano, hasCloudKey, init, openSettings } = useAIAssistantState();
+const request = useAIRequest();
+const {
+  isLoading,
+  isError,
+  resultText,
+  resultSource,
+  resultModel,
+  isCopied,
+  displayModelLabel,
+  displaySourceLabel
+} = request;
 
-const isLoading = ref(false);
-const isError = ref(false);
-const resultText = ref('');
-const resultSource = ref<'nano' | 'webllm' | 'cloud' | 'none'>('none');
-const resultModel = ref<string>('');
-const explanationType = ref<'grammar' | 'dialogue' | null>(null);
-const isCopied = ref(false);
 const hasCachedLocalModel = ref(false);
 
 onMounted(async () => {
@@ -43,32 +49,17 @@ onMounted(async () => {
   }
 });
 
-let activeRequestId = 0;
-let activeAbortController: AbortController | null = null;
+const hasLocalModel = computed(() => isModelReady.value || hasCachedLocalModel.value);
+// No AI backend configured yet: show the setup hint
+const needsSetup = computed(() => !hasNano.value && !hasCloudKey.value && !hasLocalModel.value);
+// WebGPU alone is enough to try: the first request downloads the local model
+const canRequest = computed(() => !isLoading.value && (!needsSetup.value || isWebGPUSupported()));
 
-onUnmounted(() => {
-  if (activeAbortController) {
-    activeAbortController.abort();
-    activeAbortController = null;
-  }
-});
-
-// Reset AI state when word changes
+// A new word cancels the running request and clears the answer
 watch(
   () => props.word,
   () => {
-    if (activeAbortController) {
-      activeAbortController.abort();
-      activeAbortController = null;
-    }
-    activeRequestId++;
-    isLoading.value = false;
-    isError.value = false;
-    resultText.value = '';
-    resultModel.value = '';
-    resultSource.value = 'none';
-    explanationType.value = null;
-    isCopied.value = false;
+    request.reset();
     emit('ai-active', false);
   }
 );
@@ -77,103 +68,10 @@ watch([isLoading, resultText], ([loading, text]) => {
   emit('ai-active', loading || Boolean(text));
 });
 
-const handleCopy = async () => {
-  if (!resultText.value) return;
-  try {
-    const cleanText = resultText.value.replace(/<[^>]*>/g, '');
-    await navigator.clipboard.writeText(cleanText);
-    isCopied.value = true;
-    setTimeout(() => {
-      isCopied.value = false;
-    }, 2000);
-  } catch (err: unknown) {
-    console.warn('Failed to copy AI text:', err);
-  }
-};
-
-const executeAiPrompt = async (
-  type: 'grammar' | 'dialogue',
-  systemInstruction: string,
-  prompt: string
-) => {
-  if (activeAbortController) {
-    activeAbortController.abort();
-  }
-  const abortController = new AbortController();
-  activeAbortController = abortController;
-
-  const currentId = ++activeRequestId;
-  explanationType.value = type;
-  isLoading.value = true;
-  isError.value = false;
-  resultText.value = '';
-  resultModel.value = '';
-  isCopied.value = false;
+const ask = (type: AIPromptType) => {
   emit('ai-active', true);
-
-  const res = await callAI(
-    prompt,
-    systemInstruction,
-    (_chunk, fullText) => {
-      if (activeRequestId === currentId) {
-        resultText.value = fullText;
-      }
-    },
-    abortController.signal
-  );
-
-  if (activeRequestId !== currentId) return;
-
-  resultText.value = res.text;
-  resultSource.value = res.source;
-  resultModel.value = res.model || '';
-  isError.value = !res.success;
-  isLoading.value = false;
+  return request.run(type, AI_PROMPTS[type](props.word));
 };
-
-const handleExplainGrammar = async () => {
-  const systemInstruction =
-    'You are a German language coach (CEFR B1/B2). ' +
-    `Explain the German vocabulary term clearly in ${ANSWER_LANGUAGE} with bullet points. ` +
-    'Do not repeat phrases. Be concise and structured.';
-
-  const prompt =
-    `German word: ${props.word.german}\n` +
-    `Example: ${props.word.example || 'N/A'}\n\n` +
-    `Task: Provide meaning and grammar notes in ${ANSWER_LANGUAGE}.`;
-
-  await executeAiPrompt('grammar', systemInstruction, prompt);
-};
-
-const handleGenerateDialogue = async () => {
-  const systemInstruction =
-    'You are a German language coach. ' +
-    'Write a concise 2-speaker German workplace dialogue (2-3 lines max) using the vocabulary word. ' +
-    `Provide ${ANSWER_LANGUAGE} translation for each line. Do not repeat lines.`;
-
-  const prompt =
-    `Word: ${props.word.german}\n` +
-    `Format:\n` +
-    `A: [German line]\n` +
-    `  [${ANSWER_LANGUAGE} translation]\n` +
-    `B: [German line]\n` +
-    `  [${ANSWER_LANGUAGE} translation]`;
-
-  await executeAiPrompt('dialogue', systemInstruction, prompt);
-};
-
-const displayModelLabel = computed(() => {
-  if (resultModel.value) return resultModel.value;
-  if (resultSource.value === 'nano') return 'gemini-nano';
-  if (resultSource.value === 'webllm') return 'local-model';
-  return 'gemini-cloud';
-});
-
-const displaySourceLabel = computed(() => {
-  if (resultSource.value === 'nano') return 'On-Device AI';
-  if (resultSource.value === 'webllm') return 'WebGPU Local AI';
-  return 'Cloud API';
-});
 
 const loadingStatusText = computed(() => {
   if (isModelLoading.value) {
@@ -196,44 +94,12 @@ const loadingStatusText = computed(() => {
           <Sparkles class="h-3.5 w-3.5 text-primary-500" />
           AI Coach
         </span>
-        <span
-          v-if="hasNano"
-          class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 border border-emerald-500/25"
-        >
-          <span
-            class="w-1.5 h-1.5 rounded-full bg-emerald-500 dark:bg-emerald-400 animate-pulse"
-          ></span>
-          Gemini Nano
-        </span>
-        <span
-          v-else-if="isModelReady || hasCachedLocalModel"
-          class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 border border-emerald-500/25"
-        >
-          <span
-            class="w-1.5 h-1.5 rounded-full bg-emerald-500 dark:bg-emerald-400 animate-pulse"
-          ></span>
-          Local AI (Offline)
-        </span>
-        <span
-          v-else-if="resultModel"
-          class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-blue-500/15 text-blue-600 dark:text-blue-400 border border-blue-500/25"
-          :title="`Active model: ${resultModel}`"
-        >
-          <Check class="h-2.5 w-2.5" />
-          {{ resultModel }}
-        </span>
-        <span
-          v-else-if="hasCloudKey"
-          class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-blue-500/15 text-blue-600 dark:text-blue-400 border border-blue-500/25"
-        >
-          Gemini Cloud (Active)
-        </span>
-        <span
-          v-else
-          class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-500/15 text-amber-700 dark:text-amber-400 border border-amber-500/25"
-        >
-          Setup Required
-        </span>
+        <AIStatusBadge
+          :has-nano="hasNano"
+          :has-local-model="hasLocalModel"
+          :result-model="resultModel"
+          :has-cloud-key="hasCloudKey"
+        />
       </div>
       <Button
         variant="ghost"
@@ -251,15 +117,8 @@ const loadingStatusText = computed(() => {
       <Button
         variant="outline"
         size="sm"
-        @click.stop="handleExplainGrammar"
-        :disabled="
-          isLoading ||
-          (!hasNano &&
-            !hasCloudKey &&
-            !isModelReady &&
-            !hasCachedLocalModel &&
-            !isWebGPUSupported())
-        "
+        @click.stop="ask('grammar')"
+        :disabled="!canRequest"
         class="rounded-xl text-xs py-1.5 w-full justify-center"
       >
         <Compass class="h-3.5 w-3.5" />
@@ -268,15 +127,8 @@ const loadingStatusText = computed(() => {
       <Button
         variant="outline"
         size="sm"
-        @click.stop="handleGenerateDialogue"
-        :disabled="
-          isLoading ||
-          (!hasNano &&
-            !hasCloudKey &&
-            !isModelReady &&
-            !hasCachedLocalModel &&
-            !isWebGPUSupported())
-        "
+        @click.stop="ask('dialogue')"
+        :disabled="!canRequest"
         class="rounded-xl text-xs py-1.5 w-full justify-center"
       >
         <MessageSquare class="h-3.5 w-3.5" />
@@ -286,7 +138,7 @@ const loadingStatusText = computed(() => {
 
     <!-- Setup Prompt when AI is unconfigured -->
     <div
-      v-if="!hasNano && !hasCloudKey && !isModelReady && !hasCachedLocalModel"
+      v-if="needsSetup"
       class="p-3 bg-slate-100 dark:bg-white/5 border border-slate-200 dark:border-white/10 rounded-xl text-xs text-slate-600 dark:text-slate-400 text-center leading-relaxed"
     >
       Click the gear icon to download the <strong>Offline Local Model (~0.7–1.9 GB)</strong> or
@@ -307,7 +159,7 @@ const loadingStatusText = computed(() => {
       :resultSource="resultSource"
       :displayModelLabel="displayModelLabel"
       :displaySourceLabel="displaySourceLabel"
-      @copy="handleCopy"
+      @copy="request.copy"
     />
   </div>
 </template>
