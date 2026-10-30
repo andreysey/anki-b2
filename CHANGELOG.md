@@ -1,3 +1,15 @@
+# [1.64.0](https://github.com/andreysey/anki-b2/compare/v1.63.0...v1.64.0) (2026-10-30)
+
+
+### Bug Fixes
+
+* **a11y:** resolve all axe-core violations across views ([8abd5e0](https://github.com/andreysey/anki-b2/commit/8abd5e075184b42e00e437f6e418f19cfb82b7b7))
+
+
+### Features
+
+* **audio:** help users install a German voice ([e6a37a9](https://github.com/andreysey/anki-b2/commit/e6a37a94c96e3d0cfd2c68a145d5fc40845e15d5))
+
 # [1.63.0](https://github.com/andreysey/anki-b2/compare/v1.62.0...v1.63.0) (2026-10-29)
 
 
