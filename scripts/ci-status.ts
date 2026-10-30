@@ -6,13 +6,15 @@
  *   npm run ci:status -- --wait       # wait until all runs finish (max 15 min)
  *   npm run ci:status -- <sha> --wait
  *
- * Uses the public GitHub API (60 requests/hour without a token). Set GITHUB_TOKEN for more.
+ * Authenticates with $GITHUB_TOKEN or the GitHub CLI login (`gh auth login`, 5000 requests/hour);
+ * without either it falls back to the public API (60 requests/hour).
  * Exit code: 0 = all runs succeeded (or still running without --wait), 1 = a run failed / timeout.
  * After the runs finish it also reports whether semantic-release pushed a release commit.
  */
 import { execFileSync } from 'node:child_process';
 
 interface Run {
+  id: number;
   name: string;
   event: string;
   status: string;
@@ -36,9 +38,19 @@ if (!repo) {
   process.exit(1);
 }
 
+function readToken(): string | undefined {
+  if (process.env.GITHUB_TOKEN) return process.env.GITHUB_TOKEN;
+  try {
+    return execFileSync('gh', ['auth', 'token'], { encoding: 'utf8', stdio: 'pipe' }).trim();
+  } catch {
+    return undefined; // gh not installed or not logged in
+  }
+}
+const token = readToken();
+
 async function fetchRuns(): Promise<Run[]> {
   const headers: Record<string, string> = { Accept: 'application/vnd.github+json' };
-  if (process.env.GITHUB_TOKEN) headers.Authorization = `Bearer ${process.env.GITHUB_TOKEN}`;
+  if (token) headers.Authorization = `Bearer ${token}`;
   const res = await fetch(`https://api.github.com/repos/${repo}/actions/runs?head_sha=${sha}`, {
     headers
   });
@@ -46,7 +58,7 @@ async function fetchRuns(): Promise<Run[]> {
     const reset = Number(res.headers.get('x-ratelimit-reset')) * 1000;
     const minutes = reset ? Math.max(1, Math.ceil((reset - Date.now()) / 60_000)) : '?';
     throw new Error(
-      `GitHub API rate limit reached; resets in ~${minutes} min (set GITHUB_TOKEN to raise it)`
+      `GitHub API rate limit reached; resets in ~${minutes} min (run \`gh auth login\` to raise it)`
     );
   }
   if (!res.ok) throw new Error(`GitHub API ${res.status}: ${await res.text()}`);
@@ -88,7 +100,11 @@ async function main() {
   const failed = runs.some(
     (r) => r.status === 'completed' && !['success', 'skipped'].includes(r.conclusion ?? '')
   );
-  if (failed) process.exit(1);
+  if (failed) {
+    const failedRun = runs.find((r) => r.conclusion === 'failure');
+    if (failedRun) console.log(`\nFailed steps' log: gh run view ${failedRun.id} --log-failed`);
+    process.exit(1);
+  }
 
   if (runs.every((r) => r.status === 'completed')) {
     git('fetch', '--quiet', 'origin');

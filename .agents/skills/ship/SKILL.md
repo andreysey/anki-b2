@@ -61,10 +61,11 @@ npm run ci:status -- --wait
 It prints each workflow with ✅/❌, exits 1 on failure, and says whether a release commit was
 created. Then `git pull --rebase` so the next commit starts from the release commit.
 
-- The public GitHub API allows 60 requests/hour; `ci:status` polls every 30 s. If it reports the
-  rate limit, wait or set `GITHUB_TOKEN`.
-- A failed **Release and Deploy** with passing CI usually means a flaky test in the release job;
-  check the run URL it prints before re-pushing.
+- `ci:status` uses the GitHub CLI login (`gh auth login`, 5000 requests/hour); without it the
+  public API allows only 60/hour. If it reports the rate limit, wait or log in with `gh`.
+- On failure it prints `gh run view <id> --log-failed` — run that to read the failing step's log.
+  `gh run rerun <id> --failed` retries a flaky job without a new commit.
+- A failed **Release and Deploy** with passing CI usually means a flaky test in the release job.
 
 ## 5. Confirm the deploy (for `feat`/`fix`)
 
