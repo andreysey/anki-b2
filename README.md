@@ -30,7 +30,7 @@ Pre-built `.apkg` packages ready for import into Anki (Desktop, AnkiMobile, Anki
 
 ## 🛠️ Quick Start
 
-Requires **Node.js 24.20+**.
+Requires **Node.js 26 LTS** (26.13+; see `.nvmrc`).
 
 ```bash
 # Install dependencies

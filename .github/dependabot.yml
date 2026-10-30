@@ -15,7 +15,7 @@ updates:
       # vue-tsc doesn't support TypeScript 7 yet
       - dependency-name: typescript
         update-types: [version-update:semver-major]
-      # Keep in line with the Node major we run (24)
+      # Keep in line with the Node major we run (26, see .nvmrc)
       - dependency-name: '@types/node'
         update-types: [version-update:semver-major]
     groups:
