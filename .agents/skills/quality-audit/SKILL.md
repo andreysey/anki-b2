@@ -14,9 +14,10 @@ npm run health:check
 ```
 This automatically verifies:
 - All `v-html` instances in `.vue` files are wrapped in `sanitizeHtml` or `sanitizeAiHtml`.
-- No direct `localStorage` access exists in `src/` outside `safeStorage.ts`.
+- No direct `localStorage` access exists in `src/` outside `src/utils/storage.ts` (`safeStorage`).
 - Anki `MODEL_ID` (`1607392319`) and card template names are preserved.
 - Content Security Policy directives in `index.html` remain hardened (`base-uri 'self'`, `object-src 'none'`, `form-action 'self'`, `img-src 'self' data:`).
+- The PWA manifest and `public/data.json` are present and well-formed.
 
 ## 2. Fast Static Verification
 ```bash
@@ -41,7 +42,13 @@ When reviewing or writing code, manually verify these critical security invarian
    - Speech synthesis must cancel (`stopAudio()`) on unmount.
    - Keyboard event listeners must unregister on unmount.
 
-## 4. Full Pipeline Verification
+## 4. Dependencies & UI
+```bash
+npm audit --omit=dev            # vulnerabilities in packages shipped to users
+npm run build && npm run audit:ui   # contrast, axe-core, horizontal overflow in every view/theme
+```
+
+## 5. Full Pipeline Verification
 Always conclude an audit or major feature work with the complete verification chain:
 ```bash
 npm run test:all
