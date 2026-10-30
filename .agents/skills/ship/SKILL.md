@@ -5,9 +5,9 @@ description: Commit, push and verify a change in anki-b2 end to end — choosing
 
 # Ship a Change
 
-Every push to `main` runs CI and **Release and Deploy**. semantic-release reads the commit
-prefixes since the last release: `feat`/`fix` publish a new version and deploy GitHub Pages to
-users within minutes; everything else only runs checks.
+Every push to `main` runs one **CI** workflow: checks → release → deploy. The release and deploy
+jobs start only after every check passed. semantic-release reads the commit prefixes since the
+last release: `feat`/`fix` publish a new version; other prefixes redeploy the same version.
 
 ## 1. Verify locally
 
@@ -65,7 +65,7 @@ created. Then `git pull --rebase` so the next commit starts from the release com
   public API allows only 60/hour. If it reports the rate limit, wait or log in with `gh`.
 - On failure it prints `gh run view <id> --log-failed` — run that to read the failing step's log.
   `gh run rerun <id> --failed` retries a flaky job without a new commit.
-- A failed **Release and Deploy** with passing CI usually means a flaky test in the release job.
+- If `build-and-test` fails, nothing was released or deployed: fix and push again.
 
 ## 5. Confirm the deploy (for `feat`/`fix`)
 
