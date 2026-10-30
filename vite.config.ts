@@ -71,11 +71,15 @@ export default defineConfig({
     VitePWA({
       registerType: 'autoUpdate',
       injectRegister: 'script-defer',
-      includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'mask-icon.svg', 'data.json'],
+      // Icons are already precached by globPatterns below
+      includeManifestIcons: false,
       manifest: {
+        id: '/anki-b2/',
         name: 'Anki B2 - German Vocabulary',
         short_name: 'AnkiB2',
-        description: 'Interactive Professional Vocabulary Dictionary',
+        description:
+          'German B1+/B2 Beruf vocabulary trainer with spaced repetition, audio and AI explanations. Works offline.',
+        categories: ['education'],
         theme_color: '#0f172a',
         background_color: '#0f172a',
         display: 'standalone',
@@ -89,6 +93,13 @@ export default defineConfig({
             src: 'icon-512.png',
             sizes: '512x512',
             type: 'image/png'
+          },
+          {
+            // Padded copy for Android's round/squircle icon masks
+            src: 'icon-maskable-512.png',
+            sizes: '512x512',
+            type: 'image/png',
+            purpose: 'maskable'
           }
         ],
         shortcuts: [
@@ -117,20 +128,12 @@ export default defineConfig({
       },
       workbox: {
         maximumFileSizeToCacheInBytes: 10 * 1024 * 1024,
+        // Everything incl. data.json is precached, so each release updates app and words together
         globPatterns: ['**/*.{js,css,html,ico,png,svg,json}'],
+        // The local-AI engine (~6 MB) is only downloaded by people who turn it on
         globIgnores: ['**/vendor-webllm*.js'],
-        runtimeCaching: [
-          {
-            urlPattern: ({ url }) => url.pathname.endsWith('data.json'),
-            handler: 'StaleWhileRevalidate',
-            options: {
-              cacheName: 'vocabulary-data-cache',
-              cacheableResponse: {
-                statuses: [0, 200]
-              }
-            }
-          }
-        ]
+        // Control the page on the first visit, so it works offline without a reload
+        clientsClaim: true
       }
     })
   ],
