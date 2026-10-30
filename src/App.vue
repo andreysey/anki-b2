@@ -128,7 +128,7 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <Toaster v-if="isToasterMounted" position="top-right" rich-colors />
+  <Toaster v-if="isToasterMounted" position="top-right" rich-colors close-button />
   <AISettingsDialog v-if="isSettingsOpen" />
 
   <!-- macOS Ambient Desktop Wallpaper Canvas -->
