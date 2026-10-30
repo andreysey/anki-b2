@@ -1,3 +1,10 @@
+## [1.64.4](https://github.com/andreysey/anki-b2/compare/v1.64.3...v1.64.4) (2026-10-30)
+
+
+### Bug Fixes
+
+* guard index access in app code (noUncheckedIndexedAccess) ([b3cafd5](https://github.com/andreysey/anki-b2/commit/b3cafd5fb69b265fc0254227ea20a152c4d79a05))
+
 ## [1.64.3](https://github.com/andreysey/anki-b2/compare/v1.64.2...v1.64.3) (2026-10-30)
 
 
