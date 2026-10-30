@@ -16,7 +16,7 @@
     "preview": "vite preview",
     "lint": "npm run lint:data && npm run format:check",
     "lint:data": "node scripts/lint-data.ts",
-    "lint:mess": "vue-mess-detector analyze",
+    "lint:mess": "vue-mess-detector analyze src --exclude src/components/ui,*.test.ts",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "test": "vitest",
