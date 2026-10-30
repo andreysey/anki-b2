@@ -1,3 +1,10 @@
+## [1.64.5](https://github.com/andreysey/anki-b2/compare/v1.64.4...v1.64.5) (2026-10-30)
+
+
+### Bug Fixes
+
+* **anki:** reflexive separable verbs no longer get a doubled 'sich' ([e3a8713](https://github.com/andreysey/anki-b2/commit/e3a87139c3bc1c46b01ff04ff77da6994740e804))
+
 ## [1.64.4](https://github.com/andreysey/anki-b2/compare/v1.64.3...v1.64.4) (2026-10-30)
 
 
