@@ -1,3 +1,10 @@
+## [1.64.11](https://github.com/andreysey/anki-b2/compare/v1.64.10...v1.64.11) (2026-10-30)
+
+
+### Bug Fixes
+
+* **progress:** save progress under plain-text keys so restyling can't lose it ([13af547](https://github.com/andreysey/anki-b2/commit/13af547244ba1e20d756b1e6bc9c6f212d7e13e5))
+
 ## [1.64.10](https://github.com/andreysey/anki-b2/compare/v1.64.9...v1.64.10) (2026-10-30)
 
 
