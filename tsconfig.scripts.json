@@ -13,7 +13,8 @@
     "noEmit": true,
     "noUncheckedIndexedAccess": true,
     "allowImportingTsExtensions": true,
-    "erasableSyntaxOnly": true
+    "erasableSyntaxOnly": true,
+    "verbatimModuleSyntax": true
   },
   "include": ["scripts/**/*.ts"]
 }

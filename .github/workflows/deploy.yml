@@ -8,6 +8,11 @@ on:
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
+# One release at a time: a second push waits instead of racing the first one's version commit
+concurrency:
+  group: release-deploy
+  cancel-in-progress: false
+
 permissions:
   contents: write
   pages: write
@@ -33,7 +38,7 @@ jobs:
           cache-dependency-path: package-lock.json
 
       - name: Install dependencies
-        run: npm install --legacy-peer-deps
+        run: npm ci
 
       - name: Run semantic-release
         id: semantic
@@ -50,7 +55,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v7
         with:
-          fetch-depth: 0
+          # Latest main, so the build includes the release bot's version bump (shown in the app)
+          ref: main
 
       - name: Set up Node.js
         uses: actions/setup-node@v7
@@ -60,7 +66,7 @@ jobs:
           cache-dependency-path: package-lock.json
 
       - name: Install dependencies
-        run: npm install --legacy-peer-deps
+        run: npm ci
 
       - name: Run automated tests & type-check
         run: npm run test:all

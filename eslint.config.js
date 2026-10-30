@@ -40,7 +40,7 @@ export default tseslint.config(
   },
   {
     // Tests may use `any` for mocks of browser APIs
-    files: ['**/*.test.ts', 'src/test-utils/**', 'src/test-setup.ts', 'vitest.setup.ts'],
+    files: ['**/*.test.ts', 'src/test-utils/**', 'src/test-setup.ts'],
     rules: { '@typescript-eslint/no-explicit-any': 'off' }
   },
   prettier
