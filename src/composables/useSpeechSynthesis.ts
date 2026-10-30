@@ -7,11 +7,14 @@ import { notify } from '../utils/notify';
 const activeUtterances = new Set<SpeechSynthesisUtterance>();
 // Voices load asynchronously in Chrome; only report "no German voice" once loading finished
 const VOICE_LOAD_GRACE_MS = 1500;
-let missingVoiceToastShown = false;
+// Each warning is shown once per session
+const shownVoiceWarnings = new Set<'none' | 'german'>();
+const VOICE_WARNING_MS = 10000;
 
 export function useSpeechSynthesis() {
   const germanVoices = ref<SpeechSynthesisVoice[]>([]);
   const voicesChecked = ref(false);
+  const hasAnyVoice = ref(false);
   const selectedVoiceURI = ref(safeStorage.getString(STORAGE_KEYS.TTS_VOICE, ''));
 
   const rawRate = Number(safeStorage.getString(STORAGE_KEYS.TTS_RATE, '0.85'));
@@ -22,6 +25,7 @@ export function useSpeechSynthesis() {
     if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
       const allVoices = window.speechSynthesis.getVoices();
       if (allVoices.length) voicesChecked.value = true;
+      hasAnyVoice.value = allVoices.length > 0;
       germanVoices.value = allVoices.filter((v) => v.lang.toLowerCase().startsWith('de'));
       if (!selectedVoiceURI.value && germanVoices.value.length) {
         // Prefer standard de-DE voices
@@ -127,6 +131,29 @@ export function useSpeechSynthesis() {
     safeStorage.setItem(STORAGE_KEYS.TTS_RATE, String(clamped));
   });
 
+  /** Tells the user (once) why pronunciation is silent or uses a wrong voice. */
+  const warnIfVoiceMissing = (lang: string) => {
+    if (!voicesChecked.value) return; // voices may still be loading
+    let warning: 'none' | 'german' | null = null;
+    if (!hasAnyVoice.value) warning = 'none';
+    else if (lang.startsWith('de') && germanVoices.value.length === 0) warning = 'german';
+    if (!warning || shownVoiceWarnings.has(warning)) return;
+    shownVoiceWarnings.add(warning);
+    const hint = 'Open the speaker settings in the header to see how to fix it.';
+    void notify.info(
+      warning === 'none'
+        ? 'Pronunciation is not available in this browser'
+        : 'No German voice installed',
+      {
+        description:
+          warning === 'none'
+            ? `No text-to-speech voices were found. ${hint}`
+            : `Pronunciation may sound wrong. ${hint}`,
+        duration: VOICE_WARNING_MS
+      }
+    );
+  };
+
   const playAudio = (text: string, lang = 'de-DE') => {
     if (
       typeof window === 'undefined' ||
@@ -150,15 +177,8 @@ export function useSpeechSynthesis() {
     utterance.lang = lang;
     utterance.rate = ttsRate.value;
     const allVoices = window.speechSynthesis.getVoices();
+    warnIfVoiceMissing(lang);
     if (lang.startsWith('de')) {
-      if (voicesChecked.value && germanVoices.value.length === 0 && !missingVoiceToastShown) {
-        missingVoiceToastShown = true;
-        void notify.info('No German voice installed', {
-          description:
-            'Pronunciation may sound wrong. Open the speaker settings in the header to see how to add one.',
-          duration: 10000
-        });
-      }
       const voice = germanVoices.value.find((v) => v.voiceURI === selectedVoiceURI.value);
       if (voice) {
         utterance.voice = voice;
@@ -194,6 +214,8 @@ export function useSpeechSynthesis() {
     ) {
       return;
     }
+
+    warnIfVoiceMissing(items.some((i) => (i.lang ?? 'de-DE').startsWith('de')) ? 'de-DE' : 'en-US');
 
     // Stop currently playing speech
     stopAudio();
@@ -240,6 +262,7 @@ export function useSpeechSynthesis() {
   return {
     germanVoices,
     voicesChecked,
+    hasAnyVoice,
     selectedVoiceURI,
     ttsRate,
     loadVoices,

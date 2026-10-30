@@ -20,10 +20,9 @@ const STEPS: Record<HelpPlatform, string[]> = {
     RESTART
   ],
   linux: [
-    'Easiest: use Google Chrome — it has German voices built in ("Google Deutsch").',
-    'Firefox and other browsers use system voices: install speech-dispatcher and espeak-ng (e.g. "sudo dnf install speech-dispatcher espeak-ng" or "sudo apt install speech-dispatcher espeak-ng").',
-    'Then start the speech service: "systemctl --user enable --now speech-dispatcher.socket", and restart the browser.',
-    'Brave and Chromium installed as Flatpak cannot reach system voices — use Chrome or Firefox for pronunciation.'
+    'Most reliable: Google Chrome — it has German voices built in ("Google Deutsch").',
+    'Firefox and other browsers rely on system voices: install speech-dispatcher and espeak-ng (e.g. "sudo dnf install speech-dispatcher espeak-ng"), run "systemctl --user enable --now speech-dispatcher.socket" and restart the browser. Sandboxed (Flatpak/Snap) builds may still not reach them.',
+    'Brave and Chromium installed as Flatpak have no voices at all — use Chrome for pronunciation.'
   ],
   chromeos: ['Settings → Accessibility → Text-to-Speech → Voice settings → add a German voice.'],
   android: [

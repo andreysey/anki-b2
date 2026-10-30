@@ -162,4 +162,35 @@ describe('useSpeechSynthesis', () => {
     loadVoices();
     expect(voicesChecked.value).toBe(false);
   });
+
+  it('warns once when the browser has no voices at all, for any language', () => {
+    vi.useFakeTimers();
+    try {
+      vi.mocked(notify.info).mockClear();
+      window.speechSynthesis = {
+        getVoices: vi.fn().mockReturnValue([]),
+        cancel: vi.fn(),
+        speak: vi.fn(),
+        paused: false,
+        onvoiceschanged: null
+      } as unknown as SpeechSynthesis;
+
+      const { initVoices, voicesChecked, hasAnyVoice, playAudio, playSequence } =
+        useSpeechSynthesis();
+      initVoices();
+      vi.advanceTimersByTime(2000); // voices never arrive
+      expect(voicesChecked.value).toBe(true);
+      expect(hasAnyVoice.value).toBe(false);
+
+      playAudio('department', 'en-US');
+      playSequence([{ text: 'die Abteilung', lang: 'de-DE' }]);
+
+      expect(notify.info).toHaveBeenCalledTimes(1);
+      expect(vi.mocked(notify.info).mock.calls[0]?.[0]).toBe(
+        'Pronunciation is not available in this browser'
+      );
+    } finally {
+      vi.useRealTimers();
+    }
+  });
 });
