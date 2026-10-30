@@ -127,3 +127,25 @@ Strictly preserve Vitest test environment isolation (`isolate: true`, default in
 ### Rationale & Consequences
 - **Deterministic & Flaky-Free Tests**: Eliminates cross-suite state leakage, polluted browser mock objects, and un-reset singleton reactive objects between test files.
 - **Negligible Performance Penalty**: The whole suite runs in a few seconds, so isolation is not worth trading for speed.
+
+## ADR-007: Progress Keys Are Plain Text, Migrated on Load
+
+### Context
+Learning progress (`anki_srs_v2`, `anki_mastered_words`, backups) is stored per card key. Until
+v1.64 the key was the German column **with its display HTML** + thema, e.g.
+`<span style="color: #ef4444; font-weight: bold;">die</span> Abteilung, -en-1`. Changing an article
+colour or any markup in the generator would have silently orphaned everyone's progress.
+
+### Decision
+- `getItemKey` = `id` or plain German text (tags stripped, whitespace collapsed) + `-` + thema:
+  `die Abteilung, -en-1`.
+- `migrateProgressKeys` (`src/utils/progressKeys.ts`) converts any older key by stripping its tags.
+  It runs when progress loads and when a backup is restored; if a card exists under both keys, the
+  later review wins.
+
+### Rationale & Consequences
+- Display markup can change freely; only edits to the German **text** or thema change a key.
+- Migration needs no vocabulary lookup, so it works for any past markup and before data loads.
+- `progressKeys.test.ts` checks that every card in `data.json` maps from its old key to its current
+  one and that keys are unique; `e2e/migration.spec.ts` checks it in a real browser.
+- Never put markup back into keys. Renaming a word's German text needs its own migration.

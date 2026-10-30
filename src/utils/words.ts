@@ -1,8 +1,30 @@
 // Word identity and search helpers (pure, no Vue).
 import type { Word } from '../types';
 
-/** Stable key for a card: its id, or german + thema for data without ids. */
-export const getItemKey = (item: Word): string => item.id || `${item.german}-${item.thema}`;
+/**
+ * Plain text of an HTML snippet — for keys, clipboard, sharing and search.
+ * Never insert the result as HTML; use sanitizeHtml / sanitizeAiHtml for v-html.
+ */
+export const stripTags = (html: string): string => html.replace(/<[^>]*>?/g, '');
+
+const plainKeyText = (text: string): string => stripTags(text).replace(/\s+/g, ' ').trim();
+
+/**
+ * Key under which a card's progress is saved: its id, or the plain German text + thema
+ * ("die Abteilung, -en-1"). Display markup (article colours) is not part of it, so restyling
+ * the data never loses anyone's progress.
+ */
+export const getItemKey = (item: Word): string =>
+  item.id || `${plainKeyText(item.german)}-${item.thema}`;
+
+/**
+ * Converts a saved key from any older format to the current one. Until v1.64 keys contained
+ * the German column's HTML (`<span style="color: …">die</span> Abteilung, -en-1`).
+ */
+export const normalizeItemKey = (key: string): string => {
+  const match = key.match(/^([\s\S]*)-(\d+)$/);
+  return match ? `${plainKeyText(match[1] ?? '')}-${match[2]}` : plainKeyText(key);
+};
 
 /** Lowercase, ä→ae ö→oe ü→ue ß→ss, strip accents — "Prüfung" matches "pruefung". */
 export const normalizeGermanText = (text: string): string =>

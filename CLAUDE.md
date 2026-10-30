@@ -8,7 +8,7 @@ Shared agent rules live in `.agents/` so every tool reads the same files:
 @.agents/AGENTS.md
 
 Architecture decisions (ADRs): `.agents/DECISIONS.md` — read before changing state management,
-sanitization, the Anki model, the AI cascade, TTS or test isolation.
+progress keys, sanitization, the Anki model, the AI cascade, TTS or test isolation.
 Vocabulary file format: `.agents/rules/vocabulary.md` (when editing `source/*.txt`).
 Deck generator invariants: `.agents/rules/anki-decks.md` (when editing `scripts/generate-*`).
 

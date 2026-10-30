@@ -1,4 +1,7 @@
 import DOMPurify from 'dompurify';
+import { stripTags } from './words';
+
+export { stripTags };
 
 const purifier = typeof window !== 'undefined' ? DOMPurify(window) : DOMPurify;
 let domParserInstance: DOMParser | null = null;
@@ -102,12 +105,6 @@ export const sanitizeAiHtml = (text: string | undefined | null): string => {
 
   return sanitized.replace(/^<span>/i, '').replace(/<\/span>$/i, '');
 };
-
-/**
- * Plain text for the clipboard, sharing and search — never insert the result as HTML.
- * Use sanitizeHtml / sanitizeAiHtml for anything rendered with v-html.
- */
-export const stripTags = (html: string): string => html.replace(/<[^>]*>?/g, '');
 
 export const cleanTextForSpeech = (text: string | undefined | null): string => {
   if (!text) return '';

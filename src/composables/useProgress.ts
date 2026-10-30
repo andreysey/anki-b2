@@ -7,6 +7,7 @@ import { STORAGE_KEYS } from '../constants/storage';
 import { requestPersistentStorage } from '../utils/dataSafety';
 import { getCardDueDate, reviewCard, type Rating } from '../utils/srs';
 import { getItemKey } from '../utils/words';
+import { migrateProgressKeys } from '../utils/progressKeys';
 import { useVocabularyData } from './useVocabularyData';
 
 export interface StudyStreakData {
@@ -16,12 +17,17 @@ export interface StudyStreakData {
 
 const SRS_SAVE_DEBOUNCE_MS = 500;
 
-const masteredIds = ref<Set<string>>(
-  new Set<string>(safeStorage.getItem<string[]>(STORAGE_KEYS.MASTERED_WORDS, []))
-);
-const srsData = ref<Record<string, SRSState>>(
+const stored = migrateProgressKeys(
+  safeStorage.getItem<string[]>(STORAGE_KEYS.MASTERED_WORDS, []),
   safeStorage.getItem<Record<string, SRSState>>(STORAGE_KEYS.SRS_DATA, {})
 );
+const masteredIds = ref<Set<string>>(new Set<string>(stored.masteredIds));
+const srsData = ref<Record<string, SRSState>>(stored.srsData);
+if (stored.changed) {
+  // Progress saved by an older version: store it under the current keys
+  safeStorage.setItem(STORAGE_KEYS.MASTERED_WORDS, stored.masteredIds);
+  safeStorage.setItem(STORAGE_KEYS.SRS_DATA, stored.srsData);
+}
 const studyStreak = ref<StudyStreakData>(
   safeStorage.getItem<StudyStreakData>(STORAGE_KEYS.STUDY_STREAK, { lastDate: '', streak: 0 })
 );
@@ -104,8 +110,10 @@ const toggleMasteredKey = (key: string) => {
 };
 
 const restoreProgress = (newMasteredIds: string[], newSrsData: Record<string, SRSState>) => {
-  masteredIds.value = new Set<string>(newMasteredIds);
-  srsData.value = { ...newSrsData };
+  // Backups made by older versions use older keys
+  const restored = migrateProgressKeys(newMasteredIds, newSrsData);
+  masteredIds.value = new Set<string>(restored.masteredIds);
+  srsData.value = restored.srsData;
   saveMastered();
   saveSRS(true);
 };
