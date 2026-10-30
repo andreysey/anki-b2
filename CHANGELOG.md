@@ -1,3 +1,10 @@
+## [1.64.2](https://github.com/andreysey/anki-b2/compare/v1.64.1...v1.64.2) (2026-10-30)
+
+
+### Bug Fixes
+
+* **deps:** update dependencies and sync package.json ranges ([f591aa8](https://github.com/andreysey/anki-b2/commit/f591aa840481732432601dcc2d83df350eb2a39f))
+
 ## [1.64.1](https://github.com/andreysey/anki-b2/compare/v1.64.0...v1.64.1) (2026-10-30)
 
 
