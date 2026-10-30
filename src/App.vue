@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { ref, computed, watch, onMounted, onUnmounted, defineAsyncComponent, nextTick } from 'vue';
 import type { Word, StudyDirection, SelectOption } from './types';
-import { useVocabulary } from './composables/useVocabulary';
+import { useVocabulary, tickDueClock } from './composables/useVocabulary';
 import { useTheme } from './composables/useTheme';
 import { useSpeechSynthesis } from './composables/useSpeechSynthesis';
 import { useKeyboardShortcuts } from './composables/useKeyboardShortcuts';
@@ -206,9 +206,17 @@ const maybeRemindBackup = () => {
 };
 
 let backupReminderTimer: number | undefined;
+let dueClockTimer: number | undefined;
+const DUE_CLOCK_INTERVAL_MS = 60_000;
+const handleVisibilityForDueClock = () => {
+  if (document.visibilityState === 'visible') tickDueClock();
+};
 
 onMounted(() => {
   backupReminderTimer = window.setTimeout(maybeRemindBackup, BACKUP_REMINDER_DELAY_MS);
+  // Keep the due-card count (and the PWA badge) current while the app stays open
+  dueClockTimer = window.setInterval(tickDueClock, DUE_CLOCK_INTERVAL_MS);
+  document.addEventListener('visibilitychange', handleVisibilityForDueClock);
   initNavigation();
   init();
   initTheme();
@@ -230,6 +238,8 @@ onMounted(() => {
 
 onUnmounted(() => {
   window.clearTimeout(backupReminderTimer);
+  window.clearInterval(dueClockTimer);
+  document.removeEventListener('visibilitychange', handleVisibilityForDueClock);
   stopAudio();
   cleanupWakeLock();
   cleanupNavigation();

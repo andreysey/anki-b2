@@ -69,12 +69,12 @@ const handleKeyDown = (e: KeyboardEvent) => {
     close();
   } else if (e.key === 'ArrowDown') {
     e.preventDefault();
-    if (filteredWords.value.length > 0) {
+    if (filteredWords.value.length) {
       selectedIndex.value = (selectedIndex.value + 1) % filteredWords.value.length;
     }
   } else if (e.key === 'ArrowUp') {
     e.preventDefault();
-    if (filteredWords.value.length > 0) {
+    if (filteredWords.value.length) {
       selectedIndex.value =
         (selectedIndex.value - 1 + filteredWords.value.length) % filteredWords.value.length;
     }

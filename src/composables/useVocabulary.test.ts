@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach, vi } from 'vitest';
-import { useVocabulary, getCardDueDate, SRS_INTERVALS_MS } from './useVocabulary';
+import { useVocabulary, getCardDueDate, SRS_INTERVALS_MS, tickDueClock } from './useVocabulary';
 import type { Word } from '../types';
 
 const mockWords: Word[] = [
@@ -255,5 +255,31 @@ describe('useVocabulary composable', () => {
 
     vocab.flushPendingSRS();
     expect(localStorage.getItem('anki_srs_v2')).not.toBeNull();
+  });
+
+  it('updates the due-card count as time passes once the clock ticks', () => {
+    vi.useFakeTimers();
+    const start = Date.UTC(2026, 9, 30, 9);
+    vi.setSystemTime(start);
+    try {
+      const vocab = useVocabulary();
+      vocab.vocabulary.value = mockWords;
+      vocab.masteredIds.value = new Set<string>();
+      // Both cards reviewed now at level 1 → due in one day
+      vocab.srsData.value = {
+        '1': { level: 1, lastReview: start },
+        '2': { level: 1, lastReview: start }
+      };
+      tickDueClock();
+      expect(vocab.dueCardsCount.value).toBe(0);
+
+      vi.setSystemTime(start + SRS_INTERVALS_MS[1] + 1000);
+      // Without a tick the cached computed would still say 0
+      expect(vocab.dueCardsCount.value).toBe(0);
+      tickDueClock();
+      expect(vocab.dueCardsCount.value).toBe(2);
+    } finally {
+      vi.useRealTimers();
+    }
   });
 });

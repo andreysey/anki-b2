@@ -143,6 +143,13 @@ const studyStreak = ref<StudyStreakData>(
 
 const sessionReviewedCount = ref<number>(0);
 
+// "Now" for due-card counting. A computed calling Date.now() never re-runs as time passes,
+// so the app ticks this clock (every minute and when the tab becomes visible).
+const dueClock = ref<number>(Date.now());
+export const tickDueClock = (): void => {
+  dueClock.value = Date.now();
+};
+
 const search = ref<string>('');
 const levelFilter = ref<string>('all');
 const themaFilter = ref<string>('all');
@@ -315,7 +322,7 @@ export function useVocabulary() {
   });
 
   const dueCardsCount = computed(() => {
-    const now = Date.now();
+    const now = dueClock.value;
     return vocabulary.value.reduce((count, item) => {
       const key = getItemKey(item);
       if (masteredIds.value.has(key)) return count;
