@@ -1,3 +1,10 @@
+## [1.64.9](https://github.com/andreysey/anki-b2/compare/v1.64.8...v1.64.9) (2026-10-30)
+
+
+### Bug Fixes
+
+* **pwa:** recover from stale files after an update; proper home-screen icons ([7a7ff0b](https://github.com/andreysey/anki-b2/commit/7a7ff0b64049f2c40a06e1497266dc1c162e5f3d))
+
 ## [1.64.8](https://github.com/andreysey/anki-b2/compare/v1.64.7...v1.64.8) (2026-10-30)
 
 
