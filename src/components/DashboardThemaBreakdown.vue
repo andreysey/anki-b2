@@ -21,7 +21,7 @@ defineProps<{
     <div
       class="flex justify-between items-center border-b border-slate-200/80 dark:border-white/10 pb-3"
     >
-      <h3 class="text-sm font-bold text-slate-900 dark:text-white">Progress by Topic & Category</h3>
+      <h2 class="text-sm font-bold text-slate-900 dark:text-white">Progress by Topic & Category</h2>
       <span class="text-[11px] text-slate-500 dark:text-slate-400 font-semibold"
         >{{ stats.length }} Topics Total</span
       >

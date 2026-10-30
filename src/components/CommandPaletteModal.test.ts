@@ -57,6 +57,9 @@ const pressKey = async (key: string) => {
   await nextTick();
 };
 
+// Each result row holds the option (text) plus sibling action buttons
+const rows = (wrapper: ReturnType<typeof mountPalette>) => wrapper.findAll('[role="none"]');
+
 const selectedOption = (wrapper: ReturnType<typeof mountPalette>) =>
   wrapper.find('[role="option"][aria-selected="true"]');
 
@@ -155,7 +158,7 @@ describe('CommandPaletteModal.vue', () => {
 
   it('toggles mastered without selecting the word', async () => {
     const wrapper = mountPalette();
-    const masteredButton = wrapper.findAll('[role="option"]')[1].find('button[title]');
+    const masteredButton = rows(wrapper)[1].find('button[title]');
 
     await masteredButton.trigger('click');
 
@@ -165,15 +168,13 @@ describe('CommandPaletteModal.vue', () => {
 
   it('shows mastered state from masteredIds', () => {
     const wrapper = mountPalette({ masteredIds: new Set(['2']) });
-    const titles = wrapper
-      .findAll('[role="option"]')
-      .map((o) => o.find('button[title]').attributes('title'));
+    const titles = rows(wrapper).map((o) => o.find('button[title]').attributes('title'));
     expect(titles).toEqual(['Mark as mastered', 'Mastered', 'Mark as mastered']);
   });
 
   it('plays audio, falling back to the german text when german_audio is empty', async () => {
     const wrapper = mountPalette();
-    const options = wrapper.findAll('[role="option"]');
+    const options = rows(wrapper);
 
     await options[0].find('button[title="Pronounce"]').trigger('click');
     await options[2].find('button[title="Pronounce"]').trigger('click');
@@ -203,5 +204,13 @@ describe('CommandPaletteModal.vue', () => {
     expect((wrapper.find('input').element as HTMLInputElement).value).toBe('');
 
     trigger.remove();
+  });
+
+  it('keeps action buttons outside the options and out of the tab order', () => {
+    const wrapper = mountPalette();
+    expect(wrapper.find('[role="option"] button').exists()).toBe(false);
+    rows(wrapper).forEach((row) =>
+      row.findAll('button').forEach((b) => expect(b.attributes('tabindex')).toBe('-1'))
+    );
   });
 });

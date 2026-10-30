@@ -97,7 +97,7 @@ const themeModeLabel = computed(() => {
             Anki B2
           </span>
           <span
-            class="text-[10px] font-mono font-medium px-1.5 py-0.5 rounded-md bg-slate-100 dark:bg-white/10 text-slate-500 dark:text-slate-400 border border-slate-200/80 dark:border-white/10 shadow-2xs"
+            class="text-[10px] font-mono font-medium px-1.5 py-0.5 rounded-md bg-slate-100 dark:bg-white/10 text-slate-600 dark:text-slate-400 border border-slate-200/80 dark:border-white/10 shadow-2xs"
           >
             v{{ appVersion }}
           </span>
@@ -178,7 +178,7 @@ const themeModeLabel = computed(() => {
         :class="
           activeView === 'list'
             ? 'macos-segmented-item-active'
-            : 'text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200'
+            : 'text-slate-600 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-200'
         "
         @click="emit('update:activeView', 'list')"
       >
@@ -195,7 +195,7 @@ const themeModeLabel = computed(() => {
         :class="
           activeView === 'study'
             ? 'macos-segmented-item-active'
-            : 'text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200'
+            : 'text-slate-600 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-200'
         "
         @click="emit('update:activeView', 'study')"
       >
@@ -212,7 +212,7 @@ const themeModeLabel = computed(() => {
         :class="
           activeView === 'dashboard'
             ? 'macos-segmented-item-active'
-            : 'text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200'
+            : 'text-slate-600 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-200'
         "
         @click="emit('update:activeView', 'dashboard')"
       >

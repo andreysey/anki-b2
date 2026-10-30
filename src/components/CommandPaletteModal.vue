@@ -151,49 +151,59 @@ onUnmounted(() => {
           No matching words found for "{{ searchQuery }}"
         </div>
 
+        <!-- Row = option (text) + sibling action buttons; buttons can't live inside an option -->
         <div
           v-for="(word, idx) in filteredWords"
-          :id="`cmd-option-${idx}`"
           :key="getItemKey(word)"
-          role="option"
-          :aria-selected="idx === selectedIndex"
-          @click="
-            emit('select-word', word);
-            close();
-          "
-          :class="[
-            'p-3 rounded-xl flex items-center justify-between gap-3 cursor-pointer transition-all',
-            idx === selectedIndex
-              ? 'bg-primary-500/15 border border-primary-500/30 text-slate-900 dark:text-white'
-              : 'hover:bg-slate-100 dark:hover:bg-white/5 border border-transparent'
-          ]"
+          role="none"
+          class="relative group"
         >
-          <div class="flex-1 min-w-0">
-            <div class="flex items-center gap-2 mb-0.5">
-              <span
-                class="text-xs font-bold font-mono px-1.5 py-0.2 rounded bg-blue-500/10 text-blue-600 dark:text-blue-400"
-              >
-                {{ word.level }}
-              </span>
-              <span
-                class="text-sm font-semibold truncate text-slate-900 dark:text-white"
-                v-html="sanitizeHtml(word.german)"
-              ></span>
-              <span class="hidden sm:inline text-xs text-slate-400 truncate">
-                ({{ getThemaLabel(word.thema) }})
-              </span>
-            </div>
-            <div class="text-xs text-slate-600 dark:text-slate-300 truncate">
-              <span class="font-medium text-primary-600 dark:text-primary-400 mr-2">{{
-                word.english
-              }}</span>
-              <span>{{ word.ukrainian }}</span>
+          <div
+            :id="`cmd-option-${idx}`"
+            role="option"
+            :aria-selected="idx === selectedIndex"
+            @click="
+              emit('select-word', word);
+              close();
+            "
+            :class="[
+              'p-3 pr-28 rounded-xl flex items-center gap-3 cursor-pointer transition-all',
+              idx === selectedIndex
+                ? 'bg-primary-500/15 border border-primary-500/30 text-slate-900 dark:text-white'
+                : 'group-hover:bg-slate-100 dark:group-hover:bg-white/5 border border-transparent'
+            ]"
+          >
+            <div class="flex-1 min-w-0">
+              <div class="flex items-center gap-2 mb-0.5">
+                <span
+                  class="text-xs font-bold font-mono px-1.5 py-0.2 rounded bg-blue-500/10 text-blue-600 dark:text-blue-400"
+                >
+                  {{ word.level }}
+                </span>
+                <span
+                  class="text-sm font-semibold truncate text-slate-900 dark:text-white"
+                  v-html="sanitizeHtml(word.german)"
+                ></span>
+                <span class="hidden sm:inline text-xs text-slate-400 truncate">
+                  ({{ getThemaLabel(word.thema) }})
+                </span>
+              </div>
+              <div class="text-xs text-slate-600 dark:text-slate-300 truncate">
+                <span class="font-medium text-primary-600 dark:text-primary-400 mr-2">{{
+                  word.english
+                }}</span>
+                <span>{{ word.ukrainian }}</span>
+              </div>
             </div>
           </div>
-
-          <div class="flex items-center gap-1.5 shrink-0" @click.stop>
+          <div
+            class="absolute inset-y-0 right-3 flex items-center gap-1.5 shrink-0"
+            aria-hidden="true"
+          >
+            <!-- Mouse/touch shortcuts; keyboard users navigate with arrows + Enter -->
             <button
               type="button"
+              tabindex="-1"
               @click="emit('toggle-mastered', word)"
               :title="masteredIds.has(getItemKey(word)) ? 'Mastered' : 'Mark as mastered'"
               :class="[
@@ -207,13 +217,14 @@ onUnmounted(() => {
             </button>
             <button
               type="button"
+              tabindex="-1"
               @click="emit('play-audio', word.german_audio || word.german)"
               title="Pronounce"
               class="p-1.5 rounded-lg bg-primary/10 border border-primary/20 text-primary hover:bg-primary/20 transition-all"
             >
               <Volume2 class="h-3.5 w-3.5" />
             </button>
-            <ArrowRight class="h-3.5 w-3.5 text-slate-400 ml-1" />
+            <ArrowRight class="h-3.5 w-3.5 text-slate-400 ml-1" aria-hidden="true" />
           </div>
         </div>
       </div>

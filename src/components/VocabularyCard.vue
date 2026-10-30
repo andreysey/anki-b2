@@ -148,7 +148,8 @@ const showGermanOnFront = computed(() => props.direction === 'DE_TO_UA');
       isFlipped ? 'card-glow-active' : ''
     ]"
     tabindex="0"
-    role="button"
+    role="group"
+    aria-roledescription="flashcard"
     :aria-expanded="isFlipped"
     aria-label="Vocabulary card. Press Space or Enter to flip, swipe left or right on mobile"
     @click="handleCardClick"
