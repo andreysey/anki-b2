@@ -16,7 +16,7 @@ describe('getGermanVoiceHelp', () => {
   it.each([
     [UA.windows, 'Windows', 'Add voices'],
     [UA.mac, 'macOS', 'Spoken Content'],
-    [UA.linux, 'Linux', 'espeak-ng'],
+    [UA.linux, 'Linux', 'speech-dispatcher.socket'],
     [UA.android, 'Android', 'Google speech services'],
     [UA.iphone, 'iPhone / iPad', 'Spoken Content']
   ])('gives platform-specific steps', (ua, label, hint) => {
