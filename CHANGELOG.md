@@ -1,3 +1,10 @@
+## [1.64.8](https://github.com/andreysey/anki-b2/compare/v1.64.7...v1.64.8) (2026-10-30)
+
+
+### Bug Fixes
+
+* **audio:** explain silent pronunciation when a browser has no voices ([0e726d1](https://github.com/andreysey/anki-b2/commit/0e726d16f21f07d259ca3626a68eb2a6c3cf5525))
+
 ## [1.64.7](https://github.com/andreysey/anki-b2/compare/v1.64.6...v1.64.7) (2026-10-30)
 
 
