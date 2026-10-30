@@ -1,3 +1,10 @@
+## [1.64.10](https://github.com/andreysey/anki-b2/compare/v1.64.9...v1.64.10) (2026-10-30)
+
+
+### Bug Fixes
+
+* **build:** live site shows the released version; config cleanup ([3733f24](https://github.com/andreysey/anki-b2/commit/3733f2468173bdeea1c4b4c2d475631721db6fbd))
+
 ## [1.64.9](https://github.com/andreysey/anki-b2/compare/v1.64.8...v1.64.9) (2026-10-30)
 
 
