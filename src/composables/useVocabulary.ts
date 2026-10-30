@@ -12,6 +12,7 @@ export const SRS_INTERVALS_MS: Readonly<Record<number, number>> = {
   4: 14 * 24 * 60 * 60 * 1000, // 14 days
   5: 30 * 24 * 60 * 60 * 1000 // 30 days
 };
+const MAX_SRS_INTERVAL_MS = 30 * 24 * 60 * 60 * 1000;
 
 export const getCardDueDate = (srs?: SRSState): number => {
   if (
@@ -24,7 +25,7 @@ export const getCardDueDate = (srs?: SRSState): number => {
     return 0; // New or reset cards are due immediately
   }
   const safeLevel = Math.min(5, Math.max(1, Math.floor(srs.level)));
-  const interval = SRS_INTERVALS_MS[safeLevel] ?? SRS_INTERVALS_MS[5];
+  const interval = SRS_INTERVALS_MS[safeLevel] ?? MAX_SRS_INTERVAL_MS;
   return srs.lastReview + interval;
 };
 
@@ -259,8 +260,8 @@ export function useVocabulary() {
         data = await response.json();
       }
       if (data) {
-        for (let i = 0; i < data.length; i++) {
-          data[i]._searchIndex = buildSearchIndex(data[i]);
+        for (const item of data) {
+          item._searchIndex = buildSearchIndex(item);
         }
         vocabulary.value = data;
       }
@@ -336,7 +337,7 @@ export function useVocabulary() {
   const studyList = computed(() => {
     const list = sortedStudyVocabulary.value;
     if (isShuffled.value && shuffledIndices.value.length === list.length) {
-      return shuffledIndices.value.map((idx) => list[idx]);
+      return shuffledIndices.value.flatMap((idx) => list[idx] ?? []);
     }
     return list;
   });
@@ -387,7 +388,8 @@ export function useVocabulary() {
       const indices = Array.from({ length: len }, (_, i) => i);
       for (let i = len - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
-        [indices[i], indices[j]] = [indices[j], indices[i]];
+        // i and j are always within bounds (Fisher–Yates)
+        [indices[i], indices[j]] = [indices[j]!, indices[i]!];
       }
       shuffledIndices.value = indices;
     } else {

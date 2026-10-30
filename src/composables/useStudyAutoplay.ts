@@ -40,8 +40,9 @@ export function useStudyAutoplay(speech: {
       if (!card) return;
 
       const items = autoplayItems(card, studyDirection.value, flipped);
+      const [front] = items;
       if (flipped) speech.playSequence(items);
-      else speech.playAudio(items[0].text, items[0].lang);
+      else if (front) speech.playAudio(front.text, front.lang);
     }
   );
 }

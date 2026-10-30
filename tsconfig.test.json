@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.app.json",
+  "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.test.tsbuildinfo",
+    // Tests fail loudly on a missing element anyway; keep strict index checks for app code only
+    "noUncheckedIndexedAccess": false
+  },
+  "include": ["src/**/*.test.ts", "src/test-utils/**/*.ts", "src/**/*.vue", "src/**/*.ts"],
+  "exclude": []
+}

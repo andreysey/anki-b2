@@ -81,8 +81,7 @@ export function filterWordsFuzzy(vocabulary: Word[], query: string, limit = 15):
   const exactMatches: Word[] = [];
   const fuzzyMatches: Word[] = [];
 
-  for (let i = 0; i < vocabulary.length; i++) {
-    const w = vocabulary[i];
+  for (const w of vocabulary) {
     const rawGerman = w.german.replace(/<[^>]*>?/gm, '');
     const combined = `${rawGerman} ${w.english} ${w.ukrainian || ''}`;
 

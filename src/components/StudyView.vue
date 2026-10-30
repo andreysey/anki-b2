@@ -5,9 +5,10 @@ import VocabularyCard from './VocabularyCard.vue';
 import StudyControls from './StudyControls.vue';
 import GradeButtons from './GradeButtons.vue';
 import { ChevronLeft, ChevronRight, Check } from '@lucide/vue';
+import { computed } from 'vue';
 import type { Word, StudyDirection, SelectOption } from '../types';
 
-defineProps<{
+const props = defineProps<{
   vocabulary: Word[];
   currentStudyIndex: number;
   isFlipped: boolean;
@@ -31,6 +32,9 @@ const emit = defineEmits<{
   (e: 'toggle-mastered', word: Word): void;
   (e: 'play-audio', text: string, lang?: string): void;
 }>();
+
+// Guarded: the index can briefly point past the end (e.g. after mastering the last card)
+const currentCard = computed(() => props.vocabulary[props.currentStudyIndex]);
 </script>
 
 <template>
@@ -74,8 +78,8 @@ const emit = defineEmits<{
     <!-- Centered Tactile Vocabulary Card with Touch Swipes & Mobile Scroll Snap -->
     <div class="w-full flex justify-center py-0.5 study-card-snap-item">
       <VocabularyCard
-        v-if="vocabulary.length"
-        :word="vocabulary[currentStudyIndex]"
+        v-if="currentCard"
+        :word="currentCard"
         :isFlipped="isFlipped"
         :direction="studyDirection"
         @flip="emit('flip')"

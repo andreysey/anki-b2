@@ -26,8 +26,8 @@ export function useSpeechSynthesis() {
       if (!selectedVoiceURI.value && germanVoices.value.length) {
         // Prefer standard de-DE voices
         const preferred =
-          germanVoices.value.find((v) => v.lang === 'de-DE') || germanVoices.value[0];
-        selectedVoiceURI.value = preferred.voiceURI;
+          germanVoices.value.find((v) => v.lang === 'de-DE') ?? germanVoices.value[0];
+        if (preferred) selectedVoiceURI.value = preferred.voiceURI;
       }
     }
   };
