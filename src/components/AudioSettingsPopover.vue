@@ -3,6 +3,7 @@ import { ref, onMounted, onUnmounted } from 'vue';
 import { Button } from './ui/button';
 import { Volume2, X, RotateCcw, Sparkles } from '@lucide/vue';
 import { useSoundFx } from '../utils/soundFx';
+import { getGermanVoiceHelp } from '../utils/voiceHelp';
 
 interface VoiceOption {
   voiceURI: string;
@@ -25,6 +26,7 @@ const emit = defineEmits<{
   (e: 'update:ttsRate', rate: number): void;
 }>();
 
+const voiceHelp = getGermanVoiceHelp();
 const isOpen = ref(false);
 const popoverRef = ref<HTMLElement | null>(null);
 
@@ -115,7 +117,7 @@ onUnmounted(() => {
             value=""
             class="bg-white dark:bg-slate-900 text-slate-900 dark:text-slate-100"
           >
-            No German voice found (using browser default)
+            No German voice installed
           </option>
           <option
             v-for="voice in germanVoices"
@@ -126,6 +128,20 @@ onUnmounted(() => {
             {{ voice.name }} ({{ voice.lang }})
           </option>
         </select>
+        <div
+          v-if="germanVoices.length === 0"
+          data-testid="voice-help"
+          class="p-2.5 rounded-xl bg-amber-500/5 border border-amber-500/20 space-y-1"
+        >
+          <div class="text-[11px] font-semibold text-slate-700 dark:text-slate-300">
+            Add a German voice ({{ voiceHelp.label }}):
+          </div>
+          <ol
+            class="list-decimal pl-4 space-y-0.5 text-[11px] leading-relaxed text-slate-600 dark:text-slate-400"
+          >
+            <li v-for="step in voiceHelp.steps" :key="step">{{ step }}</li>
+          </ol>
+        </div>
       </div>
 
       <div class="space-y-2">

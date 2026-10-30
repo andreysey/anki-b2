@@ -1,5 +1,10 @@
 import { describe, it, expect, beforeEach, vi } from 'vitest';
 import { useSpeechSynthesis } from './useSpeechSynthesis';
+import { toast } from '../components/ui/sonner/toast';
+
+vi.mock('../components/ui/sonner/toast', () => ({
+  toast: { info: vi.fn().mockResolvedValue(undefined) }
+}));
 
 describe('useSpeechSynthesis', () => {
   beforeEach(() => {
@@ -115,5 +120,46 @@ describe('useSpeechSynthesis', () => {
     ttsRate.value = 0.1;
     await new Promise((resolve) => setTimeout(resolve, 0));
     expect(localStorage.getItem('anki_tts_rate')).toBe('0.5');
+  });
+
+  it('tells the user once when no German voice is installed', () => {
+    window.speechSynthesis = {
+      getVoices: vi
+        .fn()
+        .mockReturnValue([
+          { name: 'David', lang: 'en-US', voiceURI: 'david-uri', default: true, localService: true }
+        ]),
+      cancel: vi.fn(),
+      speak: vi.fn(),
+      paused: false,
+      onvoiceschanged: null
+    } as unknown as SpeechSynthesis;
+
+    const { germanVoices, voicesChecked, loadVoices, playAudio } = useSpeechSynthesis();
+    loadVoices();
+    expect(voicesChecked.value).toBe(true);
+    expect(germanVoices.value).toHaveLength(0);
+
+    playAudio('die Abteilung');
+    playAudio('der Vertrag');
+    playAudio('department', 'en-US');
+
+    expect(toast.info).toHaveBeenCalledTimes(1);
+    expect(vi.mocked(toast.info).mock.calls[0][0]).toBe('No German voice installed');
+  });
+
+  it('does not warn before voices have loaded', () => {
+    vi.mocked(toast.info).mockClear();
+    window.speechSynthesis = {
+      getVoices: vi.fn().mockReturnValue([]),
+      cancel: vi.fn(),
+      speak: vi.fn(),
+      paused: false,
+      onvoiceschanged: null
+    } as unknown as SpeechSynthesis;
+
+    const { voicesChecked, loadVoices } = useSpeechSynthesis();
+    loadVoices();
+    expect(voicesChecked.value).toBe(false);
   });
 });

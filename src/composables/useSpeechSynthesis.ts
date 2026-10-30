@@ -2,11 +2,16 @@ import { ref, watch } from 'vue';
 import { cleanTextForSpeech } from '../utils/sanitize';
 import { safeStorage } from '../utils/storage';
 import { STORAGE_KEYS } from '../constants/storage';
+import { toast } from '../components/ui/sonner/toast';
 
 const activeUtterances = new Set<SpeechSynthesisUtterance>();
+// Voices load asynchronously in Chrome; only report "no German voice" once loading finished
+const VOICE_LOAD_GRACE_MS = 1500;
+let missingVoiceToastShown = false;
 
 export function useSpeechSynthesis() {
   const germanVoices = ref<SpeechSynthesisVoice[]>([]);
+  const voicesChecked = ref(false);
   const selectedVoiceURI = ref(safeStorage.getString(STORAGE_KEYS.TTS_VOICE, ''));
 
   const rawRate = Number(safeStorage.getString(STORAGE_KEYS.TTS_RATE, '0.85'));
@@ -15,9 +20,9 @@ export function useSpeechSynthesis() {
 
   const loadVoices = () => {
     if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
-      germanVoices.value = window.speechSynthesis
-        .getVoices()
-        .filter((v) => v.lang.toLowerCase().startsWith('de'));
+      const allVoices = window.speechSynthesis.getVoices();
+      if (allVoices.length) voicesChecked.value = true;
+      germanVoices.value = allVoices.filter((v) => v.lang.toLowerCase().startsWith('de'));
       if (!selectedVoiceURI.value && germanVoices.value.length) {
         // Prefer standard de-DE voices
         const preferred =
@@ -52,6 +57,10 @@ export function useSpeechSynthesis() {
     if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
       window.speechSynthesis.onvoiceschanged = loadVoices;
       loadVoices();
+      // Some browsers never fire voiceschanged when no voices exist
+      window.setTimeout(() => {
+        voicesChecked.value = true;
+      }, VOICE_LOAD_GRACE_MS);
     }
   };
 
@@ -142,6 +151,14 @@ export function useSpeechSynthesis() {
     utterance.rate = ttsRate.value;
     const allVoices = window.speechSynthesis.getVoices();
     if (lang.startsWith('de')) {
+      if (voicesChecked.value && germanVoices.value.length === 0 && !missingVoiceToastShown) {
+        missingVoiceToastShown = true;
+        void toast.info('No German voice installed', {
+          description:
+            'Pronunciation may sound wrong. Open the speaker settings in the header to see how to add one.',
+          duration: 10000
+        });
+      }
       const voice = germanVoices.value.find((v) => v.voiceURI === selectedVoiceURI.value);
       if (voice) {
         utterance.voice = voice;
@@ -222,6 +239,7 @@ export function useSpeechSynthesis() {
 
   return {
     germanVoices,
+    voicesChecked,
     selectedVoiceURI,
     ttsRate,
     loadVoices,

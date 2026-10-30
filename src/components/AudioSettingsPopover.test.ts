@@ -110,7 +110,16 @@ describe('AudioSettingsPopover.vue', () => {
     await wrapper.find('#btn-audio-settings-header').trigger('click');
     const select = wrapper.find('#voice-select-header');
     expect(select.attributes('disabled')).toBeDefined();
-    expect(select.text()).toContain('No German voice found');
+    expect(select.text()).toContain('No German voice installed');
+    const help = wrapper.find('[data-testid="voice-help"]');
+    expect(help.exists()).toBe(true);
+    expect(help.findAll('li').length).toBeGreaterThan(0);
+  });
+
+  it('hides the voice help when a German voice exists', async () => {
+    const wrapper = mount(AudioSettingsPopover, { props: defaultProps });
+    await wrapper.find('#btn-audio-settings-header').trigger('click');
+    expect(wrapper.find('[data-testid="voice-help"]').exists()).toBe(false);
   });
 
   it('renders reset button when ttsRate is non-default and resets to 0.85 when clicked', async () => {
