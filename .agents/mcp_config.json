@@ -2,7 +2,7 @@
   "mcpServers": {
     "shadcn-vue": {
       "command": "npx",
-      "args": ["-y", "@shadcn-vue/mcp@latest"]
+      "args": ["-y", "shadcn-vue@2.9.0", "mcp"]
     }
   }
 }

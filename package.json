@@ -25,6 +25,8 @@
     "test:coverage": "vitest run --coverage",
     "validate": "npm run test:all && npm run lint:data && npm run build",
     "generate:anki": "node scripts/generate-all-anki.ts",
+    "diff:data": "node scripts/diff-data.ts",
+    "audit:ui": "node scripts/ui-audit.ts",
     "release": "semantic-release",
     "prepare": "husky"
   },
@@ -50,6 +52,7 @@
     "@vitest/coverage-v8": "^5.0.1",
     "@vue/test-utils": "^2.5.1",
     "@vue/tsconfig": "^0.9.1",
+    "axe-core": "^4.14.0",
     "genankjs": "^1.0.6",
     "happy-dom": "^21.0.4",
     "husky": "^9.1.7",
