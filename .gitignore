@@ -30,5 +30,9 @@ coverage
 # UI audit screenshots (npm run audit:ui)
 .audit
 
+# Playwright (npm run test:e2e)
+test-results
+playwright-report
+
 # Personal Claude Code settings
 .claude/settings.local.json

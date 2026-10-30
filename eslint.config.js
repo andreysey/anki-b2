@@ -7,7 +7,16 @@ import globals from 'globals';
 
 export default tseslint.config(
   {
-    ignores: ['dist/**', 'coverage/**', '.audit/**', 'node_modules/**', 'public/**', 'anki/**']
+    ignores: [
+      'dist/**',
+      'coverage/**',
+      '.audit/**',
+      'test-results/**',
+      'playwright-report/**',
+      'node_modules/**',
+      'public/**',
+      'anki/**'
+    ]
   },
   js.configs.recommended,
   ...tseslint.configs.recommended,

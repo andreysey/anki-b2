@@ -21,6 +21,8 @@ Also, depending on what changed:
 - Generator / `source/*.txt` → `npm run generate:anki && npm run diff:data`, review every card.
   Commit `anki/*.apkg` + `public/data.json` only if `data.json` changed.
 - UI → `npm run build && npm run audit:ui` (must report zero problems).
+- Progress, backup, storage, service worker or navigation → `npm run build && npm run test:e2e`
+  (CI runs it too; first time locally: `npx playwright install chromium`).
 
 The pre-commit and pre-push hooks run these checks again; never bypass them with `--no-verify`
 for code changes.

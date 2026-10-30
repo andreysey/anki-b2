@@ -44,6 +44,20 @@ jobs:
       - name: Build project
         run: npm run build
 
+      - name: Install Playwright browser
+        run: npx playwright install --with-deps chromium
+
+      - name: Browser tests (study progress, backup, offline)
+        run: npm run test:e2e
+
+      - name: Upload Playwright traces
+        if: failure()
+        uses: actions/upload-artifact@v7
+        with:
+          name: playwright-traces
+          path: test-results/
+          retention-days: 7
+
   release:
     needs: build-and-test
     if: github.event_name != 'pull_request'

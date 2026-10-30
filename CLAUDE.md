@@ -21,6 +21,7 @@ Deck generator invariants: `.agents/rules/anki-decks.md` (when editing `scripts/
 | Regenerate decks + `public/data.json`  | `npm run generate:anki`                     |
 | What changed in example highlights     | `npm run diff:data`                         |
 | UI audit (screens, contrast, a11y)     | `npm run build && npm run audit:ui`         |
+| Browser tests (progress, backup, PWA)  | `npm run build && npm run test:e2e`         |
 | CI / release status of a pushed commit | `npm run ci:status -- --wait`               |
 
 To commit, push and verify a change, follow the `ship` skill (`.agents/skills/ship/SKILL.md`).
