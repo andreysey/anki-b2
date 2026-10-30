@@ -1,3 +1,10 @@
+## [1.64.1](https://github.com/andreysey/anki-b2/compare/v1.64.0...v1.64.1) (2026-10-30)
+
+
+### Bug Fixes
+
+* **a11y:** grade buttons use their visible text as accessible name ([a6d3faa](https://github.com/andreysey/anki-b2/commit/a6d3faaa7b4124f2960d940ac7198da541bb9029))
+
 # [1.64.0](https://github.com/andreysey/anki-b2/compare/v1.63.0...v1.64.0) (2026-10-30)
 
 
