@@ -71,7 +71,8 @@ Permanently fixed the following constants:
 ## ADR-004: Multi-Tier AI Assistant Cascade with In-Flight `AbortController` Protocol
 
 ### Context
-The in-app AI Coach (`src/utils/ai.ts`, UI in `src/components/AIAssistant.vue`) explains words and
+The in-app AI Coach (cascade in `src/utils/ai.ts`; providers `src/utils/aiNano.ts`,
+`src/utils/webllm.ts`, `src/utils/aiCloud.ts`; UI in `src/components/AIAssistant.vue`) explains words and
 writes workplace dialogues. It should work offline and without an API key where possible, requests
 can take seconds, users switch words quickly, and cloud quotas fluctuate.
 
