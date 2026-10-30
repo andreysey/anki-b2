@@ -1,3 +1,10 @@
+## [1.64.3](https://github.com/andreysey/anki-b2/compare/v1.64.2...v1.64.3) (2026-10-30)
+
+
+### Bug Fixes
+
+* **pwa:** keep the due-card count and app badge current while open ([0ffb92d](https://github.com/andreysey/anki-b2/commit/0ffb92df774cada59d4ede6d0afb87a09de6f92a))
+
 ## [1.64.2](https://github.com/andreysey/anki-b2/compare/v1.64.1...v1.64.2) (2026-10-30)
 
 
