@@ -5,7 +5,7 @@ import type { Word } from '../types';
 import { sanitizeHtml } from '../utils/sanitize';
 import { getThemaLabel } from '../utils/thema';
 import { getItemKey } from '../composables/useVocabulary';
-import { toast } from './ui/sonner/toast';
+import { notify } from '../utils/notify';
 
 defineProps<{
   vocabulary: Word[];
@@ -24,9 +24,9 @@ const handleCopy = async (item: Word) => {
   if (typeof navigator !== 'undefined' && 'clipboard' in navigator) {
     try {
       await navigator.clipboard.writeText(text);
-      toast.success('Copied to clipboard');
+      notify.success('Copied to clipboard');
     } catch {
-      toast.error('Failed to copy');
+      notify.error('Failed to copy');
     }
   }
 };

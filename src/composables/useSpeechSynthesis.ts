@@ -2,7 +2,7 @@ import { ref, watch } from 'vue';
 import { cleanTextForSpeech } from '../utils/sanitize';
 import { safeStorage } from '../utils/storage';
 import { STORAGE_KEYS } from '../constants/storage';
-import { toast } from '../components/ui/sonner/toast';
+import { notify } from '../utils/notify';
 
 const activeUtterances = new Set<SpeechSynthesisUtterance>();
 // Voices load asynchronously in Chrome; only report "no German voice" once loading finished
@@ -153,7 +153,7 @@ export function useSpeechSynthesis() {
     if (lang.startsWith('de')) {
       if (voicesChecked.value && germanVoices.value.length === 0 && !missingVoiceToastShown) {
         missingVoiceToastShown = true;
-        void toast.info('No German voice installed', {
+        void notify.info('No German voice installed', {
           description:
             'Pronunciation may sound wrong. Open the speaker settings in the header to see how to add one.',
           duration: 10000

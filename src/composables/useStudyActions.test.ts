@@ -4,8 +4,8 @@ import { useVocabulary } from './useVocabulary';
 import { createMockWords } from '../test-utils/fixtures';
 import * as soundFx from '../utils/soundFx';
 
-vi.mock('../components/ui/sonner/toast', () => ({
-  toast: { success: vi.fn(), info: vi.fn() }
+vi.mock('../utils/notify', () => ({
+  notify: { success: vi.fn(), info: vi.fn() }
 }));
 
 describe('useStudyActions', () => {

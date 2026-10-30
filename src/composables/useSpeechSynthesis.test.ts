@@ -1,9 +1,9 @@
 import { describe, it, expect, beforeEach, vi } from 'vitest';
 import { useSpeechSynthesis } from './useSpeechSynthesis';
-import { toast } from '../components/ui/sonner/toast';
+import { notify } from '../utils/notify';
 
-vi.mock('../components/ui/sonner/toast', () => ({
-  toast: { info: vi.fn().mockResolvedValue(undefined) }
+vi.mock('../utils/notify', () => ({
+  notify: { info: vi.fn().mockResolvedValue(undefined) }
 }));
 
 describe('useSpeechSynthesis', () => {
@@ -144,12 +144,12 @@ describe('useSpeechSynthesis', () => {
     playAudio('der Vertrag');
     playAudio('department', 'en-US');
 
-    expect(toast.info).toHaveBeenCalledTimes(1);
-    expect(vi.mocked(toast.info).mock.calls[0][0]).toBe('No German voice installed');
+    expect(notify.info).toHaveBeenCalledTimes(1);
+    expect(vi.mocked(notify.info).mock.calls[0][0]).toBe('No German voice installed');
   });
 
   it('does not warn before voices have loaded', () => {
-    vi.mocked(toast.info).mockClear();
+    vi.mocked(notify.info).mockClear();
     window.speechSynthesis = {
       getVoices: vi.fn().mockReturnValue([]),
       cancel: vi.fn(),

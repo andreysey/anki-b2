@@ -5,7 +5,7 @@ import { useVocabulary, tickDueClock } from './useVocabulary';
 import { updateAppBadge } from '../utils/badge';
 import { shouldShowBackupReminder, markBackupReminderShown } from '../utils/dataSafety';
 import { downloadBackupFile } from '../utils/backup';
-import { toast } from '../components/ui/sonner/toast';
+import { notify } from '../utils/notify';
 
 const DUE_CLOCK_INTERVAL_MS = 60_000;
 const BACKUP_REMINDER_DELAY_MS = 4000;
@@ -39,7 +39,7 @@ export function useBackupReminder() {
     const hasProgress = masteredIds.value.size > 0 || Object.keys(srsData.value).length > 0;
     if (!shouldShowBackupReminder(hasProgress)) return;
     markBackupReminderShown();
-    toast.info('Back up your progress', {
+    notify.info('Back up your progress', {
       description:
         'Your progress is saved only in this browser and could be lost if browser data is cleared.',
       duration: BACKUP_TOAST_DURATION_MS,
@@ -47,7 +47,7 @@ export function useBackupReminder() {
         label: 'Back up now',
         onClick: () => {
           downloadBackupFile(masteredIds.value, srsData.value);
-          toast.success('Backup saved');
+          notify.success('Backup saved');
         }
       }
     });

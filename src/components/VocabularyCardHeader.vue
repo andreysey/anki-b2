@@ -3,7 +3,7 @@ import { Button } from './ui/button';
 import { Check, Share2, Copy } from '@lucide/vue';
 import type { Word } from '../types';
 import { getThemaLabel } from '../utils/thema';
-import { toast } from './ui/sonner/toast';
+import { notify } from '../utils/notify';
 
 const props = defineProps<{
   word: Word;
@@ -19,9 +19,9 @@ const handleCopy = async () => {
   if (typeof navigator !== 'undefined' && 'clipboard' in navigator) {
     try {
       await navigator.clipboard.writeText(text);
-      toast.success('Copied to clipboard');
+      notify.success('Copied to clipboard');
     } catch {
-      toast.error('Failed to copy');
+      notify.error('Failed to copy');
     }
   }
 };
@@ -48,9 +48,9 @@ const handleShare = async () => {
   } else if (typeof navigator !== 'undefined' && 'clipboard' in navigator) {
     try {
       await navigator.clipboard.writeText(shareData.text);
-      toast.success('Word copied to clipboard');
+      notify.success('Word copied to clipboard');
     } catch {
-      toast.error('Failed to copy word');
+      notify.error('Failed to copy word');
     }
   }
 };

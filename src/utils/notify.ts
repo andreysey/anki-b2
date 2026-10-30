@@ -11,7 +11,7 @@ export interface ToastOptions {
   action?: { label: string; onClick: () => void };
 }
 
-export const toast = {
+export const notify = {
   success: (message: string) => {
     triggerToasterMount();
     return import('vue-sonner').then((m) => m.toast.success(message));

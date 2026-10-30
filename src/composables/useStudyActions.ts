@@ -3,7 +3,7 @@ import { computed } from 'vue';
 import type { SelectOption, StudyDirection } from '../types';
 import { useVocabulary } from './useVocabulary';
 import { playSoundFx } from '../utils/soundFx';
-import { toast } from '../components/ui/sonner/toast';
+import { notify } from '../utils/notify';
 
 export type Rating = 'again' | 'hard' | 'good' | 'easy';
 
@@ -30,7 +30,7 @@ export function useStudyActions() {
     if (!card) return;
     playSoundFx('celebrate');
     toggleMastered(card);
-    toast.success('Word marked as mastered');
+    notify.success('Word marked as mastered');
   };
 
   const flip = () => {

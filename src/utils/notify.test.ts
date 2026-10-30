@@ -1,5 +1,5 @@
 import { describe, it, expect, vi } from 'vitest';
-import { toast } from './toast';
+import { notify } from './notify';
 
 vi.mock('vue-sonner', () => ({
   toast: {
@@ -14,14 +14,14 @@ describe('toast wrapper', () => {
   it('triggers custom event and calls vue-sonner methods', async () => {
     const dispatchSpy = vi.spyOn(window, 'dispatchEvent');
 
-    await toast.success('Success message');
+    await notify.success('Success message');
     expect(dispatchSpy).toHaveBeenCalled();
     const event = dispatchSpy.mock.calls[0][0] as CustomEvent;
     expect(event.type).toBe('load-toaster');
 
-    await toast.error('Error message');
-    await toast.warning('Warning message');
-    await toast.info('Info message');
+    await notify.error('Error message');
+    await notify.warning('Warning message');
+    await notify.info('Info message');
 
     const { toast: sonnerToast } = await import('vue-sonner');
     expect(sonnerToast.success).toHaveBeenCalledWith('Success message');
