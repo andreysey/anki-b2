@@ -1,3 +1,10 @@
+## [1.64.7](https://github.com/andreysey/anki-b2/compare/v1.64.6...v1.64.7) (2026-10-30)
+
+
+### Bug Fixes
+
+* **audio:** accurate German voice help for Linux ([b68d935](https://github.com/andreysey/anki-b2/commit/b68d935eec06f306d6dd54279939df46c7b0b175))
+
 ## [1.64.6](https://github.com/andreysey/anki-b2/compare/v1.64.5...v1.64.6) (2026-10-30)
 
 
