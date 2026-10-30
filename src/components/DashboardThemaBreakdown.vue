@@ -43,7 +43,7 @@ defineProps<{
             >{{ item.mastered }}/{{ item.total }} ({{ item.percentage }}%)</span
           >
         </div>
-        <Progress :modelValue="item.percentage" class="h-1.5" />
+        <Progress :model-value="item.percentage" class="h-1.5" />
       </div>
     </div>
   </div>

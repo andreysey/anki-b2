@@ -194,8 +194,10 @@ function checkPwaAndDataIntegrity(): CheckResult {
           );
         }
       }
-    } catch (e: any) {
-      violations.push(`public/data.json is malformed JSON: ${e.message}`);
+    } catch (e: unknown) {
+      violations.push(
+        `public/data.json is malformed JSON: ${e instanceof Error ? e.message : String(e)}`
+      );
     }
   }
 

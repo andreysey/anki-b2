@@ -128,7 +128,7 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <Toaster v-if="isToasterMounted" position="top-right" richColors />
+  <Toaster v-if="isToasterMounted" position="top-right" rich-colors />
   <AISettingsDialog v-if="isSettingsOpen" />
 
   <!-- macOS Ambient Desktop Wallpaper Canvas -->
@@ -149,23 +149,23 @@ onUnmounted(() => {
     >
       <!-- macOS Window Titlebar & Toolbar -->
       <AppHeader
-        :appVersion="appVersion"
-        :activeView="activeView"
-        @update:activeView="setView"
-        :themeMode="themeMode"
-        :themeStyle="themeStyle"
-        :germanVoices="germanVoices"
-        v-model:selectedVoiceURI="selectedVoiceURI"
-        v-model:ttsRate="ttsRate"
-        @cycleTheme="cycleTheme"
-        @toggleThemeStyle="toggleThemeStyle"
+        v-model:selected-voice-u-r-i="selectedVoiceURI"
+        v-model:tts-rate="ttsRate"
+        :app-version="appVersion"
+        :active-view="activeView"
+        :theme-mode="themeMode"
+        :theme-style="themeStyle"
+        :german-voices="germanVoices"
+        @update:active-view="setView"
+        @cycle-theme="cycleTheme"
+        @toggle-theme-style="toggleThemeStyle"
       />
 
       <!-- macOS Window Body Content -->
       <main
         id="main-content"
-        tabindex="-1"
         ref="mainContentRef"
+        tabindex="-1"
         class="macos-main-content flex-1 flex flex-col gap-5 sm:gap-6 overflow-y-auto custom-scrollbar focus:outline-none"
       >
         <AppHero v-if="activeView === 'list'" />
@@ -182,23 +182,23 @@ onUnmounted(() => {
         <!-- Filter Bar (Dictionary View) -->
         <FilterBar
           v-if="activeView === 'list'"
-          :vocabulary="vocabulary"
-          :totalCount="vocabulary.length"
-          :filteredCount="filteredVocabulary.length"
           v-model:search="search"
           v-model:level="levelFilter"
           v-model:thema="themaFilter"
-          :isStudyMode="isStudyMode"
-          @update:isStudyMode="activeView = $event ? 'study' : 'list'"
+          :vocabulary="vocabulary"
+          :total-count="vocabulary.length"
+          :filtered-count="filteredVocabulary.length"
+          :is-study-mode="isStudyMode"
+          @update:is-study-mode="activeView = $event ? 'study' : 'list'"
         />
 
         <!-- Dashboard View -->
         <DashboardView
           v-if="activeView === 'dashboard'"
           :vocabulary="vocabulary"
-          :masteredIds="masteredIds"
-          :srsData="srsData"
-          :studyStreak="studyStreak"
+          :mastered-ids="masteredIds"
+          :srs-data="srsData"
+          :study-streak="studyStreak"
           @restore-progress="restoreProgress($event.masteredIds, $event.srsData)"
         />
 
@@ -211,16 +211,16 @@ onUnmounted(() => {
         <!-- Study Mode View -->
         <StudyView
           v-else-if="activeView === 'study'"
+          v-model:study-direction="studyDirection"
+          v-model:is-autoplay="isAutoplay"
           :vocabulary="studyList"
-          :currentStudyIndex="currentStudyIndex"
-          :isFlipped="isFlipped"
-          v-model:studyDirection="studyDirection"
-          v-model:isAutoplay="isAutoplay"
-          :studyProgress="studyProgress"
-          :directionOptions="directionOptions"
-          :audioOptions="audioOptions"
-          :isShuffled="isShuffled"
-          :sessionReviewedCount="sessionReviewedCount"
+          :current-study-index="currentStudyIndex"
+          :is-flipped="isFlipped"
+          :study-progress="studyProgress"
+          :direction-options="directionOptions"
+          :audio-options="audioOptions"
+          :is-shuffled="isShuffled"
+          :session-reviewed-count="sessionReviewedCount"
           @shuffle="shuffleCards"
           @flip="study.flip"
           @update-srs="study.grade"
@@ -234,8 +234,8 @@ onUnmounted(() => {
         <VocabularyList
           v-else
           :vocabulary="filteredVocabulary"
-          :displayLimit="displayLimit"
-          :masteredIds="masteredIds"
+          :display-limit="displayLimit"
+          :mastered-ids="masteredIds"
           @toggle-mastered="toggleMastered"
           @play-audio="playAudio"
           @load-more="loadMore"
@@ -245,9 +245,9 @@ onUnmounted(() => {
 
     <!-- Command Palette (Cmd+K / Ctrl+K) -->
     <CommandPaletteModal
-      v-model:isOpen="isCommandPaletteOpen"
+      v-model:is-open="isCommandPaletteOpen"
       :vocabulary="vocabulary"
-      :masteredIds="masteredIds"
+      :mastered-ids="masteredIds"
       @select-word="handleSelectWordFromPalette"
       @play-audio="playAudio"
       @toggle-mastered="toggleMastered"

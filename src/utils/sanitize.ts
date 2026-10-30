@@ -110,7 +110,7 @@ export const sanitizeAiHtml = (text: string | undefined | null): string => {
 
 export const cleanTextForSpeech = (text: string | undefined | null): string => {
   if (!text) return '';
-  let plainText = text;
+  let plainText: string;
   const parser = getDOMParser();
   if (parser) {
     const doc = parser.parseFromString(text, 'text/html');

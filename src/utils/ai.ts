@@ -58,7 +58,7 @@ export const ON_DEVICE_LANGUAGES: Pick<LanguageModelOptions, 'expectedInputs' | 
   };
 
 export const isValidApiKey = (key: string): boolean => {
-  return typeof key === 'string' && /^[A-Za-z0-9_\-]{6,128}$/.test(key.trim());
+  return typeof key === 'string' && /^[A-Za-z0-9_-]{6,128}$/.test(key.trim());
 };
 
 export const getCloudKey = (): string => {

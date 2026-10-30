@@ -76,9 +76,9 @@ const handleShare = async () => {
         variant="ghost"
         size="icon-sm"
         aria-label="Copy word"
-        @click.stop="handleCopy"
         title="Copy word to clipboard"
         class="text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100 hover:bg-slate-200/60 dark:hover:bg-white/10 rounded-full shrink-0 w-8 h-8 cursor-pointer active:scale-95 transition-all"
+        @click.stop="handleCopy"
       >
         <Copy class="h-3.5 w-3.5" />
       </Button>
@@ -86,9 +86,9 @@ const handleShare = async () => {
         variant="ghost"
         size="icon-sm"
         aria-label="Share word"
-        @click.stop="handleShare"
         :title="canShare ? 'Share word' : 'Copy word info'"
         class="text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100 hover:bg-slate-200/60 dark:hover:bg-white/10 rounded-full shrink-0 w-8 h-8 cursor-pointer active:scale-95 transition-all"
+        @click.stop="handleShare"
       >
         <Share2 class="h-3.5 w-3.5" />
       </Button>
@@ -96,9 +96,9 @@ const handleShare = async () => {
         variant="ghost"
         size="icon-sm"
         aria-label="Mark as Mastered"
-        @click.stop="emit('toggle-mastered', word)"
         title="Mark as Mastered"
         class="text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 hover:bg-emerald-500/25 border border-emerald-500/20 active:scale-95 transition-all rounded-full shrink-0 w-8 h-8 cursor-pointer"
+        @click.stop="emit('toggle-mastered', word)"
       >
         <Check class="h-4 w-4" />
       </Button>

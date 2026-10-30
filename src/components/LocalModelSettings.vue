@@ -142,9 +142,9 @@ const modelActionButtonLabel = computed(() =>
           <select
             id="localModelSelect"
             :value="selectedLocalModel"
-            @change="handleModelChange"
             :disabled="isModelLoading"
             class="w-full text-xs py-2 pl-3 pr-8 rounded-xl bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-white/10 text-slate-900 dark:text-slate-100 focus:outline-none focus:ring-1 focus:ring-primary-500 font-sans appearance-none cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
+            @change="handleModelChange"
           >
             <option
               v-for="model in availableModels"
@@ -189,8 +189,8 @@ const modelActionButtonLabel = computed(() =>
           v-if="!isModelReady"
           variant="outline"
           size="sm"
-          @click="handleLoadModel"
           class="flex-1 text-xs font-semibold py-2 rounded-xl"
+          @click="handleLoadModel"
         >
           <Download class="h-3.5 w-3.5 mr-1" />
           {{ modelActionButtonLabel }}
@@ -199,9 +199,9 @@ const modelActionButtonLabel = computed(() =>
           v-if="isCurrentModelCached"
           variant="outline"
           size="sm"
-          @click="handleDeleteModel"
           title="Delete downloaded model files from cache to free up disk space"
           class="text-xs font-semibold text-red-600 dark:text-red-400 hover:bg-red-500/10 hover:text-red-700 border-red-500/20 rounded-xl px-3"
+          @click="handleDeleteModel"
         >
           <Trash2 class="h-3.5 w-3.5 mr-1" />
           Delete Cached Model

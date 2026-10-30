@@ -208,7 +208,7 @@ export function buildVerbTenses(fullGerman: string, example: string = ''): Tense
   const purePrateritum3sg = prateritum3sg.replace(/^sich\s+/i, '').replace(/\s+sich$/i, '');
 
   // 1. Präsens
-  let praesSentence = '';
+  let praesSentence: string;
   if (isReflexive) {
     if (prefix && purePrasens3sg.includes(prefix)) {
       const stemPart = purePrasens3sg.replace(new RegExp(`\\s*${prefix}$`), '');
@@ -226,7 +226,7 @@ export function buildVerbTenses(fullGerman: string, example: string = ''): Tense
   // 2. Präteritum
   const invertedSubject =
     subject === 'Er' ? 'er' : subject.startsWith('Der ') ? 'der ' + subject.slice(4) : subject;
-  let praetSentence = '';
+  let praetSentence: string;
   if (isReflexive) {
     if (prefix && purePrateritum3sg.includes(prefix)) {
       const stemPart = purePrateritum3sg.replace(new RegExp(`\\s*${prefix}$`), '');
@@ -262,7 +262,7 @@ export function buildVerbTenses(fullGerman: string, example: string = ''): Tense
     : `${subject} wird wohl schon ${obj} ${p2} ${auxInf}.`;
 
   // 7. Passiv (Vorgangspassiv)
-  let passivSentence = '';
+  let passivSentence: string;
   if (isReflexive) {
     passivSentence = '(Nicht passivfähig – reflexives Verb)';
   } else if (isSein) {
@@ -277,7 +277,7 @@ export function buildVerbTenses(fullGerman: string, example: string = ''): Tense
   }
 
   // 8. Passiversatz (sich lassen / sein zu)
-  let passivErsatzSentence = '';
+  let passivErsatzSentence: string;
   if (isReflexive) {
     passivErsatzSentence = '(Kein Passiversatz – reflexives Verb)';
   } else if (isSein) {
@@ -292,7 +292,7 @@ export function buildVerbTenses(fullGerman: string, example: string = ''): Tense
   }
 
   // 9. Konjunktiv I (Indirekte Rede)
-  let konj1Sentence = '';
+  let konj1Sentence: string;
   if (isReflexive) {
     if (prefix) {
       konj1Sentence = `Er sagte, er ${konj1Stem} sich ${obj} ${prefix}.`;

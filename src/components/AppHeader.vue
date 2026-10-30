@@ -116,22 +116,22 @@ const themeModeLabel = computed(() => {
       <div class="flex lg:hidden items-center gap-1 sm:gap-1.5">
         <!-- Audio Settings Popover (Mobile) -->
         <AudioSettingsPopover
-          idPrefix="mobile"
-          buttonSize="icon"
-          :germanVoices="germanVoices"
-          :selectedVoiceURI="selectedVoiceURI"
-          :ttsRate="ttsRate"
-          @update:selectedVoiceURI="emit('update:selectedVoiceURI', $event)"
-          @update:ttsRate="emit('update:ttsRate', $event)"
+          id-prefix="mobile"
+          button-size="icon"
+          :german-voices="germanVoices"
+          :selected-voice-u-r-i="selectedVoiceURI"
+          :tts-rate="ttsRate"
+          @update:selected-voice-u-r-i="emit('update:selectedVoiceURI', $event)"
+          @update:tts-rate="emit('update:ttsRate', $event)"
         />
 
         <Button
           id="btn-theme-style-mobile"
           variant="ghost"
           size="icon"
-          @click="emit('toggleThemeStyle')"
           :title="`Style: ${themeStyle === 'material' ? 'Material Design 3' : 'macOS'}`"
           class="rounded-full text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100"
+          @click="emit('toggleThemeStyle')"
         >
           <Palette class="h-4 w-4" />
         </Button>
@@ -139,9 +139,9 @@ const themeModeLabel = computed(() => {
           id="btn-theme-toggle-mobile"
           variant="ghost"
           size="icon"
-          @click="emit('cycleTheme')"
           :title="`Theme: ${themeModeLabel}`"
           class="rounded-full text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100"
+          @click="emit('cycleTheme')"
         >
           <component :is="themeIcon" class="h-4 w-4" />
         </Button>
@@ -170,8 +170,8 @@ const themeModeLabel = computed(() => {
       class="macos-segmented-bar w-full lg:w-auto grid grid-cols-3 lg:flex items-center gap-1 shadow-inner p-1"
     >
       <button
-        type="button"
         id="tab-dictionary"
+        type="button"
         role="tab"
         :aria-selected="activeView === 'list'"
         class="px-2 sm:px-4 py-1.5 pointer-coarse:py-2 text-xs sm:text-sm font-semibold rounded-lg transition-all cursor-pointer flex items-center justify-center gap-1 sm:gap-1.5 text-center"
@@ -187,8 +187,8 @@ const themeModeLabel = computed(() => {
         <span class="lg:hidden">Words</span>
       </button>
       <button
-        type="button"
         id="tab-study"
+        type="button"
         role="tab"
         :aria-selected="activeView === 'study'"
         class="px-2 sm:px-4 py-1.5 pointer-coarse:py-2 text-xs sm:text-sm font-semibold rounded-lg transition-all cursor-pointer flex items-center justify-center gap-1 sm:gap-1.5 text-center"
@@ -204,8 +204,8 @@ const themeModeLabel = computed(() => {
         <span class="lg:hidden">Study</span>
       </button>
       <button
-        type="button"
         id="tab-dashboard"
+        type="button"
         role="tab"
         :aria-selected="activeView === 'dashboard'"
         class="px-2 sm:px-4 py-1.5 pointer-coarse:py-2 text-xs sm:text-sm font-semibold rounded-lg transition-all cursor-pointer flex items-center justify-center gap-1 sm:gap-1.5 text-center"
@@ -226,22 +226,22 @@ const themeModeLabel = computed(() => {
     <div class="hidden lg:flex items-center gap-2 justify-end">
       <!-- Audio Settings Popover (Desktop) -->
       <AudioSettingsPopover
-        idPrefix="desktop"
-        buttonSize="icon"
-        :germanVoices="germanVoices"
-        :selectedVoiceURI="selectedVoiceURI"
-        :ttsRate="ttsRate"
-        @update:selectedVoiceURI="emit('update:selectedVoiceURI', $event)"
-        @update:ttsRate="emit('update:ttsRate', $event)"
+        id-prefix="desktop"
+        button-size="icon"
+        :german-voices="germanVoices"
+        :selected-voice-u-r-i="selectedVoiceURI"
+        :tts-rate="ttsRate"
+        @update:selected-voice-u-r-i="emit('update:selectedVoiceURI', $event)"
+        @update:tts-rate="emit('update:ttsRate', $event)"
       />
 
       <Button
         id="btn-theme-style"
         variant="ghost"
         size="icon"
-        @click="emit('toggleThemeStyle')"
         :title="`Style: ${themeStyle === 'material' ? 'Material Design 3' : 'macOS'}`"
         class="rounded-full text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100"
+        @click="emit('toggleThemeStyle')"
       >
         <Palette class="h-4 w-4" />
       </Button>
@@ -249,9 +249,9 @@ const themeModeLabel = computed(() => {
         id="btn-theme-toggle"
         variant="ghost"
         size="icon"
-        @click="emit('cycleTheme')"
         :title="`Theme: ${themeModeLabel}`"
         class="rounded-full text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100"
+        @click="emit('cycleTheme')"
       >
         <component :is="themeIcon" class="h-4 w-4" />
       </Button>

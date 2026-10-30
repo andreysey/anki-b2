@@ -44,8 +44,8 @@ const handleRemove = () => {
       <div class="flex gap-2 shrink-0">
         <Button
           size="sm"
-          @click="saveApiKey(localKey)"
           class="flex-1 @xs:flex-initial px-4 font-semibold"
+          @click="saveApiKey(localKey)"
         >
           Save
         </Button>
@@ -53,9 +53,9 @@ const handleRemove = () => {
           v-if="apiKey"
           variant="outline"
           size="sm"
-          @click="handleRemove"
           title="Remove stored API key"
           class="text-red-600 dark:text-red-400 hover:bg-red-500/10 hover:text-red-700 border-red-500/20"
+          @click="handleRemove"
         >
           <Trash2 class="h-4 w-4" />
         </Button>

@@ -66,7 +66,7 @@ const icon = (r: Run) =>
 async function main() {
   console.log(`${repo} @ ${sha.slice(0, 7)} — ${git('log', '-1', '--format=%s', sha)}`);
   const started = Date.now();
-  let runs: Run[] = [];
+  let runs: Run[];
   for (;;) {
     runs = await fetchRuns();
     const done = runs.length > 0 && runs.every((r) => r.status === 'completed');

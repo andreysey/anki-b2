@@ -174,7 +174,7 @@ describe('DashboardBackupSync.vue', () => {
     const wrapper = mount(DashboardBackupSync, { props: defaultProps });
     await flushPromises();
     expect(wrapper.text()).toContain('Browser storage protected');
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+
     delete (navigator as any).storage;
   });
 });

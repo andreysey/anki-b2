@@ -122,7 +122,7 @@ export const getAvailableLocalModels = async (): Promise<LocalModelOption[]> => 
     const models = await Promise.all(
       filtered.map(async (m) => {
         const isF32 = m.model_id.includes('q4f32');
-        let cleanName = m.model_id
+        const cleanName = m.model_id
           .replace(/-q[0-9]f[0-9]+.*$/, '')
           .replace(/-MLC$/, '')
           .replace(/-2512-BF16$/, '');
@@ -131,12 +131,7 @@ export const getAvailableLocalModels = async (): Promise<LocalModelOption[]> => 
         const vram = Math.round(m.vram_required_MB || 0);
         const tag = vram <= 1100 ? 'Fast' : vram <= 2200 ? 'Balanced' : 'High Quality';
 
-        let isCached = false;
-        try {
-          isCached = await hasModelInCache(m.model_id);
-        } catch {
-          isCached = false;
-        }
+        const isCached = await hasModelInCache(m.model_id).catch(() => false);
 
         return {
           id: m.model_id,

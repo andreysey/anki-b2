@@ -40,7 +40,7 @@ defineProps<{
         <div class="text-xl font-black text-slate-900 dark:text-white">
           {{ box.count }}
         </div>
-        <Progress :modelValue="box.percentage" class="h-1" />
+        <Progress :model-value="box.percentage" class="h-1" />
       </div>
     </div>
   </div>

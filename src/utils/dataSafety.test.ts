@@ -26,7 +26,6 @@ const mockStorage = (persisted: boolean, persistResult = true) => {
 describe('dataSafety', () => {
   beforeEach(() => localStorage.clear());
   afterEach(() => {
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     delete (navigator as any).storage;
   });
 

@@ -58,16 +58,16 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <div class="relative" ref="popoverRef">
+  <div ref="popoverRef" class="relative">
     <Button
       :id="`btn-audio-settings-${idPrefix}`"
       variant="ghost"
       :size="buttonSize || 'icon'"
       title="Speech & Audio Preferences"
       class="rounded-full text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100"
-      @click.stop="toggleOpen"
       :aria-expanded="isOpen"
       aria-haspopup="dialog"
+      @click.stop="toggleOpen"
     >
       <Volume2 class="h-4 w-4" />
     </Button>
@@ -89,9 +89,9 @@ onUnmounted(() => {
         </div>
         <button
           type="button"
-          @click="isOpen = false"
           class="rounded p-1 text-slate-400 hover:text-slate-600 dark:hover:text-slate-200"
           aria-label="Close preferences"
+          @click="isOpen = false"
         >
           <X class="h-3.5 w-3.5" />
         </button>
@@ -109,8 +109,8 @@ onUnmounted(() => {
           aria-label="Select German Voice Engine"
           :value="selectedVoiceURI"
           :disabled="germanVoices.length === 0"
-          @change="emit('update:selectedVoiceURI', ($event.target as HTMLSelectElement).value)"
           class="w-full bg-slate-50 dark:bg-black/40 border border-slate-200 dark:border-white/10 text-slate-800 dark:text-slate-100 rounded-xl p-2 text-xs sm:text-sm outline-none focus:border-primary disabled:opacity-50 disabled:cursor-not-allowed"
+          @change="emit('update:selectedVoiceURI', ($event.target as HTMLSelectElement).value)"
         >
           <option
             v-if="germanVoices.length === 0"
@@ -153,10 +153,10 @@ onUnmounted(() => {
             <button
               v-if="ttsRate !== 0.85"
               type="button"
-              @click="emit('update:ttsRate', 0.85)"
               class="text-[10px] text-slate-400 hover:text-primary transition-colors flex items-center gap-0.5 font-normal lowercase"
               title="Reset rate to default 0.85x"
               aria-label="Reset speech rate to default 0.85x"
+              @click="emit('update:ttsRate', 0.85)"
             >
               <RotateCcw class="h-2.5 w-2.5" />
               <span>reset</span>
@@ -176,13 +176,13 @@ onUnmounted(() => {
           :aria-valuemax="1.5"
           :aria-valuenow="ttsRate"
           :aria-valuetext="`${Number(ttsRate).toFixed(2)} times normal speed`"
+          class="w-full h-2 bg-slate-300 dark:bg-white/20 rounded-lg cursor-pointer accent-primary block"
           @input="
             emit(
               'update:ttsRate',
               Math.round(Number(($event.target as HTMLInputElement).value) * 100) / 100
             )
           "
-          class="w-full h-2 bg-slate-300 dark:bg-white/20 rounded-lg cursor-pointer accent-primary block"
         />
       </div>
 
@@ -202,18 +202,18 @@ onUnmounted(() => {
           <button
             v-if="isSoundEnabled"
             type="button"
-            @click="playSoundFx('correct')"
             class="text-[10px] text-slate-400 hover:text-primary transition-colors flex items-center gap-0.5 font-normal"
             title="Preview sound"
             aria-label="Preview sound chime"
+            @click="playSoundFx('correct')"
           >
             <Sparkles class="h-3 w-3" />
             <span>test</span>
           </button>
           <input
-            type="checkbox"
             :id="`sound-fx-toggle-${idPrefix}`"
             v-model="isSoundEnabled"
+            type="checkbox"
             class="w-4 h-4 rounded text-primary focus:ring-primary accent-primary cursor-pointer"
             aria-label="Enable sound effects"
           />

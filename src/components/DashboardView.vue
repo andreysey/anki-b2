@@ -213,10 +213,10 @@ const totalPercentage = computed(() => {
 
     <!-- macOS Widget Summary Grid (4 Cards: Total, Mastered, Streak, Progress) -->
     <DashboardSummaryCards
-      :totalWords="totalWords"
-      :totalMastered="totalMastered"
-      :totalPercentage="totalPercentage"
-      :studyStreak="studyStreak"
+      :total-words="totalWords"
+      :total-mastered="totalMastered"
+      :total-percentage="totalPercentage"
+      :study-streak="studyStreak"
     />
 
     <!-- Level Progress Widgets (B1+ vs B2) -->
@@ -232,7 +232,7 @@ const totalPercentage = computed(() => {
             >{{ lvl.mastered }} / {{ lvl.total }} ({{ lvl.percentage }}%)</span
           >
         </div>
-        <Progress :modelValue="lvl.percentage" class="h-2" />
+        <Progress :model-value="lvl.percentage" class="h-2" />
       </div>
     </div>
 
@@ -241,11 +241,11 @@ const totalPercentage = computed(() => {
 
     <!-- macOS System Settings Sync & Backup Panel -->
     <DashboardBackupSync
-      :totalWords="totalWords"
-      :totalMastered="totalMastered"
-      :totalPercentage="totalPercentage"
-      :masteredIds="masteredIds"
-      :srsData="srsData"
+      :total-words="totalWords"
+      :total-mastered="totalMastered"
+      :total-percentage="totalPercentage"
+      :mastered-ids="masteredIds"
+      :srs-data="srsData"
       @restore-progress="emit('restore-progress', $event)"
     />
 

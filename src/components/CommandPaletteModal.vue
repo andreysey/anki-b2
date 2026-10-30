@@ -116,21 +116,21 @@ onUnmounted(() => {
         <Search class="h-5 w-5 text-slate-400 shrink-0 mr-3" aria-hidden="true" />
         <input
           ref="inputRef"
+          v-model="searchQuery"
           type="text"
           role="combobox"
           aria-autocomplete="list"
           aria-expanded="true"
           aria-controls="command-palette-results"
           :aria-activedescendant="`cmd-option-${selectedIndex}`"
-          v-model="searchQuery"
           placeholder="Search vocabulary in German, English, Ukrainian..."
           class="w-full bg-transparent text-sm sm:text-base text-slate-900 dark:text-white placeholder-slate-400 outline-none border-none"
         />
         <button
           type="button"
-          @click="close"
           class="p-1 rounded-lg text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 hover:bg-slate-100 dark:hover:bg-white/5 transition-colors"
           aria-label="Close search dialog"
+          @click="close"
         >
           <X class="h-4 w-4" aria-hidden="true" />
         </button>
@@ -162,16 +162,16 @@ onUnmounted(() => {
             :id="`cmd-option-${idx}`"
             role="option"
             :aria-selected="idx === selectedIndex"
-            @click="
-              emit('select-word', word);
-              close();
-            "
             :class="[
               'p-3 pr-28 rounded-xl flex items-center gap-3 cursor-pointer transition-all',
               idx === selectedIndex
                 ? 'bg-primary-500/15 border border-primary-500/30 text-slate-900 dark:text-white'
                 : 'group-hover:bg-slate-100 dark:group-hover:bg-white/5 border border-transparent'
             ]"
+            @click="
+              emit('select-word', word);
+              close();
+            "
           >
             <div class="flex-1 min-w-0">
               <div class="flex items-center gap-2 mb-0.5">
@@ -204,7 +204,6 @@ onUnmounted(() => {
             <button
               type="button"
               tabindex="-1"
-              @click="emit('toggle-mastered', word)"
               :title="masteredIds.has(getItemKey(word)) ? 'Mastered' : 'Mark as mastered'"
               :class="[
                 'p-1.5 rounded-lg border transition-all',
@@ -212,15 +211,16 @@ onUnmounted(() => {
                   ? 'bg-emerald-500/20 border-emerald-500/30 text-emerald-600 dark:text-emerald-400'
                   : 'bg-slate-100 dark:bg-white/5 border-slate-200 dark:border-white/10 text-slate-400 hover:text-emerald-500'
               ]"
+              @click="emit('toggle-mastered', word)"
             >
               <Check class="h-3.5 w-3.5" />
             </button>
             <button
               type="button"
               tabindex="-1"
-              @click="emit('play-audio', word.german_audio || word.german)"
               title="Pronounce"
               class="p-1.5 rounded-lg bg-primary/10 border border-primary/20 text-primary hover:bg-primary/20 transition-all"
+              @click="emit('play-audio', word.german_audio || word.german)"
             >
               <Volume2 class="h-3.5 w-3.5" />
             </button>

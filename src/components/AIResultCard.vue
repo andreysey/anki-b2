@@ -38,10 +38,10 @@ const emit = defineEmits<{
       <Button
         variant="ghost"
         size="icon-sm"
-        @click.stop="emit('copy')"
         :title="isCopied ? 'Copied!' : 'Copy text to clipboard'"
         aria-label="Copy text to clipboard"
         :class="isCopied ? 'text-emerald-500 font-bold' : 'text-slate-600 dark:text-slate-300'"
+        @click.stop="emit('copy')"
       >
         <component :is="isCopied ? Check : Copy" class="h-3.5 w-3.5" />
       </Button>

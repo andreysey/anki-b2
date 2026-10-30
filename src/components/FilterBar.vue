@@ -74,19 +74,19 @@ const toggleStudyModeLabel = computed(() => (props.isStudyMode ? 'Back to List' 
         <Input
           id="filter-search-input"
           aria-label="Search vocabulary"
-          :modelValue="search"
-          @update:modelValue="(val) => emit('update:search', String(val ?? ''))"
+          :model-value="search"
           placeholder="Search vocabulary..."
           class="w-full pl-9 pr-16 text-xs sm:text-sm h-9 bg-slate-50/90 dark:bg-black/40 border-slate-200 dark:border-white/10 rounded-xl"
+          @update:model-value="(val) => emit('update:search', String(val ?? ''))"
         />
         <div class="absolute inset-y-0 right-0 pr-2.5 flex items-center gap-1">
           <button
             v-if="search"
             type="button"
-            @click="handleClearSearch"
             aria-label="Clear search input"
             title="Clear search"
             class="flex items-center p-1.5 -m-1 rounded-full text-slate-400 hover:text-slate-700 dark:hover:text-slate-200 cursor-pointer transition-colors"
+            @click="handleClearSearch"
           >
             <X class="h-4 w-4" />
           </button>
@@ -104,8 +104,8 @@ const toggleStudyModeLabel = computed(() => (props.isStudyMode ? 'Back to List' 
         <select
           aria-label="Filter vocabulary by level"
           :value="level"
-          @change="emit('update:level', ($event.target as HTMLSelectElement).value)"
           class="w-full text-xs sm:text-sm h-9 px-3 bg-slate-50/90 dark:bg-black/40 border border-slate-200 dark:border-white/10 rounded-xl text-slate-800 dark:text-slate-100 outline-none focus:border-primary cursor-pointer appearance-none"
+          @change="emit('update:level', ($event.target as HTMLSelectElement).value)"
         >
           <option
             v-for="opt in levelOptions"
@@ -128,8 +128,8 @@ const toggleStudyModeLabel = computed(() => (props.isStudyMode ? 'Back to List' 
         <select
           aria-label="Filter vocabulary by theme"
           :value="thema"
-          @change="emit('update:thema', ($event.target as HTMLSelectElement).value)"
           class="w-full text-xs sm:text-sm h-9 px-3 bg-slate-50/90 dark:bg-black/40 border border-slate-200 dark:border-white/10 rounded-xl text-slate-800 dark:text-slate-100 outline-none focus:border-primary cursor-pointer appearance-none truncate"
+          @change="emit('update:thema', ($event.target as HTMLSelectElement).value)"
         >
           <option
             v-for="opt in themeOptions"
@@ -151,8 +151,8 @@ const toggleStudyModeLabel = computed(() => (props.isStudyMode ? 'Back to List' 
       <div class="w-full">
         <Button
           variant="default"
-          @click="emit('update:isStudyMode', !isStudyMode)"
           class="w-full rounded-xl shadow-xs font-semibold text-xs sm:text-sm h-9"
+          @click="emit('update:isStudyMode', !isStudyMode)"
         >
           <component :is="isStudyMode ? List : GraduationCap" class="h-4 w-4" />
           <span>{{ toggleStudyModeLabel }}</span>

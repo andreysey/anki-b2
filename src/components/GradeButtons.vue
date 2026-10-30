@@ -57,12 +57,12 @@ const GRADES: Grade[] = [
     <button
       v-for="grade in GRADES"
       :key="grade.rating"
-      @click="emit('grade', grade.rating)"
       :title="grade.title"
       :class="[
         'flex flex-col items-center justify-center py-2 px-1.5 sm:px-2 rounded-xl active:scale-95 border font-bold transition-all cursor-pointer group',
         grade.tone
       ]"
+      @click="emit('grade', grade.rating)"
     >
       <span class="text-xs tracking-wide">{{ grade.label }}</span>
       <!-- Keyboard hint is hidden on touch screens; swipe hint stays -->

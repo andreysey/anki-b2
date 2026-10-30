@@ -207,14 +207,14 @@ export function highlightWordInExample(
     const commaParts = originalGerman.split(',');
     if (commaParts.length >= 2) {
       const suffixPart = commaParts[1].trim();
-      const m = suffixPart.match(/^([\"–—-]?[a-zA-ZäöüÄÖÜß-]+)/);
+      const m = suffixPart.match(/^(["–—-]?[a-zA-ZäöüÄÖÜß-]+)/);
       if (m && (m[1].includes('-') || m[1].includes('"'))) {
         const pluralSuffix = m[1];
         const rawNoun = commaParts[0].replace(/^(der|die|das)\s+/i, '').trim();
         const noun = rawNoun.split(/\s+/).pop()?.replace(/\|/g, '') || '';
         if (noun && noun.length >= 3) {
           const hasUmlaut = pluralSuffix.includes('"');
-          const suffix = pluralSuffix.replace(/[\"–—-]/g, '').trim();
+          const suffix = pluralSuffix.replace(/["–—-]/g, '').trim();
           let base = noun;
           if (hasUmlaut) {
             base = base.replace(/(au|a|o|u)(?=[^aeiouäöü]*(?:(?:el|er|en)$|$))/i, (match) => {

@@ -110,7 +110,7 @@ const handleFileImport = (event: Event) => {
         >{{ totalMastered }} / {{ totalWords }} mastered</span
       >
     </div>
-    <Progress :modelValue="totalPercentage" class="h-2.5" />
+    <Progress :model-value="totalPercentage" class="h-2.5" />
 
     <!-- Sync Controls -->
     <div
@@ -141,8 +141,8 @@ const handleFileImport = (event: Event) => {
       </div>
       <div class="flex gap-2.5">
         <input
-          type="file"
           ref="fileInputRef"
+          type="file"
           accept=".json"
           class="hidden"
           @change="handleFileImport"
@@ -150,8 +150,8 @@ const handleFileImport = (event: Event) => {
         <Button
           variant="outline"
           size="sm"
-          @click="handleExport"
           class="rounded-xl text-xs py-1.5 px-3 font-semibold"
+          @click="handleExport"
         >
           <Download class="h-3.5 w-3.5" />
           <span>Export Backup</span>
@@ -159,8 +159,8 @@ const handleFileImport = (event: Event) => {
         <Button
           variant="outline"
           size="sm"
-          @click="triggerFileInput"
           class="rounded-xl text-xs py-1.5 px-3 font-semibold"
+          @click="triggerFileInput"
         >
           <Upload class="h-3.5 w-3.5" />
           <span>Restore Progress</span>

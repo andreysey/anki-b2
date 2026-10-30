@@ -37,11 +37,11 @@ const segmentClass = (active: boolean) =>
           v-for="opt in directionOptions"
           :key="String(opt.value)"
           type="button"
-          @click="emit('update:studyDirection', opt.value)"
           :class="[
             'px-1.5 sm:px-2.5 py-1 rounded-lg font-medium transition-all cursor-pointer text-xs whitespace-nowrap',
             segmentClass(studyDirection === opt.value)
           ]"
+          @click="emit('update:studyDirection', opt.value)"
         >
           {{ opt.label }}
         </button>
@@ -66,11 +66,11 @@ const segmentClass = (active: boolean) =>
           v-for="opt in audioOptions"
           :key="String(opt.value)"
           type="button"
-          @click="emit('update:isAutoplay', opt.value)"
           :class="[
             'px-2 sm:px-2.5 py-1 rounded-lg font-medium transition-all cursor-pointer text-xs flex items-center gap-1',
             segmentClass(isAutoplay === opt.value)
           ]"
+          @click="emit('update:isAutoplay', opt.value)"
         >
           <span>{{ opt.label }}</span>
         </button>
@@ -81,10 +81,10 @@ const segmentClass = (active: boolean) =>
       <Button
         size="sm"
         variant="outline"
-        @click="toggleFullscreen"
         :title="isFullscreen ? 'Exit Zen Mode (Fullscreen)' : 'Enter Zen Mode (Fullscreen)'"
         aria-label="Toggle Zen mode fullscreen"
         class="rounded-xl text-xs px-2 sm:px-2.5 shadow-2xs"
+        @click="toggleFullscreen"
       >
         <component :is="isFullscreen ? Minimize2 : Maximize2" class="h-3.5 w-3.5" />
         <span class="hidden sm:inline">Zen</span>
@@ -93,10 +93,10 @@ const segmentClass = (active: boolean) =>
       <Button
         size="sm"
         :variant="isShuffled ? 'default' : 'outline'"
-        @click="emit('shuffle')"
         title="Shuffle cards"
         aria-label="Shuffle cards"
         class="rounded-xl text-xs px-2 sm:px-3 shadow-2xs shrink-0"
+        @click="emit('shuffle')"
       >
         <Shuffle class="h-3.5 w-3.5" />
         <span class="hidden sm:inline">Shuffle</span>

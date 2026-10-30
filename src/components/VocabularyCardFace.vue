@@ -55,9 +55,9 @@ const handleAiActive = (active: boolean) => {
               variant="default"
               size="icon"
               aria-label="Play German pronunciation"
-              @click.stop="emit('play-audio', word.german_audio || word.german)"
               title="Play pronunciation"
               class="relative z-10 rounded-full w-12 h-12 shadow-md hover:shadow-lg hover:shadow-primary/30 hover:scale-110 active:scale-95 transition-all duration-200 cursor-pointer ring-4 ring-primary/10 hover:ring-primary/25"
+              @click.stop="emit('play-audio', word.german_audio || word.german)"
             >
               <Volume2 class="h-5 w-5" />
             </Button>
@@ -77,9 +77,9 @@ const handleAiActive = (active: boolean) => {
                 variant="ghost"
                 size="icon-sm"
                 aria-label="Play English pronunciation"
-                @click.stop="emit('play-audio', word.english, 'en-US')"
                 title="Play English pronunciation"
                 class="rounded-full w-8 h-8 text-primary hover:text-primary bg-primary/10 hover:bg-primary/20 hover:scale-105 border border-primary/20 active:scale-95 transition-all cursor-pointer"
+                @click.stop="emit('play-audio', word.english, 'en-US')"
               >
                 <Volume2 class="h-4 w-4" />
               </Button>
@@ -106,8 +106,8 @@ const handleAiActive = (active: boolean) => {
               size="icon-sm"
               class="shrink-0 hover:bg-slate-200/60 dark:hover:bg-white/10 text-slate-600 dark:text-slate-300 rounded-full w-8 h-8"
               aria-label="Play example sentence pronunciation"
-              @click.stop="emit('play-audio', word.example)"
               title="Play example sentence"
+              @click.stop="emit('play-audio', word.example)"
             >
               <Volume2 class="h-3.5 w-3.5" />
             </Button>

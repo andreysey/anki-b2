@@ -104,9 +104,9 @@ const loadingStatusText = computed(() => {
       <Button
         variant="ghost"
         size="icon-sm"
-        @click.stop="openSettings"
         title="AI Settings"
         class="rounded-full text-slate-500 hover:text-slate-900 dark:hover:text-slate-100 shrink-0"
+        @click.stop="openSettings"
       >
         <Settings class="h-4 w-4" />
       </Button>
@@ -117,9 +117,9 @@ const loadingStatusText = computed(() => {
       <Button
         variant="outline"
         size="sm"
-        @click.stop="ask('grammar')"
         :disabled="!canRequest"
         class="rounded-xl text-xs py-1.5 w-full justify-center"
+        @click.stop="ask('grammar')"
       >
         <Compass class="h-3.5 w-3.5" />
         <span>Grammar Breakdown</span>
@@ -127,9 +127,9 @@ const loadingStatusText = computed(() => {
       <Button
         variant="outline"
         size="sm"
-        @click.stop="ask('dialogue')"
         :disabled="!canRequest"
         class="rounded-xl text-xs py-1.5 w-full justify-center"
+        @click.stop="ask('dialogue')"
       >
         <MessageSquare class="h-3.5 w-3.5" />
         <span>Workplace Dialogue</span>
@@ -148,17 +148,17 @@ const loadingStatusText = computed(() => {
     <!-- AI Output Card -->
     <AIResultCard
       v-if="isLoading || resultText"
-      :isLoading="isLoading"
-      :resultText="resultText"
-      :isError="isError"
-      :isCopied="isCopied"
-      :isModelLoading="isModelLoading"
-      :loadingStatusText="loadingStatusText"
-      :modelLoadingProgress="modelLoadingProgress"
-      :isGenerating="isGenerating"
-      :resultSource="resultSource"
-      :displayModelLabel="displayModelLabel"
-      :displaySourceLabel="displaySourceLabel"
+      :is-loading="isLoading"
+      :result-text="resultText"
+      :is-error="isError"
+      :is-copied="isCopied"
+      :is-model-loading="isModelLoading"
+      :loading-status-text="loadingStatusText"
+      :model-loading-progress="modelLoadingProgress"
+      :is-generating="isGenerating"
+      :result-source="resultSource"
+      :display-model-label="displayModelLabel"
+      :display-source-label="displaySourceLabel"
       @copy="request.copy"
     />
   </div>

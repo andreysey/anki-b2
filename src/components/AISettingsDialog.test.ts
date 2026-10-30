@@ -55,7 +55,6 @@ const setWebGPU = (supported: boolean) => {
   if (supported) {
     Object.defineProperty(navigator, 'gpu', { value: {}, configurable: true });
   } else {
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     delete (navigator as any).gpu;
   }
 };

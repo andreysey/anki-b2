@@ -64,27 +64,27 @@ const handleCopy = async (item: Word) => {
             <Button
               variant="ghost"
               size="icon-sm"
-              @click.stop="emit('toggle-mastered', item)"
               title="Mark as Mastered"
               class="rounded-full w-7 h-7 sm:w-8 sm:h-8 text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 hover:bg-emerald-500/25 border border-emerald-500/20 active:scale-95 transition-all cursor-pointer"
+              @click.stop="emit('toggle-mastered', item)"
             >
               <Check class="h-3.5 w-3.5 sm:h-4 sm:w-4" />
             </Button>
             <Button
               variant="ghost"
               size="icon-sm"
-              @click.stop="handleCopy(item)"
               title="Copy word to clipboard"
               class="rounded-full w-7 h-7 sm:w-8 sm:h-8 text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100 hover:bg-slate-200/60 dark:hover:bg-white/10 active:scale-95 transition-all cursor-pointer"
+              @click.stop="handleCopy(item)"
             >
               <Copy class="h-3 w-3 sm:h-3.5 sm:w-3.5" />
             </Button>
             <Button
               variant="ghost"
               size="icon-sm"
-              @click.stop="emit('play-audio', item.german_audio || item.german)"
               title="Play pronunciation"
               class="rounded-full w-7 h-7 sm:w-8 sm:h-8 text-primary hover:text-primary bg-primary/10 hover:bg-primary/20 hover:scale-105 border border-primary/20 active:scale-95 transition-all cursor-pointer"
+              @click.stop="emit('play-audio', item.german_audio || item.german)"
             >
               <Volume2 class="h-3.5 w-3.5 sm:h-4 sm:w-4" />
             </Button>
@@ -122,8 +122,8 @@ const handleCopy = async (item: Word) => {
                   variant="ghost"
                   size="icon-sm"
                   class="shrink-0 hover:bg-slate-200/60 dark:hover:bg-white/10 text-slate-600 dark:text-slate-300 w-6 h-6 rounded-full"
-                  @click.stop="emit('play-audio', item.example)"
                   title="Play example"
+                  @click.stop="emit('play-audio', item.example)"
                 >
                   <Volume2 class="h-3 w-3" />
                 </Button>
@@ -139,8 +139,8 @@ const handleCopy = async (item: Word) => {
       <Button
         variant="outline"
         size="sm"
-        @click="emit('load-more')"
         class="rounded-full px-5 py-2 shadow-xs active:scale-95 transition-all text-xs font-semibold"
+        @click="emit('load-more')"
       >
         <ChevronDown class="h-3.5 w-3.5" />
         <span>Explore More Vocabulary</span>

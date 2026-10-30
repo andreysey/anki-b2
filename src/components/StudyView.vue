@@ -72,7 +72,7 @@ const currentCard = computed(() => props.vocabulary[props.currentStudyIndex]);
           >{{ currentStudyIndex + 1 }} of {{ vocabulary.length }}</span
         >
       </div>
-      <Progress :modelValue="studyProgress" class="h-1.5" />
+      <Progress :model-value="studyProgress" class="h-1.5" />
     </div>
 
     <!-- Centered Tactile Vocabulary Card with Touch Swipes & Mobile Scroll Snap -->
@@ -80,7 +80,7 @@ const currentCard = computed(() => props.vocabulary[props.currentStudyIndex]);
       <VocabularyCard
         v-if="currentCard"
         :word="currentCard"
-        :isFlipped="isFlipped"
+        :is-flipped="isFlipped"
         :direction="studyDirection"
         @flip="emit('flip')"
         @toggle-mastered="emit('toggle-mastered', $event)"
@@ -97,9 +97,9 @@ const currentCard = computed(() => props.vocabulary[props.currentStudyIndex]);
       <Button
         variant="outline"
         size="icon"
-        @click="emit('prev')"
         class="rounded-full w-10 h-10 shrink-0 text-slate-600 dark:text-slate-300"
         title="Previous Card (Left Arrow)"
+        @click="emit('prev')"
       >
         <ChevronLeft class="h-4 w-4" />
       </Button>
@@ -114,9 +114,9 @@ const currentCard = computed(() => props.vocabulary[props.currentStudyIndex]);
       <Button
         variant="outline"
         size="icon"
-        @click="emit('next')"
         class="rounded-full w-10 h-10 shrink-0 text-slate-600 dark:text-slate-300"
         title="Next Card (Right Arrow)"
+        @click="emit('next')"
       >
         <ChevronRight class="h-4 w-4" />
       </Button>
