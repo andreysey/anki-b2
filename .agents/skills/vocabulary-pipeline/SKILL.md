@@ -20,8 +20,9 @@ German;English;Ukrainian;Example
 
 ### Key Formatting Requirements:
 - Nouns: must include article `der`/`die`/`das` (check compound noun endings like `-urlaub` $\rightarrow$ `der`, `-verfahren` $\rightarrow$ `das`, `-vereinbarung` $\rightarrow$ `die`).
-- Separable verbs: mark prefix with `|` (e.g. `ein|stellen`).
-- Example sentences: must contain the target German term and no raw `**` asterisks.
+- Separable verbs: `|` before the prefix (e.g. `ein|stellen`) is optional; the generator detects common prefixes itself.
+- Example sentences: must contain the target German term (any conjugated form). Existing `**` marks are stripped by the generator; don't add new ones.
+- After regenerating, review highlight changes with `npm run diff:data`.
 
 ## 2. Validation & Linting
 Run the vocabulary linter to check for missing columns, missing examples, or broken formatting:

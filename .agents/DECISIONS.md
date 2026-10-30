@@ -71,14 +71,21 @@ Permanently fixed the following constants:
 ## ADR-004: Multi-Tier AI Assistant Cascade with In-Flight `AbortController` Protocol
 
 ### Context
-The in-app AI Coach (`src/services/ai.ts`) provides interactive grammar and linguistic assistance via the Gemini API. Requests can take several seconds, users may rapidly switch between words, and model quotas or network conditions fluctuate.
+The in-app AI Coach (`src/utils/ai.ts`, UI in `src/components/AIAssistant.vue`) explains words and
+writes workplace dialogues. It should work offline and without an API key where possible, requests
+can take seconds, users switch words quickly, and cloud quotas fluctuate.
 
 ### Decision
-1. **Model Cascade**: `gemini-2.5-flash` as primary, with structured fallback to alternative endpoints on quota exhaustion or format errors.
-2. **Security & Injection Protection**:
+1. **Cascade** (`callAI`): Chrome built-in Gemini Nano (Prompt API, global `LanguageModel`, used
+   only when already downloaded) → local WebLLM model via WebGPU (`src/utils/webllm.ts`; defaults:
+   Gemma 3 1B on f16 GPUs, Qwen3.5 0.8B otherwise; Qwen3 "thinking" disabled) → cloud Gemini API
+   with the user's key (`gemini-flash-lite-latest` first, then other models from the API list).
+2. **Answer language**: prompts contain the `ANSWER_LANGUAGE` placeholder; on-device models answer
+   in English (small models write it much better; Nano has no Ukrainian), the cloud in Ukrainian.
+3. **Security & Injection Protection**:
    - API key validation via `isValidApiKey(key)` before request execution to prevent HTTP header injection into `x-goog-api-key`.
    - `encodeURIComponent(model)` on dynamic URL construction.
-3. **In-Flight Cancellation**:
+4. **In-Flight Cancellation**:
    - In-flight request cancellation via `AbortController` when the user selects a different word or triggers a new request.
    - Resource cleanup in `onUnmounted`.
 
@@ -95,9 +102,12 @@ German lexical entries contain auxiliary grammatical notations:
 Passing these raw strings to the Web Speech API causes the speech synthesizer to read out punctuation and endings literally (e.g., "hyphen e"), degrading listening practice.
 
 ### Decision
-Created centralized audio sanitizers (`src/utils/audioCleaners.ts`):
-- `cleanGermanForSpeech(text)`: Strips parenthesized forms, plural suffixes after commas, and cleanses the string for native German pronunciation.
-- `cleanUkrainianForSpeech(text)`: Normalizes translations for speech synthesis.
+Strip grammatical notation before speech, in two places:
+- **Web app**: `cleanTextForSpeech(text)` in `src/utils/sanitize.ts`, used by
+  `src/composables/useSpeechSynthesis.ts` (voices come from the OS via the Web Speech API; when no
+  German voice exists the app shows OS-specific install steps from `src/utils/voiceHelp.ts`).
+- **Anki decks**: `cleanGermanForAudio`, `cleanEnglishForAudio`, `cleanExampleForAudio` in
+  `scripts/utils.ts` fill the `*_Audio` fields.
 
 ---
 
@@ -115,4 +125,4 @@ Strictly preserve Vitest test environment isolation (`isolate: true`, default in
 
 ### Rationale & Consequences
 - **Deterministic & Flaky-Free Tests**: Eliminates cross-suite state leakage, polluted browser mock objects, and un-reset singleton reactive objects between test files.
-- **Negligible Performance Penalty**: The entire test suite of 37+ files and 200+ tests executes in ~3.5 seconds on Node.js 24, rendering micro-optimizations unnecessary at the cost of correctness.
+- **Negligible Performance Penalty**: The whole suite runs in a few seconds, so isolation is not worth trading for speed.
