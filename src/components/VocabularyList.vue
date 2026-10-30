@@ -2,7 +2,7 @@
 import { Button } from './ui/button';
 import { Check, Volume2, ChevronDown, Copy } from '@lucide/vue';
 import type { Word } from '../types';
-import { sanitizeHtml } from '../utils/sanitize';
+import { sanitizeHtml, stripTags } from '../utils/sanitize';
 import { getThemaLabel } from '../utils/thema';
 import { getItemKey } from '../composables/useVocabulary';
 import { notify } from '../utils/notify';
@@ -19,8 +19,8 @@ const emit = defineEmits<{
 }>();
 
 const handleCopy = async (item: Word) => {
-  const cleanGerman = item.german.replace(/<[^>]*>?/gm, '');
-  const text = `${cleanGerman} - ${item.english} (${item.ukrainian || ''})${item.example ? `\nExample: ${item.example.replace(/<[^>]*>?/gm, '')}` : ''}`;
+  const cleanGerman = stripTags(item.german);
+  const text = `${cleanGerman} - ${item.english} (${item.ukrainian || ''})${item.example ? `\nExample: ${stripTags(item.example)}` : ''}`;
   if (typeof navigator !== 'undefined' && 'clipboard' in navigator) {
     try {
       await navigator.clipboard.writeText(text);

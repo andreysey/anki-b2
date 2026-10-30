@@ -1,6 +1,7 @@
 // High-performance Levenshtein & Umlaut-aware Fuzzy Matcher for German vocabulary
 import { normalizeGermanText, normalizeToSimpleAscii } from '../composables/useVocabulary';
 import type { Word } from '../types';
+import { stripTags } from './sanitize';
 
 export function getLevenshteinDistance(a: string, b: string): number {
   const m = a.length;
@@ -82,7 +83,7 @@ export function filterWordsFuzzy(vocabulary: Word[], query: string, limit = 15):
   const fuzzyMatches: Word[] = [];
 
   for (const w of vocabulary) {
-    const rawGerman = w.german.replace(/<[^>]*>?/gm, '');
+    const rawGerman = stripTags(w.german);
     const combined = `${rawGerman} ${w.english} ${w.ukrainian || ''}`;
 
     if (combined.toLowerCase().includes(q)) {

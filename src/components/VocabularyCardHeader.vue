@@ -3,6 +3,7 @@ import { Button } from './ui/button';
 import { Check, Share2, Copy } from '@lucide/vue';
 import type { Word } from '../types';
 import { getThemaLabel } from '../utils/thema';
+import { stripTags } from '../utils/sanitize';
 import { notify } from '../utils/notify';
 
 const props = defineProps<{
@@ -14,8 +15,8 @@ const emit = defineEmits<{
 }>();
 
 const handleCopy = async () => {
-  const cleanGerman = props.word.german.replace(/<[^>]*>?/gm, '');
-  const text = `${cleanGerman} - ${props.word.english} (${props.word.ukrainian || ''})${props.word.example ? `\nExample: ${props.word.example.replace(/<[^>]*>?/gm, '')}` : ''}`;
+  const cleanGerman = stripTags(props.word.german);
+  const text = `${cleanGerman} - ${props.word.english} (${props.word.ukrainian || ''})${props.word.example ? `\nExample: ${stripTags(props.word.example)}` : ''}`;
   if (typeof navigator !== 'undefined' && 'clipboard' in navigator) {
     try {
       await navigator.clipboard.writeText(text);
@@ -29,7 +30,7 @@ const handleCopy = async () => {
 const canShare = typeof navigator !== 'undefined' && typeof navigator.share === 'function';
 
 const handleShare = async () => {
-  const cleanGerman = props.word.german.replace(/<[^>]*>?/gm, '');
+  const cleanGerman = stripTags(props.word.german);
   const shareData = {
     title: `German B2: ${cleanGerman}`,
     text: `${cleanGerman} - ${props.word.english} (${props.word.ukrainian})\n${props.word.example ? `Example: ${props.word.example}` : ''}`,

@@ -155,7 +155,7 @@ function highlightSeparatedParticle(
     ?.replace(/\(.*?\)/g, ' ')
     .split(/\s+/)
     .find((w) => /^[a-zäöüß]+\|[a-zäöüß]+$/.test(w));
-  const infinitive = pipeVerb ? pipeVerb.replace('|', '') : extractInfinitive(cleanGerman);
+  const infinitive = pipeVerb ? pipeVerb.replaceAll('|', '') : extractInfinitive(cleanGerman);
   if (!infinitive) return html;
   const prefix = pipeVerb ? pipeVerb.split('|')[0] : separablePrefix(infinitive);
   if (!prefix) return html;

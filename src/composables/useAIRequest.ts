@@ -2,6 +2,7 @@
 // Must be called from a component's setup (it registers an unmount cleanup).
 import { ref, computed, onUnmounted } from 'vue';
 import { callAI, type AIServiceResponse } from '../utils/ai';
+import { stripTags } from '../utils/sanitize';
 import type { AIPrompt, AIPromptType } from '../utils/aiPrompts';
 
 const COPY_FEEDBACK_MS = 2000;
@@ -69,7 +70,7 @@ export function useAIRequest() {
   const copy = async () => {
     if (!resultText.value) return;
     try {
-      await navigator.clipboard.writeText(resultText.value.replace(/<[^>]*>/g, ''));
+      await navigator.clipboard.writeText(stripTags(resultText.value));
       isCopied.value = true;
       setTimeout(() => {
         isCopied.value = false;

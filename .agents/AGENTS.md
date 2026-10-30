@@ -22,7 +22,8 @@
   - Inform users that when importing a `.apkg` with new fields, Anki Desktop requires **"Merge note types"** enabled in the import dialog, or the note type in Anki must be updated first so fields align properly.
 
 ## Security & Sanitization Standards
-- **HTML Sanitization Boundary**:
+- **HTML Sanitization Boundary** (DOMPurify is the only guard; no regex pre-filters. Its tests run
+  in jsdom because happy-dom keeps `<script>` elements; use `stripTags` only for plain text):
   - Use `sanitizeHtml` for vocabulary terms and example sentences. It strictly allows formatting tags (`<b>`, `<strong>`, `<i>`, `<em>`, `<span>`, `<p>`, `<br>`) and restricts inline CSS properties to `color` only (needed for `#eab308` highlighting). Never allow unrestricted `style` attributes.
   - Use `sanitizeAiHtml` for LLM generated text. It parses markdown bullet lists and code tags while strictly disallowing any inline `style` attributes to prevent UI spoofing and CSS overlay attacks.
 - **API Key & Cloud Requests**:

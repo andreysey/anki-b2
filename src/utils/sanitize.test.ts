@@ -1,5 +1,8 @@
+// @vitest-environment jsdom
+// DOMPurify is tested in jsdom: happy-dom leaves <script> elements in parsed HTML, so it
+// would not show whether the real sanitizer works.
 import { describe, it, expect } from 'vitest';
-import { sanitizeHtml, sanitizeAiHtml, cleanTextForSpeech } from './sanitize';
+import { sanitizeHtml, sanitizeAiHtml, cleanTextForSpeech, stripTags } from './sanitize';
 
 describe('sanitizeHtml', () => {
   it('returns empty string for null, undefined or empty input', () => {
@@ -90,5 +93,38 @@ describe('cleanTextForSpeech', () => {
   it('normalizes multiple dots, ellipses and whitespace', () => {
     const input = 'Das ist...  gut…  ';
     expect(cleanTextForSpeech(input)).toBe('Das ist. gut.');
+  });
+});
+
+describe('XSS payloads', () => {
+  const payloads = [
+    '<SCRIPT >alert(1)</script >',
+    '<img src=x onerror=alert(1)>',
+    '<svg onload=alert(1)>',
+    '<a href="javascript:alert(1)">x</a>',
+    '<iframe src="https://evil.example"></iframe>',
+    '<b onclick="alert(1)">x</b>'
+  ];
+
+  it.each(payloads)('sanitizeHtml neutralizes %s', (payload) => {
+    const out = sanitizeHtml(payload).toLowerCase();
+    for (const bad of ['<script', '<img', '<svg', '<iframe', '<a', 'onerror', 'onload', 'onclick'])
+      expect(out).not.toContain(bad);
+  });
+
+  it.each(payloads)('sanitizeAiHtml neutralizes %s', (payload) => {
+    const out = sanitizeAiHtml(payload).toLowerCase();
+    for (const bad of ['<script', '<img', '<svg', '<iframe', '<a', 'onerror', 'onload', 'onclick'])
+      expect(out).not.toContain(bad);
+  });
+
+  it('sanitizeAiHtml drops every style attribute', () => {
+    expect(sanitizeAiHtml('<span style="color: red">x</span>')).not.toContain('style');
+  });
+});
+
+describe('stripTags', () => {
+  it('returns plain text', () => {
+    expect(stripTags('<b style="color: #eab308;">Antrag</b> stellen')).toBe('Antrag stellen');
   });
 });

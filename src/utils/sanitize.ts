@@ -43,10 +43,8 @@ purifier.addHook('afterSanitizeAttributes', (node) => {
 
 export const sanitizeHtml = (html: string | undefined | null): string => {
   if (!html) return '';
-  const cleanScript = html.replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, '');
-  const formatted = cleanScript
-    .replace(/\*\*(.*?)\*\*/g, '<b>$1</b>')
-    .replace(/\*(.*?)\*/g, '<i>$1</i>');
+  // DOMPurify below removes <script> (with its content) and everything else not allowed
+  const formatted = html.replace(/\*\*(.*?)\*\*/g, '<b>$1</b>').replace(/\*(.*?)\*/g, '<i>$1</i>');
 
   const sanitized = purifier.sanitize(`<span>${formatted}</span>`, {
     ALLOWED_TAGS: ['b', 'strong', 'i', 'em', 'span', 'p', 'br'],
@@ -58,12 +56,9 @@ export const sanitizeHtml = (html: string | undefined | null): string => {
 
 export const sanitizeAiHtml = (text: string | undefined | null): string => {
   if (!text) return '';
-  const cleanScript = text
-    .replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, '')
-    .replace(/\s*style\s*=\s*(['"][^'"]*['"]|[^\s>]+)/gi, '');
-
+  // DOMPurify below removes <script> and every style attribute (style isn't in ALLOWED_ATTR)
   // Process basic markdown lists line by line
-  const lines = cleanScript.split('\n');
+  const lines = text.split('\n');
   const formattedLines: string[] = [];
   let inList = false;
 
@@ -108,6 +103,12 @@ export const sanitizeAiHtml = (text: string | undefined | null): string => {
   return sanitized.replace(/^<span>/i, '').replace(/<\/span>$/i, '');
 };
 
+/**
+ * Plain text for the clipboard, sharing and search — never insert the result as HTML.
+ * Use sanitizeHtml / sanitizeAiHtml for anything rendered with v-html.
+ */
+export const stripTags = (html: string): string => html.replace(/<[^>]*>?/g, '');
+
 export const cleanTextForSpeech = (text: string | undefined | null): string => {
   if (!text) return '';
   let plainText: string;
@@ -116,7 +117,7 @@ export const cleanTextForSpeech = (text: string | undefined | null): string => {
     const doc = parser.parseFromString(text, 'text/html');
     plainText = doc.body.textContent || '';
   } else {
-    plainText = text.replace(/<[^>]*>/g, '');
+    plainText = stripTags(text);
   }
   return plainText
     .replace(/\*{1,2}/g, '')
