@@ -8,8 +8,8 @@ import {
   lookupVerbForms,
   parseVerbEntry,
   type VerbLexicon
-} from './verb-lexicon.js';
-import { highlightWordInExample } from './utils.js';
+} from './verb-lexicon.ts';
+import { highlightWordInExample } from './utils.ts';
 
 const SOURCE_DIR = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..', 'source');
 

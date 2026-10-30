@@ -10,7 +10,9 @@
     "types": ["node"],
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noEmit": true
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    "erasableSyntaxOnly": true
   },
   "include": ["scripts/**/*.ts"]
 }

@@ -6,7 +6,7 @@
  */
 import fs from 'node:fs';
 import path from 'node:path';
-import { SEP_PREFIXES } from './verb-grammar.js';
+import { SEP_PREFIXES } from './verb-grammar.ts';
 
 export type VerbLexicon = Map<string, string[]>;
 

@@ -17,9 +17,9 @@ import {
   getThemaNum,
   getThemaTag,
   getLevelFromFilename
-} from './utils.js';
-import { buildVerbTenses, formatTensesHtml } from './verb-grammar.js';
-import { buildVerbLexicon, extractInfinitive, lookupVerbForms } from './verb-lexicon.js';
+} from './utils.ts';
+import { buildVerbTenses, formatTensesHtml } from './verb-grammar.ts';
+import { buildVerbLexicon, extractInfinitive, lookupVerbForms } from './verb-lexicon.ts';
 
 // ── Stable Note Model Configuration ──────────────────────────────────────────
 // CRITICAL SAFETY NOTICE:

@@ -2,7 +2,7 @@ import { describe, it, expect, afterEach } from 'vitest';
 import path from 'path';
 import fs from 'fs';
 import os from 'os';
-import { generateAnkiDeck } from './generate-anki.js';
+import { generateAnkiDeck } from './generate-anki.ts';
 
 describe('generateAnkiDeck', () => {
   let tempDir: string;

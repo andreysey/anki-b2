@@ -9,8 +9,8 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { Worker } from 'node:worker_threads';
-import type { GenerateResult } from './generate-anki.js';
-import { getThemaNum } from './utils.js';
+import type { GenerateResult } from './generate-anki.ts';
+import { getThemaNum } from './utils.ts';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, '../');

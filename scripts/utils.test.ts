@@ -8,7 +8,7 @@ import {
   getThemaNum,
   getThemaTag,
   getLevelFromFilename
-} from './utils.js';
+} from './utils.ts';
 
 describe('cleanGermanForAudio', () => {
   it('strips parentheses, alternatives, prefixes and formatting', () => {

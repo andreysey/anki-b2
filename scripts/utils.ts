@@ -2,8 +2,8 @@
  * utils.ts — Vocabulary processing, audio cleaning, gender coloring, and highlighting utilities.
  */
 
-import { THEMA_NUMBERS } from '../src/constants/themas.js';
-import { extractInfinitive, isSingleVerbCard, separablePrefix } from './verb-lexicon.js';
+import { THEMA_NUMBERS } from '../src/constants/themas.ts';
+import { extractInfinitive, isSingleVerbCard, separablePrefix } from './verb-lexicon.ts';
 
 // Regex patterns for parenthetical notes, themas, articles, and grammar prefixes
 const RE_PARENS = /\s*\(.*?\)/g;

@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { validateLine, type ValidationIssue } from './lint-data.js';
+import { validateLine, type ValidationIssue } from './lint-data.ts';
 
 describe('lint-data validateLine', () => {
   it('returns no issues for valid formatted lines', () => {

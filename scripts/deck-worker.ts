@@ -1,5 +1,5 @@
 import { parentPort, workerData } from 'node:worker_threads';
-import { generateAnkiDeck } from './generate-anki.js';
+import { generateAnkiDeck } from './generate-anki.ts';
 
 interface WorkerPayload {
   files: string[];

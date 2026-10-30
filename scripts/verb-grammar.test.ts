@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { buildVerbTenses, formatTensesHtml } from './verb-grammar.js';
+import { buildVerbTenses, formatTensesHtml } from './verb-grammar.ts';
 
 describe('verb-grammar', () => {
   it('returns null for non-verbs (nouns, phrases without 3 forms)', () => {
