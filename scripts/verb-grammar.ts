@@ -203,9 +203,14 @@ export function buildVerbTenses(fullGerman: string, example: string = ''): Tense
       .replace(/\s+([.,;:])/g, '$1')
       .trim();
 
-  // Normalize 3sg form without stray 'sich' in stem for flexible positioning
-  const purePrasens3sg = prasens3sg.replace(/^sich\s+/i, '').replace(/\s+sich$/i, '');
-  const purePrateritum3sg = prateritum3sg.replace(/^sich\s+/i, '').replace(/\s+sich$/i, '');
+  // Drop 'sich' wherever the form has it ("bildet sich weiter") — sentences place it themselves
+  const withoutSich = (form: string) =>
+    form
+      .replace(/(^|\s)sich(?=\s|$)/gi, ' ')
+      .replace(/\s+/g, ' ')
+      .trim();
+  const purePrasens3sg = withoutSich(prasens3sg);
+  const purePrateritum3sg = withoutSich(prateritum3sg);
 
   // 1. Präsens
   let praesSentence: string;

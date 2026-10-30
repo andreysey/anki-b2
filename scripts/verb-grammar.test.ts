@@ -96,4 +96,40 @@ describe('verb-grammar', () => {
     expect(html).toContain('<span class="badge praes">Präsens</span>');
     expect(html).toContain('<span class="badge pass-alt">Passiversatz</span>');
   });
+
+  const sentences = (german: string, example = '') =>
+    Object.fromEntries((buildVerbTenses(german, example) ?? []).map((t) => [t.code, t.sentence]));
+
+  it('places sich once for reflexive verbs with a separable prefix (sich weiterbilden)', () => {
+    const t = sentences(
+      'sich weiter|bilden (bildet sich weiter, bildete sich weiter, hat sich weitergebildet)'
+    );
+    expect(t.praes).toBe('Er bildet sich weiter.');
+    expect(t.praet).toBe('Gestern bildete er sich weiter.');
+    expect(t.perf).toBe('Er hat sich weitergebildet.');
+    expect(Object.values(t).join(' ')).not.toMatch(/\bsich\s+sich\b/);
+  });
+
+  it('splits separable transitive verbs and builds passive forms (eingeben)', () => {
+    const t = sentences('etw. ein|geben (gibt ein, gab ein, hat eingegeben)');
+    expect(t.praes).toBe('Er gibt das Dokument ein.');
+    expect(t.praet).toBe('Gestern gab er das Dokument ein.');
+    expect(t.pass).toBe('Das Dokument wird / wurde eingegeben.');
+    expect(t['pass-alt']).toBe('Das Dokument lässt sich eingeben · ist einzugeben.');
+    expect(t.konj1).toBe('Er sagte, er gebe das Dokument ein.');
+  });
+
+  it('uses sein for perfect tenses of motion verbs and skips the passive (kommen)', () => {
+    const t = sentences('kommen (kommt, kam, ist gekommen)');
+    expect(t.perf).toMatch(/^Er ist .*gekommen\.$/);
+    expect(t.plusq).toMatch(/^Er war .*gekommen\.$/);
+    expect(t.konj2).toMatch(/wäre .*gekommen\.$/);
+    expect(t.pass).toContain('Nicht passivfähig');
+  });
+
+  it('marks reflexive verbs as not passivizable (sich bewerben)', () => {
+    const t = sentences('sich bewerben (bewirbt sich, bewarb sich, hat sich beworben)');
+    expect(t.praes).toBe('Er bewirbt sich.');
+    expect(t.pass).toContain('reflexives Verb');
+  });
 });
