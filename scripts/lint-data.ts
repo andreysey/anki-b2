@@ -96,7 +96,9 @@ export function validateLine(line: string): ValidationIssue[] {
       const wordPattern = new RegExp(`\\b${abbr}\\b`);
       if (
         wordPattern.test(example) &&
-        !example.toLowerCase().includes(german.split('(')[0].trim().toLowerCase().slice(0, 5))
+        !example
+          .toLowerCase()
+          .includes((german.split('(')[0] ?? '').trim().toLowerCase().slice(0, 5))
       ) {
         issues.push({
           type: 'warning',

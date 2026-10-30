@@ -45,6 +45,7 @@ const count = Math.min(oldCards.length, newCards.length);
 for (let i = 0; i < count; i++) {
   const before = oldCards[i];
   const after = newCards[i];
+  if (!before || !after) continue;
   const fields = Object.keys({ ...before, ...after }).filter(
     (k) => JSON.stringify(before[k]) !== JSON.stringify(after[k])
   );

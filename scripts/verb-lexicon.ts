@@ -101,7 +101,7 @@ export function extractInfinitive(german: string): string | null {
     .replace(/\|/g, '')
     .split(/\s+/)
     .filter((w) => VERB_WORD_RE.test(w) && !NOT_VERBS.has(w));
-  return words.length ? words[words.length - 1] : null;
+  return words.at(-1) ?? null;
 }
 
 /** True when the verb is the only content word: "sich einsetzen für" yes, "treu bleiben" no. */
@@ -111,7 +111,8 @@ export function isSingleVerbCard(german: string): boolean {
     .replace(/[|.]/g, '')
     .split(/[\s/]+/)
     .filter((w) => w && !FUNCTION_WORDS.has(w.toLowerCase()));
-  return content.length === 1 && extractInfinitive(content[0]) === content[0];
+  const [only] = content;
+  return content.length === 1 && only !== undefined && extractInfinitive(only) === only;
 }
 
 export function parseVerbEntry(german: string): [string, string[]] | null {
@@ -127,7 +128,7 @@ export function parseVerbEntry(german: string): [string, string[]] | null {
       .split(/\s+/)
       .filter((w) => w !== infinitive)
   );
-  const forms = m[1]
+  const forms = (m[1] ?? '')
     .split(',')
     .flatMap(formWords)
     .filter((w) => !lemmaWords.has(w));
@@ -145,7 +146,7 @@ export function buildVerbLexicon(sourceDir: string): VerbLexicon {
     .sort();
   for (const f of files) {
     for (const line of fs.readFileSync(path.join(sourceDir, f), 'utf8').split('\n')) {
-      const entry = parseVerbEntry(line.split(';')[0].trim());
+      const entry = parseVerbEntry((line.split(';')[0] ?? '').trim());
       if (entry && !lexicon.has(entry[0])) lexicon.set(entry[0], entry[1]);
     }
   }
@@ -190,7 +191,7 @@ export function lookupVerbForms(verb: string, lexicon: VerbLexicon): string[] {
     if (!direct && !baseForms) {
       // stimmen → stimmt, stimmte (split off) + übereingestimmt (joined participle)
       const [present, past, participle] = regularForms(base);
-      if (participle) forms.push(present, past, prefix + participle);
+      if (present && past && participle) forms.push(present, past, prefix + participle);
     }
   } else if (!direct) {
     forms.push(...regularForms(verb));

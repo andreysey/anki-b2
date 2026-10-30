@@ -294,7 +294,8 @@ export async function generateAnkiDeck(
   let totalEntries = 0;
   let noteIndex = 0;
   // Built from every source file, so all decks highlight the same way
-  const verbLexicon = files.length ? buildVerbLexicon(path.dirname(files[0])) : new Map();
+  const [firstFile] = files;
+  const verbLexicon = firstFile ? buildVerbLexicon(path.dirname(firstFile)) : new Map();
 
   for (const filePath of files) {
     const fname = path.basename(filePath);
@@ -316,10 +317,8 @@ export async function generateAnkiDeck(
         continue;
       }
 
-      const wordDisplay = parts[0];
-      const english = parts[1];
-      const ukrainian = parts[2];
-      const exampleRaw = parts[3] ?? '';
+      // At least 3 columns are guaranteed above; the example is optional
+      const [wordDisplay = '', english = '', ukrainian = '', exampleRaw = ''] = parts;
 
       const wordAudio = cleanGermanForAudio(wordDisplay); // German_Audio
       const germanColored = colorizeGender(wordDisplay); // German (with <span>)

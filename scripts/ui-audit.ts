@@ -29,7 +29,7 @@ const THEMES = ['light', 'dark'] as const;
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
 // ── Chrome discovery ────────────────────────────────────────────────────────────
-function findChrome(): string[] {
+function findChrome(): [string, ...string[]] {
   const candidates = [
     process.env.CHROME_BIN,
     'google-chrome',

@@ -55,6 +55,13 @@ export const SEP_PREFIXES = [
   'zu'
 ];
 
+/** Accusative object → nominative passive subject ("den Fehler" → "Der Fehler", "" → "Es"). */
+const passiveSubjectOf = (obj: string): string => {
+  if (!obj) return 'Es';
+  if (obj.startsWith('den ')) return 'Der ' + obj.slice(4);
+  return obj.charAt(0).toUpperCase() + obj.slice(1);
+};
+
 /**
  * Parses German verb string with principal forms in parentheses.
  * e.g. "etw. anfordern (fordert an, forderte an, hat angefordert)"
@@ -66,16 +73,18 @@ export function buildVerbTenses(fullGerman: string, example: string = ''): Tense
   const parenMatch = fullGerman.match(/\(([^()]+,\s*[^()]+,\s*(?:hat|ist|hat\/ist)\s+[^()]+)\)$/);
   if (!parenMatch) return null;
 
-  const parts = parenMatch[1].split(',').map((s) => s.trim());
-  if (parts.length < 3) return null;
-
-  const prasens3sg = parts[0];
-  const prateritum3sg = parts[1];
-  const auxMatch = parts[2].match(/^(hat\/ist|hat|ist)\s+(.+)$/);
+  const [prasens3sg, prateritum3sg, auxPart] = (parenMatch[1] ?? '')
+    .split(',')
+    .map((s) => s.trim());
+  if (prasens3sg === undefined || prateritum3sg === undefined || auxPart === undefined) {
+    return null;
+  }
+  const auxMatch = auxPart.match(/^(hat\/ist|hat|ist)\s+(.+)$/);
   if (!auxMatch) return null;
 
-  const isSein = auxMatch[1].includes('ist') && !auxMatch[1].includes('hat');
-  const p2 = auxMatch[2].replace(/^sich\s+/i, '').trim();
+  const [, aux = '', participle = ''] = auxMatch;
+  const isSein = aux.includes('ist') && !aux.includes('hat');
+  const p2 = participle.replace(/^sich\s+/i, '').trim();
 
   const beforeParens = fullGerman.replace(/\s*\([^)]*\)$/, '').trim();
   const isReflexive = /^sich\s+/i.test(beforeParens) || prasens3sg.includes('sich');
@@ -103,7 +112,7 @@ export function buildVerbTenses(fullGerman: string, example: string = ''): Tense
     if (infinitive.startsWith(sp) && infinitive.length >= sp.length + 3) {
       // Check if it really separates in Präsens (e.g. "führt durch" vs "überweist")
       const words = prasens3sg.split(/\s+/);
-      if (words.length > 1 && words[words.length - 1] === sp) {
+      if (words.length > 1 && words.at(-1) === sp) {
         prefix = sp;
         baseVerb = infinitive.slice(sp.length);
         break;
@@ -139,7 +148,7 @@ export function buildVerbTenses(fullGerman: string, example: string = ''): Tense
 
   if (isReflexive) {
     if (prepMatch) {
-      const prep = prepMatch[1].toLowerCase();
+      const prep = (prepMatch[1] ?? '').toLowerCase();
       if (prep === 'um') obj = 'um die Stelle';
       else if (prep === 'auf') obj = 'auf den Termin';
       else if (prep === 'an') obj = 'an das Projekt';
@@ -171,7 +180,7 @@ export function buildVerbTenses(fullGerman: string, example: string = ''): Tense
     }
   } else {
     if (prepMatch) {
-      const prep = prepMatch[1].toLowerCase();
+      const prep = (prepMatch[1] ?? '').toLowerCase();
       if (prep === 'um') obj = 'um die Stelle';
       else if (prep === 'auf') obj = 'auf den Fehler';
       else if (prep === 'an') obj = 'an das Vorhaben';
@@ -273,11 +282,7 @@ export function buildVerbTenses(fullGerman: string, example: string = ''): Tense
   } else if (isSein) {
     passivSentence = '(Nicht passivfähig – intransitives Verb)';
   } else {
-    const passivSubject = obj
-      ? obj.startsWith('den ')
-        ? 'Der ' + obj.slice(4)
-        : obj[0].toUpperCase() + obj.slice(1)
-      : 'Es';
+    const passivSubject = passiveSubjectOf(obj);
     passivSentence = `${passivSubject} wird / wurde ${p2}.`;
   }
 
@@ -288,11 +293,7 @@ export function buildVerbTenses(fullGerman: string, example: string = ''): Tense
   } else if (isSein) {
     passivErsatzSentence = '(Kein Passiversatz – intransitives Verb)';
   } else {
-    const passivSubject = obj
-      ? obj.startsWith('den ')
-        ? 'Der ' + obj.slice(4)
-        : obj[0].toUpperCase() + obj.slice(1)
-      : 'Es';
+    const passivSubject = passiveSubjectOf(obj);
     passivErsatzSentence = `${passivSubject} lässt sich ${infinitive} · ist ${zuInf}.`;
   }
 

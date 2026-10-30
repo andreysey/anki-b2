@@ -21,6 +21,9 @@ const highlightWordCache = new Map<string, string>();
 const regexPatternCache = new Map<string, RegExp>();
 const MAX_REGEX_CACHE_SIZE = 1000;
 
+/** Text before the first separator (split always yields at least one part). */
+const firstPart = (text: string, separator: string): string => text.split(separator)[0] ?? text;
+
 export const getCompiledRegex = (patternStr: string, flags: string): RegExp => {
   const key = `${patternStr}|||${flags}`;
   let regex = regexPatternCache.get(key);
@@ -57,24 +60,24 @@ export function cleanGermanForAudio(text: string): string {
 
   // Noun pairs separated by " / die " or " / der " etc.
   if (t.includes(' / ')) {
-    t = t.split(' / ')[0];
+    t = firstPart(t, ' / ');
   }
 
   // Plural/suffix after comma (e.g. "die Abteilung, -en", "das Buch, -¨er", "das Praktikum, Praktika")
   // while preserving dialogue sentences with commas (e.g. "Ja, das passt")
   if (/^[a-zA-ZäöüÄÖÜß\s|–-]+,\s*(-|"-|–|—|[A-ZÄÖÜ][a-zäöüß]+$)/.test(t)) {
-    t = t.split(',')[0];
+    t = firstPart(t, ',');
   } else if (/^[a-zA-ZäöüÄÖÜß\s|–-]+,\s*$/.test(t)) {
-    t = t.split(',')[0];
+    t = firstPart(t, ',');
   }
 
   // Handle remaining single slash in word alternatives like "kaufen/verkaufen"
   if (t.includes('/') && !t.includes(' ')) {
-    t = t.split('/')[0];
+    t = firstPart(t, '/');
   } else if (t.includes('/')) {
     const words = t.split(' ');
     t = words
-      .map((w) => (w.includes('/') && !w.startsWith('http') ? w.split('/')[0] : w))
+      .map((w) => (w.includes('/') && !w.startsWith('http') ? firstPart(w, '/') : w))
       .join(' ');
   }
 
@@ -89,10 +92,10 @@ export function cleanEnglishForAudio(text: string): string {
   t = t.replace(/[*_]/g, '');
   // Take first alternative before slash or comma for natural speech playback
   if (t.includes('/')) {
-    t = t.split('/')[0];
+    t = firstPart(t, '/');
   }
   if (t.includes(',')) {
-    t = t.split(',')[0];
+    t = firstPart(t, ',');
   }
   return t.trim();
 }
@@ -204,13 +207,12 @@ export function highlightWordInExample(
     }
 
     // ── 1b. Parse plural form if originalGerman contains comma plural suffix (e.g. `"-e`, `"-er`, `"-`, `-en`)
-    const commaParts = originalGerman.split(',');
-    if (commaParts.length >= 2) {
-      const suffixPart = commaParts[1].trim();
-      const m = suffixPart.match(/^(["–—-]?[a-zA-ZäöüÄÖÜß-]+)/);
-      if (m && (m[1].includes('-') || m[1].includes('"'))) {
-        const pluralSuffix = m[1];
-        const rawNoun = commaParts[0].replace(/^(der|die|das)\s+/i, '').trim();
+    const [nounPart = '', suffixPartRaw] = originalGerman.split(',');
+    if (suffixPartRaw !== undefined) {
+      const suffixPart = suffixPartRaw.trim();
+      const pluralSuffix = suffixPart.match(/^(["–—-]?[a-zA-ZäöüÄÖÜß-]+)/)?.[1];
+      if (pluralSuffix && (pluralSuffix.includes('-') || pluralSuffix.includes('"'))) {
+        const rawNoun = nounPart.replace(/^(der|die|das)\s+/i, '').trim();
         const noun = rawNoun.split(/\s+/).pop()?.replace(/\|/g, '') || '';
         if (noun && noun.length >= 3) {
           const hasUmlaut = pluralSuffix.includes('"');
@@ -219,8 +221,8 @@ export function highlightWordInExample(
           if (hasUmlaut) {
             base = base.replace(/(au|a|o|u)(?=[^aeiouäöü]*(?:(?:el|er|en)$|$))/i, (match) => {
               const lower = match.toLowerCase();
-              const isCap =
-                match[0] === match[0].toUpperCase() && match[0] !== match[0].toLowerCase();
+              const first = match.charAt(0);
+              const isCap = first === first.toUpperCase() && first !== first.toLowerCase();
               if (lower === 'au') return isCap ? 'Äu' : 'äu';
               if (lower === 'a') return isCap ? 'Ä' : 'ä';
               if (lower === 'o') return isCap ? 'Ö' : 'ö';
@@ -462,8 +464,8 @@ export function getThemaNum(filename: string): number {
   if (filename.includes('Adjektive')) return THEMA_NUMBERS.ADJEKTIVE;
   if (filename.includes('Praepositionen')) return THEMA_NUMBERS.PRAEPOSITIONEN;
   if (filename.includes('Verben')) return THEMA_NUMBERS.VERBEN;
-  const m = RE_THEMA.exec(filename);
-  return m ? parseInt(m[1], 10) : 0;
+  const num = RE_THEMA.exec(filename)?.[1];
+  return num ? parseInt(num, 10) : 0;
 }
 
 /**
