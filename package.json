@@ -27,6 +27,7 @@
     "generate:anki": "node scripts/generate-all-anki.ts",
     "diff:data": "node scripts/diff-data.ts",
     "audit:ui": "node scripts/ui-audit.ts",
+    "ci:status": "node scripts/ci-status.ts",
     "release": "semantic-release",
     "prepare": "husky"
   },

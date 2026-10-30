@@ -14,10 +14,13 @@ Deck generator invariants: `.agents/rules/anki-decks.md` (when editing `scripts/
 
 ## Commands
 
-| Task                                  | Command                                     |
-| ------------------------------------- | ------------------------------------------- |
-| Fast full check before committing     | `npm run agent:ready`                       |
-| Everything CI runs                    | `npm run validate` + `npm run format:check` |
-| Regenerate decks + `public/data.json` | `npm run generate:anki`                     |
-| What changed in example highlights    | `npm run diff:data`                         |
-| UI audit (screens, contrast, a11y)    | `npm run build && npm run audit:ui`         |
+| Task                                   | Command                                     |
+| -------------------------------------- | ------------------------------------------- |
+| Fast full check before committing      | `npm run agent:ready`                       |
+| Everything CI runs                     | `npm run validate` + `npm run format:check` |
+| Regenerate decks + `public/data.json`  | `npm run generate:anki`                     |
+| What changed in example highlights     | `npm run diff:data`                         |
+| UI audit (screens, contrast, a11y)     | `npm run build && npm run audit:ui`         |
+| CI / release status of a pushed commit | `npm run ci:status -- --wait`               |
+
+To commit, push and verify a change, follow the `ship` skill (`.agents/skills/ship/SKILL.md`).

@@ -1,0 +1,73 @@
+---
+name: ship
+description: Commit, push and verify a change in anki-b2 end to end — choosing the commit prefix (which decides whether a release goes live), handling the release bot's commit, waiting for CI and confirming the release/deploy. Use whenever finishing a task that should be committed and pushed.
+---
+
+# Ship a Change
+
+Every push to `main` runs CI and **Release and Deploy**. semantic-release reads the commit
+prefixes since the last release: `feat`/`fix` publish a new version and deploy GitHub Pages to
+users within minutes; everything else only runs checks.
+
+## 1. Verify locally
+
+```bash
+npm run agent:ready          # type-check, data lint, health checks, tests
+npm run format:check         # CI fails on formatting
+```
+
+Also, depending on what changed:
+
+- Generator / `source/*.txt` → `npm run generate:anki && npm run diff:data`, review every card.
+  Commit `anki/*.apkg` + `public/data.json` only if `data.json` changed.
+- UI → `npm run build && npm run audit:ui` (must report zero problems).
+
+The pre-commit and pre-push hooks run these checks again; never bypass them with `--no-verify`
+for code changes.
+
+## 2. Pick the prefix
+
+| Change                                           | Prefix                     | Release? |
+| ------------------------------------------------ | -------------------------- | -------- |
+| New user-visible feature                         | `feat(scope):`             | minor    |
+| Bug fix, data/deck fix users should get          | `fix(scope):`              | patch    |
+| Agent rules, docs                                | `docs:`                    | no       |
+| Tooling, scripts for developers, deps not shipped | `chore:` / `build:`        | no       |
+| CI workflows                                     | `ci:`                      | no       |
+| Tests only                                       | `test:`                    | no       |
+
+Split a mixed change into separate commits so only the user-facing part releases.
+Use a body that explains *why*; end with the attribution trailer the session requires.
+
+## 3. Push
+
+```bash
+git push origin main
+```
+
+Rejected with "fetch first"? The release bot pushed `chore(release): x.y.z` after your previous
+push. Rebase on it — never force-push `main`:
+
+```bash
+git pull --rebase && git push origin main
+```
+
+## 4. Wait for CI and the release
+
+```bash
+npm run ci:status -- --wait
+```
+
+It prints each workflow with ✅/❌, exits 1 on failure, and says whether a release commit was
+created. Then `git pull --rebase` so the next commit starts from the release commit.
+
+- The public GitHub API allows 60 requests/hour; `ci:status` polls every 30 s. If it reports the
+  rate limit, wait or set `GITHUB_TOKEN`.
+- A failed **Release and Deploy** with passing CI usually means a flaky test in the release job;
+  check the run URL it prints before re-pushing.
+
+## 5. Confirm the deploy (for `feat`/`fix`)
+
+The header shows the version (`vX.Y.Z`). After the deploy job finishes, the live site at
+https://andreysey.github.io/anki-b2/ should reference the new build; the PWA updates itself on the
+next visit.

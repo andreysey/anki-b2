@@ -47,3 +47,30 @@ Ensure the Vue 3 web application compiles without errors:
 ```bash
 npm run build
 ```
+
+## 6. Improving Example Highlighting
+
+The generator highlights the learned word in each example (`highlightWordInExample` in
+`scripts/utils.ts`). Cards it cannot highlight show up as warnings in `npm run generate:anki`
+("could not be matched/highlighted"). Work through them like this:
+
+1. **Group the warnings by cause** before writing code (separable verb split in the sentence,
+   irregular form, ge-participle, phrase alternatives, wording that simply differs).
+2. **Know the pipeline order** — first match wins:
+   card's own forms in parentheses → stems of the card's words → verb forms from the lexicon
+   (`scripts/verb-lexicon.ts`, built from every `verb (3sg, prät, hat P2)` entry in `source/`)
+   → `" / "` phrase alternatives. Then the separated particle is added at the clause end
+   (`steht … zu`).
+   Single-verb cards (`sich einsetzen für`) try verb forms first so a preposition or a noun
+   sharing the stem doesn't win; multi-word cards (`eine Absprache treffen`, `treu bleiben`)
+   keep the noun/phrase first.
+3. **Add new logic late in the chain** so already-correct cards stay unchanged.
+4. **Review every changed card**: `npm run generate:anki && npm run diff:data`. A wrong highlight
+   is worse than none. Known traps:
+   - prepositions ending in `-en` (`gegen`, `wegen`) look like infinitives;
+   - short forms (`kam`) must not match inside other words (`Kamera`) — forms only allow verb
+     endings after them;
+   - entries with two verbs (`ausreden lassen`, `sich leisten können`).
+5. **Add a test per case** in `scripts/utils.test.ts` or `scripts/verb-lexicon.test.ts`.
+6. Cards that only need different wording (e.g. a Redemittel template whose example uses other
+   words) are fixed in `source/*.txt`, not in code.
