@@ -24,7 +24,20 @@ export default defineConfig({
     coverage: {
       provider: 'v8',
       reporter: ['text', 'json', 'html'],
-      exclude: ['node_modules/', 'dist/']
+      exclude: [
+        'node_modules/',
+        'dist/',
+        // Generated shadcn primitives
+        'src/components/ui/**',
+        // Developer tools and CLI entry points (exercised by CI / by running them)
+        'scripts/ui-audit.ts',
+        'scripts/ci-status.ts',
+        'scripts/diff-data.ts',
+        'scripts/deck-worker.ts',
+        'scripts/generate-all-anki.ts'
+      ],
+      // Fail when coverage drops noticeably below today's level (≈83/77/83/85)
+      thresholds: { statements: 81, branches: 75, functions: 81, lines: 83 }
     }
   },
   plugins: [
