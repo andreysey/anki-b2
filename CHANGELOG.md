@@ -1,3 +1,10 @@
+## [1.64.6](https://github.com/andreysey/anki-b2/compare/v1.64.5...v1.64.6) (2026-10-30)
+
+
+### Bug Fixes
+
+* **ui:** first notification could be lost; toasts can be closed ([e53226f](https://github.com/andreysey/anki-b2/commit/e53226f35db9c91d44056f2f4321d87be3c8dc2d))
+
 ## [1.64.5](https://github.com/andreysey/anki-b2/compare/v1.64.4...v1.64.5) (2026-10-30)
 
 
