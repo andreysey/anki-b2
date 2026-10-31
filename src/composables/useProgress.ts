@@ -18,18 +18,26 @@ export interface StudyStreakData {
 const SRS_SAVE_DEBOUNCE_MS = 500;
 
 const stored = migrateProgressKeys(
-  safeStorage.getItem<string[]>(STORAGE_KEYS.MASTERED_WORDS, []),
-  safeStorage.getItem<Record<string, SRSState>>(STORAGE_KEYS.SRS_DATA, {})
+  safeStorage.getItem<unknown>(STORAGE_KEYS.MASTERED_WORDS, []),
+  safeStorage.getItem<unknown>(STORAGE_KEYS.SRS_DATA, {})
 );
 const masteredIds = ref<Set<string>>(new Set<string>(stored.masteredIds));
 const srsData = ref<Record<string, SRSState>>(stored.srsData);
 if (stored.changed) {
-  // Progress saved by an older version: store it under the current keys
+  // Progress saved by an older version (or partly unreadable): store the cleaned version
   safeStorage.setItem(STORAGE_KEYS.MASTERED_WORDS, stored.masteredIds);
   safeStorage.setItem(STORAGE_KEYS.SRS_DATA, stored.srsData);
 }
 const studyStreak = ref<StudyStreakData>(
-  safeStorage.getItem<StudyStreakData>(STORAGE_KEYS.STUDY_STREAK, { lastDate: '', streak: 0 })
+  safeStorage.getItem<StudyStreakData>(
+    STORAGE_KEYS.STUDY_STREAK,
+    { lastDate: '', streak: 0 },
+    (v) =>
+      !!v &&
+      typeof v === 'object' &&
+      typeof (v as StudyStreakData).lastDate === 'string' &&
+      Number.isFinite((v as StudyStreakData).streak)
+  )
 );
 const sessionReviewedCount = ref(0);
 

@@ -75,6 +75,43 @@ describe('migrateProgressKeys', () => {
   });
 });
 
+describe('unreadable saved progress', () => {
+  it.each([
+    ['null', null, null],
+    ['wrong types', { a: 1 }, ['not', 'an', 'object']],
+    ['a string', 'oops', 'oops']
+  ])('%s becomes empty progress instead of an error', (_name, mastered, srs) => {
+    expect(migrateProgressKeys(mastered, srs)).toEqual({
+      masteredIds: [],
+      srsData: {},
+      changed: true
+    });
+  });
+
+  it('drops broken entries and keeps the valid ones', () => {
+    const valid = { level: 2, lastReview: 10 };
+    const result = migrateProgressKeys([CURRENT, 42, '', null], {
+      [CURRENT]: valid,
+      broken: null,
+      nan: { level: Number.NaN, lastReview: 1 },
+      text: { level: '3', lastReview: 1 },
+      ['__proto__']: valid
+    });
+    expect(result).toEqual({
+      masteredIds: [CURRENT],
+      srsData: { [CURRENT]: valid },
+      changed: true
+    });
+    expect(Object.getPrototypeOf(result.srsData)).toBe(Object.prototype);
+  });
+
+  it('clamps out-of-range levels', () => {
+    expect(migrateProgressKeys([], { [CURRENT]: { level: 99, lastReview: -5 } }).srsData).toEqual({
+      [CURRENT]: { level: 5, lastReview: 0 }
+    });
+  });
+});
+
 describe('saved progress from an older version', () => {
   beforeEach(() => {
     localStorage.clear();
@@ -92,6 +129,22 @@ describe('saved progress from an older version', () => {
     expect([...masteredIds.value]).toEqual([CURRENT]);
     expect(JSON.parse(localStorage.getItem('anki_srs_v2')!)).toEqual(srsData.value);
     expect(JSON.parse(localStorage.getItem('anki_mastered_words')!)).toEqual([CURRENT]);
+  });
+
+  it.each([
+    ['progress is null', 'anki_srs_v2', 'null'],
+    ['mastered words are an object', 'anki_mastered_words', '{"a":1}'],
+    ['a card entry is null', 'anki_srs_v2', '{"x":null}'],
+    ['the streak is null', 'anki_study_streak_v1', 'null']
+  ])('does not crash the app when %s', async (_name, key, value) => {
+    localStorage.setItem(key, value);
+    const { useProgress } = await import('../composables/useProgress');
+    const progress = useProgress();
+
+    progress.recordReview(CURRENT, 'good');
+    expect(progress.srsData.value[CURRENT]?.level).toBe(1);
+    expect(progress.dueCardsCount.value).toBe(0);
+    expect(progress.studyStreak.value.streak).toBe(1);
   });
 
   it('is migrated when restored from an old backup', async () => {

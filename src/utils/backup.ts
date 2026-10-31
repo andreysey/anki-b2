@@ -126,6 +126,7 @@ export function downloadBackupFile(
   anchor.href = url;
   anchor.download = filename;
   anchor.click();
-  URL.revokeObjectURL(url);
+  // Revoking right away can cancel the download in some browsers (Firefox, Safari)
+  setTimeout(() => URL.revokeObjectURL(url), 60_000);
   markBackupDone();
 }

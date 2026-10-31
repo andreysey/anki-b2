@@ -5,6 +5,9 @@ import { CANCELLED, type AIServiceResponse } from './aiTypes';
 
 const API_BASE = 'https://generativelanguage.googleapis.com/v1beta/models';
 
+export const INVALID_KEY_MESSAGE =
+  'Google rejected the Gemini API key (invalid, revoked or not allowed for this API). Check it in AI settings.';
+
 export const QUOTA_EXCEEDED_MESSAGE =
   'Gemini API request quota exceeded. Please wait a minute before retrying, or switch to the local WebGPU model in AI settings.';
 
@@ -73,7 +76,7 @@ export const getAvailableGeminiModels = async (
         .sort(rankGeminiModels);
       if (supported.length) {
         cachedModels = supported;
-        lastKeyForCache = cloudKey;
+        lastKeyForCache = sanitizedKey;
         return supported;
       }
     }
@@ -118,6 +121,15 @@ export async function askGemini(
           console.warn(`Gemini candidate model ${model} hit rate/quota limit (429)`);
           return failure(QUOTA_EXCEEDED_MESSAGE);
         }
+        // A bad key fails the same way for every model: stop instead of trying them all
+        const keyRejected =
+          response.status === 401 ||
+          response.status === 403 ||
+          (Array.isArray(errData.error?.details) &&
+            errData.error.details.some(
+              (d: { reason?: string }) => d?.reason === 'API_KEY_INVALID'
+            ));
+        if (keyRejected) return failure(INVALID_KEY_MESSAGE);
         lastError = errData.error?.message || `HTTP error ${response.status}`;
         console.warn(`Gemini candidate model ${model} failed (${response.status}):`, lastError);
         continue;
