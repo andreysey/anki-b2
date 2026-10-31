@@ -11,7 +11,8 @@ export const STORAGE_KEYS = {
   AUTOPLAY: 'anki_autoplay',
   LAST_BACKUP: 'anki_last_backup',
   LAST_BACKUP_REMINDER: 'anki_last_backup_reminder',
-  PERSIST_REQUESTED: 'anki_persist_requested'
+  PERSIST_REQUESTED: 'anki_persist_requested',
+  DAILY_STUDY: 'anki_daily_study_v1'
 } as const;
 
 export type StorageKey = (typeof STORAGE_KEYS)[keyof typeof STORAGE_KEYS];

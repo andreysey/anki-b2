@@ -40,7 +40,8 @@ export function useStudyActions() {
 
   const studyProgress = computed(() => {
     const total = studyList.value.length;
-    return total ? Math.round(((currentStudyIndex.value + 1) / total) * 100) : 0;
+    // Past the last card (session done) counts as 100%
+    return total ? Math.round((Math.min(currentStudyIndex.value + 1, total) / total) * 100) : 0;
   });
 
   return { grade, masterCurrentCard, flip, studyProgress };

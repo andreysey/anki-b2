@@ -70,3 +70,41 @@ export const compareStudyCards = (
   }
   return dueA - dueB;
 };
+
+/** New cards introduced per day in the daily session. */
+export const NEW_CARDS_PER_DAY = 10;
+
+/**
+ * Today's session from cards already in study order: every card that was reviewed before and is
+ * due now, then up to `newQuota` cards never reviewed.
+ */
+export const buildDailySession = (
+  sortedCards: Word[],
+  reviews: Record<string, SRSState>,
+  now: number,
+  newQuota: number
+): { cards: Word[]; dueCount: number; newCount: number; newLeft: number } => {
+  const due: Word[] = [];
+  const fresh: Word[] = [];
+  let neverReviewed = 0;
+  for (const card of sortedCards) {
+    const review = reviews[getItemKey(card)];
+    if (!review) {
+      neverReviewed++;
+      if (fresh.length < newQuota) fresh.push(card);
+    } else if (getCardDueDate(review) <= now) {
+      due.push(card);
+    }
+  }
+  return {
+    cards: [...due, ...fresh],
+    dueCount: due.length,
+    newCount: fresh.length,
+    /** New cards not in this session, available for "+10 more new" */
+    newLeft: neverReviewed - fresh.length
+  };
+};
+
+/** "2026-10-31" in local time. */
+export const toLocalDateString = (d: Date): string =>
+  `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;

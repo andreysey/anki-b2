@@ -38,6 +38,7 @@ describe('useVocabulary composable', () => {
     vocab.themaFilter.value = 'all';
     vocab.currentStudyIndex.value = 0;
     vocab.isShuffled.value = false;
+    vocab.setSessionMode('daily');
     vocab.isAutoplay.value = false;
     vocab.displayLimit.value = 24;
     vocab.sessionReviewedCount.value = 0;
@@ -156,8 +157,10 @@ describe('useVocabulary composable', () => {
       '2': { level: 1, lastReview: now - 1 * 60 * 60 * 1000 }
     };
 
-    expect(vocab.studyList.value[0].id).toBe('1');
-    expect(vocab.studyList.value[1].id).toBe('2');
+    // Today's session holds only due cards; "all cards" keeps the rest after them
+    expect(vocab.studyList.value.map((w) => w.id)).toEqual(['1']);
+    vocab.setSessionMode('all');
+    expect(vocab.studyList.value.map((w) => w.id)).toEqual(['1', '2']);
   });
 
   it('handles init fetch error gracefully', async () => {

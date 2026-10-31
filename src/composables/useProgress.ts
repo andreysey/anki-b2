@@ -5,7 +5,7 @@ import type { SRSState } from '../types';
 import { safeStorage } from '../utils/storage';
 import { STORAGE_KEYS } from '../constants/storage';
 import { requestPersistentStorage } from '../utils/dataSafety';
-import { getCardDueDate, reviewCard, type Rating } from '../utils/srs';
+import { getCardDueDate, reviewCard, toLocalDateString, type Rating } from '../utils/srs';
 import { getItemKey } from '../utils/words';
 import { mergeProgress, migrateProgressKeys } from '../utils/progressKeys';
 import { useVocabularyData } from './useVocabularyData';
@@ -84,18 +84,16 @@ const saveMastered = () =>
   safeStorage.setItem(STORAGE_KEYS.MASTERED_WORDS, Array.from(masteredIds.value));
 
 // ── Streak ───────────────────────────────────────────────────────────────────
-const toDateString = (d: Date): string =>
-  `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
 
 const recordStudyActivity = () => {
   const now = new Date();
-  const today = toDateString(now);
+  const today = toLocalDateString(now);
   const current = studyStreak.value;
   if (current.lastDate === today) return; // Already recorded activity today
 
   const yesterday = new Date(now);
   yesterday.setDate(now.getDate() - 1);
-  const streak = current.lastDate === toDateString(yesterday) ? (current.streak || 0) + 1 : 1;
+  const streak = current.lastDate === toLocalDateString(yesterday) ? (current.streak || 0) + 1 : 1;
 
   studyStreak.value = { lastDate: today, streak };
   safeStorage.setItem(STORAGE_KEYS.STUDY_STREAK, studyStreak.value);

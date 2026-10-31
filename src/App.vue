@@ -2,6 +2,7 @@
 import { ref, onMounted, onUnmounted, defineAsyncComponent } from 'vue';
 import type { Word } from './types';
 import { useVocabulary } from './composables/useVocabulary';
+import { NEW_CARDS_PER_DAY } from './utils/srs';
 import { useTheme } from './composables/useTheme';
 import { useSpeechSynthesis } from './composables/useSpeechSynthesis';
 import { useKeyboardShortcuts } from './composables/useKeyboardShortcuts';
@@ -68,7 +69,12 @@ const {
   shuffleCards,
   toggleMastered,
   restoreProgress,
-  loadMore
+  loadMore,
+  sessionMode,
+  dailySession,
+  isSessionDone,
+  addNewCards,
+  setSessionMode
 } = useVocabulary();
 
 const { themeMode, themeStyle, cycleTheme, toggleThemeStyle, initTheme, cleanupTheme } = useTheme();
@@ -221,6 +227,15 @@ onUnmounted(() => {
           :audio-options="audioOptions"
           :is-shuffled="isShuffled"
           :session-reviewed-count="sessionReviewedCount"
+          :session-mode="sessionMode"
+          :due-count="dailySession.dueCount"
+          :new-count="dailySession.newCount"
+          :new-left="dailySession.newLeft"
+          :new-per-day="NEW_CARDS_PER_DAY"
+          :streak="studyStreak.streak"
+          :is-session-done="isSessionDone"
+          @add-new="addNewCards()"
+          @set-session-mode="setSessionMode"
           @shuffle="shuffleCards"
           @flip="study.flip"
           @update-srs="study.grade"

@@ -4,6 +4,8 @@ import { Progress } from './ui/progress';
 import VocabularyCard from './VocabularyCard.vue';
 import StudyControls from './StudyControls.vue';
 import GradeButtons from './GradeButtons.vue';
+import StudySessionDone from './StudySessionDone.vue';
+import type { SessionMode } from '../composables/useStudySession';
 import { ChevronLeft, ChevronRight, Check } from '@lucide/vue';
 import { computed } from 'vue';
 import type { Word, StudyDirection, SelectOption } from '../types';
@@ -19,6 +21,14 @@ const props = defineProps<{
   audioOptions: SelectOption<boolean>[];
   isShuffled?: boolean;
   sessionReviewedCount?: number;
+  /** Daily session ('daily') or every card in the filters ('all') */
+  sessionMode?: SessionMode;
+  dueCount?: number;
+  newCount?: number;
+  newLeft?: number;
+  newPerDay?: number;
+  streak?: number;
+  isSessionDone?: boolean;
 }>();
 
 const emit = defineEmits<{
@@ -31,10 +41,15 @@ const emit = defineEmits<{
   (e: 'next'): void;
   (e: 'toggle-mastered', word: Word): void;
   (e: 'play-audio', text: string, lang?: string): void;
+  (e: 'add-new'): void;
+  (e: 'set-session-mode', mode: SessionMode): void;
 }>();
 
 // Guarded: the index can briefly point past the end (e.g. after mastering the last card)
 const currentCard = computed(() => props.vocabulary[props.currentStudyIndex]);
+const isDaily = computed(() => (props.sessionMode ?? 'daily') === 'daily');
+// "3 of 22"; stays at the total once the session is finished
+const position = computed(() => Math.min(props.currentStudyIndex + 1, props.vocabulary.length));
 </script>
 
 <template>
@@ -58,8 +73,20 @@ const currentCard = computed(() => props.vocabulary[props.currentStudyIndex]);
       <div
         class="flex justify-between items-center text-[11px] font-semibold text-slate-500 dark:text-slate-400"
       >
-        <div class="flex items-center gap-2">
-          <span>Session Progress</span>
+        <div class="flex items-center gap-2 min-w-0">
+          <span class="text-slate-700 dark:text-slate-200">{{
+            isDaily ? 'Today' : 'All cards'
+          }}</span>
+          <span v-if="isDaily" class="font-normal truncate"
+            >{{ dueCount ?? 0 }} to review · {{ newCount ?? 0 }} new</span
+          >
+          <button
+            type="button"
+            class="font-semibold text-primary-600 dark:text-primary-400 hover:underline cursor-pointer shrink-0 pointer-coarse:py-1"
+            @click="emit('set-session-mode', isDaily ? 'all' : 'daily')"
+          >
+            {{ isDaily ? 'Study all' : 'Back to today' }}
+          </button>
           <span
             v-if="sessionReviewedCount"
             class="inline-flex items-center gap-1 px-1.5 py-0.2 rounded-md bg-emerald-500/15 text-emerald-600 dark:text-emerald-400 text-[10px] font-mono font-bold tabular-ticker"
@@ -68,15 +95,24 @@ const currentCard = computed(() => props.vocabulary[props.currentStudyIndex]);
             {{ sessionReviewedCount }} reviewed
           </span>
         </div>
-        <span class="tabular-ticker font-mono"
-          >{{ currentStudyIndex + 1 }} of {{ vocabulary.length }}</span
-        >
+        <span class="tabular-ticker font-mono">{{ position }} of {{ vocabulary.length }}</span>
       </div>
       <Progress :model-value="studyProgress" class="h-1.5" />
     </div>
 
+    <StudySessionDone
+      v-if="isSessionDone || !vocabulary.length"
+      :mode="sessionMode ?? 'daily'"
+      :reviewed-count="sessionReviewedCount ?? 0"
+      :streak="streak ?? 0"
+      :new-left="newLeft ?? 0"
+      :new-per-day="newPerDay ?? 10"
+      @add-new="emit('add-new')"
+      @set-mode="emit('set-session-mode', $event)"
+    />
+
     <!-- Centered Tactile Vocabulary Card with Touch Swipes & Mobile Scroll Snap -->
-    <div class="w-full flex justify-center py-0.5 study-card-snap-item">
+    <div v-else class="w-full flex justify-center py-0.5 study-card-snap-item">
       <VocabularyCard
         v-if="currentCard"
         :word="currentCard"
@@ -90,10 +126,10 @@ const currentCard = computed(() => props.vocabulary[props.currentStudyIndex]);
       />
     </div>
 
-    <GradeButtons v-if="isFlipped" @grade="emit('update-srs', $event)" />
+    <GradeButtons v-if="isFlipped && currentCard" @grade="emit('update-srs', $event)" />
 
     <!-- Navigation Bar -->
-    <div class="flex items-center gap-2.5 w-full">
+    <div v-if="vocabulary.length" class="flex items-center gap-2.5 w-full">
       <Button
         variant="outline"
         size="icon"
@@ -106,7 +142,7 @@ const currentCard = computed(() => props.vocabulary[props.currentStudyIndex]);
       <div
         class="flex-1 text-center py-2 px-3 rounded-xl bg-white/95 dark:bg-slate-900/90 border border-slate-200/90 dark:border-white/10 flex flex-col items-center justify-center gap-0.5 text-xs font-semibold text-slate-700 dark:text-slate-300 shadow-2xs"
       >
-        <div>{{ currentStudyIndex + 1 }} / {{ vocabulary.length }}</div>
+        <div>{{ position }} / {{ vocabulary.length }}</div>
         <div class="text-[10px] text-slate-500 dark:text-slate-400 font-normal hidden sm:block">
           Space or Tap to flip &bull; Swipe Left/Right to grade
         </div>
