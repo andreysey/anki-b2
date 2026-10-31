@@ -15,7 +15,8 @@ import {
   modelLoadingText,
   isWebGPUSupported,
   isGenerating,
-  generationStatus
+  generationStatus,
+  hasLocalModelFiles
 } from '../utils/webllmState';
 
 const props = defineProps<{
@@ -44,8 +45,8 @@ const hasCachedLocalModel = ref(false);
 onMounted(async () => {
   init();
   if (isWebGPUSupported()) {
-    const { isModelCached } = await import('../utils/webllm');
-    hasCachedLocalModel.value = await isModelCached();
+    // Cheap check: importing utils/webllm here would pull in the 6 MB engine on every card
+    hasCachedLocalModel.value = await hasLocalModelFiles();
   }
 });
 

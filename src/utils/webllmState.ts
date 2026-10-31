@@ -38,3 +38,20 @@ export const setSelectedLocalModel = (modelId: string): void => {
   safeStorage.setItem(STORAGE_KEYS.WEBLLM_MODEL, modelId);
   isModelReady.value = false;
 };
+
+/**
+ * Whether the model's files are already downloaded — without loading WebLLM itself (~6 MB).
+ * WebLLM keeps weights in Cache Storage "webllm/model" under URLs containing the model id
+ * (https://huggingface.co/mlc-ai/<model-id>/resolve/main/…).
+ */
+export const hasLocalModelFiles = async (
+  modelId: string = selectedLocalModel.value
+): Promise<boolean> => {
+  try {
+    if (typeof caches === 'undefined' || !(await caches.has('webllm/model'))) return false;
+    const keys = await (await caches.open('webllm/model')).keys();
+    return keys.some((request) => request.url.includes(`/${modelId}/`));
+  } catch {
+    return false;
+  }
+};

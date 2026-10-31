@@ -1,6 +1,6 @@
 // Study mode: which card is shown, its side, order (SRS-sorted or shuffled) and grading
 // (shared module-level state).
-import { ref, computed, watch } from 'vue';
+import { ref, computed, watch, toRaw } from 'vue';
 import type { StudyDirection, Word } from '../types';
 import { safeStorage } from '../utils/storage';
 import { STORAGE_KEYS } from '../constants/storage';
@@ -28,10 +28,15 @@ watch([search, levelFilter, themaFilter], () => {
 
 const { srsData, recordReview, toggleMasteredKey } = useProgress();
 
-/** Filtered cards, due ones first. Sorted once per change so cards don't jump mid-session. */
+/**
+ * Filtered cards, due ones first. Sorted when the deck changes (filters, mastered words, a
+ * restored backup) but not after each grade: a graded card would jump to the end while the
+ * index moves forward, skipping every other card. toRaw reads the reviews without tracking them.
+ */
 const sortedStudyVocabulary = computed(() => {
   const now = Date.now();
-  return [...filteredVocabulary.value].sort((a, b) => compareStudyCards(a, b, srsData.value, now));
+  const reviews = toRaw(srsData.value);
+  return [...filteredVocabulary.value].sort((a, b) => compareStudyCards(a, b, reviews, now));
 });
 
 const studyList = computed(() => {

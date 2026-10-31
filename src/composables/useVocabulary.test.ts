@@ -282,4 +282,21 @@ describe('useVocabulary composable', () => {
       vi.useRealTimers();
     }
   });
+
+  it('studying shows every card once, in order, without skipping (grades do not reshuffle)', () => {
+    const vocab = useVocabulary();
+    vocab.vocabulary.value = ['A', 'B', 'C', 'D', 'E'].map((german) => ({
+      ...mockWords[0]!,
+      id: german,
+      german
+    }));
+    vocab.isStudyMode.value = true;
+
+    const shown: string[] = [];
+    for (let i = 0; i < 5; i++) {
+      shown.push(vocab.studyList.value[vocab.currentStudyIndex.value]!.german);
+      vocab.updateSRS(i === 2 ? 'easy' : 'good');
+    }
+    expect(shown).toEqual(['A', 'B', 'C', 'D', 'E']);
+  });
 });

@@ -14,8 +14,18 @@ const plainKeyText = (text: string): string => stripTags(text).replace(/\s+/g, '
  * ("die Abteilung, -en-1"). Display markup (article colours) is not part of it, so restyling
  * the data never loses anyone's progress.
  */
-export const getItemKey = (item: Word): string =>
-  item.id || `${plainKeyText(item.german)}-${item.thema}`;
+const keyCache = new WeakMap<Word, string>();
+
+export const getItemKey = (item: Word): string => {
+  if (item.id) return item.id;
+  // Called for every card when filtering, sorting and counting: compute each key once
+  let key = keyCache.get(item);
+  if (key === undefined) {
+    key = `${plainKeyText(item.german)}-${item.thema}`;
+    keyCache.set(item, key);
+  }
+  return key;
+};
 
 /**
  * Converts a saved key from any older format to the current one. Until v1.64 keys contained

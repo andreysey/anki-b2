@@ -4,6 +4,7 @@
 import { askNano } from './aiNano';
 import { askGemini, getCloudKey } from './aiCloud';
 import type { AIProgressCallback, AIServiceResponse } from './aiTypes';
+import { isModelReady, isWebGPUSupported, hasLocalModelFiles } from './webllmState';
 
 export type { AIServiceResponse, AISource, AIProgressCallback } from './aiTypes';
 export * from './aiNano';
@@ -38,10 +39,10 @@ async function askLocalModel(
   onProgress?: AIProgressCallback
 ): Promise<{ response: AIServiceResponse | null; error: string }> {
   try {
-    const { isModelReady, isModelCached, isWebGPUSupported, callWebLLM, selectedLocalModel } =
-      await import('./webllm');
-    const worthTrying = isModelReady.value || (await isModelCached()) || !hasCloudKey;
+    // Decide before importing ./webllm: it pulls in the 6 MB engine
+    const worthTrying = isModelReady.value || (await hasLocalModelFiles()) || !hasCloudKey;
     if (!worthTrying || !isWebGPUSupported()) return { response: null, error: '' };
+    const { callWebLLM, selectedLocalModel } = await import('./webllm');
 
     try {
       const text = await callWebLLM(prompt, systemInstruction, onProgress);
