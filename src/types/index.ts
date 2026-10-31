@@ -7,7 +7,7 @@ export interface Word {
   ukrainian: string;
   example?: string;
   id?: string;
-  _searchIndex?: string; // Precomputed normalized search index for fast lookup
+  _searchIndex?: string; // Normalized search text, built on the first search (words.ts)
 }
 
 export interface SRSState {

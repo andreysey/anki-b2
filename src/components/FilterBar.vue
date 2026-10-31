@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed } from 'vue';
+import { computed, ref, watch, onUnmounted } from 'vue';
 import type { Word } from '../types';
 import { Input } from './ui/input';
 import { Button } from './ui/button';
@@ -52,7 +52,45 @@ const levelOptions = [
   { label: 'B2', value: 'B2' }
 ];
 
+// The field updates on every key; the (heavier) search over ~3600 words runs once typing pauses
+const SEARCH_DEBOUNCE_MS = 150;
+const searchInput = ref(props.search);
+let searchTimer: ReturnType<typeof setTimeout> | null = null;
+
+const cancelPendingSearch = () => {
+  if (searchTimer !== null) clearTimeout(searchTimer);
+  searchTimer = null;
+};
+
+const onSearchInput = (value: string) => {
+  searchInput.value = value;
+  cancelPendingSearch();
+  if (!value.trim()) {
+    emit('update:search', value); // clearing shows all words right away
+    return;
+  }
+  searchTimer = setTimeout(() => {
+    searchTimer = null;
+    emit('update:search', value);
+  }, SEARCH_DEBOUNCE_MS);
+};
+
+// Search set from elsewhere (command palette, "clear filters")
+watch(
+  () => props.search,
+  (value) => {
+    if (value !== searchInput.value) {
+      cancelPendingSearch();
+      searchInput.value = value;
+    }
+  }
+);
+
+onUnmounted(cancelPendingSearch);
+
 const handleClearSearch = () => {
+  cancelPendingSearch();
+  searchInput.value = '';
   emit('update:search', '');
 };
 
@@ -74,14 +112,14 @@ const toggleStudyModeLabel = computed(() => (props.isStudyMode ? 'Back to List' 
         <Input
           id="filter-search-input"
           aria-label="Search vocabulary"
-          :model-value="search"
+          :model-value="searchInput"
           placeholder="Search vocabulary..."
           class="w-full pl-9 pr-16 text-xs sm:text-sm h-9 bg-slate-50/90 dark:bg-black/40 border-slate-200 dark:border-white/10 rounded-xl"
-          @update:model-value="(val) => emit('update:search', String(val ?? ''))"
+          @update:model-value="(val) => onSearchInput(String(val ?? ''))"
         />
         <div class="absolute inset-y-0 right-0 pr-2.5 flex items-center gap-1">
           <button
-            v-if="search"
+            v-if="searchInput"
             type="button"
             aria-label="Clear search input"
             title="Clear search"

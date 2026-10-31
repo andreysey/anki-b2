@@ -67,6 +67,7 @@ export const matchesSearchFilter = (
   normalizedQuery: string
 ): boolean => {
   if (!rawQuery) return true;
-  const index = item._searchIndex ?? buildSearchIndex(item);
+  // Built on the first search instead of at startup, then kept on the word
+  const index = (item._searchIndex ??= buildSearchIndex(item));
   return index.includes(rawQuery) || index.includes(normalizedQuery);
 };

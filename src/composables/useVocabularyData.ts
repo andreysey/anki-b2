@@ -1,7 +1,6 @@
 // The vocabulary list, loaded once from data.json (shared module-level state).
 import { ref, shallowRef } from 'vue';
 import type { Word } from '../types';
-import { buildSearchIndex } from '../utils/words';
 
 // shallowRef: ~3600 words that never change individually. Deep reactivity would wrap each one in a
 // proxy and track every field read while filtering, sorting and searching. Replace the whole array.
@@ -29,8 +28,7 @@ async function loadVocabulary(): Promise<void> {
   try {
     const data = await fetchVocabulary();
     if (data) {
-      for (const item of data) item._searchIndex = buildSearchIndex(item);
-      vocabulary.value = data;
+      vocabulary.value = data; // search indexes are built on the first search (see words.ts)
     }
   } catch (err: unknown) {
     const message = err instanceof Error ? err.message : String(err);
