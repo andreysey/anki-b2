@@ -1,3 +1,10 @@
+## [1.64.14](https://github.com/andreysey/anki-b2/compare/v1.64.13...v1.64.14) (2026-10-31)
+
+
+### Bug Fixes
+
+* restoring a backup merges instead of overwriting; keyboard flip fixes ([492188d](https://github.com/andreysey/anki-b2/commit/492188db2b224c29bb58034a1367b2db7eed366b)), closes [#study](https://github.com/andreysey/anki-b2/issues/study)
+
 ## [1.64.13](https://github.com/andreysey/anki-b2/compare/v1.64.12...v1.64.13) (2026-10-31)
 
 
