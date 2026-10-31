@@ -8,6 +8,9 @@ import pkg from './package.json' with { type: 'json' };
 // https://vite.dev/config/
 export default defineConfig({
   base: '/anki-b2/',
+  // No SPA fallback: `vite preview` then answers missing files with 404 like GitHub Pages does,
+  // so browser tests catch them (the app uses hash routes, it never needs the fallback)
+  appType: 'mpa',
   resolve: {
     alias: {
       '@': path.resolve(import.meta.dirname, './src')
@@ -61,7 +64,7 @@ export default defineConfig({
             );
             if (linkRegex.test(inlinedHtml)) {
               inlinedHtml = inlinedHtml.replace(linkRegex, `<style>${cssContent}</style>`);
-              delete bundle[fileName];
+              // Keep the file: lazy-loaded views list it as a dependency and fail on a 404
             }
           }
         }
