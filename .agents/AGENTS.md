@@ -40,7 +40,7 @@
 
 ## Releases & Commits
 - **Every push to `main` is live**: semantic-release publishes a version and deploys GitHub Pages.
-- **The commit prefix decides the release**: `feat:` → minor, `fix:` → patch, both deploy to users.
+- **The commit prefix decides the release**: `feat:` → minor, `fix:`/`perf:` → patch, all deploy to users.
   `chore:`, `ci:`, `build:`, `test:`, `docs:`, `style:`, `refactor:` do not release.
   Use `fix(anki):` when regenerated decks/data must reach users.
 - **Pre-commit/pre-push hooks** run `check:quick`, `health:check` and `validate`. Don't bypass them;
