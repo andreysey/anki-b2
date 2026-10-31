@@ -12,9 +12,11 @@ describe('GradeButtons.vue', () => {
       'GOOD (3)',
       'EASY (4)'
     ]);
+    // Swipe hints (shown on touch screens only) for the two swipe grades
     expect(buttons[0].text()).toContain('Swipe ←');
     expect(buttons[2].text()).toContain('Swipe →');
-    expect(buttons[1].text()).toContain('Key 2');
+    expect(buttons[1].text()).not.toContain('Swipe');
+    expect(buttons[1].text()).not.toContain('Key'); // the key number is already in the label
   });
 
   it('uses the visible label as accessible name and explains the grade in the title', () => {

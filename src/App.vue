@@ -133,7 +133,7 @@ onUnmounted(() => {
 
   <!-- macOS Ambient Desktop Wallpaper Canvas -->
   <div
-    class="macos-desktop-bg min-h-screen text-slate-900 dark:text-slate-100 flex flex-col items-center justify-start p-1.5 sm:p-6 lg:p-10 font-sans selection:bg-primary-500 selection:text-white transition-colors duration-500"
+    class="macos-desktop-bg min-h-screen text-slate-900 dark:text-slate-100 flex flex-col items-center justify-start p-0 xs:p-1.5 sm:p-6 lg:p-10 font-sans selection:bg-primary-500 selection:text-white transition-colors duration-500"
   >
     <!-- Accessible Skip to Content Link -->
     <a

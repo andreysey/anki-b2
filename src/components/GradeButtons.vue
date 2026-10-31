@@ -18,7 +18,7 @@ interface Grade {
 const GRADES: Grade[] = [
   {
     rating: 'again',
-    label: 'AGAIN (1)',
+    label: 'AGAIN',
     title: 'Again: reset card to level 0 (Shortcut: Key 1 or Swipe Left)',
     key: 1,
     swipe: '←',
@@ -26,14 +26,14 @@ const GRADES: Grade[] = [
   },
   {
     rating: 'hard',
-    label: 'HARD (2)',
+    label: 'HARD',
     title: 'Hard: repeat with same interval (Shortcut: Key 2)',
     key: 2,
     tone: 'bg-amber-50 hover:bg-amber-100/80 dark:bg-amber-500/15 dark:hover:bg-amber-500/25 border-amber-200 dark:border-amber-500/30 text-amber-700 dark:text-amber-400'
   },
   {
     rating: 'good',
-    label: 'GOOD (3)',
+    label: 'GOOD',
     title: 'Good: advance card level by 1 (Shortcut: Key 3 or Swipe Right)',
     key: 3,
     swipe: '→',
@@ -41,7 +41,7 @@ const GRADES: Grade[] = [
   },
   {
     rating: 'easy',
-    label: 'EASY (4)',
+    label: 'EASY',
     title: 'Easy: advance card level by 2 (Shortcut: Key 4)',
     key: 4,
     tone: 'bg-blue-50 hover:bg-blue-100/80 dark:bg-blue-500/15 dark:hover:bg-blue-500/25 border-blue-200 dark:border-blue-500/30 text-blue-700 dark:text-blue-400'
@@ -64,14 +64,15 @@ const GRADES: Grade[] = [
       ]"
       @click="emit('grade', grade.rating)"
     >
-      <span class="text-xs tracking-wide">{{ grade.label }}</span>
-      <!-- Keyboard hint is hidden on touch screens; swipe hint stays -->
-      <span v-if="grade.swipe" class="text-[9.5px] font-mono mt-0.5">
-        <span class="hidden sm:inline pointer-coarse:hidden">Key {{ grade.key }} / </span>Swipe
-        {{ grade.swipe }}
-      </span>
-      <span v-else class="pointer-coarse:hidden text-[9.5px] font-mono mt-0.5"
-        >Key {{ grade.key }}</span
+      <!-- Key number for keyboards, swipe hint for touch screens -->
+      <span class="text-xs tracking-wide"
+        >{{ grade.label }}<span class="pointer-coarse:hidden"> ({{ grade.key }})</span></span
+      >
+      <span
+        v-if="grade.swipe"
+        class="hidden pointer-coarse:inline text-[9.5px] font-mono mt-0.5"
+        aria-hidden="true"
+        >Swipe {{ grade.swipe }}</span
       >
     </button>
   </div>

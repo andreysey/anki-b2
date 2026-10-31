@@ -165,10 +165,12 @@ async function openApp(page: Page, theme: string, width: number) {
     deviceScaleFactor: 1,
     mobile
   });
-  await page.send('Emulation.setTouchEmulationEnabled', {
-    enabled: mobile,
-    maxTouchPoints: mobile ? 5 : 0
-  });
+  // Chrome rejects maxTouchPoints: 0, which used to leave touch (pointer: coarse) on for every
+  // width after the first phone run; only pass it when enabling
+  await page.send(
+    'Emulation.setTouchEmulationEnabled',
+    mobile ? { enabled: true, maxTouchPoints: 5 } : { enabled: false }
+  );
   await page.send('Page.navigate', { url: APP_URL });
   await sleep(1500);
   await page.eval(`localStorage.setItem('anki_theme_mode', '${theme}'); true`);
