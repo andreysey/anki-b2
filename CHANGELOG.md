@@ -1,3 +1,10 @@
+## [1.64.12](https://github.com/andreysey/anki-b2/compare/v1.64.11...v1.64.12) (2026-10-31)
+
+
+### Bug Fixes
+
+* **pwa:** stop endless reloads caused by a missing stylesheet ([316f857](https://github.com/andreysey/anki-b2/commit/316f85738f7599cba90fddbe706261958ebf7fbb))
+
 ## [1.64.11](https://github.com/andreysey/anki-b2/compare/v1.64.10...v1.64.11) (2026-10-30)
 
 
