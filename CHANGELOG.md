@@ -1,3 +1,10 @@
+## [1.64.16](https://github.com/andreysey/anki-b2/compare/v1.64.15...v1.64.16) (2026-10-31)
+
+
+### Performance Improvements
+
+* search runs when typing pauses; search index built on first use ([da4cdf5](https://github.com/andreysey/anki-b2/commit/da4cdf5df4d88d86130c9b0798943f04896a8855))
+
 ## [1.64.15](https://github.com/andreysey/anki-b2/compare/v1.64.14...v1.64.15) (2026-10-31)
 
 
