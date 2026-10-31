@@ -1,6 +1,6 @@
 name: CI
 
-# One pipeline: checks → release → deploy. Nothing reaches users unless every check passed.
+# checks + browser tests (in parallel) → release and deploy. Nothing reaches users unless all passed.
 on:
   push:
     branches: [main]
@@ -19,15 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v7
-        with:
-          node-version-file: '.nvmrc'
-          cache: 'npm'
-
-      - name: Install dependencies
-        run: npm ci
+      - uses: ./.github/actions/setup
 
       - name: Type check
         run: npm run type-check
@@ -41,12 +33,16 @@ jobs:
       - name: Run unit tests with coverage thresholds
         run: npm run test:coverage
 
+  e2e:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: ./.github/actions/setup
+
       - name: Build project
         run: npm run build
 
-      - name: Install Playwright browser
-        run: npx playwright install --with-deps chromium
-
+      # Uses the Google Chrome preinstalled on the runner (see playwright.config.ts)
       - name: Browser tests (study progress, backup, offline)
         run: npm run test:e2e
 
@@ -58,8 +54,8 @@ jobs:
           path: test-results/
           retention-days: 7
 
-  release:
-    needs: build-and-test
+  release-deploy:
+    needs: [build-and-test, e2e]
     if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     # One release at a time: a second push waits instead of racing the first one's version commit
@@ -68,21 +64,14 @@ jobs:
       cancel-in-progress: false
     permissions:
       contents: write
+      pages: write
+      id-token: write
     steps:
-      - name: Checkout
-        uses: actions/checkout@v7
+      - uses: actions/checkout@v7
         with:
           fetch-depth: 0
           persist-credentials: false
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v7
-        with:
-          node-version-file: '.nvmrc'
-          cache: 'npm'
-
-      - name: Install dependencies
-        run: npm ci
+      - uses: ./.github/actions/setup
 
       - name: Run semantic-release
         run: npx semantic-release
@@ -91,45 +80,15 @@ jobs:
           # The release bot commits and pushes; don't run local git hooks (checks already passed)
           HUSKY: 0
 
-  deploy:
-    needs: release
-    runs-on: ubuntu-latest
-    concurrency:
-      group: pages
-      cancel-in-progress: false
-    permissions:
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v7
-        with:
-          # Latest main, so the build includes the release bot's version bump (shown in the app)
-          ref: main
-
-      - name: Set up Node.js
-        uses: actions/setup-node@v7
-        with:
-          node-version-file: '.nvmrc'
-          cache: 'npm'
-
-      - name: Install dependencies
-        run: npm ci
-
+      # semantic-release has bumped package.json here, so the app shows the new version
       - name: Build
         run: npm run build
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v6
+      - uses: actions/configure-pages@v6
 
-      - name: Upload Artifact
-        uses: actions/upload-pages-artifact@v5
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: './dist'
 
       - name: Deploy to GitHub Pages
-        id: deployment
         uses: actions/deploy-pages@v5

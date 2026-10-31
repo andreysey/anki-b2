@@ -13,7 +13,13 @@ export default defineConfig({
     baseURL: `http://localhost:${PORT}/anki-b2/`,
     trace: 'retain-on-failure'
   },
-  projects: [{ name: 'chromium', use: { ...devices['Desktop Chrome'] } }],
+  projects: [
+    {
+      name: 'chromium',
+      // CI runners already have Google Chrome; locally use Playwright's Chromium
+      use: { ...devices['Desktop Chrome'], ...(process.env.CI ? { channel: 'chrome' } : {}) }
+    }
+  ],
   webServer: {
     command: `npx vite preview --port ${PORT} --strictPort`,
     url: `http://localhost:${PORT}/anki-b2/`,
