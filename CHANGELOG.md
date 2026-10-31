@@ -1,3 +1,10 @@
+## [1.64.17](https://github.com/andreysey/anki-b2/compare/v1.64.16...v1.64.17) (2026-10-31)
+
+
+### Bug Fixes
+
+* **ui:** full-screen layout on phones; cleaner grade buttons ([cacabf7](https://github.com/andreysey/anki-b2/commit/cacabf75590caf37391a7df396f6fe1f910085ad))
+
 ## [1.64.16](https://github.com/andreysey/anki-b2/compare/v1.64.15...v1.64.16) (2026-10-31)
 
 
