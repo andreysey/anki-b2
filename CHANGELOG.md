@@ -1,3 +1,10 @@
+# [1.65.0](https://github.com/andreysey/anki-b2/compare/v1.64.17...v1.65.0) (2026-10-31)
+
+
+### Features
+
+* **study:** daily sessions — today's reviews + 10 new words ([0271cb8](https://github.com/andreysey/anki-b2/commit/0271cb804a2b8b4f16a73ac902873498751fb0bf))
+
 ## [1.64.17](https://github.com/andreysey/anki-b2/compare/v1.64.16...v1.64.17) (2026-10-31)
 
 
