@@ -1,3 +1,10 @@
+## [1.64.13](https://github.com/andreysey/anki-b2/compare/v1.64.12...v1.64.13) (2026-10-31)
+
+
+### Bug Fixes
+
+* survive corrupted saved progress; stop Gemini retries on a bad key ([cf348cb](https://github.com/andreysey/anki-b2/commit/cf348cbe6bbe0d302f3ca876f5ce88ed70dfff7e))
+
 ## [1.64.12](https://github.com/andreysey/anki-b2/compare/v1.64.11...v1.64.12) (2026-10-31)
 
 
