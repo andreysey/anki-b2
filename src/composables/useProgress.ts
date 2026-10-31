@@ -7,7 +7,7 @@ import { STORAGE_KEYS } from '../constants/storage';
 import { requestPersistentStorage } from '../utils/dataSafety';
 import { getCardDueDate, reviewCard, type Rating } from '../utils/srs';
 import { getItemKey } from '../utils/words';
-import { migrateProgressKeys } from '../utils/progressKeys';
+import { mergeProgress, migrateProgressKeys } from '../utils/progressKeys';
 import { useVocabularyData } from './useVocabularyData';
 
 export interface StudyStreakData {
@@ -117,11 +117,15 @@ const toggleMasteredKey = (key: string) => {
   saveMastered();
 };
 
+/** Merges a backup into the current progress; for each card the more recent review wins. */
 const restoreProgress = (newMasteredIds: string[], newSrsData: Record<string, SRSState>) => {
-  // Backups made by older versions use older keys
-  const restored = migrateProgressKeys(newMasteredIds, newSrsData);
-  masteredIds.value = new Set<string>(restored.masteredIds);
-  srsData.value = restored.srsData;
+  const merged = mergeProgress(
+    { masteredIds: masteredIds.value, srsData: srsData.value },
+    newMasteredIds,
+    newSrsData
+  );
+  masteredIds.value = new Set<string>(merged.masteredIds);
+  srsData.value = merged.srsData;
   saveMastered();
   saveSRS(true);
 };

@@ -87,7 +87,7 @@ describe('DashboardBackupSync.vue', () => {
       masteredIds: ['w1'],
       srsData: { w1: { level: 2, lastReview: 1700000000000 } }
     });
-    expect(wrapper.text()).toContain('Successfully restored');
+    expect(wrapper.text()).toContain('Backup merged: 1 new card, 0 updated.');
   });
 
   it('displays error message on invalid file import', async () => {

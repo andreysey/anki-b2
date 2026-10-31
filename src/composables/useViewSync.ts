@@ -13,18 +13,23 @@ export function useViewSync(options: {
   const { activeView } = useNavigation();
   const { isStudyMode } = useVocabulary();
 
-  watch(activeView, async (view) => {
-    const studying = view === 'study';
-    if (studying) {
-      options.requestWakeLock();
-    } else {
-      options.stopAudio();
-      options.releaseWakeLock();
-    }
-    isStudyMode.value = studying;
-    await nextTick();
-    if (options.mainContent.value) options.mainContent.value.scrollTop = 0;
-  });
+  watch(
+    activeView,
+    async (view) => {
+      const studying = view === 'study';
+      if (studying) {
+        options.requestWakeLock();
+      } else {
+        options.stopAudio();
+        options.releaseWakeLock();
+      }
+      isStudyMode.value = studying;
+      await nextTick();
+      if (options.mainContent.value) options.mainContent.value.scrollTop = 0;
+      // immediate: the app can open straight on #study (link, home-screen shortcut)
+    },
+    { immediate: true }
+  );
 
   watch(isStudyMode, (studying) => {
     if (studying && activeView.value !== 'study') activeView.value = 'study';

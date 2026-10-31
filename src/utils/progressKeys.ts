@@ -65,3 +65,47 @@ export function migrateProgressKeys(masteredIds: unknown, srsData: unknown): Mig
 
   return { masteredIds: [...mastered], srsData: srs, changed };
 }
+
+export interface MergeSummary {
+  /** Cards only in the backup */
+  added: number;
+  /** Cards reviewed more recently in the backup than on this device */
+  updated: number;
+  /** Cards kept as they are because this device has the same or a newer review */
+  kept: number;
+  /** Words marked as mastered in the backup but not on this device */
+  masteredAdded: number;
+}
+
+/**
+ * Merges a backup into the current progress without losing anything: for each card the more
+ * recent review wins, and mastered words from both sides are kept.
+ */
+export function mergeProgress(
+  current: { masteredIds: Iterable<string>; srsData: Record<string, SRSState> },
+  backupMastered: unknown,
+  backupSrs: unknown
+): { masteredIds: string[]; srsData: Record<string, SRSState>; summary: MergeSummary } {
+  const backup = migrateProgressKeys(backupMastered, backupSrs);
+  const srsData: Record<string, SRSState> = { ...current.srsData };
+  const summary: MergeSummary = { added: 0, updated: 0, kept: 0, masteredAdded: 0 };
+
+  for (const [key, state] of Object.entries(backup.srsData)) {
+    const mine = srsData[key];
+    if (!mine) summary.added++;
+    else if (state.lastReview > mine.lastReview) summary.updated++;
+    else {
+      summary.kept++;
+      continue;
+    }
+    srsData[key] = state;
+  }
+
+  const masteredIds = new Set<string>(current.masteredIds);
+  for (const key of backup.masteredIds) {
+    if (!masteredIds.has(key)) summary.masteredAdded++;
+    masteredIds.add(key);
+  }
+
+  return { masteredIds: [...masteredIds], srsData, summary };
+}

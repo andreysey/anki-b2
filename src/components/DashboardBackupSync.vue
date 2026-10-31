@@ -5,6 +5,7 @@ import { Button } from './ui/button';
 import { Download, Upload, ShieldCheck, ShieldAlert } from '@lucide/vue';
 import { downloadBackupFile, parseAndValidateBackup, MAX_BACKUP_SIZE_BYTES } from '../utils/backup';
 import type { SRSState } from '../types';
+import { mergeProgress, type MergeSummary } from '../utils/progressKeys';
 import {
   getLastBackup,
   isBackupDue,
@@ -28,6 +29,19 @@ const emit = defineEmits<{
 }>();
 
 const fileInputRef = ref<HTMLInputElement | null>(null);
+
+const plural = (n: number, word: string) => `${n} ${word}${n === 1 ? '' : 's'}`;
+
+/** What restoring did, e.g. "Backup merged: 12 new cards, 3 updated, 5 kept (newer here)." */
+const describeMerge = ({ added, updated, kept, masteredAdded }: MergeSummary): string => {
+  if (!added && !updated && !masteredAdded) {
+    return 'Nothing new in this backup — your progress here is already up to date.';
+  }
+  const parts = [`${plural(added, 'new card')}`, `${updated} updated`];
+  if (kept) parts.push(`${kept} kept (newer here)`);
+  if (masteredAdded) parts.push(plural(masteredAdded, 'mastered word'));
+  return `Backup merged: ${parts.join(', ')}.`;
+};
 const importError = ref<string | null>(null);
 const importSuccess = ref<string | null>(null);
 
@@ -57,11 +71,16 @@ const triggerFileInput = () => {
 const processBackupContent = (content: string) => {
   const result = parseAndValidateBackup(content);
   if (result.success && result.data) {
+    const { summary } = mergeProgress(
+      { masteredIds: props.masteredIds, srsData: props.srsData ?? {} },
+      result.data.masteredIds,
+      result.data.srsData
+    );
     emit('restore-progress', {
       masteredIds: result.data.masteredIds,
       srsData: result.data.srsData
     });
-    importSuccess.value = `Successfully restored ${result.data.masteredIds.length} mastered words and ${Object.keys(result.data.srsData).length} SRS cards.`;
+    importSuccess.value = describeMerge(summary);
     importError.value = null;
   } else {
     importError.value = result.error || 'Failed to import backup file';
@@ -160,6 +179,7 @@ const handleFileImport = (event: Event) => {
           variant="outline"
           size="sm"
           class="rounded-xl text-xs py-1.5 px-3 font-semibold"
+          title="Adds progress from a backup file. For each card the more recent review is kept, so nothing on this device is lost."
           @click="triggerFileInput"
         >
           <Upload class="h-3.5 w-3.5" />

@@ -148,4 +148,23 @@ describe('useKeyboardShortcuts', () => {
     shortcuts.cleanup();
     expect(removeSpy).toHaveBeenCalledWith('keydown', expect.any(Function));
   });
+
+  it('does not flip again when the focused card already handled the key', () => {
+    const onFlip = vi.fn();
+    const shortcuts = useKeyboardShortcuts({
+      isStudyMode: ref(true),
+      isFlipped: ref(false),
+      onFlip,
+      onNext: vi.fn(),
+      onPrev: vi.fn(),
+      onToggleMastered: vi.fn(),
+      onGrade: vi.fn()
+    });
+
+    const event = new KeyboardEvent('keydown', { code: 'Space', cancelable: true });
+    event.preventDefault(); // what VocabularyCard does before the event reaches window
+    shortcuts.handleKeyDown(event);
+
+    expect(onFlip).not.toHaveBeenCalled();
+  });
 });

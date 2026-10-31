@@ -1,5 +1,5 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest';
-import { migrateProgressKeys } from './progressKeys';
+import { mergeProgress, migrateProgressKeys } from './progressKeys';
 import { getItemKey, normalizeItemKey } from './words';
 import type { Word } from '../types';
 import dataJson from '../../public/data.json';
@@ -72,6 +72,50 @@ describe('migrateProgressKeys', () => {
   it('merges a word marked as mastered under both keys', () => {
     const result = migrateProgressKeys([LEGACY, CURRENT], {});
     expect(result).toMatchObject({ masteredIds: [CURRENT], changed: true });
+  });
+});
+
+describe('mergeProgress (restoring a backup)', () => {
+  const OTHER = 'der Antrag, ¨-e-2';
+
+  it('keeps the more recent review of each card and adds cards missing here', () => {
+    const current = {
+      masteredIds: new Set<string>(['mine']),
+      srsData: {
+        [CURRENT]: { level: 4, lastReview: 500 }, // newer here
+        [OTHER]: { level: 1, lastReview: 100 } // older here
+      }
+    };
+    const result = mergeProgress(current, ['fromBackup'], {
+      [CURRENT]: { level: 1, lastReview: 200 },
+      [OTHER]: { level: 3, lastReview: 300 },
+      'das Neue-3': { level: 2, lastReview: 50 }
+    });
+
+    expect(result.srsData).toEqual({
+      [CURRENT]: { level: 4, lastReview: 500 },
+      [OTHER]: { level: 3, lastReview: 300 },
+      'das Neue-3': { level: 2, lastReview: 50 }
+    });
+    expect(result.masteredIds.sort()).toEqual(['fromBackup', 'mine']);
+    expect(result.summary).toEqual({ added: 1, updated: 1, kept: 1, masteredAdded: 1 });
+  });
+
+  it('restoring the same backup twice changes nothing', () => {
+    const backup = { [CURRENT]: { level: 2, lastReview: 10 } };
+    const first = mergeProgress({ masteredIds: [], srsData: {} }, [CURRENT], backup);
+    const second = mergeProgress(first, [CURRENT], backup);
+    expect(second.srsData).toEqual(first.srsData);
+    expect(second.summary).toEqual({ added: 0, updated: 0, kept: 1, masteredAdded: 0 });
+  });
+
+  it('converts old keys in the backup before merging', () => {
+    const result = mergeProgress(
+      { masteredIds: [], srsData: { [CURRENT]: { level: 1, lastReview: 1 } } },
+      [],
+      { [LEGACY]: { level: 3, lastReview: 2 } }
+    );
+    expect(result.srsData).toEqual({ [CURRENT]: { level: 3, lastReview: 2 } });
   });
 });
 

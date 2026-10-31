@@ -13,6 +13,8 @@ export interface KeyboardShortcutHandlers {
 export function useKeyboardShortcuts(handlers: KeyboardShortcutHandlers) {
   const handleKeyDown = (e: KeyboardEvent) => {
     if (!handlers.isStudyMode.value) return;
+    // Already handled, e.g. by the focused card (Space/Enter flip it): don't flip it back
+    if (e.defaultPrevented) return;
 
     if (
       e.target instanceof HTMLInputElement ||
