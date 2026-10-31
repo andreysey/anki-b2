@@ -1,3 +1,10 @@
+## [1.64.15](https://github.com/andreysey/anki-b2/compare/v1.64.14...v1.64.15) (2026-10-31)
+
+
+### Bug Fixes
+
+* **study:** stop skipping every other card; remove UI freezes ([6d46b7e](https://github.com/andreysey/anki-b2/commit/6d46b7ea3d3e6153312418c210ec252dd5c3bf2f))
+
 ## [1.64.14](https://github.com/andreysey/anki-b2/compare/v1.64.13...v1.64.14) (2026-10-31)
 
 
